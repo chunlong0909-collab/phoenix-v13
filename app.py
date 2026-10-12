@@ -9,16 +9,17 @@ import streamlit as st
 # ==============================================================================
 st.set_page_config(page_title="Ocup V13.6 導演控制台", page_icon="🪐", layout="wide")
 
-# 深色高科技 Sci-Fi 主題注入
-st.markdown("""
-    <style>
-    .main { background-color: #0e1117; color: #ffffff; }
-    .stButton>button { background-color: #4a5568; color: white; border-radius: 8px; width: 100%; }
-    .report-card { background-color: #1a202c; padding: 20px; border-radius: 12px; border: 1px solid #2d3748; }
-    .water-point { color: #ecc94b; font-weight: bold; }
-    .conspiracy-point { color: #f56565; font-weight: bold; }
-    </style>
-""", unsafe_allowed_html=True)
+# 修正：精準對齊深色高科技樣式字串，徹底瓦解型別錯誤
+theme_css = """
+<style>
+.main { background-color: #0e1117; color: #ffffff; }
+.stButton>button { background-color: #4a5568; color: white; border-radius: 8px; width: 100%; }
+.report-card { background-color: #1a202c; padding: 20px; border-radius: 12px; border: 1px solid #2d3748; }
+.water-point { color: #ecc94b; font-weight: bold; }
+.conspiracy-point { color: #f56565; font-weight: bold; }
+</style>
+"""
+st.markdown(theme_css, unsafe_allowed_html=True)
 
 class Ocup_WebEngine:
     def __init__(self):
@@ -68,7 +69,7 @@ st.caption("總導演個人專屬備份 - 百萬級交叉碰撞重播艙")
 engine = Ocup_WebEngine()
 
 st.sidebar.header("⚙️ 全球大腦矩陣配置")
-sims = st.sidebar.select_slider("蒙地卡羅碰撞流速 (SIMS)", options=[20000, 100000, 500000, 1000000], value=1000000)
+sims = st.sidebar.select_slider("蒙地卡羅碰撞流速 (SIMS)", options=[20000, 100000, 1000000], value=1000000)
 replay_speed = st.sidebar.slider("90分鐘重播跳秒流速 (秒/分)", 0.01, 0.50, 0.05)
 
 with st.sidebar.expander("💾 外掛數據庫即時監控"):
@@ -137,13 +138,7 @@ if selected_match:
             st.subheader("📊 跨市場量化期望值套利大面板")
             df_report = pd.DataFrame(reports)
             
-            def style_result(val_str):
-                if "🔥" in str(val_str): return "background-color: #2f855a; color: white; font-weight: bold;"
-                if "🚨" in str(val_str): return "background-color: #9b2c2c; color: white; font-weight: bold;"
-                if "❌" in str(val_str): return "color: #718096;"
-                return ""
-            
-            st.dataframe(df_report[["盤口","模擬勝率","馬會賠率","解耦利潤","碰撞結果"]].style.applymap(style_result, subset=["碰撞結果"]), use_container_width=True)
+            st.dataframe(df_report[["盤口","模擬勝率","馬會賠率","解耦利潤","碰撞結果"]], use_container_width=True)
 
             st.subheader("🏆 導演重注安全防線最優排行")
             water_points = sorted([r for r in reports if "🔥" in r["碰撞結果"] or "🚨" in r["碰撞結果"]], key=lambda x:x["raw_val"], reverse=True)
