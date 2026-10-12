@@ -3,22 +3,11 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-# ==============================================================================
-# 🪐 Ocup V14.0 望遠鏡版 - 睇清啲，唔好俾莊家呃
-# ==============================================================================
 st.set_page_config(page_title="Ocup V14.0 望遠鏡版", page_icon="🪐", layout="wide")
-
 st.title("🪐 Ocup V14.0 望遠鏡版")
-st.caption("總導演專屬 - 百萬級碰撞望遠鏡，不包贏，只幫你避雷")
+st.caption("總導演專屬 - 百萬級碰撞望遠鏡")
 
-st.warning("""
-**免責聲明：呢個係數據分析工具，唔係提款機**
-1. 唔會話你知邊場必贏，只會話你知邊場唔對路
-2. 建議用$200做實驗室，輸晒就停，唔好補錢
-3. 所有勝率都係電腦模擬，唔代表將來結果
-""")
-
-# === $200實驗室鎖死制 ===
+# === $200實驗室 ===
 if "bankroll" not in st.session_state:
     st.session_state.bankroll = 200
     st.session_state.used = 0
@@ -28,7 +17,7 @@ col_b1.metric("實驗室總額", f"${st.session_state.bankroll}")
 col_b2.metric("已用 / 剩餘", f"${st.session_state.used} / ${st.session_state.bankroll - st.session_state.used}")
 
 if st.session_state.used >= st.session_state.bankroll:
-    st.error("實驗室已經用晒$200，今個月強制停手。呢個就係守住本金。")
+    st.error("實驗室已經用晒$200，今個月停手。")
     st.stop()
 
 class Ocup_WebEngine:
@@ -58,16 +47,17 @@ engine = Ocup_WebEngine()
 
 def human_readout(val, gap):
     if val > 15 and abs(gap) > 15:
-        return "⚠️ 水位有古怪，莊家可能想引你買，建議睇波唔買"
+        return "⚠️ 水位有古怪，建議睇波唔買"
     if val > 5:
-        return "👀 數據話有少少著數，$10做實驗無妨，輸咗唔追"
+        return "👀 有少少著數，$10試下無妨"
     if val < -5:
-        return "💸 數據話呢個位冇著數，長期買會蝕"
+        return "💸 冇著數，長期會蝕"
     return "⚖️ 合理，冇特別"
 
-sims = st.sidebar.select_slider("蒙地卡羅流速", options=[20000][100000][500000][1000000], value=100000)
+# === 呢行係上次錯嘅位，已經Fix咗 ===
+sims = st.sidebar.select_slider("蒙地卡羅流速", options=[20000, 100000, 500000, 1000000], value=100000)
 replay_speed = st.sidebar.slider("重播速度 (秒/分)", 0.01, 0.20, 0.05)
-stake = st.sidebar.number_input("今場想用幾多做實驗", 10, 20, value=10, step=10)
+stake = st.sidebar.number_input("今場用幾多", 10, 20, value=10, step=10)
 
 st.subheader("📡 看盤控制艙")
 mode = st.radio("操作模式", ["📂 讀取馬會開盤庫", "🔥 手動查盤"], horizontal=True)
@@ -159,13 +149,13 @@ if st.button("💥 發動百萬矩陣・望遠鏡掃描 💥"):
             gap = prob - (100 / odds)
             reports.append({"盤口":k,"模擬%":f"{prob:.1f}%","賠率":f"{odds:.2f}","解讀":human_readout(val,gap),"期望值":f"{val:+.1f}%","raw":val})
 
-        st.subheader("📊 望遠鏡掃描面板 (12個盤口)")
+        st.subheader("📊 掃描面板 (12個盤口)")
         st.dataframe(pd.DataFrame(reports)[["盤口","模擬%","賠率","期望值","解讀"]], use_container_width=True)
 
-        st.subheader("🏆 避雷 / 觀察名單")
+        st.subheader("🏆 觀察名單")
         wp = sorted(reports, key=lambda x:x["raw"], reverse=True)[:5]
         for idx, r in enumerate(wp, 1):
-            st.markdown(f"**TOP {idx}** ➔ 【{r['盤口']}】 {r['模擬%']} | {r['賠率']} | {r['解讀']}")
+            st.markdown(f"**TOP {idx}** ➔ {r['盤口']} | {r['模擬%']} | {r['賠率']} | {r['解讀']}")
 
         st.subheader("🎬 時空重播艙")
         seed = int(hashlib.md5(f"{home}_vs_{away}".encode()).hexdigest(), 16) % (2**32)
@@ -186,4 +176,4 @@ if st.button("💥 發動百萬矩陣・望遠鏡掃描 💥"):
             l_area.markdown("\n".join(log_list[:15]))
             s_txt.markdown(f"⏱️ {m:02d}:00 | {home} {c_hg}-{c_ag} {away}")
         st.balloons()
-        st.success(f"今場實驗用咗 ${stake}，實驗室仲有 ${st.session_state.bankroll - st.session_state.used}")
+        st.success(f"今場用咗 ${stake}，仲有 ${st.session_state.bankroll - st.session_state.used}")
