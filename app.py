@@ -5,21 +5,12 @@ from collections import Counter
 import streamlit as st
 
 # ==============================================================================
-# 🪐 Ocup V13.6 不死鳥百萬流速對沖碰撞艙 - 總導演專屬專用 Web App 封存版
+# 🪐 Ocup V13.6 不死鳥百萬流速對沖碰撞艙 - 總導演最終無縫通電版
 # ==============================================================================
 st.set_page_config(page_title="Ocup V13.6 導演控制台", page_icon="🪐", layout="wide")
 
-# 修正：精準對齊樣式，徹底瓦解型別錯誤
-theme_css = """
-<style>
-.main { background-color: #0e1117; color: #ffffff; }
-.stButton>button { background-color: #4a5568; color: white; border-radius: 8px; width: 100%; }
-.report-card { background-color: #1a202c; padding: 20px; border-radius: 12px; border: 1px solid #2d3748; }
-.water-point { color: #ecc94b; font-weight: bold; }
-.conspiracy-point { color: #f56565; font-weight: bold; }
-</style>
-"""
-st.markdown(theme_css, unsafe_allowed_html=True)
+st.title("🪐 Ocup V13.6 不死鳥全球量化航行控制台")
+st.caption("總導演個人專屬備份 - 百萬級交叉碰撞重播艙")
 
 class Ocup_WebEngine:
     def __init__(self):
@@ -62,9 +53,6 @@ class Ocup_WebEngine:
     def lock_universe_seed(self, home, away):
         seed_str = f"{home}_vs_{away}_2026_Collision"
         return int(hashlib.md5(seed_str.encode()).hexdigest(), 16) % (2**32)
-
-st.title("🪐 Ocup V13.6 不死鳥全球量化航行控制台")
-st.caption("總導演個人專屬備份 - 百萬級交叉碰撞重播艙")
 
 engine = Ocup_WebEngine()
 
@@ -137,7 +125,6 @@ if selected_match:
 
             st.subheader("📊 跨市場量化期望值套利大面板")
             df_report = pd.DataFrame(reports)
-            
             st.dataframe(df_report[["盤口","模擬勝率","馬會賠率","解耦利潤","碰撞結果"]], use_container_width=True)
 
             st.subheader("🏆 導演重注安全防線最優排行")
