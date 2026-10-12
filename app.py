@@ -9,7 +9,7 @@ import streamlit as st
 # ==============================================================================
 st.set_page_config(page_title="Ocup V13.6 導演控制台", page_icon="🪐", layout="wide")
 
-# 修正：精準對齊深色高科技樣式字串，徹底瓦解型別錯誤
+# 修正：精準對齊樣式，徹底瓦解型別錯誤
 theme_css = """
 <style>
 .main { background-color: #0e1117; color: #ffffff; }
@@ -69,7 +69,7 @@ st.caption("總導演個人專屬備份 - 百萬級交叉碰撞重播艙")
 engine = Ocup_WebEngine()
 
 st.sidebar.header("⚙️ 全球大腦矩陣配置")
-sims = st.sidebar.select_slider("蒙地卡羅碰撞流速 (SIMS)", options=[20000, 100000, 1000000], value=1000000)
+sims = st.sidebar.select_slider("蒙地卡羅碰撞流速 (SIMS)", options=[20000, 100000, 500000, 1000000], value=1000000)
 replay_speed = st.sidebar.slider("90分鐘重播跳秒流速 (秒/分)", 0.01, 0.50, 0.05)
 
 with st.sidebar.expander("💾 外掛數據庫即時監控"):
