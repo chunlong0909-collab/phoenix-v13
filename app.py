@@ -5,11 +5,11 @@ from collections import Counter
 import streamlit as st
 
 # ==============================================================================
-# 🪐 Ocup V13.6 不死鳥百萬流速對沖碰撞艙 - 總導演最終無縫通電版
+# 🪐 Ocup V13.7 不死鳥百萬流速對沖碰撞艙 - 總導演手機即時任意查盤版
 # ==============================================================================
-st.set_page_config(page_title="Ocup V13.6 導演控制台", page_icon="🪐", layout="wide")
+st.set_page_config(page_title="Ocup V13.7 導演控制台", page_icon="🪐", layout="wide")
 
-st.title("🪐 Ocup V13.6 不死鳥全球量化航行控制台")
+st.title("🪐 Ocup V13.7 不死鳥全球量化航行控制台")
 st.caption("總導演個人專屬備份 - 百萬級交叉碰撞重播艙")
 
 class Ocup_WebEngine:
@@ -56,6 +56,7 @@ class Ocup_WebEngine:
 
 engine = Ocup_WebEngine()
 
+# 🪐 側邊欄直接解鎖大數據矩陣配置
 st.sidebar.header("⚙️ 全球大腦矩陣配置")
 sims = st.sidebar.select_slider("蒙地卡羅碰撞流速 (SIMS)", options=[20000, 100000, 500000, 1000000], value=1000000)
 replay_speed = st.sidebar.slider("90分鐘重播跳秒流速 (秒/分)", 0.01, 0.50, 0.05)
@@ -66,29 +67,77 @@ with st.sidebar.expander("💾 外掛數據庫即時監控"):
     st.subheader("馬會足智彩全盤口庫")
     st.dataframe(pd.read_csv(engine.odds_file), height=150)
 
-odds_df = pd.read_csv(engine.odds_file, encoding='utf-8-sig')
-available_matches = [f"{row['主隊']} vs {row['客隊']}" for _, row in odds_df.iterrows()]
+# ==============================================================================
+# 🚀 總導演專屬：手機任意查盤手動動態注入艙 [4]
+# ==============================================================================
+st.subheader("📡 全球賽事多線路看盤控制艙")
+mode = st.radio("選擇操作模式 ➔", ["📂 讀取馬會目前開盤清單", "🔥 手機即時任意手動查盤線路"], horizontal=True) [4]
 
-st.subheader("📡 選擇對齊賽事線路")
-selected_match = st.selectbox("📂 讀取馬會目前開盤清單", available_matches)
+home, away = "", ""
+xg_h, xg_a = 1.20, 1.20
+match_row = None
 
-if selected_match:
-    home, away = selected_match.split(" vs ")
-    fb = {"xG":1.2,"天賦":1.0,"疲勞":1.0,"風格":"未知"}
-    h_db = engine.GLOBAL_DB.get(home, fb)
-    a_db = engine.GLOBAL_DB.get(away, fb)
+if mode == "📂 讀取馬會目前開盤清單":
+    odds_df = pd.read_csv(engine.odds_file, encoding='utf-8-sig')
+    available_matches = [f"{row['主隊']} vs {row['客隊']}" for _, row in odds_df.iterrows()]
+    selected_match = st.selectbox("請選擇開盤對陣 ➔", available_matches)
     
-    xg_h = h_db["xG"] * h_db["天賦"] * a_db["疲勞"]
-    xg_a = a_db["xG"] * a_db["天賦"] * h_db["疲勞"]
-    
-    match_row = odds_df[(odds_df["主隊"]==home)&(odds_df["客隊"]==away)].iloc[0]
+    if selected_match:
+        home, away = selected_match.split(" vs ")
+        fb = {"xG":1.2,"天賦":1.0,"疲勞":1.0,"風格":"未知"}
+        h_db = engine.GLOBAL_DB.get(home, fb)
+        a_db = engine.GLOBAL_DB.get(away, fb)
+        xg_h = h_db["xG"] * h_db["天賦"] * a_db["疲勞"]
+        xg_a = a_db["xG"] * a_db["天賦"] * h_db["疲勞"]
+        match_row = odds_df[(odds_df["主隊"]==home)&(odds_df["客隊"]==away)].iloc[0]
+        
+        col1, col2 = st.columns(2)
+        with col1: st.info(f"🏠 **主隊：{home}** | 風格：`{h_db['風格']}` | 解耦 xG：`{xg_h:.2f}`")
+        with col2: st.success(f"🚀 **客隊：{away}** | 風格：`{a_db['風格']}` | 解耦 xG：`{xg_a:.2f}`")
 
-    col1, col2 = st.columns(2)
-    with col1:
-        st.info(f"🏠 **主隊：{home}**  \n風格：`{h_db['風格']}` | 解耦 xG：`{xg_h:.2f}`")
-    with col2:
-        st.success(f"🚀 **客隊：{away}**  \n風格：`{a_db['風格']}` | 解耦 xG：`{xg_a:.2f}`")
+else:
+    # 💥 黑科技解鎖：直接在手機螢幕手動輸入任意名稱與賠率！ [4]
+    with st.expander("✍️ 總導演手機即時任意注入艙", expanded=True): [4]
+        c1, col_name, c2 = st.columns([1, 2, 1])
+        with col_name:
+            home = st.text_input("🏠 手動輸入主隊名字 ➔", value="德國") [4]
+            away = st.text_input("🚀 手動輸入客隊名字 ➔", value="荷蘭") [4]
+            
+        st.markdown("---")
+        st.markdown("📊 **請直接手動輸入馬會最新的即時賠率 ➔**") [4]
+        o1, o2, o3, o4 = st.columns(4)
+        with o1:
+            hk_h = st.number_input("主勝賠率", value=1.75, step=0.01) [4]
+            hk_h1 = st.number_input("讓球主勝+1 賠率", value=3.05, step=0.01) [4]
+        with o2:
+            hk_d = st.number_input("和局賠率", value=3.85, step=0.01) [4]
+            hk_hd = st.number_input("讓球和局+1 賠率", value=3.75, step=0.01) [4]
+        with o3:
+            hk_a = st.number_input("客勝賠率", value=3.60, step=0.01) [4]
+            hk_a1 = st.number_input("讓球客勝-1 賠率", value=1.90, step=0.01) [4]
+        with o4:
+            hk_big = st.number_input("入球大2.5 賠率", value=1.52, step=0.01) [4]
+            hk_small = st.number_input("入球細2.5 賠率", value=2.35, step=0.01) [4]
+            hk_cbig = st.number_input("角球大9.5 賠率", value=1.75, step=0.01) [4]
+            hk_csmall = st.number_input("角球細9.5 賠率", value=1.95, step=0.01) [4]
+            
+        st.markdown("---")
+        st.markdown("🔬 **請手動調校兩隊的解耦預期戰力 (xG) ➔**") [4]
+        x1, x2 = st.columns(2)
+        with x1: xg_h = st.slider(f"🏠 {home} 預期總實力 xG", 0.10, 4.50, value=2.47, step=0.01) [4]
+        with x2: xg_a = st.slider(f"🚀 {away} 預期總實力 xG", 0.10, 4.50, value=1.97, step=0.01) [4]
+        
+        # 拼裝手動數據行
+        match_row = {
+            "主勝": hk_h, "和局": hk_d, "客勝": hk_a,
+            "讓球主勝+1": hk_h1, "讓球和局+1": hk_hd, "讓球客勝-1": hk_a1,
+            "大2.5": hk_big, "細2.5": hk_small, "角大9.5": hk_cbig, "角細9.5": hk_csmall
+        }
 
+# ==============================================================================
+# 💥 100萬次全盤口對沖碰撞開轟
+# ==============================================================================
+if home and away and match_row is not None:
     if st.button("💥 發動百萬矩陣・全盤口對沖碰撞 💥"):
         with st.spinner("正在撕裂精算師盤口畫皮..."):
             hg = np.clip(np.random.poisson(xg_h, sims), 0, 6)
@@ -142,7 +191,6 @@ if selected_match:
             for idx, (s, c) in enumerate(top5):
                 cols[idx].metric(label=f"No.{idx+1} 熱門比數", value=s, delta=f"{c/sims*100:.2f}%")
 
-            # 🎬 修正：採用純文本換行格式（加入兩個半形空格），徹底移除 HTML 拼接編譯黑洞
             st.subheader("🎬 總導演重播畫艙 (時空鎖定)")
             seed = engine.lock_universe_seed(home, away)
             np.random.seed(seed); random.seed(seed)
@@ -168,22 +216,3 @@ if selected_match:
                 ev = False
                 txt = ""
                 if m in hg_m:
-                    c_hg += hg_m.count(m)
-                    txt += f"⚽ 【{home}】進球了！禁區內冷靜抽射破門！"
-                    ev = True
-                if m in ag_m:
-                    c_ag += ag_m.count(m)
-                    txt += f"⚽ 【{away}】進球了！邊路突襲推射破門！"
-                    ev = True
-                
-                if m == 45:
-                    log_list.insert(0, f"⏳ **[45:00 中場休息]** 當前比數 ➔ {home} {c_hg} - {c_ag} {away}  ")
-                if ev:
-                    log_list.insert(0, f"🔥 **[{m:02d}:00]** {txt} ➔ 🟢 即時比數: **[{c_hg} - {c_ag}]**  ")
-                
-                # 穩健解鎖：直接用標準 Markdown 換行格式輸出，絕不死機
-                log_area.markdown("\n".join(log_list))
-                status_text.markdown(f"⏱️ **比賽進行中：{m:02d}:00** | 當前比數：`{home} {c_hg} - {c_ag} {away}`")
-            
-            st.balloons()
-            status_text.success(f"🏁 **[90:00 全場完場哨響]** 終極戰果 ➔ {home} {c_hg} - {c_ag} {away}")
