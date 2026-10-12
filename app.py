@@ -142,6 +142,7 @@ if selected_match:
             for idx, (s, c) in enumerate(top5):
                 cols[idx].metric(label=f"No.{idx+1} 熱門比數", value=s, delta=f"{c/sims*100:.2f}%")
 
+            # 🎬 修正：採用純文本換行格式（加入兩個半形空格），徹底移除 HTML 拼接編譯黑洞
             st.subheader("🎬 總導演重播畫艙 (時空鎖定)")
             seed = engine.lock_universe_seed(home, away)
             np.random.seed(seed); random.seed(seed)
@@ -168,19 +169,20 @@ if selected_match:
                 txt = ""
                 if m in hg_m:
                     c_hg += hg_m.count(m)
-                    txt += f"⚽ 【{home}】進球了！禁區內冷靜抽射破門！ "
+                    txt += f"⚽ 【{home}】進球了！禁區內冷靜抽射破門！"
                     ev = True
                 if m in ag_m:
                     c_ag += ag_m.count(m)
-                    txt += f"⚽ 【{away}】進球了！邊路突襲推射破門！ "
+                    txt += f"⚽ 【{away}】進球了！邊路突襲推射破門！"
                     ev = True
                 
                 if m == 45:
-                    log_list.insert(0, f"⏳ **[45:00 中場休息]** 當前比數 ➔ {home} {c_hg} - {c_ag} {away}")
+                    log_list.insert(0, f"⏳ **[45:00 中場休息]** 當前比數 ➔ {home} {c_hg} - {c_ag} {away}  ")
                 if ev:
-                    log_list.insert(0, f"🔥 **[{m:02d}:00]** {txt} ➔ 🟢 即時比數: **[{c_hg} - {c_ag}]**")
+                    log_list.insert(0, f"🔥 **[{m:02d}:00]** {txt} ➔ 🟢 即時比數: **[{c_hg} - {c_ag}]**  ")
                 
-                log_area.markdown("<br>".join(log_list), unsafe_allowed_html=True)
+                # 穩健解鎖：直接用標準 Markdown 換行格式輸出，絕不死機
+                log_area.markdown("\n".join(log_list))
                 status_text.markdown(f"⏱️ **比賽進行中：{m:02d}:00** | 當前比數：`{home} {c_hg} - {c_ag} {away}`")
             
             st.balloons()
