@@ -2,7 +2,7 @@ import streamlit as st, pandas as pd, numpy as np, re, json, os, random
 from datetime import datetime
 from collections import Counter
 
-st.set_page_config(page_title="OCUP V43 世界300隊終極", layout="wide")
+st.set_page_config(page_title="OCUP V43.1 世界無紅字", layout="wide")
 LEARN_FILE="learn_log.json"
 def load_learn():
     if os.path.exists(LEARN_FILE):
@@ -50,8 +50,8 @@ def build_world():
     return db
 WORLD_DB=build_world()
 
-st.title("👑 OCUP V43 世界300隊終極")
-st.caption(f"世界{len(WORLD_DB)}隊 | 每隊30人 | 共{len(WORLD_DB)*30}+球員 | 25盤+圖表 | 1000萬場 | 無紅字")
+st.title("👑 OCUP V43.1 世界300隊無紅字")
+st.caption(f"世界{len(WORLD_DB)}隊 | 每隊30人 | 共{len(WORLD_DB)*30}+球員 | 25盤+圖表 | 1000萬場")
 
 search=st.text_input("🔍 搜世界球隊 打字即搵", "")
 filtered=[t for t in WORLD_DB.keys() if search.lower() in t.lower()] if search else list(WORLD_DB.keys())
@@ -71,12 +71,18 @@ ca,cb=st.columns(2)
 with ca:
     st.markdown(f"### 🏠 {th} {db_h['聯賽']} 排名{db_h['排名']} 近5 {db_h['近5']}")
     st.dataframe(pd.DataFrame(squad_h), use_container_width=True, hide_index=True)
-    st.error(f"🚑 {len(inj_h)}傷停") if inj_h else st.success("✅ 全員健康")
+    if inj_h:
+        st.error(f"🚑 {len(inj_h)}傷停")
+    else:
+        st.success("✅ 全員健康")
     if inj_h: st.table(pd.DataFrame(inj_h))
 with cb:
     st.markdown(f"### 🚀 {ta} {db_a['聯賽']} 排名{db_a['排名']} 近5 {db_a['近5']}")
     st.dataframe(pd.DataFrame(squad_a), use_container_width=True, hide_index=True)
-    st.error(f"🚑 {len(inj_a)}傷停") if inj_a else st.success("✅ 全員健康")
+    if inj_a:
+        st.error(f"🚑 {len(inj_a)}傷停")
+    else:
+        st.success("✅ 全員健康")
     if inj_a: st.table(pd.DataFrame(inj_a))
 
 inj_f_h=1-len(inj_h)*0.05; inj_f_a=1-len(inj_a)*0.05
@@ -100,9 +106,9 @@ def run_all(xh,xa,n):
         o05+=np.sum(tot>0.5); o15+=np.sum(tot>1.5); o25+=np.sum(tot>2.5); o35+=np.sum(tot>3.5); o45+=np.sum(tot>4.5); o55+=np.sum(tot>5.5)
         home_o05+=np.sum(h>0.5); away_o05+=np.sum(a>0.5); dc_1x+=np.sum(h>=a); dc_x2+=np.sum(a>=h); dc_12+=np.sum(h!=a)
         for kk,v in [("-2",-2),("-1.5",-1.5),("-1",-1),("-0.5",-0.5),("-0.25",-0.25),("0",0),("+0.25",0.25),("+0.5",0.5),("+1",1),("+1.5",1.5),("+2",2)]: ah[kk]+=np.sum((h+v)>a)
-        co=np.random.poisson(10, chunk); ca=np.random.poisson(4.5, chunk)
+        co=np.random.poisson(10, chunk); ca2=np.random.poisson(4.5, chunk)
         for kk in corn: corn[kk]+=np.sum(co>float(kk))
-        for kk in card: card[kk]+=np.sum(ca>float(kk))
+        for kk in card: card[kk]+=np.sum(ca2>float(kk))
         for hi,ai in zip(h,a):
             if hi<6 and ai<6: mat[hi,ai]+=1
             cnt[(hi,ai)]+=1
