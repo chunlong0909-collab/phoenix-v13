@@ -4,12 +4,12 @@ import pandas as pd
 import streamlit as st
 
 # ==============================================================================
-# 🪐 Ocup 望遠鏡 V15.2 · 導演個人終極提款版 - 總導演專屬唯一至尊版
+# 🪐 Ocup 望遠鏡 V15.3 · 導演自由任意注入旗艦版 - 總導演專屬唯一至尊版
 # ==============================================================================
-st.set_page_config(page_title="望遠鏡 V15.2 導演至尊版", layout="wide")
+st.set_page_config(page_title="望遠鏡 V15.3 導演旗艦版", layout="wide")
 
-st.title("🔭 望遠鏡 V15.2 · 導演終極控制台")
-st.caption("總導演個人專用兵器 - 一鍵百萬碰撞、自由時空自學進化艙")
+st.title("🔭 望遠鏡 V15.3 · 導演終極控制台")
+st.caption("總導演個人專用兵器 - 手機任意打字注入、一鍵百萬碰撞、全自由自學進化艙")
 
 # === 1. 讀數據庫 ===
 DB_FILE = "global_teams_database.csv"
@@ -38,45 +38,50 @@ if db.empty:
     db = pd.DataFrame(data)
     db.to_csv(DB_FILE, index=False, encoding='utf-8-sig')
 
-# === 2. 揀隊 ===
-st.subheader("1️⃣ 揀隊 / 戰力紅線調校")
-teams = db["球隊名字"].tolist()
-col_t1, col_t2 = st.columns(2)
-with col_t1: home_team = st.selectbox("🏠 選擇主隊", teams, index=0)
-with col_t2: away_team = st.selectbox("🚀 選擇客隊", teams, index=1 if len(teams)>1 else 0)
+# === 2. 解鎖手機任意手動輸入名字 ===
+st.subheader("1️⃣ 手機任意打字注入 / 戰力紅線調校")
 
+# 智慧型對齊：搵到就讀取數據庫，搵唔到就預設 1.30 初始防線
 def get_xg(name):
-    row = db[db["球隊名字"]==name]
+    name_clean = str(name).strip()
+    row = db[db["球隊名字"]==name_clean]
     if not row.empty: return float(row.iloc[0]["xG"])
     return 1.30
 
+col_t1, col_t2 = st.columns(2)
+with col_t1: 
+    home_team = st.text_input("🏠 手動輸入主隊名字 ➔", value="德國").strip()
+with col_t2: 
+    away_team = st.text_input("🚀 手動輸入客隊名字 ➔", value="荷蘭").strip()
+
+# 動態跟隨名字獲取預設 xG
 default_home_xg = get_xg(home_team)
 default_away_xg = get_xg(away_team)
 
-xHome = st.slider(f"🏠 {home_team} 實時 xG 紅線", 0.10, 4.50, float(default_home_xg), 0.05)
-xAway = st.slider(f"🚀 {away_team} 實時 xG 紅線", 0.10, 4.50, float(default_away_xg), 0.05)
+xHome = st.slider(f"🏠 {home_team} 實時 xG 紅線調校", 0.10, 4.50, float(default_home_xg), 0.05)
+xAway = st.slider(f"🚀 {away_team} 實時 xG 紅線調校", 0.10, 4.50, float(default_away_xg), 0.05)
 
 # === 3. 馬會賠率艙 ===
 st.subheader("2️⃣ 貼馬會賠率，冇開填0")
 c1, c2, c3 = st.columns(3)
 with c1:
     st.markdown("⚽ **【主客和】**")
-    h = st.number_input("主勝 賠率", value=0.0, step=0.01, min_value=0.0)
-    d = st.number_input("和局 賠率", value=0.0, step=0.01, min_value=0.0)
-    a = st.number_input("客勝 賠率", value=0.0, step=0.01, min_value=0.0)
+    h = st.number_input("主勝 賠率", value=1.75, step=0.01, min_value=0.0)
+    d = st.number_input("和局 賠率", value=3.85, step=0.01, min_value=0.0)
+    a = st.number_input("客勝 賠率", value=3.60, step=0.01, min_value=0.0)
 with c2:
     st.markdown("📐 **【讓球】(讓主+1/讓客-1)**")
-    h1 = st.number_input("讓球主勝+1 賠率", value=0.0, step=0.01, min_value=0.0)
-    d1 = st.number_input("讓球和局+1 賠率", value=0.0, step=0.01, min_value=0.0)
-    a1 = st.number_input("讓球客勝-1 賠率", value=0.0, step=0.01, min_value=0.0)
+    h1 = st.number_input("讓球主勝+1 賠率", value=3.05, step=0.01, min_value=0.0)
+    d1 = st.number_input("讓球和局+1 賠率", value=3.75, step=0.01, min_value=0.0)
+    a1 = st.number_input("讓球客勝-1 賠率", value=1.90, step=0.01, min_value=0.0)
 with c3:
     st.markdown("🔮 **【入球大細 & 角球大細】**")
-    over25 = st.number_input("大2.5 賠率", value=0.0, step=0.01, min_value=0.0)
-    under25 = st.number_input("細2.5 賠率", value=0.0, step=0.01, min_value=0.0)
+    over25 = st.number_input("大2.5 賠率", value=1.52, step=0.01, min_value=0.0)
+    under25 = st.number_input("細2.5 賠率", value=2.35, step=0.01, min_value=0.0)
     over15 = st.number_input("大1.5 賠率", value=0.0, step=0.01, min_value=0.0)
     under15 = st.number_input("細1.5 賠率", value=0.0, step=0.01, min_value=0.0)
-    cor_over95 = st.number_input("角大9.5 賠率", value=0.0, step=0.01, min_value=0.0)
-    cor_under95 = st.number_input("角細9.5 賠率", value=0.0, step=0.01, min_value=0.0)
+    cor_over95 = st.number_input("角大9.5 賠率", value=1.75, step=0.01, min_value=0.0)
+    cor_under95 = st.number_input("角細9.5 賠率", value=1.95, step=0.01, min_value=0.0)
     cor_over85 = st.number_input("角大8.5 賠率", value=0.0, step=0.01, min_value=0.0)
     cor_under85 = st.number_input("角細8.5 賠率", value=0.0, step=0.01, min_value=0.0)
 
@@ -143,9 +148,13 @@ if st.button("💥 發動百萬次哈勃交叉碰撞開轟 💥"):
                 st.metric("大 2.5 球幾率", f"{markets['大2.5']:.1f}%")
                 st.metric("角大 9.5 個幾率", f"{markets['角大9.5']:.1f}%")
 
-        # 💥 導演專屬智能：一按掃描，自動同步將你在 Slider 拉好的最新 xG 更新回數據庫
-        if home_team in db["球隊名字"].values: db.loc[db["球隊名字"]==home_team, "xG"] = xHome
-        if away_team in db["球隊名字"].values: db.loc[db["球隊名字"]==away_team, "xG"] = xAway
+        # 💥 導演專屬智能自動備份：只要你按下掃描，系統會自動在雲端數據庫建立或更新這兩隊名字的最新 xG，完全免手動！
+        for team, xg_val in [(home_team, xHome), (away_team, xAway)]:
+            if team in db["球隊名字"].values:
+                db.loc[db["球隊名字"]==team, "xG"] = xg_val
+            else:
+                new_row = pd.DataFrame([{"聯賽/類別":"自學","球隊名字":team,"xG":xg_val,"天賦":1.0,"疲勞":1.0,"狀態/風格":"手動注入"}])
+                db = pd.concat([db, new_row], ignore_index=True)
         db.to_csv(DB_FILE, index=False, encoding='utf-8-sig')
 
         st.session_state["last_pred"] = {"home": xHome, "away": xAway, "home_team": home_team, "away_team": away_team}
@@ -154,14 +163,14 @@ if st.button("💥 發動百萬次哈勃交叉碰撞開轟 💥"):
 st.divider()
 st.subheader("🧠 3️⃣ 自由時空自學艙 (導演隨手補錄，無須密碼解鎖)")
 
-# 提供上次掃描的提示（如有）
 if "last_pred" in st.session_state:
     lp = st.session_state["last_pred"]
     st.info(f"💡 上次掃描線路 ➔ {lp['home_team']} ({lp['home']:.2f} xG) vs {lp['away_team']} ({lp['away']:.2f} xG)")
 
 c_m1, c_m2 = st.columns(2)
 with c_m1:
-    manual_team = st.selectbox("🎯 選擇要餵養進化的球隊", teams, index=0)
+    # 這裡也同步解鎖手動打字，自學大腦無死角
+    manual_team = st.text_input("🎯 輸入要餵養進化的球隊名字 ➔", value=home_team).strip()
     manual_pred = st.number_input("當時預估 / 目前數據庫中的 xG 基準", value=float(get_xg(manual_team)), step=0.05)
 with c_m2:
     manual_real = st.number_input("⚽ 該球隊在真實物理世界的實際入球數", min_value=0, max_value=15, value=0)
@@ -170,16 +179,14 @@ if st.button("🧠 啟動哈勃神經元・強制自我進化 💥"):
     alpha = 0.15
     new_xg = max(0.5, min(3.5, manual_pred + (manual_real - manual_pred) * alpha))
     
-    # 執行數據更新，避免警告沙子
     if manual_team in db["球隊名字"].values:
         db.loc[db["球隊名字"]==manual_team, "xG"] = new_xg
     else:
-        new_row = pd.DataFrame([{"聯賽/類別":"自學","球隊名字":manual_team,"xG":new_xg,"天賦":1.0,"疲勞":1.0,"狀態/風格":"自學"}])
+        new_row = pd.DataFrame([{"聯賽/類別":"自學","球隊名字":manual_team,"xG":new_xg,"天賦":1.0,"疲勞":1.0,"狀態/風格":"自學注入"}])
         db = pd.concat([db, new_row], ignore_index=True)
         
     db.to_csv(DB_FILE, index=False, encoding='utf-8-sig')
     
-    # 寫進大數據歷史日誌檔
     with open(LOG_FILE, "a", newline="", encoding="utf-8-sig") as f:
         w = csv.writer(f)
         if not os.path.exists(LOG_FILE) or os.path.getsize(LOG_FILE) == 0:
@@ -189,4 +196,3 @@ if st.button("🧠 啟動哈勃神經元・強制自我進化 💥"):
     st.success(f"🪐 導演命令執行成功！哈勃神經元進化完畢：\n➔ 【{manual_team}】: {manual_pred:.2f} 演變為 ➔ {new_xg:.2f} ( {new_xg-manual_pred:+.2f} )")
     st.balloons()
     gc.collect()
-
