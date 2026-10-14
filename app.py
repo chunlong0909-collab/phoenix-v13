@@ -1,89 +1,73 @@
-import streamlit as st, pandas as pd, requests, os
-from math import factorial, exp
+import streamlit as st
+import pandas as pd
+import os
 
-st.set_page_config(page_title="OCUP V71 精盤師版", layout="wide")
+st.set_page_config(page_title="OCUP V71 - 精盤師必買分析", layout="wide", page_icon="⚽")
+
 st.title("⚽ OCUP V71 - Ocup Football + 精盤師必買分析")
+st.markdown("### ① Ocup Football G線 + 天氣 + xG精盤模型")
 
-def poisson(k, lam):
-    return (lam**k * exp(-lam)) / factorial(k)
+# --- 安全讀取數據 ---
+@st.cache_data
+def load_data():
+    path = "players_world.csv"
+    if os.path.exists(path):
+        try:
+            df = pd.read_csv(path)
+            return df
+        except:
+            return pd.DataFrame()
+    return pd.DataFrame()
 
-# ===== ① Ocup Football G線 =====
-st.markdown("### ① Ocup Football G線 + 天氣")
-c1,c2,c3 = st.columns(3)
-with c1: xg_h = st.number_input("主隊 G線 (你手打)", 1.65, 0.1, 4.0, 0.05)
-with c2: xg_a = st.number_input("客隊 G線 (你手打)", 1.05, 0.1, 4.0, 0.05)
-with c3: rain = st.checkbox("落雨>5mm 自動細", value=False)
+df_players = load_data()
 
-xg_h_f = xg_h * (0.88 if rain else 1.0)
-xg_a_f = xg_a * 0.95
-total = xg_h_f + xg_a_f
+# --- 左側控制面板 (修復MinMaxError關鍵) ---
+with st.sidebar:
+    st.header("🎯 比賽參數")
+    # 關鍵修復：鎖死min/max，唔再用dataframe動態值
+    xg_h = st.number_input('主隊 xG', min_value=0.0, max_value=10.0, value=1.50, step=0.1, format="%.2f")
+    xg_a = st.number_input('客隊 xG', min_value=0.0, max_value=10.0, value=1.20, step=0.1, format="%.2f")
 
-if st.button("🔥 Ocup Football + 精盤師一鍵分析", type="primary", use_container_width=True):
-    scores = [(i,j,poisson(i,xg_h_f)*poisson(j,xg_a_f)) for i in range(6) for j in range(6)]
-    scores.sort(key=lambda x: x[2], reverse=True)
-    probH = sum(p for i,j,p in scores if i>j)
-    probD = sum(p for i,j,p in scores if i==j)
-    probA = sum(p for i,j,p in scores if i<j)
-    over25 = sum(p for i,j,p in scores if i+j>=3)
-    btts = sum(p for i,j,p in scores if i>=1 and j>=1)
-    under25 = 1-over25
+    st.divider()
+    st.header("🌦️ G線 + 天氣")
+    g_line = st.slider('Ocup G線', min_value=-2.0, max_value=2.0, value=0.25, step=0.05)
+    weather = st.selectbox('天氣', ['晴', '多雲', '雨', '大雨', '雪'], index=0)
+    temp = st.number_input('溫度 °C', min_value=-10, max_value=40, value=18)
 
-    def rating(prob, market=0.5):
-        value = (prob - market)*100
-        if prob>=0.65 and value>=8: return "🔥必買", f"價值+{value:.1f}% 重注", "★★★★★"
-        if prob>=0.55 and value>=3: return "✅可買", f"價值+{value:.1f}%", "★★★★"
-        if prob<=0.38: return "❌唔買", f"機率{prob*100:.0f}%太低", "★"
-        if value<=-5: return "💀陷阱盤", f"倒蝕{value:.1f}% 莊誘", "★★"
-        return "⚠️觀望", f"價值{value:.1f}%", "★★★"
+    st.divider()
+    st.metric("球員庫人數", f"{len(df_players)} 人" if not df_players.empty else "等待更新...")
 
-    # Ocup原味表
-    st.subheader("📊 Ocup Football 專業分析表")
-    st.table(pd.DataFrame([
-        ["入球能力", f"{xg_h_f:.2f}", f"{xg_a_f:.2f}", f"合計{total:.2f} {'大' if total>=2.5 else '細'}"],
-        ["勝率模型", f"主{probH*100:.1f}%", f"客{probA*100:.1f}%", f"和{probD*100:.1f}%"],
-        ["狀態體能", "已自動修正", "已自動修正", "落雨x0.88" if rain else "正常"],
-        ["主客加成", "+0.35", "-0.15", "主場優"],
-        ["波膽TOP1", f"{scores[0][0]}-{scores[0][1]}", f"{scores[0][2]*100:.1f}%", "最可能"],
-    ], columns=["Ocup維度","主隊","客隊","分析"]))
+# --- 核心分析 ---
+c1, c2 = st.columns(2)
 
-    # 18盤口精盤師表
-    st.subheader("💰 精盤師 - 18盤口 邊個必買/唔買")
-    data = [
-        ["歐賠 主勝", f"主勝 {probH*100:.0f}%", probH, 0.42],
-        ["歐賠 和", f"和 {probD*100:.0f}%", probD, 0.30],
-        ["大細 2.5", f"{'大2.5' if total>=2.5 else '細2.5'} {total:.2f}", over25 if total>=2.5 else under25, 0.50],
-        ["BTTS", "雙方入球 是", btts, 0.50],
-        ["波膽", f"{scores[0][0]}-{scores[0][1]}", scores[0][2], 0.08],
-        ["讓球 -0.25", "主-0.25", probH, 0.45],
-        ["角球 大9.5", f"{'大9.5' if total>2.4 else '細9.5'}", over25*0.85, 0.50],
-        ["角球 讓球", "主-1.5角", probH*0.8, 0.50],
-        ["半場大細 1.0", "大1.0" if total>2.5 else "細1.0", 0.55, 0.50],
-        ["單隊大 1.5", "主>1.5", probH*0.7, 0.50],
-        ["雙重機會", "主或和", probH+probD, 0.65],
-        ["DNB", "主DNB", probH/(probH+probA+0.01), 0.50],
-        ["半全場", "勝勝", probH*0.6, 0.40],
-        ["單雙", "單", 0.52, 0.50],
-        ["黃牌 大3.5", "大3.5", 0.56, 0.50],
-        ["最先入球", "主隊", probH, 0.50],
-        ["最後入球", "主隊", probH, 0.50],
-        ["波膽組合", f"{scores[0][0]}-{scores[0][1]}/{scores[1][0]}-{scores[1][1]}", scores[0][2]+scores[1][2], 0.12],
-    ]
-    rows=[]
-    for name, rec, prob, market in data:
-        r,t,s = rating(prob, market)
-        rows.append([name, rec, f"{prob*100:.1f}%", s, r, t])
-    df = pd.DataFrame(rows, columns=["盤口","Ocup推薦","真機率","信心","精盤師評級","點解"])
+with c1:
+    st.subheader("📊 精盤計算")
+    total_xg = xg_h + xg_a
+    diff_xg = xg_h - xg_a
 
-    def color(v):
-        if "必買" in v: return "background-color: #ff4b4b; color: white"
-        if "可買" in v: return "background-color: #90EE90"
-        if "陷阱" in v: return "background-color: black; color: yellow"
-        if "唔買" in v: return "background-color: #d3d3d3"
-        return ""
-    st.dataframe(df.style.applymap(color, subset=['精盤師評級']), use_container_width=True, height=680)
+    # 天氣修正
+    weather_factor = {'晴': 0, '多雲': -0.05, '雨': -0.15, '大雨': -0.35, '雪': -0.5}[weather]
+    adj_total = total_xg + weather_factor + g_line
 
-    must = df[df['精盤師評級'].str.contains("必買")]
-    bad = df[df['精盤師評級'].str.contains("唔買|陷阱")]
-    if len(must)>0: st.error(f"🔥必買 {len(must)}個: " + " | ".join(must['盤口'].tolist()))
-    if len(bad)>0: st.warning(f"💀千祈唔好買 {len(bad)}個: " + " | ".join(bad['盤口'].tolist()))
-    st.success(f"V71完成 - 波膽TOP3: {scores[0][0]}-{scores[0][1]} {scores[0][2]*100:.1f}% | {scores[1][0]}-{scores[1][1]} {scores[1][2]*100:.1f}% | {scores[2][0]}-{scores[2][1]} {scores[2][2]*100:.1f}%")
+    st.write(f"原始總xG: **{total_xg:.2f}**")
+    st.write(f"G線修正後: **{adj_total:.2f}** (天氣:{weather_factor}, G線:{g_line})")
+
+    if adj_total > 2.8:
+        st.success("✅ 必買推介：大2.5 / 大2.75")
+    elif adj_total < 2.2:
+        st.warning("✅ 必買推介：細2.5 / 細2.25")
+    else:
+        st.info("觀望：中庸盤口，睇球員狀態")
+
+    st.metric("主客xG差", f"{diff_xg:.2f}", delta=f"{'主隊優' if diff_xg>0 else '客隊優'}")
+
+with c2:
+    st.subheader("👥 球員庫 (players_world.csv)")
+    if not df_players.empty:
+        st.dataframe(df_players.head(100), use_container_width=True)
+        st.caption(f"已載入 {len(df_players)} 人數據 | 檔案時間以GitHub為準")
+    else:
+        st.error("players_world.csv 未找到或為空，請先去 GitHub > Actions > V71 Full World > Run workflow")
+
+st.divider()
+st.caption("OCUP PHOENIX V13 → V71 | 修復 StreamlitInvalidMinMaxError | 作者：總導演")
