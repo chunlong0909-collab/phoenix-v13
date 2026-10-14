@@ -1,8 +1,6 @@
 import streamlit as st, pandas as pd, os, math
-
-st.set_page_config(page_title="OCUP V73 全盤王", layout="wide", page_icon="👑")
-st.title("👑 OCUP Football V73 全盤王終極版")
-st.caption("總導演專用 · 波膽+讓球+大細+角球+1X2+BTTS+半全場+單雙")
+st.set_page_config(page_title="OCUP V74 放水抽水版", layout="wide", page_icon="👑")
+st.title("👑 OCUP V74 全盤王·放水抽水版")
 
 @st.cache_data
 def load_players():
@@ -11,7 +9,6 @@ def load_players():
     except: return pd.DataFrame()
 df = load_players()
 
-# === 主客隊 ===
 c1,c2,c3=st.columns([5,1,5])
 with c1: team_h=st.text_input("🏠 主隊", value="波士頓河")
 with c3: team_a=st.text_input("🚀 客隊", value="蒙特維多河床")
@@ -38,90 +35,96 @@ w={"晴":0,"多雲":-0.05,"雨":-0.18,"大雨":-0.40,"雪":-0.55,"強風":-0.25,
 total=xg_h+xg_a+w[weather]+g
 ctotal=cor_h+cor_a+g_c+w[weather]*5
 
-# === 計算所有盤 ===
+# === 計算所有盤概率 ===
 p_h=sum(v for (h,a),v in scores.items() if h>a)*100
 p_d=sum(v for (h,a),v in scores.items() if h==a)*100
 p_a=100-p_h-p_d
 p_btts=sum(v for (h,a),v in scores.items() if h>0 and a>0)*100
-p_over15=sum(v for (h,a),v in scores.items() if h+a>1.5)*100
-p_over25=sum(v for (h,a),v in scores.items() if h+a>2.5)*100
-p_over35=sum(v for (h,a),v in scores.items() if h+a>3.5)*100
+p_over=[sum(v for (h,a),v in scores.items() if h+a>line)*100 for line in [0.5,1.5,2.5,3.5,4.5,5.5]]
 p_odd=sum(v for (h,a),v in scores.items() if (h+a)%2==1)*100
+p_cor_over=[sum(v for (h,a),v in cors.items() if h+a>line)*100 for line in [7.5,8.5,9.5,10.5,11.5,12.5]]
+
+def tip(p, ev=0):
+    # 放水抽水邏輯
+    if p>=70: return "🔥 一定要買", "高真率，莊家必輸"
+    if p>=58 and ev>-5: return "✅ 可以買", "值博"
+    if p>=52: return "⚠️ 小注可博", "邊緣盤"
+    if ev<-30: return "💀 唔可以買·抽水盤", "莊抽水太狠，EV負30%+"
+    if p<40: return "🚫 放水陷阱", "莊放水誘你，假熱門"
+    return "😐 觀望", "無價值"
 
 st.divider()
-c1,c2,c3,c4=st.columns(4)
-c1.metric("總入球",f"{total:.2f}")
-c2.metric("總角球",f"{ctotal:.1f}")
-c3.metric(f"{team_h} 勝",f"{p_h:.1f}%")
-c4.metric("BTTS",f"{p_btts:.1f}%")
+if total>=2.8: st.success(f"✅ 大球必買：大2.5 {total:.2f} | 大4.5概率 {p_over[4]:.1f}%")
+if ctotal>=10: st.success(f"✅ 角球必買：大9.5 {ctotal:.1f}")
 
-if total>=2.8: st.success(f"✅ 大球必買：大2.5 {total:.2f}")
-if p_btts>58: st.success(f"✅ BTTS必買：雙方入球 YES {p_btts:.1f}%")
-
-# === 全盤王Tabs ===
-tabs=st.tabs(["🎯 波膽王","⚔️ 讓球王","⚽ 大細王","🚩 角球王","💰 歐盤1X2","🔥 BTTS/單雙","⏱️ 半全場","👥 球員庫"])
+tabs=st.tabs(["🎯 波膽王","⚽ 大細王(含4.5)","🚩 角球王","💰 歐盤+BTTS","⏱️ 半全場","👥 球員庫"])
 
 with tabs[0]:
-    rows=[{"波膽":f"{h}-{a}","真率":f"{p*100:.1f}%","公平":f"{1/p:.1f}","EV":f"{(p*market*0.92-1)*100:+.1f}%","建議":"🔥" if (p*market*0.92-1)>0.08 else ""} for (h,a),p in sorted(scores.items(), key=lambda x:-x[1])[:16] if p>0.01]
+    rows=[]
+    for (h,a),p in sorted(scores.items(), key=lambda x:-x[1])[:16]:
+        if p<0.01: continue
+        fair=1/p
+        ev=(p*market*0.92-1)*100
+        label, reason = tip(p*100, ev)
+        rows.append({"波膽":f"{h}-{a}","真率":f"{p*100:.1f}%","公平":f"{fair:.1f}","EV":f"{ev:+.1f}%","判定":label,"分析":reason})
     st.dataframe(pd.DataFrame(rows),use_container_width=True,hide_index=True)
 
 with tabs[1]:
-    st.metric(f"讓球 {g:+} 主隊贏盤",f"{sum(v for (h,a),v in scores.items() if h-a+g>0)*100:.1f}%")
-    st.progress(int(sum(v for (h,a),v in scores.items() if h-a+g>0)*100))
+    st.subheader(f"⚽ 大細王 - 總入球 {total:.2f} (含4.5)")
+    lines=[0.5,1.5,2.5,3.5,4.5,5.5]
+    rows=[]
+    for line, prob in zip(lines, p_over):
+        # 反向就係細
+        p_under=100-prob
+        # 大嘅判定
+        label, reason = tip(prob, 0)
+        if line==4.5:
+            if prob>35: label="🔥 一定要買 大4.5"
+            elif prob>28: label="✅ 可以買 大4.5"
+            else: label="🚫 放水 大4.5"
+        rows.append({"盤口":f"大{line}","概率":f"{prob:.1f}%","細概率":f"{p_under:.1f}%","判定":label,"放水/抽水":reason})
+    st.dataframe(pd.DataFrame(rows),use_container_width=True,hide_index=True)
+    st.info("💡 放水=莊故意開高水誘你買熱門，抽水=莊收割水位，EV負得太多唔掂")
 
 with tabs[2]:
-    st.dataframe(pd.DataFrame([
-        {"盤口":"大1.5","概率":f"{p_over15:.1f}%","推介":"✅" if p_over15>80 else ""},
-        {"盤口":"大2.5","概率":f"{p_over25:.1f}%","推介":"✅" if p_over25>55 else ""},
-        {"盤口":"大3.5","概率":f"{p_over35:.1f}%","推介":"✅" if p_over35>40 else ""},
-    ]),use_container_width=True,hide_index=True)
+    st.subheader(f"🚩 角球王 總{ctotal:.1f}")
+    clines=[7.5,8.5,9.5,10.5,11.5,12.5]
+    rows=[]
+    for line, prob in zip(clines, p_cor_over):
+        label, reason = tip(prob)
+        if prob>=65: label="🔥 一定要買"
+        elif prob<35: label="🚫 放水陷阱"
+        rows.append({"盤口":f"大{line}角","概率":f"{prob:.1f}%","判定":label,"分析":reason})
+    st.dataframe(pd.DataFrame(rows),use_container_width=True,hide_index=True)
 
 with tabs[3]:
-    c1,c2,c3=st.columns(3)
-    c1.metric("大8.5角",f"{sum(v for (h,a),v in cors.items() if h+a>8.5)*100:.1f}%")
-    c2.metric("大9.5角",f"{sum(v for (h,a),v in cors.items() if h+a>9.5)*100:.1f}%")
-    c3.metric("大10.5角",f"{sum(v for (h,a),v in cors.items() if h+a>10.5)*100:.1f}%")
-    rows=[{"角球":f"{h}-{a}","總數":h+a,"真率":f"{p*100:.2f}%"} for (h,a),p in sorted(cors.items(), key=lambda x:-x[1])[:12] if p>0.015]
+    rows=[
+        {"盤口":f"{team_h} 勝","概率":f"{p_h:.1f}%","判定":tip(p_h)[0],"分析":tip(p_h)[1]},
+        {"盤口":"和","概率":f"{p_d:.1f}%","判定":tip(p_d)[0],"分析":"和局多為抽水"},
+        {"盤口":f"{team_a} 勝","概率":f"{p_a:.1f}%","判定":tip(p_a)[0],"分析":tip(p_a)[1]},
+        {"盤口":"BTTS YES","概率":f"{p_btts:.1f}%","判定":"🔥 一定要買" if p_btts>60 else "✅ 可以買" if p_btts>53 else "🚫 放水","分析":"雙方入球"},
+        {"盤口":"入球單","概率":f"{p_odd:.1f}%","判定":"⚠️ 小注可博","分析":"單雙多為抽水盤"},
+        {"盤口":"入球雙","概率":f"{100-p_odd:.1f}%","判定":"⚠️ 小注可博","分析":"單雙多為抽水盤"},
+    ]
     st.dataframe(pd.DataFrame(rows),use_container_width=True,hide_index=True)
 
 with tabs[4]:
-    st.subheader(f"💰 歐盤1X2 - {team_h} vs {team_a}")
+    ht_h=xg_h*0.45; ht_a=xg_a*0.45
+    ht={(h,a):poi(h,ht_h)*poi(a,ht_a) for h in range(5) for a in range(5)}
+    tp=sum(ht.values()); ht={k:v/tp for k,v in ht.items()}
+    hth=sum(v for (h,a),v in ht.items() if h>a)*100
+    htd=sum(v for (h,a),v in ht.items() if h==a)*100
+    hta=100-hth-htd
     st.dataframe(pd.DataFrame([
-        {"結果":f"{team_h} 勝","真率":f"{p_h:.1f}%","公平":f"{100/p_h:.2f}" if p_h>0 else "-","建議":"🔥" if p_h>50 else ""},
-        {"結果":"和","真率":f"{p_d:.1f}%","公平":f"{100/p_d:.2f}" if p_d>0 else "-","建議":""},
-        {"結果":f"{team_a} 勝","真率":f"{p_a:.1f}%","公平":f"{100/p_a:.2f}" if p_a>0 else "-","建議":"🔥" if p_a>45 else ""},
-        {"結果":"雙重機會 主/和","真率":f"{p_h+p_d:.1f}%","公平":f"{100/(p_h+p_d):.2f}","建議":"穩"},
-        {"結果":"雙重機會 客/和","真率":f"{p_a+p_d:.1f}%","公平":f"{100/(p_a+p_d):.2f}","建議":""},
+        {"階段":"半場","結果":f"{team_h} 領先","概率":f"{hth:.1f}%","判定":tip(hth)[0]},
+        {"階段":"半場","結果":"和","概率":f"{htd:.1f}%","判定":tip(htd)[0]},
+        {"階段":"半場","結果":f"{team_a} 領先","概率":f"{hta:.1f}%","判定":tip(hta)[0]},
     ]),use_container_width=True,hide_index=True)
 
 with tabs[5]:
-    st.dataframe(pd.DataFrame([
-        {"盤口":"BTTS YES 雙方入球","概率":f"{p_btts:.1f}%","推介":"✅必買" if p_btts>60 else "可博" if p_btts>52 else ""},
-        {"盤口":"BTTS NO","概率":f"{100-p_btts:.1f}%","推介":"✅" if p_btts<40 else ""},
-        {"盤口":"入球單","概率":f"{p_odd:.1f}%","推介":""},
-        {"盤口":"入球雙","概率":f"{100-p_odd:.1f}%","推介":""},
-    ]),use_container_width=True,hide_index=True)
-
-with tabs[6]:
-    # 半場簡易用xG/2估
-    st.caption("半場用全場xG/2估算")
-    ht_h=xg_h*0.45; ht_a=xg_a*0.45
-    ht_scores={(h,a):poi(h,ht_h)*poi(a,ht_a) for h in range(5) for a in range(5)}
-    tp=sum(ht_scores.values()); ht_scores={k:v/tp for k,v in ht_scores.items()}
-    hth=sum(v for (h,a),v in ht_scores.items() if h>a)*100
-    hta=sum(v for (h,a),v in ht_scores.items() if h<a)*100
-    htd=100-hth-hta
-    st.dataframe(pd.DataFrame([
-        {"半場":f"{team_h} 領先","概率":f"{hth:.1f}%"},
-        {"半場":"和","概率":f"{htd:.1f}%"},
-        {"半場":f"{team_a} 領先","概率":f"{hta:.1f}%"},
-        {"全場":f"{team_h} 勝","概率":f"{p_h:.1f}%"},
-    ]),use_container_width=True,hide_index=True)
-
-with tabs[7]:
-    q=st.text_input("搜球員/隊",placeholder="Haaland / 波士頓河")
+    q=st.text_input("搜球員",placeholder="Haaland")
     show=df if not q or df.empty else df[df.apply(lambda r: r.astype(str).str.contains(q,case=False).any(),axis=1)]
-    st.dataframe(show,use_container_width=True,height=350)
-    st.caption(f"已載入{len(df)}人 | 總入球{total:.2f} 總角球{ctotal:.1f} 主勝{p_h:.0f}% BTTS{p_btts:.0f}%")
+    st.dataframe(show,use_container_width=True,height=300)
+    st.caption(f"已載入{len(df)}人 | 入球{total:.2f} 角球{ctotal:.1f} 主勝{p_h:.0f}% BTTS{p_btts:.0f}% 大4.5 {p_over[4]:.1f}%")
 
-st.caption("OCUP V73 全盤王 | 總導演終極版")
+st.caption("OCUP V74 放水抽水終極版 | 總導演")
