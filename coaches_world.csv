@@ -1,0 +1,4 @@
+team,name,tactic,style,xg_bonus
+ManCity,Guardiola,4-3-3,進攻型,0.20
+Arsenal,Arteta,4-3-3,進攻型,0.15
+Wolves,Moyes,4-4-2,防守型,-0.15
