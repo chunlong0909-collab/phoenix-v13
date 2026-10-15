@@ -1,7 +1,6 @@
 key,full_name,form,goals_last5,xg_for,xg_against,home_win_rate,source
 boston-river,Boston River,W-D-L-W-L,1.2,1.1,1.3,0.35,https://fbref.com/en/squads/53a2f93d/Boston-River-Stats
-penarol,Penarol,W-W-D-W-W,1.8,1.6,0.8,0.65,https://fbref.com/en/squads/8d2c5c2a/Penarol-Stats
+penarol,Penarol,W-W-D-W-W,1.8,1.6,0.8,0.6,https://fbref.com/en/squads/8d2c5c2a/Penarol-Stats
 real-madrid,Real Madrid,W-W-W-W-D,2.5,2.2,0.9,0.8,https://fbref.com/en/squads/53a2f93d/Real-Madrid-Stats
 barcelona,Barcelona,W-D-W-W-W,2.3,2.1,0.8,0.75,https://fbref.com/en/squads/206d90db/Barcelona-Stats
-man-city,Manchester City,W-W-D-W-W,2.4,2.3,0.7,0.78,https://fbref.com/en/squads/b8fd03ef/Manchester-City-Stats
-... (總共2900行)
+man-city,Manchester City,W-W-D-W-W,2.4,2.2,0.7,0.78,https://fbref.com/en/squads/b8fd03ef/Manchester-City-Stats
