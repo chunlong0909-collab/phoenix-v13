@@ -1,72 +1,99 @@
-import streamlit as st, math, os, pandas as pd
+import streamlit as st, pandas as pd, numpy as np, math, os
 from datetime import datetime
-st.set_page_config(page_title="Coup V60 完全體", layout="wide")
-st.title("⚽ Coup V60 完全體 34聯賽+真xG")
+import matplotlib.pyplot as plt
 
-# === 34聯賽預設 ===
-presets={"英格蘭超級聯賽":(1.55,1.25),"澳職職業聯賽":(1.65,1.15),"日本職業聯賽":(1.60,1.20),"日本乙組聯賽":(1.40,1.05),"南韓職業聯賽":(1.45,1.05),"女子澳洲職業聯賽":(1.80,1.20),"澳洲冠軍聯賽盃":(1.70,1.00),"西班牙甲組聯賽":(1.50,1.20),"德國甲組聯賽":(1.70,1.30),"南韓乙組聯賽":(1.35,1.00),"墨西哥超級聯賽":(1.60,1.20),"墨西哥甲組聯賽":(1.45,1.10),"德國乙組聯賽":(1.55,1.20),"英格蘭冠軍聯賽":(1.45,1.10),"泰國甲組聯賽":(1.65,1.15),"沙特職業聯賽":(1.70,1.20),"卡塔爾超級聯賽":(1.65,1.20),"阿聯酋職業聯賽":(1.70,1.25),"芬蘭超級聯賽":(1.60,1.15),"挪威超級聯賽":(1.70,1.30),"俄羅斯超級聯賽":(1.45,1.05),"阿根廷甲組聯賽":(1.40,0.90),"巴西甲組聯賽":(1.50,1.00),"荷蘭甲組聯賽":(1.75,1.35),"蘇格蘭超級聯賽":(1.70,0.90),"奧地利甲組聯賽":(1.60,1.20),"丹麥超級聯賽":(1.55,1.15),"烏拉圭甲組聯賽":(1.35,0.90),"西班牙乙組聯賽":(1.35,1.10),"荷蘭乙組聯賽":(1.65,1.25),"法國乙組聯賽":(1.30,1.00),"巴西乙組聯賽":(1.35,0.95),"女子挪威超級聯賽":(1.85,1.30),"女子南美自由杯":(1.60,1.10)}
-# === 真實數據 Sofascore 3.2 vs 0.96 ===
-TRUE_DATA={"艾卡迪沙 vs 艾伯哈FC":{"xg_h":2.20,"xg_a":0.75,"shots_h":22,"shots_a":7,"sot_h":8,"sot_a":3},"沙特真數":{"xg_h":2.20,"xg_a":0.75,"shots_h":22,"shots_a":7}}
+st.set_page_config(page_title="Ocup V63 終極完全體", layout="wide")
+st.title("⚽ Ocup Football V63 終極完全體 | A+B+波膽+圖表")
 
+# 34聯賽
+presets = {
+"英超":(1.55,1.25),"西甲":(1.5,1.2),"德甲":(1.6,1.3),"意甲":(1.45,1.15),
+"法甲":(1.5,1.2),"沙特職業聯賽":(1.65,1.35),"澳職":(1.7,1.4),"美職":(1.6,1.3),
+"日職":(1.5,1.2),"韓職":(1.45,1.15),"中超":(1.5,1.2),"巴甲":(1.55,1.25),
+"阿甲":(1.5,1.2),"葡超":(1.5,1.2),"荷甲":(1.65,1.35),"比甲":(1.55,1.25),
+"土超":(1.6,1.3),"英冠":(1.45,1.15),"西乙":(1.4,1.1),"德乙":(1.5,1.2),
+"蘇超":(1.5,1.2),"瑞超":(1.55,1.25),"挪超":(1.6,1.3),"丹超":(1.55,1.25),
+"奧甲":(1.5,1.2),"瑞士超":(1.55,1.25),"波蘭超":(1.45,1.15),"希臘超":(1.4,1.1),
+"俄超":(1.45,1.15),"烏超":(1.4,1.1),"墨超":(1.55,1.25),"智利甲":(1.45,1.15),
+"哥倫比亞甲":(1.4,1.1),"南非超":(1.35,1.05)
+}
+
+def dixon_coles(l1,l2,rho=0.12):
+    max_g=7
+    p=np.zeros((max_g+1,max_g+1))
+    for i in range(max_g+1):
+        for j in range(max_g+1):
+            p[i,j]=np.exp(-l1)*l1**i/math.factorial(i)*np.exp(-l2)*l2**j/math.factorial(j)
+    p[0,0]*=(1-l1*l2*rho); p[0,1]*=(1+l2*rho); p[1,0]*=(1+l1*rho); p[1,1]*=(1-rho)
+    return p/p.sum()
+
+with st.sidebar:
+    lg=st.selectbox("聯賽", list(presets.keys()), index=list(presets.keys()).index("沙特職業聯賽"))
+    xg_h=st.slider("主隊真xG",0.2,3.5,2.2,0.05)
+    xg_a=st.slider("客隊真xG",0.2,2.0,0.75,0.05)
+    st.success(f"真xG {xg_h}+{xg_a}={xg_h+xg_a:.2f}")
+    sh_h=st.number_input("主射門",0,40,22)
+    sh_a=st.number_input("客射門",0,40,7)
+    st_h=st.number_input("主射正",0,20,8)
+    st_a=st.number_input("客射正",0,20,2)
+    o_h=st.number_input("主賠 1.01-30",1.01,30.0,1.16)
+    o_d=st.number_input("和賠 1.01-30",1.01,30.0,8.0)
+    o_a=st.number_input("客賠 1.01-30",1.01,30.0,17.0)
+    m=st.text_input("對賽",f"艾卡迪沙 vs 艾伯哈FC")
+
+mat=dixon_coles(xg_h,xg_a)
+ph=pd=pa=ou25=btts=0
+scores=[]
+for i in range(7):
+    for j in range(7):
+        prob=mat[i,j]
+        scores.append((f"{i}-{j}",prob))
+        if i>j: ph+=prob
+        elif i==j: pd+=prob
+        else: pa+=prob
+        if i+j>=3: ou25+=prob
+        if i>0 and j>0: btts+=prob
+
+scores=sorted(scores,key=lambda x:x[1],reverse=True)[:10]
+ev_h,ev_d,ev_a=ph*o_h-1, pd*o_d-1, pa*o_a-1
+
+# 頂部3個Metric
 c1,c2,c3=st.columns(3)
-with c1: team_h=st.text_input("主隊","艾卡迪沙")
-with c2: team_a=st.text_input("客隊","艾伯哈FC")
-with c3: league=st.selectbox("聯賽34選1",list(presets.keys()),index=15)
+c1.metric("主勝",f"{ph*100:.1f}%",f"EV {ev_h*100:.1f}%")
+c2.metric("和局",f"{pd*100:.1f}%",f"EV {ev_d*100:.1f}%")
+c3.metric("客勝",f"{pa*100:.1f}%",f"EV {ev_a*100:.1f}%")
+c4,c5=st.columns(2)
+c4.metric("大2.5",f"{ou25*100:.1f}%")
+c5.metric("BTTS Yes",f"{btts*100:.1f}%")
 
-colA,colB=st.columns(2)
-with colA:
-    if st.button("⚡ 自動貼市 34聯賽", use_container_width=True):
-        h,a=presets[league]; st.session_state["xg_h"]=h; st.session_state["xg_a"]=a; st.toast(f"{league} {h}+{a}={h+a:.2f}")
-with colB:
-    if st.button("✅ 載入真實xG 3.20vs0.96", use_container_width=True):
-        d=TRUE_DATA["艾卡迪沙 vs 艾伯哈FC"]; st.session_state["xg_h"]=d["xg_h"]; st.session_state["xg_a"]=d["xg_a"]; st.session_state["shots_h"]=d["shots_h"]; st.session_state["shots_a"]=d["shots_a"]; st.toast(f"真數 {d['xg_h']} vs {d['xg_a']}")
+# 波膽Top10
+st.subheader("🎯 波膽 Top10 (Dixon-Coles真數)")
+st.dataframe(pd.DataFrame(scores,columns=["波膽","機率"]).assign(機率=lambda x: (x["機率"]*100).round(1).astype(str)+"%"), use_container_width=True)
 
-xg_h=st.slider("🏠 主隊xG",0.2,4.0,st.session_state.get("xg_h",2.20),0.05)
-xg_a=st.slider("🚀 客隊xG",0.2,4.0,st.session_state.get("xg_a",0.75),0.05)
-shots_h=st.number_input("主隊射門真數",0,40,st.session_state.get("shots_h",22))
-shots_a=st.number_input("客隊射門真數",0,40,st.session_state.get("shots_a",7))
-total=xg_h+xg_a
-tag="🔴偏小" if total<2.0 else "🟢完全真 貼市" if total<=3.2 else "🔴偏大"
-st.metric(f"完全體總xG {total:.2f} {tag}", f"{xg_h}+{xg_a} | 真射 {shots_h}vs{shots_a} | {league}")
+# A+B Ocup大表
+st.subheader("📊 Ocup Football A+B 超級大表")
+df_big=pd.DataFrame([{
+"日期":datetime.now().strftime("%m-%d"),"聯賽":lg,"對賽":m,
+"真xG":f"{xg_h}+{xg_a}={xg_h+xg_a:.2f}","射門":f"{sh_h}vs{sh_a}","射正":f"{st_h}vs{st_a}",
+"主%":f"{ph*100:.1f}%","和%":f"{pd*100:.1f}%","客%":f"{pa*100:.1f}%",
+"主賠":o_h,"和賠":o_d,"客賠":o_a,
+"主EV":f"{ev_h*100:.1f}%","和EV":f"{ev_d*100:.1f}%","客EV":f"{ev_a*100:.1f}%",
+"大2.5%":f"{ou25*100:.1f}%","BTTS%":f"{btts*100:.1f}%","最熱波膽":scores[0][0]
+}])
+st.dataframe(df_big, use_container_width=True)
 
-# === 完全真 Poisson + Dixon-Coles ===
-def poisson(k, lam): return (lam**k * math.exp(-lam))/math.factorial(k)
-def dc(i,j,rho=0.12):
-    if i==0 and j==0: return 1 - xg_h*xg_a*rho/10
-    if i==0 and j==1: return 1 + xg_a*rho/5
-    if i==1 and j==0: return 1 + xg_h*rho/5
-    if i==1 and j==1: return 1 - rho
-    return 1.0
-prob_h=prob_d=prob_a=0; over25=0; scorelines=[]
-for i in range(8):
-    for j in range(8):
-        p=poisson(i,xg_h)*poisson(j,xg_a)*dc(i,j)
-        if i>j: prob_h+=p
-        elif i==j: prob_d+=p
-        else: prob_a+=p
-        if i+j>2.5: over25+=p
-        scorelines.append(((i,j),p))
-scorelines=sorted(scorelines,key=lambda x:x[1],reverse=True)[:8]
+# 圖表
+col_g1,col_g2=st.columns(2)
+with col_g1:
+    fig,ax=plt.subplots()
+    ax.imshow(mat,cmap="Reds"); ax.set_title("Dixon-Coles 熱力圖"); st.pyplot(fig)
+with col_g2:
+    fig2,ax2=plt.subplots()
+    ax2.bar([s[0] for s in scores],[s[1]*100 for s in scores]); ax2.set_title("波膽機率"); plt.xticks(rotation=45); st.pyplot(fig2)
 
-st.divider()
-st.subheader("💰 完全真EV 1.01-30.0")
-o1,o2,o3,o4,o5=st.columns(5)
-with o1: odd_h=st.number_input(f"{team_h}勝",1.01,30.0,1.06,0.01)
-with o2: odd_d=st.number_input("和",1.01,30.0,8.0,0.1)
-with o3: odd_a=st.number_input(f"{team_a}勝",1.01,30.0,17.0,0.1)
-with o4: odd_over=st.number_input("大2.5",1.01,30.0,1.85,0.05)
-with o5: odd_under=st.number_input("細2.5",1.01,30.0,1.95,0.05)
-def ev(p,o): return p*o-1
-ev_h,ev_d,ev_a,ev_over,ev_under=ev(prob_h,odd_h),ev(prob_d,odd_d),ev(prob_a,odd_a),ev(over25,odd_over),ev(1-over25,odd_under)
-c1,c2,c3=st.columns(3); c1.metric(f"{team_h} {prob_h*100:.1f}%", f"EV {ev_h*100:+.1f}%"); c2.metric(f"和 {prob_d*100:.1f}%", f"EV {ev_d*100:+.1f}%"); c3.metric(f"{team_a} {prob_a*100:.1f}%", f"EV {ev_a*100:+.1f}%")
-c4,c5=st.columns(2); c4.metric(f"大2.5 {over25*100:.1f}%", f"EV {ev_over*100:+.1f}%"); c5.metric(f"細2.5 {(1-over25)*100:.1f}%", f"EV {ev_under*100:+.1f}%")
-
-st.subheader("📊 完全體波膽")
-for (i,j),p in scorelines: st.write(f"{i}-{j} {p*100:.2f}%")
-
-if st.button("💾 存入完全體數據庫", use_container_width=True):
-    df=pd.DataFrame([{"date":datetime.now().strftime("%m-%d %H:%M"),"league":league,"match":f"{team_h} vs {team_a}","true_xg":f"{xg_h}+{xg_a}={total:.2f}","shots":f"{shots_h} vs {shots_a}","prob":f"{prob_h*100:.0f}/{prob_d*100:.0f}/{prob_a*100:.0f}","ev":f"{ev_h*100:.0f}/{ev_a*100:.0f}"}])
-    if os.path.exists("true_matches.csv"): old=pd.read_csv("true_matches.csv"); df=pd.concat([old,df])
-    df.to_csv("true_matches.csv",index=False); st.success("已存入 true_matches.csv")
-if os.path.exists("true_matches.csv"): st.dataframe(pd.read_csv("true_matches.csv").tail(10), use_container_width=True)
-st.caption(f"V60完全體 | 34聯賽+真xG3.2vs0.96 | Dixon-Coles | {league}")
+# 存庫
+if st.button("💾 存入Ocup V63終極數據庫"):
+    fp="ocup_v63.csv"
+    df_big.to_csv(fp, mode='a', header=not os.path.exists(fp), index=False, encoding='utf-8-sig')
+    st.success(f"已存入 {fp}！總數 {len(pd.read_csv(fp))} 場")
+    st.dataframe(pd.read_csv(fp).tail(10), use_container_width=True)
