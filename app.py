@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Ocup V118.7 正式完成版 - 大還大細還細 + 記號推薦 + 中文 + 足球隊訊息 + Google AI
+# Ocup V118.8 正式完成版 - 刪多餘標題 + 大還大細還細 + 記號推薦
 import streamlit as st, pandas as pd, numpy as np, math, requests
-st.set_page_config(page_title='Ocup V118.7 正式完成', layout='wide')
+st.set_page_config(page_title='Ocup V118.8 正式完成', layout='wide')
 
 def pmf(k,l):
     if k<0: return 0.0
@@ -66,7 +66,7 @@ if 'weather_adj' not in st.session_state: st.session_state['weather_adj']=0.0
 if 'ai_raw' not in st.session_state: st.session_state['ai_raw']="晴天 30°C"
 
 with st.sidebar:
-    st.header('V118.7 正式完成版')
+    st.header('V118.8 正式完成')
     st.metric('真庫',f'{len(teams_db)}隊 / {len(people_db)}人')
     st.subheader('🔍 Google AI搜索框')
     ai_q=st.text_input('想搵咩打咩，一五一十', placeholder='例: 今日艾卡迪沙天氣陣容')
@@ -88,7 +88,7 @@ with st.sidebar:
     overround=st.slider('抽水',1.03,1.12,1.07,0.01); home_adv=st.slider('主場優勢',-0.2,0.5,0.15,0.05)
     weather_adj=st.slider('🌤️ 天氣調整',-0.5,0.5,st.session_state['weather_adj'],0.05)
 
-st.title(f'{home_team} vs {away_team} - V118.7 正式完成')
+st.title(f'{home_team} vs {away_team} - V118.8')
 c1,c2=st.columns(2)
 with c1:
     st.subheader(f'{home_team} (主) - 10場全數據 (向右碌睇xG xGA 角球 均分 教練)')
@@ -119,7 +119,6 @@ with tab2:
     st.dataframe(pd.DataFrame(rows,columns=['結果','機率','公平','市賠','推薦']),use_container_width=True,hide_index=True)
 
 with tab3:
-    st.subheader('⚽ 入球大細球 - 大還大，細還細')
     col_big, col_small = st.columns(2)
     with col_big:
         st.markdown("#### 🔴 大球")
@@ -137,7 +136,6 @@ with tab3:
         st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','推薦']),use_container_width=True,hide_index=True)
 
 with tab4:
-    st.subheader('🚩 角球大細球 - 大還大，細還細')
     col_big, col_small = st.columns(2)
     with col_big:
         st.markdown("#### 🔴 大球")
@@ -175,4 +173,4 @@ with tab6:
     with c2: st.metric("角球推介", f"大9.5 {'✅ 買得' if over_prob(9.5,exp_corner)>0.6 else '🔵 可博'}")
     with c3: st.metric("主客和推介", f"{'主勝 ✅ 買得' if p_H>0.5 else '和局 🔵 可博' if p_D>0.3 else '客勝 ❌ 唔買'}")
 
-st.success('V118.7 正式完成版 - 大還大細還細分開 + 記號推薦✅❌🔵 + 中文 + 足球隊訊息 + Google AI + 10欄全數據')
+st.success('V118.8 正式完成版 - 刪走多餘標題乾淨 + 大還大細還細 + 記號推薦 + 中文 + 隊訊 + Google AI')
