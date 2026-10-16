@@ -4,7 +4,7 @@ import numpy as np
 import math
 import requests
 import datetime
-st.set_page_config(page_title='Ocup V99 520行最终修复 自动捕捉', layout='wide')
+st.set_page_config(page_title='Ocup V100 繁體最終修復 自動捕捉', layout='wide')
 st.markdown('<style>.block-container{padding-top:0.6rem}</style>', unsafe_allow_html=True)
 def pmf(k,l):
     if k<0:
@@ -54,17 +54,17 @@ def under_mkt(ov,o=1.07):
     return 1.0/u
 def auto_detect_formation(xg,xga,name=''):
     if xg>=1.6 and xga<=0.8:
-        return '4-3-3','进攻型自动捕捉'
+        return '4-3-3','進攻型自動捕捉'
     if xg>=1.4 and xga<=1.0:
-        return '4-2-3-1','控球型自动捕捉'
+        return '4-2-3-1','控球型自動捕捉'
     if xga>=1.4:
-        return '5-3-2','防守型自动捕捉'
-    return '4-4-2','平衡型自动捕捉'
+        return '5-3-2','防守型自動捕捉'
+    return '4-4-2','平衡型自動捕捉'
 def auto_detect_referee():
     refs=['Alharbi 4.2牌','Al-Jassim 3.1牌','Al-Harbi 5.5牌','Al-Malki 4.8牌','Sabah 2.8牌']
     today=datetime.datetime.now().day
     idx=today%len(refs)
-    return refs[idx],'自动捕捉球证'
+    return refs[idx],'自動捕捉球證'
 def auto_detect_all(hd,ad,hn,an):
     hx=hd['xG'].mean()
     hxga=hd['xGA'].mean()
@@ -75,10 +75,10 @@ def auto_detect_all(hd,ad,hn,an):
     ref,_=auto_detect_referee()
     return hf,af,ref,hx,ax
 def def_home():
-    data={'场次':['近1场','近2场','近3场','近4场','近5场','近6场','近7场','近8场','近9场','近10场'],'对手':['艾伯哈','吉达','利雅德','达曼','布赖代','塔伊夫','麦加','吉赞','奈季兰','艾卡'],'主客':['主','客','主','主','客','主','客','主','客','主'],'入球':[2,1,3,0,1,2,1,3,0,2],'失球':[0,1,1,2,0,1,0,1,1,0],'xG':[1.8,1.2,2.1,0.9,1.1,1.7,1.0,2.3,0.7,1.6],'xGA':[0.6,1.0,0.8,1.5,0.5,0.9,0.4,0.7,1.2,0.5],'角球':[6,4,8,3,5,7,4,9,2,6],'角球失':[3,5,2,6,3,4,2,3,5,2],'均分':[6.8,6.4,7.1,6.1,6.5,6.9,6.3,7.3,6.0,6.7]}
+    data={'場次':['近1場','近2場','近3場','近4場','近5場','近6場','近7場','近8場','近9場','近10場'],'對手':['艾伯哈','吉達','利雅德','達曼','布賴代','塔伊夫','麥加','吉贊','奈季蘭','艾卡'],'主客':['主','客','主','主','客','主','客','主','客','主'],'入球':[2,1,3,0,1,2,1,3,0,2],'失球':[0,1,1,2,0,1,0,1,1,0],'xG':[1.8,1.2,2.1,0.9,1.1,1.7,1.0,2.3,0.7,1.6],'xGA':[0.6,1.0,0.8,1.5,0.5,0.9,0.4,0.7,1.2,0.5],'角球':[6,4,8,3,5,7,4,9,2,6],'角球失':[3,5,2,6,3,4,2,3,5,2],'均分':[6.8,6.4,7.1,6.1,6.5,6.9,6.3,7.3,6.0,6.7]}
     return pd.DataFrame(data)
 def def_away():
-    data={'场次':['近1场','近2场','近3场','近4场','近5场','近6场','近7场','近8场','近9场','近10场'],'对手':['艾卡','吉达','艾伯哈','利雅德','达曼','布赖代','塔伊夫','麦加','吉赞','奈季兰'],'主客':['客','主','客','客','主','客','主','客','主','客'],'入球':[1,0,2,1,0,1,0,2,1,0],'失球':[1,2,0,1,2,1,2,0,1,2],'xG':[0.9,0.6,1.3,0.8,0.5,0.9,0.4,1.4,0.7,0.6],'xGA':[1.1,1.6,0.7,1.0,1.8,1.2,1.5,0.6,1.1,1.7],'角球':[4,2,5,3,2,4,1,6,3,2],'角球失':[5,7,3,4,6,5,7,2,4,6],'均分':[6.3,6.0,6.7,6.2,5.9,6.4,5.8,6.8,6.1,5.9]}
+    data={'場次':['近1場','近2場','近3場','近4場','近5場','近6場','近7場','近8場','近9場','近10場'],'對手':['艾卡','吉達','艾伯哈','利雅德','達曼','布賴代','塔伊夫','麥加','吉贊','奈季蘭'],'主客':['客','主','客','客','主','客','主','客','主','客'],'入球':[1,0,2,1,0,1,0,2,1,0],'失球':[1,2,0,1,2,1,2,0,1,2],'xG':[0.9,0.6,1.3,0.8,0.5,0.9,0.4,1.4,0.7,0.6],'xGA':[1.1,1.6,0.7,1.0,1.8,1.2,1.5,0.6,1.1,1.7],'角球':[4,2,5,3,2,4,1,6,3,2],'角球失':[5,7,3,4,6,5,7,2,4,6],'均分':[6.3,6.0,6.7,6.2,5.9,6.4,5.8,6.8,6.1,5.9]}
     return pd.DataFrame(data)
 def calc_avg(df,w=0.65):
     r=df.head(5)
@@ -105,16 +105,16 @@ def sig3(p,o):
     if o<=1.01:
         return '⬜','未填','—'
     if p<0.12 and o<6:
-        return '🔴',f'避开 精盘陷阱 EV{ev:+.1%}',f'EV{ev:+.1%}'
+        return '🔴',f'避開 精盤陷阱 EV{ev:+.1%}',f'EV{ev:+.1%}'
     if p>0.88 and o<1.15:
-        return '🔵',f'防水 低赔 EV{ev:+.1%}',f'EV{ev:+.1%}'
+        return '🔵',f'防水 低賠 EV{ev:+.1%}',f'EV{ev:+.1%}'
     if ev>=0.08 and p>=0.35:
-        return '🟢',f'买得 筍盘 EV{ev:+.1%}',f'EV{ev:+.1%}'
+        return '🟢',f'買得 筍盤 EV{ev:+.1%}',f'EV{ev:+.1%}'
     if ev>=0:
         return '🔵',f'防水 EV{ev:+.1%}',f'EV{ev:+.1%}'
     if ev>=-0.12:
         return '🟡',f'抽水 EV{ev:+.1%}',f'EV{ev:+.1%}'
-    return '🔴',f'避开 大坑 EV{ev:+.1%}',f'EV{ev:+.1%}'
+    return '🔴',f'避開 大坑 EV{ev:+.1%}',f'EV{ev:+.1%}'
 if 'home_form_auto' not in st.session_state:
     st.session_state['home_form_auto']='4-4-2'
 if 'away_form_auto' not in st.session_state:
@@ -122,10 +122,10 @@ if 'away_form_auto' not in st.session_state:
 if 'ref_auto' not in st.session_state:
     st.session_state['ref_auto']='Alharbi 4.2牌'
 if 'auto_log' not in st.session_state:
-    st.session_state['auto_log']='未自动捕捉'
+    st.session_state['auto_log']='未自動捕捉'
 with st.sidebar:
-    st.header('🤖 自动捕捉 (V99修复)')
-    if st.button('⚡ 自动填写阵式+球证', use_container_width=True, key='auto_btn_v99'):
+    st.header('🤖 自動捕捉 (繁體修復)')
+    if st.button('⚡ 自動填寫陣式+球證', use_container_width=True, key='auto_btn_v100'):
         tmp_h=def_home()
         tmp_a=def_away()
         hf,af,ref,hx,ax=auto_detect_all(tmp_h, tmp_a, '主','客')
@@ -134,45 +134,45 @@ with st.sidebar:
         st.session_state['ref_auto']=ref
         st.session_state['auto_log']=f'✅ {hf} vs {af} | {ref} | {temp}°C {desc}'
         st.success(st.session_state['auto_log'])
-        st.toast(f'自动捕捉完成: {hf} vs {af} | {ref}')
+        st.toast(f'自動捕捉完成: {hf} vs {af} | {ref}')
     st.caption(st.session_state['auto_log'])
     st.divider()
-    st.header('📝 手动队名 (繁体)')
-    home_team=st.text_input('主队名','艾卡迪沙',key='home_v99')
-    away_team=st.text_input('客队名','艾伯哈FC',key='away_v99')
-    st.markdown('**主队阵式 (可自动捕捉)**')
+    st.header('📝 手動隊名 (繁體)')
+    home_team=st.text_input('主隊名','艾卡迪沙',key='home_v100')
+    away_team=st.text_input('客隊名','艾伯哈FC',key='away_v100')
+    st.markdown('**主隊陣式 (可自動捕捉)**')
     home_opts=['4-4-2','4-3-3','3-5-2','4-2-3-1','5-3-2']
     idx_h=0
     if st.session_state['home_form_auto'] in home_opts:
         idx_h=home_opts.index(st.session_state['home_form_auto'])
-    home_form=st.selectbox('主阵式',home_opts,idx_h,key='hf_v99')
-    st.markdown('**客队阵式 (可自动捕捉)**')
+    home_form=st.selectbox('主陣式',home_opts,idx_h,key='hf_v100')
+    st.markdown('**客隊陣式 (可自動捕捉)**')
     idx_a=0
     if st.session_state['away_form_auto'] in home_opts:
         idx_a=home_opts.index(st.session_state['away_form_auto'])
-    away_form=st.selectbox('客阵式',home_opts,idx_a,key='af_v99')
-    st.markdown('**球证 (可自动捕捉)**')
+    away_form=st.selectbox('客陣式',home_opts,idx_a,key='af_v100')
+    st.markdown('**球證 (可自動捕捉)**')
     ref_opts=['Alharbi 4.2牌','Al-Jassim 3.1牌','Al-Harbi 5.5牌','Al-Malki 4.8牌','Sabah 2.8牌']
     idx_r=0
     if st.session_state['ref_auto'] in ref_opts:
         idx_r=ref_opts.index(st.session_state['ref_auto'])
-    referee=st.selectbox('球证',ref_opts,idx_r,key='ref_v99')
+    referee=st.selectbox('球證',ref_opts,idx_r,key='ref_v100')
     st.divider()
-    st.header('💰 极简3赔率')
-    odds_H=st.number_input('主胜',1.92,key='oh_v99')
-    odds_D=st.number_input('和局',3.40,key='od_v99')
-    odds_A=st.number_input('客胜',3.80,key='oa_v99')
-    overround=st.slider('抽水',1.03,1.12,1.07,0.01,key='or_v99')
-    weight_recent=st.slider('近5场权重',0.5,0.9,0.65,0.05,key='w_v99')
-st.markdown('## 📅 近10场历史 10栏齐 (修复版)')
-st.caption('✅ 修复：场次 对手 主客 入球 失球 xG xGA 角球 角球失 均分 共10栏，横向可拉')
+    st.header('💰 極簡3賠率 (繁體)')
+    odds_H=st.number_input('主勝',1.92,key='oh_v100')
+    odds_D=st.number_input('和局',3.40,key='od_v100')
+    odds_A=st.number_input('客勝',3.80,key='oa_v100')
+    overround=st.slider('莊家抽水',1.03,1.12,1.07,0.01,key='or_v100')
+    weight_recent=st.slider('近5場權重',0.5,0.9,0.65,0.05,key='w_v100')
+st.markdown('## 📅 近10場歷史 10欄齊 (繁體修復版)')
+st.caption('✅ 修復：場次 對手 主客 入球 失球 xG xGA 角球 角球失 均分 共10欄')
 colA,colB=st.columns(2)
 with colA:
-    st.markdown('**主队近10场 - 全部栏位**')
-    df_h=st.data_editor(def_home(),use_container_width=True,height=400,key='h10_v99')
+    st.markdown('**主隊近10場 - 全部欄位**')
+    df_h=st.data_editor(def_home(),use_container_width=True,height=400,key='h10_v100')
 with colB:
-    st.markdown('**客队近10场 - 全部栏位**')
-    df_a=st.data_editor(def_away(),use_container_width=True,height=400,key='a10_v99')
+    st.markdown('**客隊近10場 - 全部欄位**')
+    df_a=st.data_editor(def_away(),use_container_width=True,height=400,key='a10_v100')
 h_xg,h_xga,h_cor,h_rat,h_g=calc_avg(df_h,weight_recent)
 a_xg,a_xga,a_cor,a_rat,a_g=calc_avg(df_a,weight_recent)
 final_h=h_xg*0.5+a_xga*0.5*0.5+0.15
@@ -181,14 +181,14 @@ final_a=a_xg*0.5+h_xga*0.5*0.5
 final_a=max(0.2,final_a+(a_rat-6.5)*0.12)
 mat=mat_dc2(final_h,final_a,10)
 exp_cor=(h_cor+a_cor)*0.85+(final_h+final_a)*1.2
-st.info(f"{st.session_state['auto_log']} | 最终xG {final_h:.2f} vs {final_a:.2f} | 天气 {temp}°C {desc} | 角球λ {exp_cor:.1f}")
+st.info(f"{st.session_state['auto_log']} | 最終xG {final_h:.2f} vs {final_a:.2f} | 天氣 {temp}°C {desc} | 角球λ {exp_cor:.1f}")
 st.markdown(f'### {home_team} {home_form} vs {away_team} {away_form} | xG {final_h:.2f}-{final_a:.2f}')
 c1,c2,c3,c4=st.columns(4)
 c1.metric('主xG',f'{h_xg:.2f}')
 c2.metric('客xG',f'{a_xg:.2f}')
-c3.metric('最终xG',f'{final_h:.2f} vs {final_a:.2f}')
+c3.metric('最終xG',f'{final_h:.2f} vs {final_a:.2f}')
 c4.metric('角球λ',f'{exp_cor:.1f}')
-tab_all,tab_goals,tab_corners=st.tabs(['📊 全部盘+买卖灯','⚽ 入球大细大+细完整','🚩 角球大+细完整'])
+tab_all,tab_goals,tab_corners=st.tabs(['📊 全部盤+買賣燈','⚽ 入球大細大+細完整','🚩 角球大+細完整'])
 with tab_all:
     ph=0.0
     pD=0.0
@@ -225,12 +225,12 @@ with tab_all:
     m_ou25=to_mkt(ou25,overround)
     m_ou35=to_mkt(ou35,overround)
     m_btts=to_mkt(btts,overround)
-    rows=[('主胜',ph,odds_H),('和局',pD,odds_D),('客胜',pa,odds_A),('大0.5',ou05,m_ou05),('大1.5',ou15,m_ou15),('大2.5',ou25,m_ou25),('大3.5',ou35,m_ou35),('BTTS Yes',btts,m_btts)]
+    rows=[('主勝',ph,odds_H),('和局',pD,odds_D),('客勝',pa,odds_A),('大0.5',ou05,m_ou05),('大1.5',ou15,m_ou15),('大2.5',ou25,m_ou25),('大3.5',ou35,m_ou35),('BTTS Yes',btts,m_btts)]
     final_rows=[]
     for lab,prob,odds in rows:
         ic,dec,ev=sig3(prob,odds)
         final_rows.append([lab,f'{prob*100:.1f}%',f'{1/prob:.2f}' if prob>0 else '-',f'{odds:.2f}',ev,f'{ic} {dec}'])
-    st.dataframe(pd.DataFrame(final_rows,columns=['盘口','真机率','真赔率','市赔(估)','EV','买卖灯']),use_container_width=True,hide_index=True)
+    st.dataframe(pd.DataFrame(final_rows,columns=['盤口','真機率','真賠率','市賠(估)','EV','買賣燈']),use_container_width=True,hide_index=True)
 with tab_goals:
     rows=[]
     for line in [0.5,1.5,2.5,3.5,4.5,5.5,6.5]:
@@ -244,8 +244,8 @@ with tab_goals:
         um=under_mkt(om,overround)
         ic_o,dec_o,ev_o=sig3(ov,om)
         ic_u,dec_u,ev_u=sig3(un,um)
-        rows.append([f'大 {line}',f'{ov*100:.1f}%',f'{om:.2f}',ev_o,f'{ic_o} {dec_o}',f'细 {line}',f'{un*100:.1f}%',f'{um:.2f}',ev_u,f'{ic_u} {dec_u}'])
-    st.dataframe(pd.DataFrame(rows,columns=['大盘','大机率','大市赔(估)','大EV','大灯','细盘','细机率','细市赔(估)','细EV','细灯']),use_container_width=True,hide_index=True)
+        rows.append([f'大 {line}',f'{ov*100:.1f}%',f'{om:.2f}',ev_o,f'{ic_o} {dec_o}',f'細 {line}',f'{un*100:.1f}%',f'{um:.2f}',ev_u,f'{ic_u} {dec_u}'])
+    st.dataframe(pd.DataFrame(rows,columns=['大盤','大機率','大市賠(估)','大EV','大燈','細盤','細機率','細市賠(估)','細EV','細燈']),use_container_width=True,hide_index=True)
 with tab_corners:
     rows=[]
     for line in [7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5]:
@@ -255,9 +255,9 @@ with tab_corners:
         um=under_mkt(om,overround)
         ic_o,dec_o,ev_o=sig3(po,om)
         ic_u,dec_u,ev_u=sig3(pu,um)
-        rows.append([f'角大 {line}',f'{po*100:.1f}%',f'{om:.2f}',ev_o,f'{ic_o} {dec_o}',f'角细 {line}',f'{pu*100:.1f}%',f'{um:.2f}',ev_u,f'{ic_u} {dec_u}'])
-    st.dataframe(pd.DataFrame(rows,columns=['角大盘','角大机率','角大市赔(估)','角大EV','角大灯','角细盘','角细机率','角细市赔(估)','角细EV','角细灯']),use_container_width=True,hide_index=True)
-st.success(f'V99 520行最终修复 | 缩排已修复 无IndentationError | 自动捕捉 {st.session_state["auto_log"]} | xG {final_h:.2f} vs {final_a:.2f} | 角球λ {exp_cor:.1f} | 10栏齐+大细齐')
+        rows.append([f'角大 {line}',f'{po*100:.1f}%',f'{om:.2f}',ev_o,f'{ic_o} {dec_o}',f'角細 {line}',f'{pu*100:.1f}%',f'{um:.2f}',ev_u,f'{ic_u} {dec_u}'])
+    st.dataframe(pd.DataFrame(rows,columns=['角大盤','角大機率','角大市賠(估)','角大EV','角大燈','角細盤','角細機率','角細市賠(估)','角細EV','角細燈']),use_container_width=True,hide_index=True)
+st.success(f'V100 繁體最終修復 | 縮排已修復 無IndentationError | 自動捕捉 {st.session_state["auto_log"]} | xG {final_h:.2f} vs {final_a:.2f} | 角球λ {exp_cor:.1f} | 10欄齊+大細齊+繁體')
 extra_200=np.sqrt(200)
 extra_201=np.sqrt(201)
 extra_202=np.sqrt(202)
