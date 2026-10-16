@@ -5,7 +5,7 @@ from datetime import datetime
 st.set_page_config(page_title="Coup Football V40 終極自己用", layout="wide")
 st.title("⚽ Coup Football V40 終極自己用版")
 
-# === 34個聯賽 ===
+# === 34個聯賽 貼市 ===
 presets={
     "英格蘭超級聯賽":(1.55,1.25), "澳職職業聯賽":(1.65,1.15), "日本職業聯賽":(1.60,1.20),
     "日本乙組聯賽":(1.40,1.05), "南韓職業聯賽":(1.45,1.05), "女子澳洲職業聯賽":(1.80,1.20),
@@ -61,11 +61,12 @@ scorelines=sorted(scorelines,key=lambda x:x[1],reverse=True)[:6]
 st.divider()
 st.subheader("💰 365賠率 - 計真EV")
 o1,o2,o3,o4,o5=st.columns(5)
-with o1: odd_h=st.number_input(f"{team_h}勝",1.5,10.0,2.10,0.05)
-with o2: odd_d=st.number_input("和",1.5,10.0,3.30,0.05)
-with o3: odd_a=st.number_input(f"{team_a}勝",1.5,10.0,3.40,0.05)
-with o4: odd_over=st.number_input("大2.5",1.5,10.0,1.85,0.05)
-with o5: odd_under=st.number_input("細2.5",1.5,10.0,1.95,0.05)
+# 已Fix 1.01-30.0 唔再紅
+with o1: odd_h=st.number_input(f"{team_h}勝",1.01,30.0,2.10,0.05)
+with o2: odd_d=st.number_input("和",1.01,30.0,3.30,0.05)
+with o3: odd_a=st.number_input(f"{team_a}勝",1.01,30.0,3.40,0.05)
+with o4: odd_over=st.number_input("大2.5",1.01,30.0,1.85,0.05)
+with o5: odd_under=st.number_input("細2.5",1.01,30.0,1.95,0.05)
 
 def true_ev(prob,odd): return prob*odd-1
 ev_h,ev_d,ev_a=true_ev(prob_h,odd_h),true_ev(prob_d,odd_d),true_ev(prob_a,odd_a)
@@ -83,7 +84,6 @@ c5.metric(f"細2.5 {(1-over25)*100:.1f}% {ev_tag(ev_under)}", f"真EV {ev_under*
 st.subheader("📊 波膽 - 天眼神機")
 for (i,j),p in scorelines: st.write(f"**{i}-{j} {p*100:.2f}%**")
 
-# === 自學板 155行重點 ===
 st.divider()
 st.subheader("🧠 自學板 - 自己用記賽果")
 s1,s2,s3=st.columns(3)
@@ -98,11 +98,9 @@ with s3:
         else: df=df_new
         df.to_csv("matches.csv",index=False)
         st.success(f"已儲存 {team_h} {real_h}-{real_a} {team_a}")
-        st.toast("自學成功！",icon="🧠")
 
 if os.path.exists("matches.csv"):
     st.dataframe(pd.read_csv("matches.csv").tail(10), use_container_width=True)
-    st.caption(f"已儲 {len(pd.read_csv('matches.csv'))} 場 | 自己用專屬數據")
-else: st.caption("未有賽果，賽後記得儲存，自己用越儲越準")
+else: st.caption("未有賽果，賽後記得儲存")
 
-st.caption(f"終極自己用版 | {league} | 總xG {total:.2f} | 34聯賽環球通 | 行數約155")
+st.caption(f"終極自己用版 | {league} | 總xG {total:.2f} | 34聯賽 | 已Fix紅框")
