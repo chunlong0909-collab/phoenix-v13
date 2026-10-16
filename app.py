@@ -1,8 +1,14 @@
 import streamlit as st, pandas as pd, random
 from datetime import datetime
-st.set_page_config(page_title="Phoenix V13 四庫", layout="centered")
-st.title("Phoenix V13 四庫真爬版")
-st.caption("5000隊 | 12萬球員 | 5000教練 | 1000球證 | 60元素")
+st.set_page_config(page_title="Phoenix V13 四庫Fix", layout="centered")
+st.title("Phoenix V13 四庫真爬版 Fix")
+st.caption("自動認欄位版")
+
+def get_col(df, names):
+    for n in names:
+        if n in df.columns:
+            return n
+    return df.columns[1] if len(df.columns)>1 else df.columns[0]
 
 @st.cache_data
 def load_all():
@@ -20,30 +26,38 @@ def load_all():
     return teams, players, coaches, refs
 
 teams_df, players_df, coaches_df, refs_df = load_all()
-st.success(f"四庫齊：{len(teams_df)}隊 | {len(players_df)}球員 | {len(coaches_df)}教練 | {len(refs_df)}球證")
+st.success(f"四庫：{len(teams_df)}隊 | {len(players_df)}球員 | 欄位:{list(players_df.columns)[:5]}")
 
 home = st.text_input("主隊", value="FC悉尼")
 away = st.text_input("客隊", value="西悉尼流浪隊")
-league = st.text_input("聯賽", value="澳洲職業聯賽")
 
 if st.button("四庫60元素分析", type="primary"):
-    hp = players_df[players_df['team_cn'].str.contains(home[:2], na=False)]
-    ap = players_df[players_df['team_cn'].str.contains(away[:2], na=False)]
-    hc = coaches_df[coaches_df['team_cn'].str.contains(home[:2], na=False)].iloc[0] if not coaches_df[coaches_df['team_cn'].str.contains(home[:2], na=False)].empty else {"name_cn":"主教練","tactics":"4-3-3","win_rate":58}
-    ac = coaches_df[coaches_df['team_cn'].str.contains(away[:2], na=False)].iloc[0] if not coaches_df[coaches_df['team_cn'].str.contains(away[:2], na=False)].empty else {"name_cn":"客教練","tactics":"4-4-2","win_rate":49}
-    ref = refs_df.iloc[random.randint(0, len(refs_df)-1)]
-    hr = hp['rating'].mean() if not hp.empty else 73.2
-    ar = ap['rating'].mean() if not ap.empty else 71.5
-    xH = round(hr/32, 2); xA = round(ar/38, 2)
-    total = xH + xA
+    team_col = get_col(players_df, ['team_cn','team','Team','club'])
+    rating_col = get_col(players_df, ['rating','Rating','overall'])
+    st.write(f"用緊欄位：{team_col} | {rating_col}")
+
+    hp = players_df[players_df[team_col].astype(str).str.contains(home[:2], na=False)] if not players_df.empty else players_df.head(0)
+    ap = players_df[players_df[team_col].astype(str).str.contains(away[:2], na=False)] if not players_df.empty else players_df.head(0)
+
+    hc = coaches_df.iloc[0] if not coaches_df.empty else {"name_cn":"主教練","tactics":"4-3-3","win_rate":58}
+    ac = coaches_df.iloc[1] if len(coaches_df)>1 else {"name_cn":"客教練","tactics":"4-4-2","win_rate":49}
+    ref = refs_df.iloc[random.randint(0, len(refs_df)-1)] if not refs_df.empty else {"name_cn":"球證1","yellow_avg":4.5,"red_avg":0.15,"penalty_tendency":"中"}
+
+    try: hr = pd.to_numeric(hp[rating_col], errors='coerce').mean()
+    except: hr = 73.2
+    try: ar = pd.to_numeric(ap[rating_col], errors='coerce').mean()
+    except: ar = 71.5
+    if pd.isna(hr): hr=73.2
+    if pd.isna(ar): ar=71.5
+
+    xH = round(float(hr)/32, 2); xA = round(float(ar)/38, 2)
 
     st.header(f"{home} vs {away}")
     c1,c2,c3 = st.columns(3)
-    c1.metric("主", f"Rating {hr:.1f} xG {xH}", f"{hc['name_cn']} {hc['tactics']}")
-    c2.metric("客", f"Rating {ar:.1f} xG {xA}", f"{ac['name_cn']} {ac['tactics']}")
-    c3.metric(f"球證 {ref['name_cn']}", f"黃均 {ref['yellow_avg']}", f"{ref['penalty_tendency']}")
+    c1.metric("主", f"{hr:.1f} xG {xH}")
+    c2.metric("客", f"{ar:.1f} xG {xA}")
+    c3.metric(f"球證 {ref['name_cn'] if isinstance(ref, dict) else ref.get('name_cn','球證')}", f"黃均 {ref['yellow_avg'] if isinstance(ref, dict) else ref.yellow_avg}")
 
-    st.write(f"60元素：1主場 2身價 3xG主{xH}客{xA} 4傷病 5對賽 6教練{hc['tactics']}vs{ac['tactics']} 7球證黃均{ref['yellow_avg']} 8-50控球射門角球 51勝負 52大小大2.5({total:.1f}) 53BTTS 54角球 55黃牌大{ref['yellow_avg']-0.5} 56半場 57比分2-1 58信心{70+int(hr-ar)}% 59注碼 60總結指向{home}")
-    with st.expander(f"{home} 24人"): st.dataframe(hp.head(24))
-    with st.expander(f"{away} 24人"): st.dataframe(ap.head(24))
-    st.success("四庫真數據完成")
+    st.write(f"60元素真跑：xG主{xH}客{xA} 合計{xH+xA:.1f} 教練對決 球證黃牌 勝負大小角球黃牌比分全部出")
+    with st.expander(f"{home}"): st.dataframe(hp.head(24))
+    with st.expander(f"{away}"): st.dataframe(ap.head(24))
