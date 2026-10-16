@@ -1,89 +1,108 @@
-import streamlit as st, pandas as pd, random
-st.set_page_config(layout="wide")
-st.title("Phoenix V13 - 終極60元素")
+import streamlit as st, pandas as pd, numpy as np, math, random, json, os, re
+from datetime import datetime
+import plotly.express as px
 
-@st.cache_data
-def load():
-    t=pd.read_csv("teams_world.csv")
-    p=pd.read_csv("players_world.csv")
-    return t,p
+st.set_page_config(page_title="OCUP V38 Coup Football 完全體", layout="wide")
+st.title("👑 OCUP V38 | Coup Football 完全體")
+st.caption("Coup Football 官方動畫版 | 波膽為王 + xG紅線 + Heatmap + 射門圖")
 
-td,pd_=load()
-st.success(f"已載入 {len(td)}隊 {len(pd_)}球員 - 系統正常")
+LEARN_FILE="learn_log.json"
+def load_learn():
+    if os.path.exists(LEARN_FILE):
+        try:
+            with open(LEARN_FILE,"r",encoding="utf-8") as f: return json.load(f)
+        except: return []
+    return []
+def save_learn(d):
+    with open(LEARN_FILE,"w",encoding="utf-8") as f: json.dump(d,f,ensure_ascii=False,indent=2)
+if "learn_log" not in st.session_state: st.session_state.learn_log=load_learn()
 
-home=st.text_input("主隊",value="FC悉尼")
-away=st.text_input("客隊",value="西悉尼流浪隊")
+c1,c2,c3,c4=st.columns([2,2,1,1])
+with c1: team_h=st.text_input("🏠 主隊", "FC悉尼")
+with c2: team_a=st.text_input("🚀 客隊", "西悉尼流浪隊")
+with c3: league=st.selectbox("聯賽", ["澳職","英超","英冠","英甲"])
+with c4: weather=st.selectbox("天氣", ["晴","雨","大風"])
 
-if st.button("🔥 生成終極60元素表",type="primary",use_container_width=True):
-    xH,xA,total=2.29,1.87,4.16
-    st.header(f"{home} vs {away} - 2-1 預測 主勝71%")
-    c1,c2,c3=st.columns(3)
-    c1.metric(home,"Rating 73.5","xG 2.29 主場+0.4")
-    c2.metric(away,"Rating 71.2","xG 1.87 反擊強")
-    c3.metric("球證/盤口","黃均4.8 大2.5","角9.5")
+col1,col2=st.columns(2)
+with col1: xg_h=st.slider(f"🏠 {team_h} xG 紅線",0.2,3.5,1.60,0.05)
+with col2: xg_a=st.slider(f"🚀 {team_a} xG 紅線",0.2,3.5,0.95,0.05)
+total=xg_h+xg_a
+st.progress(min(total/4.0,1.0), text=f"總xG {total:.2f} | {'🟢正常' if 2.2<=total<=3.2 else '偏離'}")
 
-    elements=[
-        (1,"基礎","聯賽排名: FC悉尼第3(爭冠) vs 西悉尼第7(中游)"),
-        (2,"基礎","主客場: 悉尼主場68%勝率，近10主場7勝"),
-        (3,"基礎","近況: 悉尼3勝1平1負，西悉尼2勝1平2負"),
-        (4,"基礎","身價: 主€45M vs 客€32M，差€13M 中場差距大"),
-        (5,"基礎","Rating: 主73.5 vs 客71.2 差2.3 主優"),
-        (6,"基礎","xG模型: 主2.29 vs 客1.87 合計4.16 大球格局"),
-        (7,"基礎","傷停: 主隊缺1替補，客隊中場核心黃牌停賽-大利好"),
-        (8,"基礎","戰意: 主隊德比復仇+爭冠，戰意10分滿"),
-        (9,"基礎","天氣: 晴22度 完美進攻天"),
-        (10,"基礎","歷史對賽: 近6次主隊3勝2平1負 主場不敗"),
-        (11,"進攻","控球: 主58% vs 客42% 主隊控場"),
-        (12,"進攻","射門: 主15.2次/場 vs 客11.3"),
-        (13,"進攻","射正: 主6.1次 vs 客4.2 效率高"),
-        (14,"進攻","角球: 主6.2 vs 客4.5 合10.7 預期大9.5"),
-        (15,"進攻","傳中: 主18次 邊路進攻多"),
-        (16,"進攻","關鍵傳球: 主12次 vs 客8次"),
-        (17,"進攻","xA助攻預期: 主1.8 vs 客1.1"),
-        (18,"進攻","定位球: 主隊本季定位球入7球"),
-        (19,"進攻","反擊: 客隊反擊強但主隊回防快"),
-        (20,"進攻","進攻效率: 主每6.5次射門入1球"),
-        (21,"防守","失球: 主0.9/場 vs 客1.3/場"),
-        (22,"防守","零封: 主40% vs 客25%"),
-        (23,"防守","攔截: 主12次客15次 客隊被動"),
-        (24,"防守","解圍: 主22次 客28次"),
-        (25,"防守","犯規: 主13客14 德比預期多犯規"),
-        (26,"防守","被射門: 主9次 vs 客13次"),
-        (27,"防守","門將: 主撲救75% vs 客68%"),
-        (28,"防守","高空: 主52%勝率"),
-        (29,"防守","失誤: 客場均1.2次致命失誤"),
-        (30,"防守","體能: 主隊少賽1場 體能優"),
-        (31,"教練","主帥 Talay 勝率62% 4-3-3進攻"),
-        (32,"教練","客帥 Stajcic 勝率51% 4-4-2防守"),
-        (33,"教練","克制: 4-3-3控球克4-4-2反擊"),
-        (34,"教練","調整: 主帥半場調整勝率高30%"),
-        (35,"教練","德比經驗: 主帥德比3連勝"),
-        (36,"球證","主裁 黃均4.8 德比戰偏嚴"),
-        (37,"球證","紅牌 均0.18 德比易紅"),
-        (38,"球證","點球傾向: 中至嚴 主場略利"),
-        (39,"球證","主場哨: 澳職主場哨明顯"),
-        (40,"球證","VAR: 本場有VAR 點球概率+15%"),
-        (41,"盤口","初盤: 主-0.25升-0.5 資金推高"),
-        (42,"盤口","即時: 主-0.5 高水0.92 有阻"),
-        (43,"盤口","歐賠: 主1.85 平3.40 客3.90"),
-        (44,"盤口","大小: 2.5升2.5/3 大熱"),
-        (45,"盤口","角球: 9.5大0.88 大熱"),
-        (46,"盤口","黃牌: 4.5張 大熱"),
-        (47,"盤口","資金: 70%去主，熱但合理"),
-        (48,"盤口","必發: 主勝55%成交"),
-        (49,"盤口","冷熱: 主熱但有題材支撐"),
-        (50,"盤口","心理: 客隊下盤拉力不足"),
-        (51,"推薦","勝負: 主勝 信心71%"),
-        (52,"推薦","讓球: 主-0.5 可博"),
-        (53,"推薦","大小: 大2.5 預期4.16球"),
-        (54,"推薦","BTTS: Yes 65% 雙方近6次5次Yes"),
-        (55,"推薦","角球: 大9.5 信心68%"),
-        (56,"推薦","黃牌: 大4.5 德比+嚴哨"),
-        (57,"推薦","半場: 半場主勝 / 大0.75"),
-        (58,"推薦","比分: 2-1 (主) / 2-0 雙選"),
-        (59,"推薦","注碼: 2%均注 信心71%"),
-        (60,"總結","三利好 Rating+教練+主場 主勝+大2.5+大角三串"),
-    ]
-    st.dataframe(pd.DataFrame(elements,columns=["#","分類","專業分析"]),use_container_width=True,height=1000)
-    st.success("✅ 終極預測：FC悉尼 2-1 勝 | 主勝71% | 大2.5 | 角大9.5 | 黃大4.5 | BTTS Yes")
-    st.balloons()
+def poisson(k,lam): return math.exp(-lam)*lam**k/math.factorial(k)
+scores={}
+for h in range(13):
+    for a in range(13):
+        p=poisson(h,xg_h)*poisson(a,xg_a)
+        if weather=="雨": p*=0.90 if h+a>2.5 else 1.08
+        scores[(h,a)]=p
+tp=sum(scores.values()); scores={k:v/tp for k,v in scores.items()}
+
+mat=np.zeros((6,6))
+for i in range(6):
+    for j in range(6): mat[i,j]=scores.get((i,j),0)*100
+hw=sum(v for (h,a),v in scores.items() if h>a)*100
+dr=sum(v for (h,a),v in scores.items() if h==a)*100
+aw=sum(v for (h,a),v in scores.items() if h<a)*100
+o25=sum(v for (h,a),v in scores.items() if h+a>2.5)*100
+u25=100-o25
+btts=sum(v for (h,a),v in scores.items() if h>=1 and a>=1)*100
+
+st.subheader("📊 動畫概率")
+a1,a2,a3=st.columns(3)
+a1.metric(f"{team_h}勝",f"{hw:.1f}%"); a1.progress(int(hw))
+a2.metric("和",f"{dr:.1f}%"); a2.progress(int(dr))
+a3.metric(f"{team_a}勝",f"{aw:.1f}%"); a3.progress(int(aw))
+b1,b2,b3=st.columns(3)
+b1.metric("大2.5",f"{o25:.1f}%",delta="大" if o25>50 else "細")
+b2.metric("細2.5",f"{u25:.1f}%")
+b3.metric("BTTS",f"{btts:.1f}%")
+
+st.subheader("🔥 波膽王 Coup Football 核心 - 0-12球真率 + EV")
+rows=[]
+for (h,a),p in sorted(scores.items(), key=lambda x:-x[1])[:20]:
+    if h>5 and a>5: continue
+    fair=1/p if p>0 else 99
+    evv=(p*fair*0.92-1)*100
+    tag="🟢放水必買" if evv>3 else "🔴黑盤" if evv<-10 else "⚪"
+    rows.append({"波膽":f"{h}-{a}","真率":f"{p*100:.2f}%","EV":f"{evv:.1f}%","判定":tag})
+st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+
+st.subheader("🎯 波膽矩陣 Heatmap")
+fig_hm=px.imshow(mat, text_auto=".1f", x=[0,1,2,3,4,5], y=[0,1,2,3,4,5], color_continuous_scale="Reds", labels=dict(color="概率%"))
+fig_hm.update_layout(height=400, title=f"{team_h} vs {team_a} Heatmap")
+st.plotly_chart(fig_hm, use_container_width=True)
+
+top8=pd.DataFrame([{"波膽":f"{h}-{a}","概率%":round(p*100,2)} for (h,a),p in sorted(scores.items(), key=lambda x:-x[1])[:8]])
+st.bar_chart(top8.set_index("波膽")["概率%"])
+st.table(top8)
+
+st.subheader("⚽ 射門點動畫地圖")
+shots=[]
+for _ in range(int(xg_h*8)): shots.append({"x":random.uniform(70,110),"y":random.uniform(20,80),"team":team_h})
+for _ in range(int(xg_a*8)): shots.append({"x":random.uniform(0,30),"y":random.uniform(20,80),"team":team_a})
+df_shot=pd.DataFrame(shots)
+fig_shot=px.scatter(df_shot, x="x", y="y", color="team", height=350, title="模擬射門位置")
+st.plotly_chart(fig_shot, use_container_width=True)
+
+st.subheader("🚩 角球 / 黃牌 / 讓球")
+corner_total=round(total*3.8+random.uniform(-1,1),1)
+cc1,cc2,cc3,cc4=st.columns(4)
+cc1.metric("角球總",f"{corner_total}"); cc2.metric(f"{team_h}角",round(corner_total*(xg_h/total))); cc3.metric("黃牌預",f"{4.8}"); cc4.metric("角大9.5",f"{78 if corner_total>9.5 else 42}%")
+
+if st.button(f"👑 發動天眼 {team_h} vs {team_a}", type="primary", use_container_width=True):
+    entry={"time":datetime.now().strftime("%m-%d %H:%M"),"match":f"{team_h} vs {team_a}","xg":f"{xg_h}-{xg_a}","total":round(total,2),"hw":round(hw,1),"o25":round(o25,1),"top1":sorted(scores.items(), key=lambda x:-x[1])[0][0]}
+    st.session_state.learn_log.append(entry); save_learn(st.session_state.learn_log)
+    st.success(f"✅ 已發動 {team_h} {total:.2f} TOP {entry['top1']} 角{corner_total}"); st.balloons()
+
+st.divider()
+st.subheader("📚 Coup Football 自學板")
+if st.session_state.learn_log: st.dataframe(pd.DataFrame(st.session_state.learn_log), use_container_width=True)
+else: st.info("未有數據，發動一次先有")
+
+q=st.text_input("📝 報比分 格式 2-1")
+if st.button("✅ 提交入庫"):
+    m=re.search(r"(\d+)[-:](\d+)",q)
+    if m:
+        st.session_state.learn_log[-1]["actual"]=m.group(0) if st.session_state.learn_log else m.group(0)
+        save_learn(st.session_state.learn_log); st.success(f"已學 {m.group(0)}"); st.rerun()
