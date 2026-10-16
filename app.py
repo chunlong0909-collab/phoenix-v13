@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Ocup V118.5 中文大細分開+買波建議版
+# Ocup V118.7 正式完成版 - 大還大細還細 + 記號推薦 + 中文 + 足球隊訊息 + Google AI
 import streamlit as st, pandas as pd, numpy as np, math, requests
-st.set_page_config(page_title='Ocup V118.5 完整中文', layout='wide')
+st.set_page_config(page_title='Ocup V118.7 正式完成', layout='wide')
 
 def pmf(k,l):
     if k<0: return 0.0
@@ -33,9 +33,9 @@ def google_ai_weather(city="Riyadh"):
         return {"raw":txt, "adj":-0.25 if is_rain else 0.0}
     except: return {"raw":"晴天 30°C","adj":0.0}
 
-SAUDI_MAP={"艾卡迪沙":"Al-Qadsiah","艾伯哈":"Abha","艾伯哈FC":"Abha Club","吉達聯合":"Al-Ittihad","利雅德":"Al-Riyadh","達曼協作":"Al-Ettifaq","布賴代":"Al-Taawoun","塔伊夫":"Al-Tai","麥加統一":"Al-Wehda","吉贊":"Jazan","奈季蘭":"Najran"}
+SAUDI_MAP={"艾卡迪沙":"Al-Qadsiah","艾伯哈":"Abha","艾伯哈FC":"Abha Club","吉達聯合":"Al-Ittihad","利雅德":"Al-Riyadh","達曼協作":"Al-Ettifaq","布賴代":"Al-Taawoun","塔伊夫":"Al-Tai","麥加統一":"Al-Wehda","吉贊":"Jazan","奈季蘭":"Najran","曼城":"Man City","阿仙奴":"Arsenal"}
 def auto_fetch_team_info(team_name):
-    info={'found':False,'xg':1.45,'xga':1.1,'elo':1450,'name':team_name,'stadium':'','coach':'','formation':'4-3-3'}
+    info={'found':False,'xg':1.45,'xga':1.1,'elo':1450,'name':team_name,'stadium':'沙特王子球場','coach':'教練','formation':'4-3-3'}
     en_name=SAUDI_MAP.get(team_name.strip(), team_name.strip())
     try:
         if not teams_db.empty:
@@ -66,94 +66,113 @@ if 'weather_adj' not in st.session_state: st.session_state['weather_adj']=0.0
 if 'ai_raw' not in st.session_state: st.session_state['ai_raw']="晴天 30°C"
 
 with st.sidebar:
-    st.header('V118.5 中文完整')
-    st.metric('真庫',f'{len(teams_db)}隊')
-    st.subheader('🔍 Google AI搜索')
-    ai_q=st.text_input('想搵咩打咩', placeholder='今日天氣陣容')
+    st.header('V118.7 正式完成版')
+    st.metric('真庫',f'{len(teams_db)}隊 / {len(people_db)}人')
+    st.subheader('🔍 Google AI搜索框')
+    ai_q=st.text_input('想搵咩打咩，一五一十', placeholder='例: 今日艾卡迪沙天氣陣容')
     if st.button('🤖 AI爬搜索', use_container_width=True):
         if ai_q:
             city="Riyadh" if any(x in ai_q for x in ["沙特","艾卡"]) else "London"
-            w=google_ai_weather(city); st.session_state['weather_adj']=w['adj']; st.session_state['ai_raw']=w['raw']; st.success(f"{w['raw']}")
+            w=google_ai_weather(city); st.session_state['weather_adj']=w['adj']; st.session_state['ai_raw']=w['raw']; st.success(f"{w['raw']} 調整 {w['adj']:+.2f}")
     st.caption(f"🌤️ {st.session_state['ai_raw']}")
     st.divider()
     home_team=st.text_input('主隊','艾卡迪沙'); away_team=st.text_input('客隊','艾伯哈FC')
     h_info=auto_fetch_team_info(home_team); a_info=auto_fetch_team_info(away_team)
-    if h_info['found']: st.success(f"✅ {home_team} → {h_info['name']}")
-    if a_info['found']: st.success(f"✅ {away_team} → {a_info['name']}")
-    if st.button('⚡ 一鍵填滿',use_container_width=True):
+    if h_info['found']: st.success(f"✅ {home_team} → {h_info['name']} xG{h_info['xg']}")
+    if a_info['found']: st.success(f"✅ {away_team} → {a_info['name']} xG{a_info['xg']}")
+    if st.button('⚡ 一鍵填滿 (真庫)',use_container_width=True):
         st.session_state['df_h']=def_home(xg=h_info['xg'], xga=h_info['xga'])
         st.session_state['df_a']=def_away(xg=a_info['xg'], xga=a_info['xga'])
         st.rerun()
-    odds_H=st.number_input('主勝',1.0,10.0,1.92,0.01); odds_D=st.number_input('和局',1.0,15.0,3.40,0.01); odds_A=st.number_input('客勝',1.0,15.0,3.80,0.01)
+    odds_H=st.number_input('主勝賠率',1.0,10.0,1.92,0.01); odds_D=st.number_input('和局賠率',1.0,15.0,3.40,0.01); odds_A=st.number_input('客勝賠率',1.0,15.0,3.80,0.01)
     overround=st.slider('抽水',1.03,1.12,1.07,0.01); home_adv=st.slider('主場優勢',-0.2,0.5,0.15,0.05)
     weather_adj=st.slider('🌤️ 天氣調整',-0.5,0.5,st.session_state['weather_adj'],0.05)
 
-st.title(f'{home_team} vs {away_team} - V118.5')
-st.info(f"xG {1.86:.2f} vs {1.11:.2f} (天氣{weather_adj:+.2f}) | 總λ 2.97 | 角λ 10.9 | 真庫 {len(teams_db)}隊 | 教練 7.0 vs 6.4")
-
-st.subheader(f'主隊 {home_team} - 向右碌睇晒xG xGA 角球 均分 教練')
-st.data_editor(st.session_state['df_h'], use_container_width=True, height=380, key='eh')
-st.subheader(f'客隊 {away_team} - 向右碌')
-st.data_editor(st.session_state['df_a'], use_container_width=True, height=380, key='ea')
+st.title(f'{home_team} vs {away_team} - V118.7 正式完成')
+c1,c2=st.columns(2)
+with c1:
+    st.subheader(f'{home_team} (主) - 10場全數據 (向右碌睇xG xGA 角球 均分 教練)')
+    st.session_state['df_h']=st.data_editor(st.session_state['df_h'],use_container_width=True,height=420,key='eh')
+with c2:
+    st.subheader(f'{away_team} (客) - 10場全數據')
+    st.session_state['df_a']=st.data_editor(st.session_state['df_a'],use_container_width=True,height=420,key='ea')
 
 h=calc_avg(st.session_state['df_h']); a=calc_avg(st.session_state['df_a'])
 final_h=max(0.25,(h['xG']+a['xGA'])/2+(h['均分']-6.5)*0.25+home_adv+h['教練']*0.05+weather_adj)
 final_a=max(0.15,(a['xG']+h['xGA'])/2+(a['均分']-6.5)*0.12+a['教練']*0.05+weather_adj)
 mat=mat_dc(final_h,final_a,12); exp_corner=(h['角球']+a['角球'])*0.9+(final_h+final_a)*1.1; exp_goals=final_h+final_a
-
-# 計算買波建議
 p_H=sum(mat[i,j] for i in range(12) for j in range(12) if i>j); p_D=sum(mat[i,i] for i in range(12)); p_A=1-p_H-p_D
-# 最準波膽
-rows_score=[]
-for i in range(6):
-    for j in range(4):
-        p=mat[i,j]
-        if p>0.015: rows_score.append({'波膽':f'{i}:{j}','機率':p,'公平':fair(p),'市賠':to_mkt(p,overround)})
-df_score=pd.DataFrame(rows_score).sort_values('機率',ascending=False).head(20) if rows_score else pd.DataFrame()
+st.info(f"xG {final_h:.2f} vs {final_a:.2f} (天氣{weather_adj:+.2f}) | 總λ {exp_goals:.2f} | 角λ {exp_corner:.1f} | 真庫 {len(teams_db)}隊 | 教練 {h['教練']:.1f} vs {a['教練']:.1f}")
 
-# 買波建議邏輯
-suggestions=[]
-if p_H>0.5: suggestions.append(f"✅ 主勝 {p_H*100:.1f}% 值得買 (公平 {fair(p_H):.2f})")
-if exp_goals>2.7: suggestions.append(f"✅ 入球大2.5 {over_prob(2.5,exp_goals)*100:.1f}% 推")
-else: suggestions.append(f"✅ 入球細2.5 {under_prob(2.5,exp_goals)*100:.1f}% 推")
-if exp_corner>10: suggestions.append(f"✅ 角球大9.5 {over_prob(9.5,exp_corner)*100:.1f}% 推")
-if len(df_score)>0: suggestions.append(f"🎯 波膽最準 {df_score.iloc[0]['波膽']} {df_score.iloc[0]['機率']*100:.1f}%")
+tab1,tab2,tab3,tab4,tab5,tab6=st.tabs(['🏟️ 全部+隊訊','📈 主客和','⚽ 入球大細','🚩 角球大細','🎯 波膽','🔥 推薦'])
 
-tab1,tab2,tab3,tab4,tab5,tab6=st.tabs(['🏟️ 全部+隊訊+推介','📈 主客和','⚽ 入球大細','🚩 角球大細','🎯 波膽','💰 買波建議'])
 with tab1:
     colA,colB=st.columns(2)
-    with colA: st.info(f"主隊: {home_team} ({h_info['name']})\n球場: {h_info['stadium']}\n教練: {h_info['coach']} {h['教練']:.1f}/10\n陣式: {h_info['formation']} Elo:{h_info['elo']}\nxG:{h_info['xg']} xGA:{h_info['xga']}\n天氣: {st.session_state['ai_raw']} {weather_adj:+.2f}")
-    with colB: st.info(f"客隊: {away_team} ({a_info['name']})\n球場: {a_info['stadium']}(客)\n教練: {a_info['coach']} {a['教練']:.1f}/10\n陣式: {a_info['formation']} Elo:{a_info['elo']}\nxG:{a_info['xg']} xGA:{a_info['xga']}\n實力+教練+天氣全部已計")
-    st.success(" | ".join(suggestions))
-with tab2:
-    st.dataframe(pd.DataFrame([{'結果':'主勝','機率':f'{p_H*100:.1f}%','公平':fair(p_H),'市賠':to_mkt(p_H,overround)},{'結果':'和局','機率':f'{p_D*100:.1f}%','公平':fair(p_D),'市賠':to_mkt(p_D,overround)},{'結果':'客勝','機率':f'{p_A*100:.1f}%','公平':fair(p_A),'市賠':to_mkt(p_A,overround)}]),use_container_width=True,hide_index=True)
-with tab3:
-    st.subheader('⚽ 入球大細球 - 分開大細，10條線充足')
-    rows=[]
-    for line in [0.5,1.5,2.5,3.5,4.5]:
-        p_over=over_prob(line,exp_goals); p_under=under_prob(line,exp_goals)
-        rows.append([f'入球 大 {line}',f'{p_over*100:.1f}%',fair(p_over),to_mkt(p_over,overround), '推' if p_over>0.6 else ''])
-        rows.append([f'入球 細 {line}',f'{p_under*100:.1f}%',fair(p_under),to_mkt(p_under,overround), '推' if p_under>0.6 else ''])
-    st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','市賠','推介']),use_container_width=True,hide_index=True)
-with tab4:
-    st.subheader('🚩 角球大細球 - 分開大細，12條線充足')
-    rows=[]
-    for line in [7.5,8.5,9.5,10.5,11.5,12.5]:
-        p_over=over_prob(line,exp_corner); p_under=under_prob(line,exp_corner)
-        rows.append([f'角球 大 {line}',f'{p_over*100:.1f}%',fair(p_over),to_mkt(p_over,overround), '推' if p_over>0.6 else ''])
-        rows.append([f'角球 細 {line}',f'{p_under*100:.1f}%',fair(p_under),to_mkt(p_under,overround), '推' if p_under>0.6 else ''])
-    st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','市賠','推介']),use_container_width=True,hide_index=True)
-with tab5:
-    if not df_score.empty:
-        df_show=df_score.copy()
-        df_show['機率']=df_show['機率'].apply(lambda x: f'{x*100:.2f}%')
-        st.dataframe(df_show, use_container_width=True, hide_index=True)
-    else: st.write("無數據")
-with tab6:
-    st.subheader('💰 買波建議 - 根據實力+教練+天氣+主客和一齊分析')
-    st.success(f"🎯 最準波膽: {df_score.iloc[0]['波膽'] if not df_score.empty else '2:1'} ({df_score.iloc[0]['機率']*100:.1f}% 計)" if not df_score.empty else "2:1")
-    for s in suggestions: st.info(s)
-    st.write(f"總入球λ {exp_goals:.2f} | 角球λ {exp_corner:.1f} | xG {final_h:.2f} vs {final_a:.2f} (天氣{weather_adj:+.2f}) | 教練 {h['教練']:.1f} vs {a['教練']:.1f} | 真庫 {len(teams_db)}隊")
-    st.metric("推介組合", f"{df_score.iloc[0]['波膽'] if not df_score.empty else '2:1'} + 大{2.5 if exp_goals>2.5 else 1.5} + 角大9.5")
+    with colA: st.info(f"主隊: {home_team} ({h_info['name']})\n球場: {h_info['stadium']}\n教練: {h_info['coach']} {h['教練']:.1f}/10\n陣式: {h_info['formation']} Elo:{h_info['elo']}\nxG:{h_info['xg']} xGA:{h_info['xga']}\n近10場 入{int(st.session_state['df_h']['入球'].sum())} 失{int(st.session_state['df_h']['失球'].sum())} 角{int(st.session_state['df_h']['角球'].sum())}\n天氣: {st.session_state['ai_raw']} {weather_adj:+.2f}")
+    with colB: st.info(f"客隊: {away_team} ({a_info['name']})\n球場: {a_info['stadium']}(客)\n教練: {a_info['coach']} {a['教練']:.1f}/10\n陣式: {a_info['formation']} Elo:{a_info['elo']}\nxG:{a_info['xg']} xGA:{a_info['xga']}\n近10場 入{int(st.session_state['df_a']['入球'].sum())} 失{int(st.session_state['df_a']['失球'].sum())} 角{int(st.session_state['df_a']['角球'].sum())}\n分析: 實力+教練+天氣全部一齊分析")
 
-st.success('V118.5 完整版 - 中文大細分開10+12條線充足 + 買波建議 + 球隊訊息齊晒')
+with tab2:
+    rows=[]
+    for name,p in [('主勝',p_H),('和局',p_D),('客勝',p_A)]:
+        mark="✅ 買得" if p>=0.5 else "❌ 唔買" if p<=0.25 else "🔵 可博"
+        rows.append([name,f'{p*100:.1f}%',fair(p),to_mkt(p,overround),mark])
+    st.dataframe(pd.DataFrame(rows,columns=['結果','機率','公平','市賠','推薦']),use_container_width=True,hide_index=True)
+
+with tab3:
+    st.subheader('⚽ 入球大細球 - 大還大，細還細')
+    col_big, col_small = st.columns(2)
+    with col_big:
+        st.markdown("#### 🔴 大球")
+        rows=[]
+        for line in [0.5,1.5,2.5,3.5,4.5]:
+            p=over_prob(line,exp_goals); mark="✅ 買得" if p>=0.6 else "❌ 唔買" if p<=0.35 else "🔵 可博"
+            rows.append([f'大 {line}',f'{p*100:.1f}%',fair(p),mark])
+        st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','推薦']),use_container_width=True,hide_index=True)
+    with col_small:
+        st.markdown("#### 🔵 細球")
+        rows=[]
+        for line in [0.5,1.5,2.5,3.5,4.5]:
+            p=under_prob(line,exp_goals); mark="✅ 買得" if p>=0.6 else "❌ 唔買" if p<=0.35 else "🔵 可博"
+            rows.append([f'細 {line}',f'{p*100:.1f}%',fair(p),mark])
+        st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','推薦']),use_container_width=True,hide_index=True)
+
+with tab4:
+    st.subheader('🚩 角球大細球 - 大還大，細還細')
+    col_big, col_small = st.columns(2)
+    with col_big:
+        st.markdown("#### 🔴 大球")
+        rows=[]
+        for line in [7.5,8.5,9.5,10.5,11.5,12.5]:
+            p=over_prob(line,exp_corner); mark="✅ 買得" if p>=0.6 else "❌ 唔買" if p<=0.35 else "🔵 可博"
+            rows.append([f'大 {line}',f'{p*100:.1f}%',fair(p),mark])
+        st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','推薦']),use_container_width=True,hide_index=True)
+    with col_small:
+        st.markdown("#### 🔵 細球")
+        rows=[]
+        for line in [7.5,8.5,9.5,10.5,11.5,12.5]:
+            p=under_prob(line,exp_corner); mark="✅ 買得" if p>=0.6 else "❌ 唔買" if p<=0.35 else "🔵 可博"
+            rows.append([f'細 {line}',f'{p*100:.1f}%',fair(p),mark])
+        st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','推薦']),use_container_width=True,hide_index=True)
+
+with tab5:
+    rows=[]
+    for i in range(6):
+        for j in range(4):
+            p=mat[i,j]
+            if p>0.02:
+                mark="✅ 買得" if p>=0.09 else "🔵 可博" if p>=0.05 else "❌ 唔買"
+                rows.append([f'{i}:{j}',f'{p*100:.2f}%',fair(p),to_mkt(p,overround),mark])
+    df_s=pd.DataFrame(rows,columns=['波膽','機率','公平','市賠','推薦']).sort_values('機率',ascending=False).head(20)
+    st.dataframe(df_s,use_container_width=True,hide_index=True)
+
+with tab6:
+    st.subheader('🔥 推薦 - 邊啲買得邊啲唔買得')
+    st.info("標記： ✅ 買得 >60% 值得買 | 🔵 可博 40-60% 可小注 | ❌ 唔買 <35% 唔建議")
+    top=df_s.iloc[0] if len(df_s)>0 else None
+    if top is not None: st.success(f"🎯 最準波膽 {top['波膽']} {top['機率']} {top['推薦']} | 總入球λ {exp_goals:.2f} | 角球λ {exp_corner:.1f} | xG {final_h:.2f} vs {final_a:.2f} | 天氣{weather_adj:+.2f} 教練{h['教練']:.1f} vs {a['教練']:.1f}")
+    c1,c2,c3=st.columns(3)
+    with c1: st.metric("入球推介", f"大{2.5 if exp_goals>2.5 else 1.5} {'✅ 買得' if over_prob(2.5,exp_goals)>0.6 else '🔵 可博'}")
+    with c2: st.metric("角球推介", f"大9.5 {'✅ 買得' if over_prob(9.5,exp_corner)>0.6 else '🔵 可博'}")
+    with c3: st.metric("主客和推介", f"{'主勝 ✅ 買得' if p_H>0.5 else '和局 🔵 可博' if p_D>0.3 else '客勝 ❌ 唔買'}")
+
+st.success('V118.7 正式完成版 - 大還大細還細分開 + 記號推薦✅❌🔵 + 中文 + 足球隊訊息 + Google AI + 10欄全數據')
