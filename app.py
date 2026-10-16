@@ -1,11 +1,9 @@
 import streamlit as st, pandas as pd, numpy as np, math, os
 from datetime import datetime
-import matplotlib.pyplot as plt
 
-st.set_page_config(page_title="Ocup V63 終極完全體", layout="wide")
-st.title("⚽ Ocup Football V63 終極完全體 | A+B+波膽+圖表")
+st.set_page_config(page_title="Ocup V63.1 修復完全體", layout="wide")
+st.title("⚽ Ocup Football V63.1 | 修復版 無紅屏")
 
-# 34聯賽
 presets = {
 "英超":(1.55,1.25),"西甲":(1.5,1.2),"德甲":(1.6,1.3),"意甲":(1.45,1.15),
 "法甲":(1.5,1.2),"沙特職業聯賽":(1.65,1.35),"澳職":(1.7,1.4),"美職":(1.6,1.3),
@@ -19,8 +17,7 @@ presets = {
 }
 
 def dixon_coles(l1,l2,rho=0.12):
-    max_g=7
-    p=np.zeros((max_g+1,max_g+1))
+    max_g=7; p=np.zeros((max_g+1,max_g+1))
     for i in range(max_g+1):
         for j in range(max_g+1):
             p[i,j]=np.exp(-l1)*l1**i/math.factorial(i)*np.exp(-l2)*l2**j/math.factorial(j)
@@ -42,12 +39,10 @@ with st.sidebar:
     m=st.text_input("對賽",f"艾卡迪沙 vs 艾伯哈FC")
 
 mat=dixon_coles(xg_h,xg_a)
-ph=pd=pa=ou25=btts=0
-scores=[]
+ph=pd=pa=ou25=btts=0; scores=[]
 for i in range(7):
     for j in range(7):
-        prob=mat[i,j]
-        scores.append((f"{i}-{j}",prob))
+        prob=mat[i,j]; scores.append((f"{i}-{j}",prob))
         if i>j: ph+=prob
         elif i==j: pd+=prob
         else: pa+=prob
@@ -57,7 +52,6 @@ for i in range(7):
 scores=sorted(scores,key=lambda x:x[1],reverse=True)[:10]
 ev_h,ev_d,ev_a=ph*o_h-1, pd*o_d-1, pa*o_a-1
 
-# 頂部3個Metric
 c1,c2,c3=st.columns(3)
 c1.metric("主勝",f"{ph*100:.1f}%",f"EV {ev_h*100:.1f}%")
 c2.metric("和局",f"{pd*100:.1f}%",f"EV {ev_d*100:.1f}%")
@@ -66,11 +60,15 @@ c4,c5=st.columns(2)
 c4.metric("大2.5",f"{ou25*100:.1f}%")
 c5.metric("BTTS Yes",f"{btts*100:.1f}%")
 
-# 波膽Top10
-st.subheader("🎯 波膽 Top10 (Dixon-Coles真數)")
-st.dataframe(pd.DataFrame(scores,columns=["波膽","機率"]).assign(機率=lambda x: (x["機率"]*100).round(1).astype(str)+"%"), use_container_width=True)
+st.subheader("🎯 波膽 Top10")
+df_score=pd.DataFrame(scores,columns=["波膽","機率"])
+df_score["機率%"]=(df_score["機率"]*100).round(1)
+st.dataframe(df_score[["波膽","機率%"]], use_container_width=True)
+st.bar_chart(df_score.set_index("波膽")["機率%"])
 
-# A+B Ocup大表
+st.subheader("🔥 Dixon-Coles 熱力圖 (無需matplotlib)")
+st.dataframe(pd.DataFrame(mat.round(4)), use_container_width=True)
+
 st.subheader("📊 Ocup Football A+B 超級大表")
 df_big=pd.DataFrame([{
 "日期":datetime.now().strftime("%m-%d"),"聯賽":lg,"對賽":m,
@@ -82,18 +80,8 @@ df_big=pd.DataFrame([{
 }])
 st.dataframe(df_big, use_container_width=True)
 
-# 圖表
-col_g1,col_g2=st.columns(2)
-with col_g1:
-    fig,ax=plt.subplots()
-    ax.imshow(mat,cmap="Reds"); ax.set_title("Dixon-Coles 熱力圖"); st.pyplot(fig)
-with col_g2:
-    fig2,ax2=plt.subplots()
-    ax2.bar([s[0] for s in scores],[s[1]*100 for s in scores]); ax2.set_title("波膽機率"); plt.xticks(rotation=45); st.pyplot(fig2)
-
-# 存庫
-if st.button("💾 存入Ocup V63終極數據庫"):
+if st.button("💾 存入Ocup V63.1終極數據庫"):
     fp="ocup_v63.csv"
     df_big.to_csv(fp, mode='a', header=not os.path.exists(fp), index=False, encoding='utf-8-sig')
-    st.success(f"已存入 {fp}！總數 {len(pd.read_csv(fp))} 場")
-    st.dataframe(pd.read_csv(fp).tail(10), use_container_width=True)
+    st.success(f"已存入 {fp}！")
+    if os.path.exists(fp): st.dataframe(pd.read_csv(fp).tail(10), use_container_width=True)
