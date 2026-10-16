@@ -1,42 +1,63 @@
 import streamlit as st, pandas as pd, random
-st.title("Step 1 - 生成5000隊 33聯賽")
+from datetime import datetime, timedelta
 
-LEAGUES_33 = [
-    "英格蘭超級聯賽","澳職職業聯賽","日本職業聯賽","日本乙組聯賽","南韓職業聯賽","女子澳洲職業聯賽","澳洲冠軍聯賽盃",
-    "西班牙甲組聯賽","德國甲組聯賽","南韓乙組聯賽","墨西哥超級聯賽","墨西哥甲組聯賽","德國乙組聯賽","英格蘭冠軍聯賽","泰國甲組聯賽",
-    "沙特職業聯賽","卡塔爾超級聯賽","阿聯酋職業聯賽","芬蘭超級聯賽","挪威超級聯賽","俄羅斯超級聯賽","阿根廷甲組聯賽","巴西甲組聯賽","荷蘭甲組聯賽","蘇格蘭超級聯賽",
-    "奧地利甲組聯賽","丹麥超級聯賽","烏拉圭甲組聯賽","西班牙乙組聯賽","荷蘭乙組聯賽","法國乙組聯賽","巴西乙組聯賽","女子挪威超級聯賽","女子南美自由杯"
-]
+st.title("Step 2 - 生成200場主客場賽事")
 
-TEAMS_CN = {
-    "英格蘭超級聯賽":["曼城","阿仙奴","利物浦","車路士","曼聯","熱刺","紐卡素","白禮頓"],
-    "澳職職業聯賽":["墨爾本勝利","墨爾本城","悉尼FC","西悉尼流浪者","布里斯班獅吼","阿德萊德聯"],
-    "日本職業聯賽":["川崎前鋒","橫濱水手","神戶勝利船","鹿島鹿角","浦和紅鑽","廣島三箭"],
-    "泰國甲組聯賽":["武里南聯","曼谷聯","巴吞聯","泰港","蒙通聯","清萊聯"],
-    "南韓職業聯賽":["蔚山HD","浦項制鐵","首爾FC","全北現代"]
-}
+# 讀Step1嗰5000隊
+try:
+    teams_df = pd.read_csv("teams_world.csv")
+    st.write(f"讀到Step1：{len(teams_df)}隊")
+except:
+    st.error("未找到teams_world.csv，請先完成Step1")
+    st.stop()
 
-# 真正生成
-if st.button("按我生成5000隊"):
-    teams=[]
-    for league in LEAGUES_33:
-        base=TEAMS_CN.get(league, [league.replace("聯賽","")])
-        for name in base:
-            for i in range(20):
-                teams.append({"key":f"{name}-{league}-{i}","full_name":name,"cn_name":name,"league":league})
-    while len(teams)<5000:
-        lg=random.choice(LEAGUES_33)
-        nm=random.choice(TEAMS_CN.get(lg, [lg]))
-        teams.append({"key":f"{nm}-{random.randint(1,9999)}","full_name":nm,"cn_name":nm,"league":lg})
-    df=pd.DataFrame(teams[:5000])
-    df.to_csv("teams_world.csv", index=False, encoding="utf-8-sig")
-    st.success(f"已生成 {len(df)}隊")
+if st.button("一鍵生成200場 matches.csv"):
+    matches = []
+    for i in range(200):
+        league = random.choice(teams_df['league'].unique())
+        league_teams = teams_df[teams_df['league']==league]
+        if len(league_teams) < 2:
+            continue
+        home = league_teams.sample(1).iloc[0]
+        away = league_teams[league_teams['cn_name']!=home['cn_name']].sample(1).iloc[0]
+
+        date = (datetime.now() + timedelta(days=random.randint(-2,7))).strftime("%Y-%m-%d %H:%M")
+
+        matches.append({
+            "match_id": f"M{i+1:03d}",
+            "league": league,
+            "home_key": home['key'],
+            "home_cn": home['cn_name'],
+            "home_full": home['full_name'],
+            "away_key": away['key'],
+            "away_cn": away['cn_name'],
+            "away_full": away['full_name'],
+            "date": date,
+            "home_form": "-".join([random.choice(["W","D","L"]) for _ in range(5)]),
+            "away_form": "-".join([random.choice(["W","D","L"]) for _ in range(5)]),
+            "weather": random.choice(["有雨22°","晴30°","陰天26°","悶熱32°"]),
+            "ref_yellow_avg": round(random.uniform(3.5,5.8),1)
+        })
+
+    df = pd.DataFrame(matches)
+    df.to_csv("matches.csv", index=False, encoding="utf-8-sig")
+    st.success(f"已生成 {len(df)} 場賽事")
     st.dataframe(df.head(20))
-    st.write(df['league'].value_counts())
 else:
     try:
-        df=pd.read_csv("teams_world.csv")
-        st.write(f"而家 teams_world.csv 有 {len(df)}行")
-        st.dataframe(df.head())
+        m = pd.read_csv("matches.csv")
+        st.success(f"已有 {len(m)} 場")
+        st.dataframe(m.head(20))
+        st.write(m['league'].value_counts())
     except:
-        st.write("而家仲係8行，按上面個掣生成5000行")
+        st.write("未有matches.csv，撳上面個掣生成200場")
+
+# 預覽揀波
+try:
+    m = pd.read_csv("matches.csv")
+    sel = st.selectbox("預覽分析：揀一場主客場", m.to_dict('records'), format_func=lambda x: f"{x['match_id']} {x['league']} {x['home_cn']} vs {x['away_cn']} {x['date']}")
+    st.write(f"**主隊**：{sel['home_cn']} 近況 {sel['home_form']}")
+    st.write(f"**客隊**：{sel['away_cn']} 近況 {sel['away_form']}")
+    st.write(f"**元素**：{sel['weather']} 裁判黃牌均 {sel['ref_yellow_avg']}")
+except:
+    pass
