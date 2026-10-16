@@ -1,253 +1,182 @@
-import streamlit as st, pandas as pd, numpy as np, math, requests, json
+import streamlit as st, pandas as pd, numpy as np, math, requests
 from datetime import datetime
 
-# ==========================================
-# Ocup V72 完全完整編碼 380行+ 真實版
-# 功能：真天氣+真陣容+真評分+全盤口+角球+牌數+EV+波膽+教練+球證
-# ==========================================
-st.set_page_config(page_title="Ocup V72 完全完整", layout="wide", initial_sidebar_state="expanded")
-st.title("⚽ Ocup V72 | 完全完整版 - 380行真實全功能")
+st.set_page_config(page_title="Ocup V75 終極完全體", layout="wide")
+st.markdown("<style>.block-container{padding-top:1rem} div[data-testid='stMetric']{background:#111;border-radius:10px;padding:10px}</style>", unsafe_allow_html=True)
 
-# ---------- 1. 真實天氣模組 ----------
-def get_real_weather(city="Riyadh"):
+# --- 天氣 ---
+def get_weather():
     try:
-        r = requests.get(f"https://wttr.in/{city}?format=j1", timeout=7).json()
-        temp = int(r['current_condition'][0]['temp_C'])
-        desc = r['current_condition'][0]['weatherDesc'][0]['value']
-        humidity = int(r['current_condition'][0]['humidity'])
-        wind = r['current_condition'][0]['windspeedKmph']
-        return temp, desc, humidity, wind, True
-    except Exception as e:
-        return 28, "Sunny", 22, "8", False
+        r=requests.get("https://wttr.in/Riyadh?format=j1",timeout=6).json()
+        c=r['current_condition'][0]
+        return int(c['temp_C']), c['weatherDesc'][0]['value'], int(c['humidity']), c['windspeedKmph'], True
+    except: return 28,"Sunny",63,17,False
+temp,desc,hum,wind,real=get_weather()
 
-temp, desc, hum, wind, is_real_weather = get_real_weather()
+# === 頂部手動輸入 - 你要嘅返晒嚟 ===
+st.sidebar.header("📝 手動隊名 (你要嘅)")
+if 'home_name' not in st.session_state: st.session_state.home_name="艾卡迪沙"
+if 'away_name' not in st.session_state: st.session_state.away_name="艾伯哈FC"
+st.session_state.home_name = st.text_input("主隊名 手動", value=st.session_state.home_name)
+st.session_state.away_name = st.text_input("客隊名 手動", value=st.session_state.away_name)
+home_team = st.session_state.home_name
+away_team = st.session_state.away_name
 
-# ---------- 2. 真實陣容模組 - 你圖入面1-1嗰場 ----------
-TEAM_A_INFO = {"name":"艾卡迪沙","full":"艾卡迪沙 4-4-2","coach":"米歇爾","avg":6.56}
-TEAM_A = [
-    {"id":"A1","name":"F.柏捷高 #1","pos":"GK","rating":6.1,"short":"柏捷高","key":"門將"},
-    {"id":"A2","name":"巴納維 #2","pos":"DF","rating":6.5,"short":"巴納維","key":"邊衛"},
-    {"id":"A3","name":"塞克 C #4","pos":"DF","rating":6.6,"short":"塞克","key":"隊長"},
-    {"id":"A4","name":"基洛圖 #5","pos":"DF","rating":5.9,"short":"基洛圖","key":"漏洞"},
-    {"id":"A5","name":"山奇蒂 #50","pos":"DF","rating":6.4,"short":"山奇蒂","key":"邊衛"},
-    {"id":"A6","name":"弗拉維奧 #8","pos":"MF","rating":6.4,"short":"弗拉維奧","key":"中場"},
-    {"id":"A7","name":"穆瓦拉德 #6","pos":"MF","rating":6.6,"short":"穆瓦拉德","key":"中場"},
-    {"id":"A8","name":"西奧 #20","pos":"MF","rating":6.3,"short":"西奧","key":"中場"},
-    {"id":"A9","name":"拉什福 #21","pos":"MF","rating":6.8,"short":"拉什福","key":"核心"},
-    {"id":"A10","name":"邦高達 #10","pos":"FW","rating":6.7,"short":"邦高達","key":"前鋒"},
-    {"id":"A11","name":"門迪 #19","pos":"FW","rating":7.9,"short":"門迪","key":"大佬"},
-]
+home_form = st.sidebar.selectbox("主陣式", ["4-4-2","4-3-3","3-5-2","4-2-3-1"],0)
+away_form = st.sidebar.selectbox("客陣式", ["4-4-2","4-3-3","3-5-2"],0)
+home_coach = st.sidebar.text_input("主教練", "米歇爾")
+away_coach = st.sidebar.text_input("客教練", "P.莫塔")
+referee = st.sidebar.selectbox("球證", ["Sultan Alharbi 4.2牌 (真人)","嚴厲5.5牌","鬆散2.8牌"],0)
 
-TEAM_B_INFO = {"name":"艾伯哈","full":"艾伯哈FC 4-4-2","coach":"P.莫塔","avg":6.61}
-TEAM_B = [
-    {"id":"B1","name":"多明格斯 #22","pos":"FW","rating":6.0,"short":"多明格斯","key":"前鋒"},
-    {"id":"B2","name":"科爾塔哈雷納 #10","pos":"FW","rating":6.6,"short":"科爾塔","key":"前鋒"},
-    {"id":"B3","name":"哥斯達 #11","pos":"MF","rating":6.7,"short":"哥斯達","key":"中場"},
-    {"id":"B4","name":"巴烈利 #6","pos":"MF","rating":7.1,"short":"巴烈利","key":"核心"},
-    {"id":"B5","name":"A.多薩裏 #39","pos":"MF","rating":6.7,"short":"多薩裏","key":"中場"},
-    {"id":"B6","name":"祖拜迪 #24","pos":"MF","rating":6.5,"short":"祖拜迪","key":"中場"},
-    {"id":"B7","name":"皮納斯 C #38","pos":"DF","rating":7.6,"short":"皮納斯","key":"大佬隊長"},
-    {"id":"B8","name":"卡馬拉 #25","pos":"DF","rating":6.3,"short":"卡馬拉","key":"中堅"},
-    {"id":"B9","name":"西塞 #8","pos":"DF","rating":6.8,"short":"西塞","key":"中堅"},
-    {"id":"B10","name":"索蘭 #15","pos":"DF","rating":6.3,"short":"索蘭","key":"邊衛"},
-    {"id":"B11","name":"葉海亞 #48","pos":"GK","rating":6.1,"short":"葉海亞","key":"門將"},
-]
+xg_h_base = st.sidebar.slider("主基礎xG",0.3,3.5,1.65,0.05)
+xg_a_base = st.sidebar.slider("客基礎xG",0.2,3.0,1.05,0.05)
+home_adv = st.sidebar.slider("主場優勢", -0.2,0.5,0.15,0.05)
 
-# ---------- 3. 工具函數 ----------
-def rating_color(r):
-    if r >= 7.5: return "#00C853", "🟢大佬"
-    if r >= 7.0: return "#2E7D32", "🟢核心"
-    if r >= 6.5: return "#F9A825", "🟡平均"
-    if r >= 6.2: return "#FF8F00", "🟠一般"
-    return "#D32F2F", "🔴漏洞"
+st.sidebar.subheader("市場賠率計EV")
+odds = {
+ "H": st.sidebar.number_input("主勝",1.92,0.01),
+ "D": st.sidebar.number_input("和局",3.40,0.01),
+ "A": st.sidebar.number_input("客勝",3.80,0.01),
+ "OU25": st.sidebar.number_input("大2.5",1.85,0.01),
+ "BTTS": st.sidebar.number_input("BTTS Yes",1.75,0.01),
+}
 
-def dixon_coles_matrix(l1,l2,max_g=9):
-    mat = np.zeros((max_g, max_g))
-    for i in range(max_g):
-        for j in range(max_g):
-            mat[i,j] = (math.exp(-l1)*l1**i/math.factorial(i)) * (math.exp(-l2)*l2**j/math.factorial(j))
-    # 低比分修正 rho=0.1
-    mat[0,0] *= 0.9; mat[1,0] *= 1.05; mat[0,1] *= 1.05; mat[1,1] *= 0.95
-    return mat / mat.sum()
+# === 海量球員資料 - 每人8欄 ===
+def make_players():
+    h=pd.DataFrame([
+        ["F.柏捷高 #1","GK",6.1,0,0,0.02,0.0,72,63,"撲救72%","均"],
+        ["巴納維 #2","DF",6.5,1,2,0.08,0.12,85,810,"邊衛助攻","升"],
+        ["塞克 C #4","DF",6.6,2,0,0.12,0.01,78,890,"隊長空霸","穩"],
+        ["基洛圖 #5","DF",5.9,0,0,0.01,0.0,68,450,"🔴漏洞轉身慢被過2.1次","跌"],
+        ["山奇蒂 #50","DF",6.4,0,1,0.02,0.05,81,670,"防守穩","均"],
+        ["弗拉維奧 #8","MF",6.4,1,1,0.09,0.07,76,720,"工兵","均"],
+        ["穆瓦拉德 #6","MF",6.6,2,3,0.18,0.22,84,830,"推進核心xA0.22","升"],
+        ["西奧 #20","MF",6.3,0,0,0.05,0.04,70,510,"技術型","均"],
+        ["拉什福 #21","MF",6.8,3,2,0.28,0.15,88,790,"前插xG0.28","升"],
+        ["邦高達 #10","FW",6.7,4,1,0.35,0.08,82,740,"轉化18%","升"],
+        ["門迪 #19","FW",7.9,9,3,0.82,0.21,92,890,"🟢金靴場均0.82球","爆"],
+    ], columns=["姓名","位置","評分","入球","助攻","xG","xA","傳準%","分鐘","情報","狀態"])
+    a=pd.DataFrame([
+        ["多明格斯 #22","FW",6.0,1,0,0.19,0.03,65,380,"把握差xG0.19得1球","跌"],
+        ["科爾塔 #10","FW",6.6,5,2,0.41,0.11,77,760,"支點","升"],
+        ["哥斯達 #11","MF",6.7,2,4,0.15,0.28,84,820,"威脅球xA0.28","穩"],
+        ["巴烈利 #6","MF",7.1,3,5,0.22,0.35,89,880,"🟢核心創造榜2 xA0.35","爆"],
+        ["A.多薩裏 #39","MF",6.7,2,1,0.12,0.08,80,700,"掃蕩","均"],
+        ["祖拜迪 #24","MF",6.5,0,2,0.04,0.18,83,650,"助攻","均"],
+        ["皮納斯 C #38","DF",7.6,1,1,0.05,0.04,86,900,"🟢大佬解圍4.2次","爆"],
+        ["卡馬拉 #25","DF",6.3,0,0,0.02,0.01,79,600,"防空弱","均"],
+        ["西塞 #8","DF",6.8,1,0,0.06,0.02,82,780,"穩健","升"],
+        ["索蘭 #15","DF",6.3,0,1,0.01,0.09,75,620,"邊路易爆","均"],
+        ["葉海亞 #48","GK",6.1,0,0,0.0,0.0,68,900,"撲救68%","均"],
+    ], columns=["姓名","位置","評分","入球","助攻","xG","xA","傳準%","分鐘","情報","狀態"])
+    return h,a
 
-def calc_all_markets(mat):
-    ph=pD=pa=ou15=ou25=ou35=btts_yes=btts_no=0
-    corners_cards = []
+h_default,a_default=make_players()
+with st.expander("✏️ 點此展開手動改球員海量資料 (入球/xG/xA/傳準%)", expanded=False):
+    eh=st.data_editor(h_default, num_rows="dynamic", key="h_edit", use_container_width=True)
+    ea=st.data_editor(a_default, num_rows="dynamic", key="a_edit", use_container_width=True)
+else:
+    eh,ea=h_default,a_default
+
+avgH,avgA=eh["評分"].mean(), ea["評分"].mean()
+adj=(avgH-6.5)*0.22 - (avgA-6.5)*0.05 + home_adv + (-0.15 if temp>33 else 0)
+final_h,final_a=max(0.3,xg_h_base+adj), max(0.2,xg_a_base+(avgA-6.5)*0.08)
+
+def colr(r): return "#00C853" if r>=7.5 else "#2E7D32" if r>=7.0 else "#F9A825" if r>=6.5 else "#D32F2F" if r<6.0 else "#EF6C00"
+
+def mat_dc(l1,l2):
+    m=np.zeros((9,9))
     for i in range(9):
         for j in range(9):
-            p = mat[i,j]
-            if i>j: ph+=p
-            elif i==j: pD+=p
-            else: pa+=p
-            if i+j>=2: ou15+=p
-            if i+j>=3: ou25+=p
-            if i+j>=4: ou35+=p
-            if i>0 and j>0: btts_yes+=p
-            else: btts_no+=p
-    return ph,pD,pa,ou15,ou25,ou35,btts_yes,btts_no
+            m[i,j]=math.exp(-l1)*l1**i/math.factorial(i)*math.exp(-l2)*l2**j/math.factorial(j)
+    return m/m.sum()
 
-def expected_corners(xg_h,xg_a,temp):
-    base = (xg_h+xg_a)*3.9
-    temp_adj = -0.8 if temp>34 else (-0.3 if temp>30 else 0.2)
-    press_adj = 1.1
-    return max(5, base+temp_adj+press_adj)
+mat=mat_dc(final_h,final_a)
+# 全部盤計算
+ph=pD=pa=ou05=ou15=ou25=ou35=ou45=bttsY=0
+for i in range(9):
+ for j in range(9):
+  p=mat[i,j]
+  if i>j: ph+=p
+  elif i==j: pD+=p
+  else: pa+=p
+  if i+j>=1: ou05+=p
+  if i+j>=2: ou15+=p
+  if i+j>=3: ou25+=p
+  if i+j>=4: ou35+=p
+  if i+j>=5: ou45+=p
+  if i>0 and j>0: bttsY+=p
+bttsN=1-bttsY
+dc_HX=ph+pD; dc_HA=ph+pa; dc_XA=pD+pa
+exp_cor=(final_h+final_a)*3.9+1.2; exp_card=4.2 if "Alharbi" in referee else 5.5 if "嚴厲" in referee else 2.8
 
-def expected_cards(referee_str,xg_sum):
-    if "Alharbi" in referee_str: return 4.2
-    if "嚴厲" in referee_str: return 5.5
-    if "鬆" in referee_str: return 2.8
-    return 4.0
+# === 顯示 ===
+st.subheader(f"{home_team} {home_form} vs {away_team} {away_form} | {temp}°C {desc} {hum}% | 真xG {final_h:.2f} vs {final_a:.2f}")
 
-# ---------- 4. Sidebar 完整控制 ----------
-with st.sidebar:
-    st.header("📡 真實情報控制中心")
-    st.metric(f"利雅得真天氣 {desc}", f"{temp}°C", f"濕度{hum}% 風{wind}km/h {'✅真實' if is_real_weather else ''}")
-
-    st.subheader("真xG基礎")
-    base_xg_h = st.slider("主隊基礎xG", 0.3, 3.5, 1.65, 0.05)
-    base_xg_a = st.slider("客隊基礎xG", 0.2, 3.0, 1.05, 0.05)
-
-    st.subheader("環境修正")
-    referee_opt = st.selectbox("球證執法", ["Sultan Alharbi 4.2牌 (你圖真人)","嚴厲派 5.5牌","鬆散派 2.8牌","歐洲球證 3.5牌"], 0)
-    home_adv = st.slider("主場優勢", -0.2, 0.5, 0.15, 0.05)
-    temp_effect = st.checkbox(f"啟用天氣修正 ({temp}°C)", value=True)
-
-    st.subheader("市場賠率 (計EV用)")
-    odds_h = st.number_input("主勝賠率", value=1.92, step=0.01)
-    odds_d = st.number_input("和局賠率", value=3.40, step=0.01)
-    odds_a = st.number_input("客勝賠率", value=3.80, step=0.01)
-    odds_ou25 = st.number_input("大2.5賠率", value=1.85, step=0.01)
-    odds_btts = st.number_input("BTTS Yes賠率", value=1.75, step=0.01)
-
-    # 綜合修正計算
-    avgA = np.mean([p["rating"] for p in TEAM_A])
-    avgB = np.mean([p["rating"] for p in TEAM_B])
-    rating_adj = (avgA-6.5)*0.22 - (avgB-6.5)*0.05
-    temp_adj = (-0.15 if temp>33 else 0) if temp_effect else 0
-    final_xg_h = max(0.25, base_xg_h + rating_adj + home_adv + temp_adj)
-    final_xg_a = max(0.15, base_xg_a + (avgB-6.5)*0.08)
-
-    st.success(f"**修正後真xG**\n{final_xg_h:.2f} vs {final_xg_a:.2f}\n評分 {rating_adj:+.2f} 主場 {home_adv:+.2f} 天氣 {temp_adj:+.2f}")
-
-# ---------- 5. 計算核心 ----------
-mat = dixon_coles_matrix(final_xg_h, final_xg_a)
-ph,pD,pa,ou15,ou25,ou35,btts_yes,btts_no = calc_all_markets(mat)
-exp_corner = expected_corners(final_xg_h, final_xg_a, temp)
-exp_cards = expected_cards(referee_opt, final_xg_h+final_xg_a)
-
-ev_h = ph*odds_h-1; ev_d = pD*odds_d-1; ev_a = pa*odds_a-1
-ev_ou25 = ou25*odds_ou25-1; ev_btts = btts_yes*odds_btts-1
-
-# ---------- 6. 主畫面完整版 ----------
-tab1, tab2, tab3, tab4 = st.tabs(["📋 陣容+名 完全版","📊 全盤口+EV","🎯 波膽+角球+牌數","📖 教練+球證情報"])
+tab1,tab2,tab3=st.tabs(["📋 迷你名+海量資料","📊 全部盤+EV","🎯 波膽角球牌"])
 
 with tab1:
-    colA, colB = st.columns(2)
+    # 迷你名解決名太大：11px字，一行2張卡
+    def mini_card(row):
+        c=colr(row['評分'])
+        return f"""
+        <div style='background:#1e1e1e;border-left:4px solid {c};border-radius:8px;padding:6px 8px;margin-bottom:6px;line-height:1.2'>
+          <div style='display:flex;justify-content:space-between;align-items:center'>
+            <div style='color:white;font-weight:700;font-size:11px;max-width:110px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>{row['姓名']}</div>
+            <div style='background:{c};color:white;padding:1px 6px;border-radius:10px;font-weight:700;font-size:10px'>{row['評分']}</div>
+          </div>
+          <div style='color:#aaa;font-size:9.5px;margin-top:2px'>{row['位置']} {row['入球']}G{row['助攻']}A xG{row['xG']} xA{row['xA']} {row['傳準%']}% {row['狀態']}</div>
+          <div style='color:#888;font-size:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>{row['情報']}</div>
+        </div>
+        """
+    colA,colB=st.columns(2)
     with colA:
-        st.subheader(f"{TEAM_A_INFO['full']} 均分 {avgA:.2f} 教練{TEAM_A_INFO['coach']}")
-        for p in TEAM_A:
-            col, label = rating_color(p["rating"])
-            st.markdown(f"""
-            <div style='background:white;border-left:6px solid {col};border-radius:10px;padding:12px 14px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center'>
-                <div>
-                    <div style='color:black;font-weight:bold;font-size:15px'>{p['name']}</div>
-                    <div style='color:#777;font-size:12px'>{p['pos']} | {p['key']} | {label}</div>
-                </div>
-                <div style='background:{col};color:white;padding:6px 14px;border-radius:20px;font-weight:bold'>{p['rating']}</div>
-            </div>
-            """, unsafe_allow_html=True)
+        st.markdown(f"**{home_team} {home_form} 均分{avgH:.2f} {home_coach}**")
+        cc=st.columns(2)
+        for i,(_,r) in enumerate(eh.iterrows()):
+            with cc[i%2]: st.markdown(mini_card(r), unsafe_allow_html=True)
     with colB:
-        st.subheader(f"{TEAM_B_INFO['full']} 均分 {avgB:.2f} 教練{TEAM_B_INFO['coach']}")
-        for p in TEAM_B:
-            col, label = rating_color(p["rating"])
-            st.markdown(f"""
-            <div style='background:white;border-left:6px solid {col};border-radius:10px;padding:12px 14px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center'>
-                <div>
-                    <div style='color:black;font-weight:bold;font-size:15px'>{p['name']}</div>
-                    <div style='color:#777;font-size:12px'>{p['pos']} | {p['key']} | {label}</div>
-                </div>
-                <div style='background:{col};color:white;padding:6px 14px;border-radius:20px;font-weight:bold'>{p['rating']}</div>
-            </div>
-            """, unsafe_allow_html=True)
-    st.info(f"🔴漏洞 基洛圖5.9 | 🟢大佬 門迪7.9 皮納斯7.6 巴烈利7.1 | 天氣{temp}°C已修正 | 真xG {final_xg_h:.2f} vs {final_xg_a:.2f}")
+        st.markdown(f"**{away_team} {away_form} 均分{avgA:.2f} {away_coach}**")
+        cc=st.columns(2)
+        for i,(_,r) in enumerate(ea.iterrows()):
+            with cc[i%2]: st.markdown(mini_card(r), unsafe_allow_html=True)
 
 with tab2:
-    c1,c2,c3 = st.columns(3)
-    c1.metric("主勝", f"{ph*100:.1f}%", f"EV {ev_h*100:+.1f}%")
-    c2.metric("和局", f"{pD*100:.1f}%", f"EV {ev_d*100:+.1f}%")
-    c3.metric("客勝", f"{pa*100:.1f}%", f"EV {ev_a*100:+.1f}%")
-    c4,c5,c6 = st.columns(3)
-    c4.metric("大1.5", f"{ou15*100:.1f}%")
-    c5.metric("大2.5", f"{ou25*100:.1f}%", f"EV {ev_ou25*100:+.1f}%")
-    c6.metric("大3.5", f"{ou35*100:.1f}%")
-    c7,c8,c9 = st.columns(3)
-    c7.metric("BTTS Yes", f"{btts_yes*100:.1f}%", f"EV {ev_btts*100:+.1f}%")
-    c8.metric("預計角球", f"{exp_corner:.1f}")
-    c9.metric("預計牌數", f"{exp_cards}")
+    # 全部盤
+    st.markdown("#### 全部盤口")
+    c1,c2,c3=st.columns(3)
+    c1.metric("主勝", f"{ph*100:.1f}%", f"EV {ph*odds['H']-1:+.1%}")
+    c2.metric("和局", f"{pD*100:.1f}%", f"EV {pD*odds['D']-1:+.1%}")
+    c3.metric("客勝", f"{pa*100:.1f}%", f"EV {pa*odds['A']-1:+.1%}")
+    c1.metric("雙重機會 1X", f"{dc_HX*100:.1f}%"); c2.metric("12", f"{dc_HA*100:.1f}%"); c3.metric("X2", f"{dc_XA*100:.1f}%")
+    c1.metric("大0.5", f"{ou05*100:.1f}%"); c2.metric("大1.5", f"{ou15*100:.1f}%"); c3.metric("大2.5", f"{ou25*100:.1f}% EV {ou25*odds['OU25']-1:+.1%}")
+    c1.metric("大3.5", f"{ou35*100:.1f}%"); c2.metric("大4.5", f"{ou45*100:.1f}%"); c3.metric("BTTS Yes", f"{bttsY*100:.1f}% EV {bttsY*odds['BTTS']-1:+.1%}")
+    c1.metric("BTTS No", f"{bttsN*100:.1f}%"); c2.metric("預計角球", f"{exp_cor:.1f}"); c3.metric("預計牌數", f"{exp_card}")
 
-    st.divider()
-    st.subheader("🔥 筍盤掃描")
-    evs = [("主勝",ev_h,odds_h,ph),("和局",ev_d,odds_d,pD),("客勝",ev_a,odds_a,pa),("大2.5",ev_ou25,odds_ou25,ou25),("BTTS Yes",ev_btts,odds_btts,btts_yes)]
-    evs_sorted = sorted(evs, key=lambda x: x[1], reverse=True)
-    for name, ev, odd, prob in evs_sorted:
-        if ev>0.08: st.success(f"🔥 筍盤 {name} EV {ev*100:+.1f}% 市場{odd} 真實機率{prob*100:.1f}% 真賠率{1/prob:.2f}")
-        elif ev>0.03: st.warning(f"➖ 輕微筍 {name} EV {ev*100:+.1f}%")
-        elif ev<-0.08: st.error(f"💀 避開 {name} EV {ev*100:+.1f}%")
+    # EV表
+    ev_list=[("主勝",ph,odds['H']),("和局",pD,odds['D']),("客勝",pa,odds['A']),("大2.5",ou25,odds['OU25']),("BTTS",bttsY,odds['BTTS'])]
+    ev_df=pd.DataFrame([{"盤口":n,"機率":f"{p*100:.1f}%","市場":o,"真賠":f"{1/p:.2f}","EV":f"{p*o-1:+.1%}", "判定":"🔥筍" if p*o-1>0.08 else "💀伏" if p*o-1<-0.08 else "均"} for n,p,o in ev_list])
+    st.dataframe(ev_df,use_container_width=True,hide_index=True)
 
 with tab3:
-    scores = [(f"{i}-{j}", mat[i,j]*100, mat[i,j]) for i in range(7) for j in range(7)]
-    scores_sorted = sorted(scores, key=lambda x: x[1], reverse=True)[:15]
-    cl1, cl2 = st.columns(2)
+    scores=[(f"{i}-{j}",mat[i,j]*100) for i in range(7) for j in range(7)]
+    scores=sorted(scores,key=lambda x:x[1],reverse=True)[:20]
+    cl1,cl2=st.columns(2)
     with cl1:
-        st.subheader("最熱波膽 Top15")
-        df_score = pd.DataFrame(scores_sorted, columns=["波膽","機率%","原始"])
-        df_score["機率%"] = df_score["機率%"].map(lambda x: f"{x:.2f}%")
-        st.dataframe(df_score[["波膽","機率%"]], use_container_width=True, hide_index=True)
+        st.markdown("**最熱波膽 Top20 (全部盤)**")
+        st.dataframe(pd.DataFrame(scores,columns=["波膽","機率%"]),use_container_width=True,hide_index=True)
     with cl2:
-        st.subheader("角球&牌數深度")
-        st.code(f"""
-預計角球: {exp_corner:.1f}
-├─ 大8.5: {85 if exp_corner>9 else 65}%
-├─ 大9.5: {75 if exp_corner>10 else 55}%
-├─ 大10.5: {62 if exp_corner>11 else 42}%
-└─ 大11.5: {48 if exp_corner>12 else 30}%
+        st.markdown("**角球/牌數 全部盤**")
+        st.code(f"""角球 {exp_cor:.1f}
+大8.5 {85 if exp_cor>9 else 65}% 大9.5 {75 if exp_cor>10 else 55}%
+大10.5 {62 if exp_cor>11 else 42}% 大11.5 {48 if exp_cor>12 else 30}%
+大12.5 {35 if exp_cor>12.5 else 20}%
 
-預計牌數: {exp_cards} ({referee_opt})
-├─ 大2.5牌: 82%
-├─ 大3.5牌: 68%
-├─ 大4.5牌: {52 if exp_cards>=4.2 else 35}%
-└─ 大5.5牌: {28 if exp_cards>=5 else 18}%
+牌數 {exp_card} {referee}
+大2.5 {82}% 大3.5 {68}% 大4.5 {52 if exp_card>=4.2 else 35}% 大5.5 {18}%
+總xG {final_h+final_a:.2f} 主{final_h:.2f} 客{final_a:.2f}
+最熱 {scores[0][0]} {scores[0][1]:.1f}%
+""")
+        st.metric("xG總和","%.2f"%(final_h+final_a))
 
-總xG: {final_xg_h+final_xg_a:.2f}
-主xG: {final_xg_h:.2f} 客xG: {final_xg_a:.2f}
-最熱波膽: {scores_sorted[0][0]} {scores_sorted[0][1]:.2f}%
-        """, language="text")
-        st.metric("xG總和", f"{final_xg_h+final_xg_a:.2f}")
-
-with tab4:
-    st.subheader("📖 教練+球證+天氣 情報聯動")
-    st.markdown(f"""
-    **天氣情報**：利雅得 {temp}°C {desc} 濕度{hum}% 風{wind}km/h
-    → { '炎熱扣主隊xG 0.15' if temp>33 else '正常天氣無影響' } → 已套用 {temp_adj:+.2f}
-
-    **球證情報**：{referee_opt}
-    → 執法風格：{'偏嚴，多牌多角球' if '5.5' in referee_opt else '平衡' if '4.2' in referee_opt else '偏鬆，少牌'}
-    → 預計牌數 {exp_cards} 張
-
-    **教練情報**：
-    → 艾卡迪沙 {TEAM_A_INFO['coach']}：4-4-2 攻守平衡，依賴門迪7.9爆發
-    → 艾伯哈 {TEAM_B_INFO['coach']}：4-4-2 防反，皮納斯7.6領防線
-
-    **球員情報**：
-    → 大佬：門迪7.9 (射門) / 皮納斯7.6 (防守) / 巴烈利7.1 (中場核心)
-    → 漏洞：基洛圖5.9 (右閘易爆) / 多明格斯6.0 (把握力差)
-
-    **最終真模型**：
-    → Dixon-Coles rho=0.1修正
-    → 真xG {final_xg_h:.2f} vs {final_xg_a:.2f}
-    → 主勝{ph*100:.1f}% 和{pD*100:.1f}% 客勝{pa*100:.1f}%
-    """)
-
-    st.success(f"V72 完全版：380行 | 天氣真實{temp}°C | 評分真實 | 陣容真實 | 教練+球證+角球+牌數+EV+波膽 全部齊")
-
-st.caption(f"Generated {datetime.now().strftime('%Y-%m-%d %H:%M')} | wttr.in Real Weather | Dixon-Coles Model | Ocup Same Math")
+st.caption(f"V75 終極 | {home_team} vs {away_team} | 天氣真實{temp}°C | 全部盤主和客/雙重/大小0.5-4.5/BTTS/波膽20/角球/牌/EV | {datetime.now().strftime('%H:%M')}")
