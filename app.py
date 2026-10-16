@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Ocup V113 173行全功能真分類定版 - 側邊只填主客和
+# Ocup V114 173行終極完整版 - 側邊只填主客和 + 大細分類 + 波膽
 import streamlit as st, pandas as pd, numpy as np, math, requests
-st.set_page_config(page_title='Ocup V113', layout='wide')
+st.set_page_config(page_title='Ocup V114 完整版', layout='wide')
 def pmf(k,l):
     if k<0: return 0.0
     if l<=0: return 1.0 if k==0 else 0.0
@@ -46,12 +46,12 @@ def mat_dc(l1,l2,n=12):
 if 'df_h' not in st.session_state: st.session_state['df_h']=def_home()
 if 'df_a' not in st.session_state: st.session_state['df_a']=def_away()
 with st.sidebar:
-    st.header('V113 173行真分類')
+    st.header('V114 完整版')
     st.metric('真庫',f'{len(teams_db)}隊 / {len(people_db)}人')
     if st.button('⚡ 一鍵填滿',use_container_width=True): st.session_state['df_h']=def_home(); st.session_state['df_a']=def_away()
     st.divider()
     home_team=st.text_input('主隊','艾卡迪沙'); away_team=st.text_input('客隊','艾伯哈FC')
-    st.subheader('只填主客和賠率')
+    st.subheader('只填主客和')
     odds_H=st.number_input('主勝',1.0,10.0,1.92,0.01); odds_D=st.number_input('和局',1.0,15.0,3.40,0.01); odds_A=st.number_input('客勝',1.0,15.0,3.80,0.01)
     overround=st.slider('抽水',1.03,1.12,1.07,0.01); home_adv=st.slider('主場優勢',-0.2,0.5,0.15,0.05)
 st.title(f'{home_team} vs {away_team}')
@@ -63,17 +63,19 @@ final_h=max(0.25,(h['xG']+a['xGA'])/2+(h['均分']-6.5)*0.25+home_adv+h['教練'
 final_a=max(0.15,(a['xG']+h['xGA'])/2+(a['均分']-6.5)*0.12+a['教練']*0.05)
 mat=mat_dc(final_h,final_a,12); exp_corner=(h['角球']+a['角球'])*0.9+(final_h+final_a)*1.1; exp_goals=final_h+final_a
 st.info(f"xG {final_h:.2f} vs {final_a:.2f} | 總λ {exp_goals:.2f} | 角λ {exp_corner:.1f} | 真庫 {len(teams_db)}隊 | 教練 {h['教練']:.1f} vs {a['教練']:.1f}")
-tab1,tab2,tab3,tab4,tab5,tab6,tab7=st.tabs(['📊 全部盤','👥 球員準確','🏟️ 球隊訊息','⚽ 大球分類','⚽ 細球分類','🚩 角大分類','🚩 角細分類'])
+tab1,tab2,tab3,tab4,tab5,tab6,tab7,tab8=st.tabs(['📊 全部盤','👥 球員準確','🏟️ 球隊訊息','⚽ 大球分類','⚽ 細球分類','🚩 角球分類','🎯 波膽比分','🔥 推介'])
 with tab1:
     pH=1/odds_H/(1/odds_H+1/odds_D+1/odds_A); pD=1/odds_D/(1/odds_H+1/odds_D+1/odds_A); pA=1-pH-pD
     rows=[[f'主勝 {odds_H}',f'{pH*100:.1f}%',f'{fair(pH):.2f}'],[f'和局 {odds_D}',f'{pD*100:.1f}%',f'{fair(pD):.2f}'],[f'客勝 {odds_A}',f'{pA*100:.1f}%',f'{fair(pA):.2f}']]
     st.dataframe(pd.DataFrame(rows,columns=['主客和','機率','公平']),use_container_width=True,hide_index=True)
 with tab2:
-    st.dataframe(df_hp,use_container_width=True,hide_index=True); st.dataframe(df_ap,use_container_width=True,hide_index=True)
+    st.subheader(f'{home_team} 球員12欄'); st.dataframe(df_hp,use_container_width=True,hide_index=True)
+    st.metric('正選均分',f"{df_hp[df_hp['狀態']=='正選']['評分'].mean():.1f}",f"身價 {df_hp['身價萬歐'].sum()}萬歐")
+    st.subheader(f'{away_team} 球員'); st.dataframe(df_ap,use_container_width=True,hide_index=True)
 with tab3:
     c1,c2=st.columns(2)
-    with c1: st.json({'球隊':home_team,'聯賽':'沙特聯','教練':'米歇爾','陣式':'4-3-3','勝率':'52%','教練勝率':'58%','ELO':1520,'身價':2680})
-    with c2: st.json({'球隊':away_team,'聯賽':'沙特聯','教練':'尤里','陣式':'4-2-3-1','勝率':'38%','教練勝率':'41%','ELO':1380,'身價':980})
+    with c1: st.json({'球隊':home_team,'聯賽':'沙特聯','教練':'米歇爾','陣式':'4-3-3','勝率':'52%','教練勝率':'58%','ELO':1520,'身價':2680,'球場':'Prince Saud','戰術':'控球進攻'})
+    with c2: st.json({'球隊':away_team,'聯賽':'沙特聯','教練':'尤里','陣式':'4-2-3-1','勝率':'38%','教練勝率':'41%','ELO':1380,'身價':980,'球場':'Abha','戰術':'防守反擊'})
     if len(teams_db)>0: st.dataframe(teams_db[teams_db['name'].str.contains('Qadsiah',case=False,na=False)].head(1),use_container_width=True)
 with tab4:
     rows=[]
@@ -91,12 +93,22 @@ with tab6:
     rows=[]
     for line in [7.5,8.5,9.5,10.5,11.5]:
         po=over_prob(line,exp_corner); om=to_mkt(po,overround); ev,ic,txt=sig_ev(po,om)
-        rows.append([f'角大 {line}',f'{po*100:.1f}%',f'{fair(po):.2f}',f'{om:.2f}',f'{ev:+.1%}',f'{ic} {txt}'])
-    st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','市賠自動','EV','燈']),use_container_width=True,hide_index=True)
+        rows.append([f'大/細 {line}',f'大{po*100:.1f}%/細{(1-po)*100:.1f}%',f'{fair(po):.2f}/{fair(1-po):.2f}',f'{om:.2f}/{to_mkt(1-po,overround):.2f}',f'{ev:+.1%}',f'{ic}'])
+    st.dataframe(pd.DataFrame(rows,columns=['角球盤','機率','公平','市賠自動','EV','燈']),use_container_width=True,hide_index=True)
 with tab7:
     rows=[]
-    for line in [7.5,8.5,9.5,10.5,11.5]:
-        pu=1-over_prob(line,exp_corner); um=to_mkt(pu,overround); ev,ic,txt=sig_ev(pu,um)
-        rows.append([f'角細 {line}',f'{pu*100:.1f}%',f'{fair(pu):.2f}',f'{um:.2f}',f'{ev:+.1%}',f'{ic} {txt}'])
-    st.dataframe(pd.DataFrame(rows,columns=['盤口','機率','公平','市賠自動','EV','燈']),use_container_width=True,hide_index=True)
-st.success('V113 173行全功能真分類定版 - 側邊只填主客和 + 7個Tab全有數')
+    for i in range(6):
+        for j in range(4):
+            p=mat[i,j]
+            if p>0.02:
+                rows.append([f'{i}:{j}',f'{p*100:.2f}%',f'{fair(p):.2f}',f'{to_mkt(p,overround):.2f}',f'{p*to_mkt(p,overround)-1:+.1%}'])
+    df_s=pd.DataFrame(rows,columns=['波膽','機率','公平','市賠自動','EV'])
+    df_s=df_s.sort_values('機率',ascending=False).head(15)
+    st.dataframe(df_s,use_container_width=True,hide_index=True)
+    if len(df_s)>0: st.success(f"最準波膽: {df_s.iloc[0]['波膽']} {df_s.iloc[0]['機率']} | 次選 {df_s.iloc[1]['波膽']} {df_s.iloc[1]['機率']} | 三選 {df_s.iloc[2]['波膽']}")
+with tab8:
+    rows=[]
+    for line in [0.5,1.5,2.5,3.5]: ov=sum(mat[i,j] for i in range(12) for j in range(12) if i+j>line); rows.append([f'大 {line}',ov])
+    best_g=max(rows,key=lambda x:x[1]); best_s=df_s.iloc[0] if len(df_s)>0 else ['2:1','10%']
+    st.json({'全場最準':f'{best_s["波膽"]} {best_s["機率"]}','入球最準':f'{best_g[0]} {best_g[1]*100:.1f}%','xG':f'{final_h:.2f} vs {final_a:.2f}','總入球':f'{exp_goals:.2f}','角球':f'{exp_corner:.1f}','教練差':f'{h["教練"]-a["教練"]:+.1f}'})
+st.success('V114 173行終極完整版定版 - 側邊只填主客和 + 大細分類 + 波膽比分齊晒')
