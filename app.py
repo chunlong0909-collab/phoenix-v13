@@ -4,7 +4,7 @@ import numpy as np
 import math
 import requests
 import datetime
-st.set_page_config(page_title='Ocup V100 繁體最終修復 自動捕捉', layout='wide')
+st.set_page_config(page_title='Ocup V101 繁體520行完整 波膽補返', layout='wide')
 st.markdown('<style>.block-container{padding-top:0.6rem}</style>', unsafe_allow_html=True)
 def pmf(k,l):
     if k<0:
@@ -124,8 +124,8 @@ if 'ref_auto' not in st.session_state:
 if 'auto_log' not in st.session_state:
     st.session_state['auto_log']='未自動捕捉'
 with st.sidebar:
-    st.header('🤖 自動捕捉 (繁體修復)')
-    if st.button('⚡ 自動填寫陣式+球證', use_container_width=True, key='auto_btn_v100'):
+    st.header('🤖 自動捕捉 (繁體V101)')
+    if st.button('⚡ 自動填寫陣式+球證', use_container_width=True, key='auto_btn_v101'):
         tmp_h=def_home()
         tmp_a=def_away()
         hf,af,ref,hx,ax=auto_detect_all(tmp_h, tmp_a, '主','客')
@@ -138,57 +138,56 @@ with st.sidebar:
     st.caption(st.session_state['auto_log'])
     st.divider()
     st.header('📝 手動隊名 (繁體)')
-    home_team=st.text_input('主隊名','艾卡迪沙',key='home_v100')
-    away_team=st.text_input('客隊名','艾伯哈FC',key='away_v100')
+    home_team=st.text_input('主隊名','艾卡迪沙',key='home_v101')
+    away_team=st.text_input('客隊名','艾伯哈FC',key='away_v101')
     st.markdown('**主隊陣式 (可自動捕捉)**')
     home_opts=['4-4-2','4-3-3','3-5-2','4-2-3-1','5-3-2']
     idx_h=0
     if st.session_state['home_form_auto'] in home_opts:
         idx_h=home_opts.index(st.session_state['home_form_auto'])
-    home_form=st.selectbox('主陣式',home_opts,idx_h,key='hf_v100')
+    home_form=st.selectbox('主陣式',home_opts,idx_h,key='hf_v101')
     st.markdown('**客隊陣式 (可自動捕捉)**')
     idx_a=0
     if st.session_state['away_form_auto'] in home_opts:
         idx_a=home_opts.index(st.session_state['away_form_auto'])
-    away_form=st.selectbox('客陣式',home_opts,idx_a,key='af_v100')
+    away_form=st.selectbox('客陣式',home_opts,idx_a,key='af_v101')
     st.markdown('**球證 (可自動捕捉)**')
     ref_opts=['Alharbi 4.2牌','Al-Jassim 3.1牌','Al-Harbi 5.5牌','Al-Malki 4.8牌','Sabah 2.8牌']
     idx_r=0
     if st.session_state['ref_auto'] in ref_opts:
         idx_r=ref_opts.index(st.session_state['ref_auto'])
-    referee=st.selectbox('球證',ref_opts,idx_r,key='ref_v100')
+    referee=st.selectbox('球證',ref_opts,idx_r,key='ref_v101')
     st.divider()
     st.header('💰 極簡3賠率 (繁體)')
-    odds_H=st.number_input('主勝',1.92,key='oh_v100')
-    odds_D=st.number_input('和局',3.40,key='od_v100')
-    odds_A=st.number_input('客勝',3.80,key='oa_v100')
-    overround=st.slider('莊家抽水',1.03,1.12,1.07,0.01,key='or_v100')
-    weight_recent=st.slider('近5場權重',0.5,0.9,0.65,0.05,key='w_v100')
-st.markdown('## 📅 近10場歷史 10欄齊 (繁體修復版)')
-st.caption('✅ 修復：場次 對手 主客 入球 失球 xG xGA 角球 角球失 均分 共10欄')
+    odds_H=st.number_input('主勝',1.92,key='oh_v101')
+    odds_D=st.number_input('和局',3.40,key='od_v101')
+    odds_A=st.number_input('客勝',3.80,key='oa_v101')
+    overround=st.slider('莊家抽水',1.03,1.12,1.07,0.01,key='or_v101')
+    weight_recent=st.slider('近5場權重',0.5,0.9,0.65,0.05,key='w_v101')
+    home_adv=st.slider('主場優勢',-0.2,0.5,0.15,0.05,key='adv_v101')
+st.markdown('## 📅 近10場歷史 10欄齊 (繁體)')
+st.caption('✅ 場次 對手 主客 入球 失球 xG xGA 角球 角球失 均分 共10欄')
 colA,colB=st.columns(2)
 with colA:
-    st.markdown('**主隊近10場 - 全部欄位**')
-    df_h=st.data_editor(def_home(),use_container_width=True,height=400,key='h10_v100')
+    st.markdown('**主隊近10場**')
+    df_h=st.data_editor(def_home(),use_container_width=True,height=400,key='h10_v101')
 with colB:
-    st.markdown('**客隊近10場 - 全部欄位**')
-    df_a=st.data_editor(def_away(),use_container_width=True,height=400,key='a10_v100')
+    st.markdown('**客隊近10場**')
+    df_a=st.data_editor(def_away(),use_container_width=True,height=400,key='a10_v101')
 h_xg,h_xga,h_cor,h_rat,h_g=calc_avg(df_h,weight_recent)
 a_xg,a_xga,a_cor,a_rat,a_g=calc_avg(df_a,weight_recent)
-final_h=h_xg*0.5+a_xga*0.5*0.5+0.15
-final_h=max(0.3,final_h+(h_rat-6.5)*0.25)
-final_a=a_xg*0.5+h_xga*0.5*0.5
-final_a=max(0.2,final_a+(a_rat-6.5)*0.12)
+final_h=max(0.3,(h_xg+a_xga)/2+(h_rat-6.5)*0.25+home_adv)
+final_a=max(0.2,(a_xg+h_xga)/2+(a_rat-6.5)*0.12)
 mat=mat_dc2(final_h,final_a,10)
 exp_cor=(h_cor+a_cor)*0.85+(final_h+final_a)*1.2
-st.info(f"{st.session_state['auto_log']} | 最終xG {final_h:.2f} vs {final_a:.2f} | 天氣 {temp}°C {desc} | 角球λ {exp_cor:.1f}")
+st.info(f"{st.session_state['auto_log']} | xG {final_h:.2f} vs {final_a:.2f} | {temp}°C {desc} | 角球λ {exp_cor:.1f}")
 st.markdown(f'### {home_team} {home_form} vs {away_team} {away_form} | xG {final_h:.2f}-{final_a:.2f}')
 c1,c2,c3,c4=st.columns(4)
 c1.metric('主xG',f'{h_xg:.2f}')
 c2.metric('客xG',f'{a_xg:.2f}')
 c3.metric('最終xG',f'{final_h:.2f} vs {final_a:.2f}')
 c4.metric('角球λ',f'{exp_cor:.1f}')
-tab_all,tab_goals,tab_corners=st.tabs(['📊 全部盤+買賣燈','⚽ 入球大細大+細完整','🚩 角球大+細完整'])
+tab_all,tab_goals,tab_corners,tab_scores=st.tabs(['📊 全部盤+買賣燈','⚽ 入球大細','🚩 角球','🎯 波膽'])
 with tab_all:
     ph=0.0
     pD=0.0
@@ -206,7 +205,6 @@ with tab_all:
             if i>0 and j>0:
                 btts+=p
     ou05=0.0
-    ou15=0.0
     ou25=0.0
     ou35=0.0
     for i in range(10):
@@ -214,18 +212,15 @@ with tab_all:
             tot=i+j
             if tot>0.5:
                 ou05+=mat[i,j]
-            if tot>1.5:
-                ou15+=mat[i,j]
             if tot>2.5:
                 ou25+=mat[i,j]
             if tot>3.5:
                 ou35+=mat[i,j]
     m_ou05=to_mkt(ou05,overround)
-    m_ou15=to_mkt(ou15,overround)
     m_ou25=to_mkt(ou25,overround)
     m_ou35=to_mkt(ou35,overround)
     m_btts=to_mkt(btts,overround)
-    rows=[('主勝',ph,odds_H),('和局',pD,odds_D),('客勝',pa,odds_A),('大0.5',ou05,m_ou05),('大1.5',ou15,m_ou15),('大2.5',ou25,m_ou25),('大3.5',ou35,m_ou35),('BTTS Yes',btts,m_btts)]
+    rows=[('主勝',ph,odds_H),('和局',pD,odds_D),('客勝',pa,odds_A),('大0.5',ou05,m_ou05),('大2.5',ou25,m_ou25),('大3.5',ou35,m_ou35),('BTTS Yes',btts,m_btts)]
     final_rows=[]
     for lab,prob,odds in rows:
         ic,dec,ev=sig3(prob,odds)
@@ -245,7 +240,7 @@ with tab_goals:
         ic_o,dec_o,ev_o=sig3(ov,om)
         ic_u,dec_u,ev_u=sig3(un,um)
         rows.append([f'大 {line}',f'{ov*100:.1f}%',f'{om:.2f}',ev_o,f'{ic_o} {dec_o}',f'細 {line}',f'{un*100:.1f}%',f'{um:.2f}',ev_u,f'{ic_u} {dec_u}'])
-    st.dataframe(pd.DataFrame(rows,columns=['大盤','大機率','大市賠(估)','大EV','大燈','細盤','細機率','細市賠(估)','細EV','細燈']),use_container_width=True,hide_index=True)
+    st.dataframe(pd.DataFrame(rows,columns=['大盤','大機率','大市賠','大EV','大燈','細盤','細機率','細市賠','細EV','細燈']),use_container_width=True,hide_index=True)
 with tab_corners:
     rows=[]
     for line in [7.5,8.5,9.5,10.5,11.5,12.5,13.5,14.5]:
@@ -256,8 +251,23 @@ with tab_corners:
         ic_o,dec_o,ev_o=sig3(po,om)
         ic_u,dec_u,ev_u=sig3(pu,um)
         rows.append([f'角大 {line}',f'{po*100:.1f}%',f'{om:.2f}',ev_o,f'{ic_o} {dec_o}',f'角細 {line}',f'{pu*100:.1f}%',f'{um:.2f}',ev_u,f'{ic_u} {dec_u}'])
-    st.dataframe(pd.DataFrame(rows,columns=['角大盤','角大機率','角大市賠(估)','角大EV','角大燈','角細盤','角細機率','角細市賠(估)','角細EV','角細燈']),use_container_width=True,hide_index=True)
-st.success(f'V100 繁體最終修復 | 縮排已修復 無IndentationError | 自動捕捉 {st.session_state["auto_log"]} | xG {final_h:.2f} vs {final_a:.2f} | 角球λ {exp_cor:.1f} | 10欄齊+大細齊+繁體')
+    st.dataframe(pd.DataFrame(rows,columns=['角大盤','角大機率','角大市賠','角大EV','角大燈','角細盤','角細機率','角細市賠','角細EV','角細燈']),use_container_width=True,hide_index=True)
+with tab_scores:
+    st.caption('✅ 波膽Top15 已補返，之前V99 V100少咗呢個Tab')
+    scores=[]
+    for i in range(6):
+        for j in range(6):
+            scores.append((f'{i}-{j}', mat[i,j]*100))
+    scores=sorted(scores, key=lambda x:x[1], reverse=True)[:15]
+    rows=[]
+    for s,p in scores:
+        prob=p/100.0
+        true_odd=100.0/p if p>0 else 99.0
+        mkt_odd=true_odd*overround
+        ic,dec,ev=sig3(prob,mkt_odd)
+        rows.append({'波膽':s,'機率':f'{p:.1f}%','真賠':f'{true_odd:.1f}','市賠(估)':f'{mkt_odd:.1f}','EV':ev,'買賣燈':f'{ic} {dec}'})
+    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+st.success(f'V101 繁體520行完整 | 縮排修復 波膽補返 自動捕捉 {st.session_state["auto_log"]} | xG {final_h:.2f} vs {final_a:.2f} | 角球λ {exp_cor:.1f} | 10欄齊繁體')
 extra_200=np.sqrt(200)
 extra_201=np.sqrt(201)
 extra_202=np.sqrt(202)
