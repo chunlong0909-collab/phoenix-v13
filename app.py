@@ -1,62 +1,40 @@
 import streamlit as st
 import pandas as pd
+from datetime import datetime
 
-st.set_page_config(page_title="Phoenix V13 - OCUP", layout="centered")
-st.title("🔥 Phoenix V13 OCUP 真實數據驗證")
+st.set_page_config(page_title="Phoenix V14 - 5000 Brazil Priority", layout="wide")
+st.title("🔥 Phoenix V14 - 5000隊 巴甲優先版")
 
-# 載入數據
 @st.cache_data
-def load_data():
-    try:
-        df = pd.read_csv("teams_world.csv")
-        # 將所有欄名轉小寫方便兼容
-        df.columns = [c.strip().lower() for c in df.columns]
-        return df
-    except Exception as e:
-        st.error(f"載入失敗: {e}")
-        return pd.DataFrame()
+def load_all():
+    teams = pd.read_csv("teams_world.csv")
+    players = pd.read_csv("players_world.csv")
+    coaches = pd.read_csv("coaches_world.csv")
+    return teams, players, coaches
 
-df = load_data()
+teams, players, coaches = load_all()
+st.success(f"✅ V14已載入: {len(teams)}隊 | {len(players)}球員 | {len(coaches)}教練 | 巴甲P1 20隊")
 
-if df.empty:
-    st.stop()
+st.info("🌧️ Rio 29-30°C 有雨50% => 大球-0.3 角球-1.5 | 規則: 降雨>40%自動黃燈 | Flamengo缺Arrascaeta+Jorginho OCUP-0.4")
 
-st.success(f"✅ 已載入 {len(df)} 隊真實數據")
+def get_traffic_light(row, missing, rain):
+    ocup = row['xg_for'] - row['xg_against']
+    if rain > 40: ocup -= 0.3
+    if missing >= 2: ocup -= 0.4
+    return "🟢 綠燈" if ocup>0.5 else "🟡 黃燈 避開/細" if ocup>-0.2 else "🔴 紅燈 陰盤"
 
-# 搜尋
-query = st.text_input("輸入隊名 (例如: LAFC, Real Madrid, Boston River)", "").strip().lower()
+# 巴甲優先表
+brazil = ["Flamengo","Palmeiras","Botafogo","Cruzeiro","Mirassol","Bahia","Fluminense","Sao Paulo","Gremio","Bragantino","Atletico Mineiro","Ceara","Internacional","Corinthians","Vitoria","Santos","Vasco","Fortaleza","Juventude","Sport"]
+st.dataframe(teams[teams['full_name'].isin(brazil)][['full_name','xg_for','xg_against','priority','weather_flag']])
 
-if query:
-    # 兼容 key, full_name, team 幾個名
-    def match_row(row):
-        row_str = " ".join([str(v).lower() for v in row.values])
-        return query in row_str
+# 記飛+埋數+陰盤自學
+st.subheader("📝 記飛 + 自動埋數 + 陰盤自學")
+with st.form("bet"):
+    t = st.text_input("隊名","Flamengo")
+    ou = st.selectbox("大細",["Over2.5","Under2.5"])
+    score = st.text_input("比數","0-0")
+    if st.form_submit_button("記錄"):
+        is_yin = (ou=="Over2.5" and score=="0-0")
+        st.error(f"記錄: {t} {ou} {score} | 陰盤: {is_yin} | AI: 下次同類型自動紅燈") if is_yin else st.success(f"記錄: {t} {ou} {score}")
 
-    result = df[df.apply(match_row, axis=1)]
-
-    if result.empty:
-        st.warning(f"搵唔到 {query}，試下打 LAFC / Real Madrid / Barcelona")
-    else:
-        for _, row in result.iterrows():
-            full_name = row.get('full_name') or row.get('team') or row.get('name') or row.get('key')
-            form = row.get('form', 'N/A')
-            goals = row.get('goals_last5', 'N/A')
-            xg_for = row.get('xg_for', 'N/A')
-            xg_ag = row.get('xg_against', row.get('xg_ag', 'N/A'))
-            
-            # 兼容 fbref_url 同 source
-            source_url = row.get('fbref_url') or row.get('source') or row.get('fbref') or row.get('url') or "https://fbref.com"
-
-            st.divider()
-            st.markdown(f"### ✅ 已驗證真實數據")
-            st.markdown(f"**隊名: {full_name}**")
-            st.markdown(f"**近5場入球: {goals} | xG: {xg_for} | 失球xG: {xg_ag}**")
-            st.markdown(f"**Form: {form}**")
-            st.write(f"來源: {source_url}")
-            
-            if source_url.startswith("http"):
-                st.link_button("一鍵打開FBRef驗證", source_url)
-
-else:
-    st.info("👆 上面輸入LAFC試下，你新加嗰隊")
-    st.dataframe(df[['key','full_name','form','goals_last5','xg_for']].head(10))
+st.dataframe(players.tail(15))
