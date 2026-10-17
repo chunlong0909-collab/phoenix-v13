@@ -375,10 +375,10 @@ with st.sidebar:
     home_odds = st.number_input("主勝賠率", 1.01, 100.0, 1.85)
     draw_odds = st.number_input("和局賠率", 1.01, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率", 1.01, 100.0, 4.20)
-    line = st.selectbox("入球線", [0.5, 1.5, 2.5, 3.5, 4.5], index=2)
+    line = st.selectbox("主要入球線", [2.5, 3.5, 4.5], index=0)
     handicap_line = st.number_input("主隊亞洲讓球（例如 -0.5）", -3.0, 3.0, 0.0, step=0.25)
     handicap_odds = st.number_input("讓球主隊賠率（可選）", 1.01, 100.0, 1.90)
-    corner_line = st.number_input("角球線（只在有真實角球資料時分析）", 5.5, 15.5, 9.5, step=0.5)
+    corner_line = st.selectbox("主要角球線", [9.5, 10.5, 11.5, 12.5, 13.5, 14.5], index=0)
     corner_over_odds = st.number_input("角球大賠率（可選）", 1.01, 100.0, 1.90)
     corner_under_odds = st.number_input("角球細賠率（可選）", 1.01, 100.0, 1.90)
     run = st.button("一鍵自動抓取及分析", type="primary", use_container_width=True)
@@ -410,6 +410,7 @@ if run:
     hp, dp, ap = probs(hx, ax)
     over = 1 - sum(poisson(k, hx + ax) for k in range(math.floor(line) + 1))
     under = 1 - over
+    goal_lines = {x: (1 - sum(poisson(k, hx + ax) for k in range(math.floor(x) + 1))) for x in [2.5, 3.5, 4.5]}
     matrix = score_matrix(hx, ax)
     ah_home, ah_draw, ah_away = handicap_prob(matrix, handicap_line)
     with sqlite3.connect(DB) as c:
@@ -421,8 +422,10 @@ if run:
         ["主勝", hp, home_odds, *signal(hp, home_odds, "和局或主隊不敗")],
         ["和局", dp, draw_odds, *signal(dp, draw_odds, "主隊不敗")],
         ["客勝", ap, away_odds, *signal(ap, away_odds, "和局或客隊不敗")],
-        [f"大 {line}", over, None, *signal(over, None, f"細 {line}")],
-        [f"細 {line}", under, None, *signal(under, None, f"大 {line}")],
+        *[row for x in [2.5, 3.5, 4.5] for row in (
+            [f"大 {x}", goal_lines[x], None, *signal(goal_lines[x], None, f"細 {x}")],
+            [f"細 {x}", 1 - goal_lines[x], None, *signal(1 - goal_lines[x], None, f"大 {x}")],
+        )],
     ], columns=["選項", "模型機率", "輸入賠率", "提示", "說明"])
     st.dataframe(table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
     st.markdown("### 完整盤口分析")
@@ -439,7 +442,8 @@ if run:
         st.dataframe(exact_score_table(matrix, 5).style.format({"機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     with bc2:
         st.markdown("**角球大細**")
-        st.warning("目前來源未回傳今場真實角球統計，角球大／細暫時 🚫 避開；不使用入球數據冒充角球數據。")
+        corner_table = pd.DataFrame([[f"大 {x}", None, "🚫 避開", "未有真實角球盤／角球統計"] for x in [9.5, 10.5, 11.5, 12.5, 13.5, 14.5]] + [[f"細 {x}", None, "🚫 避開", "未有真實角球盤／角球統計"] for x in [9.5, 10.5, 11.5, 12.5, 13.5, 14.5]], columns=["角球盤", "模型機率", "提示", "說明"])
+        st.dataframe(corner_table, use_container_width=True, hide_index=True)
     st.markdown("**綜合推薦**")
     best_market = max([(hp, "主勝"), (dp, "和局"), (ap, "客勝"), (over, f"大 {line}"), (under, f"細 {line}"), (ah_home, f"主隊讓球 {handicap_line:+.2f}")])
     best_signal, best_reason = signal(best_market[0], None, "")
