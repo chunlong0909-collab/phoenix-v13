@@ -43,6 +43,8 @@ LEAGUES = {
     "日本職業聯賽": {"api": 98, "csv": "JPN"},
     "日本乙組聯賽": {"api": 99, "csv": ""},
     "澳洲職業聯賽": {"api": 188, "csv": ""},
+    "澳洲冠軍聯賽盃／澳洲盃": {"api": None, "csv": ""},
+    "女子澳洲職業聯賽": {"api": None, "csv": ""},
     "南韓職業聯賽": {"api": 292, "csv": ""},
     "南韓乙組聯賽": {"api": 293, "csv": ""},
     "泰國甲組聯賽": {"api": 296, "csv": ""},
@@ -50,6 +52,9 @@ LEAGUES = {
     "卡塔爾超級聯賽": {"api": 305, "csv": ""},
     "阿聯酋職業聯賽": {"api": 301, "csv": ""},
     "烏拉圭甲組聯賽": {"api": 268, "csv": ""},
+    "墨西哥甲組聯賽": {"api": 263, "csv": ""},
+    "女子挪威超級聯賽": {"api": None, "csv": ""},
+    "女子南美自由盃": {"api": None, "csv": ""},
     "歐洲冠軍聯賽": {"api": 2, "csv": ""},
 }
 
@@ -60,6 +65,7 @@ ALIASES = {
     "班菲特": "Banfield", "小阿根廷人": "Argentinos Jrs",
     "小阿根廷青年人": "Argentinos Jrs", "博卡青年": "Boca Juniors",
     "河床": "River Plate", "獨立隊": "Independiente", "競賽會": "Racing Club",
+    "漢諾威": "Hannover", "漢諾威九六": "Hannover", "聖保利": "St Pauli",
 }
 
 
@@ -137,6 +143,8 @@ def api_get(endpoint, params, token):
 
 def from_api(league, token):
     league_id = LEAGUES[league]["api"]
+    if not league_id:
+        raise ValueError("API-Football 暫未有此聯賽的可用 ID")
     errors = []
     for season in [datetime.now().year, 2024]:
         try:
@@ -347,8 +355,23 @@ with st.sidebar:
     api_token = st.text_input("API-Football Token（可選）", value=configured_secret("API_FOOTBALL_TOKEN"), type="password")
     fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
     crawl_url = st.text_input("後備公開賽果頁面（可選）", placeholder="只填允許自動讀取、包含賽果表格的公開網址")
-    home_text = st.text_input("主隊", "阿仙奴")
-    away_text = st.text_input("客隊", "利物浦")
+    directory_key = f"teams_{league}"
+    load_directory = st.button("先載入本聯賽球隊清單", use_container_width=True)
+    if load_directory:
+        try:
+            directory_df, directory_source, _ = get_matches(league, api_token.strip(), fd_token.strip(), crawl_url)
+            st.session_state[directory_key] = sorted(set(directory_df["Home"]) | set(directory_df["Away"]))
+            st.caption(f"已載入 {len(st.session_state[directory_key])} 隊｜來源：{directory_source}")
+        except Exception as exc:
+            st.warning(f"球隊清單暫時未能載入：{exc}")
+    directory = st.session_state.get(directory_key, [])
+    if directory:
+        home_text = st.selectbox("主隊（由聯賽清單選擇）", directory, key=f"home_{league}")
+        away_text = st.selectbox("客隊（由聯賽清單選擇）", directory, index=min(1, len(directory) - 1), key=f"away_{league}")
+    else:
+        st.caption("先按上面的按鈕載入球隊清單；亦可暫時手動輸入官方隊名。")
+        home_text = st.text_input("主隊", "阿仙奴")
+        away_text = st.text_input("客隊", "利物浦")
     home_odds = st.number_input("主勝賠率", 1.01, 100.0, 1.85)
     draw_odds = st.number_input("和局賠率", 1.01, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率", 1.01, 100.0, 4.20)
