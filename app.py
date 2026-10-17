@@ -16,6 +16,7 @@ st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layou
 
 DB = Path(__file__).with_name("football_library.db")
 API_BASE = "https://v3.football.api-sports.io"
+FD_API = "https://api.football-data.org/v4"
 FD_BASE = "https://www.football-data.co.uk"
 HEADERS = {"User-Agent": "FootballResearchApp/1.0 (public-data research)"}
 
@@ -145,6 +146,34 @@ def from_api(league, token):
     raise ValueError("；".join(errors)[-800:] or "API 沒有可用賽果")
 
 
+FD_CODES = {
+    "英格蘭超級聯賽": "PL", "英格蘭冠軍聯賽": "ELC", "西班牙甲組聯賽": "PD",
+    "西班牙乙組聯賽": "SD", "德國甲組聯賽": "BL1", "德國乙組聯賽": "BL2",
+    "法國乙組聯賽": "FL2", "荷蘭甲組聯賽": "DED", "蘇格蘭超級聯賽": "SCO",
+    "歐洲冠軍聯賽": "CL",
+}
+
+
+def from_football_data_api(league, token):
+    code = FD_CODES.get(league)
+    if not code:
+        raise ValueError("Football-Data.org API 沒有此聯賽對照")
+    r = requests.get(f"{FD_API}/competitions/{code}/matches", headers={"X-Auth-Token": token, **HEADERS},
+                     params={"status": "FINISHED"}, timeout=10)
+    r.raise_for_status()
+    rows = []
+    for item in r.json().get("matches", []):
+        score = item.get("score", {}).get("fullTime", {})
+        if score.get("home") is not None and score.get("away") is not None:
+            rows.append({"Home": item.get("homeTeam", {}).get("name", ""),
+                         "Away": item.get("awayTeam", {}).get("name", ""),
+                         "HG": score["home"], "AG": score["away"],
+                         "Date": item.get("utcDate", "")})
+    if not rows:
+        raise ValueError("Football-Data.org API 沒有回傳已完成賽事")
+    return clean_matches(pd.DataFrame(rows), "Football-Data.org API", league, datetime.now().year)
+
+
 def from_csv(league):
     code = LEAGUES[league].get("csv")
     if not code:
@@ -189,7 +218,7 @@ def from_public_table(league, url):
     raise ValueError("公開頁面沒有可辨識的賽果表格")
 
 
-def get_matches(league, api_token, crawl_url):
+def get_matches(league, api_token, fd_token, crawl_url):
     fresh = cached_matches(league)
     if not fresh.empty:
         return fresh, "本地資料館", "高（已儲存）"
@@ -199,6 +228,11 @@ def get_matches(league, api_token, crawl_url):
             df = from_api(league, api_token); save_matches(df); log_source(league, "API-Football", "成功"); return df, "API-Football", "高"
         except Exception as e:
             attempts.append(f"API-Football：{e}"); log_source(league, "API-Football", "失敗", str(e))
+    if fd_token:
+        try:
+            df = from_football_data_api(league, fd_token); save_matches(df); log_source(league, "Football-Data.org API", "成功"); return df, "Football-Data.org API", "高"
+        except Exception as e:
+            attempts.append(f"Football-Data.org API：{e}"); log_source(league, "Football-Data.org API", "失敗", str(e))
     try:
         df = from_csv(league); save_matches(df); log_source(league, "Football-Data CSV", "成功"); return df, "Football-Data CSV", "高"
     except Exception as e:
@@ -251,6 +285,7 @@ st.caption("本地資料館 → API → 公開 CSV → 獲准讀取的公開網�
 with st.sidebar:
     league = st.selectbox("聯賽", list(LEAGUES))
     api_token = st.text_input("API-Football Token（可選）", value=configured_secret("API_FOOTBALL_TOKEN"), type="password")
+    fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
     crawl_url = st.text_input("後備公開賽果頁面（可選）", placeholder="只填允許自動讀取、包含賽果表格的公開網址")
     home_text = st.text_input("主隊", "阿仙奴")
     away_text = st.text_input("客隊", "利物浦")
@@ -265,7 +300,7 @@ if run:
     away = ALIASES.get(away_text.strip(), away_text.strip())
     with st.spinner("按資料來源優先次序抓取中……"):
         try:
-            matches, source, quality = get_matches(league, api_token.strip(), crawl_url)
+            matches, source, quality = get_matches(league, api_token.strip(), fd_token.strip(), crawl_url)
         except Exception as e:
             st.error(str(e)); st.stop()
     teams = sorted(set(matches.Home) | set(matches.Away))
