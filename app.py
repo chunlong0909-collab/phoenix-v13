@@ -117,6 +117,11 @@ def cached_matches(league, max_age_hours=24):
         df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
     if df.empty:
         return df
+    # SQLite 欄位用小寫儲存；分析模型統一使用公開資料的欄位名稱。
+    df = df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG", "date": "Date"})
+    df["HG"] = pd.to_numeric(df["HG"], errors="coerce")
+    df["AG"] = pd.to_numeric(df["AG"], errors="coerce")
+    df["DateParsed"] = pd.to_datetime(df.get("Date", ""), errors="coerce", dayfirst=True)
     latest = pd.to_datetime(df["captured_at"], utc=True, errors="coerce").max()
     return df if pd.notna(latest) and latest >= cutoff else pd.DataFrame()
 
