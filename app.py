@@ -57,8 +57,8 @@ ALIASES = {
     "阿仙奴": "Arsenal FC", "利物浦": "Liverpool FC", "紐卡素": "Newcastle United FC",
     "阿士東維拉": "Aston Villa FC", "曼聯": "Manchester United FC", "車路士": "Chelsea FC",
     "熱刺": "Tottenham Hotspur FC", "廣島三箭": "Sanfrecce Hiroshima", "京都不死鳥": "Kyoto Sanga",
-    "班菲特": "Banfield", "小阿根廷人": "Argentinos Juniors",
-    "小阿根廷青年人": "Argentinos Juniors", "博卡青年": "Boca Juniors",
+    "班菲特": "Banfield", "小阿根廷人": "Argentinos Jrs",
+    "小阿根廷青年人": "Argentinos Jrs", "博卡青年": "Boca Juniors",
     "河床": "River Plate", "獨立隊": "Independiente", "競賽會": "Racing Club",
 }
 
@@ -286,6 +286,11 @@ def configured_secret(name):
         return os.getenv(name, "")
 
 
+def team_key(value):
+    value = re.sub(r"[^a-z0-9]", "", str(value).lower())
+    return value.replace("jrs", "juniors").replace("ath", "atletico")
+
+
 db_init()
 st.title("混合來源足球分析")
 st.caption("本地資料館 → API → 公開 CSV → 獲准讀取的公開網頁表格；資料不足時不會虛構結果。")
@@ -312,8 +317,8 @@ if run:
         except Exception as e:
             st.error(str(e)); st.stop()
     teams = sorted(set(matches.Home) | set(matches.Away))
-    hm = next((x for x in teams if home.lower() in x.lower()), None)
-    am = next((x for x in teams if away.lower() in x.lower()), None)
+    hm = next((x for x in teams if home.lower() in x.lower() or team_key(home) == team_key(x)), None)
+    am = next((x for x in teams if away.lower() in x.lower() or team_key(away) == team_key(x)), None)
     if not hm or not am:
         st.warning("搵不到其中一隊。請使用下方資料來源中的官方隊名。")
         st.dataframe(pd.DataFrame({"可選球隊": teams}), use_container_width=True, hide_index=True); st.stop()
