@@ -34,7 +34,35 @@ API_COMPETITIONS = {
 
 API_FOOTBALL_LEAGUES = {
     "英格蘭超級聯賽": 39,
+    "英格蘭冠軍聯賽": 40,
     "西班牙甲組聯賽": 140,
+    "西班牙乙組聯賽": 141,
+    "德國甲組聯賽": 78,
+    "德國乙組聯賽": 79,
+    "法國乙組聯賽": 62,
+    "荷蘭甲組聯賽": 88,
+    "荷蘭乙組聯賽": 89,
+    "蘇格蘭超級聯賽": 179,
+    "奧地利甲組聯賽": 218,
+    "丹麥超級聯賽": 119,
+    "芬蘭超級聯賽": 244,
+    "挪威超級聯賽": 103,
+    "俄羅斯超級聯賽": 235,
+    "阿根廷甲組聯賽": 128,
+    "巴西甲組聯賽": 71,
+    "巴西乙組聯賽": 72,
+    "墨西哥超級聯賽": 262,
+    "墨西哥甲組聯賽": 263,
+    "日本職業聯賽": 98,
+    "日本乙組聯賽": 99,
+    "澳洲職業聯賽": 188,
+    "南韓職業聯賽": 292,
+    "南韓乙組聯賽": 293,
+    "泰國甲組聯賽": 296,
+    "沙特職業聯賽": 307,
+    "卡塔爾超級聯賽": 305,
+    "阿聯酋職業聯賽": 301,
+    "烏拉圭甲組聯賽": 268,
     "歐洲冠軍聯賽": 2,
 }
 
@@ -205,6 +233,33 @@ def api_football_get(endpoint: str, params_key: tuple[tuple[str, str], ...], tok
     return payload
 
 
+@st.cache_data(ttl=1800, show_spinner=False)
+def load_api_football_matches(league_id: int, token: str) -> tuple[pd.DataFrame, str]:
+    """下載本季已完成賽事，令 API-Football 可作為 CSV 以外的主要賽果來源。"""
+    season = str(datetime.now().year)
+    payload = api_football_get("fixtures", (("league", str(league_id)), ("season", season), ("status", "FT")), token)
+    rows = []
+    for item in payload.get("response", []):
+        goals = item.get("goals") or {}
+        if goals.get("home") is None or goals.get("away") is None:
+            continue
+        rows.append({
+            "Home": item.get("teams", {}).get("home", {}).get("name", ""),
+            "Away": item.get("teams", {}).get("away", {}).get("name", ""),
+            "HG": goals.get("home"), "AG": goals.get("away"),
+            "Date": item.get("fixture", {}).get("date", ""),
+            "FixtureID": item.get("fixture", {}).get("id"),
+            "Res": "H" if goals["home"] > goals["away"] else "A" if goals["away"] > goals["home"] else "D",
+        })
+    if not rows:
+        raise ValueError("API-Football 沒有回傳本季已完成賽事，可能是賽季代碼尚未更新")
+    df = pd.DataFrame(rows)
+    df["HG"] = pd.to_numeric(df["HG"], errors="coerce")
+    df["AG"] = pd.to_numeric(df["AG"], errors="coerce")
+    df["DateParsed"] = pd.to_datetime(df["Date"], errors="coerce", utc=True)
+    return df.sort_values("DateParsed"), f"{API_FOOTBALL_BASE}/fixtures?league={league_id}&season={season}&status=FT"
+
+
 @st.cache_data(ttl=86400, show_spinner=False)
 def find_api_team(name: str, token: str) -> dict[str, Any] | None:
     search_name = TEAM_ALIASES.get(name.strip(), name.strip())
@@ -240,7 +295,11 @@ def player_data_for_match(home: str, away: str, token: str) -> tuple[dict[str, A
     away_id = away_team.get("team", {}).get("id")
     if not home_id or not away_id:
         return {}, {}, "API-Football 找不到球隊 ID"
-    return get_api_team_data(home_id, token), get_api_team_data(away_id, token), None
+    home_data = get_api_team_data(home_id, token)
+    away_data = get_api_team_data(away_id, token)
+    home_data["logo"] = home_team.get("team", {}).get("logo", "")
+    away_data["logo"] = away_team.get("team", {}).get("logo", "")
+    return home_data, away_data, None
 
 
 def player_strength(team_data: dict[str, Any]) -> dict[str, float]:
@@ -363,7 +422,7 @@ def get_weather(latitude: float, longitude: float) -> dict[str, Any]:
 @st.cache_data(ttl=3600, show_spinner=False)
 def get_team_info(name: str) -> dict[str, str]:
     english = TEAM_ALIASES.get(name.strip(), name.strip())
-    fallback = {"en": english, "stadium": "未能取得", "manager": "未能取得", "league": "未能取得"}
+    fallback = {"en": english, "stadium": "未能取得", "manager": "未能取得", "league": "未能取得", "logo": ""}
     if not english:
         return fallback
     try:
@@ -379,6 +438,7 @@ def get_team_info(name: str) -> dict[str, str]:
             "stadium": t.get("strStadium") or "未能取得",
             "manager": t.get("strManager") or "未能取得",
             "league": t.get("strLeague") or "未能取得",
+            "logo": t.get("strTeamBadge") or t.get("strTeamLogo") or "",
         }
     except (rq.RequestException, ValueError, TypeError, KeyError):
         return fallback
@@ -480,7 +540,7 @@ with st.sidebar:
     analyse = st.button("一鍵自動抓取及分析", type="primary", use_container_width=True)
 
 if analyse:
-    if source == "unsupported" and not (api_token and league in API_COMPETITIONS):
+    if source == "unsupported" and not (api_token and league in API_COMPETITIONS) and not (api_football_token and league in API_FOOTBALL_LEAGUES):
         st.warning("目前公開資料來源未提供這個聯賽的可用 CSV，程式沒有虛構數據。請稍後再試，或提供該聯賽的公開資料來源。")
         try:
             weather = get_weather(*coords)
@@ -492,7 +552,21 @@ if analyse:
     with st.spinner(f"正在抓取 {league} 最新公開賽果及天氣資料……"):
         try:
             api_standings = pd.DataFrame()
-            if api_token and league in API_COMPETITIONS:
+            if api_football_token and league in API_FOOTBALL_LEAGUES:
+                try:
+                    matches, source_url = load_api_football_matches(API_FOOTBALL_LEAGUES[league], api_football_token)
+                    api_standings = pd.DataFrame()
+                    data_source_label = "API-Football"
+                except (rq.RequestException, ValueError, KeyError) as api_exc:
+                    st.warning(f"API-Football 賽果暫時不可用，會嘗試其他來源：{api_exc}")
+                    if api_token and league in API_COMPETITIONS:
+                        matches, source_url, api_payload = load_api_matches(API_COMPETITIONS[league], api_token)
+                        api_standings = load_api_standings(API_COMPETITIONS[league], api_token)
+                        data_source_label = "Football-Data.org API"
+                    else:
+                        matches, source_url = load_matches(source, code)
+                        data_source_label = "公開 CSV 後備"
+            elif api_token and league in API_COMPETITIONS:
                 try:
                     matches, source_url, api_payload = load_api_matches(API_COMPETITIONS[league], api_token)
                     api_standings = load_api_standings(API_COMPETITIONS[league], api_token)
@@ -547,7 +621,17 @@ if analyse:
     if api_football_token and player_away:
         save_api_snapshot(league, away, "球員及傷停", player_away)
 
-    st.subheader(f"{home} vs {away}｜{league}")
+    logo_home = player_home.get("logo", "") or info_home.get("logo", "")
+    logo_away = player_away.get("logo", "") or info_away.get("logo", "")
+    logo_left, title_col, logo_right = st.columns([1, 4, 1])
+    with logo_left:
+        if logo_home:
+            st.image(logo_home, width=72)
+    with title_col:
+        st.subheader(f"{home} vs {away}｜{league}")
+    with logo_right:
+        if logo_away:
+            st.image(logo_away, width=72)
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("預測比分", f"{round(home_xg)} - {round(away_xg)}")
     c2.metric("主勝／和／客勝", f"{hp:.1%} / {dp:.1%} / {ap:.1%}")
