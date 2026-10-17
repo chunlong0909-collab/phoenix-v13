@@ -57,6 +57,9 @@ ALIASES = {
     "阿仙奴": "Arsenal FC", "利物浦": "Liverpool FC", "紐卡素": "Newcastle United FC",
     "阿士東維拉": "Aston Villa FC", "曼聯": "Manchester United FC", "車路士": "Chelsea FC",
     "熱刺": "Tottenham Hotspur FC", "廣島三箭": "Sanfrecce Hiroshima", "京都不死鳥": "Kyoto Sanga",
+    "班菲特": "Banfield", "小阿根廷人": "Argentinos Juniors",
+    "小阿根廷青年人": "Argentinos Juniors", "博卡青年": "Boca Juniors",
+    "河床": "River Plate", "獨立隊": "Independiente", "競賽會": "Racing Club",
 }
 
 
