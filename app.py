@@ -253,6 +253,28 @@ def get_matches(league, api_token, fd_token, crawl_url):
     raise ValueError("所有來源都未能取得資料：\n" + "\n".join(attempts))
 
 
+@st.cache_data(ttl=21600, show_spinner=False)
+def team_details(team_name, token):
+    if not token:
+        return {}, "未設定 API-Football Token"
+    try:
+        found = api_get("teams", {"search": team_name}, token).get("response", [])
+        if not found:
+            return {}, "API 找不到球隊"
+        team = found[0].get("team", {})
+        venue = found[0].get("venue", {})
+        team_id = team.get("id")
+        if not team_id:
+            return {}, "API 沒有球隊 ID"
+        squad = api_get("players/squads", {"team": team_id}, token).get("response", [])
+        injuries = api_get("injuries", {"team": team_id, "season": 2024}, token).get("response", [])
+        coaches = api_get("coachs", {"team": team_id}, token).get("response", [])
+        coach = coaches[0].get("name", "未能取得") if coaches else "未能取得"
+        return {"team": team, "venue": venue, "coach": coach, "squad": squad[0].get("players", []) if squad else [], "injuries": injuries}, ""
+    except Exception as e:
+        return {}, str(e)
+
+
 def poisson(k, lam):
     return math.exp(-lam) * lam ** k / math.factorial(k)
 
@@ -277,6 +299,31 @@ def signal(p, odds=None, other=""):
     if odds and p * odds - 1 < 0:
         return "❌ 不建議", f"EV {p * odds - 1:.1%}；{('轉睇 ' + other) if other else '觀望'}"
     return "⚠️ 觀望", "資料優勢不足，唔建議勉強入場"
+
+
+def score_matrix(hx, ax, max_goals=8):
+    return {(hg, ag): poisson(hg, hx) * poisson(ag, ax) for hg in range(max_goals + 1) for ag in range(max_goals + 1)}
+
+
+def handicap_prob(matrix, line):
+    """簡化亞洲讓球模型；四分一盤會以相鄰半盤平均表示。"""
+    def one(x):
+        home = draw = away = 0.0
+        for (hg, ag), p in matrix.items():
+            diff = hg - ag + x
+            if diff > 0: home += p
+            elif diff == 0: draw += p
+            else: away += p
+        return home, draw, away
+    if abs(line * 4) % 2 == 1:
+        a = one(line - 0.25); b = one(line + 0.25)
+        return tuple((x + y) / 2 for x, y in zip(a, b))
+    return one(line)
+
+
+def exact_score_table(matrix, n=5):
+    rows = sorted(matrix.items(), key=lambda x: x[1], reverse=True)[:n]
+    return pd.DataFrame([{"比分": f"{hg}-{ag}", "機率": p} for (hg, ag), p in rows])
 
 
 def configured_secret(name):
@@ -306,6 +353,11 @@ with st.sidebar:
     draw_odds = st.number_input("和局賠率", 1.01, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率", 1.01, 100.0, 4.20)
     line = st.selectbox("入球線", [0.5, 1.5, 2.5, 3.5, 4.5], index=2)
+    handicap_line = st.number_input("主隊亞洲讓球（例如 -0.5）", -3.0, 3.0, 0.0, step=0.25)
+    handicap_odds = st.number_input("讓球主隊賠率（可選）", 1.01, 100.0, 1.90)
+    corner_line = st.number_input("角球線（只在有真實角球資料時分析）", 5.5, 15.5, 9.5, step=0.5)
+    corner_over_odds = st.number_input("角球大賠率（可選）", 1.01, 100.0, 1.90)
+    corner_under_odds = st.number_input("角球細賠率（可選）", 1.01, 100.0, 1.90)
     run = st.button("一鍵自動抓取及分析", type="primary", use_container_width=True)
 
 if run:
@@ -323,8 +375,10 @@ if run:
         st.warning("搵不到其中一隊。請使用下方資料來源中的官方隊名。")
         st.dataframe(pd.DataFrame({"可選球隊": teams}), use_container_width=True, hide_index=True); st.stop()
     home, away = hm, am
-    h = matches[(matches.Home == home) | (matches.Away == home)].tail(8)
-    a = matches[(matches.Home == away) | (matches.Away == away)].tail(8)
+    home_info, home_info_error = team_details(home, api_token.strip())
+    away_info, away_info_error = team_details(away, api_token.strip())
+    h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
+    a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
     hgf = (h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean() if not h.empty else 1.0)
     hga = (h.apply(lambda r: r.AG if r.Home == home else r.HG, axis=1).mean() if not h.empty else 1.0)
     agf = (a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean() if not a.empty else 1.0)
@@ -333,6 +387,8 @@ if run:
     hp, dp, ap = probs(hx, ax)
     over = 1 - sum(poisson(k, hx + ax) for k in range(math.floor(line) + 1))
     under = 1 - over
+    matrix = score_matrix(hx, ax)
+    ah_home, ah_draw, ah_away = handicap_prob(matrix, handicap_line)
     with sqlite3.connect(DB) as c:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
     st.success(f"資料來源：{source}｜資料質素：{quality}｜賽果：{len(matches)} 場")
@@ -346,6 +402,46 @@ if run:
         [f"細 {line}", under, None, *signal(under, None, f"大 {line}")],
     ], columns=["選項", "模型機率", "輸入賠率", "提示", "說明"])
     st.dataframe(table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
-    st.info("讓球、角球、射門、正式陣容及球員傷停需另有指定比賽級資料；沒有資料時會顯示避開，不會用爬蟲亂填。")
+    st.markdown("### 完整盤口分析")
+    ah_signal, ah_reason = signal(ah_home, handicap_odds, f"主隊受讓／客隊方向（視讓球線）")
+    markets = pd.DataFrame([
+        [f"主隊 {handicap_line:+.2f}", ah_home, handicap_odds, ah_signal, ah_reason],
+        [f"讓球和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "讓球主隊或客隊")],
+        [f"讓球客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "讓球主隊")],
+    ], columns=["盤口", "模型機率", "輸入賠率", "提示", "說明"])
+    st.dataframe(markets.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
+    bc1, bc2 = st.columns(2)
+    with bc1:
+        st.markdown("**最可能波膽**")
+        st.dataframe(exact_score_table(matrix, 5).style.format({"機率": "{:.1%}"}), use_container_width=True, hide_index=True)
+    with bc2:
+        st.markdown("**角球大細**")
+        st.warning("目前來源未回傳今場真實角球統計，角球大／細暫時 🚫 避開；不使用入球數據冒充角球數據。")
+    st.markdown("**綜合推薦**")
+    best_market = max([(hp, "主勝"), (dp, "和局"), (ap, "客勝"), (over, f"大 {line}"), (under, f"細 {line}"), (ah_home, f"主隊讓球 {handicap_line:+.2f}")])
+    best_signal, best_reason = signal(best_market[0], None, "")
+    st.info(f"模型最高機率方向：{best_market[1]} {best_signal}｜{best_reason}。推薦只代表模型排序，不是保證賽果。")
+    st.markdown("### 球員及傷停資料")
+    if not api_token.strip():
+        st.warning("未設定 API-Football Token，暫時只顯示賽果模型。")
+    else:
+        pc1, pc2 = st.columns(2)
+        for col, name, info, err in [(pc1, home, home_info, home_info_error), (pc2, away, away_info, away_info_error)]:
+            with col:
+                st.markdown(f"**{name}**")
+                if err:
+                    st.warning(f"球員資料未能取得：{err}")
+                    continue
+                team_obj, venue = info.get("team", {}), info.get("venue", {})
+                st.caption(f"國家：{team_obj.get('country', '未能取得')}｜成立：{team_obj.get('founded', '未能取得')}｜教練：{info.get('coach', '未能取得')}｜主場：{venue.get('name', '未能取得')}")
+                squad = info.get("squad", [])
+                if squad:
+                    rows = [{"球員": p.get("name", ""), "位置": p.get("position", ""), "年齡": p.get("age", ""), "號碼": p.get("number", "")} for p in squad]
+                    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+                injuries = info.get("injuries", [])
+                st.warning(f"傷停／停賽：{len(injuries)} 人" if injuries else "暫未回傳傷停資料")
+                if injuries:
+                    st.dataframe(pd.DataFrame([{"球員": x.get("player", {}).get("name", ""), "原因": x.get("player", {}).get("reason", ""), "類型": x.get("player", {}).get("type", "")} for x in injuries]), use_container_width=True, hide_index=True)
+    st.info("讓球、角球、射門及正式陣容仍需指定比賽級資料；沒有資料時會顯示避開，不會用爬蟲亂填。")
 else:
     st.info("選擇聯賽、輸入兩隊，再按分析。")
