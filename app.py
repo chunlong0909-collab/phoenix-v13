@@ -1,4 +1,4 @@
-import math
+mport math
 import os
 import sqlite3
 from datetime import datetime
@@ -83,7 +83,56 @@ def init_history_db() -> None:
             id INTEGER PRIMARY KEY AUTOINCREMENT, captured_at TEXT NOT NULL,
             league TEXT, team TEXT, category TEXT, payload TEXT
         );
+        CREATE TABLE IF NOT EXISTS leagues (
+            league_id INTEGER PRIMARY KEY, name TEXT NOT NULL, country TEXT, updated_at TEXT NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS teams (
+            team_id INTEGER PRIMARY KEY, league_id INTEGER, name TEXT NOT NULL,
+            chinese_name TEXT, logo TEXT, stadium TEXT, manager TEXT, updated_at TEXT NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS players (
+            player_id INTEGER PRIMARY KEY, team_id INTEGER, name TEXT NOT NULL,
+            position TEXT, photo TEXT, updated_at TEXT NOT NULL
+        );
+        CREATE TABLE IF NOT EXISTS api_usage (
+            id INTEGER PRIMARY KEY AUTOINCREMENT, requested_at TEXT NOT NULL,
+            endpoint TEXT, cache_key TEXT, status TEXT
+        );
         """)
+
+
+def library_upsert_team(team: dict[str, Any], league_id: int | None = None) -> None:
+    """將球隊目錄資料放入本地資料館；重複球隊只更新資料，不重複建立。"""
+    try:
+        tid = team.get("id")
+        if not tid or not team.get("name"):
+            return
+        with sqlite3.connect(DB_PATH) as conn:
+            conn.execute("""INSERT INTO teams(team_id,league_id,name,chinese_name,logo,stadium,manager,updated_at)
+                VALUES(?,?,?,?,?,?,?,?) ON CONFLICT(team_id) DO UPDATE SET
+                league_id=excluded.league_id,name=excluded.name,logo=excluded.logo,updated_at=excluded.updated_at""",
+                (tid, league_id, team.get("name"), TEAM_ALIASES.get(team.get("name"), ""), team.get("logo", ""),
+                 team.get("stadium", ""), team.get("manager", ""), datetime.now().isoformat(timespec="seconds")))
+    except (sqlite3.Error, TypeError):
+        pass
+
+
+def library_save_players(team_id: int, rows: list[dict[str, Any]]) -> None:
+    try:
+        with sqlite3.connect(DB_PATH) as conn:
+            for item in rows:
+                player = item.get("player", item)
+                pid = player.get("id")
+                if not pid or not player.get("name"):
+                    continue
+                stats = (item.get("statistics") or [{}])[0]
+                conn.execute("""INSERT INTO players(player_id,team_id,name,position,photo,updated_at)
+                    VALUES(?,?,?,?,?,?) ON CONFLICT(player_id) DO UPDATE SET
+                    team_id=excluded.team_id,position=excluded.position,photo=excluded.photo,updated_at=excluded.updated_at""",
+                    (pid, team_id, player.get("name"), (stats.get("games") or {}).get("position", ""),
+                     player.get("photo", ""), datetime.now().isoformat(timespec="seconds")))
+    except sqlite3.Error:
+        pass
 
 
 def save_api_snapshot(league: str, team: str, category: str, payload: Any) -> None:
@@ -159,6 +208,17 @@ TEAM_ALIASES = {
     "拜仁": "Bayern Munich",
     "阿仙奴": "Arsenal",
     "國米": "Inter",
+    "紐卡素": "Newcastle United FC",
+    "阿士東維拉": "Aston Villa FC",
+    "曼聯": "Manchester United FC",
+    "車路士": "Chelsea FC",
+    "熱刺": "Tottenham Hotspur FC",
+    "韋斯咸": "West Ham United FC",
+    "白禮頓": "Brighton and Hove Albion FC",
+    "水晶宮": "Crystal Palace FC",
+    "愛華頓": "Everton FC",
+    "富咸": "Fulham FC",
+    "紐卡素聯": "Newcastle United FC",
 }
 
 
@@ -310,6 +370,10 @@ def player_data_for_match(home: str, away: str, token: str) -> tuple[dict[str, A
     away_data = get_api_team_data(away_id, token)
     home_data["logo"] = home_team.get("team", {}).get("logo", "")
     away_data["logo"] = away_team.get("team", {}).get("logo", "")
+    library_upsert_team({**home_team.get("team", {}), "logo": home_data["logo"]})
+    library_upsert_team({**away_team.get("team", {}), "logo": away_data["logo"]})
+    library_save_players(home_id, home_data.get("player_stats", []))
+    library_save_players(away_id, away_data.get("player_stats", []))
     return home_data, away_data, None
 
 
@@ -477,6 +541,21 @@ def ev(p: float, odds: float) -> float:
     return p * odds - 1 if odds > 0 else float("nan")
 
 
+def market_signal(probability: float, odds: float | None = None, alternative: str = "") -> tuple[str, str]:
+    """輸出易明的盤口提示；沒有賠率時只按機率及資料風險，不假造 EV。"""
+    if probability < 0.45:
+        return "🚫 避開", f"機率偏低；{('可考慮 ' + alternative) if alternative else '沒有可靠替代方向'}"
+    if odds is not None and not pd.isna(odds):
+        value = ev(probability, float(odds))
+        if value >= 0.05:
+            return "✅ 可以考慮", f"模型機率 {probability:.1%}，EV {value:.1%}"
+        if value < 0:
+            return "❌ 不建議", f"EV {value:.1%}；{('轉睇 ' + alternative) if alternative else '觀望'}"
+    if probability >= 0.55:
+        return "⚠️ 觀望", f"機率較高但未有足夠賠率優勢"
+    return "⚠️ 觀望", "優勢不足，避免勉強入場"
+
+
 def team_form(df: pd.DataFrame, team: str, n: int = 8) -> dict[str, Any]:
     rows = df[(df["Home"] == team) | (df["Away"] == team)].sort_values("DateParsed").tail(n)
     if rows.empty:
@@ -541,8 +620,17 @@ with st.sidebar:
             st.caption("未設定 token，會使用公開 CSV 後備資料。")
     else:
         st.caption("此聯賽未有 Football-Data.org API 對照，會使用現有資料來源。")
-    home_input = st.text_input("主隊", "廣島三箭")
-    away_input = st.text_input("客隊", "京都不死鳥")
+    default_matchups = {
+        "英格蘭超級聯賽": ("Arsenal FC", "Liverpool FC"),
+        "西班牙甲組聯賽": ("Real Madrid", "Barcelona"),
+        "德國甲組聯賽": ("Bayern Munich", "Borussia Dortmund"),
+        "沙特職業聯賽": ("Al Hilal", "Al Nassr"),
+        "日本職業聯賽": ("廣島三箭", "京都不死鳥"),
+        "日本乙組聯賽": ("JEF United Chiba", "Jubilo Iwata"),
+    }
+    default_home, default_away = default_matchups.get(league, ("", ""))
+    home_input = st.text_input("主隊", default_home, placeholder="請輸入資料中顯示的官方隊名")
+    away_input = st.text_input("客隊", default_away, placeholder="請輸入資料中顯示的官方隊名")
     st.subheader("賠率（可選）")
     home_odds = st.number_input("主勝賠率", min_value=1.01, value=1.85, step=0.01)
     draw_odds = st.number_input("和賠率", min_value=1.01, value=3.40, step=0.01)
@@ -597,8 +685,8 @@ if analyse:
             st.stop()
 
     teams = sorted(set(matches["Home"]) | set(matches["Away"]))
-    home = home_input.strip()
-    away = away_input.strip()
+    home = TEAM_ALIASES.get(home_input.strip(), home_input.strip())
+    away = TEAM_ALIASES.get(away_input.strip(), away_input.strip())
     home_match = next((x for x in teams if x == home or home.lower() in x.lower()), None)
     away_match = next((x for x in teams if x == away or away.lower() in x.lower()), None)
     if home_match: home = home_match
@@ -672,6 +760,20 @@ if analyse:
             [f"大 {goals_line}", over, fair_odds(over), None, None],
         ], columns=["選項", "模型機率", "公平賠率", "輸入賠率", "EV"])
         st.dataframe(market.style.format({"模型機率": "{:.1%}", "公平賠率": "{:.2f}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}", "EV": lambda x: "-" if pd.isna(x) else f"{x:.1%}"}), use_container_width=True, hide_index=True)
+        st.markdown("### 盤口提示")
+        signal_rows = []
+        for label, probability, odds, alternative in [
+            ("主勝", hp, home_odds, "和局或主隊不敗"),
+            ("和局", dp, draw_odds, "主隊不敗"),
+            ("客勝", ap, away_odds, "和局或客隊不敗"),
+            (f"大 {goals_line}", over, None, f"細 {goals_line}"),
+        ]:
+            signal, reason = market_signal(probability, odds, alternative)
+            signal_rows.append({"選項": label, "提示": signal, "說明": reason})
+        under_signal, under_reason = market_signal(1 - over, None, f"大 {goals_line}")
+        signal_rows.append({"選項": f"細 {goals_line}", "提示": under_signal, "說明": under_reason})
+        st.dataframe(pd.DataFrame(signal_rows), use_container_width=True, hide_index=True)
+        st.caption("角球、讓球、正式陣容及射門盤只有在取得指定比賽級資料後才會判斷；資料不足時會顯示 🚫 避開，不會虛構數據。")
 
     st.markdown("### 球員及缺陣資料")
     if not api_football_token:
