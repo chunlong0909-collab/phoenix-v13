@@ -236,8 +236,19 @@ def api_football_get(endpoint: str, params_key: tuple[tuple[str, str], ...], tok
 @st.cache_data(ttl=1800, show_spinner=False)
 def load_api_football_matches(league_id: int, token: str) -> tuple[pd.DataFrame, str]:
     """下載本季已完成賽事，令 API-Football 可作為 CSV 以外的主要賽果來源。"""
-    season = str(datetime.now().year)
-    payload = api_football_get("fixtures", (("league", str(league_id)), ("season", season), ("status", "FT")), token)
+    payload = None
+    season = None
+    # 免費方案未必開放當前賽季；按新至舊嘗試，避免直接失敗。
+    for candidate in [datetime.now().year, datetime.now().year - 1, 2024, 2023, 2022]:
+        try:
+            attempt = api_football_get("fixtures", (("league", str(league_id)), ("season", str(candidate)), ("status", "FT")), token)
+            if attempt.get("response"):
+                payload, season = attempt, candidate
+                break
+        except (rq.RequestException, ValueError):
+            continue
+    if payload is None or season is None:
+        raise ValueError("免費方案未提供此聯賽可用賽季；請查看 API-Football coverage")
     rows = []
     for item in payload.get("response", []):
         goals = item.get("goals") or {}
@@ -563,6 +574,8 @@ if analyse:
                         matches, source_url, api_payload = load_api_matches(API_COMPETITIONS[league], api_token)
                         api_standings = load_api_standings(API_COMPETITIONS[league], api_token)
                         data_source_label = "Football-Data.org API"
+                    elif source == "unsupported":
+                        raise ValueError("API-Football 免費方案未開放此聯賽可用賽季，而且沒有 CSV 後備資料")
                     else:
                         matches, source_url = load_matches(source, code)
                         data_source_label = "公開 CSV 後備"
