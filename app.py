@@ -43,7 +43,7 @@ LEAGUES = {
     "日本職業聯賽": {"api": 98, "csv": "JPN"},
     "日本乙組聯賽": {"api": 99, "csv": ""},
     "澳洲職業聯賽": {"api": 188, "csv": ""},
-    "澳洲冠軍聯賽盃／澳洲盃": {"api": None, "csv": ""},
+    "澳洲冠軍聯賽盃／澳洲盃": {"api": 713, "csv": ""},
     "女子澳洲職業聯賽": {"api": None, "csv": ""},
     "南韓職業聯賽": {"api": 292, "csv": ""},
     "南韓乙組聯賽": {"api": 293, "csv": ""},
@@ -66,6 +66,14 @@ ALIASES = {
     "小阿根廷青年人": "Argentinos Jrs", "博卡青年": "Boca Juniors",
     "河床": "River Plate", "獨立隊": "Independiente", "競賽會": "Racing Club",
     "漢諾威": "Hannover", "漢諾威九六": "Hannover", "聖保利": "St Pauli",
+}
+
+API_LEAGUE_SEARCH = {
+    "女子澳洲職業聯賽": "A-League Women",
+    "南韓乙組聯賽": "K League 2",
+    "女子挪威超級聯賽": "Toppserien",
+    "女子南美自由盃": "CONMEBOL Libertadores Femenina",
+    "澳洲冠軍聯賽盃／澳洲盃": "Australia Cup",
 }
 
 
@@ -141,10 +149,24 @@ def api_get(endpoint, params, token):
     return payload
 
 
+@st.cache_data(ttl=86400, show_spinner=False)
+def discover_api_league_id(league_name, token):
+    query = API_LEAGUE_SEARCH.get(league_name, league_name)
+    payload = api_get("leagues", {"search": query}, token)
+    wanted = query.lower().replace("-", " ")
+    for item in payload.get("response", []):
+        name = str(item.get("league", {}).get("name", "")).lower().replace("-", " ")
+        if name == wanted or wanted in name or name in wanted:
+            return item.get("league", {}).get("id")
+    return None
+
+
 def from_api(league, token):
     league_id = LEAGUES[league]["api"]
     if not league_id:
-        raise ValueError("API-Football 暫未有此聯賽的可用 ID")
+        league_id = discover_api_league_id(league, token)
+    if not league_id:
+        raise ValueError("API-Football 暫未找到此聯賽的可用 ID")
     errors = []
     for season in [datetime.now().year, 2024]:
         try:
