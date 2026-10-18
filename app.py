@@ -78,6 +78,42 @@ ALIASES = {
     "聖保羅": "São Paulo", "坎培拉克羅地亞": "Canberra Croatia", "悉尼聯": "Sydney FC",
 }
 
+# 只放可核對的常用中文隊名；沒有可靠中文譯名時，畫面會明確標示，絕不自行亂譯。
+TEAM_ZH = {
+    "Arsenal FC": "阿仙奴", "Liverpool FC": "利物浦", "Newcastle United FC": "紐卡素",
+    "Aston Villa FC": "阿士東維拉", "Manchester United FC": "曼聯", "Chelsea FC": "車路士",
+    "Tottenham Hotspur FC": "熱刺", "Manchester City": "曼城", "Real Madrid": "皇家馬德里",
+    "Barcelona": "巴塞隆拿", "Bayern Munich": "拜仁慕尼黑", "Inter Milan": "國際米蘭",
+    "Sanfrecce Hiroshima": "廣島三箭", "Kyoto Sanga": "京都不死鳥", "Banfield": "班菲特",
+    "Argentinos Jrs": "小阿根廷人", "Boca Juniors": "博卡青年", "River Plate": "河床",
+    "Independiente": "獨立隊", "Racing Club": "競賽會", "PEC Zwolle": "施禾利",
+    "Go Ahead Eagles": "伊高斯", "AZ": "阿爾克馬爾", "FC Groningen": "格羅寧根",
+    "FC Utrecht": "烏德勒支", "Feyenoord Rotterdam": "飛燕諾", "São Paulo": "聖保羅",
+}
+
+def zh_team(name):
+    name = str(name or "").strip()
+    return TEAM_ZH.get(name, name if any("\u4e00" <= ch <= "\u9fff" for ch in name) else f"未有中文隊名（{name}）")
+
+def zh_source(name):
+    return {"Football-Data.org API": "Football-Data.org 資料接口", "Football-Data CSV": "Football-Data 公開資料",
+            "本地資料館": "本地足球資料館", "TheSportsDB": "TheSportsDB 公開資料"}.get(str(name), str(name))
+
+def zh_country(value):
+    return {"Argentina": "阿根廷", "Brazil": "巴西", "England": "英格蘭", "Spain": "西班牙",
+            "Germany": "德國", "France": "法國", "Japan": "日本", "South Korea": "南韓",
+            "Australia": "澳洲", "Netherlands": "荷蘭", "Italy": "意大利", "Uruguay": "烏拉圭"}.get(str(value), "未有中文國籍資料")
+
+def zh_position(value):
+    return {"Goalkeeper": "守門員", "Defender": "後衛", "Midfielder": "中場", "Forward": "前鋒",
+            "Centre-Forward": "中鋒", "Left-Back": "左後衛", "Right-Back": "右後衛",
+            "Defensive Midfield": "防守中場", "Manager": "教練"}.get(str(value), "未有中文位置資料")
+
+def zh_player_name(raw, index):
+    # 沒有可靠官方中文譯名時不虛構譯名，保留可核對性並用中文提示。
+    return f"第 {index} 名球員（來源未提供中文譯名）"
+
+
 API_LEAGUE_SEARCH = {
     "女子澳洲職業聯賽": "A-League Women",
     "南韓乙組聯賽": "K League 2",
@@ -92,7 +128,8 @@ def db_init():
         c.executescript("""
         CREATE TABLE IF NOT EXISTS matches (
             league TEXT, season TEXT, home TEXT, away TEXT, hg INTEGER, ag INTEGER,
-            date TEXT, source TEXT, captured_at TEXT, PRIMARY KEY(league, season, home, away, date)
+            hc REAL, ac REAL, date TEXT, source TEXT, captured_at TEXT,
+            PRIMARY KEY(league, season, home, away, date)
         );
         CREATE TABLE IF NOT EXISTS source_log (
             id INTEGER PRIMARY KEY AUTOINCREMENT, league TEXT, source TEXT,
@@ -103,6 +140,11 @@ def db_init():
             home_prob REAL, draw_prob REAL, away_prob REAL, source TEXT, created_at TEXT
         );
         """)
+        cols = {row[1] for row in c.execute("PRAGMA table_info(matches)").fetchall()}
+        if "hc" not in cols:
+            c.execute("ALTER TABLE matches ADD COLUMN hc REAL")
+        if "ac" not in cols:
+            c.execute("ALTER TABLE matches ADD COLUMN ac REAL")
 
 
 def log_source(league, source, status, message=""):
@@ -119,20 +161,24 @@ def clean_matches(df, source, league, season):
         raise ValueError("來源缺少 Home、Away、HG、AG 欄位")
     df["HG"] = pd.to_numeric(df["HG"], errors="coerce")
     df["AG"] = pd.to_numeric(df["AG"], errors="coerce")
+    df["HC"] = pd.to_numeric(df["HC"], errors="coerce") if "HC" in df.columns else float("nan")
+    df["AC"] = pd.to_numeric(df["AC"], errors="coerce") if "AC" in df.columns else float("nan")
     df = df.dropna(subset=["Home", "Away", "HG", "AG"]).copy()
     df["Date"] = df.get("Date", "")
     df["DateParsed"] = pd.to_datetime(df["Date"], errors="coerce", dayfirst=True)
     df["league"] = league
     df["season"] = str(season)
     df["source"] = source
-    return df[["league", "season", "Home", "Away", "HG", "AG", "Date", "DateParsed", "source"]]
+    return df[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]]
 
 
 def save_matches(df):
-    rows = [(r.league, r.season, r.Home, r.Away, int(r.HG), int(r.AG), str(r.Date), r.source, datetime.now(timezone.utc).isoformat())
+    rows = [(r.league, r.season, r.Home, r.Away, int(r.HG), int(r.AG),
+             None if pd.isna(r.HC) else float(r.HC), None if pd.isna(r.AC) else float(r.AC),
+             str(r.Date), r.source, datetime.now(timezone.utc).isoformat())
             for r in df.itertuples()]
     with sqlite3.connect(DB) as c:
-        c.executemany("INSERT OR REPLACE INTO matches VALUES(?,?,?,?,?,?,?,?,?)", rows)
+        c.executemany("INSERT OR REPLACE INTO matches(league,season,home,away,hg,ag,hc,ac,date,source,captured_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)", rows)
 
 
 def cached_matches(league, max_age_hours=24):
@@ -142,7 +188,7 @@ def cached_matches(league, max_age_hours=24):
     if df.empty:
         return df
     # SQLite 欄位用小寫儲存；分析模型統一使用公開資料的欄位名稱。
-    df = df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG", "date": "Date"})
+    df = df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG", "hc": "HC", "ac": "AC", "date": "Date"})
     df["HG"] = pd.to_numeric(df["HG"], errors="coerce")
     df["AG"] = pd.to_numeric(df["AG"], errors="coerce")
     df["DateParsed"] = pd.to_datetime(df.get("Date", ""), errors="coerce", dayfirst=True)
@@ -461,14 +507,43 @@ def probs(hx, ax):
     return h / s, d / s, a / s
 
 
-def signal(p, odds=None, other=""):
-    if p < .45:
-        return "🚫 避開", f"機率偏低；{('可轉睇 ' + other) if other else '沒有可靠替代'}"
-    if odds and p * odds - 1 >= .05:
-        return "✅ 可以考慮", f"EV {p * odds - 1:.1%}"
+def corner_model(matches, home, away):
+    """只用來源實際提供的 HC/AC；沒有足夠角球紀錄便返回空值。"""
+    if "HC" not in matches.columns or "AC" not in matches.columns:
+        return None, "來源沒有角球欄位"
+    data = matches.dropna(subset=["HC", "AC"]).copy()
+    h = data[(data.Home == home) | (data.Away == home)].tail(8)
+    a = data[(data.Home == away) | (data.Away == away)].tail(8)
+    if len(h) < 4 or len(a) < 4:
+        return None, f"角球樣本不足（主隊 {len(h)}、客隊 {len(a)} 場）"
+    def values(hist, team):
+        made = hist.apply(lambda r: r.HC if r.Home == team else r.AC, axis=1)
+        conceded = hist.apply(lambda r: r.AC if r.Home == team else r.HC, axis=1)
+        return float(made.mean()), float(conceded.mean())
+    h_for, h_against = values(h, home)
+    a_for, a_against = values(a, away)
+    home_lam = max(.5, (h_for + a_against) / 2)
+    away_lam = max(.5, (a_for + h_against) / 2)
+    return (home_lam, away_lam), "已使用來源提供的歷史角球（最近最多 8 場）"
+
+
+def total_over_probability(lam, line):
+    return 1 - sum(poisson(k, lam) for k in range(math.floor(line) + 1))
+
+
+def signal(p, odds=None, other="", data_ok=True, backtest_ok=True):
+    """將模型結果與下注建議分開；沒有賠率時不假裝可以計 EV。"""
+    if p is None or not data_ok:
+        return "🚫 避開", "核心資料不足或來源有衝突，未能可靠計算"
+    if odds and p * odds - 1 > .50:
+        return "⚠️ 異常高值", f"EV {p * odds - 1:.1%}；請先核對盤口、方向及賠率"
+    if odds and p * odds - 1 >= .05 and backtest_ok:
+        return "✅ 可以考慮", f"EV {p * odds - 1:.1%}（仍不代表保證）"
     if odds and p * odds - 1 < 0:
-        return "❌ 不建議", f"EV {p * odds - 1:.1%}；{('轉睇 ' + other) if other else '觀望'}"
-    return "⚠️ 觀望", "資料優勢不足，唔建議勉強入場"
+        return "🟡 不具模型優勢", f"EV {p * odds - 1:.1%}；{('可比較 ' + other) if other else '觀望'}"
+    if p >= .50:
+        return "📊 模型推算", "方向機率較高，但未有可核對賠率，不能計算價值"
+    return "⚪ 只供參考", f"模型方向機率 {p:.1%}；{('可比較 ' + other) if other else '不作下注結論'}"
 
 
 def score_matrix(hx, ax, max_goals=8):
@@ -504,7 +579,7 @@ def team_form_table(matches, team, n=8):
         is_home = r["Home"] == team
         gf, ga = (r["HG"], r["AG"]) if is_home else (r["AG"], r["HG"])
         result = "勝" if gf > ga else "和" if gf == ga else "負"
-        out.append({"日期": str(r.get("Date", ""))[:10], "對手": r["Away"] if is_home else r["Home"],
+        out.append({"日期": str(r.get("Date", ""))[:10], "對手": zh_team(r["Away"] if is_home else r["Home"]),
                     "主客": "主" if is_home else "客", "入球": int(gf), "失球": int(ga), "結果": result})
     return pd.DataFrame(out)
 
@@ -780,79 +855,103 @@ if run:
     goal_lines = {x: (1 - sum(poisson(k, hx + ax) for k in range(math.floor(x) + 1))) for x in [2.5, 3.5, 4.5]}
     matrix = score_matrix(hx, ax)
     ah_home, ah_draw, ah_away = handicap_prob(matrix, handicap_line)
+    corner_lams, corner_status = corner_model(matches, home, away)
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
     home_form = team_form_table(matches, home)
     away_form = team_form_table(matches, away)
     with sqlite3.connect(DB) as c:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
-    st.success(f"資料來源：{source}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
-    st.subheader(f"{home} vs {away}")
+    home_zh, away_zh = zh_team(home), zh_team(away)
+    st.success(f"資料來源：{zh_source(source)}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
+    st.subheader(f"{home_zh} 對 {away_zh}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
     st.caption(f"模型信心：{confidence}｜樣本：主隊 {len(h)} 場、客隊 {len(a)} 場｜這是機率估算，不是保證賽果")
     tab_data, tab_model, tab_scenarios = st.tabs(["資料整理", "模型結果", "比賽情境"])
     with tab_data:
         d1, d2 = st.columns(2)
         with d1:
-            st.markdown(f"**{home} 最近 {len(home_form)} 場**")
+            st.markdown(f"**{home_zh} 最近 {len(home_form)} 場**")
             st.dataframe(home_form, use_container_width=True, hide_index=True)
         with d2:
-            st.markdown(f"**{away} 最近 {len(away_form)} 場**")
+            st.markdown(f"**{away_zh} 最近 {len(away_form)} 場**")
             st.dataframe(away_form, use_container_width=True, hide_index=True)
         st.info("資料整理層只顯示已取得的賽果；球員傷停及正式正選沒有核實資料時，不會當成模型輸入。")
     with tab_model:
         st.markdown("**模型輸入摘要**")
         st.write(f"主隊近期平均入球：{hgf:.2f}｜主隊近期平均失球：{hga:.2f}｜客隊近期平均入球：{agf:.2f}｜客隊近期平均失球：{aga:.2f}")
         st.write(f"模型預期入球：主隊 {hx:.2f}｜客隊 {ax:.2f}｜總入球 {hx + ax:.2f}")
-        st.caption(f"FBref 狀態：{fbref_source}；只有成功配對兩隊及取得 xG／xGA 才會納入，且修正幅度受限。")
+        st.caption(f"外部攻守統計狀態：{'已取得並有限度納入' if fbref_stats else '未取得，未納入模型'}；修正幅度受限。")
     with tab_scenarios:
         st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
-    table = pd.DataFrame([
+    st.markdown("### 勝和負")
+    result_table = pd.DataFrame([
         ["主勝", hp, home_odds, *signal(hp, home_odds, "和局或主隊不敗")],
         ["和局", dp, draw_odds, *signal(dp, draw_odds, "主隊不敗")],
         ["客勝", ap, away_odds, *signal(ap, away_odds, "和局或客隊不敗")],
-        *[row for x in [2.5, 3.5, 4.5] for row in (
-            [f"大 {x}", goal_lines[x], None, *signal(goal_lines[x], None, f"細 {x}")],
-            [f"細 {x}", 1 - goal_lines[x], None, *signal(1 - goal_lines[x], None, f"大 {x}")],
-        )],
     ], columns=["選項", "模型機率", "輸入賠率", "提示", "說明"])
-    st.dataframe(table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
-    st.markdown("### 完整盤口分析")
-    ah_signal, ah_reason = signal(ah_home, handicap_odds, f"主隊受讓／客隊方向（視讓球線）")
-    markets = pd.DataFrame([
+    st.dataframe(result_table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
+
+    st.markdown("### 入球大小")
+    goal_table = pd.DataFrame([
+        [f"大 {x}", goal_lines[x], *signal(goal_lines[x], None, f"細 {x}")]
+        for x in [2.5, 3.5, 4.5]
+    ] + [
+        [f"細 {x}", 1 - goal_lines[x], *signal(1 - goal_lines[x], None, f"大 {x}")]
+        for x in [2.5, 3.5, 4.5]
+    ], columns=["入球盤", "模型機率", "提示", "說明"])
+    st.dataframe(goal_table.style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
+
+    st.markdown("### 讓球盤")
+    ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）")
+    handicap_table = pd.DataFrame([
         [f"主隊 {handicap_line:+.2f}", ah_home, handicap_odds, ah_signal, ah_reason],
         [f"讓球和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "讓球主隊或客隊")],
         [f"讓球客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "讓球主隊")],
-    ], columns=["盤口", "模型機率", "輸入賠率", "提示", "說明"])
-    st.dataframe(markets.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
-    bc1, bc2 = st.columns(2)
-    with bc1:
-        st.markdown("**最可能波膽**")
-        st.dataframe(exact_score_table(matrix, 5).style.format({"機率": "{:.1%}"}), use_container_width=True, hide_index=True)
-    with bc2:
-        st.markdown("**角球大細**")
-        corner_table = pd.DataFrame([[f"大 {x}", None, "🚫 避開", "未有真實角球盤／角球統計"] for x in [9.5, 10.5, 11.5, 12.5, 13.5, 14.5]] + [[f"細 {x}", None, "🚫 避開", "未有真實角球盤／角球統計"] for x in [9.5, 10.5, 11.5, 12.5, 13.5, 14.5]], columns=["角球盤", "模型機率", "提示", "說明"])
-        st.dataframe(corner_table, use_container_width=True, hide_index=True)
+    ], columns=["讓球盤", "模型機率", "輸入賠率", "提示", "說明"])
+    st.dataframe(handicap_table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
+
+    st.markdown("### 波膽")
+    st.dataframe(exact_score_table(matrix, 5).rename(columns={"比分": "預測比分", "機率": "模型機率"}).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
+
+    st.markdown("### 角球大小")
+    corner_lines = [9.5, 10.5, 11.5, 12.5, 13.5, 14.5]
+    if corner_lams:
+        corner_total = sum(corner_lams)
+        corner_rows = []
+        for x in corner_lines:
+            over_p = total_over_probability(corner_total, x)
+            corner_rows.extend([
+                [f"大 {x}", over_p, *signal(over_p, None, f"細 {x}")],
+                [f"細 {x}", 1 - over_p, *signal(1 - over_p, None, f"大 {x}")],
+            ])
+        corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "提示", "說明"])
+        st.caption(f"角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}")
+        st.dataframe(corner_table.style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
+    else:
+        st.warning(f"未能可靠推算角球：{corner_status}")
+        st.dataframe(pd.DataFrame({"角球盤": [f"大 {x}" for x in corner_lines] + [f"細 {x}" for x in corner_lines], "狀態": ["資料不足，暫不推算"] * 12}), use_container_width=True, hide_index=True)
+
     st.markdown("**綜合推薦**")
     best_market = max([(hp, "主勝"), (dp, "和局"), (ap, "客勝"), (over, f"大 {line}"), (under, f"細 {line}"), (ah_home, f"主隊讓球 {handicap_line:+.2f}")])
     best_signal, best_reason = signal(best_market[0], None, "")
-    st.info(f"模型最高機率方向：{best_market[1]} {best_signal}｜{best_reason}。推薦只代表模型排序，不是保證賽果。")
+    st.info(f"模型最高機率方向：{best_market[1]}｜{best_signal}｜{best_reason}。這是模型排序，不等於下注指示，亦不保證賽果。")
     st.markdown("### 球員及傷停資料")
     pc1, pc2 = st.columns(2)
     for col, name, info, err in [(pc1, home, home_info, home_info_error), (pc2, away, away_info, away_info_error)]:
         with col:
-            st.markdown(f"**{name}**")
+            st.markdown(f"**{zh_team(name)}**")
             if err:
                 st.warning(f"球隊／球員基本資料未能取得：{err}")
                 continue
             team_obj, venue = info.get("team", {}), info.get("venue", {})
-            st.caption(f"來源：TheSportsDB｜國家：{team_obj.get('country', '未能取得')}｜成立：{team_obj.get('founded', '未能取得')}｜教練：{info.get('coach', '未能取得')}｜主場：{venue.get('name', '未能取得')}")
+            st.caption(f"來源：TheSportsDB 公開資料｜國家：{team_obj.get('country', '未能取得')}｜成立：{team_obj.get('founded', '未能取得')}｜教練：{info.get('coach', '未能取得')}｜主場：{venue.get('name', '未能取得')}")
             squad = info.get("squad", [])
             if squad:
-                rows = [{"球員": p.get("strPlayer", ""), "位置": p.get("strPosition", ""), "國籍": p.get("strNationality", ""), "出生日期": p.get("dateBorn", "")} for p in squad]
+                rows = [{"球員": zh_player_name(p.get("strPlayer", ""), i), "位置": zh_position(p.get("strPosition", "")), "國籍": zh_country(p.get("strNationality", "")), "出生日期": p.get("dateBorn", "未有資料")} for i, p in enumerate(squad, 1)]
                 st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
             else:
-                st.warning("TheSportsDB 暫未回傳球員名單")
+                st.warning("公開來源暫未回傳球員名單")
             st.info("傷停：此免費來源沒有今場可核實傷停資料")
-    st.info("讓球、角球、射門及正式陣容仍需指定比賽級資料；沒有資料時會顯示避開，不會用爬蟲亂填。")
+    st.info("未填賠率的盤口仍會用已取得的真實歷史數據計算機率；但沒有賠率只能顯示模型推算，不能計算 EV。沒有角球／射門等來源資料時會明確顯示資料不足，不會自行補數。")
 else:
     st.info("選擇聯賽、輸入兩隊，再按分析。")
