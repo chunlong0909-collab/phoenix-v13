@@ -891,7 +891,8 @@ if run:
         st.markdown("**模型輸入摘要**")
         st.write(f"主隊近期平均入球：{hgf:.2f}｜主隊近期平均失球：{hga:.2f}｜客隊近期平均入球：{agf:.2f}｜客隊近期平均失球：{aga:.2f}")
         st.write(f"模型預期入球：主隊 {hx:.2f}｜客隊 {ax:.2f}｜總入球 {hx + ax:.2f}")
-        st.caption(f"外部攻守統計狀態：{'已取得並有限度納入' if fbref_stats else '未取得，未納入模型'}；修正幅度受限。")
+        fbref_status_zh = "已取得並有限度納入" if not fbref_stats.empty else "未取得，未納入模型"
+        st.caption(f"外部攻守統計狀態：{fbref_status_zh}；修正幅度受限。")
     with tab_scenarios:
         st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     st.markdown("### 勝和負")
