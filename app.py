@@ -17,6 +17,7 @@ st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layou
 DB = Path(__file__).with_name("football_library.db")
 API_BASE = "https://v3.football.api-sports.io"
 FD_API = "https://api.football-data.org/v4"
+FFA_API = "https://api.ffa.football"
 FD_BASE = "https://www.football-data.co.uk"
 HEADERS = {"User-Agent": "FootballResearchApp/1.0 (public-data research)"}
 
@@ -259,6 +260,24 @@ def from_public_table(league, url):
     raise ValueError("公開頁面沒有可辨識的賽果表格")
 
 
+def from_australia_cup(league):
+    """讀取澳洲盃官方網站使用的公開賽事 JSON，不需要額外 Token。"""
+    r = requests.get(f"{FFA_API}/c716/s2026/fixture", headers=HEADERS, timeout=15)
+    r.raise_for_status()
+    rows = []
+    for match in r.json().get("rounds", []):
+        score = match.get("match_info") or {}
+        home_score = (score.get("home_team") or {}).get("score")
+        away_score = (score.get("away_team") or {}).get("score")
+        home = (match.get("home_team") or {}).get("name")
+        away = (match.get("away_team") or {}).get("name")
+        if home and away and home_score is not None and away_score is not None and match.get("status") == "FullTime":
+            rows.append({"Home": home, "Away": away, "HG": home_score, "AG": away_score, "Date": match.get("start_date", "")})
+    if not rows:
+        raise ValueError("澳洲盃官方來源暫時沒有已完成賽果")
+    return clean_matches(pd.DataFrame(rows), "澳洲盃官方公開資料", league, 2026)
+
+
 def get_matches(league, api_token, fd_token, crawl_url):
     fresh = cached_matches(league)
     if not fresh.empty:
@@ -278,6 +297,11 @@ def get_matches(league, api_token, fd_token, crawl_url):
         df = from_csv(league); save_matches(df); log_source(league, "Football-Data CSV", "成功"); return df, "Football-Data CSV", "高"
     except Exception as e:
         attempts.append(f"CSV：{e}"); log_source(league, "Football-Data CSV", "失敗", str(e))
+    if league == "澳洲冠軍聯賽盃／澳洲盃":
+        try:
+            df = from_australia_cup(league); save_matches(df); log_source(league, "澳洲盃官方公開資料", "成功"); return df, "澳洲盃官方公開資料", "高"
+        except Exception as e:
+            attempts.append(f"澳洲盃官方資料：{e}"); log_source(league, "澳洲盃官方公開資料", "失敗", str(e))
     if crawl_url.strip():
         try:
             df = from_public_table(league, crawl_url.strip()); save_matches(df); log_source(league, "公開網頁表格", "成功"); return df, "獲准公開網頁表格", "中"
