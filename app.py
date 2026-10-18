@@ -66,6 +66,7 @@ ALIASES = {
     "小阿根廷青年人": "Argentinos Jrs", "博卡青年": "Boca Juniors",
     "河床": "River Plate", "獨立隊": "Independiente", "競賽會": "Racing Club",
     "漢諾威": "Hannover", "漢諾威九六": "Hannover", "聖保利": "St Pauli",
+    "聖保羅": "São Paulo", "坎培拉克羅地亞": "Canberra Croatia", "悉尼聯": "Sydney FC",
 }
 
 API_LEAGUE_SEARCH = {
@@ -370,6 +371,32 @@ def team_key(value):
     return value.replace("jrs", "juniors").replace("ath", "atletico")
 
 
+@st.cache_data(ttl=3600, show_spinner=False)
+def api_team_candidates(query, token):
+    if not token or not query.strip():
+        return []
+    payload = api_get("teams", {"search": query.strip()}, token)
+    return [x.get("team", {}).get("name", "") for x in payload.get("response", []) if x.get("team", {}).get("name")]
+
+
+def search_team_candidates(query, directory, token):
+    query = query.strip()
+    if not query:
+        return []
+    translated = ALIASES.get(query, query)
+    qkey = team_key(translated)
+    found = []
+    for name in directory:
+        nkey = team_key(name)
+        if translated.lower() in name.lower() or query.lower() in name.lower() or qkey == nkey or qkey in nkey or nkey in qkey:
+            found.append(name)
+    try:
+        found.extend(api_team_candidates(translated, token))
+    except Exception:
+        pass
+    return sorted(set(x for x in found if x), key=lambda x: (team_key(translated) not in team_key(x), x))
+
+
 db_init()
 st.title("混合來源足球分析")
 st.caption("本地資料館 → API → 公開 CSV → 獲准讀取的公開網頁表格；資料不足時不會虛構結果。")
@@ -389,13 +416,23 @@ with st.sidebar:
         except Exception as exc:
             st.warning(f"球隊清單暫時未能載入：{exc}")
     directory = st.session_state.get(directory_key, [])
-    if directory:
-        home_text = st.selectbox("主隊（由聯賽清單選擇）", directory, key=f"home_{league}")
-        away_text = st.selectbox("客隊（由聯賽清單選擇）", directory, index=min(1, len(directory) - 1), key=f"away_{league}")
+    st.caption("可以直接輸入中文或英文隊名，程式會搜尋候選，不需要你自行對官方英文名稱。")
+    home_query = st.text_input("主隊", "阿仙奴")
+    away_query = st.text_input("客隊", "利物浦")
+    find_teams = st.button("自動搜尋主客隊候選", use_container_width=True)
+    if find_teams:
+        st.session_state[f"home_candidates_{league}"] = search_team_candidates(home_query, directory, api_token.strip())
+        st.session_state[f"away_candidates_{league}"] = search_team_candidates(away_query, directory, api_token.strip())
+    home_candidates = st.session_state.get(f"home_candidates_{league}", [])
+    away_candidates = st.session_state.get(f"away_candidates_{league}", [])
+    if home_candidates:
+        home_text = st.selectbox("確認主隊", home_candidates, key=f"home_pick_{league}")
     else:
-        st.caption("先按上面的按鈕載入球隊清單；亦可暫時手動輸入官方隊名。")
-        home_text = st.text_input("主隊", "阿仙奴")
-        away_text = st.text_input("客隊", "利物浦")
+        home_text = home_query
+    if away_candidates:
+        away_text = st.selectbox("確認客隊", away_candidates, key=f"away_pick_{league}")
+    else:
+        away_text = away_query
     home_odds = st.number_input("主勝賠率", 1.01, 100.0, 1.85)
     draw_odds = st.number_input("和局賠率", 1.01, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率", 1.01, 100.0, 4.20)
