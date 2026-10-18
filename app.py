@@ -71,6 +71,7 @@ ALIASES = {
     "小阿根廷青年人": "Argentinos Jrs", "博卡青年": "Boca Juniors",
     "河床": "River Plate", "獨立隊": "Independiente", "競賽會": "Racing Club",
     "漢諾威": "Hannover", "漢諾威九六": "Hannover", "聖保利": "St Pauli",
+    "西維爾": "Sevilla FC", "西維爾足球會": "Sevilla FC", "皇家馬德里": "Real Madrid",
     "施禾利": "PEC Zwolle", "茲沃勒": "PEC Zwolle", "PEC茲沃勒": "PEC Zwolle",
     "伊高斯": "Go Ahead Eagles", "前進之鷹": "Go Ahead Eagles",
     "阿爾克馬爾": "AZ", "艾克馬亞": "AZ", "格羅寧根": "FC Groningen",
@@ -89,6 +90,7 @@ TEAM_ZH = {
     "Independiente": "獨立隊", "Racing Club": "競賽會", "PEC Zwolle": "施禾利",
     "Go Ahead Eagles": "伊高斯", "AZ": "阿爾克馬爾", "FC Groningen": "格羅寧根",
     "FC Utrecht": "烏德勒支", "Feyenoord Rotterdam": "飛燕諾", "São Paulo": "聖保羅",
+    "Sevilla FC": "西維爾",
 }
 
 def zh_team(name):
@@ -666,8 +668,10 @@ def configured_secret(name):
 
 
 def team_key(value):
-    value = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode().lower()
-    value = re.sub(r"[^a-z0-9]", "", value)
+    # 保留中文字符；舊版轉 ASCII 後「西維爾」會變成空字串，
+    # 空字串參與包含判斷會錯誤配對任何球隊。
+    value = unicodedata.normalize("NFKD", str(value)).lower()
+    value = re.sub(r"[^\w]", "", value, flags=re.UNICODE)
     value = value.replace("jrs", "juniors").replace("ath", "atletico")
     for suffix in ("footballclub", "fc", "cf", "sc", "afc", "ac", "club"):
         if value.endswith(suffix) and len(value) > len(suffix) + 3:
@@ -681,6 +685,8 @@ def team_matches(query, official_name):
     name = str(official_name).strip()
     translated = ALIASES.get(q, q)
     qkey, nkey = team_key(translated), team_key(name)
+    if not qkey or not nkey:
+        return False
     return (
         translated.casefold() == name.casefold()
         or translated.casefold() in name.casefold()
@@ -696,6 +702,11 @@ def resolve_team_name(query, candidates, token=""):
     query = str(query).strip()
     if not query:
         return None
+    translated = ALIASES.get(query, query)
+    # 先做完整名稱配對，避免模糊包含關係將客隊搶配成主隊。
+    for name in candidates:
+        if str(name).casefold() == str(translated).casefold() or team_key(name) == team_key(translated):
+            return name
     for name in candidates:
         if team_matches(query, name):
             return name
