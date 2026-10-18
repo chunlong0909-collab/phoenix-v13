@@ -247,7 +247,9 @@ def from_public_table(league, url):
     allowed, reason = robots_allowed(url)
     if not allowed:
         raise ValueError(reason)
-    tables = pd.read_html(requests.get(url, headers=HEADERS, timeout=10).text)
+    html = requests.get(url, headers=HEADERS, timeout=10).text
+    # pandas 新版要求用 StringIO 讀取 HTML 字串，否則會把整段 HTML 當成檔案路徑。
+    tables = pd.read_html(StringIO(html))
     for table in tables:
         cols = {str(c).strip().lower() for c in table.columns}
         # 支援常見公開賽果表；不繞過登入、CAPTCHA 或付費牆。
