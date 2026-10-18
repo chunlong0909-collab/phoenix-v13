@@ -437,7 +437,20 @@ def from_australia_cup(league):
 def get_matches(league, api_token, fd_token, crawl_url):
     fresh = cached_matches(league)
     if not fresh.empty:
-        return fresh, "本地資料館", "高（已儲存）"
+        # 舊快取可能只有賽果，沒有 HC/AC；有公開 CSV 對照時先補抓角球資料。
+        has_corners = "HC" in fresh.columns and "AC" in fresh.columns and fresh[["HC", "AC"]].notna().all(axis=1).sum() >= 4
+        if has_corners or not LEAGUES.get(league, {}).get("csv"):
+            return fresh, "本地資料館", "高（已儲存）"
+        try:
+            refreshed = from_csv(league)
+            corner_count = refreshed[["HC", "AC"]].notna().all(axis=1).sum()
+            if corner_count >= 4:
+                save_matches(refreshed)
+                log_source(league, "Football-Data CSV", "成功", f"補充角球資料 {corner_count} 場")
+                return refreshed, "Football-Data CSV（已補充角球）", "高"
+        except Exception as e:
+            log_source(league, "Football-Data CSV", "補充失敗", str(e))
+        return fresh, "本地資料館（未有角球欄位）", "中（只有賽果）"
     attempts = []
     if fd_token:
         try:
@@ -792,11 +805,12 @@ with st.sidebar:
     draw_odds = st.number_input("和局賠率", 1.01, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率", 1.01, 100.0, 4.20)
     line = st.selectbox("主要入球線", [2.5, 3.5, 4.5], index=0)
-    handicap_line = st.number_input("主隊亞洲讓球（例如 -0.5）", -3.0, 3.0, 0.0, step=0.25)
+    handicap_line = st.number_input("主隊亞洲讓球線（例如 -0.5 或 +1.75）", -3.0, 3.0, 0.0, step=0.25)
     handicap_odds = st.number_input("讓球主隊賠率（可選）", 1.01, 100.0, 1.90)
     corner_line = st.selectbox("主要角球線", [9.5, 10.5, 11.5, 12.5, 13.5, 14.5], index=0)
     corner_over_odds = st.number_input("角球大賠率（可選）", 1.01, 100.0, 1.90)
     corner_under_odds = st.number_input("角球細賠率（可選）", 1.01, 100.0, 1.90)
+    st.caption("角球賠率只會套用到你選定的主要角球線；其他角球線仍顯示模型機率。")
     run = st.button("一鍵自動抓取及分析", type="primary", use_container_width=True)
     run_backtest = st.button("回測本聯賽模型", use_container_width=True)
 
@@ -934,8 +948,8 @@ if run:
         for x in corner_lines:
             over_p = total_over_probability(corner_total, x)
             corner_rows.extend([
-                [f"大 {x}", over_p, *signal(over_p, None, f"細 {x}")],
-                [f"細 {x}", 1 - over_p, *signal(1 - over_p, None, f"大 {x}")],
+                [f"大 {x}", over_p, *signal(over_p, corner_over_odds if x == corner_line else None, f"細 {x}")],
+                [f"細 {x}", 1 - over_p, *signal(1 - over_p, corner_under_odds if x == corner_line else None, f"大 {x}")],
             ])
         corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "提示", "說明"])
         st.caption(f"角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}")
