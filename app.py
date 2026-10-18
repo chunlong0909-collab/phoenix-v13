@@ -2,6 +2,7 @@ import math
 import os
 import re
 import sqlite3
+import unicodedata
 from datetime import datetime, timedelta, timezone
 from io import StringIO
 from pathlib import Path
@@ -67,6 +68,10 @@ ALIASES = {
     "小阿根廷青年人": "Argentinos Jrs", "博卡青年": "Boca Juniors",
     "河床": "River Plate", "獨立隊": "Independiente", "競賽會": "Racing Club",
     "漢諾威": "Hannover", "漢諾威九六": "Hannover", "聖保利": "St Pauli",
+    "施禾利": "PEC Zwolle", "茲沃勒": "PEC Zwolle", "PEC茲沃勒": "PEC Zwolle",
+    "伊高斯": "Go Ahead Eagles", "前進之鷹": "Go Ahead Eagles",
+    "阿爾克馬爾": "AZ", "艾克馬亞": "AZ", "格羅寧根": "FC Groningen",
+    "烏德勒支": "FC Utrecht", "飛燕諾": "Feyenoord Rotterdam",
     "聖保羅": "São Paulo", "坎培拉克羅地亞": "Canberra Croatia", "悉尼聯": "Sydney FC",
 }
 
@@ -184,6 +189,42 @@ def from_api(league, token):
         except Exception as e:
             errors.append(str(e))
     raise ValueError("；".join(errors)[-800:] or "API 沒有可用賽果")
+
+
+def from_api_team_directory(league, token):
+    """直接按聯賽取得球隊目錄，不再只靠曾經踢過的賽果推斷球隊。"""
+    if not token:
+        raise ValueError("未設定 API-Football Token")
+    league_id = LEAGUES[league]["api"] or discover_api_league_id(league, token)
+    if not league_id:
+        raise ValueError("API-Football 暫未找到此聯賽的可用 ID")
+    errors = []
+    for season in [datetime.now().year, datetime.now().year - 1, 2024]:
+        try:
+            payload = api_get("teams", {"league": league_id, "season": season}, token)
+            names = sorted({str(x.get("team", {}).get("name", "")).strip()
+                            for x in payload.get("response", [])
+                            if x.get("team", {}).get("name")})
+            if names:
+                return names, f"API-Football 球隊目錄（{season}）"
+        except Exception as e:
+            errors.append(str(e))
+    raise ValueError("；".join(errors)[-800:] or "API 沒有回傳球隊目錄")
+
+
+def get_team_directory(league, api_token, fd_token, crawl_url):
+    """優先載入聯賽完整球隊目錄；失敗才從賽果建立後備清單。"""
+    if api_token:
+        try:
+            names, source = from_api_team_directory(league, api_token)
+            return names, source
+        except Exception:
+            pass
+    matches, source, _ = get_matches(league, api_token, fd_token, crawl_url)
+    names = sorted(set(matches["Home"].dropna()) | set(matches["Away"].dropna()))
+    if not names:
+        raise ValueError("沒有任何可用球隊")
+    return names, f"{source}（由賽果建立後備清單）"
 
 
 FD_CODES = {
@@ -391,8 +432,51 @@ def configured_secret(name):
 
 
 def team_key(value):
-    value = re.sub(r"[^a-z0-9]", "", str(value).lower())
-    return value.replace("jrs", "juniors").replace("ath", "atletico")
+    value = unicodedata.normalize("NFKD", str(value)).encode("ascii", "ignore").decode().lower()
+    value = re.sub(r"[^a-z0-9]", "", value)
+    value = value.replace("jrs", "juniors").replace("ath", "atletico")
+    for suffix in ("footballclub", "fc", "cf", "sc", "afc", "ac", "club"):
+        if value.endswith(suffix) and len(value) > len(suffix) + 3:
+            value = value[:-len(suffix)]
+    return value
+
+
+def team_matches(query, official_name):
+    """以別名、標準化名稱及包含關係配對，避免中文輸入造成誤判。"""
+    q = str(query).strip()
+    name = str(official_name).strip()
+    translated = ALIASES.get(q, q)
+    qkey, nkey = team_key(translated), team_key(name)
+    return (
+        translated.casefold() == name.casefold()
+        or translated.casefold() in name.casefold()
+        or name.casefold() in translated.casefold()
+        or qkey == nkey
+        or qkey in nkey
+        or nkey in qkey
+    )
+
+
+def resolve_team_name(query, candidates, token=""):
+    """跨中文別名、重音符號、簡稱及 API 搜尋解析官方隊名。"""
+    query = str(query).strip()
+    if not query:
+        return None
+    for name in candidates:
+        if team_matches(query, name):
+            return name
+    if token:
+        try:
+            api_names = api_team_candidates(ALIASES.get(query, query), token)
+            for api_name in api_names:
+                for name in candidates:
+                    if team_matches(api_name, name):
+                        return name
+            if api_names:
+                return api_names[0]
+        except Exception:
+            pass
+    return None
 
 
 @st.cache_data(ttl=3600, show_spinner=False)
@@ -434,9 +518,11 @@ with st.sidebar:
     load_directory = st.button("先載入本聯賽球隊清單", use_container_width=True)
     if load_directory:
         try:
-            directory_df, directory_source, _ = get_matches(league, api_token.strip(), fd_token.strip(), crawl_url)
-            st.session_state[directory_key] = sorted(set(directory_df["Home"]) | set(directory_df["Away"]))
-            st.caption(f"已載入 {len(st.session_state[directory_key])} 隊｜來源：{directory_source}")
+            directory_names, directory_source = get_team_directory(
+                league, api_token.strip(), fd_token.strip(), crawl_url
+            )
+            st.session_state[directory_key] = directory_names
+            st.caption(f"已載入 {len(directory_names)} 隊｜來源：{directory_source}")
         except Exception as exc:
             st.warning(f"球隊清單暫時未能載入：{exc}")
     directory = st.session_state.get(directory_key, [])
@@ -477,8 +563,17 @@ if run:
         except Exception as e:
             st.error(str(e)); st.stop()
     teams = sorted(set(matches.Home) | set(matches.Away))
-    hm = next((x for x in teams if home.lower() in x.lower() or team_key(home) == team_key(x)), None)
-    am = next((x for x in teams if away.lower() in x.lower() or team_key(away) == team_key(x)), None)
+    # 優先使用已載入的聯賽完整目錄；沒有目錄時才用歷史賽果作後備。
+    directory = st.session_state.get(f"teams_{league}", [])
+    all_candidates = sorted(set(directory) | set(teams))
+    hm = resolve_team_name(home, all_candidates, api_token.strip())
+    am = resolve_team_name(away, all_candidates, api_token.strip())
+    # API 搜尋可能回傳官方名稱，但名稱尚未出現在歷史賽果；仍保留官方名稱，
+    # 讓畫面可以清楚顯示「隊伍存在，但歷史樣本不足」，而不是錯誤地說找不到。
+    if hm and hm not in all_candidates:
+        all_candidates.append(hm)
+    if am and am not in all_candidates:
+        all_candidates.append(am)
     if not hm or not am:
         st.warning("搵不到其中一隊。請使用下方資料來源中的官方隊名。")
         st.dataframe(pd.DataFrame({"可選球隊": teams}), use_container_width=True, hide_index=True); st.stop()
