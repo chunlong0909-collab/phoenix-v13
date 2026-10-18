@@ -22,6 +22,7 @@ FFA_API = "https://api.ffa.football"
 FD_BASE = "https://www.football-data.co.uk"
 # TheSportsDB 已停用舊的 3；官方目前提供測試用 123。
 SPORTSDB_API = "https://www.thesportsdb.com/api/v1/json/123"
+FBREF_BASE = "https://fbref.com"
 HEADERS = {"User-Agent": "FootballResearchApp/1.0 (public-data research)"}
 
 LEAGUES = {
@@ -230,6 +231,14 @@ FD_CODES = {
     "歐洲冠軍聯賽": "CL",
 }
 
+FBREF_COMP_IDS = {
+    "英格蘭超級聯賽": 9, "西班牙甲組聯賽": 12, "德國甲組聯賽": 20,
+    "法國甲組聯賽": 13, "意大利甲組聯賽": 11, "荷蘭甲組聯賽": 23,
+    "葡萄牙超級聯賽": 32, "蘇格蘭超級聯賽": 40, "美國職業足球大聯盟": 22,
+    "澳洲職業聯賽": 65, "日本職業聯賽": 55, "巴西甲組聯賽": 24,
+    "墨西哥超級聯賽": 31, "挪威超級聯賽": 29, "丹麥超級聯賽": 50,
+}
+
 
 def from_football_data_api(league, token):
     code = FD_CODES.get(league)
@@ -295,6 +304,68 @@ def from_public_table(league, url):
         if ({"home", "away", "hg", "ag"} <= cols or {"hometeam", "awayteam", "fthg", "ftag"} <= cols):
             return clean_matches(table, "獲准公開網頁表格", league, datetime.now().year)
     raise ValueError("公開頁面沒有可辨識的賽果表格")
+
+
+@st.cache_data(ttl=86400, show_spinner=False)
+def fbref_team_stats(league):
+    """低頻讀取 FBref 公開聯賽統計；robots 不允許或欄位不完整便安全返回空表。"""
+    comp_id = FBREF_COMP_IDS.get(league)
+    if not comp_id:
+        return pd.DataFrame(), "FBref 未設定此聯賽對照"
+    url = f"{FBREF_BASE}/en/comps/{comp_id}/stats/"
+    allowed, reason = robots_allowed(url)
+    if not allowed:
+        return pd.DataFrame(), f"FBref：{reason}"
+    try:
+        html = requests.get(url, headers=HEADERS, timeout=15).text
+        tables = pd.read_html(StringIO(html), flavor="lxml")
+        for table in tables:
+            if isinstance(table.columns, pd.MultiIndex):
+                table.columns = [" ".join(str(x) for x in col if str(x) != "nan").strip() for col in table.columns]
+            else:
+                table.columns = [str(x).strip() for x in table.columns]
+            squad_col = next((c for c in table.columns if c.lower() == "squad" or c.lower().endswith(" squad")), None)
+            if not squad_col:
+                continue
+            wanted = {"Squad": squad_col}
+            for key in ["MP", "xG", "xGA", "Gls", "Ast"]:
+                found = next((c for c in table.columns if c.split()[-1].lower() == key.lower()), None)
+                if found:
+                    wanted[key] = found
+            if "xG" not in wanted or "xGA" not in wanted:
+                continue
+            out = table[list(wanted.values())].rename(columns={v: k for k, v in wanted.items()}).copy()
+            out["Squad"] = out["Squad"].astype(str).str.replace(r"\s+", " ", regex=True).str.strip()
+            for col in [c for c in ["MP", "xG", "xGA", "Gls", "Ast"] if c in out]:
+                out[col] = pd.to_numeric(out[col], errors="coerce")
+            out = out.dropna(subset=["Squad", "xG", "xGA"])
+            return out, "FBref 公開聯賽統計（每日快取）"
+    except Exception as exc:
+        return pd.DataFrame(), f"FBref 讀取失敗：{exc}"
+    return pd.DataFrame(), "FBref 找不到完整 xG／xGA 欄位"
+
+
+def fbref_expected_goal_adjustment(stats, home, away, base_hx, base_ax):
+    """只用有 xG/xGA 且隊名成功配對的資料，並限制修正幅度避免過度擬合。"""
+    if stats.empty:
+        return base_hx, base_ax, "未納入 FBref 修正"
+    lookup = {team_key(r.Squad): r for r in stats.itertuples()}
+    hrow, arow = lookup.get(team_key(home)), lookup.get(team_key(away))
+    if hrow is None or arow is None:
+        return base_hx, base_ax, "FBref 未能配對兩隊，未納入修正"
+    def per_match(row, col):
+        mp = getattr(row, "MP", None)
+        value = getattr(row, col, None)
+        return float(value) / float(mp) if mp and pd.notna(value) and float(mp) > 0 else None
+    hx_ref = [per_match(hrow, "xG"), per_match(arow, "xGA")]
+    ax_ref = [per_match(arow, "xG"), per_match(hrow, "xGA")]
+    if any(x is None for x in hx_ref + ax_ref):
+        return base_hx, base_ax, "FBref 欄位不足，未納入修正"
+    ref_hx = sum(hx_ref) / 2 * 1.04
+    ref_ax = sum(ax_ref) / 2 * .96
+    new_hx = max(.15, min(base_hx * 1.25, max(base_hx * .75, base_hx * .70 + ref_hx * .30)))
+    new_ax = max(.15, min(base_ax * 1.25, max(base_ax * .75, base_ax * .70 + ref_ax * .30)))
+    return new_hx, new_ax, "FBref xG／xGA 已納入（修正上限 ±25%）"
 
 
 def from_australia_cup(league):
@@ -458,6 +529,60 @@ def scenario_table(matrix, hx, ax):
     return pd.DataFrame(rows, columns=["情境", "模型機率", "解釋"])
 
 
+def walk_forward_backtest(matches, min_team_games=4):
+    """逐場回測：每場只使用該場日期之前的已完成賽事。"""
+    data = matches.copy()
+    data["DateParsed"] = pd.to_datetime(data["DateParsed"], errors="coerce", utc=True)
+    data = data.dropna(subset=["DateParsed", "HG", "AG"]).sort_values("DateParsed").reset_index(drop=True)
+    rows = []
+    for i, target in data.iterrows():
+        history = data.iloc[:i]
+        home_hist = history[(history.Home == target.Home) | (history.Away == target.Home)].tail(8)
+        away_hist = history[(history.Home == target.Away) | (history.Away == target.Away)].tail(8)
+        if len(home_hist) < min_team_games or len(away_hist) < min_team_games:
+            continue
+
+        def averages(hist, team):
+            gf = hist.apply(lambda r: r.HG if r.Home == team else r.AG, axis=1).mean()
+            ga = hist.apply(lambda r: r.AG if r.Home == team else r.HG, axis=1).mean()
+            return gf, ga
+
+        hgf, hga = averages(home_hist, target.Home)
+        agf, aga = averages(away_hist, target.Away)
+        hx = max(.15, (hgf + aga) / 2 * 1.08)
+        ax = max(.15, (agf + hga) / 2 * .94)
+        hp, dp, ap = probs(hx, ax)
+        actual = "主勝" if target.HG > target.AG else "和局" if target.HG == target.AG else "客勝"
+        predicted = max([(hp, "主勝"), (dp, "和局"), (ap, "客勝")])[1]
+        matrix = score_matrix(hx, ax)
+        top5 = {score for score, _ in sorted(matrix.items(), key=lambda x: x[1], reverse=True)[:5]}
+        total_prob = [hp, dp, ap]
+        actual_idx = {"主勝": 0, "和局": 1, "客勝": 2}[actual]
+        brier = sum((p - (1.0 if j == actual_idx else 0.0)) ** 2 for j, p in enumerate(total_prob))
+        over_prob = 1 - sum(poisson(k, hx + ax) for k in range(3))
+        actual_over = int(target.HG + target.AG > 2.5)
+        rows.append({"日期": target.DateParsed.date().isoformat(), "主隊": target.Home, "客隊": target.Away,
+                     "預測": predicted, "實際": actual, "方向命中": predicted == actual,
+                     "比分Top5命中": (int(target.HG), int(target.AG)) in top5,
+                     "大2.5命中": (over_prob >= .5) == bool(actual_over), "Brier": brier,
+                     "主勝機率": hp, "和局機率": dp, "客勝機率": ap})
+    detail = pd.DataFrame(rows)
+    if detail.empty:
+        return detail, {"樣本數": 0}
+    summary = {"樣本數": len(detail), "勝和負方向命中率": detail["方向命中"].mean(),
+               "比分Top5包含率": detail["比分Top5命中"].mean(), "大2.5方向命中率": detail["大2.5命中"].mean(),
+               "Brier Score": detail["Brier"].mean()}
+    return detail, summary
+
+
+def all_saved_matches(league):
+    with sqlite3.connect(DB) as c:
+        df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
+    if df.empty:
+        return df
+    return df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG", "date": "Date"})
+
+
 def configured_secret(name):
     try:
         return str(st.secrets.get(name, "") or os.getenv(name, ""))
@@ -587,6 +712,29 @@ with st.sidebar:
     corner_over_odds = st.number_input("角球大賠率（可選）", 1.01, 100.0, 1.90)
     corner_under_odds = st.number_input("角球細賠率（可選）", 1.01, 100.0, 1.90)
     run = st.button("一鍵自動抓取及分析", type="primary", use_container_width=True)
+    run_backtest = st.button("回測本聯賽模型", use_container_width=True)
+
+if run_backtest:
+    with st.spinner("逐場回測中；每場只使用當時之前的資料……"):
+        saved = all_saved_matches(league)
+        if saved.empty:
+            try:
+                saved, _, _ = get_matches(league, "", fd_token.strip(), crawl_url)
+            except Exception as exc:
+                st.error(f"未能取得回測資料：{exc}")
+                st.stop()
+        detail, summary = walk_forward_backtest(saved)
+    st.subheader(f"{league} 模型回測")
+    if not detail.empty:
+        m1, m2, m3, m4 = st.columns(4)
+        m1.metric("測試樣本", f"{summary['樣本數']} 場")
+        m2.metric("勝和負方向命中", f"{summary['勝和負方向命中率']:.1%}")
+        m3.metric("比分 Top 5 包含率", f"{summary['比分Top5包含率']:.1%}")
+        m4.metric("Brier Score", f"{summary['Brier Score']:.3f}")
+        st.caption("回測只使用每場比賽日期之前的賽果；樣本太少時不會硬算，數字只代表過往樣本，不保證未來表現。")
+        st.dataframe(detail.tail(100), use_container_width=True, hide_index=True)
+    else:
+        st.warning("現有資料不足以進行逐場回測；每隊至少需要先有 4 場更早的賽果。")
 
 if run:
     home = ALIASES.get(home_text.strip(), home_text.strip())
@@ -624,6 +772,8 @@ if run:
     agf = (a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean() if not a.empty else 1.0)
     aga = (a.apply(lambda r: r.AG if r.Home == away else r.HG, axis=1).mean() if not a.empty else 1.0)
     hx, ax = max(.15, (hgf + aga) / 2 * 1.08), max(.15, (agf + hga) / 2 * .94)
+    fbref_stats, fbref_source = fbref_team_stats(league)
+    hx, ax, fbref_adjustment = fbref_expected_goal_adjustment(fbref_stats, home, away, hx, ax)
     hp, dp, ap = probs(hx, ax)
     over = 1 - sum(poisson(k, hx + ax) for k in range(math.floor(line) + 1))
     under = 1 - over
@@ -635,7 +785,7 @@ if run:
     away_form = team_form_table(matches, away)
     with sqlite3.connect(DB) as c:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
-    st.success(f"資料來源：{source}｜資料質素：{quality}｜賽果：{len(matches)} 場")
+    st.success(f"資料來源：{source}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
     st.subheader(f"{home} vs {away}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
     st.caption(f"模型信心：{confidence}｜樣本：主隊 {len(h)} 場、客隊 {len(a)} 場｜這是機率估算，不是保證賽果")
@@ -653,6 +803,7 @@ if run:
         st.markdown("**模型輸入摘要**")
         st.write(f"主隊近期平均入球：{hgf:.2f}｜主隊近期平均失球：{hga:.2f}｜客隊近期平均入球：{agf:.2f}｜客隊近期平均失球：{aga:.2f}")
         st.write(f"模型預期入球：主隊 {hx:.2f}｜客隊 {ax:.2f}｜總入球 {hx + ax:.2f}")
+        st.caption(f"FBref 狀態：{fbref_source}；只有成功配對兩隊及取得 xG／xGA 才會納入，且修正幅度受限。")
     with tab_scenarios:
         st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     table = pd.DataFrame([
