@@ -425,6 +425,39 @@ def exact_score_table(matrix, n=5):
     return pd.DataFrame([{"比分": f"{hg}-{ag}", "機率": p} for (hg, ag), p in rows])
 
 
+def team_form_table(matches, team, n=8):
+    """將最近賽果整理成可核對的球隊狀態摘要。"""
+    rows = matches[(matches["Home"] == team) | (matches["Away"] == team)].sort_values("DateParsed").tail(n)
+    out = []
+    for _, r in rows.iterrows():
+        is_home = r["Home"] == team
+        gf, ga = (r["HG"], r["AG"]) if is_home else (r["AG"], r["HG"])
+        result = "勝" if gf > ga else "和" if gf == ga else "負"
+        out.append({"日期": str(r.get("Date", ""))[:10], "對手": r["Away"] if is_home else r["Home"],
+                    "主客": "主" if is_home else "客", "入球": int(gf), "失球": int(ga), "結果": result})
+    return pd.DataFrame(out)
+
+
+def model_confidence(sample_size, hp, dp, ap):
+    """信心只代表資料量及機率分離度，不代表命中保證。"""
+    size_score = min(1.0, sample_size / 16)
+    separation = min(1.0, max(hp, dp, ap) - min(hp, dp, ap))
+    score = 0.55 * size_score + 0.45 * separation
+    return "較高" if score >= .65 else "中等" if score >= .38 else "較低"
+
+
+def scenario_table(matrix, hx, ax):
+    total = hx + ax
+    rows = [
+        ("低比分膠著", sum(p for (h, a), p in matrix.items() if h + a <= 2), "總入球不多，和局或一球勝負機會較高"),
+        ("標準走勢", sum(p for (h, a), p in matrix.items() if 2 <= h + a <= 4), "落在模型最常見的入球範圍"),
+        ("開放對攻", sum(p for (h, a), p in matrix.items() if h + a >= 5), "入球較多，比分波動較大"),
+        ("主隊控制", sum(p for (h, a), p in matrix.items() if h > a and h >= 2), "主隊入球及勝差同時較高"),
+        ("客隊反擊／爆冷", sum(p for (h, a), p in matrix.items() if a > h and a >= 2), "客隊勝出且至少入兩球"),
+    ]
+    return pd.DataFrame(rows, columns=["情境", "模型機率", "解釋"])
+
+
 def configured_secret(name):
     try:
         return str(st.secrets.get(name, "") or os.getenv(name, ""))
@@ -597,11 +630,31 @@ if run:
     goal_lines = {x: (1 - sum(poisson(k, hx + ax) for k in range(math.floor(x) + 1))) for x in [2.5, 3.5, 4.5]}
     matrix = score_matrix(hx, ax)
     ah_home, ah_draw, ah_away = handicap_prob(matrix, handicap_line)
+    confidence = model_confidence(len(h) + len(a), hp, dp, ap)
+    home_form = team_form_table(matches, home)
+    away_form = team_form_table(matches, away)
     with sqlite3.connect(DB) as c:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
     st.success(f"資料來源：{source}｜資料質素：{quality}｜賽果：{len(matches)} 場")
     st.subheader(f"{home} vs {away}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
+    st.caption(f"模型信心：{confidence}｜樣本：主隊 {len(h)} 場、客隊 {len(a)} 場｜這是機率估算，不是保證賽果")
+    tab_data, tab_model, tab_scenarios = st.tabs(["資料整理", "模型結果", "比賽情境"])
+    with tab_data:
+        d1, d2 = st.columns(2)
+        with d1:
+            st.markdown(f"**{home} 最近 {len(home_form)} 場**")
+            st.dataframe(home_form, use_container_width=True, hide_index=True)
+        with d2:
+            st.markdown(f"**{away} 最近 {len(away_form)} 場**")
+            st.dataframe(away_form, use_container_width=True, hide_index=True)
+        st.info("資料整理層只顯示已取得的賽果；球員傷停及正式正選沒有核實資料時，不會當成模型輸入。")
+    with tab_model:
+        st.markdown("**模型輸入摘要**")
+        st.write(f"主隊近期平均入球：{hgf:.2f}｜主隊近期平均失球：{hga:.2f}｜客隊近期平均入球：{agf:.2f}｜客隊近期平均失球：{aga:.2f}")
+        st.write(f"模型預期入球：主隊 {hx:.2f}｜客隊 {ax:.2f}｜總入球 {hx + ax:.2f}")
+    with tab_scenarios:
+        st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     table = pd.DataFrame([
         ["主勝", hp, home_odds, *signal(hp, home_odds, "和局或主隊不敗")],
         ["和局", dp, draw_odds, *signal(dp, draw_odds, "主隊不敗")],
