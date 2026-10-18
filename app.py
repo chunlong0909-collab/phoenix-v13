@@ -20,6 +20,8 @@ API_BASE = "https://v3.football.api-sports.io"
 FD_API = "https://api.football-data.org/v4"
 FFA_API = "https://api.ffa.football"
 FD_BASE = "https://www.football-data.co.uk"
+# TheSportsDB 已停用舊的 3；官方目前提供測試用 123。
+SPORTSDB_API = "https://www.thesportsdb.com/api/v1/json/123"
 HEADERS = {"User-Agent": "FootballResearchApp/1.0 (public-data research)"}
 
 LEAGUES = {
@@ -213,13 +215,7 @@ def from_api_team_directory(league, token):
 
 
 def get_team_directory(league, api_token, fd_token, crawl_url):
-    """優先載入聯賽完整球隊目錄；失敗才從賽果建立後備清單。"""
-    if api_token:
-        try:
-            names, source = from_api_team_directory(league, api_token)
-            return names, source
-        except Exception:
-            pass
+    """不使用 API-Football；以資料館、Football-Data 及公開賽果建立目錄。"""
     matches, source, _ = get_matches(league, api_token, fd_token, crawl_url)
     names = sorted(set(matches["Home"].dropna()) | set(matches["Away"].dropna()))
     if not names:
@@ -324,11 +320,6 @@ def get_matches(league, api_token, fd_token, crawl_url):
     if not fresh.empty:
         return fresh, "本地資料館", "高（已儲存）"
     attempts = []
-    if api_token:
-        try:
-            df = from_api(league, api_token); save_matches(df); log_source(league, "API-Football", "成功"); return df, "API-Football", "高"
-        except Exception as e:
-            attempts.append(f"API-Football：{e}"); log_source(league, "API-Football", "失敗", str(e))
     if fd_token:
         try:
             df = from_football_data_api(league, fd_token); save_matches(df); log_source(league, "Football-Data.org API", "成功"); return df, "Football-Data.org API", "高"
@@ -352,23 +343,33 @@ def get_matches(league, api_token, fd_token, crawl_url):
 
 
 @st.cache_data(ttl=21600, show_spinner=False)
-def team_details(team_name, token):
-    if not token:
-        return {}, "未設定 API-Football Token"
+def sportsdb_get(endpoint, params):
+    r = requests.get(f"{SPORTSDB_API}/{endpoint}", params=params, headers=HEADERS, timeout=12)
+    r.raise_for_status()
+    return r.json()
+
+
+@st.cache_data(ttl=21600, show_spinner=False)
+def team_details(team_name, token=""):
+    """用 TheSportsDB 取得球隊及球員基本資料；不依賴 API-Football。"""
     try:
-        found = api_get("teams", {"search": team_name}, token).get("response", [])
+        query = ALIASES.get(team_name, team_name)
+        found = sportsdb_get("searchteams.php", {"t": query}).get("teams") or []
         if not found:
-            return {}, "API 找不到球隊"
-        team = found[0].get("team", {})
-        venue = found[0].get("venue", {})
-        team_id = team.get("id")
-        if not team_id:
-            return {}, "API 沒有球隊 ID"
-        squad = api_get("players/squads", {"team": team_id}, token).get("response", [])
-        injuries = api_get("injuries", {"team": team_id, "season": 2024}, token).get("response", [])
-        coaches = api_get("coachs", {"team": team_id}, token).get("response", [])
-        coach = coaches[0].get("name", "未能取得") if coaches else "未能取得"
-        return {"team": team, "venue": venue, "coach": coach, "squad": squad[0].get("players", []) if squad else [], "injuries": injuries}, ""
+            return {}, "TheSportsDB 找不到球隊"
+        team = found[0]
+        team_id = team.get("idTeam")
+        players = []
+        if team_id:
+            players = sportsdb_get("lookup_all_players.php", {"id": team_id}).get("player") or []
+        return {
+            "team": {"name": team.get("strTeam", team_name), "country": team.get("strCountry", "未能取得"),
+                     "founded": team.get("intFormedYear", "未能取得"), "logo": team.get("strTeamBadge", "")},
+            "venue": {"name": team.get("strStadium", "未能取得")},
+            "coach": team.get("strManager", "未能取得"),
+            "squad": players,
+            "injuries": [],
+        }, ""
     except Exception as e:
         return {}, str(e)
 
@@ -511,15 +512,15 @@ st.caption("本地資料館 → API → 公開 CSV → 獲准讀取的公開網�
 
 with st.sidebar:
     league = st.selectbox("聯賽", list(LEAGUES))
-    api_token = st.text_input("API-Football Token（可選）", value=configured_secret("API_FOOTBALL_TOKEN"), type="password")
     fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
+    st.caption("API-Football 暫停使用；球隊及球員基本資料改用 TheSportsDB 免費公開來源。")
     crawl_url = st.text_input("後備公開賽果頁面（可選）", placeholder="只填允許自動讀取、包含賽果表格的公開網址")
     directory_key = f"teams_{league}"
     load_directory = st.button("先載入本聯賽球隊清單", use_container_width=True)
     if load_directory:
         try:
             directory_names, directory_source = get_team_directory(
-                league, api_token.strip(), fd_token.strip(), crawl_url
+                league, "", fd_token.strip(), crawl_url
             )
             st.session_state[directory_key] = directory_names
             st.caption(f"已載入 {len(directory_names)} 隊｜來源：{directory_source}")
@@ -531,8 +532,8 @@ with st.sidebar:
     away_query = st.text_input("客隊", "利物浦")
     find_teams = st.button("自動搜尋主客隊候選", use_container_width=True)
     if find_teams:
-        st.session_state[f"home_candidates_{league}"] = search_team_candidates(home_query, directory, api_token.strip())
-        st.session_state[f"away_candidates_{league}"] = search_team_candidates(away_query, directory, api_token.strip())
+        st.session_state[f"home_candidates_{league}"] = search_team_candidates(home_query, directory, "")
+        st.session_state[f"away_candidates_{league}"] = search_team_candidates(away_query, directory, "")
     home_candidates = st.session_state.get(f"home_candidates_{league}", [])
     away_candidates = st.session_state.get(f"away_candidates_{league}", [])
     if home_candidates:
@@ -559,15 +560,15 @@ if run:
     away = ALIASES.get(away_text.strip(), away_text.strip())
     with st.spinner("按資料來源優先次序抓取中……"):
         try:
-            matches, source, quality = get_matches(league, api_token.strip(), fd_token.strip(), crawl_url)
+            matches, source, quality = get_matches(league, "", fd_token.strip(), crawl_url)
         except Exception as e:
             st.error(str(e)); st.stop()
     teams = sorted(set(matches.Home) | set(matches.Away))
     # 優先使用已載入的聯賽完整目錄；沒有目錄時才用歷史賽果作後備。
     directory = st.session_state.get(f"teams_{league}", [])
     all_candidates = sorted(set(directory) | set(teams))
-    hm = resolve_team_name(home, all_candidates, api_token.strip())
-    am = resolve_team_name(away, all_candidates, api_token.strip())
+    hm = resolve_team_name(home, all_candidates, "")
+    am = resolve_team_name(away, all_candidates, "")
     # API 搜尋可能回傳官方名稱，但名稱尚未出現在歷史賽果；仍保留官方名稱，
     # 讓畫面可以清楚顯示「隊伍存在，但歷史樣本不足」，而不是錯誤地說找不到。
     if hm and hm not in all_candidates:
@@ -578,8 +579,11 @@ if run:
         st.warning("搵不到其中一隊。請使用下方資料來源中的官方隊名。")
         st.dataframe(pd.DataFrame({"可選球隊": teams}), use_container_width=True, hide_index=True); st.stop()
     home, away = hm, am
-    home_info, home_info_error = team_details(home, api_token.strip())
-    away_info, away_info_error = team_details(away, api_token.strip())
+    if team_key(home) == team_key(away):
+        st.error("主隊及客隊被配對成同一隊，已停止分析；請重新選擇真正的客隊。")
+        st.stop()
+    home_info, home_info_error = team_details(home)
+    away_info, away_info_error = team_details(away)
     h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
     a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
     hgf = (h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean() if not h.empty else 1.0)
@@ -629,26 +633,22 @@ if run:
     best_signal, best_reason = signal(best_market[0], None, "")
     st.info(f"模型最高機率方向：{best_market[1]} {best_signal}｜{best_reason}。推薦只代表模型排序，不是保證賽果。")
     st.markdown("### 球員及傷停資料")
-    if not api_token.strip():
-        st.warning("未設定 API-Football Token，暫時只顯示賽果模型。")
-    else:
-        pc1, pc2 = st.columns(2)
-        for col, name, info, err in [(pc1, home, home_info, home_info_error), (pc2, away, away_info, away_info_error)]:
-            with col:
-                st.markdown(f"**{name}**")
-                if err:
-                    st.warning(f"球員資料未能取得：{err}")
-                    continue
-                team_obj, venue = info.get("team", {}), info.get("venue", {})
-                st.caption(f"國家：{team_obj.get('country', '未能取得')}｜成立：{team_obj.get('founded', '未能取得')}｜教練：{info.get('coach', '未能取得')}｜主場：{venue.get('name', '未能取得')}")
-                squad = info.get("squad", [])
-                if squad:
-                    rows = [{"球員": p.get("name", ""), "位置": p.get("position", ""), "年齡": p.get("age", ""), "號碼": p.get("number", "")} for p in squad]
-                    st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
-                injuries = info.get("injuries", [])
-                st.warning(f"傷停／停賽：{len(injuries)} 人" if injuries else "暫未回傳傷停資料")
-                if injuries:
-                    st.dataframe(pd.DataFrame([{"球員": x.get("player", {}).get("name", ""), "原因": x.get("player", {}).get("reason", ""), "類型": x.get("player", {}).get("type", "")} for x in injuries]), use_container_width=True, hide_index=True)
+    pc1, pc2 = st.columns(2)
+    for col, name, info, err in [(pc1, home, home_info, home_info_error), (pc2, away, away_info, away_info_error)]:
+        with col:
+            st.markdown(f"**{name}**")
+            if err:
+                st.warning(f"球隊／球員基本資料未能取得：{err}")
+                continue
+            team_obj, venue = info.get("team", {}), info.get("venue", {})
+            st.caption(f"來源：TheSportsDB｜國家：{team_obj.get('country', '未能取得')}｜成立：{team_obj.get('founded', '未能取得')}｜教練：{info.get('coach', '未能取得')}｜主場：{venue.get('name', '未能取得')}")
+            squad = info.get("squad", [])
+            if squad:
+                rows = [{"球員": p.get("strPlayer", ""), "位置": p.get("strPosition", ""), "國籍": p.get("strNationality", ""), "出生日期": p.get("dateBorn", "")} for p in squad]
+                st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
+            else:
+                st.warning("TheSportsDB 暫未回傳球員名單")
+            st.info("傷停：此免費來源沒有今場可核實傷停資料")
     st.info("讓球、角球、射門及正式陣容仍需指定比賽級資料；沒有資料時會顯示避開，不會用爬蟲亂填。")
 else:
     st.info("選擇聯賽、輸入兩隊，再按分析。")
