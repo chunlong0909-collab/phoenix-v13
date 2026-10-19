@@ -4,7 +4,7 @@ import re
 import sqlite3
 import unicodedata
 from datetime import datetime, timedelta, timezone
-from io import StringIO
+from io import BytesIO, StringIO
 from pathlib import Path
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
@@ -14,11 +14,14 @@ import requests
 import streamlit as st
 try:
     from fbref import competition_matches, recent_match_reports, reports_to_dataframe
-except ImportError:
-    # 舊版 fbref.py 尚未有 competition_matches 時，先讓 App 正常啟動；
-    # 更新 fbref.py 後會自動啟用 FBref 聯賽賽果後備來源。
-    from fbref import recent_match_reports, reports_to_dataframe
+except Exception:
+    # fbref.py 不存在、依賴未安裝或網站模組失敗時，FBref 只會被停用，
+    # 不會阻止主 App 啟動；其他資料來源仍可正常使用。
     competition_matches = None
+    def recent_match_reports(*args, **kwargs):
+        return []
+    def reports_to_dataframe(*args, **kwargs):
+        return pd.DataFrame()
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -27,6 +30,7 @@ API_BASE = "https://v3.football.api-sports.io"
 FD_API = "https://api.football-data.org/v4"
 FFA_API = "https://api.ffa.football"
 FD_BASE = "https://www.football-data.co.uk"
+OPENLIGA_API = "https://api.openligadb.de"
 # TheSportsDB 已停用舊的 3；官方目前提供測試用 123。
 SPORTSDB_API = "https://www.thesportsdb.com/api/v1/json/123"
 FBREF_BASE = "https://fbref.com"
@@ -181,6 +185,33 @@ def clean_matches(df, source, league, season):
     return df[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]]
 
 
+def read_uploaded_matches(uploaded_file, league):
+    """讀取使用者從合法來源下載的 CSV／Excel，統一成資料館格式。"""
+    if uploaded_file is None:
+        raise ValueError("未選擇檔案")
+    filename = str(getattr(uploaded_file, "name", "")).lower()
+    raw = uploaded_file.getvalue()
+    if not raw:
+        raise ValueError("檔案是空白的")
+    if filename.endswith((".xlsx", ".xls")):
+        frame = pd.read_excel(BytesIO(raw))
+    else:
+        try:
+            frame = pd.read_csv(BytesIO(raw), encoding="utf-8-sig")
+        except UnicodeDecodeError:
+            frame = pd.read_csv(BytesIO(raw), encoding="latin1")
+    if frame.empty:
+        raise ValueError("檔案沒有資料列")
+    # 接受常見英文欄位及少量中文欄位；不符合格式便清楚提示，不虛構數據。
+    aliases = {
+        "主隊": "Home", "客隊": "Away", "主隊入球": "HG", "客隊入球": "AG",
+        "主隊角球": "HC", "客隊角球": "AC", "日期": "Date",
+        "HomeTeam": "Home", "AwayTeam": "Away", "FTHG": "HG", "FTAG": "AG",
+    }
+    frame = frame.rename(columns={k: v for k, v in aliases.items() if k in frame.columns})
+    return clean_matches(frame, "使用者上載資料", league, datetime.now().year)
+
+
 def save_matches(df):
     rows = [(r.league, r.season, r.Home, r.Away, int(r.HG), int(r.AG),
              None if pd.isna(r.HC) else float(r.HC), None if pd.isna(r.AC) else float(r.AC),
@@ -287,6 +318,53 @@ FD_CODES = {
     "法國乙組聯賽": "FL2", "荷蘭甲組聯賽": "DED", "蘇格蘭超級聯賽": "SCO",
     "歐洲冠軍聯賽": "CL",
 }
+
+OPENLIGA_CODES = {
+    "英格蘭超級聯賽": "pl",
+    "西班牙甲組聯賽": "la1",
+    "德國甲組聯賽": "bl1",
+    "德國乙組聯賽": "bl2",
+    "歐洲冠軍聯賽": "ucl",
+    "蘇格蘭超級聯賽": "sco1",
+}
+
+
+def from_openligadb(league):
+    """從免 Key 的 OpenLigaDB 讀取賽果；失敗時由上層安全切換來源。"""
+    code = OPENLIGA_CODES.get(league)
+    if not code:
+        raise ValueError("OpenLigaDB 沒有此聯賽對照")
+    rows, errors = [], []
+    for season in (datetime.now().year, datetime.now().year - 1):
+        try:
+            response = requests.get(
+                f"{OPENLIGA_API}/getmatchdata/{code}/{season}",
+                headers=HEADERS, timeout=12,
+            )
+            response.raise_for_status()
+            payload = response.json()
+            for item in payload if isinstance(payload, list) else []:
+                result_list = item.get("matchResults") or []
+                result = next(
+                    (x for x in result_list
+                     if isinstance(x, dict) and x.get("resultTypeKind") == "After90Minutes"),
+                    None,
+                )
+                if result is None and isinstance(result_list, list) and result_list:
+                    result = result_list[-1] if isinstance(result_list[-1], dict) else None
+                result = result or {}
+                home = (item.get("team1") or {}).get("teamName")
+                away = (item.get("team2") or {}).get("teamName")
+                hg, ag = result.get("pointsTeam1"), result.get("pointsTeam2")
+                if home and away and hg is not None and ag is not None:
+                    rows.append({"Home": home, "Away": away, "HG": hg, "AG": ag,
+                                 "Date": item.get("matchDateTimeUTC", item.get("matchDateTime", ""))})
+            if rows:
+                return clean_matches(pd.DataFrame(rows), "OpenLigaDB", league, season)
+        except Exception as exc:
+            errors.append(str(exc))
+    detail = f"（{errors[-1][:180]}）" if errors else ""
+    raise ValueError(f"OpenLigaDB 沒有可用賽果{detail}")
 
 FBREF_COMP_IDS = {
     "英格蘭超級聯賽": 9, "西班牙甲組聯賽": 12, "德國甲組聯賽": 20,
@@ -516,6 +594,14 @@ def get_matches(league, api_token, fd_token, crawl_url):
         df = from_csv(league); save_matches(df); log_source(league, "Football-Data CSV", "成功"); return df, "Football-Data CSV", "高"
     except Exception as e:
         attempts.append(f"CSV：{e}"); log_source(league, "Football-Data CSV", "失敗", str(e))
+    try:
+        df = from_openligadb(league)
+        save_matches(df)
+        log_source(league, "OpenLigaDB", "成功")
+        return df, "OpenLigaDB", "中"
+    except Exception as e:
+        attempts.append(f"OpenLigaDB：{e}")
+        log_source(league, "OpenLigaDB", "失敗", str(e))
     # FBref 有覆蓋但 Football-Data.org 沒有對照的聯賽，先用其 Scores & Fixtures。
     if league in FBREF_COMP_IDS:
         try:
@@ -536,7 +622,9 @@ def get_matches(league, api_token, fd_token, crawl_url):
             df = from_public_table(league, crawl_url.strip()); save_matches(df); log_source(league, "公開網頁表格", "成功"); return df, "獲准公開網頁表格", "中"
         except Exception as e:
             attempts.append(f"網頁爬蟲：{e}"); log_source(league, "公開網頁表格", "失敗", str(e))
-    raise ValueError("所有來源都未能取得資料：\n" + "\n".join(attempts))
+    # 外部網站、Token 或聯賽覆蓋隨時會改變；沒有資料時回傳空表，
+    # 由畫面顯示清楚提示，不以例外中止整個 Streamlit App。
+    return pd.DataFrame(), "未取得資料", "不足（未有可核對賽果）"
 
 
 @st.cache_data(ttl=21600, show_spinner=False)
@@ -830,7 +918,7 @@ def search_team_candidates(query, directory, token):
 
 db_init()
 st.title("混合來源足球分析")
-st.caption("本地資料館 → API → 公開 CSV → 獲准讀取的公開網頁表格；資料不足時不會虛構結果。")
+st.caption("本地資料館 → API → 公開 JSON／CSV → 你上載的 CSV／Excel；資料不足時不會虛構結果。")
 
 with st.sidebar:
     league = st.selectbox("聯賽", list(LEAGUES))
@@ -841,6 +929,37 @@ with st.sidebar:
         placeholder="建議填 WorldFootball.net 的指定聯賽／賽季賽果頁，不要只填首頁",
         help="用來補充沒有 Football-Data.org 對照的聯賽；只會讀取公開且 robots.txt 允許的頁面。"
     )
+    uploaded_matches = st.file_uploader(
+        "從其他網站下載後上載賽果（可選）",
+        type=["csv", "xlsx", "xls"],
+        help="你可以先登入任何允許下載資料的網站，下載 CSV 或 Excel，再上載到這裡；程式不會讀取你的密碼。"
+    )
+    template = pd.DataFrame(columns=["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "HC", "AC"])
+    st.download_button(
+        "下載 CSV 格式範本",
+        data=template.to_csv(index=False).encode("utf-8-sig"),
+        file_name="football_results_template.csv",
+        mime="text/csv",
+        use_container_width=True,
+    )
+    import_uploaded = st.button("匯入上載檔案到本地資料館", use_container_width=True)
+    if import_uploaded:
+        try:
+            imported = read_uploaded_matches(uploaded_matches, league)
+            save_matches(imported)
+            st.success(f"已匯入 {len(imported)} 場賽果；下次分析會優先使用本地資料館。")
+        except Exception as exc:
+            st.warning(f"上載檔案未能匯入：{exc}")
+    st.caption("資料流程：本地資料館優先，其次 API、公開 CSV／JSON；最後才使用你明確提供的公開網址。")
+    with st.expander("本地資料館狀態"):
+        try:
+            with sqlite3.connect(DB) as conn:
+                library_count = int(pd.read_sql_query("SELECT COUNT(*) AS n FROM matches", conn).iloc[0]["n"])
+                league_count = int(pd.read_sql_query("SELECT COUNT(DISTINCT league) AS n FROM matches", conn).iloc[0]["n"])
+            st.write(f"已保存賽果：{library_count} 場｜已保存聯賽：{league_count} 個")
+            st.caption("匯入後資料會按聯賽保存，分析時優先使用本地資料館。")
+        except Exception:
+            st.caption("資料館尚未有可顯示的紀錄。")
     directory_key = f"teams_{league}"
     load_directory = st.button("先載入本聯賽球隊清單", use_container_width=True)
     if load_directory:
@@ -892,7 +1011,10 @@ if run_backtest:
             try:
                 saved, _, _ = get_matches(league, "", fd_token.strip(), crawl_url)
             except Exception as exc:
-                st.error(f"未能取得回測資料：{exc}")
+                st.warning(f"暫時未能取得回測資料：{exc}")
+                st.stop()
+            if saved.empty:
+                st.warning("目前沒有足夠的歷史賽果，暫時不能回測；程式沒有使用假數據。")
                 st.stop()
         detail, summary = walk_forward_backtest(saved)
     st.subheader(f"{league} 模型回測")
@@ -914,7 +1036,13 @@ if run:
         try:
             matches, source, quality = get_matches(league, "", fd_token.strip(), crawl_url)
         except Exception as e:
-            st.error(str(e)); st.stop()
+            st.warning(f"資料來源暫時不可用：{e}")
+            st.info("請稍後再試，或提供該聯賽的公開賽果頁面；程式不會自行填入虛構數據。")
+            st.stop()
+    if matches.empty:
+        st.warning(f"暫時找不到「{league}」的可核對賽果。這不是程式崩潰，而是目前公開來源沒有回傳資料。")
+        st.info("可先選擇英超、西甲、德甲或歐聯測試；沙特等聯賽若所有免費來源均未覆蓋，必須等待來源恢復或匯入真實 CSV。")
+        st.stop()
     teams = sorted(set(matches.Home) | set(matches.Away))
     # 優先使用已載入的聯賽完整目錄；沒有目錄時才用歷史賽果作後備。
     directory = st.session_state.get(f"teams_{league}", [])
