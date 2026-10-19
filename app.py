@@ -130,6 +130,7 @@ ALIASES = {
     "聖保羅": "São Paulo", "坎培拉克羅地亞": "Canberra Croatia", "悉尼聯": "Sydney FC",
     "艾費哈": "Al Feiha", "阿爾費哈": "Al Feiha", "吉達艾阿里": "Al Ahli SC",
     "吉達艾里": "Al Ahli SC", "吉達阿赫利": "Al Ahli SC", "阿赫利": "Al Ahli SC",
+    "幸運切爾達": "Celta B", "切爾達B": "Celta B", "特內里費": "Tenerife",
 }
 
 # 只放可核對的常用中文隊名；沒有可靠中文譯名時，畫面會明確標示，絕不自行亂譯。
@@ -144,6 +145,7 @@ TEAM_ZH = {
     "Go Ahead Eagles": "伊高斯", "AZ": "阿爾克馬爾", "FC Groningen": "格羅寧根",
     "FC Utrecht": "烏德勒支", "Feyenoord Rotterdam": "飛燕諾", "São Paulo": "聖保羅",
     "Sevilla FC": "西維爾", "Al Feiha": "艾費哈", "Al Ahli SC": "吉達艾阿里",
+    "Celta B": "幸運切爾達", "Celta Vigo B": "幸運切爾達", "Tenerife": "特內里費",
 }
 
 def zh_team(name):
