@@ -12,7 +12,13 @@ from urllib.robotparser import RobotFileParser
 import pandas as pd
 import requests
 import streamlit as st
-from fbref import competition_matches, recent_match_reports, reports_to_dataframe
+try:
+    from fbref import competition_matches, recent_match_reports, reports_to_dataframe
+except ImportError:
+    # 舊版 fbref.py 尚未有 competition_matches 時，先讓 App 正常啟動；
+    # 更新 fbref.py 後會自動啟用 FBref 聯賽賽果後備來源。
+    from fbref import recent_match_reports, reports_to_dataframe
+    competition_matches = None
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -473,7 +479,7 @@ def get_matches(league, api_token, fd_token, crawl_url):
     except Exception as e:
         attempts.append(f"CSV：{e}"); log_source(league, "Football-Data CSV", "失敗", str(e))
     # FBref 有覆蓋但 Football-Data.org 沒有對照的聯賽，先用其 Scores & Fixtures。
-    if league in FBREF_COMP_IDS:
+    if league in FBREF_COMP_IDS and competition_matches is not None:
         try:
             df = competition_matches(league)
             if not df.empty:
