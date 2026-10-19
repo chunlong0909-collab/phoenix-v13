@@ -934,11 +934,11 @@ with st.sidebar:
         type=["csv", "xlsx", "xls"],
         help="你可以先登入任何允許下載資料的網站，下載 CSV 或 Excel，再上載到這裡；程式不會讀取你的密碼。"
     )
-    template = pd.DataFrame(columns=["Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "HC", "AC"])
+    template = pd.DataFrame(columns=["日期", "主隊", "客隊", "主隊入球", "客隊入球", "主隊角球", "客隊角球"])
     st.download_button(
         "下載 CSV 格式範本",
         data=template.to_csv(index=False).encode("utf-8-sig"),
-        file_name="football_results_template.csv",
+        file_name="足球賽果資料範本.csv",
         mime="text/csv",
         use_container_width=True,
     )
