@@ -805,6 +805,8 @@ with st.sidebar:
     draw_odds = st.number_input("和局賠率", 1.01, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率", 1.01, 100.0, 4.20)
     line = st.selectbox("主要入球線", [2.5, 3.5, 4.5], index=0)
+    goal_over_odds = st.number_input("主要入球線大賠率（可選）", 1.01, 100.0, 1.90)
+    goal_under_odds = st.number_input("主要入球線細賠率（可選）", 1.01, 100.0, 1.90)
     handicap_line = st.number_input("主隊亞洲讓球線（例如 -0.5 或 +1.75）", -3.0, 3.0, 0.0, step=0.25)
     handicap_odds = st.number_input("讓球主隊賠率（可選）", 1.01, 100.0, 1.90)
     corner_line = st.selectbox("主要角球線", [9.5, 10.5, 11.5, 12.5, 13.5, 14.5], index=0)
@@ -920,10 +922,10 @@ if run:
 
     st.markdown("### 入球大小")
     goal_table = pd.DataFrame([
-        [f"大 {x}", goal_lines[x], *signal(goal_lines[x], None, f"細 {x}")]
+        [f"大 {x}", goal_lines[x], *signal(goal_lines[x], goal_over_odds if x == line else None, f"細 {x}")]
         for x in [2.5, 3.5, 4.5]
     ] + [
-        [f"細 {x}", 1 - goal_lines[x], *signal(1 - goal_lines[x], None, f"大 {x}")]
+        [f"細 {x}", 1 - goal_lines[x], *signal(1 - goal_lines[x], goal_under_odds if x == line else None, f"大 {x}")]
         for x in [2.5, 3.5, 4.5]
     ], columns=["入球盤", "模型機率", "提示", "說明"])
     st.dataframe(goal_table.style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
