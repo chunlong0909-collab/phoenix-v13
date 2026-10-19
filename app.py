@@ -976,9 +976,14 @@ with st.sidebar:
     load_directory = st.button("先載入本聯賽球隊清單", use_container_width=True)
     if load_directory:
         try:
-            directory_names, directory_source = get_team_directory(
-                league, "", fd_token.strip(), crawl_url
-            )
+            # 檔案上載後優先使用檔案本身，不再因沙特外部來源沒有回傳而失敗。
+            if uploaded_matches is not None:
+                uploaded_for_directory = read_uploaded_matches(uploaded_matches, league)
+                save_matches(uploaded_for_directory)
+                directory_names = sorted(set(uploaded_for_directory["Home"]) | set(uploaded_for_directory["Away"]))
+                directory_source = "你上載的 CSV"
+            else:
+                directory_names, directory_source = get_team_directory(league, "", fd_token.strip(), crawl_url)
             st.session_state[directory_key] = directory_names
             st.caption(f"已載入 {len(directory_names)} 隊｜來源：{directory_source}")
         except Exception as exc:
@@ -1046,7 +1051,13 @@ if run:
     away = ALIASES.get(away_text.strip(), away_text.strip())
     with st.spinner("按資料來源優先次序抓取中……"):
         try:
-            matches, source, quality = get_matches(league, "", fd_token.strip(), crawl_url)
+            # 使用者明確上載檔案時，該檔案是本次分析的第一優先來源。
+            if uploaded_matches is not None:
+                matches = read_uploaded_matches(uploaded_matches, league)
+                save_matches(matches)
+                source, quality = "你上載的 CSV", "高（已核對格式）"
+            else:
+                matches, source, quality = get_matches(league, "", fd_token.strip(), crawl_url)
         except Exception as e:
             st.warning(f"資料來源暫時不可用：{e}")
             st.info("請稍後再試，或提供該聯賽的公開賽果頁面；程式不會自行填入虛構數據。")
