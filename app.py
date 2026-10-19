@@ -74,6 +74,46 @@ LEAGUES = {
     "歐洲冠軍聯賽": {"api": 2, "csv": ""},
 }
 
+# 多聯賽資料館：檔案名稱可用來自動判斷所屬聯賽；網址只作公開來源提示，
+# 不會繞過登入或網站限制。CSV 沒有角球欄位時，角球模型會明確標示資料不足。
+BULK_CSV_SPECS = {
+    "英格蘭超級聯賽": {"tokens": ["e0", "premier-league"], "source": "football-data"},
+    "英格蘭冠軍聯賽": {"tokens": ["e1", "championship"], "source": "football-data"},
+    "西班牙甲組聯賽": {"tokens": ["sp1", "la-liga"], "source": "football-data"},
+    "德國甲組聯賽": {"tokens": ["d1", "bundesliga"], "source": "football-data"},
+    "德國乙組聯賽": {"tokens": ["d2", "2-bundesliga"], "source": "football-data"},
+    "荷蘭甲組聯賽": {"tokens": ["n1", "eredivisie"], "source": "football-data"},
+    "西班牙乙組聯賽": {"tokens": ["sp2", "segunda"], "source": "football-data"},
+    "荷蘭乙組聯賽": {"tokens": ["eerste", "keuken"], "source": "openfootball"},
+    "法國乙組聯賽": {"tokens": ["f2", "ligue-2", "ligue2"], "source": "football-data"},
+    "蘇格蘭超級聯賽": {"tokens": ["sc0", "scotland"], "source": "football-data"},
+    "奧地利甲組聯賽": {"tokens": ["austria", "bundesliga-austria"], "source": "openfootball"},
+    "丹麥超級聯賽": {"tokens": ["denmark", "superliga"], "source": "openfootball"},
+    "芬蘭超級聯賽": {"tokens": ["finland", "veikkausliiga"], "source": "openfootball"},
+    "挪威超級聯賽": {"tokens": ["norway", "eliteserien"], "source": "openfootball"},
+    "俄羅斯超級聯賽": {"tokens": ["russia", "premier"], "source": "openfootball"},
+    "澳洲職業聯賽": {"tokens": ["a-league", "australia-a-league"], "source": "openfootball"},
+    "日本職業聯賽": {"tokens": ["j1", "jleague"], "source": "openfootball"},
+    "日本乙組聯賽": {"tokens": ["j2"], "source": "openfootball"},
+    "南韓職業聯賽": {"tokens": ["k1", "kleague"], "source": "openfootball"},
+    "南韓乙組聯賽": {"tokens": ["k2"], "source": "openfootball"},
+    "女子澳洲職業聯賽": {"tokens": ["w-league", "aleague-women"], "source": "openfootball"},
+    "澳洲冠軍聯賽盃／澳洲盃": {"tokens": ["australia-cup", "australiacup"], "source": "openfootball"},
+    "墨西哥超級聯賽": {"tokens": ["liga-mx", "mexico-liga"], "source": "openfootball"},
+    "墨西哥甲組聯賽": {"tokens": ["expansion", "liga-expansion"], "source": "openfootball"},
+    "泰國甲組聯賽": {"tokens": ["thai-league", "thailand"], "source": "openfootball"},
+    "沙特職業聯賽": {"tokens": ["saudi-pro", "saudi"], "source": "openfootball"},
+    "卡塔爾超級聯賽": {"tokens": ["qatar", "stars-league"], "source": "openfootball"},
+    "阿聯酋職業聯賽": {"tokens": ["uae", "emirates"], "source": "openfootball"},
+    "阿根廷甲組聯賽": {"tokens": ["argentina", "primera"], "source": "openfootball"},
+    "巴西甲組聯賽": {"tokens": ["serie-a", "brazil-serie-a"], "source": "openfootball"},
+    "巴西乙組聯賽": {"tokens": ["serie-b", "brazil-serie-b"], "source": "openfootball"},
+    "烏拉圭甲組聯賽": {"tokens": ["uruguay", "primera-uruguay"], "source": "openfootball"},
+    "女子挪威超級聯賽": {"tokens": ["toppserien", "norway-women"], "source": "openfootball"},
+    "女子南美自由盃": {"tokens": ["libertadores-femenina", "copa-femenina"], "source": "openfootball"},
+    "歐洲冠軍聯賽": {"tokens": ["champions-league", "uefa-champions"], "source": "openfootball"},
+}
+
 ALIASES = {
     "阿仙奴": "Arsenal FC", "利物浦": "Liverpool FC", "紐卡素": "Newcastle United FC",
     "阿士東維拉": "Aston Villa FC", "曼聯": "Manchester United FC", "車路士": "Chelsea FC",
@@ -115,12 +155,16 @@ def zh_source(name):
             "本地資料館": "本地足球資料館", "TheSportsDB": "TheSportsDB 公開資料"}.get(str(name), str(name))
 
 def zh_country(value):
-    return {"Argentina": "阿根廷", "Brazil": "巴西", "England": "英格蘭", "Spain": "西班牙",
-            "Germany": "德國", "France": "法國", "Japan": "日本", "South Korea": "南韓",
-            "Australia": "澳洲", "Netherlands": "荷蘭", "Italy": "意大利", "Uruguay": "烏拉圭"}.get(str(value), "未有中文國籍資料")
+    return {"Argentina": "阿根廷", "ARG": "阿根廷", "Brazil": "巴西", "BRA": "巴西",
+            "England": "英格蘭", "ENG": "英格蘭", "Spain": "西班牙", "ESP": "西班牙",
+            "Germany": "德國", "GER": "德國", "France": "法國", "FRA": "法國",
+            "Japan": "日本", "JPN": "日本", "South Korea": "南韓", "KOR": "南韓",
+            "Australia": "澳洲", "AUS": "澳洲", "Netherlands": "荷蘭", "NED": "荷蘭",
+            "Italy": "意大利", "ITA": "意大利", "Uruguay": "烏拉圭", "URU": "烏拉圭"}.get(str(value), "未有中文國籍資料")
 
 def zh_position(value):
-    return {"Goalkeeper": "守門員", "Defender": "後衛", "Midfielder": "中場", "Forward": "前鋒",
+    return {"Goalkeeper": "守門員", "GK": "守門員", "Defender": "後衛", "DF": "後衛",
+            "Midfielder": "中場", "MF": "中場", "Forward": "前鋒", "FW": "前鋒",
             "Centre-Forward": "中鋒", "Left-Back": "左後衛", "Right-Back": "右後衛",
             "Defensive Midfield": "防守中場", "Manager": "教練"}.get(str(value), "未有中文位置資料")
 
@@ -171,9 +215,14 @@ def log_source(league, source, status, message=""):
 def clean_matches(df, source, league, season):
     aliases = {
         "HomeTeam": "Home", "AwayTeam": "Away", "FTHG": "HG", "FTAG": "AG",
-        "Team1": "Home", "Team2": "Away", "Score1": "HG", "Score2": "AG", "Date": "Date",
+        "Team1": "Home", "Team2": "Away", "Team 1": "Home", "Team 2": "Away",
+        "Score1": "HG", "Score2": "AG", "Date": "Date",
     }
     df = df.rename(columns={k: v for k, v in aliases.items() if k in df.columns})
+    if "FT" in df.columns and not {"HG", "AG"}.issubset(df.columns):
+        scores = df["FT"].astype(str).str.extract(r"^\s*(\d+)\s*[-:]\s*(\d+)\s*$")
+        df["HG"] = pd.to_numeric(scores[0], errors="coerce")
+        df["AG"] = pd.to_numeric(scores[1], errors="coerce")
     required = {"Home", "Away", "HG", "AG"}
     if not required.issubset(df.columns):
         raise ValueError("來源缺少 Home、Away、HG、AG 欄位")
@@ -210,12 +259,93 @@ def read_uploaded_matches(uploaded_file, league):
     # 接受常見英文欄位及少量中文欄位；不符合格式便清楚提示，不虛構數據。
     aliases = {
         "主隊": "Home", "客隊": "Away", "主隊入球": "HG", "客隊入球": "AG",
-        "主隊角球": "HC", "客隊角球": "AC", "日期": "Date",
+        "主隊角球": "HC", "客隊角球": "AC", "日期": "Date", "全場比分": "FT",
         "HomeTeam": "Home", "AwayTeam": "Away", "FTHG": "HG", "FTAG": "AG",
-        "Team1": "Home", "Team2": "Away", "Score1": "HG", "Score2": "AG",
+        "Team1": "Home", "Team2": "Away", "Team 1": "Home", "Team 2": "Away",
+        "Score1": "HG", "Score2": "AG",
     }
     frame = frame.rename(columns={k: v for k, v in aliases.items() if k in frame.columns})
     return clean_matches(frame, "使用者上載資料", league, datetime.now().year)
+
+
+def read_csv_url(csv_url, league):
+    """從使用者提供的直接 CSV 網址讀取最新賽果；不繞過登入或網站限制。"""
+    url = str(csv_url or "").strip()
+    if not url.lower().startswith(("https://", "http://")):
+        raise ValueError("CSV 網址必須以 http:// 或 https:// 開頭")
+    response = requests.get(url, headers=HEADERS, timeout=20)
+    response.raise_for_status()
+    if not response.content:
+        raise ValueError("CSV 網址回傳空白檔案")
+    try:
+        frame = pd.read_csv(BytesIO(response.content), encoding="utf-8-sig")
+    except UnicodeDecodeError:
+        frame = pd.read_csv(BytesIO(response.content), encoding="latin1")
+    if frame.empty:
+        raise ValueError("CSV 沒有資料列")
+    aliases = {
+        "主隊": "Home", "客隊": "Away", "主隊入球": "HG", "客隊入球": "AG",
+        "主隊角球": "HC", "客隊角球": "AC", "日期": "Date", "全場比分": "FT",
+        "HomeTeam": "Home", "AwayTeam": "Away", "FTHG": "HG", "FTAG": "AG",
+        "Team1": "Home", "Team2": "Away", "Team 1": "Home", "Team 2": "Away",
+        "Score1": "HG", "Score2": "AG",
+    }
+    frame = frame.rename(columns={k: v for k, v in aliases.items() if k in frame.columns})
+    return clean_matches(frame, f"公開 CSV 網址：{url}", league, datetime.now().year)
+
+
+def detect_bulk_league(filename):
+    """按檔名自動辨識多聯賽上載檔案；辨識不到便要求改名，避免錯入聯賽。"""
+    name = re.sub(r"[^a-z0-9]+", "-", str(filename).lower()).strip("-")
+    candidates = []
+    for league, spec in BULK_CSV_SPECS.items():
+        for token in spec["tokens"]:
+            token = re.sub(r"[^a-z0-9]+", "-", token.lower()).strip("-")
+            if token and (name == token or token in name):
+                candidates.append((len(token), league))
+    if not candidates:
+        return None
+    return sorted(candidates, reverse=True)[0][1]
+
+
+def read_bulk_csv(uploaded_file, league):
+    """將一個多聯賽檔案用既有 CSV 標準化流程讀入。"""
+    return read_uploaded_matches(uploaded_file, league).assign(source="多聯賽 CSV：" + str(getattr(uploaded_file, "name", "")))
+
+
+def read_player_csv(uploaded_file):
+    """讀取 FBref squad export；只作顯示，不把球員資料冒充成賽果。"""
+    if uploaded_file is None:
+        return pd.DataFrame()
+    raw = uploaded_file.getvalue()
+    frame = pd.read_csv(BytesIO(raw), encoding="utf-8-sig")
+    aliases = {"球員": "Player", "國籍": "Nation", "位置": "Pos", "年齡": "Age", "入球": "Gls", "球隊": "Squad"}
+    frame = frame.rename(columns={k: v for k, v in aliases.items() if k in frame.columns})
+    required = {"Player", "Nation", "Pos", "Age", "Gls"}
+    if not required.issubset(frame.columns):
+        raise ValueError("球員 CSV 必須包含 Player、Nation、Pos、Age、Gls 欄位")
+    if "Squad" not in frame.columns:
+        frame["Squad"] = ""
+    return frame[["Squad", "Player", "Nation", "Pos", "Age", "Gls"]].copy()
+
+
+def player_table_zh(players, team_names=None):
+    if players is None or players.empty:
+        return pd.DataFrame()
+    data = players.copy()
+    if team_names and data["Squad"].astype(str).str.strip().ne("").any():
+        keys = [team_key(x) for x in team_names]
+        data = data[data["Squad"].map(team_key).isin(keys)]
+    if data.empty:
+        return data
+    out = pd.DataFrame({
+        "球員": data["Player"].astype(str),
+        "位置": data["Pos"].map(zh_position),
+        "國籍": data["Nation"].map(zh_country),
+        "年齡": data["Age"],
+        "入球": data["Gls"],
+    })
+    return out
 
 
 def save_matches(df):
@@ -463,6 +593,78 @@ def from_csv(league):
         except Exception as e:
             errors.append(str(e))
     raise ValueError("CSV 無法讀取：" + "；".join(errors)[-500:])
+
+
+def current_fd_season():
+    now = datetime.now()
+    start = now.year if now.month >= 7 else now.year - 1
+    return f"{str(start)[-2:]}{str(start + 1)[-2:]}"
+
+
+def update_fd_leagues():
+    """只更新有 Football-Data 代碼的聯賽；每份先驗證，成功才寫入資料館。"""
+    season = current_fd_season()
+    results, errors = [], []
+    for league, spec in LEAGUES.items():
+        code = spec.get("csv")
+        if not code:
+            continue
+        url = f"{FD_BASE}/mmz4281/{season}/{code}.csv"
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=20)
+            response.raise_for_status()
+            frame = pd.read_csv(BytesIO(response.content), encoding="latin1")
+            cleaned = clean_matches(frame, f"Football-Data CSV {season}", league, season)
+            if cleaned.empty:
+                raise ValueError("沒有可用已完成賽果")
+            save_matches(cleaned)
+            results.append(f"{league}（{len(cleaned)} 場）")
+        except Exception as exc:
+            errors.append(f"{league}：{str(exc)[:180]}")
+    return results, errors
+
+
+def parse_pasted_fbref_html(html, league):
+    """只解析使用者貼上的公開 HTML 表格；需包含主客隊及角球欄位。"""
+    if not str(html or "").strip():
+        raise ValueError("未貼上 HTML")
+    tables = pd.read_html(StringIO(str(html)), flavor="lxml")
+    aliases = {"Home Team": "Home", "Away Team": "Away", "HomeTeam": "Home", "AwayTeam": "Away",
+               "Home Corners": "HC", "Away Corners": "AC", "Corner Kicks (home)": "HC",
+               "Corner Kicks (away)": "AC", "Date": "Date"}
+    for table in tables:
+        table.columns = [str(c).strip() for c in table.columns]
+        table = table.rename(columns={k: v for k, v in aliases.items() if k in table.columns})
+        if {"Home", "Away", "HC", "AC"}.issubset(table.columns):
+            # HTML 角球補充表未必有完整比分；只建立補充列，稍後按球隊及日期更新資料館。
+            out = table.copy()
+            out["HC"] = pd.to_numeric(out["HC"], errors="coerce")
+            out["AC"] = pd.to_numeric(out["AC"], errors="coerce")
+            out["Date"] = out.get("Date", "")
+            out["league"] = league
+            out["season"] = str(datetime.now().year)
+            out["HG"] = pd.NA
+            out["AG"] = pd.NA
+            out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce", dayfirst=True)
+            out["source"] = "使用者貼上的 FBref HTML"
+            return out[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]].dropna(subset=["Home", "Away", "HC", "AC"])
+    raise ValueError("HTML 表格未找到 Home、Away、HC、AC 四個可核對欄位")
+
+
+def save_corner_supplement(df):
+    """只更新資料館已有賽果的 HC/AC，唔會用角球列製造一場新賽事。"""
+    updated = 0
+    with sqlite3.connect(DB) as c:
+        for row in df.itertuples():
+            params = [float(row.HC), float(row.AC), row.league, str(row.Home), str(row.Away)]
+            if pd.notna(row.DateParsed):
+                cur = c.execute("UPDATE matches SET hc=?, ac=?, source=? WHERE league=? AND home=? AND away=? AND date LIKE ?",
+                                [float(row.HC), float(row.AC), row.source, row.league, str(row.Home), str(row.Away), f"%{str(row.Date)[:10]}%"])
+            else:
+                cur = c.execute("UPDATE matches SET hc=?, ac=?, source=? WHERE league=? AND home=? AND away=? AND (hc IS NULL OR ac IS NULL)",
+                                [float(row.HC), float(row.AC), row.source, row.league, str(row.Home), str(row.Away)])
+            updated += cur.rowcount
+    return updated
 
 
 def robots_allowed(url):
@@ -714,7 +916,7 @@ def total_over_probability(lam, line):
 def signal(p, odds=None, other="", data_ok=True, backtest_ok=True):
     """將模型結果與下注建議分開；沒有賠率時不假裝可以計 EV。"""
     if p is None or not data_ok:
-        return "🚫 避開", "核心資料不足或來源有衝突，未能可靠計算"
+        return "🚫 暫不作下注結論", "資料已過期或核心資料不足；只供歷史參考"
     if odds and p * odds - 1 > .50:
         return "⚠️ 異常高值", f"EV {p * odds - 1:.1%}；請先核對盤口、方向及賠率"
     if odds and p * odds - 1 >= .05 and backtest_ok:
@@ -736,6 +938,18 @@ def data_is_stale(matches, max_age_days=365):
     latest = dates.max()
     age_days = (pd.Timestamp.now(tz="UTC") - latest).days
     return age_days > max_age_days, latest
+
+
+def pair_data_status(home_matches, away_matches, stale_data):
+    """檢查指定對賽前是否有足夠、未過期的歷史樣本。"""
+    reasons = []
+    if len(home_matches) < 4:
+        reasons.append(f"主隊只有 {len(home_matches)} 場樣本")
+    if len(away_matches) < 4:
+        reasons.append(f"客隊只有 {len(away_matches)} 場樣本")
+    if stale_data:
+        reasons.append("整體資料已過期")
+    return not reasons, reasons
 
 
 def score_matrix(hx, ax, max_goals=8):
@@ -958,6 +1172,36 @@ with st.sidebar:
         type=["csv", "xlsx", "xls"],
         help="你可以先登入任何允許下載資料的網站，下載 CSV 或 Excel，再上載到這裡；程式不會讀取你的密碼。"
     )
+    bulk_matches = st.file_uploader(
+        "35 聯賽統一 CSV 上載（可選，可一次選多個檔案）",
+        type=["csv"], accept_multiple_files=True,
+        help="檔名請包含聯賽代碼或英文名稱，例如 E0.csv、SP1.csv、saudi-pro-league.csv。"
+    )
+    update_all = st.button("一鍵更新可用的聯賽 CSV", use_container_width=True,
+                           help="只會更新 Football-Data 實際有直接 CSV 的聯賽；其他聯賽不會虛構網址。")
+    if update_all:
+        with st.spinner("下載及驗證可用聯賽 CSV 中……"):
+            update_ok, update_errors = update_fd_leagues()
+        if update_ok:
+            st.success("已更新：" + "、".join(update_ok))
+        if update_errors:
+            st.warning("未能更新（不會覆蓋舊資料）：" + "；".join(update_errors))
+        st.caption("沒有列出的聯賽代表目前沒有已核實的 Football-Data 直接 CSV，請手動上載真實檔案。")
+    player_upload = st.file_uploader(
+        "球員名單 CSV（可選，FBref squad export）",
+        type=["csv"],
+        help="需要 Player、Nation、Pos、Age、Gls 欄位；若有 Squad 欄位，會按主客隊篩選。"
+    )
+    fbref_html = st.text_area(
+        "貼上公開比賽 HTML（可選，用於補充角球）",
+        height=120,
+        help="只有表格確實包含 Home、Away、HC、AC 時才會匯入；唔會由 HTML 猜角球。"
+    )
+    csv_url = st.text_input(
+        "公開 CSV 直連網址（可選）",
+        placeholder="例如 https://example.com/results.csv",
+        help="只接受不需要登入、而且你有權下載的直接 CSV 網址；每次分析會讀取最新檔案。"
+    )
     template = pd.DataFrame(columns=["日期", "主隊", "客隊", "主隊入球", "客隊入球", "主隊角球", "客隊角球"])
     st.download_button(
         "下載 CSV 格式範本",
@@ -974,6 +1218,52 @@ with st.sidebar:
             st.success(f"已匯入 {len(imported)} 場賽果；下次分析會優先使用本地資料館。")
         except Exception as exc:
             st.warning(f"上載檔案未能匯入：{exc}")
+    import_bulk = st.button("一鍵上載多個聯賽 CSV", use_container_width=True)
+    if import_bulk:
+        if not bulk_matches:
+            st.warning("請先選擇一個或多個聯賽 CSV 檔案。")
+        else:
+            bulk_ok, bulk_errors = [], []
+            for bulk_file in bulk_matches:
+                target_league = detect_bulk_league(getattr(bulk_file, "name", ""))
+                if not target_league:
+                    bulk_errors.append(f"{getattr(bulk_file, 'name', '')}：檔名未能辨識聯賽")
+                    continue
+                try:
+                    frame = read_bulk_csv(bulk_file, target_league)
+                    save_matches(frame)
+                    bulk_ok.append(f"{target_league}（{len(frame)} 場）")
+                except Exception as exc:
+                    bulk_errors.append(f"{getattr(bulk_file, 'name', '')}：{exc}")
+            if bulk_ok:
+                st.success("已匯入：" + "、".join(bulk_ok))
+            if bulk_errors:
+                st.warning("未能匯入：" + "；".join(bulk_errors))
+    if player_upload is not None:
+        try:
+            st.session_state["uploaded_players"] = read_player_csv(player_upload)
+            st.caption(f"已讀取球員名單 {len(st.session_state['uploaded_players'])} 人；只作球員資料顯示。")
+        except Exception as exc:
+            st.warning(f"球員 CSV 未能讀取：{exc}")
+    import_fbref_html = st.button("匯入 HTML 角球資料", use_container_width=True)
+    if import_fbref_html:
+        try:
+            html_matches = parse_pasted_fbref_html(fbref_html, league)
+            updated = save_corner_supplement(html_matches)
+            if updated:
+                st.success(f"已用 HTML 角球資料更新 {updated} 場既有賽果。")
+            else:
+                st.warning("HTML 解析到角球，但未能按主客隊／日期對應到資料館既有賽果；沒有新增或虛構賽事。")
+        except Exception as exc:
+            st.warning(f"HTML 未能匯入：{exc}")
+    import_csv_url = st.button("讀取並匯入 CSV 網址", use_container_width=True)
+    if import_csv_url:
+        try:
+            imported_url = read_csv_url(csv_url, league)
+            save_matches(imported_url)
+            st.success(f"已由公開 CSV 網址匯入 {len(imported_url)} 場賽果。")
+        except Exception as exc:
+            st.warning(f"CSV 網址未能匯入：{exc}")
     st.caption("資料流程：本地資料館優先，其次 API、公開 CSV／JSON；最後才使用你明確提供的公開網址。")
     with st.expander("本地資料館狀態"):
         try:
@@ -994,6 +1284,11 @@ with st.sidebar:
                 save_matches(uploaded_for_directory)
                 directory_names = sorted(set(uploaded_for_directory["Home"]) | set(uploaded_for_directory["Away"]))
                 directory_source = "你上載的 CSV"
+            elif csv_url.strip():
+                url_for_directory = read_csv_url(csv_url, league)
+                save_matches(url_for_directory)
+                directory_names = sorted(set(url_for_directory["Home"]) | set(url_for_directory["Away"]))
+                directory_source = "公開 CSV 網址"
             else:
                 directory_names, directory_source = get_team_directory(league, "", fd_token.strip(), crawl_url)
             st.session_state[directory_key] = directory_names
@@ -1068,6 +1363,10 @@ if run:
                 matches = read_uploaded_matches(uploaded_matches, league)
                 save_matches(matches)
                 source, quality = "你上載的 CSV", "高（已核對格式）"
+            elif csv_url.strip():
+                matches = read_csv_url(csv_url, league)
+                save_matches(matches)
+                source, quality = "公開 CSV 網址", "高（已核對格式）"
             else:
                 matches, source, quality = get_matches(league, "", fd_token.strip(), crawl_url)
         except Exception as e:
@@ -1082,6 +1381,7 @@ if run:
     if stale_data:
         latest_text = latest_data_date.strftime("%Y-%m-%d") if latest_data_date is not None else "未知"
         st.warning(f"資料最後日期為 {latest_text}，已超過一年；本次只顯示模型參考，不會把 EV 當成可下注優勢。請勿將舊賽季 CSV 當成最新近況。")
+        quality = "過期（只供歷史參考）"
     teams = sorted(set(matches.Home) | set(matches.Away))
     # 優先使用已載入的聯賽完整目錄；沒有目錄時才用歷史賽果作後備。
     directory = st.session_state.get(f"teams_{league}", [])
@@ -1115,6 +1415,9 @@ if run:
         fbref_corner_message = f"FBref 逐場角球未讀取：{str(exc)[:160]}"
     h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
     a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
+    pair_data_ok, pair_data_reasons = pair_data_status(h, a, stale_data)
+    if not pair_data_ok:
+        st.warning("；".join(pair_data_reasons) + "；本場只作模型參考，不作下注結論。")
     hgf = (h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean() if not h.empty else 1.0)
     hga = (h.apply(lambda r: r.AG if r.Home == home else r.HG, axis=1).mean() if not h.empty else 1.0)
     agf = (a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean() if not a.empty else 1.0)
@@ -1163,28 +1466,28 @@ if run:
         st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     st.markdown("### 勝和負")
     result_table = pd.DataFrame([
-        ["主勝", hp, home_odds, *signal(hp, home_odds, "和局或主隊不敗", data_ok=not stale_data)],
-        ["和局", dp, draw_odds, *signal(dp, draw_odds, "主隊不敗", data_ok=not stale_data)],
-        ["客勝", ap, away_odds, *signal(ap, away_odds, "和局或客隊不敗", data_ok=not stale_data)],
+        ["主勝", hp, home_odds, *signal(hp, home_odds, "和局或主隊不敗", data_ok=pair_data_ok)],
+        ["和局", dp, draw_odds, *signal(dp, draw_odds, "主隊不敗", data_ok=pair_data_ok)],
+        ["客勝", ap, away_odds, *signal(ap, away_odds, "和局或客隊不敗", data_ok=pair_data_ok)],
     ], columns=["選項", "模型機率", "輸入賠率", "提示", "說明"])
     st.dataframe(result_table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
 
     st.markdown("### 入球大小")
     goal_table = pd.DataFrame([
-        [f"大 {x}", goal_lines[x], *signal(goal_lines[x], goal_over_odds if x == line else None, f"細 {x}", data_ok=not stale_data)]
+        [f"大 {x}", goal_lines[x], *signal(goal_lines[x], goal_over_odds if x == line else None, f"細 {x}", data_ok=pair_data_ok)]
         for x in [2.5, 3.5, 4.5]
     ] + [
-        [f"細 {x}", 1 - goal_lines[x], *signal(1 - goal_lines[x], goal_under_odds if x == line else None, f"大 {x}", data_ok=not stale_data)]
+        [f"細 {x}", 1 - goal_lines[x], *signal(1 - goal_lines[x], goal_under_odds if x == line else None, f"大 {x}", data_ok=pair_data_ok)]
         for x in [2.5, 3.5, 4.5]
     ], columns=["入球盤", "模型機率", "提示", "說明"])
     st.dataframe(goal_table.style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
 
     st.markdown("### 讓球盤")
-    ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）", data_ok=not stale_data)
+    ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）", data_ok=pair_data_ok)
     handicap_table = pd.DataFrame([
         [f"主隊 {handicap_line:+.2f}", ah_home, handicap_odds, ah_signal, ah_reason],
-        [f"讓球和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "讓球主隊或客隊", data_ok=not stale_data)],
-        [f"讓球客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "讓球主隊", data_ok=not stale_data)],
+        [f"讓球和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "讓球主隊或客隊", data_ok=pair_data_ok)],
+        [f"讓球客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "讓球主隊", data_ok=pair_data_ok)],
     ], columns=["讓球盤", "模型機率", "輸入賠率", "提示", "說明"])
     st.dataframe(handicap_table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
 
@@ -1199,8 +1502,8 @@ if run:
         for x in corner_lines:
             over_p = total_over_probability(corner_total, x)
             corner_rows.extend([
-                [f"大 {x}", over_p, *signal(over_p, corner_over_odds if x == corner_line else None, f"細 {x}", data_ok=not stale_data)],
-                [f"細 {x}", 1 - over_p, *signal(1 - over_p, corner_under_odds if x == corner_line else None, f"大 {x}", data_ok=not stale_data)],
+                [f"大 {x}", over_p, *signal(over_p, corner_over_odds if x == corner_line else None, f"細 {x}", data_ok=pair_data_ok)],
+                [f"細 {x}", 1 - over_p, *signal(1 - over_p, corner_under_odds if x == corner_line else None, f"大 {x}", data_ok=pair_data_ok)],
             ])
         corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "提示", "說明"])
         st.caption(f"角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
@@ -1214,6 +1517,7 @@ if run:
     best_signal, best_reason = signal(best_market[0], None, "")
     st.info(f"模型最高機率方向：{best_market[1]}｜{best_signal}｜{best_reason}。這是模型排序，不等於下注指示，亦不保證賽果。")
     st.markdown("### 球員及傷停資料")
+    uploaded_players = st.session_state.get("uploaded_players", pd.DataFrame())
     pc1, pc2 = st.columns(2)
     for col, name, info, err in [(pc1, home, home_info, home_info_error), (pc2, away, away_info, away_info_error)]:
         with col:
@@ -1224,11 +1528,24 @@ if run:
             team_obj, venue = info.get("team", {}), info.get("venue", {})
             st.caption(f"來源：TheSportsDB 公開資料｜國家：{team_obj.get('country', '未能取得')}｜成立：{team_obj.get('founded', '未能取得')}｜教練：{info.get('coach', '未能取得')}｜主場：{venue.get('name', '未能取得')}")
             squad = info.get("squad", [])
-            if squad:
-                rows = [{"球員": zh_player_name(p.get("strPlayer", ""), i), "位置": zh_position(p.get("strPosition", "")), "國籍": zh_country(p.get("strNationality", "")), "出生日期": p.get("dateBorn", "未有資料")} for i, p in enumerate(squad, 1)]
+            csv_players = player_table_zh(uploaded_players, [name])
+            if not csv_players.empty:
+                st.dataframe(csv_players, use_container_width=True, hide_index=True)
+            elif squad:
+                # 沒有球員 CSV 時仍可顯示公開名單，但未知中文位置／國籍留空，
+                # 不再顯示刺眼的「未有中文位置資料」字樣。
+                rows = []
+                for i, p in enumerate(squad, 1):
+                    pos = zh_position(p.get("strPosition", ""))
+                    country = zh_country(p.get("strNationality", ""))
+                    rows.append({"球員": p.get("strPlayer", "") or f"第 {i} 名球員",
+                                 "位置": "" if pos.startswith("未有") else pos,
+                                 "國籍": "" if country.startswith("未有") else country,
+                                 "出生日期": p.get("dateBorn", "")})
                 st.dataframe(pd.DataFrame(rows), use_container_width=True, hide_index=True)
             else:
-                st.warning("公開來源暫未回傳球員名單")
+                if uploaded_players.empty:
+                    st.caption("未上載球員 CSV；本頁不顯示缺少中文位置資料提示。")
             st.info("傷停：此免費來源沒有今場可核實傷停資料")
     st.info("未填賠率的盤口仍會用已取得的真實歷史數據計算機率；但沒有賠率只能顯示模型推算，不能計算 EV。沒有角球／射門等來源資料時會明確顯示資料不足，不會自行補數。")
 else:
