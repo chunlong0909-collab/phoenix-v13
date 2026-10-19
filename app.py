@@ -726,6 +726,18 @@ def signal(p, odds=None, other="", data_ok=True, backtest_ok=True):
     return "⚪ 只供參考", f"模型方向機率 {p:.1%}；{('可比較 ' + other) if other else '不作下注結論'}"
 
 
+def data_is_stale(matches, max_age_days=365):
+    """判斷賽果最後日期是否過舊；過期資料不產生下注建議。"""
+    if matches.empty or "DateParsed" not in matches.columns:
+        return True, None
+    dates = pd.to_datetime(matches["DateParsed"], errors="coerce", utc=True).dropna()
+    if dates.empty:
+        return True, None
+    latest = dates.max()
+    age_days = (pd.Timestamp.now(tz="UTC") - latest).days
+    return age_days > max_age_days, latest
+
+
 def score_matrix(hx, ax, max_goals=8):
     return {(hg, ag): poisson(hg, hx) * poisson(ag, ax) for hg in range(max_goals + 1) for ag in range(max_goals + 1)}
 
@@ -1066,6 +1078,10 @@ if run:
         st.warning(f"暫時找不到「{league}」的可核對賽果。這不是程式崩潰，而是目前公開來源沒有回傳資料。")
         st.info("可先選擇英超、西甲、德甲或歐聯測試；沙特等聯賽若所有免費來源均未覆蓋，必須等待來源恢復或匯入真實 CSV。")
         st.stop()
+    stale_data, latest_data_date = data_is_stale(matches)
+    if stale_data:
+        latest_text = latest_data_date.strftime("%Y-%m-%d") if latest_data_date is not None else "未知"
+        st.warning(f"資料最後日期為 {latest_text}，已超過一年；本次只顯示模型參考，不會把 EV 當成可下注優勢。請勿將舊賽季 CSV 當成最新近況。")
     teams = sorted(set(matches.Home) | set(matches.Away))
     # 優先使用已載入的聯賽完整目錄；沒有目錄時才用歷史賽果作後備。
     directory = st.session_state.get(f"teams_{league}", [])
@@ -1147,28 +1163,28 @@ if run:
         st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     st.markdown("### 勝和負")
     result_table = pd.DataFrame([
-        ["主勝", hp, home_odds, *signal(hp, home_odds, "和局或主隊不敗")],
-        ["和局", dp, draw_odds, *signal(dp, draw_odds, "主隊不敗")],
-        ["客勝", ap, away_odds, *signal(ap, away_odds, "和局或客隊不敗")],
+        ["主勝", hp, home_odds, *signal(hp, home_odds, "和局或主隊不敗", data_ok=not stale_data)],
+        ["和局", dp, draw_odds, *signal(dp, draw_odds, "主隊不敗", data_ok=not stale_data)],
+        ["客勝", ap, away_odds, *signal(ap, away_odds, "和局或客隊不敗", data_ok=not stale_data)],
     ], columns=["選項", "模型機率", "輸入賠率", "提示", "說明"])
     st.dataframe(result_table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
 
     st.markdown("### 入球大小")
     goal_table = pd.DataFrame([
-        [f"大 {x}", goal_lines[x], *signal(goal_lines[x], goal_over_odds if x == line else None, f"細 {x}")]
+        [f"大 {x}", goal_lines[x], *signal(goal_lines[x], goal_over_odds if x == line else None, f"細 {x}", data_ok=not stale_data)]
         for x in [2.5, 3.5, 4.5]
     ] + [
-        [f"細 {x}", 1 - goal_lines[x], *signal(1 - goal_lines[x], goal_under_odds if x == line else None, f"大 {x}")]
+        [f"細 {x}", 1 - goal_lines[x], *signal(1 - goal_lines[x], goal_under_odds if x == line else None, f"大 {x}", data_ok=not stale_data)]
         for x in [2.5, 3.5, 4.5]
     ], columns=["入球盤", "模型機率", "提示", "說明"])
     st.dataframe(goal_table.style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
 
     st.markdown("### 讓球盤")
-    ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）")
+    ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）", data_ok=not stale_data)
     handicap_table = pd.DataFrame([
         [f"主隊 {handicap_line:+.2f}", ah_home, handicap_odds, ah_signal, ah_reason],
-        [f"讓球和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "讓球主隊或客隊")],
-        [f"讓球客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "讓球主隊")],
+        [f"讓球和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "讓球主隊或客隊", data_ok=not stale_data)],
+        [f"讓球客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "讓球主隊", data_ok=not stale_data)],
     ], columns=["讓球盤", "模型機率", "輸入賠率", "提示", "說明"])
     st.dataframe(handicap_table.style.format({"模型機率": "{:.1%}", "輸入賠率": lambda x: "-" if pd.isna(x) else f"{x:.2f}"}), use_container_width=True, hide_index=True)
 
@@ -1183,8 +1199,8 @@ if run:
         for x in corner_lines:
             over_p = total_over_probability(corner_total, x)
             corner_rows.extend([
-                [f"大 {x}", over_p, *signal(over_p, corner_over_odds if x == corner_line else None, f"細 {x}")],
-                [f"細 {x}", 1 - over_p, *signal(1 - over_p, corner_under_odds if x == corner_line else None, f"大 {x}")],
+                [f"大 {x}", over_p, *signal(over_p, corner_over_odds if x == corner_line else None, f"細 {x}", data_ok=not stale_data)],
+                [f"細 {x}", 1 - over_p, *signal(1 - over_p, corner_under_odds if x == corner_line else None, f"大 {x}", data_ok=not stale_data)],
             ])
         corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "提示", "說明"])
         st.caption(f"角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
