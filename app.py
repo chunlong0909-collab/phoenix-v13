@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 
+import numpy as np
 import pandas as pd
 import requests
 import streamlit as st
@@ -131,6 +132,8 @@ ALIASES = {
     "艾費哈": "Al Feiha", "阿爾費哈": "Al Feiha", "吉達艾阿里": "Al Ahli SC",
     "吉達艾里": "Al Ahli SC", "吉達阿赫利": "Al Ahli SC", "阿赫利": "Al Ahli SC",
     "幸運切爾達": "Celta B", "切爾達B": "Celta B", "特內里費": "Tenerife",
+    "熱刺": "Tottenham Hotspur", "Tottenham": "Tottenham Hotspur",
+    "高雲地利": "Coventry City", "Coventry": "Coventry City",
 }
 
 # 只放可核對的常用中文隊名；沒有可靠中文譯名時，畫面會明確標示，絕不自行亂譯。
@@ -146,6 +149,8 @@ TEAM_ZH = {
     "FC Utrecht": "烏德勒支", "Feyenoord Rotterdam": "飛燕諾", "São Paulo": "聖保羅",
     "Sevilla FC": "西維爾", "Al Feiha": "艾費哈", "Al Ahli SC": "吉達艾阿里",
     "Celta B": "幸運切爾達", "Celta Vigo B": "幸運切爾達", "Tenerife": "特內里費",
+    "Tottenham": "熱刺", "Tottenham Hotspur": "熱刺",
+    "Coventry": "高雲地利", "Coventry City": "高雲地利",
 }
 
 def zh_team(name):
@@ -891,6 +896,32 @@ def probs(hx, ax):
     return h / s, d / s, a / s
 
 
+def monte_carlo_match(hx, ax, corner_lams=None, simulations=20000, seed=20261020):
+    """用已取得的量化資料重複模擬比賽，不會把缺失球員資料當成真數據。"""
+    rng = np.random.default_rng(seed)
+    hg = rng.poisson(max(.01, hx), simulations)
+    ag = rng.poisson(max(.01, ax), simulations)
+    total = hg + ag
+    counts = {}
+    for h, a in zip(hg, ag):
+        counts[(int(h), int(a))] = counts.get((int(h), int(a)), 0) + 1
+    top = sorted(counts.items(), key=lambda item: item[1], reverse=True)[:5]
+    result = {
+        "主勝": float(np.mean(hg > ag)), "和局": float(np.mean(hg == ag)),
+        "客勝": float(np.mean(hg < ag)), "大2.5": float(np.mean(total > 2.5)),
+        "大3.5": float(np.mean(total > 3.5)), "大4.5": float(np.mean(total > 4.5)),
+        "模擬場數": simulations,
+        "比分": pd.DataFrame([{"比分": f"{h}-{a}", "模擬機率": n / simulations} for (h, a), n in top]),
+    }
+    if corner_lams:
+        hc = rng.poisson(max(.01, corner_lams[0]), simulations)
+        ac = rng.poisson(max(.01, corner_lams[1]), simulations)
+        corners = hc + ac
+        for line in [9.5, 10.5, 11.5, 12.5]:
+            result[f"角球大{line}"] = float(np.mean(corners > line))
+    return result
+
+
 def corner_model(matches, home, away):
     """只用來源實際提供的 HC/AC；沒有足夠角球紀錄便返回空值。"""
     if "HC" not in matches.columns or "AC" not in matches.columns:
@@ -1500,6 +1531,7 @@ if run:
     if not fbref_corner_rows.empty:
         corner_input = pd.concat([corner_input, fbref_corner_rows[["Home", "Away", "HC", "AC", "DateParsed"]]], ignore_index=True)
     corner_lams, corner_status = corner_model(corner_input, home, away)
+    monte_carlo = monte_carlo_match(hx, ax, corner_lams)
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
     home_form = team_form_table(matches, home)
     away_form = team_form_table(matches, away)
@@ -1524,6 +1556,13 @@ if run:
         st.markdown("**模型輸入摘要**")
         st.write(f"主隊近期平均入球：{hgf:.2f}｜主隊近期平均失球：{hga:.2f}｜客隊近期平均入球：{agf:.2f}｜客隊近期平均失球：{aga:.2f}")
         st.write(f"模型預期入球：主隊 {hx:.2f}｜客隊 {ax:.2f}｜總入球 {hx + ax:.2f}")
+        st.markdown("**蒙地卡羅模擬（20,000 次）**")
+        mc1, mc2, mc3 = st.columns(3)
+        mc1.metric("模擬主勝", f"{monte_carlo['主勝']:.1%}")
+        mc2.metric("模擬和局", f"{monte_carlo['和局']:.1%}")
+        mc3.metric("模擬客勝", f"{monte_carlo['客勝']:.1%}")
+        st.caption("模擬只使用目前已取得的近期入失球及角球參數；只有球員姓名而沒有出場、入球或傷停數字時，不會虛構球員修正。")
+        st.dataframe(monte_carlo["比分"].style.format({"模擬機率": "{:.1%}"}), use_container_width=True, hide_index=True)
         has_fbref_stats = isinstance(fbref_stats, pd.DataFrame) and not fbref_stats.empty
         fbref_status_zh = "已取得並有限度納入" if has_fbref_stats else "未取得，未納入模型"
         st.caption(f"外部攻守統計狀態：{fbref_status_zh}；修正幅度受限。")
