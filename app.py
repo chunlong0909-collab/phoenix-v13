@@ -169,7 +169,10 @@ def log_source(league, source, status, message=""):
 
 
 def clean_matches(df, source, league, season):
-    aliases = {"HomeTeam": "Home", "AwayTeam": "Away", "FTHG": "HG", "FTAG": "AG", "Date": "Date"}
+    aliases = {
+        "HomeTeam": "Home", "AwayTeam": "Away", "FTHG": "HG", "FTAG": "AG",
+        "Team1": "Home", "Team2": "Away", "Score1": "HG", "Score2": "AG", "Date": "Date",
+    }
     df = df.rename(columns={k: v for k, v in aliases.items() if k in df.columns})
     required = {"Home", "Away", "HG", "AG"}
     if not required.issubset(df.columns):
@@ -308,7 +311,13 @@ def from_api_team_directory(league, token):
 
 def get_team_directory(league, api_token, fd_token, crawl_url):
     """不使用 API-Football；以資料館、Football-Data 及公開賽果建立目錄。"""
-    matches, source, _ = get_matches(league, api_token, fd_token, crawl_url)
+    # 球隊清單優先直接由永久保存的資料館建立，避免外部來源欄位格式不同造成 KeyError。
+    matches = all_saved_matches(league)
+    source = "本地資料館"
+    if matches.empty:
+        matches, source, _ = get_matches(league, api_token, fd_token, crawl_url)
+    if not {"Home", "Away"}.issubset(matches.columns):
+        matches = clean_matches(matches, source, league, datetime.now().year)
     names = sorted(set(matches["Home"].dropna()) | set(matches["Away"].dropna()))
     if not names:
         raise ValueError("沒有任何可用球隊")
