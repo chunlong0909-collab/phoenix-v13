@@ -12,6 +12,7 @@ from urllib.robotparser import RobotFileParser
 import pandas as pd
 import requests
 import streamlit as st
+from fbref import recent_match_reports, reports_to_dataframe
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -226,7 +227,9 @@ def from_api(league, token):
     if not league_id:
         raise ValueError("API-Football 暫未找到此聯賽的可用 ID")
     errors = []
-    for season in [datetime.now().year, 2024]:
+    # API-Football 的賽季通常以開季年份表示；同時嘗試目前及最近幾季，
+    # 避免跨年或網站尚未切換賽季時顯示無資料。
+    for season in [datetime.now().year, datetime.now().year - 1, 2025, 2024]:
         try:
             payload = api_get("fixtures", {"league": league_id, "season": season, "status": "FT"}, token)
             rows = []
@@ -457,6 +460,13 @@ def get_matches(league, api_token, fd_token, crawl_url):
             df = from_football_data_api(league, fd_token); save_matches(df); log_source(league, "Football-Data.org API", "成功"); return df, "Football-Data.org API", "高"
         except Exception as e:
             attempts.append(f"Football-Data.org API：{e}"); log_source(league, "Football-Data.org API", "失敗", str(e))
+    # 沒有 Football-Data 對照的聯賽（例如卡塔爾、沙特、阿聯酋等），
+    # 先用 API-Football；API 失敗才繼續嘗試 CSV／公開頁面後備。
+    if api_token:
+        try:
+            df = from_api(league, api_token); save_matches(df); log_source(league, "API-Football", "成功"); return df, "API-Football", "高"
+        except Exception as e:
+            attempts.append(f"API-Football：{e}"); log_source(league, "API-Football", "失敗", str(e))
     try:
         df = from_csv(league); save_matches(df); log_source(league, "Football-Data CSV", "成功"); return df, "Football-Data CSV", "高"
     except Exception as e:
@@ -527,8 +537,8 @@ def corner_model(matches, home, away):
     if "HC" not in matches.columns or "AC" not in matches.columns:
         return None, "來源沒有角球欄位"
     data = matches.dropna(subset=["HC", "AC"]).copy()
-    h = data[(data.Home == home) | (data.Away == home)].tail(8)
-    a = data[(data.Home == away) | (data.Away == away)].tail(8)
+    h = data[data.apply(lambda r: team_key(r.Home) == team_key(home) or team_key(r.Away) == team_key(home), axis=1)].tail(8)
+    a = data[data.apply(lambda r: team_key(r.Home) == team_key(away) or team_key(r.Away) == team_key(away), axis=1)].tail(8)
     if len(h) < 4 or len(a) < 4:
         return None, f"角球樣本不足（主隊 {len(h)}、客隊 {len(a)} 場）"
     def values(hist, team):
@@ -770,8 +780,12 @@ st.caption("本地資料館 → API → 公開 CSV → 獲准讀取的公開網�
 with st.sidebar:
     league = st.selectbox("聯賽", list(LEAGUES))
     fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
-    st.caption("API-Football 暫停使用；球隊及球員基本資料改用 TheSportsDB 免費公開來源。")
-    crawl_url = st.text_input("後備公開賽果頁面（可選）", placeholder="只填允許自動讀取、包含賽果表格的公開網址")
+    st.caption("目前不使用已停用的 API-Football；如需分析沒有 Football-Data 對照的聯賽，必須提供其他可用公開賽果頁面，或設定仍有效的 API-Football Token。")
+    crawl_url = st.text_input(
+        "後備公開賽果頁面（可選）",
+        placeholder="建議填 WorldFootball.net 的指定聯賽／賽季賽果頁，不要只填首頁",
+        help="用來補充沒有 Football-Data.org 對照的聯賽；只會讀取公開且 robots.txt 允許的頁面。"
+    )
     directory_key = f"teams_{league}"
     load_directory = st.button("先載入本聯賽球隊清單", use_container_width=True)
     if load_directory:
@@ -867,6 +881,16 @@ if run:
         st.stop()
     home_info, home_info_error = team_details(home)
     away_info, away_info_error = team_details(away)
+    # FBref 比賽報告補充：只取選定兩隊最近最多 5 場，並只把有 HC/AC 的資料
+    # 送入角球模型；不把沒有入球欄位的補充列混入勝和負及入球模型。
+    fbref_corner_rows = pd.DataFrame()
+    fbref_corner_message = "FBref 逐場角球未讀取"
+    try:
+        fbref_reports = recent_match_reports(league, home, away, limit=5)
+        fbref_corner_rows = reports_to_dataframe(fbref_reports)
+        fbref_corner_message = f"FBref 比賽報告角球：{len(fbref_corner_rows)} 場"
+    except Exception as exc:
+        fbref_corner_message = f"FBref 逐場角球未讀取：{str(exc)[:160]}"
     h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
     a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
     hgf = (h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean() if not h.empty else 1.0)
@@ -882,7 +906,10 @@ if run:
     goal_lines = {x: (1 - sum(poisson(k, hx + ax) for k in range(math.floor(x) + 1))) for x in [2.5, 3.5, 4.5]}
     matrix = score_matrix(hx, ax)
     ah_home, ah_draw, ah_away = handicap_prob(matrix, handicap_line)
-    corner_lams, corner_status = corner_model(matches, home, away)
+    corner_input = matches[["Home", "Away", "HC", "AC", "DateParsed"]].copy()
+    if not fbref_corner_rows.empty:
+        corner_input = pd.concat([corner_input, fbref_corner_rows[["Home", "Away", "HC", "AC", "DateParsed"]]], ignore_index=True)
+    corner_lams, corner_status = corner_model(corner_input, home, away)
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
     home_form = team_form_table(matches, home)
     away_form = team_form_table(matches, away)
@@ -954,7 +981,7 @@ if run:
                 [f"細 {x}", 1 - over_p, *signal(1 - over_p, corner_under_odds if x == corner_line else None, f"大 {x}")],
             ])
         corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "提示", "說明"])
-        st.caption(f"角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}")
+        st.caption(f"角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
         st.dataframe(corner_table.style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     else:
         st.warning(f"未能可靠推算角球：{corner_status}")
