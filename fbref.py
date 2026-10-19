@@ -211,6 +211,43 @@ def reports_to_dataframe(reports: list[dict[str, Any]]) -> pd.DataFrame:
     return pd.DataFrame(rows)
 
 
+def competition_matches(league: str) -> pd.DataFrame:
+    """從 FBref Scores & Fixtures 讀取已完成賽果，供沒有 CSV 的聯賽作後備來源。"""
+    comp_id = COMP_IDS.get(league)
+    if not comp_id:
+        return pd.DataFrame()
+    url = f"{BASE}/en/comps/{comp_id}/schedule/"
+    html = _Client().get(url)
+    docs = _comments_and_document(html)
+    for doc in docs:
+        for table in pd.read_html(StringIO(str(doc)), flavor="lxml"):
+            if isinstance(table.columns, pd.MultiIndex):
+                table.columns = [" ".join(str(x) for x in c if str(x) != "nan").strip() for c in table.columns]
+            table.columns = [str(c).strip() for c in table.columns]
+            required = {"Date", "Home", "Score", "Away"}
+            if not required.issubset(set(table.columns)):
+                continue
+            rows = []
+            for _, row in table.iterrows():
+                score = str(row.get("Score", "")).replace("–", "-").strip()
+                match = re.search(r"(\d+)\s*-\s*(\d+)", score)
+                home = str(row.get("Home", "")).strip()
+                away = str(row.get("Away", "")).strip()
+                if not match or not home or not away or home == "nan" or away == "nan":
+                    continue
+                rows.append({
+                    "Home": home, "Away": away,
+                    "HG": int(match.group(1)), "AG": int(match.group(2)),
+                    "HC": None, "AC": None,
+                    "Date": str(row.get("Date", "")),
+                    "DateParsed": pd.to_datetime(row.get("Date", ""), errors="coerce"),
+                    "source": "FBref Scores & Fixtures",
+                })
+            if rows:
+                return pd.DataFrame(rows).drop_duplicates(subset=["Date", "Home", "Away"])
+    return pd.DataFrame()
+
+
 def compare_corner_sources(fbref_total: float, other_totals: list[float] | None = None) -> dict[str, Any]:
     """供 WorldFootball／FootyStats 已合法取得的總角球平均作交叉核對。"""
     values = [float(fbref_total)] + [float(x) for x in (other_totals or [])]
