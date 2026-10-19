@@ -298,6 +298,44 @@ FBREF_COMP_IDS = {
 }
 
 
+def inline_fbref_matches(league):
+    """內置 FBref Scores & Fixtures 後備，避免舊版 fbref.py 令來源被靜默跳過。"""
+    comp_id = FBREF_COMP_IDS.get(league)
+    if not comp_id:
+        return pd.DataFrame()
+    url = f"{FBREF_BASE}/en/comps/{comp_id}/schedule/"
+    response = requests.get(url, headers=HEADERS, timeout=20)
+    response.raise_for_status()
+    documents = [response.text]
+    try:
+        from bs4 import BeautifulSoup, Comment
+        soup = BeautifulSoup(response.text, "lxml")
+        documents += [str(x) for x in soup.find_all(string=lambda x: isinstance(x, Comment))]
+    except Exception:
+        pass
+    for document in documents:
+        try:
+            tables = pd.read_html(StringIO(document), flavor="lxml")
+        except ValueError:
+            continue
+        for table in tables:
+            table.columns = [str(c).strip() for c in table.columns]
+            if not {"Date", "Home", "Score", "Away"}.issubset(table.columns):
+                continue
+            rows = []
+            for _, row in table.iterrows():
+                score = str(row.get("Score", "")).replace("–", "-")
+                found = re.search(r"(\d+)\s*-\s*(\d+)", score)
+                home, away = str(row.get("Home", "")).strip(), str(row.get("Away", "")).strip()
+                if found and home not in ("", "nan") and away not in ("", "nan"):
+                    rows.append({"Home": home, "Away": away, "HG": int(found.group(1)),
+                                 "AG": int(found.group(2)), "HC": None, "AC": None,
+                                 "Date": str(row.get("Date", "")), "source": "FBref Scores & Fixtures"})
+            if rows:
+                return pd.DataFrame(rows).drop_duplicates(subset=["Date", "Home", "Away"])
+    return pd.DataFrame()
+
+
 def from_football_data_api(league, token):
     code = FD_CODES.get(league)
     if not code:
@@ -479,9 +517,9 @@ def get_matches(league, api_token, fd_token, crawl_url):
     except Exception as e:
         attempts.append(f"CSV：{e}"); log_source(league, "Football-Data CSV", "失敗", str(e))
     # FBref 有覆蓋但 Football-Data.org 沒有對照的聯賽，先用其 Scores & Fixtures。
-    if league in FBREF_COMP_IDS and competition_matches is not None:
+    if league in FBREF_COMP_IDS:
         try:
-            df = competition_matches(league)
+            df = competition_matches(league) if competition_matches is not None else inline_fbref_matches(league)
             if not df.empty:
                 save_matches(df); log_source(league, "FBref Scores & Fixtures", "成功")
                 return df, "FBref Scores & Fixtures", "中高"
