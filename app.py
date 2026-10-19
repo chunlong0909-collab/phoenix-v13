@@ -12,7 +12,7 @@ from urllib.robotparser import RobotFileParser
 import pandas as pd
 import requests
 import streamlit as st
-from fbref import recent_match_reports, reports_to_dataframe
+from fbref import competition_matches, recent_match_reports, reports_to_dataframe
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -288,6 +288,7 @@ FBREF_COMP_IDS = {
     "葡萄牙超級聯賽": 32, "蘇格蘭超級聯賽": 40, "美國職業足球大聯盟": 22,
     "澳洲職業聯賽": 65, "日本職業聯賽": 55, "巴西甲組聯賽": 24,
     "墨西哥超級聯賽": 31, "挪威超級聯賽": 29, "丹麥超級聯賽": 50,
+    "沙特職業聯賽": 70,
 }
 
 
@@ -471,6 +472,16 @@ def get_matches(league, api_token, fd_token, crawl_url):
         df = from_csv(league); save_matches(df); log_source(league, "Football-Data CSV", "成功"); return df, "Football-Data CSV", "高"
     except Exception as e:
         attempts.append(f"CSV：{e}"); log_source(league, "Football-Data CSV", "失敗", str(e))
+    # FBref 有覆蓋但 Football-Data.org 沒有對照的聯賽，先用其 Scores & Fixtures。
+    if league in FBREF_COMP_IDS:
+        try:
+            df = competition_matches(league)
+            if not df.empty:
+                save_matches(df); log_source(league, "FBref Scores & Fixtures", "成功")
+                return df, "FBref Scores & Fixtures", "中高"
+            attempts.append("FBref：找不到已完成賽果")
+        except Exception as e:
+            attempts.append(f"FBref：{e}"); log_source(league, "FBref Scores & Fixtures", "失敗", str(e))
     if league == "澳洲冠軍聯賽盃／澳洲盃":
         try:
             df = from_australia_cup(league); save_matches(df); log_source(league, "澳洲盃官方公開資料", "成功"); return df, "澳洲盃官方公開資料", "高"
