@@ -1,7 +1,9 @@
 import math
+import json
 import os
 import re
 import sqlite3
+import subprocess
 import unicodedata
 from datetime import datetime, timedelta, timezone
 from io import BytesIO, StringIO
@@ -158,6 +160,27 @@ TEAM_ZH = {
     "Coventry": "高雲地利", "Coventry City": "高雲地利",
     "Diriyah": "迪里耶會", "Diriyah Club": "迪里耶會", "Al Riyadh": "艾利雅德",
 }
+def load_alias_map():
+    """讀取專案內的 alias_map.csv；只作隊名配對，不會創造賽果。"""
+    path = Path(__file__).with_name("alias_map.csv")
+    if not path.exists():
+        return
+    try:
+        table = pd.read_csv(path, dtype=str).fillna("")
+        for _, row in table.iterrows():
+            zh = str(row.get("中文名稱", "")).strip()
+            canonical = str(row.get("英文標準名", "")).strip()
+            if not canonical:
+                continue
+            if zh:
+                ALIASES[zh] = canonical
+                TEAM_ZH[canonical] = zh
+            for col in table.columns:
+                if col.startswith("別名") and str(row.get(col, "")).strip():
+                    ALIASES[str(row[col]).strip()] = canonical
+    except Exception:
+        return
+load_alias_map()
 
 def zh_team(name):
     name = str(name or "").strip()
@@ -230,8 +253,14 @@ def clean_matches(df, source, league, season):
         "HomeTeam": "Home", "AwayTeam": "Away", "FTHG": "HG", "FTAG": "AG",
         "Team1": "Home", "Team2": "Away", "Team 1": "Home", "Team 2": "Away",
         "Score1": "HG", "Score2": "AG", "Date": "Date",
+        "HomeCorners": "HC", "AwayCorners": "AC", "Home Corner": "HC", "Away Corner": "AC",
+        "主隊角球": "HC", "客隊角球": "AC",
     }
     df = df.rename(columns={k: v for k, v in aliases.items() if k in df.columns})
+    if "Home" in df.columns:
+        df["Home"] = df["Home"].astype(str).str.strip().map(lambda x: ALIASES.get(x, x))
+    if "Away" in df.columns:
+        df["Away"] = df["Away"].astype(str).str.strip().map(lambda x: ALIASES.get(x, x))
     if "FT" in df.columns and not {"HG", "AG"}.issubset(df.columns):
         scores = df["FT"].astype(str).str.extract(r"^\s*(\d+)\s*[-:]\s*(\d+)\s*$")
         df["HG"] = pd.to_numeric(scores[0], errors="coerce")
@@ -280,6 +309,33 @@ def read_uploaded_matches(uploaded_file, league):
     frame = frame.rename(columns={k: v for k, v in aliases.items() if k in frame.columns})
     return clean_matches(frame, "使用者上載資料", league, datetime.now().year)
 
+def read_corner_csv(uploaded_file, league):
+    """讀取只有日期、主客隊及 HC/AC 的角球歷史檔；比分可不存在。"""
+    if uploaded_file is None:
+        raise ValueError("未選擇角球 CSV")
+    frame = pd.read_csv(BytesIO(uploaded_file.getvalue()), encoding="utf-8-sig")
+    aliases = {
+        "HomeTeam": "Home", "AwayTeam": "Away", "Team1": "Home", "Team2": "Away",
+        "Team 1": "Home", "Team 2": "Away", "日期": "Date", "主隊": "Home", "客隊": "Away",
+        "HomeCorners": "HC", "AwayCorners": "AC", "Home Corner": "HC", "Away Corner": "AC",
+        "主隊角球": "HC", "客隊角球": "AC",
+    }
+    frame = frame.rename(columns={k: v for k, v in aliases.items() if k in frame.columns})
+    if not {"Home", "Away", "HC", "AC"}.issubset(frame.columns):
+        raise ValueError("角球 CSV 必須包含 Date、HomeTeam、AwayTeam、HC、AC 欄位")
+    frame["Home"] = frame["Home"].astype(str).str.strip().map(lambda x: ALIASES.get(x, x))
+    frame["Away"] = frame["Away"].astype(str).str.strip().map(lambda x: ALIASES.get(x, x))
+    frame["HC"] = pd.to_numeric(frame["HC"], errors="coerce")
+    frame["AC"] = pd.to_numeric(frame["AC"], errors="coerce")
+    frame = frame.dropna(subset=["Home", "Away", "HC", "AC"]).copy()
+    frame["HG"] = pd.NA
+    frame["AG"] = pd.NA
+    frame["Date"] = frame.get("Date", "")
+    frame["DateParsed"] = pd.to_datetime(frame["Date"], errors="coerce", dayfirst=True)
+    frame["league"] = league
+    frame["season"] = str(datetime.now().year)
+    frame["source"] = "使用者上載角球 CSV"
+    return frame[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]]
 
 def read_csv_url(csv_url, league):
     """從使用者提供的直接 CSV 網址讀取最新賽果；不繞過登入或網站限制。"""
@@ -362,12 +418,21 @@ def player_table_zh(players, team_names=None):
 
 
 def save_matches(df):
-    rows = [(r.league, r.season, r.Home, r.Away, int(r.HG), int(r.AG),
+    rows = [(r.league, r.season, r.Home, r.Away, None if pd.isna(r.HG) else int(r.HG), None if pd.isna(r.AG) else int(r.AG),
              None if pd.isna(r.HC) else float(r.HC), None if pd.isna(r.AC) else float(r.AC),
              str(r.Date), r.source, datetime.now(timezone.utc).isoformat())
             for r in df.itertuples()]
     with sqlite3.connect(DB) as c:
-        c.executemany("INSERT OR REPLACE INTO matches(league,season,home,away,hg,ag,hc,ac,date,source,captured_at) VALUES(?,?,?,?,?,?,?,?,?,?,?)", rows)
+        c.executemany("""
+            INSERT INTO matches(league,season,home,away,hg,ag,hc,ac,date,source,captured_at)
+            VALUES(?,?,?,?,?,?,?,?,?,?,?)
+            ON CONFLICT(league,season,home,away,date) DO UPDATE SET
+                hg=COALESCE(excluded.hg,matches.hg), ag=COALESCE(excluded.ag,matches.ag),
+                hc=COALESCE(excluded.hc,matches.hc), ac=COALESCE(excluded.ac,matches.ac),
+                source=CASE WHEN excluded.hc IS NOT NULL OR excluded.ac IS NOT NULL
+                            THEN excluded.source ELSE matches.source END,
+                captured_at=excluded.captured_at
+        """, rows)
 
 
 def cached_matches(league, max_age_hours=24):
@@ -788,7 +853,13 @@ def from_australia_cup(league):
 
 
 def get_matches(league, api_token, fd_token, crawl_url):
-    fresh = cached_matches(league)
+    api_cached = local_api_matches(league)
+    if not api_cached.empty:
+        return api_cached, "本地API（CSV驅動）", "高（本地快取）"
+    fresh_all = cached_matches(league)
+    # 角球專用 CSV 可以沒有比分；它保留在資料館供 corner_model 使用，
+    # 但不能混入勝和負及入球模型。
+    fresh = fresh_all.dropna(subset=["HG", "AG"]).copy() if not fresh_all.empty else fresh_all
     if not fresh.empty:
         # 舊快取可能只有賽果，沒有 HC/AC；有公開 CSV 對照時先補抓角球資料。
         has_corners = "HC" in fresh.columns and "AC" in fresh.columns and fresh[["HC", "AC"]].notna().all(axis=1).sum() >= 4
@@ -937,23 +1008,26 @@ def monte_carlo_match(hx, ax, corner_lams=None, simulations=20000, seed=20261020
 
 
 def corner_model(matches, home, away):
-    """只用來源實際提供的 HC/AC；沒有足夠角球紀錄便返回空值。"""
+    """用最近最多8場角球；少於8場仍計算，但明確標示可靠性。"""
     if "HC" not in matches.columns or "AC" not in matches.columns:
         return None, "來源沒有角球欄位"
     data = matches.dropna(subset=["HC", "AC"]).copy()
+    if "DateParsed" in data.columns:
+        data = data.sort_values("DateParsed", na_position="first")
     h = data[data.apply(lambda r: team_key(r.Home) == team_key(home) or team_key(r.Away) == team_key(home), axis=1)].tail(8)
     a = data[data.apply(lambda r: team_key(r.Home) == team_key(away) or team_key(r.Away) == team_key(away), axis=1)].tail(8)
-    if len(h) < 4 or len(a) < 4:
+    if len(h) == 0 or len(a) == 0:
         return None, f"角球樣本不足（主隊 {len(h)}、客隊 {len(a)} 場）"
     def values(hist, team):
-        made = hist.apply(lambda r: r.HC if r.Home == team else r.AC, axis=1)
-        conceded = hist.apply(lambda r: r.AC if r.Home == team else r.HC, axis=1)
+        made = hist.apply(lambda r: r.HC if team_key(r.Home) == team_key(team) else r.AC, axis=1)
+        conceded = hist.apply(lambda r: r.AC if team_key(r.Home) == team_key(team) else r.HC, axis=1)
         return float(made.mean()), float(conceded.mean())
     h_for, h_against = values(h, home)
     a_for, a_against = values(a, away)
     home_lam = max(.5, (h_for + a_against) / 2)
     away_lam = max(.5, (a_for + h_against) / 2)
-    return (home_lam, away_lam), "已使用來源提供的歷史角球（最近最多 8 場）"
+    warning = "；角球樣本只有主隊 %d、客隊 %d 場，可靠性中等" % (len(h), len(a)) if len(h) < 8 or len(a) < 8 else ""
+    return (home_lam, away_lam), "已使用來源提供的歷史角球（最近最多8場）" + warning
 
 
 def total_over_probability(lam, line):
@@ -1153,6 +1227,62 @@ def all_saved_matches(league):
     return df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG", "date": "Date"})
 
 
+def local_api_matches(league):
+    """分析頁的本地API客戶端；API未啟動時才回退本地SQLite，避免阻塞使用。"""
+    base = os.getenv("LOCAL_API_URL", "http://127.0.0.1:8000").rstrip("/")
+    lid = next((x.get("id") for x in json.loads(Path(__file__).with_name("leagues.json").read_text(encoding="utf-8")).get("leagues", [])
+                if x.get("name_zh") == league), league)
+    try:
+        r = requests.get(f"{base}/api/matches", params={"league": lid}, timeout=0.8)
+        if r.ok:
+            data = r.json().get("data", [])
+            if data:
+                df = pd.DataFrame(data)
+                return df.rename(columns={"home_team": "Home", "away_team": "Away", "home_goals": "HG",
+                                          "away_goals": "AG", "home_corners": "HC", "away_corners": "AC",
+                                          "date": "Date"})
+    except Exception:
+        pass
+    return pd.DataFrame()
+
+
+def import_local_league_cache():
+    """啟動時讀取 league_collector 產生的 CSV；只匯入本地檔，不自行猜測資料。"""
+    config_path = Path(__file__).with_name("leagues.json")
+    cache_root = Path(__file__).with_name("data") / "leagues"
+    if not config_path.exists() or not cache_root.exists():
+        return 0
+    try:
+        config = json.loads(config_path.read_text(encoding="utf-8"))
+    except Exception:
+        return 0
+    total = 0
+    for item in config.get("leagues", []):
+        path = cache_root / item["id"] / "matches.csv"
+        if not path.exists():
+            continue
+        try:
+            raw = pd.read_csv(path)
+            if raw.empty or not {"home_team", "away_team", "home_goals", "away_goals"}.issubset(raw.columns):
+                continue
+            rows = pd.DataFrame({"Date": raw.get("date", ""), "Home": raw["home_team"], "Away": raw["away_team"],
+                                 "HG": raw["home_goals"], "AG": raw["away_goals"],
+                                 "HC": raw.get("home_corners", pd.NA), "AC": raw.get("away_corners", pd.NA),
+                                 "league": item["name_zh"], "season": raw.get("season", "local-cache"),
+                                 "source": raw.get("source", "本地聯賽快取")})
+            rows["Date"] = rows["Date"].astype(str)
+            rows["HG"] = pd.to_numeric(rows["HG"], errors="coerce")
+            rows["AG"] = pd.to_numeric(rows["AG"], errors="coerce")
+            rows["HC"] = pd.to_numeric(rows["HC"], errors="coerce")
+            rows["AC"] = pd.to_numeric(rows["AC"], errors="coerce")
+            rows = rows.dropna(subset=["HG", "AG"])
+            if not rows.empty:
+                save_matches(rows); total += len(rows)
+        except Exception:
+            continue
+    return total
+
+
 def configured_secret(name):
     try:
         return str(st.secrets.get(name, "") or os.getenv(name, ""))
@@ -1244,10 +1374,38 @@ def search_team_candidates(query, directory, token):
 
 
 db_init()
+if not st.session_state.get("local_league_cache_loaded"):
+    import_local_league_cache()
+    st.session_state["local_league_cache_loaded"] = True
 st.title("混合來源足球分析")
 st.caption("本地資料館 → API → 公開 JSON／CSV → 你上載的 CSV／Excel；資料不足時不會虛構結果。")
+try:
+    _api_started = requests.get(os.getenv("LOCAL_API_URL", "http://127.0.0.1:8000").rstrip("/"), timeout=0.35).ok
+except Exception:
+    _api_started = False
+st.caption(f"數據接口：本地API（CSV驅動）｜延遲：{'<0.2秒' if _api_started else '未啟動，使用本地SQLite後備'}｜狀態：{'正常' if _api_started else '後備模式'}")
 
 with st.sidebar:
+    test_update = st.button("更新四個測試聯賽（零成本）", use_container_width=True,
+                            help="英超、澳職、日職、韓職；資料先保存到 data/leagues/，失敗不會覆蓋舊快取。")
+    if test_update:
+        with st.spinner("收集四個測試聯賽的公開資料中……"):
+            result = subprocess.run(["python3", str(Path(__file__).with_name("league_collector.py")),
+                                     "--leagues", "epl,a-league,j1,k1"], cwd=str(Path(__file__).parent),
+                                    capture_output=True, text=True, timeout=300)
+        if result.returncode == 0:
+            st.success("四個測試聯賽收集完成；重新載入頁面後會自動匯入本地快取。")
+            st.session_state["local_league_cache_loaded"] = False
+        else:
+            st.warning("收集器未完成，舊快取仍會保留。請查看終端輸出或稍後重試。")
+    cache_index = Path(__file__).with_name("data") / "leagues" / "index.json"
+    if cache_index.exists():
+        try:
+            cached = json.loads(cache_index.read_text(encoding="utf-8"))
+            ok = [x for x in cached.get("leagues", []) if x.get("quality") not in ("失敗",)]
+            st.caption(f"本地已快取 {len(ok)} 個聯賽；零成本模式")
+        except Exception:
+            pass
     league = st.selectbox("聯賽", list(LEAGUES))
     fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
     st.caption("目前不使用已停用的 API-Football；如需分析沒有 Football-Data 對照的聯賽，必須提供其他可用公開賽果頁面，或設定仍有效的 API-Football Token。")
@@ -1260,6 +1418,11 @@ with st.sidebar:
         "從其他網站下載後上載賽果（可選）",
         type=["csv", "xlsx", "xls"],
         help="你可以先登入任何允許下載資料的網站，下載 CSV 或 Excel，再上載到這裡；程式不會讀取你的密碼。"
+    )
+    corner_upload = st.file_uploader(
+        "上載角球 CSV（可選）",
+        type=["csv"],
+        help="格式：Date,HomeTeam,AwayTeam,HC,AC；可沒有比分欄位，只供角球模型使用。"
     )
     bulk_matches = st.file_uploader(
         "35 聯賽統一 CSV 上載（可選，可一次選多個檔案）",
@@ -1307,6 +1470,14 @@ with st.sidebar:
             st.success(f"已匯入 {len(imported)} 場賽果；下次分析會優先使用本地資料館。")
         except Exception as exc:
             st.warning(f"上載檔案未能匯入：{exc}")
+    import_corner = st.button("匯入角球 CSV 到資料館", use_container_width=True)
+    if import_corner:
+        try:
+            corner_imported = read_corner_csv(corner_upload, league)
+            save_matches(corner_imported)
+            st.success(f"已保存 {len(corner_imported)} 場角球紀錄；下次分析會優先使用。")
+        except Exception as exc:
+            st.warning(f"角球 CSV 未能匯入：{exc}")
     import_bulk = st.button("一鍵上載多個聯賽 CSV", use_container_width=True)
     if import_bulk:
         if not bulk_matches:
@@ -1541,10 +1712,36 @@ if run:
     goal_lines = {x: (1 - sum(poisson(k, hx + ax) for k in range(math.floor(x) + 1))) for x in [2.5, 3.5, 4.5]}
     matrix = score_matrix(hx, ax)
     ah_home, ah_draw, ah_away = handicap_prob(matrix, handicap_line)
-    corner_input = matches[["Home", "Away", "HC", "AC", "DateParsed"]].copy()
+    corner_input = all_saved_matches(league)
+    if not corner_input.empty:
+        corner_input["DateParsed"] = pd.to_datetime(corner_input.get("Date", ""), errors="coerce", dayfirst=True)
+        corner_input = corner_input[["Home", "Away", "HC", "AC", "DateParsed", "source"]]
+    else:
+        corner_input = matches[["Home", "Away", "HC", "AC", "DateParsed"]].copy()
+        corner_input["source"] = source
     if not fbref_corner_rows.empty:
-        corner_input = pd.concat([corner_input, fbref_corner_rows[["Home", "Away", "HC", "AC", "DateParsed"]]], ignore_index=True)
+        fbref_corner_rows = fbref_corner_rows.copy()
+        fbref_corner_rows["source"] = "FBref 比賽報告"
+        corner_input = pd.concat([corner_input, fbref_corner_rows[["Home", "Away", "HC", "AC", "DateParsed", "source"]]], ignore_index=True)
     corner_lams, corner_status = corner_model(corner_input, home, away)
+    corner_source_names = []
+    if not corner_input.empty and "source" in corner_input.columns:
+        for raw_source in corner_input.loc[corner_input[["HC", "AC"]].notna().all(axis=1), "source"].dropna().astype(str).unique():
+            if "Football-Data" in raw_source:
+                label = "football-data.co.uk"
+            elif "TheSportsDB" in raw_source:
+                label = "TheSportsDB"
+            elif "API-Sports" in raw_source or "API-Football" in raw_source:
+                label = "API-Sports"
+            elif "上載" in raw_source or "CSV" in raw_source:
+                label = "本地CSV"
+            elif "FBref" in raw_source:
+                label = "FBref HTML"
+            else:
+                label = "本地資料館"
+            if label not in corner_source_names:
+                corner_source_names.append(label)
+    corner_source_label = " / ".join(corner_source_names) if corner_source_names else "未取得"
     monte_carlo = monte_carlo_match(hx, ax, corner_lams)
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
     home_form = team_form_table(matches, home)
@@ -1626,9 +1823,10 @@ if run:
                 [f"細 {x}", 1 - over_p, corner_under_odds_map[x] or None, *market_explanation(1 - over_p, corner_under_odds_map[x] or None, f"大 {x}", data_ok=pair_data_ok)],
             ])
         corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "輸入賠率", "提示", "說明", "EV"])
-        st.caption(f"角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
+        st.caption(f"資料來源：{corner_source_label}｜角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
         render_market_table("角球大小", corner_table.to_dict("records"), green_only, "corners")
     else:
+        st.caption(f"資料來源：{corner_source_label}（football-data.co.uk／本地CSV／TheSportsDB／API-Sports 有邊個先用邊個）")
         st.warning(f"未能可靠推算角球：{corner_status}")
         # 角球資料不足時仍顯示各條線，但兩個欄位必須有相同列數，避免 Streamlit ValueError。
         corner_labels = [f"大 {x}" for x in corner_lines] + [f"細 {x}" for x in corner_lines]
