@@ -1585,8 +1585,7 @@ if run:
     toggle_col, title_col = st.columns([1, 2])
     with toggle_col:
         green_only = st.checkbox("只顯示✅可以考慮（EV > 10%）", value=True, key="green_only_markets")
-    with title_col:
-        st.markdown("### 勝和負")
+    # 勝和負標題由 render_market_table 統一輸出，避免手機版出現重複標題。
     result_rows = []
     for name, prob, odds, other in [("主勝", hp, home_odds, "和局或主隊不敗"), ("和局", dp, draw_odds, "主隊不敗"), ("客勝", ap, away_odds, "和局或客隊不敗")]:
         status, explanation, ev_value = market_explanation(prob, odds, other, data_ok=pair_data_ok)
@@ -1600,7 +1599,6 @@ if run:
             goal_rows.append({"入球盤": label, "模型機率": prob, "輸入賠率": odds, "提示": status, "說明": explanation, "EV": ev_value})
     render_market_table("入球大小", goal_rows, green_only, "goals")
 
-    st.markdown("### 讓球盤")
     ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）", data_ok=pair_data_ok)
     handicap_table = pd.DataFrame([
         [f"主隊 {handicap_line:+.2f}", ah_home, handicap_odds, ah_signal, ah_reason],
@@ -1632,7 +1630,9 @@ if run:
         render_market_table("角球大小", corner_table.to_dict("records"), green_only, "corners")
     else:
         st.warning(f"未能可靠推算角球：{corner_status}")
-        st.dataframe(pd.DataFrame({"角球盤": [f"大 {x}" for x in corner_lines] + [f"細 {x}" for x in corner_lines], "狀態": ["資料不足，暫不推算"] * 12}), use_container_width=True, hide_index=True)
+        # 角球資料不足時仍顯示各條線，但兩個欄位必須有相同列數，避免 Streamlit ValueError。
+        corner_labels = [f"大 {x}" for x in corner_lines] + [f"細 {x}" for x in corner_lines]
+        st.dataframe(pd.DataFrame({"角球盤": corner_labels, "狀態": ["資料不足，暫不推算"] * len(corner_labels)}), use_container_width=True, hide_index=True)
 
     st.markdown("**綜合推薦**")
     best_market = max([(hp, "主勝"), (dp, "和局"), (ap, "客勝"), (over, f"大 {line}"), (under, f"細 {line}"), (ah_home, f"主隊讓球 {handicap_line:+.2f}")])
