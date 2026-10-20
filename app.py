@@ -137,7 +137,8 @@ ALIASES = {
     "艾費哈": "Al Feiha", "Al Fayha": "Al Feiha", "Al Fayha FC": "Al Feiha",
     "吉達艾阿里": "Al Ahli SC", "吉達艾里": "Al Ahli SC",
     "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
-    "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
+    "迪里耶會": "Diriyah", "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
+    "艾利雅德": "Al Riyadh", "艾利雅得": "Al Riyadh",
 }
 
 # 只放可核對的常用中文隊名；沒有可靠中文譯名時，畫面會明確標示，絕不自行亂譯。
@@ -155,6 +156,7 @@ TEAM_ZH = {
     "Celta B": "幸運切爾達", "Celta Vigo B": "幸運切爾達", "Tenerife": "特內里費",
     "Tottenham": "熱刺", "Tottenham Hotspur": "熱刺",
     "Coventry": "高雲地利", "Coventry City": "高雲地利",
+    "Diriyah": "迪里耶會", "Diriyah Club": "迪里耶會", "Al Riyadh": "艾利雅德",
 }
 
 def zh_team(name):
