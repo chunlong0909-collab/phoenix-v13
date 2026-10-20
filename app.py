@@ -134,6 +134,10 @@ ALIASES = {
     "幸運切爾達": "Celta B", "切爾達B": "Celta B", "特內里費": "Tenerife",
     "熱刺": "Tottenham Hotspur", "Tottenham": "Tottenham Hotspur",
     "高雲地利": "Coventry City", "Coventry": "Coventry City",
+    "艾費哈": "Al Feiha", "Al Fayha": "Al Feiha", "Al Fayha FC": "Al Feiha",
+    "吉達艾阿里": "Al Ahli SC", "吉達艾里": "Al Ahli SC",
+    "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
+    "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
 }
 
 # 只放可核對的常用中文隊名；沒有可靠中文譯名時，畫面會明確標示，絕不自行亂譯。
