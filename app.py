@@ -863,7 +863,15 @@ def team_details(team_name, token=""):
         found = sportsdb_get("searchteams.php", {"t": query}).get("teams") or []
         if not found:
             return {}, "TheSportsDB 找不到球隊"
-        team = found[0]
+        def clean_name(value):
+            return re.sub(r"[^a-z0-9]", "", str(value or "").lower())
+        wanted = clean_name(query)
+        # 搜尋短名稱時可能回傳女子隊／預備隊；只接受完整官方名稱匹配，
+        # 絕不以相似隊伍頂上，避免把女子隊資料當成男子隊。
+        exact = [t for t in found if clean_name(t.get("strTeam")) == wanted]
+        if not exact:
+            return {}, f"未找到官方完全匹配隊伍：{query}；已拒絕使用相似／女子／青年隊資料"
+        team = exact[0]
         team_id = team.get("idTeam")
         players = []
         if team_id:
