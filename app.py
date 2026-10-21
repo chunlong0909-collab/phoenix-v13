@@ -1224,7 +1224,17 @@ def all_saved_matches(league):
         df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
     if df.empty:
         return df
-    return df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG", "date": "Date"})
+    df = df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG",
+                            "hc": "HC", "ac": "AC", "date": "Date"})
+    # 舊SQLite資料可能沒有角球欄位；補空欄而不是令分析頁因KeyError中斷。
+    for col in ["HC", "AC"]:
+        if col not in df.columns:
+            df[col] = pd.NA
+    if "DateParsed" not in df.columns:
+        df["DateParsed"] = pd.to_datetime(df.get("Date", ""), errors="coerce", dayfirst=True)
+    if "source" not in df.columns:
+        df["source"] = "本地SQLite"
+    return df
 
 
 def local_api_matches(league):
