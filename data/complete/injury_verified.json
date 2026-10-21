@@ -1,0 +1,23 @@
+{
+  "Nagasaki_vs_Hiroshima": {
+    "home_team": "V-Varen Nagasaki",
+    "away_team": "Sanfrecce Hiroshima",
+    "home_deduction": -0.35,
+    "away_deduction": -0.10,
+    "note": "Campbell, Emerson out"
+  },
+  "ManCity_vs_Arsenal": {
+    "home_team": "Manchester City",
+    "away_team": "Arsenal",
+    "home_deduction": -0.20,
+    "away_deduction": -0.40,
+    "note": "手動核實傷停"
+  },
+  "Barcelona_vs_Real": {
+    "home_team": "Barcelona",
+    "away_team": "Real Madrid",
+    "home_deduction": 0.0,
+    "away_deduction": -0.15,
+    "note": "手動核實傷停"
+  }
+}
