@@ -10,6 +10,16 @@ from typing import Any
 BASE_WEIGHTS = {"recent_8": 0.40, "current_season": 0.30, "current_squad_injuries": 0.15,
                 "history_3_5_years": 0.10, "head_to_head": 0.05}
 
+def apply_verified_injury_adjustment(home_xg: float, away_xg: float, live_context: dict | None):
+    """Apply only an explicit, verified live-source adjustment; otherwise unchanged."""
+    if not isinstance(live_context, dict) or live_context.get("injury_data_verified") is not True:
+        return max(0.15, home_xg), max(0.15, away_xg), "未有已核實傷停，沒有扣減預期入球"
+    adj = live_context.get("goal_adjustment") or {}
+    dh = float(adj.get("home", 0) or 0); da = float(adj.get("away", 0) or 0)
+    if not dh and not da:
+        return max(0.15, home_xg), max(0.15, away_xg), "已取得傷停資料，但未符合兩名主力前鋒扣減規則"
+    return max(0.15, home_xg + dh), max(0.15, away_xg + da), live_context.get("injury_rule", "已套用已核實傷停修正")
+
 def _num(value, default=None):
     try: return float(value)
     except (TypeError, ValueError): return default
