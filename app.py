@@ -1678,6 +1678,18 @@ if run:
         st.warning(f"暫時找不到「{league}」的可核對賽果。這不是程式崩潰，而是目前公開來源沒有回傳資料。")
         st.info("可先選擇英超、西甲、德甲或歐聯測試；沙特等聯賽若所有免費來源均未覆蓋，必須等待來源恢復或匯入真實 CSV。")
         st.stop()
+    # 不同免費來源欄位不完全一致；缺少角球時補空欄，不能阻止入球及勝和負分析。
+    for required_col in ["Home", "Away", "HG", "AG"]:
+        if required_col not in matches.columns:
+            st.error(f"賽果資料缺少必要欄位：{required_col}；已停止本次分析，避免使用錯誤資料。")
+            st.stop()
+    for optional_col in ["HC", "AC"]:
+        if optional_col not in matches.columns:
+            matches[optional_col] = pd.NA
+    if "DateParsed" not in matches.columns:
+        matches["DateParsed"] = pd.to_datetime(matches.get("Date", ""), errors="coerce", dayfirst=True)
+    if "source" not in matches.columns:
+        matches["source"] = source
     stale_data, latest_data_date = data_is_stale(matches)
     if stale_data:
         latest_text = latest_data_date.strftime("%Y-%m-%d") if latest_data_date is not None else "未知"
