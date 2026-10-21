@@ -2,11 +2,15 @@
 """Merge historical matches and current squad/stat caches into data/complete/."""
 from __future__ import annotations
 import argparse, json, re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 import pandas as pd
-
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+from analysis.corrections import adjusted_strength
+
 HISTORY = ROOT / "data" / "history"
 LEAGUES = ROOT / "data" / "leagues"
 FALLBACK = ROOT / "data" / "players" / "fallback"
@@ -84,8 +88,22 @@ def build_one(history_file: Path, team: str | None = None) -> dict:
     teams = sorted(({x.get("home_team") for x in matches} | {x.get("away_team") for x in matches}) - {None})
     target_teams = [team] if team else teams
     squads = {t: current_squad(hist.get("league", ""), t) for t in target_teams}
+    seasons = [str(x.get("season", "")) for x in matches if x.get("season")]
+    current_season = max(seasons) if seasons else None
+    # These fields are optional because the free sources may not publish them.
+    # When absent, corrections.py records "not_provided" and does not guess.
+    team_flags = hist.get("team_adjustments", {}) if isinstance(hist.get("team_adjustments", {}), dict) else {}
+    def strength_for(t):
+        flags = team_flags.get(t, {}) if isinstance(team_flags.get(t, {}), dict) else {}
+        return adjusted_strength(t, matches, squads.get(t, []), current_season=current_season,
+                                 coach_changed=flags.get("coach_changed"),
+                                 lineup_change_pct=flags.get("lineup_change_pct"),
+                                 injuries_known=flags.get("injuries_known"),
+                                 injuries_impact=flags.get("injuries_impact"))
+    strengths = {t: strength_for(t) for t in target_teams}
     payload = {"league": hist.get("league"), "team": team, "history": matches,
                "current_squad": squads.get(team, []) if team else squads,
+               "adjusted_strength": strengths.get(team) if team else strengths,
                "last_updated": datetime.now(timezone.utc).isoformat(),
                "history_source": hist.get("dataSource", "OpenFootball/world"),
                "squad_source": "ESPN/local fallback", "scorers_available": hist.get("scorers_available", False)}
