@@ -1932,7 +1932,16 @@ if run:
         st.write(f"真實角球模型總預期：{corner_summary_total:.2f}｜大8.5 {total_over_probability(corner_summary_total, 8.5):.1%}｜大9.5 {total_over_probability(corner_summary_total, 9.5):.1%}｜大10.5 {total_over_probability(corner_summary_total, 10.5):.1%}")
         st.caption("角球無和局；優先參考有逐場HC/AC嘅線，EV只作顏色，不代表必然命中。")
     else:
-        st.write(f"情境估算總預期：{corner_fallback['total']:.1f}｜大8.5 {corner_fallback['market'][8.5]['over']:.0%}｜大9.5 {corner_fallback['market'][9.5]['over']:.0%}｜大10.5 {corner_fallback['market'][10.5]['over']:.0%}｜細9.5 {corner_fallback['market'][9.5]['under']:.0%}")
+        # 即使選配模組未載入或來源返回空表，也不應因角球摘要令整頁崩潰。
+        cmodel = corner_fallback or {}
+        cmarket = cmodel.get("market") or {}
+        ctotal = float(cmodel.get("total", 9.0) or 9.0)
+        def _corner_p(line, side):
+            row = cmarket.get(line) or {}
+            if side in row: return float(row[side])
+            # 最後安全後備只作顯示，詳細盤口仍會標示估算／資料來源。
+            return float(total_over_probability(ctotal, line) if side == "over" else 1-total_over_probability(ctotal, line))
+        st.write(f"情境估算總預期：{ctotal:.1f}｜大8.5 {_corner_p(8.5, 'over'):.0%}｜大9.5 {_corner_p(9.5, 'over'):.0%}｜大10.5 {_corner_p(10.5, 'over'):.0%}｜細9.5 {_corner_p(9.5, 'under'):.0%}")
         st.caption("角球無和局，適合避開勝負陷阱；以上係透明情境估算，補上真實HC/AC後會改用歷史模型。")
 
     ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）", data_ok=pair_data_ok)
@@ -1965,12 +1974,15 @@ if run:
         st.caption(f"資料來源：{corner_source_label}｜角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
         render_market_table("角球大小", corner_table.to_dict("records"), green_only, "corners")
     else:
-        cmodel = corner_fallback
+        cmodel = corner_fallback or {"home":4.5,"away":4.5,"total":9.0,"market":{},"source":"安全後備估算","note":"暫未取得角球模組資料"}
         st.caption(f"資料來源：{cmodel['source']}｜角球預期：主隊 {cmodel['home']:.1f}、客隊 {cmodel['away']:.1f}、總數 {cmodel['total']:.1f}")
         st.warning(f"{cmodel['note']}；暫未取得逐場HC/AC，請上載角球CSV後自動改用真實歷史模型。")
         fallback_rows = []
         for x in [8.5, 9.5, 10.5, 11.5, 12.5]:
-            p = cmodel["market"][x]
+            p = (cmodel.get("market") or {}).get(x)
+            if not p:
+                q = total_over_probability(float(cmodel.get("total",9.0)), x)
+                p = {"over":q,"under":1-q}
             fallback_rows.extend([
                 {"角球盤":f"大 {x}","模型機率":p["over"],"輸入賠率":corner_over_odds_map.get(x) or None,"提示":"📊 情境估算（EV只作顏色）","說明":"角球無和局；優先用真實HC/AC","EV":None},
                 {"角球盤":f"細 {x}","模型機率":p["under"],"輸入賠率":corner_under_odds_map.get(x) or None,"提示":"📊 情境估算（EV只作顏色）","說明":"角球無和局；優先用真實HC/AC","EV":None},
