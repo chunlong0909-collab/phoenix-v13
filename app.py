@@ -32,7 +32,9 @@ try:
     from analysis.odds_vs_model import compare_odds, ai_summary
     from data.orbiflow.orbiflow_adapter import load_orbiflow, apply_orbiflow, orbiflow_summary
     from data.team_goals.team_goals_model import team_goal_model, total_goal_band, goal_line_note
-    from data.corners.corner_model import fallback_corner_model
+    from data.corners.corner_model import fallback_corner_model, corner_insight
+    from data.brain.match_reader import read_match
+    from data.brain.learning import learning_adjustment, learning_summary
 except Exception:
     def fetch_realtime_context(*args, **kwargs):
         return {"status": "unavailable", "source": "未取得", "injury_data_verified": False,
@@ -52,6 +54,10 @@ except Exception:
     def total_goal_band(total, swing=.8): return {"total_exp":total,"swing":swing,"low":max(0,total-swing),"high":total+swing}
     def goal_line_note(p, line, margin=.08): return f"{p:.2%}（模型機率）"
     def fallback_corner_model(*args, **kwargs): return {"home":4.5,"away":4.5,"total":9.0,"market":{},"is_fallback":True,"source":"V1.4情境估算","note":"角球無和局；估算不等於實測"}
+    def corner_insight(*args, **kwargs): return "角球只作輔助，優先核對真實HC/AC。"
+    def read_match(*args, **kwargs): return {"conclusion":"未載入V2.0解讀模組。","ou_note":"","evidence":[]}
+    def learning_adjustment(*args, **kwargs): return 0.0
+    def learning_summary(*args, **kwargs): return {"total":0,"completed":0,"recent5_error":None}
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -1776,6 +1782,10 @@ if run:
     orbiflow_data = load_orbiflow(Path(__file__).parent / "data" / "orbiflow" / "orbiflow.json", use_mock=False)
     orbiflow_result = apply_orbiflow(hx, ax, orbiflow_data)
     hx, ax = orbiflow_result["home_exp_final"], orbiflow_result["away_exp_final"]
+    # V2.0學習層只讀取有真實賽果的紀錄；沒有完成紀錄時修正值必然為0。
+    home_learning_adjustment = learning_adjustment(home)
+    away_learning_adjustment = learning_adjustment(away)
+    hx, ax = max(.15, hx + home_learning_adjustment), max(.15, ax + away_learning_adjustment)
     if live_context.get("status") == "ok":
         st.caption(f"即時資料：{live_context.get('source', '已取得')}｜H2H近4場：{len(live_context.get('h2h_last4', []))}｜主客近10場：{len(live_context.get('home_last10', []))}/{len(live_context.get('away_last10', []))}｜傷停：{len(live_context.get('injuries', []))}人")
     else:
@@ -1787,6 +1797,11 @@ if run:
     hp, dp, ap = probs(hx, ax)
     pasted_rows = parse_odds_text(pasted_odds)
     pasted_results = compare_odds(pasted_rows, hx, ax) if pasted_rows else []
+    low_score_tight = sum(poisson(k, hx + ax) for k in range(3))
+    v2_corner_insight = corner_insight(.252, .306, low_score_tight)
+    reader = read_match(hx, ax, xg_last8={"home":hgf, "away":agf}, shots={}, odds_rows=pasted_results,
+                        draw_probability=dp, low_score_tight=low_score_tight, corner_insight=v2_corner_insight,
+                        model_home_probability=hp, model_away_probability=ap)
     over = 1 - sum(poisson(k, hx + ax) for k in range(math.floor(line) + 1))
     under = 1 - over
     goal_lines = {x: (1 - sum(poisson(k, hx + ax) for k in range(math.floor(x) + 1))) for x in [2.5, 3.5, 4.5]}
@@ -1838,6 +1853,14 @@ if run:
         st.caption(orbiflow_summary(orbiflow_data, orbiflow_result))
     st.subheader(f"{home_zh} 對 {away_zh}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
+    if abs(home_learning_adjustment) > 1e-9 or abs(away_learning_adjustment) > 1e-9:
+        st.caption(f"V2.0歷史校準：主隊 {home_learning_adjustment:+.2f}｜客隊 {away_learning_adjustment:+.2f}（只來自已填真實賽果）")
+    st.info(f"V2.0睇穿結論：{reader['conclusion']}")
+    if reader.get("ou_note"):
+        st.caption(f"大小球解讀：{reader['ou_note']}")
+    learning_info = learning_summary()
+    error_text = f"±{learning_info['recent5_error']:.2f}" if learning_info.get("recent5_error") is not None else "暫無已完成賽果"
+    st.caption(f"模型已學習 {learning_info['completed']} 場（紀錄 {learning_info['total']} 場）；近5場入球預期誤差 {error_text}。未填實際比分不會影響模型。")
     st.markdown("### 主客隊入球預期（模型獨立，無需賠率）")
     goal_view = pd.DataFrame([
         {"球隊": home_zh, "預期入球": hx, "大0.5機率": team_goal_view["home_over_0_5"], "大1.5機率": team_goal_view["home_over_1_5"]},
@@ -1845,7 +1868,6 @@ if run:
     ])
     st.dataframe(goal_view.style.format({"預期入球":"{:.2f}", "大0.5機率":"{:.1%}", "大1.5機率":"{:.1%}"}), use_container_width=True, hide_index=True)
     st.caption(f"總預期 {goal_band['total_exp']:.2f} 球 ±{goal_band['swing']:.1f} 波動區間（{goal_band['low']:.2f}–{goal_band['high']:.2f}）；接近50%的大小線應視為搖擺區，唔好只因EV落注。")
-    low_score_tight = sum(poisson(k, team_goal_view["total_exp"]) for k in range(3))
     st.markdown("### 勝和負風險及雙重機會")
     st.write(f"主不敗：{hp + dp:.1%}｜客不敗：{ap + dp:.1%}｜和局：{dp:.1%}")
     if low_score_tight > .45:
