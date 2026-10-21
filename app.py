@@ -27,7 +27,10 @@ except Exception:
         return pd.DataFrame()
 try:
     from data.sources.realtime_scraper import fetch_realtime_context
-    from analysis.corrections import apply_verified_injury_adjustment
+    from analysis.corrections import apply_verified_injury_adjustment, load_manual_injury_context
+    from data.odds.odds_mapper import parse_odds_text
+    from analysis.odds_vs_model import compare_odds, ai_summary
+    from data.orbiflow.orbiflow_adapter import load_orbiflow, apply_orbiflow, orbiflow_summary
 except Exception:
     def fetch_realtime_context(*args, **kwargs):
         return {"status": "unavailable", "source": "未取得", "injury_data_verified": False,
@@ -35,6 +38,14 @@ except Exception:
                 "goal_adjustment": {"home": 0.0, "away": 0.0}}
     def apply_verified_injury_adjustment(hx, ax, live_context):
         return hx, ax, "即時來源模組未載入，沒有扣減預期入球"
+    def load_manual_injury_context(*args, **kwargs):
+        return {"status": "unavailable", "injury_data_verified": False, "goal_adjustment": {"home": 0.0, "away": 0.0}}
+    def parse_odds_text(*args, **kwargs): return []
+    def compare_odds(*args, **kwargs): return []
+    def ai_summary(results, home, away, hx, ax): return f"AI分析：{home}預期入球{hx:.2f}、{away}{ax:.2f}。"
+    def load_orbiflow(*args, **kwargs): return {"available": False, "source": "未有有效ORBIFLOW資料"}
+    def apply_orbiflow(hx, ax, data, *args, **kwargs): return {"home_exp_final": hx, "away_exp_final": ax, "total_exp_final": hx+ax, "used": False}
+    def orbiflow_summary(data, result): return "ORBIFLOW流動：未有有效資料｜沿用V1.0原有預期"
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -1076,7 +1087,7 @@ def market_explanation(p, odds=None, other="", data_ok=True):
 
 
 def render_market_table(title, rows, show_only_green, key):
-    """綠色置頂；預設只顯示 EV>10%，其餘收進顯示更多。"""
+    """按EV排序；可選只看綠色，但預設顯示全部盤口。"""
     frame = pd.DataFrame(rows)
     if frame.empty:
         st.markdown(f"### {title}")
@@ -1626,6 +1637,7 @@ with st.sidebar:
     corner_over_odds = corner_over_odds_map[9.5] or None
     corner_under_odds = corner_under_odds_map[9.5] or None
     st.caption("已同時輸入多條大小球及角球線；0 代表未有賠率。")
+    pasted_odds = st.text_area("貼上即場賠率（可選；每行一個盤口）", placeholder="W/D/L 7.60/4.10/1.32\n大細[2.5] 2.08/1.66\n主[0.5] 2.04/1.69", height=90)
     run = st.button("一鍵自動抓取及分析", type="primary", use_container_width=True)
     run_backtest = st.button("回測本聯賽模型", use_container_width=True)
 
@@ -1740,6 +1752,16 @@ if run:
     hx, ax, fbref_adjustment = fbref_expected_goal_adjustment(fbref_stats, home, away, hx, ax)
     live_context = fetch_realtime_context(home, away, league)
     hx, ax, injury_adjustment = apply_verified_injury_adjustment(hx, ax, live_context)
+    manual_injuries = load_manual_injury_context(home, away)
+    if manual_injuries.get("status") in {"manual_verified", "manual_verified_match"}:
+        hx, ax, injury_adjustment = apply_verified_injury_adjustment(hx, ax, manual_injuries)
+        live_context = {**live_context, **manual_injuries,
+                        "injuries": manual_injuries.get("injuries", []),
+                        "injury_data_verified": True}
+    # ORBIFLOW is optional.  Without a valid local JSON, this is an exact V1.0 passthrough.
+    orbiflow_data = load_orbiflow(Path(__file__).parent / "data" / "orbiflow" / "orbiflow.json", use_mock=False)
+    orbiflow_result = apply_orbiflow(hx, ax, orbiflow_data)
+    hx, ax = orbiflow_result["home_exp_final"], orbiflow_result["away_exp_final"]
     if live_context.get("status") == "ok":
         st.caption(f"即時資料：{live_context.get('source', '已取得')}｜H2H近4場：{len(live_context.get('h2h_last4', []))}｜主客近10場：{len(live_context.get('home_last10', []))}/{len(live_context.get('away_last10', []))}｜傷停：{len(live_context.get('injuries', []))}人")
     else:
@@ -1747,6 +1769,8 @@ if run:
     if injury_adjustment != "未有已核實傷停，沒有扣減預期入球":
         st.info(f"傷停修正：{injury_adjustment}")
     hp, dp, ap = probs(hx, ax)
+    pasted_rows = parse_odds_text(pasted_odds)
+    pasted_results = compare_odds(pasted_rows, hx, ax) if pasted_rows else []
     over = 1 - sum(poisson(k, hx + ax) for k in range(math.floor(line) + 1))
     under = 1 - over
     goal_lines = {x: (1 - sum(poisson(k, hx + ax) for k in range(math.floor(x) + 1))) for x in [2.5, 3.5, 4.5]}
@@ -1790,8 +1814,17 @@ if run:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
     home_zh, away_zh = zh_team(home), zh_team(away)
     st.success(f"資料來源：{zh_source(source)}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
+    st.caption(orbiflow_summary(orbiflow_data, orbiflow_result))
     st.subheader(f"{home_zh} 對 {away_zh}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
+    if pasted_results:
+        st.info(ai_summary(pasted_results, home_zh, away_zh, hx, ax))
+        ev_view = pd.DataFrame(pasted_results)
+        ev_view["模型機率"] = ev_view["model_probability"].map(lambda x: f"{x:.1%}")
+        ev_view["莊家機率"] = ev_view["bookmaker_probability"].map(lambda x: f"{x:.1%}")
+        ev_view["EV"] = ev_view["ev"].map(lambda x: f"{x:+.1%}")
+        ev_view["燈號"] = ev_view["light"].map({"green":"綠｜EV>10%","yellow":"黃｜0至10%","grey":"灰｜EV<0"}).fillna("灰")
+        st.dataframe(ev_view[["market","line","selection","odds","模型機率","莊家機率","EV","燈號"]], use_container_width=True, hide_index=True)
     st.caption(f"模型信心：{confidence}｜樣本：主隊 {len(h)} 場、客隊 {len(a)} 場｜這是機率估算，不是保證賽果")
     tab_data, tab_model, tab_scenarios = st.tabs(["資料整理", "模型結果", "比賽情境"])
     with tab_data:
@@ -1821,7 +1854,7 @@ if run:
         st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
     toggle_col, title_col = st.columns([1, 2])
     with toggle_col:
-        green_only = st.checkbox("只顯示✅可以考慮（EV > 10%）", value=True, key="green_only_markets")
+        green_only = st.checkbox("只顯示✅可以考慮（EV > 10%）", value=False, key="green_only_markets")
     # 勝和負標題由 render_market_table 統一輸出，避免手機版出現重複標題。
     result_rows = []
     for name, prob, odds, other in [("主勝", hp, home_odds, "和局或主隊不敗"), ("和局", dp, draw_odds, "主隊不敗"), ("客勝", ap, away_odds, "和局或客隊不敗")]:
