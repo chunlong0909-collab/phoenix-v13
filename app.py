@@ -1833,6 +1833,28 @@ if run:
     team_goal_view = team_goal_model(hx, ax)
     goal_band = total_goal_band(team_goal_view["total_exp"], 0.8)
     corner_fallback = None if corner_lams else fallback_corner_model(open_play=0.135, tight=0.498)
+    # V1.6：只新增一層聯動解讀，不改動V1.4/V1.5任何機率或EV計法。
+    under35_probability = 1.0 - goal_lines[3.5]
+    over25_probability = goal_lines[2.5]
+    if corner_lams:
+        linkage_corner_total = sum(corner_lams)
+        linkage_over85 = total_over_probability(linkage_corner_total, 8.5)
+        linkage_under95 = 1.0 - total_over_probability(linkage_corner_total, 9.5)
+    else:
+        linkage_corner_total = float((corner_fallback or {}).get("total", 9.0) or 9.0)
+        linkage_market = (corner_fallback or {}).get("market") or {}
+        linkage_over85 = float((linkage_market.get(8.5) or {}).get("over", total_over_probability(linkage_corner_total, 8.5)))
+        linkage_under95 = float((linkage_market.get(9.5) or {}).get("under", 1.0 - total_over_probability(linkage_corner_total, 9.5)))
+    linkage_message = ""
+    if under35_probability > .65:
+        p11 = matrix.get((1, 1), 0.0)
+        p10 = matrix.get((1, 0), 0.0)
+        linkage_message = (f"💡細波預示：細3.5機率{under35_probability:.1%}偏高，呢場較易出現低比分拉鋸" 
+                           f"（1-1 {p11:.1%}／1-0 {p10:.1%}）；角球預期{linkage_corner_total:.1f}，"
+                           f"大8.5 {linkage_over85:.1%}／細9.5 {linkage_under95:.1%}，可留意角球大盤。")
+    elif over25_probability > .60:
+        linkage_message = (f"💡大波預示：大2.5機率{over25_probability:.1%}偏高，預期入球較多；"
+                           f"角球預期{linkage_corner_total:.1f}，角球細盤可作比較，但要核對真實HC/AC。")
     corner_source_names = []
     if not corner_input.empty and "source" in corner_input.columns:
         for raw_source in corner_input.loc[corner_input[["HC", "AC"]].notna().all(axis=1), "source"].dropna().astype(str).unique():
@@ -1863,6 +1885,8 @@ if run:
         st.caption(orbiflow_summary(orbiflow_data, orbiflow_result))
     st.subheader(f"{home_zh} 對 {away_zh}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
+    if linkage_message:
+        st.info(linkage_message)
     if abs(home_learning_adjustment) > 1e-9 or abs(away_learning_adjustment) > 1e-9:
         st.caption(f"V2.0歷史校準：主隊 {home_learning_adjustment:+.2f}｜客隊 {away_learning_adjustment:+.2f}（只來自已填真實賽果）")
     st.info(f"V2.0睇穿結論：{reader['conclusion']}")
