@@ -24,16 +24,19 @@ jobs:
       - name: 安裝依賴
         run: pip install -r requirements.txt
 
-      - name: 更新 ESPN 球隊及球員
+      - name: 更新最新球員及球隊資料
         run: python espn_bulk_collect.py
 
-      - name: 更新聯賽賽果
+      - name: 更新最新賽果資料
         run: python league_collector.py --leagues all --max-matches 60
 
-      - name: 儲存更新資料
+      - name: 建立歷史與最新資料合併檔
+        run: python scripts/build_complete.py
+
+      - name: 儲存更新
         run: |
           git config user.name "auto-bot"
           git config user.email "auto@bot.com"
           git add data/
-          git commit -m "auto: daily football data update $(date +%Y-%m-%d)" || echo "沒有新資料"
+          git commit -m "auto: daily football update $(date +%Y-%m-%d)" || echo "no changes"
           git push
