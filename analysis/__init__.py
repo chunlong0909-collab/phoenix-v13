@@ -1,1 +1,1 @@
-"""Reusable football analysis components."""
+"""Optional realtime data source adapters."""
