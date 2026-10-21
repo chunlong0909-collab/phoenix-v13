@@ -1,0 +1,26 @@
+{
+  "league_id": "liga-mx",
+  "name_zh": "墨超",
+  "updated_at": "2026-10-21T09:02:55.668829+00:00",
+  "sources": [
+    "openfootball (north-america/mexico/2020-21_mx1.txt)",
+    "openfootball (north-america/mexico/2020-21_mx2expansion.txt)",
+    "openfootball (north-america/mexico/2021-22_mx1.txt)",
+    "openfootball (north-america/mexico/2021-22_mx2expansion.txt)",
+    "openfootball (north-america/mexico/2022-23_mx1.txt)",
+    "openfootball (north-america/mexico/2022-23_mx2expansion.txt)",
+    "openfootball (north-america/mexico/2023-24_mx1.txt)",
+    "openfootball (north-america/mexico/2023-24_mx2expansion.txt)",
+    "openfootball (north-america/mexico/2024-25_mx1.txt)",
+    "openfootball (north-america/mexico/2024-25_mx2expansion.txt)"
+  ],
+  "teams": 38,
+  "players": 568,
+  "matches": 2276,
+  "corner_matches": 0,
+  "quality": "高",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T09:02:55.668829+00:00",
+  "players_update_protected": false,
+  "errors": []
+}

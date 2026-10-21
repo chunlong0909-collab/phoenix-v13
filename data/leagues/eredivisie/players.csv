@@ -1,0 +1,505 @@
+﻿team,teamId,idPlayer,strPlayer,strPosition,position,age,dateBorn,strNationality,nationality,strThumb,lastUpdated,dataSource
+FC Utrecht,153,126491,Sergio Padt,GK,GK,36.0,1990-06-06T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/126491.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,223162,Vasilios Barkas,GK,GK,32.0,1994-05-30T07:00Z,Greece,Greece,https://a.espncdn.com/i/headshots/soccer/players/full/223162.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,240351,Siebe Horemans,DF,DF,28.0,1998-06-02T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/240351.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,266190,Arthur Zagre,DF,DF,25.0,2001-10-04T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/266190.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,276403,Nikolas Panagiotou,DF,DF,26.0,2000-05-12T07:00Z,Cyprus,Cyprus,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,291947,Jakov Medic,DF,DF,28.0,1998-09-07T07:00Z,Croatia,Croatia,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,304595,Guus Offerhaus,DF,DF,25.0,2001-01-03T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304595.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,315705,Matisse Didden,DF,DF,25.0,2001-10-08T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/315705.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,319262,Niklas Vesterlund,DF,DF,27.0,1999-06-06T07:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/319262.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,352629,Neville Nwankwo,DF,DF,24.0,2002-10-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,159252,Joris van Overeem,MF,MF,32.0,1994-06-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/159252.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,183529,Kevin Paredes,MF,MF,23.0,2003-05-07T07:00Z,USA,USA,https://a.espncdn.com/i/headshots/soccer/players/full/183529.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,250528,Dani de Wit,MF,MF,28.0,1998-01-28T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/250528.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,263618,Victor Jensen,MF,MF,26.0,2000-02-08T08:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/263618.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,291665,Davy van den Berg,MF,MF,26.0,2000-02-04T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/291665.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,321347,Alonzo Engwanda,MF,MF,23.0,2003-01-27T08:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/321347.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,124891,Nordin Amrabat,FW,FW,39.0,1987-03-31T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,305670,Yoann Cathline,FW,FW,24.0,2002-07-22T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/305670.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,312759,Noah Ohio,FW,FW,23.0,2003-01-16T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,323173,Marius Broholm,FW,FW,21.0,2004-12-26T08:00Z,Norway,Norway,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,325219,Sem van Duijn,FW,FW,22.0,2004-03-18T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,340232,Miliano Jonathans,FW,FW,22.0,2004-04-05T07:00Z,Indonesia,Indonesia,https://a.espncdn.com/i/headshots/soccer/players/full/340232.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,340665,Adrian Blake,FW,FW,21.0,2005-07-15T07:00Z,England,England,https://a.espncdn.com/i/headshots/soccer/players/full/340665.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,357698,Ángel Alarcón,FW,FW,22.0,2004-05-15T07:00Z,Spain,Spain,https://a.espncdn.com/i/headshots/soccer/players/full/357698.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Utrecht,153,390471,Artem Stepanov,FW,FW,19.0,2007-08-10T07:00Z,Ukraine,Ukraine,https://a.espncdn.com/i/headshots/soccer/players/full/390471.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,226979,Liam Bossin,GK,GK,30.0,1996-07-15T07:00Z,,,https://a.espncdn.com/i/headshots/soccer/players/full/226979.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,289334,Florian Kastenmeier,GK,GK,29.0,1997-06-28T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,335870,Tjark Ernst,GK,GK,23.0,2003-03-15T08:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/335870.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,345509,Mannou Berger,GK,GK,22.0,2004-10-15T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/345509.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,215172,Bart Nieuwkoop,DF,DF,30.0,1996-03-07T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/215172.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,215524,Jerry St. Juste,DF,DF,30.0,1996-10-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,218529,Mats Deijl,DF,DF,29.0,1997-07-15T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/218529.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,240911,Gijs Smal,DF,DF,29.0,1997-08-31T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/240911.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,276279,Tsuyoshi Watanabe,DF,DF,29.0,1997-02-05T08:00Z,Japan,Japan,https://a.espncdn.com/i/headshots/soccer/players/full/276279.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,297354,Javi López,DF,DF,24.0,2002-03-25T08:00Z,Spain,Spain,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,324952,Thomas Beelen,DF,DF,25.0,2001-06-11T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/324952.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,328541,Jordan Bos,DF,DF,23.0,2002-10-29T08:00Z,Australia,Australia,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,332573,Mika Mármol,DF,DF,25.0,2001-07-01T07:00Z,Spain,Spain,https://a.espncdn.com/i/headshots/soccer/players/full/332573.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,337084,Givairo Read,DF,DF,20.0,2006-06-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/337084.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,3102195,Tijme Wessels,DF,DF,,,,,https://a.espncdn.com/i/headshots/soccer/players/full/3102195.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,3145423,Dani Slory,DF,DF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,276260,Charles Vanhoutte,MF,MF,28.0,1998-09-16T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/276260.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,277106,Sem Steijn,MF,MF,24.0,2001-11-12T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/277106.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,287461,Jakub Moder,MF,MF,27.0,1999-04-07T07:00Z,Poland,Poland,https://a.espncdn.com/i/headshots/soccer/players/full/287461.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,313354,Oussama Targhaline,MF,MF,24.0,2002-05-20T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,319296,Luciano Valente,MF,MF,23.0,2003-10-04T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/319296.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,343202,Thijs Kraaijeveld,MF,MF,19.0,2007-05-03T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/343202.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,365021,Gjivai Zechiël,MF,MF,22.0,2004-06-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/365021.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,399714,Tobias van den Elshout,MF,MF,19.0,2007-02-02T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/399714.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,3145424,Theodoris Deligiannidis,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,227794,Reiss Nelson,FW,FW,26.0,1999-12-10T08:00Z,England,England,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,332362,Gonçalo Borges,FW,FW,25.0,2001-03-29T08:00Z,Portugal,Portugal,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,341711,Anis Hadj Moussa,FW,FW,24.0,2002-02-11T08:00Z,Algeria,Algeria,https://a.espncdn.com/i/headshots/soccer/players/full/341711.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,364582,Nacho Ferri,FW,FW,22.0,2004-10-05T07:00Z,Spain,Spain,,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,402344,Gaoussou Diarra,FW,FW,23.0,2002-11-21T08:00Z,Mali,Mali,https://a.espncdn.com/i/headshots/soccer/players/full/402344.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,406923,Jivayno Zinhagel,FW,FW,17.0,2009-04-18T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/406923.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,415052,Shaqueel Van Persie,FW,FW,19.0,2006-11-16T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/415052.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Feyenoord Rotterdam,142,415969,Jerayno Schaken,FW,FW,17.0,2009-06-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,140740,Marc-André ter Stegen,GK,GK,34.0,1992-04-30T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,238919,Maarten Paes,GK,GK,28.0,1998-05-14T07:00Z,Indonesia,Indonesia,https://a.espncdn.com/i/headshots/soccer/players/full/238919.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,126489,Daley Blind,DF,DF,36.0,1990-03-09T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/126489.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,214401,Thilo Kehrer,DF,DF,30.0,1996-09-21T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,240353,Caio Henrique,DF,DF,29.0,1997-07-31T07:00Z,Brazil,Brazil,https://a.espncdn.com/i/headshots/soccer/players/full/240353.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,241392,Owen Wijndal,DF,DF,26.0,1999-11-28T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/241392.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,305590,Youri Baas,DF,DF,23.0,2003-03-17T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/305590.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,333312,Anton Gaaei,DF,DF,23.0,2002-11-19T08:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/333312.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,351281,Lucas Rosa,DF,DF,26.0,2000-04-03T07:00Z,Brazil,Brazil,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,384127,Aaron Bouwman,DF,DF,19.0,2007-08-28T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/384127.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,403588,Jofre Torrents,DF,DF,19.0,2007-01-28T08:00Z,Spain,Spain,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,168993,Davy Klaassen,MF,MF,33.0,1993-02-21T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/168993.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,195226,Sofyan Amrabat,MF,MF,30.0,1996-08-21T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,197628,Julian Brandt,MF,MF,30.0,1996-05-02T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,232810,Yves Bissouma,MF,MF,30.0,1996-08-30T07:00Z,Mali,Mali,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,325609,Oscar Gloukh,MF,MF,22.0,2004-04-01T08:00Z,Israel,Israel,https://a.espncdn.com/i/headshots/soccer/players/full/325609.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,381074,Jorthy Mokio,MF,MF,18.0,2008-02-29T08:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/381074.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,149577,Steven Berghuis,FW,FW,34.0,1991-12-19T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/149577.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,212231,Viktor Tsygankov,FW,FW,28.0,1997-11-15T08:00Z,Ukraine,Ukraine,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,219284,Kasper Dolberg,FW,FW,29.0,1997-10-06T07:00Z,Denmark,Denmark,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,295861,Oliver Edvardsen,FW,FW,27.0,1999-03-19T08:00Z,Norway,Norway,https://a.espncdn.com/i/headshots/soccer/players/full/295861.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,304571,Marcos Leonardo,FW,FW,23.0,2003-05-02T07:00Z,Brazil,Brazil,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,305372,Tolu Arokodare,FW,FW,25.0,2000-11-23T08:00Z,Nigeria,Nigeria,,2026-10-21T09:01:37.651633+00:00,ESPN
+Ajax Amsterdam,139,317404,Simon Adingra,FW,FW,24.0,2002-01-01T08:00Z,Ivory Coast,Ivory Coast,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,130177,Jeroen Zoet,GK,GK,35.0,1991-01-06T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/130177.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,150166,Hobie Verhulst,GK,GK,33.0,1993-04-02T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/150166.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,255740,Jari De Busser,GK,GK,27.0,1999-10-21T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,332466,Rome-Jayden Owusu-Oduro,GK,GK,22.0,2004-07-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/332466.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,395894,Ismail Ka,GK,GK,20.0,2006-03-09T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,190977,Wesley Hoedt,DF,DF,32.0,1994-03-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,261596,Mees De Wit,DF,DF,28.0,1998-04-17T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/261596.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,299530,Denso Kasius,DF,DF,24.0,2002-10-06T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/299530.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,329972,Wouter Goes,DF,DF,22.0,2004-06-10T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/329972.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,333892,Seiya Maikuma,DF,DF,29.0,1997-10-16T07:00Z,Japan,Japan,https://a.espncdn.com/i/headshots/soccer/players/full/333892.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,334064,Lewis Schouten,DF,DF,22.0,2004-02-04T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/334064.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,343924,Elijah Dijkstra,DF,DF,20.0,2006-08-05T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/343924.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,362961,Rion Ichihara,DF,DF,21.0,2005-07-07T07:00Z,Japan,Japan,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,379193,Mateo Chávez,DF,DF,22.0,2004-05-12T07:00Z,Mexico,Mexico,https://a.espncdn.com/i/headshots/soccer/players/full/379193.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,386238,Andrea Natali,DF,DF,18.0,2008-01-28T08:00Z,Italy,Italy,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,150199,Jordy Clasie,MF,MF,35.0,1991-06-27T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/150199.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,248677,Calvin Stengs,MF,MF,27.0,1998-12-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/248677.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,269610,Peer Koopmeiners,MF,MF,26.0,2000-05-04T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/269610.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,310482,Stije Resink,MF,MF,23.0,2003-05-28T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/310482.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,344870,Valdemar Byskov,MF,MF,21.0,2005-01-25T08:00Z,Denmark,Denmark,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,346269,Dave Kwakman,MF,MF,22.0,2004-08-07T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/346269.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,347263,Julian Oerip,MF,MF,19.0,2006-10-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,353365,Kees Smit,MF,MF,20.0,2006-01-20T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/353365.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,402624,Hessel De Wit,MF,MF,19.0,2007-01-08T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,268688,Jizz Hornkamp,FW,FW,28.0,1998-03-07T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/268688.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,332465,Mexx Meerdink,FW,FW,23.0,2003-07-24T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/332465.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,338775,Ro-Zangelo Daal,FW,FW,22.0,2004-02-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,338959,Weslley Patati,FW,FW,23.0,2003-10-01T07:00Z,Brazil,Brazil,https://a.espncdn.com/i/headshots/soccer/players/full/338959.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,388592,Jerolldino Bergraaf,FW,FW,20.0,2006-07-05T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,389354,Ayoub Oufkir,FW,FW,20.0,2006-01-04T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,398766,Wassim Bouziane,FW,FW,19.0,2006-12-22T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/398766.png,2026-10-21T09:01:37.651633+00:00,ESPN
+AZ Alkmaar,140,408528,Bendegúz Kovács,FW,FW,19.0,2007-03-31T07:00Z,Hungary,Hungary,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,83802,Remko Pasveer,GK,GK,42.0,1983-11-08T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/83802.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,148868,Lars Unnerstall,GK,GK,36.0,1990-07-20T07:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/148868.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,207780,Joel Drommel,GK,GK,29.0,1996-11-16T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/207780.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,402998,Yannick Gerritsen,GK,GK,20.0,2006-02-14T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,169050,Robin Pröpper,DF,DF,33.0,1993-09-23T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/169050.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,277855,Bart van Rooij,DF,DF,25.0,2001-05-26T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/277855.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,310724,Max Bruns,DF,DF,23.0,2002-11-06T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/310724.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,340691,Stav Lemkin,DF,DF,23.0,2003-04-02T08:00Z,Israel,Israel,https://a.espncdn.com/i/headshots/soccer/players/full/340691.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,347026,Aske Adelgaard,DF,DF,22.0,2003-11-10T08:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/347026.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,358436,Michal Rosiak,DF,DF,21.0,2005-10-12T07:00Z,Poland,Poland,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,371984,Krzysztof Kurowski,DF,DF,20.0,2006-08-29T07:00Z,Poland,Poland,https://a.espncdn.com/i/headshots/soccer/players/full/371984.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,399213,Ruud Nijstad,DF,DF,18.0,2008-01-17T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/399213.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,3134323,Jip Meilink,DF,DF,,,,,https://a.espncdn.com/i/headshots/soccer/players/full/3134323.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,277315,Thomas van den Belt,MF,MF,25.0,2001-06-18T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/277315.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,290517,Ramiz Zerrouki,MF,MF,28.0,1998-05-26T07:00Z,Algeria,Algeria,https://a.espncdn.com/i/headshots/soccer/players/full/290517.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,311168,Kristian Hlynsson,MF,MF,22.0,2004-01-23T08:00Z,Iceland,Iceland,https://a.espncdn.com/i/headshots/soccer/players/full/311168.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,345579,Daouda Weidmann,MF,MF,23.0,2003-05-04T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/345579.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,359745,Gijs Besselink,MF,MF,22.0,2004-06-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,371409,Jordy Bawuah,MF,MF,19.0,2006-11-17T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,411096,Benjamin Nagel,MF,MF,18.0,2007-11-11T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/411096.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,418588,Nigel Groenewald,MF,MF,19.0,2007-02-01T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/418588.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,177042,Wout Weghorst,FW,FW,34.0,1992-08-07T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/177042.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,187956,Marko Pjaca,FW,FW,31.0,1995-05-06T07:00Z,Croatia,Croatia,https://a.espncdn.com/i/headshots/soccer/players/full/187956.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,297298,Naci Ünüvar,FW,FW,23.0,2003-06-13T07:00Z,Türkiye,Türkiye,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,304905,Daan Rots,FW,FW,25.0,2001-07-25T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304905.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,324583,Younes Taha,FW,FW,23.0,2002-11-27T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,359797,Filip Thorvaldsen,FW,FW,20.0,2006-04-15T07:00Z,Norway,Norway,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,379839,Lucas Vennegoor Of Hesselink,FW,FW,20.0,2006-03-14T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/379839.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Twente,152,379956,Sondre Ørjasaeter,FW,FW,22.0,2003-11-28T08:00Z,Norway,Norway,https://a.espncdn.com/i/headshots/soccer/players/full/379956.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,274892,Niclas Thiede,GK,GK,27.0,1999-04-14T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,294425,Kilian Nikiema,GK,GK,23.0,2003-06-22T07:00Z,Burkina Faso,Burkina Faso,https://a.espncdn.com/i/headshots/soccer/players/full/294425.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,378247,Sem Eekhout,GK,GK,19.0,2006-10-24T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/378247.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,408844,Caleb Kramer,GK,GK,20.0,2006-08-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/408844.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,306880,Matteo Waem,DF,DF,26.0,2000-06-21T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/306880.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,317405,Jonas Jensen-Abbew,DF,DF,24.0,2002-04-20T07:00Z,Denmark,Denmark,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,330170,Pascal Mulder,DF,DF,27.0,1999-01-19T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/330170.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,338118,Milan Hokke,DF,DF,23.0,2003-10-11T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/338118.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,377594,Lasse Wilhelm,DF,DF,23.0,2003-03-20T08:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/377594.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,384126,Othniël Raterink,DF,DF,20.0,2006-04-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,395146,Illaijh De Ruijter,DF,DF,20.0,2006-09-14T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/395146.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,409797,Sanyika Bergtop,DF,DF,19.0,2007-07-31T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/409797.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,22315,Alejandro Pozo,MF,MF,27.0,1999-02-22T08:00Z,Spain,Spain,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,286352,Jan Zamburek,MF,MF,25.0,2001-02-13T08:00Z,Czechia,Czechia,https://a.espncdn.com/i/headshots/soccer/players/full/286352.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,304046,Jalen Hawkins,MF,MF,25.0,2001-01-24T08:00Z,USA,USA,https://a.espncdn.com/i/headshots/soccer/players/full/304046.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,317286,Mylian Jimenez,MF,MF,23.0,2003-01-13T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/317286.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,338244,Juho Kilo,MF,MF,24.0,2002-06-23T07:00Z,Finland,Finland,https://a.espncdn.com/i/headshots/soccer/players/full/338244.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,378488,Finn De Bruin,MF,MF,22.0,2004-04-05T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/378488.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,382643,Matej Sin,MF,MF,22.0,2004-06-02T07:00Z,Czechia,Czechia,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,416390,Dani Van Loenen,MF,MF,19.0,2007-02-12T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/416390.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,3128888,Alexander Veselov,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,164263,Daryl van Mieghem,FW,FW,36.0,1989-12-05T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/164263.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,284787,Nigel Thomas,FW,FW,25.0,2001-02-01T08:00Z,Curaçao,Curaçao,https://a.espncdn.com/i/headshots/soccer/players/full/284787.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,297069,Cameron Peupion,FW,FW,24.0,2002-09-23T07:00Z,Australia,Australia,https://a.espncdn.com/i/headshots/soccer/players/full/297069.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,304576,Evan Rottier,FW,FW,24.0,2002-02-11T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304576.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,312908,Barany Donat,FW,FW,26.0,2000-09-04T07:00Z,Hungary,Hungary,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,329481,Luka Reischl,FW,FW,22.0,2004-01-10T08:00Z,Austria,Austria,https://a.espncdn.com/i/headshots/soccer/players/full/329481.png,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,357092,Yannick Eduardo,FW,FW,20.0,2006-01-23T08:00Z,Czechia,Czechia,,2026-10-21T09:01:37.651633+00:00,ESPN
+ADO Den Haag,2726,373792,Jesse Bal,FW,FW,20.0,2006-10-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/373792.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,196688,Stijn van Gassel,GK,GK,30.0,1996-10-18T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/196688.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,288895,Celton Biai,GK,GK,26.0,2000-08-13T07:00Z,Guinea-Bissau,Guinea-Bissau,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,395979,Tijmen Holla,GK,GK,20.0,2006-07-25T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/395979.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,278383,Simon Janssen,DF,DF,26.0,2000-09-25T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/278383.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,303840,Casper Widell,DF,DF,23.0,2003-05-05T07:00Z,Sweden,Sweden,https://a.espncdn.com/i/headshots/soccer/players/full/303840.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,305597,Rick Meissen,DF,DF,24.0,2002-02-24T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/305597.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,386880,Jan Plug,DF,DF,21.0,2005-04-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,403896,Osman Turay,DF,DF,18.0,2008-03-17T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,408214,Marlon Van De Wetering,DF,DF,18.0,2007-11-26T08:00Z,Jamaica,Jamaica,https://a.espncdn.com/i/headshots/soccer/players/full/408214.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,321080,Lennard Hartjes,MF,MF,23.0,2003-04-07T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/321080.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,321341,Noah Naujoks,MF,MF,24.0,2002-05-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/321341.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,321905,Ágúst Þorsteinsson,MF,MF,21.0,2005-01-14T08:00Z,Iceland,Iceland,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,328957,Daniel Van Vianen,MF,MF,23.0,2003-04-28T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/328957.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,343207,Irakli Yegoian,MF,MF,22.0,2004-03-19T08:00Z,Georgia,Georgia,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,365032,Valentin Sulzbacher,MF,MF,21.0,2005-03-11T08:00Z,Austria,Austria,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,388590,Guilliano Cairo,MF,MF,20.0,2006-03-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/388590.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,3100786,Yacqub Hassan Muse Finey,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,188055,Alireza Jahanbakhsh,FW,FW,33.0,1993-08-11T07:00Z,Iran,Iran,https://a.espncdn.com/i/headshots/soccer/players/full/188055.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,328982,David Garden,FW,FW,22.0,2004-06-20T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/328982.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,340197,Mario Dominguez,FW,FW,22.0,2004-02-10T08:00Z,Spain,Spain,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,344197,Nesto Groen,FW,FW,22.0,2004-07-22T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/344197.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,366388,Kasey Bos,FW,FW,22.0,2004-05-08T07:00Z,Australia,Australia,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,372025,Eric Da Silva Moreira,FW,FW,20.0,2006-05-03T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,387986,Ilano Silva Timas,FW,FW,24.0,2002-09-29T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Excelsior,2566,388327,Aymen Sliti,FW,FW,20.0,2006-03-24T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,151900,Luuk Koopmans,GK,GK,32.0,1993-11-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/151900.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,155965,Mattijs Branderhorst,GK,GK,32.0,1993-12-31T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/155965.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,364986,Kaylen Reitmaier,GK,GK,22.0,2004-04-05T07:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/364986.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,132666,Ivo Pinto,DF,DF,36.0,1990-01-07T08:00Z,Portugal,Portugal,https://a.espncdn.com/i/headshots/soccer/players/full/132666.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,190986,Daley Sinkgraven,DF,DF,31.0,1995-07-04T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,195965,Nick De Groot,DF,DF,25.0,2001-08-20T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/195965.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,250659,Iván Márquez,DF,DF,32.0,1994-06-09T07:00Z,Spain,Spain,https://a.espncdn.com/i/headshots/soccer/players/full/250659.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,266669,Rodrigo Guth,DF,DF,25.0,2000-11-10T08:00Z,Brazil,Brazil,,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,297295,Syb van Ottele,DF,DF,24.0,2002-02-02T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/297295.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,305616,Jasper Dahlhaus,DF,DF,24.0,2001-11-27T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/305616.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,328988,Siebe Wylin,DF,DF,23.0,2003-05-27T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/328988.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,346817,Justin Hubner,DF,DF,23.0,2003-09-14T07:00Z,Indonesia,Indonesia,https://a.espncdn.com/i/headshots/soccer/players/full/346817.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,403414,Alhaji Bah,DF,DF,18.0,2008-02-09T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,284701,Mohamed Ihattaren,MF,MF,24.0,2002-02-12T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/284701.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,300592,Yassin Oukili,MF,MF,25.0,2001-01-03T08:00Z,Morocco,Morocco,https://a.espncdn.com/i/headshots/soccer/players/full/300592.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,304738,Edouard Michut,MF,MF,23.0,2003-03-04T08:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/304738.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,324486,Philip Brittijn,MF,MF,22.0,2004-04-09T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/324486.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,336547,Sven Simons,MF,MF,22.0,2004-03-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,338120,Shiloh ’t Zand,MF,MF,23.0,2003-05-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,408556,Moussa Gbemou,MF,MF,19.0,2007-09-09T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/408556.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,422189,Ganni Buyukhan,MF,MF,17.0,2009-10-07T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/422189.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,3124718,Kevin Van Burgsteden,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,196353,Kristoffer Peterson,FW,FW,31.0,1994-11-28T08:00Z,Sweden,Sweden,https://a.espncdn.com/i/headshots/soccer/players/full/196353.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,269541,Ole Romeny,FW,FW,26.0,2000-06-20T07:00Z,Indonesia,Indonesia,https://a.espncdn.com/i/headshots/soccer/players/full/269541.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,299929,Anthony Descotte,FW,FW,23.0,2003-08-03T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/299929.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,318386,Lequincio Zeefuik,FW,FW,21.0,2004-11-26T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/318386.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Fortuna Sittard,143,3131791,David Stockbrink,FW,FW,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,227420,Etienne Vaessen,GK,GK,31.0,1995-07-26T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/227420.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,254214,Pelle Boevink,GK,GK,28.0,1998-01-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,306435,Rijk Janse,GK,GK,24.0,2002-04-16T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306435.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,347069,Lovro Štubljar,GK,GK,22.0,2004-08-09T07:00Z,Slovenia,Slovenia,https://a.espncdn.com/i/headshots/soccer/players/full/347069.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,3116727,Daan Erdman,GK,GK,,,,,https://a.espncdn.com/i/headshots/soccer/players/full/3116727.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,193448,Hans Hateboer,DF,DF,32.0,1994-01-09T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,261212,Marco Rente,DF,DF,29.0,1997-02-25T08:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/261212.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,319298,Thijmen Blokzijl,DF,DF,21.0,2005-02-25T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/319298.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,341423,Márk Csinger,DF,DF,23.0,2003-05-31T07:00Z,Hungary,Hungary,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,361267,Malcolm Jeng,DF,DF,21.0,2005-03-09T08:00Z,Sweden,Sweden,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,371412,Wouter Prins,DF,DF,22.0,2004-02-06T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/371412.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,375666,Tyrique Mercera,DF,DF,22.0,2003-12-19T08:00Z,Curaçao,Curaçao,https://a.espncdn.com/i/headshots/soccer/players/full/375666.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,386562,Nikolas Brandis,DF,DF,21.0,2005-05-06T07:00Z,Slovakia,Slovakia,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,400799,Elvis Laan,DF,DF,18.0,2008-02-29T08:00Z,Sweden,Sweden,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,3125020,Jesper Mosselaar,DF,DF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,218947,Pelle Clement,MF,MF,30.0,1996-05-19T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/218947.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,319297,Tika De Jonge,MF,MF,23.0,2003-03-11T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/319297.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,349089,Travis Hearnes,MF,MF,20.0,2005-11-04T08:00Z,Norway,Norway,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,352987,Jorg Schreuders,MF,MF,22.0,2004-09-09T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/352987.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,355957,Tygo Land,MF,MF,20.0,2006-01-11T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/355957.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,385716,David Van Der Werff,MF,MF,22.0,2004-08-31T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/385716.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,408836,Jismerai Dillema,MF,MF,19.0,2007-02-14T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/408836.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,408839,Yénio Holder,MF,MF,19.0,2007-07-02T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,3104481,Alvin Vilhelm Valdemar Nordin,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,3125021,Jahelille Hall,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,206463,Oskar Zawada,FW,FW,30.0,1996-02-01T08:00Z,Poland,Poland,https://a.espncdn.com/i/headshots/soccer/players/full/206463.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,289883,Brynjólfur Willumsson,FW,FW,26.0,2000-08-12T07:00Z,Iceland,Iceland,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,303648,Jacob Ondrejka,FW,FW,24.0,2002-09-02T07:00Z,Sweden,Sweden,,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,351290,Thom Van Bergen,FW,FW,22.0,2004-01-06T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/351290.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,378250,Nils Eggens,FW,FW,21.0,2005-04-08T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/378250.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,408838,Mark Hoekstra,FW,FW,20.0,2006-02-10T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/408838.png,2026-10-21T09:01:37.651633+00:00,ESPN
+FC Groningen,145,417934,Ryan Metu,FW,FW,18.0,2008-08-28T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,190983,Andries Noppert,GK,GK,32.0,1994-04-07T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/190983.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,343867,Sten Kremers,GK,GK,22.0,2004-02-16T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,358318,Bernt Klaverboer,GK,GK,21.0,2005-09-26T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/358318.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,408546,Timo Schreuder,GK,GK,20.0,2006-09-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,241526,Sam Kersten,DF,DF,28.0,1998-01-30T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/241526.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,290209,Vasilios Zagaritis,DF,DF,25.0,2001-05-04T07:00Z,Greece,Greece,https://a.espncdn.com/i/headshots/soccer/players/full/290209.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,304908,Mees Hilgers,DF,DF,25.0,2001-05-13T07:00Z,Indonesia,Indonesia,https://a.espncdn.com/i/headshots/soccer/players/full/304908.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,323268,Hristiyan Petrov,DF,DF,24.0,2002-06-24T07:00Z,Bulgaria,Bulgaria,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,324484,Maas Willemsen,DF,DF,23.0,2003-04-29T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/324484.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,364727,Oliver Braude,DF,DF,22.0,2004-02-21T08:00Z,Norway,Norway,https://a.espncdn.com/i/headshots/soccer/players/full/364727.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,367664,Mats Egbring,DF,DF,20.0,2006-09-17T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/367664.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,377851,Darling Bladi,DF,DF,22.0,2004-06-11T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/377851.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,3125072,Jimte Scholten,DF,DF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,291972,Ringo Meerveld,MF,MF,23.0,2002-12-21T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/291972.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,296510,Dirk Proper,MF,MF,24.0,2002-02-24T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/296510.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,301323,Maxence Rivera,MF,MF,24.0,2002-05-30T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/301323.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,324739,Levi Smans,MF,MF,23.0,2003-03-25T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/324739.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,378834,Marcus Linday,MF,MF,23.0,2003-06-02T07:00Z,Sweden,Sweden,https://a.espncdn.com/i/headshots/soccer/players/full/378834.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,391956,Anass Bouziane,MF,MF,19.0,2006-12-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,407207,Nolhan Courtens,MF,MF,19.0,2006-12-20T08:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/407207.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,253396,Dylan Vente,FW,FW,27.0,1999-05-09T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/253396.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,257261,Roberts Uldrikis,FW,FW,28.0,1998-04-03T08:00Z,Latvia,Latvia,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,303548,Luca Oyen,FW,FW,23.0,2003-03-14T08:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/303548.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,308051,Jacob Trenskow,FW,FW,25.0,2000-11-26T08:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/308051.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,326032,Marko Farji,FW,FW,22.0,2004-03-16T08:00Z,Iraq,Iraq,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,403320,Lanroy Machine,FW,FW,21.0,2005-10-13T07:00Z,France,France,,2026-10-21T09:01:37.651633+00:00,ESPN
+Heerenveen,146,415191,Kirayno Schaken,FW,FW,17.0,2009-06-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,150070,Nick Marsman,GK,GK,36.0,1990-10-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/150070.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,261423,Kjetil Haug,GK,GK,28.0,1998-06-12T07:00Z,Norway,Norway,https://a.espncdn.com/i/headshots/soccer/players/full/261423.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,334352,Nando Verdoni,GK,GK,23.0,2003-07-09T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/334352.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,3118770,Thomas Hulleman,GK,GK,,,,,https://a.espncdn.com/i/headshots/soccer/players/full/3118770.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,153764,Gerrit Nauber,DF,DF,34.0,1992-04-13T07:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/153764.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,218424,Joris Kramer,DF,DF,30.0,1996-08-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/218424.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,237839,Alfons Sampsted,DF,DF,28.0,1998-04-06T07:00Z,Iceland,Iceland,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,304868,Dean James,DF,DF,26.0,2000-04-30T07:00Z,Indonesia,Indonesia,https://a.espncdn.com/i/headshots/soccer/players/full/304868.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,312142,Julius Dirksen,DF,DF,23.0,2003-02-02T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/312142.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,318573,Giovanni van Zwam,DF,DF,22.0,2004-01-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,346986,Pim Saathof,DF,DF,22.0,2003-12-28T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/346986.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,348266,Tomas Galvez,DF,DF,21.0,2005-01-28T08:00Z,Finland,Finland,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,361534,Eus Waayers,DF,DF,20.0,2006-04-08T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/361534.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,3106828,Tino Jukić,DF,DF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,3135530,Terence Lantveld,DF,DF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,258453,Melle Meulensteen,MF,MF,27.0,1999-07-04T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/258453.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,272716,Evert Linthorst,MF,MF,26.0,2000-03-03T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/272716.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,289301,Sören Tengstedt,MF,MF,26.0,2000-06-30T07:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/289301.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,346985,Robbin Weijenberg,MF,MF,21.0,2004-11-08T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/346985.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,406247,Yassir Rahmouni,MF,MF,20.0,2006-06-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,285014,Richonell Margaret,FW,FW,26.0,2000-09-07T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/285014.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,293395,Stefan Ingi Sigurdarson,FW,FW,25.0,2001-01-27T08:00Z,Iceland,Iceland,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,303498,Oskar Siira Sivertsen,FW,FW,22.0,2004-02-15T08:00Z,Norway,Norway,,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,308091,Mathis Suray,FW,FW,25.0,2001-07-26T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/308091.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,308986,Thibo Baeten,FW,FW,24.0,2002-06-04T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/308986.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,313972,Victor Edvardsen,FW,FW,30.0,1996-01-14T08:00Z,Sweden,Sweden,https://a.espncdn.com/i/headshots/soccer/players/full/313972.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,364726,Erik Flataker,FW,FW,21.0,2004-12-26T08:00Z,Norway,Norway,https://a.espncdn.com/i/headshots/soccer/players/full/364726.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,400957,Ofosu Boakye,FW,FW,19.0,2007-07-10T07:00Z,Ghana,Ghana,https://a.espncdn.com/i/headshots/soccer/players/full/400957.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Go Ahead Eagles,3706,415246,Dani Tijman,FW,FW,20.0,2006-06-13T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/415246.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,277313,Matej Kovár,GK,GK,26.0,2000-05-17T07:00Z,Czechia,Czechia,https://a.espncdn.com/i/headshots/soccer/players/full/277313.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,245918,Armando Obispo,DF,DF,27.0,1999-03-05T08:00Z,Curaçao,Curaçao,https://a.espncdn.com/i/headshots/soccer/players/full/245918.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,259136,Mauro Júnior,DF,DF,27.0,1999-05-06T07:00Z,Brazil,Brazil,https://a.espncdn.com/i/headshots/soccer/players/full/259136.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,264828,Lutsharel Geertruida,DF,DF,26.0,2000-07-18T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/264828.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,266291,Sergiño Dest,DF,DF,25.0,2000-11-03T08:00Z,USA,USA,https://a.espncdn.com/i/headshots/soccer/players/full/266291.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,301279,Kiliann Sildillia,DF,DF,24.0,2002-05-16T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/301279.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,304478,Ryan Flamingo,DF,DF,23.0,2002-12-31T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304478.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,174496,Filip Kostic,MF,MF,33.0,1992-11-01T08:00Z,Serbia,Serbia,,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,239998,Jerdy Schouten,MF,MF,29.0,1997-01-12T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/239998.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,240965,Guus Til,MF,MF,28.0,1997-12-22T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/240965.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,287279,Sven Mijnans,MF,MF,26.0,2000-03-09T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/287279.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,333399,Paul Wanner,MF,MF,20.0,2005-12-23T08:00Z,Austria,Austria,https://a.espncdn.com/i/headshots/soccer/players/full/333399.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,341715,Kodai Sano,MF,MF,23.0,2003-09-25T07:00Z,Japan,Japan,,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,103485,Ivan Perisic,FW,FW,37.0,1989-02-02T08:00Z,Croatia,Croatia,https://a.espncdn.com/i/headshots/soccer/players/full/103485.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,168318,Alassane Pléa,FW,FW,33.0,1993-03-10T08:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/168318.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,224042,Sam Lammers,FW,FW,29.0,1997-04-30T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/224042.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,245805,Dennis Man,FW,FW,28.0,1998-08-26T07:00Z,Romania,Romania,https://a.espncdn.com/i/headshots/soccer/players/full/245805.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,289120,Ricardo Pepi,FW,FW,23.0,2003-01-09T08:00Z,USA,USA,https://a.espncdn.com/i/headshots/soccer/players/full/289120.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PSV Eindhoven,148,340252,Ruben Van Bommel,FW,FW,22.0,2004-08-03T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/340252.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,292223,Gonzalo Crettaz,GK,GK,26.0,2000-02-28T08:00Z,Argentina,Argentina,https://a.espncdn.com/i/headshots/soccer/players/full/292223.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,309090,Nikolas Polster,GK,GK,24.0,2002-07-07T07:00Z,Austria,Austria,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,392584,Joep Geneste,GK,GK,19.0,2007-01-15T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,398044,Freek Entius,GK,GK,20.0,2006-05-26T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/398044.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,140350,Bram Nuytinck,DF,DF,36.0,1990-05-04T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/140350.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,233894,Perr Schuurs,DF,DF,26.0,1999-11-26T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/233894.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,239999,Philippe Sandler,DF,DF,29.0,1997-02-10T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/239999.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,267573,Mitchel Bakker,DF,DF,26.0,2000-06-20T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,306806,Ahmetcan Kaplan,DF,DF,23.0,2003-01-16T08:00Z,Türkiye,Türkiye,https://a.espncdn.com/i/headshots/soccer/players/full/306806.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,335203,Deveron Fonville,DF,DF,23.0,2003-05-16T07:00Z,Curaçao,Curaçao,https://a.espncdn.com/i/headshots/soccer/players/full/335203.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,345556,Tobias Storm,DF,DF,22.0,2004-07-04T07:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/345556.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,364642,Gabi Brás,DF,DF,22.0,2004-03-25T08:00Z,Portugal,Portugal,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,372034,Almugera Kabar,DF,DF,20.0,2006-06-06T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,409658,Yassin Moslih,DF,DF,19.0,2007-07-24T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/409658.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,116893,Tjaronn Chery,MF,MF,38.0,1988-06-04T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/116893.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,221466,Dennis Geiger,MF,MF,28.0,1998-06-10T07:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,227441,Jamiro Monteiro,MF,MF,32.0,1993-11-23T08:00Z,Cape Verde Islands,Cape Verde Islands,https://a.espncdn.com/i/headshots/soccer/players/full/227441.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,276579,Darko Nejasmic,MF,MF,27.0,1999-01-25T08:00Z,Croatia,Croatia,https://a.espncdn.com/i/headshots/soccer/players/full/276579.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,285471,Willum Thór Willumsson,MF,MF,27.0,1998-10-23T07:00Z,Iceland,Iceland,https://a.espncdn.com/i/headshots/soccer/players/full/285471.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,308227,Isak Hansen-Aarøen,MF,MF,22.0,2004-08-22T07:00Z,Norway,Norway,https://a.espncdn.com/i/headshots/soccer/players/full/308227.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,340685,Noé Lebreton,MF,MF,22.0,2004-04-22T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/340685.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,408764,Sam De Laat,MF,MF,20.0,2006-06-12T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,411167,Merijn Van De Wiel,MF,MF,20.0,2005-12-23T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/411167.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,122575,Dusan Tadic,FW,FW,37.0,1988-11-20T08:00Z,Serbia,Serbia,https://a.espncdn.com/i/headshots/soccer/players/full/122575.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,122954,Bryan Linssen,FW,FW,36.0,1990-10-08T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/122954.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,231279,Emre Mor,FW,FW,29.0,1997-07-24T07:00Z,Türkiye,Türkiye,https://a.espncdn.com/i/headshots/soccer/players/full/231279.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,250529,Kaj Sierhuis,FW,FW,28.0,1998-04-27T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/250529.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,363412,Kevin Kers,FW,FW,20.0,2006-01-04T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/363412.png,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,372851,Clement Bischoff,FW,FW,20.0,2005-12-16T08:00Z,Denmark,Denmark,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,380942,Ayodele Thomas,FW,FW,19.0,2007-07-23T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+NEC Nijmegen,147,388585,Adam Tahaui,FW,FW,21.0,2005-07-21T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/388585.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,263619,Jasper Schendelaar,GK,GK,26.0,2000-09-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/263619.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,321101,Duke Verduin,GK,GK,22.0,2003-10-30T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/321101.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,330425,Tom De Graaff,GK,GK,21.0,2004-12-10T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/330425.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,131354,Nick Viergever,DF,DF,37.0,1989-08-03T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/131354.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,224786,Sherel Floranus,DF,DF,28.0,1998-08-23T07:00Z,Curaçao,Curaçao,https://a.espncdn.com/i/headshots/soccer/players/full/224786.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,271210,Simon Graves,DF,DF,27.0,1999-05-22T07:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/271210.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,295628,Tijs Velthuis,DF,DF,24.0,2002-01-12T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/295628.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,333618,Olivier Aertssen,DF,DF,22.0,2004-08-07T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/333618.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,333760,Damian Van Der Haar,DF,DF,22.0,2004-01-16T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/333760.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,379188,Dylan Ruward,DF,DF,21.0,2005-01-21T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/379188.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,403548,Jan Bürger,DF,DF,19.0,2007-03-10T08:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,3131926,Milan Westerhuis,DF,DF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,156146,Ryan Thomas,MF,MF,31.0,1994-12-20T08:00Z,New Zealand,New Zealand,https://a.espncdn.com/i/headshots/soccer/players/full/156146.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,239353,Odysseus Velanas,MF,MF,28.0,1998-06-05T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/239353.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,272329,Thijs Oosting,MF,MF,26.0,2000-05-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/272329.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,275716,Filip Yavorov Krastev,MF,MF,25.0,2001-10-15T07:00Z,Bulgaria,Bulgaria,,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,313342,Tobias Sommer,MF,MF,24.0,2001-11-27T08:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/313342.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,365026,Nick Fichtinger,MF,MF,22.0,2004-04-06T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/365026.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,386853,Gabriel Reiziger,MF,MF,21.0,2005-10-10T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/386853.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,408619,Givaro Rahajaän,MF,MF,18.0,2008-02-19T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/408619.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,408620,Jadiel Pereira Da Gama,MF,MF,16.0,2009-12-15T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,415365,Gilles Van Der Wal,MF,MF,18.0,2008-06-24T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,215159,Younes Namli,FW,FW,32.0,1994-06-20T07:00Z,Denmark,Denmark,https://a.espncdn.com/i/headshots/soccer/players/full/215159.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,241527,Koen Kostons,FW,FW,27.0,1999-09-18T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/241527.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,276819,Sydney van Hooijdonk,FW,FW,26.0,2000-02-06T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/276819.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,279756,Elias Sörensen,FW,FW,27.0,1999-09-18T07:00Z,Denmark,Denmark,,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,286854,Dylan Mbayo,FW,FW,25.0,2001-10-11T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/286854.png,2026-10-21T09:01:37.651633+00:00,ESPN
+PEC Zwolle,2565,297340,Ibrahim Cissoko,FW,FW,23.0,2003-03-26T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,167731,Filip Bednarek,GK,GK,34.0,1992-09-26T07:00Z,Poland,Poland,https://a.espncdn.com/i/headshots/soccer/players/full/167731.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,177022,Michael Brouwer,GK,GK,33.0,1993-01-21T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/177022.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,308016,Pascal Kuiper,GK,GK,22.0,2004-03-17T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/308016.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,422191,Rik Suur,GK,GK,19.0,2006-11-14T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,3105443,Duncan Lindhout,GK,GK,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,149301,Bruno Martins Indi,DF,DF,34.0,1992-02-08T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/149301.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,188458,Bas Kuipers,DF,DF,32.0,1994-08-17T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/188458.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,272032,Boyd Reith,DF,DF,27.0,1999-05-05T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/272032.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,300260,Teo Quintero,DF,DF,27.0,1999-03-02T08:00Z,Venezuela,Venezuela,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,368324,Nick Verschuren,DF,DF,21.0,2005-01-13T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/368324.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,372845,Max De Ligt,DF,DF,22.0,2004-07-20T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,388712,Marvin Young,DF,DF,21.0,2005-10-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/388712.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,408790,Giannino Vianello,DF,DF,19.0,2007-06-10T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,415046,Lushendry Martes,DF,DF,18.0,2008-05-06T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/415046.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,142517,Jens Toornstra,MF,MF,37.0,1989-04-04T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/142517.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,304485,Julian Baas,MF,MF,24.0,2002-04-16T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304485.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,318782,Isaac Babadi,MF,MF,21.0,2005-04-06T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,364725,Alwande Roaldsøy,MF,MF,22.0,2004-06-09T07:00Z,Norway,Norway,https://a.espncdn.com/i/headshots/soccer/players/full/364725.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,379191,Cedric Hatenboer,MF,MF,21.0,2005-03-19T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,408739,Robin Van Cruijsen,MF,MF,20.0,2006-02-20T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,231832,Mitchell van Bergen,FW,FW,27.0,1999-08-27T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/231832.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,297252,Shunsuke Mito,FW,FW,24.0,2002-09-28T07:00Z,Japan,Japan,,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,310292,Joel Ideho,FW,FW,23.0,2003-07-17T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/310292.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,320298,Casper Terho,FW,FW,23.0,2003-06-24T07:00Z,Finland,Finland,https://a.espncdn.com/i/headshots/soccer/players/full/320298.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,324585,Milan Zonneveld,FW,FW,23.0,2003-10-08T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/324585.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Sparta Rotterdam,151,382572,Andrej Kostic,FW,FW,19.0,2007-01-16T08:00Z,Montenegro,Montenegro,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,261584,Luca Plogmann,GK,GK,26.0,2000-03-10T08:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,298565,Thijs Jansen,GK,GK,24.0,2001-11-29T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/298565.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,343579,Jasper Meijster,GK,GK,21.0,2005-01-03T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/343579.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,406925,Matthijs Kalisvaart,GK,GK,20.0,2006-06-06T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/406925.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,292770,Rik Mulders,DF,DF,26.0,2000-08-06T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/292770.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,306047,Jamal Amofa,DF,DF,27.0,1998-11-25T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306047.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,306401,Jorn Berkhout,DF,DF,24.0,2002-03-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306401.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,340532,Billy Van Duijl,DF,DF,21.0,2005-10-04T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/340532.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,364402,Ismaël Baouf,DF,DF,20.0,2006-09-17T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,386842,Lucas Jetten,DF,DF,19.0,2007-06-07T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/386842.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,394751,Morgan Costarelli,DF,DF,21.0,2005-04-28T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/394751.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,214655,Mathieu Maertens,MF,MF,31.0,1995-03-27T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,270887,Devid Eugene Bouah,MF,MF,25.0,2001-08-13T07:00Z,Italy,Italy,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,337056,Rafik El Arguioui,MF,MF,21.0,2005-07-31T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,367462,Wout Asselman,MF,MF,21.0,2005-01-20T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,402838,Daan Visser,MF,MF,21.0,2004-11-05T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/402838.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,408553,Wiebe Van Der Heide,MF,MF,,,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/408553.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,416657,Ethan Apkakou,MF,MF,20.0,2006-10-15T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/416657.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,421840,Wessel Van Der Goot,MF,MF,18.0,2008-04-29T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,3124020,Damian Westerhof,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,290512,Jason Ceka,FW,FW,26.0,1999-11-10T08:00Z,Germany,Germany,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,323989,Ilyes Hamache,FW,FW,23.0,2003-02-11T08:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/323989.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,338919,Nicolas Binder,FW,FW,24.0,2002-01-13T08:00Z,Austria,Austria,https://a.espncdn.com/i/headshots/soccer/players/full/338919.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,364992,Wiebe Kooistra,FW,FW,20.0,2006-07-23T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/364992.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,368816,Skye Vink,FW,FW,20.0,2006-07-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/368816.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,370607,Iwan Henstra,FW,FW,20.0,2006-10-10T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,381613,Sami Bouhoudane,FW,FW,18.0,2008-01-13T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,416391,Danyello Look,FW,FW,19.0,2007-03-22T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/416391.png,2026-10-21T09:01:37.651633+00:00,ESPN
+SC Cambuur,3736,418062,Fabian Kvam,FW,FW,21.0,2005-10-18T07:00Z,Norway,Norway,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,79505,Ronald Koeman,GK,GK,31.0,1995-05-23T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/79505.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,284790,Daan Reiziger,GK,GK,25.0,2001-06-18T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/284790.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,399284,Finn Mulder,GK,GK,18.0,2008-02-01T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,179181,Marvin Peersman,DF,DF,35.0,1991-02-10T08:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/179181.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,200158,Jeff Hardeveld,DF,DF,31.0,1995-02-27T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/200158.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,281027,Nigel Ogidi Nwankwo,DF,DF,28.0,1998-08-04T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,301585,Gabi Caschili,DF,DF,23.0,2003-07-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,306553,Ar'jany Martha,DF,DF,23.0,2003-09-04T07:00Z,Curaçao,Curaçao,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,319369,Sem Valk,DF,DF,24.0,2002-02-16T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/319369.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,356706,Abdelnour Soualhia,DF,DF,25.0,2001-06-27T07:00Z,France,France,https://a.espncdn.com/i/headshots/soccer/players/full/356706.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,368817,Gerald Alders,DF,DF,21.0,2005-05-07T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/368817.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,408545,Rojendro Oudsten,DF,DF,18.0,2007-11-12T08:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/408545.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,306461,Tyrone Owusu,MF,MF,27.0,1999-03-05T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306461.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,332709,Nils Rossen,MF,MF,22.0,2004-08-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/332709.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,344668,Prince Aning,MF,MF,22.0,2004-04-23T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,366306,Harrie Kuster,MF,MF,21.0,2005-09-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,388723,Isaiah Ahmed,MF,MF,20.0,2005-12-28T08:00Z,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,411548,Noach Shenkman,MF,MF,20.0,2006-10-02T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/411548.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,306445,Patrick Brouwer,FW,FW,25.0,2001-03-19T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306445.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,324448,Rui Mendes,FW,FW,26.0,1999-11-10T08:00Z,Portugal,Portugal,https://a.espncdn.com/i/headshots/soccer/players/full/324448.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,352177,Emirhan Demircan,FW,FW,21.0,2005-01-20T08:00Z,Türkiye,Türkiye,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,356979,Nökkvi Thórisson,FW,FW,27.0,1999-08-13T07:00Z,Iceland,Iceland,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,362899,Fofin Turay,FW,FW,22.0,2004-06-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,397194,Jelani Seedorf,FW,FW,21.0,2004-12-12T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/397194.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Telstar,3735,406918,Fabiano Rust,FW,FW,21.0,2005-01-16T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,152989,Wouter van der Steen,GK,GK,36.0,1990-06-03T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/152989.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,188221,Thomas Didillon,GK,GK,30.0,1995-11-28T08:00Z,France,France,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,286946,Maxime Delanghe,GK,GK,25.0,2001-05-23T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,397856,Karst De Leeuw,GK,GK,22.0,2004-04-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,414529,Tygo Kotte,GK,GK,19.0,2007-03-27T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,208840,Hidde ter Avest,DF,DF,29.0,1997-05-20T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/208840.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,232390,Alessandro Ciranni,DF,DF,30.0,1996-06-28T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,234375,Justin Hoogma,DF,DF,28.0,1998-06-11T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/234375.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,291612,Nathan Tjoe-A-On,DF,DF,24.0,2001-12-22T08:00Z,Indonesia,Indonesia,https://a.espncdn.com/i/headshots/soccer/players/full/291612.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,318531,Maxim Dekker,DF,DF,22.0,2004-04-21T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/318531.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,320464,Finn Stam,DF,DF,23.0,2003-04-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,347344,Mats Lemmens,DF,DF,24.0,2002-03-10T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,363130,Amine Et-Taibi,DF,DF,23.0,2003-02-05T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,388667,Jens Mathijsen,DF,DF,19.0,2007-08-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,170327,Tonny Vilhena,MF,MF,31.0,1995-01-03T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,200194,Vito van Crooij,MF,MF,30.0,1996-01-29T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/200194.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,215171,Jari Schuurman,MF,MF,29.0,1997-02-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,307375,Calvin Twigt,MF,MF,23.0,2003-01-30T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/307375.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,352535,Amine Lachkar,MF,MF,23.0,2003-04-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,380174,Kasper Boogaard,MF,MF,20.0,2006-01-29T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,387944,Thijs Muller,MF,MF,19.0,2007-04-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,388593,Anass Zarrouk,MF,MF,20.0,2006-07-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,388668,Per Van Loon,MF,MF,21.0,2004-12-31T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/388668.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,397219,Uriel Van Aalst,MF,MF,20.0,2006-08-18T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/397219.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,421271,Julian Van Esdonk,MF,MF,20.0,2006-04-27T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,3124604,Ismael Mouhoul,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,3124606,Divano Iglesias,MF,MF,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,195865,Thomas Verheydt,FW,FW,34.0,1992-01-24T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/195865.png,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,315631,Devin Haen,FW,FW,22.0,2004-06-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,344195,Jaden Slory,FW,FW,21.0,2005-05-09T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,375738,Chido Obi,FW,FW,18.0,2007-11-29T08:00Z,Denmark,Denmark,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,395480,Eser Gürbüz,FW,FW,19.0,2007-03-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,409864,Armin Culum,FW,FW,22.0,2003-11-05T08:00Z,Sweden,Sweden,,2026-10-21T09:01:37.651633+00:00,ESPN
+Willem II,156,3124605,Luca Maal,FW,FW,,,,,,2026-10-21T09:01:37.651633+00:00,ESPN

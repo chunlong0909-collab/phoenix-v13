@@ -1,0 +1,23 @@
+{
+  "league_id": "j2",
+  "name_zh": "日乙J2",
+  "updated_at": "2026-10-21T09:02:30.912543+00:00",
+  "sources": [
+    "openfootball (asia/japan/2019_jp1.txt)",
+    "openfootball (asia/japan/2020_jp1.txt)",
+    "openfootball (asia/japan/2021_jp1.txt)",
+    "openfootball (asia/japan/2022_jp1.txt)",
+    "openfootball (asia/japan/2023_jp1.txt)",
+    "openfootball (asia/japan/2024_jp1.txt)",
+    "openfootball (asia/japan/2025_jp1.txt)"
+  ],
+  "teams": 27,
+  "players": 0,
+  "matches": 1583,
+  "corner_matches": 0,
+  "quality": "高",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T09:02:30.912543+00:00",
+  "players_update_protected": false,
+  "errors": []
+}

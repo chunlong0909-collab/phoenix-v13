@@ -1,0 +1,17 @@
+{
+  "league_id": "ligue2",
+  "name_zh": "法乙",
+  "updated_at": "2026-10-21T09:01:18.017320+00:00",
+  "sources": [
+    "football-data.co.uk"
+  ],
+  "teams": 43,
+  "players": 530,
+  "matches": 2392,
+  "corner_matches": 2389,
+  "quality": "高",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T09:01:18.017320+00:00",
+  "players_update_protected": false,
+  "errors": []
+}

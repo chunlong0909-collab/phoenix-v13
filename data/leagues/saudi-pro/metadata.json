@@ -1,0 +1,17 @@
+{
+  "league_id": "saudi-pro",
+  "name_zh": "沙職",
+  "updated_at": "2026-10-21T09:02:38.547079+00:00",
+  "sources": [
+    "openfootball (middle-east/saudi-arabia/2024-25_sa1.txt)"
+  ],
+  "teams": 18,
+  "players": 0,
+  "matches": 267,
+  "corner_matches": 0,
+  "quality": "高",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T09:02:38.547079+00:00",
+  "players_update_protected": false,
+  "errors": []
+}

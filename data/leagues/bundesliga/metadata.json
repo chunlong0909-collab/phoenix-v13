@@ -1,0 +1,17 @@
+{
+  "league_id": "bundesliga",
+  "name_zh": "德甲",
+  "updated_at": "2026-10-21T09:00:29.691429+00:00",
+  "sources": [
+    "football-data.co.uk"
+  ],
+  "teams": 29,
+  "players": 495,
+  "matches": 1583,
+  "corner_matches": 1582,
+  "quality": "高",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T09:00:29.691429+00:00",
+  "players_update_protected": false,
+  "errors": []
+}

@@ -1,0 +1,1872 @@
+﻿date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+2018-08-19,1819,Eibar,Huesca,1,2,7,0,football-data.co.uk
+2018-08-24,1819,Leganes,Sociedad,2,2,5,0,football-data.co.uk
+2018-08-31,1819,Eibar,Sociedad,2,1,4,2,football-data.co.uk
+2018-09-14,1819,Huesca,Vallecano,0,1,6,3,football-data.co.uk
+2018-09-16,1819,Leganes,Villarreal,0,1,6,1,football-data.co.uk
+2018-09-21,1819,Huesca,Sociedad,0,1,7,5,football-data.co.uk
+2018-09-22,1819,Eibar,Leganes,1,0,5,2,football-data.co.uk
+2018-09-26,1819,Leganes,Barcelona,2,1,4,5,football-data.co.uk
+2018-09-29,1819,Eibar,Sevilla,1,3,6,3,football-data.co.uk
+2018-09-30,1819,Huesca,Girona,1,1,5,5,football-data.co.uk
+2018-10-06,1819,Leganes,Vallecano,1,0,6,4,football-data.co.uk
+2018-10-21,1819,Eibar,Ath Bilbao,1,1,8,2,football-data.co.uk
+2018-10-21,1819,Huesca,Espanol,0,2,6,4,football-data.co.uk
+2018-11-03,1819,Leganes,Ath Madrid,1,1,4,7,football-data.co.uk
+2018-11-04,1819,Huesca,Getafe,1,1,10,2,football-data.co.uk
+2018-11-04,1819,Eibar,Alaves,2,1,13,1,football-data.co.uk
+2018-11-23,1819,Leganes,Alaves,1,0,5,3,football-data.co.uk
+2018-11-24,1819,Eibar,Real Madrid,3,0,5,4,football-data.co.uk
+2018-11-24,1819,Huesca,Levante,2,2,7,2,football-data.co.uk
+2018-12-07,1819,Leganes,Getafe,1,1,7,2,football-data.co.uk
+2018-12-09,1819,Eibar,Levante,4,4,12,3,football-data.co.uk
+2018-12-09,1819,Huesca,Real Madrid,0,1,11,6,football-data.co.uk
+2018-12-15,1819,Eibar,Valencia,1,1,4,2,football-data.co.uk
+2018-12-16,1819,Huesca,Villarreal,2,2,13,2,football-data.co.uk
+2018-12-23,1819,Leganes,Sevilla,1,1,3,6,football-data.co.uk
+2019-01-05,1819,Huesca,Betis,2,1,4,6,football-data.co.uk
+2019-01-06,1819,Eibar,Villarreal,0,0,13,1,football-data.co.uk
+2019-01-12,1819,Leganes,Huesca,1,0,4,4,football-data.co.uk
+2019-01-19,1819,Huesca,Ath Madrid,0,3,6,5,football-data.co.uk
+2019-01-21,1819,Eibar,Espanol,3,0,6,2,football-data.co.uk
+2019-01-26,1819,Leganes,Eibar,2,2,4,5,football-data.co.uk
+2019-02-01,1819,Huesca,Valladolid,4,0,7,7,football-data.co.uk
+2019-02-03,1819,Eibar,Girona,3,0,8,5,football-data.co.uk
+2019-02-10,1819,Leganes,Betis,3,0,4,4,football-data.co.uk
+2019-02-15,1819,Eibar,Getafe,2,2,3,3,football-data.co.uk
+2019-02-18,1819,Huesca,Ath Bilbao,0,1,3,5,football-data.co.uk
+2019-02-24,1819,Leganes,Valencia,1,1,4,2,football-data.co.uk
+2019-03-02,1819,Huesca,Sevilla,2,1,3,12,football-data.co.uk
+2019-03-03,1819,Eibar,Celta,1,0,7,0,football-data.co.uk
+2019-03-04,1819,Leganes,Levante,1,0,2,2,football-data.co.uk
+2019-03-16,1819,Huesca,Alaves,1,3,2,2,football-data.co.uk
+2019-03-16,1819,Leganes,Girona,0,2,6,2,football-data.co.uk
+2019-03-17,1819,Eibar,Valladolid,1,2,5,0,football-data.co.uk
+2019-04-03,1819,Huesca,Celta,3,3,5,0,football-data.co.uk
+2019-04-03,1819,Eibar,Vallecano,2,1,2,6,football-data.co.uk
+2019-04-04,1819,Leganes,Valladolid,1,0,3,4,football-data.co.uk
+2019-04-13,1819,Huesca,Barcelona,0,0,6,5,football-data.co.uk
+2019-04-15,1819,Leganes,Real Madrid,1,1,1,5,football-data.co.uk
+2019-04-20,1819,Eibar,Ath Madrid,0,1,5,8,football-data.co.uk
+2019-04-23,1819,Huesca,Eibar,2,0,5,3,football-data.co.uk
+2019-04-24,1819,Leganes,Ath Bilbao,0,1,2,2,football-data.co.uk
+2019-04-27,1819,Leganes,Celta,0,0,4,6,football-data.co.uk
+2019-05-05,1819,Eibar,Betis,1,0,11,8,football-data.co.uk
+2019-05-05,1819,Huesca,Valencia,2,6,7,5,football-data.co.uk
+2019-05-12,1819,Leganes,Espanol,0,2,6,7,football-data.co.uk
+2019-05-18,1819,Huesca,Leganes,2,1,4,6,football-data.co.uk
+2019-05-19,1819,Eibar,Barcelona,2,2,5,2,football-data.co.uk
+2019-08-17,1920,Leganes,Osasuna,0,1,8,0,football-data.co.uk
+2019-08-25,1920,Leganes,Ath Madrid,0,1,9,4,football-data.co.uk
+2019-09-14,1920,Leganes,Villarreal,0,3,8,6,football-data.co.uk
+2019-09-15,1920,Eibar,Espanol,1,2,7,2,football-data.co.uk
+2019-09-25,1920,Leganes,Ath Bilbao,1,1,4,5,football-data.co.uk
+2019-09-26,1920,Eibar,Sevilla,3,2,3,1,football-data.co.uk
+2019-09-29,1920,Eibar,Celta,2,0,6,5,football-data.co.uk
+2019-10-05,1920,Leganes,Levante,1,2,9,4,football-data.co.uk
+2019-10-19,1920,Eibar,Barcelona,0,3,2,2,football-data.co.uk
+2019-10-26,1920,Leganes,Mallorca,1,0,4,5,football-data.co.uk
+2019-10-31,1920,Eibar,Villarreal,2,1,8,3,football-data.co.uk
+2019-11-03,1920,Leganes,Eibar,1,2,4,2,football-data.co.uk
+2019-11-09,1920,Eibar,Real Madrid,0,4,6,6,football-data.co.uk
+2019-11-23,1920,Leganes,Barcelona,1,2,0,6,football-data.co.uk
+2019-11-24,1920,Eibar,Alaves,0,2,10,4,football-data.co.uk
+2019-12-08,1920,Eibar,Getafe,0,1,3,8,football-data.co.uk
+2019-12-08,1920,Leganes,Celta,3,2,3,5,football-data.co.uk
+2019-12-20,1920,Eibar,Granada,3,0,5,5,football-data.co.uk
+2019-12-22,1920,Leganes,Espanol,2,0,1,5,football-data.co.uk
+2020-01-17,1920,Leganes,Getafe,0,3,4,4,football-data.co.uk
+2020-01-18,1920,Eibar,Ath Madrid,2,0,6,7,football-data.co.uk
+2020-02-02,1920,Leganes,Sociedad,2,1,3,1,football-data.co.uk
+2020-02-02,1920,Eibar,Betis,1,1,2,7,football-data.co.uk
+2020-02-16,1920,Leganes,Betis,0,0,4,2,football-data.co.uk
+2020-02-29,1920,Eibar,Levante,3,0,3,6,football-data.co.uk
+2020-02-29,1920,Leganes,Alaves,1,1,6,4,football-data.co.uk
+2020-03-07,1920,Eibar,Mallorca,1,2,4,3,football-data.co.uk
+2020-03-10,1920,Eibar,Sociedad,1,2,3,1,football-data.co.uk
+2020-06-13,1920,Leganes,Valladolid,1,2,2,1,football-data.co.uk
+2020-06-17,1920,Eibar,Ath Bilbao,2,2,8,3,football-data.co.uk
+2020-06-22,1920,Leganes,Granada,0,0,4,2,football-data.co.uk
+2020-06-25,1920,Eibar,Valencia,1,0,10,8,football-data.co.uk
+2020-06-30,1920,Leganes,Sevilla,0,3,4,2,football-data.co.uk
+2020-07-02,1920,Eibar,Osasuna,0,2,9,4,football-data.co.uk
+2020-07-04,1920,Valladolid,Alaves,1,0,1,3,football-data.co.uk
+2020-07-04,1920,Granada,Valencia,2,2,7,3,football-data.co.uk
+2020-07-06,1920,Levante,Sociedad,1,1,4,2,football-data.co.uk
+2020-07-09,1920,Eibar,Leganes,0,0,8,1,football-data.co.uk
+2020-07-11,1920,Valladolid,Barcelona,0,1,4,5,football-data.co.uk
+2020-07-12,1920,Leganes,Valencia,1,0,2,8,football-data.co.uk
+2020-07-12,1920,Levante,Ath Bilbao,1,2,2,6,football-data.co.uk
+2020-07-13,1920,Granada,Real Madrid,1,2,4,3,football-data.co.uk
+2020-07-16,1920,Eibar,Valladolid,3,1,3,12,football-data.co.uk
+2020-07-19,1920,Leganes,Real Madrid,2,2,5,2,football-data.co.uk
+2020-07-19,1920,Levante,Getafe,1,0,6,8,football-data.co.uk
+2020-07-19,1920,Granada,Ath Bilbao,4,0,2,3,football-data.co.uk
+2020-07-19,1920,Valladolid,Betis,2,0,3,5,football-data.co.uk
+2020-09-12,2021,Eibar,Celta,0,0,3,3,football-data.co.uk
+2020-09-12,2021,Granada,Ath Bilbao,2,0,1,2,football-data.co.uk
+2020-09-13,2021,Valladolid,Sociedad,1,1,5,3,football-data.co.uk
+2020-09-20,2021,Granada,Alaves,2,1,4,4,football-data.co.uk
+2020-09-20,2021,Huesca,Cadiz,0,2,2,1,football-data.co.uk
+2020-09-27,2021,Valladolid,Celta,1,1,4,1,football-data.co.uk
+2020-09-27,2021,Eibar,Ath Bilbao,1,2,5,4,football-data.co.uk
+2020-09-30,2021,Huesca,Ath Madrid,0,0,5,7,football-data.co.uk
+2020-09-30,2021,Eibar,Elche,0,1,3,2,football-data.co.uk
+2020-10-03,2021,Valladolid,Eibar,1,2,3,4,football-data.co.uk
+2020-10-04,2021,Levante,Real Madrid,0,2,4,6,football-data.co.uk
+2020-10-17,2021,Granada,Sevilla,1,0,5,1,football-data.co.uk
+2020-10-18,2021,Huesca,Valladolid,2,2,3,1,football-data.co.uk
+2020-10-18,2021,Eibar,Osasuna,0,0,6,7,football-data.co.uk
+2020-10-25,2021,Valladolid,Alaves,0,2,2,4,football-data.co.uk
+2020-10-26,2021,Levante,Celta,1,1,3,2,football-data.co.uk
+2020-10-30,2021,Eibar,Cadiz,0,2,7,2,football-data.co.uk
+2020-11-01,2021,Granada,Levante,1,1,2,8,football-data.co.uk
+2020-11-07,2021,Huesca,Eibar,1,1,4,3,football-data.co.uk
+2020-11-08,2021,Levante,Alaves,1,1,12,1,football-data.co.uk
+2020-11-08,2021,Valladolid,Ath Bilbao,2,1,2,11,football-data.co.uk
+2020-11-21,2021,Levante,Elche,1,1,5,4,football-data.co.uk
+2020-11-22,2021,Eibar,Getafe,0,0,3,4,football-data.co.uk
+2020-11-22,2021,Granada,Valladolid,1,3,5,3,football-data.co.uk
+2020-11-27,2021,Valladolid,Levante,1,1,3,11,football-data.co.uk
+2020-11-28,2021,Huesca,Sevilla,0,1,1,10,football-data.co.uk
+2020-12-05,2021,Levante,Getafe,3,0,5,5,football-data.co.uk
+2020-12-06,2021,Granada,Huesca,3,3,4,2,football-data.co.uk
+2020-12-07,2021,Eibar,Valencia,0,0,8,0,football-data.co.uk
+2020-12-11,2021,Valladolid,Osasuna,3,2,3,3,football-data.co.uk
+2020-12-12,2021,Huesca,Alaves,1,0,5,2,football-data.co.uk
+2020-12-19,2021,Levante,Sociedad,2,1,3,4,football-data.co.uk
+2020-12-20,2021,Granada,Betis,2,0,1,10,football-data.co.uk
+2020-12-20,2021,Eibar,Real Madrid,1,3,4,4,football-data.co.uk
+2020-12-22,2021,Valladolid,Barcelona,0,3,4,5,football-data.co.uk
+2020-12-22,2021,Huesca,Levante,1,1,10,3,football-data.co.uk
+2020-12-29,2021,Levante,Betis,4,3,3,6,football-data.co.uk
+2020-12-30,2021,Granada,Valencia,2,1,6,6,football-data.co.uk
+2021-01-03,2021,Eibar,Granada,2,0,4,2,football-data.co.uk
+2021-01-03,2021,Huesca,Barcelona,0,1,2,6,football-data.co.uk
+2021-01-09,2021,Granada,Barcelona,0,4,4,1,football-data.co.uk
+2021-01-10,2021,Levante,Eibar,2,1,4,9,football-data.co.uk
+2021-01-10,2021,Valladolid,Valencia,0,1,0,4,football-data.co.uk
+2021-01-11,2021,Huesca,Betis,0,2,3,6,football-data.co.uk
+2021-01-12,2021,Granada,Osasuna,2,0,4,4,football-data.co.uk
+2021-01-19,2021,Valladolid,Elche,2,2,4,5,football-data.co.uk
+2021-01-21,2021,Eibar,Ath Madrid,1,2,3,3,football-data.co.uk
+2021-01-22,2021,Levante,Valladolid,2,2,8,2,football-data.co.uk
+2021-01-23,2021,Huesca,Villarreal,0,0,1,2,football-data.co.uk
+2021-01-29,2021,Valladolid,Huesca,1,3,6,7,football-data.co.uk
+2021-01-30,2021,Eibar,Sevilla,0,2,6,2,football-data.co.uk
+2021-01-31,2021,Granada,Celta,0,0,6,5,football-data.co.uk
+2021-02-06,2021,Levante,Granada,2,2,6,2,football-data.co.uk
+2021-02-06,2021,Huesca,Real Madrid,1,2,3,10,football-data.co.uk
+2021-02-13,2021,Eibar,Valladolid,1,1,7,3,football-data.co.uk
+2021-02-13,2021,Granada,Ath Madrid,1,2,7,3,football-data.co.uk
+2021-02-14,2021,Levante,Osasuna,0,1,2,1,football-data.co.uk
+2021-02-17,2021,Levante,Ath Madrid,1,1,1,8,football-data.co.uk
+2021-02-20,2021,Valladolid,Real Madrid,0,1,4,5,football-data.co.uk
+2021-02-21,2021,Huesca,Granada,3,2,5,2,football-data.co.uk
+2021-02-26,2021,Levante,Ath Bilbao,1,1,2,10,football-data.co.uk
+2021-02-27,2021,Eibar,Huesca,1,1,6,2,football-data.co.uk
+2021-02-28,2021,Granada,Elche,2,1,5,5,football-data.co.uk
+2021-03-06,2021,Valladolid,Getafe,2,1,1,6,football-data.co.uk
+2021-03-07,2021,Huesca,Celta,3,4,6,3,football-data.co.uk
+2021-03-12,2021,Levante,Valencia,1,0,3,3,football-data.co.uk
+2021-03-14,2021,Granada,Sociedad,1,0,4,6,football-data.co.uk
+2021-03-14,2021,Eibar,Villarreal,1,3,7,2,football-data.co.uk
+2021-03-20,2021,Valladolid,Sevilla,1,1,2,8,football-data.co.uk
+2021-03-20,2021,Huesca,Osasuna,0,0,5,1,football-data.co.uk
+2021-04-02,2021,Levante,Huesca,0,2,8,2,football-data.co.uk
+2021-04-03,2021,Granada,Villarreal,0,3,3,5,football-data.co.uk
+2021-04-09,2021,Huesca,Elche,3,1,6,6,football-data.co.uk
+2021-04-10,2021,Eibar,Levante,0,1,6,3,football-data.co.uk
+2021-04-11,2021,Valladolid,Granada,1,2,2,4,football-data.co.uk
+2021-04-18,2021,Levante,Villarreal,1,5,4,5,football-data.co.uk
+2021-04-21,2021,Cadiz,Real Madrid,0,3,7,3,football-data.co.uk
+2021-04-21,2021,Levante,Sevilla,0,1,2,3,football-data.co.uk
+2021-04-22,2021,Granada,Eibar,4,1,4,7,football-data.co.uk
+2021-04-24,2021,Valladolid,Cadiz,1,1,5,7,football-data.co.uk
+2021-04-25,2021,Huesca,Getafe,0,2,1,0,football-data.co.uk
+2021-04-26,2021,Eibar,Sociedad,0,1,2,3,football-data.co.uk
+2021-05-01,2021,Huesca,Sociedad,1,0,2,7,football-data.co.uk
+2021-05-01,2021,Eibar,Alaves,3,0,10,5,football-data.co.uk
+2021-05-01,2021,Elche,Ath Madrid,0,1,3,2,football-data.co.uk
+2021-05-02,2021,Valladolid,Betis,1,1,3,2,football-data.co.uk
+2021-05-02,2021,Granada,Cadiz,0,1,6,5,football-data.co.uk
+2021-05-08,2021,Cadiz,Huesca,2,1,3,3,football-data.co.uk
+2021-05-11,2021,Elche,Alaves,0,2,7,5,football-data.co.uk
+2021-05-11,2021,Levante,Barcelona,3,3,8,6,football-data.co.uk
+2021-05-12,2021,Huesca,Ath Bilbao,1,0,5,0,football-data.co.uk
+2021-05-13,2021,Valladolid,Villarreal,0,2,3,6,football-data.co.uk
+2021-05-13,2021,Eibar,Betis,1,1,5,4,football-data.co.uk
+2021-05-13,2021,Granada,Real Madrid,1,4,2,3,football-data.co.uk
+2021-05-16,2021,Cadiz,Elche,1,3,1,8,football-data.co.uk
+2021-05-21,2021,Levante,Cadiz,2,2,7,0,football-data.co.uk
+2021-05-22,2021,Huesca,Valencia,0,0,9,3,football-data.co.uk
+2021-05-22,2021,Eibar,Barcelona,0,1,6,3,football-data.co.uk
+2021-05-22,2021,Elche,Ath Bilbao,2,0,3,1,football-data.co.uk
+2021-05-22,2021,Valladolid,Ath Madrid,1,2,4,6,football-data.co.uk
+2021-05-23,2021,Granada,Getafe,0,0,6,3,football-data.co.uk
+2021-08-14,2122,Cadiz,Levante,1,1,2,4,football-data.co.uk
+2021-08-16,2122,Elche,Ath Bilbao,0,0,6,8,football-data.co.uk
+2021-08-21,2122,Granada,Valencia,1,1,2,6,football-data.co.uk
+2021-08-22,2122,Levante,Real Madrid,3,3,4,6,football-data.co.uk
+2021-08-28,2122,Elche,Sevilla,1,1,5,3,football-data.co.uk
+2021-08-29,2122,Cadiz,Osasuna,2,3,4,11,football-data.co.uk
+2021-09-11,2122,Levante,Vallecano,1,1,2,5,football-data.co.uk
+2021-09-12,2122,Cadiz,Sociedad,0,2,2,8,football-data.co.uk
+2021-09-13,2122,Granada,Betis,1,2,6,8,football-data.co.uk
+2021-09-18,2122,Elche,Levante,1,1,4,7,football-data.co.uk
+2021-09-21,2122,Levante,Celta,0,2,2,4,football-data.co.uk
+2021-09-23,2122,Granada,Sociedad,2,3,4,7,football-data.co.uk
+2021-09-23,2122,Cadiz,Barcelona,0,0,4,5,football-data.co.uk
+2021-10-02,2122,Cadiz,Valencia,0,0,1,3,football-data.co.uk
+2021-10-03,2122,Elche,Celta,1,0,7,4,football-data.co.uk
+2021-10-03,2122,Granada,Sevilla,1,0,2,6,football-data.co.uk
+2021-10-16,2122,Levante,Getafe,0,0,3,11,football-data.co.uk
+2021-10-23,2122,Cadiz,Alaves,0,2,14,3,football-data.co.uk
+2021-10-23,2122,Elche,Espanol,2,2,3,7,football-data.co.uk
+2021-10-28,2122,Granada,Getafe,1,1,5,0,football-data.co.uk
+2021-10-28,2122,Levante,Ath Madrid,2,2,5,2,football-data.co.uk
+2021-10-30,2122,Elche,Real Madrid,1,2,5,4,football-data.co.uk
+2021-10-31,2122,Cadiz,Mallorca,1,1,6,5,football-data.co.uk
+2021-11-01,2122,Levante,Granada,0,3,3,5,football-data.co.uk
+2021-11-19,2122,Levante,Ath Bilbao,0,0,6,3,football-data.co.uk
+2021-11-21,2122,Granada,Real Madrid,1,4,9,6,football-data.co.uk
+2021-11-21,2122,Elche,Betis,0,3,10,1,football-data.co.uk
+2021-11-28,2122,Cadiz,Ath Madrid,1,4,4,8,football-data.co.uk
+2021-12-03,2122,Granada,Alaves,2,1,3,5,football-data.co.uk
+2021-12-05,2122,Elche,Cadiz,3,1,3,3,football-data.co.uk
+2021-12-05,2122,Levante,Osasuna,0,0,7,2,football-data.co.uk
+2021-12-13,2122,Cadiz,Granada,1,1,8,1,football-data.co.uk
+2021-12-19,2122,Granada,Mallorca,4,1,4,2,football-data.co.uk
+2021-12-20,2122,Levante,Valencia,3,4,6,4,football-data.co.uk
+2021-12-22,2122,Granada,Ath Madrid,2,1,2,7,football-data.co.uk
+2022-01-02,2122,Elche,Granada,0,0,6,3,football-data.co.uk
+2022-01-03,2122,Cadiz,Sevilla,0,1,2,8,football-data.co.uk
+2022-01-08,2122,Levante,Mallorca,2,0,5,5,football-data.co.uk
+2022-01-08,2122,Granada,Barcelona,1,1,3,2,football-data.co.uk
+2022-01-16,2122,Elche,Villarreal,1,0,3,8,football-data.co.uk
+2022-01-18,2122,Cadiz,Espanol,2,2,3,2,football-data.co.uk
+2022-01-22,2122,Levante,Cadiz,0,2,8,2,football-data.co.uk
+2022-01-23,2122,Granada,Osasuna,0,2,4,3,football-data.co.uk
+2022-02-05,2122,Elche,Alaves,3,1,7,3,football-data.co.uk
+2022-02-12,2122,Cadiz,Celta,0,0,3,3,football-data.co.uk
+2022-02-13,2122,Levante,Betis,2,4,5,7,football-data.co.uk
+2022-02-18,2122,Elche,Vallecano,2,1,2,3,football-data.co.uk
+2022-02-19,2122,Granada,Villarreal,1,4,9,2,football-data.co.uk
+2022-02-19,2122,Cadiz,Getafe,1,1,7,2,football-data.co.uk
+2022-02-25,2122,Levante,Elche,3,0,3,3,football-data.co.uk
+2022-02-28,2122,Granada,Cadiz,0,0,0,4,football-data.co.uk
+2022-03-06,2122,Cadiz,Vallecano,2,0,5,6,football-data.co.uk
+2022-03-06,2122,Elche,Barcelona,1,2,5,6,football-data.co.uk
+2022-03-12,2122,Levante,Espanol,1,1,8,2,football-data.co.uk
+2022-03-12,2122,Granada,Elche,0,1,3,3,football-data.co.uk
+2022-03-19,2122,Elche,Valencia,0,1,4,2,football-data.co.uk
+2022-03-20,2122,Cadiz,Villarreal,1,0,6,3,football-data.co.uk
+2022-04-02,2122,Levante,Villarreal,2,0,1,8,football-data.co.uk
+2022-04-03,2122,Granada,Vallecano,2,2,5,4,football-data.co.uk
+2022-04-09,2122,Cadiz,Betis,1,2,8,4,football-data.co.uk
+2022-04-10,2122,Elche,Sociedad,1,2,8,9,football-data.co.uk
+2022-04-10,2122,Levante,Barcelona,2,3,4,3,football-data.co.uk
+2022-04-16,2122,Elche,Mallorca,3,0,2,1,football-data.co.uk
+2022-04-17,2122,Granada,Levante,1,4,13,2,football-data.co.uk
+2022-04-21,2122,Espanol,Vallecano,0,1,3,10,football-data.co.uk
+2022-04-21,2122,Levante,Sevilla,2,3,10,4,football-data.co.uk
+2022-04-21,2122,Cadiz,Ath Bilbao,2,3,4,1,football-data.co.uk
+2022-04-30,2122,Alaves,Villarreal,2,1,5,8,football-data.co.uk
+2022-05-01,2122,Granada,Celta,1,1,5,4,football-data.co.uk
+2022-05-01,2122,Elche,Osasuna,1,1,7,4,football-data.co.uk
+2022-05-06,2122,Levante,Sociedad,2,1,7,6,football-data.co.uk
+2022-05-07,2122,Cadiz,Elche,3,0,8,1,football-data.co.uk
+2022-05-08,2122,Espanol,Osasuna,1,1,6,6,football-data.co.uk
+2022-05-10,2122,Granada,Ath Bilbao,1,0,2,7,football-data.co.uk
+2022-05-11,2122,Alaves,Espanol,2,1,12,3,football-data.co.uk
+2022-05-11,2122,Elche,Ath Madrid,0,2,6,3,football-data.co.uk
+2022-05-14,2122,Espanol,Valencia,1,1,2,3,football-data.co.uk
+2022-05-15,2122,Cadiz,Real Madrid,1,1,10,2,football-data.co.uk
+2022-05-15,2122,Levante,Alaves,3,1,3,4,football-data.co.uk
+2022-05-22,2122,Granada,Espanol,0,0,7,3,football-data.co.uk
+2022-05-22,2122,Alaves,Cadiz,0,1,4,4,football-data.co.uk
+2022-05-22,2122,Elche,Getafe,3,1,8,3,football-data.co.uk
+2022-08-13,2223,Valladolid,Villarreal,0,3,4,5,football-data.co.uk
+2022-08-14,2223,Cadiz,Sociedad,0,1,3,6,football-data.co.uk
+2022-08-14,2223,Almeria,Real Madrid,1,2,2,15,football-data.co.uk
+2022-08-19,2223,Espanol,Vallecano,0,2,9,2,football-data.co.uk
+2022-08-22,2223,Elche,Almeria,1,1,6,5,football-data.co.uk
+2022-08-27,2223,Almeria,Sevilla,2,1,5,2,football-data.co.uk
+2022-08-27,2223,Elche,Sociedad,0,1,4,6,football-data.co.uk
+2022-08-28,2223,Espanol,Real Madrid,1,3,7,7,football-data.co.uk
+2022-08-29,2223,Cadiz,Ath Bilbao,0,4,0,6,football-data.co.uk
+2022-09-05,2223,Valladolid,Almeria,1,0,2,8,football-data.co.uk
+2022-09-10,2223,Espanol,Sevilla,2,3,9,3,football-data.co.uk
+2022-09-10,2223,Cadiz,Barcelona,0,4,5,6,football-data.co.uk
+2022-09-11,2223,Elche,Ath Bilbao,1,4,5,5,football-data.co.uk
+2022-09-12,2223,Almeria,Osasuna,0,1,5,10,football-data.co.uk
+2022-09-16,2223,Valladolid,Cadiz,0,1,8,2,football-data.co.uk
+2022-10-01,2223,Cadiz,Villarreal,0,0,6,5,football-data.co.uk
+2022-10-02,2223,Espanol,Valencia,2,2,6,4,football-data.co.uk
+2022-10-08,2223,Almeria,Vallecano,3,1,7,6,football-data.co.uk
+2022-10-09,2223,Valladolid,Betis,0,0,3,1,football-data.co.uk
+2022-10-09,2223,Cadiz,Espanol,2,2,8,3,football-data.co.uk
+2022-10-10,2223,Elche,Mallorca,1,1,5,7,football-data.co.uk
+2022-10-16,2223,Espanol,Valladolid,1,0,6,4,football-data.co.uk
+2022-10-19,2223,Elche,Real Madrid,0,3,8,2,football-data.co.uk
+2022-10-19,2223,Cadiz,Betis,0,0,4,9,football-data.co.uk
+2022-10-19,2223,Valladolid,Celta,4,1,3,7,football-data.co.uk
+2022-10-20,2223,Almeria,Girona,3,2,4,5,football-data.co.uk
+2022-10-22,2223,Valladolid,Sociedad,1,0,4,10,football-data.co.uk
+2022-10-23,2223,Espanol,Elche,2,2,5,3,football-data.co.uk
+2022-10-29,2223,Almeria,Celta,3,1,6,4,football-data.co.uk
+2022-10-29,2223,Cadiz,Ath Madrid,3,2,5,3,football-data.co.uk
+2022-10-31,2223,Elche,Getafe,0,1,6,2,football-data.co.uk
+2022-11-05,2223,Valladolid,Elche,2,1,8,4,football-data.co.uk
+2022-11-08,2223,Elche,Girona,1,2,2,5,football-data.co.uk
+2022-11-09,2223,Almeria,Getafe,1,0,7,6,football-data.co.uk
+2022-11-09,2223,Espanol,Villarreal,0,1,4,7,football-data.co.uk
+2022-12-30,2223,Cadiz,Almeria,1,1,3,2,football-data.co.uk
+2022-12-30,2223,Valladolid,Real Madrid,0,2,5,9,football-data.co.uk
+2023-01-06,2223,Elche,Celta,0,1,8,4,football-data.co.uk
+2023-01-07,2223,Espanol,Girona,2,2,5,2,football-data.co.uk
+2023-01-08,2223,Almeria,Sociedad,0,2,4,2,football-data.co.uk
+2023-01-14,2223,Valladolid,Vallecano,0,1,4,8,football-data.co.uk
+2023-01-15,2223,Almeria,Ath Madrid,1,1,3,4,football-data.co.uk
+2023-01-16,2223,Cadiz,Elche,1,1,3,6,football-data.co.uk
+2023-01-21,2223,Espanol,Betis,1,0,7,4,football-data.co.uk
+2023-01-22,2223,Elche,Osasuna,1,1,7,2,football-data.co.uk
+2023-01-27,2223,Almeria,Espanol,3,1,2,2,football-data.co.uk
+2023-01-28,2223,Cadiz,Mallorca,2,0,6,2,football-data.co.uk
+2023-01-29,2223,Valladolid,Valencia,1,0,4,7,football-data.co.uk
+2023-02-04,2223,Espanol,Osasuna,1,1,4,3,football-data.co.uk
+2023-02-04,2223,Elche,Villarreal,3,1,6,10,football-data.co.uk
+2023-02-10,2223,Cadiz,Girona,2,0,5,6,football-data.co.uk
+2023-02-11,2223,Almeria,Betis,2,3,8,2,football-data.co.uk
+2023-02-12,2223,Valladolid,Osasuna,0,0,10,4,football-data.co.uk
+2023-02-13,2223,Espanol,Sociedad,2,3,4,3,football-data.co.uk
+2023-02-19,2223,Elche,Espanol,0,1,10,5,football-data.co.uk
+2023-02-24,2223,Elche,Betis,2,3,3,3,football-data.co.uk
+2023-02-25,2223,Cadiz,Vallecano,1,0,4,6,football-data.co.uk
+2023-02-25,2223,Espanol,Mallorca,2,1,0,4,football-data.co.uk
+2023-02-26,2223,Almeria,Barcelona,1,0,4,7,football-data.co.uk
+2023-03-04,2223,Almeria,Villarreal,0,2,2,10,football-data.co.uk
+2023-03-05,2223,Valladolid,Espanol,2,1,9,6,football-data.co.uk
+2023-03-10,2223,Cadiz,Getafe,2,2,2,6,football-data.co.uk
+2023-03-11,2223,Elche,Valladolid,1,1,10,3,football-data.co.uk
+2023-03-17,2223,Valladolid,Ath Bilbao,1,3,2,9,football-data.co.uk
+2023-03-18,2223,Almeria,Cadiz,1,1,5,2,football-data.co.uk
+2023-03-18,2223,Espanol,Celta,1,3,4,1,football-data.co.uk
+2023-04-01,2223,Cadiz,Sevilla,0,2,8,4,football-data.co.uk
+2023-04-01,2223,Elche,Barcelona,0,4,11,3,football-data.co.uk
+2023-04-08,2223,Espanol,Ath Bilbao,1,2,8,7,football-data.co.uk
+2023-04-09,2223,Valladolid,Mallorca,3,3,1,2,football-data.co.uk
+2023-04-09,2223,Almeria,Valencia,2,1,3,7,football-data.co.uk
+2023-04-15,2223,Cadiz,Real Madrid,0,2,2,9,football-data.co.uk
+2023-04-21,2223,Espanol,Cadiz,0,0,6,3,football-data.co.uk
+2023-04-22,2223,Valladolid,Girona,1,0,5,7,football-data.co.uk
+2023-04-22,2223,Almeria,Ath Bilbao,1,2,3,4,football-data.co.uk
+2023-04-23,2223,Elche,Valencia,0,2,11,6,football-data.co.uk
+2023-04-25,2223,Cadiz,Osasuna,0,1,11,2,football-data.co.uk
+2023-04-29,2223,Elche,Vallecano,4,0,3,8,football-data.co.uk
+2023-04-30,2223,Cadiz,Valencia,2,1,5,6,football-data.co.uk
+2023-04-30,2223,Espanol,Getafe,1,0,6,3,football-data.co.uk
+2023-04-30,2223,Valladolid,Ath Madrid,2,5,9,1,football-data.co.uk
+2023-05-02,2223,Barcelona,Osasuna,1,0,11,0,football-data.co.uk
+2023-05-02,2223,Almeria,Elche,2,1,7,13,football-data.co.uk
+2023-05-03,2223,Ath Madrid,Cadiz,5,1,5,2,football-data.co.uk
+2023-05-03,2223,Getafe,Celta,1,0,1,5,football-data.co.uk
+2023-05-03,2223,Valencia,Villarreal,1,1,6,6,football-data.co.uk
+2023-05-04,2223,Girona,Mallorca,2,1,9,5,football-data.co.uk
+2023-05-04,2223,Sevilla,Espanol,3,2,9,0,football-data.co.uk
+2023-05-04,2223,Ath Bilbao,Betis,0,1,13,2,football-data.co.uk
+2023-05-04,2223,Vallecano,Valladolid,2,1,3,4,football-data.co.uk
+2023-05-12,2223,Mallorca,Cadiz,1,0,3,7,football-data.co.uk
+2023-05-13,2223,Sociedad,Girona,2,2,7,4,football-data.co.uk
+2023-05-13,2223,Osasuna,Almeria,3,1,4,1,football-data.co.uk
+2023-05-13,2223,Villarreal,Ath Bilbao,5,1,7,5,football-data.co.uk
+2023-05-13,2223,Real Madrid,Getafe,1,0,1,3,football-data.co.uk
+2023-05-14,2223,Espanol,Barcelona,2,4,4,3,football-data.co.uk
+2023-05-14,2223,Valladolid,Sevilla,0,3,8,3,football-data.co.uk
+2023-05-14,2223,Elche,Ath Madrid,1,0,3,5,football-data.co.uk
+2023-05-14,2223,Celta,Valencia,1,2,5,4,football-data.co.uk
+2023-05-15,2223,Betis,Vallecano,3,1,6,5,football-data.co.uk
+2023-05-19,2223,Cadiz,Valladolid,2,0,4,3,football-data.co.uk
+2023-05-20,2223,Girona,Villarreal,1,2,3,1,football-data.co.uk
+2023-05-20,2223,Ath Bilbao,Celta,2,1,8,5,football-data.co.uk
+2023-05-20,2223,Almeria,Mallorca,3,0,4,6,football-data.co.uk
+2023-05-20,2223,Barcelona,Sociedad,1,2,8,2,football-data.co.uk
+2023-05-20,2223,Getafe,Elche,1,1,5,6,football-data.co.uk
+2023-05-21,2223,Sevilla,Betis,0,0,4,3,football-data.co.uk
+2023-05-21,2223,Valencia,Real Madrid,1,0,2,9,football-data.co.uk
+2023-05-21,2223,Ath Madrid,Osasuna,3,0,8,10,football-data.co.uk
+2023-05-21,2223,Vallecano,Espanol,1,2,4,4,football-data.co.uk
+2023-05-23,2223,Celta,Girona,1,1,9,3,football-data.co.uk
+2023-05-23,2223,Sociedad,Almeria,1,0,10,2,football-data.co.uk
+2023-05-23,2223,Valladolid,Barcelona,3,1,2,6,football-data.co.uk
+2023-05-24,2223,Elche,Sevilla,1,1,9,5,football-data.co.uk
+2023-05-24,2223,Real Madrid,Vallecano,2,1,5,2,football-data.co.uk
+2023-05-24,2223,Villarreal,Cadiz,2,0,7,6,football-data.co.uk
+2023-05-24,2223,Betis,Getafe,0,1,2,5,football-data.co.uk
+2023-05-24,2223,Espanol,Ath Madrid,3,3,16,1,football-data.co.uk
+2023-05-25,2223,Mallorca,Valencia,1,0,2,4,football-data.co.uk
+2023-05-25,2223,Osasuna,Ath Bilbao,2,0,3,6,football-data.co.uk
+2023-05-27,2223,Sevilla,Real Madrid,1,2,1,1,football-data.co.uk
+2023-05-28,2223,Getafe,Osasuna,2,1,1,1,football-data.co.uk
+2023-05-28,2223,Girona,Betis,1,2,8,5,football-data.co.uk
+2023-05-28,2223,Cadiz,Celta,1,0,3,3,football-data.co.uk
+2023-05-28,2223,Valencia,Espanol,2,2,10,3,football-data.co.uk
+2023-05-28,2223,Ath Madrid,Sociedad,2,1,6,4,football-data.co.uk
+2023-05-28,2223,Ath Bilbao,Elche,0,1,19,3,football-data.co.uk
+2023-05-28,2223,Almeria,Valladolid,0,0,2,4,football-data.co.uk
+2023-05-28,2223,Barcelona,Mallorca,3,0,14,3,football-data.co.uk
+2023-05-28,2223,Vallecano,Villarreal,2,1,4,6,football-data.co.uk
+2023-06-04,2223,Valladolid,Getafe,0,0,6,1,football-data.co.uk
+2023-06-04,2223,Elche,Cadiz,1,1,7,4,football-data.co.uk
+2023-06-04,2223,Celta,Barcelona,2,1,2,4,football-data.co.uk
+2023-06-04,2223,Betis,Valencia,1,1,5,4,football-data.co.uk
+2023-06-04,2223,Villarreal,Ath Madrid,2,2,12,1,football-data.co.uk
+2023-06-04,2223,Sociedad,Sevilla,2,1,5,2,football-data.co.uk
+2023-06-04,2223,Real Madrid,Ath Bilbao,1,1,5,6,football-data.co.uk
+2023-06-04,2223,Osasuna,Girona,2,1,5,2,football-data.co.uk
+2023-06-04,2223,Mallorca,Vallecano,3,0,2,6,football-data.co.uk
+2023-06-04,2223,Espanol,Almeria,3,3,7,6,football-data.co.uk
+2023-08-11,2324,Almeria,Vallecano,0,2,8,3,football-data.co.uk
+2023-08-11,2324,Sevilla,Valencia,1,2,8,1,football-data.co.uk
+2023-08-12,2324,Las Palmas,Mallorca,1,1,3,6,football-data.co.uk
+2023-08-12,2324,Ath Bilbao,Real Madrid,0,2,7,5,football-data.co.uk
+2023-08-12,2324,Sociedad,Girona,1,1,4,1,football-data.co.uk
+2023-08-13,2324,Celta,Osasuna,0,2,7,2,football-data.co.uk
+2023-08-13,2324,Villarreal,Betis,1,2,9,4,football-data.co.uk
+2023-08-13,2324,Getafe,Barcelona,0,0,3,4,football-data.co.uk
+2023-08-14,2324,Cadiz,Alaves,1,0,2,4,football-data.co.uk
+2023-08-14,2324,Ath Madrid,Granada,3,1,3,3,football-data.co.uk
+2023-08-18,2324,Mallorca,Villarreal,0,1,6,5,football-data.co.uk
+2023-08-18,2324,Valencia,Las Palmas,1,0,6,4,football-data.co.uk
+2023-08-19,2324,Sociedad,Celta,1,1,9,7,football-data.co.uk
+2023-08-19,2324,Almeria,Real Madrid,1,3,4,5,football-data.co.uk
+2023-08-19,2324,Osasuna,Ath Bilbao,0,2,5,3,football-data.co.uk
+2023-08-20,2324,Betis,Ath Madrid,0,0,2,7,football-data.co.uk
+2023-08-20,2324,Girona,Getafe,3,0,3,2,football-data.co.uk
+2023-08-20,2324,Barcelona,Cadiz,2,0,10,2,football-data.co.uk
+2023-08-21,2324,Granada,Vallecano,0,2,5,6,football-data.co.uk
+2023-08-21,2324,Alaves,Sevilla,4,3,4,4,football-data.co.uk
+2023-08-25,2324,Las Palmas,Sociedad,0,0,5,7,football-data.co.uk
+2023-08-25,2324,Celta,Real Madrid,0,1,3,5,football-data.co.uk
+2023-08-26,2324,Cadiz,Almeria,1,1,7,3,football-data.co.uk
+2023-08-26,2324,Granada,Mallorca,3,2,5,3,football-data.co.uk
+2023-08-26,2324,Sevilla,Girona,1,2,6,6,football-data.co.uk
+2023-08-27,2324,Villarreal,Barcelona,3,4,2,6,football-data.co.uk
+2023-08-27,2324,Valencia,Osasuna,1,2,6,3,football-data.co.uk
+2023-08-27,2324,Ath Bilbao,Betis,4,2,5,3,football-data.co.uk
+2023-08-28,2324,Getafe,Alaves,1,0,4,5,football-data.co.uk
+2023-08-28,2324,Vallecano,Ath Madrid,0,7,8,3,football-data.co.uk
+2023-09-01,2324,Cadiz,Villarreal,3,1,7,3,football-data.co.uk
+2023-09-01,2324,Almeria,Celta,2,3,6,5,football-data.co.uk
+2023-09-02,2324,Betis,Vallecano,1,0,2,3,football-data.co.uk
+2023-09-02,2324,Alaves,Valencia,1,0,1,2,football-data.co.uk
+2023-09-02,2324,Sociedad,Granada,5,3,2,5,football-data.co.uk
+2023-09-02,2324,Real Madrid,Getafe,2,1,11,1,football-data.co.uk
+2023-09-03,2324,Girona,Las Palmas,1,0,3,5,football-data.co.uk
+2023-09-03,2324,Mallorca,Ath Bilbao,0,0,3,5,football-data.co.uk
+2023-09-03,2324,Osasuna,Barcelona,1,2,8,5,football-data.co.uk
+2023-09-15,2324,Vallecano,Alaves,2,0,5,3,football-data.co.uk
+2023-09-16,2324,Ath Bilbao,Cadiz,3,0,5,4,football-data.co.uk
+2023-09-16,2324,Valencia,Ath Madrid,3,0,5,8,football-data.co.uk
+2023-09-16,2324,Celta,Mallorca,0,1,10,1,football-data.co.uk
+2023-09-16,2324,Barcelona,Betis,5,0,9,5,football-data.co.uk
+2023-09-17,2324,Real Madrid,Sociedad,2,1,4,3,football-data.co.uk
+2023-09-17,2324,Sevilla,Las Palmas,1,0,7,3,football-data.co.uk
+2023-09-17,2324,Getafe,Osasuna,3,2,6,3,football-data.co.uk
+2023-09-17,2324,Villarreal,Almeria,2,1,7,6,football-data.co.uk
+2023-09-18,2324,Granada,Girona,2,4,4,5,football-data.co.uk
+2023-09-22,2324,Alaves,Ath Bilbao,0,2,3,4,football-data.co.uk
+2023-09-23,2324,Girona,Mallorca,5,3,6,5,football-data.co.uk
+2023-09-23,2324,Osasuna,Sevilla,0,0,7,4,football-data.co.uk
+2023-09-23,2324,Barcelona,Celta,3,2,2,3,football-data.co.uk
+2023-09-23,2324,Almeria,Valencia,2,2,8,3,football-data.co.uk
+2023-09-24,2324,Sociedad,Getafe,4,3,2,1,football-data.co.uk
+2023-09-24,2324,Vallecano,Villarreal,1,1,2,8,football-data.co.uk
+2023-09-24,2324,Betis,Cadiz,1,1,11,8,football-data.co.uk
+2023-09-24,2324,Las Palmas,Granada,1,0,6,7,football-data.co.uk
+2023-09-24,2324,Ath Madrid,Real Madrid,3,1,6,11,football-data.co.uk
+2023-09-26,2324,Mallorca,Barcelona,2,2,7,2,football-data.co.uk
+2023-09-26,2324,Sevilla,Almeria,5,1,9,4,football-data.co.uk
+2023-09-27,2324,Ath Bilbao,Getafe,2,2,5,4,football-data.co.uk
+2023-09-27,2324,Real Madrid,Las Palmas,2,0,7,2,football-data.co.uk
+2023-09-27,2324,Villarreal,Girona,1,2,5,6,football-data.co.uk
+2023-09-27,2324,Cadiz,Vallecano,0,0,1,2,football-data.co.uk
+2023-09-27,2324,Valencia,Sociedad,0,1,0,2,football-data.co.uk
+2023-09-28,2324,Celta,Alaves,1,1,2,8,football-data.co.uk
+2023-09-28,2324,Granada,Betis,1,1,5,7,football-data.co.uk
+2023-09-28,2324,Osasuna,Ath Madrid,0,2,7,2,football-data.co.uk
+2023-09-29,2324,Barcelona,Sevilla,1,0,13,3,football-data.co.uk
+2023-09-30,2324,Sociedad,Ath Bilbao,3,0,5,7,football-data.co.uk
+2023-09-30,2324,Girona,Real Madrid,0,3,1,4,football-data.co.uk
+2023-09-30,2324,Getafe,Villarreal,0,0,6,4,football-data.co.uk
+2023-09-30,2324,Vallecano,Mallorca,2,2,5,0,football-data.co.uk
+2023-10-01,2324,Almeria,Granada,3,3,1,5,football-data.co.uk
+2023-10-01,2324,Alaves,Osasuna,0,2,4,2,football-data.co.uk
+2023-10-01,2324,Ath Madrid,Cadiz,3,2,5,3,football-data.co.uk
+2023-10-01,2324,Betis,Valencia,3,0,5,3,football-data.co.uk
+2023-10-02,2324,Las Palmas,Celta,2,1,4,5,football-data.co.uk
+2023-10-06,2324,Ath Bilbao,Almeria,3,0,6,2,football-data.co.uk
+2023-10-07,2324,Sevilla,Vallecano,2,2,12,2,football-data.co.uk
+2023-10-07,2324,Mallorca,Valencia,1,1,3,6,football-data.co.uk
+2023-10-07,2324,Real Madrid,Osasuna,4,0,5,4,football-data.co.uk
+2023-10-07,2324,Cadiz,Girona,0,1,5,5,football-data.co.uk
+2023-10-08,2324,Villarreal,Las Palmas,1,2,7,2,football-data.co.uk
+2023-10-08,2324,Ath Madrid,Sociedad,2,1,1,4,football-data.co.uk
+2023-10-08,2324,Alaves,Betis,1,1,5,3,football-data.co.uk
+2023-10-08,2324,Celta,Getafe,2,2,13,1,football-data.co.uk
+2023-10-08,2324,Granada,Barcelona,2,2,1,11,football-data.co.uk
+2023-10-20,2324,Osasuna,Granada,2,0,1,7,football-data.co.uk
+2023-10-21,2324,Sevilla,Real Madrid,1,1,4,6,football-data.co.uk
+2023-10-21,2324,Celta,Ath Madrid,0,3,7,5,football-data.co.uk
+2023-10-21,2324,Sociedad,Mallorca,1,0,2,5,football-data.co.uk
+2023-10-21,2324,Getafe,Betis,1,1,4,8,football-data.co.uk
+2023-10-22,2324,Girona,Almeria,5,2,9,6,football-data.co.uk
+2023-10-22,2324,Villarreal,Alaves,1,1,9,3,football-data.co.uk
+2023-10-22,2324,Las Palmas,Vallecano,0,1,10,5,football-data.co.uk
+2023-10-22,2324,Barcelona,Ath Bilbao,1,0,4,7,football-data.co.uk
+2023-10-23,2324,Valencia,Cadiz,2,0,4,6,football-data.co.uk
+2023-10-27,2324,Girona,Celta,1,0,10,1,football-data.co.uk
+2023-10-28,2324,Almeria,Las Palmas,1,2,3,2,football-data.co.uk
+2023-10-28,2324,Barcelona,Real Madrid,1,2,6,3,football-data.co.uk
+2023-10-28,2324,Mallorca,Getafe,0,0,8,3,football-data.co.uk
+2023-10-28,2324,Cadiz,Sevilla,2,2,2,4,football-data.co.uk
+2023-10-29,2324,Ath Madrid,Alaves,2,1,4,4,football-data.co.uk
+2023-10-29,2324,Betis,Osasuna,2,1,6,3,football-data.co.uk
+2023-10-29,2324,Ath Bilbao,Valencia,2,2,10,4,football-data.co.uk
+2023-10-29,2324,Vallecano,Sociedad,2,2,4,5,football-data.co.uk
+2023-10-30,2324,Granada,Villarreal,2,3,4,1,football-data.co.uk
+2023-11-03,2324,Las Palmas,Ath Madrid,2,1,3,4,football-data.co.uk
+2023-11-04,2324,Osasuna,Girona,2,4,2,7,football-data.co.uk
+2023-11-04,2324,Betis,Mallorca,2,0,6,1,football-data.co.uk
+2023-11-04,2324,Celta,Sevilla,1,1,4,6,football-data.co.uk
+2023-11-04,2324,Sociedad,Barcelona,0,1,8,3,football-data.co.uk
+2023-11-05,2324,Real Madrid,Vallecano,0,0,11,1,football-data.co.uk
+2023-11-05,2324,Valencia,Granada,1,0,0,4,football-data.co.uk
+2023-11-05,2324,Alaves,Almeria,1,0,12,6,football-data.co.uk
+2023-11-05,2324,Villarreal,Ath Bilbao,2,3,9,3,football-data.co.uk
+2023-11-06,2324,Getafe,Cadiz,1,0,6,3,football-data.co.uk
+2023-11-10,2324,Ath Bilbao,Celta,4,3,7,2,football-data.co.uk
+2023-11-11,2324,Vallecano,Girona,1,2,8,3,football-data.co.uk
+2023-11-11,2324,Almeria,Sociedad,1,3,5,5,football-data.co.uk
+2023-11-11,2324,Granada,Getafe,1,1,3,5,football-data.co.uk
+2023-11-11,2324,Osasuna,Las Palmas,1,1,8,3,football-data.co.uk
+2023-11-11,2324,Real Madrid,Valencia,5,1,4,4,football-data.co.uk
+2023-11-12,2324,Barcelona,Alaves,2,1,2,1,football-data.co.uk
+2023-11-12,2324,Sevilla,Betis,1,1,9,5,football-data.co.uk
+2023-11-12,2324,Ath Madrid,Villarreal,3,1,6,3,football-data.co.uk
+2023-11-24,2324,Alaves,Granada,3,1,6,2,football-data.co.uk
+2023-11-25,2324,Ath Madrid,Mallorca,1,0,7,3,football-data.co.uk
+2023-11-25,2324,Valencia,Celta,0,0,5,7,football-data.co.uk
+2023-11-25,2324,Getafe,Almeria,2,1,3,6,football-data.co.uk
+2023-11-25,2324,Vallecano,Barcelona,1,1,1,4,football-data.co.uk
+2023-11-26,2324,Betis,Las Palmas,1,0,7,6,football-data.co.uk
+2023-11-26,2324,Sociedad,Sevilla,2,1,4,4,football-data.co.uk
+2023-11-26,2324,Villarreal,Osasuna,3,1,2,4,football-data.co.uk
+2023-11-26,2324,Cadiz,Real Madrid,0,3,4,4,football-data.co.uk
+2023-11-27,2324,Girona,Ath Bilbao,1,1,2,6,football-data.co.uk
+2023-11-29,2324,Mallorca,Cadiz,1,1,7,0,football-data.co.uk
+2023-12-01,2324,Las Palmas,Getafe,2,0,4,4,football-data.co.uk
+2023-12-02,2324,Girona,Valencia,2,1,3,2,football-data.co.uk
+2023-12-02,2324,Ath Bilbao,Vallecano,4,0,7,2,football-data.co.uk
+2023-12-02,2324,Real Madrid,Granada,2,0,6,0,football-data.co.uk
+2023-12-02,2324,Osasuna,Sociedad,1,1,1,8,football-data.co.uk
+2023-12-03,2324,Mallorca,Alaves,0,0,5,4,football-data.co.uk
+2023-12-03,2324,Almeria,Betis,0,0,4,6,football-data.co.uk
+2023-12-03,2324,Sevilla,Villarreal,1,1,8,4,football-data.co.uk
+2023-12-03,2324,Barcelona,Ath Madrid,1,0,7,2,football-data.co.uk
+2023-12-04,2324,Celta,Cadiz,1,1,12,1,football-data.co.uk
+2023-12-08,2324,Getafe,Valencia,1,0,7,0,football-data.co.uk
+2023-12-09,2324,Betis,Real Madrid,1,1,8,6,football-data.co.uk
+2023-12-09,2324,Villarreal,Sociedad,0,3,5,3,football-data.co.uk
+2023-12-09,2324,Mallorca,Sevilla,1,0,4,12,football-data.co.uk
+2023-12-09,2324,Alaves,Las Palmas,0,1,12,3,football-data.co.uk
+2023-12-10,2324,Ath Madrid,Almeria,2,1,3,15,football-data.co.uk
+2023-12-10,2324,Cadiz,Osasuna,1,1,2,4,football-data.co.uk
+2023-12-10,2324,Barcelona,Girona,2,4,8,3,football-data.co.uk
+2023-12-11,2324,Granada,Ath Bilbao,1,1,1,8,football-data.co.uk
+2023-12-11,2324,Vallecano,Celta,0,0,8,1,football-data.co.uk
+2023-12-15,2324,Osasuna,Vallecano,1,0,9,1,football-data.co.uk
+2023-12-16,2324,Celta,Granada,1,0,7,1,football-data.co.uk
+2023-12-16,2324,Ath Bilbao,Ath Madrid,2,0,3,7,football-data.co.uk
+2023-12-16,2324,Sevilla,Getafe,0,3,4,2,football-data.co.uk
+2023-12-16,2324,Valencia,Barcelona,1,1,4,6,football-data.co.uk
+2023-12-17,2324,Sociedad,Betis,0,0,3,7,football-data.co.uk
+2023-12-17,2324,Real Madrid,Villarreal,4,1,11,0,football-data.co.uk
+2023-12-17,2324,Las Palmas,Cadiz,1,1,4,6,football-data.co.uk
+2023-12-17,2324,Almeria,Mallorca,0,0,4,4,football-data.co.uk
+2023-12-18,2324,Girona,Alaves,3,0,3,2,football-data.co.uk
+2023-12-19,2324,Vallecano,Valencia,0,1,8,1,football-data.co.uk
+2023-12-19,2324,Ath Madrid,Getafe,3,3,1,12,football-data.co.uk
+2023-12-19,2324,Granada,Sevilla,0,3,6,4,football-data.co.uk
+2023-12-20,2324,Barcelona,Almeria,3,2,12,0,football-data.co.uk
+2023-12-20,2324,Ath Bilbao,Las Palmas,1,0,5,2,football-data.co.uk
+2023-12-20,2324,Villarreal,Celta,3,2,4,7,football-data.co.uk
+2023-12-21,2324,Alaves,Real Madrid,0,1,3,3,football-data.co.uk
+2023-12-21,2324,Mallorca,Osasuna,3,2,6,0,football-data.co.uk
+2023-12-21,2324,Betis,Girona,1,1,7,6,football-data.co.uk
+2023-12-21,2324,Cadiz,Sociedad,0,0,7,5,football-data.co.uk
+2023-12-23,2324,Ath Madrid,Sevilla,1,0,6,5,football-data.co.uk
+2024-01-02,2324,Getafe,Vallecano,0,2,2,3,football-data.co.uk
+2024-01-02,2324,Sociedad,Alaves,1,1,6,4,football-data.co.uk
+2024-01-02,2324,Valencia,Villarreal,3,1,4,3,football-data.co.uk
+2024-01-03,2324,Granada,Cadiz,2,0,5,6,football-data.co.uk
+2024-01-03,2324,Celta,Betis,2,1,8,7,football-data.co.uk
+2024-01-03,2324,Real Madrid,Mallorca,1,0,5,4,football-data.co.uk
+2024-01-03,2324,Girona,Ath Madrid,4,3,7,8,football-data.co.uk
+2024-01-04,2324,Sevilla,Ath Bilbao,0,2,5,4,football-data.co.uk
+2024-01-04,2324,Osasuna,Almeria,1,0,5,4,football-data.co.uk
+2024-01-04,2324,Las Palmas,Barcelona,1,2,5,10,football-data.co.uk
+2024-01-12,2324,Sevilla,Alaves,2,3,5,4,football-data.co.uk
+2024-01-13,2324,Las Palmas,Villarreal,3,0,4,6,football-data.co.uk
+2024-01-13,2324,Mallorca,Celta,1,1,10,1,football-data.co.uk
+2024-01-13,2324,Ath Bilbao,Sociedad,2,1,5,5,football-data.co.uk
+2024-01-13,2324,Betis,Granada,1,0,13,1,football-data.co.uk
+2024-01-14,2324,Almeria,Girona,0,0,4,3,football-data.co.uk
+2024-01-14,2324,Cadiz,Valencia,1,4,3,1,football-data.co.uk
+2024-01-19,2324,Alaves,Cadiz,1,0,4,4,football-data.co.uk
+2024-01-20,2324,Valencia,Ath Bilbao,1,0,4,2,football-data.co.uk
+2024-01-20,2324,Celta,Sociedad,0,1,6,3,football-data.co.uk
+2024-01-20,2324,Vallecano,Las Palmas,0,2,12,0,football-data.co.uk
+2024-01-20,2324,Villarreal,Mallorca,1,1,4,6,football-data.co.uk
+2024-01-21,2324,Osasuna,Getafe,3,2,1,4,football-data.co.uk
+2024-01-21,2324,Real Madrid,Almeria,3,2,6,3,football-data.co.uk
+2024-01-21,2324,Betis,Barcelona,2,4,3,4,football-data.co.uk
+2024-01-21,2324,Girona,Sevilla,5,1,4,5,football-data.co.uk
+2024-01-22,2324,Granada,Ath Madrid,0,1,6,2,football-data.co.uk
+2024-01-26,2324,Almeria,Alaves,0,3,11,3,football-data.co.uk
+2024-01-27,2324,Sociedad,Vallecano,0,0,2,2,football-data.co.uk
+2024-01-27,2324,Las Palmas,Real Madrid,1,2,1,6,football-data.co.uk
+2024-01-27,2324,Barcelona,Villarreal,3,5,10,0,football-data.co.uk
+2024-01-27,2324,Mallorca,Betis,0,1,5,4,football-data.co.uk
+2024-01-28,2324,Ath Madrid,Valencia,2,0,3,6,football-data.co.uk
+2024-01-28,2324,Sevilla,Osasuna,1,1,2,4,football-data.co.uk
+2024-01-28,2324,Celta,Girona,0,1,5,7,football-data.co.uk
+2024-01-28,2324,Cadiz,Ath Bilbao,0,0,6,8,football-data.co.uk
+2024-01-29,2324,Getafe,Granada,2,0,4,3,football-data.co.uk
+2024-01-31,2324,Barcelona,Osasuna,1,0,6,6,football-data.co.uk
+2024-01-31,2324,Ath Madrid,Vallecano,2,1,5,6,football-data.co.uk
+2024-02-01,2324,Getafe,Real Madrid,0,2,2,6,football-data.co.uk
+2024-02-02,2324,Ath Bilbao,Mallorca,4,0,6,2,football-data.co.uk
+2024-02-03,2324,Girona,Sociedad,0,0,3,4,football-data.co.uk
+2024-02-03,2324,Alaves,Barcelona,1,3,14,5,football-data.co.uk
+2024-02-03,2324,Valencia,Almeria,2,1,0,6,football-data.co.uk
+2024-02-03,2324,Granada,Las Palmas,1,1,2,9,football-data.co.uk
+2024-02-04,2324,Real Madrid,Ath Madrid,1,1,2,8,football-data.co.uk
+2024-02-04,2324,Villarreal,Cadiz,0,0,13,2,football-data.co.uk
+2024-02-04,2324,Osasuna,Celta,0,3,9,1,football-data.co.uk
+2024-02-04,2324,Betis,Getafe,1,1,3,5,football-data.co.uk
+2024-02-05,2324,Vallecano,Sevilla,1,2,6,0,football-data.co.uk
+2024-02-09,2324,Cadiz,Betis,0,2,5,3,football-data.co.uk
+2024-02-10,2324,Alaves,Villarreal,1,1,10,9,football-data.co.uk
+2024-02-10,2324,Sociedad,Osasuna,0,1,7,4,football-data.co.uk
+2024-02-10,2324,Real Madrid,Girona,4,0,0,2,football-data.co.uk
+2024-02-10,2324,Las Palmas,Valencia,2,0,5,0,football-data.co.uk
+2024-02-11,2324,Barcelona,Granada,3,3,6,2,football-data.co.uk
+2024-02-11,2324,Sevilla,Ath Madrid,1,0,2,7,football-data.co.uk
+2024-02-11,2324,Mallorca,Vallecano,2,1,5,1,football-data.co.uk
+2024-02-11,2324,Getafe,Celta,3,2,0,4,football-data.co.uk
+2024-02-12,2324,Almeria,Ath Bilbao,0,0,4,10,football-data.co.uk
+2024-02-16,2324,Villarreal,Getafe,1,1,8,3,football-data.co.uk
+2024-02-17,2324,Ath Madrid,Las Palmas,5,0,3,5,football-data.co.uk
+2024-02-17,2324,Osasuna,Cadiz,2,0,5,4,football-data.co.uk
+2024-02-17,2324,Celta,Barcelona,1,2,2,5,football-data.co.uk
+2024-02-17,2324,Valencia,Sevilla,0,0,7,2,football-data.co.uk
+2024-02-18,2324,Betis,Alaves,0,0,6,8,football-data.co.uk
+2024-02-18,2324,Granada,Almeria,1,1,10,4,football-data.co.uk
+2024-02-18,2324,Mallorca,Sociedad,1,2,3,9,football-data.co.uk
+2024-02-18,2324,Vallecano,Real Madrid,1,1,4,10,football-data.co.uk
+2024-02-19,2324,Ath Bilbao,Girona,3,2,3,4,football-data.co.uk
+2024-02-23,2324,Sociedad,Villarreal,1,3,13,2,football-data.co.uk
+2024-02-24,2324,Alaves,Mallorca,1,1,3,3,football-data.co.uk
+2024-02-24,2324,Barcelona,Getafe,4,0,5,8,football-data.co.uk
+2024-02-24,2324,Almeria,Ath Madrid,2,2,2,7,football-data.co.uk
+2024-02-25,2324,Cadiz,Celta,2,2,9,1,football-data.co.uk
+2024-02-25,2324,Betis,Ath Bilbao,3,1,5,3,football-data.co.uk
+2024-02-25,2324,Las Palmas,Osasuna,1,1,6,7,football-data.co.uk
+2024-02-25,2324,Real Madrid,Sevilla,1,0,7,2,football-data.co.uk
+2024-02-26,2324,Girona,Vallecano,3,0,2,2,football-data.co.uk
+2024-03-01,2324,Celta,Almeria,1,0,7,0,football-data.co.uk
+2024-03-02,2324,Sevilla,Sociedad,3,2,2,5,football-data.co.uk
+2024-03-02,2324,Vallecano,Cadiz,1,1,4,9,football-data.co.uk
+2024-03-02,2324,Getafe,Las Palmas,3,3,4,4,football-data.co.uk
+2024-03-02,2324,Valencia,Real Madrid,2,2,2,2,football-data.co.uk
+2024-03-03,2324,Ath Bilbao,Barcelona,0,0,4,4,football-data.co.uk
+2024-03-03,2324,Ath Madrid,Betis,2,1,4,6,football-data.co.uk
+2024-03-03,2324,Mallorca,Girona,1,0,8,5,football-data.co.uk
+2024-03-03,2324,Villarreal,Granada,5,1,6,4,football-data.co.uk
+2024-03-04,2324,Osasuna,Alaves,1,0,5,5,football-data.co.uk
+2024-03-08,2324,Barcelona,Mallorca,1,0,4,1,football-data.co.uk
+2024-03-09,2324,Valencia,Getafe,1,0,5,5,football-data.co.uk
+2024-03-09,2324,Cadiz,Ath Madrid,2,0,3,1,football-data.co.uk
+2024-03-09,2324,Granada,Sociedad,2,3,4,6,football-data.co.uk
+2024-03-09,2324,Girona,Osasuna,2,0,5,7,football-data.co.uk
+2024-03-10,2324,Alaves,Vallecano,1,0,7,5,football-data.co.uk
+2024-03-10,2324,Las Palmas,Ath Bilbao,0,2,10,3,football-data.co.uk
+2024-03-10,2324,Real Madrid,Celta,4,0,12,1,football-data.co.uk
+2024-03-10,2324,Betis,Villarreal,2,3,11,4,football-data.co.uk
+2024-03-11,2324,Almeria,Sevilla,2,2,1,8,football-data.co.uk
+2024-03-15,2324,Sociedad,Cadiz,2,0,8,2,football-data.co.uk
+2024-03-16,2324,Mallorca,Granada,1,0,10,2,football-data.co.uk
+2024-03-16,2324,Osasuna,Real Madrid,2,4,5,7,football-data.co.uk
+2024-03-16,2324,Getafe,Girona,1,0,2,5,football-data.co.uk
+2024-03-16,2324,Ath Bilbao,Alaves,2,0,5,4,football-data.co.uk
+2024-03-17,2324,Sevilla,Celta,1,2,3,8,football-data.co.uk
+2024-03-17,2324,Las Palmas,Almeria,0,1,11,3,football-data.co.uk
+2024-03-17,2324,Villarreal,Valencia,1,0,6,2,football-data.co.uk
+2024-03-17,2324,Vallecano,Betis,2,0,4,8,football-data.co.uk
+2024-03-17,2324,Ath Madrid,Barcelona,0,3,7,3,football-data.co.uk
+2024-03-29,2324,Cadiz,Granada,1,0,5,2,football-data.co.uk
+2024-03-30,2324,Valencia,Mallorca,0,0,3,3,football-data.co.uk
+2024-03-30,2324,Barcelona,Las Palmas,1,0,6,1,football-data.co.uk
+2024-03-30,2324,Getafe,Sevilla,0,1,7,3,football-data.co.uk
+2024-03-30,2324,Almeria,Osasuna,0,3,6,1,football-data.co.uk
+2024-03-31,2324,Celta,Vallecano,0,0,3,2,football-data.co.uk
+2024-03-31,2324,Girona,Betis,3,2,5,4,football-data.co.uk
+2024-03-31,2324,Alaves,Sociedad,0,1,3,8,football-data.co.uk
+2024-03-31,2324,Real Madrid,Ath Bilbao,2,0,4,7,football-data.co.uk
+2024-04-01,2324,Villarreal,Ath Madrid,1,2,3,3,football-data.co.uk
+2024-04-04,2324,Granada,Valencia,0,1,5,4,football-data.co.uk
+2024-04-12,2324,Betis,Celta,2,1,6,5,football-data.co.uk
+2024-04-13,2324,Ath Madrid,Girona,3,1,2,0,football-data.co.uk
+2024-04-13,2324,Vallecano,Getafe,0,0,3,0,football-data.co.uk
+2024-04-13,2324,Mallorca,Real Madrid,0,1,4,2,football-data.co.uk
+2024-04-13,2324,Cadiz,Barcelona,0,1,8,4,football-data.co.uk
+2024-04-14,2324,Sociedad,Almeria,2,2,5,1,football-data.co.uk
+2024-04-14,2324,Ath Bilbao,Villarreal,1,1,3,1,football-data.co.uk
+2024-04-14,2324,Las Palmas,Sevilla,0,2,6,2,football-data.co.uk
+2024-04-14,2324,Granada,Alaves,2,0,1,5,football-data.co.uk
+2024-04-15,2324,Osasuna,Valencia,0,1,4,1,football-data.co.uk
+2024-04-19,2324,Ath Bilbao,Granada,1,1,11,4,football-data.co.uk
+2024-04-20,2324,Celta,Las Palmas,4,1,8,4,football-data.co.uk
+2024-04-20,2324,Vallecano,Osasuna,2,1,5,1,football-data.co.uk
+2024-04-20,2324,Valencia,Betis,1,2,7,6,football-data.co.uk
+2024-04-20,2324,Girona,Cadiz,4,1,2,4,football-data.co.uk
+2024-04-21,2324,Real Madrid,Barcelona,3,2,2,8,football-data.co.uk
+2024-04-21,2324,Getafe,Sociedad,1,1,0,4,football-data.co.uk
+2024-04-21,2324,Almeria,Villarreal,1,2,5,2,football-data.co.uk
+2024-04-21,2324,Alaves,Ath Madrid,2,0,1,11,football-data.co.uk
+2024-04-22,2324,Sevilla,Mallorca,2,1,4,4,football-data.co.uk
+2024-04-26,2324,Sociedad,Real Madrid,0,1,11,3,football-data.co.uk
+2024-04-27,2324,Las Palmas,Girona,0,2,4,2,football-data.co.uk
+2024-04-27,2324,Almeria,Getafe,1,3,9,2,football-data.co.uk
+2024-04-27,2324,Alaves,Celta,3,0,8,3,football-data.co.uk
+2024-04-27,2324,Ath Madrid,Ath Bilbao,3,1,3,5,football-data.co.uk
+2024-04-28,2324,Cadiz,Mallorca,1,1,3,1,football-data.co.uk
+2024-04-28,2324,Granada,Osasuna,3,0,0,6,football-data.co.uk
+2024-04-28,2324,Villarreal,Vallecano,3,0,3,6,football-data.co.uk
+2024-04-28,2324,Betis,Sevilla,1,1,4,6,football-data.co.uk
+2024-04-29,2324,Barcelona,Valencia,4,2,15,1,football-data.co.uk
+2024-05-03,2324,Getafe,Ath Bilbao,0,2,10,6,football-data.co.uk
+2024-05-04,2324,Girona,Barcelona,4,2,5,4,football-data.co.uk
+2024-05-04,2324,Mallorca,Ath Madrid,0,1,6,2,football-data.co.uk
+2024-05-04,2324,Sociedad,Las Palmas,2,0,7,2,football-data.co.uk
+2024-05-04,2324,Real Madrid,Cadiz,3,0,7,4,football-data.co.uk
+2024-05-05,2324,Osasuna,Betis,0,2,8,5,football-data.co.uk
+2024-05-05,2324,Celta,Villarreal,3,2,2,1,football-data.co.uk
+2024-05-05,2324,Valencia,Alaves,0,1,5,7,football-data.co.uk
+2024-05-05,2324,Sevilla,Granada,3,0,5,4,football-data.co.uk
+2024-05-05,2324,Vallecano,Almeria,0,1,9,2,football-data.co.uk
+2024-05-10,2324,Alaves,Girona,2,2,5,3,football-data.co.uk
+2024-05-11,2324,Mallorca,Las Palmas,1,0,2,2,football-data.co.uk
+2024-05-11,2324,Villarreal,Sevilla,3,2,10,1,football-data.co.uk
+2024-05-11,2324,Granada,Real Madrid,0,4,8,5,football-data.co.uk
+2024-05-11,2324,Ath Bilbao,Osasuna,2,2,8,6,football-data.co.uk
+2024-05-12,2324,Cadiz,Getafe,1,0,6,2,football-data.co.uk
+2024-05-12,2324,Ath Madrid,Celta,1,0,4,7,football-data.co.uk
+2024-05-12,2324,Valencia,Vallecano,0,0,6,3,football-data.co.uk
+2024-05-12,2324,Betis,Almeria,3,2,3,5,football-data.co.uk
+2024-05-13,2324,Barcelona,Sociedad,2,0,6,2,football-data.co.uk
+2024-05-14,2324,Osasuna,Mallorca,1,1,2,4,football-data.co.uk
+2024-05-14,2324,Real Madrid,Alaves,5,0,4,1,football-data.co.uk
+2024-05-14,2324,Girona,Villarreal,0,1,5,1,football-data.co.uk
+2024-05-15,2324,Sevilla,Cadiz,0,1,1,9,football-data.co.uk
+2024-05-15,2324,Vallecano,Granada,2,1,6,6,football-data.co.uk
+2024-05-15,2324,Celta,Ath Bilbao,2,1,2,3,football-data.co.uk
+2024-05-15,2324,Getafe,Ath Madrid,0,3,6,3,football-data.co.uk
+2024-05-16,2324,Las Palmas,Betis,2,2,4,8,football-data.co.uk
+2024-05-16,2324,Almeria,Barcelona,0,2,4,7,football-data.co.uk
+2024-05-16,2324,Sociedad,Valencia,1,0,3,3,football-data.co.uk
+2024-05-18,2324,Alaves,Getafe,1,0,2,1,football-data.co.uk
+2024-05-19,2324,Villarreal,Real Madrid,4,4,3,3,football-data.co.uk
+2024-05-19,2324,Valencia,Girona,1,3,5,4,football-data.co.uk
+2024-05-19,2324,Mallorca,Almeria,2,2,12,2,football-data.co.uk
+2024-05-19,2324,Granada,Celta,1,2,10,2,football-data.co.uk
+2024-05-19,2324,Barcelona,Vallecano,3,0,7,5,football-data.co.uk
+2024-05-19,2324,Betis,Sociedad,0,2,6,2,football-data.co.uk
+2024-05-19,2324,Cadiz,Las Palmas,0,0,5,3,football-data.co.uk
+2024-05-19,2324,Ath Madrid,Osasuna,1,4,7,5,football-data.co.uk
+2024-05-19,2324,Ath Bilbao,Sevilla,2,0,8,3,football-data.co.uk
+2024-05-24,2324,Girona,Granada,7,0,4,2,football-data.co.uk
+2024-05-25,2324,Osasuna,Villarreal,1,1,6,4,football-data.co.uk
+2024-05-25,2324,Sociedad,Ath Madrid,0,2,8,4,football-data.co.uk
+2024-05-25,2324,Almeria,Cadiz,6,1,1,4,football-data.co.uk
+2024-05-25,2324,Vallecano,Ath Bilbao,0,1,8,2,football-data.co.uk
+2024-05-25,2324,Real Madrid,Betis,0,0,4,5,football-data.co.uk
+2024-05-26,2324,Las Palmas,Alaves,1,1,2,6,football-data.co.uk
+2024-05-26,2324,Sevilla,Barcelona,1,2,6,5,football-data.co.uk
+2024-05-26,2324,Getafe,Mallorca,1,2,3,4,football-data.co.uk
+2024-05-26,2324,Celta,Valencia,2,2,2,2,football-data.co.uk
+2024-08-15,2425,Betis,Girona,1,1,4,4,football-data.co.uk
+2024-08-15,2425,Ath Bilbao,Getafe,1,1,5,6,football-data.co.uk
+2024-08-16,2425,Celta,Alaves,2,1,3,3,football-data.co.uk
+2024-08-16,2425,Las Palmas,Sevilla,2,2,6,3,football-data.co.uk
+2024-08-17,2425,Osasuna,Leganes,1,1,6,4,football-data.co.uk
+2024-08-17,2425,Valencia,Barcelona,1,2,3,8,football-data.co.uk
+2024-08-18,2425,Sociedad,Vallecano,1,2,10,5,football-data.co.uk
+2024-08-18,2425,Mallorca,Real Madrid,1,1,8,7,football-data.co.uk
+2024-08-19,2425,Valladolid,Espanol,1,0,3,2,football-data.co.uk
+2024-08-19,2425,Villarreal,Ath Madrid,2,2,2,3,football-data.co.uk
+2024-08-23,2425,Celta,Valencia,3,1,4,7,football-data.co.uk
+2024-08-23,2425,Sevilla,Villarreal,1,2,7,2,football-data.co.uk
+2024-08-24,2425,Getafe,Vallecano,0,0,3,2,football-data.co.uk
+2024-08-24,2425,Espanol,Sociedad,0,1,7,4,football-data.co.uk
+2024-08-24,2425,Osasuna,Mallorca,1,0,5,4,football-data.co.uk
+2024-08-24,2425,Barcelona,Ath Bilbao,2,1,5,6,football-data.co.uk
+2024-08-25,2425,Leganes,Las Palmas,2,1,3,7,football-data.co.uk
+2024-08-25,2425,Alaves,Betis,0,0,3,8,football-data.co.uk
+2024-08-25,2425,Ath Madrid,Girona,3,0,1,9,football-data.co.uk
+2024-08-25,2425,Real Madrid,Valladolid,3,0,5,5,football-data.co.uk
+2024-08-26,2425,Villarreal,Celta,4,3,7,4,football-data.co.uk
+2024-08-27,2425,Mallorca,Sevilla,0,0,5,9,football-data.co.uk
+2024-08-27,2425,Vallecano,Barcelona,1,2,6,6,football-data.co.uk
+2024-08-28,2425,Ath Bilbao,Valencia,1,0,5,3,football-data.co.uk
+2024-08-28,2425,Valladolid,Leganes,0,0,4,4,football-data.co.uk
+2024-08-28,2425,Ath Madrid,Espanol,0,0,9,3,football-data.co.uk
+2024-08-28,2425,Sociedad,Alaves,1,2,8,6,football-data.co.uk
+2024-08-29,2425,Girona,Osasuna,4,0,5,0,football-data.co.uk
+2024-08-29,2425,Las Palmas,Real Madrid,1,1,2,6,football-data.co.uk
+2024-08-31,2425,Valencia,Villarreal,1,1,14,3,football-data.co.uk
+2024-08-31,2425,Leganes,Mallorca,0,1,1,3,football-data.co.uk
+2024-08-31,2425,Barcelona,Valladolid,7,0,10,1,football-data.co.uk
+2024-08-31,2425,Ath Bilbao,Ath Madrid,0,1,2,2,football-data.co.uk
+2024-08-31,2425,Espanol,Vallecano,2,1,3,7,football-data.co.uk
+2024-09-01,2425,Alaves,Las Palmas,2,0,6,5,football-data.co.uk
+2024-09-01,2425,Osasuna,Celta,3,2,6,3,football-data.co.uk
+2024-09-01,2425,Sevilla,Girona,0,2,7,5,football-data.co.uk
+2024-09-01,2425,Getafe,Sociedad,0,0,4,1,football-data.co.uk
+2024-09-01,2425,Real Madrid,Betis,2,0,7,3,football-data.co.uk
+2024-09-13,2425,Betis,Leganes,2,0,11,1,football-data.co.uk
+2024-09-14,2425,Sevilla,Getafe,1,0,3,4,football-data.co.uk
+2024-09-14,2425,Sociedad,Real Madrid,0,2,6,6,football-data.co.uk
+2024-09-14,2425,Mallorca,Villarreal,1,2,7,6,football-data.co.uk
+2024-09-14,2425,Espanol,Alaves,3,2,0,5,football-data.co.uk
+2024-09-15,2425,Celta,Valladolid,3,1,5,3,football-data.co.uk
+2024-09-15,2425,Girona,Barcelona,1,4,1,6,football-data.co.uk
+2024-09-15,2425,Las Palmas,Ath Bilbao,2,3,9,3,football-data.co.uk
+2024-09-15,2425,Ath Madrid,Valencia,3,0,7,3,football-data.co.uk
+2024-09-16,2425,Vallecano,Osasuna,3,1,7,4,football-data.co.uk
+2024-09-17,2425,Mallorca,Sociedad,1,0,5,5,football-data.co.uk
+2024-09-18,2425,Betis,Getafe,2,1,8,4,football-data.co.uk
+2024-09-19,2425,Leganes,Ath Bilbao,0,2,4,7,football-data.co.uk
+2024-09-20,2425,Alaves,Sevilla,2,1,3,5,football-data.co.uk
+2024-09-21,2425,Valladolid,Sociedad,0,0,5,7,football-data.co.uk
+2024-09-21,2425,Osasuna,Las Palmas,2,1,2,4,football-data.co.uk
+2024-09-21,2425,Valencia,Girona,2,0,5,4,football-data.co.uk
+2024-09-21,2425,Real Madrid,Espanol,4,1,9,4,football-data.co.uk
+2024-09-22,2425,Vallecano,Ath Madrid,1,1,3,4,football-data.co.uk
+2024-09-22,2425,Getafe,Leganes,1,1,6,2,football-data.co.uk
+2024-09-22,2425,Ath Bilbao,Celta,3,1,3,6,football-data.co.uk
+2024-09-22,2425,Villarreal,Barcelona,1,5,7,3,football-data.co.uk
+2024-09-23,2425,Betis,Mallorca,1,2,6,3,football-data.co.uk
+2024-09-24,2425,Sevilla,Valladolid,2,1,6,4,football-data.co.uk
+2024-09-24,2425,Valencia,Osasuna,0,0,10,5,football-data.co.uk
+2024-09-24,2425,Real Madrid,Alaves,3,2,4,4,football-data.co.uk
+2024-09-25,2425,Girona,Vallecano,0,0,4,3,football-data.co.uk
+2024-09-25,2425,Barcelona,Getafe,1,0,7,5,football-data.co.uk
+2024-09-26,2425,Espanol,Villarreal,1,2,4,1,football-data.co.uk
+2024-09-26,2425,Las Palmas,Betis,1,1,1,4,football-data.co.uk
+2024-09-26,2425,Celta,Ath Madrid,0,1,2,3,football-data.co.uk
+2024-09-27,2425,Valladolid,Mallorca,1,2,7,4,football-data.co.uk
+2024-09-28,2425,Osasuna,Barcelona,4,2,5,8,football-data.co.uk
+2024-09-28,2425,Vallecano,Leganes,1,1,5,5,football-data.co.uk
+2024-09-28,2425,Getafe,Alaves,2,0,2,2,football-data.co.uk
+2024-09-28,2425,Sociedad,Valencia,3,0,6,4,football-data.co.uk
+2024-09-29,2425,Celta,Girona,1,1,4,4,football-data.co.uk
+2024-09-29,2425,Ath Bilbao,Sevilla,1,1,4,7,football-data.co.uk
+2024-09-29,2425,Betis,Espanol,1,0,8,4,football-data.co.uk
+2024-09-29,2425,Ath Madrid,Real Madrid,1,1,5,5,football-data.co.uk
+2024-09-30,2425,Villarreal,Las Palmas,3,1,3,2,football-data.co.uk
+2024-10-04,2425,Leganes,Valencia,0,0,1,2,football-data.co.uk
+2024-10-05,2425,Espanol,Mallorca,2,1,4,6,football-data.co.uk
+2024-10-05,2425,Getafe,Osasuna,1,1,4,2,football-data.co.uk
+2024-10-05,2425,Las Palmas,Celta,0,1,11,2,football-data.co.uk
+2024-10-05,2425,Valladolid,Vallecano,1,2,5,13,football-data.co.uk
+2024-10-05,2425,Real Madrid,Villarreal,2,0,2,5,football-data.co.uk
+2024-10-06,2425,Sociedad,Ath Madrid,1,1,5,1,football-data.co.uk
+2024-10-06,2425,Sevilla,Betis,1,0,4,1,football-data.co.uk
+2024-10-06,2425,Girona,Ath Bilbao,2,1,6,1,football-data.co.uk
+2024-10-06,2425,Alaves,Barcelona,0,3,11,3,football-data.co.uk
+2024-10-18,2425,Alaves,Valladolid,2,3,5,6,football-data.co.uk
+2024-10-19,2425,Ath Bilbao,Espanol,4,1,5,5,football-data.co.uk
+2024-10-19,2425,Osasuna,Betis,1,2,10,2,football-data.co.uk
+2024-10-19,2425,Girona,Sociedad,0,1,6,6,football-data.co.uk
+2024-10-19,2425,Celta,Real Madrid,1,2,6,2,football-data.co.uk
+2024-10-20,2425,Mallorca,Vallecano,1,0,9,2,football-data.co.uk
+2024-10-20,2425,Ath Madrid,Leganes,3,1,8,2,football-data.co.uk
+2024-10-20,2425,Villarreal,Getafe,1,1,5,5,football-data.co.uk
+2024-10-20,2425,Barcelona,Sevilla,5,1,5,5,football-data.co.uk
+2024-10-21,2425,Valencia,Las Palmas,2,3,11,2,football-data.co.uk
+2024-10-25,2425,Espanol,Sevilla,0,2,13,2,football-data.co.uk
+2024-10-26,2425,Real Madrid,Barcelona,0,4,10,3,football-data.co.uk
+2024-10-26,2425,Valladolid,Villarreal,1,2,4,6,football-data.co.uk
+2024-10-26,2425,Vallecano,Alaves,1,0,6,2,football-data.co.uk
+2024-10-26,2425,Las Palmas,Girona,1,0,3,5,football-data.co.uk
+2024-10-27,2425,Leganes,Celta,3,0,4,2,football-data.co.uk
+2024-10-27,2425,Getafe,Valencia,1,1,8,2,football-data.co.uk
+2024-10-27,2425,Betis,Ath Madrid,1,0,3,10,football-data.co.uk
+2024-10-27,2425,Sociedad,Osasuna,0,2,14,4,football-data.co.uk
+2024-10-28,2425,Mallorca,Ath Bilbao,0,0,1,14,football-data.co.uk
+2024-11-01,2425,Alaves,Mallorca,1,0,7,2,football-data.co.uk
+2024-11-02,2425,Osasuna,Valladolid,1,0,7,2,football-data.co.uk
+2024-11-02,2425,Girona,Leganes,4,3,6,1,football-data.co.uk
+2024-11-03,2425,Sevilla,Sociedad,0,2,5,9,football-data.co.uk
+2024-11-03,2425,Ath Bilbao,Betis,1,1,6,2,football-data.co.uk
+2024-11-03,2425,Ath Madrid,Las Palmas,2,0,9,1,football-data.co.uk
+2024-11-03,2425,Barcelona,Espanol,3,1,9,5,football-data.co.uk
+2024-11-04,2425,Celta,Getafe,1,0,0,2,football-data.co.uk
+2024-11-08,2425,Vallecano,Las Palmas,1,3,12,4,football-data.co.uk
+2024-11-09,2425,Real Madrid,Osasuna,4,0,11,3,football-data.co.uk
+2024-11-09,2425,Villarreal,Alaves,3,0,7,2,football-data.co.uk
+2024-11-09,2425,Leganes,Sevilla,1,0,0,6,football-data.co.uk
+2024-11-10,2425,Betis,Celta,2,2,2,0,football-data.co.uk
+2024-11-10,2425,Mallorca,Ath Madrid,0,1,7,2,football-data.co.uk
+2024-11-10,2425,Getafe,Girona,0,1,5,2,football-data.co.uk
+2024-11-10,2425,Valladolid,Ath Bilbao,1,1,5,5,football-data.co.uk
+2024-11-10,2425,Sociedad,Barcelona,1,0,7,6,football-data.co.uk
+2024-11-22,2425,Getafe,Valladolid,2,0,3,2,football-data.co.uk
+2024-11-23,2425,Las Palmas,Mallorca,2,3,4,3,football-data.co.uk
+2024-11-23,2425,Celta,Barcelona,2,2,5,1,football-data.co.uk
+2024-11-23,2425,Ath Madrid,Alaves,2,1,5,0,football-data.co.uk
+2024-11-23,2425,Girona,Espanol,4,1,6,3,football-data.co.uk
+2024-11-23,2425,Valencia,Betis,4,2,2,4,football-data.co.uk
+2024-11-24,2425,Osasuna,Villarreal,2,2,0,8,football-data.co.uk
+2024-11-24,2425,Sevilla,Vallecano,1,0,8,3,football-data.co.uk
+2024-11-24,2425,Leganes,Real Madrid,0,3,2,4,football-data.co.uk
+2024-11-24,2425,Ath Bilbao,Sociedad,1,0,4,4,football-data.co.uk
+2024-11-29,2425,Mallorca,Valencia,2,1,3,6,football-data.co.uk
+2024-11-30,2425,Barcelona,Las Palmas,1,2,7,0,football-data.co.uk
+2024-11-30,2425,Alaves,Leganes,1,1,13,8,football-data.co.uk
+2024-11-30,2425,Espanol,Celta,3,1,2,5,football-data.co.uk
+2024-11-30,2425,Valladolid,Ath Madrid,0,5,3,5,football-data.co.uk
+2024-12-01,2425,Villarreal,Girona,2,2,1,5,football-data.co.uk
+2024-12-01,2425,Real Madrid,Getafe,2,0,5,3,football-data.co.uk
+2024-12-01,2425,Vallecano,Ath Bilbao,1,2,1,7,football-data.co.uk
+2024-12-01,2425,Sociedad,Betis,2,0,0,4,football-data.co.uk
+2024-12-02,2425,Sevilla,Osasuna,1,1,5,1,football-data.co.uk
+2024-12-03,2425,Mallorca,Barcelona,1,5,2,5,football-data.co.uk
+2024-12-04,2425,Ath Bilbao,Real Madrid,2,1,5,2,football-data.co.uk
+2024-12-06,2425,Celta,Mallorca,2,0,3,3,football-data.co.uk
+2024-12-07,2425,Las Palmas,Valladolid,2,1,3,3,football-data.co.uk
+2024-12-07,2425,Betis,Barcelona,2,2,6,4,football-data.co.uk
+2024-12-07,2425,Valencia,Vallecano,0,1,9,4,football-data.co.uk
+2024-12-07,2425,Girona,Real Madrid,0,3,6,3,football-data.co.uk
+2024-12-08,2425,Leganes,Sociedad,0,3,5,3,football-data.co.uk
+2024-12-08,2425,Ath Bilbao,Villarreal,2,0,3,3,football-data.co.uk
+2024-12-08,2425,Osasuna,Alaves,2,2,8,3,football-data.co.uk
+2024-12-08,2425,Ath Madrid,Sevilla,4,3,5,3,football-data.co.uk
+2024-12-09,2425,Getafe,Espanol,1,0,3,3,football-data.co.uk
+2024-12-13,2425,Valladolid,Valencia,1,0,1,7,football-data.co.uk
+2024-12-14,2425,Vallecano,Real Madrid,3,3,4,3,football-data.co.uk
+2024-12-14,2425,Mallorca,Girona,2,1,2,4,football-data.co.uk
+2024-12-14,2425,Espanol,Osasuna,0,0,5,4,football-data.co.uk
+2024-12-14,2425,Sevilla,Celta,1,0,3,4,football-data.co.uk
+2024-12-15,2425,Ath Madrid,Getafe,1,0,8,3,football-data.co.uk
+2024-12-15,2425,Alaves,Ath Bilbao,1,1,2,4,football-data.co.uk
+2024-12-15,2425,Sociedad,Las Palmas,0,0,8,6,football-data.co.uk
+2024-12-15,2425,Villarreal,Betis,1,2,5,5,football-data.co.uk
+2024-12-15,2425,Barcelona,Leganes,0,1,8,2,football-data.co.uk
+2024-12-18,2425,Espanol,Valencia,1,1,4,7,football-data.co.uk
+2024-12-18,2425,Villarreal,Vallecano,1,1,7,7,football-data.co.uk
+2024-12-20,2425,Girona,Valladolid,3,0,9,1,football-data.co.uk
+2024-12-21,2425,Getafe,Mallorca,0,1,3,0,football-data.co.uk
+2024-12-21,2425,Celta,Sociedad,2,0,5,7,football-data.co.uk
+2024-12-21,2425,Osasuna,Ath Bilbao,1,2,4,4,football-data.co.uk
+2024-12-21,2425,Barcelona,Ath Madrid,1,2,11,3,football-data.co.uk
+2024-12-22,2425,Betis,Vallecano,1,1,5,5,football-data.co.uk
+2024-12-22,2425,Leganes,Villarreal,2,5,1,5,football-data.co.uk
+2024-12-22,2425,Real Madrid,Sevilla,4,2,6,6,football-data.co.uk
+2024-12-22,2425,Valencia,Alaves,2,2,5,4,football-data.co.uk
+2024-12-22,2425,Las Palmas,Espanol,1,0,2,2,football-data.co.uk
+2025-01-03,2425,Valencia,Real Madrid,1,2,2,5,football-data.co.uk
+2025-01-10,2425,Vallecano,Celta,2,1,3,3,football-data.co.uk
+2025-01-11,2425,Alaves,Girona,0,1,6,3,football-data.co.uk
+2025-01-11,2425,Valladolid,Betis,1,0,1,8,football-data.co.uk
+2025-01-11,2425,Espanol,Leganes,1,1,8,4,football-data.co.uk
+2025-01-11,2425,Sevilla,Valencia,1,1,10,1,football-data.co.uk
+2025-01-12,2425,Las Palmas,Getafe,1,2,4,5,football-data.co.uk
+2025-01-12,2425,Ath Madrid,Osasuna,1,0,4,0,football-data.co.uk
+2025-01-13,2425,Sociedad,Villarreal,1,0,3,7,football-data.co.uk
+2025-01-17,2425,Espanol,Valladolid,2,1,1,7,football-data.co.uk
+2025-01-18,2425,Betis,Alaves,1,3,2,3,football-data.co.uk
+2025-01-18,2425,Leganes,Ath Madrid,1,0,2,9,football-data.co.uk
+2025-01-18,2425,Girona,Sevilla,1,2,7,4,football-data.co.uk
+2025-01-18,2425,Getafe,Barcelona,1,1,2,10,football-data.co.uk
+2025-01-19,2425,Valencia,Sociedad,1,0,4,7,football-data.co.uk
+2025-01-19,2425,Celta,Ath Bilbao,1,2,3,4,football-data.co.uk
+2025-01-19,2425,Real Madrid,Las Palmas,4,1,8,2,football-data.co.uk
+2025-01-19,2425,Osasuna,Vallecano,1,1,6,3,football-data.co.uk
+2025-01-20,2425,Villarreal,Mallorca,4,0,6,5,football-data.co.uk
+2025-01-24,2425,Las Palmas,Osasuna,1,1,4,2,football-data.co.uk
+2025-01-25,2425,Mallorca,Betis,0,1,4,4,football-data.co.uk
+2025-01-25,2425,Ath Madrid,Villarreal,1,1,5,6,football-data.co.uk
+2025-01-25,2425,Sevilla,Espanol,1,1,5,1,football-data.co.uk
+2025-01-25,2425,Valladolid,Real Madrid,0,3,1,7,football-data.co.uk
+2025-01-26,2425,Vallecano,Girona,2,1,4,1,football-data.co.uk
+2025-01-26,2425,Ath Bilbao,Leganes,0,0,16,1,football-data.co.uk
+2025-01-26,2425,Barcelona,Valencia,7,1,14,4,football-data.co.uk
+2025-01-26,2425,Sociedad,Getafe,0,3,5,2,football-data.co.uk
+2025-01-27,2425,Alaves,Celta,1,1,3,4,football-data.co.uk
+2025-01-31,2425,Leganes,Vallecano,0,1,2,9,football-data.co.uk
+2025-02-01,2425,Espanol,Real Madrid,1,0,1,8,football-data.co.uk
+2025-02-01,2425,Getafe,Sevilla,0,0,6,5,football-data.co.uk
+2025-02-01,2425,Villarreal,Valladolid,5,1,3,6,football-data.co.uk
+2025-02-01,2425,Ath Madrid,Mallorca,2,0,10,4,football-data.co.uk
+2025-02-02,2425,Betis,Ath Bilbao,2,2,3,7,football-data.co.uk
+2025-02-02,2425,Osasuna,Sociedad,2,1,3,5,football-data.co.uk
+2025-02-02,2425,Barcelona,Alaves,1,0,5,2,football-data.co.uk
+2025-02-02,2425,Valencia,Celta,2,1,5,2,football-data.co.uk
+2025-02-03,2425,Girona,Las Palmas,2,1,11,3,football-data.co.uk
+2025-02-07,2425,Vallecano,Valladolid,1,0,4,2,football-data.co.uk
+2025-02-08,2425,Celta,Betis,3,2,4,7,football-data.co.uk
+2025-02-08,2425,Ath Bilbao,Girona,3,0,11,2,football-data.co.uk
+2025-02-08,2425,Las Palmas,Villarreal,1,2,6,5,football-data.co.uk
+2025-02-08,2425,Real Madrid,Ath Madrid,1,1,6,1,football-data.co.uk
+2025-02-09,2425,Sociedad,Espanol,2,1,6,0,football-data.co.uk
+2025-02-09,2425,Sevilla,Barcelona,1,4,5,6,football-data.co.uk
+2025-02-09,2425,Alaves,Getafe,0,1,8,3,football-data.co.uk
+2025-02-09,2425,Valencia,Leganes,2,0,9,3,football-data.co.uk
+2025-02-10,2425,Mallorca,Osasuna,1,1,7,11,football-data.co.uk
+2025-02-14,2425,Girona,Getafe,1,2,3,3,football-data.co.uk
+2025-02-15,2425,Leganes,Alaves,3,3,3,2,football-data.co.uk
+2025-02-15,2425,Osasuna,Real Madrid,1,1,6,2,football-data.co.uk
+2025-02-15,2425,Ath Madrid,Celta,1,1,2,7,football-data.co.uk
+2025-02-15,2425,Villarreal,Valencia,1,1,4,5,football-data.co.uk
+2025-02-16,2425,Espanol,Ath Bilbao,1,1,2,7,football-data.co.uk
+2025-02-16,2425,Valladolid,Sevilla,0,4,3,2,football-data.co.uk
+2025-02-16,2425,Mallorca,Las Palmas,3,1,3,5,football-data.co.uk
+2025-02-16,2425,Betis,Sociedad,3,0,5,5,football-data.co.uk
+2025-02-17,2425,Barcelona,Vallecano,1,0,4,5,football-data.co.uk
+2025-02-21,2425,Celta,Osasuna,1,0,5,4,football-data.co.uk
+2025-02-22,2425,Alaves,Espanol,0,1,7,0,football-data.co.uk
+2025-02-22,2425,Vallecano,Villarreal,0,1,3,5,football-data.co.uk
+2025-02-22,2425,Valencia,Ath Madrid,0,3,7,0,football-data.co.uk
+2025-02-22,2425,Las Palmas,Barcelona,0,2,5,3,football-data.co.uk
+2025-02-23,2425,Ath Bilbao,Valladolid,7,1,4,4,football-data.co.uk
+2025-02-23,2425,Real Madrid,Girona,2,0,11,5,football-data.co.uk
+2025-02-23,2425,Getafe,Betis,1,2,2,5,football-data.co.uk
+2025-02-23,2425,Sociedad,Leganes,3,0,3,3,football-data.co.uk
+2025-02-24,2425,Sevilla,Mallorca,1,1,4,4,football-data.co.uk
+2025-02-28,2425,Valladolid,Las Palmas,1,1,13,4,football-data.co.uk
+2025-03-01,2425,Ath Madrid,Ath Bilbao,1,0,6,2,football-data.co.uk
+2025-03-01,2425,Vallecano,Sevilla,1,1,6,6,football-data.co.uk
+2025-03-01,2425,Girona,Celta,2,2,4,2,football-data.co.uk
+2025-03-01,2425,Betis,Real Madrid,2,1,9,2,football-data.co.uk
+2025-03-02,2425,Leganes,Getafe,1,0,2,6,football-data.co.uk
+2025-03-02,2425,Barcelona,Sociedad,4,0,12,0,football-data.co.uk
+2025-03-02,2425,Mallorca,Alaves,1,1,3,9,football-data.co.uk
+2025-03-02,2425,Osasuna,Valencia,3,3,3,3,football-data.co.uk
+2025-03-08,2425,Celta,Leganes,2,1,2,5,football-data.co.uk
+2025-03-08,2425,Alaves,Villarreal,1,0,1,6,football-data.co.uk
+2025-03-08,2425,Valencia,Valladolid,2,1,5,4,football-data.co.uk
+2025-03-09,2425,Sociedad,Sevilla,0,1,6,3,football-data.co.uk
+2025-03-09,2425,Betis,Las Palmas,1,0,11,1,football-data.co.uk
+2025-03-09,2425,Getafe,Ath Madrid,2,1,4,4,football-data.co.uk
+2025-03-09,2425,Real Madrid,Vallecano,2,1,4,6,football-data.co.uk
+2025-03-09,2425,Ath Bilbao,Mallorca,1,1,3,3,football-data.co.uk
+2025-03-10,2425,Espanol,Girona,1,1,4,9,football-data.co.uk
+2025-03-14,2425,Las Palmas,Alaves,2,2,4,5,football-data.co.uk
+2025-03-15,2425,Valladolid,Celta,0,1,3,4,football-data.co.uk
+2025-03-15,2425,Mallorca,Espanol,2,1,6,2,football-data.co.uk
+2025-03-15,2425,Villarreal,Real Madrid,1,2,11,4,football-data.co.uk
+2025-03-15,2425,Girona,Valencia,1,1,9,4,football-data.co.uk
+2025-03-16,2425,Ath Madrid,Barcelona,2,4,6,6,football-data.co.uk
+2025-03-16,2425,Vallecano,Sociedad,2,2,4,4,football-data.co.uk
+2025-03-16,2425,Osasuna,Getafe,1,2,3,2,football-data.co.uk
+2025-03-16,2425,Leganes,Betis,2,3,3,7,football-data.co.uk
+2025-03-16,2425,Sevilla,Ath Bilbao,0,1,4,6,football-data.co.uk
+2025-03-27,2425,Barcelona,Osasuna,3,0,8,4,football-data.co.uk
+2025-03-29,2425,Sociedad,Valladolid,2,1,3,6,football-data.co.uk
+2025-03-29,2425,Espanol,Ath Madrid,1,1,4,3,football-data.co.uk
+2025-03-29,2425,Alaves,Vallecano,0,2,8,5,football-data.co.uk
+2025-03-29,2425,Real Madrid,Leganes,3,2,8,3,football-data.co.uk
+2025-03-30,2425,Valencia,Mallorca,1,0,4,5,football-data.co.uk
+2025-03-30,2425,Betis,Sevilla,2,1,2,2,football-data.co.uk
+2025-03-30,2425,Barcelona,Girona,4,1,10,2,football-data.co.uk
+2025-03-30,2425,Ath Bilbao,Osasuna,0,0,3,4,football-data.co.uk
+2025-03-30,2425,Getafe,Villarreal,1,2,3,1,football-data.co.uk
+2025-03-31,2425,Celta,Las Palmas,1,1,4,2,football-data.co.uk
+2025-04-04,2425,Vallecano,Espanol,0,4,8,4,football-data.co.uk
+2025-04-05,2425,Barcelona,Betis,1,1,9,3,football-data.co.uk
+2025-04-05,2425,Girona,Alaves,0,1,1,5,football-data.co.uk
+2025-04-05,2425,Real Madrid,Valencia,1,2,9,4,football-data.co.uk
+2025-04-05,2425,Mallorca,Celta,1,2,4,2,football-data.co.uk
+2025-04-06,2425,Las Palmas,Sociedad,1,3,5,4,football-data.co.uk
+2025-04-06,2425,Sevilla,Ath Madrid,1,2,7,7,football-data.co.uk
+2025-04-06,2425,Valladolid,Getafe,0,4,3,4,football-data.co.uk
+2025-04-06,2425,Villarreal,Ath Bilbao,0,0,6,5,football-data.co.uk
+2025-04-07,2425,Leganes,Osasuna,1,1,4,8,football-data.co.uk
+2025-04-11,2425,Valencia,Sevilla,1,0,3,3,football-data.co.uk
+2025-04-12,2425,Leganes,Barcelona,0,1,4,8,football-data.co.uk
+2025-04-12,2425,Celta,Espanol,0,2,13,5,football-data.co.uk
+2025-04-12,2425,Getafe,Las Palmas,1,3,3,2,football-data.co.uk
+2025-04-12,2425,Sociedad,Mallorca,0,2,8,2,football-data.co.uk
+2025-04-13,2425,Osasuna,Girona,2,1,4,4,football-data.co.uk
+2025-04-13,2425,Alaves,Real Madrid,0,1,4,4,football-data.co.uk
+2025-04-13,2425,Betis,Villarreal,1,2,5,5,football-data.co.uk
+2025-04-13,2425,Ath Bilbao,Vallecano,3,1,7,1,football-data.co.uk
+2025-04-14,2425,Ath Madrid,Valladolid,4,2,5,1,football-data.co.uk
+2025-04-18,2425,Espanol,Getafe,1,0,6,8,football-data.co.uk
+2025-04-19,2425,Las Palmas,Ath Madrid,1,0,4,4,football-data.co.uk
+2025-04-19,2425,Barcelona,Celta,4,3,4,1,football-data.co.uk
+2025-04-19,2425,Vallecano,Valencia,1,1,5,2,football-data.co.uk
+2025-04-19,2425,Mallorca,Leganes,0,0,4,4,football-data.co.uk
+2025-04-20,2425,Valladolid,Osasuna,2,3,5,2,football-data.co.uk
+2025-04-20,2425,Villarreal,Sociedad,2,2,10,4,football-data.co.uk
+2025-04-20,2425,Sevilla,Alaves,1,1,3,6,football-data.co.uk
+2025-04-20,2425,Real Madrid,Ath Bilbao,1,0,14,1,football-data.co.uk
+2025-04-21,2425,Girona,Betis,1,3,8,9,football-data.co.uk
+2025-04-22,2425,Valencia,Espanol,1,1,6,4,football-data.co.uk
+2025-04-22,2425,Barcelona,Mallorca,1,0,13,2,football-data.co.uk
+2025-04-23,2425,Getafe,Real Madrid,0,1,4,4,football-data.co.uk
+2025-04-23,2425,Celta,Villarreal,3,0,6,3,football-data.co.uk
+2025-04-23,2425,Ath Bilbao,Las Palmas,1,0,3,3,football-data.co.uk
+2025-04-23,2425,Alaves,Sociedad,1,0,6,6,football-data.co.uk
+2025-04-24,2425,Leganes,Girona,1,1,4,5,football-data.co.uk
+2025-04-24,2425,Osasuna,Sevilla,1,0,4,4,football-data.co.uk
+2025-04-24,2425,Ath Madrid,Vallecano,3,0,6,3,football-data.co.uk
+2025-04-24,2425,Betis,Valladolid,5,1,4,4,football-data.co.uk
+2025-04-27,2425,Villarreal,Espanol,1,0,8,6,football-data.co.uk
+2025-05-02,2425,Vallecano,Getafe,1,0,7,3,football-data.co.uk
+2025-05-03,2425,Valladolid,Barcelona,1,2,4,8,football-data.co.uk
+2025-05-03,2425,Las Palmas,Valencia,2,3,9,5,football-data.co.uk
+2025-05-03,2425,Villarreal,Osasuna,4,2,2,8,football-data.co.uk
+2025-05-03,2425,Alaves,Ath Madrid,0,0,3,5,football-data.co.uk
+2025-05-04,2425,Sociedad,Ath Bilbao,0,0,7,3,football-data.co.uk
+2025-05-04,2425,Real Madrid,Celta,3,2,4,6,football-data.co.uk
+2025-05-04,2425,Sevilla,Leganes,2,2,8,2,football-data.co.uk
+2025-05-04,2425,Espanol,Betis,1,2,3,7,football-data.co.uk
+2025-05-05,2425,Girona,Mallorca,1,0,5,2,football-data.co.uk
+2025-05-09,2425,Las Palmas,Vallecano,0,1,8,8,football-data.co.uk
+2025-05-10,2425,Valencia,Getafe,3,0,2,6,football-data.co.uk
+2025-05-10,2425,Celta,Sevilla,3,2,3,6,football-data.co.uk
+2025-05-10,2425,Girona,Villarreal,0,1,5,3,football-data.co.uk
+2025-05-10,2425,Mallorca,Valladolid,2,1,5,10,football-data.co.uk
+2025-05-10,2425,Ath Madrid,Sociedad,4,0,3,3,football-data.co.uk
+2025-05-11,2425,Betis,Osasuna,1,1,6,7,football-data.co.uk
+2025-05-11,2425,Barcelona,Real Madrid,4,3,10,2,football-data.co.uk
+2025-05-11,2425,Leganes,Espanol,3,2,3,8,football-data.co.uk
+2025-05-11,2425,Ath Bilbao,Alaves,1,0,9,2,football-data.co.uk
+2025-05-13,2425,Valladolid,Girona,0,1,6,4,football-data.co.uk
+2025-05-13,2425,Sociedad,Celta,0,1,14,1,football-data.co.uk
+2025-05-13,2425,Sevilla,Las Palmas,1,0,4,2,football-data.co.uk
+2025-05-14,2425,Alaves,Valencia,1,0,9,4,football-data.co.uk
+2025-05-14,2425,Villarreal,Leganes,3,0,3,6,football-data.co.uk
+2025-05-14,2425,Real Madrid,Mallorca,2,1,26,0,football-data.co.uk
+2025-05-15,2425,Espanol,Barcelona,0,2,3,3,football-data.co.uk
+2025-05-15,2425,Getafe,Ath Bilbao,0,2,2,5,football-data.co.uk
+2025-05-15,2425,Vallecano,Betis,2,2,10,7,football-data.co.uk
+2025-05-15,2425,Osasuna,Ath Madrid,2,0,3,5,football-data.co.uk
+2025-05-18,2425,Barcelona,Villarreal,2,3,11,3,football-data.co.uk
+2025-05-18,2425,Celta,Vallecano,1,2,9,2,football-data.co.uk
+2025-05-18,2425,Las Palmas,Leganes,0,1,9,2,football-data.co.uk
+2025-05-18,2425,Mallorca,Getafe,1,2,3,4,football-data.co.uk
+2025-05-18,2425,Osasuna,Espanol,2,0,8,6,football-data.co.uk
+2025-05-18,2425,Sevilla,Real Madrid,0,2,1,7,football-data.co.uk
+2025-05-18,2425,Sociedad,Girona,3,2,9,2,football-data.co.uk
+2025-05-18,2425,Valencia,Ath Bilbao,0,1,5,3,football-data.co.uk
+2025-05-18,2425,Valladolid,Alaves,0,1,5,9,football-data.co.uk
+2025-05-18,2425,Ath Madrid,Betis,4,1,7,4,football-data.co.uk
+2025-05-23,2425,Betis,Valencia,1,1,3,2,football-data.co.uk
+2025-05-24,2425,Espanol,Las Palmas,2,0,3,6,football-data.co.uk
+2025-05-24,2425,Leganes,Valladolid,3,0,3,4,football-data.co.uk
+2025-05-24,2425,Alaves,Osasuna,1,1,5,9,football-data.co.uk
+2025-05-24,2425,Getafe,Celta,1,2,2,6,football-data.co.uk
+2025-05-24,2425,Vallecano,Mallorca,0,0,11,2,football-data.co.uk
+2025-05-24,2425,Real Madrid,Sociedad,2,0,11,4,football-data.co.uk
+2025-05-25,2425,Girona,Ath Madrid,0,4,1,8,football-data.co.uk
+2025-05-25,2425,Villarreal,Sevilla,4,2,3,5,football-data.co.uk
+2025-05-25,2425,Ath Bilbao,Barcelona,0,3,2,6,football-data.co.uk
+2025-08-15,2526,Villarreal,Oviedo,2,0,10,1,football-data.co.uk
+2025-08-15,2526,Girona,Vallecano,1,3,2,4,football-data.co.uk
+2025-08-16,2526,Mallorca,Barcelona,0,3,3,6,football-data.co.uk
+2025-08-16,2526,Alaves,Levante,2,1,10,1,football-data.co.uk
+2025-08-16,2526,Valencia,Sociedad,1,1,8,7,football-data.co.uk
+2025-08-17,2526,Celta,Getafe,0,2,9,3,football-data.co.uk
+2025-08-17,2526,Ath Bilbao,Sevilla,3,2,10,1,football-data.co.uk
+2025-08-17,2526,Espanol,Ath Madrid,2,1,1,3,football-data.co.uk
+2025-08-18,2526,Elche,Betis,1,1,1,3,football-data.co.uk
+2025-08-19,2526,Real Madrid,Osasuna,1,0,7,0,football-data.co.uk
+2025-08-22,2526,Betis,Alaves,1,0,5,2,football-data.co.uk
+2025-08-23,2526,Levante,Barcelona,2,3,0,11,football-data.co.uk
+2025-08-23,2526,Ath Madrid,Elche,1,1,10,2,football-data.co.uk
+2025-08-23,2526,Mallorca,Celta,1,1,3,4,football-data.co.uk
+2025-08-24,2526,Osasuna,Valencia,1,0,3,4,football-data.co.uk
+2025-08-24,2526,Sociedad,Espanol,2,2,5,2,football-data.co.uk
+2025-08-24,2526,Villarreal,Girona,5,0,8,1,football-data.co.uk
+2025-08-24,2526,Oviedo,Real Madrid,0,3,1,9,football-data.co.uk
+2025-08-25,2526,Ath Bilbao,Vallecano,1,0,3,6,football-data.co.uk
+2025-08-25,2526,Sevilla,Getafe,1,2,5,3,football-data.co.uk
+2025-08-27,2526,Celta,Betis,1,1,10,4,football-data.co.uk
+2025-08-29,2526,Elche,Levante,2,0,4,2,football-data.co.uk
+2025-08-29,2526,Valencia,Getafe,3,0,8,6,football-data.co.uk
+2025-08-30,2526,Real Madrid,Mallorca,2,1,4,5,football-data.co.uk
+2025-08-30,2526,Girona,Sevilla,0,2,11,3,football-data.co.uk
+2025-08-30,2526,Oviedo,Sociedad,1,0,1,10,football-data.co.uk
+2025-08-30,2526,Alaves,Ath Madrid,1,1,1,6,football-data.co.uk
+2025-08-31,2526,Celta,Villarreal,1,1,1,5,football-data.co.uk
+2025-08-31,2526,Betis,Ath Bilbao,1,2,4,10,football-data.co.uk
+2025-08-31,2526,Espanol,Osasuna,1,0,2,3,football-data.co.uk
+2025-08-31,2526,Vallecano,Barcelona,1,1,9,4,football-data.co.uk
+2025-09-12,2526,Sevilla,Elche,2,2,2,2,football-data.co.uk
+2025-09-13,2526,Ath Madrid,Villarreal,2,0,8,3,football-data.co.uk
+2025-09-13,2526,Ath Bilbao,Alaves,0,1,6,6,football-data.co.uk
+2025-09-13,2526,Sociedad,Real Madrid,1,2,12,4,football-data.co.uk
+2025-09-13,2526,Getafe,Oviedo,2,0,4,3,football-data.co.uk
+2025-09-14,2526,Celta,Girona,1,1,10,3,football-data.co.uk
+2025-09-14,2526,Levante,Betis,2,2,4,12,football-data.co.uk
+2025-09-14,2526,Osasuna,Vallecano,2,0,3,6,football-data.co.uk
+2025-09-14,2526,Barcelona,Valencia,6,0,5,4,football-data.co.uk
+2025-09-15,2526,Espanol,Mallorca,3,2,3,9,football-data.co.uk
+2025-09-19,2526,Betis,Sociedad,3,1,3,5,football-data.co.uk
+2025-09-20,2526,Alaves,Sevilla,1,2,4,4,football-data.co.uk
+2025-09-20,2526,Real Madrid,Espanol,2,0,5,3,football-data.co.uk
+2025-09-20,2526,Villarreal,Osasuna,2,1,7,0,football-data.co.uk
+2025-09-20,2526,Valencia,Ath Bilbao,2,0,5,6,football-data.co.uk
+2025-09-20,2526,Girona,Levante,0,4,5,4,football-data.co.uk
+2025-09-21,2526,Barcelona,Getafe,3,0,3,2,football-data.co.uk
+2025-09-21,2526,Elche,Oviedo,1,0,3,3,football-data.co.uk
+2025-09-21,2526,Vallecano,Celta,1,1,5,7,football-data.co.uk
+2025-09-21,2526,Mallorca,Ath Madrid,1,1,3,6,football-data.co.uk
+2025-09-23,2526,Ath Bilbao,Girona,1,1,8,1,football-data.co.uk
+2025-09-23,2526,Espanol,Valencia,2,2,8,3,football-data.co.uk
+2025-09-23,2526,Levante,Real Madrid,1,4,1,7,football-data.co.uk
+2025-09-23,2526,Sevilla,Villarreal,1,2,3,3,football-data.co.uk
+2025-09-24,2526,Getafe,Alaves,1,1,2,7,football-data.co.uk
+2025-09-24,2526,Ath Madrid,Vallecano,3,2,8,6,football-data.co.uk
+2025-09-24,2526,Sociedad,Mallorca,1,0,11,2,football-data.co.uk
+2025-09-25,2526,Osasuna,Elche,1,1,2,3,football-data.co.uk
+2025-09-25,2526,Oviedo,Barcelona,1,3,6,9,football-data.co.uk
+2025-09-26,2526,Girona,Espanol,0,0,8,4,football-data.co.uk
+2025-09-27,2526,Getafe,Levante,1,1,6,2,football-data.co.uk
+2025-09-27,2526,Ath Madrid,Real Madrid,5,2,7,2,football-data.co.uk
+2025-09-27,2526,Mallorca,Alaves,1,0,4,8,football-data.co.uk
+2025-09-27,2526,Villarreal,Ath Bilbao,1,0,6,5,football-data.co.uk
+2025-09-28,2526,Vallecano,Sevilla,0,1,12,4,football-data.co.uk
+2025-09-28,2526,Betis,Osasuna,2,0,5,5,football-data.co.uk
+2025-09-28,2526,Elche,Celta,2,1,7,2,football-data.co.uk
+2025-09-28,2526,Barcelona,Sociedad,2,1,12,1,football-data.co.uk
+2025-09-30,2526,Valencia,Oviedo,1,2,5,4,football-data.co.uk
+2025-10-03,2526,Osasuna,Getafe,2,1,1,6,football-data.co.uk
+2025-10-04,2526,Oviedo,Levante,0,2,9,3,football-data.co.uk
+2025-10-04,2526,Girona,Valencia,2,1,0,7,football-data.co.uk
+2025-10-04,2526,Ath Bilbao,Mallorca,2,1,7,2,football-data.co.uk
+2025-10-04,2526,Real Madrid,Villarreal,3,1,4,0,football-data.co.uk
+2025-10-05,2526,Sociedad,Vallecano,0,1,7,5,football-data.co.uk
+2025-10-05,2526,Alaves,Elche,3,1,14,4,football-data.co.uk
+2025-10-05,2526,Sevilla,Barcelona,4,1,7,6,football-data.co.uk
+2025-10-05,2526,Espanol,Betis,1,2,10,5,football-data.co.uk
+2025-10-05,2526,Celta,Ath Madrid,1,1,6,3,football-data.co.uk
+2025-10-17,2526,Oviedo,Espanol,0,2,3,5,football-data.co.uk
+2025-10-18,2526,Sevilla,Mallorca,1,3,9,2,football-data.co.uk
+2025-10-18,2526,Barcelona,Girona,2,1,11,5,football-data.co.uk
+2025-10-18,2526,Villarreal,Betis,2,2,5,6,football-data.co.uk
+2025-10-18,2526,Ath Madrid,Osasuna,1,0,4,2,football-data.co.uk
+2025-10-19,2526,Celta,Sociedad,1,1,1,10,football-data.co.uk
+2025-10-19,2526,Getafe,Real Madrid,0,1,1,4,football-data.co.uk
+2025-10-19,2526,Levante,Vallecano,0,3,11,4,football-data.co.uk
+2025-10-19,2526,Elche,Ath Bilbao,0,0,6,2,football-data.co.uk
+2025-10-20,2526,Alaves,Valencia,0,0,7,0,football-data.co.uk
+2025-10-24,2526,Sociedad,Sevilla,2,1,1,9,football-data.co.uk
+2025-10-25,2526,Espanol,Elche,1,0,4,2,football-data.co.uk
+2025-10-25,2526,Ath Bilbao,Getafe,0,1,1,5,football-data.co.uk
+2025-10-25,2526,Girona,Oviedo,3,3,11,4,football-data.co.uk
+2025-10-25,2526,Valencia,Villarreal,0,2,7,5,football-data.co.uk
+2025-10-26,2526,Real Madrid,Barcelona,2,1,12,4,football-data.co.uk
+2025-10-26,2526,Vallecano,Alaves,1,0,7,5,football-data.co.uk
+2025-10-26,2526,Osasuna,Celta,2,3,6,2,football-data.co.uk
+2025-10-26,2526,Mallorca,Levante,1,1,5,4,football-data.co.uk
+2025-10-27,2526,Betis,Ath Madrid,0,2,2,5,football-data.co.uk
+2025-10-31,2526,Getafe,Girona,2,1,8,3,football-data.co.uk
+2025-11-01,2526,Villarreal,Vallecano,4,0,3,5,football-data.co.uk
+2025-11-01,2526,Ath Madrid,Sevilla,3,0,9,4,football-data.co.uk
+2025-11-01,2526,Sociedad,Ath Bilbao,3,2,6,2,football-data.co.uk
+2025-11-01,2526,Real Madrid,Valencia,4,0,7,1,football-data.co.uk
+2025-11-02,2526,Levante,Celta,1,2,4,4,football-data.co.uk
+2025-11-02,2526,Alaves,Espanol,2,1,1,6,football-data.co.uk
+2025-11-02,2526,Barcelona,Elche,3,1,6,3,football-data.co.uk
+2025-11-02,2526,Betis,Mallorca,3,0,4,5,football-data.co.uk
+2025-11-03,2526,Oviedo,Osasuna,0,0,4,2,football-data.co.uk
+2025-11-07,2526,Elche,Sociedad,1,1,1,3,football-data.co.uk
+2025-11-08,2526,Espanol,Villarreal,0,2,4,2,football-data.co.uk
+2025-11-08,2526,Girona,Alaves,1,0,6,1,football-data.co.uk
+2025-11-08,2526,Sevilla,Osasuna,1,0,5,6,football-data.co.uk
+2025-11-08,2526,Ath Madrid,Levante,3,1,21,4,football-data.co.uk
+2025-11-09,2526,Ath Bilbao,Oviedo,1,0,7,4,football-data.co.uk
+2025-11-09,2526,Vallecano,Real Madrid,0,0,5,8,football-data.co.uk
+2025-11-09,2526,Mallorca,Getafe,1,0,1,14,football-data.co.uk
+2025-11-09,2526,Valencia,Betis,1,1,7,2,football-data.co.uk
+2025-11-09,2526,Celta,Barcelona,2,4,2,5,football-data.co.uk
+2025-11-21,2526,Valencia,Levante,1,0,7,0,football-data.co.uk
+2025-11-22,2526,Villarreal,Mallorca,2,1,3,1,football-data.co.uk
+2025-11-22,2526,Barcelona,Ath Bilbao,4,0,5,7,football-data.co.uk
+2025-11-22,2526,Osasuna,Sociedad,1,3,3,3,football-data.co.uk
+2025-11-22,2526,Alaves,Celta,0,1,4,2,football-data.co.uk
+2025-11-23,2526,Oviedo,Vallecano,0,0,5,6,football-data.co.uk
+2025-11-23,2526,Betis,Girona,1,1,8,0,football-data.co.uk
+2025-11-23,2526,Getafe,Ath Madrid,0,1,6,7,football-data.co.uk
+2025-11-23,2526,Elche,Real Madrid,2,2,2,8,football-data.co.uk
+2025-11-24,2526,Espanol,Sevilla,2,1,4,13,football-data.co.uk
+2025-11-28,2526,Getafe,Elche,1,0,3,5,football-data.co.uk
+2025-11-29,2526,Mallorca,Osasuna,2,2,2,8,football-data.co.uk
+2025-11-29,2526,Barcelona,Alaves,3,1,5,4,football-data.co.uk
+2025-11-29,2526,Levante,Ath Bilbao,0,2,4,2,football-data.co.uk
+2025-11-29,2526,Ath Madrid,Oviedo,2,0,7,2,football-data.co.uk
+2025-11-30,2526,Girona,Real Madrid,1,1,2,5,football-data.co.uk
+2025-11-30,2526,Sociedad,Villarreal,2,3,8,2,football-data.co.uk
+2025-11-30,2526,Sevilla,Betis,0,2,6,4,football-data.co.uk
+2025-11-30,2526,Celta,Espanol,0,1,4,3,football-data.co.uk
+2025-12-01,2526,Vallecano,Valencia,1,1,10,5,football-data.co.uk
+2025-12-02,2526,Barcelona,Ath Madrid,3,1,5,4,football-data.co.uk
+2025-12-03,2526,Ath Bilbao,Real Madrid,0,3,5,7,football-data.co.uk
+2025-12-05,2526,Oviedo,Mallorca,0,0,8,5,football-data.co.uk
+2025-12-06,2526,Ath Bilbao,Ath Madrid,1,0,5,6,football-data.co.uk
+2025-12-06,2526,Villarreal,Getafe,2,0,5,3,football-data.co.uk
+2025-12-06,2526,Alaves,Sociedad,1,0,5,8,football-data.co.uk
+2025-12-06,2526,Betis,Barcelona,3,5,7,7,football-data.co.uk
+2025-12-07,2526,Valencia,Sevilla,1,1,2,2,football-data.co.uk
+2025-12-07,2526,Espanol,Vallecano,1,0,6,2,football-data.co.uk
+2025-12-07,2526,Real Madrid,Celta,0,2,8,1,football-data.co.uk
+2025-12-07,2526,Elche,Girona,3,0,2,2,football-data.co.uk
+2025-12-08,2526,Osasuna,Levante,2,0,3,3,football-data.co.uk
+2025-12-12,2526,Sociedad,Girona,1,2,4,3,football-data.co.uk
+2025-12-13,2526,Barcelona,Osasuna,2,0,14,1,football-data.co.uk
+2025-12-13,2526,Getafe,Espanol,0,1,6,4,football-data.co.uk
+2025-12-13,2526,Ath Madrid,Valencia,2,1,5,7,football-data.co.uk
+2025-12-13,2526,Mallorca,Elche,3,1,1,1,football-data.co.uk
+2025-12-14,2526,Celta,Ath Bilbao,2,0,1,4,football-data.co.uk
+2025-12-14,2526,Alaves,Real Madrid,1,2,5,7,football-data.co.uk
+2025-12-14,2526,Sevilla,Oviedo,4,0,5,3,football-data.co.uk
+2025-12-15,2526,Vallecano,Betis,0,0,8,3,football-data.co.uk
+2025-12-19,2526,Valencia,Mallorca,1,1,12,3,football-data.co.uk
+2025-12-20,2526,Oviedo,Celta,0,0,4,3,football-data.co.uk
+2025-12-20,2526,Levante,Sociedad,1,1,7,10,football-data.co.uk
+2025-12-20,2526,Osasuna,Alaves,3,0,9,0,football-data.co.uk
+2025-12-20,2526,Real Madrid,Sevilla,2,0,6,5,football-data.co.uk
+2025-12-21,2526,Betis,Getafe,4,0,7,5,football-data.co.uk
+2025-12-21,2526,Villarreal,Barcelona,0,2,5,10,football-data.co.uk
+2025-12-21,2526,Girona,Ath Madrid,0,3,3,4,football-data.co.uk
+2025-12-21,2526,Elche,Vallecano,4,0,4,5,football-data.co.uk
+2025-12-22,2526,Ath Bilbao,Espanol,1,2,8,4,football-data.co.uk
+2026-01-02,2526,Vallecano,Getafe,1,1,3,2,football-data.co.uk
+2026-01-03,2526,Celta,Valencia,4,1,2,4,football-data.co.uk
+2026-01-03,2526,Osasuna,Ath Bilbao,1,1,1,9,football-data.co.uk
+2026-01-03,2526,Elche,Villarreal,1,3,6,2,football-data.co.uk
+2026-01-03,2526,Espanol,Barcelona,0,2,5,7,football-data.co.uk
+2026-01-04,2526,Sociedad,Ath Madrid,1,1,6,6,football-data.co.uk
+2026-01-04,2526,Mallorca,Girona,1,2,3,6,football-data.co.uk
+2026-01-04,2526,Alaves,Oviedo,1,1,6,7,football-data.co.uk
+2026-01-04,2526,Sevilla,Levante,0,3,5,1,football-data.co.uk
+2026-01-04,2526,Real Madrid,Betis,5,1,5,8,football-data.co.uk
+2026-01-09,2526,Getafe,Sociedad,1,2,2,4,football-data.co.uk
+2026-01-10,2526,Oviedo,Betis,1,1,5,2,football-data.co.uk
+2026-01-10,2526,Villarreal,Alaves,3,1,1,6,football-data.co.uk
+2026-01-10,2526,Girona,Osasuna,1,0,2,1,football-data.co.uk
+2026-01-10,2526,Valencia,Elche,1,1,8,6,football-data.co.uk
+2026-01-11,2526,Vallecano,Mallorca,2,1,6,5,football-data.co.uk
+2026-01-11,2526,Levante,Espanol,1,1,4,3,football-data.co.uk
+2026-01-12,2526,Sevilla,Celta,0,1,6,1,football-data.co.uk
+2026-01-16,2526,Espanol,Girona,0,2,5,4,football-data.co.uk
+2026-01-17,2526,Betis,Villarreal,2,0,2,3,football-data.co.uk
+2026-01-17,2526,Real Madrid,Levante,2,0,8,0,football-data.co.uk
+2026-01-17,2526,Mallorca,Ath Bilbao,3,2,3,7,football-data.co.uk
+2026-01-17,2526,Osasuna,Oviedo,3,2,3,6,football-data.co.uk
+2026-01-18,2526,Ath Madrid,Alaves,1,0,6,6,football-data.co.uk
+2026-01-18,2526,Celta,Vallecano,3,0,5,7,football-data.co.uk
+2026-01-18,2526,Sociedad,Barcelona,2,1,6,8,football-data.co.uk
+2026-01-18,2526,Getafe,Valencia,0,1,9,3,football-data.co.uk
+2026-01-19,2526,Elche,Sevilla,2,2,9,7,football-data.co.uk
+2026-01-23,2526,Levante,Elche,3,2,9,1,football-data.co.uk
+2026-01-24,2526,Vallecano,Osasuna,1,3,4,3,football-data.co.uk
+2026-01-24,2526,Sevilla,Ath Bilbao,2,1,5,5,football-data.co.uk
+2026-01-24,2526,Villarreal,Real Madrid,0,2,6,6,football-data.co.uk
+2026-01-24,2526,Valencia,Espanol,3,2,2,7,football-data.co.uk
+2026-01-25,2526,Ath Madrid,Mallorca,3,0,10,3,football-data.co.uk
+2026-01-25,2526,Barcelona,Oviedo,3,0,10,1,football-data.co.uk
+2026-01-25,2526,Sociedad,Celta,3,1,2,9,football-data.co.uk
+2026-01-25,2526,Alaves,Betis,2,1,6,4,football-data.co.uk
+2026-01-26,2526,Girona,Getafe,1,1,3,4,football-data.co.uk
+2026-01-30,2526,Espanol,Alaves,1,2,4,2,football-data.co.uk
+2026-01-31,2526,Elche,Barcelona,1,3,2,8,football-data.co.uk
+2026-01-31,2526,Levante,Ath Madrid,0,0,4,7,football-data.co.uk
+2026-01-31,2526,Oviedo,Girona,1,0,4,4,football-data.co.uk
+2026-01-31,2526,Osasuna,Villarreal,2,2,6,2,football-data.co.uk
+2026-02-01,2526,Real Madrid,Vallecano,2,1,9,4,football-data.co.uk
+2026-02-01,2526,Betis,Valencia,2,1,3,5,football-data.co.uk
+2026-02-01,2526,Getafe,Celta,0,0,5,3,football-data.co.uk
+2026-02-01,2526,Ath Bilbao,Sociedad,1,1,6,3,football-data.co.uk
+2026-02-02,2526,Mallorca,Sevilla,4,1,4,8,football-data.co.uk
+2026-02-06,2526,Celta,Osasuna,1,2,7,3,football-data.co.uk
+2026-02-07,2526,Barcelona,Mallorca,3,0,12,3,football-data.co.uk
+2026-02-07,2526,Sociedad,Elche,3,1,2,4,football-data.co.uk
+2026-02-08,2526,Valencia,Real Madrid,0,2,5,8,football-data.co.uk
+2026-02-08,2526,Ath Madrid,Betis,0,1,7,3,football-data.co.uk
+2026-02-08,2526,Ath Bilbao,Levante,4,2,4,3,football-data.co.uk
+2026-02-08,2526,Alaves,Getafe,0,2,6,3,football-data.co.uk
+2026-02-08,2526,Sevilla,Girona,1,1,5,7,football-data.co.uk
+2026-02-09,2526,Villarreal,Espanol,4,1,5,8,football-data.co.uk
+2026-02-13,2526,Elche,Osasuna,0,0,10,3,football-data.co.uk
+2026-02-14,2526,Espanol,Celta,2,2,2,2,football-data.co.uk
+2026-02-14,2526,Getafe,Villarreal,2,1,3,4,football-data.co.uk
+2026-02-14,2526,Sevilla,Alaves,1,1,0,3,football-data.co.uk
+2026-02-14,2526,Real Madrid,Sociedad,4,1,4,6,football-data.co.uk
+2026-02-15,2526,Mallorca,Betis,1,2,7,3,football-data.co.uk
+2026-02-15,2526,Levante,Valencia,0,2,3,2,football-data.co.uk
+2026-02-15,2526,Oviedo,Ath Bilbao,1,2,2,3,football-data.co.uk
+2026-02-15,2526,Vallecano,Ath Madrid,3,0,4,8,football-data.co.uk
+2026-02-16,2526,Girona,Barcelona,2,1,3,7,football-data.co.uk
+2026-02-18,2526,Levante,Villarreal,0,1,3,2,football-data.co.uk
+2026-02-20,2526,Ath Bilbao,Elche,2,1,4,1,football-data.co.uk
+2026-02-21,2526,Ath Madrid,Espanol,4,2,5,3,football-data.co.uk
+2026-02-21,2526,Sociedad,Oviedo,3,3,7,6,football-data.co.uk
+2026-02-21,2526,Betis,Vallecano,1,1,3,5,football-data.co.uk
+2026-02-21,2526,Osasuna,Real Madrid,2,1,3,7,football-data.co.uk
+2026-02-22,2526,Getafe,Sevilla,0,1,2,2,football-data.co.uk
+2026-02-22,2526,Barcelona,Levante,3,0,13,6,football-data.co.uk
+2026-02-22,2526,Celta,Mallorca,2,0,7,2,football-data.co.uk
+2026-02-22,2526,Villarreal,Valencia,2,1,5,4,football-data.co.uk
+2026-02-23,2526,Alaves,Girona,2,2,7,6,football-data.co.uk
+2026-02-27,2526,Levante,Alaves,2,0,10,6,football-data.co.uk
+2026-02-28,2526,Oviedo,Ath Madrid,0,1,8,3,football-data.co.uk
+2026-02-28,2526,Mallorca,Sociedad,0,1,3,7,football-data.co.uk
+2026-02-28,2526,Barcelona,Villarreal,4,1,3,2,football-data.co.uk
+2026-02-28,2526,Vallecano,Ath Bilbao,1,1,5,4,football-data.co.uk
+2026-03-01,2526,Elche,Espanol,2,2,3,1,football-data.co.uk
+2026-03-01,2526,Valencia,Osasuna,1,0,5,4,football-data.co.uk
+2026-03-01,2526,Betis,Sevilla,2,2,4,3,football-data.co.uk
+2026-03-01,2526,Girona,Celta,1,2,10,6,football-data.co.uk
+2026-03-02,2526,Real Madrid,Getafe,0,1,10,2,football-data.co.uk
+2026-03-04,2526,Vallecano,Oviedo,3,0,12,2,football-data.co.uk
+2026-03-06,2526,Celta,Real Madrid,1,2,1,6,football-data.co.uk
+2026-03-07,2526,Levante,Girona,1,1,2,3,football-data.co.uk
+2026-03-07,2526,Osasuna,Mallorca,2,2,8,0,football-data.co.uk
+2026-03-07,2526,Ath Madrid,Sociedad,3,2,8,1,football-data.co.uk
+2026-03-07,2526,Ath Bilbao,Barcelona,0,1,2,4,football-data.co.uk
+2026-03-08,2526,Villarreal,Elche,2,1,4,6,football-data.co.uk
+2026-03-08,2526,Getafe,Betis,2,0,3,8,football-data.co.uk
+2026-03-08,2526,Sevilla,Vallecano,1,1,6,2,football-data.co.uk
+2026-03-08,2526,Valencia,Alaves,3,2,10,2,football-data.co.uk
+2026-03-09,2526,Espanol,Oviedo,1,1,8,0,football-data.co.uk
+2026-03-13,2526,Alaves,Villarreal,1,1,5,2,football-data.co.uk
+2026-03-14,2526,Real Madrid,Elche,4,1,5,4,football-data.co.uk
+2026-03-14,2526,Oviedo,Valencia,1,0,4,7,football-data.co.uk
+2026-03-14,2526,Girona,Ath Bilbao,3,0,2,9,football-data.co.uk
+2026-03-14,2526,Ath Madrid,Getafe,1,0,10,3,football-data.co.uk
+2026-03-15,2526,Mallorca,Espanol,2,1,5,6,football-data.co.uk
+2026-03-15,2526,Barcelona,Sevilla,5,2,3,4,football-data.co.uk
+2026-03-15,2526,Betis,Celta,1,1,3,4,football-data.co.uk
+2026-03-15,2526,Sociedad,Osasuna,3,1,3,5,football-data.co.uk
+2026-03-16,2526,Vallecano,Levante,1,1,5,6,football-data.co.uk
+2026-03-20,2526,Villarreal,Sociedad,3,1,4,5,football-data.co.uk
+2026-03-21,2526,Levante,Oviedo,4,2,3,1,football-data.co.uk
+2026-03-21,2526,Elche,Mallorca,2,1,2,2,football-data.co.uk
+2026-03-21,2526,Espanol,Getafe,1,2,12,9,football-data.co.uk
+2026-03-21,2526,Osasuna,Girona,1,0,6,2,football-data.co.uk
+2026-03-21,2526,Sevilla,Valencia,0,2,1,3,football-data.co.uk
+2026-03-22,2526,Barcelona,Vallecano,1,0,6,9,football-data.co.uk
+2026-03-22,2526,Celta,Alaves,3,4,4,1,football-data.co.uk
+2026-03-22,2526,Ath Bilbao,Betis,2,1,6,5,football-data.co.uk
+2026-03-22,2526,Real Madrid,Ath Madrid,3,2,4,1,football-data.co.uk
+2026-04-03,2526,Vallecano,Elche,1,0,9,4,football-data.co.uk
+2026-04-04,2526,Ath Madrid,Barcelona,1,2,1,9,football-data.co.uk
+2026-04-04,2526,Betis,Espanol,0,0,4,3,football-data.co.uk
+2026-04-04,2526,Sociedad,Levante,2,0,11,5,football-data.co.uk
+2026-04-04,2526,Mallorca,Real Madrid,2,1,6,4,football-data.co.uk
+2026-04-05,2526,Getafe,Ath Bilbao,2,0,4,3,football-data.co.uk
+2026-04-05,2526,Valencia,Celta,2,3,6,0,football-data.co.uk
+2026-04-05,2526,Oviedo,Sevilla,1,0,5,9,football-data.co.uk
+2026-04-05,2526,Alaves,Osasuna,2,2,7,1,football-data.co.uk
+2026-04-06,2526,Girona,Villarreal,1,0,7,4,football-data.co.uk
+2026-04-10,2526,Real Madrid,Girona,1,1,10,1,football-data.co.uk
+2026-04-11,2526,Barcelona,Espanol,4,1,7,5,football-data.co.uk
+2026-04-11,2526,Elche,Valencia,1,0,5,9,football-data.co.uk
+2026-04-11,2526,Sevilla,Ath Madrid,2,1,6,6,football-data.co.uk
+2026-04-11,2526,Sociedad,Alaves,3,3,9,5,football-data.co.uk
+2026-04-12,2526,Osasuna,Betis,1,1,6,3,football-data.co.uk
+2026-04-12,2526,Mallorca,Vallecano,3,0,6,7,football-data.co.uk
+2026-04-12,2526,Celta,Oviedo,0,3,4,1,football-data.co.uk
+2026-04-12,2526,Ath Bilbao,Villarreal,1,2,15,3,football-data.co.uk
+2026-04-13,2526,Levante,Getafe,1,0,8,2,football-data.co.uk
+2026-04-21,2526,Real Madrid,Alaves,2,1,9,6,football-data.co.uk
+2026-04-21,2526,Ath Bilbao,Osasuna,1,0,5,4,football-data.co.uk
+2026-04-21,2526,Mallorca,Valencia,1,1,7,4,football-data.co.uk
+2026-04-21,2526,Girona,Betis,2,3,3,1,football-data.co.uk
+2026-04-22,2526,Barcelona,Celta,1,0,5,3,football-data.co.uk
+2026-04-22,2526,Sociedad,Getafe,0,1,6,3,football-data.co.uk
+2026-04-22,2526,Elche,Ath Madrid,3,2,13,3,football-data.co.uk
+2026-04-23,2526,Levante,Sevilla,2,0,3,6,football-data.co.uk
+2026-04-23,2526,Vallecano,Espanol,1,0,6,5,football-data.co.uk
+2026-04-23,2526,Oviedo,Villarreal,1,1,7,0,football-data.co.uk
+2026-04-24,2526,Betis,Real Madrid,1,1,7,6,football-data.co.uk
+2026-04-25,2526,Valencia,Girona,2,1,4,4,football-data.co.uk
+2026-04-25,2526,Alaves,Mallorca,2,1,9,4,football-data.co.uk
+2026-04-25,2526,Getafe,Barcelona,0,2,6,3,football-data.co.uk
+2026-04-25,2526,Ath Madrid,Ath Bilbao,3,2,3,4,football-data.co.uk
+2026-04-26,2526,Vallecano,Sociedad,3,3,6,4,football-data.co.uk
+2026-04-26,2526,Villarreal,Celta,2,1,7,5,football-data.co.uk
+2026-04-26,2526,Oviedo,Elche,1,2,6,1,football-data.co.uk
+2026-04-26,2526,Osasuna,Sevilla,2,1,4,4,football-data.co.uk
+2026-04-27,2526,Espanol,Levante,0,0,4,4,football-data.co.uk
+2026-05-01,2526,Girona,Mallorca,0,1,5,2,football-data.co.uk
+2026-05-02,2526,Villarreal,Levante,5,1,7,3,football-data.co.uk
+2026-05-02,2526,Valencia,Ath Madrid,0,2,1,7,football-data.co.uk
+2026-05-02,2526,Alaves,Ath Bilbao,2,4,4,7,football-data.co.uk
+2026-05-02,2526,Osasuna,Barcelona,1,2,3,7,football-data.co.uk
+2026-05-03,2526,Celta,Elche,3,1,4,2,football-data.co.uk
+2026-05-03,2526,Getafe,Vallecano,0,2,4,1,football-data.co.uk
+2026-05-03,2526,Betis,Oviedo,3,0,5,4,football-data.co.uk
+2026-05-03,2526,Espanol,Real Madrid,0,2,5,6,football-data.co.uk
+2026-05-04,2526,Sevilla,Sociedad,1,0,3,3,football-data.co.uk
+2026-05-08,2526,Levante,Osasuna,3,2,15,1,football-data.co.uk
+2026-05-09,2526,Sociedad,Betis,2,2,4,3,football-data.co.uk
+2026-05-09,2526,Ath Madrid,Celta,0,1,10,0,football-data.co.uk
+2026-05-09,2526,Elche,Alaves,1,1,7,3,football-data.co.uk
+2026-05-09,2526,Sevilla,Espanol,2,1,4,6,football-data.co.uk
+2026-05-10,2526,Barcelona,Real Madrid,2,0,4,8,football-data.co.uk
+2026-05-10,2526,Mallorca,Villarreal,1,1,5,4,football-data.co.uk
+2026-05-10,2526,Ath Bilbao,Valencia,0,1,13,5,football-data.co.uk
+2026-05-10,2526,Oviedo,Getafe,0,0,1,9,football-data.co.uk
+2026-05-11,2526,Vallecano,Girona,1,1,9,5,football-data.co.uk
+2026-05-12,2526,Betis,Elche,2,1,8,1,football-data.co.uk
+2026-05-12,2526,Celta,Levante,2,3,4,4,football-data.co.uk
+2026-05-12,2526,Osasuna,Ath Madrid,1,2,8,4,football-data.co.uk
+2026-05-13,2526,Getafe,Mallorca,3,1,3,3,football-data.co.uk
+2026-05-13,2526,Alaves,Barcelona,1,0,6,4,football-data.co.uk
+2026-05-13,2526,Espanol,Ath Bilbao,2,0,8,9,football-data.co.uk
+2026-05-13,2526,Villarreal,Sevilla,2,3,6,4,football-data.co.uk
+2026-05-14,2526,Valencia,Vallecano,1,1,5,1,football-data.co.uk
+2026-05-14,2526,Girona,Sociedad,1,1,6,3,football-data.co.uk
+2026-05-14,2526,Real Madrid,Oviedo,2,0,4,5,football-data.co.uk
+2026-05-17,2526,Levante,Mallorca,2,0,4,6,football-data.co.uk
+2026-05-17,2526,Barcelona,Betis,3,1,6,4,football-data.co.uk
+2026-05-17,2526,Ath Bilbao,Celta,1,1,5,0,football-data.co.uk
+2026-05-17,2526,Ath Madrid,Girona,1,0,9,8,football-data.co.uk
+2026-05-17,2526,Elche,Getafe,1,0,4,0,football-data.co.uk
+2026-05-17,2526,Osasuna,Espanol,1,2,9,2,football-data.co.uk
+2026-05-17,2526,Oviedo,Alaves,0,1,5,2,football-data.co.uk
+2026-05-17,2526,Sevilla,Real Madrid,0,1,4,4,football-data.co.uk
+2026-05-17,2526,Sociedad,Valencia,3,4,3,2,football-data.co.uk
+2026-05-17,2526,Vallecano,Villarreal,2,0,1,9,football-data.co.uk
+2026-05-23,2526,Girona,Elche,1,1,2,1,football-data.co.uk
+2026-05-23,2526,Getafe,Osasuna,1,0,2,4,football-data.co.uk
+2026-05-23,2526,Espanol,Sociedad,1,1,3,5,football-data.co.uk
+2026-05-23,2526,Real Madrid,Ath Bilbao,4,2,2,1,football-data.co.uk
+2026-05-23,2526,Betis,Levante,2,1,4,8,football-data.co.uk
+2026-05-23,2526,Alaves,Vallecano,1,2,10,5,football-data.co.uk
+2026-05-23,2526,Valencia,Barcelona,3,1,7,8,football-data.co.uk
+2026-05-23,2526,Celta,Sevilla,1,0,4,3,football-data.co.uk
+2026-05-23,2526,Mallorca,Oviedo,3,0,5,5,football-data.co.uk
+2026-05-24,2526,Villarreal,Ath Madrid,5,1,5,9,football-data.co.uk
+2018-08-20,1819,Ath Bilbao,Leganes,2,1,6,2,football-data.co.uk
+2018-08-24,1819,Getafe,Eibar,2,0,5,5,football-data.co.uk
+2018-08-27,1819,Ath Bilbao,Huesca,2,2,3,2,football-data.co.uk
+2018-09-01,1819,Real Madrid,Leganes,4,1,8,1,football-data.co.uk
+2018-09-02,1819,Barcelona,Huesca,8,2,9,4,football-data.co.uk
+2018-09-15,1819,Ath Madrid,Eibar,1,1,14,3,football-data.co.uk
+2018-09-25,1819,Ath Madrid,Huesca,3,0,4,3,football-data.co.uk
+2018-09-25,1819,Espanol,Eibar,1,0,4,3,football-data.co.uk
+2018-09-30,1819,Betis,Leganes,1,0,7,1,football-data.co.uk
+2018-10-06,1819,Girona,Eibar,2,3,4,9,football-data.co.uk
+2018-10-07,1819,Valladolid,Huesca,1,0,6,2,football-data.co.uk
+2018-10-20,1819,Valencia,Leganes,1,1,10,1,football-data.co.uk
+2018-10-27,1819,Levante,Leganes,2,0,3,2,football-data.co.uk
+2018-10-27,1819,Celta,Eibar,4,0,2,8,football-data.co.uk
+2018-10-28,1819,Sevilla,Huesca,2,1,4,2,football-data.co.uk
+2018-11-10,1819,Valladolid,Eibar,0,0,4,4,football-data.co.uk
+2018-11-10,1819,Girona,Leganes,0,0,0,6,football-data.co.uk
+2018-11-11,1819,Alaves,Huesca,2,1,5,4,football-data.co.uk
+2018-11-30,1819,Vallecano,Eibar,1,0,1,4,football-data.co.uk
+2018-12-01,1819,Celta,Huesca,2,0,4,4,football-data.co.uk
+2018-12-01,1819,Valladolid,Leganes,2,4,6,5,football-data.co.uk
+2018-12-14,1819,Celta,Leganes,0,0,10,0,football-data.co.uk
+2018-12-22,1819,Betis,Eibar,1,1,4,11,football-data.co.uk
+2018-12-23,1819,Valencia,Huesca,2,1,12,5,football-data.co.uk
+2019-01-04,1819,Espanol,Leganes,1,0,3,6,football-data.co.uk
+2019-01-13,1819,Barcelona,Eibar,3,0,2,3,football-data.co.uk
+2019-01-20,1819,Barcelona,Leganes,3,1,5,1,football-data.co.uk
+2019-01-27,1819,Sociedad,Huesca,0,0,5,2,football-data.co.uk
+2019-02-04,1819,Vallecano,Leganes,1,2,5,6,football-data.co.uk
+2019-02-09,1819,Girona,Huesca,0,2,13,2,football-data.co.uk
+2019-02-10,1819,Sevilla,Eibar,2,2,9,7,football-data.co.uk
+2019-02-16,1819,Sociedad,Leganes,3,0,4,1,football-data.co.uk
+2019-02-22,1819,Espanol,Huesca,1,1,7,4,football-data.co.uk
+2019-02-23,1819,Ath Bilbao,Eibar,1,0,10,2,football-data.co.uk
+2019-03-09,1819,Alaves,Eibar,1,1,3,5,football-data.co.uk
+2019-03-09,1819,Ath Madrid,Leganes,1,0,4,4,football-data.co.uk
+2019-03-09,1819,Getafe,Huesca,2,1,13,1,football-data.co.uk
+2019-03-30,1819,Getafe,Leganes,0,2,3,4,football-data.co.uk
+2019-03-31,1819,Levante,Eibar,2,2,6,7,football-data.co.uk
+2019-03-31,1819,Real Madrid,Huesca,3,2,4,6,football-data.co.uk
+2019-04-06,1819,Real Madrid,Eibar,2,1,5,4,football-data.co.uk
+2019-04-07,1819,Levante,Huesca,2,2,9,1,football-data.co.uk
+2019-04-07,1819,Alaves,Leganes,1,1,3,3,football-data.co.uk
+2019-04-14,1819,Sociedad,Eibar,1,1,0,3,football-data.co.uk
+2019-04-20,1819,Vallecano,Huesca,0,0,8,3,football-data.co.uk
+2019-04-21,1819,Villarreal,Leganes,2,1,7,4,football-data.co.uk
+2019-04-28,1819,Villarreal,Huesca,1,1,0,1,football-data.co.uk
+2019-04-28,1819,Valencia,Eibar,0,1,7,6,football-data.co.uk
+2019-05-03,1819,Sevilla,Leganes,0,3,3,4,football-data.co.uk
+2019-05-12,1819,Villarreal,Eibar,1,0,5,3,football-data.co.uk
+2019-05-12,1819,Betis,Huesca,2,1,9,2,football-data.co.uk
+2019-08-17,1920,Mallorca,Eibar,2,1,9,3,football-data.co.uk
+2019-08-24,1920,Osasuna,Eibar,0,0,6,6,football-data.co.uk
+2019-08-31,1920,Betis,Leganes,2,1,11,8,football-data.co.uk
+2019-09-01,1920,Ath Madrid,Eibar,3,2,1,1,football-data.co.uk
+2019-09-21,1920,Levante,Eibar,0,0,6,7,football-data.co.uk
+2019-09-22,1920,Valencia,Leganes,1,1,6,6,football-data.co.uk
+2019-09-28,1920,Granada,Leganes,1,0,8,3,football-data.co.uk
+2019-10-04,1920,Betis,Eibar,1,1,4,9,football-data.co.uk
+2019-10-19,1920,Getafe,Leganes,2,0,2,3,football-data.co.uk
+2019-10-26,1920,Valladolid,Eibar,2,0,4,3,football-data.co.uk
+2019-10-30,1920,Real Madrid,Leganes,5,0,8,3,football-data.co.uk
+2019-11-08,1920,Sociedad,Leganes,1,1,5,1,football-data.co.uk
+2019-11-30,1920,Sociedad,Eibar,4,1,6,4,football-data.co.uk
+2019-12-01,1920,Sevilla,Leganes,1,0,7,4,football-data.co.uk
+2019-12-13,1920,Alaves,Leganes,1,1,2,0,football-data.co.uk
+2019-12-14,1920,Ath Bilbao,Eibar,0,0,6,7,football-data.co.uk
+2020-01-03,1920,Valladolid,Leganes,2,2,4,3,football-data.co.uk
+2020-01-04,1920,Valencia,Eibar,1,0,6,5,football-data.co.uk
+2020-01-26,1920,Ath Madrid,Leganes,0,0,7,6,football-data.co.uk
+2020-01-26,1920,Celta,Eibar,0,0,6,3,football-data.co.uk
+2020-02-07,1920,Alaves,Eibar,2,1,3,5,football-data.co.uk
+2020-02-08,1920,Levante,Leganes,2,0,2,2,football-data.co.uk
+2020-02-22,1920,Celta,Leganes,1,0,2,9,football-data.co.uk
+2020-02-22,1920,Barcelona,Eibar,5,0,5,5,football-data.co.uk
+2020-03-08,1920,Villarreal,Leganes,1,2,2,5,football-data.co.uk
+2020-06-14,1920,Real Madrid,Eibar,3,1,3,3,football-data.co.uk
+2020-06-16,1920,Barcelona,Leganes,2,0,3,2,football-data.co.uk
+2020-06-19,1920,Mallorca,Leganes,1,1,3,7,football-data.co.uk
+2020-06-20,1920,Getafe,Eibar,1,1,2,1,football-data.co.uk
+2020-06-26,1920,Sevilla,Valladolid,1,1,5,1,football-data.co.uk
+2020-06-27,1920,Osasuna,Leganes,2,1,2,4,football-data.co.uk
+2020-06-28,1920,Granada,Eibar,1,2,8,5,football-data.co.uk
+2020-07-01,1920,Valladolid,Levante,0,0,8,3,football-data.co.uk
+2020-07-01,1920,Alaves,Granada,0,2,6,2,football-data.co.uk
+2020-07-05,1920,Espanol,Leganes,0,1,0,3,football-data.co.uk
+2020-07-06,1920,Sevilla,Eibar,1,0,11,8,football-data.co.uk
+2020-07-07,1920,Valencia,Valladolid,2,1,5,2,football-data.co.uk
+2020-07-09,1920,Mallorca,Levante,2,0,1,5,football-data.co.uk
+2020-07-10,1920,Sociedad,Granada,2,3,8,3,football-data.co.uk
+2020-07-12,1920,Espanol,Eibar,0,2,7,2,football-data.co.uk
+2020-07-16,1920,Mallorca,Granada,1,2,5,6,football-data.co.uk
+2020-07-16,1920,Ath Bilbao,Leganes,0,2,3,3,football-data.co.uk
+2020-07-16,1920,Celta,Levante,2,3,8,4,football-data.co.uk
+2020-07-19,1920,Villarreal,Eibar,4,0,4,4,football-data.co.uk
+2020-09-13,2021,Villarreal,Huesca,1,1,6,6,football-data.co.uk
+2020-09-13,2021,Valencia,Levante,4,2,3,4,football-data.co.uk
+2020-09-19,2021,Villarreal,Eibar,2,1,4,3,football-data.co.uk
+2020-09-20,2021,Betis,Valladolid,2,0,5,3,football-data.co.uk
+2020-09-26,2021,Valencia,Huesca,1,1,4,4,football-data.co.uk
+2020-09-27,2021,Ath Madrid,Granada,6,1,1,1,football-data.co.uk
+2020-09-27,2021,Osasuna,Levante,1,3,3,7,football-data.co.uk
+2020-09-30,2021,Real Madrid,Valladolid,1,0,4,7,football-data.co.uk
+2020-10-01,2021,Sevilla,Levante,1,0,2,4,football-data.co.uk
+2020-10-03,2021,Elche,Huesca,0,0,0,5,football-data.co.uk
+2020-10-04,2021,Cadiz,Granada,1,1,2,5,football-data.co.uk
+2020-10-18,2021,Ath Bilbao,Levante,2,0,9,3,football-data.co.uk
+2020-10-24,2021,Sevilla,Eibar,0,1,13,3,football-data.co.uk
+2020-10-25,2021,Getafe,Granada,0,1,6,1,football-data.co.uk
+2020-10-25,2021,Sociedad,Huesca,4,1,4,5,football-data.co.uk
+2020-10-31,2021,Real Madrid,Huesca,4,1,6,3,football-data.co.uk
+2020-11-02,2021,Villarreal,Valladolid,2,0,6,4,football-data.co.uk
+2020-11-08,2021,Sociedad,Granada,2,0,15,0,football-data.co.uk
+2020-11-20,2021,Osasuna,Huesca,1,1,4,3,football-data.co.uk
+2020-11-29,2021,Celta,Granada,3,1,8,0,football-data.co.uk
+2020-11-30,2021,Betis,Eibar,0,2,6,2,football-data.co.uk
+2020-12-05,2021,Ath Madrid,Valladolid,2,0,4,4,football-data.co.uk
+2020-12-13,2021,Elche,Granada,0,1,6,5,football-data.co.uk
+2020-12-13,2021,Sociedad,Eibar,1,1,5,4,football-data.co.uk
+2020-12-13,2021,Barcelona,Levante,1,0,12,4,football-data.co.uk
+2020-12-18,2021,Ath Bilbao,Huesca,2,0,5,5,football-data.co.uk
+2020-12-19,2021,Sevilla,Valladolid,1,1,7,7,football-data.co.uk
+2020-12-23,2021,Real Madrid,Granada,2,0,8,1,football-data.co.uk
+2020-12-23,2021,Alaves,Eibar,2,1,2,7,football-data.co.uk
+2020-12-29,2021,Barcelona,Eibar,1,1,5,7,football-data.co.uk
+2020-12-29,2021,Cadiz,Valladolid,0,0,1,6,football-data.co.uk
+2020-12-30,2021,Celta,Huesca,2,1,0,5,football-data.co.uk
+2021-01-02,2021,Villarreal,Levante,2,1,3,5,football-data.co.uk
+2021-01-02,2021,Getafe,Valladolid,0,1,5,9,football-data.co.uk
+2021-01-19,2021,Cadiz,Levante,2,2,5,2,football-data.co.uk
+2021-01-20,2021,Getafe,Huesca,1,0,3,8,football-data.co.uk
+2021-01-20,2021,Villarreal,Granada,2,2,3,0,football-data.co.uk
+2021-01-24,2021,Celta,Eibar,1,1,0,6,football-data.co.uk
+2021-01-24,2021,Osasuna,Granada,3,1,1,5,football-data.co.uk
+2021-01-30,2021,Real Madrid,Levante,1,2,3,7,football-data.co.uk
+2021-02-05,2021,Alaves,Valladolid,1,0,11,1,football-data.co.uk
+2021-02-07,2021,Osasuna,Eibar,2,1,2,1,football-data.co.uk
+2021-02-13,2021,Sevilla,Huesca,1,0,6,6,football-data.co.uk
+2021-02-20,2021,Ath Madrid,Levante,0,2,12,2,football-data.co.uk
+2021-02-20,2021,Elche,Eibar,1,0,1,4,football-data.co.uk
+2021-02-28,2021,Celta,Valladolid,1,1,3,5,football-data.co.uk
+2021-03-06,2021,Cadiz,Eibar,1,0,0,12,football-data.co.uk
+2021-03-07,2021,Sociedad,Levante,1,0,7,5,football-data.co.uk
+2021-03-07,2021,Ath Bilbao,Granada,2,1,6,9,football-data.co.uk
+2021-03-13,2021,Osasuna,Valladolid,0,0,7,3,football-data.co.uk
+2021-03-15,2021,Barcelona,Huesca,4,1,7,3,football-data.co.uk
+2021-03-19,2021,Betis,Levante,2,0,4,1,football-data.co.uk
+2021-03-20,2021,Ath Bilbao,Eibar,1,1,10,1,football-data.co.uk
+2021-03-21,2021,Valencia,Granada,2,1,3,4,football-data.co.uk
+2021-04-03,2021,Real Madrid,Eibar,2,0,6,9,football-data.co.uk
+2021-04-05,2021,Barcelona,Valladolid,1,0,4,1,football-data.co.uk
+2021-04-18,2021,Alaves,Huesca,1,0,7,3,football-data.co.uk
+2021-04-18,2021,Osasuna,Elche,2,0,4,5,football-data.co.uk
+2021-04-18,2021,Ath Madrid,Eibar,5,0,8,3,football-data.co.uk
+2021-04-21,2021,Elche,Valladolid,1,1,4,6,football-data.co.uk
+2021-04-22,2021,Ath Madrid,Huesca,2,0,8,1,football-data.co.uk
+2021-04-24,2021,Elche,Levante,1,0,4,2,football-data.co.uk
+2021-04-25,2021,Sevilla,Granada,2,1,5,5,football-data.co.uk
+2021-04-28,2021,Ath Bilbao,Valladolid,2,2,5,7,football-data.co.uk
+2021-04-29,2021,Barcelona,Granada,1,2,6,1,football-data.co.uk
+2021-04-30,2021,Celta,Levante,2,0,1,5,football-data.co.uk
+2021-05-07,2021,Sociedad,Elche,2,0,7,0,football-data.co.uk
+2021-05-08,2021,Alaves,Levante,2,2,8,3,football-data.co.uk
+2021-05-09,2021,Getafe,Eibar,0,1,4,2,football-data.co.uk
+2021-05-09,2021,Valencia,Valladolid,3,0,1,9,football-data.co.uk
+2021-05-10,2021,Betis,Granada,2,1,9,2,football-data.co.uk
+2021-05-11,2021,Osasuna,Cadiz,3,2,3,5,football-data.co.uk
+2021-05-16,2021,Alaves,Granada,4,2,6,1,football-data.co.uk
+2021-05-16,2021,Betis,Huesca,1,0,2,5,football-data.co.uk
+2021-05-16,2021,Getafe,Levante,2,1,3,4,football-data.co.uk
+2021-05-16,2021,Sociedad,Valladolid,4,1,2,4,football-data.co.uk
+2021-05-16,2021,Valencia,Eibar,4,1,2,10,football-data.co.uk
+2021-08-16,2122,Villarreal,Granada,0,0,6,2,football-data.co.uk
+2021-08-20,2122,Betis,Cadiz,1,1,4,5,football-data.co.uk
+2021-08-22,2122,Ath Madrid,Elche,1,0,2,1,football-data.co.uk
+2021-08-28,2122,Sociedad,Levante,1,0,2,2,football-data.co.uk
+2021-08-29,2122,Vallecano,Granada,4,0,5,6,football-data.co.uk
+2021-09-13,2122,Getafe,Elche,0,1,8,2,football-data.co.uk
+2021-09-17,2122,Celta,Cadiz,1,2,7,1,football-data.co.uk
+2021-09-20,2122,Barcelona,Granada,1,1,12,4,football-data.co.uk
+2021-09-22,2122,Villarreal,Elche,4,1,8,7,football-data.co.uk
+2021-09-26,2122,Barcelona,Levante,3,0,11,1,football-data.co.uk
+2021-09-26,2122,Sociedad,Elche,1,0,6,1,football-data.co.uk
+2021-09-26,2122,Vallecano,Cadiz,3,1,4,3,football-data.co.uk
+2021-09-27,2122,Celta,Granada,1,0,5,3,football-data.co.uk
+2021-10-02,2122,Mallorca,Levante,1,0,8,3,football-data.co.uk
+2021-10-17,2122,Vallecano,Elche,2,1,6,2,football-data.co.uk
+2021-10-18,2122,Espanol,Cadiz,2,0,7,9,football-data.co.uk
+2021-10-22,2122,Osasuna,Granada,1,1,4,1,football-data.co.uk
+2021-10-24,2122,Sevilla,Levante,5,3,10,3,football-data.co.uk
+2021-10-26,2122,Villarreal,Cadiz,3,3,8,2,football-data.co.uk
+2021-10-26,2122,Alaves,Elche,1,0,4,7,football-data.co.uk
+2021-11-05,2122,Ath Bilbao,Cadiz,0,1,5,1,football-data.co.uk
+2021-11-06,2122,Espanol,Granada,2,0,5,3,football-data.co.uk
+2021-11-06,2122,Alaves,Levante,2,1,1,3,football-data.co.uk
+2021-11-07,2122,Mallorca,Elche,2,2,3,3,football-data.co.uk
+2021-11-21,2122,Getafe,Cadiz,4,0,3,7,football-data.co.uk
+2021-11-26,2122,Ath Bilbao,Granada,2,2,8,3,football-data.co.uk
+2021-11-28,2122,Betis,Levante,3,1,5,8,football-data.co.uk
+2021-11-29,2122,Osasuna,Elche,1,1,5,4,football-data.co.uk
+2021-12-11,2122,Valencia,Elche,2,1,8,1,football-data.co.uk
+2021-12-11,2122,Espanol,Levante,4,3,4,2,football-data.co.uk
+2021-12-18,2122,Barcelona,Elche,3,2,5,0,football-data.co.uk
+2021-12-19,2122,Real Madrid,Cadiz,0,0,13,2,football-data.co.uk
+2022-01-03,2122,Villarreal,Levante,5,0,6,5,football-data.co.uk
+2022-01-09,2122,Osasuna,Cadiz,2,0,5,7,football-data.co.uk
+2022-01-10,2122,Espanol,Elche,1,2,13,0,football-data.co.uk
+2022-01-20,2122,Getafe,Granada,4,2,4,8,football-data.co.uk
+2022-01-23,2122,Real Madrid,Elche,2,2,10,3,football-data.co.uk
+2022-02-04,2122,Getafe,Levante,3,0,2,8,football-data.co.uk
+2022-02-05,2122,Mallorca,Cadiz,2,1,6,4,football-data.co.uk
+2022-02-06,2122,Real Madrid,Granada,1,0,9,2,football-data.co.uk
+2022-02-11,2122,Sevilla,Elche,2,0,5,4,football-data.co.uk
+2022-02-13,2122,Sociedad,Granada,2,0,6,5,football-data.co.uk
+2022-02-16,2122,Ath Madrid,Levante,0,1,5,3,football-data.co.uk
+2022-02-21,2122,Celta,Levante,1,1,2,5,football-data.co.uk
+2022-03-05,2122,Valencia,Granada,3,1,3,6,football-data.co.uk
+2022-03-07,2122,Ath Bilbao,Levante,3,1,4,3,football-data.co.uk
+2022-03-11,2122,Ath Madrid,Cadiz,2,1,0,4,football-data.co.uk
+2022-03-19,2122,Alaves,Granada,2,3,6,2,football-data.co.uk
+2022-03-19,2122,Osasuna,Levante,3,1,6,1,football-data.co.uk
+2022-04-03,2122,Ath Bilbao,Elche,2,1,7,4,football-data.co.uk
+2022-04-03,2122,Valencia,Cadiz,0,0,4,3,football-data.co.uk
+2022-04-08,2122,Sevilla,Granada,4,2,14,3,football-data.co.uk
+2022-04-18,2122,Barcelona,Cadiz,0,1,8,1,football-data.co.uk
+2022-04-19,2122,Mallorca,Alaves,2,1,0,6,football-data.co.uk
+2022-04-19,2122,Betis,Elche,0,1,2,3,football-data.co.uk
+2022-04-20,2122,Ath Madrid,Granada,0,0,11,1,football-data.co.uk
+2022-04-29,2122,Sevilla,Cadiz,1,1,5,6,football-data.co.uk
+2022-04-30,2122,Real Madrid,Espanol,4,0,6,8,football-data.co.uk
+2022-04-30,2122,Valencia,Levante,1,1,1,7,football-data.co.uk
+2022-05-07,2122,Mallorca,Granada,2,6,5,5,football-data.co.uk
+2022-05-07,2122,Celta,Alaves,4,0,7,1,football-data.co.uk
+2022-05-12,2122,Real Madrid,Levante,6,0,6,6,football-data.co.uk
+2022-05-12,2122,Sociedad,Cadiz,3,0,2,12,football-data.co.uk
+2022-05-15,2122,Betis,Granada,2,0,4,9,football-data.co.uk
+2022-05-15,2122,Celta,Elche,1,0,7,5,football-data.co.uk
+2022-05-20,2122,Vallecano,Levante,2,4,7,3,football-data.co.uk
+2022-08-13,2223,Celta,Espanol,2,2,3,3,football-data.co.uk
+2022-08-15,2223,Betis,Elche,3,0,8,4,football-data.co.uk
+2022-08-19,2223,Sevilla,Valladolid,1,1,12,2,football-data.co.uk
+2022-08-20,2223,Osasuna,Cadiz,2,0,2,2,football-data.co.uk
+2022-08-28,2223,Barcelona,Valladolid,4,0,14,4,football-data.co.uk
+2022-09-02,2223,Celta,Cadiz,3,0,2,2,football-data.co.uk
+2022-09-04,2223,Villarreal,Elche,4,0,6,4,football-data.co.uk
+2022-09-04,2223,Ath Bilbao,Espanol,0,1,4,2,football-data.co.uk
+2022-09-09,2223,Girona,Valladolid,2,1,3,12,football-data.co.uk
+2022-09-17,2223,Mallorca,Almeria,1,0,5,2,football-data.co.uk
+2022-09-17,2223,Barcelona,Elche,3,0,6,0,football-data.co.uk
+2022-09-18,2223,Sociedad,Espanol,2,1,4,2,football-data.co.uk
+2022-09-30,2223,Ath Bilbao,Almeria,4,0,11,2,football-data.co.uk
+2022-10-01,2223,Getafe,Valladolid,2,3,4,2,football-data.co.uk
+2022-10-03,2223,Vallecano,Elche,2,1,13,3,football-data.co.uk
+2022-10-15,2223,Girona,Cadiz,1,1,6,2,football-data.co.uk
+2022-10-15,2223,Valencia,Elche,2,2,6,1,football-data.co.uk
+2022-10-16,2223,Betis,Almeria,3,1,9,3,football-data.co.uk
+2022-10-20,2223,Osasuna,Espanol,1,0,9,2,football-data.co.uk
+2022-10-22,2223,Vallecano,Cadiz,5,1,10,1,football-data.co.uk
+2022-10-23,2223,Villarreal,Almeria,2,1,10,4,football-data.co.uk
+2022-10-28,2223,Mallorca,Espanol,1,1,4,4,football-data.co.uk
+2022-10-30,2223,Osasuna,Valladolid,2,0,1,8,football-data.co.uk
+2022-11-05,2223,Barcelona,Almeria,2,0,9,1,football-data.co.uk
+2022-11-05,2223,Getafe,Cadiz,0,0,5,5,football-data.co.uk
+2022-11-06,2223,Ath Madrid,Espanol,1,1,12,2,football-data.co.uk
+2022-11-08,2223,Ath Bilbao,Valladolid,3,0,10,2,football-data.co.uk
+2022-11-10,2223,Real Madrid,Cadiz,2,1,7,1,football-data.co.uk
+2022-12-29,2223,Ath Madrid,Elche,2,0,3,5,football-data.co.uk
+2022-12-31,2223,Barcelona,Espanol,1,1,10,2,football-data.co.uk
+2023-01-06,2223,Valencia,Cadiz,0,1,13,2,football-data.co.uk
+2023-01-07,2223,Mallorca,Valladolid,1,0,6,2,football-data.co.uk
+2023-01-15,2223,Getafe,Espanol,1,2,5,1,football-data.co.uk
+2023-01-21,2223,Ath Madrid,Valladolid,3,0,4,1,football-data.co.uk
+2023-01-21,2223,Sevilla,Cadiz,1,0,8,1,football-data.co.uk
+2023-01-23,2223,Valencia,Almeria,2,2,6,2,football-data.co.uk
+2023-01-28,2223,Sevilla,Elche,3,0,5,2,football-data.co.uk
+2023-02-03,2223,Ath Bilbao,Cadiz,4,1,0,3,football-data.co.uk
+2023-02-05,2223,Sociedad,Valladolid,0,1,0,4,football-data.co.uk
+2023-02-06,2223,Vallecano,Almeria,2,0,3,7,football-data.co.uk
+2023-02-15,2223,Real Madrid,Elche,4,0,6,4,football-data.co.uk
+2023-02-17,2223,Girona,Almeria,6,2,1,7,football-data.co.uk
+2023-02-18,2223,Betis,Valladolid,2,1,4,6,football-data.co.uk
+2023-02-19,2223,Barcelona,Cadiz,2,0,5,6,football-data.co.uk
+2023-02-26,2223,Celta,Valladolid,3,0,5,4,football-data.co.uk
+2023-03-03,2223,Sociedad,Cadiz,0,0,4,0,football-data.co.uk
+2023-03-04,2223,Mallorca,Elche,0,1,6,7,football-data.co.uk
+2023-03-11,2223,Real Madrid,Espanol,3,1,7,4,football-data.co.uk
+2023-03-12,2223,Sevilla,Almeria,2,1,6,4,football-data.co.uk
+2023-03-19,2223,Sociedad,Elche,2,0,5,3,football-data.co.uk
+2023-04-01,2223,Girona,Espanol,2,1,5,2,football-data.co.uk
+2023-04-02,2223,Celta,Almeria,2,2,4,1,football-data.co.uk
+2023-04-02,2223,Real Madrid,Valladolid,6,0,9,1,football-data.co.uk
+2023-04-08,2223,Osasuna,Elche,2,1,9,2,football-data.co.uk
+2023-04-09,2223,Betis,Cadiz,0,2,5,6,football-data.co.uk
+2023-04-15,2223,Villarreal,Valladolid,1,2,8,5,football-data.co.uk
+2023-04-15,2223,Betis,Espanol,3,1,4,13,football-data.co.uk
+2023-04-16,2223,Girona,Elche,2,0,3,4,football-data.co.uk
+2023-04-16,2223,Ath Madrid,Almeria,2,1,9,2,football-data.co.uk
+2023-04-26,2223,Getafe,Almeria,1,2,4,6,football-data.co.uk
+2023-04-26,2223,Celta,Elche,1,0,10,6,football-data.co.uk
+2023-04-27,2223,Valencia,Valladolid,2,1,6,2,football-data.co.uk
+2023-04-27,2223,Villarreal,Espanol,4,2,9,2,football-data.co.uk
+2023-04-28,2223,Osasuna,Sociedad,0,2,4,2,football-data.co.uk
+2023-04-29,2223,Real Madrid,Almeria,4,2,7,0,football-data.co.uk
+2023-05-02,2223,Sociedad,Real Madrid,2,0,2,6,football-data.co.uk

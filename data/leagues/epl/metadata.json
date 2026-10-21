@@ -1,0 +1,17 @@
+{
+  "league_id": "epl",
+  "name_zh": "英超",
+  "updated_at": "2026-10-21T08:58:52.562235+00:00",
+  "sources": [
+    "football-data.co.uk"
+  ],
+  "teams": 30,
+  "players": 533,
+  "matches": 1805,
+  "corner_matches": 1805,
+  "quality": "高",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T08:58:52.562235+00:00",
+  "players_update_protected": false,
+  "errors": []
+}

@@ -1,0 +1,15 @@
+{
+  "league_id": "serie-a",
+  "name_zh": "巴甲",
+  "updated_at": "2026-10-21T09:03:15.704853+00:00",
+  "sources": [],
+  "teams": 0,
+  "players": 613,
+  "matches": 0,
+  "corner_matches": 0,
+  "quality": "樣本不足",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T09:03:15.704853+00:00",
+  "players_update_protected": false,
+  "errors": []
+}

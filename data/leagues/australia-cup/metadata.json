@@ -1,0 +1,23 @@
+{
+  "league_id": "australia-cup",
+  "name_zh": "澳洲盃",
+  "updated_at": "2026-10-21T09:02:07.904572+00:00",
+  "sources": [
+    "openfootball (pacific/australia/2018-19_au1.txt)",
+    "openfootball (pacific/australia/2019-20_au1.txt)",
+    "openfootball (pacific/australia/2020-21_au1.txt)",
+    "openfootball (pacific/australia/2021-22_au1.txt)",
+    "openfootball (pacific/australia/2022-23_au1.txt)",
+    "openfootball (pacific/australia/2023-24_au1.txt)",
+    "openfootball (pacific/australia/2024-25_au1.txt)"
+  ],
+  "teams": 13,
+  "players": 0,
+  "matches": 772,
+  "corner_matches": 0,
+  "quality": "高",
+  "dataSource": "ESPN／football-data／openfootball",
+  "lastUpdated": "2026-10-21T09:02:07.904572+00:00",
+  "players_update_protected": false,
+  "errors": []
+}
