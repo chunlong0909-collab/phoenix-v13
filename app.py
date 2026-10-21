@@ -25,6 +25,16 @@ except Exception:
         return []
     def reports_to_dataframe(*args, **kwargs):
         return pd.DataFrame()
+try:
+    from data.sources.realtime_scraper import fetch_realtime_context
+    from analysis.corrections import apply_verified_injury_adjustment
+except Exception:
+    def fetch_realtime_context(*args, **kwargs):
+        return {"status": "unavailable", "source": "未取得", "injury_data_verified": False,
+                "h2h_last4": [], "home_last10": [], "away_last10": [], "injuries": [],
+                "goal_adjustment": {"home": 0.0, "away": 0.0}}
+    def apply_verified_injury_adjustment(hx, ax, live_context):
+        return hx, ax, "即時來源模組未載入，沒有扣減預期入球"
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -1716,6 +1726,14 @@ if run:
     hx, ax = max(.15, (hgf + aga) / 2 * 1.08), max(.15, (agf + hga) / 2 * .94)
     fbref_stats, fbref_source = fbref_team_stats(league)
     hx, ax, fbref_adjustment = fbref_expected_goal_adjustment(fbref_stats, home, away, hx, ax)
+    live_context = fetch_realtime_context(home, away, league)
+    hx, ax, injury_adjustment = apply_verified_injury_adjustment(hx, ax, live_context)
+    if live_context.get("status") == "ok":
+        st.caption(f"即時資料：{live_context.get('source', '已取得')}｜H2H近4場：{len(live_context.get('h2h_last4', []))}｜主客近10場：{len(live_context.get('home_last10', []))}/{len(live_context.get('away_last10', []))}｜傷停：{len(live_context.get('injuries', []))}人")
+    else:
+        st.caption("即時資料：未取得；未使用未核實傷停，模型沒有自行扣減預期入球")
+    if injury_adjustment != "未有已核實傷停，沒有扣減預期入球":
+        st.info(f"傷停修正：{injury_adjustment}")
     hp, dp, ap = probs(hx, ax)
     over = 1 - sum(poisson(k, hx + ax) for k in range(math.floor(line) + 1))
     under = 1 - over
