@@ -31,6 +31,8 @@ try:
     from data.odds.odds_mapper import parse_odds_text
     from analysis.odds_vs_model import compare_odds, ai_summary
     from data.orbiflow.orbiflow_adapter import load_orbiflow, apply_orbiflow, orbiflow_summary
+    from data.team_goals.team_goals_model import team_goal_model, total_goal_band, goal_line_note
+    from data.corners.corner_model import fallback_corner_model
 except Exception:
     def fetch_realtime_context(*args, **kwargs):
         return {"status": "unavailable", "source": "未取得", "injury_data_verified": False,
@@ -46,6 +48,10 @@ except Exception:
     def load_orbiflow(*args, **kwargs): return {"available": False, "source": "未有有效ORBIFLOW資料"}
     def apply_orbiflow(hx, ax, data, *args, **kwargs): return {"home_exp_final": hx, "away_exp_final": ax, "total_exp_final": hx+ax, "used": False}
     def orbiflow_summary(data, result): return "ORBIFLOW流動：未有有效資料｜沿用V1.0原有預期"
+    def team_goal_model(hx, ax): return {"home_exp":hx,"away_exp":ax,"total_exp":hx+ax,"home_over_0_5":1-math.exp(-hx),"home_over_1_5":1-math.exp(-hx)*(1+hx),"away_over_0_5":1-math.exp(-ax),"away_over_1_5":1-math.exp(-ax)*(1+ax)}
+    def total_goal_band(total, swing=.8): return {"total_exp":total,"swing":swing,"low":max(0,total-swing),"high":total+swing}
+    def goal_line_note(p, line, margin=.08): return f"{p:.2%}（模型機率）"
+    def fallback_corner_model(*args, **kwargs): return {"home":4.5,"away":4.5,"total":9.0,"market":{},"is_fallback":True,"source":"V1.4情境估算","note":"角球無和局；估算不等於實測"}
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -202,6 +208,19 @@ def load_alias_map():
     except Exception:
         return
 load_alias_map()
+
+def load_team_name_map():
+    path = Path(__file__).parent / "data" / "team_name_map.json"
+    try:
+        mapping = json.loads(path.read_text(encoding="utf-8"))
+        for english, chinese in mapping.items():
+            english, chinese = str(english).strip(), str(chinese).strip()
+            if english and chinese:
+                TEAM_ZH[english] = chinese
+                ALIASES.setdefault(chinese, english)
+    except Exception:
+        return
+load_team_name_map()
 
 def zh_team(name):
     name = str(name or "").strip()
@@ -1087,7 +1106,7 @@ def market_explanation(p, odds=None, other="", data_ok=True):
 
 
 def render_market_table(title, rows, show_only_green, key):
-    """按EV排序；可選只看綠色，但預設顯示全部盤口。"""
+    """按EV排序並永遠顯示全部；V1.4不因EV門檻隱藏模型機率。"""
     frame = pd.DataFrame(rows)
     if frame.empty:
         st.markdown(f"### {title}")
@@ -1099,17 +1118,10 @@ def render_market_table(title, rows, show_only_green, key):
     if green_index:
         best_index = max(green_index, key=lambda i: frame.loc[i, "EV"])
         frame.loc[best_index, "提示"] = "✅ 可以考慮 ⭐最值博"
-    visible = frame[frame["_green"]].copy() if show_only_green else frame.copy()
+    visible = frame.copy()
     visible = visible.drop(columns=["_green", "EV"], errors="ignore")
     st.markdown(f"### {title}")
-    if visible.empty:
-        st.info("目前沒有 EV 大於 10% 且資料足夠嘅盤口；其他方向已收起。")
-    else:
-        st.dataframe(visible, use_container_width=True, hide_index=True)
-    hidden = frame[~frame["_green"]].drop(columns=["_green", "EV"], errors="ignore")
-    if show_only_green and not hidden.empty:
-        with st.expander(f"顯示更多（{len(hidden)} 個非綠色盤口）", expanded=False):
-            st.dataframe(hidden, use_container_width=True, hide_index=True)
+    st.dataframe(visible, use_container_width=True, hide_index=True)
 
 
 def data_is_stale(matches, max_age_days=365):
@@ -1751,9 +1763,11 @@ if run:
     fbref_stats, fbref_source = fbref_team_stats(league)
     hx, ax, fbref_adjustment = fbref_expected_goal_adjustment(fbref_stats, home, away, hx, ax)
     live_context = fetch_realtime_context(home, away, league)
+    manual_injury_used = False
     hx, ax, injury_adjustment = apply_verified_injury_adjustment(hx, ax, live_context)
     manual_injuries = load_manual_injury_context(home, away)
     if manual_injuries.get("status") in {"manual_verified", "manual_verified_match"}:
+        manual_injury_used = True
         hx, ax, injury_adjustment = apply_verified_injury_adjustment(hx, ax, manual_injuries)
         live_context = {**live_context, **manual_injuries,
                         "injuries": manual_injuries.get("injuries", []),
@@ -1766,7 +1780,9 @@ if run:
         st.caption(f"即時資料：{live_context.get('source', '已取得')}｜H2H近4場：{len(live_context.get('h2h_last4', []))}｜主客近10場：{len(live_context.get('home_last10', []))}/{len(live_context.get('away_last10', []))}｜傷停：{len(live_context.get('injuries', []))}人")
     else:
         st.caption("即時資料：未取得；未使用未核實傷停，模型沒有自行扣減預期入球")
-    if injury_adjustment != "未有已核實傷停，沒有扣減預期入球":
+    if manual_injury_used:
+        st.success(f"傷停修正：已使用已核實傷停｜{injury_adjustment}")
+    elif injury_adjustment != "未有已核實傷停，沒有扣減預期入球":
         st.info(f"傷停修正：{injury_adjustment}")
     hp, dp, ap = probs(hx, ax)
     pasted_rows = parse_odds_text(pasted_odds)
@@ -1788,6 +1804,10 @@ if run:
         fbref_corner_rows["source"] = "FBref 比賽報告"
         corner_input = pd.concat([corner_input, fbref_corner_rows[["Home", "Away", "HC", "AC", "DateParsed", "source"]]], ignore_index=True)
     corner_lams, corner_status = corner_model(corner_input, home, away)
+    # V1.4：入球模型與賠率分開；角球有真實HC/AC時優先使用，否則只作明確標示的情境估算。
+    team_goal_view = team_goal_model(hx, ax)
+    goal_band = total_goal_band(team_goal_view["total_exp"], 0.8)
+    corner_fallback = None if corner_lams else fallback_corner_model(open_play=0.135, tight=0.498)
     corner_source_names = []
     if not corner_input.empty and "source" in corner_input.columns:
         for raw_source in corner_input.loc[corner_input[["HC", "AC"]].notna().all(axis=1), "source"].dropna().astype(str).unique():
@@ -1814,9 +1834,24 @@ if run:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
     home_zh, away_zh = zh_team(home), zh_team(away)
     st.success(f"資料來源：{zh_source(source)}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
-    st.caption(orbiflow_summary(orbiflow_data, orbiflow_result))
+    if orbiflow_data.get("available"):
+        st.caption(orbiflow_summary(orbiflow_data, orbiflow_result))
     st.subheader(f"{home_zh} 對 {away_zh}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
+    st.markdown("### 主客隊入球預期（模型獨立，無需賠率）")
+    goal_view = pd.DataFrame([
+        {"球隊": home_zh, "預期入球": hx, "大0.5機率": team_goal_view["home_over_0_5"], "大1.5機率": team_goal_view["home_over_1_5"]},
+        {"球隊": away_zh, "預期入球": ax, "大0.5機率": team_goal_view["away_over_0_5"], "大1.5機率": team_goal_view["away_over_1_5"]},
+    ])
+    st.dataframe(goal_view.style.format({"預期入球":"{:.2f}", "大0.5機率":"{:.1%}", "大1.5機率":"{:.1%}"}), use_container_width=True, hide_index=True)
+    st.caption(f"總預期 {goal_band['total_exp']:.2f} 球 ±{goal_band['swing']:.1f} 波動區間（{goal_band['low']:.2f}–{goal_band['high']:.2f}）；接近50%的大小線應視為搖擺區，唔好只因EV落注。")
+    low_score_tight = sum(poisson(k, team_goal_view["total_exp"]) for k in range(3))
+    st.markdown("### 勝和負風險及雙重機會")
+    st.write(f"主不敗：{hp + dp:.1%}｜客不敗：{ap + dp:.1%}｜和局：{dp:.1%}")
+    if low_score_tight > .45:
+        st.warning(f"⚠️ 膠著局風險高（低比分膠著約 {low_score_tight:.1%}）：和局風險較高，建議考慮雙重機會或避開單邊膽。")
+    if abs(hp - ap) < .10:
+        st.warning(f"⚠️ 主客機率差距只有 {abs(hp-ap):.1%}，實力接近，慎選主客方向。")
     if pasted_results:
         st.info(ai_summary(pasted_results, home_zh, away_zh, hx, ax))
         ev_view = pd.DataFrame(pasted_results)
@@ -1852,9 +1887,7 @@ if run:
         st.caption(f"外部攻守統計狀態：{fbref_status_zh}；修正幅度受限。")
     with tab_scenarios:
         st.dataframe(scenario_table(matrix, hx, ax).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
-    toggle_col, title_col = st.columns([1, 2])
-    with toggle_col:
-        green_only = st.checkbox("只顯示✅可以考慮（EV > 10%）", value=False, key="green_only_markets")
+    green_only = False  # V1.4：EV只作燈號，不隱藏任何模型盤口。
     # 勝和負標題由 render_market_table 統一輸出，避免手機版出現重複標題。
     result_rows = []
     for name, prob, odds, other in [("主勝", hp, home_odds, "和局或主隊不敗"), ("和局", dp, draw_odds, "主隊不敗"), ("客勝", ap, away_odds, "和局或客隊不敗")]:
@@ -1866,8 +1899,19 @@ if run:
     for x in [2.5, 3.5, 4.5]:
         for label, prob, odds, other in [(f"大 {x}", goal_lines[x], goal_over_odds_map[x] or None, f"細 {x}"), (f"細 {x}", 1 - goal_lines[x], goal_under_odds_map[x] or None, f"大 {x}")]:
             status, explanation, ev_value = market_explanation(prob, odds, other, data_ok=pair_data_ok)
+            if abs(prob - .5) <= .08:
+                explanation += f"；{goal_line_note(prob, x)}，可考慮大2.0或細3.0等較有安全邊際的線"
             goal_rows.append({"入球盤": label, "模型機率": prob, "輸入賠率": odds, "提示": status, "說明": explanation, "EV": ev_value})
     render_market_table("入球大小", goal_rows, green_only, "goals")
+
+    st.markdown("### 角球預期（最穩區域）")
+    if corner_lams:
+        corner_summary_total = sum(corner_lams)
+        st.write(f"真實角球模型總預期：{corner_summary_total:.2f}｜大8.5 {total_over_probability(corner_summary_total, 8.5):.1%}｜大9.5 {total_over_probability(corner_summary_total, 9.5):.1%}｜大10.5 {total_over_probability(corner_summary_total, 10.5):.1%}")
+        st.caption("角球無和局；優先參考有逐場HC/AC嘅線，EV只作顏色，不代表必然命中。")
+    else:
+        st.write(f"情境估算總預期：{corner_fallback['total']:.1f}｜大8.5 {corner_fallback['market'][8.5]['over']:.0%}｜大9.5 {corner_fallback['market'][9.5]['over']:.0%}｜大10.5 {corner_fallback['market'][10.5]['over']:.0%}｜細9.5 {corner_fallback['market'][9.5]['under']:.0%}")
+        st.caption("角球無和局，適合避開勝負陷阱；以上係透明情境估算，補上真實HC/AC後會改用歷史模型。")
 
     ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）", data_ok=pair_data_ok)
     handicap_table = pd.DataFrame([
@@ -1884,8 +1928,8 @@ if run:
     st.markdown("### 波膽")
     st.dataframe(exact_score_table(matrix, 5).rename(columns={"比分": "預測比分", "機率": "模型機率"}).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
 
-    st.markdown("### 角球大小")
-    corner_lines = [9.5, 10.5, 11.5, 12.5]
+    st.markdown("### 角球盤口詳情")
+    corner_lines = [8.5, 9.5, 10.5, 11.5, 12.5]
     if corner_lams:
         corner_total = sum(corner_lams)
         corner_rows = []
@@ -1899,11 +1943,18 @@ if run:
         st.caption(f"資料來源：{corner_source_label}｜角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
         render_market_table("角球大小", corner_table.to_dict("records"), green_only, "corners")
     else:
-        st.caption(f"資料來源：{corner_source_label}（football-data.co.uk／本地CSV／TheSportsDB／API-Sports 有邊個先用邊個）")
-        st.warning(f"未能可靠推算角球：{corner_status}")
-        # 角球資料不足時仍顯示各條線，但兩個欄位必須有相同列數，避免 Streamlit ValueError。
-        corner_labels = [f"大 {x}" for x in corner_lines] + [f"細 {x}" for x in corner_lines]
-        st.dataframe(pd.DataFrame({"角球盤": corner_labels, "狀態": ["資料不足，暫不推算"] * len(corner_labels)}), use_container_width=True, hide_index=True)
+        cmodel = corner_fallback
+        st.caption(f"資料來源：{cmodel['source']}｜角球預期：主隊 {cmodel['home']:.1f}、客隊 {cmodel['away']:.1f}、總數 {cmodel['total']:.1f}")
+        st.warning(f"{cmodel['note']}；暫未取得逐場HC/AC，請上載角球CSV後自動改用真實歷史模型。")
+        fallback_rows = []
+        for x in [8.5, 9.5, 10.5, 11.5, 12.5]:
+            p = cmodel["market"][x]
+            fallback_rows.extend([
+                {"角球盤":f"大 {x}","模型機率":p["over"],"輸入賠率":corner_over_odds_map.get(x) or None,"提示":"📊 情境估算（EV只作顏色）","說明":"角球無和局；優先用真實HC/AC","EV":None},
+                {"角球盤":f"細 {x}","模型機率":p["under"],"輸入賠率":corner_under_odds_map.get(x) or None,"提示":"📊 情境估算（EV只作顏色）","說明":"角球無和局；優先用真實HC/AC","EV":None},
+            ])
+        st.markdown("**角球預期（V1.4最穩區域）**")
+        render_market_table("角球大小", fallback_rows, False, "corners_fallback")
 
     st.markdown("**綜合推薦**")
     best_market = max([(hp, "主勝"), (dp, "和局"), (ap, "客勝"), (over, f"大 {line}"), (under, f"細 {line}"), (ah_home, f"主隊讓球 {handicap_line:+.2f}")])
