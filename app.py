@@ -1080,35 +1080,37 @@ def total_over_probability(lam, line):
     return 1 - sum(poisson(k, lam) for k in range(math.floor(line) + 1))
 
 
-def signal(p, odds=None, other="", data_ok=True, backtest_ok=True):
-    """將模型結果與下注建議分開；沒有賠率時不假裝可以計 EV。"""
+def signal(p, odds=None, other="", data_ok=True, backtest_ok=True, risk_reason="", is_corner=False):
+    """V1.4/V2.0三色風險燈；永遠顯示機率，EV只作風險分類。"""
     if p is None or not data_ok:
-        return "🚫 暫不作下注結論", "資料已過期或核心資料不足；只供歷史參考"
-    if odds and p * odds - 1 > .50:
-        return "⚠️ 異常高值", f"EV {p * odds - 1:.1%}；請先核對盤口、方向及賠率"
-    if odds and p * odds - 1 > .10 and backtest_ok:
-        return "✅ 可以考慮", f"EV {p * odds - 1:.1%}（仍不代表保證）"
-    if odds and p * odds - 1 < 0:
-        return "🟡 不具模型優勢", f"EV {p * odds - 1:.1%}；{('可比較 ' + other) if other else '觀望'}"
+        return "⚪ 資料不足", "資料不足，不能可靠計算EV；只作參考"
+    if odds and odds > 1:
+        ev = p * odds - 1
+        if ev > .08 and backtest_ok:
+            return "✅ 可以考慮", f"模型 {p:.1%}｜EV {ev:+.1%}（不代表保證）"
+        # 角球不使用紅色燈；無和局陷阱時最多標為搖擺區。
+        if is_corner or ev >= -.15:
+            return "⚠️ 搖擺區", f"模型 {p:.1%}｜EV {ev:+.1%}；{('可考慮小注或轉其他角球線' if is_corner else '建議小注或避開剛好線')}"
+        return "❌ 伏位唔建議", f"模型 {p:.1%}｜EV {ev:+.1%}；{risk_reason or ('莊家賠率未給足價值；' + other if other else '風險較高')}"
     if p >= .50:
-        return "📊 模型推算", "方向機率較高，但未有可核對賠率，不能計算價值"
-    return "⚪ 只供參考", f"模型方向機率 {p:.1%}；{('可比較 ' + other) if other else '不作下注結論'}"
+        return "⚪ 未有賠率", f"模型 {p:.1%}；未輸入賠率，不能計算EV"
+    return "⚪ 未有賠率", f"模型 {p:.1%}；未輸入賠率，不能計算EV"
 
 
-def market_explanation(p, odds=None, other="", data_ok=True):
+def market_explanation(p, odds=None, other="", data_ok=True, risk_reason="", is_corner=False):
     """將盤口狀態翻譯成簡短廣東話；只負責顯示，不改模型。"""
-    status, _ = signal(p, odds, other, data_ok=data_ok)
+    status, _ = signal(p, odds, other, data_ok=data_ok, risk_reason=risk_reason, is_corner=is_corner)
     ev = (p * odds - 1) if p is not None and odds and odds > 1 else None
     if status == "✅ 可以考慮":
         implied = 1 / odds if odds and odds > 1 else 0
         return status, f"可以考慮：模型 {p:.1%} vs 莊家隱含機率 {implied:.1%}，值博率 {ev:+.1%}", ev
-    if status == "🟡 不具模型優勢":
-        return status, f"不具模型優勢：模型估計 {p:.1%}，扣除賠率後未見價值，建議跳過", ev
-    if status == "⚪ 只供參考":
-        return status, f"只供參考：模型覺得有 {p:.1%} 機會，但未有賠率支持，建議跳過", ev
-    if status == "📊 模型推算":
-        return status, f"模型推算：方向機率約 {p:.1%}，但未有賠率，未能判斷是否值博", ev
-    return status, "核心資料不足或已過期，暫不作下注結論", ev
+    if status == "⚠️ 搖擺區":
+        return status, f"搖擺區：模型 {p:.1%}｜EV {ev:+.1%}；{('角球最多作觀察，不標紅' if is_corner else '可考慮小注、雙重機會或轉其他線')}", ev
+    if status == "❌ 伏位唔建議":
+        return status, f"伏位唔建議：{risk_reason or 'EV及盤口方向未提供足夠安全邊際'}｜模型 {p:.1%}｜EV {ev:+.1%}", ev
+    if status == "⚪ 未有賠率":
+        return status, f"模型 {p:.1%}；未輸入賠率，暫不判斷值博率", ev
+    return status, "資料不足，暫不作下注結論", ev
 
 
 def render_market_table(title, rows, show_only_green, key):
@@ -1118,16 +1120,24 @@ def render_market_table(title, rows, show_only_green, key):
         st.markdown(f"### {title}")
         st.info("目前沒有足夠資料顯示此盤口。")
         return
-    frame["_green"] = frame["提示"].eq("✅ 可以考慮") & (frame["EV"].fillna(-999) > .10)
+    frame["_green"] = frame["提示"].eq("✅ 可以考慮") & (frame["EV"].fillna(-999) > .08)
     frame = pd.concat([frame[frame["_green"]], frame[~frame["_green"]].sort_values("EV", ascending=False, na_position="last")])
     green_index = frame.index[frame["_green"]].tolist()
     if green_index:
         best_index = max(green_index, key=lambda i: frame.loc[i, "EV"])
         frame.loc[best_index, "提示"] = "✅ 可以考慮 ⭐最值博"
-    visible = frame.copy()
-    visible = visible.drop(columns=["_green", "EV"], errors="ignore")
+    visible = frame.copy().drop(columns=["_green"], errors="ignore")
+    if "EV" in visible.columns:
+        visible["EV"] = visible["EV"].map(lambda x: "—" if pd.isna(x) else f"{float(x):+.1%}")
     st.markdown(f"### {title}")
-    st.dataframe(visible, use_container_width=True, hide_index=True)
+    def _row_style(row):
+        status = str(row.get("提示", ""))
+        color = "#173d25" if status.startswith("✅") else "#4a3d10" if status.startswith("⚠️") else "#4a1717" if status.startswith("❌") else "#20232a"
+        return [f"background-color: {color}; color: white" for _ in row]
+    try:
+        st.dataframe(visible.style.apply(_row_style, axis=1), use_container_width=True, hide_index=True)
+    except Exception:
+        st.dataframe(visible, use_container_width=True, hide_index=True)
 
 
 def data_is_stale(matches, max_age_days=365):
@@ -1912,8 +1922,12 @@ if run:
     green_only = False  # V1.4：EV只作燈號，不隱藏任何模型盤口。
     # 勝和負標題由 render_market_table 統一輸出，避免手機版出現重複標題。
     result_rows = []
+    close_risk = abs(hp - ap) < .07
     for name, prob, odds, other in [("主勝", hp, home_odds, "和局或主隊不敗"), ("和局", dp, draw_odds, "主隊不敗"), ("客勝", ap, away_odds, "和局或客隊不敗")]:
-        status, explanation, ev_value = market_explanation(prob, odds, other, data_ok=pair_data_ok)
+        reason = ""
+        if low_score_tight > .45: reason = f"和局陷阱{low_score_tight:.1%}"
+        if close_risk and name in {"主勝", "客勝"}: reason = (reason + "；" if reason else "") + f"實力接近，主客差距{abs(hp-ap):.1%}"
+        status, explanation, ev_value = market_explanation(prob, odds, other, data_ok=pair_data_ok, risk_reason=reason)
         result_rows.append({"選項": name, "模型機率": prob, "輸入賠率": odds, "提示": status, "說明": explanation, "EV": ev_value})
     render_market_table("勝和負", result_rows, green_only, "result")
 
@@ -1944,14 +1958,15 @@ if run:
         st.write(f"情境估算總預期：{ctotal:.1f}｜大8.5 {_corner_p(8.5, 'over'):.0%}｜大9.5 {_corner_p(9.5, 'over'):.0%}｜大10.5 {_corner_p(10.5, 'over'):.0%}｜細9.5 {_corner_p(9.5, 'under'):.0%}")
         st.caption("角球無和局，適合避開勝負陷阱；以上係透明情境估算，補上真實HC/AC後會改用歷史模型。")
 
-    ah_signal, ah_reason = signal(ah_home, handicap_odds, "主隊受讓／客隊方向（視讓球線）", data_ok=pair_data_ok)
+    handicap_role = "主隊受讓" if handicap_line > 0 else "主隊讓球" if handicap_line < 0 else "平手盤"
+    ah_signal, ah_reason = signal(ah_home, handicap_odds, f"{handicap_role}；模型按主隊入球 {handicap_line:+.2f} 後計算", data_ok=pair_data_ok)
     handicap_table = pd.DataFrame([
-        [f"主隊 {handicap_line:+.2f}", ah_home, handicap_odds, ah_signal, ah_reason],
-        [f"讓球和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "讓球主隊或客隊", data_ok=pair_data_ok)],
-        [f"讓球客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "讓球主隊", data_ok=pair_data_ok)],
+        [f"主隊{handicap_role} {handicap_line:+.2f}", ah_home, handicap_odds, ah_signal, ah_reason],
+        [f"調整後和局 {handicap_line:+.2f}", ah_draw, None, *signal(ah_draw, None, "調整後主客相同", data_ok=pair_data_ok)],
+        [f"調整後客隊 {handicap_line:+.2f}", ah_away, None, *signal(ah_away, None, "調整後主隊不勝", data_ok=pair_data_ok)],
     ], columns=["讓球盤", "模型機率", "輸入賠率", "提示", "說明"])
     handicap_rows = []
-    for label, prob, odds, other in [(f"主隊 {handicap_line:+.2f}", ah_home, handicap_odds, "讓球客隊"), (f"讓球和局 {handicap_line:+.2f}", ah_draw, None, "讓球主隊或客隊"), (f"讓球客隊 {handicap_line:+.2f}", ah_away, None, "讓球主隊")]:
+    for label, prob, odds, other in [(f"主隊{handicap_role} {handicap_line:+.2f}", ah_home, handicap_odds, "調整後客隊"), (f"調整後和局 {handicap_line:+.2f}", ah_draw, None, "調整後主客相同"), (f"調整後客隊 {handicap_line:+.2f}", ah_away, None, "調整後主隊不勝")]:
         status, explanation, ev_value = market_explanation(prob, odds, other, data_ok=pair_data_ok)
         handicap_rows.append({"讓球盤": label, "模型機率": prob, "輸入賠率": odds, "提示": status, "說明": explanation, "EV": ev_value})
     render_market_table("讓球盤", handicap_rows, green_only, "handicap")
@@ -1967,8 +1982,8 @@ if run:
         for x in corner_lines:
             over_p = total_over_probability(corner_total, x)
             corner_rows.extend([
-                [f"大 {x}", over_p, corner_over_odds_map[x] or None, *market_explanation(over_p, corner_over_odds_map[x] or None, f"細 {x}", data_ok=pair_data_ok)],
-                [f"細 {x}", 1 - over_p, corner_under_odds_map[x] or None, *market_explanation(1 - over_p, corner_under_odds_map[x] or None, f"大 {x}", data_ok=pair_data_ok)],
+                [f"大 {x}", over_p, corner_over_odds_map[x] or None, *market_explanation(over_p, corner_over_odds_map[x] or None, f"細 {x}", data_ok=pair_data_ok, is_corner=True)],
+                [f"細 {x}", 1 - over_p, corner_under_odds_map[x] or None, *market_explanation(1 - over_p, corner_under_odds_map[x] or None, f"大 {x}", data_ok=pair_data_ok, is_corner=True)],
             ])
         corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "輸入賠率", "提示", "說明", "EV"])
         st.caption(f"資料來源：{corner_source_label}｜角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
@@ -1984,8 +1999,8 @@ if run:
                 q = total_over_probability(float(cmodel.get("total",9.0)), x)
                 p = {"over":q,"under":1-q}
             fallback_rows.extend([
-                {"角球盤":f"大 {x}","模型機率":p["over"],"輸入賠率":corner_over_odds_map.get(x) or None,"提示":"📊 情境估算（EV只作顏色）","說明":"角球無和局；優先用真實HC/AC","EV":None},
-                {"角球盤":f"細 {x}","模型機率":p["under"],"輸入賠率":corner_under_odds_map.get(x) or None,"提示":"📊 情境估算（EV只作顏色）","說明":"角球無和局；優先用真實HC/AC","EV":None},
+                {"角球盤":f"大 {x}","模型機率":p["over"],"輸入賠率":corner_over_odds_map.get(x) or None,"提示":market_explanation(p["over"], corner_over_odds_map.get(x) or None, f"細 {x}", data_ok=pair_data_ok, is_corner=True)[0],"說明":market_explanation(p["over"], corner_over_odds_map.get(x) or None, f"細 {x}", data_ok=pair_data_ok, is_corner=True)[1],"EV":market_explanation(p["over"], corner_over_odds_map.get(x) or None, f"細 {x}", data_ok=pair_data_ok, is_corner=True)[2]},
+                {"角球盤":f"細 {x}","模型機率":p["under"],"輸入賠率":corner_under_odds_map.get(x) or None,"提示":market_explanation(p["under"], corner_under_odds_map.get(x) or None, f"大 {x}", data_ok=pair_data_ok, is_corner=True)[0],"說明":market_explanation(p["under"], corner_under_odds_map.get(x) or None, f"大 {x}", data_ok=pair_data_ok, is_corner=True)[1],"EV":market_explanation(p["under"], corner_under_odds_map.get(x) or None, f"大 {x}", data_ok=pair_data_ok, is_corner=True)[2]},
             ])
         st.markdown("**角球預期（V1.4最穩區域）**")
         render_market_table("角球大小", fallback_rows, False, "corners_fallback")
@@ -2025,6 +2040,6 @@ if run:
                 if uploaded_players.empty:
                     st.caption("未上載球員 CSV；本頁不顯示缺少中文位置資料提示。")
             st.info("傷停：此免費來源沒有今場可核實傷停資料")
-    st.info("未填賠率的盤口仍會用已取得的真實歷史數據計算機率；但沒有賠率只能顯示模型推算，不能計算 EV。沒有角球／射門等來源資料時會明確顯示資料不足，不會自行補數。")
+    st.info("未填賠率的盤口仍會用已取得的真實歷史數據計算機率；但沒有賠率只能顯示模型機率，不能計算 EV。沒有角球／射門等來源資料時會明確顯示資料不足，不會自行補數。")
 else:
     st.info("選擇聯賽、輸入兩隊，再按分析。")
