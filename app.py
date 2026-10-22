@@ -1666,6 +1666,7 @@ with st.sidebar:
         pro_event = pro_payload.get("odds_snapshot")
         if pro_event:
             st.markdown(f"**{pro_event.get('home_team')} 對 {pro_event.get('away_team')}**")
+            st.caption("以下為The Odds API目前快照；免費即時接口不等於初盤／香港莊家水位，沒有來源提供的項目不會自行補填。")
             pro_rows = []
             for book in pro_event.get("bookmakers", []):
                 for market in book.get("markets", []):
@@ -1681,7 +1682,10 @@ with st.sidebar:
         if detail.get("status") == "ok":
             score = detail.get("score", {})
             st.markdown("**Football-Data.org 完場資料**")
-            st.write(f"比分：{score.get('home')} - {score.get('away')}｜入球事件：{len(detail.get('goals') or [])}｜陣容資料：{len(detail.get('lineups') or [])}隊｜角球：{detail.get('corners') if detail.get('corners') is not None else '來源未提供'}")
+            lineup_rows = detail.get("lineups") or []
+            lineup_count = sum(len(x.get("players") or []) for x in lineup_rows if isinstance(x, dict))
+            formations = "、".join(str(x.get("formation")) for x in lineup_rows if isinstance(x, dict) and x.get("formation")) or "來源未提供"
+            st.write(f"比分：{score.get('home')} - {score.get('away')}｜入球事件：{len(detail.get('goals') or [])}｜陣容球員：{lineup_count}人｜陣式：{formations}｜角球：{detail.get('corners') if detail.get('corners') is not None else '來源未提供'}")
         elif refresh_postmatch:
             st.warning(detail.get("reason", "完場資料未取得"))
     home_odds = st.number_input("主勝賠率（0=沒有此盤）", 0.0, 100.0, 1.85)
