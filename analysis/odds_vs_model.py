@@ -7,7 +7,7 @@ def poisson_pmf(k, lam): return math.exp(-lam)*lam**k/math.factorial(k)
 def _dist(hx, ax, n=14): return {(h,a):poisson_pmf(h,hx)*poisson_pmf(a,ax) for h in range(n+1) for a in range(n+1)}
 def _p(x): return max(0.0,min(1.0,float(x)))
 
-def probability_for_market(row: dict, home_exp: float, away_exp: float, monte_carlo: dict|None=None) -> float:
+def probability_for_market(row: dict, home_exp: float, away_exp: float, monte_carlo: dict|None=None, corner_total: float|None=None) -> float:
     market=row.get("market"); sel=row.get("selection"); line=row.get("line")
     if market in {"1X2","Half1X2"}:
         if monte_carlo and market=="1X2":
@@ -26,15 +26,18 @@ def probability_for_market(row: dict, home_exp: float, away_exp: float, monte_ca
     if market=="OU":
         total=home_exp+away_exp
         return _p(sum(v for (h,a),v in _dist(home_exp,away_exp).items() if (h+a>line if sel=="over" else h+a<line)))
+    if market=="CornerOU":
+        total=float(corner_total if corner_total is not None else 9.0)
+        return _p(sum(poisson_pmf(k,total) for k in range(0,31) if (k>line if sel=="over" else k<line)))
     if market=="TeamOU":
         lam=home_exp if row.get("team")=="home" else away_exp
         return _p(sum(poisson_pmf(k,lam) for k in range(0,15) if (k>line if sel=="over" else k<line)))
     return 0.0
 
-def compare_odds(rows: list[dict], home_exp: float, away_exp: float, monte_carlo: dict|None=None) -> list[dict[str,Any]]:
+def compare_odds(rows: list[dict], home_exp: float, away_exp: float, monte_carlo: dict|None=None, corner_total: float|None=None) -> list[dict[str,Any]]:
     out=[]
     for row in rows:
-        p=probability_for_market(row,home_exp,away_exp,monte_carlo); odds=float(row["odds"])
+        p=probability_for_market(row,home_exp,away_exp,monte_carlo,corner_total); odds=float(row["odds"])
         ev=p*odds-1; light="green" if ev>.10 else "yellow" if ev>=0 else "grey"
         out.append({**row,"model_prob":p,"model_probability":p,"book_prob":1/odds,"bookmaker_probability":1/odds,"ev":ev,"light":light})
     return sorted(out,key=lambda x:x["ev"],reverse=True)
