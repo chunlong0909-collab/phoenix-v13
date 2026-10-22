@@ -66,6 +66,33 @@ except Exception:
     def odds_usage(): return {"date": "", "calls": 0}
     def find_event(*args, **kwargs): return None
 
+# 重要模組獨立重試：即使專業盤口或其他選配模組失敗，V2解讀、學習、
+# 角球及傷停修正仍然可以正常載入，不應整批退回後備模式。
+try:
+    from data.brain.match_reader import read_match as _v2_read_match
+    read_match = _v2_read_match
+except Exception:
+    pass
+try:
+    from data.brain.learning import learning_adjustment as _learning_adjustment
+    from data.brain.learning import learning_summary as _learning_summary
+    from data.brain.learning import load_log as _load_log
+    learning_adjustment, learning_summary, load_log = _learning_adjustment, _learning_summary, _load_log
+except Exception:
+    pass
+try:
+    from analysis.corrections import apply_verified_injury_adjustment as _apply_verified_injury_adjustment
+    from analysis.corrections import load_manual_injury_context as _load_manual_injury_context
+    apply_verified_injury_adjustment, load_manual_injury_context = _apply_verified_injury_adjustment, _load_manual_injury_context
+except Exception:
+    pass
+try:
+    from data.corners.corner_model import fallback_corner_model as _fallback_corner_model
+    from data.corners.corner_model import corner_insight as _corner_insight
+    fallback_corner_model, corner_insight = _fallback_corner_model, _corner_insight
+except Exception:
+    pass
+
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
 DB = Path(__file__).with_name("football_library.db")
@@ -178,7 +205,8 @@ ALIASES = {
     "高雲地利": "Coventry City", "Coventry": "Coventry City",
     "艾費哈": "Al Feiha", "Al Fayha": "Al Feiha", "Al Fayha FC": "Al Feiha",
     "吉達艾阿里": "Al Ahli SC", "吉達艾里": "Al Ahli SC",
-    "艾哈森": "Al Ahli SC", "Al Ahli": "Al Ahli SC", "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
+    "艾哈森": "Al Hazem", "哈森姆": "Al Hazem", "Al-Hazem": "Al Hazem", "Al Hazem FC": "Al Hazem", "Al Hazem": "Al Hazem",
+    "Al Ahli": "Al Ahli SC", "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
     "Al Fayha": "Al Feiha", "Al-Fayha": "Al Feiha",
     "迪里耶會": "Diriyah", "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
     "艾利雅德": "Al Riyadh", "艾利雅得": "Al Riyadh",
@@ -195,7 +223,7 @@ TEAM_ZH = {
     "Independiente": "獨立隊", "Racing Club": "競賽會", "PEC Zwolle": "施禾利",
     "Go Ahead Eagles": "伊高斯", "AZ": "阿爾克馬爾", "FC Groningen": "格羅寧根",
     "FC Utrecht": "烏德勒支", "Feyenoord Rotterdam": "飛燕諾", "São Paulo": "聖保羅",
-    "Sevilla FC": "西維爾", "Al Feiha": "艾費哈", "Al Ahli SC": "吉達艾阿里",
+    "Sevilla FC": "西維爾", "Al Feiha": "艾費哈", "Al Hazem": "艾哈森", "Al Ahli SC": "吉達艾阿里",
     "Celta B": "幸運切爾達", "Celta Vigo B": "幸運切爾達", "Tenerife": "特內里費",
     "Tottenham": "熱刺", "Tottenham Hotspur": "熱刺",
     "Coventry": "高雲地利", "Coventry City": "高雲地利",
@@ -2033,7 +2061,10 @@ if run:
         ghost = v17_card.get("ghost", {})
         st.write("公司｜初盤｜即時｜變動")
         st.write("香港／澳門／平博／Bet365：目前未取得同一場完整公司初盤及即時盤資料。")
-        st.warning(ghost.get("message", "未取得鬼盤比較資料")) if ghost.get("detected") else st.caption(ghost.get("message", "無明顯鬼盤異動"))
+        if ghost.get("detected"):
+            st.warning(ghost.get("message", "未取得鬼盤比較資料"))
+        else:
+            st.caption(ghost.get("message", "無明顯鬼盤異動"))
     with v17_tabs[5]:
         st.info(reader.get("conclusion", "AI解讀資料不足，請以模型機率及資料來源狀態為準。"))
         st.write(f"聯動：{linkage_message or '未觸發大細波與角球反比提示'}")
