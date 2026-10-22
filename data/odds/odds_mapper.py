@@ -26,17 +26,17 @@ def parse_odds_text(text: str) -> list[dict[str,Any]]:
     for raw in str(text or "").splitlines():
         s=raw.strip()
         if not s: continue
-        # W/D/L: 主勝 7.60 和 4.10 客勝 1.32
-        if re.search(r"主勝",s) and re.search(r"和",s) and re.search(r"客勝",s) and not re.search(r"讓球",s):
-            nums=re.findall(NUM,s)
-            if len(nums)>=3:
-                out += [_row("1X2",None,"home",nums[0],s),_row("1X2",None,"draw",nums[1],s),_row("1X2",None,"away",nums[2],s)]
-                continue
         # half-time 1X2
         if re.search(r"半場",s):
             nums=re.findall(NUM,s)
             if len(nums)>=3:
                 out += [_row("Half1X2",None,"home",nums[0],s),_row("Half1X2",None,"away",nums[1],s),_row("Half1X2",None,"draw",nums[2],s)]
+                continue
+        # W/D/L: 主勝 7.60 和 4.10 客勝 1.32
+        if re.search(r"主勝",s) and re.search(r"和",s) and re.search(r"客勝",s) and not re.search(r"讓球",s):
+            nums=re.findall(NUM,s)
+            if len(nums)>=3:
+                out += [_row("1X2",None,"home",nums[0],s),_row("1X2",None,"draw",nums[1],s),_row("1X2",None,"away",nums[2],s)]
                 continue
         # next goal
         if re.search(r"下一",s):
