@@ -324,6 +324,26 @@ def load_team_name_map():
         return
 load_team_name_map()
 
+# 規則模組是核心顯示功能；即使某個可選資料模組在部署環境失敗，
+# 仍然獨立重試載入，避免整個頁面錯誤地顯示「規則模組未載入」。
+try:
+    from analysis.match_context_rules import (
+        build_relegation_context as _build_relegation_context,
+        apply_relegation_intent as _apply_relegation_intent,
+        tight_score_pool as _tight_score_pool,
+        corner_context_rows as _corner_context_rows,
+        live_risk_message as _live_risk_message,
+        reliability_level as _reliability_level,
+    )
+    build_relegation_context = _build_relegation_context
+    apply_relegation_intent = _apply_relegation_intent
+    tight_score_pool = _tight_score_pool
+    corner_context_rows = _corner_context_rows
+    live_risk_message = _live_risk_message
+    reliability_level = _reliability_level
+except Exception:
+    pass
+
 def zh_team(name):
     name = str(name or "").strip()
     return TEAM_ZH.get(name, name if any("\u4e00" <= ch <= "\u9fff" for ch in name) else f"未有中文隊名（{name}）")
