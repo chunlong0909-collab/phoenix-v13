@@ -66,7 +66,20 @@ def _points_table(matches):
             table[home]["points"] += 1; table[away]["points"] += 1
     ordered = sorted(table.items(), key=lambda kv: (kv[1]["points"], kv[1]["gd"], kv[0]))
     # 以最高分為榜首；後六名按聯賽當前資料排序。
-    return {team: {**stats, "rank": len(ordered) - i} for i, (team, stats) in enumerate(ordered)}, season_year
+    result = {team: {**stats, "rank": len(ordered) - i} for i, (team, stats) in enumerate(ordered)}
+    # 手動上載的固定格式可提供官方排名；有提供時只覆蓋排名，不虛構積分。
+    explicit = {}
+    for _, row in matches.iterrows():
+        home, away = _team(row, "Home"), _team(row, "Away")
+        hr, ar = _num(row.get("HomeRank")), _num(row.get("AwayRank"))
+        if home and hr is not None:
+            explicit[home] = int(hr)
+        if away and ar is not None:
+            explicit[away] = int(ar)
+    for team, rank in explicit.items():
+        if team in result:
+            result[team]["rank"] = rank
+    return result, season_year
 
 
 def _recent_wins(matches, team, season_year, n=5):
