@@ -35,6 +35,6 @@
     {"id":"serie-b","name_zh":"巴乙","name_en":"Serie B","provider":"openfootball","openfootball_paths":["south-america/brazil"],"sportsdb_names":["Brazilian Serie B"]},
     {"id":"uruguay-primera","name_zh":"烏拉圭甲","name_en":"Uruguay Primera","provider":"openfootball","openfootball_paths":["south-america/uruguay"],"sportsdb_names":["Uruguayan Primera Division"]},
     {"id":"toppserien","name_zh":"女子挪超","name_en":"Toppserien","provider":"openfootball","openfootball_paths":["europe/norway"],"sportsdb_names":["Norwegian Toppserien"]},
-    {"id":"libertadores-femenina","name_zh":"女南美自由盃","name_en":"Women Libertadores","provider":"openfootball","openfootball_paths":["south-america/libertadores-femenina"],"sportsdb_names":["Copa Libertadores Femenina"]}
+    {"id":"libertadores-femenina","name_zh":"女子南美自由盃","name_en":"Women Libertadores","provider":"openfootball","openfootball_paths":["south-america/libertadores-femenina"],"sportsdb_names":["Copa Libertadores Femenina"]}
   ]
 }
