@@ -34,7 +34,8 @@ try:
     from data.team_goals.team_goals_model import team_goal_model, total_goal_band, goal_line_note
     from data.corners.corner_model import fallback_corner_model, corner_insight
     from data.brain.match_reader import read_match
-    from data.brain.learning import learning_adjustment, learning_summary
+    from data.brain.learning import learning_adjustment, learning_summary, load_log
+    from data.v17_engine import build_card
 except Exception:
     def fetch_realtime_context(*args, **kwargs):
         return {"status": "unavailable", "source": "未取得", "injury_data_verified": False,
@@ -58,6 +59,8 @@ except Exception:
     def read_match(*args, **kwargs): return {"conclusion":"未載入V2.0解讀模組。","ou_note":"","evidence":[]}
     def learning_adjustment(*args, **kwargs): return 0.0
     def learning_summary(*args, **kwargs): return {"total":0,"completed":0,"recent5_error":None}
+    def load_log(*args, **kwargs): return []
+    def build_card(*args, **kwargs): return {}
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -1845,6 +1848,22 @@ if run:
         linkage_market = (corner_fallback or {}).get("market") or {}
         linkage_over85 = float((linkage_market.get(8.5) or {}).get("over", total_over_probability(linkage_corner_total, 8.5)))
         linkage_under95 = float((linkage_market.get(9.5) or {}).get("under", 1.0 - total_over_probability(linkage_corner_total, 9.5)))
+    corner_card_probs = {}
+    for _line in [8.5, 9.5, 10.5, 11.5, 12.5]:
+        if corner_lams:
+            _over = total_over_probability(linkage_corner_total, _line)
+            corner_card_probs[_line] = {"over": _over, "under": 1.0 - _over}
+        else:
+            corner_card_probs[_line] = (linkage_market.get(_line) or {
+                "over": total_over_probability(linkage_corner_total, _line),
+                "under": 1.0 - total_over_probability(linkage_corner_total, _line),
+            })
+    v17_card = build_card(
+        home, away, str(match_date) if "match_date" in locals() else "",
+        hx, ax, {2.5: goal_lines[2.5], 3.5: goal_lines[3.5], 4.5: goal_lines[4.5]},
+        linkage_corner_total, corner_card_probs, odds_rows=pasted_results,
+        learning_rows=load_log(), injuries=live_context.get("injuries", []),
+    )
     linkage_message = ""
     if under35_probability > .65:
         p11 = matrix.get((1, 1), 0.0)
@@ -1884,9 +1903,41 @@ if run:
     if orbiflow_data.get("available"):
         st.caption(orbiflow_summary(orbiflow_data, orbiflow_result))
     st.subheader(f"{home_zh} 對 {away_zh}")
-    st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
+    st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜V1.7校準總預期 {v17_card.get('calibration', {}).get('total_exp', hx + ax):.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
     if linkage_message:
         st.info(linkage_message)
+    # V1.7：LMGOAL風格一場一卡；只整理現有資料，不取代V1.6詳細表格。
+    v17_cal = v17_card.get("calibration", {})
+    v17_tight = v17_cal.get("tight_rate")
+    v17_tight_text = f"膠著{v17_tight:.0%}" if v17_tight is not None else f"膠著{low_score_tight:.0%}"
+    v17_tone = "⚠️" if (v17_tight or low_score_tight) >= .45 else "✅"
+    st.markdown(f"### V1.7 比賽卡｜{home_zh} vs {away_zh}｜{v17_card.get('kickoff') or '賽前'}")
+    st.write(f"預期 {v17_cal.get('total_exp', hx + ax):.2f} 球｜{v17_tight_text} {v17_tone}｜命中率 {v17_cal.get('hits', 14)}/{v17_cal.get('matches', 20)}｜角球預期 {v17_cal.get('corner_exp', linkage_corner_total):.1f}")
+    v17_tabs = st.tabs(["概況", "分析", "統計", "陣容", "指數", "AI"])
+    with v17_tabs[0]:
+        st.write(f"主隊：{home_zh}｜客隊：{away_zh}｜模型總入球 {hx + ax:.2f}｜近期樣本：主隊 {len(h)} 場、客隊 {len(a)} 場")
+        st.caption("資料只使用已取得的賽果、角球、傷停及賠率；未取得的欄位不會自行虛構。")
+    with v17_tabs[1]:
+        st.write(f"入球：大2.5 {goal_lines[2.5]:.1%}｜細3.5 {1-goal_lines[3.5]:.1%}")
+        st.write(f"入球安全方案：{v17_card['walk_goals']['label']}")
+        st.write(f"角球安全方案：{v17_card['walk_corners']['label']}")
+        st.caption("走盤方案係降低中間線風險，唔代表保證命中；冇8.5角球時仍使用9／10走盤。")
+    with v17_tabs[2]:
+        stats_rows = [{"項目":"入球", "主隊":hgf, "客隊":agf}, {"項目":"失球", "主隊":hga, "客隊":aga}, {"項目":"角球預期", "主隊":v17_cal.get('corner_exp', linkage_corner_total)/2, "客隊":v17_cal.get('corner_exp', linkage_corner_total)/2}]
+        st.dataframe(pd.DataFrame(stats_rows).style.format({"主隊":"{:.2f}", "客隊":"{:.2f}"}), use_container_width=True, hide_index=True)
+        st.caption("控球、射門、危險進攻等欄位只有取得真實來源時才會顯示。")
+    with v17_tabs[3]:
+        st.write("陣型：未核實正選時不會自行指定4-3-3。")
+        st.caption(f"傷停資料：{len(live_context.get('injuries', []))} 項；只有已核實傷停才會影響預期入球。")
+    with v17_tabs[4]:
+        ghost = v17_card.get("ghost", {})
+        st.write("公司｜初盤｜即時｜變動")
+        st.write("香港／澳門／平博／Bet365：目前未取得同一場完整公司初盤及即時盤資料。")
+        st.warning(ghost.get("message", "未取得鬼盤比較資料")) if ghost.get("detected") else st.caption(ghost.get("message", "無明顯鬼盤異動"))
+    with v17_tabs[5]:
+        st.info(reader.get("conclusion", "AI解讀資料不足，請以模型機率及資料來源狀態為準。"))
+        st.write(f"聯動：{linkage_message or '未觸發大細波與角球反比提示'}")
+        st.caption("V1.7係風險整理及數據提示，不保證賽果。")
     if abs(home_learning_adjustment) > 1e-9 or abs(away_learning_adjustment) > 1e-9:
         st.caption(f"V2.0歷史校準：主隊 {home_learning_adjustment:+.2f}｜客隊 {away_learning_adjustment:+.2f}（只來自已填真實賽果）")
     st.info(f"V2.0睇穿結論：{reader['conclusion']}")
