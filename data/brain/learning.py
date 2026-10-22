@@ -24,7 +24,9 @@ def learning_adjustment(team: str, path=DEFAULT_PATH, max_adjustment=.10):
         predicted=_num(row.get("predicted_goals", row.get("predicted"))); real=_num(row.get("real_goals", row.get("real")))
         if predicted is not None and real is not None: errs.append(real-predicted)
     if not errs: return 0.0
-    return max(-max_adjustment,min(max_adjustment,-sum(errs[-5:])/len(errs[-5:])))
+    # real - predicted > 0 means the model underestimated; move the next
+    # estimate upward, never beyond the conservative cap.
+    return max(-max_adjustment,min(max_adjustment,sum(errs[-5:])/len(errs[-5:])))
 
 def learning_summary(path=DEFAULT_PATH):
     rows=load_log(path); completed=[]; abs_errors=[]
