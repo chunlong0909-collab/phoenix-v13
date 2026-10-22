@@ -107,6 +107,36 @@ except Exception:
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
 DB = Path(__file__).with_name("football_library.db")
+DB_PATH = str(DB)
+
+
+def db_connect():
+    """建立可容忍短暫並行讀寫的 SQLite 連線。"""
+    conn = sqlite3.connect(DB_PATH, timeout=30, check_same_thread=False)
+    conn.execute("PRAGMA journal_mode=WAL;")
+    conn.execute("PRAGMA busy_timeout=30000;")
+    return conn
+
+
+def repair_database_lock():
+    """安全整理未完成交易及 WAL 檔，避免直接刪除仍在使用的資料。"""
+    conn = None
+    try:
+        conn = db_connect()
+        conn.rollback()
+        conn.execute("PRAGMA wal_checkpoint(TRUNCATE);")
+        conn.commit()
+    finally:
+        if conn is not None:
+            conn.close()
+    # checkpoint 後通常已經沒有 sidecar；只清理確定存在的殘留檔案。
+    for suffix in ("-wal", "-shm"):
+        sidecar = Path(DB_PATH + suffix)
+        if sidecar.exists():
+            try:
+                sidecar.unlink()
+            except OSError:
+                pass
 API_BASE = "https://v3.football.api-sports.io"
 FD_API = "https://api.football-data.org/v4"
 FFA_API = "https://api.ffa.football"
@@ -312,7 +342,7 @@ API_LEAGUE_SEARCH = {
 
 
 def db_init():
-    with sqlite3.connect(DB) as c:
+    with db_connect() as c:
         c.executescript("""
         CREATE TABLE IF NOT EXISTS matches (
             league TEXT, season TEXT, home TEXT, away TEXT, hg INTEGER, ag INTEGER,
@@ -336,7 +366,7 @@ def db_init():
 
 
 def log_source(league, source, status, message=""):
-    with sqlite3.connect(DB) as c:
+    with db_connect() as c:
         c.execute("INSERT INTO source_log(league,source,status,message,captured_at) VALUES(?,?,?,?,?)",
                   (league, source, status, message[:500], datetime.now(timezone.utc).isoformat()))
 
@@ -514,8 +544,8 @@ def save_matches(df):
     rows = [(r.league, r.season, r.Home, r.Away, None if pd.isna(r.HG) else int(r.HG), None if pd.isna(r.AG) else int(r.AG),
              None if pd.isna(r.HC) else float(r.HC), None if pd.isna(r.AC) else float(r.AC),
              str(r.Date), r.source, datetime.now(timezone.utc).isoformat())
-            for r in df.itertuples()]
-    with sqlite3.connect(DB) as c:
+             for r in df.itertuples()]
+    with db_connect() as c:
         c.executemany("""
             INSERT INTO matches(league,season,home,away,hg,ag,hc,ac,date,source,captured_at)
             VALUES(?,?,?,?,?,?,?,?,?,?,?)
@@ -530,7 +560,7 @@ def save_matches(df):
 
 def cached_matches(league, max_age_hours=24):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
-    with sqlite3.connect(DB) as c:
+    with db_connect() as c:
         df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
     if df.empty:
         return df
@@ -844,47 +874,62 @@ def parse_pasted_fbref_html(html, league):
 
 
 def save_corner_supplement(df):
-    """更新既有賽果；搵唔到時自動新增角球賽事，並記錄來源。"""
+    """批次更新／新增角球賽事；整批只使用一個 SQLite transaction。"""
     updated = 0
     created = 0
     today = datetime.now().date().isoformat()
-    with sqlite3.connect(DB) as c:
-        for row in df.itertuples():
-            home = ALIASES.get(str(row.Home).strip(), str(row.Home).strip())
-            away = ALIASES.get(str(row.Away).strip(), str(row.Away).strip())
-            raw_date = str(row.Date).strip()
-            date_value = raw_date if raw_date and raw_date.lower() != "nan" else today
-            date_like = f"%{date_value[:10]}%"
-            if pd.notna(row.DateParsed):
-                cur = c.execute(
-                    "UPDATE matches SET hc=?, ac=?, source=?, captured_at=? "
-                    "WHERE league=? AND home=? AND away=? AND date LIKE ?",
-                    [float(row.HC), float(row.AC), row.source, datetime.now(timezone.utc).isoformat(),
-                     row.league, home, away, date_like],
-                )
-            else:
-                cur = c.execute(
-                    "UPDATE matches SET hc=?, ac=?, source=?, captured_at=? "
-                    "WHERE league=? AND home=? AND away=? AND (hc IS NULL OR ac IS NULL)",
-                    [float(row.HC), float(row.AC), row.source, datetime.now(timezone.utc).isoformat(),
-                     row.league, home, away],
-                )
-            if cur.rowcount:
-                updated += cur.rowcount
-                continue
+    insert_rows = []
+    log_rows = []
+    conn = db_connect()
+    try:
+        with conn:
+            for row in df.itertuples():
+                home = ALIASES.get(str(row.Home).strip(), str(row.Home).strip())
+                away = ALIASES.get(str(row.Away).strip(), str(row.Away).strip())
+                raw_date = str(row.Date).strip()
+                date_value = raw_date if raw_date and raw_date.lower() != "nan" else today
+                date_like = f"%{date_value[:10]}%"
+                captured_at = datetime.now(timezone.utc).isoformat()
+                if pd.notna(row.DateParsed):
+                    cur = conn.execute(
+                        "UPDATE matches SET hc=?, ac=?, source=?, captured_at=? "
+                        "WHERE league=? AND home=? AND away=? AND date LIKE ?",
+                        [float(row.HC), float(row.AC), row.source, captured_at,
+                         row.league, home, away, date_like],
+                    )
+                else:
+                    cur = conn.execute(
+                        "UPDATE matches SET hc=?, ac=?, source=?, captured_at=? "
+                        "WHERE rowid=(SELECT rowid FROM matches "
+                        "WHERE league=? AND home=? AND away=? "
+                        "ORDER BY date DESC, captured_at DESC LIMIT 1)",
+                        [float(row.HC), float(row.AC), row.source, captured_at,
+                         row.league, home, away],
+                    )
+                if cur.rowcount:
+                    updated += cur.rowcount
+                    continue
+                insert_rows.append((row.league, str(row.season), home, away, 0, 0,
+                                    float(row.HC), float(row.AC), date_value, row.source, captured_at))
+                log_rows.append((row.league, "HTML角球補充", "自動新增",
+                                 f"自動新增賽事 {home} vs {away} 角球 {float(row.HC):g}-{float(row.AC):g}", captured_at))
 
-            # HTML只提供角球時，按要求建立新紀錄；比分使用0-0佔位，並由source明確標註。
-            c.execute(
-                "INSERT INTO matches(league,season,home,away,hg,ag,hc,ac,date,source,captured_at) "
-                "VALUES(?,?,?,?,?,?,?,?,?,?,?) "
-                "ON CONFLICT(league,season,home,away,date) DO UPDATE SET "
-                "hc=excluded.hc, ac=excluded.ac, source=excluded.source, captured_at=excluded.captured_at",
-                [row.league, str(row.season), home, away, 0, 0, float(row.HC), float(row.AC),
-                 date_value, row.source, datetime.now(timezone.utc).isoformat()],
-            )
-            created += 1
-            log_source(row.league, "HTML角球補充", "自動新增",
-                       f"自動新增賽事 {home} vs {away} 角球 {float(row.HC):g}-{float(row.AC):g}")
+            if insert_rows:
+                conn.executemany(
+                    "INSERT INTO matches(league,season,home,away,hg,ag,hc,ac,date,source,captured_at) "
+                    "VALUES(?,?,?,?,?,?,?,?,?,?,?) "
+                    "ON CONFLICT(league,season,home,away,date) DO UPDATE SET "
+                    "hc=excluded.hc, ac=excluded.ac, source=excluded.source, captured_at=excluded.captured_at",
+                    insert_rows,
+                )
+                created = len(insert_rows)
+            if log_rows:
+                conn.executemany(
+                    "INSERT INTO source_log(league,source,status,message,captured_at) VALUES(?,?,?,?,?)",
+                    log_rows,
+                )
+    finally:
+        conn.close()
     return updated, created
 
 
@@ -1410,7 +1455,7 @@ def walk_forward_backtest(matches, min_team_games=4):
 
 
 def all_saved_matches(league):
-    with sqlite3.connect(DB) as c:
+    with db_connect() as c:
         df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
     if df.empty:
         return df
@@ -1577,6 +1622,8 @@ db_init()
 if not st.session_state.get("local_league_cache_loaded"):
     import_local_league_cache()
     st.session_state["local_league_cache_loaded"] = True
+if "is_importing" not in st.session_state:
+    st.session_state["is_importing"] = False
 st.title("混合來源足球分析")
 st.caption("本地資料館 → API → 公開 JSON／CSV → 你上載的 CSV／Excel；資料不足時不會虛構結果。")
 try:
@@ -1624,6 +1671,15 @@ with st.sidebar:
         type=["csv"],
         help="格式：Date,HomeTeam,AwayTeam,HC,AC；可沒有比分欄位，只供角球模型使用。"
     )
+    repair_db = st.button("修復資料庫鎖定", use_container_width=True,
+                          disabled=st.session_state.is_importing,
+                          help="整理未完成交易及 WAL 暫存檔，不會刪除主要資料庫。")
+    if repair_db:
+        try:
+            repair_database_lock()
+            st.success("資料庫鎖定已修復，可以重新匯入。")
+        except Exception as exc:
+            st.warning(f"資料庫修復未完成：{exc}")
     bulk_matches = st.file_uploader(
         "35 聯賽統一 CSV 上載（可選，可一次選多個檔案）",
         type=["csv"], accept_multiple_files=True,
@@ -1663,22 +1719,30 @@ with st.sidebar:
         mime="text/csv",
         use_container_width=True,
     )
-    import_uploaded = st.button("匯入上載檔案到本地資料館", use_container_width=True)
+    import_uploaded = st.button("匯入中..." if st.session_state.is_importing else "匯入上載檔案到本地資料館",
+                                use_container_width=True, disabled=st.session_state.is_importing)
     if import_uploaded:
+        st.session_state.is_importing = True
         try:
             imported = read_uploaded_matches(uploaded_matches, league)
             save_matches(imported)
             st.success(f"已匯入 {len(imported)} 場賽果；下次分析會優先使用本地資料館。")
         except Exception as exc:
             st.warning(f"上載檔案未能匯入：{exc}")
-    import_corner = st.button("匯入角球 CSV 到資料館", use_container_width=True)
+        finally:
+            st.session_state.is_importing = False
+    import_corner = st.button("匯入中..." if st.session_state.is_importing else "匯入角球 CSV 到資料館",
+                              use_container_width=True, disabled=st.session_state.is_importing)
     if import_corner:
+        st.session_state.is_importing = True
         try:
             corner_imported = read_corner_csv(corner_upload, league)
             save_matches(corner_imported)
             st.success(f"已保存 {len(corner_imported)} 場角球紀錄；下次分析會優先使用。")
         except Exception as exc:
             st.warning(f"角球 CSV 未能匯入：{exc}")
+        finally:
+            st.session_state.is_importing = False
     import_bulk = st.button("一鍵上載多個聯賽 CSV", use_container_width=True)
     if import_bulk:
         if not bulk_matches:
@@ -1706,14 +1770,18 @@ with st.sidebar:
             st.caption(f"已讀取球員名單 {len(st.session_state['uploaded_players'])} 人；只作球員資料顯示。")
         except Exception as exc:
             st.warning(f"球員 CSV 未能讀取：{exc}")
-    import_fbref_html = st.button("匯入 HTML 角球資料", use_container_width=True)
+    import_fbref_html = st.button("匯入中..." if st.session_state.is_importing else "匯入 HTML 角球資料",
+                                  use_container_width=True, disabled=st.session_state.is_importing)
     if import_fbref_html:
+        st.session_state.is_importing = True
         try:
             html_matches = parse_pasted_fbref_html(fbref_html, league)
             updated, created = save_corner_supplement(html_matches)
             st.success(f"HTML 角球資料已匯入：更新既有賽果 {updated} 場；自動新增賽事 {created} 場。")
         except Exception as exc:
             st.warning(f"HTML 未能匯入：{exc}")
+        finally:
+            st.session_state.is_importing = False
     import_csv_url = st.button("讀取並匯入 CSV 網址", use_container_width=True)
     if import_csv_url:
         try:
@@ -1725,7 +1793,7 @@ with st.sidebar:
     st.caption("資料流程：本地資料館優先，其次 API、公開 CSV／JSON；最後才使用你明確提供的公開網址。")
     with st.expander("本地資料館狀態"):
         try:
-            with sqlite3.connect(DB) as conn:
+            with db_connect() as conn:
                 library_count = int(pd.read_sql_query("SELECT COUNT(*) AS n FROM matches", conn).iloc[0]["n"])
                 league_count = int(pd.read_sql_query("SELECT COUNT(DISTINCT league) AS n FROM matches", conn).iloc[0]["n"])
             st.write(f"已保存賽果：{library_count} 場｜已保存聯賽：{league_count} 個")
@@ -2101,7 +2169,7 @@ if run:
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
     home_form = team_form_table(matches, home)
     away_form = team_form_table(matches, away)
-    with sqlite3.connect(DB) as c:
+    with db_connect() as c:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
     home_zh, away_zh = zh_team(home), zh_team(away)
     st.success(f"資料來源：{zh_source(source)}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
