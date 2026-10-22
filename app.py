@@ -2197,7 +2197,7 @@ if run:
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
     reliability = reliability_level(
         len(h) + len(a),
-        has_rank_context=relegation_context.get("status") == "已核對",
+        has_rank_context=relegation_context.get("status") in {"已核對", "未觸發"},
         has_real_corners=bool(corner_lams),
         stale=stale_data,
     )
