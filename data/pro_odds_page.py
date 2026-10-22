@@ -110,8 +110,17 @@ def normalise_match_detail(payload: dict) -> dict:
     full = score.get("fullTime") or {}
     home = payload.get("homeTeam") or {}
     away = payload.get("awayTeam") or {}
-    # football-data.org may not provide corners or a complete XI for every match;
-    # preserve explicit fields only and never invent missing values.
+    # football-data.org places lineups/formations inside each team object.
+    # It does not guarantee corners or H2H in this endpoint; preserve only
+    # explicit fields and never invent missing values.
+    home_lineup = home.get("lineup") or []
+    away_lineup = away.get("lineup") or []
+    home_bench = home.get("bench") or []
+    away_bench = away.get("bench") or []
+    lineups = [
+        {"team": "home", "formation": home.get("formation"), "players": home_lineup, "bench": home_bench},
+        {"team": "away", "formation": away.get("formation"), "players": away_lineup, "bench": away_bench},
+    ]
     return {
         "match_id": payload.get("id"),
         "utc_date": payload.get("utcDate"),
@@ -121,11 +130,12 @@ def normalise_match_detail(payload: dict) -> dict:
         "score": {"home": full.get("home"), "away": full.get("away")},
         "half_time": score.get("halfTime") or {},
         "goals": payload.get("goals") or [],
-        "lineups": payload.get("lineups") or [],
+        "lineups": lineups if (home_lineup or away_lineup or home.get("formation") or away.get("formation")) else (payload.get("lineups") or []),
         "referees": payload.get("referees") or [],
         "corners": payload.get("corners") or payload.get("statistics", {}).get("corners"),
         "head_to_head": payload.get("headToHead") or payload.get("h2h"),
         "raw_explicit_fields": {k: payload[k] for k in ("goals", "lineups", "corners", "statistics", "headToHead") if k in payload},
+        "limitations": ["Football-Data.org此endpoint沒有保證提供角球", "Football-Data.org此endpoint沒有保證提供H2H"],
     }
 
 
