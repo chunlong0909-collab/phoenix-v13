@@ -423,6 +423,84 @@ def clean_matches(df, source, league, season):
     return df[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]]
 
 
+FLASH_SCORE_RESULTS = {
+    "女子南美自由盃": "https://www.flashscore.com/football/south-america/copa-libertadores-women/results/",
+}
+GENERATED_BACKFILL_DIR = Path(__file__).with_name("data") / "generated_backfills"
+
+
+def _flashscore_value(block, key):
+    match = re.search(r"(?:^|¬)" + re.escape(key) + r"÷([^¬]+)", block)
+    return match.group(1).strip() if match else ""
+
+
+def fetch_flashscore_goal_results(league, limit=20):
+    """從 Flashscore 公開結果頁只讀取已完場比分；HC/AC 明確標成未核實。
+
+    Flashscore 的公開頁面會把結果放在內嵌序列資料中。這裡只取日期、主客隊及
+    全場入球，不猜半場比分、排名或角球；角球欄按要求寫 0，但稍後會按 source
+    標記為不可作角球回測。
+    """
+    url = FLASH_SCORE_RESULTS.get(league)
+    if not url:
+        raise ValueError(f"未設定 {league} 的 Flashscore 公開結果頁")
+    response = requests.get(url, headers=HEADERS, timeout=20)
+    response.raise_for_status()
+    blocks = re.findall(r"AA÷([^~]+)", response.text)
+    rows = []
+    for block in blocks:
+        # AB=3 是 Flashscore 已完場事件；未完場／取消事件不納入。
+        if _flashscore_value(block, "AB") != "3":
+            continue
+        home = _flashscore_value(block, "AE")
+        away = _flashscore_value(block, "AF")
+        date_value = _flashscore_value(block, "AD")
+        home_goals = _flashscore_value(block, "AG")
+        away_goals = _flashscore_value(block, "GRA")
+        if not home or not away or not date_value or not home_goals.isdigit() or not away_goals.isdigit():
+            continue
+        try:
+            date_value = datetime.fromtimestamp(int(date_value), tz=timezone.utc).date().isoformat()
+        except (TypeError, ValueError, OverflowError):
+            continue
+        rows.append({
+            "Date": date_value, "Home": home, "Away": away,
+            "HG": int(home_goals), "AG": int(away_goals),
+            "HC": 0.0, "AC": 0.0,
+            "source": "Flashscore 自動補20場（只入球；角球未核實）",
+        })
+    if not rows:
+        raise ValueError("Flashscore 暫時沒有可核對的已完場賽果；沒有寫入任何資料")
+    result = clean_matches(pd.DataFrame(rows), rows[0]["source"], league, datetime.now().year)
+    result = result.sort_values("DateParsed", ascending=False).drop_duplicates(
+        subset=["Date", "Home", "Away"]
+    ).head(int(limit)).sort_values("DateParsed").reset_index(drop=True)
+    if result.empty:
+        raise ValueError("Flashscore 沒有符合日期及比分格式的賽果")
+    return result
+
+
+def save_flashscore_goal_backfill(matches, league):
+    """保存自動補入的入球資料，並另外輸出可核對的 9 欄 CSV。"""
+    if matches is None or len(matches) == 0:
+        raise ValueError("沒有可保存的 Flashscore 賽果")
+    GENERATED_BACKFILL_DIR.mkdir(parents=True, exist_ok=True)
+    csv_rows = pd.DataFrame({
+        "日期": matches["Date"], "主隊": matches["Home"], "客隊": matches["Away"],
+        "比分": matches.apply(lambda r: f"{int(r.HG)}-{int(r.AG)}", axis=1),
+        "半場比分": "", "主隊角球": 0, "客隊角球": 0,
+        "主隊排名": "", "客隊排名": "",
+    })
+    slug = re.sub(r"[^a-z0-9_-]+", "_", str(league).lower()).strip("_") or "league"
+    csv_rows.to_csv(GENERATED_BACKFILL_DIR / f"{slug}_flashscore_goals_20.csv", index=False, encoding="utf-8-sig")
+    save_matches(matches)
+    return len(matches)
+
+
+def is_unverified_corner_source(source):
+    return "角球未核實" in str(source or "") or "只入球" in str(source or "")
+
+
 MANUAL_LEAGUE_COLUMNS = ["日期", "主隊", "客隊", "比分", "半場比分", "主隊角球", "客隊角球", "主隊排名", "客隊排名"]
 
 
@@ -678,6 +756,8 @@ def cached_matches(league, max_age_hours=24):
     df = df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG", "hc": "HC", "ac": "AC", "date": "Date"})
     df["HG"] = pd.to_numeric(df["HG"], errors="coerce")
     df["AG"] = pd.to_numeric(df["AG"], errors="coerce")
+    unverified = df["source"].map(is_unverified_corner_source) if "source" in df.columns else pd.Series(False, index=df.index)
+    df.loc[unverified, ["HC", "AC"]] = np.nan
     df["DateParsed"] = pd.to_datetime(df.get("Date", ""), errors="coerce", dayfirst=True)
     latest = pd.to_datetime(df["captured_at"], utc=True, errors="coerce").max()
     return df if pd.notna(latest) and latest >= cutoff else pd.DataFrame()
@@ -1599,6 +1679,8 @@ def all_saved_matches(league):
         df["DateParsed"] = pd.to_datetime(df.get("Date", ""), errors="coerce", dayfirst=True)
     if "source" not in df.columns:
         df["source"] = "本地SQLite"
+    unverified = df["source"].map(is_unverified_corner_source)
+    df.loc[unverified, ["HC", "AC"]] = np.nan
     return merge_manual_match_metadata(df, league)
 
 
@@ -1616,6 +1698,9 @@ def local_api_matches(league):
                 df = df.rename(columns={"home_team": "Home", "away_team": "Away", "home_goals": "HG",
                                         "away_goals": "AG", "home_corners": "HC", "away_corners": "AC",
                                         "date": "Date"})
+                if "source" in df.columns:
+                    unverified = df["source"].map(is_unverified_corner_source)
+                    df.loc[unverified, ["HC", "AC"]] = np.nan
                 return merge_manual_match_metadata(df, league)
     except Exception:
         pass
@@ -1797,6 +1882,19 @@ with st.sidebar:
     manual_override = manual_league_path(league).exists()
     if len(current_league_rows) < 5 and not manual_override:
         st.warning(f"{league} 目前只有 {len(current_league_rows)} 場可用資料；請上載至少 5 場真實賽果。")
+        auto_backfill = st.button(
+            "一鍵補20場", use_container_width=True, key="flashscore_backfill_20",
+            help="只從 Flashscore 公開結果頁補入最近最多20場已完場比分；不抓角球，角球回測會保持資料不足。",
+        )
+        if auto_backfill:
+            with st.spinner("正在從 Flashscore 讀取最近20場已完場比分……"):
+                try:
+                    fetched = fetch_flashscore_goal_results(league, limit=20)
+                    saved_count = save_flashscore_goal_backfill(fetched, league)
+                    st.success(f"已補入 {saved_count} 場真實比分並寫入快取；角球未核實，角球回測保持資料不足。")
+                    st.rerun()
+                except Exception as exc:
+                    st.warning(f"一鍵補20場未完成：{exc}")
         manual_upload = st.file_uploader(
             "資料不足聯賽 CSV（固定 9 欄）",
             type=["csv"], key="manual_league_csv",
@@ -2141,6 +2239,14 @@ if run_backtest:
         if not market_detail.empty:
             with st.expander("入球／角球大小逐場回測明細"):
                 st.dataframe(market_detail.tail(100), use_container_width=True, hide_index=True)
+        for _title, _key in [("入球大小 6 條線", "入球盤口回測"), ("角球大小 12 條線", "角球盤口回測")]:
+            _frame = market_summary.get(_key)
+            if _frame is not None and not _frame.empty:
+                _view = _frame.copy()
+                _view["命中率"] = _view["命中率"].map(lambda x: "資料不足" if pd.isna(x) else f"{float(x):.1%}")
+                _view["淨利潤"] = _view["淨利潤"].map(lambda x: f"{float(x):+.2f}")
+                st.markdown(f"**{_title}：命中率／樣本數／淨利潤**")
+                st.dataframe(_view, use_container_width=True, hide_index=True)
     else:
         st.warning("現有資料不足以進行逐場回測；每隊至少需要先有 4 場更早的賽果。")
 
