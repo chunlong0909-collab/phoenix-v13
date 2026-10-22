@@ -2030,6 +2030,7 @@ if run:
     # V1.6：只新增一層聯動解讀，不改動V1.4/V1.5任何機率或EV計法。
     under35_probability = 1.0 - goal_lines[3.5]
     over25_probability = goal_lines[2.5]
+    linkage_market = {}
     if corner_lams:
         linkage_corner_total = sum(corner_lams)
         linkage_over85 = total_over_probability(linkage_corner_total, 8.5)
@@ -2044,8 +2045,8 @@ if run:
         if corner_lams:
             _over = total_over_probability(linkage_corner_total, _line)
             corner_card_probs[_line] = {"over": _over, "under": 1.0 - _over}
-    else:
-        corner_card_probs[_line] = (linkage_market.get(_line) or {
+        else:
+            corner_card_probs[_line] = (linkage_market.get(_line) or {
                 "over": total_over_probability(linkage_corner_total, _line),
                 "under": 1.0 - total_over_probability(linkage_corner_total, _line),
             })
@@ -2266,8 +2267,8 @@ if run:
         for x in corner_lines:
             over_p = total_over_probability(corner_total, x)
             corner_rows.extend([
-                [f"大 {x}", over_p, corner_over_odds_map[x] or None, *market_explanation(over_p, corner_over_odds_map[x] or None, f"細 {x}", data_ok=pair_data_ok, is_corner=True)],
-                [f"細 {x}", 1 - over_p, corner_under_odds_map[x] or None, *market_explanation(1 - over_p, corner_under_odds_map[x] or None, f"大 {x}", data_ok=pair_data_ok, is_corner=True)],
+                [f"大 {x}", over_p, corner_over_odds_map.get(x) or None, *market_explanation(over_p, corner_over_odds_map.get(x) or None, f"細 {x}", data_ok=pair_data_ok, is_corner=True)],
+                [f"細 {x}", 1 - over_p, corner_under_odds_map.get(x) or None, *market_explanation(1 - over_p, corner_under_odds_map.get(x) or None, f"大 {x}", data_ok=pair_data_ok, is_corner=True)],
             ])
         corner_table = pd.DataFrame(corner_rows, columns=["角球盤", "模型機率", "輸入賠率", "提示", "說明", "EV"])
         st.caption(f"資料來源：{corner_source_label}｜角球預期：主隊 {corner_lams[0]:.2f}、客隊 {corner_lams[1]:.2f}、總數 {sum(corner_lams):.2f}｜{corner_status}｜{fbref_corner_message}")
