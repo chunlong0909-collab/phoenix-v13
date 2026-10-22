@@ -178,7 +178,8 @@ ALIASES = {
     "高雲地利": "Coventry City", "Coventry": "Coventry City",
     "艾費哈": "Al Feiha", "Al Fayha": "Al Feiha", "Al Fayha FC": "Al Feiha",
     "吉達艾阿里": "Al Ahli SC", "吉達艾里": "Al Ahli SC",
-    "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
+    "艾哈森": "Al Ahli SC", "Al Ahli": "Al Ahli SC", "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
+    "Al Fayha": "Al Feiha", "Al-Fayha": "Al Feiha",
     "迪里耶會": "Diriyah", "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
     "艾利雅德": "Al Riyadh", "艾利雅得": "Al Riyadh",
 }
@@ -905,6 +906,43 @@ def from_australia_cup(league):
     return clean_matches(pd.DataFrame(rows), "澳洲盃官方公開資料", league, 2026)
 
 
+def from_espn_public(league):
+    """讀取ESPN公開沙特賽果；只保留已完場比分，角球不自行補填。"""
+    if league != "沙特職業聯賽":
+        raise ValueError("ESPN公開後備目前只設定沙特職業聯賽")
+    rows, seen = [], set()
+    for year in [datetime.now().year, datetime.now().year - 1, datetime.now().year - 2]:
+        payload = requests.get(
+            "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard",
+            params={"dates": str(year), "limit": 1000}, headers=HEADERS, timeout=20
+        ).json()
+        for event in payload.get("events", []):
+            comp = (event.get("competitions") or [{}])[0]
+            status = ((comp.get("status") or {}).get("type") or {}).get("name")
+            if status != "STATUS_FULL_TIME" or event.get("id") in seen:
+                continue
+            teams = comp.get("competitors") or []
+            home = next((x for x in teams if x.get("homeAway") == "home"), None)
+            away = next((x for x in teams if x.get("homeAway") == "away"), None)
+            if not home or not away or home.get("score") is None or away.get("score") is None:
+                continue
+            seen.add(event.get("id"))
+            def corners(team):
+                for stat in team.get("statistics", []) or []:
+                    if stat.get("name") in {"wonCorners", "cornerKicks"} and stat.get("value") is not None:
+                        return stat.get("value")
+                return pd.NA
+            rows.append({"Date": event.get("date", ""),
+                         "Home": (home.get("team") or {}).get("displayName") or (home.get("team") or {}).get("name"),
+                         "Away": (away.get("team") or {}).get("displayName") or (away.get("team") or {}).get("name"),
+                         "HG": pd.to_numeric(home.get("score"), errors="coerce"),
+                         "AG": pd.to_numeric(away.get("score"), errors="coerce"),
+                         "HC": corners(home), "AC": corners(away)})
+    if not rows:
+        raise ValueError("ESPN公開沙特接口暫時沒有已完場賽果")
+    return clean_matches(pd.DataFrame(rows), "ESPN 公開沙特賽果（角球只採明確欄位）", league, datetime.now().year)
+
+
 def get_matches(league, api_token, fd_token, crawl_url):
     api_cached = local_api_matches(league)
     if not api_cached.empty:
@@ -968,6 +1006,13 @@ def get_matches(league, api_token, fd_token, crawl_url):
             df = from_australia_cup(league); save_matches(df); log_source(league, "澳洲盃官方公開資料", "成功"); return df, "澳洲盃官方公開資料", "高"
         except Exception as e:
             attempts.append(f"澳洲盃官方資料：{e}"); log_source(league, "澳洲盃官方公開資料", "失敗", str(e))
+    if league == "沙特職業聯賽":
+        try:
+            df = from_espn_public(league)
+            save_matches(df); log_source(league, "ESPN 公開沙特賽果", "成功")
+            return df, "ESPN 公開沙特賽果（無角球時明確標示）", "中（只有已核對比分）"
+        except Exception as e:
+            attempts.append(f"ESPN 沙特公開賽果：{e}")
     if crawl_url.strip():
         try:
             df = from_public_table(league, crawl_url.strip()); save_matches(df); log_source(league, "公開網頁表格", "成功"); return df, "獲准公開網頁表格", "中"
