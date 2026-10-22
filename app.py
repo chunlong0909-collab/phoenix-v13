@@ -2017,8 +2017,10 @@ if run:
         st.caption("資料只使用已取得的賽果、角球、傷停及賠率；未取得的欄位不會自行虛構。")
     with v17_tabs[1]:
         st.write(f"入球：大2.5 {goal_lines[2.5]:.1%}｜細3.5 {1-goal_lines[3.5]:.1%}")
-        st.write(f"入球安全方案：{v17_card['walk_goals']['label']}")
-        st.write(f"角球安全方案：{v17_card['walk_corners']['label']}")
+        walk_goals = v17_card.get("walk_goals") or {"label": "大2.0走盤 + 細3.0走盤"}
+        walk_corners = v17_card.get("walk_corners") or {"label": "大9走盤 + 細10走盤"}
+        st.write(f"入球安全方案：{walk_goals.get('label', '大2.0走盤 + 細3.0走盤')}")
+        st.write(f"角球安全方案：{walk_corners.get('label', '大9走盤 + 細10走盤')}")
         st.caption("走盤方案係降低中間線風險，唔代表保證命中；冇8.5角球時仍使用9／10走盤。")
     with v17_tabs[2]:
         stats_rows = [{"項目":"入球", "主隊":hgf, "客隊":agf}, {"項目":"失球", "主隊":hga, "客隊":aga}, {"項目":"角球預期", "主隊":v17_cal.get('corner_exp', linkage_corner_total)/2, "客隊":v17_cal.get('corner_exp', linkage_corner_total)/2}]
