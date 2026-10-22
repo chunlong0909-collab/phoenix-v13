@@ -2456,6 +2456,12 @@ if run:
     reader = read_match(hx, ax, xg_last8={"home":hgf, "away":agf}, shots={}, odds_rows=pasted_results,
                         draw_probability=dp, low_score_tight=low_score_tight, corner_insight=v2_corner_insight,
                         model_home_probability=hp, model_away_probability=ap)
+    # 信任閘門：樣本不足時只保留透明的原始機率，
+    # 不把數學外推包裝成 V2.0 睇穿結論或下注方向。
+    if not pair_data_ok:
+        reader = dict(reader)
+        reader["conclusion"] = "資料不足，未能作可信賽前分析；暫停主客、大小球及角球方向判斷。"
+        reader["ou_note"] = "資料不足，暫不解讀莊家與模型背離。"
     v17_card = build_card(
         home, away, str(match_date) if "match_date" in locals() else "",
         hx, ax, {2.5: goal_lines[2.5], 3.5: goal_lines[3.5], 4.5: goal_lines[4.5]},
@@ -2463,13 +2469,13 @@ if run:
         learning_rows=load_log(), injuries=live_context.get("injuries", []),
     )
     linkage_message = ""
-    if under35_probability > .65:
+    if pair_data_ok and under35_probability > .65:
         p11 = tight_pool.get("1-1", matrix.get((1, 1), 0.0)) if tight_pool else matrix.get((1, 1), 0.0)
         p10 = tight_pool.get("1-0", matrix.get((1, 0), 0.0)) if tight_pool else matrix.get((1, 0), 0.0)
         linkage_message = (f"💡細波預示：細3.5機率{under35_probability:.1%}偏高，呢場較易出現低比分拉鋸" 
                            f"（1-1 {p11:.1%}／1-0 {p10:.1%}）；角球預期{linkage_corner_total:.1f}，"
                            f"大8.5 {linkage_over85:.1%}／細9.5 {linkage_under95:.1%}，可留意角球大盤。")
-    elif over25_probability > .60:
+    elif pair_data_ok and over25_probability > .60:
         linkage_message = (f"💡大波預示：大2.5機率{over25_probability:.1%}偏高，預期入球較多；"
                            f"角球預期{linkage_corner_total:.1f}，角球細盤可作比較，但要核對真實HC/AC。")
     corner_source_names = []
