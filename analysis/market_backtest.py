@@ -165,7 +165,9 @@ def walk_forward_market_backtest(matches, min_team_games=4):
     corner_table = table[table["盤口"].isin(CORNER_LINES)].reset_index(drop=True)
     g35 = goal_table[goal_table["盤口"] == "細3.5"].iloc[0]
     c95 = corner_table[corner_table["盤口"] == "大9.5"].iloc[0]
+    goal_rate = None if int(g35["樣本數"]) == 0 or pd.isna(g35["命中率"]) else float(g35["命中率"])
+    corner_rate = None if int(c95["樣本數"]) == 0 or pd.isna(c95["命中率"]) else float(c95["命中率"])
     summary = {"盤口回測": table, "入球盤口回測": goal_table, "角球盤口回測": corner_table,
-               "入球樣本數": int(g35["樣本數"]), "細3.5命中率": g35["命中率"], "細3.5淨利潤": float(g35["淨利潤"]),
-               "角球樣本數": int(c95["樣本數"]), "大9.5角命中率": c95["命中率"], "大9.5角淨利潤": float(c95["淨利潤"])}
+               "入球樣本數": int(g35["樣本數"]), "細3.5命中率": goal_rate, "細3.5淨利潤": float(g35["淨利潤"]),
+               "角球樣本數": int(c95["樣本數"]), "大9.5角命中率": corner_rate, "大9.5角淨利潤": float(c95["淨利潤"])}
     return detail, summary
