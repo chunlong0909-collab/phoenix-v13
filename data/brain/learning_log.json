@@ -34,6 +34,17 @@
     "predicted_corners": 4.5,
     "real_corners": 9.0,
     "corner_error": 4.5
+  },
+  {
+    "match": "Al Hazem vs Al Feiha",
+    "league": "沙特職業聯賽",
+    "date": "2026-10-22",
+    "completed": true,
+    "predicted_goals": null,
+    "real_goals": 4,
+    "real_score": "2-2",
+    "match_corners": "7-7",
+    "real_corners_total": 14,
+    "note": "用戶賽後輸入；未提供賽前預期，不參與入球校準"
   }
 ]
-
