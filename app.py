@@ -2001,7 +2001,16 @@ if run:
                 "over": total_over_probability(linkage_corner_total, _line),
                 "under": 1.0 - total_over_probability(linkage_corner_total, _line),
             })
-    pasted_results = compare_odds(pasted_rows, hx, ax, corner_total=linkage_corner_total) if pasted_rows else []
+    # 部署環境可能暫時仍載入舊版 compare_odds（未接受 corner_total）。
+    # 先用新版角球模型；若舊版本仍在記憶體，退回不帶關鍵字參數，避免整頁崩潰。
+    pasted_results = []
+    if pasted_rows:
+        try:
+            pasted_results = compare_odds(pasted_rows, hx, ax, corner_total=linkage_corner_total)
+        except TypeError as exc:
+            if "corner_total" not in str(exc):
+                raise
+            pasted_results = compare_odds(pasted_rows, hx, ax)
     reader = read_match(hx, ax, xg_last8={"home":hgf, "away":agf}, shots={}, odds_rows=pasted_results,
                         draw_probability=dp, low_score_tight=low_score_tight, corner_insight=v2_corner_insight,
                         model_home_probability=hp, model_away_probability=ap)
