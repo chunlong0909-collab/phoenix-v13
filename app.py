@@ -28,6 +28,10 @@ except Exception:
 try:
     from data.sources.realtime_scraper import fetch_realtime_context
     from analysis.corrections import apply_verified_injury_adjustment, load_manual_injury_context
+    from analysis.match_context_rules import (
+        build_relegation_context, apply_relegation_intent, tight_score_pool,
+        corner_context_rows, live_risk_message, reliability_level,
+    )
     from data.odds.odds_mapper import parse_odds_text
     from analysis.odds_vs_model import compare_odds, ai_summary
     from data.orbiflow.orbiflow_adapter import load_orbiflow, apply_orbiflow, orbiflow_summary
@@ -46,6 +50,12 @@ except Exception:
         return hx, ax, "即時來源模組未載入，沒有扣減預期入球"
     def load_manual_injury_context(*args, **kwargs):
         return {"status": "unavailable", "injury_data_verified": False, "goal_adjustment": {"home": 0.0, "away": 0.0}}
+    def build_relegation_context(*args, **kwargs): return {"triggered": False, "status": "資料不足", "reason": "情境規則未載入"}
+    def apply_relegation_intent(hx, ax, context, total_boost=.6): return hx, ax, 0.0
+    def tight_score_pool(*args, **kwargs): return None
+    def corner_context_rows(*args, **kwargs): return {"home_average": None, "away_average": None, "last_h2h": None}
+    def live_risk_message(*args, **kwargs): return None
+    def reliability_level(*args, **kwargs): return {"level": "低", "color": "#b42318", "text": "低｜規則模組未載入"}
     def parse_odds_text(*args, **kwargs): return []
     def compare_odds(*args, **kwargs): return []
     def ai_summary(results, home, away, hx, ax): return f"AI分析：{home}預期入球{hx:.2f}、{away}{ax:.2f}。"
@@ -1839,6 +1849,15 @@ with st.sidebar:
         away_text = st.selectbox("確認客隊", away_candidates, key=f"away_pick_{league}")
     else:
         away_text = away_query
+    st.markdown("### Live 狀態（可選）")
+    live_c1, live_c2, live_c3 = st.columns(3)
+    with live_c1:
+        live_minute = st.number_input("比賽分鐘", min_value=0, max_value=120, value=0, step=1, key="live_minute")
+    with live_c2:
+        live_home_goals = st.number_input("主隊即時入球", min_value=0, max_value=20, value=0, step=1, key="live_home_goals")
+    with live_c3:
+        live_away_goals = st.number_input("客隊即時入球", min_value=0, max_value=20, value=0, step=1, key="live_away_goals")
+    st.caption("未有 Live 資料請保持 0；只有輸入比賽分鐘及即時比分後，才會顯示 Live 風險提示。")
     st.markdown("### 專業盤口頁（Football-Data.org + The Odds API）")
     professional_match_id = st.text_input("Football-Data.org Match ID（完場更新先填；開波前可留空）", value="", key="professional_match_id")
     pro_c1, pro_c2 = st.columns(2)
@@ -2038,6 +2057,13 @@ if run:
     hx, ax = max(.15, (hgf + aga) / 2 * 1.08), max(.15, (agf + hga) / 2 * .94)
     fbref_stats, fbref_source = fbref_team_stats(league)
     hx, ax, fbref_adjustment = fbref_expected_goal_adjustment(fbref_stats, home, away, hx, ax)
+    # 通用護級戰意：只在最新資料年份能核對排名、近5場勝場及積分差時觸發。
+    relegation_context = build_relegation_context(matches, home, away)
+    hx, ax, intent_boost = apply_relegation_intent(hx, ax, relegation_context, total_boost=.6)
+    if relegation_context.get("triggered"):
+        st.info("護級戰意層已觸發：兩隊後六名、近5場各最多1勝、積分差不超過5分；總預期入球 +0.6（主客各 +0.3）。")
+    elif relegation_context.get("status") == "資料不足":
+        st.caption("護級戰意層：未能由目前賽果核對完整排名，未自行加成。")
     live_context = fetch_realtime_context(home, away, league)
     manual_injury_used = False
     hx, ax, injury_adjustment = apply_verified_injury_adjustment(hx, ax, live_context)
@@ -2070,6 +2096,7 @@ if run:
     # initialise here so the V2 reader can still run before corner assembly.
     pasted_results = []
     low_score_tight = sum(poisson(k, hx + ax) for k in range(3))
+    tight_pool = tight_score_pool(low_score_tight, threshold=.60)
     v2_corner_insight = corner_insight(.252, .306, low_score_tight)
     reader = read_match(hx, ax, xg_last8={"home":hgf, "away":agf}, shots={}, odds_rows=pasted_results,
                         draw_probability=dp, low_score_tight=low_score_tight, corner_insight=v2_corner_insight,
@@ -2090,6 +2117,7 @@ if run:
         fbref_corner_rows = fbref_corner_rows.copy()
         fbref_corner_rows["source"] = "FBref 比賽報告"
         corner_input = pd.concat([corner_input, fbref_corner_rows[["Home", "Away", "HC", "AC", "DateParsed", "source"]]], ignore_index=True)
+    corner_context = corner_context_rows(corner_input, home, away, key_fn=team_key)
     corner_lams, corner_status = corner_model(corner_input, home, away)
     # V1.4：入球模型與賠率分開；角球有真實HC/AC時優先使用，否則只作明確標示的情境估算。
     team_goal_view = team_goal_model(hx, ax)
@@ -2139,8 +2167,8 @@ if run:
     )
     linkage_message = ""
     if under35_probability > .65:
-        p11 = matrix.get((1, 1), 0.0)
-        p10 = matrix.get((1, 0), 0.0)
+        p11 = tight_pool.get("1-1", matrix.get((1, 1), 0.0)) if tight_pool else matrix.get((1, 1), 0.0)
+        p10 = tight_pool.get("1-0", matrix.get((1, 0), 0.0)) if tight_pool else matrix.get((1, 0), 0.0)
         linkage_message = (f"💡細波預示：細3.5機率{under35_probability:.1%}偏高，呢場較易出現低比分拉鋸" 
                            f"（1-1 {p11:.1%}／1-0 {p10:.1%}）；角球預期{linkage_corner_total:.1f}，"
                            f"大8.5 {linkage_over85:.1%}／細9.5 {linkage_under95:.1%}，可留意角球大盤。")
@@ -2167,18 +2195,33 @@ if run:
     corner_source_label = " / ".join(corner_source_names) if corner_source_names else "未取得"
     monte_carlo = monte_carlo_match(hx, ax, corner_lams)
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
+    reliability = reliability_level(
+        len(h) + len(a),
+        has_rank_context=relegation_context.get("status") == "已核對",
+        has_real_corners=bool(corner_lams),
+        stale=stale_data,
+    )
+    live_warning = live_risk_message(live_minute, live_home_goals, live_away_goals)
     home_form = team_form_table(matches, home)
     away_form = team_form_table(matches, away)
     with db_connect() as c:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
     home_zh, away_zh = zh_team(home), zh_team(away)
     st.success(f"資料來源：{zh_source(source)}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
+    st.markdown(
+        f"<div style='background:{reliability['color']};color:white;padding:10px 14px;border-radius:8px;font-weight:700'>"
+        f"可靠性：{reliability['text']}</div>", unsafe_allow_html=True
+    )
+    if live_warning:
+        st.markdown(f"<div style='color:#ff4b4b;font-weight:800;font-size:1.05rem'>🔴 Live風險：{live_warning}</div>", unsafe_allow_html=True)
     if orbiflow_data.get("available"):
         st.caption(orbiflow_summary(orbiflow_data, orbiflow_result))
     st.subheader(f"{home_zh} 對 {away_zh}")
     st.write(f"預期入球：{hx:.2f} - {ax:.2f}｜V1.7校準總預期 {v17_card.get('calibration', {}).get('total_exp', hx + ax):.2f}｜主勝 {hp:.1%}｜和局 {dp:.1%}｜客勝 {ap:.1%}")
     if linkage_message:
         st.info(linkage_message)
+    if tight_pool:
+        st.warning("膠著比分池（膠著率 >60%，通用情境權重）：1-1 40%｜1-0 25%｜0-1 20%｜2-1 15%。這是情境分配，唔等於保證比分。")
     # V1.7：LMGOAL風格一場一卡；只整理現有資料，不取代V1.6詳細表格。
     v17_cal = v17_card.get("calibration", {})
     v17_tight = v17_cal.get("tight_rate")
@@ -2200,6 +2243,15 @@ if run:
     with v17_tabs[2]:
         stats_rows = [{"項目":"入球", "主隊":hgf, "客隊":agf}, {"項目":"失球", "主隊":hga, "客隊":aga}, {"項目":"角球預期", "主隊":v17_cal.get('corner_exp', linkage_corner_total)/2, "客隊":v17_cal.get('corner_exp', linkage_corner_total)/2}]
         st.dataframe(pd.DataFrame(stats_rows).style.format({"主隊":"{:.2f}", "客隊":"{:.2f}"}), use_container_width=True, hide_index=True)
+        h_avg = corner_context.get("home_average")
+        a_avg = corner_context.get("away_average")
+        h2h = corner_context.get("last_h2h") or {}
+        h2h_text = (f"主 {h2h.get('home_corners', 0):g}｜客 {h2h.get('away_corners', 0):g}｜總 {h2h.get('total', 0):g}"
+                    if h2h else "未取得上次對賽角球")
+        st.markdown("**角球資料（獨立三行）**")
+        st.write(f"主隊場均：{h_avg:.2f}" if h_avg is not None else "主隊場均：未取得真實HC資料")
+        st.write(f"客隊場均：{a_avg:.2f}" if a_avg is not None else "客隊場均：未取得真實AC資料")
+        st.write(f"上次對賽角球：{h2h_text}")
         st.caption("控球、射門、危險進攻等欄位只有取得真實來源時才會顯示。")
     with v17_tabs[3]:
         st.write("陣型：未核實正選時不會自行指定4-3-3。")
