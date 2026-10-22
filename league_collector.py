@@ -31,6 +31,12 @@ ESPN_LEAGUES = {
 }
 # ESPN某些roster回應曾把其他隊球員混入；先以球員ID及隊伍ID雙重防線排除。
 ESPN_TEAM_EXCLUSIONS = {"epl": {"359": {"218522", "231859"}}}
+# OpenFootball 同一國家路徑有時同時包含多個賽事；沒有精確檔名便不猜測。
+OPENFOOTBALL_FILE_HINTS = {
+    "a-league": ("_au1.txt",), "a-league-women": (), "australia-cup": (),
+    "j1": ("_jp1.txt",), "j2": (),
+    "liga-mx": ("_mx1.txt",), "expansion-mx": ("_mx2",),
+}
 HEADERS = {"User-Agent": "FootballResearchApp/1.0 (public-data research)"}
 
 
@@ -188,6 +194,7 @@ def read_openfootball(league: dict) -> pd.DataFrame:
     repo, paths = tree_for(league)
     fragments = []
     hints = [p.lower().split("/")[-1] for p in league.get("openfootball_paths", [])]
+    exact_hints = OPENFOOTBALL_FILE_HINTS.get(league.get("id"))
     # Take the newest available season files matching the configured country path.
     candidates = []
     for p in paths:
@@ -195,6 +202,8 @@ def read_openfootball(league: dict) -> pd.DataFrame:
         if not low.endswith(".txt") or "/" not in low:
             continue
         if not any(part in low for part in hints):
+            continue
+        if exact_hints is not None and not any(low.endswith(token) or token in low for token in exact_hints):
             continue
         if not re.search(r"20\d{2}", low):
             continue
@@ -213,6 +222,41 @@ def read_openfootball(league: dict) -> pd.DataFrame:
         except Exception:
             continue
     return pd.concat(fragments, ignore_index=True) if fragments else pd.DataFrame()
+
+
+def read_espn_scoreboard(league: dict) -> pd.DataFrame:
+    """以 ESPN 公開 scoreboard 作為最新賽果後備；沒有結果便回傳空表。
+
+    只讀取指定 ESPN league slug，絕不把同一國家的另一個聯賽當成目標聯賽。
+    這是最新層後備，不會冒充五季歷史資料。
+    """
+    slug = ESPN_LEAGUES.get(league.get("id", ""))
+    if not slug:
+        return pd.DataFrame()
+    try:
+        payload = get_json(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard",
+                           {"limit": 100})
+        rows = []
+        for event in payload.get("events", []):
+            comp = (event.get("competitions") or [{}])[0]
+            teams = comp.get("competitors") or []
+            if len(teams) < 2:
+                continue
+            home = next((x for x in teams if x.get("homeAway") == "home"), teams[0])
+            away = next((x for x in teams if x.get("homeAway") == "away"), teams[1])
+            hs = home.get("score")
+            aws = away.get("score")
+            if hs in (None, "") or aws in (None, ""):
+                continue
+            rows.append({"date": pd.to_datetime(event.get("date"), errors="coerce"),
+                         "season": "ESPN-current", "home_team": (home.get("team") or {}).get("displayName", "").strip(),
+                         "away_team": (away.get("team") or {}).get("displayName", "").strip(),
+                         "home_goals": pd.to_numeric(hs, errors="coerce"),
+                         "away_goals": pd.to_numeric(aws, errors="coerce"),
+                         "home_corners": pd.NA, "away_corners": pd.NA, "source": "ESPN scoreboard"})
+        return pd.DataFrame(rows)
+    except Exception:
+        return pd.DataFrame()
 
 
 def sportsdb_team(name: str, women: bool = False) -> dict:
@@ -259,6 +303,18 @@ def collect_one(league: dict, max_matches=60, with_players=True) -> dict:
     matches = read_fd(league) if league.get("provider") == "football-data" else read_openfootball(league)
     if matches.empty and league.get("provider") != "football-data":
         matches = read_fd(league)
+    if matches.empty:
+        matches = read_espn_scoreboard(league)
+    preserved_old = False
+    old_matches_path = outdir / "matches.csv"
+    if matches.empty and old_matches_path.exists():
+        try:
+            old = pd.read_csv(old_matches_path).fillna(pd.NA)
+            if not old.empty and {"home_team", "away_team", "home_goals", "away_goals"}.issubset(old.columns):
+                matches = old
+                preserved_old = True
+        except Exception:
+            pass
     if not matches.empty:
         matches["date"] = pd.to_datetime(matches["date"], errors="coerce")
         matches = matches.sort_values("date").drop_duplicates(subset=["date","home_team","away_team"], keep="last")
@@ -287,13 +343,21 @@ def collect_one(league: dict, max_matches=60, with_players=True) -> dict:
         players = collect_players(teams, "women" in league["id"] or "femenina" in league["id"] or "toppserien" in league["id"], league_id)
     else:
         old_players = outdir / "players.csv"
-        players = pd.read_csv(old_players).fillna("") if old_players.exists() else pd.DataFrame()
+        try:
+            players = pd.read_csv(old_players).fillna("") if old_players.exists() else pd.DataFrame()
+        except (pd.errors.EmptyDataError, pd.errors.ParserError, OSError):
+            players = pd.DataFrame()
     old_players_path = outdir / "players.csv"
     protected = False
     new_player_count = len(players)
     if with_players and len(players) < 15 and old_players_path.exists():
-        players = pd.read_csv(old_players_path).fillna("")
-        protected = True
+        try:
+            old = pd.read_csv(old_players_path).fillna("")
+        except (pd.errors.EmptyDataError, pd.errors.ParserError, OSError):
+            old = pd.DataFrame()
+        if not old.empty:
+            players = old
+            protected = True
         with (DATA / "update.log").open("a", encoding="utf-8") as log:
             log.write(json.dumps({"time": stamp, "league_id": league_id, "event": "players_update_rejected",
                                   "new_count": new_player_count, "reason": "new roster fewer than 15; old cache retained"}, ensure_ascii=False) + "\n")
@@ -319,7 +383,9 @@ def collect_one(league: dict, max_matches=60, with_players=True) -> dict:
                 "sources": sorted(set(matches.source.astype(str))) if not matches.empty else [],
                 "teams": len(teams), "players": len(players), "matches": len(matches), "corner_matches": corner_count,
                 "quality": "高" if len(matches) >= 10 and len(teams) >= 4 else "樣本不足", "dataSource": "ESPN／football-data／openfootball",
-                "lastUpdated": stamp, "players_update_protected": protected, "errors": []}
+                "lastUpdated": stamp, "players_update_protected": protected,
+                "errors": (["本次免費來源沒有新賽果，已保留上一版本快取"] if preserved_old else
+                           (["目前免費來源沒有可用賽果；未建立虛構資料"] if matches.empty else []))}
     (outdir / "metadata.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
     return metadata
 
