@@ -795,20 +795,41 @@ def update_fd_leagues():
     return results, errors
 
 
+def _html_header_key(value):
+    """將HTML欄名標準化，容許大小寫、空格、底線及連字符差異。"""
+    value = unicodedata.normalize("NFKC", str(value or "")).strip().casefold()
+    return re.sub(r"[\s_\-()]+", "", value)
+
+
 def parse_pasted_fbref_html(html, league):
-    """只解析使用者貼上的公開 HTML 表格；需包含主客隊及角球欄位。"""
-    if not str(html or "").strip():
-        raise ValueError("未貼上 HTML")
-    tables = pd.read_html(StringIO(str(html)), flavor="lxml")
-    aliases = {"Home Team": "Home", "Away Team": "Away", "HomeTeam": "Home", "AwayTeam": "Away",
-               "Home Corners": "HC", "Away Corners": "AC", "Corner Kicks (home)": "HC",
-               "Corner Kicks (away)": "AC", "Date": "Date"}
+    """解析公開HTML表格，支援常見主客隊及角球欄名變體。"""
+    html_text = str(html or "")
+    if not html_text.strip():
+        raise ValueError("請先貼上HTML")
+
+    tables = pd.read_html(StringIO(html_text), flavor="lxml")
+    header_aliases = {
+        "home": "Home", "hometeam": "Home", "主隊": "Home", "home_team": "Home",
+        "away": "Away", "awayteam": "Away", "客隊": "Away", "away_team": "Away",
+        "hc": "HC", "homecorners": "HC", "cornershome": "HC", "home_corners": "HC", "主隊角球": "HC",
+        "ac": "AC", "awaycorners": "AC", "cornersaway": "AC", "away_corners": "AC", "客隊角球": "AC",
+        "date": "Date", "日期": "Date", "matchdate": "Date",
+    }
     for table in tables:
-        table.columns = [str(c).strip() for c in table.columns]
-        table = table.rename(columns={k: v for k, v in aliases.items() if k in table.columns})
+        if isinstance(table.columns, pd.MultiIndex):
+            table.columns = [" ".join(str(part) for part in column if str(part).lower() != "nan") for column in table.columns]
+        renamed = {}
+        for column in table.columns:
+            key = _html_header_key(column)
+            target = header_aliases.get(key)
+            if target and target not in renamed.values():
+                renamed[column] = target
+        table = table.rename(columns=renamed)
         if {"Home", "Away", "HC", "AC"}.issubset(table.columns):
-            # HTML 角球補充表未必有完整比分；只建立補充列，稍後按球隊及日期更新資料館。
+            # HTML角球表未必有比分；比分以0-0作為角球補充賽事的中性佔位值。
             out = table.copy()
+            out["Home"] = out["Home"].astype(str).str.strip().map(lambda x: ALIASES.get(x, x))
+            out["Away"] = out["Away"].astype(str).str.strip().map(lambda x: ALIASES.get(x, x))
             out["HC"] = pd.to_numeric(out["HC"], errors="coerce")
             out["AC"] = pd.to_numeric(out["AC"], errors="coerce")
             out["Date"] = out.get("Date", "")
@@ -817,25 +838,54 @@ def parse_pasted_fbref_html(html, league):
             out["HG"] = pd.NA
             out["AG"] = pd.NA
             out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce", dayfirst=True)
-            out["source"] = "使用者貼上的 FBref HTML"
+            out["source"] = "使用者貼上的公開比賽 HTML"
             return out[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]].dropna(subset=["Home", "Away", "HC", "AC"])
-    raise ValueError("HTML 表格未找到 Home、Away、HC、AC 四個可核對欄位")
+    raise ValueError("HTML 表格未找到可識別的主隊、客隊、HC、AC欄位")
 
 
 def save_corner_supplement(df):
-    """只更新資料館已有賽果的 HC/AC，唔會用角球列製造一場新賽事。"""
+    """更新既有賽果；搵唔到時自動新增角球賽事，並記錄來源。"""
     updated = 0
+    created = 0
+    today = datetime.now().date().isoformat()
     with sqlite3.connect(DB) as c:
         for row in df.itertuples():
-            params = [float(row.HC), float(row.AC), row.league, str(row.Home), str(row.Away)]
+            home = ALIASES.get(str(row.Home).strip(), str(row.Home).strip())
+            away = ALIASES.get(str(row.Away).strip(), str(row.Away).strip())
+            raw_date = str(row.Date).strip()
+            date_value = raw_date if raw_date and raw_date.lower() != "nan" else today
+            date_like = f"%{date_value[:10]}%"
             if pd.notna(row.DateParsed):
-                cur = c.execute("UPDATE matches SET hc=?, ac=?, source=? WHERE league=? AND home=? AND away=? AND date LIKE ?",
-                                [float(row.HC), float(row.AC), row.source, row.league, str(row.Home), str(row.Away), f"%{str(row.Date)[:10]}%"])
+                cur = c.execute(
+                    "UPDATE matches SET hc=?, ac=?, source=?, captured_at=? "
+                    "WHERE league=? AND home=? AND away=? AND date LIKE ?",
+                    [float(row.HC), float(row.AC), row.source, datetime.now(timezone.utc).isoformat(),
+                     row.league, home, away, date_like],
+                )
             else:
-                cur = c.execute("UPDATE matches SET hc=?, ac=?, source=? WHERE league=? AND home=? AND away=? AND (hc IS NULL OR ac IS NULL)",
-                                [float(row.HC), float(row.AC), row.source, row.league, str(row.Home), str(row.Away)])
-            updated += cur.rowcount
-    return updated
+                cur = c.execute(
+                    "UPDATE matches SET hc=?, ac=?, source=?, captured_at=? "
+                    "WHERE league=? AND home=? AND away=? AND (hc IS NULL OR ac IS NULL)",
+                    [float(row.HC), float(row.AC), row.source, datetime.now(timezone.utc).isoformat(),
+                     row.league, home, away],
+                )
+            if cur.rowcount:
+                updated += cur.rowcount
+                continue
+
+            # HTML只提供角球時，按要求建立新紀錄；比分使用0-0佔位，並由source明確標註。
+            c.execute(
+                "INSERT INTO matches(league,season,home,away,hg,ag,hc,ac,date,source,captured_at) "
+                "VALUES(?,?,?,?,?,?,?,?,?,?,?) "
+                "ON CONFLICT(league,season,home,away,date) DO UPDATE SET "
+                "hc=excluded.hc, ac=excluded.ac, source=excluded.source, captured_at=excluded.captured_at",
+                [row.league, str(row.season), home, away, 0, 0, float(row.HC), float(row.AC),
+                 date_value, row.source, datetime.now(timezone.utc).isoformat()],
+            )
+            created += 1
+            log_source(row.league, "HTML角球補充", "自動新增",
+                       f"自動新增賽事 {home} vs {away} 角球 {float(row.HC):g}-{float(row.AC):g}")
+    return updated, created
 
 
 def robots_allowed(url):
@@ -1597,8 +1647,9 @@ with st.sidebar:
     fbref_html = st.text_area(
         "貼上公開比賽 HTML（可選，用於補充角球）",
         height=120,
-        help="只有表格確實包含 Home、Away、HC、AC 時才會匯入；唔會由 HTML 猜角球。"
+        help="支援 FBref / Sportradar / Elbotola 格式，會自動識別 HC/AC。"
     )
+    st.caption("支援 FBref / Sportradar / Elbotola 格式，會自動識別 HC/AC")
     csv_url = st.text_input(
         "公開 CSV 直連網址（可選）",
         placeholder="例如 https://example.com/results.csv",
@@ -1659,11 +1710,8 @@ with st.sidebar:
     if import_fbref_html:
         try:
             html_matches = parse_pasted_fbref_html(fbref_html, league)
-            updated = save_corner_supplement(html_matches)
-            if updated:
-                st.success(f"已用 HTML 角球資料更新 {updated} 場既有賽果。")
-            else:
-                st.warning("HTML 解析到角球，但未能按主客隊／日期對應到資料館既有賽果；沒有新增或虛構賽事。")
+            updated, created = save_corner_supplement(html_matches)
+            st.success(f"HTML 角球資料已匯入：更新既有賽果 {updated} 場；自動新增賽事 {created} 場。")
         except Exception as exc:
             st.warning(f"HTML 未能匯入：{exc}")
     import_csv_url = st.button("讀取並匯入 CSV 網址", use_container_width=True)
