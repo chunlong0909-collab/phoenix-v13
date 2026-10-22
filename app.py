@@ -36,6 +36,7 @@ try:
     from data.brain.match_reader import read_match
     from data.brain.learning import learning_adjustment, learning_summary, load_log
     from data.v17_engine import build_card
+    from data.pro_odds_page import merge_professional_page, odds_usage, find_event
 except Exception:
     def fetch_realtime_context(*args, **kwargs):
         return {"status": "unavailable", "source": "未取得", "injury_data_verified": False,
@@ -61,6 +62,9 @@ except Exception:
     def learning_summary(*args, **kwargs): return {"total":0,"completed":0,"recent5_error":None}
     def load_log(*args, **kwargs): return []
     def build_card(*args, **kwargs): return {}
+    def merge_professional_page(*args, **kwargs): return {"odds_meta": {"status": "unavailable"}, "odds_snapshot": None, "match_detail": {}}
+    def odds_usage(): return {"date": "", "calls": 0}
+    def find_event(*args, **kwargs): return None
 
 st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layout="wide")
 
@@ -1635,6 +1639,51 @@ with st.sidebar:
         away_text = st.selectbox("確認客隊", away_candidates, key=f"away_pick_{league}")
     else:
         away_text = away_query
+    st.markdown("### 專業盤口頁（Football-Data.org + The Odds API）")
+    professional_match_id = st.text_input("Football-Data.org Match ID（完場更新先填；開波前可留空）", value="", key="professional_match_id")
+    pro_c1, pro_c2 = st.columns(2)
+    with pro_c1:
+        load_professional = st.button("載入專業盤口（開波前一次）", use_container_width=True)
+    with pro_c2:
+        refresh_postmatch = st.button("完場更新賽果／陣容", use_container_width=True)
+    if load_professional or refresh_postmatch:
+        with st.spinner("讀取專業盤口資料中……"):
+            try:
+                pro_payload = merge_professional_page(
+                    ALIASES.get(home_text.strip(), home_text.strip()),
+                    ALIASES.get(away_text.strip(), away_text.strip()),
+                    professional_match_id.strip() or None,
+                    post_match=bool(refresh_postmatch),
+                )
+                st.session_state["professional_page"] = pro_payload
+            except Exception as exc:
+                st.warning(f"專業盤口暫時未能載入：{exc}")
+    pro_payload = st.session_state.get("professional_page")
+    if pro_payload:
+        pro_meta = pro_payload.get("odds_meta", {})
+        usage = pro_payload.get("usage", {})
+        st.caption(f"Odds API：{pro_meta.get('status', '未取得')}｜今日已使用 {usage.get('calls', 0)}/5 次｜{pro_payload.get('policy', '')}")
+        pro_event = pro_payload.get("odds_snapshot")
+        if pro_event:
+            st.markdown(f"**{pro_event.get('home_team')} 對 {pro_event.get('away_team')}**")
+            pro_rows = []
+            for book in pro_event.get("bookmakers", []):
+                for market in book.get("markets", []):
+                    for outcome in market.get("outcomes", []):
+                        pro_rows.append({"公司": book.get("title") or book.get("key"), "市場": market.get("key"), "選項": outcome.get("name"), "盤口": outcome.get("point"), "賠率": outcome.get("price"), "更新時間": market.get("last_update") or book.get("last_update")})
+            if pro_rows:
+                st.dataframe(pd.DataFrame(pro_rows), use_container_width=True, hide_index=True)
+            else:
+                st.info("Odds API已回應，但目前沒有Pinnacle／Bet365／Unibet可顯示盤口。")
+        else:
+            st.info("目前未找到與主客隊完全匹配的西甲賠率事件；不會自行配對其他比賽。")
+        detail = pro_payload.get("match_detail", {})
+        if detail.get("status") == "ok":
+            score = detail.get("score", {})
+            st.markdown("**Football-Data.org 完場資料**")
+            st.write(f"比分：{score.get('home')} - {score.get('away')}｜入球事件：{len(detail.get('goals') or [])}｜陣容資料：{len(detail.get('lineups') or [])}隊｜角球：{detail.get('corners') if detail.get('corners') is not None else '來源未提供'}")
+        elif refresh_postmatch:
+            st.warning(detail.get("reason", "完場資料未取得"))
     home_odds = st.number_input("主勝賠率（0=沒有此盤）", 0.0, 100.0, 1.85)
     draw_odds = st.number_input("和局賠率（0=沒有此盤）", 0.0, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率（0=沒有此盤）", 0.0, 100.0, 4.20)
