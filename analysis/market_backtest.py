@@ -83,7 +83,9 @@ def _profit(hit, odds):
 def _empty_summary():
     table = []
     for label, cfg in {**GOAL_LINES, **CORNER_LINES}.items():
-        table.append({"盤口": label, "方向": "細" if cfg["side"] == "under" else "大",
+        direction = (f"預期<{cfg['threshold']:.1f}細／否則大" if label in GOAL_LINES
+                     else ("細" if cfg["side"] == "under" else "大"))
+        table.append({"盤口": label, "方向": direction,
                       "賠率": cfg["odds"], "命中率": None, "樣本數": 0,
                       "淨利潤": 0.0, "狀態": "資料不足"})
     return {"盤口回測": pd.DataFrame(table), "入球盤口回測": pd.DataFrame(table[:6]),
@@ -152,7 +154,9 @@ def walk_forward_market_backtest(matches, min_team_games=4):
     for label, cfg in {**GOAL_LINES, **CORNER_LINES}.items():
         records = line_records[label]
         n = len(records)
-        summary_rows.append({"盤口": label, "方向": "細" if cfg["side"] == "under" else "大",
+        direction = (f"預期<{cfg['threshold']:.1f}細／否則大" if label in GOAL_LINES
+                     else ("細" if cfg["side"] == "under" else "大"))
+        summary_rows.append({"盤口": label, "方向": direction,
                              "賠率": cfg["odds"], "命中率": sum(r["命中"] for r in records) / n if n else None,
                              "樣本數": n, "淨利潤": sum(r["淨利潤"] for r in records),
                              "狀態": "可回測" if n else "資料不足"})
