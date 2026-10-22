@@ -1,28 +1,11 @@
 {
   "league_id": "libertadores-femenina",
-  "name_zh": "女南美自由盃",
-  "updated_at": "2026-10-22T13:14:05.045271+00:00",
-  "sources": [],
+  "name_zh": "女子南美自由盃",
+  "updated_at": "2026-10-22T19:42:47.377941+00:00",
+  "fixtures": 0,
   "teams": 0,
   "players": 0,
-  "matches": 0,
-  "corner_matches": 0,
-  "quality": "樣本不足",
-  "dataSource": "ESPN／football-data／openfootball",
-  "lastUpdated": "2026-10-22T13:14:05.045271+00:00",
-  "players_update_protected": false,
-  "errors": [
-    "目前免費來源沒有可用賽果；未建立虛構資料"
-  ],
-  "last_updated": "2026-10-23",
-  "source": "Sofascore public results API",
-  "source_urls": [
-    "https://www.sofascore.com/api/v1/team/318566/events/last/0",
-    "https://www.sofascore.com/api/v1/team/318566/events/last/1",
-    "https://www.sofascore.com/api/v1/team/395934/events/last/0",
-    "https://www.sofascore.com/api/v1/team/395934/events/last/1"
-  ],
-  "matches_count": 116,
-  "corner_data": "not available; HC/AC intentionally blank",
-  "ranking_data": "not available; ranking fields intentionally absent"
+  "corner_fixtures": 0,
+  "sources": [],
+  "status": "insufficient"
 }

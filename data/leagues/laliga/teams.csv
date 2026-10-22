@@ -1,29 +1,27 @@
-﻿team_name,team_id,country,stadium,crest_url,espn_team_id,source,lastUpdated,dataSource
-Alaves,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Almeria,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Ath Bilbao,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Ath Madrid,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Barcelona,,,,https://a.espncdn.com/i/teamlogos/soccer/500/83.png,83,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Betis,,,,https://a.espncdn.com/i/teamlogos/soccer/500/244.png,244,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Cadiz,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Celta,,,,https://a.espncdn.com/i/teamlogos/soccer/500/85.png,85,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Eibar,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Elche,,,,https://a.espncdn.com/i/teamlogos/soccer/500/3751.png,3751,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Espanol,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Getafe,,,,https://a.espncdn.com/i/teamlogos/soccer/500/2922.png,2922,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Girona,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Granada,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Huesca,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Las Palmas,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Leganes,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Levante,,,,https://a.espncdn.com/i/teamlogos/soccer/500/1538.png,1538,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Mallorca,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Osasuna,,,,https://a.espncdn.com/i/teamlogos/soccer/500/97.png,97,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Oviedo,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Real Madrid,,,,https://a.espncdn.com/i/teamlogos/soccer/500/86.png,86,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Sevilla,,,,https://a.espncdn.com/i/teamlogos/soccer/500/243.png,243,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Sociedad,,,,https://a.espncdn.com/i/teamlogos/soccer/500/89.png,89,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Valencia,,,,https://a.espncdn.com/i/teamlogos/soccer/500/94.png,94,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Valladolid,,,,,,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Vallecano,,,,https://a.espncdn.com/i/teamlogos/soccer/500/101.png,101,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
-Villarreal,,,,https://a.espncdn.com/i/teamlogos/soccer/500/102.png,102,openfootball/football-data,2026-10-21T08:59:39.826427+00:00,openfootball/football-data
+﻿team_id,team_name,slug,source
+3751,Elche,,ESPN
+85,Celta Vigo,,ESPN
+94,Valencia,,ESPN
+3842,Cádiz,,ESPN
+102,Villarreal,,ESPN
+86,Real Madrid,,ESPN
+84,Mallorca,,ESPN
+95,Real Valladolid,,ESPN
+88,Espanyol,,ESPN
+9812,Girona,,ESPN
+6832,Almería,,ESPN
+89,Real Sociedad,,ESPN
+101,Rayo Vallecano,,ESPN
+244,Real Betis,,ESPN
+243,Sevilla,,ESPN
+2922,Getafe,,ESPN
+1068,Atlético Madrid,,ESPN
+83,Barcelona,,ESPN
+93,Athletic Club,,ESPN
+97,Osasuna,,ESPN
+98,Las Palmas,,ESPN
+96,Alavés,,ESPN
+3747,Granada,,ESPN
+17534,Leganés,,ESPN
+92,Real Oviedo,,ESPN
+1538,Levante,,ESPN

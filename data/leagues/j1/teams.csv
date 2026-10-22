@@ -1,28 +1,24 @@
-﻿team_name,team_id,country,stadium,crest_url,espn_team_id,source,lastUpdated,dataSource
-Albirex Niigata,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Avispa Fukuoka,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7107.png,7107,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Cerezo Osaka,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7109.png,7109,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-FC Machida Zelvia,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-FC Tokyo,,,,https://a.espncdn.com/i/teamlogos/soccer/500/3384.png,3384,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Fagiano Okayama,,,,https://a.espncdn.com/i/teamlogos/soccer/500/22522.png,22522,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Gamba Osaka,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7102.png,7102,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Hokkaido Consadole Sapporo,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Júbilo Iwata,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Kashima Antlers,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7115.png,7115,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Kashiwa Reysol,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7476.png,7476,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Kawasaki Frontale,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7112.png,7112,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Kyoto Sanga FC,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Matsumoto Yamaga,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Nagoya Grampus,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7108.png,7108,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Oita Trinita,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Sagan Tosu,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Sanfrecce Hiroshima,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7114.png,7114,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Shimizu S-Pulse,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7104.png,7104,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Shonan Bellmare,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Tokushima Vortis,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Tokyo Verdy,,,,https://a.espncdn.com/i/teamlogos/soccer/500/3393.png,3393,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Urawa Red Diamonds,,,,https://a.espncdn.com/i/teamlogos/soccer/500/3385.png,3385,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Vegalta Sendai,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Vissel Kobe,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7477.png,7477,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Yokohama F. Marinos,,,,https://a.espncdn.com/i/teamlogos/soccer/500/7116.png,7116,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
-Yokohama FC,,,,,,openfootball/football-data,2026-10-21T09:02:19.740212+00:00,openfootball/football-data
+﻿team_id,team_name,slug,source
+7112,Kawasaki Frontale,,ESPN
+7116,Yokohama F. Marinos,,ESPN
+7109,Cerezo Osaka,,ESPN
+7113,Albirex Niigata,,ESPN
+3384,FC Tokyo,,ESPN
+3385,Urawa Red Diamonds,,ESPN
+21361,Kyoto Sanga,,ESPN
+7115,Kashima Antlers,,ESPN
+7114,Sanfrecce Hiroshima,,ESPN
+9249,Consadole Sapporo,,ESPN
+7477,Vissel Kobe,,ESPN
+7107,Avispa Fukuoka,,ESPN
+7145,Yokohama FC,,ESPN
+7108,Nagoya Grampus,,ESPN
+7476,Kashiwa Reysol,,ESPN
+7102,Gamba Osaka,,ESPN
+6911,Sagan Tosu,,ESPN
+6902,Shonan Bellmare,,ESPN
+7106,Jubilo Iwata,,ESPN
+22167,Machida Zelvia,,ESPN
+3393,Tokyo Verdy 1969,,ESPN
+22522,Fagiano Okayama,,ESPN
+7104,Shimizu S-Pulse,,ESPN

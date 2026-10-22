@@ -1,637 +1,883 @@
-﻿team,teamId,idPlayer,strPlayer,strPosition,position,age,dateBorn,strNationality,nationality,strThumb,lastUpdated,dataSource
-Almere City,5291,301358,Wessel Speel,GK,GK,25.0,2001-10-17T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,325954,Joël Van Der Wilt,GK,GK,22.0,2004-04-27T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,330488,Jesper Van Der Mark,GK,GK,22.0,2004-06-29T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,335206,Tristan Kuijsten,GK,GK,21.0,2005-01-16T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,402866,Malcolm Mateyo,GK,GK,21.0,2005-01-26T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,4804,Jamie Lawrence,DF,DF,34.0,1992-08-22T07:00Z,Wales,Wales,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,206865,Damian Van Bruggen,DF,DF,30.0,1996-03-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/206865.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,261597,Teun Bijleveld,DF,DF,28.0,1998-05-27T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/261597.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,272330,Joey Jacobs,DF,DF,26.0,2000-04-10T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/272330.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,309154,Misha Engel,DF,DF,24.0,2002-10-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,318533,Emmanuel Van De Blaak,DF,DF,21.0,2005-02-15T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,324012,Martin Wasinski,DF,DF,22.0,2004-04-07T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,324338,Twan Van Der Zeeuw,DF,DF,24.0,2002-09-21T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,360263,Jereno Van Gom,DF,DF,21.0,2005-05-28T07:00Z,Suriname,Suriname,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,387966,Donte Apinsa,DF,DF,21.0,2005-01-07T08:00Z,Suriname,Suriname,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,409471,Tiziano Vianello,DF,DF,21.0,2005-01-29T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,3124564,Bas Pennock,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,261605,Mees Hoedemakers,MF,MF,28.0,1998-02-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/261605.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,261608,Jamie Jacobs,MF,MF,28.0,1997-12-03T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,305627,Enzo Cornelisse,MF,MF,24.0,2002-06-29T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/305627.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,319230,Milan De Haan,MF,MF,22.0,2003-11-20T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,330546,Jochem Ritmeester Van De Kamp,MF,MF,22.0,2003-11-02T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/330546.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,336563,Hamza El Dahri,MF,MF,21.0,2005-03-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,349818,Job Kalisvaart,MF,MF,22.0,2004-06-10T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,388687,Lev Lenssen,MF,MF,21.0,2005-07-12T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,401078,Olivier De Nijs,MF,MF,21.0,2004-11-09T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,241393,Ferdy Druijf,FW,FW,28.0,1998-02-12T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/241393.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,291732,Byron Burgering,FW,FW,25.0,2000-11-28T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,388690,Emanuel Poku,FW,FW,21.0,2005-07-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,389274,Marley Dors,FW,FW,21.0,2005-06-11T07:00Z,Suriname,Suriname,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,393342,Bas Huisman,FW,FW,21.0,2005-05-09T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Almere City,5291,395128,Immanuel Ghogli,FW,FW,21.0,2005-08-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,191304,Hidde Jurjus,GK,GK,32.0,1994-02-09T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,306426,Dion Vlak,GK,GK,25.0,2001-06-28T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,356490,Roy Steur,GK,GK,21.0,2005-02-01T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,144339,Mawouna Amevor,DF,DF,34.0,1991-12-16T08:00Z,Togo,Togo,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,150194,Erik Schouten,DF,DF,35.0,1991-08-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,306449,Deron Payne,DF,DF,24.0,2002-09-25T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306449.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,324468,Jaïr Haakmat,DF,DF,23.0,2003-08-28T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,337603,Mike Kleijn,DF,DF,21.0,2005-02-09T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/337603.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,367467,Nash Bijnoe,DF,DF,21.0,2005-03-30T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,380940,Precious Ugwu,DF,DF,20.0,2006-02-08T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,384166,Daan Bisschops,DF,DF,21.0,2005-03-30T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,390653,Luca Blondeau,DF,DF,20.0,2006-02-11T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,240909,Alex Plat,MF,MF,28.0,1998-02-04T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,305626,Daan Huisman,MF,MF,24.0,2002-07-26T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/305626.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,365390,Nordin Bukala,MF,MF,21.0,2005-09-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,379212,Mika Van Der Horst,MF,MF,21.0,2005-05-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,388713,Tiago Codinha,MF,MF,21.0,2005-07-20T07:00Z,Canada,Canada,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,415459,Younes El Meftahi,MF,MF,19.0,2007-10-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,3118978,Mohammed Belfqih,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,184150,Henk Veerman,FW,FW,35.0,1991-02-26T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/184150.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,227279,Nick Doodeman,FW,FW,29.0,1996-10-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,241019,Reuven Niemeijer,FW,FW,31.0,1995-03-27T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,304180,Frederik Ihler,FW,FW,23.0,2003-06-25T07:00Z,Denmark,Denmark,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,357339,Serigne Deme,FW,FW,21.0,2005-02-04T08:00Z,Senegal,Senegal,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,372315,Kayden Wolff,FW,FW,20.0,2006-06-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,408736,Jesper Tielemans,FW,FW,20.0,2006-05-17T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,3100711,Jerayson Hoepel,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,3102959,Jahmani Gambier,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Volendam,2727,3145032,Miguel Opoku Agyemang,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,328696,Ties Wieggers,GK,GK,23.0,2002-12-13T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,349816,Rick Jonkers,GK,GK,22.0,2004-02-25T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,362072,Paul Reverson,GK,GK,21.0,2005-06-20T07:00Z,Ghana,Ghana,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,403268,Sam Bouwman,GK,GK,19.0,2006-12-14T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,234334,Thomas Kok,DF,DF,28.0,1998-05-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,283030,Mark Pabai,DF,DF,26.0,2000-09-30T07:00Z,Liberia,Liberia,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,298573,Jason Meerstadt,DF,DF,25.0,2001-07-10T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/298573.png,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,306063,Jannes Wieckhoff,DF,DF,26.0,2000-08-02T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,344750,Joran Hardeman,DF,DF,24.0,2002-04-21T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,344752,Levi Schoppema,DF,DF,22.0,2004-05-27T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,346364,Rowan Besselink,DF,DF,22.0,2004-10-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,377713,Kaya Symons,DF,DF,21.0,2005-03-31T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,378554,Gijs Bolk,DF,DF,21.0,2005-01-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,399246,Nolan Martens,DF,DF,22.0,2004-07-07T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,177029,Mark Diemers,MF,MF,33.0,1993-10-11T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/177029.png,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,190996,Clint Leemans,MF,MF,31.0,1995-09-15T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/190996.png,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,284717,Fedde de Jong,MF,MF,23.0,2003-06-13T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/284717.png,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,305591,Donny Warmerdam,MF,MF,24.0,2002-01-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,359881,Milan Smits,MF,MF,21.0,2004-11-13T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,377715,Jorn Triep,MF,MF,21.0,2005-03-28T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,378246,Denzel Eijken,MF,MF,23.0,2003-10-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,388556,Tim Braem,MF,MF,20.0,2006-02-13T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,391335,Tygo Grotenhuis,MF,MF,21.0,2005-03-24T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,397860,Nic Hartgers,MF,MF,22.0,2004-02-21T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,408691,Timo Jansen,MF,MF,20.0,2006-01-14T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,409291,Nart Ahmeti,MF,MF,20.0,2006-01-05T08:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,3124968,Cem Eroglu,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,3129560,Benjamin Mambo,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,3130357,Gabriele Finocchiaro,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,371399,Julian Kania,FW,FW,25.0,2001-10-10T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,397074,Kyano Kwint,FW,FW,20.0,2006-09-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,398858,Nathan Kaninda,FW,FW,22.0,2004-06-13T07:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,399652,Bjorn Van Zijl,FW,FW,22.0,2004-07-09T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-De Graafschap,144,402721,Toivo Mero,FW,FW,19.0,2007-10-07T07:00Z,Finland,Finland,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,310130,Pepijn Van De Merbel,GK,GK,24.0,2002-03-18T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,324466,Finn Murre,GK,GK,23.0,2003-07-24T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,374525,Tjemme Bijlsma,GK,GK,19.0,2007-03-11T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,376040,Roel Van Balsfoort,GK,GK,20.0,2006-07-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,132001,Jeffry Fortes,DF,DF,37.0,1989-03-22T08:00Z,Cape Verde Islands,Cape Verde Islands,https://a.espncdn.com/i/headshots/soccer/players/full/132001.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,261600,Jasper van Heertum,DF,DF,28.0,1997-11-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,286402,Reda Akmum,DF,DF,25.0,2001-04-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,308027,Stan Maas,DF,DF,25.0,2001-02-14T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,355504,Sheddy Barglan,DF,DF,24.0,2002-10-03T07:00Z,Sudan,Sudan,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,365029,Mees Laros,DF,DF,21.0,2005-05-29T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,413579,Silvan Broker,DF,DF,21.0,2005-05-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,414036,Jayden Ettienne,DF,DF,20.0,2006-01-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,422010,Kai de Rooij,DF,DF,17.0,2008-11-30T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,286779,Jack De Vries,MF,MF,24.0,2002-03-28T08:00Z,USA,USA,https://a.espncdn.com/i/headshots/soccer/players/full/286779.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,309372,Boris Van Schuppen,MF,MF,24.0,2001-11-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,386879,Devon Decorte,MF,MF,20.0,2006-05-13T07:00Z,USA,USA,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,409257,Wang Bohao,MF,MF,21.0,2005-07-18T07:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,411550,Hessel Eikelboom,MF,MF,23.0,2003-02-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,415417,Sufyan Van Daalen,MF,MF,18.0,2008-01-08T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,3124561,Giovanni Hessels,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,3143589,Jari De Kruijff,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,306292,Sebastian Karlsson Grach,FW,FW,25.0,2001-05-06T07:00Z,Sweden,Sweden,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,308846,Kévin Monzialo,FW,FW,26.0,2000-07-28T07:00Z,Congo,Congo,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,352484,Genrich Sillé,FW,FW,24.0,2002-03-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,362523,Ilias Boumassaoudi,FW,FW,21.0,2005-01-14T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,386973,Emian-Johar Semedo,FW,FW,23.0,2003-03-11T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,410722,Rafi Wolters,FW,FW,19.0,2007-04-21T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Den Bosch,271,3099594,Lorenzo Hoffman,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,137782,Tim Coremans,GK,GK,35.0,1991-04-10T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/137782.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,212346,Yanick van Osch,GK,GK,29.0,1997-03-24T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/212346.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,295996,Calvin Raatsie,GK,GK,24.0,2002-02-09T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/295996.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,408692,Thomas Artic,GK,GK,18.0,2008-07-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,414042,Dean Hogervorst,GK,GK,18.0,2007-12-20T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,3102574,Jamie Luca Kooymans,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,3143345,Finn Oldenstam,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,178975,Lucas Woudenberg,DF,DF,32.0,1994-04-25T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/178975.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,310636,Bjorn Hardley,DF,DF,23.0,2002-12-19T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,321095,Jurre Van Aken,DF,DF,23.0,2003-03-23T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,324394,Yannis M'Bemba,DF,DF,25.0,2001-07-01T07:00Z,Gabon,Gabon,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,324740,Stan Hendrikx,DF,DF,23.0,2003-07-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,346270,Jaden Pinas,DF,DF,22.0,2003-12-28T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,375939,Adil Lechkar,DF,DF,25.0,2001-09-02T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,399711,Beni Mpanzu,DF,DF,22.0,2004-05-15T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,412897,Lucas Gardenier,DF,DF,19.0,2007-01-04T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,317957,Nicolás Rossi,MF,MF,24.0,2002-03-21T08:00Z,Uruguay,Uruguay,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,354886,Martin Vetkal,MF,MF,22.0,2004-02-21T08:00Z,Estonia,Estonia,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,372096,Ayoub Ouarghi,MF,MF,18.0,2008-02-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,390134,Lorenzo Riccio,MF,MF,20.0,2006-07-25T07:00Z,Italy,Italy,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,398632,Senne Vugts,MF,MF,19.0,2007-07-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,406924,Bae Seung-Gyun,MF,MF,19.0,2007-04-22T07:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,408549,Robin Van Asten,MF,MF,18.0,2008-02-27T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,3102570,Yunus Younous,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,3102571,Dion Van Zanten,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,3121186,Sidali Bouraba,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,241061,Nick Venema,FW,FW,27.0,1999-04-09T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,305583,Noah Bischof,FW,FW,23.0,2002-12-07T08:00Z,Austria,Austria,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,336525,Lucas Román,FW,FW,22.0,2004-02-10T08:00Z,Italy,Italy,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,336653,Dario Sits,FW,FW,22.0,2004-02-04T08:00Z,Latvia,Latvia,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,351022,Joey De Bie,FW,FW,22.0,2004-05-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,393639,Siginho Gerardo,FW,FW,19.0,2006-12-14T08:00Z,Bonaire,Bonaire,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Dordrecht,4426,3102573,Mohammed Kessrioui,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,301357,Jort Borgmans,GK,GK,24.0,2002-09-20T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,359129,Dylan Fancito,GK,GK,22.0,2004-09-30T07:00Z,Curaçao,Curaçao,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,390609,Niek Janssen,GK,GK,20.0,2006-08-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,151071,Milan Hoek,DF,DF,19.0,2007-01-15T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,241053,Clint Essers,DF,DF,29.0,1997-01-27T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/241053.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,365681,Bram Rovers,DF,DF,21.0,2005-01-14T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,367637,Luc Netten,DF,DF,22.0,2004-04-12T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/367637.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,371411,Raf Van De Riet,DF,DF,20.0,2006-08-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,379781,Tyrese Simons,DF,DF,24.0,2002-10-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,406904,Rens Boon,DF,DF,19.0,2007-07-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,408260,Owen Renfrum,DF,DF,20.0,2006-10-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,408849,Junior Poortvliet,DF,DF,19.0,2007-10-06T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,416392,Jens Elbers,DF,DF,18.0,2008-07-20T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,416394,Hyman Ali,DF,DF,20.0,2006-05-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,304482,Guus Beaumont,MF,MF,24.0,2002-05-10T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,330925,Niek Munsters,MF,MF,24.0,2002-03-29T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,344853,Xander Blomme,MF,MF,24.0,2002-06-21T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/344853.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,395698,Lennon Smulders,MF,MF,20.0,2006-09-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,408258,Zakaria Haddaoui,MF,MF,20.0,2006-02-07T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,421160,Mika De Jonge,MF,MF,22.0,2004-02-28T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,421867,Antonio Bazdaric,MF,MF,20.0,2006-01-08T08:00Z,Croatia,Croatia,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,3114955,Ryan Meijer,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,3126266,Kaan Akar,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,151077,Kevin Van Veen,FW,FW,35.0,1991-06-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,306003,Vicente Besuijen,FW,FW,25.0,2001-04-10T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306003.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,346923,Hugo Deenen,FW,FW,22.0,2004-07-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,364779,Rayan Buifrahi,FW,FW,21.0,2005-03-13T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,402840,Lasse Abildgaard,FW,FW,19.0,2007-02-27T08:00Z,Denmark,Denmark,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,408213,Amir Bryson,FW,FW,21.0,2004-12-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,408848,Siegert Baartmans,FW,FW,20.0,2006-04-06T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,3114956,Akin Ozcan,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,3114957,Emre Eksi,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Eindhoven,3732,3141835,Gideon Constancia,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,196577,Kelle Roos,GK,GK,34.0,1992-05-31T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,337088,Dirk Baron,GK,GK,24.0,2002-08-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,339899,Sam Karssies,GK,GK,23.0,2003-02-26T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/339899.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,397550,Kevin Norder,GK,GK,19.0,2007-09-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,401411,Aaron Wanki,GK,GK,19.0,2007-07-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,304681,Bryan Van Hove,DF,DF,26.0,2000-06-17T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,313005,Joshua Mukeh,DF,DF,23.0,2003-09-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,313990,Yanis Dedelhomme,DF,DF,24.0,2002-06-13T07:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,324290,Luca Everink,DF,DF,25.0,2001-02-09T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/324290.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,387400,Christian Østergaard,DF,DF,21.0,2005-04-13T07:00Z,Denmark,Denmark,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,3103645,Vincent Carus,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,3136042,David Timmerman,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,258969,Rodney Kongolo,MF,MF,28.0,1998-01-09T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/258969.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,268847,Michael Breij,MF,MF,29.0,1997-01-15T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,304909,Casper Staring,MF,MF,25.0,2001-02-01T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304909.png,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,323078,Torben Rhein,MF,MF,23.0,2003-01-12T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,333753,Alessandro Hojabrpour,MF,MF,26.0,2000-01-10T08:00Z,Canada,Canada,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,346744,Luca Denk,MF,MF,23.0,2003-03-02T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,367673,Antonie Huijzer,MF,MF,23.0,2003-08-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,391063,Mustafa Abdullatif,MF,MF,22.0,2003-12-15T08:00Z,Syria,Syria,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,393104,Adam Claridge,MF,MF,20.0,2006-03-31T08:00Z,Denmark,Denmark,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,403123,Peter Quispel,MF,MF,20.0,2006-01-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,409793,Chiel Sunder,MF,MF,18.0,2008-10-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,287703,Freddy Quispel,FW,FW,25.0,2000-10-23T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,289427,Nelson Amadin,FW,FW,25.0,2000-10-31T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,310712,Jack Cooper Love,FW,FW,24.0,2001-12-25T08:00Z,Sweden,Sweden,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,350346,David Voute,FW,FW,20.0,2005-11-04T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,380031,Sybrand Veldhuis,FW,FW,21.0,2005-09-24T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,399472,Stan Van Manen,FW,FW,19.0,2007-05-12T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,3114413,Safyan Touré,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-FC Emmen,3707,3124018,Daan Lambers,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,254312,Menno Bergsen,GK,GK,27.0,1999-08-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,417826,Ward Van Sleeuwen,GK,GK,19.0,2007-06-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,421842,Wessel Van Der Heijden,GK,GK,,,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,422303,Adam El Maach,GK,GK,17.0,2009-03-16T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,249109,Brian Koglin,DF,DF,29.0,1997-01-07T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,295078,Flor Van Den Eynden,DF,DF,26.0,2000-07-29T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,301667,Thomas Poll,DF,DF,25.0,2001-08-28T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/301667.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,334219,Sem Dekkers,DF,DF,22.0,2004-05-28T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,362728,Diego Van Zutphen,DF,DF,21.0,2005-03-28T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,363131,Wassim Lantaki,DF,DF,22.0,2004-02-17T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,376305,Brian Van Den Boogaard,DF,DF,20.0,2006-04-09T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,378556,Lovro Golic,DF,DF,20.0,2006-03-05T08:00Z,Slovenia,Slovenia,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,395659,Tijn Landheer,DF,DF,19.0,2007-07-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,418448,Rayen Van Bree,DF,DF,,,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,168540,Pol Llonch,MF,MF,34.0,1992-10-07T07:00Z,Spain,Spain,https://a.espncdn.com/i/headshots/soccer/players/full/168540.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,291260,Dean Huiberts,MF,MF,26.0,2000-05-16T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/291260.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,304729,Joep van der Sluijs,MF,MF,24.0,2001-12-01T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,344669,Michel-Simon Ludwig,MF,MF,22.0,2004-08-23T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,345553,Alen Dizdarevic,MF,MF,22.0,2004-01-22T08:00Z,Croatia,Croatia,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,346895,Julian Geerts,MF,MF,20.0,2006-03-17T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,384661,Livio Cicero,MF,MF,20.0,2006-03-13T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,385600,Helgi Ingason,MF,MF,20.0,2005-12-06T08:00Z,Iceland,Iceland,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,398936,Dayen Geerts,MF,MF,19.0,2007-04-20T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,5323664,Alto Gjoka,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,337856,Tarik Essakkati,FW,FW,20.0,2006-01-16T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,346733,Labinot Bajrami,FW,FW,21.0,2005-06-04T07:00Z,Switzerland,Switzerland,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,414356,Xander Van Der Velde,FW,FW,20.0,2005-12-30T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,417498,Mauro Lenaerts,FW,FW,19.0,2007-09-06T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,418589,Jaden Janssen,FW,FW,18.0,2008-02-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,3093899,Kiton Boteti Ekoli,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Helmond Sport,3775,3131370,Nicolas Kurt Meissner Ruiz De Gopegui,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,255662,Fabian De Keijzer,GK,GK,26.0,2000-05-10T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/255662.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,336781,Timo Jansink,GK,GK,23.0,2003-03-16T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,406248,Leco Zeevalkink,GK,GK,21.0,2005-09-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,150207,Mike te Wierik,DF,DF,34.0,1992-06-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,193763,Damon Mirani,DF,DF,30.0,1996-05-13T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/193763.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,268603,David Vicente,DF,DF,27.0,1999-04-23T07:00Z,Spain,Spain,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,283835,Djevencio van der Kust,DF,DF,25.0,2001-04-30T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/283835.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,313057,Alexandre Rodríguez,DF,DF,28.0,1998-03-01T08:00Z,Dominican Republic,Dominican Republic,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,323052,Mimeirhel Benita,DF,DF,22.0,2003-11-17T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/323052.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,361727,Stijn Bultman,DF,DF,21.0,2005-01-29T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,413666,Jeppe Wijnreder,DF,DF,20.0,2006-02-07T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,3098478,Mario Borac,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,3098556,Max Hauswirth,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,152154,Thomas Bruns,MF,MF,34.0,1992-01-07T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/152154.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,205952,Mario Engels,MF,MF,32.0,1993-10-22T07:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/205952.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,218627,Jeff Reine-Adélaide,MF,MF,28.0,1998-01-17T08:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,281266,Daniel Van Kaam,MF,MF,26.0,2000-06-23T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/281266.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,306433,Walid Ould-Chikh,MF,MF,26.0,1999-11-06T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/306433.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,328547,Rhys Bozinovski,MF,MF,22.0,2004-03-07T08:00Z,Australia,Australia,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,336728,Sem Scheperman,MF,MF,24.0,2002-06-24T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,388714,Giandro Sambo,MF,MF,20.0,2006-08-28T07:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,3098287,Maurice Wrusch,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,268963,Chafik Abbas,FW,FW,28.0,1998-06-17T07:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,310136,Fodé Fofana,FW,FW,23.0,2002-10-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,324183,Yvandro Borges Sanches,FW,FW,22.0,2004-05-24T07:00Z,Luxembourg,Luxembourg,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,340557,Tristan Van Gilst,FW,FW,23.0,2003-02-18T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,353681,Jean-Paul N'Djoli,FW,FW,26.0,2000-10-09T07:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,361014,Diego Van Oorschot,FW,FW,21.0,2005-10-02T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,399628,Vincent Poppler,FW,FW,25.0,2001-09-01T07:00Z,Sweden,Sweden,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,413664,Sil Blokhuis,FW,FW,18.0,2008-03-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Heracles Almelo,3708,419887,Tarik Hamamiogl,FW,FW,18.0,2008-08-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,360261,Jur Schipper,GK,GK,20.0,2006-07-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,371407,Kiyani Zeggen,GK,GK,20.0,2006-10-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,388689,Koen Schilder,GK,GK,21.0,2005-09-27T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,3124255,Nick Homan,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,358556,Jeremiah Esajas,DF,DF,21.0,2005-05-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,384064,Frej Elkjaer,DF,DF,19.0,2007-05-05T07:00Z,Denmark,Denmark,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,387481,Rayan Atikallah,DF,DF,20.0,2006-07-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,394410,Mathijs Menu,DF,DF,21.0,2005-05-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,402625,Kiani Inge,DF,DF,19.0,2007-06-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,403269,Saviola Saffoe,DF,DF,19.0,2007-05-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,409683,Jesper Zwart,DF,DF,19.0,2006-11-08T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,411862,Kevin Van Ouytsel,DF,DF,19.0,2007-07-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,421784,Iain De Jongh,DF,DF,19.0,2007-06-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,358555,Enoch Mastoras,MF,MF,20.0,2006-05-24T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,380172,Rio Robbemond,MF,MF,21.0,2005-01-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,380175,Bohdan Budko,MF,MF,20.0,2006-01-07T08:00Z,Ukraine,Ukraine,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,395147,Tómas Jóhannessen,MF,MF,19.0,2007-05-17T07:00Z,Iceland,Iceland,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,413665,Melle Roede,MF,MF,20.0,2006-06-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,416393,Julian Sijbrands,MF,MF,19.0,2007-08-03T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,3100712,Rick Luijer,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,3145036,Gijs Groot,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,347443,Jasper Hartog,FW,FW,20.0,2006-03-23T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,351052,Kevin Toppenberg,FW,FW,22.0,2004-08-02T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,367999,Yoël Van Den Ban,FW,FW,20.0,2006-01-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,414988,Maximiliam Ibrahimovic,FW,FW,20.0,2006-09-22T07:00Z,Sweden,Sweden,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,415003,Tycho De Wit,FW,FW,19.0,2007-01-08T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong AZ,18748,3131369,Chavarello Hellings,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,190976,Nick Olij,GK,GK,31.0,1995-08-01T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/190976.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,343607,Tijn Smolenaars,GK,GK,21.0,2005-02-23T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,375087,Stijn Kuijsten,GK,GK,19.0,2007-07-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,388575,Khadim Ngom,GK,GK,21.0,2005-08-05T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3114964,Kane Aerts,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3134861,Eskil Moedt,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,354895,Madi Monamay,DF,DF,20.0,2006-04-06T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,364814,Yarek Gasiorowski,DF,DF,21.0,2005-01-12T08:00Z,Spain,Spain,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,367997,Wessel Kuhn,DF,DF,20.0,2006-09-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,372320,Floris Bos,DF,DF,20.0,2006-07-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,386881,Fabian Merién,DF,DF,18.0,2008-09-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,386882,Michael Bresser,DF,DF,19.0,2007-04-24T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,395980,Rivas Manuhutu,DF,DF,19.0,2007-07-02T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,396637,Lyfe Oldenstam,DF,DF,19.0,2007-02-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,402899,Brent Jonkers,DF,DF,18.0,2008-03-11T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,415125,Sébas Ditmer,DF,DF,18.0,2008-05-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,415126,Jorvimar Martina,DF,DF,18.0,2008-05-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3126264,Dyran Stam,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3127962,Kyano Penso,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3136864,King Duah,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3140685,Loek Schakenraad,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,366851,Sol Sidibe,MF,MF,19.0,2007-02-10T08:00Z,England,England,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,372319,Jaden De Guzmán,MF,MF,19.0,2007-01-18T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,386885,Noah Fernandez,MF,MF,18.0,2008-01-09T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,388509,Jim Koller,MF,MF,19.0,2007-03-31T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,397193,Boet Mulders,MF,MF,19.0,2007-04-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,399358,Benjamin Khaderi,MF,MF,19.0,2007-08-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,405673,Ayoni Santos,MF,MF,21.0,2005-07-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,410550,Mathieu Buyens,MF,MF,17.0,2009-03-12T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,415261,Philip Holseter-Karlsen,MF,MF,18.0,2008-03-06T08:00Z,Norway,Norway,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,416395,Shuryjano Cornecion,MF,MF,18.0,2008-06-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,418537,Anton Martyniuk,MF,MF,18.0,2008-07-19T07:00Z,Ukraine,Ukraine,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3140686,Jonas Colaes,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3141978,Givenciyo Sabajo,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,325410,Esmir Bajraktarevic,FW,FW,21.0,2005-03-10T08:00Z,Bosnia and Herzegovina,Bosnia and Herzegovina,https://a.espncdn.com/i/headshots/soccer/players/full/325410.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,346896,Sami Ouaissa,FW,FW,22.0,2004-10-02T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,386883,Manuel Bahaty,FW,FW,19.0,2007-08-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,399511,Mikkel Hansen,FW,FW,17.0,2009-01-25T08:00Z,Denmark,Denmark,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,403782,Keziah Oteng-Mensah,FW,FW,18.0,2008-03-31T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,406903,Gino Verhulst,FW,FW,19.0,2007-05-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,406997,Fabio Kluit,FW,FW,20.0,2006-02-03T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,408950,Jairo Beerens,FW,FW,18.0,2008-09-30T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,410911,Austyn Jones,FW,FW,18.0,2008-04-16T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,414396,Amir Bouhamdi,FW,FW,18.0,2008-06-17T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3126265,Liam Van Nistelrooij,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong PSV,9983,3127961,Samuel Chukwuebuka Dumbili,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,317284,Charlie Setford,GK,GK,22.0,2004-05-11T07:00Z,England,England,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,389638,Aymean El Hani,GK,GK,19.0,2007-05-09T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,396040,Joeri Heerkens,GK,GK,20.0,2006-05-08T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/396040.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,421783,Valentijn Van Der Velde,GK,GK,19.0,2007-01-12T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,368818,Dies Janse,DF,DF,20.0,2006-01-17T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/368818.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,375486,Avery Appiah,DF,DF,20.0,2006-04-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,376342,Fouad Zahouani,DF,DF,20.0,2006-04-18T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,388083,Gerónimo Spina,DF,DF,21.0,2005-02-09T08:00Z,Argentina,Argentina,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,390071,Jinairo Johnson,DF,DF,19.0,2007-04-08T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/390071.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,390073,Mylo Van Der Lans,DF,DF,19.0,2007-04-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,401270,Luuk Beekman,DF,DF,19.0,2007-09-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,401532,Marvyn Muzungu,DF,DF,18.0,2007-11-28T08:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,408697,Frankel Leroy,DF,DF,18.0,2008-07-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,410912,Sinclair De Falco,DF,DF,18.0,2008-02-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,410913,Kennynho Kasanwirjo,DF,DF,18.0,2008-01-04T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,415089,Jahyendrow Amour,DF,DF,19.0,2007-08-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,384373,Luca Messori,MF,MF,18.0,2007-10-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,388080,Jano Monserrate,MF,MF,20.0,2006-01-28T08:00Z,Spain,Spain,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,390072,Mark Verkuijl,MF,MF,20.0,2006-02-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,396638,Ryan Van De Pavert,MF,MF,20.0,2006-01-24T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,400788,Abdoulaye Camara,MF,MF,18.0,2008-09-28T07:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,403927,Abdellah Ouazane,MF,MF,17.0,2009-01-15T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,406914,Damián Van Der Vaart,MF,MF,20.0,2006-05-28T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,406915,Tijn Peters,MF,MF,20.0,2006-03-03T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,410914,Thijmen Romers,MF,MF,18.0,2008-01-04T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,417684,Mohamed Abdalla,MF,MF,17.0,2009-10-19T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/417684.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,419117,Levi Acheampong,MF,MF,18.0,2008-01-24T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,3111249,Leo Salazar Hinojosa,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,357231,David Kalokoh,FW,FW,21.0,2005-04-21T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,384371,Emre Ünüvar,FW,FW,18.0,2008-03-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,388678,Jan Faberski,FW,FW,20.0,2006-04-22T07:00Z,Poland,Poland,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,397257,Diego Pugno,FW,FW,20.0,2006-07-07T07:00Z,Italy,Italy,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,397492,Rayane Bounida,FW,FW,20.0,2006-03-03T08:00Z,Morocco,Morocco,https://a.espncdn.com/i/headshots/soccer/players/full/397492.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,406913,Pharell Nash,FW,FW,18.0,2008-02-07T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,419555,Paulo Silva,FW,FW,18.0,2007-12-26T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,3100716,Younes Elias Mechrouch,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,3124022,Jeshurun Simeon,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong Ajax,10597,3124023,Anass Moumane,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,313006,Kevin Gadellaa,GK,GK,23.0,2003-04-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,359675,Mees Eppink,GK,GK,20.0,2006-03-25T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,363410,Martin Tsankov,GK,GK,19.0,2007-01-25T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,391958,Laoulu Oladipo,GK,GK,19.0,2007-07-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,397993,Justin Eversen,GK,GK,20.0,2006-04-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,340533,Wessel Kooy,DF,DF,21.0,2005-01-09T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,365391,Per Kloosterboer,DF,DF,21.0,2005-03-08T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,382789,Massien Ghaddari,DF,DF,21.0,2005-05-27T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,388684,Jamie Schuldes,DF,DF,19.0,2007-01-26T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,406251,Viggo Plantinga,DF,DF,19.0,2007-05-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,408701,Ferdinand Pohl,DF,DF,19.0,2007-02-02T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,409884,Thomas Reinders,DF,DF,22.0,2004-01-11T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,419220,Noël Beulens,DF,DF,18.0,2008-04-09T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,3101888,Tom Wellerdieck,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,3145033,Donovan Afrifa,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,324633,Noa Dundas,MF,MF,22.0,2004-04-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,355506,Oualid Agougil,MF,MF,21.0,2005-08-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,399048,Jaygo Van Ommeren,MF,MF,18.0,2008-05-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,399545,Yousri Sbai,MF,MF,22.0,2004-08-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,406253,Jessey Sneijder,MF,MF,20.0,2006-09-04T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,419219,Driss Laaouina,MF,MF,17.0,2009-04-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,419221,Kenji Goes,MF,MF,19.0,2007-03-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,420754,Nick De Vos,MF,MF,17.0,2009-08-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,3099711,Abdullah Aslani,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,3123683,Matyáš Havelka,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,3125073,Jerayno Hunte,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,3125075,Levi Rietveld,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,379229,Tijn Den Boggende,FW,FW,20.0,2006-06-08T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,399047,Bjorn Menzo,FW,FW,19.0,2007-04-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,419917,Emmanuel Owen,FW,FW,19.0,2007-06-11T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Jong FC Utrecht,18278,3123684,Nana Gyamfi-Amoah,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,297294,Hugo Wentges,GK,GK,24.0,2002-02-11T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,332463,Sep Van Der Heijden,GK,GK,22.0,2004-08-29T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,414500,Victor Goffings,GK,GK,17.0,2009-09-17T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,3127960,Sebastiaan Timmers,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,304581,Lars Schenk,DF,DF,24.0,2002-01-16T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,306549,Yaël Liesdek,DF,DF,25.0,2001-10-21T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,324243,Dylan Timber,DF,DF,26.0,2000-04-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,364771,Wout Coomans,DF,DF,24.0,2001-12-09T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,367483,Milan Hofland,DF,DF,21.0,2004-12-17T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,377591,Djairo Tehubyuluw,DF,DF,21.0,2005-05-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,379550,Sven Bouland,DF,DF,20.0,2006-02-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,5324089,Tristan Bomble,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,214646,Robert Klaasen,MF,MF,33.0,1993-09-06T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,290797,Stan Van Dessel,MF,MF,25.0,2001-07-24T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,301706,Elias Sierra,MF,MF,25.0,2001-08-25T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,321114,Olivier Dumont,MF,MF,24.0,2002-03-06T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,334091,Finn Dicke,MF,MF,22.0,2004-09-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,368000,Sil Van Der Wegen,MF,MF,21.0,2005-01-01T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,388508,Amine Amgar,MF,MF,18.0,2008-10-13T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,389277,Mika Luijendijk,MF,MF,19.0,2007-08-29T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,406536,Adriano Mansala,MF,MF,19.0,2007-07-31T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,413914,Noa El Hamdaoui,MF,MF,18.0,2007-10-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,3139469,Yanis Bourard,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,228433,Lennerd Daneels,FW,FW,28.0,1998-04-10T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/228433.png,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,298506,Delano Asante,FW,FW,26.0,2000-02-11T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,304500,Thijme Verheijen,FW,FW,23.0,2003-04-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,310138,Naïm Matoug,FW,FW,23.0,2003-04-12T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,372318,Onesime Zimuangana,FW,FW,20.0,2006-03-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,387177,Mats Kuipers,FW,FW,20.0,2006-06-08T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,3098529,Toni Vinogradac,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-MVV Maastricht,3730,3143498,Nikolaos Tsomos,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,137780,Kostas Lamprou,GK,GK,35.0,1991-09-18T07:00Z,Greece,Greece,https://a.espncdn.com/i/headshots/soccer/players/full/137780.png,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,164865,Roy Kortsmit,GK,GK,34.0,1992-08-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,207390,Michael Verrips,GK,GK,29.0,1996-12-03T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/207390.png,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,414162,Thomas Goos,GK,GK,18.0,2008-05-21T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,3121190,Stijn Thomassen,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,268194,Boyd Lucassen,DF,DF,28.0,1998-07-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,272350,Jan Van den Bergh,DF,DF,32.0,1994-10-02T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,283111,Leo Greiml,DF,DF,25.0,2001-07-03T07:00Z,Austria,Austria,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,284716,Rio Hillen,DF,DF,23.0,2003-03-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,289580,Mohamed Bouchouari,DF,DF,25.0,2000-11-15T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,323050,Jayden Candelaria,DF,DF,22.0,2004-03-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,408773,Jemuel Erat,DF,DF,19.0,2007-09-02T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,408774,Christian Chiza,DF,DF,18.0,2007-12-18T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,422247,Mylan Brouwers,DF,DF,17.0,2009-08-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,3121188,Senna Van Ooijen,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,3121191,Rayan Van Aarst,DF,DF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,164264,Mats Seuntjens,MF,MF,34.0,1992-04-17T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/164264.png,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,221227,Fredrik Oldrup Jensen,MF,MF,33.0,1993-05-18T07:00Z,Norway,Norway,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,272358,Kamal Sowah,MF,MF,26.0,2000-01-09T08:00Z,Ghana,Ghana,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,288391,Jannes Van Hecke,MF,MF,24.0,2002-01-15T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,310137,Mohamed Nassoh,MF,MF,23.0,2003-01-26T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,312264,Maximilien Balard,MF,MF,25.0,2000-11-20T08:00Z,Australia,Australia,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,331056,Imran Nazih,MF,MF,20.0,2006-01-25T08:00Z,Morocco,Morocco,https://a.espncdn.com/i/headshots/soccer/players/full/331056.png,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,335208,Gabriel Misehouy,MF,MF,21.0,2005-07-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,3121187,Anass Aachir,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,156838,Paul Gladon,FW,FW,34.0,1992-03-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/156838.png,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,291194,Charles-Andreas Brym,FW,FW,28.0,1998-08-08T07:00Z,Canada,Canada,https://a.espncdn.com/i/headshots/soccer/players/full/291194.png,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,339952,Brahim Ghalidi,FW,FW,21.0,2005-01-31T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,357000,Moussa Soumano,FW,FW,21.0,2005-07-09T07:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,408772,Pepijn Reulen,FW,FW,18.0,2008-06-01T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,3121189,Reinier Honkoop,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,3121192,Elijah Ikpia,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,3140683,Bo Meijvogel,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-NAC Breda,141,5323665,Karim Mperanyi,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,265612,Mark Spenkelink,GK,GK,29.0,1997-01-27T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/265612.png,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,325076,Niek Schiks,GK,GK,22.0,2004-02-03T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,375657,Luuk Vogels,GK,GK,23.0,2003-07-06T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,403091,Xander Mulder,GK,GK,21.0,2005-01-25T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,195028,Jordy de Wijs,DF,DF,31.0,1995-01-08T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,258966,Navajo Bakboord,DF,DF,27.0,1999-01-29T08:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/258966.png,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,264242,Juan Castillo,DF,DF,26.0,2000-01-13T08:00Z,Dominican Republic,Dominican Republic,https://a.espncdn.com/i/headshots/soccer/players/full/264242.png,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,283029,Liam van Gelderen,DF,DF,25.0,2001-03-23T08:00Z,Suriname,Suriname,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,291971,Azzedine Dkidak,DF,DF,26.0,2000-05-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,340215,Loek Postma,DF,DF,23.0,2003-03-05T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,360265,Nazjir Held,DF,DF,21.0,2005-09-02T07:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,363132,Faissal Al Mazyani,DF,DF,21.0,2005-01-18T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,365030,Bart Kemmeren,DF,DF,19.0,2007-04-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,376843,Sven Van Der Plas,DF,DF,20.0,2006-02-01T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,406260,Bjarn Zorgdrager,DF,DF,22.0,2004-04-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,304907,Thijs van Leeuwen,MF,MF,25.0,2001-07-15T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304907.png,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,313337,Ryan Fage,MF,MF,22.0,2003-10-31T08:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,330212,Rein Van Hedel,MF,MF,21.0,2004-11-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,334360,Tim Van De Loo,MF,MF,23.0,2003-03-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,406929,Jochem Nap,MF,MF,21.0,2005-02-04T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,3131387,Amin El Harchaoui,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,156836,Virgil Misidjan,FW,FW,33.0,1993-07-24T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/156836.png,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,195502,Finn Stokkers,FW,FW,30.0,1996-04-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,312513,Roy Kuijpers,FW,FW,26.0,2000-01-17T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/312513.png,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,355505,Jesse Van De Haar,FW,FW,21.0,2005-01-26T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,369831,Yorem Van Der Veen,FW,FW,21.0,2005-06-30T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,394436,Keyan Varela,FW,FW,20.0,2006-04-26T07:00Z,Portugal,Portugal,,2026-10-21T09:01:37.880669+00:00,ESPN
-RKC Waalwijk,155,3124021,Haye Van Gemert,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,376845,Justin Treichel,GK,GK,23.0,2003-03-04T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,422005,Martin Stojcevic,GK,GK,20.0,2006-02-28T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,3121283,Beer Bouvy,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,3121284,Jay-Jay Van Damme,GK,GK,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,93650,Marco Tol,DF,DF,28.0,1998-04-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,214533,Dario van den Buijs,DF,DF,31.0,1995-09-12T07:00Z,Belgium,Belgium,https://a.espncdn.com/i/headshots/soccer/players/full/214533.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,317287,Koen Jansen,DF,DF,22.0,2004-03-11T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,373015,Xander Van Den Berg,DF,DF,22.0,2004-09-26T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,379710,Bram Marsman,DF,DF,23.0,2003-01-29T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,406780,Guilherme Peixoto,DF,DF,20.0,2006-05-25T07:00Z,Portugal,Portugal,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,415128,Yaya Stevelmans,DF,DF,19.0,2007-09-18T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,168317,Mitchell Paulissen,MF,MF,33.0,1993-04-21T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,238805,Jérôme Deom,MF,MF,27.0,1999-04-19T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,276827,Joshua Nisbet,MF,MF,27.0,1999-06-15T07:00Z,Australia,Australia,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,344755,Dyon Dorenbosch,MF,MF,23.0,2003-01-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,362606,Mokrane Bentoumi,MF,MF,21.0,2005-06-16T07:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,369867,Lucas Beerten,MF,MF,23.0,2003-01-05T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,384257,Luuk Verheij,MF,MF,21.0,2005-07-23T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,403899,Jeremiah Mensah,MF,MF,18.0,2008-02-21T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,422006,Noah Crabu,MF,MF,19.0,2007-01-19T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,422007,Keanu Van Mieghem,MF,MF,20.0,2006-05-05T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,3121194,Nadir Maoujoudi,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,3144254,Rayan Khoums,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,177033,Anthony van der Hurk,FW,FW,33.0,1993-01-09T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,189827,Joey Sleegers,FW,FW,32.0,1994-07-20T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,312837,Cain Seedorf,FW,FW,26.0,2000-01-19T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,416417,Fynn Schenten,FW,FW,19.0,2007-09-14T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,417680,Zakarya Khaldi,FW,FW,21.0,2005-02-08T08:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-Roda JC Kerkrade,149,3121193,Larson Ferati,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,262109,Trevor Doornbusch,GK,GK,27.0,1999-07-06T07:00Z,Curaçao,Curaçao,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,291354,Youri Schoonderwaldt,GK,GK,26.0,2000-03-13T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/291354.png,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,377516,Zidane Taylan,GK,GK,20.0,2005-11-26T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,174442,Philip Heise,DF,DF,35.0,1991-06-20T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,322556,Luis Gorlich,DF,DF,26.0,2000-04-01T08:00Z,Germany,Germany,https://a.espncdn.com/i/headshots/soccer/players/full/322556.png,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,343253,Eanna Clancy,DF,DF,22.0,2004-02-26T08:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,361489,Michael Davis,DF,DF,24.0,2002-01-21T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,366908,Gabin Blancquart,DF,DF,22.0,2004-02-28T08:00Z,France,France,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,393345,Tijn Joosten,DF,DF,20.0,2006-08-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,399356,Finn Van Der Sterren,DF,DF,19.0,2007-04-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,408195,Lars De Blok,DF,DF,22.0,2004-06-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,157894,Alex Schalk,MF,MF,34.0,1992-08-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,355241,Ismail M'Hand,MF,MF,21.0,2005-01-11T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,365949,Andreas Verstraeten,MF,MF,20.0,2006-01-10T08:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,367931,Mohammed Odriss,MF,MF,22.0,2004-09-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,384518,Tristan Schenkhuizen,MF,MF,22.0,2004-07-12T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,394409,Yousri El Anbri,MF,MF,20.0,2006-03-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,406332,Nassim Ait Mouhou,MF,MF,22.0,2004-08-01T07:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,412842,Jay Graef,MF,MF,19.0,2007-01-15T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,415694,Raf Vullers,MF,MF,19.0,2007-02-14T08:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,419222,Jari Horsten,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,296311,Leon Schmidt,FW,FW,25.0,2001-06-08T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,355978,Edhy Zuliani,FW,FW,22.0,2004-08-11T07:00Z,Algeria,Algeria,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,365023,Amir Rais,FW,FW,22.0,2004-09-17T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,411686,Thomas Janssen,FW,FW,18.0,2007-12-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,411861,Devy Hendrix,FW,FW,20.0,2006-08-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,3121393,Maarten Van Grootel,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-VVV-Venlo,3731,3122114,Matheos Tsigkas,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,291228,Connor van den Berg,GK,GK,25.0,2001-03-18T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/291228.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,297542,Tyrick Bodak,GK,GK,24.0,2002-05-15T07:00Z,Curaçao,Curaçao,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,354568,Maximilian Brüll,GK,GK,24.0,2002-08-26T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,401031,Jayden Siecker,GK,GK,21.0,2005-08-30T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,124933,Alexander Büttner,DF,DF,37.0,1989-02-11T08:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/124933.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,264243,Nathangelo Markelo,DF,DF,27.0,1999-01-07T08:00Z,Curaçao,Curaçao,https://a.espncdn.com/i/headshots/soccer/players/full/264243.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,304838,Luuk Wouters,DF,DF,27.0,1999-06-08T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/304838.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,324314,Solomon Bonnah Owusu,DF,DF,23.0,2003-08-19T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,326658,Valon Zumberi,DF,DF,23.0,2002-11-24T08:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,337119,Marcus Steffen,DF,DF,23.0,2003-02-01T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,340891,Chiel Keizer,DF,DF,23.0,2003-03-17T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,388594,Xiamaro Thenu,DF,DF,21.0,2004-10-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,401273,Jillian Bernardina,DF,DF,20.0,2006-01-29T08:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,406252,Hylke Van Der Mast,DF,DF,20.0,2006-04-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,410971,Omar Achouitar,DF,DF,21.0,2005-05-13T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,418378,Fabian Huetink,DF,DF,19.0,2006-12-13T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,419218,Tom Vlietstra,DF,DF,20.0,2006-05-11T07:00Z,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,239612,Marco Schikora,MF,MF,32.0,1994-09-20T07:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,320851,Filipe De Carvalho Ferreira,MF,MF,22.0,2003-12-01T08:00Z,Switzerland,Switzerland,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,357139,Pontus Dahbo,MF,MF,21.0,2005-10-11T07:00Z,Sweden,Sweden,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,401029,Mathijs Marschalk,MF,MF,21.0,2005-01-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,401030,Youssef Ouallil,MF,MF,18.0,2007-11-15T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,406330,Ricardo-Felipe Schwarz,MF,MF,22.0,2004-01-30T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,417685,Teun Bosch,MF,MF,20.0,2006-04-07T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,417827,Koen Te Veluwe,MF,MF,20.0,2006-05-11T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,3119921,Jort Van De Glind,MF,MF,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,262471,Jeredy Hilterman,FW,FW,28.0,1998-06-20T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/262471.png,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,287705,Naoufal Bannis,FW,FW,24.0,2002-03-11T08:00Z,Morocco,Morocco,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,291728,Ayman Sellouf,FW,FW,25.0,2001-08-25T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,345121,Eduard Probst,FW,FW,25.0,2001-03-24T08:00Z,Germany,Germany,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,396633,Nino Zonneveld,FW,FW,20.0,2005-12-06T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,410700,Yuval Ranon,FW,FW,20.0,2006-02-11T08:00Z,USA,USA,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,411857,Joâo Pinto,FW,FW,22.0,2004-05-31T07:00Z,Portugal,Portugal,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,420687,Mehdi Bouhekan,FW,FW,20.0,2005-11-17T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-Vitesse,154,3119922,Milan Brouwer,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,192714,Mike Havekotte,GK,GK,31.0,1995-09-12T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,310450,Sven Jansen,GK,GK,21.0,2004-10-23T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/310450.png,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,323055,Devin Remie,GK,GK,23.0,2003-03-13T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,284206,Quint Jansen,DF,DF,36.0,1990-09-10T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,295989,Leonel Miguel,DF,DF,25.0,2001-03-24T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,324605,Ilounga Pata,DF,DF,25.0,2000-11-12T08:00Z,Sint Maarten,Sint Maarten,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,333621,Julian Kuijpers,DF,DF,22.0,2004-07-31T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,357009,Maxim Mariani,DF,DF,21.0,2004-11-03T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,357230,Alvaro Henry,DF,DF,21.0,2005-02-14T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,367522,Thomas Cox,DF,DF,24.0,2002-02-10T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,383943,Jay Kuiper,DF,DF,22.0,2004-01-22T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,385763,Lars Zonneveld,DF,DF,21.0,2005-04-02T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,191331,Justin Mathieu,MF,MF,30.0,1996-04-12T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,223765,Richard van der Venne,MF,MF,34.0,1992-05-16T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/223765.png,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,287108,Delano Vianello,MF,MF,24.0,2002-09-14T07:00Z,Netherlands,Netherlands,https://a.espncdn.com/i/headshots/soccer/players/full/287108.png,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,304481,Marcelencio Esajas,MF,MF,24.0,2002-06-10T07:00Z,Suriname,Suriname,https://a.espncdn.com/i/headshots/soccer/players/full/304481.png,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,324469,Jafar Bynoe,MF,MF,23.0,2003-08-17T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,365948,Milo Horemans,MF,MF,20.0,2006-05-18T07:00Z,Belgium,Belgium,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,368303,Lars Mol,MF,MF,22.0,2004-09-15T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,305602,Ckene Doucouré,FW,FW,24.0,2002-04-08T07:00Z,Mali,Mali,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,333673,Franslyn Nsingi,FW,FW,25.0,2001-04-14T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,350565,Maurilio De Lannoy,FW,FW,22.0,2003-11-07T08:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,377564,Andy Visser,FW,FW,22.0,2004-09-22T07:00Z,Netherlands,Netherlands,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,385016,Mauresmo Hinoke,FW,FW,21.0,2005-02-26T08:00Z,Indonesia,Indonesia,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,397549,Mert Erkan,FW,FW,21.0,2005-04-19T07:00Z,Türkiye,Türkiye,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,3103646,Jacey Pansa,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
-TOP Oss,3728,3113465,Kyanno Lorenzo Miranda De Brito E Silva,FW,FW,,,,,,2026-10-21T09:01:37.880669+00:00,ESPN
+﻿team_id,team_name,player_id,player_name,position,date_born,nationality,source,season
+271,FC Den Bosch,310130,Pepijn Van De Merbel,G,2002-03-18T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,324466,Finn Murre,G,2003-07-24T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,374525,Tjemme Bijlsma,G,2007-03-11T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,376040,Roel Van Balsfoort,G,2006-07-22T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,132001,Jeffry Fortes,D,1989-03-22T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,261600,Jasper van Heertum,D,1997-11-10T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,286402,Reda Akmum,D,2001-04-18T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,308027,Stan Maas,D,2001-02-14T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,355504,Sheddy Barglan,D,2002-10-03T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,365029,Mees Laros,D,2005-05-29T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,413579,Silvan Broker,D,2005-05-18T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,414036,Jayden Ettienne,D,2006-01-06T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,422010,Kai de Rooij,D,2008-11-30T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,286779,Jack De Vries,M,2002-03-28T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,309372,Boris Van Schuppen,M,2001-11-22T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,386879,Devon Decorte,M,2006-05-13T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,409257,Wang Bohao,M,2005-07-18T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,411550,Hessel Eikelboom,M,2003-02-22T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,415417,Sufyan Van Daalen,M,2008-01-08T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,3124561,Giovanni Hessels,M,,,ESPN roster,2025
+271,FC Den Bosch,3143589,Jari De Kruijff,M,,,ESPN roster,2025
+271,FC Den Bosch,306292,Sebastian Karlsson Grach,F,2001-05-06T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,308846,Kévin Monzialo,F,2000-07-28T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,352484,Genrich Sillé,F,2002-03-05T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,362523,Ilias Boumassaoudi,F,2005-01-14T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,386973,Emian-Johar Semedo,F,2003-03-11T08:00Z,,ESPN roster,2025
+271,FC Den Bosch,410722,Rafi Wolters,F,2007-04-21T07:00Z,,ESPN roster,2025
+271,FC Den Bosch,3099594,Lorenzo Hoffman,F,,,ESPN roster,2025
+18278,Jong FC Utrecht,313006,Kevin Gadellaa,G,2003-04-08T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,359675,Mees Eppink,G,2006-03-25T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,363410,Martin Tsankov,G,2007-01-25T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,391958,Laoulu Oladipo,G,2007-07-15T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,397993,Justin Eversen,G,2006-04-18T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,340533,Wessel Kooy,D,2005-01-09T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,365391,Per Kloosterboer,D,2005-03-08T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,382789,Massien Ghaddari,D,2005-05-27T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,388684,Jamie Schuldes,D,2007-01-26T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,406251,Viggo Plantinga,D,2007-05-18T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,408701,Ferdinand Pohl,D,2007-02-02T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,409884,Thomas Reinders,D,2004-01-11T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,419220,Noël Beulens,D,2008-04-09T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,3101888,Tom Wellerdieck,D,,,ESPN roster,2025
+18278,Jong FC Utrecht,3145033,Donovan Afrifa,D,,,ESPN roster,2025
+18278,Jong FC Utrecht,324633,Noa Dundas,M,2004-04-13T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,355506,Oualid Agougil,M,2005-08-07T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,399048,Jaygo Van Ommeren,M,2008-05-08T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,399545,Yousri Sbai,M,2004-08-08T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,406253,Jessey Sneijder,M,2006-09-04T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,419219,Driss Laaouina,M,2009-04-08T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,419221,Kenji Goes,M,2007-03-10T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,420754,Nick De Vos,M,2009-08-11T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,3099711,Abdullah Aslani,M,,,ESPN roster,2025
+18278,Jong FC Utrecht,3123683,Matyáš Havelka,M,,,ESPN roster,2025
+18278,Jong FC Utrecht,3125073,Jerayno Hunte,M,,,ESPN roster,2025
+18278,Jong FC Utrecht,3125075,Levi Rietveld,M,,,ESPN roster,2025
+18278,Jong FC Utrecht,316173,Richie Omorowa,F,2004-03-30T08:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,379229,Tijn Den Boggende,F,2006-06-08T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,399047,Bjorn Menzo,F,2007-04-22T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,419917,Emmanuel Owen,F,2007-06-11T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,3123684,Nana Gyamfi-Amoah,F,,,ESPN roster,2025
+18278,Jong FC Utrecht,3125074,Jespen Eujen,F,,,ESPN roster,2025
+4426,FC Dordrecht,137782,Tim Coremans,G,1991-04-10T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,212346,Yanick van Osch,G,1997-03-24T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,295996,Calvin Raatsie,G,2002-02-09T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,408692,Thomas Artic,G,2008-07-15T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,414042,Dean Hogervorst,G,2007-12-20T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,3102574,Jamie Luca Kooymans,G,,,ESPN roster,2025
+4426,FC Dordrecht,3143345,Finn Oldenstam,G,,,ESPN roster,2025
+4426,FC Dordrecht,178975,Lucas Woudenberg,D,1994-04-25T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,310636,Bjorn Hardley,D,2002-12-19T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,321095,Jurre Van Aken,D,2003-03-23T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,324394,Yannis M'Bemba,D,2001-07-01T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,324740,Stan Hendrikx,D,2003-07-08T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,346270,Jaden Pinas,D,2003-12-28T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,375939,Adil Lechkar,D,2001-09-02T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,399711,Beni Mpanzu,D,2004-05-15T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,412897,Lucas Gardenier,D,2007-01-04T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,317957,Nicolás Rossi,M,2002-03-21T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,354886,Martin Vetkal,M,2004-02-21T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,372096,Ayoub Ouarghi,M,2008-02-05T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,390134,Lorenzo Riccio,M,2006-07-25T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,398632,Senne Vugts,M,2007-07-25T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,406924,Bae Seung-Gyun,M,2007-04-22T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,408549,Robin Van Asten,M,2008-02-27T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,3102570,Yunus Younous,M,,,ESPN roster,2025
+4426,FC Dordrecht,3102571,Dion Van Zanten,M,,,ESPN roster,2025
+4426,FC Dordrecht,3121186,Sidali Bouraba,M,,,ESPN roster,2025
+4426,FC Dordrecht,241061,Nick Venema,F,1999-04-09T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,305583,Noah Bischof,F,2002-12-07T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,336525,Lucas Román,F,2004-02-10T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,336653,Dario Sits,F,2004-02-04T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,351022,Joey De Bie,F,2004-05-14T07:00Z,,ESPN roster,2025
+4426,FC Dordrecht,393639,Siginho Gerardo,F,2006-12-14T08:00Z,,ESPN roster,2025
+4426,FC Dordrecht,3102573,Mohammed Kessrioui,F,,,ESPN roster,2025
+2726,ADO Den Haag,238716,Antoine Lejoly,G,1998-03-26T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,294425,Kilian Nikiema,G,2003-06-22T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,378247,Sem Eekhout,G,2006-10-24T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,408844,Caleb Kramer,G,2006-08-01T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,409511,Connor Ratford,G,,,ESPN roster,2025
+2726,ADO Den Haag,275718,Diogo Tomas,D,1997-07-31T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,281140,Sékou Sylla,F,1999-01-09T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,297289,Steven van der Sloot,D,2002-07-06T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,301455,Mees Kreekels,D,2001-11-01T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,306880,Matteo Waem,D,2000-06-21T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,330170,Pascal Mulder,D,1999-01-19T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,338118,Milan Hokke,D,2003-10-11T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,384198,Devyn Payne,D,2005-06-26T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,395146,Illaijh De Ruijter,D,2006-09-14T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,409797,Sanyika Bergtop,D,2007-07-31T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,272720,Jari Vlak,M,1998-08-15T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,304046,Jalen Hawkins,M,2001-01-24T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,317286,Mylian Jimenez,M,2003-01-13T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,338244,Juho Kilo,M,2002-06-23T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,378488,Finn De Bruin,M,2004-04-05T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,397465,Joey Brandt,M,2005-04-05T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,416390,Dani Van Loenen,M,2007-02-12T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,164263,Daryl van Mieghem,F,1989-12-05T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,284787,Nigel Thomas,F,2001-02-01T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,290071,Bryan Fiabema,F,2003-02-16T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,297069,Cameron Peupion,F,2002-09-23T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,304576,Evan Rottier,F,2002-02-11T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,329481,Luka Reischl,F,2004-01-10T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,373792,Jesse Bal,F,2006-10-01T07:00Z,,ESPN roster,2025
+2726,ADO Den Haag,378248,Maikey Houwaart,F,2006-01-27T08:00Z,,ESPN roster,2025
+2726,ADO Den Haag,388670,Lorenzo Maasland,F,2005-02-25T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,317284,Charlie Setford,G,2004-05-11T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,389638,Aymean El Hani,G,2007-05-09T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,396040,Joeri Heerkens,G,2006-05-08T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,421783,Valentijn Van Der Velde,G,2007-01-12T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,368818,Dies Janse,D,2006-01-17T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,375486,Avery Appiah,D,2006-04-02T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,376342,Fouad Zahouani,D,2006-04-18T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,388083,Gerónimo Spina,D,2005-02-09T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,390071,Jinairo Johnson,D,2007-04-08T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,390073,Mylo Van Der Lans,D,2007-04-11T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,401270,Luuk Beekman,D,2007-09-13T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,401532,Marvyn Muzungu,D,2007-11-28T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,408697,Frankel Leroy,D,2008-07-26T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,410912,Sinclair De Falco,D,2008-02-02T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,410913,Kennynho Kasanwirjo,D,2008-01-04T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,415089,Jahyendrow Amour,D,2007-08-08T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,384373,Luca Messori,M,2007-10-25T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,388080,Jano Monserrate,M,2006-01-28T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,390072,Mark Verkuijl,M,2006-02-10T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,396638,Ryan Van De Pavert,M,2006-01-24T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,400788,Abdoulaye Camara,M,2008-09-28T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,403927,Abdellah Ouazane,M,2009-01-15T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,406914,Damián Van Der Vaart,M,2006-05-28T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,406915,Tijn Peters,M,2006-03-03T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,410914,Thijmen Romers,M,2008-01-04T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,417684,Mohamed Abdalla,M,2009-10-19T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,419117,Levi Acheampong,M,2008-01-24T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,3111249,Leo Salazar Hinojosa,M,,,ESPN roster,2025
+10597,Jong Ajax,357231,David Kalokoh,F,2005-04-21T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,384371,Emre Ünüvar,F,2008-03-18T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,388678,Jan Faberski,F,2006-04-22T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,397257,Diego Pugno,F,2006-07-07T07:00Z,,ESPN roster,2025
+10597,Jong Ajax,397492,Rayane Bounida,F,2006-03-03T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,406913,Pharell Nash,F,2008-02-07T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,419555,Paulo Silva,F,2007-12-26T08:00Z,,ESPN roster,2025
+10597,Jong Ajax,3100716,Younes Elias Mechrouch,F,,,ESPN roster,2025
+10597,Jong Ajax,3124022,Jeshurun Simeon,F,,,ESPN roster,2025
+10597,Jong Ajax,3124023,Anass Moumane,F,,,ESPN roster,2025
+3732,FC Eindhoven,301357,Jort Borgmans,G,2002-09-20T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,359129,Dylan Fancito,G,2004-09-30T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,390609,Niek Janssen,G,2006-08-26T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,151071,Milan Hoek,D,2007-01-15T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,241053,Clint Essers,D,1997-01-27T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,365681,Bram Rovers,D,2005-01-14T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,367637,Luc Netten,D,2004-04-12T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,371411,Raf Van De Riet,D,2006-08-11T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,379781,Tyrese Simons,D,2002-10-19T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,406904,Rens Boon,D,2007-07-14T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,408260,Owen Renfrum,D,2006-10-19T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,408849,Junior Poortvliet,D,2007-10-06T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,416392,Jens Elbers,D,2008-07-20T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,416394,Hyman Ali,D,2006-05-11T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,304482,Guus Beaumont,M,2002-05-10T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,330925,Niek Munsters,M,2002-03-29T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,344853,Xander Blomme,M,2002-06-21T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,395698,Lennon Smulders,M,2006-09-14T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,408258,Zakaria Haddaoui,M,2006-02-07T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,421160,Mika De Jonge,M,2004-02-28T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,421867,Antonio Bazdaric,M,2006-01-08T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,3114955,Ryan Meijer,M,,,ESPN roster,2025
+3732,FC Eindhoven,3126266,Kaan Akar,M,,,ESPN roster,2025
+3732,FC Eindhoven,151077,Kevin Van Veen,F,1991-06-01T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,306003,Vicente Besuijen,F,2001-04-10T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,346923,Hugo Deenen,F,2004-07-14T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,364779,Rayan Buifrahi,F,2005-03-13T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,402840,Lasse Abildgaard,F,2007-02-27T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,408213,Amir Bryson,F,2004-12-05T08:00Z,,ESPN roster,2025
+3732,FC Eindhoven,408848,Siegert Baartmans,F,2006-04-06T07:00Z,,ESPN roster,2025
+3732,FC Eindhoven,3114956,Akin Ozcan,F,,,ESPN roster,2025
+3732,FC Eindhoven,3114957,Emre Eksi,F,,,ESPN roster,2025
+3732,FC Eindhoven,3141835,Gideon Constancia,F,,,ESPN roster,2025
+18748,Jong AZ,332466,Rome-Jayden Owusu-Oduro,G,2004-07-02T07:00Z,,ESPN roster,2025
+18748,Jong AZ,360261,Jur Schipper,G,2006-07-11T07:00Z,,ESPN roster,2025
+18748,Jong AZ,371407,Kiyani Zeggen,G,2006-10-15T07:00Z,,ESPN roster,2025
+18748,Jong AZ,388689,Koen Schilder,G,2005-09-27T07:00Z,,ESPN roster,2025
+18748,Jong AZ,395894,Ismail Ka,G,2006-03-09T08:00Z,,ESPN roster,2025
+18748,Jong AZ,3124255,Nick Homan,G,,,ESPN roster,2025
+18748,Jong AZ,358556,Jeremiah Esajas,D,2005-05-19T07:00Z,,ESPN roster,2025
+18748,Jong AZ,362961,Rion Ichihara,D,2005-07-07T07:00Z,,ESPN roster,2025
+18748,Jong AZ,384064,Frej Elkjaer,D,2007-05-05T07:00Z,,ESPN roster,2025
+18748,Jong AZ,386238,Andrea Natali,D,2008-01-28T08:00Z,,ESPN roster,2025
+18748,Jong AZ,387481,Rayan Atikallah,D,2006-07-07T07:00Z,,ESPN roster,2025
+18748,Jong AZ,394410,Mathijs Menu,D,2005-05-01T07:00Z,,ESPN roster,2025
+18748,Jong AZ,402625,Kiani Inge,D,2007-06-16T07:00Z,,ESPN roster,2025
+18748,Jong AZ,403269,Saviola Saffoe,D,2007-05-11T07:00Z,,ESPN roster,2025
+18748,Jong AZ,409683,Jesper Zwart,D,2006-11-08T08:00Z,,ESPN roster,2025
+18748,Jong AZ,411862,Kevin Van Ouytsel,D,2007-07-01T07:00Z,,ESPN roster,2025
+18748,Jong AZ,421784,Iain De Jongh,D,2007-06-26T07:00Z,,ESPN roster,2025
+18748,Jong AZ,347263,Julian Oerip,M,2006-10-26T07:00Z,,ESPN roster,2025
+18748,Jong AZ,358555,Enoch Mastoras,M,2006-05-24T07:00Z,,ESPN roster,2025
+18748,Jong AZ,380172,Rio Robbemond,M,2005-01-05T08:00Z,,ESPN roster,2025
+18748,Jong AZ,380175,Bohdan Budko,M,2006-01-07T08:00Z,,ESPN roster,2025
+18748,Jong AZ,395147,Tómas Jóhannessen,M,2007-05-17T07:00Z,,ESPN roster,2025
+18748,Jong AZ,402624,Hessel De Wit,M,2007-01-08T08:00Z,,ESPN roster,2025
+18748,Jong AZ,413665,Melle Roede,M,2006-06-26T07:00Z,,ESPN roster,2025
+18748,Jong AZ,416393,Julian Sijbrands,M,2007-08-03T07:00Z,,ESPN roster,2025
+18748,Jong AZ,3100712,Rick Luijer,M,,,ESPN roster,2025
+18748,Jong AZ,3145036,Gijs Groot,M,,,ESPN roster,2025
+18748,Jong AZ,347443,Jasper Hartog,F,2006-03-23T08:00Z,,ESPN roster,2025
+18748,Jong AZ,351052,Kevin Toppenberg,F,2004-08-02T07:00Z,,ESPN roster,2025
+18748,Jong AZ,367999,Yoël Van Den Ban,F,2006-01-10T08:00Z,,ESPN roster,2025
+18748,Jong AZ,388592,Jerolldino Bergraaf,F,2006-07-05T07:00Z,,ESPN roster,2025
+18748,Jong AZ,389354,Ayoub Oufkir,F,2006-01-04T08:00Z,,ESPN roster,2025
+18748,Jong AZ,398766,Wassim Bouziane,F,2006-12-22T08:00Z,,ESPN roster,2025
+18748,Jong AZ,408528,Bendegúz Kovács,F,2007-03-31T07:00Z,,ESPN roster,2025
+18748,Jong AZ,414988,Maximiliam Ibrahimovic,F,2006-09-22T07:00Z,,ESPN roster,2025
+18748,Jong AZ,415003,Tycho De Wit,F,2007-01-08T08:00Z,,ESPN roster,2025
+18748,Jong AZ,3131369,Chavarello Hellings,F,,,ESPN roster,2025
+3708,Heracles Almelo,255662,Fabian De Keijzer,G,2000-05-10T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,336781,Timo Jansink,G,2003-03-16T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,406248,Leco Zeevalkink,G,2005-09-14T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,150207,Mike te Wierik,D,1992-06-08T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,193763,Damon Mirani,D,1996-05-13T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,268603,David Vicente,D,1999-04-23T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,283835,Djevencio van der Kust,D,2001-04-30T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,313057,Alexandre Rodríguez,D,1998-03-01T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,323052,Mimeirhel Benita,D,2003-11-17T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,361727,Stijn Bultman,D,2005-01-29T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,413666,Jeppe Wijnreder,D,2006-02-07T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,3098478,Mario Borac,D,,,ESPN roster,2025
+3708,Heracles Almelo,3098556,Max Hauswirth,D,,,ESPN roster,2025
+3708,Heracles Almelo,152154,Thomas Bruns,M,1992-01-07T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,205952,Mario Engels,M,1993-10-22T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,218627,Jeff Reine-Adélaide,M,1998-01-17T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,258975,David Tomić,D,1998-02-09T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,281266,Daniel Van Kaam,M,2000-06-23T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,306433,Walid Ould-Chikh,M,1999-11-06T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,328547,Rhys Bozinovski,M,2004-03-07T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,336728,Sem Scheperman,M,2002-06-24T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,388714,Giandro Sambo,M,2006-08-28T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,3098287,Maurice Wrusch,M,,,ESPN roster,2025
+3708,Heracles Almelo,268963,Chafik Abbas,F,1998-06-17T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,310136,Fodé Fofana,F,2002-10-26T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,324183,Yvandro Borges Sanches,F,2004-05-24T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,340557,Tristan Van Gilst,F,2003-02-18T08:00Z,,ESPN roster,2025
+3708,Heracles Almelo,353681,Jean-Paul N'Djoli,F,2000-10-09T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,361014,Diego Van Oorschot,F,2005-10-02T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,399628,Vincent Poppler,F,2001-09-01T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,413664,Sil Blokhuis,F,2008-03-18T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,419887,Tarik Hamamiogl,F,2008-08-01T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,297294,Hugo Wentges,G,2002-02-11T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,332463,Sep Van Der Heijden,G,2004-08-29T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,414500,Victor Goffings,G,2009-09-17T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,3127960,Sebastiaan Timmers,G,,,ESPN roster,2025
+3730,MVV Maastricht,304581,Lars Schenk,D,2002-01-16T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,306549,Yaël Liesdek,D,2001-10-21T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,324243,Dylan Timber,D,2000-04-15T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,364771,Wout Coomans,D,2001-12-09T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,367483,Milan Hofland,D,2004-12-17T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,377591,Djairo Tehubyuluw,D,2005-05-26T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,379550,Sven Bouland,D,2006-02-22T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,5324089,Tristan Bomble,D,,,ESPN roster,2025
+3730,MVV Maastricht,214646,Robert Klaasen,M,1993-09-06T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,290797,Stan Van Dessel,M,2001-07-24T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,301706,Elias Sierra,M,2001-08-25T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,321114,Olivier Dumont,M,2002-03-06T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,334091,Finn Dicke,M,2004-09-14T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,368000,Sil Van Der Wegen,M,2005-01-01T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,388508,Amine Amgar,M,2008-10-13T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,389277,Mika Luijendijk,M,2007-08-29T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,406536,Adriano Mansala,M,2007-07-31T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,413914,Noa El Hamdaoui,M,2007-10-25T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,3139469,Yanis Bourard,M,,,ESPN roster,2025
+3730,MVV Maastricht,228433,Lennerd Daneels,F,1998-04-10T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,298506,Delano Asante,F,2000-02-11T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,304500,Thijme Verheijen,F,2003-04-13T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,310138,Naïm Matoug,F,2003-04-12T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,372318,Onesime Zimuangana,F,2006-03-05T08:00Z,,ESPN roster,2025
+3730,MVV Maastricht,387177,Mats Kuipers,F,2006-06-08T07:00Z,,ESPN roster,2025
+3730,MVV Maastricht,3098529,Toni Vinogradac,F,,,ESPN roster,2025
+3730,MVV Maastricht,3143498,Nikolaos Tsomos,F,,,ESPN roster,2025
+144,De Graafschap,328696,Ties Wieggers,G,2002-12-13T08:00Z,,ESPN roster,2025
+144,De Graafschap,349816,Rick Jonkers,G,2004-02-25T08:00Z,,ESPN roster,2025
+144,De Graafschap,362072,Paul Reverson,G,2005-06-20T07:00Z,,ESPN roster,2025
+144,De Graafschap,403268,Sam Bouwman,G,2006-12-14T08:00Z,,ESPN roster,2025
+144,De Graafschap,234334,Thomas Kok,D,1998-05-15T07:00Z,,ESPN roster,2025
+144,De Graafschap,283030,Mark Pabai,D,2000-09-30T07:00Z,,ESPN roster,2025
+144,De Graafschap,298573,Jason Meerstadt,D,2001-07-10T07:00Z,,ESPN roster,2025
+144,De Graafschap,306063,Jannes Wieckhoff,D,2000-08-02T07:00Z,,ESPN roster,2025
+144,De Graafschap,344750,Joran Hardeman,D,2002-04-21T07:00Z,,ESPN roster,2025
+144,De Graafschap,344752,Levi Schoppema,D,2004-05-27T07:00Z,,ESPN roster,2025
+144,De Graafschap,346364,Rowan Besselink,D,2004-10-11T07:00Z,,ESPN roster,2025
+144,De Graafschap,377713,Kaya Symons,D,2005-03-31T08:00Z,,ESPN roster,2025
+144,De Graafschap,378554,Gijs Bolk,D,2005-01-06T08:00Z,,ESPN roster,2025
+144,De Graafschap,399246,Nolan Martens,D,2004-07-07T07:00Z,,ESPN roster,2025
+144,De Graafschap,177029,Mark Diemers,M,1993-10-11T07:00Z,,ESPN roster,2025
+144,De Graafschap,190996,Clint Leemans,M,1995-09-15T07:00Z,,ESPN roster,2025
+144,De Graafschap,284717,Fedde de Jong,M,2003-06-13T07:00Z,,ESPN roster,2025
+144,De Graafschap,305591,Donny Warmerdam,M,2002-01-02T08:00Z,,ESPN roster,2025
+144,De Graafschap,359881,Milan Smits,M,2004-11-13T08:00Z,,ESPN roster,2025
+144,De Graafschap,377715,Jorn Triep,M,2005-03-28T08:00Z,,ESPN roster,2025
+144,De Graafschap,378246,Denzel Eijken,M,2003-10-16T07:00Z,,ESPN roster,2025
+144,De Graafschap,388556,Tim Braem,M,2006-02-13T08:00Z,,ESPN roster,2025
+144,De Graafschap,391335,Tygo Grotenhuis,M,2005-03-24T08:00Z,,ESPN roster,2025
+144,De Graafschap,397860,Nic Hartgers,M,2004-02-21T08:00Z,,ESPN roster,2025
+144,De Graafschap,408691,Timo Jansen,M,2006-01-14T08:00Z,,ESPN roster,2025
+144,De Graafschap,409291,Nart Ahmeti,M,2006-01-05T08:00Z,,ESPN roster,2025
+144,De Graafschap,3124968,Cem Eroglu,M,,,ESPN roster,2025
+144,De Graafschap,3129560,Benjamin Mambo,M,,,ESPN roster,2025
+144,De Graafschap,3130357,Gabriele Finocchiaro,M,,,ESPN roster,2025
+144,De Graafschap,371399,Julian Kania,F,2001-10-10T07:00Z,,ESPN roster,2025
+144,De Graafschap,397074,Kyano Kwint,F,2006-09-22T07:00Z,,ESPN roster,2025
+144,De Graafschap,398858,Nathan Kaninda,F,2004-06-13T07:00Z,,ESPN roster,2025
+144,De Graafschap,399652,Bjorn Van Zijl,F,2004-07-09T07:00Z,,ESPN roster,2025
+144,De Graafschap,402721,Toivo Mero,F,2007-10-07T07:00Z,,ESPN roster,2025
+141,NAC Breda,137780,Kostas Lamprou,G,1991-09-18T07:00Z,,ESPN roster,2025
+141,NAC Breda,164865,Roy Kortsmit,G,1992-08-26T07:00Z,,ESPN roster,2025
+141,NAC Breda,207390,Michael Verrips,G,1996-12-03T08:00Z,,ESPN roster,2025
+141,NAC Breda,414162,Thomas Goos,G,2008-05-21T07:00Z,,ESPN roster,2025
+141,NAC Breda,3121190,Stijn Thomassen,G,,,ESPN roster,2025
+141,NAC Breda,268194,Boyd Lucassen,D,1998-07-01T07:00Z,,ESPN roster,2025
+141,NAC Breda,272350,Jan Van den Bergh,D,1994-10-02T07:00Z,,ESPN roster,2025
+141,NAC Breda,283111,Leo Greiml,D,2001-07-03T07:00Z,,ESPN roster,2025
+141,NAC Breda,284716,Rio Hillen,D,2003-03-05T08:00Z,,ESPN roster,2025
+141,NAC Breda,289580,Mohamed Bouchouari,D,2000-11-15T08:00Z,,ESPN roster,2025
+141,NAC Breda,323050,Jayden Candelaria,D,2004-03-02T08:00Z,,ESPN roster,2025
+141,NAC Breda,408773,Jemuel Erat,D,2007-09-02T07:00Z,,ESPN roster,2025
+141,NAC Breda,408774,Christian Chiza,D,2007-12-18T08:00Z,,ESPN roster,2025
+141,NAC Breda,422247,Mylan Brouwers,D,2009-08-13T07:00Z,,ESPN roster,2025
+141,NAC Breda,3121188,Senna Van Ooijen,D,,,ESPN roster,2025
+141,NAC Breda,3121191,Rayan Van Aarst,D,,,ESPN roster,2025
+141,NAC Breda,164264,Mats Seuntjens,M,1992-04-17T07:00Z,,ESPN roster,2025
+141,NAC Breda,221227,Fredrik Oldrup Jensen,M,1993-05-18T07:00Z,,ESPN roster,2025
+141,NAC Breda,272358,Kamal Sowah,M,2000-01-09T08:00Z,,ESPN roster,2025
+141,NAC Breda,288391,Jannes Van Hecke,M,2002-01-15T08:00Z,,ESPN roster,2025
+141,NAC Breda,310137,Mohamed Nassoh,M,2003-01-26T08:00Z,,ESPN roster,2025
+141,NAC Breda,312264,Maximilien Balard,M,2000-11-20T08:00Z,,ESPN roster,2025
+141,NAC Breda,331056,Imran Nazih,M,2006-01-25T08:00Z,,ESPN roster,2025
+141,NAC Breda,335208,Gabriel Misehouy,M,2005-07-18T07:00Z,,ESPN roster,2025
+141,NAC Breda,3121187,Anass Aachir,M,,,ESPN roster,2025
+141,NAC Breda,156838,Paul Gladon,F,1992-03-18T08:00Z,,ESPN roster,2025
+141,NAC Breda,291194,Charles-Andreas Brym,F,1998-08-08T07:00Z,,ESPN roster,2025
+141,NAC Breda,339952,Brahim Ghalidi,F,2005-01-31T08:00Z,,ESPN roster,2025
+141,NAC Breda,357000,Moussa Soumano,F,2005-07-09T07:00Z,,ESPN roster,2025
+141,NAC Breda,408772,Pepijn Reulen,F,2008-06-01T07:00Z,,ESPN roster,2025
+141,NAC Breda,3121189,Reinier Honkoop,F,,,ESPN roster,2025
+141,NAC Breda,3121192,Elijah Ikpia,F,,,ESPN roster,2025
+141,NAC Breda,3140683,Bo Meijvogel,F,,,ESPN roster,2025
+141,NAC Breda,5323665,Karim Mperanyi,F,,,ESPN roster,2025
+9983,Jong PSV,190976,Nick Olij,G,1995-08-01T07:00Z,,ESPN roster,2025
+9983,Jong PSV,343607,Tijn Smolenaars,G,2005-02-23T08:00Z,,ESPN roster,2025
+9983,Jong PSV,375087,Stijn Kuijsten,G,2007-07-11T07:00Z,,ESPN roster,2025
+9983,Jong PSV,388575,Khadim Ngom,G,2005-08-05T07:00Z,,ESPN roster,2025
+9983,Jong PSV,3114964,Kane Aerts,G,,,ESPN roster,2025
+9983,Jong PSV,3134861,Eskil Moedt,G,,,ESPN roster,2025
+9983,Jong PSV,354895,Madi Monamay,D,2006-04-06T07:00Z,,ESPN roster,2025
+9983,Jong PSV,364814,Yarek Gasiorowski,D,2005-01-12T08:00Z,,ESPN roster,2025
+9983,Jong PSV,367997,Wessel Kuhn,D,2006-09-16T07:00Z,,ESPN roster,2025
+9983,Jong PSV,372320,Floris Bos,D,2006-07-07T07:00Z,,ESPN roster,2025
+9983,Jong PSV,386881,Fabian Merién,D,2008-09-26T07:00Z,,ESPN roster,2025
+9983,Jong PSV,386882,Michael Bresser,D,2007-04-24T07:00Z,,ESPN roster,2025
+9983,Jong PSV,395980,Rivas Manuhutu,D,2007-07-02T07:00Z,,ESPN roster,2025
+9983,Jong PSV,396637,Lyfe Oldenstam,D,2007-02-02T08:00Z,,ESPN roster,2025
+9983,Jong PSV,402899,Brent Jonkers,D,2008-03-11T07:00Z,,ESPN roster,2025
+9983,Jong PSV,415125,Sébas Ditmer,D,2008-05-26T07:00Z,,ESPN roster,2025
+9983,Jong PSV,415126,Jorvimar Martina,D,2008-05-07T07:00Z,,ESPN roster,2025
+9983,Jong PSV,3126264,Dyran Stam,D,,,ESPN roster,2025
+9983,Jong PSV,3127962,Kyano Penso,D,,,ESPN roster,2025
+9983,Jong PSV,3136864,King Duah,D,,,ESPN roster,2025
+9983,Jong PSV,3140685,Loek Schakenraad,D,,,ESPN roster,2025
+9983,Jong PSV,366851,Sol Sidibe,M,2007-02-10T08:00Z,,ESPN roster,2025
+9983,Jong PSV,372319,Jaden De Guzmán,M,2007-01-18T08:00Z,,ESPN roster,2025
+9983,Jong PSV,386885,Noah Fernandez,M,2008-01-09T08:00Z,,ESPN roster,2025
+9983,Jong PSV,388509,Jim Koller,M,2007-03-31T07:00Z,,ESPN roster,2025
+9983,Jong PSV,397193,Boet Mulders,M,2007-04-19T07:00Z,,ESPN roster,2025
+9983,Jong PSV,399358,Benjamin Khaderi,M,2007-08-01T07:00Z,,ESPN roster,2025
+9983,Jong PSV,405673,Ayoni Santos,M,2005-07-18T07:00Z,,ESPN roster,2025
+9983,Jong PSV,410550,Mathieu Buyens,M,2009-03-12T07:00Z,,ESPN roster,2025
+9983,Jong PSV,415261,Philip Holseter-Karlsen,M,2008-03-06T08:00Z,,ESPN roster,2025
+9983,Jong PSV,416395,Shuryjano Cornecion,M,2008-06-26T07:00Z,,ESPN roster,2025
+9983,Jong PSV,418537,Anton Martyniuk,M,2008-07-19T07:00Z,,ESPN roster,2025
+9983,Jong PSV,3140686,Jonas Colaes,M,,,ESPN roster,2025
+9983,Jong PSV,3141978,Givenciyo Sabajo,M,,,ESPN roster,2025
+9983,Jong PSV,325410,Esmir Bajraktarevic,F,2005-03-10T08:00Z,,ESPN roster,2025
+9983,Jong PSV,346896,Sami Ouaissa,F,2004-10-02T07:00Z,,ESPN roster,2025
+9983,Jong PSV,386883,Manuel Bahaty,F,2007-08-22T07:00Z,,ESPN roster,2025
+9983,Jong PSV,399511,Mikkel Hansen,F,2009-01-25T08:00Z,,ESPN roster,2025
+9983,Jong PSV,403782,Keziah Oteng-Mensah,F,2008-03-31T07:00Z,,ESPN roster,2025
+9983,Jong PSV,406903,Gino Verhulst,F,2007-05-07T07:00Z,,ESPN roster,2025
+9983,Jong PSV,406997,Fabio Kluit,F,2006-02-03T08:00Z,,ESPN roster,2025
+9983,Jong PSV,408950,Jairo Beerens,F,2008-09-30T07:00Z,,ESPN roster,2025
+9983,Jong PSV,410911,Austyn Jones,F,2008-04-16T07:00Z,,ESPN roster,2025
+9983,Jong PSV,414396,Amir Bouhamdi,F,2008-06-17T07:00Z,,ESPN roster,2025
+9983,Jong PSV,3126265,Liam Van Nistelrooij,F,,,ESPN roster,2025
+9983,Jong PSV,3127961,Samuel Chukwuebuka Dumbili,F,,,ESPN roster,2025
+2565,PEC Zwolle,195913,Mike Hauptmeijer,G,1997-03-18T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,261365,Jan Hoekstra,G,1998-08-04T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,263619,Jasper Schendelaar,G,2000-09-02T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,321101,Duke Verduin,G,2003-10-30T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,351818,Lars Reijnen,G,2004-07-14T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,83817,Bram van Polen,D,1985-10-11T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,122814,Bart Van Hintum,D,1987-01-16T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,176988,Jordy Tutuarima,D,1993-04-28T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,241526,Sam Kersten,D,1998-01-30T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,290638,Melayro Bogarde,D,2002-05-28T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,297291,Daijiro Chirino,D,2002-01-24T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,306161,Rav van den Berg,D,2004-07-07T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,322556,Luis Gorlich,D,2000-04-01T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,322625,Hakon Gangstad,D,2002-01-20T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,324952,Thomas Beelen,D,2001-06-11T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,333759,Jesse Vermaning,D,2002-06-22T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,156146,Ryan Thomas,M,1994-12-20T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,166944,Haris Medunjanin,M,1985-03-08T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,255419,Anthony Fontana,M,1999-10-14T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,277315,Thomas van den Belt,M,2001-06-18T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,291260,Dean Huiberts,M,2000-05-16T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,291665,Davy van den Berg,M,2000-02-04T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,301585,Gabi Caschili,D,2003-07-14T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,319097,Jimmy Kaparos,M,2001-12-25T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,323053,Sven Zitman,M,2002-02-24T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,324583,Younes Taha,F,2002-11-27T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,345141,Tomislav Mrkonjic,M,1994-02-22T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,134515,Apostolos Vellios,F,1992-01-08T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,150983,Lennart Thy,F,1992-02-25T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,178273,Gervane Kastaneer,F,1996-06-09T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,281179,Hicham Acheffay,F,2000-08-10T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,303522,Chardi Landu,F,2000-07-18T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,304876,Samir Lagsir,F,2003-05-20T07:00Z,,ESPN roster,2025
+2565,PEC Zwolle,340557,Tristan Van Gilst,F,2003-02-18T08:00Z,,ESPN roster,2025
+2565,PEC Zwolle,345142,Joshua Sion,F,2001-09-16T07:00Z,,ESPN roster,2025
+5291,Almere City,301358,Wessel Speel,G,2001-10-17T07:00Z,,ESPN roster,2025
+5291,Almere City,325954,Joël Van Der Wilt,G,2004-04-27T07:00Z,,ESPN roster,2025
+5291,Almere City,330488,Jesper Van Der Mark,G,2004-06-29T07:00Z,,ESPN roster,2025
+5291,Almere City,335206,Tristan Kuijsten,G,2005-01-16T08:00Z,,ESPN roster,2025
+5291,Almere City,402866,Malcolm Mateyo,G,2005-01-26T08:00Z,,ESPN roster,2025
+5291,Almere City,4804,Jamie Lawrence,D,1992-08-22T07:00Z,,ESPN roster,2025
+5291,Almere City,206865,Damian Van Bruggen,D,1996-03-18T08:00Z,,ESPN roster,2025
+5291,Almere City,261597,Teun Bijleveld,D,1998-05-27T07:00Z,,ESPN roster,2025
+5291,Almere City,272330,Joey Jacobs,D,2000-04-10T07:00Z,,ESPN roster,2025
+5291,Almere City,309154,Misha Engel,D,2002-10-01T07:00Z,,ESPN roster,2025
+5291,Almere City,318533,Emmanuel Van De Blaak,D,2005-02-15T08:00Z,,ESPN roster,2025
+5291,Almere City,324012,Martin Wasinski,D,2004-04-07T07:00Z,,ESPN roster,2025
+5291,Almere City,324338,Twan Van Der Zeeuw,D,2002-09-21T07:00Z,,ESPN roster,2025
+5291,Almere City,360263,Jereno Van Gom,D,2005-05-28T07:00Z,,ESPN roster,2025
+5291,Almere City,387966,Donte Apinsa,D,2005-01-07T08:00Z,,ESPN roster,2025
+5291,Almere City,409471,Tiziano Vianello,D,2005-01-29T08:00Z,,ESPN roster,2025
+5291,Almere City,3124564,Bas Pennock,D,,,ESPN roster,2025
+5291,Almere City,261605,Mees Hoedemakers,M,1998-02-18T08:00Z,,ESPN roster,2025
+5291,Almere City,261608,Jamie Jacobs,M,1997-12-03T08:00Z,,ESPN roster,2025
+5291,Almere City,305627,Enzo Cornelisse,M,2002-06-29T07:00Z,,ESPN roster,2025
+5291,Almere City,319230,Milan De Haan,M,2003-11-20T08:00Z,,ESPN roster,2025
+5291,Almere City,330546,Jochem Ritmeester Van De Kamp,M,2003-11-02T08:00Z,,ESPN roster,2025
+5291,Almere City,336563,Hamza El Dahri,M,2005-03-05T08:00Z,,ESPN roster,2025
+5291,Almere City,349818,Job Kalisvaart,M,2004-06-10T07:00Z,,ESPN roster,2025
+5291,Almere City,388687,Lev Lenssen,M,2005-07-12T07:00Z,,ESPN roster,2025
+5291,Almere City,401078,Olivier De Nijs,M,2004-11-09T08:00Z,,ESPN roster,2025
+5291,Almere City,241393,Ferdy Druijf,F,1998-02-12T08:00Z,,ESPN roster,2025
+5291,Almere City,291732,Byron Burgering,F,2000-11-28T08:00Z,,ESPN roster,2025
+5291,Almere City,388690,Emanuel Poku,F,2005-07-19T07:00Z,,ESPN roster,2025
+5291,Almere City,389274,Marley Dors,F,2005-06-11T07:00Z,,ESPN roster,2025
+5291,Almere City,393342,Bas Huisman,F,2005-05-09T07:00Z,,ESPN roster,2025
+5291,Almere City,395128,Immanuel Ghogli,F,2005-08-14T07:00Z,,ESPN roster,2025
+3728,TOP Oss,192714,Mike Havekotte,G,1995-09-12T07:00Z,,ESPN roster,2025
+3728,TOP Oss,310450,Sven Jansen,G,2004-10-23T07:00Z,,ESPN roster,2025
+3728,TOP Oss,323055,Devin Remie,G,2003-03-13T08:00Z,,ESPN roster,2025
+3728,TOP Oss,284206,Quint Jansen,D,1990-09-10T07:00Z,,ESPN roster,2025
+3728,TOP Oss,295989,Leonel Miguel,D,2001-03-24T08:00Z,,ESPN roster,2025
+3728,TOP Oss,324605,Ilounga Pata,D,2000-11-12T08:00Z,,ESPN roster,2025
+3728,TOP Oss,333621,Julian Kuijpers,D,2004-07-31T07:00Z,,ESPN roster,2025
+3728,TOP Oss,357009,Maxim Mariani,D,2004-11-03T08:00Z,,ESPN roster,2025
+3728,TOP Oss,357230,Alvaro Henry,D,2005-02-14T08:00Z,,ESPN roster,2025
+3728,TOP Oss,367522,Thomas Cox,D,2002-02-10T08:00Z,,ESPN roster,2025
+3728,TOP Oss,383943,Jay Kuiper,D,2004-01-22T08:00Z,,ESPN roster,2025
+3728,TOP Oss,385763,Lars Zonneveld,D,2005-04-02T08:00Z,,ESPN roster,2025
+3728,TOP Oss,191331,Justin Mathieu,M,1996-04-12T07:00Z,,ESPN roster,2025
+3728,TOP Oss,223765,Richard van der Venne,M,1992-05-16T07:00Z,,ESPN roster,2025
+3728,TOP Oss,287108,Delano Vianello,M,2002-09-14T07:00Z,,ESPN roster,2025
+3728,TOP Oss,304481,Marcelencio Esajas,M,2002-06-10T07:00Z,,ESPN roster,2025
+3728,TOP Oss,324469,Jafar Bynoe,M,2003-08-17T07:00Z,,ESPN roster,2025
+3728,TOP Oss,365948,Milo Horemans,M,2006-05-18T07:00Z,,ESPN roster,2025
+3728,TOP Oss,368303,Lars Mol,M,2004-09-15T07:00Z,,ESPN roster,2025
+3728,TOP Oss,305602,Ckene Doucouré,F,2002-04-08T07:00Z,,ESPN roster,2025
+3728,TOP Oss,333673,Franslyn Nsingi,F,2001-04-14T07:00Z,,ESPN roster,2025
+3728,TOP Oss,350565,Maurilio De Lannoy,F,2003-11-07T08:00Z,,ESPN roster,2025
+3728,TOP Oss,377564,Andy Visser,F,2004-09-22T07:00Z,,ESPN roster,2025
+3728,TOP Oss,385016,Mauresmo Hinoke,F,2005-02-26T08:00Z,,ESPN roster,2025
+3728,TOP Oss,397549,Mert Erkan,F,2005-04-19T07:00Z,,ESPN roster,2025
+3728,TOP Oss,3103646,Jacey Pansa,F,,,ESPN roster,2025
+3728,TOP Oss,3113465,Kyanno Lorenzo Miranda De Brito E Silva,F,,,ESPN roster,2025
+3735,Telstar,79505,Ronald Koeman,G,1995-05-23T07:00Z,,ESPN roster,2025
+3735,Telstar,280066,Joey Houweling,G,2000-04-07T07:00Z,,ESPN roster,2025
+3735,Telstar,297542,Tyrick Bodak,G,2002-05-15T07:00Z,,ESPN roster,2025
+3735,Telstar,399284,Finn Mulder,G,2008-02-01T08:00Z,,ESPN roster,2025
+3735,Telstar,138531,Mitch Apau,D,1990-04-27T07:00Z,,ESPN roster,2025
+3735,Telstar,181345,Danny Bakker,M,1995-01-25T08:00Z,,ESPN roster,2025
+3735,Telstar,200158,Jeff Hardeveld,D,1995-02-27T08:00Z,,ESPN roster,2025
+3735,Telstar,304595,Guus Offerhaus,D,2001-01-03T08:00Z,,ESPN roster,2025
+3735,Telstar,308107,Dewon Koswal,D,2003-08-21T07:00Z,,ESPN roster,2025
+3735,Telstar,308130,Achraf Douiri,D,1999-11-27T08:00Z,,ESPN roster,2025
+3735,Telstar,359132,Tyrese Noslin,D,2002-09-11T07:00Z,,ESPN roster,2025
+3735,Telstar,367650,Mano Olfers,D,2006-08-02T07:00Z,,ESPN roster,2025
+3735,Telstar,375939,Adil Lechkar,D,2001-09-02T07:00Z,,ESPN roster,2025
+3735,Telstar,388595,Abdelraffie Benzzine,D,2006-04-04T07:00Z,,ESPN roster,2025
+3735,Telstar,388596,Jaylan Van Schooneveld,D,2005-02-02T08:00Z,,ESPN roster,2025
+3735,Telstar,140527,Tom Overtoom,M,1990-11-20T08:00Z,,ESPN roster,2025
+3735,Telstar,263498,Mees Kaandorp,M,1998-06-08T07:00Z,,ESPN roster,2025
+3735,Telstar,306461,Tyrone Owusu,M,1999-03-05T08:00Z,,ESPN roster,2025
+3735,Telstar,332709,Nils Rossen,M,2004-08-01T07:00Z,,ESPN roster,2025
+3735,Telstar,334533,Remi Van Ekeris,M,2002-09-23T07:00Z,,ESPN roster,2025
+3735,Telstar,354566,Jayden Turfkruier,D,2002-09-25T07:00Z,,ESPN roster,2025
+3735,Telstar,400702,Jessy Lobbes,M,2004-01-01T08:00Z,,ESPN roster,2025
+3735,Telstar,402862,Aleck Viotey,M,,,ESPN roster,2025
+3735,Telstar,205654,Mohamed Hamdaoui,F,1993-06-10T07:00Z,,ESPN roster,2025
+3735,Telstar,265590,Reda Kharchouch,F,1995-08-27T07:00Z,,ESPN roster,2025
+3735,Telstar,281525,Youssef El Kachati,F,1999-11-30T08:00Z,,ESPN roster,2025
+3735,Telstar,356222,Floris Quaedvlieg,M,2003-03-11T08:00Z,,ESPN roster,2025
+3735,Telstar,372971,Soufiane Hetli,F,2001-05-30T07:00Z,,ESPN roster,2025
+3735,Telstar,375488,Sebastiaan Hagedoorn,F,2004-11-30T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,262109,Trevor Doornbusch,G,1999-07-06T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,291354,Youri Schoonderwaldt,G,2000-03-13T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,377516,Zidane Taylan,G,2005-11-26T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,174442,Philip Heise,D,1991-06-20T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,322556,Luis Gorlich,D,2000-04-01T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,343253,Eanna Clancy,D,2004-02-26T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,361489,Michael Davis,D,2002-01-21T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,366908,Gabin Blancquart,D,2004-02-28T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,393345,Tijn Joosten,D,2006-08-15T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,399356,Finn Van Der Sterren,D,2007-04-25T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,408195,Lars De Blok,D,2004-06-14T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,157894,Alex Schalk,M,1992-08-07T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,355241,Ismail M'Hand,M,2005-01-11T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,365949,Andreas Verstraeten,M,2006-01-10T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,367931,Mohammed Odriss,M,2004-09-19T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,384518,Tristan Schenkhuizen,M,2004-07-12T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,394409,Yousri El Anbri,M,2006-03-10T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,406332,Nassim Ait Mouhou,M,2004-08-01T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,412842,Jay Graef,M,2007-01-15T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,415694,Raf Vullers,M,2007-02-14T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,419222,Jari Horsten,M,,,ESPN roster,2025
+3731,VVV-Venlo,296311,Leon Schmidt,F,2001-06-08T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,355978,Edhy Zuliani,F,2004-08-11T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,365023,Amir Rais,F,2004-09-17T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,411686,Thomas Janssen,F,2007-12-22T08:00Z,,ESPN roster,2025
+3731,VVV-Venlo,411861,Devy Hendrix,F,2006-08-15T07:00Z,,ESPN roster,2025
+3731,VVV-Venlo,3121393,Maarten Van Grootel,F,,,ESPN roster,2025
+3731,VVV-Venlo,3122114,Matheos Tsigkas,F,,,ESPN roster,2025
+3775,Helmond Sport,254312,Menno Bergsen,G,1999-08-26T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,417826,Ward Van Sleeuwen,G,2007-06-07T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,421842,Wessel Van Der Heijden,G,,,ESPN roster,2025
+3775,Helmond Sport,422303,Adam El Maach,G,2009-03-16T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,249109,Brian Koglin,D,1997-01-07T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,295078,Flor Van Den Eynden,D,2000-07-29T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,301667,Thomas Poll,D,2001-08-28T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,334219,Sem Dekkers,D,2004-05-28T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,362728,Diego Van Zutphen,D,2005-03-28T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,363131,Wassim Lantaki,D,2004-02-17T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,376305,Brian Van Den Boogaard,D,2006-04-09T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,378556,Lovro Golic,D,2006-03-05T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,395659,Tijn Landheer,D,2007-07-25T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,418448,Rayen Van Bree,D,,,ESPN roster,2025
+3775,Helmond Sport,168540,Pol Llonch,M,1992-10-07T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,291260,Dean Huiberts,M,2000-05-16T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,304729,Joep van der Sluijs,M,2001-12-01T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,344669,Michel-Simon Ludwig,M,2004-08-23T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,345553,Alen Dizdarevic,M,2004-01-22T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,346895,Julian Geerts,M,2006-03-17T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,384661,Livio Cicero,M,2006-03-13T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,385600,Helgi Ingason,M,2005-12-06T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,398936,Dayen Geerts,M,2007-04-20T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,5323664,Alto Gjoka,M,,,ESPN roster,2025
+3775,Helmond Sport,337856,Tarik Essakkati,F,2006-01-16T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,346733,Labinot Bajrami,F,2005-06-04T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,414356,Xander Van Der Velde,F,2005-12-30T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,417498,Mauro Lenaerts,F,2007-09-06T07:00Z,,ESPN roster,2025
+3775,Helmond Sport,418589,Jaden Janssen,F,2008-02-06T08:00Z,,ESPN roster,2025
+3775,Helmond Sport,3093899,Kiton Boteti Ekoli,F,,,ESPN roster,2025
+3775,Helmond Sport,3131370,Nicolas Kurt Meissner Ruiz De Gopegui,F,,,ESPN roster,2025
+156,Willem II,152989,Wouter van der Steen,G,1990-06-03T07:00Z,,ESPN roster,2025
+156,Willem II,188221,Thomas Didillon,G,1995-11-28T08:00Z,,ESPN roster,2025
+156,Willem II,397856,Karst De Leeuw,G,2004-04-19T07:00Z,,ESPN roster,2025
+156,Willem II,408847,Boet Van Der Linden,G,2006-09-25T07:00Z,,ESPN roster,2025
+156,Willem II,409823,Vince Van Der Bas,G,2006-03-07T08:00Z,,ESPN roster,2025
+156,Willem II,414529,Tygo Kotte,G,2007-03-27T07:00Z,,ESPN roster,2025
+156,Willem II,232390,Alessandro Ciranni,D,1996-06-28T07:00Z,,ESPN roster,2025
+156,Willem II,234375,Justin Hoogma,D,1998-06-11T07:00Z,,ESPN roster,2025
+156,Willem II,274019,Raffael Behounek,D,1997-04-16T07:00Z,,ESPN roster,2025
+156,Willem II,291612,Nathan Tjoe-A-On,D,2001-12-22T08:00Z,,ESPN roster,2025
+156,Willem II,320464,Finn Stam,D,2003-04-13T07:00Z,,ESPN roster,2025
+156,Willem II,363130,Amine Et-Taibi,D,2003-02-05T08:00Z,,ESPN roster,2025
+156,Willem II,388667,Jens Mathijsen,D,2007-08-15T07:00Z,,ESPN roster,2025
+156,Willem II,408845,Feliciano De Ruijeter,D,2005-02-04T08:00Z,,ESPN roster,2025
+156,Willem II,408849,Junior Poortvliet,D,2007-10-06T07:00Z,,ESPN roster,2025
+156,Willem II,418777,Kayen Scheepens,D,2006-08-18T07:00Z,,ESPN roster,2025
+156,Willem II,201154,Mounir El Allouchi,M,1994-09-27T07:00Z,,ESPN roster,2025
+156,Willem II,215171,Jari Schuurman,M,1997-02-22T08:00Z,,ESPN roster,2025
+156,Willem II,307375,Calvin Twigt,M,2003-01-30T08:00Z,,ESPN roster,2025
+156,Willem II,346691,Dani Mathieu,M,2001-02-09T08:00Z,,ESPN roster,2025
+156,Willem II,352535,Amine Lachkar,M,2003-04-18T07:00Z,,ESPN roster,2025
+156,Willem II,359745,Gijs Besselink,M,2004-06-16T07:00Z,,ESPN roster,2025
+156,Willem II,388593,Anass Zarrouk,M,2006-07-18T07:00Z,,ESPN roster,2025
+156,Willem II,388668,Per Van Loon,M,2004-12-31T08:00Z,,ESPN roster,2025
+156,Willem II,397219,Uriel Van Aalst,M,2006-08-18T07:00Z,,ESPN roster,2025
+156,Willem II,408846,Pieter Van Maarschalkerwaard,F,2005-09-07T07:00Z,,ESPN roster,2025
+156,Willem II,421160,Mika De Jonge,M,2004-02-28T08:00Z,,ESPN roster,2025
+156,Willem II,421271,Julian Van Esdonk,M,2006-04-27T07:00Z,,ESPN roster,2025
+156,Willem II,195865,Thomas Verheydt,F,1992-01-24T08:00Z,,ESPN roster,2025
+156,Willem II,227279,Nick Doodeman,F,1996-10-22T07:00Z,,ESPN roster,2025
+156,Willem II,315631,Devin Haen,F,2004-06-18T07:00Z,,ESPN roster,2025
+156,Willem II,355101,Samuel Bamba,F,2004-02-13T08:00Z,,ESPN roster,2025
+156,Willem II,402840,Lasse Abildgaard,F,2007-02-27T08:00Z,,ESPN roster,2025
+156,Willem II,408848,Siegert Baartmans,F,2006-04-06T07:00Z,,ESPN roster,2025
+156,Willem II,409864,Armin Culum,F,2003-11-05T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,376845,Justin Treichel,G,2003-03-04T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,422005,Martin Stojcevic,G,2006-02-28T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,3121283,Beer Bouvy,G,,,ESPN roster,2025
+149,Roda JC Kerkrade,3121284,Jay-Jay Van Damme,G,,,ESPN roster,2025
+149,Roda JC Kerkrade,93650,Marco Tol,D,1998-04-25T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,214533,Dario van den Buijs,D,1995-09-12T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,317287,Koen Jansen,D,2004-03-11T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,373015,Xander Van Den Berg,D,2004-09-26T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,379710,Bram Marsman,D,2003-01-29T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,406780,Guilherme Peixoto,D,2006-05-25T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,415128,Yaya Stevelmans,D,2007-09-18T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,168317,Mitchell Paulissen,M,1993-04-21T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,238805,Jérôme Deom,M,1999-04-19T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,276827,Joshua Nisbet,M,1999-06-15T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,344755,Dyon Dorenbosch,M,2003-01-10T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,362606,Mokrane Bentoumi,M,2005-06-16T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,369867,Lucas Beerten,M,2003-01-05T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,384257,Luuk Verheij,M,2005-07-23T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,403899,Jeremiah Mensah,M,2008-02-21T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,422006,Noah Crabu,M,2007-01-19T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,422007,Keanu Van Mieghem,M,2006-05-05T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,3121194,Nadir Maoujoudi,M,,,ESPN roster,2025
+149,Roda JC Kerkrade,3144254,Rayan Khoums,M,,,ESPN roster,2025
+149,Roda JC Kerkrade,177033,Anthony van der Hurk,F,1993-01-09T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,189827,Joey Sleegers,F,1994-07-20T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,312837,Cain Seedorf,F,2000-01-19T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,416417,Fynn Schenten,F,2007-09-14T07:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,417680,Zakarya Khaldi,F,2005-02-08T08:00Z,,ESPN roster,2025
+149,Roda JC Kerkrade,3121193,Larson Ferati,F,,,ESPN roster,2025
+145,FC Groningen,191304,Hidde Jurjus,G,1994-02-09T08:00Z,,ESPN roster,2025
+145,FC Groningen,337088,Dirk Baron,G,2002-08-16T07:00Z,,ESPN roster,2025
+145,FC Groningen,343579,Jasper Meijster,G,2005-01-03T08:00Z,,ESPN roster,2025
+145,FC Groningen,167212,Nick Bakker,D,1992-07-21T07:00Z,,ESPN roster,2025
+145,FC Groningen,179181,Marvin Peersman,D,1991-02-10T08:00Z,,ESPN roster,2025
+145,FC Groningen,261212,Marco Rente,D,1997-02-25T08:00Z,,ESPN roster,2025
+145,FC Groningen,283029,Liam van Gelderen,D,2001-03-23T08:00Z,,ESPN roster,2025
+145,FC Groningen,287174,Nordin Musampa,D,2001-10-13T07:00Z,,ESPN roster,2025
+145,FC Groningen,302019,Isak Dybvik Määttä,D,2001-09-19T07:00Z,,ESPN roster,2025
+145,FC Groningen,319298,Thijmen Blokzijl,D,2005-02-25T08:00Z,,ESPN roster,2025
+145,FC Groningen,357009,Maxim Mariani,D,2004-11-03T08:00Z,,ESPN roster,2025
+145,FC Groningen,358095,Daniël Beukers,D,2004-01-28T08:00Z,,ESPN roster,2025
+145,FC Groningen,371412,Wouter Prins,D,2004-02-06T08:00Z,,ESPN roster,2025
+145,FC Groningen,378432,Roy Leicester,D,2006-05-15T07:00Z,,ESPN roster,2025
+145,FC Groningen,379550,Sven Bouland,D,2006-02-22T08:00Z,,ESPN roster,2025
+145,FC Groningen,383943,Jay Kuiper,D,2004-01-22T08:00Z,,ESPN roster,2025
+145,FC Groningen,138664,Leandro Bacuna,M,1991-08-21T07:00Z,,ESPN roster,2025
+145,FC Groningen,179131,Joel Pelupessy,M,1993-05-15T07:00Z,,ESPN roster,2025
+145,FC Groningen,222236,Laros Duarte,M,1997-02-28T08:00Z,,ESPN roster,2025
+145,FC Groningen,236162,Johan Hove,M,2000-09-07T07:00Z,,ESPN roster,2025
+145,FC Groningen,319296,Luciano Valente,M,2003-10-04T07:00Z,,ESPN roster,2025
+145,FC Groningen,319297,Tika De Jonge,M,2003-03-11T08:00Z,,ESPN roster,2025
+145,FC Groningen,352987,Jorg Schreuders,M,2004-09-09T07:00Z,,ESPN roster,2025
+145,FC Groningen,378435,Steyn Potma,M,2003-05-16T07:00Z,,ESPN roster,2025
+145,FC Groningen,292270,Romano Postema,F,2002-02-07T08:00Z,,ESPN roster,2025
+145,FC Groningen,300052,Kristian Stromland Lien,F,2001-09-30T07:00Z,,ESPN roster,2025
+145,FC Groningen,301666,Kian Slor,F,2002-03-23T08:00Z,,ESPN roster,2025
+145,FC Groningen,308228,Noam Emeran,F,2002-09-24T07:00Z,,ESPN roster,2025
+145,FC Groningen,324448,Rui Mendes,F,1999-11-10T08:00Z,,ESPN roster,2025
+145,FC Groningen,351290,Thom Van Bergen,F,2004-01-06T08:00Z,,ESPN roster,2025
+145,FC Groningen,362899,Fofin Turay,F,2004-06-07T07:00Z,,ESPN roster,2025
+145,FC Groningen,374814,Jens Schraven,F,2003-03-23T08:00Z,,ESPN roster,2025
+145,FC Groningen,378250,Nils Eggens,F,2005-04-08T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,298565,Thijs Jansen,G,2001-11-29T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,343579,Jasper Meijster,G,2005-01-03T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,406925,Matthijs Kalisvaart,G,2006-06-06T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,414176,Jannick Coehoorn,G,2008-04-14T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,292770,Rik Mulders,D,2000-08-06T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,306047,Jamal Amofa,D,1998-11-25T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,306401,Jorn Berkhout,D,2002-03-18T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,333617,Diyae-Edinne Jermoumi,D,2004-07-19T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,348266,Tomas Galvez,D,2005-01-28T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,364402,Ismaël Baouf,D,2006-09-17T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,378429,Toni Jonker,D,2006-02-18T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,379710,Bram Marsman,D,2003-01-29T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,391955,Jelte Priem,D,2006-01-22T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,397118,Amar Bakkati,D,2007-09-14T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,406926,Buddy Vogelzang,D,2005-11-23T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,418062,Fabian Kvam,F,2005-10-18T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,177029,Mark Diemers,M,1993-10-11T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,259186,Nicky Souren,M,1999-12-18T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,356226,Ichem Ferrah,M,2005-09-23T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,362859,Tony Rölke,M,2003-01-22T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,402838,Daan Visser,M,2004-11-05T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,406929,Jochem Nap,M,2005-02-04T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,408553,Wiebe Van Der Heide,M,,,ESPN roster,2025
+3736,SC Cambuur,412287,Yme Bruinsma,M,2005-09-29T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,416391,Danyello Look,F,2007-03-22T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,416657,Ethan Apkakou,M,2006-10-15T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,421840,Wessel Van Der Goot,M,2008-04-29T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,207632,Jort van der Sande,F,1996-01-25T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,303565,Remco Balk,F,2001-03-02T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,330140,Kian Visser,F,2001-12-05T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,338919,Nicolas Binder,F,2002-01-13T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,364992,Wiebe Kooistra,F,2006-07-23T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,370607,Iwan Henstra,F,2006-10-10T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,380031,Sybrand Veldhuis,F,2005-09-24T07:00Z,,ESPN roster,2025
+3707,FC Emmen,196577,Kelle Roos,G,1992-05-31T07:00Z,,ESPN roster,2025
+3707,FC Emmen,337088,Dirk Baron,G,2002-08-16T07:00Z,,ESPN roster,2025
+3707,FC Emmen,339899,Sam Karssies,G,2003-02-26T08:00Z,,ESPN roster,2025
+3707,FC Emmen,397550,Kevin Norder,G,2007-09-07T07:00Z,,ESPN roster,2025
+3707,FC Emmen,401411,Aaron Wanki,G,2007-07-19T07:00Z,,ESPN roster,2025
+3707,FC Emmen,304681,Bryan Van Hove,D,2000-06-17T07:00Z,,ESPN roster,2025
+3707,FC Emmen,313005,Joshua Mukeh,D,2003-09-01T07:00Z,,ESPN roster,2025
+3707,FC Emmen,313990,Yanis Dedelhomme,D,2002-06-13T07:00Z,,ESPN roster,2025
+3707,FC Emmen,324290,Luca Everink,D,2001-02-09T08:00Z,,ESPN roster,2025
+3707,FC Emmen,387400,Christian Østergaard,D,2005-04-13T07:00Z,,ESPN roster,2025
+3707,FC Emmen,3103645,Vincent Carus,D,,,ESPN roster,2025
+3707,FC Emmen,3136042,David Timmerman,D,,,ESPN roster,2025
+3707,FC Emmen,258969,Rodney Kongolo,M,1998-01-09T08:00Z,,ESPN roster,2025
+3707,FC Emmen,268847,Michael Breij,M,1997-01-15T08:00Z,,ESPN roster,2025
+3707,FC Emmen,304909,Casper Staring,M,2001-02-01T08:00Z,,ESPN roster,2025
+3707,FC Emmen,323078,Torben Rhein,M,2003-01-12T08:00Z,,ESPN roster,2025
+3707,FC Emmen,333753,Alessandro Hojabrpour,M,2000-01-10T08:00Z,,ESPN roster,2025
+3707,FC Emmen,346744,Luca Denk,M,2003-03-02T08:00Z,,ESPN roster,2025
+3707,FC Emmen,367673,Antonie Huijzer,M,2003-08-15T07:00Z,,ESPN roster,2025
+3707,FC Emmen,391063,Mustafa Abdullatif,M,2003-12-15T08:00Z,,ESPN roster,2025
+3707,FC Emmen,393104,Adam Claridge,M,2006-03-31T08:00Z,,ESPN roster,2025
+3707,FC Emmen,403123,Peter Quispel,M,2006-01-02T08:00Z,,ESPN roster,2025
+3707,FC Emmen,409793,Chiel Sunder,M,2008-10-16T07:00Z,,ESPN roster,2025
+3707,FC Emmen,287703,Freddy Quispel,F,2000-10-23T07:00Z,,ESPN roster,2025
+3707,FC Emmen,289427,Nelson Amadin,F,2000-10-31T08:00Z,,ESPN roster,2025
+3707,FC Emmen,310712,Jack Cooper Love,F,2001-12-25T08:00Z,,ESPN roster,2025
+3707,FC Emmen,350346,David Voute,F,2005-11-04T08:00Z,,ESPN roster,2025
+3707,FC Emmen,380031,Sybrand Veldhuis,F,2005-09-24T07:00Z,,ESPN roster,2025
+3707,FC Emmen,399472,Stan Van Manen,F,2007-05-12T07:00Z,,ESPN roster,2025
+3707,FC Emmen,3114413,Safyan Touré,F,,,ESPN roster,2025
+3707,FC Emmen,3124018,Daan Lambers,F,,,ESPN roster,2025
+2566,Excelsior,295996,Calvin Raatsie,G,2002-02-09T08:00Z,,ESPN roster,2025
+2566,Excelsior,308016,Pascal Kuiper,G,2004-03-17T08:00Z,,ESPN roster,2025
+2566,Excelsior,308976,Edwin Danquah,G,2003-09-14T07:00Z,,ESPN roster,2025
+2566,Excelsior,395979,Tijmen Holla,G,2006-07-25T07:00Z,,ESPN roster,2025
+2566,Excelsior,164082,Jurgen Mattheij,D,1993-04-01T08:00Z,,ESPN roster,2025
+2566,Excelsior,207428,Django Warmerdam,D,1995-09-02T07:00Z,,ESPN roster,2025
+2566,Excelsior,239686,Kik Pierie,D,2000-07-20T07:00Z,,ESPN roster,2025
+2566,Excelsior,265723,Ilias Bronkhorst,D,1997-05-10T07:00Z,,ESPN roster,2025
+2566,Excelsior,266190,Arthur Zagre,D,2001-10-04T07:00Z,,ESPN roster,2025
+2566,Excelsior,303840,Casper Widell,D,2003-05-05T07:00Z,,ESPN roster,2025
+2566,Excelsior,341887,Ronan Olivacce,D,2004-03-27T08:00Z,,ESPN roster,2025
+2566,Excelsior,370860,Kymani Nedd,F,2004-06-10T07:00Z,,ESPN roster,2025
+2566,Excelsior,378293,Siem De Moes,D,2004-02-17T08:00Z,,ESPN roster,2025
+2566,Excelsior,382819,Jose De Almeida Reis,D,2005-11-03T08:00Z,,ESPN roster,2025
+2566,Excelsior,399246,Nolan Martens,D,2004-07-07T07:00Z,,ESPN roster,2025
+2566,Excelsior,277854,Lance Duijvestijn,M,1999-01-15T08:00Z,,ESPN roster,2025
+2566,Excelsior,310133,Mathijs Tielemans,M,2002-04-26T07:00Z,,ESPN roster,2025
+2566,Excelsior,310394,Joshua Eijgenraam,M,2002-02-18T08:00Z,,ESPN roster,2025
+2566,Excelsior,321080,Lennard Hartjes,M,2003-04-07T07:00Z,,ESPN roster,2025
+2566,Excelsior,321341,Noah Naujoks,M,2002-05-02T07:00Z,,ESPN roster,2025
+2566,Excelsior,326258,Zach Booth,M,2004-02-17T08:00Z,,ESPN roster,2025
+2566,Excelsior,344853,Xander Blomme,M,2002-06-21T07:00Z,,ESPN roster,2025
+2566,Excelsior,379191,Cedric Hatenboer,M,2005-03-19T08:00Z,,ESPN roster,2025
+2566,Excelsior,385191,Liam Oetoehganal,M,2004-05-04T07:00Z,,ESPN roster,2025
+2566,Excelsior,388590,Guilliano Cairo,M,2006-03-18T08:00Z,,ESPN roster,2025
+2566,Excelsior,389277,Mika Luijendijk,M,2007-08-29T07:00Z,,ESPN roster,2025
+2566,Excelsior,389278,Stjin Middendorp,M,2004-12-02T08:00Z,,ESPN roster,2025
+2566,Excelsior,390610,Valentijn Zandbergen,M,2005-02-14T08:00Z,,ESPN roster,2025
+2566,Excelsior,157478,Mike van Duinen,F,1991-11-06T08:00Z,,ESPN roster,2025
+2566,Excelsior,290358,Jacky Donkor,F,1998-11-12T08:00Z,,ESPN roster,2025
+2566,Excelsior,304484,Sanches Fernandes,F,2001-05-28T07:00Z,,ESPN roster,2025
+2566,Excelsior,316173,Richie Omorowa,F,2004-03-30T08:00Z,,ESPN roster,2025
+2566,Excelsior,337122,Rayvien Rosario,F,2004-04-11T07:00Z,,ESPN roster,2025
+2566,Excelsior,344197,Nesto Groen,F,2004-07-22T07:00Z,,ESPN roster,2025
+2566,Excelsior,347409,Seydou Fini,F,2006-06-02T07:00Z,,ESPN roster,2025
+2566,Excelsior,388592,Jerolldino Bergraaf,F,2006-07-05T07:00Z,,ESPN roster,2025
+154,Vitesse,291228,Connor van den Berg,G,2001-03-18T08:00Z,,ESPN roster,2025
+154,Vitesse,297542,Tyrick Bodak,G,2002-05-15T07:00Z,,ESPN roster,2025
+154,Vitesse,354568,Maximilian Brüll,G,2002-08-26T07:00Z,,ESPN roster,2025
+154,Vitesse,401031,Jayden Siecker,G,2005-08-30T07:00Z,,ESPN roster,2025
+154,Vitesse,124933,Alexander Büttner,D,1989-02-11T08:00Z,,ESPN roster,2025
+154,Vitesse,264243,Nathangelo Markelo,D,1999-01-07T08:00Z,,ESPN roster,2025
+154,Vitesse,304838,Luuk Wouters,D,1999-06-08T07:00Z,,ESPN roster,2025
+154,Vitesse,324314,Solomon Bonnah Owusu,D,2003-08-19T07:00Z,,ESPN roster,2025
+154,Vitesse,326658,Valon Zumberi,D,2002-11-24T08:00Z,,ESPN roster,2025
+154,Vitesse,337119,Marcus Steffen,D,2003-02-01T08:00Z,,ESPN roster,2025
+154,Vitesse,340891,Chiel Keizer,D,2003-03-17T08:00Z,,ESPN roster,2025
+154,Vitesse,388594,Xiamaro Thenu,D,2004-10-22T07:00Z,,ESPN roster,2025
+154,Vitesse,401273,Jillian Bernardina,D,2006-01-29T08:00Z,,ESPN roster,2025
+154,Vitesse,406252,Hylke Van Der Mast,D,2006-04-14T07:00Z,,ESPN roster,2025
+154,Vitesse,410971,Omar Achouitar,D,2005-05-13T07:00Z,,ESPN roster,2025
+154,Vitesse,418378,Fabian Huetink,D,2006-12-13T08:00Z,,ESPN roster,2025
+154,Vitesse,419218,Tom Vlietstra,D,2006-05-11T07:00Z,,ESPN roster,2025
+154,Vitesse,239612,Marco Schikora,M,1994-09-20T07:00Z,,ESPN roster,2025
+154,Vitesse,320851,Filipe De Carvalho Ferreira,M,2003-12-01T08:00Z,,ESPN roster,2025
+154,Vitesse,357139,Pontus Dahbo,M,2005-10-11T07:00Z,,ESPN roster,2025
+154,Vitesse,401029,Mathijs Marschalk,M,2005-01-22T08:00Z,,ESPN roster,2025
+154,Vitesse,401030,Youssef Ouallil,M,2007-11-15T08:00Z,,ESPN roster,2025
+154,Vitesse,406330,Ricardo-Felipe Schwarz,M,2004-01-30T08:00Z,,ESPN roster,2025
+154,Vitesse,417685,Teun Bosch,M,2006-04-07T07:00Z,,ESPN roster,2025
+154,Vitesse,417827,Koen Te Veluwe,M,2006-05-11T07:00Z,,ESPN roster,2025
+154,Vitesse,3119921,Jort Van De Glind,M,,,ESPN roster,2025
+154,Vitesse,262471,Jeredy Hilterman,F,1998-06-20T07:00Z,,ESPN roster,2025
+154,Vitesse,287705,Naoufal Bannis,F,2002-03-11T08:00Z,,ESPN roster,2025
+154,Vitesse,291728,Ayman Sellouf,F,2001-08-25T07:00Z,,ESPN roster,2025
+154,Vitesse,345121,Eduard Probst,F,2001-03-24T08:00Z,,ESPN roster,2025
+154,Vitesse,396633,Nino Zonneveld,F,2005-12-06T08:00Z,,ESPN roster,2025
+154,Vitesse,410700,Yuval Ranon,F,2006-02-11T08:00Z,,ESPN roster,2025
+154,Vitesse,411857,Joâo Pinto,F,2004-05-31T07:00Z,,ESPN roster,2025
+154,Vitesse,420687,Mehdi Bouhekan,F,2005-11-17T08:00Z,,ESPN roster,2025
+154,Vitesse,3119922,Milan Brouwer,F,,,ESPN roster,2025
+2727,FC Volendam,191304,Hidde Jurjus,G,1994-02-09T08:00Z,,ESPN roster,2025
+2727,FC Volendam,306426,Dion Vlak,G,2001-06-28T07:00Z,,ESPN roster,2025
+2727,FC Volendam,356490,Roy Steur,G,2005-02-01T08:00Z,,ESPN roster,2025
+2727,FC Volendam,144339,Mawouna Amevor,D,1991-12-16T08:00Z,,ESPN roster,2025
+2727,FC Volendam,150194,Erik Schouten,D,1991-08-16T07:00Z,,ESPN roster,2025
+2727,FC Volendam,306449,Deron Payne,D,2002-09-25T07:00Z,,ESPN roster,2025
+2727,FC Volendam,324468,Jaïr Haakmat,D,2003-08-28T07:00Z,,ESPN roster,2025
+2727,FC Volendam,337603,Mike Kleijn,D,2005-02-09T08:00Z,,ESPN roster,2025
+2727,FC Volendam,367467,Nash Bijnoe,D,2005-03-30T08:00Z,,ESPN roster,2025
+2727,FC Volendam,380940,Precious Ugwu,D,2006-02-08T08:00Z,,ESPN roster,2025
+2727,FC Volendam,384166,Daan Bisschops,D,2005-03-30T08:00Z,,ESPN roster,2025
+2727,FC Volendam,390653,Luca Blondeau,D,2006-02-11T08:00Z,,ESPN roster,2025
+2727,FC Volendam,240909,Alex Plat,M,1998-02-04T08:00Z,,ESPN roster,2025
+2727,FC Volendam,305626,Daan Huisman,M,2002-07-26T07:00Z,,ESPN roster,2025
+2727,FC Volendam,365390,Nordin Bukala,M,2005-09-18T07:00Z,,ESPN roster,2025
+2727,FC Volendam,379212,Mika Van Der Horst,M,2005-05-11T07:00Z,,ESPN roster,2025
+2727,FC Volendam,388713,Tiago Codinha,M,2005-07-20T07:00Z,,ESPN roster,2025
+2727,FC Volendam,415459,Younes El Meftahi,M,2007-10-11T07:00Z,,ESPN roster,2025
+2727,FC Volendam,3118978,Mohammed Belfqih,M,,,ESPN roster,2025
+2727,FC Volendam,184150,Henk Veerman,F,1991-02-26T08:00Z,,ESPN roster,2025
+2727,FC Volendam,227279,Nick Doodeman,F,1996-10-22T07:00Z,,ESPN roster,2025
+2727,FC Volendam,241019,Reuven Niemeijer,F,1995-03-27T08:00Z,,ESPN roster,2025
+2727,FC Volendam,304180,Frederik Ihler,F,2003-06-25T07:00Z,,ESPN roster,2025
+2727,FC Volendam,357339,Serigne Deme,F,2005-02-04T08:00Z,,ESPN roster,2025
+2727,FC Volendam,372315,Kayden Wolff,F,2006-06-19T07:00Z,,ESPN roster,2025
+2727,FC Volendam,408736,Jesper Tielemans,F,2006-05-17T07:00Z,,ESPN roster,2025
+2727,FC Volendam,3100711,Jerayson Hoepel,F,,,ESPN roster,2025
+2727,FC Volendam,3102959,Jahmani Gambier,F,,,ESPN roster,2025
+2727,FC Volendam,3145032,Miguel Opoku Agyemang,F,,,ESPN roster,2025
+155,RKC Waalwijk,265612,Mark Spenkelink,G,1997-01-27T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,325076,Niek Schiks,G,2004-02-03T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,375657,Luuk Vogels,G,2003-07-06T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,403091,Xander Mulder,G,2005-01-25T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,195028,Jordy de Wijs,D,1995-01-08T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,258966,Navajo Bakboord,D,1999-01-29T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,264242,Juan Castillo,D,2000-01-13T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,283029,Liam van Gelderen,D,2001-03-23T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,291971,Azzedine Dkidak,D,2000-05-11T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,340215,Loek Postma,D,2003-03-05T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,360265,Nazjir Held,D,2005-09-02T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,363132,Faissal Al Mazyani,D,2005-01-18T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,365030,Bart Kemmeren,D,2007-04-22T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,376843,Sven Van Der Plas,D,2006-02-01T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,406260,Bjarn Zorgdrager,D,2004-04-13T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,304907,Thijs van Leeuwen,M,2001-07-15T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,313337,Ryan Fage,M,2003-10-31T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,330212,Rein Van Hedel,M,2004-11-06T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,334360,Tim Van De Loo,M,2003-03-22T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,406929,Jochem Nap,M,2005-02-04T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,3131387,Amin El Harchaoui,M,,,ESPN roster,2025
+155,RKC Waalwijk,156836,Virgil Misidjan,F,1993-07-24T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,195502,Finn Stokkers,F,1996-04-18T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,312513,Roy Kuijpers,F,2000-01-17T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,355505,Jesse Van De Haar,F,2005-01-26T08:00Z,,ESPN roster,2025
+155,RKC Waalwijk,369831,Yorem Van Der Veen,F,2005-06-30T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,394436,Keyan Varela,F,2006-04-26T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,3124021,Haye Van Gemert,F,,,ESPN roster,2025

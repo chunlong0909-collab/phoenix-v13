@@ -1,1 +1,1141 @@
-﻿
+﻿fixture_id,date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+666204,2023-04-14T22:00:00Z,2023,Guarani,Avaí,4.0,1.0,,,ESPN scoreboard
+666205,2023-04-15T00:30:00Z,2023,Ituano,Ceará,2.0,0.0,,,ESPN scoreboard
+666210,2023-04-15T19:00:00Z,2023,Vila Nova,Novorizontino,2.0,1.0,,,ESPN scoreboard
+666208,2023-04-15T20:00:00Z,2023,Mirassol,Chapecoense,1.0,0.0,,,ESPN scoreboard
+666209,2023-04-15T20:00:00Z,2023,Sampaio Corrêa,Atlético Goianiense,3.0,3.0,,,ESPN scoreboard
+666206,2023-04-15T21:15:00Z,2023,Juventude,Botafogo-SP,1.0,2.0,,,ESPN scoreboard
+666203,2023-04-16T14:00:00Z,2023,Criciúma,Tombense,2.0,0.0,,,ESPN scoreboard
+666207,2023-04-16T18:30:00Z,2023,Londrina,ABC,1.0,0.0,,,ESPN scoreboard
+666211,2023-04-16T21:00:00Z,2023,Vitória,Ponte Preta,3.0,0.0,,,ESPN scoreboard
+666213,2023-04-21T19:30:00Z,2023,Atlético Goianiense,CRB,2.0,1.0,,,ESPN scoreboard
+666215,2023-04-21T22:00:00Z,2023,Botafogo-SP,Sampaio Corrêa,1.0,0.0,,,ESPN scoreboard
+666219,2023-04-22T00:30:00Z,2023,Ponte Preta,Criciúma,1.0,2.0,,,ESPN scoreboard
+666221,2023-04-22T14:00:00Z,2023,Tombense,Ituano,3.0,0.0,,,ESPN scoreboard
+666214,2023-04-22T19:00:00Z,2023,Avaí,Mirassol,1.0,0.0,,,ESPN scoreboard
+666218,2023-04-22T20:00:00Z,2023,Novorizontino,Juventude,1.0,0.0,,,ESPN scoreboard
+666216,2023-04-22T21:15:00Z,2023,Ceará,Guarani,0.0,3.0,,,ESPN scoreboard
+666217,2023-04-23T18:30:00Z,2023,Chapecoense,Londrina,3.0,0.0,,,ESPN scoreboard
+666212,2023-04-23T21:00:00Z,2023,ABC,Vitória,0.0,3.0,,,ESPN scoreboard
+666225,2023-04-28T22:00:00Z,2023,Criciúma,Avaí,1.0,0.0,,,ESPN scoreboard
+666230,2023-04-28T22:00:00Z,2023,Vitória,Londrina,2.0,0.0,,,ESPN scoreboard
+666231,2023-04-29T00:30:00Z,2023,Guarani,Ituano,1.0,0.0,,,ESPN scoreboard
+666228,2023-04-29T19:00:00Z,2023,Sampaio Corrêa,Mirassol,1.0,3.0,,,ESPN scoreboard
+666223,2023-04-29T20:00:00Z,2023,Botafogo-SP,CRB,2.0,0.0,,,ESPN scoreboard
+666224,2023-04-29T20:00:00Z,2023,Chapecoense,Ponte Preta,1.0,1.0,,,ESPN scoreboard
+666229,2023-04-29T21:15:00Z,2023,Tombense,Atlético Goianiense,1.0,1.0,,,ESPN scoreboard
+666227,2023-04-30T18:30:00Z,2023,Novorizontino,Sport,0.0,0.0,,,ESPN scoreboard
+666222,2023-04-30T21:00:00Z,2023,ABC,Ceará,1.0,2.0,,,ESPN scoreboard
+666226,2023-04-30T21:15:00Z,2023,Vila Nova,Juventude,1.0,0.0,,,ESPN scoreboard
+666234,2023-05-01T19:00:00Z,2023,Londrina,Criciúma,1.0,1.0,,,ESPN scoreboard
+666240,2023-05-02T22:00:00Z,2023,CRB,Sampaio Corrêa,0.0,0.0,,,ESPN scoreboard
+666235,2023-05-02T22:00:00Z,2023,Ponte Preta,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+666238,2023-05-03T00:30:00Z,2023,Atlético Goianiense,Chapecoense,2.0,1.0,,,ESPN scoreboard
+666233,2023-05-03T22:00:00Z,2023,Ituano,ABC,3.0,0.0,,,ESPN scoreboard
+666232,2023-05-03T22:00:00Z,2023,Juventude,Guarani,1.0,0.0,,,ESPN scoreboard
+666236,2023-05-03T22:00:00Z,2023,Mirassol,Novorizontino,0.0,2.0,,,ESPN scoreboard
+666239,2023-05-04T00:15:00Z,2023,Avaí,Vila Nova,0.0,3.0,,,ESPN scoreboard
+666243,2023-05-06T00:30:00Z,2023,Botafogo-SP,Vitória,0.0,3.0,,,ESPN scoreboard
+666251,2023-05-06T19:00:00Z,2023,Criciúma,Ituano,2.0,1.0,,,ESPN scoreboard
+666246,2023-05-06T21:15:00Z,2023,Mirassol,Vila Nova,1.0,1.0,,,ESPN scoreboard
+666249,2023-05-06T21:15:00Z,2023,Sampaio Corrêa,Juventude,2.0,1.0,,,ESPN scoreboard
+666247,2023-05-06T21:15:00Z,2023,Tombense,Avaí,0.0,1.0,,,ESPN scoreboard
+666245,2023-05-06T23:30:00Z,2023,Chapecoense,Novorizontino,1.0,1.0,,,ESPN scoreboard
+666244,2023-05-06T23:30:00Z,2023,CRB,ABC,1.0,1.0,,,ESPN scoreboard
+666248,2023-05-07T14:00:00Z,2023,Ponte Preta,Ceará,0.0,0.0,,,ESPN scoreboard
+666250,2023-05-07T22:00:00Z,2023,Sport,Guarani,2.0,0.0,,,ESPN scoreboard
+666242,2023-05-08T23:00:00Z,2023,Atlético Goianiense,Londrina,2.0,1.0,,,ESPN scoreboard
+666241,2023-05-10T22:00:00Z,2023,Ceará,Vitória,0.0,2.0,,,ESPN scoreboard
+666237,2023-05-11T00:30:00Z,2023,Sport,Tombense,3.0,2.0,,,ESPN scoreboard
+666260,2023-05-12T22:00:00Z,2023,Vila Nova,Criciúma,0.0,0.0,,,ESPN scoreboard
+666253,2023-05-13T00:30:00Z,2023,Avaí,Chapecoense,1.0,4.0,,,ESPN scoreboard
+666257,2023-05-13T19:00:00Z,2023,Juventude,Mirassol,0.0,1.0,,,ESPN scoreboard
+666255,2023-05-13T20:00:00Z,2023,Guarani,Sampaio Corrêa,2.0,0.0,,,ESPN scoreboard
+666259,2023-05-13T20:00:00Z,2023,Novorizontino,CRB,0.0,1.0,,,ESPN scoreboard
+666254,2023-05-13T21:15:00Z,2023,Ceará,Tombense,2.0,0.0,,,ESPN scoreboard
+666258,2023-05-14T18:30:00Z,2023,Londrina,Ponte Preta,3.0,0.0,,,ESPN scoreboard
+666252,2023-05-14T21:00:00Z,2023,ABC,Botafogo-SP,1.0,2.0,,,ESPN scoreboard
+666261,2023-05-14T21:00:00Z,2023,Vitória,Atlético Goianiense,2.0,3.0,,,ESPN scoreboard
+666256,2023-05-14T23:30:00Z,2023,Ituano,Sport,1.0,1.0,,,ESPN scoreboard
+666267,2023-05-19T22:00:00Z,2023,Mirassol,Vitória,2.0,0.0,,,ESPN scoreboard
+666271,2023-05-19T22:00:00Z,2023,Tombense,Londrina,0.0,2.0,,,ESPN scoreboard
+666262,2023-05-20T00:30:00Z,2023,Atlético Goianiense,Avaí,0.0,0.0,,,ESPN scoreboard
+666270,2023-05-20T19:00:00Z,2023,Sport,Botafogo-SP,3.0,0.0,,,ESPN scoreboard
+666266,2023-05-20T20:00:00Z,2023,Ituano,Novorizontino,0.0,2.0,,,ESPN scoreboard
+666269,2023-05-20T20:00:00Z,2023,Sampaio Corrêa,ABC,1.0,0.0,,,ESPN scoreboard
+666264,2023-05-21T14:00:00Z,2023,Chapecoense,Juventude,0.0,2.0,,,ESPN scoreboard
+666265,2023-05-21T18:30:00Z,2023,Criciúma,Ceará,1.0,2.0,,,ESPN scoreboard
+666268,2023-05-21T21:00:00Z,2023,Ponte Preta,Guarani,1.0,1.0,,,ESPN scoreboard
+666263,2023-05-21T21:15:00Z,2023,CRB,Vila Nova,0.0,3.0,,,ESPN scoreboard
+666273,2023-05-23T22:00:00Z,2023,Botafogo-SP,Mirassol,1.0,0.0,,,ESPN scoreboard
+666272,2023-05-24T00:30:00Z,2023,ABC,Tombense,1.0,0.0,,,ESPN scoreboard
+666278,2023-05-24T00:30:00Z,2023,Novorizontino,Avaí,2.0,0.0,,,ESPN scoreboard
+666276,2023-05-24T22:00:00Z,2023,Juventude,Atlético Goianiense,3.0,0.0,,,ESPN scoreboard
+666277,2023-05-24T22:00:00Z,2023,Londrina,Ceará,1.0,3.0,,,ESPN scoreboard
+666280,2023-05-24T22:00:00Z,2023,Vila Nova,Ituano,1.0,0.0,,,ESPN scoreboard
+666281,2023-05-24T22:00:00Z,2023,Vitória,CRB,1.0,0.0,,,ESPN scoreboard
+666275,2023-05-25T00:15:00Z,2023,Guarani,Chapecoense,3.0,3.0,,,ESPN scoreboard
+666274,2023-05-25T00:30:00Z,2023,Criciúma,Sport,1.0,0.0,,,ESPN scoreboard
+666279,2023-05-25T00:30:00Z,2023,Sampaio Corrêa,Ponte Preta,0.0,0.0,,,ESPN scoreboard
+666284,2023-05-27T20:00:00Z,2023,CRB,Juventude,1.0,2.0,,,ESPN scoreboard
+666287,2023-05-27T20:00:00Z,2023,Ituano,Londrina,3.0,1.0,,,ESPN scoreboard
+666283,2023-05-27T20:30:00Z,2023,Avaí,Vitória,1.0,1.0,,,ESPN scoreboard
+666282,2023-05-27T21:00:00Z,2023,Atlético Goianiense,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+666289,2023-05-28T14:00:00Z,2023,Ponte Preta,Vila Nova,1.0,0.0,,,ESPN scoreboard
+666285,2023-05-28T18:30:00Z,2023,Ceará,Novorizontino,0.0,3.0,,,ESPN scoreboard
+666288,2023-05-28T18:30:00Z,2023,Mirassol,Criciúma,1.0,0.0,,,ESPN scoreboard
+666286,2023-05-28T21:00:00Z,2023,Sport,ABC,4.0,1.0,,,ESPN scoreboard
+666290,2023-05-28T21:15:00Z,2023,Tombense,Guarani,1.0,1.0,,,ESPN scoreboard
+666291,2023-05-29T23:00:00Z,2023,Chapecoense,Sampaio Corrêa,0.0,1.0,,,ESPN scoreboard
+666295,2023-06-02T22:00:00Z,2023,Botafogo-SP,Tombense,0.0,0.0,,,ESPN scoreboard
+666296,2023-06-02T22:00:00Z,2023,Ceará,Chapecoense,2.0,0.0,,,ESPN scoreboard
+666297,2023-06-03T00:30:00Z,2023,Criciúma,Atlético Goianiense,3.0,0.0,,,ESPN scoreboard
+666293,2023-06-03T00:30:00Z,2023,Vitória,Ituano,3.0,0.0,,,ESPN scoreboard
+666299,2023-06-03T19:00:00Z,2023,Juventude,Avaí,3.0,2.0,,,ESPN scoreboard
+666294,2023-06-03T20:00:00Z,2023,ABC,Novorizontino,0.0,1.0,,,ESPN scoreboard
+666301,2023-06-03T20:00:00Z,2023,Mirassol,Ponte Preta,1.0,0.0,,,ESPN scoreboard
+666292,2023-06-03T22:00:00Z,2023,Vila Nova,Sampaio Corrêa,3.0,0.0,,,ESPN scoreboard
+666298,2023-06-04T18:30:00Z,2023,Guarani,CRB,0.0,1.0,,,ESPN scoreboard
+666300,2023-06-04T21:00:00Z,2023,Londrina,Sport,1.0,2.0,,,ESPN scoreboard
+666310,2023-06-06T22:00:00Z,2023,Chapecoense,Vila Nova,0.0,1.0,,,ESPN scoreboard
+666308,2023-06-06T22:00:00Z,2023,Ponte Preta,ABC,0.0,0.0,,,ESPN scoreboard
+666303,2023-06-06T22:00:00Z,2023,Tombense,Vitória,1.0,2.0,,,ESPN scoreboard
+666305,2023-06-07T00:30:00Z,2023,Atlético Goianiense,Ceará,0.0,3.0,,,ESPN scoreboard
+666304,2023-06-07T00:30:00Z,2023,Botafogo-SP,Ituano,0.0,2.0,,,ESPN scoreboard
+666307,2023-06-07T22:00:00Z,2023,Novorizontino,Guarani,1.0,0.0,,,ESPN scoreboard
+666309,2023-06-07T22:00:00Z,2023,Sampaio Corrêa,Londrina,2.0,0.0,,,ESPN scoreboard
+666302,2023-06-07T22:00:00Z,2023,Sport,Avaí,2.0,1.0,,,ESPN scoreboard
+666311,2023-06-08T00:30:00Z,2023,CRB,Mirassol,2.0,0.0,,,ESPN scoreboard
+666306,2023-06-08T19:00:00Z,2023,Criciúma,Juventude,0.0,1.0,,,ESPN scoreboard
+666312,2023-06-10T00:30:00Z,2023,ABC,Chapecoense,1.0,1.0,,,ESPN scoreboard
+666320,2023-06-10T19:00:00Z,2023,Vila Nova,Guarani,0.0,0.0,,,ESPN scoreboard
+666315,2023-06-10T20:00:00Z,2023,Ituano,Atlético Goianiense,1.0,1.0,,,ESPN scoreboard
+666318,2023-06-10T20:00:00Z,2023,Novorizontino,Sampaio Corrêa,1.0,0.0,,,ESPN scoreboard
+666314,2023-06-10T22:30:00Z,2023,Ceará,CRB,1.0,3.0,,,ESPN scoreboard
+666316,2023-06-11T14:00:00Z,2023,Londrina,Mirassol,1.0,2.0,,,ESPN scoreboard
+666319,2023-06-11T14:00:00Z,2023,Ponte Preta,Sport,1.0,1.0,,,ESPN scoreboard
+666313,2023-06-11T18:30:00Z,2023,Avaí,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+666317,2023-06-11T21:00:00Z,2023,Vitória,Criciúma,0.0,1.0,,,ESPN scoreboard
+666321,2023-06-11T21:15:00Z,2023,Juventude,Tombense,1.0,2.0,,,ESPN scoreboard
+666220,2023-06-18T21:00:00Z,2023,Sport,Vila Nova,1.0,0.0,,,ESPN scoreboard
+666325,2023-06-21T22:00:00Z,2023,CRB,Ituano,2.0,2.0,,,ESPN scoreboard
+666330,2023-06-23T00:30:00Z,2023,Sport,Juventude,3.0,0.0,,,ESPN scoreboard
+666322,2023-06-23T22:00:00Z,2023,Atlético Goianiense,Ponte Preta,1.0,0.0,,,ESPN scoreboard
+666324,2023-06-24T14:00:00Z,2023,Botafogo-SP,Vila Nova,0.0,3.0,,,ESPN scoreboard
+666323,2023-06-24T19:00:00Z,2023,Avaí,Londrina,0.0,0.0,,,ESPN scoreboard
+666326,2023-06-24T20:00:00Z,2023,Chapecoense,Criciúma,1.0,1.0,,,ESPN scoreboard
+666331,2023-06-24T21:15:00Z,2023,Tombense,Novorizontino,1.0,2.0,,,ESPN scoreboard
+666328,2023-06-25T14:00:00Z,2023,Mirassol,ABC,3.0,2.0,,,ESPN scoreboard
+666329,2023-06-25T18:30:00Z,2023,Sampaio Corrêa,Ceará,1.0,1.0,,,ESPN scoreboard
+666327,2023-06-25T21:00:00Z,2023,Guarani,Vitória,2.0,0.0,,,ESPN scoreboard
+666334,2023-06-27T22:00:00Z,2023,Chapecoense,Sport,1.0,1.0,,,ESPN scoreboard
+666335,2023-06-27T22:00:00Z,2023,Criciúma,CRB,2.0,1.0,,,ESPN scoreboard
+666339,2023-06-28T00:30:00Z,2023,Novorizontino,Botafogo-SP,0.0,1.0,,,ESPN scoreboard
+666340,2023-06-28T00:30:00Z,2023,Vila Nova,Tombense,1.0,0.0,,,ESPN scoreboard
+666332,2023-06-28T22:00:00Z,2023,ABC,Atlético Goianiense,1.0,1.0,,,ESPN scoreboard
+666333,2023-06-28T22:00:00Z,2023,Ceará,Avaí,0.0,0.0,,,ESPN scoreboard
+666336,2023-06-29T00:30:00Z,2023,Guarani,Mirassol,2.0,1.0,,,ESPN scoreboard
+666337,2023-06-29T00:30:00Z,2023,Ituano,Ponte Preta,0.0,1.0,,,ESPN scoreboard
+666338,2023-06-29T00:30:00Z,2023,Londrina,Juventude,1.0,2.0,,,ESPN scoreboard
+666341,2023-06-29T00:30:00Z,2023,Vitória,Sampaio Corrêa,2.0,1.0,,,ESPN scoreboard
+666343,2023-07-01T00:30:00Z,2023,Tombense,Chapecoense,4.0,2.0,,,ESPN scoreboard
+666342,2023-07-01T19:00:00Z,2023,Atlético Goianiense,Vila Nova,1.0,1.0,,,ESPN scoreboard
+666347,2023-07-01T20:00:00Z,2023,Avaí,ABC,0.0,2.0,,,ESPN scoreboard
+666346,2023-07-01T20:00:00Z,2023,Sampaio Corrêa,Criciúma,0.0,2.0,,,ESPN scoreboard
+666345,2023-07-01T21:15:00Z,2023,CRB,Londrina,2.0,1.0,,,ESPN scoreboard
+666350,2023-07-02T18:30:00Z,2023,Juventude,Vitória,1.0,0.0,,,ESPN scoreboard
+666344,2023-07-02T21:00:00Z,2023,Sport,Ceará,2.0,0.0,,,ESPN scoreboard
+666348,2023-07-02T23:30:00Z,2023,Ponte Preta,Novorizontino,1.0,0.0,,,ESPN scoreboard
+666349,2023-07-03T21:00:00Z,2023,Mirassol,Ituano,0.0,1.0,,,ESPN scoreboard
+666351,2023-07-03T23:15:00Z,2023,Botafogo-SP,Guarani,1.0,0.0,,,ESPN scoreboard
+666202,2023-07-05T22:00:00Z,2023,CRB,Sport,2.0,0.0,,,ESPN scoreboard
+666357,2023-07-07T22:00:00Z,2023,Novorizontino,Atlético Goianiense,2.0,2.0,,,ESPN scoreboard
+666361,2023-07-08T00:30:00Z,2023,Ceará,Botafogo-SP,3.0,0.0,,,ESPN scoreboard
+666354,2023-07-08T14:00:00Z,2023,Guarani,Londrina,2.0,1.0,,,ESPN scoreboard
+666352,2023-07-08T18:30:00Z,2023,ABC,Criciúma,0.0,1.0,,,ESPN scoreboard
+666353,2023-07-08T20:00:00Z,2023,Avaí,Ponte Preta,0.0,1.0,,,ESPN scoreboard
+666358,2023-07-08T20:00:00Z,2023,Ituano,Juventude,1.0,1.0,,,ESPN scoreboard
+666355,2023-07-08T21:00:00Z,2023,Tombense,Sampaio Corrêa,0.0,1.0,,,ESPN scoreboard
+666360,2023-07-09T18:30:00Z,2023,Chapecoense,CRB,2.0,1.0,,,ESPN scoreboard
+666356,2023-07-09T21:00:00Z,2023,Sport,Mirassol,0.0,0.0,,,ESPN scoreboard
+666359,2023-07-10T23:00:00Z,2023,Vila Nova,Vitória,1.0,0.0,,,ESPN scoreboard
+666362,2023-07-13T23:00:00Z,2023,Criciúma,Guarani,1.0,1.0,,,ESPN scoreboard
+666368,2023-07-15T00:30:00Z,2023,Atlético Goianiense,Sport,3.0,1.0,,,ESPN scoreboard
+666365,2023-07-15T00:30:00Z,2023,Sampaio Corrêa,Ituano,0.0,0.0,,,ESPN scoreboard
+666367,2023-07-15T14:00:00Z,2023,Juventude,ABC,1.0,1.0,,,ESPN scoreboard
+666366,2023-07-15T20:00:00Z,2023,Londrina,Vila Nova,1.0,0.0,,,ESPN scoreboard
+666364,2023-07-15T20:00:00Z,2023,Ponte Preta,Tombense,0.0,1.0,,,ESPN scoreboard
+666363,2023-07-16T18:30:00Z,2023,Mirassol,Ceará,1.0,1.0,,,ESPN scoreboard
+666371,2023-07-16T21:00:00Z,2023,Vitória,Novorizontino,2.0,1.0,,,ESPN scoreboard
+666372,2023-07-17T23:00:00Z,2023,Botafogo-SP,Criciúma,1.0,0.0,,,ESPN scoreboard
+666376,2023-07-18T21:00:00Z,2023,Tombense,CRB,2.0,1.0,,,ESPN scoreboard
+666379,2023-07-18T22:00:00Z,2023,Chapecoense,Ituano,1.0,0.0,,,ESPN scoreboard
+666381,2023-07-19T00:30:00Z,2023,Ponte Preta,Juventude,0.0,0.0,,,ESPN scoreboard
+666374,2023-07-19T22:00:00Z,2023,Atlético Goianiense,Mirassol,2.0,2.0,,,ESPN scoreboard
+666380,2023-07-19T22:00:00Z,2023,Novorizontino,Londrina,3.0,0.0,,,ESPN scoreboard
+666375,2023-07-20T00:30:00Z,2023,ABC,Guarani,0.0,1.0,,,ESPN scoreboard
+666373,2023-07-20T00:30:00Z,2023,Avaí,Sampaio Corrêa,2.0,0.0,,,ESPN scoreboard
+666378,2023-07-20T00:30:00Z,2023,Ceará,Vila Nova,1.0,0.0,,,ESPN scoreboard
+666377,2023-07-20T00:30:00Z,2023,Sport,Vitória,1.0,2.0,,,ESPN scoreboard
+666382,2023-07-21T22:00:00Z,2023,CRB,Ponte Preta,1.0,0.0,,,ESPN scoreboard
+666387,2023-07-22T18:30:00Z,2023,Mirassol,Tombense,2.0,0.0,,,ESPN scoreboard
+666383,2023-07-22T20:00:00Z,2023,Criciúma,Novorizontino,0.0,1.0,,,ESPN scoreboard
+666385,2023-07-22T20:00:00Z,2023,Vila Nova,ABC,1.0,1.0,,,ESPN scoreboard
+666390,2023-07-22T21:00:00Z,2023,Ituano,Avaí,0.0,1.0,,,ESPN scoreboard
+666391,2023-07-23T14:00:00Z,2023,Guarani,Atlético Goianiense,1.0,0.0,,,ESPN scoreboard
+666389,2023-07-23T18:30:00Z,2023,Juventude,Ceará,1.0,0.0,,,ESPN scoreboard
+666386,2023-07-23T21:00:00Z,2023,Sampaio Corrêa,Sport,1.0,2.0,,,ESPN scoreboard
+666388,2023-07-24T22:00:00Z,2023,Londrina,Botafogo-SP,1.0,2.0,,,ESPN scoreboard
+666384,2023-07-24T22:00:00Z,2023,Vitória,Chapecoense,1.0,0.0,,,ESPN scoreboard
+666396,2023-07-28T22:00:00Z,2023,Ceará,Ituano,1.0,1.0,,,ESPN scoreboard
+666397,2023-07-29T00:30:00Z,2023,Sport,CRB,2.0,0.0,,,ESPN scoreboard
+666394,2023-07-29T14:00:00Z,2023,Chapecoense,Mirassol,0.0,1.0,,,ESPN scoreboard
+666398,2023-07-29T18:30:00Z,2023,Botafogo-SP,Juventude,0.0,2.0,,,ESPN scoreboard
+666392,2023-07-29T20:00:00Z,2023,ABC,Londrina,0.0,0.0,,,ESPN scoreboard
+666399,2023-07-29T20:00:00Z,2023,Avaí,Guarani,1.0,2.0,,,ESPN scoreboard
+666400,2023-07-29T21:00:00Z,2023,Atlético Goianiense,Sampaio Corrêa,2.0,2.0,,,ESPN scoreboard
+666393,2023-07-30T14:00:00Z,2023,Tombense,Criciúma,2.0,2.0,,,ESPN scoreboard
+666395,2023-07-30T18:30:00Z,2023,Novorizontino,Vila Nova,3.0,1.0,,,ESPN scoreboard
+666401,2023-07-30T21:00:00Z,2023,Ponte Preta,Vitória,2.0,2.0,,,ESPN scoreboard
+666404,2023-08-01T22:00:00Z,2023,Mirassol,Avaí,2.0,2.0,,,ESPN scoreboard
+666403,2023-08-01T22:00:00Z,2023,Sampaio Corrêa,Botafogo-SP,0.0,0.0,,,ESPN scoreboard
+666410,2023-08-02T00:30:00Z,2023,CRB,Atlético Goianiense,2.0,1.0,,,ESPN scoreboard
+666409,2023-08-02T22:00:00Z,2023,Criciúma,Ponte Preta,2.0,1.0,,,ESPN scoreboard
+666407,2023-08-02T22:00:00Z,2023,Ituano,Tombense,1.0,0.0,,,ESPN scoreboard
+666408,2023-08-03T00:30:00Z,2023,Guarani,Ceará,0.0,0.0,,,ESPN scoreboard
+666406,2023-08-03T00:30:00Z,2023,Juventude,Novorizontino,1.0,0.0,,,ESPN scoreboard
+666405,2023-08-03T00:30:00Z,2023,Londrina,Chapecoense,1.0,1.0,,,ESPN scoreboard
+666402,2023-08-03T00:30:00Z,2023,Vila Nova,Sport,0.0,1.0,,,ESPN scoreboard
+666411,2023-08-03T00:30:00Z,2023,Vitória,ABC,2.0,0.0,,,ESPN scoreboard
+666419,2023-08-05T00:30:00Z,2023,Mirassol,Sampaio Corrêa,0.0,0.0,,,ESPN scoreboard
+666413,2023-08-05T18:30:00Z,2023,Avaí,Criciúma,1.0,0.0,,,ESPN scoreboard
+666414,2023-08-05T20:00:00Z,2023,CRB,Botafogo-SP,0.0,0.0,,,ESPN scoreboard
+666421,2023-08-05T20:00:00Z,2023,Ituano,Guarani,1.0,1.0,,,ESPN scoreboard
+666417,2023-08-05T21:00:00Z,2023,Sport,Novorizontino,1.0,0.0,,,ESPN scoreboard
+666420,2023-08-06T18:30:00Z,2023,Ponte Preta,Chapecoense,1.0,0.0,,,ESPN scoreboard
+666415,2023-08-06T21:00:00Z,2023,Ceará,ABC,1.0,0.0,,,ESPN scoreboard
+666416,2023-08-07T21:00:00Z,2023,Juventude,Vila Nova,0.0,2.0,,,ESPN scoreboard
+666412,2023-08-07T23:00:00Z,2023,Atlético Goianiense,Tombense,3.0,2.0,,,ESPN scoreboard
+666418,2023-08-07T23:00:00Z,2023,Londrina,Vitória,2.0,0.0,,,ESPN scoreboard
+666425,2023-08-11T22:00:00Z,2023,Novorizontino,Mirassol,2.0,1.0,,,ESPN scoreboard
+666423,2023-08-12T00:30:00Z,2023,Tombense,Sport,0.0,0.0,,,ESPN scoreboard
+666427,2023-08-12T18:30:00Z,2023,Criciúma,Londrina,2.0,0.0,,,ESPN scoreboard
+666429,2023-08-12T20:00:00Z,2023,Botafogo-SP,Ponte Preta,0.0,0.0,,,ESPN scoreboard
+666424,2023-08-12T20:00:00Z,2023,Sampaio Corrêa,CRB,1.0,1.0,,,ESPN scoreboard
+666422,2023-08-12T21:00:00Z,2023,Vila Nova,Avaí,1.0,1.0,,,ESPN scoreboard
+666428,2023-08-13T14:00:00Z,2023,Chapecoense,Atlético Goianiense,0.0,1.0,,,ESPN scoreboard
+666426,2023-08-13T18:45:00Z,2023,Guarani,Juventude,0.0,1.0,,,ESPN scoreboard
+666431,2023-08-13T21:00:00Z,2023,Vitória,Ceará,1.0,0.0,,,ESPN scoreboard
+666430,2023-08-14T23:00:00Z,2023,ABC,Ituano,1.0,1.0,,,ESPN scoreboard
+666434,2023-08-17T22:00:00Z,2023,Londrina,Atlético Goianiense,0.0,2.0,,,ESPN scoreboard
+666432,2023-08-18T00:30:00Z,2023,Vila Nova,Mirassol,2.0,0.0,,,ESPN scoreboard
+666441,2023-08-18T22:00:00Z,2023,Vitória,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+666440,2023-08-19T00:30:00Z,2023,Guarani,Sport,3.0,1.0,,,ESPN scoreboard
+666438,2023-08-19T18:30:00Z,2023,Avaí,Tombense,4.0,2.0,,,ESPN scoreboard
+666437,2023-08-19T20:00:00Z,2023,ABC,CRB,1.0,2.0,,,ESPN scoreboard
+666436,2023-08-19T20:00:00Z,2023,Ituano,Criciúma,3.0,0.0,,,ESPN scoreboard
+666435,2023-08-19T21:00:00Z,2023,Juventude,Sampaio Corrêa,0.0,0.0,,,ESPN scoreboard
+666433,2023-08-20T18:45:00Z,2023,Novorizontino,Chapecoense,1.0,2.0,,,ESPN scoreboard
+666439,2023-08-20T21:00:00Z,2023,Ceará,Ponte Preta,1.0,1.0,,,ESPN scoreboard
+666451,2023-08-22T22:00:00Z,2023,Mirassol,Juventude,0.0,1.0,,,ESPN scoreboard
+666446,2023-08-23T00:30:00Z,2023,Criciúma,Vila Nova,1.0,0.0,,,ESPN scoreboard
+666370,2023-08-23T22:00:00Z,2023,CRB,Avaí,1.0,1.0,,,ESPN scoreboard
+666369,2023-08-24T00:30:00Z,2023,Botafogo-SP,Chapecoense,1.0,2.0,,,ESPN scoreboard
+666442,2023-08-25T22:00:00Z,2023,Ponte Preta,Londrina,1.0,0.0,,,ESPN scoreboard
+666444,2023-08-26T00:30:00Z,2023,Sport,Ituano,1.0,2.0,,,ESPN scoreboard
+666443,2023-08-26T20:00:00Z,2023,Sampaio Corrêa,Guarani,1.0,1.0,,,ESPN scoreboard
+666445,2023-08-26T20:00:00Z,2023,Tombense,Ceará,2.0,2.0,,,ESPN scoreboard
+666449,2023-08-26T21:00:00Z,2023,CRB,Novorizontino,1.0,0.0,,,ESPN scoreboard
+666450,2023-08-27T18:45:00Z,2023,Chapecoense,Avaí,0.0,0.0,,,ESPN scoreboard
+666447,2023-08-27T21:00:00Z,2023,Atlético Goianiense,Vitória,0.0,0.0,,,ESPN scoreboard
+666448,2023-08-28T23:00:00Z,2023,Botafogo-SP,ABC,0.0,0.0,,,ESPN scoreboard
+666458,2023-08-30T22:00:00Z,2023,Novorizontino,Ituano,2.0,0.0,,,ESPN scoreboard
+666456,2023-09-01T00:30:00Z,2023,Juventude,Chapecoense,0.0,0.0,,,ESPN scoreboard
+666459,2023-09-01T22:15:00Z,2023,Vitória,Mirassol,0.0,0.0,,,ESPN scoreboard
+666457,2023-09-02T00:30:00Z,2023,Londrina,Tombense,1.0,1.0,,,ESPN scoreboard
+666453,2023-09-02T18:30:00Z,2023,Avaí,Atlético Goianiense,0.0,2.0,,,ESPN scoreboard
+666452,2023-09-02T20:00:00Z,2023,ABC,Sampaio Corrêa,1.0,1.0,,,ESPN scoreboard
+666460,2023-09-02T20:00:00Z,2023,Ceará,Criciúma,1.0,0.0,,,ESPN scoreboard
+666455,2023-09-02T21:00:00Z,2023,Guarani,Ponte Preta,1.0,0.0,,,ESPN scoreboard
+666454,2023-09-03T18:45:00Z,2023,Vila Nova,CRB,0.0,1.0,,,ESPN scoreboard
+666461,2023-09-03T21:00:00Z,2023,Botafogo-SP,Sport,1.0,1.0,,,ESPN scoreboard
+666462,2023-09-06T00:30:00Z,2023,Chapecoense,Guarani,0.0,1.0,,,ESPN scoreboard
+666466,2023-09-07T00:30:00Z,2023,Ceará,Londrina,3.0,1.0,,,ESPN scoreboard
+666471,2023-09-07T21:30:00Z,2023,Tombense,ABC,3.0,0.0,,,ESPN scoreboard
+666470,2023-09-08T21:00:00Z,2023,Ituano,Vila Nova,1.0,2.0,,,ESPN scoreboard
+666468,2023-09-09T20:00:00Z,2023,Ponte Preta,Sampaio Corrêa,0.0,0.0,,,ESPN scoreboard
+666469,2023-09-09T23:30:00Z,2023,Mirassol,Botafogo-SP,1.0,0.0,,,ESPN scoreboard
+666467,2023-09-09T23:45:00Z,2023,Sport,Criciúma,3.0,3.0,,,ESPN scoreboard
+666465,2023-09-10T18:45:00Z,2023,Atlético Goianiense,Juventude,3.0,0.0,,,ESPN scoreboard
+666463,2023-09-10T21:00:00Z,2023,CRB,Vitória,6.0,0.0,,,ESPN scoreboard
+666464,2023-09-11T23:30:00Z,2023,Avaí,Novorizontino,1.0,0.0,,,ESPN scoreboard
+666477,2023-09-14T21:30:00Z,2023,Londrina,Ituano,2.0,2.0,,,ESPN scoreboard
+666480,2023-09-15T22:00:00Z,2023,Vila Nova,Ponte Preta,1.0,1.0,,,ESPN scoreboard
+666472,2023-09-16T00:30:00Z,2023,ABC,Sport,0.0,1.0,,,ESPN scoreboard
+666474,2023-09-16T18:30:00Z,2023,Criciúma,Mirassol,2.0,1.0,,,ESPN scoreboard
+666473,2023-09-16T20:00:00Z,2023,Botafogo-SP,Atlético Goianiense,1.0,0.0,,,ESPN scoreboard
+666479,2023-09-16T20:00:00Z,2023,Sampaio Corrêa,Chapecoense,2.0,0.0,,,ESPN scoreboard
+666476,2023-09-16T21:00:00Z,2023,Juventude,CRB,3.0,1.0,,,ESPN scoreboard
+666475,2023-09-17T18:45:00Z,2023,Guarani,Tombense,3.0,0.0,,,ESPN scoreboard
+666481,2023-09-17T21:00:00Z,2023,Vitória,Avaí,3.0,0.0,,,ESPN scoreboard
+666478,2023-09-19T00:00:00Z,2023,Novorizontino,Ceará,4.0,1.0,,,ESPN scoreboard
+666489,2023-09-20T00:30:00Z,2023,Sampaio Corrêa,Vila Nova,2.0,1.0,,,ESPN scoreboard
+666488,2023-09-22T22:00:00Z,2023,Ponte Preta,Mirassol,0.0,3.0,,,ESPN scoreboard
+666482,2023-09-23T00:30:00Z,2023,Atlético Goianiense,Criciúma,3.0,1.0,,,ESPN scoreboard
+666491,2023-09-23T00:30:00Z,2023,Ituano,Vitória,0.0,2.0,,,ESPN scoreboard
+666485,2023-09-23T20:00:00Z,2023,Chapecoense,Ceará,1.0,1.0,,,ESPN scoreboard
+666484,2023-09-23T20:00:00Z,2023,CRB,Guarani,1.0,0.0,,,ESPN scoreboard
+666487,2023-09-23T21:00:00Z,2023,Tombense,Botafogo-SP,0.0,0.0,,,ESPN scoreboard
+666490,2023-09-23T23:45:00Z,2023,Sport,Londrina,4.0,0.0,,,ESPN scoreboard
+666483,2023-09-25T21:30:00Z,2023,Avaí,Juventude,0.0,2.0,,,ESPN scoreboard
+666486,2023-09-26T00:00:00Z,2023,Novorizontino,ABC,2.0,1.0,,,ESPN scoreboard
+666496,2023-09-28T22:00:00Z,2023,Mirassol,CRB,1.0,0.0,,,ESPN scoreboard
+666494,2023-09-29T00:30:00Z,2023,Londrina,Sampaio Corrêa,1.0,0.0,,,ESPN scoreboard
+666499,2023-09-29T22:00:00Z,2023,Avaí,Sport,2.0,2.0,,,ESPN scoreboard
+666497,2023-09-30T00:30:00Z,2023,Vitória,Tombense,1.0,0.0,,,ESPN scoreboard
+666492,2023-09-30T18:30:00Z,2023,Juventude,Criciúma,1.0,0.0,,,ESPN scoreboard
+666501,2023-09-30T20:00:00Z,2023,Guarani,Novorizontino,2.0,1.0,,,ESPN scoreboard
+666493,2023-09-30T20:00:00Z,2023,Ituano,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+666498,2023-09-30T21:00:00Z,2023,ABC,Ponte Preta,2.0,0.0,,,ESPN scoreboard
+666495,2023-10-01T18:45:00Z,2023,Vila Nova,Chapecoense,0.0,0.0,,,ESPN scoreboard
+666500,2023-10-01T21:00:00Z,2023,Ceará,Atlético Goianiense,0.0,1.0,,,ESPN scoreboard
+666508,2023-10-03T22:30:00Z,2023,Mirassol,Londrina,2.0,0.0,,,ESPN scoreboard
+666505,2023-10-05T22:15:00Z,2023,Chapecoense,ABC,0.0,0.0,,,ESPN scoreboard
+666502,2023-10-07T00:30:00Z,2023,Atlético Goianiense,Ituano,1.0,0.0,,,ESPN scoreboard
+666504,2023-10-07T00:30:00Z,2023,CRB,Ceará,2.0,0.0,,,ESPN scoreboard
+666507,2023-10-07T18:30:00Z,2023,Tombense,Juventude,1.0,1.0,,,ESPN scoreboard
+666503,2023-10-07T20:00:00Z,2023,Botafogo-SP,Avaí,0.0,1.0,,,ESPN scoreboard
+666509,2023-10-07T20:00:00Z,2023,Sampaio Corrêa,Novorizontino,1.0,1.0,,,ESPN scoreboard
+666506,2023-10-07T21:00:00Z,2023,Guarani,Vila Nova,1.0,1.0,,,ESPN scoreboard
+666511,2023-10-08T21:00:00Z,2023,Criciúma,Vitória,1.0,0.0,,,ESPN scoreboard
+666510,2023-10-09T23:00:00Z,2023,Sport,Ponte Preta,3.0,3.0,,,ESPN scoreboard
+666512,2023-10-11T00:30:00Z,2023,ABC,Mirassol,1.0,2.0,,,ESPN scoreboard
+666520,2023-10-12T00:30:00Z,2023,Vila Nova,Botafogo-SP,3.0,1.0,,,ESPN scoreboard
+666514,2023-10-14T00:30:00Z,2023,Criciúma,Chapecoense,1.0,2.0,,,ESPN scoreboard
+666515,2023-10-14T20:00:00Z,2023,Ituano,CRB,0.0,0.0,,,ESPN scoreboard
+666518,2023-10-14T20:00:00Z,2023,Novorizontino,Tombense,0.0,0.0,,,ESPN scoreboard
+666513,2023-10-14T21:30:00Z,2023,Ceará,Sampaio Corrêa,0.0,0.0,,,ESPN scoreboard
+666519,2023-10-15T18:45:00Z,2023,Ponte Preta,Atlético Goianiense,0.0,2.0,,,ESPN scoreboard
+666521,2023-10-15T21:00:00Z,2023,Vitória,Guarani,2.0,0.0,,,ESPN scoreboard
+666517,2023-10-15T21:30:00Z,2023,Londrina,Avaí,1.0,1.0,,,ESPN scoreboard
+666516,2023-10-16T23:00:00Z,2023,Juventude,Sport,2.0,2.0,,,ESPN scoreboard
+666522,2023-10-19T22:00:00Z,2023,Atlético Goianiense,ABC,3.0,1.0,,,ESPN scoreboard
+666531,2023-10-19T22:00:00Z,2023,Tombense,Vila Nova,2.0,1.0,,,ESPN scoreboard
+666529,2023-10-20T22:00:00Z,2023,Sampaio Corrêa,Vitória,0.0,1.0,,,ESPN scoreboard
+666527,2023-10-21T00:30:00Z,2023,Mirassol,Guarani,0.0,0.0,,,ESPN scoreboard
+666524,2023-10-21T20:00:00Z,2023,Botafogo-SP,Novorizontino,2.0,0.0,,,ESPN scoreboard
+666525,2023-10-21T20:00:00Z,2023,CRB,Criciúma,0.0,1.0,,,ESPN scoreboard
+666526,2023-10-21T21:00:00Z,2023,Juventude,Londrina,2.0,2.0,,,ESPN scoreboard
+666523,2023-10-22T21:00:00Z,2023,Avaí,Ceará,1.0,0.0,,,ESPN scoreboard
+666530,2023-10-22T21:00:00Z,2023,Sport,Chapecoense,2.0,1.0,,,ESPN scoreboard
+666528,2023-10-23T23:00:00Z,2023,Ponte Preta,Ituano,0.0,0.0,,,ESPN scoreboard
+666532,2023-10-26T22:00:00Z,2023,ABC,Avaí,1.0,1.0,,,ESPN scoreboard
+666533,2023-10-27T22:00:00Z,2023,Ceará,Sport,2.0,1.0,,,ESPN scoreboard
+666536,2023-10-28T00:30:00Z,2023,Guarani,Botafogo-SP,0.0,1.0,,,ESPN scoreboard
+666539,2023-10-28T00:30:00Z,2023,Novorizontino,Ponte Preta,2.0,0.0,,,ESPN scoreboard
+666535,2023-10-28T18:30:00Z,2023,Criciúma,Sampaio Corrêa,3.0,0.0,,,ESPN scoreboard
+666537,2023-10-28T18:30:00Z,2023,Ituano,Mirassol,0.0,0.0,,,ESPN scoreboard
+666540,2023-10-28T22:00:00Z,2023,Vila Nova,Atlético Goianiense,2.0,1.0,,,ESPN scoreboard
+666538,2023-10-29T21:30:00Z,2023,Londrina,CRB,1.0,1.0,,,ESPN scoreboard
+666541,2023-10-29T22:00:00Z,2023,Vitória,Juventude,0.0,0.0,,,ESPN scoreboard
+666534,2023-10-30T23:00:00Z,2023,Chapecoense,Tombense,1.0,2.0,,,ESPN scoreboard
+666542,2023-11-01T23:00:00Z,2023,Atlético Goianiense,Novorizontino,2.0,2.0,,,ESPN scoreboard
+666548,2023-11-03T22:00:00Z,2023,Mirassol,Sport,2.0,1.0,,,ESPN scoreboard
+666551,2023-11-04T00:30:00Z,2023,Juventude,Ituano,2.0,1.0,,,ESPN scoreboard
+666547,2023-11-04T00:30:00Z,2023,Londrina,Guarani,0.0,0.0,,,ESPN scoreboard
+666543,2023-11-04T20:00:00Z,2023,Botafogo-SP,Ceará,2.0,2.0,,,ESPN scoreboard
+666549,2023-11-04T20:00:00Z,2023,Ponte Preta,Avaí,0.0,1.0,,,ESPN scoreboard
+666546,2023-11-04T22:30:00Z,2023,Sampaio Corrêa,Tombense,1.0,2.0,,,ESPN scoreboard
+666550,2023-11-05T21:00:00Z,2023,Vitória,Vila Nova,1.0,1.0,,,ESPN scoreboard
+666544,2023-11-07T22:00:00Z,2023,CRB,Chapecoense,3.0,2.0,,,ESPN scoreboard
+666545,2023-11-08T00:30:00Z,2023,Criciúma,ABC,1.0,0.0,,,ESPN scoreboard
+666554,2023-11-10T22:00:00Z,2023,Vila Nova,Londrina,4.0,1.0,,,ESPN scoreboard
+666557,2023-11-11T00:30:00Z,2023,Sport,Atlético Goianiense,0.0,0.0,,,ESPN scoreboard
+666555,2023-11-11T18:30:00Z,2023,Ituano,Sampaio Corrêa,2.0,1.0,,,ESPN scoreboard
+666552,2023-11-11T20:00:00Z,2023,Avaí,CRB,1.0,1.0,,,ESPN scoreboard
+666561,2023-11-11T20:00:00Z,2023,Chapecoense,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+666558,2023-11-11T21:00:00Z,2023,Tombense,Ponte Preta,0.0,1.0,,,ESPN scoreboard
+666553,2023-11-12T18:45:00Z,2023,Ceará,Mirassol,2.0,0.0,,,ESPN scoreboard
+666556,2023-11-12T21:00:00Z,2023,Novorizontino,Vitória,1.0,2.0,,,ESPN scoreboard
+666559,2023-11-14T22:00:00Z,2023,Guarani,Criciúma,1.0,1.0,,,ESPN scoreboard
+666560,2023-11-15T00:30:00Z,2023,ABC,Juventude,0.0,0.0,,,ESPN scoreboard
+666563,2023-11-17T22:00:00Z,2023,Ituano,Chapecoense,0.0,0.0,,,ESPN scoreboard
+666569,2023-11-18T00:30:00Z,2023,Londrina,Novorizontino,0.0,1.0,,,ESPN scoreboard
+666562,2023-11-18T20:00:00Z,2023,Criciúma,Botafogo-SP,3.0,0.0,,,ESPN scoreboard
+666564,2023-11-18T20:00:00Z,2023,Juventude,Ponte Preta,0.0,0.0,,,ESPN scoreboard
+666568,2023-11-18T20:00:00Z,2023,Mirassol,Atlético Goianiense,4.0,1.0,,,ESPN scoreboard
+666566,2023-11-18T20:00:00Z,2023,Vila Nova,Ceará,3.0,1.0,,,ESPN scoreboard
+666565,2023-11-18T20:00:00Z,2023,Vitória,Sport,1.0,0.0,,,ESPN scoreboard
+666571,2023-11-19T18:45:00Z,2023,Guarani,ABC,2.0,3.0,,,ESPN scoreboard
+666570,2023-11-19T21:00:00Z,2023,CRB,Tombense,2.0,0.0,,,ESPN scoreboard
+666567,2023-11-20T23:00:00Z,2023,Sampaio Corrêa,Avaí,4.0,0.0,,,ESPN scoreboard
+666576,2023-11-25T20:00:00Z,2023,ABC,Vila Nova,3.0,2.0,,,ESPN scoreboard
+666580,2023-11-25T20:00:00Z,2023,Atlético Goianiense,Guarani,3.0,0.0,,,ESPN scoreboard
+666572,2023-11-25T20:00:00Z,2023,Avaí,Ituano,0.0,0.0,,,ESPN scoreboard
+666573,2023-11-25T20:00:00Z,2023,Botafogo-SP,Londrina,0.0,1.0,,,ESPN scoreboard
+666578,2023-11-25T20:00:00Z,2023,Ceará,Juventude,1.0,3.0,,,ESPN scoreboard
+666577,2023-11-25T20:00:00Z,2023,Chapecoense,Vitória,3.0,1.0,,,ESPN scoreboard
+666581,2023-11-25T20:00:00Z,2023,Novorizontino,Criciúma,2.0,0.0,,,ESPN scoreboard
+666575,2023-11-25T20:00:00Z,2023,Ponte Preta,CRB,3.0,0.0,,,ESPN scoreboard
+666579,2023-11-25T20:00:00Z,2023,Sport,Sampaio Corrêa,4.0,1.0,,,ESPN scoreboard
+666574,2023-11-25T20:00:00Z,2023,Tombense,Mirassol,0.0,1.0,,,ESPN scoreboard
+699906,2024-04-19T22:00:00Z,2024,Botafogo-SP,América Mineiro,1.0,1.0,,,ESPN scoreboard
+699910,2024-04-19T22:00:00Z,2024,Novorizontino,CRB,2.0,1.0,,,ESPN scoreboard
+699911,2024-04-20T00:00:00Z,2024,Operário PR,Avaí,1.0,0.0,,,ESPN scoreboard
+699909,2024-04-20T18:30:00Z,2024,Chapecoense,Ituano,3.0,1.0,,,ESPN scoreboard
+699913,2024-04-20T19:30:00Z,2024,Santos,Paysandu,2.0,0.0,,,ESPN scoreboard
+699905,2024-04-20T20:00:00Z,2024,Amazonas,Sport,2.0,3.0,,,ESPN scoreboard
+699908,2024-04-20T21:00:00Z,2024,Ceará,Goiás,1.0,1.0,,,ESPN scoreboard
+699912,2024-04-21T21:00:00Z,2024,Ponte Preta,Coritiba,1.0,1.0,,,ESPN scoreboard
+699914,2024-04-23T00:00:00Z,2024,Vila Nova,Guarani,2.0,0.0,,,ESPN scoreboard
+699907,2024-04-24T00:00:00Z,2024,Brusque,Mirassol,3.0,1.0,,,ESPN scoreboard
+699921,2024-04-26T22:00:00Z,2024,Ituano,Operário PR,0.0,2.0,,,ESPN scoreboard
+699920,2024-04-26T22:00:00Z,2024,Sport,Vila Nova,2.0,0.0,,,ESPN scoreboard
+699916,2024-04-26T23:00:00Z,2024,Avaí,Santos,0.0,2.0,,,ESPN scoreboard
+699919,2024-04-27T00:00:00Z,2024,Guarani,Chapecoense,0.0,1.0,,,ESPN scoreboard
+699917,2024-04-27T20:00:00Z,2024,CRB,Amazonas,0.0,0.0,,,ESPN scoreboard
+699923,2024-04-27T20:00:00Z,2024,Paysandu,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+699915,2024-04-27T21:00:00Z,2024,América Mineiro,Novorizontino,2.0,0.0,,,ESPN scoreboard
+699918,2024-04-28T19:00:00Z,2024,Coritiba,Brusque,1.0,0.0,,,ESPN scoreboard
+699924,2024-04-28T21:30:00Z,2024,Goiás,Ponte Preta,3.0,0.0,,,ESPN scoreboard
+699922,2024-04-29T22:30:00Z,2024,Mirassol,Ceará,3.0,2.0,,,ESPN scoreboard
+699927,2024-05-03T22:00:00Z,2024,Paysandu,Avaí,0.0,0.0,,,ESPN scoreboard
+699926,2024-05-04T00:30:00Z,2024,Coritiba,Sport,0.0,1.0,,,ESPN scoreboard
+699934,2024-05-04T20:00:00Z,2024,Chapecoense,América Mineiro,2.0,2.0,,,ESPN scoreboard
+699930,2024-05-04T21:00:00Z,2024,Vila Nova,Operário PR,1.0,0.0,,,ESPN scoreboard
+699925,2024-05-05T00:00:00Z,2024,Ituano,Novorizontino,1.0,3.0,,,ESPN scoreboard
+699932,2024-05-05T19:00:00Z,2024,Brusque,Goiás,0.0,2.0,,,ESPN scoreboard
+699933,2024-05-06T22:00:00Z,2024,Ceará,CRB,2.0,2.0,,,ESPN scoreboard
+699929,2024-05-06T23:00:00Z,2024,Ponte Preta,Amazonas,3.0,0.0,,,ESPN scoreboard
+699928,2024-05-07T00:00:00Z,2024,Santos,Guarani,4.0,1.0,,,ESPN scoreboard
+699931,2024-05-08T00:00:00Z,2024,Botafogo-SP,Mirassol,0.0,0.0,,,ESPN scoreboard
+699936,2024-05-09T00:00:00Z,2024,América Mineiro,Vila Nova,3.0,1.0,,,ESPN scoreboard
+699942,2024-05-10T22:00:00Z,2024,Novorizontino,Ceará,0.0,3.0,,,ESPN scoreboard
+699938,2024-05-11T00:30:00Z,2024,CRB,Chapecoense,2.0,0.0,,,ESPN scoreboard
+699944,2024-05-11T00:30:00Z,2024,Goiás,Ituano,2.0,0.0,,,ESPN scoreboard
+699935,2024-05-11T20:00:00Z,2024,Amazonas,Santos,1.0,0.0,,,ESPN scoreboard
+699939,2024-05-11T20:00:00Z,2024,Guarani,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+699943,2024-05-11T20:00:00Z,2024,Operário PR,Ponte Preta,1.0,1.0,,,ESPN scoreboard
+699940,2024-05-11T20:00:00Z,2024,Sport,Brusque,4.0,1.0,,,ESPN scoreboard
+699937,2024-05-12T00:00:00Z,2024,Avaí,Coritiba,1.0,0.0,,,ESPN scoreboard
+699941,2024-05-12T19:00:00Z,2024,Mirassol,Paysandu,2.0,1.0,,,ESPN scoreboard
+699946,2024-05-14T22:00:00Z,2024,Avaí,CRB,2.0,1.0,,,ESPN scoreboard
+699954,2024-05-14T22:00:00Z,2024,Vila Nova,Novorizontino,2.0,1.0,,,ESPN scoreboard
+699947,2024-05-15T00:30:00Z,2024,Botafogo-SP,Chapecoense,0.0,0.0,,,ESPN scoreboard
+699950,2024-05-15T00:30:00Z,2024,Coritiba,Guarani,1.0,0.0,,,ESPN scoreboard
+699945,2024-05-15T22:00:00Z,2024,América Mineiro,Mirassol,0.0,0.0,,,ESPN scoreboard
+699948,2024-05-15T22:00:00Z,2024,Brusque,Operário PR,0.0,0.0,,,ESPN scoreboard
+699951,2024-05-15T22:00:00Z,2024,Ituano,Sport,1.0,0.0,,,ESPN scoreboard
+699949,2024-05-16T00:30:00Z,2024,Ceará,Amazonas,2.0,1.0,,,ESPN scoreboard
+699952,2024-05-16T00:30:00Z,2024,Paysandu,Goiás,1.0,1.0,,,ESPN scoreboard
+699953,2024-05-16T00:30:00Z,2024,Ponte Preta,Santos,1.0,2.0,,,ESPN scoreboard
+699956,2024-05-17T22:00:00Z,2024,CRB,Vila Nova,1.0,0.0,,,ESPN scoreboard
+699961,2024-05-18T00:30:00Z,2024,Novorizontino,Coritiba,0.0,0.0,,,ESPN scoreboard
+699955,2024-05-18T20:30:00Z,2024,Amazonas,Paysandu,1.0,1.0,,,ESPN scoreboard
+699958,2024-05-18T21:30:00Z,2024,Goiás,Botafogo-SP,4.0,0.0,,,ESPN scoreboard
+699964,2024-05-19T00:00:00Z,2024,Sport,Avaí,1.0,2.0,,,ESPN scoreboard
+699963,2024-05-19T14:00:00Z,2024,Santos,Brusque,4.0,0.0,,,ESPN scoreboard
+699960,2024-05-19T19:00:00Z,2024,Mirassol,Ituano,2.0,0.0,,,ESPN scoreboard
+699962,2024-05-19T19:00:00Z,2024,Operário PR,Ceará,0.0,0.0,,,ESPN scoreboard
+699959,2024-05-21T00:00:00Z,2024,Guarani,América Mineiro,1.0,2.0,,,ESPN scoreboard
+699957,2024-05-21T20:00:00Z,2024,Chapecoense,Ponte Preta,0.0,0.0,,,ESPN scoreboard
+699966,2024-05-25T00:30:00Z,2024,América Mineiro,Santos,2.0,1.0,,,ESPN scoreboard
+699972,2024-05-26T00:00:00Z,2024,Guarani,Paysandu,0.0,0.0,,,ESPN scoreboard
+699973,2024-05-26T19:00:00Z,2024,Ituano,Ponte Preta,2.0,0.0,,,ESPN scoreboard
+699974,2024-05-26T20:00:00Z,2024,Vila Nova,Brusque,2.0,2.0,,,ESPN scoreboard
+699970,2024-05-26T21:30:00Z,2024,Ceará,Chapecoense,2.0,1.0,,,ESPN scoreboard
+699971,2024-05-27T22:00:00Z,2024,Coritiba,Operário PR,3.0,0.0,,,ESPN scoreboard
+699968,2024-05-28T00:00:00Z,2024,Botafogo-SP,Novorizontino,0.0,1.0,,,ESPN scoreboard
+699967,2024-05-28T00:30:00Z,2024,Avaí,Goiás,2.0,0.0,,,ESPN scoreboard
+699965,2024-05-28T22:00:00Z,2024,Amazonas,Mirassol,1.0,0.0,,,ESPN scoreboard
+699976,2024-05-31T22:00:00Z,2024,Ceará,Coritiba,1.0,0.0,,,ESPN scoreboard
+699978,2024-06-01T00:30:00Z,2024,Goiás,Sport,3.0,0.0,,,ESPN scoreboard
+699975,2024-06-01T20:00:00Z,2024,Brusque,Novorizontino,0.0,0.0,,,ESPN scoreboard
+699977,2024-06-02T19:00:00Z,2024,Chapecoense,Vila Nova,1.0,1.0,,,ESPN scoreboard
+699979,2024-06-02T19:00:00Z,2024,Ponte Preta,CRB,4.0,2.0,,,ESPN scoreboard
+699984,2024-06-02T21:30:00Z,2024,Ituano,Avaí,0.0,1.0,,,ESPN scoreboard
+699983,2024-06-03T23:00:00Z,2024,Santos,Botafogo-SP,1.0,2.0,,,ESPN scoreboard
+699981,2024-06-04T00:00:00Z,2024,Operário PR,Amazonas,1.0,0.0,,,ESPN scoreboard
+699980,2024-06-04T22:00:00Z,2024,Mirassol,Guarani,3.0,0.0,,,ESPN scoreboard
+699982,2024-06-05T00:30:00Z,2024,Paysandu,América Mineiro,2.0,0.0,,,ESPN scoreboard
+699989,2024-06-07T22:00:00Z,2024,Coritiba,Ituano,4.0,2.0,,,ESPN scoreboard
+699992,2024-06-08T00:00:00Z,2024,Novorizontino,Santos,3.0,1.0,,,ESPN scoreboard
+699988,2024-06-08T20:00:00Z,2024,Amazonas,Brusque,2.0,1.0,,,ESPN scoreboard
+699990,2024-06-08T20:00:00Z,2024,Guarani,Operário PR,0.0,1.0,,,ESPN scoreboard
+699994,2024-06-09T19:00:00Z,2024,Avaí,Chapecoense,0.0,0.0,,,ESPN scoreboard
+699987,2024-06-09T21:30:00Z,2024,América Mineiro,Ponte Preta,2.0,0.0,,,ESPN scoreboard
+699986,2024-06-10T22:00:00Z,2024,Vila Nova,Ceará,3.0,2.0,,,ESPN scoreboard
+699985,2024-06-11T00:30:00Z,2024,Sport,Paysandu,1.0,0.0,,,ESPN scoreboard
+699991,2024-06-11T22:00:00Z,2024,Mirassol,Goiás,1.0,0.0,,,ESPN scoreboard
+699995,2024-06-14T00:00:00Z,2024,Amazonas,Chapecoense,0.0,1.0,,,ESPN scoreboard
+700002,2024-06-14T22:00:00Z,2024,Operário PR,Santos,1.0,0.0,,,ESPN scoreboard
+699997,2024-06-15T00:00:00Z,2024,Avaí,Guarani,3.0,2.0,,,ESPN scoreboard
+699996,2024-06-15T18:30:00Z,2024,América Mineiro,CRB,2.0,1.0,,,ESPN scoreboard
+700003,2024-06-15T20:00:00Z,2024,Ponte Preta,Novorizontino,1.0,0.0,,,ESPN scoreboard
+700001,2024-06-15T21:00:00Z,2024,Ituano,Paysandu,3.0,5.0,,,ESPN scoreboard
+699998,2024-06-16T14:00:00Z,2024,Botafogo-SP,Vila Nova,1.0,0.0,,,ESPN scoreboard
+700004,2024-06-16T19:00:00Z,2024,Brusque,Ceará,1.0,0.0,,,ESPN scoreboard
+699999,2024-06-16T21:30:00Z,2024,Goiás,Coritiba,1.0,1.0,,,ESPN scoreboard
+700000,2024-06-16T21:30:00Z,2024,Sport,Mirassol,1.0,0.0,,,ESPN scoreboard
+700008,2024-06-18T00:00:00Z,2024,Chapecoense,Operário PR,0.0,1.0,,,ESPN scoreboard
+700010,2024-06-18T22:00:00Z,2024,Guarani,Ituano,3.0,3.0,,,ESPN scoreboard
+700011,2024-06-19T00:00:00Z,2024,Novorizontino,Amazonas,1.0,1.0,,,ESPN scoreboard
+700012,2024-06-19T00:30:00Z,2024,Paysandu,CRB,1.0,1.0,,,ESPN scoreboard
+700013,2024-06-19T22:00:00Z,2024,Santos,Goiás,2.0,0.0,,,ESPN scoreboard
+700005,2024-06-20T00:00:00Z,2024,Botafogo-SP,Ponte Preta,2.0,0.0,,,ESPN scoreboard
+700006,2024-06-20T00:30:00Z,2024,Brusque,Avaí,0.0,0.0,,,ESPN scoreboard
+700009,2024-06-20T00:30:00Z,2024,Coritiba,América Mineiro,1.0,0.0,,,ESPN scoreboard
+700014,2024-06-20T22:00:00Z,2024,Vila Nova,Mirassol,1.0,0.0,,,ESPN scoreboard
+700007,2024-06-21T00:30:00Z,2024,Ceará,Sport,0.0,0.0,,,ESPN scoreboard
+700017,2024-06-22T20:00:00Z,2024,CRB,Guarani,1.0,0.0,,,ESPN scoreboard
+700021,2024-06-22T20:00:00Z,2024,Operário PR,Botafogo-SP,0.0,1.0,,,ESPN scoreboard
+700019,2024-06-23T00:00:00Z,2024,Ituano,Brusque,1.0,1.0,,,ESPN scoreboard
+700018,2024-06-23T19:00:00Z,2024,Chapecoense,Paysandu,1.0,2.0,,,ESPN scoreboard
+700024,2024-06-23T21:30:00Z,2024,Vila Nova,Goiás,1.0,0.0,,,ESPN scoreboard
+700023,2024-06-24T22:00:00Z,2024,Sport,Novorizontino,1.0,2.0,,,ESPN scoreboard
+700016,2024-06-25T22:00:00Z,2024,América Mineiro,Avaí,1.0,1.0,,,ESPN scoreboard
+700020,2024-06-25T22:00:00Z,2024,Mirassol,Santos,0.0,0.0,,,ESPN scoreboard
+700022,2024-06-26T00:00:00Z,2024,Ponte Preta,Ceará,3.0,1.0,,,ESPN scoreboard
+700015,2024-06-26T00:30:00Z,2024,Amazonas,Coritiba,1.0,0.0,,,ESPN scoreboard
+700033,2024-06-29T19:00:00Z,2024,Coritiba,Vila Nova,1.0,1.0,,,ESPN scoreboard
+700030,2024-06-29T20:00:00Z,2024,Botafogo-SP,Sport,1.0,1.0,,,ESPN scoreboard
+700028,2024-06-30T00:00:00Z,2024,Ceará,Ituano,4.0,2.0,,,ESPN scoreboard
+700025,2024-06-30T14:00:00Z,2024,Avaí,Amazonas,1.0,1.0,,,ESPN scoreboard
+700027,2024-06-30T19:00:00Z,2024,Paysandu,Operário PR,1.0,1.0,,,ESPN scoreboard
+700031,2024-06-30T21:30:00Z,2024,Guarani,Ponte Preta,1.0,1.0,,,ESPN scoreboard
+700026,2024-07-01T22:00:00Z,2024,Santos,Chapecoense,1.0,0.0,,,ESPN scoreboard
+700034,2024-07-02T00:00:00Z,2024,CRB,Brusque,1.0,1.0,,,ESPN scoreboard
+700032,2024-07-02T21:30:00Z,2024,Goiás,América Mineiro,2.0,1.0,,,ESPN scoreboard
+700029,2024-07-02T23:00:00Z,2024,Novorizontino,Mirassol,1.0,1.0,,,ESPN scoreboard
+700039,2024-07-05T22:00:00Z,2024,Ceará,Santos,0.0,1.0,,,ESPN scoreboard
+700035,2024-07-06T00:00:00Z,2024,Brusque,Ponte Preta,0.0,0.0,,,ESPN scoreboard
+700037,2024-07-06T14:00:00Z,2024,América Mineiro,Operário PR,2.0,0.0,,,ESPN scoreboard
+700041,2024-07-06T20:00:00Z,2024,Goiás,Chapecoense,1.0,2.0,,,ESPN scoreboard
+700040,2024-07-07T14:00:00Z,2024,Coritiba,Paysandu,1.0,1.0,,,ESPN scoreboard
+700043,2024-07-07T19:00:00Z,2024,Ituano,Botafogo-SP,3.0,2.0,,,ESPN scoreboard
+700042,2024-07-07T21:30:00Z,2024,Guarani,Sport,0.0,1.0,,,ESPN scoreboard
+700036,2024-07-08T23:00:00Z,2024,Avaí,Novorizontino,0.0,1.0,,,ESPN scoreboard
+700038,2024-07-09T00:00:00Z,2024,Amazonas,Vila Nova,1.0,2.0,,,ESPN scoreboard
+700044,2024-07-10T00:00:00Z,2024,Mirassol,CRB,1.0,0.0,,,ESPN scoreboard
+700051,2024-07-12T22:00:00Z,2024,Ponte Preta,Mirassol,4.0,2.0,,,ESPN scoreboard
+700045,2024-07-13T00:00:00Z,2024,Botafogo-SP,Amazonas,0.0,1.0,,,ESPN scoreboard
+700049,2024-07-13T00:30:00Z,2024,Paysandu,Ceará,2.0,1.0,,,ESPN scoreboard
+700048,2024-07-13T18:30:00Z,2024,Novorizontino,Guarani,1.0,1.0,,,ESPN scoreboard
+700053,2024-07-13T20:00:00Z,2024,Sport,América Mineiro,1.0,1.0,,,ESPN scoreboard
+700046,2024-07-13T21:00:00Z,2024,CRB,Coritiba,2.0,1.0,,,ESPN scoreboard
+700050,2024-07-14T19:00:00Z,2024,Vila Nova,Avaí,2.0,1.0,,,ESPN scoreboard
+700047,2024-07-14T21:30:00Z,2024,Chapecoense,Brusque,1.0,1.0,,,ESPN scoreboard
+700052,2024-07-15T23:00:00Z,2024,Santos,Ituano,2.0,0.0,,,ESPN scoreboard
+699993,2024-07-17T23:30:00Z,2024,CRB,Botafogo-SP,4.0,1.0,,,ESPN scoreboard
+700054,2024-07-18T00:00:00Z,2024,Operário PR,Goiás,2.0,0.0,,,ESPN scoreboard
+700057,2024-07-18T23:00:00Z,2024,Vila Nova,Santos,1.0,1.0,,,ESPN scoreboard
+700060,2024-07-19T00:00:00Z,2024,Novorizontino,Chapecoense,1.0,0.0,,,ESPN scoreboard
+700064,2024-07-19T22:00:00Z,2024,Avaí,Ceará,0.0,1.0,,,ESPN scoreboard
+700056,2024-07-20T00:30:00Z,2024,Coritiba,Mirassol,0.0,1.0,,,ESPN scoreboard
+700055,2024-07-20T20:00:00Z,2024,América Mineiro,Amazonas,0.0,0.0,,,ESPN scoreboard
+700062,2024-07-20T20:00:00Z,2024,CRB,Ituano,1.0,0.0,,,ESPN scoreboard
+700059,2024-07-20T21:00:00Z,2024,Paysandu,Ponte Preta,1.0,0.0,,,ESPN scoreboard
+700061,2024-07-21T19:00:00Z,2024,Guarani,Goiás,2.0,3.0,,,ESPN scoreboard
+700063,2024-07-21T21:30:00Z,2024,Botafogo-SP,Brusque,2.0,2.0,,,ESPN scoreboard
+700074,2024-07-22T23:00:00Z,2024,Santos,Coritiba,4.0,0.0,,,ESPN scoreboard
+700068,2024-07-23T22:00:00Z,2024,Chapecoense,Sport,1.0,1.0,,,ESPN scoreboard
+700072,2024-07-23T22:00:00Z,2024,Operário PR,Novorizontino,0.0,0.0,,,ESPN scoreboard
+700071,2024-07-23T23:00:00Z,2024,Mirassol,Avaí,0.0,0.0,,,ESPN scoreboard
+700070,2024-07-24T00:00:00Z,2024,Ituano,América Mineiro,0.0,0.0,,,ESPN scoreboard
+700073,2024-07-24T00:30:00Z,2024,Ponte Preta,Vila Nova,2.0,0.0,,,ESPN scoreboard
+700066,2024-07-25T00:00:00Z,2024,Brusque,Paysandu,1.0,0.0,,,ESPN scoreboard
+700065,2024-07-25T00:30:00Z,2024,Amazonas,Guarani,1.0,1.0,,,ESPN scoreboard
+700067,2024-07-26T00:30:00Z,2024,Ceará,Botafogo-SP,4.0,1.0,,,ESPN scoreboard
+700069,2024-07-26T00:30:00Z,2024,Goiás,CRB,1.0,1.0,,,ESPN scoreboard
+700081,2024-07-27T00:30:00Z,2024,Ituano,Vila Nova,0.0,0.0,,,ESPN scoreboard
+700078,2024-07-27T20:00:00Z,2024,Coritiba,Chapecoense,1.0,0.0,,,ESPN scoreboard
+700079,2024-07-27T20:00:00Z,2024,Mirassol,Operário PR,1.0,0.0,,,ESPN scoreboard
+700080,2024-07-27T21:00:00Z,2024,Sport,Ponte Preta,3.0,1.0,,,ESPN scoreboard
+700082,2024-07-28T19:00:00Z,2024,Guarani,Brusque,1.0,0.0,,,ESPN scoreboard
+700075,2024-07-28T21:30:00Z,2024,América Mineiro,Ceará,2.0,2.0,,,ESPN scoreboard
+700077,2024-07-28T21:30:00Z,2024,CRB,Santos,1.0,1.0,,,ESPN scoreboard
+700084,2024-07-29T21:30:00Z,2024,Paysandu,Novorizontino,1.0,3.0,,,ESPN scoreboard
+700076,2024-07-31T00:00:00Z,2024,Avaí,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+700090,2024-08-02T22:00:00Z,2024,Brusque,América Mineiro,0.0,0.0,,,ESPN scoreboard
+700085,2024-08-03T00:30:00Z,2024,Santos,Sport,1.0,1.0,,,ESPN scoreboard
+700089,2024-08-03T20:00:00Z,2024,Botafogo-SP,Coritiba,2.0,0.0,,,ESPN scoreboard
+700088,2024-08-04T00:30:00Z,2024,Amazonas,Ituano,1.0,0.0,,,ESPN scoreboard
+700086,2024-08-04T19:00:00Z,2024,Ponte Preta,Avaí,1.0,0.0,,,ESPN scoreboard
+700093,2024-08-04T21:30:00Z,2024,Novorizontino,Goiás,2.0,1.0,,,ESPN scoreboard
+700094,2024-08-04T21:30:00Z,2024,Operário PR,CRB,2.0,0.0,,,ESPN scoreboard
+700092,2024-08-05T21:30:00Z,2024,Chapecoense,Mirassol,0.0,1.0,,,ESPN scoreboard
+700087,2024-08-06T00:00:00Z,2024,Vila Nova,Paysandu,2.0,2.0,,,ESPN scoreboard
+700091,2024-08-07T00:00:00Z,2024,Ceará,Guarani,3.0,1.0,,,ESPN scoreboard
+700099,2024-08-09T22:15:00Z,2024,Avaí,Operário PR,1.0,0.0,,,ESPN scoreboard
+700101,2024-08-09T23:00:00Z,2024,Paysandu,Santos,0.0,3.0,,,ESPN scoreboard
+700100,2024-08-10T00:00:00Z,2024,Mirassol,Brusque,2.0,0.0,,,ESPN scoreboard
+700096,2024-08-10T00:30:00Z,2024,América Mineiro,Botafogo-SP,3.0,1.0,,,ESPN scoreboard
+700104,2024-08-10T20:00:00Z,2024,Ituano,Chapecoense,2.0,1.0,,,ESPN scoreboard
+700102,2024-08-10T20:00:00Z,2024,Sport,Amazonas,3.0,2.0,,,ESPN scoreboard
+700095,2024-08-11T19:00:00Z,2024,Coritiba,Ponte Preta,1.0,1.0,,,ESPN scoreboard
+700103,2024-08-11T21:30:00Z,2024,CRB,Novorizontino,0.0,1.0,,,ESPN scoreboard
+700098,2024-08-12T23:00:00Z,2024,Guarani,Vila Nova,2.0,0.0,,,ESPN scoreboard
+700097,2024-08-13T00:00:00Z,2024,Goiás,Ceará,2.0,1.0,,,ESPN scoreboard
+700110,2024-08-16T00:00:00Z,2024,Operário PR,Ituano,1.0,2.0,,,ESPN scoreboard
+700111,2024-08-16T22:00:00Z,2024,Ponte Preta,Goiás,1.0,1.0,,,ESPN scoreboard
+700109,2024-08-17T00:00:00Z,2024,Vila Nova,Sport,2.0,0.0,,,ESPN scoreboard
+700114,2024-08-17T00:30:00Z,2024,Novorizontino,América Mineiro,1.0,1.0,,,ESPN scoreboard
+700108,2024-08-17T18:30:00Z,2024,Chapecoense,Guarani,0.0,4.0,,,ESPN scoreboard
+700112,2024-08-17T19:00:00Z,2024,Santos,Avaí,0.0,1.0,,,ESPN scoreboard
+700107,2024-08-17T20:00:00Z,2024,Ceará,Mirassol,1.0,2.0,,,ESPN scoreboard
+700113,2024-08-17T21:00:00Z,2024,Amazonas,CRB,2.0,0.0,,,ESPN scoreboard
+700106,2024-08-18T19:00:00Z,2024,Brusque,Coritiba,0.0,1.0,,,ESPN scoreboard
+700105,2024-08-18T21:30:00Z,2024,Botafogo-SP,Paysandu,1.0,1.0,,,ESPN scoreboard
+700122,2024-08-20T22:00:00Z,2024,Novorizontino,Ituano,1.0,0.0,,,ESPN scoreboard
+700115,2024-08-21T00:00:00Z,2024,Amazonas,Ponte Preta,2.0,1.0,,,ESPN scoreboard
+700121,2024-08-21T00:30:00Z,2024,Operário PR,Vila Nova,2.0,3.0,,,ESPN scoreboard
+700116,2024-08-21T22:00:00Z,2024,América Mineiro,Chapecoense,0.0,0.0,,,ESPN scoreboard
+700119,2024-08-21T22:00:00Z,2024,Guarani,Santos,1.0,1.0,,,ESPN scoreboard
+700123,2024-08-21T22:00:00Z,2024,Mirassol,Botafogo-SP,1.0,2.0,,,ESPN scoreboard
+700118,2024-08-21T23:00:00Z,2024,CRB,Ceará,0.0,2.0,,,ESPN scoreboard
+700124,2024-08-22T00:00:00Z,2024,Goiás,Brusque,4.0,1.0,,,ESPN scoreboard
+700117,2024-08-22T23:00:00Z,2024,Avaí,Paysandu,1.0,0.0,,,ESPN scoreboard
+700120,2024-08-23T00:00:00Z,2024,Sport,Coritiba,0.0,1.0,,,ESPN scoreboard
+700129,2024-08-24T00:30:00Z,2024,Ponte Preta,Operário PR,0.0,1.0,,,ESPN scoreboard
+700125,2024-08-24T19:00:00Z,2024,Santos,Amazonas,0.0,0.0,,,ESPN scoreboard
+700133,2024-08-24T20:00:00Z,2024,Ituano,Goiás,1.0,0.0,,,ESPN scoreboard
+700131,2024-08-25T21:30:00Z,2024,Chapecoense,CRB,0.0,0.0,,,ESPN scoreboard
+700126,2024-08-25T21:30:00Z,2024,Vila Nova,América Mineiro,1.0,0.0,,,ESPN scoreboard
+700134,2024-08-26T21:30:00Z,2024,Paysandu,Mirassol,0.0,0.0,,,ESPN scoreboard
+700130,2024-08-27T00:00:00Z,2024,Ceará,Novorizontino,1.0,0.0,,,ESPN scoreboard
+700127,2024-08-28T00:00:00Z,2024,Brusque,Sport,1.0,0.0,,,ESPN scoreboard
+700132,2024-08-28T00:30:00Z,2024,Coritiba,Avaí,1.0,0.0,,,ESPN scoreboard
+700142,2024-08-31T00:30:00Z,2024,Santos,Ponte Preta,2.0,2.0,,,ESPN scoreboard
+700140,2024-08-31T20:00:00Z,2024,Chapecoense,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+700138,2024-08-31T20:00:00Z,2024,Novorizontino,Vila Nova,2.0,0.0,,,ESPN scoreboard
+700144,2024-08-31T21:00:00Z,2024,CRB,Avaí,1.0,2.0,,,ESPN scoreboard
+700135,2024-09-01T19:00:00Z,2024,Amazonas,Ceará,1.0,1.0,,,ESPN scoreboard
+700141,2024-09-01T21:30:00Z,2024,Goiás,Paysandu,1.0,1.0,,,ESPN scoreboard
+700143,2024-09-02T22:30:00Z,2024,Sport,Ituano,3.0,2.0,,,ESPN scoreboard
+700139,2024-09-03T00:30:00Z,2024,Operário PR,Brusque,0.0,0.0,,,ESPN scoreboard
+700137,2024-09-03T22:00:00Z,2024,Mirassol,América Mineiro,1.0,0.0,,,ESPN scoreboard
+700136,2024-09-04T00:30:00Z,2024,Guarani,Coritiba,2.0,1.0,,,ESPN scoreboard
+700146,2024-09-04T23:00:00Z,2024,Vila Nova,CRB,1.0,0.0,,,ESPN scoreboard
+700152,2024-09-06T00:30:00Z,2024,Paysandu,Amazonas,0.0,1.0,,,ESPN scoreboard
+700153,2024-09-07T19:00:00Z,2024,Brusque,Santos,0.0,1.0,,,ESPN scoreboard
+700151,2024-09-07T19:00:00Z,2024,Ituano,Mirassol,3.0,2.0,,,ESPN scoreboard
+700147,2024-09-07T22:00:00Z,2024,Avaí,Sport,0.0,2.0,,,ESPN scoreboard
+700149,2024-09-08T19:00:00Z,2024,Ceará,Operário PR,2.0,1.0,,,ESPN scoreboard
+700148,2024-09-08T21:30:00Z,2024,América Mineiro,Guarani,3.0,0.0,,,ESPN scoreboard
+700150,2024-09-08T21:30:00Z,2024,Coritiba,Novorizontino,2.0,2.0,,,ESPN scoreboard
+700154,2024-09-09T23:00:00Z,2024,Botafogo-SP,Goiás,1.0,0.0,,,ESPN scoreboard
+700145,2024-09-10T00:30:00Z,2024,Ponte Preta,Chapecoense,0.0,2.0,,,ESPN scoreboard
+699969,2024-09-12T00:30:00Z,2024,CRB,Sport,1.0,1.0,,,ESPN scoreboard
+700164,2024-09-13T22:00:00Z,2024,Novorizontino,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+700157,2024-09-14T00:30:00Z,2024,Goiás,Avaí,2.0,1.0,,,ESPN scoreboard
+700162,2024-09-14T00:30:00Z,2024,Ponte Preta,Ituano,1.0,4.0,,,ESPN scoreboard
+700155,2024-09-14T20:00:00Z,2024,Brusque,Vila Nova,3.0,1.0,,,ESPN scoreboard
+700161,2024-09-14T20:00:00Z,2024,Paysandu,Guarani,2.0,1.0,,,ESPN scoreboard
+700158,2024-09-14T21:00:00Z,2024,Mirassol,Amazonas,0.0,0.0,,,ESPN scoreboard
+700159,2024-09-15T19:00:00Z,2024,Operário PR,Coritiba,2.0,1.0,,,ESPN scoreboard
+700163,2024-09-15T19:00:00Z,2024,Santos,América Mineiro,2.0,1.0,,,ESPN scoreboard
+700156,2024-09-15T21:30:00Z,2024,Chapecoense,Ceará,2.0,1.0,,,ESPN scoreboard
+700160,2024-09-15T21:30:00Z,2024,Sport,CRB,2.0,0.0,,,ESPN scoreboard
+700172,2024-09-17T22:00:00Z,2024,Novorizontino,Brusque,1.0,0.0,,,ESPN scoreboard
+700167,2024-09-18T00:30:00Z,2024,Avaí,Ituano,2.0,0.0,,,ESPN scoreboard
+700171,2024-09-18T00:30:00Z,2024,Guarani,Mirassol,1.0,0.0,,,ESPN scoreboard
+700173,2024-09-18T22:00:00Z,2024,Sport,Goiás,1.0,1.0,,,ESPN scoreboard
+700174,2024-09-18T22:30:00Z,2024,Vila Nova,Chapecoense,3.0,2.0,,,ESPN scoreboard
+700165,2024-09-19T00:00:00Z,2024,Amazonas,Operário PR,2.0,1.0,,,ESPN scoreboard
+700166,2024-09-19T00:30:00Z,2024,América Mineiro,Paysandu,2.0,0.0,,,ESPN scoreboard
+700170,2024-09-19T00:30:00Z,2024,Coritiba,Ceará,3.0,1.0,,,ESPN scoreboard
+700169,2024-09-19T22:30:00Z,2024,CRB,Ponte Preta,0.0,1.0,,,ESPN scoreboard
+700168,2024-09-20T00:30:00Z,2024,Botafogo-SP,Santos,0.0,1.0,,,ESPN scoreboard
+700179,2024-09-21T20:00:00Z,2024,Goiás,Mirassol,0.0,1.0,,,ESPN scoreboard
+700180,2024-09-21T21:00:00Z,2024,Ituano,Coritiba,0.0,1.0,,,ESPN scoreboard
+700178,2024-09-22T19:00:00Z,2024,Chapecoense,Avaí,1.0,0.0,,,ESPN scoreboard
+700177,2024-09-22T21:30:00Z,2024,Ceará,Vila Nova,4.0,0.0,,,ESPN scoreboard
+700182,2024-09-23T21:30:00Z,2024,Paysandu,Sport,0.0,1.0,,,ESPN scoreboard
+700184,2024-09-24T00:00:00Z,2024,Santos,Novorizontino,1.0,1.0,,,ESPN scoreboard
+700176,2024-09-24T00:30:00Z,2024,Brusque,Amazonas,1.0,0.0,,,ESPN scoreboard
+700181,2024-09-24T22:00:00Z,2024,Operário PR,Guarani,1.0,0.0,,,ESPN scoreboard
+700175,2024-09-25T00:30:00Z,2024,Botafogo-SP,CRB,0.0,0.0,,,ESPN scoreboard
+700183,2024-09-25T00:30:00Z,2024,Ponte Preta,América Mineiro,0.0,2.0,,,ESPN scoreboard
+700194,2024-09-26T22:00:00Z,2024,Chapecoense,Amazonas,2.0,0.0,,,ESPN scoreboard
+700190,2024-09-27T22:00:00Z,2024,Ceará,Brusque,1.0,0.0,,,ESPN scoreboard
+700188,2024-09-28T00:30:00Z,2024,Coritiba,Goiás,0.0,0.0,,,ESPN scoreboard
+700189,2024-09-28T00:30:00Z,2024,Paysandu,Ituano,1.0,0.0,,,ESPN scoreboard
+700186,2024-09-28T20:00:00Z,2024,Vila Nova,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+700187,2024-09-28T21:00:00Z,2024,Santos,Operário PR,1.0,0.0,,,ESPN scoreboard
+700185,2024-09-29T19:00:00Z,2024,CRB,América Mineiro,2.0,1.0,,,ESPN scoreboard
+700192,2024-09-29T21:30:00Z,2024,Mirassol,Sport,0.0,0.0,,,ESPN scoreboard
+700191,2024-10-01T00:00:00Z,2024,Novorizontino,Ponte Preta,2.0,1.0,,,ESPN scoreboard
+700193,2024-10-01T00:30:00Z,2024,Guarani,Avaí,0.0,0.0,,,ESPN scoreboard
+700202,2024-10-04T00:30:00Z,2024,Operário PR,Chapecoense,3.0,2.0,,,ESPN scoreboard
+700197,2024-10-04T22:00:00Z,2024,América Mineiro,Coritiba,2.0,1.0,,,ESPN scoreboard
+700203,2024-10-04T23:00:00Z,2024,CRB,Paysandu,3.0,2.0,,,ESPN scoreboard
+700198,2024-10-05T00:30:00Z,2024,Amazonas,Novorizontino,1.0,0.0,,,ESPN scoreboard
+700204,2024-10-05T00:30:00Z,2024,Avaí,Brusque,0.0,0.0,,,ESPN scoreboard
+700200,2024-10-05T20:00:00Z,2024,Ituano,Guarani,1.0,0.0,,,ESPN scoreboard
+700195,2024-10-05T20:00:00Z,2024,Ponte Preta,Botafogo-SP,1.0,0.0,,,ESPN scoreboard
+700201,2024-10-05T21:00:00Z,2024,Mirassol,Vila Nova,1.0,0.0,,,ESPN scoreboard
+700199,2024-10-08T00:00:00Z,2024,Goiás,Santos,3.0,1.0,,,ESPN scoreboard
+700196,2024-10-08T00:00:00Z,2024,Sport,Ceará,2.0,1.0,,,ESPN scoreboard
+700128,2024-10-09T23:00:00Z,2024,Botafogo-SP,Guarani,3.0,2.0,,,ESPN scoreboard
+700213,2024-10-10T00:00:00Z,2024,Paysandu,Chapecoense,2.0,0.0,,,ESPN scoreboard
+700212,2024-10-11T21:30:00Z,2024,Novorizontino,Sport,1.0,3.0,,,ESPN scoreboard
+700205,2024-10-12T00:00:00Z,2024,Avaí,América Mineiro,2.0,2.0,,,ESPN scoreboard
+700208,2024-10-12T20:00:00Z,2024,Ceará,Ponte Preta,1.0,0.0,,,ESPN scoreboard
+700210,2024-10-12T21:30:00Z,2024,Santos,Mirassol,3.0,2.0,,,ESPN scoreboard
+700206,2024-10-13T00:30:00Z,2024,Botafogo-SP,Operário PR,0.0,0.0,,,ESPN scoreboard
+700214,2024-10-13T19:00:00Z,2024,Coritiba,Amazonas,3.0,1.0,,,ESPN scoreboard
+700209,2024-10-13T21:30:00Z,2024,Goiás,Vila Nova,0.0,1.0,,,ESPN scoreboard
+700207,2024-10-14T21:30:00Z,2024,Brusque,Ituano,1.0,0.0,,,ESPN scoreboard
+700211,2024-10-15T00:00:00Z,2024,Guarani,CRB,2.0,1.0,,,ESPN scoreboard
+700218,2024-10-16T23:00:00Z,2024,Chapecoense,Santos,3.0,2.0,,,ESPN scoreboard
+700058,2024-10-17T00:30:00Z,2024,Sport,Operário PR,1.0,2.0,,,ESPN scoreboard
+700216,2024-10-17T23:00:00Z,2024,América Mineiro,Goiás,2.0,2.0,,,ESPN scoreboard
+700217,2024-10-18T22:00:00Z,2024,Brusque,CRB,1.0,2.0,,,ESPN scoreboard
+700215,2024-10-19T00:30:00Z,2024,Amazonas,Avaí,2.0,1.0,,,ESPN scoreboard
+700224,2024-10-19T19:00:00Z,2024,Vila Nova,Coritiba,0.0,3.0,,,ESPN scoreboard
+700219,2024-10-19T20:00:00Z,2024,Ituano,Ceará,1.0,2.0,,,ESPN scoreboard
+700220,2024-10-19T20:00:00Z,2024,Mirassol,Novorizontino,1.0,0.0,,,ESPN scoreboard
+700221,2024-10-20T14:00:00Z,2024,Operário PR,Paysandu,1.0,1.0,,,ESPN scoreboard
+700222,2024-10-20T21:30:00Z,2024,Ponte Preta,Guarani,0.0,1.0,,,ESPN scoreboard
+700223,2024-10-20T22:30:00Z,2024,Sport,Botafogo-SP,3.0,1.0,,,ESPN scoreboard
+700227,2024-10-21T23:00:00Z,2024,Chapecoense,Goiás,0.0,4.0,,,ESPN scoreboard
+700226,2024-10-22T22:00:00Z,2024,CRB,Mirassol,0.0,1.0,,,ESPN scoreboard
+700232,2024-10-22T22:00:00Z,2024,Santos,Ceará,1.0,0.0,,,ESPN scoreboard
+700228,2024-10-23T00:30:00Z,2024,Novorizontino,Avaí,2.0,0.0,,,ESPN scoreboard
+700234,2024-10-23T00:30:00Z,2024,Vila Nova,Amazonas,1.0,0.0,,,ESPN scoreboard
+700231,2024-10-23T22:00:00Z,2024,Ponte Preta,Brusque,2.0,0.0,,,ESPN scoreboard
+700230,2024-10-23T22:30:00Z,2024,Paysandu,Coritiba,2.0,1.0,,,ESPN scoreboard
+700225,2024-10-23T23:00:00Z,2024,Botafogo-SP,Ituano,0.0,1.0,,,ESPN scoreboard
+700229,2024-10-24T00:30:00Z,2024,Operário PR,América Mineiro,1.0,0.0,,,ESPN scoreboard
+700233,2024-10-25T00:30:00Z,2024,Sport,Guarani,4.0,0.0,,,ESPN scoreboard
+700244,2024-10-26T00:30:00Z,2024,Avaí,Vila Nova,3.0,0.0,,,ESPN scoreboard
+700083,2024-10-26T00:30:00Z,2024,Goiás,Amazonas,1.0,0.0,,,ESPN scoreboard
+700243,2024-10-26T20:00:00Z,2024,Ceará,Paysandu,2.0,1.0,,,ESPN scoreboard
+700236,2024-10-26T20:00:00Z,2024,Mirassol,Ponte Preta,3.0,0.0,,,ESPN scoreboard
+700242,2024-10-28T21:00:00Z,2024,Coritiba,CRB,2.0,1.0,,,ESPN scoreboard
+700237,2024-10-28T22:00:00Z,2024,Ituano,Santos,0.0,2.0,,,ESPN scoreboard
+700240,2024-10-29T00:00:00Z,2024,América Mineiro,Sport,2.0,1.0,,,ESPN scoreboard
+700238,2024-10-29T22:00:00Z,2024,Brusque,Chapecoense,0.0,1.0,,,ESPN scoreboard
+700241,2024-10-29T22:00:00Z,2024,Goiás,Operário PR,3.0,0.0,,,ESPN scoreboard
+700235,2024-10-30T00:30:00Z,2024,Amazonas,Botafogo-SP,0.0,1.0,,,ESPN scoreboard
+700239,2024-10-30T00:30:00Z,2024,Guarani,Novorizontino,0.0,2.0,,,ESPN scoreboard
+700254,2024-11-02T19:30:00Z,2024,Santos,Vila Nova,3.0,0.0,,,ESPN scoreboard
+700248,2024-11-02T20:00:00Z,2024,Chapecoense,Novorizontino,0.0,2.0,,,ESPN scoreboard
+700249,2024-11-02T20:00:00Z,2024,Goiás,Guarani,1.0,0.0,,,ESPN scoreboard
+700247,2024-11-03T21:30:00Z,2024,Ceará,Avaí,2.0,0.0,,,ESPN scoreboard
+700252,2024-11-04T22:00:00Z,2024,Operário PR,Sport,2.0,1.0,,,ESPN scoreboard
+700253,2024-11-05T00:00:00Z,2024,Ponte Preta,Paysandu,1.0,2.0,,,ESPN scoreboard
+700250,2024-11-05T00:15:00Z,2024,Ituano,CRB,1.0,2.0,,,ESPN scoreboard
+700245,2024-11-05T22:00:00Z,2024,Amazonas,América Mineiro,1.0,0.0,,,ESPN scoreboard
+700246,2024-11-06T00:00:00Z,2024,Brusque,Botafogo-SP,0.0,1.0,,,ESPN scoreboard
+700251,2024-11-06T00:30:00Z,2024,Mirassol,Coritiba,4.0,1.0,,,ESPN scoreboard
+700258,2024-11-09T20:00:00Z,2024,CRB,Goiás,0.0,1.0,,,ESPN scoreboard
+700261,2024-11-09T20:00:00Z,2024,Novorizontino,Operário PR,0.0,1.0,,,ESPN scoreboard
+700263,2024-11-10T21:30:00Z,2024,Sport,Chapecoense,1.0,1.0,,,ESPN scoreboard
+700256,2024-11-10T22:00:00Z,2024,Avaí,Mirassol,0.0,0.0,,,ESPN scoreboard
+700264,2024-11-11T21:30:00Z,2024,Vila Nova,Ponte Preta,2.0,1.0,,,ESPN scoreboard
+700259,2024-11-12T00:00:00Z,2024,Coritiba,Santos,0.0,2.0,,,ESPN scoreboard
+700262,2024-11-12T00:00:00Z,2024,Paysandu,Brusque,1.0,0.0,,,ESPN scoreboard
+700255,2024-11-12T22:00:00Z,2024,América Mineiro,Ituano,3.0,2.0,,,ESPN scoreboard
+700260,2024-11-13T00:00:00Z,2024,Guarani,Amazonas,0.0,0.0,,,ESPN scoreboard
+700257,2024-11-13T00:30:00Z,2024,Botafogo-SP,Ceará,1.0,4.0,,,ESPN scoreboard
+700271,2024-11-15T19:00:00Z,2024,Operário PR,Mirassol,1.0,1.0,,,ESPN scoreboard
+700270,2024-11-16T20:00:00Z,2024,Novorizontino,Paysandu,1.0,1.0,,,ESPN scoreboard
+700265,2024-11-16T22:00:00Z,2024,Amazonas,Goiás,0.0,4.0,,,ESPN scoreboard
+700274,2024-11-17T00:00:00Z,2024,Vila Nova,Ituano,3.0,4.0,,,ESPN scoreboard
+700272,2024-11-17T00:30:00Z,2024,Ponte Preta,Sport,0.0,4.0,,,ESPN scoreboard
+700267,2024-11-17T14:00:00Z,2024,Brusque,Guarani,2.0,1.0,,,ESPN scoreboard
+700269,2024-11-17T19:00:00Z,2024,Chapecoense,Coritiba,2.0,1.0,,,ESPN scoreboard
+700273,2024-11-17T19:00:00Z,2024,Santos,CRB,0.0,2.0,,,ESPN scoreboard
+700266,2024-11-19T00:00:00Z,2024,Botafogo-SP,Avaí,1.0,3.0,,,ESPN scoreboard
+700268,2024-11-19T00:45:00Z,2024,Ceará,América Mineiro,1.0,0.0,,,ESPN scoreboard
+700278,2024-11-22T22:00:00Z,2024,Coritiba,Botafogo-SP,1.0,3.0,,,ESPN scoreboard
+700276,2024-11-22T23:00:00Z,2024,Avaí,Ponte Preta,2.0,1.0,,,ESPN scoreboard
+700281,2024-11-23T00:30:00Z,2024,Ituano,Amazonas,0.0,1.0,,,ESPN scoreboard
+700277,2024-11-24T19:00:00Z,2024,CRB,Operário PR,1.0,1.0,,,ESPN scoreboard
+700283,2024-11-24T19:00:00Z,2024,Paysandu,Vila Nova,2.0,1.0,,,ESPN scoreboard
+700275,2024-11-24T21:30:00Z,2024,América Mineiro,Brusque,3.0,0.0,,,ESPN scoreboard
+700284,2024-11-24T21:30:00Z,2024,Goiás,Novorizontino,1.0,0.0,,,ESPN scoreboard
+700279,2024-11-24T21:30:00Z,2024,Guarani,Ceará,0.0,0.0,,,ESPN scoreboard
+700282,2024-11-24T21:30:00Z,2024,Mirassol,Chapecoense,1.0,0.0,,,ESPN scoreboard
+700280,2024-11-24T21:30:00Z,2024,Sport,Santos,2.0,1.0,,,ESPN scoreboard
+733216,2025-04-04T22:00:00Z,2025,Goiás,Amazonas,1.0,0.0,,,ESPN scoreboard
+733214,2025-04-05T00:00:00Z,2025,Criciúma,Operário PR,1.0,2.0,,,ESPN scoreboard
+733209,2025-04-05T00:00:00Z,2025,Paysandu,Athletico-PR,1.0,2.0,,,ESPN scoreboard
+733213,2025-04-05T19:00:00Z,2025,Coritiba,Vila Nova,1.0,0.0,,,ESPN scoreboard
+733217,2025-04-05T19:00:00Z,2025,CRB,Chapecoense,1.0,0.0,,,ESPN scoreboard
+733212,2025-04-05T21:30:00Z,2025,América Mineiro,Botafogo-SP,1.0,0.0,,,ESPN scoreboard
+733215,2025-04-06T22:00:00Z,2025,Ferroviária,Remo,1.0,1.0,,,ESPN scoreboard
+733210,2025-04-06T22:00:00Z,2025,Volta Redonda,Cuiabá,0.0,1.0,,,ESPN scoreboard
+733218,2025-04-06T23:00:00Z,2025,Avaí,Novorizontino,1.0,1.0,,,ESPN scoreboard
+733211,2025-04-07T22:00:00Z,2025,Atlético Goianiense,Athletic,4.0,2.0,,,ESPN scoreboard
+733221,2025-04-10T22:00:00Z,2025,Athletico-PR,Criciúma,2.0,1.0,,,ESPN scoreboard
+733223,2025-04-11T00:30:00Z,2025,Cuiabá,Avaí,2.0,2.0,,,ESPN scoreboard
+733228,2025-04-12T19:00:00Z,2025,Chapecoense,Coritiba,1.0,2.0,,,ESPN scoreboard
+733224,2025-04-12T21:00:00Z,2025,Vila Nova,Paysandu,1.0,0.0,,,ESPN scoreboard
+733219,2025-04-12T22:00:00Z,2025,Amazonas,Ferroviária,0.0,0.0,,,ESPN scoreboard
+733225,2025-04-12T22:00:00Z,2025,Novorizontino,Volta Redonda,1.0,0.0,,,ESPN scoreboard
+733226,2025-04-12T23:00:00Z,2025,Operário PR,Goiás,1.0,2.0,,,ESPN scoreboard
+733220,2025-04-13T19:00:00Z,2025,Athletic,CRB,1.0,2.0,,,ESPN scoreboard
+733227,2025-04-13T19:00:00Z,2025,Remo,América Mineiro,2.0,0.0,,,ESPN scoreboard
+733222,2025-04-13T22:00:00Z,2025,Botafogo-SP,Atlético Goianiense,1.0,1.0,,,ESPN scoreboard
+733235,2025-04-15T22:00:00Z,2025,Cuiabá,Athletico-PR,2.0,1.0,,,ESPN scoreboard
+733230,2025-04-16T23:00:00Z,2025,Avaí,Operário PR,1.0,0.0,,,ESPN scoreboard
+733238,2025-04-16T23:00:00Z,2025,Paysandu,Chapecoense,0.0,2.0,,,ESPN scoreboard
+733233,2025-04-17T00:00:00Z,2025,Coritiba,Novorizontino,0.0,0.0,,,ESPN scoreboard
+733237,2025-04-17T22:00:00Z,2025,Goiás,Vila Nova,2.0,2.0,,,ESPN scoreboard
+733231,2025-04-17T23:00:00Z,2025,Botafogo-SP,Remo,2.0,2.0,,,ESPN scoreboard
+733232,2025-04-17T23:00:00Z,2025,CRB,Volta Redonda,1.0,0.0,,,ESPN scoreboard
+733234,2025-04-17T23:00:00Z,2025,Criciúma,Athletic,4.0,0.0,,,ESPN scoreboard
+733236,2025-04-18T00:00:00Z,2025,Ferroviária,Atlético Goianiense,2.0,0.0,,,ESPN scoreboard
+733229,2025-04-18T00:35:00Z,2025,América Mineiro,Amazonas,3.0,1.0,,,ESPN scoreboard
+733245,2025-04-19T19:00:00Z,2025,Operário PR,Paysandu,0.0,0.0,,,ESPN scoreboard
+733247,2025-04-20T19:00:00Z,2025,Vila Nova,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+733243,2025-04-20T21:00:00Z,2025,Chapecoense,Athletic,1.0,0.0,,,ESPN scoreboard
+733241,2025-04-20T22:00:00Z,2025,Athletico-PR,CRB,2.0,0.0,,,ESPN scoreboard
+733240,2025-04-20T23:00:00Z,2025,América Mineiro,Goiás,1.0,0.0,,,ESPN scoreboard
+733239,2025-04-21T21:00:00Z,2025,Amazonas,Avaí,0.0,2.0,,,ESPN scoreboard
+733244,2025-04-21T22:00:00Z,2025,Novorizontino,Criciúma,1.0,1.0,,,ESPN scoreboard
+733246,2025-04-22T00:30:00Z,2025,Remo,Coritiba,1.0,0.0,,,ESPN scoreboard
+733242,2025-04-22T22:30:00Z,2025,Atlético Goianiense,Cuiabá,1.0,1.0,,,ESPN scoreboard
+733248,2025-04-22T23:00:00Z,2025,Volta Redonda,Ferroviária,0.0,0.0,,,ESPN scoreboard
+733253,2025-04-25T00:35:00Z,2025,Novorizontino,Athletico-PR,2.0,1.0,,,ESPN scoreboard
+733256,2025-04-25T22:00:00Z,2025,Criciúma,Remo,1.0,1.0,,,ESPN scoreboard
+733250,2025-04-26T00:00:00Z,2025,Vila Nova,Chapecoense,1.0,0.0,,,ESPN scoreboard
+733257,2025-04-26T19:00:00Z,2025,Coritiba,Operário PR,2.0,0.0,,,ESPN scoreboard
+733258,2025-04-26T23:00:00Z,2025,Avaí,América Mineiro,3.0,0.0,,,ESPN scoreboard
+733254,2025-04-27T19:00:00Z,2025,Athletic,Volta Redonda,2.0,1.0,,,ESPN scoreboard
+733249,2025-04-27T19:30:00Z,2025,Amazonas,Atlético Goianiense,1.0,1.0,,,ESPN scoreboard
+733251,2025-04-27T20:00:00Z,2025,Paysandu,CRB,1.0,1.0,,,ESPN scoreboard
+733255,2025-04-27T22:00:00Z,2025,Cuiabá,Ferroviária,1.0,0.0,,,ESPN scoreboard
+733252,2025-04-28T22:30:00Z,2025,Botafogo-SP,Goiás,0.0,1.0,,,ESPN scoreboard
+733265,2025-05-03T00:35:00Z,2025,Ferroviária,Coritiba,2.0,1.0,,,ESPN scoreboard
+733259,2025-05-03T19:00:00Z,2025,Remo,Amazonas,1.0,0.0,,,ESPN scoreboard
+733260,2025-05-03T23:30:00Z,2025,Volta Redonda,Paysandu,1.0,0.0,,,ESPN scoreboard
+733268,2025-05-04T19:00:00Z,2025,Atlético Goianiense,Novorizontino,1.0,0.0,,,ESPN scoreboard
+733262,2025-05-04T21:30:00Z,2025,Athletico-PR,Botafogo-SP,1.0,4.0,,,ESPN scoreboard
+733264,2025-05-04T21:30:00Z,2025,Chapecoense,Criciúma,2.0,1.0,,,ESPN scoreboard
+733267,2025-05-04T23:30:00Z,2025,Operário PR,América Mineiro,1.0,0.0,,,ESPN scoreboard
+733266,2025-05-05T22:00:00Z,2025,Goiás,Avaí,2.0,1.0,,,ESPN scoreboard
+733261,2025-05-06T22:30:00Z,2025,CRB,Cuiabá,1.0,1.0,,,ESPN scoreboard
+733263,2025-05-07T00:30:00Z,2025,Athletic,Vila Nova,0.0,1.0,,,ESPN scoreboard
+733272,2025-05-09T00:35:00Z,2025,Athletico-PR,Chapecoense,1.0,1.0,,,ESPN scoreboard
+733270,2025-05-10T19:00:00Z,2025,Avaí,Atlético Goianiense,0.0,0.0,,,ESPN scoreboard
+733275,2025-05-10T21:30:00Z,2025,Goiás,Coritiba,1.0,0.0,,,ESPN scoreboard
+733276,2025-05-11T19:00:00Z,2025,Criciúma,Volta Redonda,0.0,0.0,,,ESPN scoreboard
+733274,2025-05-11T21:30:00Z,2025,Cuiabá,Operário PR,2.0,3.0,,,ESPN scoreboard
+733277,2025-05-11T21:30:00Z,2025,Novorizontino,Ferroviária,2.0,2.0,,,ESPN scoreboard
+733271,2025-05-12T22:00:00Z,2025,Botafogo-SP,Athletic,0.0,3.0,,,ESPN scoreboard
+733269,2025-05-13T00:00:00Z,2025,Amazonas,CRB,1.0,1.0,,,ESPN scoreboard
+733278,2025-05-14T22:00:00Z,2025,Remo,Vila Nova,2.0,0.0,,,ESPN scoreboard
+733273,2025-05-14T22:30:00Z,2025,América Mineiro,Paysandu,2.0,2.0,,,ESPN scoreboard
+733284,2025-05-16T00:35:00Z,2025,Ferroviária,Avaí,1.0,1.0,,,ESPN scoreboard
+733281,2025-05-16T22:00:00Z,2025,Chapecoense,Cuiabá,2.0,1.0,,,ESPN scoreboard
+733285,2025-05-17T19:00:00Z,2025,Operário PR,Botafogo-SP,3.0,0.0,,,ESPN scoreboard
+733287,2025-05-17T21:30:00Z,2025,Vila Nova,Athletico-PR,2.0,1.0,,,ESPN scoreboard
+733279,2025-05-17T23:30:00Z,2025,Athletic,Novorizontino,0.0,2.0,,,ESPN scoreboard
+733282,2025-05-18T19:00:00Z,2025,Atlético Goianiense,Remo,1.0,1.0,,,ESPN scoreboard
+733280,2025-05-18T19:00:00Z,2025,CRB,Criciúma,1.0,0.0,,,ESPN scoreboard
+733286,2025-05-18T21:30:00Z,2025,Paysandu,Goiás,0.0,0.0,,,ESPN scoreboard
+733288,2025-05-19T22:00:00Z,2025,Volta Redonda,Amazonas,1.0,1.0,,,ESPN scoreboard
+733283,2025-05-20T00:35:00Z,2025,Coritiba,América Mineiro,1.0,0.0,,,ESPN scoreboard
+733296,2025-05-24T00:35:00Z,2025,Goiás,Ferroviária,2.0,0.0,,,ESPN scoreboard
+733291,2025-05-24T19:00:00Z,2025,Athletico-PR,Athletic,1.0,0.0,,,ESPN scoreboard
+733298,2025-05-24T21:00:00Z,2025,Remo,Volta Redonda,1.0,1.0,,,ESPN scoreboard
+733292,2025-05-24T21:30:00Z,2025,Avaí,Chapecoense,2.0,1.0,,,ESPN scoreboard
+733297,2025-05-25T19:00:00Z,2025,Novorizontino,Paysandu,3.0,1.0,,,ESPN scoreboard
+733289,2025-05-25T21:30:00Z,2025,Amazonas,Operário PR,2.0,0.0,,,ESPN scoreboard
+733294,2025-05-26T22:00:00Z,2025,Criciúma,Coritiba,0.0,1.0,,,ESPN scoreboard
+733293,2025-05-26T23:00:00Z,2025,Botafogo-SP,CRB,2.0,1.0,,,ESPN scoreboard
+733295,2025-05-27T00:00:00Z,2025,Cuiabá,Vila Nova,1.0,0.0,,,ESPN scoreboard
+733290,2025-05-27T22:30:00Z,2025,América Mineiro,Atlético Goianiense,2.0,1.0,,,ESPN scoreboard
+733306,2025-05-30T00:35:00Z,2025,Ferroviária,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+733301,2025-05-30T22:00:00Z,2025,Vila Nova,Novorizontino,0.0,1.0,,,ESPN scoreboard
+733307,2025-05-31T19:00:00Z,2025,Coritiba,Avaí,2.0,1.0,,,ESPN scoreboard
+733304,2025-05-31T21:30:00Z,2025,Atlético Goianiense,Goiás,1.0,2.0,,,ESPN scoreboard
+733299,2025-05-31T23:30:00Z,2025,Athletic,Cuiabá,0.0,2.0,,,ESPN scoreboard
+733305,2025-06-01T19:00:00Z,2025,Operário PR,Athletico-PR,2.0,2.0,,,ESPN scoreboard
+733308,2025-06-01T21:00:00Z,2025,CRB,Remo,2.0,0.0,,,ESPN scoreboard
+733300,2025-06-01T23:30:00Z,2025,Volta Redonda,América Mineiro,1.0,0.0,,,ESPN scoreboard
+733302,2025-06-02T22:00:00Z,2025,Chapecoense,Amazonas,4.0,0.0,,,ESPN scoreboard
+733303,2025-06-03T00:00:00Z,2025,Paysandu,Criciúma,0.0,1.0,,,ESPN scoreboard
+733313,2025-06-05T21:00:00Z,2025,Botafogo-SP,Coritiba,0.0,0.0,,,ESPN scoreboard
+733317,2025-06-06T22:00:00Z,2025,Novorizontino,Chapecoense,1.0,0.0,,,ESPN scoreboard
+733315,2025-06-07T00:35:00Z,2025,Cuiabá,Paysandu,1.0,0.0,,,ESPN scoreboard
+733310,2025-06-07T19:00:00Z,2025,América Mineiro,Ferroviária,1.0,2.0,,,ESPN scoreboard
+733312,2025-06-07T23:30:00Z,2025,Avaí,CRB,1.0,0.0,,,ESPN scoreboard
+733316,2025-06-08T19:00:00Z,2025,Goiás,Volta Redonda,2.0,0.0,,,ESPN scoreboard
+733311,2025-06-08T21:00:00Z,2025,Athletico-PR,Atlético Goianiense,0.0,1.0,,,ESPN scoreboard
+733318,2025-06-08T22:00:00Z,2025,Remo,Operário PR,2.0,1.0,,,ESPN scoreboard
+733314,2025-06-09T22:00:00Z,2025,Criciúma,Vila Nova,1.0,0.0,,,ESPN scoreboard
+733309,2025-06-09T22:30:00Z,2025,Amazonas,Athletic,1.0,0.0,,,ESPN scoreboard
+733327,2025-06-13T22:00:00Z,2025,Vila Nova,América Mineiro,0.0,3.0,,,ESPN scoreboard
+733326,2025-06-14T00:35:00Z,2025,Paysandu,Botafogo-SP,1.0,0.0,,,ESPN scoreboard
+733322,2025-06-14T19:00:00Z,2025,CRB,Goiás,2.0,0.0,,,ESPN scoreboard
+733320,2025-06-14T21:30:00Z,2025,Athletico-PR,Remo,2.0,1.0,,,ESPN scoreboard
+733319,2025-06-14T23:30:00Z,2025,Athletic,Operário PR,2.0,1.0,,,ESPN scoreboard
+733321,2025-06-15T19:00:00Z,2025,Atlético Goianiense,Coritiba,0.0,0.0,,,ESPN scoreboard
+733325,2025-06-15T19:00:00Z,2025,Novorizontino,Cuiabá,3.0,0.0,,,ESPN scoreboard
+733324,2025-06-15T23:30:00Z,2025,Criciúma,Amazonas,3.0,2.0,,,ESPN scoreboard
+733323,2025-06-16T22:00:00Z,2025,Chapecoense,Ferroviária,2.0,1.0,,,ESPN scoreboard
+733328,2025-06-17T22:30:00Z,2025,Volta Redonda,Avaí,1.0,1.0,,,ESPN scoreboard
+733333,2025-06-20T22:00:00Z,2025,Botafogo-SP,Chapecoense,1.0,0.0,,,ESPN scoreboard
+733330,2025-06-21T00:35:00Z,2025,América Mineiro,Criciúma,1.0,1.0,,,ESPN scoreboard
+733332,2025-06-21T19:00:00Z,2025,Avaí,Athletico-PR,1.0,2.0,,,ESPN scoreboard
+733338,2025-06-21T21:30:00Z,2025,Remo,Paysandu,0.0,1.0,,,ESPN scoreboard
+733335,2025-06-21T23:30:00Z,2025,Ferroviária,CRB,1.0,0.0,,,ESPN scoreboard
+733331,2025-06-22T19:00:00Z,2025,Atlético Goianiense,Volta Redonda,2.0,0.0,,,ESPN scoreboard
+733334,2025-06-22T19:00:00Z,2025,Coritiba,Cuiabá,2.0,0.0,,,ESPN scoreboard
+733329,2025-06-22T21:00:00Z,2025,Amazonas,Vila Nova,2.0,1.0,,,ESPN scoreboard
+733337,2025-06-23T22:00:00Z,2025,Operário PR,Novorizontino,2.0,0.0,,,ESPN scoreboard
+733336,2025-06-24T00:00:00Z,2025,Goiás,Athletic,1.0,2.0,,,ESPN scoreboard
+733341,2025-06-27T00:35:00Z,2025,CRB,América Mineiro,1.0,2.0,,,ESPN scoreboard
+733348,2025-06-27T23:30:00Z,2025,Criciúma,Avaí,1.0,2.0,,,ESPN scoreboard
+733347,2025-06-28T19:00:00Z,2025,Vila Nova,Atlético Goianiense,1.0,0.0,,,ESPN scoreboard
+733340,2025-06-28T21:30:00Z,2025,Athletico-PR,Coritiba,0.0,1.0,,,ESPN scoreboard
+733339,2025-06-29T19:00:00Z,2025,Athletic,Remo,1.0,2.0,,,ESPN scoreboard
+733344,2025-06-29T19:00:00Z,2025,Volta Redonda,Operário PR,1.0,0.0,,,ESPN scoreboard
+733342,2025-06-29T22:00:00Z,2025,Chapecoense,Goiás,1.0,2.0,,,ESPN scoreboard
+733345,2025-06-29T22:00:00Z,2025,Novorizontino,Amazonas,1.0,1.0,,,ESPN scoreboard
+733346,2025-06-30T22:00:00Z,2025,Paysandu,Ferroviária,2.0,1.0,,,ESPN scoreboard
+733343,2025-07-01T00:00:00Z,2025,Cuiabá,Botafogo-SP,0.0,1.0,,,ESPN scoreboard
+733355,2025-07-04T00:35:00Z,2025,Atlético Goianiense,CRB,2.0,1.0,,,ESPN scoreboard
+733352,2025-07-04T22:00:00Z,2025,Coritiba,Volta Redonda,2.0,0.0,,,ESPN scoreboard
+733358,2025-07-05T19:00:00Z,2025,Remo,Cuiabá,0.0,0.0,,,ESPN scoreboard
+733354,2025-07-05T22:30:00Z,2025,Avaí,Paysandu,0.0,0.0,,,ESPN scoreboard
+733357,2025-07-05T23:30:00Z,2025,Amazonas,Athletico-PR,0.0,1.0,,,ESPN scoreboard
+733351,2025-07-06T19:00:00Z,2025,Ferroviária,Vila Nova,1.0,3.0,,,ESPN scoreboard
+733353,2025-07-06T21:30:00Z,2025,Botafogo-SP,Novorizontino,0.0,0.0,,,ESPN scoreboard
+733349,2025-07-07T22:00:00Z,2025,Operário PR,Chapecoense,1.0,2.0,,,ESPN scoreboard
+733356,2025-07-08T00:00:00Z,2025,América Mineiro,Athletic,0.0,1.0,,,ESPN scoreboard
+733350,2025-07-08T22:30:00Z,2025,Goiás,Criciúma,1.0,1.0,,,ESPN scoreboard
+733360,2025-07-11T00:35:00Z,2025,CRB,Coritiba,0.0,1.0,,,ESPN scoreboard
+733364,2025-07-11T22:00:00Z,2025,Vila Nova,Operário PR,0.0,0.0,,,ESPN scoreboard
+733366,2025-07-12T19:00:00Z,2025,Novorizontino,América Mineiro,3.0,1.0,,,ESPN scoreboard
+733365,2025-07-12T21:30:00Z,2025,Paysandu,Atlético Goianiense,2.0,2.0,,,ESPN scoreboard
+733362,2025-07-12T23:30:00Z,2025,Athletico-PR,Goiás,0.0,1.0,,,ESPN scoreboard
+733368,2025-07-13T19:00:00Z,2025,Criciúma,Ferroviária,2.0,1.0,,,ESPN scoreboard
+733359,2025-07-13T21:30:00Z,2025,Chapecoense,Remo,1.0,1.0,,,ESPN scoreboard
+733363,2025-07-14T22:00:00Z,2025,Athletic,Avaí,4.0,0.0,,,ESPN scoreboard
+733361,2025-07-15T00:30:00Z,2025,Botafogo-SP,Volta Redonda,0.0,0.0,,,ESPN scoreboard
+733367,2025-07-15T22:30:00Z,2025,Cuiabá,Amazonas,3.0,1.0,,,ESPN scoreboard
+733378,2025-07-17T22:30:00Z,2025,Operário PR,CRB,1.0,1.0,,,ESPN scoreboard
+733369,2025-07-18T00:35:00Z,2025,Remo,Novorizontino,1.0,1.0,,,ESPN scoreboard
+733373,2025-07-18T22:00:00Z,2025,Atlético Goianiense,Criciúma,0.0,1.0,,,ESPN scoreboard
+733375,2025-07-19T00:30:00Z,2025,Ferroviária,Athletic,1.0,2.0,,,ESPN scoreboard
+733374,2025-07-19T19:00:00Z,2025,Goiás,Cuiabá,3.0,1.0,,,ESPN scoreboard
+733377,2025-07-19T21:30:00Z,2025,Avaí,Vila Nova,1.0,1.0,,,ESPN scoreboard
+733376,2025-07-19T21:30:00Z,2025,Coritiba,Paysandu,2.0,5.0,,,ESPN scoreboard
+733370,2025-07-19T23:30:00Z,2025,Volta Redonda,Athletico-PR,3.0,2.0,,,ESPN scoreboard
+733372,2025-07-20T19:00:00Z,2025,Amazonas,Botafogo-SP,3.0,0.0,,,ESPN scoreboard
+733371,2025-07-20T21:30:00Z,2025,América Mineiro,Chapecoense,0.0,1.0,,,ESPN scoreboard
+733380,2025-07-22T22:00:00Z,2025,Operário PR,Atlético Goianiense,3.0,0.0,,,ESPN scoreboard
+733386,2025-07-22T23:00:00Z,2025,Athletico-PR,Ferroviária,1.0,1.0,,,ESPN scoreboard
+733385,2025-07-23T00:30:00Z,2025,Athletic,Coritiba,1.0,1.0,,,ESPN scoreboard
+733383,2025-07-23T00:35:00Z,2025,Vila Nova,CRB,2.0,0.0,,,ESPN scoreboard
+733388,2025-07-23T22:00:00Z,2025,Chapecoense,Volta Redonda,4.0,2.0,,,ESPN scoreboard
+733379,2025-07-23T22:00:00Z,2025,Novorizontino,Goiás,1.0,0.0,,,ESPN scoreboard
+733382,2025-07-24T00:30:00Z,2025,Amazonas,Paysandu,1.0,1.0,,,ESPN scoreboard
+733384,2025-07-24T00:30:00Z,2025,Cuiabá,América Mineiro,3.0,1.0,,,ESPN scoreboard
+733387,2025-07-24T22:00:00Z,2025,Botafogo-SP,Criciúma,0.0,2.0,,,ESPN scoreboard
+733381,2025-07-25T00:35:00Z,2025,Remo,Avaí,2.0,1.0,,,ESPN scoreboard
+733395,2025-07-26T21:30:00Z,2025,Ferroviária,Operário PR,0.0,0.0,,,ESPN scoreboard
+733392,2025-07-26T23:30:00Z,2025,CRB,Novorizontino,4.0,0.0,,,ESPN scoreboard
+733397,2025-07-27T19:00:00Z,2025,Coritiba,Amazonas,1.0,1.0,,,ESPN scoreboard
+733393,2025-07-27T19:00:00Z,2025,Volta Redonda,Vila Nova,2.0,1.0,,,ESPN scoreboard
+733389,2025-07-27T21:30:00Z,2025,América Mineiro,Athletico-PR,2.0,2.0,,,ESPN scoreboard
+733390,2025-07-27T22:00:00Z,2025,Atlético Goianiense,Chapecoense,0.0,0.0,,,ESPN scoreboard
+733391,2025-07-28T22:00:00Z,2025,Avaí,Botafogo-SP,5.0,0.0,,,ESPN scoreboard
+733398,2025-07-29T00:30:00Z,2025,Paysandu,Athletic,1.0,1.0,,,ESPN scoreboard
+733396,2025-07-29T23:30:00Z,2025,Criciúma,Cuiabá,1.0,0.0,,,ESPN scoreboard
+733394,2025-07-30T00:35:00Z,2025,Goiás,Remo,1.0,1.0,,,ESPN scoreboard
+733400,2025-08-01T00:35:00Z,2025,Vila Nova,Coritiba,1.0,2.0,,,ESPN scoreboard
+733399,2025-08-01T22:00:00Z,2025,Remo,Ferroviária,0.0,2.0,,,ESPN scoreboard
+733406,2025-08-02T00:30:00Z,2025,Operário PR,Criciúma,1.0,0.0,,,ESPN scoreboard
+733407,2025-08-02T21:30:00Z,2025,Botafogo-SP,América Mineiro,2.0,1.0,,,ESPN scoreboard
+733402,2025-08-02T23:30:00Z,2025,Amazonas,Goiás,2.0,2.0,,,ESPN scoreboard
+733403,2025-08-03T19:00:00Z,2025,Chapecoense,CRB,3.0,2.0,,,ESPN scoreboard
+733405,2025-08-03T19:00:00Z,2025,Novorizontino,Avaí,1.0,1.0,,,ESPN scoreboard
+733408,2025-08-03T21:30:00Z,2025,Athletico-PR,Paysandu,1.0,1.0,,,ESPN scoreboard
+733401,2025-08-04T22:00:00Z,2025,Athletic,Atlético Goianiense,1.0,1.0,,,ESPN scoreboard
+733404,2025-08-05T00:30:00Z,2025,Cuiabá,Volta Redonda,2.0,0.0,,,ESPN scoreboard
+733415,2025-08-08T22:00:00Z,2025,Ferroviária,Amazonas,2.0,1.0,,,ESPN scoreboard
+733418,2025-08-09T00:35:00Z,2025,Coritiba,Chapecoense,0.0,0.0,,,ESPN scoreboard
+733409,2025-08-09T19:00:00Z,2025,América Mineiro,Remo,0.0,1.0,,,ESPN scoreboard
+733416,2025-08-09T21:30:00Z,2025,Goiás,Operário PR,2.0,1.0,,,ESPN scoreboard
+733414,2025-08-09T23:30:00Z,2025,Volta Redonda,Novorizontino,0.0,0.0,,,ESPN scoreboard
+733411,2025-08-10T19:00:00Z,2025,Avaí,Cuiabá,2.0,0.0,,,ESPN scoreboard
+733410,2025-08-10T21:30:00Z,2025,Atlético Goianiense,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+733413,2025-08-11T22:00:00Z,2025,Criciúma,Athletico-PR,4.0,2.0,,,ESPN scoreboard
+733417,2025-08-12T00:30:00Z,2025,Paysandu,Vila Nova,0.0,1.0,,,ESPN scoreboard
+733412,2025-08-12T22:30:00Z,2025,CRB,Athletic,1.0,0.0,,,ESPN scoreboard
+733424,2025-08-15T00:35:00Z,2025,Novorizontino,Coritiba,1.0,2.0,,,ESPN scoreboard
+733419,2025-08-15T23:00:00Z,2025,Amazonas,América Mineiro,2.0,2.0,,,ESPN scoreboard
+733426,2025-08-16T19:00:00Z,2025,Remo,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+733427,2025-08-16T21:30:00Z,2025,Vila Nova,Goiás,2.0,0.0,,,ESPN scoreboard
+733421,2025-08-16T23:30:00Z,2025,Athletico-PR,Cuiabá,1.0,1.0,,,ESPN scoreboard
+733423,2025-08-17T19:00:00Z,2025,Chapecoense,Paysandu,2.0,0.0,,,ESPN scoreboard
+733422,2025-08-17T21:30:00Z,2025,Atlético Goianiense,Ferroviária,1.0,3.0,,,ESPN scoreboard
+733428,2025-08-18T22:00:00Z,2025,Volta Redonda,CRB,0.0,1.0,,,ESPN scoreboard
+733420,2025-08-19T00:00:00Z,2025,Athletic,Criciúma,1.0,1.0,,,ESPN scoreboard
+733425,2025-08-19T22:30:00Z,2025,Operário PR,Avaí,0.0,0.0,,,ESPN scoreboard
+733429,2025-08-22T22:00:00Z,2025,Athletic,Chapecoense,0.0,4.0,,,ESPN scoreboard
+733434,2025-08-23T00:35:00Z,2025,Criciúma,Novorizontino,2.0,0.0,,,ESPN scoreboard
+733433,2025-08-23T19:00:00Z,2025,Coritiba,Remo,0.0,0.0,,,ESPN scoreboard
+733437,2025-08-23T21:00:00Z,2025,Goiás,América Mineiro,1.0,0.0,,,ESPN scoreboard
+733432,2025-08-23T23:30:00Z,2025,CRB,Athletico-PR,0.0,1.0,,,ESPN scoreboard
+733438,2025-08-24T19:00:00Z,2025,Paysandu,Operário PR,1.0,2.0,,,ESPN scoreboard
+733436,2025-08-24T21:30:00Z,2025,Ferroviária,Volta Redonda,0.0,0.0,,,ESPN scoreboard
+733435,2025-08-24T23:30:00Z,2025,Cuiabá,Atlético Goianiense,2.0,2.0,,,ESPN scoreboard
+733431,2025-08-25T22:00:00Z,2025,Botafogo-SP,Vila Nova,2.0,0.0,,,ESPN scoreboard
+733430,2025-08-26T00:30:00Z,2025,Avaí,Amazonas,1.0,2.0,,,ESPN scoreboard
+733441,2025-08-29T00:35:00Z,2025,Remo,Criciúma,0.0,1.0,,,ESPN scoreboard
+733443,2025-08-29T22:00:00Z,2025,Operário PR,Coritiba,1.0,0.0,,,ESPN scoreboard
+733442,2025-08-30T19:00:00Z,2025,CRB,Paysandu,2.0,0.0,,,ESPN scoreboard
+733445,2025-08-30T21:30:00Z,2025,Goiás,Botafogo-SP,2.0,3.0,,,ESPN scoreboard
+733444,2025-08-30T23:30:00Z,2025,Athletico-PR,Novorizontino,2.0,1.0,,,ESPN scoreboard
+733448,2025-08-31T19:00:00Z,2025,Atlético Goianiense,Amazonas,2.0,0.0,,,ESPN scoreboard
+733440,2025-08-31T21:30:00Z,2025,Volta Redonda,Athletic,0.0,2.0,,,ESPN scoreboard
+733447,2025-09-01T22:00:00Z,2025,Chapecoense,Vila Nova,2.0,2.0,,,ESPN scoreboard
+733446,2025-09-02T00:30:00Z,2025,Ferroviária,Cuiabá,2.0,2.0,,,ESPN scoreboard
+733439,2025-09-02T22:30:00Z,2025,América Mineiro,Avaí,2.0,0.0,,,ESPN scoreboard
+733449,2025-09-05T20:00:00Z,2025,Amazonas,Remo,1.0,3.0,,,ESPN scoreboard
+733457,2025-09-05T22:00:00Z,2025,Paysandu,Volta Redonda,1.0,2.0,,,ESPN scoreboard
+733453,2025-09-06T00:30:00Z,2025,Coritiba,Ferroviária,4.0,0.0,,,ESPN scoreboard
+733452,2025-09-06T19:00:00Z,2025,Botafogo-SP,Athletico-PR,1.0,3.0,,,ESPN scoreboard
+733454,2025-09-07T19:00:00Z,2025,Criciúma,Chapecoense,2.0,0.0,,,ESPN scoreboard
+733450,2025-09-07T21:30:00Z,2025,América Mineiro,Operário PR,1.0,1.0,,,ESPN scoreboard
+733451,2025-09-07T23:30:00Z,2025,Avaí,Goiás,2.0,1.0,,,ESPN scoreboard
+733456,2025-09-08T22:30:00Z,2025,Novorizontino,Atlético Goianiense,1.0,1.0,,,ESPN scoreboard
+733455,2025-09-08T23:00:00Z,2025,Cuiabá,CRB,1.0,0.0,,,ESPN scoreboard
+733458,2025-09-09T00:30:00Z,2025,Vila Nova,Athletic,1.0,1.0,,,ESPN scoreboard
+733468,2025-09-12T22:00:00Z,2025,Volta Redonda,Criciúma,0.0,0.0,,,ESPN scoreboard
+733463,2025-09-13T00:30:00Z,2025,Coritiba,Goiás,0.0,0.0,,,ESPN scoreboard
+733466,2025-09-13T19:00:00Z,2025,Paysandu,América Mineiro,0.0,0.0,,,ESPN scoreboard
+733467,2025-09-13T21:30:00Z,2025,Vila Nova,Remo,1.0,1.0,,,ESPN scoreboard
+733465,2025-09-14T19:00:00Z,2025,Operário PR,Cuiabá,1.0,1.0,,,ESPN scoreboard
+733459,2025-09-14T21:30:00Z,2025,Athletic,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+733464,2025-09-15T22:00:00Z,2025,Ferroviária,Novorizontino,1.0,2.0,,,ESPN scoreboard
+733461,2025-09-16T00:30:00Z,2025,CRB,Amazonas,2.0,0.0,,,ESPN scoreboard
+733460,2025-09-16T22:30:00Z,2025,Atlético Goianiense,Avaí,2.0,1.0,,,ESPN scoreboard
+733462,2025-09-17T00:35:00Z,2025,Chapecoense,Athletico-PR,2.0,3.0,,,ESPN scoreboard
+733473,2025-09-18T22:00:00Z,2025,Botafogo-SP,Operário PR,1.0,1.0,,,ESPN scoreboard
+733477,2025-09-19T22:00:00Z,2025,Novorizontino,Athletic,1.0,0.0,,,ESPN scoreboard
+733476,2025-09-20T19:00:00Z,2025,Goiás,Paysandu,1.0,0.0,,,ESPN scoreboard
+733469,2025-09-20T21:30:00Z,2025,Amazonas,Volta Redonda,1.0,0.0,,,ESPN scoreboard
+733472,2025-09-20T21:30:00Z,2025,Avaí,Ferroviária,2.0,2.0,,,ESPN scoreboard
+733478,2025-09-20T23:30:00Z,2025,Remo,Atlético Goianiense,0.0,1.0,,,ESPN scoreboard
+733470,2025-09-21T19:00:00Z,2025,América Mineiro,Coritiba,1.0,0.0,,,ESPN scoreboard
+733474,2025-09-21T19:00:00Z,2025,Criciúma,CRB,1.0,0.0,,,ESPN scoreboard
+733471,2025-09-21T22:00:00Z,2025,Athletico-PR,Vila Nova,2.0,0.0,,,ESPN scoreboard
+733475,2025-09-21T23:30:00Z,2025,Cuiabá,Chapecoense,1.0,0.0,,,ESPN scoreboard
+733486,2025-09-23T22:30:00Z,2025,Paysandu,Novorizontino,0.0,1.0,,,ESPN scoreboard
+733483,2025-09-24T00:35:00Z,2025,Ferroviária,Goiás,1.0,1.0,,,ESPN scoreboard
+733479,2025-09-24T22:00:00Z,2025,Athletic,Athletico-PR,0.0,3.0,,,ESPN scoreboard
+733481,2025-09-24T22:00:00Z,2025,CRB,Botafogo-SP,3.0,2.0,,,ESPN scoreboard
+733487,2025-09-24T22:00:00Z,2025,Vila Nova,Cuiabá,2.0,2.0,,,ESPN scoreboard
+733485,2025-09-24T23:00:00Z,2025,Operário PR,Amazonas,2.0,1.0,,,ESPN scoreboard
+733484,2025-09-25T00:30:00Z,2025,Volta Redonda,Remo,2.0,1.0,,,ESPN scoreboard
+733488,2025-09-25T22:00:00Z,2025,Coritiba,Criciúma,0.0,2.0,,,ESPN scoreboard
+733480,2025-09-26T00:30:00Z,2025,Atlético Goianiense,América Mineiro,1.0,0.0,,,ESPN scoreboard
+733482,2025-09-26T00:35:00Z,2025,Chapecoense,Avaí,0.0,1.0,,,ESPN scoreboard
+733497,2025-09-27T23:30:00Z,2025,Athletico-PR,Operário PR,1.0,0.0,,,ESPN scoreboard
+733489,2025-09-28T19:00:00Z,2025,Criciúma,Paysandu,2.0,4.0,,,ESPN scoreboard
+733492,2025-09-28T19:00:00Z,2025,Novorizontino,Vila Nova,1.0,1.0,,,ESPN scoreboard
+733494,2025-09-28T21:00:00Z,2025,Remo,CRB,4.0,2.0,,,ESPN scoreboard
+733490,2025-09-28T21:30:00Z,2025,Botafogo-SP,Ferroviária,1.0,2.0,,,ESPN scoreboard
+733491,2025-09-28T23:30:00Z,2025,Cuiabá,Athletic,2.0,1.0,,,ESPN scoreboard
+733495,2025-09-29T19:00:00Z,2025,Amazonas,Chapecoense,1.0,3.0,,,ESPN scoreboard
+733496,2025-09-29T22:00:00Z,2025,América Mineiro,Volta Redonda,2.0,1.0,,,ESPN scoreboard
+733498,2025-09-29T22:30:00Z,2025,Avaí,Coritiba,0.0,2.0,,,ESPN scoreboard
+733493,2025-10-01T00:35:00Z,2025,Goiás,Atlético Goianiense,0.0,0.0,,,ESPN scoreboard
+733506,2025-10-02T22:00:00Z,2025,Paysandu,Cuiabá,1.0,1.0,,,ESPN scoreboard
+733507,2025-10-03T00:30:00Z,2025,Vila Nova,Criciúma,1.0,1.0,,,ESPN scoreboard
+733499,2025-10-03T22:00:00Z,2025,Athletic,Amazonas,2.0,2.0,,,ESPN scoreboard
+733508,2025-10-04T00:30:00Z,2025,Coritiba,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+733501,2025-10-04T00:35:00Z,2025,CRB,Avaí,1.0,0.0,,,ESPN scoreboard
+733502,2025-10-04T19:00:00Z,2025,Chapecoense,Novorizontino,1.0,0.0,,,ESPN scoreboard
+733504,2025-10-04T21:30:00Z,2025,Volta Redonda,Goiás,0.0,0.0,,,ESPN scoreboard
+733503,2025-10-04T23:30:00Z,2025,Ferroviária,América Mineiro,1.0,3.0,,,ESPN scoreboard
+733505,2025-10-05T19:00:00Z,2025,Operário PR,Remo,0.0,1.0,,,ESPN scoreboard
+733500,2025-10-05T23:30:00Z,2025,Atlético Goianiense,Athletico-PR,3.0,0.0,,,ESPN scoreboard
+733509,2025-10-07T23:00:00Z,2025,Amazonas,Criciúma,2.0,1.0,,,ESPN scoreboard
+733516,2025-10-08T00:30:00Z,2025,Goiás,CRB,1.0,2.0,,,ESPN scoreboard
+733512,2025-10-08T00:35:00Z,2025,Botafogo-SP,Paysandu,1.0,0.0,,,ESPN scoreboard
+733514,2025-10-08T22:00:00Z,2025,Cuiabá,Novorizontino,0.0,1.0,,,ESPN scoreboard
+733517,2025-10-08T22:00:00Z,2025,Operário PR,Athletic,1.0,4.0,,,ESPN scoreboard
+733511,2025-10-09T00:00:00Z,2025,Avaí,Volta Redonda,3.0,0.0,,,ESPN scoreboard
+733510,2025-10-09T00:30:00Z,2025,América Mineiro,Vila Nova,1.0,1.0,,,ESPN scoreboard
+733515,2025-10-09T22:00:00Z,2025,Ferroviária,Chapecoense,0.0,1.0,,,ESPN scoreboard
+733513,2025-10-09T22:30:00Z,2025,Coritiba,Atlético Goianiense,2.0,1.0,,,ESPN scoreboard
+733518,2025-10-10T00:35:00Z,2025,Remo,Athletico-PR,2.0,1.0,,,ESPN scoreboard
+733519,2025-10-11T19:00:00Z,2025,Athletic,Goiás,1.0,1.0,,,ESPN scoreboard
+733525,2025-10-12T19:00:00Z,2025,Novorizontino,Operário PR,3.0,0.0,,,ESPN scoreboard
+733523,2025-10-12T21:30:00Z,2025,Criciúma,América Mineiro,2.0,1.0,,,ESPN scoreboard
+733527,2025-10-12T21:30:00Z,2025,Vila Nova,Amazonas,1.0,0.0,,,ESPN scoreboard
+733524,2025-10-12T23:30:00Z,2025,Cuiabá,Coritiba,1.0,0.0,,,ESPN scoreboard
+733528,2025-10-13T22:00:00Z,2025,Volta Redonda,Atlético Goianiense,3.0,0.0,,,ESPN scoreboard
+733521,2025-10-14T00:30:00Z,2025,CRB,Ferroviária,2.0,2.0,,,ESPN scoreboard
+733522,2025-10-14T22:30:00Z,2025,Chapecoense,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+733526,2025-10-14T22:30:00Z,2025,Paysandu,Remo,2.0,3.0,,,ESPN scoreboard
+733520,2025-10-15T00:30:00Z,2025,Athletico-PR,Avaí,1.0,1.0,,,ESPN scoreboard
+733529,2025-10-17T23:00:00Z,2025,Amazonas,Novorizontino,0.0,0.0,,,ESPN scoreboard
+733531,2025-10-18T19:00:00Z,2025,Atlético Goianiense,Vila Nova,1.0,0.0,,,ESPN scoreboard
+733530,2025-10-18T21:30:00Z,2025,América Mineiro,CRB,1.0,1.0,,,ESPN scoreboard
+733538,2025-10-18T23:30:00Z,2025,Remo,Athletic,3.0,1.0,,,ESPN scoreboard
+733532,2025-10-19T19:00:00Z,2025,Avaí,Criciúma,1.0,1.0,,,ESPN scoreboard
+733537,2025-10-19T19:00:00Z,2025,Operário PR,Volta Redonda,2.0,1.0,,,ESPN scoreboard
+733533,2025-10-19T21:30:00Z,2025,Botafogo-SP,Cuiabá,2.0,2.0,,,ESPN scoreboard
+733534,2025-10-19T21:30:00Z,2025,Coritiba,Athletico-PR,0.0,0.0,,,ESPN scoreboard
+733536,2025-10-19T23:30:00Z,2025,Goiás,Chapecoense,1.0,3.0,,,ESPN scoreboard
+733535,2025-10-20T22:30:00Z,2025,Ferroviária,Paysandu,2.0,2.0,,,ESPN scoreboard
+733545,2025-10-24T22:00:00Z,2025,Novorizontino,Botafogo-SP,1.0,1.0,,,ESPN scoreboard
+733544,2025-10-25T00:35:00Z,2025,Cuiabá,Remo,1.0,3.0,,,ESPN scoreboard
+733539,2025-10-25T19:00:00Z,2025,Athletic,América Mineiro,0.0,2.0,,,ESPN scoreboard
+733547,2025-10-25T19:00:00Z,2025,Volta Redonda,Coritiba,0.0,1.0,,,ESPN scoreboard
+733546,2025-10-25T21:30:00Z,2025,Paysandu,Avaí,1.0,2.0,,,ESPN scoreboard
+733548,2025-10-25T23:30:00Z,2025,Criciúma,Goiás,1.0,2.0,,,ESPN scoreboard
+733541,2025-10-26T19:00:00Z,2025,CRB,Atlético Goianiense,2.0,1.0,,,ESPN scoreboard
+733543,2025-10-26T21:30:00Z,2025,Vila Nova,Ferroviária,2.0,2.0,,,ESPN scoreboard
+733542,2025-10-27T22:00:00Z,2025,Chapecoense,Operário PR,2.0,0.0,,,ESPN scoreboard
+733540,2025-10-28T00:30:00Z,2025,Athletico-PR,Amazonas,2.0,0.0,,,ESPN scoreboard
+733551,2025-10-31T22:00:00Z,2025,Atlético Goianiense,Paysandu,2.0,1.0,,,ESPN scoreboard
+733553,2025-10-31T22:00:00Z,2025,Coritiba,CRB,0.0,0.0,,,ESPN scoreboard
+733554,2025-11-01T00:35:00Z,2025,Ferroviária,Criciúma,0.0,0.0,,,ESPN scoreboard
+733555,2025-11-01T19:00:00Z,2025,Goiás,Athletico-PR,0.0,1.0,,,ESPN scoreboard
+733552,2025-11-01T21:30:00Z,2025,Avaí,Athletic,2.0,1.0,,,ESPN scoreboard
+733549,2025-11-02T19:00:00Z,2025,Amazonas,Cuiabá,2.0,0.0,,,ESPN scoreboard
+733557,2025-11-02T21:30:00Z,2025,Remo,Chapecoense,1.0,1.0,,,ESPN scoreboard
+733556,2025-11-02T23:30:00Z,2025,Operário PR,Vila Nova,2.0,2.0,,,ESPN scoreboard
+733550,2025-11-03T22:00:00Z,2025,América Mineiro,Novorizontino,2.0,2.0,,,ESPN scoreboard
+733558,2025-11-03T22:00:00Z,2025,Volta Redonda,Botafogo-SP,0.0,1.0,,,ESPN scoreboard
+733559,2025-11-07T22:00:00Z,2025,Athletic,Ferroviária,2.0,1.0,,,ESPN scoreboard
+733565,2025-11-08T00:30:00Z,2025,Cuiabá,Goiás,0.0,1.0,,,ESPN scoreboard
+733566,2025-11-08T19:00:00Z,2025,Novorizontino,Remo,1.0,1.0,,,ESPN scoreboard
+733560,2025-11-08T21:30:00Z,2025,Athletico-PR,Volta Redonda,2.0,0.0,,,ESPN scoreboard
+733568,2025-11-08T23:30:00Z,2025,Vila Nova,Avaí,2.0,2.0,,,ESPN scoreboard
+733564,2025-11-09T20:00:00Z,2025,Criciúma,Atlético Goianiense,1.0,0.0,,,ESPN scoreboard
+733562,2025-11-09T21:30:00Z,2025,CRB,Operário PR,2.0,2.0,,,ESPN scoreboard
+733567,2025-11-09T23:30:00Z,2025,Paysandu,Coritiba,1.0,2.0,,,ESPN scoreboard
+733561,2025-11-10T22:00:00Z,2025,Botafogo-SP,Amazonas,1.0,0.0,,,ESPN scoreboard
+733563,2025-11-10T22:00:00Z,2025,Chapecoense,América Mineiro,0.0,1.0,,,ESPN scoreboard
+733577,2025-11-14T23:00:00Z,2025,Paysandu,Amazonas,2.0,2.0,,,ESPN scoreboard
+733570,2025-11-15T19:30:00Z,2025,Atlético Goianiense,Operário PR,0.0,0.0,,,ESPN scoreboard
+733571,2025-11-15T19:30:00Z,2025,Avaí,Remo,3.0,1.0,,,ESPN scoreboard
+733573,2025-11-15T19:30:00Z,2025,Coritiba,Athletic,0.0,0.0,,,ESPN scoreboard
+733572,2025-11-15T19:30:00Z,2025,CRB,Vila Nova,2.0,0.0,,,ESPN scoreboard
+733578,2025-11-15T19:30:00Z,2025,Volta Redonda,Chapecoense,1.0,1.0,,,ESPN scoreboard
+733569,2025-11-16T19:30:00Z,2025,América Mineiro,Cuiabá,1.0,1.0,,,ESPN scoreboard
+733574,2025-11-16T19:30:00Z,2025,Criciúma,Botafogo-SP,2.0,0.0,,,ESPN scoreboard
+733575,2025-11-16T19:30:00Z,2025,Ferroviária,Athletico-PR,1.0,2.0,,,ESPN scoreboard
+733576,2025-11-16T19:30:00Z,2025,Goiás,Novorizontino,1.0,0.0,,,ESPN scoreboard
+733584,2025-11-19T22:30:00Z,2025,Vila Nova,Volta Redonda,2.0,2.0,,,ESPN scoreboard
+733585,2025-11-22T22:30:00Z,2025,Novorizontino,CRB,3.0,0.0,,,ESPN scoreboard
+733579,2025-11-23T19:30:00Z,2025,Amazonas,Coritiba,1.0,2.0,,,ESPN scoreboard
+733580,2025-11-23T19:30:00Z,2025,Athletic,Paysandu,2.0,1.0,,,ESPN scoreboard
+733581,2025-11-23T19:30:00Z,2025,Athletico-PR,América Mineiro,1.0,0.0,,,ESPN scoreboard
+733582,2025-11-23T19:30:00Z,2025,Botafogo-SP,Avaí,0.0,0.0,,,ESPN scoreboard
+733588,2025-11-23T19:30:00Z,2025,Chapecoense,Atlético Goianiense,1.0,0.0,,,ESPN scoreboard
+733583,2025-11-23T19:30:00Z,2025,Cuiabá,Criciúma,1.0,0.0,,,ESPN scoreboard
+733586,2025-11-23T19:30:00Z,2025,Operário PR,Ferroviária,2.0,1.0,,,ESPN scoreboard
+733587,2025-11-23T19:30:00Z,2025,Remo,Goiás,3.0,1.0,,,ESPN scoreboard

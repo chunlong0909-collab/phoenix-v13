@@ -1,31 +1,26 @@
-﻿team_name,team_id,country,stadium,crest_url,espn_team_id,source,lastUpdated,dataSource
-Arsenal,,,,https://a.espncdn.com/i/teamlogos/soccer/500/359.png,359,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Aston Villa,,,,https://a.espncdn.com/i/teamlogos/soccer/500/362.png,362,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Bournemouth,,,,https://a.espncdn.com/i/teamlogos/soccer/500/349.png,349,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Brentford,,,,https://a.espncdn.com/i/teamlogos/soccer/500/337.png,337,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Brighton,,,,https://a.espncdn.com/i/teamlogos/soccer/500/331.png,331,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Burnley,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Cardiff,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Chelsea,,,,https://a.espncdn.com/i/teamlogos/soccer/500/363.png,363,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Crystal Palace,,,,https://a.espncdn.com/i/teamlogos/soccer/500/384.png,384,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Everton,,,,https://a.espncdn.com/i/teamlogos/soccer/500/368.png,368,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Fulham,,,,https://a.espncdn.com/i/teamlogos/soccer/500/370.png,370,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Huddersfield,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Ipswich,,,,https://a.espncdn.com/i/teamlogos/soccer/500/373.png,373,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Leeds,,,,https://a.espncdn.com/i/teamlogos/soccer/500/357.png,357,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Leicester,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Liverpool,,,,https://a.espncdn.com/i/teamlogos/soccer/500/364.png,364,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Luton,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Man City,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Man United,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Newcastle,,,,https://a.espncdn.com/i/teamlogos/soccer/500/361.png,361,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Norwich,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Nott'm Forest,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Sheffield United,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Southampton,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Sunderland,,,,https://a.espncdn.com/i/teamlogos/soccer/500/366.png,366,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Tottenham,,,,https://a.espncdn.com/i/teamlogos/soccer/500/367.png,367,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Watford,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-West Brom,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-West Ham,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
-Wolves,,,,,,openfootball/football-data,2026-10-21T08:58:52.562235+00:00,openfootball/football-data
+﻿team_id,team_name,slug,source
+367,Tottenham Hotspur,,ESPN
+362,Aston Villa,,ESPN
+393,Nottingham Forest,,ESPN
+363,Chelsea,,ESPN
+337,Brentford,,ESPN
+364,Liverpool,,ESPN
+359,Arsenal,,ESPN
+361,Newcastle United,,ESPN
+368,Everton,,ESPN
+331,Brighton & Hove Albion,,ESPN
+375,Leicester City,,ESPN
+370,Fulham,,ESPN
+360,Manchester United,,ESPN
+349,AFC Bournemouth,,ESPN
+376,Southampton,,ESPN
+357,Leeds United,,ESPN
+371,West Ham United,,ESPN
+380,Wolverhampton Wanderers,,ESPN
+384,Crystal Palace,,ESPN
+382,Manchester City,,ESPN
+379,Burnley,,ESPN
+301,Luton Town,,ESPN
+398,Sheffield United,,ESPN
+373,Ipswich Town,,ESPN
+366,Sunderland,,ESPN

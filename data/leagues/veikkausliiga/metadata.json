@@ -1,15 +1,11 @@
 {
   "league_id": "veikkausliiga",
   "name_zh": "芬超",
-  "updated_at": "2026-10-21T09:02:38.923635+00:00",
-  "sources": [],
+  "updated_at": "2026-10-22T19:41:58.550937+00:00",
+  "fixtures": 0,
   "teams": 0,
   "players": 0,
-  "matches": 0,
-  "corner_matches": 0,
-  "quality": "樣本不足",
-  "dataSource": "ESPN／football-data／openfootball",
-  "lastUpdated": "2026-10-21T09:02:38.923635+00:00",
-  "players_update_protected": false,
-  "errors": []
+  "corner_fixtures": 0,
+  "sources": [],
+  "status": "insufficient"
 }

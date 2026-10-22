@@ -1,1 +1,721 @@
-﻿
+﻿fixture_id,date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+658840,2023-04-10T12:30:00Z,2023,Rosenborg,Viking FK,1.0,0.0,,,ESPN scoreboard
+658841,2023-04-10T15:00:00Z,2023,Aalesund,Vålerenga,0.0,1.0,,,ESPN scoreboard
+658843,2023-04-10T15:00:00Z,2023,Hamarkameratene,Sandefjord,2.0,0.0,,,ESPN scoreboard
+658845,2023-04-10T15:00:00Z,2023,Sarpsborg FK,Bodo/Glimt,0.0,2.0,,,ESPN scoreboard
+658846,2023-04-10T15:00:00Z,2023,Stabaek,Odds BK,0.0,0.0,,,ESPN scoreboard
+658842,2023-04-10T15:00:00Z,2023,Tromso,Molde,1.0,0.0,,,ESPN scoreboard
+658847,2023-04-10T17:15:00Z,2023,SK Brann,Haugesund,3.0,0.0,,,ESPN scoreboard
+658848,2023-04-15T16:00:00Z,2023,Viking FK,Lillestrom,2.0,0.0,,,ESPN scoreboard
+658849,2023-04-16T15:00:00Z,2023,Bodo/Glimt,Stabaek,4.0,0.0,,,ESPN scoreboard
+658850,2023-04-16T15:00:00Z,2023,Haugesund,Hamarkameratene,3.0,2.0,,,ESPN scoreboard
+658851,2023-04-16T15:00:00Z,2023,Molde,Rosenborg,1.0,1.0,,,ESPN scoreboard
+658852,2023-04-16T15:00:00Z,2023,Odds BK,SK Brann,2.0,0.0,,,ESPN scoreboard
+658853,2023-04-16T15:00:00Z,2023,Sandefjord,Tromso,0.0,0.0,,,ESPN scoreboard
+658854,2023-04-16T15:00:00Z,2023,Stromsgodset,Aalesund,1.0,0.0,,,ESPN scoreboard
+658855,2023-04-16T17:15:00Z,2023,Vålerenga,Sarpsborg FK,0.0,2.0,,,ESPN scoreboard
+658844,2023-04-19T16:30:00Z,2023,Lillestrom,Stromsgodset,4.0,3.0,,,ESPN scoreboard
+658856,2023-04-22T16:00:00Z,2023,SK Brann,Vålerenga,3.0,1.0,,,ESPN scoreboard
+658857,2023-04-23T15:00:00Z,2023,Aalesund,Bodo/Glimt,0.0,3.0,,,ESPN scoreboard
+658862,2023-04-23T15:00:00Z,2023,Hamarkameratene,Stromsgodset,2.0,0.0,,,ESPN scoreboard
+658861,2023-04-23T15:00:00Z,2023,Rosenborg,Sandefjord,1.0,1.0,,,ESPN scoreboard
+658860,2023-04-23T15:00:00Z,2023,Sarpsborg FK,Odds BK,0.0,0.0,,,ESPN scoreboard
+658859,2023-04-23T15:00:00Z,2023,Stabaek,Haugesund,3.0,0.0,,,ESPN scoreboard
+658858,2023-04-23T15:00:00Z,2023,Tromso,Viking FK,1.0,1.0,,,ESPN scoreboard
+658863,2023-04-23T17:15:00Z,2023,Lillestrom,Molde,2.0,1.0,,,ESPN scoreboard
+658864,2023-04-29T16:00:00Z,2023,Bodo/Glimt,SK Brann,2.0,2.0,,,ESPN scoreboard
+658868,2023-04-30T15:00:00Z,2023,Haugesund,Sarpsborg FK,0.0,0.0,,,ESPN scoreboard
+658867,2023-04-30T15:00:00Z,2023,Molde,Stabaek,2.0,3.0,,,ESPN scoreboard
+658866,2023-04-30T15:00:00Z,2023,Sandefjord,Aalesund,4.0,0.0,,,ESPN scoreboard
+658865,2023-04-30T15:00:00Z,2023,Stromsgodset,Tromso,0.0,1.0,,,ESPN scoreboard
+658869,2023-04-30T15:00:00Z,2023,Viking FK,Hamarkameratene,7.0,3.0,,,ESPN scoreboard
+658870,2023-04-30T17:15:00Z,2023,Odds BK,Rosenborg,0.0,0.0,,,ESPN scoreboard
+658871,2023-05-01T16:00:00Z,2023,Vålerenga,Lillestrom,3.0,4.0,,,ESPN scoreboard
+658977,2023-05-03T16:00:00Z,2023,Bodo/Glimt,Odds BK,2.0,0.0,,,ESPN scoreboard
+658970,2023-05-03T16:00:00Z,2023,Molde,Aalesund,3.0,0.0,,,ESPN scoreboard
+658979,2023-05-03T16:00:00Z,2023,Rosenborg,SK Brann,0.0,2.0,,,ESPN scoreboard
+658872,2023-05-06T16:00:00Z,2023,Rosenborg,Vålerenga,1.0,3.0,,,ESPN scoreboard
+658873,2023-05-07T15:00:00Z,2023,Aalesund,Haugesund,0.0,0.0,,,ESPN scoreboard
+658874,2023-05-07T15:00:00Z,2023,Hamarkameratene,Molde,0.0,4.0,,,ESPN scoreboard
+658876,2023-05-07T15:00:00Z,2023,Stabaek,Sarpsborg FK,1.0,1.0,,,ESPN scoreboard
+658877,2023-05-07T15:00:00Z,2023,Tromso,Odds BK,0.0,1.0,,,ESPN scoreboard
+658875,2023-05-07T15:00:00Z,2023,Viking FK,Stromsgodset,1.0,1.0,,,ESPN scoreboard
+658878,2023-05-07T17:15:00Z,2023,Lillestrom,Bodo/Glimt,1.0,2.0,,,ESPN scoreboard
+658879,2023-05-08T17:00:00Z,2023,SK Brann,Sandefjord,0.0,0.0,,,ESPN scoreboard
+658880,2023-05-12T17:00:00Z,2023,Odds BK,Lillestrom,0.0,1.0,,,ESPN scoreboard
+658881,2023-05-13T15:00:00Z,2023,Bodo/Glimt,Rosenborg,3.0,2.0,,,ESPN scoreboard
+658886,2023-05-13T15:00:00Z,2023,Hamarkameratene,Tromso,1.0,2.0,,,ESPN scoreboard
+658885,2023-05-13T15:00:00Z,2023,Molde,Stromsgodset,3.0,2.0,,,ESPN scoreboard
+658884,2023-05-13T15:00:00Z,2023,Sandefjord,Viking FK,1.0,2.0,,,ESPN scoreboard
+658883,2023-05-13T15:00:00Z,2023,Sarpsborg FK,SK Brann,2.0,1.0,,,ESPN scoreboard
+658882,2023-05-13T15:00:00Z,2023,Stabaek,Aalesund,1.0,0.0,,,ESPN scoreboard
+658887,2023-05-13T17:15:00Z,2023,Haugesund,Vålerenga,1.0,1.0,,,ESPN scoreboard
+658888,2023-05-16T16:00:00Z,2023,Aalesund,Molde,3.0,1.0,,,ESPN scoreboard
+658891,2023-05-16T16:00:00Z,2023,Lillestrom,Sarpsborg FK,1.0,2.0,,,ESPN scoreboard
+658892,2023-05-16T16:00:00Z,2023,Rosenborg,Haugesund,1.0,0.0,,,ESPN scoreboard
+658890,2023-05-16T16:00:00Z,2023,SK Brann,Stabaek,4.0,1.0,,,ESPN scoreboard
+658893,2023-05-16T16:00:00Z,2023,Stromsgodset,Sandefjord,1.0,0.0,,,ESPN scoreboard
+658894,2023-05-16T16:00:00Z,2023,Tromso,Bodo/Glimt,2.0,3.0,,,ESPN scoreboard
+658889,2023-05-16T16:00:00Z,2023,Vålerenga,Hamarkameratene,3.0,0.0,,,ESPN scoreboard
+658895,2023-05-16T16:00:00Z,2023,Viking FK,Odds BK,3.0,2.0,,,ESPN scoreboard
+658898,2023-05-29T15:00:00Z,2023,Bodo/Glimt,Viking FK,5.0,1.0,,,ESPN scoreboard
+658900,2023-05-29T15:00:00Z,2023,Haugesund,Tromso,1.0,2.0,,,ESPN scoreboard
+658896,2023-05-29T15:00:00Z,2023,Molde,Sandefjord,5.0,0.0,,,ESPN scoreboard
+658902,2023-05-29T15:00:00Z,2023,Odds BK,Stromsgodset,1.0,1.0,,,ESPN scoreboard
+658901,2023-05-29T15:00:00Z,2023,Sarpsborg FK,Aalesund,3.0,1.0,,,ESPN scoreboard
+658899,2023-05-29T15:00:00Z,2023,SK Brann,Rosenborg,3.0,1.0,,,ESPN scoreboard
+658897,2023-05-29T15:00:00Z,2023,Stabaek,Vålerenga,2.0,1.0,,,ESPN scoreboard
+658903,2023-05-29T17:15:00Z,2023,Hamarkameratene,Lillestrom,0.0,0.0,,,ESPN scoreboard
+658905,2023-06-04T15:00:00Z,2023,Aalesund,SK Brann,1.0,3.0,,,ESPN scoreboard
+658906,2023-06-04T15:00:00Z,2023,Lillestrom,Stabaek,3.0,1.0,,,ESPN scoreboard
+658904,2023-06-04T15:00:00Z,2023,Rosenborg,Hamarkameratene,4.0,0.0,,,ESPN scoreboard
+658907,2023-06-04T15:00:00Z,2023,Sandefjord,Odds BK,4.0,1.0,,,ESPN scoreboard
+658908,2023-06-04T15:00:00Z,2023,Stromsgodset,Haugesund,1.0,2.0,,,ESPN scoreboard
+658909,2023-06-04T15:00:00Z,2023,Tromso,Sarpsborg FK,2.0,1.0,,,ESPN scoreboard
+658910,2023-06-04T15:00:00Z,2023,Vålerenga,Bodo/Glimt,1.0,3.0,,,ESPN scoreboard
+658911,2023-06-04T17:15:00Z,2023,Viking FK,Molde,3.0,4.0,,,ESPN scoreboard
+658913,2023-06-11T15:00:00Z,2023,Aalesund,Tromso,2.0,3.0,,,ESPN scoreboard
+658914,2023-06-11T15:00:00Z,2023,Bodo/Glimt,Hamarkameratene,3.0,0.0,,,ESPN scoreboard
+658912,2023-06-11T15:00:00Z,2023,Haugesund,Sandefjord,3.0,2.0,,,ESPN scoreboard
+658916,2023-06-11T15:00:00Z,2023,Odds BK,Molde,1.0,0.0,,,ESPN scoreboard
+658917,2023-06-11T15:00:00Z,2023,Sarpsborg FK,Viking FK,1.0,3.0,,,ESPN scoreboard
+658918,2023-06-11T15:00:00Z,2023,Stabaek,Rosenborg,2.0,2.0,,,ESPN scoreboard
+658915,2023-06-11T15:00:00Z,2023,Vålerenga,Stromsgodset,0.0,1.0,,,ESPN scoreboard
+658919,2023-06-11T17:15:00Z,2023,SK Brann,Lillestrom,2.0,2.0,,,ESPN scoreboard
+658920,2023-06-24T16:00:00Z,2023,Viking FK,SK Brann,3.0,1.0,,,ESPN scoreboard
+658921,2023-06-25T15:00:00Z,2023,Hamarkameratene,Odds BK,0.0,1.0,,,ESPN scoreboard
+658925,2023-06-25T15:00:00Z,2023,Molde,Haugesund,1.0,0.0,,,ESPN scoreboard
+658926,2023-06-25T15:00:00Z,2023,Rosenborg,Sarpsborg FK,0.0,3.0,,,ESPN scoreboard
+658924,2023-06-25T15:00:00Z,2023,Tromso,Stabaek,2.0,1.0,,,ESPN scoreboard
+658927,2023-06-25T17:15:00Z,2023,Stromsgodset,Bodo/Glimt,2.0,0.0,,,ESPN scoreboard
+658928,2023-07-01T16:00:00Z,2023,Vålerenga,Viking FK,1.0,2.0,,,ESPN scoreboard
+658929,2023-07-02T15:00:00Z,2023,Aalesund,Rosenborg,1.0,0.0,,,ESPN scoreboard
+658930,2023-07-02T15:00:00Z,2023,Haugesund,Odds BK,2.0,1.0,,,ESPN scoreboard
+658932,2023-07-02T15:00:00Z,2023,Lillestrom,Tromso,0.0,1.0,,,ESPN scoreboard
+658931,2023-07-02T15:00:00Z,2023,Sarpsborg FK,Sandefjord,6.0,1.0,,,ESPN scoreboard
+658933,2023-07-02T15:00:00Z,2023,SK Brann,Hamarkameratene,2.0,1.0,,,ESPN scoreboard
+658934,2023-07-02T17:15:00Z,2023,Bodo/Glimt,Molde,2.0,2.0,,,ESPN scoreboard
+658935,2023-07-03T17:00:00Z,2023,Stabaek,Stromsgodset,0.0,1.0,,,ESPN scoreboard
+658936,2023-07-07T17:00:00Z,2023,Hamarkameratene,Aalesund,2.0,1.0,,,ESPN scoreboard
+658937,2023-07-08T16:00:00Z,2023,Viking FK,Haugesund,2.0,0.0,,,ESPN scoreboard
+658942,2023-07-09T15:00:00Z,2023,Odds BK,Bodo/Glimt,0.0,2.0,,,ESPN scoreboard
+658941,2023-07-09T15:00:00Z,2023,Rosenborg,Lillestrom,1.0,2.0,,,ESPN scoreboard
+658940,2023-07-09T15:00:00Z,2023,Sandefjord,Stabaek,0.0,0.0,,,ESPN scoreboard
+658939,2023-07-09T15:00:00Z,2023,Stromsgodset,Sarpsborg FK,5.0,2.0,,,ESPN scoreboard
+658938,2023-07-09T15:00:00Z,2023,Tromso,Vålerenga,0.0,0.0,,,ESPN scoreboard
+658943,2023-07-09T17:15:00Z,2023,Molde,SK Brann,2.0,0.0,,,ESPN scoreboard
+658944,2023-07-15T16:00:00Z,2023,Vålerenga,Molde,0.0,4.0,,,ESPN scoreboard
+658946,2023-07-16T15:00:00Z,2023,Aalesund,Odds BK,0.0,3.0,,,ESPN scoreboard
+658945,2023-07-16T15:00:00Z,2023,Bodo/Glimt,Haugesund,2.0,1.0,,,ESPN scoreboard
+658950,2023-07-16T15:00:00Z,2023,Lillestrom,Sandefjord,4.0,2.0,,,ESPN scoreboard
+658949,2023-07-16T15:00:00Z,2023,Rosenborg,Tromso,2.0,1.0,,,ESPN scoreboard
+658948,2023-07-16T15:00:00Z,2023,Sarpsborg FK,Hamarkameratene,2.0,3.0,,,ESPN scoreboard
+658947,2023-07-16T15:00:00Z,2023,Stabaek,Viking FK,0.0,1.0,,,ESPN scoreboard
+658951,2023-07-16T17:15:00Z,2023,SK Brann,Stromsgodset,1.0,0.0,,,ESPN scoreboard
+658922,2023-07-19T16:00:00Z,2023,Lillestrom,Aalesund,5.0,1.0,,,ESPN scoreboard
+658952,2023-07-22T16:00:00Z,2023,Molde,Sarpsborg FK,5.0,1.0,,,ESPN scoreboard
+658953,2023-07-23T15:00:00Z,2023,Hamarkameratene,Stabaek,3.0,2.0,,,ESPN scoreboard
+658954,2023-07-23T15:00:00Z,2023,Haugesund,Lillestrom,1.0,0.0,,,ESPN scoreboard
+658957,2023-07-23T15:00:00Z,2023,Odds BK,Vålerenga,2.0,1.0,,,ESPN scoreboard
+658956,2023-07-23T15:00:00Z,2023,Sandefjord,Bodo/Glimt,2.0,5.0,,,ESPN scoreboard
+658955,2023-07-23T15:00:00Z,2023,Tromso,SK Brann,3.0,1.0,,,ESPN scoreboard
+658958,2023-07-23T17:15:00Z,2023,Stromsgodset,Rosenborg,0.0,1.0,,,ESPN scoreboard
+658959,2023-07-24T17:00:00Z,2023,Viking FK,Aalesund,3.0,1.0,,,ESPN scoreboard
+658967,2023-07-29T13:30:00Z,2023,Vålerenga,Sandefjord,2.0,3.0,,,ESPN scoreboard
+658966,2023-07-29T16:00:00Z,2023,Stabaek,Molde,0.0,1.0,,,ESPN scoreboard
+658960,2023-07-30T15:00:00Z,2023,Aalesund,Stromsgodset,1.0,0.0,,,ESPN scoreboard
+658963,2023-07-30T15:00:00Z,2023,Lillestrom,Hamarkameratene,3.0,1.0,,,ESPN scoreboard
+658964,2023-07-30T15:00:00Z,2023,Rosenborg,Odds BK,3.0,2.0,,,ESPN scoreboard
+658965,2023-07-30T15:00:00Z,2023,Sarpsborg FK,Haugesund,2.0,1.0,,,ESPN scoreboard
+658962,2023-07-30T15:00:00Z,2023,SK Brann,Viking FK,0.0,2.0,,,ESPN scoreboard
+658961,2023-07-30T17:15:00Z,2023,Bodo/Glimt,Tromso,0.0,2.0,,,ESPN scoreboard
+658973,2023-08-05T16:00:00Z,2023,Stromsgodset,Vålerenga,1.0,3.0,,,ESPN scoreboard
+658969,2023-08-06T15:00:00Z,2023,Hamarkameratene,SK Brann,0.0,2.0,,,ESPN scoreboard
+658968,2023-08-06T15:00:00Z,2023,Haugesund,Rosenborg,1.0,2.0,,,ESPN scoreboard
+658971,2023-08-06T15:00:00Z,2023,Odds BK,Stabaek,4.0,0.0,,,ESPN scoreboard
+658972,2023-08-06T15:00:00Z,2023,Sandefjord,Sarpsborg FK,5.0,1.0,,,ESPN scoreboard
+658974,2023-08-06T15:00:00Z,2023,Tromso,Lillestrom,3.0,1.0,,,ESPN scoreboard
+658975,2023-08-06T17:15:00Z,2023,Viking FK,Bodo/Glimt,3.0,2.0,,,ESPN scoreboard
+658980,2023-08-12T14:00:00Z,2023,Sandefjord,Molde,2.0,2.0,,,ESPN scoreboard
+658981,2023-08-12T16:00:00Z,2023,Sarpsborg FK,Stromsgodset,1.0,2.0,,,ESPN scoreboard
+658976,2023-08-13T15:00:00Z,2023,Aalesund,Hamarkameratene,0.0,2.0,,,ESPN scoreboard
+658978,2023-08-13T15:00:00Z,2023,Lillestrom,Viking FK,1.0,3.0,,,ESPN scoreboard
+658983,2023-08-13T17:15:00Z,2023,Vålerenga,Haugesund,1.0,1.0,,,ESPN scoreboard
+658987,2023-08-19T16:00:00Z,2023,Molde,Vålerenga,0.0,0.0,,,ESPN scoreboard
+658988,2023-08-19T16:00:00Z,2023,Odds BK,Sarpsborg FK,0.0,3.0,,,ESPN scoreboard
+658986,2023-08-20T15:00:00Z,2023,Hamarkameratene,Rosenborg,3.0,0.0,,,ESPN scoreboard
+658985,2023-08-20T15:00:00Z,2023,Haugesund,Bodo/Glimt,1.0,3.0,,,ESPN scoreboard
+658984,2023-08-20T15:00:00Z,2023,SK Brann,Aalesund,5.0,1.0,,,ESPN scoreboard
+658990,2023-08-20T15:00:00Z,2023,Tromso,Sandefjord,1.0,0.0,,,ESPN scoreboard
+658991,2023-08-20T15:00:00Z,2023,Viking FK,Stabaek,1.0,0.0,,,ESPN scoreboard
+658989,2023-08-20T17:15:00Z,2023,Stromsgodset,Lillestrom,1.0,2.0,,,ESPN scoreboard
+658997,2023-08-26T16:00:00Z,2023,Sarpsborg FK,Tromso,4.0,0.0,,,ESPN scoreboard
+658996,2023-08-27T15:00:00Z,2023,Sandefjord,Haugesund,0.0,0.0,,,ESPN scoreboard
+658999,2023-08-27T15:00:00Z,2023,Vålerenga,Odds BK,2.0,2.0,,,ESPN scoreboard
+658995,2023-08-27T17:15:00Z,2023,Rosenborg,Aalesund,4.0,0.0,,,ESPN scoreboard
+659007,2023-09-02T16:00:00Z,2023,Viking FK,Vålerenga,1.0,1.0,,,ESPN scoreboard
+659000,2023-09-03T15:00:00Z,2023,Aalesund,Lillestrom,1.0,1.0,,,ESPN scoreboard
+659002,2023-09-03T15:00:00Z,2023,Haugesund,Molde,1.0,2.0,,,ESPN scoreboard
+659004,2023-09-03T15:00:00Z,2023,Odds BK,Sandefjord,3.0,2.0,,,ESPN scoreboard
+659001,2023-09-03T15:00:00Z,2023,SK Brann,Sarpsborg FK,1.0,0.0,,,ESPN scoreboard
+659005,2023-09-03T15:00:00Z,2023,Stromsgodset,Stabaek,2.0,1.0,,,ESPN scoreboard
+659006,2023-09-03T15:00:00Z,2023,Tromso,Rosenborg,3.0,1.0,,,ESPN scoreboard
+659003,2023-09-03T17:15:00Z,2023,Hamarkameratene,Bodo/Glimt,4.0,4.0,,,ESPN scoreboard
+659008,2023-09-16T16:00:00Z,2023,Haugesund,Viking FK,0.0,2.0,,,ESPN scoreboard
+659009,2023-09-16T16:00:00Z,2023,Molde,Odds BK,4.0,1.0,,,ESPN scoreboard
+659011,2023-09-16T16:00:00Z,2023,Sandefjord,Stromsgodset,2.0,0.0,,,ESPN scoreboard
+659010,2023-09-17T15:00:00Z,2023,Rosenborg,Bodo/Glimt,1.0,1.0,,,ESPN scoreboard
+659012,2023-09-17T15:00:00Z,2023,Sarpsborg FK,Lillestrom,3.0,1.0,,,ESPN scoreboard
+659013,2023-09-17T15:00:00Z,2023,Stabaek,SK Brann,0.0,1.0,,,ESPN scoreboard
+659014,2023-09-17T15:00:00Z,2023,Tromso,Hamarkameratene,2.0,1.0,,,ESPN scoreboard
+659015,2023-09-17T17:15:00Z,2023,Vålerenga,Aalesund,3.0,1.0,,,ESPN scoreboard
+659016,2023-09-23T16:00:00Z,2023,Aalesund,Stabaek,1.0,1.0,,,ESPN scoreboard
+659017,2023-09-24T15:00:00Z,2023,Bodo/Glimt,Vålerenga,4.0,2.0,,,ESPN scoreboard
+659019,2023-09-24T15:00:00Z,2023,Hamarkameratene,Sarpsborg FK,1.0,1.0,,,ESPN scoreboard
+659020,2023-09-24T15:00:00Z,2023,Lillestrom,Rosenborg,3.0,0.0,,,ESPN scoreboard
+659021,2023-09-24T15:00:00Z,2023,Odds BK,Haugesund,1.0,1.0,,,ESPN scoreboard
+659022,2023-09-24T15:00:00Z,2023,Stromsgodset,Molde,1.0,1.0,,,ESPN scoreboard
+659023,2023-09-24T15:00:00Z,2023,Viking FK,Sandefjord,4.0,3.0,,,ESPN scoreboard
+659018,2023-09-24T17:15:00Z,2023,SK Brann,Tromso,2.0,1.0,,,ESPN scoreboard
+658982,2023-09-30T13:00:00Z,2023,Stabaek,Tromso,0.0,1.0,,,ESPN scoreboard
+658993,2023-10-01T13:00:00Z,2023,Lillestrom,SK Brann,0.0,2.0,,,ESPN scoreboard
+658994,2023-10-01T15:00:00Z,2023,Molde,Viking FK,4.0,0.0,,,ESPN scoreboard
+658923,2023-10-01T15:00:00Z,2023,Sandefjord,Vålerenga,1.0,2.0,,,ESPN scoreboard
+658992,2023-10-01T17:15:00Z,2023,Bodo/Glimt,Stromsgodset,2.0,0.0,,,ESPN scoreboard
+658998,2023-10-04T17:00:00Z,2023,Stabaek,Hamarkameratene,5.0,2.0,,,ESPN scoreboard
+659026,2023-10-07T16:00:00Z,2023,Odds BK,Viking FK,1.0,1.0,,,ESPN scoreboard
+659024,2023-10-08T15:00:00Z,2023,Haugesund,Stromsgodset,1.0,0.0,,,ESPN scoreboard
+659025,2023-10-08T15:00:00Z,2023,Molde,Bodo/Glimt,1.0,3.0,,,ESPN scoreboard
+659027,2023-10-08T15:00:00Z,2023,Sandefjord,Hamarkameratene,0.0,1.0,,,ESPN scoreboard
+659028,2023-10-08T15:00:00Z,2023,Sarpsborg FK,Rosenborg,5.0,2.0,,,ESPN scoreboard
+659029,2023-10-08T15:00:00Z,2023,Stabaek,Lillestrom,1.0,0.0,,,ESPN scoreboard
+659030,2023-10-08T15:00:00Z,2023,Tromso,Aalesund,1.0,2.0,,,ESPN scoreboard
+659031,2023-10-08T17:15:00Z,2023,Vålerenga,SK Brann,1.0,2.0,,,ESPN scoreboard
+659033,2023-10-21T13:00:00Z,2023,Bodo/Glimt,Sandefjord,4.0,3.0,,,ESPN scoreboard
+659034,2023-10-21T16:00:00Z,2023,SK Brann,Molde,3.0,2.0,,,ESPN scoreboard
+659036,2023-10-22T12:30:00Z,2023,Lillestrom,Vålerenga,2.0,0.0,,,ESPN scoreboard
+659032,2023-10-22T15:00:00Z,2023,Aalesund,Sarpsborg FK,3.0,2.0,,,ESPN scoreboard
+659035,2023-10-22T15:00:00Z,2023,Hamarkameratene,Haugesund,0.0,3.0,,,ESPN scoreboard
+659037,2023-10-22T15:00:00Z,2023,Rosenborg,Stabaek,1.0,1.0,,,ESPN scoreboard
+659038,2023-10-22T15:00:00Z,2023,Stromsgodset,Odds BK,3.0,1.0,,,ESPN scoreboard
+659039,2023-10-22T17:15:00Z,2023,Viking FK,Tromso,3.0,4.0,,,ESPN scoreboard
+659041,2023-10-28T16:00:00Z,2023,Haugesund,Aalesund,6.0,1.0,,,ESPN scoreboard
+659043,2023-10-29T16:00:00Z,2023,Odds BK,Hamarkameratene,2.0,0.0,,,ESPN scoreboard
+659044,2023-10-29T16:00:00Z,2023,Sandefjord,SK Brann,1.0,1.0,,,ESPN scoreboard
+659045,2023-10-29T16:00:00Z,2023,Sarpsborg FK,Stabaek,2.0,2.0,,,ESPN scoreboard
+659046,2023-10-29T16:00:00Z,2023,Stromsgodset,Viking FK,1.0,0.0,,,ESPN scoreboard
+659047,2023-10-29T18:13:00Z,2023,Vålerenga,Rosenborg,1.0,3.0,,,ESPN scoreboard
+659040,2023-10-30T17:30:00Z,2023,Bodo/Glimt,Lillestrom,3.0,1.0,,,ESPN scoreboard
+659042,2023-10-30T20:00:00Z,2023,Molde,Tromso,1.0,4.0,,,ESPN scoreboard
+659055,2023-11-04T17:00:00Z,2023,Hamarkameratene,Viking FK,3.0,0.0,,,ESPN scoreboard
+659054,2023-11-05T16:00:00Z,2023,Lillestrom,Haugesund,1.0,0.0,,,ESPN scoreboard
+659053,2023-11-05T16:00:00Z,2023,Rosenborg,Molde,3.0,1.0,,,ESPN scoreboard
+659052,2023-11-05T16:00:00Z,2023,Sarpsborg FK,Vålerenga,3.0,2.0,,,ESPN scoreboard
+659050,2023-11-05T16:00:00Z,2023,SK Brann,Odds BK,2.0,1.0,,,ESPN scoreboard
+659051,2023-11-05T16:00:00Z,2023,Stabaek,Bodo/Glimt,0.0,4.0,,,ESPN scoreboard
+659048,2023-11-05T18:15:00Z,2023,Tromso,Stromsgodset,0.0,1.0,,,ESPN scoreboard
+659049,2023-11-06T18:00:00Z,2023,Aalesund,Sandefjord,0.0,3.0,,,ESPN scoreboard
+659058,2023-11-11T17:00:00Z,2023,Haugesund,SK Brann,0.0,2.0,,,ESPN scoreboard
+659057,2023-11-12T16:00:00Z,2023,Bodo/Glimt,Aalesund,1.0,0.0,,,ESPN scoreboard
+659056,2023-11-12T16:00:00Z,2023,Odds BK,Tromso,1.0,2.0,,,ESPN scoreboard
+659059,2023-11-12T16:00:00Z,2023,Sandefjord,Rosenborg,3.0,2.0,,,ESPN scoreboard
+659063,2023-11-12T16:00:00Z,2023,Stromsgodset,Hamarkameratene,0.0,1.0,,,ESPN scoreboard
+659061,2023-11-12T16:00:00Z,2023,Vålerenga,Stabaek,0.0,0.0,,,ESPN scoreboard
+659062,2023-11-12T16:00:00Z,2023,Viking FK,Sarpsborg FK,2.0,1.0,,,ESPN scoreboard
+659060,2023-11-12T18:15:00Z,2023,Molde,Lillestrom,4.0,0.0,,,ESPN scoreboard
+659065,2023-11-26T16:00:00Z,2023,Aalesund,Viking FK,0.0,4.0,,,ESPN scoreboard
+659068,2023-11-26T16:00:00Z,2023,Hamarkameratene,Vålerenga,0.0,2.0,,,ESPN scoreboard
+659067,2023-11-26T16:00:00Z,2023,Lillestrom,Odds BK,4.0,4.0,,,ESPN scoreboard
+659071,2023-11-26T16:00:00Z,2023,Rosenborg,Stromsgodset,1.0,3.0,,,ESPN scoreboard
+659069,2023-11-26T16:00:00Z,2023,Sarpsborg FK,Molde,1.0,3.0,,,ESPN scoreboard
+659064,2023-11-26T16:00:00Z,2023,SK Brann,Bodo/Glimt,4.0,2.0,,,ESPN scoreboard
+659070,2023-11-26T16:00:00Z,2023,Stabaek,Sandefjord,2.0,1.0,,,ESPN scoreboard
+659066,2023-11-26T16:00:00Z,2023,Tromso,Haugesund,2.0,1.0,,,ESPN scoreboard
+659072,2023-12-03T16:00:00Z,2023,Bodo/Glimt,Sarpsborg FK,2.0,0.0,,,ESPN scoreboard
+659073,2023-12-03T16:00:00Z,2023,Haugesund,Stabaek,3.0,0.0,,,ESPN scoreboard
+659074,2023-12-03T16:00:00Z,2023,Molde,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+659075,2023-12-03T16:00:00Z,2023,Odds BK,Aalesund,4.0,1.0,,,ESPN scoreboard
+659076,2023-12-03T16:00:00Z,2023,Sandefjord,Lillestrom,1.0,0.0,,,ESPN scoreboard
+659077,2023-12-03T16:00:00Z,2023,Stromsgodset,SK Brann,3.0,0.0,,,ESPN scoreboard
+659079,2023-12-03T16:00:00Z,2023,Vålerenga,Tromso,1.0,1.0,,,ESPN scoreboard
+659078,2023-12-03T16:00:00Z,2023,Viking FK,Rosenborg,1.0,5.0,,,ESPN scoreboard
+693097,2024-03-31T16:00:00Z,2024,Odds BK,Haugesund,1.0,2.0,,,ESPN scoreboard
+693098,2024-04-01T12:30:00Z,2024,Fredrikstad,Bodo/Glimt,0.0,2.0,,,ESPN scoreboard
+693101,2024-04-01T15:00:00Z,2024,Lillestrom,Kristiansund BK,2.0,3.0,,,ESPN scoreboard
+693102,2024-04-01T15:00:00Z,2024,Molde,Stromsgodset,4.0,0.0,,,ESPN scoreboard
+693100,2024-04-01T15:00:00Z,2024,Rosenborg,Sandefjord,2.0,0.0,,,ESPN scoreboard
+693099,2024-04-01T15:00:00Z,2024,Tromso,SK Brann,2.0,4.0,,,ESPN scoreboard
+693103,2024-04-01T17:15:00Z,2024,Viking FK,Sarpsborg FK,1.0,0.0,,,ESPN scoreboard
+693104,2024-04-02T17:00:00Z,2024,KFUM Oslo,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+693105,2024-04-06T16:00:00Z,2024,Bodo/Glimt,Viking FK,1.0,0.0,,,ESPN scoreboard
+693106,2024-04-07T12:30:00Z,2024,Kristiansund BK,KFUM Oslo,1.0,1.0,,,ESPN scoreboard
+693109,2024-04-07T15:00:00Z,2024,Hamarkameratene,Molde,0.0,1.0,,,ESPN scoreboard
+693110,2024-04-07T15:00:00Z,2024,Haugesund,Lillestrom,0.0,2.0,,,ESPN scoreboard
+693111,2024-04-07T15:00:00Z,2024,Sarpsborg FK,Odds BK,0.0,1.0,,,ESPN scoreboard
+693108,2024-04-07T15:00:00Z,2024,Stromsgodset,Rosenborg,1.0,0.0,,,ESPN scoreboard
+693112,2024-04-07T17:15:00Z,2024,SK Brann,Fredrikstad,0.0,2.0,,,ESPN scoreboard
+693113,2024-04-13T16:00:00Z,2024,Fredrikstad,Sarpsborg FK,2.0,2.0,,,ESPN scoreboard
+693114,2024-04-14T12:30:00Z,2024,Viking FK,SK Brann,1.0,1.0,,,ESPN scoreboard
+693116,2024-04-14T15:00:00Z,2024,Molde,Kristiansund BK,2.0,0.0,,,ESPN scoreboard
+693115,2024-04-14T15:00:00Z,2024,Odds BK,Sandefjord,2.0,2.0,,,ESPN scoreboard
+693117,2024-04-14T15:00:00Z,2024,Rosenborg,Hamarkameratene,1.0,0.0,,,ESPN scoreboard
+693118,2024-04-14T15:00:00Z,2024,Tromso,Haugesund,0.0,1.0,,,ESPN scoreboard
+693119,2024-04-14T17:15:00Z,2024,Lillestrom,Bodo/Glimt,0.0,5.0,,,ESPN scoreboard
+693120,2024-04-16T17:00:00Z,2024,KFUM Oslo,Stromsgodset,1.0,3.0,,,ESPN scoreboard
+693229,2024-04-17T16:00:00Z,2024,Molde,Odds BK,1.0,2.0,,,ESPN scoreboard
+693223,2024-04-17T16:00:00Z,2024,SK Brann,Hamarkameratene,1.0,0.0,,,ESPN scoreboard
+693121,2024-04-21T12:30:00Z,2024,Hamarkameratene,Stromsgodset,0.0,1.0,,,ESPN scoreboard
+693124,2024-04-21T15:00:00Z,2024,Haugesund,Rosenborg,1.0,3.0,,,ESPN scoreboard
+693125,2024-04-21T15:00:00Z,2024,Kristiansund BK,Tromso,1.0,0.0,,,ESPN scoreboard
+693126,2024-04-21T15:00:00Z,2024,Sandefjord,Lillestrom,0.0,1.0,,,ESPN scoreboard
+693122,2024-04-21T15:00:00Z,2024,Sarpsborg FK,KFUM Oslo,0.0,2.0,,,ESPN scoreboard
+693127,2024-04-21T15:00:00Z,2024,SK Brann,Odds BK,2.0,0.0,,,ESPN scoreboard
+693123,2024-04-21T15:00:00Z,2024,Viking FK,Fredrikstad,1.0,1.0,,,ESPN scoreboard
+693128,2024-04-21T17:15:00Z,2024,Bodo/Glimt,Molde,1.0,1.0,,,ESPN scoreboard
+693129,2024-04-27T16:00:00Z,2024,Rosenborg,Bodo/Glimt,1.0,3.0,,,ESPN scoreboard
+693130,2024-04-28T15:00:00Z,2024,Fredrikstad,Sandefjord,1.0,0.0,,,ESPN scoreboard
+693134,2024-04-28T15:00:00Z,2024,KFUM Oslo,SK Brann,0.0,0.0,,,ESPN scoreboard
+693131,2024-04-28T15:00:00Z,2024,Lillestrom,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+693132,2024-04-28T15:00:00Z,2024,Molde,Haugesund,2.0,1.0,,,ESPN scoreboard
+693135,2024-04-28T15:00:00Z,2024,Stromsgodset,Kristiansund BK,2.0,2.0,,,ESPN scoreboard
+693133,2024-04-28T15:00:00Z,2024,Tromso,Sarpsborg FK,0.0,3.0,,,ESPN scoreboard
+693136,2024-04-28T17:15:00Z,2024,Odds BK,Viking FK,3.0,3.0,,,ESPN scoreboard
+693137,2024-05-04T16:00:00Z,2024,SK Brann,Rosenborg,3.0,0.0,,,ESPN scoreboard
+693143,2024-05-05T15:00:00Z,2024,Bodo/Glimt,Stromsgodset,1.0,0.0,,,ESPN scoreboard
+693138,2024-05-05T15:00:00Z,2024,Haugesund,KFUM Oslo,0.0,1.0,,,ESPN scoreboard
+693141,2024-05-05T15:00:00Z,2024,Kristiansund BK,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+693140,2024-05-05T15:00:00Z,2024,Odds BK,Fredrikstad,0.0,2.0,,,ESPN scoreboard
+693142,2024-05-05T15:00:00Z,2024,Sandefjord,Molde,3.0,1.0,,,ESPN scoreboard
+693139,2024-05-05T15:00:00Z,2024,Sarpsborg FK,Lillestrom,1.0,0.0,,,ESPN scoreboard
+693144,2024-05-05T17:15:00Z,2024,Viking FK,Tromso,2.0,1.0,,,ESPN scoreboard
+693145,2024-05-11T16:00:00Z,2024,Molde,Rosenborg,2.0,2.0,,,ESPN scoreboard
+693146,2024-05-12T12:30:00Z,2024,Kristiansund BK,Bodo/Glimt,2.0,4.0,,,ESPN scoreboard
+693151,2024-05-12T15:00:00Z,2024,Hamarkameratene,Haugesund,2.0,2.0,,,ESPN scoreboard
+693147,2024-05-12T15:00:00Z,2024,KFUM Oslo,Fredrikstad,1.0,4.0,,,ESPN scoreboard
+693150,2024-05-12T15:00:00Z,2024,Sandefjord,Sarpsborg FK,4.0,1.0,,,ESPN scoreboard
+693149,2024-05-12T15:00:00Z,2024,Stromsgodset,Viking FK,0.0,1.0,,,ESPN scoreboard
+693148,2024-05-12T15:00:00Z,2024,Tromso,Odds BK,4.0,0.0,,,ESPN scoreboard
+693152,2024-05-12T17:15:00Z,2024,Lillestrom,SK Brann,0.0,2.0,,,ESPN scoreboard
+693157,2024-05-16T16:00:00Z,2024,Bodo/Glimt,Tromso,4.0,0.0,,,ESPN scoreboard
+693160,2024-05-16T16:00:00Z,2024,Fredrikstad,Stromsgodset,4.0,1.0,,,ESPN scoreboard
+693158,2024-05-16T16:00:00Z,2024,Haugesund,Kristiansund BK,1.0,0.0,,,ESPN scoreboard
+693154,2024-05-16T16:00:00Z,2024,Odds BK,Molde,0.0,4.0,,,ESPN scoreboard
+693153,2024-05-16T16:00:00Z,2024,Rosenborg,KFUM Oslo,1.0,3.0,,,ESPN scoreboard
+693159,2024-05-16T16:00:00Z,2024,Sarpsborg FK,Hamarkameratene,1.0,7.0,,,ESPN scoreboard
+693156,2024-05-16T16:00:00Z,2024,SK Brann,Sandefjord,2.0,1.0,,,ESPN scoreboard
+693155,2024-05-16T16:00:00Z,2024,Viking FK,Lillestrom,1.0,4.0,,,ESPN scoreboard
+693165,2024-05-20T15:00:00Z,2024,Hamarkameratene,Bodo/Glimt,1.0,0.0,,,ESPN scoreboard
+693163,2024-05-20T15:00:00Z,2024,KFUM Oslo,Odds BK,0.0,0.0,,,ESPN scoreboard
+693166,2024-05-20T15:00:00Z,2024,Kristiansund BK,SK Brann,2.0,2.0,,,ESPN scoreboard
+693167,2024-05-20T15:00:00Z,2024,Lillestrom,Fredrikstad,0.0,3.0,,,ESPN scoreboard
+693164,2024-05-20T15:00:00Z,2024,Molde,Sarpsborg FK,2.0,4.0,,,ESPN scoreboard
+693161,2024-05-20T15:00:00Z,2024,Sandefjord,Viking FK,0.0,3.0,,,ESPN scoreboard
+693162,2024-05-20T15:00:00Z,2024,Stromsgodset,Haugesund,2.0,0.0,,,ESPN scoreboard
+693168,2024-05-20T17:15:00Z,2024,Tromso,Rosenborg,3.0,2.0,,,ESPN scoreboard
+693169,2024-05-24T17:00:00Z,2024,Bodo/Glimt,KFUM Oslo,2.0,2.0,,,ESPN scoreboard
+693170,2024-05-25T16:00:00Z,2024,Fredrikstad,Tromso,0.0,0.0,,,ESPN scoreboard
+693171,2024-05-26T15:00:00Z,2024,Haugesund,Sandefjord,2.0,1.0,,,ESPN scoreboard
+693175,2024-05-26T15:00:00Z,2024,Odds BK,Lillestrom,2.0,1.0,,,ESPN scoreboard
+693174,2024-05-26T15:00:00Z,2024,Rosenborg,Kristiansund BK,2.0,1.0,,,ESPN scoreboard
+693173,2024-05-26T15:00:00Z,2024,Sarpsborg FK,Stromsgodset,1.0,3.0,,,ESPN scoreboard
+693172,2024-05-26T15:00:00Z,2024,Viking FK,Hamarkameratene,3.0,0.0,,,ESPN scoreboard
+693176,2024-05-26T17:15:00Z,2024,SK Brann,Molde,1.0,3.0,,,ESPN scoreboard
+693247,2024-05-29T17:00:00Z,2024,Bodo/Glimt,Sandefjord,1.0,1.0,,,ESPN scoreboard
+693234,2024-05-29T17:00:00Z,2024,SK Brann,Kristiansund BK,2.0,1.0,,,ESPN scoreboard
+693238,2024-05-29T17:00:00Z,2024,Tromso,Fredrikstad,3.0,0.0,,,ESPN scoreboard
+693177,2024-06-01T16:00:00Z,2024,Hamarkameratene,SK Brann,1.0,2.0,,,ESPN scoreboard
+693178,2024-06-02T12:30:00Z,2024,Molde,Viking FK,2.0,2.0,,,ESPN scoreboard
+693181,2024-06-02T15:00:00Z,2024,Haugesund,Bodo/Glimt,0.0,1.0,,,ESPN scoreboard
+693183,2024-06-02T15:00:00Z,2024,KFUM Oslo,Sandefjord,3.0,3.0,,,ESPN scoreboard
+693182,2024-06-02T15:00:00Z,2024,Kristiansund BK,Sarpsborg FK,3.0,1.0,,,ESPN scoreboard
+693180,2024-06-02T15:00:00Z,2024,Stromsgodset,Odds BK,1.0,1.0,,,ESPN scoreboard
+693179,2024-06-02T15:00:00Z,2024,Tromso,Lillestrom,1.0,2.0,,,ESPN scoreboard
+693184,2024-06-02T17:15:00Z,2024,Rosenborg,Fredrikstad,1.0,1.0,,,ESPN scoreboard
+693185,2024-06-27T17:00:00Z,2024,Sandefjord,Hamarkameratene,1.0,2.0,,,ESPN scoreboard
+693186,2024-06-27T19:15:00Z,2024,Lillestrom,KFUM Oslo,2.0,1.0,,,ESPN scoreboard
+693189,2024-06-28T17:00:00Z,2024,Odds BK,Kristiansund BK,1.0,1.0,,,ESPN scoreboard
+693190,2024-06-28T17:00:00Z,2024,Sarpsborg FK,Bodo/Glimt,1.0,2.0,,,ESPN scoreboard
+693188,2024-06-28T17:00:00Z,2024,SK Brann,Stromsgodset,0.0,0.0,,,ESPN scoreboard
+693191,2024-06-28T19:15:00Z,2024,Tromso,Molde,0.0,2.0,,,ESPN scoreboard
+693192,2024-06-30T13:00:00Z,2024,Viking FK,Rosenborg,4.0,2.0,,,ESPN scoreboard
+693107,2024-07-03T17:00:00Z,2024,Sandefjord,Tromso,1.0,2.0,,,ESPN scoreboard
+693193,2024-07-07T12:30:00Z,2024,Bodo/Glimt,SK Brann,5.0,1.0,,,ESPN scoreboard
+693194,2024-07-07T15:00:00Z,2024,Hamarkameratene,Tromso,0.0,0.0,,,ESPN scoreboard
+693195,2024-07-07T15:00:00Z,2024,Haugesund,Sarpsborg FK,1.0,2.0,,,ESPN scoreboard
+693196,2024-07-07T15:00:00Z,2024,KFUM Oslo,Viking FK,1.0,2.0,,,ESPN scoreboard
+693198,2024-07-07T15:00:00Z,2024,Molde,Lillestrom,3.0,0.0,,,ESPN scoreboard
+693199,2024-07-07T17:15:00Z,2024,Rosenborg,Odds BK,2.0,1.0,,,ESPN scoreboard
+693197,2024-07-08T17:00:00Z,2024,Kristiansund BK,Fredrikstad,3.0,1.0,,,ESPN scoreboard
+693200,2024-07-08T17:00:00Z,2024,Stromsgodset,Sandefjord,1.0,1.0,,,ESPN scoreboard
+693201,2024-07-12T17:00:00Z,2024,Sarpsborg FK,Rosenborg,4.0,1.0,,,ESPN scoreboard
+693202,2024-07-13T15:00:00Z,2024,Fredrikstad,Molde,0.0,0.0,,,ESPN scoreboard
+693206,2024-07-13T15:00:00Z,2024,Lillestrom,Stromsgodset,3.0,1.0,,,ESPN scoreboard
+693203,2024-07-13T15:00:00Z,2024,Odds BK,Hamarkameratene,1.0,2.0,,,ESPN scoreboard
+693204,2024-07-13T15:00:00Z,2024,Sandefjord,Bodo/Glimt,2.0,1.0,,,ESPN scoreboard
+693205,2024-07-13T15:00:00Z,2024,Viking FK,Kristiansund BK,2.0,0.0,,,ESPN scoreboard
+693207,2024-07-13T17:15:00Z,2024,SK Brann,Haugesund,1.0,1.0,,,ESPN scoreboard
+693208,2024-07-13T20:00:00Z,2024,Tromso,KFUM Oslo,1.0,2.0,,,ESPN scoreboard
+693209,2024-07-19T17:00:00Z,2024,Bodo/Glimt,Odds BK,3.0,1.0,,,ESPN scoreboard
+693210,2024-07-20T16:00:00Z,2024,Sarpsborg FK,SK Brann,1.0,1.0,,,ESPN scoreboard
+693212,2024-07-20T18:15:00Z,2024,Molde,KFUM Oslo,2.0,3.0,,,ESPN scoreboard
+693211,2024-07-21T12:30:00Z,2024,Stromsgodset,Tromso,0.0,1.0,,,ESPN scoreboard
+693215,2024-07-21T15:00:00Z,2024,Hamarkameratene,Fredrikstad,0.0,1.0,,,ESPN scoreboard
+693214,2024-07-21T15:00:00Z,2024,Haugesund,Viking FK,1.0,0.0,,,ESPN scoreboard
+693217,2024-07-27T14:00:00Z,2024,KFUM Oslo,Bodo/Glimt,1.0,1.0,,,ESPN scoreboard
+693222,2024-07-27T16:00:00Z,2024,Fredrikstad,Rosenborg,2.0,2.0,,,ESPN scoreboard
+693221,2024-07-28T15:00:00Z,2024,Lillestrom,Sarpsborg FK,2.0,2.0,,,ESPN scoreboard
+693224,2024-07-28T15:00:00Z,2024,Odds BK,Stromsgodset,2.0,0.0,,,ESPN scoreboard
+693220,2024-07-28T15:00:00Z,2024,Sandefjord,Haugesund,4.0,3.0,,,ESPN scoreboard
+693219,2024-07-28T15:00:00Z,2024,Tromso,Kristiansund BK,0.0,0.0,,,ESPN scoreboard
+693218,2024-07-28T17:15:00Z,2024,Viking FK,Molde,1.0,0.0,,,ESPN scoreboard
+693226,2024-08-03T16:00:00Z,2024,Bodo/Glimt,Haugesund,4.0,2.0,,,ESPN scoreboard
+693232,2024-08-04T15:00:00Z,2024,Fredrikstad,KFUM Oslo,0.0,0.0,,,ESPN scoreboard
+693225,2024-08-04T15:00:00Z,2024,Hamarkameratene,Viking FK,3.0,3.0,,,ESPN scoreboard
+693230,2024-08-04T15:00:00Z,2024,Kristiansund BK,Lillestrom,2.0,1.0,,,ESPN scoreboard
+693227,2024-08-04T15:00:00Z,2024,Sarpsborg FK,Sandefjord,2.0,1.0,,,ESPN scoreboard
+693231,2024-08-04T15:00:00Z,2024,Stromsgodset,SK Brann,2.0,3.0,,,ESPN scoreboard
+693228,2024-08-04T17:15:00Z,2024,Rosenborg,Tromso,1.0,0.0,,,ESPN scoreboard
+693239,2024-08-09T17:00:00Z,2024,Sandefjord,Stromsgodset,2.0,2.0,,,ESPN scoreboard
+693235,2024-08-10T14:00:00Z,2024,Haugesund,Hamarkameratene,0.0,1.0,,,ESPN scoreboard
+693233,2024-08-10T16:00:00Z,2024,Viking FK,Bodo/Glimt,1.0,1.0,,,ESPN scoreboard
+693240,2024-08-11T15:00:00Z,2024,KFUM Oslo,Rosenborg,1.0,0.0,,,ESPN scoreboard
+693237,2024-08-11T15:00:00Z,2024,Odds BK,Sarpsborg FK,1.0,1.0,,,ESPN scoreboard
+693236,2024-08-11T17:15:00Z,2024,Lillestrom,Molde,1.0,2.0,,,ESPN scoreboard
+693187,2024-08-14T17:00:00Z,2024,Fredrikstad,Haugesund,1.0,0.0,,,ESPN scoreboard
+693245,2024-08-17T16:00:00Z,2024,Stromsgodset,Lillestrom,3.0,2.0,,,ESPN scoreboard
+693246,2024-08-18T12:30:00Z,2024,Fredrikstad,SK Brann,0.0,4.0,,,ESPN scoreboard
+693241,2024-08-18T15:00:00Z,2024,Hamarkameratene,Odds BK,1.0,0.0,,,ESPN scoreboard
+693248,2024-08-18T15:00:00Z,2024,KFUM Oslo,Tromso,0.0,1.0,,,ESPN scoreboard
+693244,2024-08-18T15:00:00Z,2024,Sarpsborg FK,Haugesund,2.0,2.0,,,ESPN scoreboard
+693243,2024-08-18T17:15:00Z,2024,Rosenborg,Viking FK,2.0,1.0,,,ESPN scoreboard
+693216,2024-08-21T17:00:00Z,2024,Rosenborg,Lillestrom,4.0,0.0,,,ESPN scoreboard
+693253,2024-08-24T14:00:00Z,2024,Bodo/Glimt,Sarpsborg FK,6.0,0.0,,,ESPN scoreboard
+693250,2024-08-25T12:30:00Z,2024,Lillestrom,Tromso,0.0,1.0,,,ESPN scoreboard
+693251,2024-08-25T15:00:00Z,2024,Haugesund,Fredrikstad,1.0,0.0,,,ESPN scoreboard
+693249,2024-08-25T15:00:00Z,2024,Molde,Hamarkameratene,3.0,0.0,,,ESPN scoreboard
+693256,2024-08-25T15:00:00Z,2024,Sandefjord,Kristiansund BK,1.0,0.0,,,ESPN scoreboard
+693252,2024-08-25T15:00:00Z,2024,Viking FK,Stromsgodset,5.0,2.0,,,ESPN scoreboard
+693255,2024-08-25T17:15:00Z,2024,Odds BK,Rosenborg,1.0,3.0,,,ESPN scoreboard
+693264,2024-08-30T17:00:00Z,2024,KFUM Oslo,Lillestrom,2.0,0.0,,,ESPN scoreboard
+693262,2024-08-31T16:00:00Z,2024,Fredrikstad,Odds BK,2.0,0.0,,,ESPN scoreboard
+693257,2024-09-01T15:00:00Z,2024,Hamarkameratene,Sandefjord,1.0,1.0,,,ESPN scoreboard
+693261,2024-09-01T15:00:00Z,2024,Kristiansund BK,Haugesund,2.0,2.0,,,ESPN scoreboard
+693260,2024-09-01T15:00:00Z,2024,Rosenborg,Molde,2.0,1.0,,,ESPN scoreboard
+693259,2024-09-01T15:00:00Z,2024,Stromsgodset,Bodo/Glimt,0.0,1.0,,,ESPN scoreboard
+693263,2024-09-01T15:00:00Z,2024,Tromso,Viking FK,2.0,2.0,,,ESPN scoreboard
+693258,2024-09-01T17:15:00Z,2024,SK Brann,Sarpsborg FK,1.0,3.0,,,ESPN scoreboard
+693265,2024-09-13T17:00:00Z,2024,Bodo/Glimt,Hamarkameratene,3.0,0.0,,,ESPN scoreboard
+693272,2024-09-14T14:00:00Z,2024,Viking FK,KFUM Oslo,1.0,0.0,,,ESPN scoreboard
+693268,2024-09-14T16:00:00Z,2024,Molde,Fredrikstad,6.0,1.0,,,ESPN scoreboard
+693269,2024-09-15T12:30:00Z,2024,Odds BK,Tromso,1.0,0.0,,,ESPN scoreboard
+693266,2024-09-15T15:00:00Z,2024,Haugesund,Stromsgodset,0.0,0.0,,,ESPN scoreboard
+693271,2024-09-15T15:00:00Z,2024,Sandefjord,SK Brann,2.0,2.0,,,ESPN scoreboard
+693270,2024-09-15T15:00:00Z,2024,Sarpsborg FK,Kristiansund BK,0.0,2.0,,,ESPN scoreboard
+693267,2024-09-15T17:15:00Z,2024,Lillestrom,Rosenborg,1.0,1.0,,,ESPN scoreboard
+693242,2024-09-18T16:00:00Z,2024,Kristiansund BK,Molde,0.0,4.0,,,ESPN scoreboard
+693254,2024-09-18T17:00:00Z,2024,SK Brann,KFUM Oslo,2.0,0.0,,,ESPN scoreboard
+693276,2024-09-21T14:00:00Z,2024,Stromsgodset,Sarpsborg FK,2.0,1.0,,,ESPN scoreboard
+693273,2024-09-21T16:00:00Z,2024,Hamarkameratene,Lillestrom,5.0,0.0,,,ESPN scoreboard
+693279,2024-09-22T12:30:00Z,2024,SK Brann,Bodo/Glimt,4.0,1.0,,,ESPN scoreboard
+693274,2024-09-22T15:00:00Z,2024,Kristiansund BK,Odds BK,0.0,0.0,,,ESPN scoreboard
+693275,2024-09-22T15:00:00Z,2024,Rosenborg,Haugesund,4.0,0.0,,,ESPN scoreboard
+693277,2024-09-22T15:00:00Z,2024,Tromso,Sandefjord,3.0,0.0,,,ESPN scoreboard
+693278,2024-09-22T17:15:00Z,2024,Fredrikstad,Viking FK,3.0,2.0,,,ESPN scoreboard
+693280,2024-09-23T17:00:00Z,2024,KFUM Oslo,Molde,1.0,1.0,,,ESPN scoreboard
+693282,2024-09-28T12:00:00Z,2024,Molde,Tromso,5.0,3.0,,,ESPN scoreboard
+693288,2024-09-28T16:00:00Z,2024,Haugesund,SK Brann,0.0,1.0,,,ESPN scoreboard
+693287,2024-09-28T18:00:00Z,2024,Sarpsborg FK,Fredrikstad,0.0,1.0,,,ESPN scoreboard
+693284,2024-09-29T12:30:00Z,2024,Stromsgodset,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+693285,2024-09-29T15:00:00Z,2024,Bodo/Glimt,Kristiansund BK,4.0,0.0,,,ESPN scoreboard
+693283,2024-09-29T15:00:00Z,2024,Lillestrom,Viking FK,1.0,4.0,,,ESPN scoreboard
+693286,2024-09-29T15:00:00Z,2024,Odds BK,KFUM Oslo,1.0,3.0,,,ESPN scoreboard
+693281,2024-09-29T17:15:00Z,2024,Sandefjord,Rosenborg,0.0,1.0,,,ESPN scoreboard
+693213,2024-10-05T13:00:00Z,2024,Kristiansund BK,Sandefjord,2.0,1.0,,,ESPN scoreboard
+693296,2024-10-19T14:00:00Z,2024,Molde,Sandefjord,0.0,1.0,,,ESPN scoreboard
+693294,2024-10-19T16:00:00Z,2024,Tromso,Bodo/Glimt,0.0,0.0,,,ESPN scoreboard
+693295,2024-10-20T12:30:00Z,2024,Rosenborg,SK Brann,1.0,2.0,,,ESPN scoreboard
+693289,2024-10-20T15:00:00Z,2024,Hamarkameratene,Sarpsborg FK,0.0,2.0,,,ESPN scoreboard
+693291,2024-10-20T15:00:00Z,2024,KFUM Oslo,Haugesund,0.0,0.0,,,ESPN scoreboard
+693290,2024-10-20T15:00:00Z,2024,Kristiansund BK,Stromsgodset,0.0,0.0,,,ESPN scoreboard
+693292,2024-10-20T15:00:00Z,2024,Viking FK,Odds BK,3.0,3.0,,,ESPN scoreboard
+693293,2024-10-20T17:15:00Z,2024,Fredrikstad,Lillestrom,2.0,1.0,,,ESPN scoreboard
+693299,2024-10-26T16:00:00Z,2024,Stromsgodset,Fredrikstad,2.0,0.0,,,ESPN scoreboard
+693297,2024-10-27T16:00:00Z,2024,Hamarkameratene,Kristiansund BK,1.0,0.0,,,ESPN scoreboard
+693302,2024-10-27T16:00:00Z,2024,Haugesund,Molde,0.0,3.0,,,ESPN scoreboard
+693301,2024-10-27T16:00:00Z,2024,Lillestrom,Odds BK,3.0,0.0,,,ESPN scoreboard
+693304,2024-10-27T16:00:00Z,2024,Sandefjord,KFUM Oslo,2.0,1.0,,,ESPN scoreboard
+693300,2024-10-27T16:00:00Z,2024,Sarpsborg FK,Viking FK,1.0,2.0,,,ESPN scoreboard
+693303,2024-10-27T18:15:00Z,2024,SK Brann,Tromso,4.0,0.0,,,ESPN scoreboard
+693298,2024-10-28T18:00:00Z,2024,Bodo/Glimt,Rosenborg,2.0,3.0,,,ESPN scoreboard
+693311,2024-11-02T17:00:00Z,2024,Viking FK,Sandefjord,3.0,2.0,,,ESPN scoreboard
+693310,2024-11-03T16:00:00Z,2024,Fredrikstad,Kristiansund BK,1.0,1.0,,,ESPN scoreboard
+693305,2024-11-03T16:00:00Z,2024,KFUM Oslo,Sarpsborg FK,1.0,2.0,,,ESPN scoreboard
+693312,2024-11-03T16:00:00Z,2024,Lillestrom,Haugesund,0.0,1.0,,,ESPN scoreboard
+693309,2024-11-03T16:00:00Z,2024,Molde,Bodo/Glimt,3.0,3.0,,,ESPN scoreboard
+693308,2024-11-03T16:00:00Z,2024,Odds BK,SK Brann,0.0,3.0,,,ESPN scoreboard
+693306,2024-11-03T16:00:00Z,2024,Tromso,Hamarkameratene,3.0,3.0,,,ESPN scoreboard
+693307,2024-11-03T18:15:00Z,2024,Rosenborg,Stromsgodset,1.0,0.0,,,ESPN scoreboard
+693317,2024-11-09T17:00:00Z,2024,SK Brann,Lillestrom,2.0,1.0,,,ESPN scoreboard
+693318,2024-11-10T16:00:00Z,2024,Hamarkameratene,Rosenborg,0.0,2.0,,,ESPN scoreboard
+693315,2024-11-10T16:00:00Z,2024,Haugesund,Tromso,2.0,0.0,,,ESPN scoreboard
+693313,2024-11-10T16:00:00Z,2024,Kristiansund BK,Viking FK,0.0,1.0,,,ESPN scoreboard
+693314,2024-11-10T16:00:00Z,2024,Sandefjord,Odds BK,1.0,0.0,,,ESPN scoreboard
+693319,2024-11-10T16:00:00Z,2024,Sarpsborg FK,Molde,2.0,2.0,,,ESPN scoreboard
+693320,2024-11-10T16:00:00Z,2024,Stromsgodset,KFUM Oslo,1.0,0.0,,,ESPN scoreboard
+693316,2024-11-10T18:15:00Z,2024,Bodo/Glimt,Fredrikstad,2.0,2.0,,,ESPN scoreboard
+693328,2024-11-23T16:00:00Z,2024,Fredrikstad,Hamarkameratene,1.0,0.0,,,ESPN scoreboard
+693326,2024-11-23T16:00:00Z,2024,KFUM Oslo,Kristiansund BK,1.0,2.0,,,ESPN scoreboard
+693327,2024-11-23T16:00:00Z,2024,Lillestrom,Sandefjord,0.0,3.0,,,ESPN scoreboard
+693324,2024-11-23T16:00:00Z,2024,Molde,SK Brann,2.0,1.0,,,ESPN scoreboard
+693323,2024-11-23T16:00:00Z,2024,Odds BK,Bodo/Glimt,0.0,2.0,,,ESPN scoreboard
+693322,2024-11-23T16:00:00Z,2024,Rosenborg,Sarpsborg FK,1.0,1.0,,,ESPN scoreboard
+693321,2024-11-23T16:00:00Z,2024,Tromso,Stromsgodset,2.0,0.0,,,ESPN scoreboard
+693325,2024-11-23T16:00:00Z,2024,Viking FK,Haugesund,5.0,1.0,,,ESPN scoreboard
+693329,2024-12-01T16:00:00Z,2024,Bodo/Glimt,Lillestrom,5.0,2.0,,,ESPN scoreboard
+693332,2024-12-01T16:00:00Z,2024,Hamarkameratene,KFUM Oslo,0.0,2.0,,,ESPN scoreboard
+693335,2024-12-01T16:00:00Z,2024,Haugesund,Odds BK,2.0,1.0,,,ESPN scoreboard
+693336,2024-12-01T16:00:00Z,2024,Kristiansund BK,Rosenborg,0.0,4.0,,,ESPN scoreboard
+693333,2024-12-01T16:00:00Z,2024,Sandefjord,Fredrikstad,0.0,1.0,,,ESPN scoreboard
+693334,2024-12-01T16:00:00Z,2024,Sarpsborg FK,Tromso,2.0,1.0,,,ESPN scoreboard
+693330,2024-12-01T16:00:00Z,2024,SK Brann,Viking FK,1.0,1.0,,,ESPN scoreboard
+693331,2024-12-01T16:00:00Z,2024,Stromsgodset,Molde,1.0,0.0,,,ESPN scoreboard
+727630,2025-03-29T15:00:00Z,2025,Stromsgodset,Rosenborg,1.0,2.0,,,ESPN scoreboard
+727631,2025-03-29T17:00:00Z,2025,Fredrikstad,SK Brann,3.0,0.0,,,ESPN scoreboard
+727632,2025-03-30T12:30:00Z,2025,Vålerenga,Viking FK,3.0,1.0,,,ESPN scoreboard
+727634,2025-03-30T15:00:00Z,2025,Hamarkameratene,Kristiansund BK,2.0,1.0,,,ESPN scoreboard
+727635,2025-03-30T15:00:00Z,2025,KFUM Oslo,Sandefjord,3.0,1.0,,,ESPN scoreboard
+727636,2025-03-30T15:00:00Z,2025,Molde,Sarpsborg FK,0.0,2.0,,,ESPN scoreboard
+727633,2025-03-30T15:00:00Z,2025,Tromso,Haugesund,1.0,0.0,,,ESPN scoreboard
+727637,2025-03-30T17:15:00Z,2025,Bryne,Bodo/Glimt,0.0,1.0,,,ESPN scoreboard
+727643,2025-04-05T14:00:00Z,2025,Bodo/Glimt,Hamarkameratene,3.0,0.0,,,ESPN scoreboard
+727638,2025-04-05T16:00:00Z,2025,Rosenborg,Fredrikstad,1.0,0.0,,,ESPN scoreboard
+727639,2025-04-06T12:30:00Z,2025,SK Brann,Tromso,3.0,1.0,,,ESPN scoreboard
+727641,2025-04-06T15:00:00Z,2025,Haugesund,Stromsgodset,0.0,5.0,,,ESPN scoreboard
+727640,2025-04-06T15:00:00Z,2025,Kristiansund BK,Bryne,2.0,1.0,,,ESPN scoreboard
+727644,2025-04-06T15:00:00Z,2025,Sandefjord,Molde,3.0,0.0,,,ESPN scoreboard
+727642,2025-04-06T15:00:00Z,2025,Sarpsborg FK,Vålerenga,1.0,1.0,,,ESPN scoreboard
+727645,2025-04-06T17:15:00Z,2025,Viking FK,KFUM Oslo,3.0,1.0,,,ESPN scoreboard
+727646,2025-04-09T17:00:00Z,2025,Fredrikstad,Vålerenga,2.0,0.0,,,ESPN scoreboard
+727647,2025-04-10T17:00:00Z,2025,SK Brann,Stromsgodset,2.0,1.0,,,ESPN scoreboard
+727648,2025-04-10T17:00:00Z,2025,Viking FK,Kristiansund BK,3.0,1.0,,,ESPN scoreboard
+727649,2025-04-20T12:30:00Z,2025,Tromso,Kristiansund BK,2.0,3.0,,,ESPN scoreboard
+727650,2025-04-21T12:30:00Z,2025,Vålerenga,Rosenborg,0.0,2.0,,,ESPN scoreboard
+727651,2025-04-21T15:00:00Z,2025,Bryne,Haugesund,3.0,1.0,,,ESPN scoreboard
+727653,2025-04-21T15:00:00Z,2025,Fredrikstad,Sandefjord,3.0,1.0,,,ESPN scoreboard
+727654,2025-04-21T15:00:00Z,2025,Hamarkameratene,Viking FK,2.0,5.0,,,ESPN scoreboard
+727655,2025-04-21T15:00:00Z,2025,KFUM Oslo,Sarpsborg FK,1.0,3.0,,,ESPN scoreboard
+727652,2025-04-21T15:00:00Z,2025,Stromsgodset,SK Brann,1.0,2.0,,,ESPN scoreboard
+727656,2025-04-21T17:15:00Z,2025,Molde,Bodo/Glimt,2.0,2.0,,,ESPN scoreboard
+727657,2025-04-27T12:30:00Z,2025,Rosenborg,Molde,0.0,0.0,,,ESPN scoreboard
+727658,2025-04-27T15:00:00Z,2025,Bodo/Glimt,KFUM Oslo,3.0,0.0,,,ESPN scoreboard
+727660,2025-04-27T15:00:00Z,2025,Haugesund,Fredrikstad,0.0,0.0,,,ESPN scoreboard
+727659,2025-04-27T15:00:00Z,2025,Kristiansund BK,Vålerenga,0.0,2.0,,,ESPN scoreboard
+727662,2025-04-27T15:00:00Z,2025,Sandefjord,Hamarkameratene,2.0,0.0,,,ESPN scoreboard
+727663,2025-04-27T15:00:00Z,2025,Sarpsborg FK,Stromsgodset,2.0,3.0,,,ESPN scoreboard
+727661,2025-04-27T15:00:00Z,2025,SK Brann,Bryne,3.0,2.0,,,ESPN scoreboard
+727664,2025-04-27T17:15:00Z,2025,Viking FK,Tromso,4.0,4.0,,,ESPN scoreboard
+727665,2025-04-30T16:00:00Z,2025,Viking FK,Haugesund,5.0,1.0,,,ESPN scoreboard
+727666,2025-05-01T16:00:00Z,2025,Rosenborg,Kristiansund BK,1.0,1.0,,,ESPN scoreboard
+727668,2025-05-02T17:00:00Z,2025,Hamarkameratene,KFUM Oslo,0.0,0.0,,,ESPN scoreboard
+727669,2025-05-03T16:00:00Z,2025,Vålerenga,SK Brann,2.0,4.0,,,ESPN scoreboard
+727673,2025-05-04T15:00:00Z,2025,Molde,Haugesund,2.0,1.0,,,ESPN scoreboard
+727670,2025-05-04T15:00:00Z,2025,Stromsgodset,Kristiansund BK,1.0,2.0,,,ESPN scoreboard
+727672,2025-05-04T15:00:00Z,2025,Tromso,Sandefjord,0.0,1.0,,,ESPN scoreboard
+727671,2025-05-04T15:00:00Z,2025,Viking FK,Sarpsborg FK,0.0,0.0,,,ESPN scoreboard
+727674,2025-05-04T17:15:00Z,2025,Rosenborg,Bryne,3.0,0.0,,,ESPN scoreboard
+727676,2025-05-11T12:30:00Z,2025,SK Brann,Rosenborg,0.0,0.0,,,ESPN scoreboard
+727681,2025-05-11T15:00:00Z,2025,Bryne,Molde,0.0,3.0,,,ESPN scoreboard
+727680,2025-05-11T15:00:00Z,2025,KFUM Oslo,Tromso,1.0,3.0,,,ESPN scoreboard
+727679,2025-05-11T15:00:00Z,2025,Kristiansund BK,Fredrikstad,0.0,1.0,,,ESPN scoreboard
+727678,2025-05-11T15:00:00Z,2025,Sandefjord,Vålerenga,2.0,1.0,,,ESPN scoreboard
+727677,2025-05-11T15:00:00Z,2025,Sarpsborg FK,Hamarkameratene,4.0,0.0,,,ESPN scoreboard
+727682,2025-05-11T17:15:00Z,2025,Haugesund,Viking FK,1.0,4.0,,,ESPN scoreboard
+727687,2025-05-16T16:00:00Z,2025,Fredrikstad,KFUM Oslo,1.0,0.0,,,ESPN scoreboard
+727685,2025-05-16T16:00:00Z,2025,Molde,Kristiansund BK,0.0,1.0,,,ESPN scoreboard
+727689,2025-05-16T16:00:00Z,2025,Rosenborg,Haugesund,1.0,0.0,,,ESPN scoreboard
+727686,2025-05-16T16:00:00Z,2025,SK Brann,Sarpsborg FK,2.0,2.0,,,ESPN scoreboard
+727683,2025-05-16T16:00:00Z,2025,Stromsgodset,Bryne,0.0,2.0,,,ESPN scoreboard
+727688,2025-05-16T16:00:00Z,2025,Tromso,Bodo/Glimt,2.0,1.0,,,ESPN scoreboard
+727684,2025-05-16T16:00:00Z,2025,Viking FK,Sandefjord,3.0,1.0,,,ESPN scoreboard
+727690,2025-05-16T18:00:00Z,2025,Vålerenga,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+727691,2025-05-24T14:00:00Z,2025,Bryne,Fredrikstad,4.0,3.0,,,ESPN scoreboard
+727692,2025-05-24T16:00:00Z,2025,Bodo/Glimt,Rosenborg,4.0,0.0,,,ESPN scoreboard
+727693,2025-05-25T12:30:00Z,2025,Hamarkameratene,Molde,2.0,1.0,,,ESPN scoreboard
+727696,2025-05-25T15:00:00Z,2025,Kristiansund BK,Viking FK,0.0,1.0,,,ESPN scoreboard
+727694,2025-05-25T15:00:00Z,2025,Sandefjord,Stromsgodset,3.0,2.0,,,ESPN scoreboard
+727695,2025-05-25T15:00:00Z,2025,Sarpsborg FK,Tromso,0.0,1.0,,,ESPN scoreboard
+727697,2025-05-25T17:15:00Z,2025,Haugesund,SK Brann,0.0,2.0,,,ESPN scoreboard
+727698,2025-05-26T17:00:00Z,2025,KFUM Oslo,Vålerenga,0.0,1.0,,,ESPN scoreboard
+727699,2025-05-28T17:00:00Z,2025,Fredrikstad,Rosenborg,0.0,2.0,,,ESPN scoreboard
+727700,2025-05-28T19:00:00Z,2025,Bodo/Glimt,Viking FK,2.0,4.0,,,ESPN scoreboard
+727701,2025-05-29T16:00:00Z,2025,SK Brann,Molde,0.0,3.0,,,ESPN scoreboard
+727702,2025-05-31T14:00:00Z,2025,Stromsgodset,Hamarkameratene,0.0,3.0,,,ESPN scoreboard
+727703,2025-05-31T16:45:00Z,2025,Tromso,Vålerenga,2.0,1.0,,,ESPN scoreboard
+727704,2025-06-01T12:30:00Z,2025,Fredrikstad,Sarpsborg FK,1.0,1.0,,,ESPN scoreboard
+727705,2025-06-01T15:00:00Z,2025,Bryne,Sandefjord,3.0,2.0,,,ESPN scoreboard
+727707,2025-06-01T15:00:00Z,2025,Haugesund,Bodo/Glimt,0.0,4.0,,,ESPN scoreboard
+727706,2025-06-01T15:00:00Z,2025,Rosenborg,KFUM Oslo,1.0,1.0,,,ESPN scoreboard
+727708,2025-06-01T15:00:00Z,2025,SK Brann,Kristiansund BK,4.0,2.0,,,ESPN scoreboard
+727709,2025-06-01T17:15:00Z,2025,Molde,Viking FK,0.0,1.0,,,ESPN scoreboard
+727714,2025-06-21T16:00:00Z,2025,Bodo/Glimt,SK Brann,3.0,0.0,,,ESPN scoreboard
+727712,2025-06-22T12:30:00Z,2025,Vålerenga,Molde,2.0,3.0,,,ESPN scoreboard
+727715,2025-06-22T15:00:00Z,2025,Hamarkameratene,Tromso,1.0,3.0,,,ESPN scoreboard
+727716,2025-06-22T15:00:00Z,2025,KFUM Oslo,Stromsgodset,5.0,0.0,,,ESPN scoreboard
+727717,2025-06-22T15:00:00Z,2025,Kristiansund BK,Rosenborg,4.0,1.0,,,ESPN scoreboard
+727713,2025-06-22T15:00:00Z,2025,Sandefjord,Haugesund,4.0,0.0,,,ESPN scoreboard
+727710,2025-06-22T15:00:00Z,2025,Sarpsborg FK,Bryne,1.0,1.0,,,ESPN scoreboard
+727711,2025-06-22T17:15:00Z,2025,Viking FK,Fredrikstad,3.0,0.0,,,ESPN scoreboard
+727719,2025-06-28T16:00:00Z,2025,Rosenborg,Viking FK,1.0,1.0,,,ESPN scoreboard
+727723,2025-06-29T12:30:00Z,2025,Haugesund,Kristiansund BK,0.0,0.0,,,ESPN scoreboard
+727722,2025-06-29T15:00:00Z,2025,Bodo/Glimt,Sarpsborg FK,1.0,2.0,,,ESPN scoreboard
+727725,2025-06-29T15:00:00Z,2025,Bryne,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+727720,2025-06-29T15:00:00Z,2025,Fredrikstad,Tromso,0.0,1.0,,,ESPN scoreboard
+727718,2025-06-29T15:00:00Z,2025,Molde,KFUM Oslo,2.0,3.0,,,ESPN scoreboard
+727724,2025-06-29T17:15:00Z,2025,Stromsgodset,Vålerenga,0.0,2.0,,,ESPN scoreboard
+727721,2025-06-30T17:00:00Z,2025,SK Brann,Sandefjord,1.0,0.0,,,ESPN scoreboard
+727728,2025-07-05T12:00:00Z,2025,Hamarkameratene,SK Brann,1.0,1.0,,,ESPN scoreboard
+727732,2025-07-05T14:00:00Z,2025,Viking FK,Stromsgodset,1.0,0.0,,,ESPN scoreboard
+727733,2025-07-05T16:00:00Z,2025,Vålerenga,Fredrikstad,1.0,1.0,,,ESPN scoreboard
+727727,2025-07-05T18:00:00Z,2025,Kristiansund BK,Bodo/Glimt,1.0,1.0,,,ESPN scoreboard
+727731,2025-07-05T20:00:00Z,2025,Tromso,Molde,1.0,0.0,,,ESPN scoreboard
+727726,2025-07-06T12:30:00Z,2025,KFUM Oslo,Bryne,1.0,1.0,,,ESPN scoreboard
+727729,2025-07-06T12:30:00Z,2025,Sandefjord,Rosenborg,2.0,0.0,,,ESPN scoreboard
+727730,2025-07-06T12:30:00Z,2025,Sarpsborg FK,Haugesund,3.0,1.0,,,ESPN scoreboard
+727738,2025-07-12T14:00:00Z,2025,Bodo/Glimt,Sandefjord,2.0,0.0,,,ESPN scoreboard
+727739,2025-07-12T16:00:00Z,2025,Fredrikstad,Molde,4.0,2.0,,,ESPN scoreboard
+727734,2025-07-13T12:30:00Z,2025,Bryne,Vålerenga,1.0,0.0,,,ESPN scoreboard
+727735,2025-07-13T15:00:00Z,2025,Haugesund,KFUM Oslo,0.0,2.0,,,ESPN scoreboard
+727736,2025-07-13T15:00:00Z,2025,Kristiansund BK,Sarpsborg FK,0.0,0.0,,,ESPN scoreboard
+727741,2025-07-13T15:00:00Z,2025,Rosenborg,Hamarkameratene,2.0,0.0,,,ESPN scoreboard
+727740,2025-07-13T15:00:00Z,2025,Stromsgodset,Tromso,2.0,3.0,,,ESPN scoreboard
+727737,2025-07-13T17:15:00Z,2025,SK Brann,Viking FK,3.0,1.0,,,ESPN scoreboard
+727667,2025-07-16T16:00:00Z,2025,Fredrikstad,Bodo/Glimt,0.0,1.0,,,ESPN scoreboard
+727745,2025-07-18T16:00:00Z,2025,Sarpsborg FK,Rosenborg,2.0,2.0,,,ESPN scoreboard
+727748,2025-07-19T12:00:00Z,2025,KFUM Oslo,SK Brann,2.0,0.0,,,ESPN scoreboard
+727747,2025-07-19T14:00:00Z,2025,Molde,Stromsgodset,4.0,1.0,,,ESPN scoreboard
+727746,2025-07-19T16:00:00Z,2025,Viking FK,Bodo/Glimt,2.0,4.0,,,ESPN scoreboard
+727743,2025-07-20T12:30:00Z,2025,Vålerenga,Haugesund,3.0,0.0,,,ESPN scoreboard
+727744,2025-07-20T15:00:00Z,2025,Sandefjord,Kristiansund BK,6.0,0.0,,,ESPN scoreboard
+727742,2025-07-20T15:00:00Z,2025,Tromso,Bryne,3.0,1.0,,,ESPN scoreboard
+727749,2025-07-20T17:15:00Z,2025,Hamarkameratene,Fredrikstad,1.0,1.0,,,ESPN scoreboard
+727751,2025-07-25T17:00:00Z,2025,Fredrikstad,Stromsgodset,3.0,2.0,,,ESPN scoreboard
+727750,2025-07-26T14:00:00Z,2025,Haugesund,Hamarkameratene,0.0,3.0,,,ESPN scoreboard
+727754,2025-07-26T14:00:00Z,2025,Kristiansund BK,KFUM Oslo,0.0,5.0,,,ESPN scoreboard
+727755,2025-07-26T14:00:00Z,2025,Sandefjord,Sarpsborg FK,3.0,2.0,,,ESPN scoreboard
+727752,2025-07-26T16:00:00Z,2025,Bodo/Glimt,Vålerenga,7.0,2.0,,,ESPN scoreboard
+727756,2025-07-27T12:30:00Z,2025,Bryne,Viking FK,1.0,3.0,,,ESPN scoreboard
+727753,2025-07-27T12:30:00Z,2025,Rosenborg,Tromso,4.0,1.0,,,ESPN scoreboard
+727675,2025-07-30T17:00:00Z,2025,Bodo/Glimt,Stromsgodset,1.0,0.0,,,ESPN scoreboard
+727759,2025-08-02T14:00:00Z,2025,Tromso,Fredrikstad,0.0,0.0,,,ESPN scoreboard
+727757,2025-08-02T16:00:00Z,2025,Sarpsborg FK,SK Brann,1.0,4.0,,,ESPN scoreboard
+727761,2025-08-03T12:30:00Z,2025,Hamarkameratene,Bodo/Glimt,1.0,3.0,,,ESPN scoreboard
+727763,2025-08-03T15:00:00Z,2025,KFUM Oslo,Rosenborg,4.0,1.0,,,ESPN scoreboard
+727762,2025-08-03T15:00:00Z,2025,Molde,Bryne,2.0,0.0,,,ESPN scoreboard
+727760,2025-08-03T15:00:00Z,2025,Stromsgodset,Haugesund,2.0,0.0,,,ESPN scoreboard
+727758,2025-08-03T15:00:00Z,2025,Vålerenga,Sandefjord,2.0,1.0,,,ESPN scoreboard
+727764,2025-08-09T14:00:00Z,2025,Molde,Hamarkameratene,1.0,0.0,,,ESPN scoreboard
+727766,2025-08-09T17:15:00Z,2025,Bodo/Glimt,Tromso,1.0,1.0,,,ESPN scoreboard
+727767,2025-08-10T15:00:00Z,2025,Bryne,KFUM Oslo,0.0,0.0,,,ESPN scoreboard
+727768,2025-08-10T15:00:00Z,2025,Haugesund,Sarpsborg FK,3.0,2.0,,,ESPN scoreboard
+727765,2025-08-10T17:15:00Z,2025,Sandefjord,Viking FK,1.0,2.0,,,ESPN scoreboard
+727774,2025-08-15T17:00:00Z,2025,Stromsgodset,Bodo/Glimt,0.0,5.0,,,ESPN scoreboard
+727772,2025-08-17T12:30:00Z,2025,Tromso,SK Brann,1.0,2.0,,,ESPN scoreboard
+727769,2025-08-17T15:00:00Z,2025,Hamarkameratene,Bryne,1.0,0.0,,,ESPN scoreboard
+727773,2025-08-17T15:00:00Z,2025,KFUM Oslo,Molde,0.0,0.0,,,ESPN scoreboard
+727770,2025-08-17T15:00:00Z,2025,Kristiansund BK,Sandefjord,2.0,2.0,,,ESPN scoreboard
+727771,2025-08-17T17:15:00Z,2025,Vålerenga,Sarpsborg FK,4.0,0.0,,,ESPN scoreboard
+727778,2025-08-22T17:00:00Z,2025,KFUM Oslo,Hamarkameratene,2.0,2.0,,,ESPN scoreboard
+727777,2025-08-24T12:30:00Z,2025,Haugesund,Vålerenga,2.0,3.0,,,ESPN scoreboard
+727776,2025-08-24T15:00:00Z,2025,Bryne,Stromsgodset,2.0,2.0,,,ESPN scoreboard
+727779,2025-08-24T17:15:00Z,2025,Molde,Tromso,2.0,0.0,,,ESPN scoreboard
+727781,2025-08-25T17:00:00Z,2025,Sarpsborg FK,Kristiansund BK,0.0,1.0,,,ESPN scoreboard
+727782,2025-08-30T16:00:00Z,2025,Vålerenga,Bryne,3.0,2.0,,,ESPN scoreboard
+727789,2025-08-31T12:30:00Z,2025,Kristiansund BK,SK Brann,2.0,2.0,,,ESPN scoreboard
+727784,2025-08-31T15:00:00Z,2025,Fredrikstad,Haugesund,2.0,2.0,,,ESPN scoreboard
+727788,2025-08-31T15:00:00Z,2025,Hamarkameratene,Sarpsborg FK,1.0,3.0,,,ESPN scoreboard
+727785,2025-08-31T15:00:00Z,2025,Sandefjord,Bodo/Glimt,1.0,2.0,,,ESPN scoreboard
+727786,2025-08-31T15:00:00Z,2025,Tromso,KFUM Oslo,2.0,0.0,,,ESPN scoreboard
+727787,2025-08-31T15:00:00Z,2025,Viking FK,Rosenborg,2.0,1.0,,,ESPN scoreboard
+727783,2025-08-31T17:15:00Z,2025,Stromsgodset,Molde,3.0,1.0,,,ESPN scoreboard
+727794,2025-09-12T17:00:00Z,2025,Bodo/Glimt,Kristiansund BK,7.0,1.0,,,ESPN scoreboard
+727792,2025-09-13T14:00:00Z,2025,Molde,Fredrikstad,1.0,2.0,,,ESPN scoreboard
+727793,2025-09-13T16:00:00Z,2025,SK Brann,Vålerenga,3.0,2.0,,,ESPN scoreboard
+727790,2025-09-14T12:30:00Z,2025,Bryne,Tromso,0.0,2.0,,,ESPN scoreboard
+727795,2025-09-14T15:00:00Z,2025,Hamarkameratene,Stromsgodset,1.0,2.0,,,ESPN scoreboard
+727797,2025-09-14T15:00:00Z,2025,KFUM Oslo,Viking FK,2.0,2.0,,,ESPN scoreboard
+727791,2025-09-14T15:00:00Z,2025,Sarpsborg FK,Sandefjord,2.0,1.0,,,ESPN scoreboard
+727796,2025-09-14T17:15:00Z,2025,Haugesund,Rosenborg,0.0,3.0,,,ESPN scoreboard
+727798,2025-09-20T12:00:00Z,2025,Fredrikstad,Bryne,1.0,1.0,,,ESPN scoreboard
+727803,2025-09-20T14:00:00Z,2025,Sandefjord,SK Brann,0.0,3.0,,,ESPN scoreboard
+727802,2025-09-20T16:00:00Z,2025,Vålerenga,KFUM Oslo,1.0,1.0,,,ESPN scoreboard
+727805,2025-09-21T12:30:00Z,2025,Rosenborg,Bodo/Glimt,1.0,1.0,,,ESPN scoreboard
+727804,2025-09-21T15:00:00Z,2025,Kristiansund BK,Haugesund,2.0,0.0,,,ESPN scoreboard
+727799,2025-09-21T15:00:00Z,2025,Stromsgodset,Sarpsborg FK,2.0,1.0,,,ESPN scoreboard
+727800,2025-09-21T15:00:00Z,2025,Tromso,Hamarkameratene,1.0,0.0,,,ESPN scoreboard
+727801,2025-09-21T17:15:00Z,2025,Viking FK,Molde,1.0,0.0,,,ESPN scoreboard
+727808,2025-09-27T16:00:00Z,2025,Sarpsborg FK,Viking FK,3.0,3.0,,,ESPN scoreboard
+727775,2025-09-28T12:30:00Z,2025,SK Brann,Fredrikstad,1.0,0.0,,,ESPN scoreboard
+727813,2025-09-28T15:00:00Z,2025,Bryne,Kristiansund BK,2.0,0.0,,,ESPN scoreboard
+727809,2025-09-28T15:00:00Z,2025,Hamarkameratene,Rosenborg,4.0,0.0,,,ESPN scoreboard
+727812,2025-09-28T15:00:00Z,2025,Tromso,Stromsgodset,3.0,1.0,,,ESPN scoreboard
+727807,2025-09-28T17:15:00Z,2025,Molde,Vålerenga,4.0,1.0,,,ESPN scoreboard
+727811,2025-09-29T17:00:00Z,2025,Haugesund,Sandefjord,2.0,3.0,,,ESPN scoreboard
+727806,2025-10-01T17:00:00Z,2025,KFUM Oslo,Fredrikstad,2.0,1.0,,,ESPN scoreboard
+727815,2025-10-04T12:00:00Z,2025,Vålerenga,Tromso,1.0,0.0,,,ESPN scoreboard
+727814,2025-10-04T14:00:00Z,2025,Sandefjord,Bryne,1.0,0.0,,,ESPN scoreboard
+727817,2025-10-04T16:00:00Z,2025,Kristiansund BK,Molde,2.0,1.0,,,ESPN scoreboard
+727816,2025-10-05T12:30:00Z,2025,Viking FK,SK Brann,3.0,0.0,,,ESPN scoreboard
+727819,2025-10-05T15:00:00Z,2025,Bodo/Glimt,Haugesund,2.0,0.0,,,ESPN scoreboard
+727818,2025-10-05T15:00:00Z,2025,Fredrikstad,Hamarkameratene,1.0,1.0,,,ESPN scoreboard
+727821,2025-10-05T15:00:00Z,2025,Stromsgodset,KFUM Oslo,1.0,1.0,,,ESPN scoreboard
+727820,2025-10-05T17:15:00Z,2025,Rosenborg,Sarpsborg FK,2.0,3.0,,,ESPN scoreboard
+727824,2025-10-18T12:00:00Z,2025,Sarpsborg FK,Bodo/Glimt,2.0,5.0,,,ESPN scoreboard
+727822,2025-10-18T14:00:00Z,2025,Bryne,Rosenborg,2.0,2.0,,,ESPN scoreboard
+727828,2025-10-18T16:00:00Z,2025,SK Brann,Haugesund,4.0,1.0,,,ESPN scoreboard
+727826,2025-10-19T12:30:00Z,2025,Tromso,Viking FK,1.0,3.0,,,ESPN scoreboard
+727829,2025-10-19T15:00:00Z,2025,Hamarkameratene,Vålerenga,2.0,1.0,,,ESPN scoreboard
+727827,2025-10-19T15:00:00Z,2025,KFUM Oslo,Kristiansund BK,1.0,1.0,,,ESPN scoreboard
+727823,2025-10-19T15:00:00Z,2025,Molde,Sandefjord,1.0,3.0,,,ESPN scoreboard
+727825,2025-10-19T17:15:00Z,2025,Stromsgodset,Fredrikstad,0.0,3.0,,,ESPN scoreboard
+727837,2025-10-25T14:00:00Z,2025,Viking FK,Bryne,5.0,1.0,,,ESPN scoreboard
+727831,2025-10-25T16:00:00Z,2025,Sarpsborg FK,KFUM Oslo,2.0,1.0,,,ESPN scoreboard
+727835,2025-10-26T13:30:00Z,2025,Rosenborg,SK Brann,2.0,3.0,,,ESPN scoreboard
+727834,2025-10-26T16:00:00Z,2025,Bodo/Glimt,Molde,4.0,1.0,,,ESPN scoreboard
+727833,2025-10-26T16:00:00Z,2025,Haugesund,Tromso,2.0,3.0,,,ESPN scoreboard
+727832,2025-10-26T16:00:00Z,2025,Kristiansund BK,Hamarkameratene,1.0,3.0,,,ESPN scoreboard
+727830,2025-10-26T16:00:00Z,2025,Sandefjord,Fredrikstad,0.0,0.0,,,ESPN scoreboard
+727836,2025-10-26T18:15:00Z,2025,Vålerenga,Stromsgodset,2.0,1.0,,,ESPN scoreboard
+727810,2025-10-29T18:00:00Z,2025,SK Brann,Bodo/Glimt,1.0,2.0,,,ESPN scoreboard
+727780,2025-10-29T20:00:00Z,2025,Rosenborg,Sandefjord,1.0,1.0,,,ESPN scoreboard
+727839,2025-11-01T15:00:00Z,2025,Vålerenga,Bodo/Glimt,3.0,1.0,,,ESPN scoreboard
+727844,2025-11-01T17:00:00Z,2025,Molde,Rosenborg,4.0,2.0,,,ESPN scoreboard
+727843,2025-11-02T13:30:00Z,2025,Stromsgodset,Viking FK,1.0,2.0,,,ESPN scoreboard
+727838,2025-11-02T16:00:00Z,2025,Bryne,SK Brann,2.0,1.0,,,ESPN scoreboard
+727840,2025-11-02T16:00:00Z,2025,Fredrikstad,Kristiansund BK,3.0,1.0,,,ESPN scoreboard
+727841,2025-11-02T16:00:00Z,2025,Hamarkameratene,Sandefjord,3.0,1.0,,,ESPN scoreboard
+727845,2025-11-02T16:00:00Z,2025,KFUM Oslo,Haugesund,1.0,4.0,,,ESPN scoreboard
+727842,2025-11-02T18:15:00Z,2025,Tromso,Sarpsborg FK,4.0,0.0,,,ESPN scoreboard
+727853,2025-11-08T13:00:00Z,2025,Sarpsborg FK,Fredrikstad,0.0,2.0,,,ESPN scoreboard
+727847,2025-11-08T17:00:00Z,2025,Viking FK,Hamarkameratene,3.0,0.0,,,ESPN scoreboard
+727851,2025-11-09T13:30:00Z,2025,Rosenborg,Vålerenga,1.0,0.0,,,ESPN scoreboard
+727846,2025-11-09T16:00:00Z,2025,Bodo/Glimt,Bryne,5.0,0.0,,,ESPN scoreboard
+727850,2025-11-09T16:00:00Z,2025,Kristiansund BK,Stromsgodset,2.0,1.0,,,ESPN scoreboard
+727852,2025-11-09T16:00:00Z,2025,Sandefjord,Tromso,1.0,0.0,,,ESPN scoreboard
+727848,2025-11-09T16:00:00Z,2025,SK Brann,KFUM Oslo,1.0,1.0,,,ESPN scoreboard
+727849,2025-11-09T18:15:00Z,2025,Haugesund,Molde,0.0,2.0,,,ESPN scoreboard
+727854,2025-11-21T18:00:00Z,2025,KFUM Oslo,Bodo/Glimt,1.0,2.0,,,ESPN scoreboard
+727859,2025-11-22T13:00:00Z,2025,Tromso,Rosenborg,1.0,0.0,,,ESPN scoreboard
+727860,2025-11-22T15:00:00Z,2025,Vålerenga,Kristiansund BK,3.0,3.0,,,ESPN scoreboard
+727857,2025-11-22T17:00:00Z,2025,Molde,SK Brann,4.0,0.0,,,ESPN scoreboard
+727858,2025-11-22T17:00:00Z,2025,Stromsgodset,Sandefjord,2.0,6.0,,,ESPN scoreboard
+727855,2025-11-23T13:30:00Z,2025,Bryne,Sarpsborg FK,0.0,3.0,,,ESPN scoreboard
+727856,2025-11-23T13:30:00Z,2025,Hamarkameratene,Haugesund,5.0,0.0,,,ESPN scoreboard
+727861,2025-11-23T18:15:00Z,2025,Fredrikstad,Viking FK,0.0,1.0,,,ESPN scoreboard
+727864,2025-11-30T16:00:00Z,2025,Bodo/Glimt,Fredrikstad,5.0,0.0,,,ESPN scoreboard
+727862,2025-11-30T16:00:00Z,2025,Haugesund,Bryne,1.0,4.0,,,ESPN scoreboard
+727869,2025-11-30T16:00:00Z,2025,Kristiansund BK,Tromso,1.0,3.0,,,ESPN scoreboard
+727867,2025-11-30T16:00:00Z,2025,Rosenborg,Stromsgodset,6.0,0.0,,,ESPN scoreboard
+727866,2025-11-30T16:00:00Z,2025,Sandefjord,KFUM Oslo,2.0,0.0,,,ESPN scoreboard
+727865,2025-11-30T16:00:00Z,2025,Sarpsborg FK,Molde,1.0,0.0,,,ESPN scoreboard
+727868,2025-11-30T16:00:00Z,2025,SK Brann,Hamarkameratene,3.0,1.0,,,ESPN scoreboard
+727863,2025-11-30T16:00:00Z,2025,Viking FK,Vålerenga,5.0,1.0,,,ESPN scoreboard

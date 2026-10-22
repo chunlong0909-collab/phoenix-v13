@@ -1,1 +1,721 @@
-﻿
+﻿fixture_id,date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+657863,2023-01-21T11:00:00Z,2023,Lampang,Muangthong United,1.0,5.0,,,ESPN scoreboard
+657864,2023-01-21T11:30:00Z,2023,Bangkok United,Nong Bua Pitchaya,3.0,1.0,,,ESPN scoreboard
+657862,2023-01-21T12:00:00Z,2023,Nakhon Ratchasima FC,PT Prachuap FC,1.0,2.0,,,ESPN scoreboard
+657860,2023-01-21T12:30:00Z,2023,Ratchaburi FC,Khon Kaen United,0.0,2.0,,,ESPN scoreboard
+657861,2023-01-22T10:30:00Z,2023,Port FC,BG Pathum United,2.0,1.0,,,ESPN scoreboard
+657858,2023-01-22T11:00:00Z,2023,Chiangrai United,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+657857,2023-01-22T11:00:00Z,2023,Chonburi FC,Police Tero,5.0,3.0,,,ESPN scoreboard
+657859,2023-01-22T12:00:00Z,2023,Sukhothai FC,Buriram United,0.0,3.0,,,ESPN scoreboard
+657865,2023-01-28T11:00:00Z,2023,Bangkok United,Lampang,1.0,0.0,,,ESPN scoreboard
+657868,2023-01-28T11:30:00Z,2023,Muangthong United,Nakhon Ratchasima FC,3.0,0.0,,,ESPN scoreboard
+657872,2023-01-28T12:00:00Z,2023,PT Prachuap FC,Port FC,1.0,1.0,,,ESPN scoreboard
+657867,2023-01-28T12:30:00Z,2023,Nong Bua Pitchaya,Chiangrai United,1.0,2.0,,,ESPN scoreboard
+657870,2023-01-29T11:00:00Z,2023,Khon Kaen United,Sukhothai FC,2.0,1.0,,,ESPN scoreboard
+657869,2023-01-29T11:00:00Z,2023,Lamphun Warriors,Ratchaburi FC,1.0,1.0,,,ESPN scoreboard
+657871,2023-01-29T11:30:00Z,2023,Buriram United,Chonburi FC,2.0,0.0,,,ESPN scoreboard
+657866,2023-01-29T12:00:00Z,2023,Police Tero,BG Pathum United,0.0,0.0,,,ESPN scoreboard
+657879,2023-02-03T11:00:00Z,2023,Port FC,Police Tero,2.0,2.0,,,ESPN scoreboard
+657874,2023-02-04T11:00:00Z,2023,Chiangrai United,PT Prachuap FC,3.0,2.0,,,ESPN scoreboard
+657875,2023-02-04T11:30:00Z,2023,BG Pathum United,Buriram United,0.0,2.0,,,ESPN scoreboard
+657877,2023-02-04T12:00:00Z,2023,Sukhothai FC,Muangthong United,2.0,1.0,,,ESPN scoreboard
+657880,2023-02-05T10:30:00Z,2023,Nakhon Ratchasima FC,Bangkok United,0.0,4.0,,,ESPN scoreboard
+657873,2023-02-05T11:00:00Z,2023,Chonburi FC,Lamphun Warriors,2.0,0.0,,,ESPN scoreboard
+657878,2023-02-05T11:00:00Z,2023,Ratchaburi FC,Nong Bua Pitchaya,2.0,1.0,,,ESPN scoreboard
+657876,2023-02-05T12:00:00Z,2023,Lampang,Khon Kaen United,1.0,1.0,,,ESPN scoreboard
+657883,2023-02-11T11:00:00Z,2023,PT Prachuap FC,Chonburi FC,3.0,1.0,,,ESPN scoreboard
+657882,2023-02-11T11:30:00Z,2023,Khon Kaen United,Port FC,1.0,0.0,,,ESPN scoreboard
+657885,2023-02-11T12:00:00Z,2023,Nong Bua Pitchaya,Nakhon Ratchasima FC,1.0,1.0,,,ESPN scoreboard
+657887,2023-02-11T12:30:00Z,2023,Lamphun Warriors,BG Pathum United,3.0,0.0,,,ESPN scoreboard
+657884,2023-02-12T10:30:00Z,2023,Police Tero,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+657881,2023-02-12T11:00:00Z,2023,Bangkok United,Sukhothai FC,3.0,0.0,,,ESPN scoreboard
+657888,2023-02-12T11:30:00Z,2023,Lampang,Chiangrai United,0.0,0.0,,,ESPN scoreboard
+657886,2023-02-12T12:00:00Z,2023,Muangthong United,Buriram United,4.0,4.0,,,ESPN scoreboard
+657893,2023-02-17T12:00:00Z,2023,Ratchaburi FC,Bangkok United,0.0,1.0,,,ESPN scoreboard
+657889,2023-02-18T11:00:00Z,2023,BG Pathum United,PT Prachuap FC,2.0,1.0,,,ESPN scoreboard
+657895,2023-02-18T11:30:00Z,2023,Buriram United,Police Tero,3.0,0.0,,,ESPN scoreboard
+657894,2023-02-18T12:00:00Z,2023,Chiangrai United,Khon Kaen United,3.0,1.0,,,ESPN scoreboard
+657892,2023-02-19T10:30:00Z,2023,Port FC,Nong Bua Pitchaya,2.0,1.0,,,ESPN scoreboard
+657896,2023-02-19T11:00:00Z,2023,Sukhothai FC,Lampang,1.0,1.0,,,ESPN scoreboard
+657891,2023-02-19T11:30:00Z,2023,Lamphun Warriors,Nakhon Ratchasima FC,0.0,0.0,,,ESPN scoreboard
+657890,2023-02-19T12:00:00Z,2023,Chonburi FC,Muangthong United,0.0,1.0,,,ESPN scoreboard
+657903,2023-02-25T11:00:00Z,2023,Sukhothai FC,Chiangrai United,3.0,0.0,,,ESPN scoreboard
+657899,2023-02-25T11:30:00Z,2023,Lamphun Warriors,Police Tero,2.0,2.0,,,ESPN scoreboard
+657900,2023-02-25T12:00:00Z,2023,Muangthong United,BG Pathum United,1.0,0.0,,,ESPN scoreboard
+657898,2023-02-25T12:30:00Z,2023,Lampang,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+657902,2023-02-26T10:30:00Z,2023,PT Prachuap FC,Buriram United,0.0,1.0,,,ESPN scoreboard
+657897,2023-02-26T11:00:00Z,2023,Khon Kaen United,Nakhon Ratchasima FC,3.0,2.0,,,ESPN scoreboard
+657904,2023-02-26T11:30:00Z,2023,Bangkok United,Port FC,1.0,2.0,,,ESPN scoreboard
+657901,2023-02-26T12:00:00Z,2023,Nong Bua Pitchaya,Chonburi FC,2.0,1.0,,,ESPN scoreboard
+657905,2023-03-04T11:00:00Z,2023,Chiangrai United,Bangkok United,1.0,2.0,,,ESPN scoreboard
+657908,2023-03-04T11:30:00Z,2023,Chonburi FC,Khon Kaen United,2.0,2.0,,,ESPN scoreboard
+657912,2023-03-04T12:00:00Z,2023,Ratchaburi FC,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+657909,2023-03-04T12:30:00Z,2023,Nakhon Ratchasima FC,Lampang,3.0,0.0,,,ESPN scoreboard
+657907,2023-03-05T10:30:00Z,2023,BG Pathum United,Nong Bua Pitchaya,1.0,3.0,,,ESPN scoreboard
+657906,2023-03-05T11:00:00Z,2023,Buriram United,Lamphun Warriors,2.0,0.0,,,ESPN scoreboard
+657910,2023-03-05T11:00:00Z,2023,Police Tero,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+657911,2023-03-05T12:00:00Z,2023,Port FC,Muangthong United,2.0,3.0,,,ESPN scoreboard
+657917,2023-03-10T12:00:00Z,2023,Sukhothai FC,Nakhon Ratchasima FC,2.0,3.0,,,ESPN scoreboard
+657914,2023-03-11T11:00:00Z,2023,Chiangrai United,Ratchaburi FC,0.0,0.0,,,ESPN scoreboard
+657920,2023-03-11T11:30:00Z,2023,Lamphun Warriors,PT Prachuap FC,0.0,0.0,,,ESPN scoreboard
+657919,2023-03-11T12:00:00Z,2023,Muangthong United,Police Tero,1.0,0.0,,,ESPN scoreboard
+657915,2023-03-12T11:00:00Z,2023,Bangkok United,Chonburi FC,3.0,1.0,,,ESPN scoreboard
+657916,2023-03-12T11:00:00Z,2023,Lampang,Port FC,1.0,3.0,,,ESPN scoreboard
+657913,2023-03-12T11:30:00Z,2023,Khon Kaen United,BG Pathum United,0.0,0.0,,,ESPN scoreboard
+657918,2023-03-12T12:00:00Z,2023,Nong Bua Pitchaya,Buriram United,0.0,1.0,,,ESPN scoreboard
+657927,2023-03-18T11:00:00Z,2023,Lamphun Warriors,Nong Bua Pitchaya,1.0,0.0,,,ESPN scoreboard
+657928,2023-03-18T11:00:00Z,2023,PT Prachuap FC,Muangthong United,0.0,1.0,,,ESPN scoreboard
+657922,2023-03-18T11:30:00Z,2023,Buriram United,Khon Kaen United,4.0,1.0,,,ESPN scoreboard
+657926,2023-03-18T12:00:00Z,2023,Nakhon Ratchasima FC,Chiangrai United,3.0,1.0,,,ESPN scoreboard
+657923,2023-03-19T10:30:00Z,2023,Chonburi FC,Ratchaburi FC,1.0,2.0,,,ESPN scoreboard
+657925,2023-03-19T11:00:00Z,2023,Police Tero,Lampang,1.0,1.0,,,ESPN scoreboard
+657924,2023-03-19T11:30:00Z,2023,Port FC,Sukhothai FC,2.0,0.0,,,ESPN scoreboard
+657921,2023-03-19T12:00:00Z,2023,BG Pathum United,Bangkok United,0.0,1.0,,,ESPN scoreboard
+657933,2023-04-02T11:00:00Z,2023,Khon Kaen United,PT Prachuap FC,0.0,3.0,,,ESPN scoreboard
+657929,2023-04-02T11:30:00Z,2023,Ratchaburi FC,Nakhon Ratchasima FC,1.0,1.0,,,ESPN scoreboard
+657930,2023-04-02T12:00:00Z,2023,Nong Bua Pitchaya,Police Tero,1.0,2.0,,,ESPN scoreboard
+657932,2023-04-03T11:30:00Z,2023,Lampang,BG Pathum United,0.0,1.0,,,ESPN scoreboard
+657934,2023-04-04T11:00:00Z,2023,Chiangrai United,Port FC,2.0,3.0,,,ESPN scoreboard
+657936,2023-04-04T11:00:00Z,2023,Sukhothai FC,Chonburi FC,1.0,0.0,,,ESPN scoreboard
+657931,2023-04-04T11:30:00Z,2023,Muangthong United,Lamphun Warriors,3.0,1.0,,,ESPN scoreboard
+657935,2023-04-04T12:00:00Z,2023,Bangkok United,Buriram United,4.0,3.0,,,ESPN scoreboard
+657938,2023-04-08T11:00:00Z,2023,Police Tero,Sukhothai FC,2.0,2.0,,,ESPN scoreboard
+657943,2023-04-08T11:30:00Z,2023,BG Pathum United,Nakhon Ratchasima FC,5.0,2.0,,,ESPN scoreboard
+657944,2023-04-08T12:00:00Z,2023,PT Prachuap FC,Nong Bua Pitchaya,5.0,1.0,,,ESPN scoreboard
+657939,2023-04-08T12:30:00Z,2023,Muangthong United,Khon Kaen United,2.0,0.0,,,ESPN scoreboard
+657941,2023-04-09T10:30:00Z,2023,Chonburi FC,Chiangrai United,1.0,3.0,,,ESPN scoreboard
+657940,2023-04-09T11:00:00Z,2023,Lamphun Warriors,Bangkok United,2.0,1.0,,,ESPN scoreboard
+657937,2023-04-09T11:00:00Z,2023,Port FC,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+657942,2023-04-09T12:00:00Z,2023,Buriram United,Lampang,2.0,0.0,,,ESPN scoreboard
+657948,2023-04-22T11:00:00Z,2023,Ratchaburi FC,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+657947,2023-04-22T11:30:00Z,2023,Sukhothai FC,BG Pathum United,2.0,0.0,,,ESPN scoreboard
+657952,2023-04-22T12:00:00Z,2023,Khon Kaen United,Lamphun Warriors,1.0,0.0,,,ESPN scoreboard
+657946,2023-04-22T12:30:00Z,2023,Chiangrai United,Buriram United,1.0,2.0,,,ESPN scoreboard
+657945,2023-04-23T11:00:00Z,2023,Bangkok United,Police Tero,4.0,1.0,,,ESPN scoreboard
+657949,2023-04-23T11:00:00Z,2023,Nakhon Ratchasima FC,Port FC,1.0,1.0,,,ESPN scoreboard
+657951,2023-04-23T11:30:00Z,2023,Lampang,Chonburi FC,1.0,3.0,,,ESPN scoreboard
+657950,2023-04-23T12:00:00Z,2023,Muangthong United,Nong Bua Pitchaya,3.0,1.0,,,ESPN scoreboard
+657954,2023-04-29T11:00:00Z,2023,Police Tero,Khon Kaen United,3.0,0.0,,,ESPN scoreboard
+657957,2023-04-29T11:30:00Z,2023,Lamphun Warriors,Lampang,2.0,1.0,,,ESPN scoreboard
+657955,2023-04-29T12:00:00Z,2023,Nong Bua Pitchaya,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+657958,2023-04-29T12:30:00Z,2023,Chonburi FC,Nakhon Ratchasima FC,2.0,1.0,,,ESPN scoreboard
+657959,2023-04-30T10:30:00Z,2023,Buriram United,Port FC,2.0,3.0,,,ESPN scoreboard
+657956,2023-04-30T11:00:00Z,2023,Muangthong United,Chiangrai United,1.0,2.0,,,ESPN scoreboard
+657953,2023-04-30T11:30:00Z,2023,BG Pathum United,Ratchaburi FC,4.0,2.0,,,ESPN scoreboard
+657960,2023-04-30T12:00:00Z,2023,PT Prachuap FC,Bangkok United,2.0,1.0,,,ESPN scoreboard
+657961,2023-05-06T11:00:00Z,2023,Bangkok United,Muangthong United,2.0,0.0,,,ESPN scoreboard
+657967,2023-05-06T11:30:00Z,2023,Lampang,PT Prachuap FC,4.0,3.0,,,ESPN scoreboard
+657968,2023-05-06T12:00:00Z,2023,Khon Kaen United,Nong Bua Pitchaya,2.0,1.0,,,ESPN scoreboard
+657962,2023-05-06T12:30:00Z,2023,Chiangrai United,BG Pathum United,2.0,1.0,,,ESPN scoreboard
+657963,2023-05-07T10:30:00Z,2023,Sukhothai FC,Lamphun Warriors,1.0,2.0,,,ESPN scoreboard
+657965,2023-05-07T11:00:00Z,2023,Port FC,Chonburi FC,3.0,1.0,,,ESPN scoreboard
+657966,2023-05-07T11:30:00Z,2023,Nakhon Ratchasima FC,Police Tero,1.0,3.0,,,ESPN scoreboard
+657964,2023-05-07T12:00:00Z,2023,Ratchaburi FC,Buriram United,1.0,1.0,,,ESPN scoreboard
+657969,2023-05-12T11:00:00Z,2023,BG Pathum United,Chonburi FC,1.0,0.0,,,ESPN scoreboard
+657975,2023-05-12T11:00:00Z,2023,Buriram United,Nakhon Ratchasima FC,4.0,0.0,,,ESPN scoreboard
+657974,2023-05-12T11:00:00Z,2023,Khon Kaen United,Bangkok United,1.0,1.0,,,ESPN scoreboard
+657973,2023-05-12T11:00:00Z,2023,Lamphun Warriors,Port FC,0.0,0.0,,,ESPN scoreboard
+657972,2023-05-12T11:00:00Z,2023,Muangthong United,Ratchaburi FC,4.0,0.0,,,ESPN scoreboard
+657971,2023-05-12T11:00:00Z,2023,Nong Bua Pitchaya,Lampang,1.0,0.0,,,ESPN scoreboard
+657970,2023-05-12T11:00:00Z,2023,Police Tero,Chiangrai United,2.0,1.0,,,ESPN scoreboard
+657976,2023-05-12T11:00:00Z,2023,PT Prachuap FC,Sukhothai FC,2.0,0.0,,,ESPN scoreboard
+680562,2023-08-11T12:00:00Z,2023,Nakhon Pathom,Port FC,2.0,2.0,,,ESPN scoreboard
+680563,2023-08-11T12:30:00Z,2023,Police Tero,BG Pathum United,2.0,2.0,,,ESPN scoreboard
+680561,2023-08-12T11:00:00Z,2023,Khon Kaen United,Buriram United,0.0,0.0,,,ESPN scoreboard
+680566,2023-08-12T12:00:00Z,2023,Uthai Thani FC,Bangkok United,1.0,4.0,,,ESPN scoreboard
+680564,2023-08-13T10:30:00Z,2023,PT Prachuap FC,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+680559,2023-08-13T11:00:00Z,2023,Muangthong United,Chiangrai United,0.0,1.0,,,ESPN scoreboard
+680565,2023-08-13T12:00:00Z,2023,Trat,Chonburi FC,2.0,2.0,,,ESPN scoreboard
+680560,2023-08-14T12:00:00Z,2023,Lamphun Warriors,Sukhothai FC,1.0,2.0,,,ESPN scoreboard
+680569,2023-08-18T12:00:00Z,2023,BG Pathum United,PT Prachuap FC,0.0,0.0,,,ESPN scoreboard
+680573,2023-08-18T13:00:00Z,2023,Port FC,Police Tero,3.0,1.0,,,ESPN scoreboard
+680568,2023-08-19T11:00:00Z,2023,Bangkok United,Muangthong United,0.0,0.0,,,ESPN scoreboard
+680572,2023-08-19T12:00:00Z,2023,Ratchaburi FC,Nakhon Pathom,0.0,1.0,,,ESPN scoreboard
+680570,2023-08-19T13:00:00Z,2023,Chiangrai United,Uthai Thani FC,3.0,0.0,,,ESPN scoreboard
+680567,2023-08-20T11:00:00Z,2023,Buriram United,Lamphun Warriors,3.0,0.0,,,ESPN scoreboard
+680571,2023-08-20T11:00:00Z,2023,Sukhothai FC,Trat,0.0,0.0,,,ESPN scoreboard
+680574,2023-08-21T11:30:00Z,2023,Chonburi FC,Khon Kaen United,0.0,0.0,,,ESPN scoreboard
+680576,2023-08-25T12:00:00Z,2023,Lamphun Warriors,Bangkok United,0.0,2.0,,,ESPN scoreboard
+680579,2023-08-26T11:00:00Z,2023,Sukhothai FC,Buriram United,0.0,1.0,,,ESPN scoreboard
+680578,2023-08-26T12:00:00Z,2023,Trat,Chiangrai United,0.0,0.0,,,ESPN scoreboard
+680581,2023-08-26T13:00:00Z,2023,Police Tero,Chonburi FC,3.0,2.0,,,ESPN scoreboard
+680580,2023-08-27T11:00:00Z,2023,PT Prachuap FC,Nakhon Pathom,2.0,2.0,,,ESPN scoreboard
+680575,2023-08-27T12:00:00Z,2023,Khon Kaen United,Ratchaburi FC,2.0,2.0,,,ESPN scoreboard
+680582,2023-08-28T11:30:00Z,2023,Uthai Thani FC,BG Pathum United,0.0,2.0,,,ESPN scoreboard
+680577,2023-08-28T13:00:00Z,2023,Muangthong United,Port FC,1.0,3.0,,,ESPN scoreboard
+680583,2023-09-15T12:00:00Z,2023,Buriram United,Trat,4.0,0.0,,,ESPN scoreboard
+680584,2023-09-15T13:00:00Z,2023,Bangkok United,Sukhothai FC,3.0,0.0,,,ESPN scoreboard
+680585,2023-09-16T12:00:00Z,2023,BG Pathum United,Muangthong United,5.0,2.0,,,ESPN scoreboard
+680590,2023-09-16T12:00:00Z,2023,Ratchaburi FC,Police Tero,6.0,1.0,,,ESPN scoreboard
+680586,2023-09-16T13:20:00Z,2023,Chiangrai United,Khon Kaen United,2.0,0.0,,,ESPN scoreboard
+680587,2023-09-17T11:00:00Z,2023,Chonburi FC,Lamphun Warriors,1.0,0.0,,,ESPN scoreboard
+680589,2023-09-17T12:00:00Z,2023,Port FC,PT Prachuap FC,3.0,1.0,,,ESPN scoreboard
+680588,2023-09-18T11:30:00Z,2023,Nakhon Pathom,Uthai Thani FC,2.0,1.0,,,ESPN scoreboard
+680596,2023-09-22T12:00:00Z,2023,Trat,Port FC,2.0,1.0,,,ESPN scoreboard
+680594,2023-09-23T11:00:00Z,2023,Muangthong United,Nakhon Pathom,3.0,1.0,,,ESPN scoreboard
+680591,2023-09-23T13:00:00Z,2023,Lamphun Warriors,Chiangrai United,2.0,1.0,,,ESPN scoreboard
+680595,2023-09-24T11:00:00Z,2023,Uthai Thani FC,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+680592,2023-09-24T12:00:00Z,2023,Khon Kaen United,PT Prachuap FC,4.0,3.0,,,ESPN scoreboard
+680598,2023-09-25T11:30:00Z,2023,Police Tero,Buriram United,1.0,2.0,,,ESPN scoreboard
+680593,2023-09-25T13:00:00Z,2023,Bangkok United,BG Pathum United,2.0,0.0,,,ESPN scoreboard
+680599,2023-09-29T11:00:00Z,2023,BG Pathum United,Lamphun Warriors,3.0,0.0,,,ESPN scoreboard
+680603,2023-09-30T11:00:00Z,2023,Port FC,Khon Kaen United,6.0,1.0,,,ESPN scoreboard
+680606,2023-09-30T12:00:00Z,2023,Ratchaburi FC,Trat,3.0,1.0,,,ESPN scoreboard
+680602,2023-09-30T13:00:00Z,2023,PT Prachuap FC,Muangthong United,1.0,3.0,,,ESPN scoreboard
+680604,2023-10-01T10:30:00Z,2023,Nakhon Pathom,Police Tero,1.0,2.0,,,ESPN scoreboard
+680605,2023-10-01T12:00:00Z,2023,Chonburi FC,Uthai Thani FC,0.0,2.0,,,ESPN scoreboard
+680601,2023-10-02T11:30:00Z,2023,Chiangrai United,Sukhothai FC,2.0,1.0,,,ESPN scoreboard
+680610,2023-10-06T12:00:00Z,2023,Lamphun Warriors,Ratchaburi FC,1.0,1.0,,,ESPN scoreboard
+680614,2023-10-06T14:15:00Z,2023,Uthai Thani FC,Port FC,1.0,5.0,,,ESPN scoreboard
+680612,2023-10-07T11:00:00Z,2023,Sukhothai FC,BG Pathum United,1.0,2.0,,,ESPN scoreboard
+680611,2023-10-07T12:00:00Z,2023,Police Tero,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+680613,2023-10-07T13:00:00Z,2023,Trat,Nakhon Pathom,4.0,3.0,,,ESPN scoreboard
+680607,2023-10-08T10:30:00Z,2023,Khon Kaen United,Muangthong United,0.0,1.0,,,ESPN scoreboard
+680608,2023-10-08T11:00:00Z,2023,Buriram United,Chonburi FC,2.0,2.0,,,ESPN scoreboard
+680609,2023-10-08T12:00:00Z,2023,Bangkok United,Chiangrai United,2.0,1.0,,,ESPN scoreboard
+680728,2023-10-20T11:00:00Z,2023,Chiangrai United,Buriram United,0.0,0.0,,,ESPN scoreboard
+680617,2023-10-20T12:00:00Z,2023,BG Pathum United,Trat,3.0,0.0,,,ESPN scoreboard
+680622,2023-10-21T11:00:00Z,2023,Nakhon Pathom,Khon Kaen United,4.0,2.0,,,ESPN scoreboard
+680619,2023-10-21T12:00:00Z,2023,Ratchaburi FC,Sukhothai FC,3.0,1.0,,,ESPN scoreboard
+680620,2023-10-22T10:30:00Z,2023,PT Prachuap FC,Uthai Thani FC,1.0,2.0,,,ESPN scoreboard
+680731,2023-10-22T11:00:00Z,2023,Police Tero,Muangthong United,2.0,1.0,,,ESPN scoreboard
+680621,2023-10-22T12:00:00Z,2023,Port FC,Lamphun Warriors,3.0,2.0,,,ESPN scoreboard
+680628,2023-10-27T12:00:00Z,2023,Police Tero,Khon Kaen United,1.0,3.0,,,ESPN scoreboard
+680627,2023-10-27T13:00:00Z,2023,Sukhothai FC,Port FC,2.0,1.0,,,ESPN scoreboard
+680625,2023-10-28T11:00:00Z,2023,Chiangrai United,Chonburi FC,1.0,1.0,,,ESPN scoreboard
+680629,2023-10-28T12:00:00Z,2023,Lamphun Warriors,Nakhon Pathom,2.0,0.0,,,ESPN scoreboard
+680630,2023-10-28T13:00:00Z,2023,Uthai Thani FC,Muangthong United,4.0,2.0,,,ESPN scoreboard
+680626,2023-10-29T10:30:00Z,2023,Trat,PT Prachuap FC,1.0,0.0,,,ESPN scoreboard
+680624,2023-10-29T11:00:00Z,2023,Buriram United,BG Pathum United,0.0,0.0,,,ESPN scoreboard
+680623,2023-10-29T12:00:00Z,2023,Bangkok United,Ratchaburi FC,3.0,1.0,,,ESPN scoreboard
+680635,2023-11-04T11:00:00Z,2023,Port FC,Bangkok United,0.0,2.0,,,ESPN scoreboard
+680632,2023-11-04T12:00:00Z,2023,Khon Kaen United,Uthai Thani FC,2.0,2.0,,,ESPN scoreboard
+680637,2023-11-05T10:30:00Z,2023,Nakhon Pathom,Sukhothai FC,2.0,2.0,,,ESPN scoreboard
+680633,2023-11-05T12:00:00Z,2023,Ratchaburi FC,Chonburi FC,1.0,2.0,,,ESPN scoreboard
+680746,2023-11-06T11:30:00Z,2023,Trat,Muangthong United,0.0,1.0,,,ESPN scoreboard
+680636,2023-11-06T13:00:00Z,2023,Police Tero,Lamphun Warriors,2.0,2.0,,,ESPN scoreboard
+680597,2023-11-10T11:00:00Z,2023,Sukhothai FC,Chonburi FC,3.0,2.0,,,ESPN scoreboard
+680645,2023-11-24T11:00:00Z,2023,Buriram United,Ratchaburi FC,0.0,0.0,,,ESPN scoreboard
+680639,2023-11-24T12:00:00Z,2023,Bangkok United,Nakhon Pathom,1.0,1.0,,,ESPN scoreboard
+680643,2023-11-25T11:00:00Z,2023,Chonburi FC,BG Pathum United,1.0,3.0,,,ESPN scoreboard
+680641,2023-11-25T12:00:00Z,2023,Sukhothai FC,PT Prachuap FC,2.0,0.0,,,ESPN scoreboard
+680642,2023-11-25T13:00:00Z,2023,Lamphun Warriors,Muangthong United,3.0,1.0,,,ESPN scoreboard
+680646,2023-11-26T10:30:00Z,2023,Uthai Thani FC,Police Tero,0.0,1.0,,,ESPN scoreboard
+680644,2023-11-26T12:00:00Z,2023,Chiangrai United,Port FC,1.0,1.0,,,ESPN scoreboard
+680640,2023-11-27T11:30:00Z,2023,Trat,Khon Kaen United,2.0,2.0,,,ESPN scoreboard
+680650,2023-12-01T12:00:00Z,2023,Ratchaburi FC,Chiangrai United,3.0,0.0,,,ESPN scoreboard
+680649,2023-12-01T12:00:00Z,2023,Uthai Thani FC,Sukhothai FC,0.0,0.0,,,ESPN scoreboard
+680652,2023-12-02T11:00:00Z,2023,Port FC,BG Pathum United,2.0,3.0,,,ESPN scoreboard
+680653,2023-12-02T12:00:00Z,2023,Police Tero,Trat,1.0,3.0,,,ESPN scoreboard
+680654,2023-12-02T13:00:00Z,2023,Nakhon Pathom,Chonburi FC,1.0,0.0,,,ESPN scoreboard
+680647,2023-12-03T10:30:00Z,2023,Khon Kaen United,Lamphun Warriors,2.0,2.0,,,ESPN scoreboard
+680648,2023-12-03T11:00:00Z,2023,Muangthong United,Buriram United,2.0,2.0,,,ESPN scoreboard
+680651,2023-12-03T12:00:00Z,2023,PT Prachuap FC,Bangkok United,0.0,1.0,,,ESPN scoreboard
+680661,2023-12-09T11:00:00Z,2023,Bangkok United,Khon Kaen United,4.0,0.0,,,ESPN scoreboard
+680660,2023-12-09T12:00:00Z,2023,Buriram United,Nakhon Pathom,4.0,1.0,,,ESPN scoreboard
+680655,2023-12-09T13:00:00Z,2023,BG Pathum United,Ratchaburi FC,2.0,1.0,,,ESPN scoreboard
+680662,2023-12-10T10:30:00Z,2023,Trat,Uthai Thani FC,2.0,3.0,,,ESPN scoreboard
+680658,2023-12-10T11:00:00Z,2023,Chonburi FC,Port FC,0.0,2.0,,,ESPN scoreboard
+680657,2023-12-10T12:00:00Z,2023,Lamphun Warriors,PT Prachuap FC,2.0,1.0,,,ESPN scoreboard
+680659,2023-12-11T13:00:00Z,2023,Chiangrai United,Police Tero,1.0,2.0,,,ESPN scoreboard
+680656,2023-12-12T11:30:00Z,2023,Sukhothai FC,Muangthong United,1.0,2.0,,,ESPN scoreboard
+680668,2023-12-15T12:00:00Z,2023,PT Prachuap FC,Chonburi FC,3.0,1.0,,,ESPN scoreboard
+680663,2023-12-16T11:00:00Z,2023,Khon Kaen United,BG Pathum United,1.0,1.0,,,ESPN scoreboard
+680664,2023-12-16T11:30:00Z,2023,Muangthong United,Ratchaburi FC,1.0,1.0,,,ESPN scoreboard
+680670,2023-12-16T12:00:00Z,2023,Uthai Thani FC,Lamphun Warriors,2.0,2.0,,,ESPN scoreboard
+680665,2023-12-16T13:00:00Z,2023,Nakhon Pathom,Chiangrai United,1.0,2.0,,,ESPN scoreboard
+680666,2023-12-17T10:30:00Z,2023,Police Tero,Sukhothai FC,2.0,3.0,,,ESPN scoreboard
+680667,2023-12-17T11:00:00Z,2023,Port FC,Buriram United,4.0,1.0,,,ESPN scoreboard
+680669,2023-12-17T12:00:00Z,2023,Trat,Bangkok United,1.0,2.0,,,ESPN scoreboard
+680675,2023-12-23T11:00:00Z,2023,Chonburi FC,Muangthong United,2.0,1.0,,,ESPN scoreboard
+680674,2023-12-23T12:00:00Z,2023,Sukhothai FC,Khon Kaen United,2.0,3.0,,,ESPN scoreboard
+680673,2023-12-23T13:00:00Z,2023,Buriram United,Uthai Thani FC,4.0,0.0,,,ESPN scoreboard
+680676,2023-12-24T10:30:00Z,2023,Lamphun Warriors,Trat,5.0,1.0,,,ESPN scoreboard
+680678,2023-12-24T11:00:00Z,2023,Chiangrai United,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+680672,2023-12-24T11:30:00Z,2023,Bangkok United,Police Tero,1.0,1.0,,,ESPN scoreboard
+680671,2023-12-24T12:00:00Z,2023,BG Pathum United,Nakhon Pathom,1.0,2.0,,,ESPN scoreboard
+680790,2023-12-25T12:00:00Z,2023,Port FC,Ratchaburi FC,3.0,0.0,,,ESPN scoreboard
+680634,2023-12-28T11:00:00Z,2023,PT Prachuap FC,Buriram United,1.0,2.0,,,ESPN scoreboard
+680631,2023-12-28T12:00:00Z,2023,BG Pathum United,Chiangrai United,2.0,2.0,,,ESPN scoreboard
+680615,2023-12-28T12:00:00Z,2023,Chonburi FC,Bangkok United,0.0,0.0,,,ESPN scoreboard
+680711,2024-01-06T12:00:00Z,2024,Bangkok United,Buriram United,0.0,1.0,,,ESPN scoreboard
+680686,2024-02-09T12:00:00Z,2024,Muangthong United,Bangkok United,1.0,2.0,,,ESPN scoreboard
+680679,2024-02-10T11:30:00Z,2024,Khon Kaen United,Chonburi FC,1.0,0.0,,,ESPN scoreboard
+680683,2024-02-10T12:00:00Z,2024,PT Prachuap FC,BG Pathum United,1.0,1.0,,,ESPN scoreboard
+680685,2024-02-10T13:00:00Z,2024,Nakhon Pathom,Ratchaburi FC,0.0,1.0,,,ESPN scoreboard
+680684,2024-02-11T10:30:00Z,2024,Police Tero,Port FC,0.0,4.0,,,ESPN scoreboard
+680680,2024-02-11T11:00:00Z,2024,Lamphun Warriors,Buriram United,1.0,2.0,,,ESPN scoreboard
+680682,2024-02-11T11:30:00Z,2024,Trat,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+680681,2024-02-11T12:00:00Z,2024,Uthai Thani FC,Chiangrai United,1.0,1.0,,,ESPN scoreboard
+680689,2024-02-13T11:00:00Z,2024,Nakhon Pathom,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+680694,2024-02-13T12:00:00Z,2024,Ratchaburi FC,Khon Kaen United,1.0,0.0,,,ESPN scoreboard
+680692,2024-02-14T11:00:00Z,2024,Buriram United,Sukhothai FC,4.0,0.0,,,ESPN scoreboard
+680690,2024-02-14T11:30:00Z,2024,Chonburi FC,Police Tero,4.0,2.0,,,ESPN scoreboard
+680688,2024-02-14T12:00:00Z,2024,Port FC,Muangthong United,4.0,3.0,,,ESPN scoreboard
+680691,2024-02-15T11:00:00Z,2024,Chiangrai United,Trat,3.0,1.0,,,ESPN scoreboard
+680687,2024-02-15T12:00:00Z,2024,BG Pathum United,Uthai Thani FC,2.0,0.0,,,ESPN scoreboard
+680696,2024-02-17T11:00:00Z,2024,Sukhothai FC,Bangkok United,0.0,0.0,,,ESPN scoreboard
+680698,2024-02-17T11:30:00Z,2024,Police Tero,Ratchaburi FC,0.0,1.0,,,ESPN scoreboard
+680697,2024-02-17T12:00:00Z,2024,PT Prachuap FC,Port FC,1.0,1.0,,,ESPN scoreboard
+680700,2024-02-17T13:00:00Z,2024,Lamphun Warriors,Chonburi FC,2.0,1.0,,,ESPN scoreboard
+680695,2024-02-18T10:30:00Z,2024,Trat,Buriram United,3.0,4.0,,,ESPN scoreboard
+680699,2024-02-18T11:00:00Z,2024,Muangthong United,BG Pathum United,2.0,0.0,,,ESPN scoreboard
+680702,2024-02-18T12:00:00Z,2024,Uthai Thani FC,Nakhon Pathom,1.0,1.0,,,ESPN scoreboard
+680701,2024-02-19T11:30:00Z,2024,Khon Kaen United,Chiangrai United,0.0,0.0,,,ESPN scoreboard
+680705,2024-02-23T12:00:00Z,2024,Nakhon Pathom,Muangthong United,2.0,2.0,,,ESPN scoreboard
+680708,2024-02-24T11:00:00Z,2024,Buriram United,Police Tero,6.0,2.0,,,ESPN scoreboard
+680703,2024-02-24T11:30:00Z,2024,PT Prachuap FC,Khon Kaen United,1.0,0.0,,,ESPN scoreboard
+680704,2024-02-24T12:00:00Z,2024,Port FC,Trat,1.0,0.0,,,ESPN scoreboard
+680707,2024-02-24T13:00:00Z,2024,Chiangrai United,Lamphun Warriors,0.0,2.0,,,ESPN scoreboard
+680710,2024-02-25T10:30:00Z,2024,Ratchaburi FC,Uthai Thani FC,1.0,0.0,,,ESPN scoreboard
+680709,2024-02-25T11:00:00Z,2024,BG Pathum United,Bangkok United,2.0,2.0,,,ESPN scoreboard
+680706,2024-02-25T12:00:00Z,2024,Chonburi FC,Sukhothai FC,3.0,1.0,,,ESPN scoreboard
+680712,2024-03-02T11:00:00Z,2024,Khon Kaen United,Port FC,0.0,0.0,,,ESPN scoreboard
+680715,2024-03-02T11:30:00Z,2024,Sukhothai FC,Chiangrai United,2.0,1.0,,,ESPN scoreboard
+680718,2024-03-02T12:00:00Z,2024,Lamphun Warriors,BG Pathum United,2.0,0.0,,,ESPN scoreboard
+680716,2024-03-02T13:00:00Z,2024,Police Tero,Nakhon Pathom,1.0,1.0,,,ESPN scoreboard
+680717,2024-03-03T10:30:00Z,2024,Muangthong United,PT Prachuap FC,2.0,1.0,,,ESPN scoreboard
+680600,2024-03-03T11:00:00Z,2024,Buriram United,Bangkok United,3.0,2.0,,,ESPN scoreboard
+680713,2024-03-03T12:00:00Z,2024,Uthai Thani FC,Chonburi FC,1.0,1.0,,,ESPN scoreboard
+680714,2024-03-04T11:30:00Z,2024,Trat,Ratchaburi FC,2.0,2.0,,,ESPN scoreboard
+680720,2024-03-08T12:00:00Z,2024,PT Prachuap FC,Police Tero,2.0,0.0,,,ESPN scoreboard
+680725,2024-03-09T11:00:00Z,2024,Chiangrai United,Bangkok United,0.0,1.0,,,ESPN scoreboard
+680719,2024-03-09T11:30:00Z,2024,BG Pathum United,Sukhothai FC,7.0,1.0,,,ESPN scoreboard
+680726,2024-03-09T12:00:00Z,2024,Ratchaburi FC,Lamphun Warriors,2.0,0.0,,,ESPN scoreboard
+680721,2024-03-09T13:00:00Z,2024,Port FC,Uthai Thani FC,3.0,3.0,,,ESPN scoreboard
+680722,2024-03-10T10:30:00Z,2024,Nakhon Pathom,Trat,2.0,1.0,,,ESPN scoreboard
+680724,2024-03-10T11:00:00Z,2024,Chonburi FC,Buriram United,1.0,1.0,,,ESPN scoreboard
+680723,2024-03-10T12:00:00Z,2024,Muangthong United,Khon Kaen United,4.0,0.0,,,ESPN scoreboard
+680734,2024-03-30T11:00:00Z,2024,Uthai Thani FC,PT Prachuap FC,2.0,2.0,,,ESPN scoreboard
+680730,2024-03-30T11:30:00Z,2024,Lamphun Warriors,Port FC,2.0,2.0,,,ESPN scoreboard
+680732,2024-03-30T12:00:00Z,2024,Sukhothai FC,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+680733,2024-03-30T13:00:00Z,2024,Trat,BG Pathum United,2.0,1.0,,,ESPN scoreboard
+680616,2024-03-31T10:30:00Z,2024,Buriram United,Chiangrai United,2.0,1.0,,,ESPN scoreboard
+680618,2024-03-31T11:00:00Z,2024,Muangthong United,Police Tero,3.0,1.0,,,ESPN scoreboard
+680729,2024-03-31T11:30:00Z,2024,Bangkok United,Chonburi FC,6.0,0.0,,,ESPN scoreboard
+680727,2024-03-31T12:00:00Z,2024,Khon Kaen United,Nakhon Pathom,2.0,1.0,,,ESPN scoreboard
+680740,2024-04-02T11:00:00Z,2024,PT Prachuap FC,Trat,2.0,1.0,,,ESPN scoreboard
+680741,2024-04-02T12:00:00Z,2024,Port FC,Sukhothai FC,1.0,0.0,,,ESPN scoreboard
+680736,2024-04-03T11:00:00Z,2024,Chonburi FC,Chiangrai United,2.0,0.0,,,ESPN scoreboard
+680735,2024-04-03T11:30:00Z,2024,Khon Kaen United,Police Tero,4.0,0.0,,,ESPN scoreboard
+680737,2024-04-03T12:00:00Z,2024,BG Pathum United,Buriram United,1.0,1.0,,,ESPN scoreboard
+680738,2024-04-03T12:00:00Z,2024,Muangthong United,Uthai Thani FC,5.0,2.0,,,ESPN scoreboard
+680739,2024-04-04T11:00:00Z,2024,Ratchaburi FC,Bangkok United,1.0,2.0,,,ESPN scoreboard
+680742,2024-04-04T12:00:00Z,2024,Nakhon Pathom,Lamphun Warriors,1.0,0.0,,,ESPN scoreboard
+680745,2024-04-06T11:00:00Z,2024,Chiangrai United,BG Pathum United,2.0,3.0,,,ESPN scoreboard
+680638,2024-04-06T11:30:00Z,2024,Muangthong United,Trat,2.0,0.0,,,ESPN scoreboard
+680744,2024-04-06T12:00:00Z,2024,Buriram United,PT Prachuap FC,1.0,0.0,,,ESPN scoreboard
+680750,2024-04-06T13:00:00Z,2024,Uthai Thani FC,Khon Kaen United,2.0,0.0,,,ESPN scoreboard
+680748,2024-04-07T10:30:00Z,2024,Lamphun Warriors,Police Tero,1.0,1.0,,,ESPN scoreboard
+680743,2024-04-07T11:00:00Z,2024,Bangkok United,Port FC,2.0,2.0,,,ESPN scoreboard
+680749,2024-04-07T11:30:00Z,2024,Chonburi FC,Ratchaburi FC,0.0,1.0,,,ESPN scoreboard
+680747,2024-04-07T12:00:00Z,2024,Sukhothai FC,Nakhon Pathom,3.0,1.0,,,ESPN scoreboard
+680693,2024-04-18T12:00:00Z,2024,Bangkok United,Lamphun Warriors,2.0,2.0,,,ESPN scoreboard
+680755,2024-04-19T12:00:00Z,2024,Port FC,Chiangrai United,1.0,2.0,,,ESPN scoreboard
+680751,2024-04-20T11:00:00Z,2024,BG Pathum United,Chonburi FC,1.0,1.0,,,ESPN scoreboard
+680756,2024-04-20T11:30:00Z,2024,Police Tero,Uthai Thani FC,1.0,0.0,,,ESPN scoreboard
+680752,2024-04-20T12:00:00Z,2024,Khon Kaen United,Trat,1.0,1.0,,,ESPN scoreboard
+680753,2024-04-20T13:00:00Z,2024,Ratchaburi FC,Buriram United,1.0,4.0,,,ESPN scoreboard
+680758,2024-04-21T10:30:00Z,2024,Muangthong United,Lamphun Warriors,2.0,1.0,,,ESPN scoreboard
+680754,2024-04-21T11:00:00Z,2024,PT Prachuap FC,Sukhothai FC,2.0,1.0,,,ESPN scoreboard
+680757,2024-04-21T12:00:00Z,2024,Nakhon Pathom,Bangkok United,1.0,2.0,,,ESPN scoreboard
+680764,2024-04-27T11:00:00Z,2024,Buriram United,Muangthong United,3.0,1.0,,,ESPN scoreboard
+680762,2024-04-27T11:30:00Z,2024,Chonburi FC,Nakhon Pathom,0.0,1.0,,,ESPN scoreboard
+680760,2024-04-27T12:00:00Z,2024,Sukhothai FC,Uthai Thani FC,1.0,3.0,,,ESPN scoreboard
+680759,2024-04-27T13:00:00Z,2024,BG Pathum United,Port FC,1.0,3.0,,,ESPN scoreboard
+680763,2024-04-28T10:30:00Z,2024,Chiangrai United,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+680766,2024-04-28T11:00:00Z,2024,Trat,Police Tero,4.0,2.0,,,ESPN scoreboard
+680761,2024-04-28T12:00:00Z,2024,Lamphun Warriors,Khon Kaen United,2.0,3.0,,,ESPN scoreboard
+680765,2024-04-29T11:30:00Z,2024,Bangkok United,PT Prachuap FC,0.0,0.0,,,ESPN scoreboard
+680774,2024-05-03T12:00:00Z,2024,Uthai Thani FC,Trat,3.0,1.0,,,ESPN scoreboard
+680769,2024-05-04T11:00:00Z,2024,Nakhon Pathom,Buriram United,0.0,2.0,,,ESPN scoreboard
+680770,2024-05-04T11:30:00Z,2024,Police Tero,Chiangrai United,0.0,0.0,,,ESPN scoreboard
+680773,2024-05-04T12:00:00Z,2024,Ratchaburi FC,BG Pathum United,0.0,1.0,,,ESPN scoreboard
+680768,2024-05-04T13:00:00Z,2024,Muangthong United,Sukhothai FC,5.0,0.0,,,ESPN scoreboard
+680767,2024-05-05T10:30:00Z,2024,Khon Kaen United,Bangkok United,2.0,2.0,,,ESPN scoreboard
+680771,2024-05-05T11:00:00Z,2024,Port FC,Chonburi FC,2.0,0.0,,,ESPN scoreboard
+680772,2024-05-05T12:00:00Z,2024,PT Prachuap FC,Lamphun Warriors,2.0,0.0,,,ESPN scoreboard
+680777,2024-05-10T12:00:00Z,2024,BG Pathum United,Khon Kaen United,3.0,2.0,,,ESPN scoreboard
+680781,2024-05-11T11:00:00Z,2024,Ratchaburi FC,Muangthong United,1.0,2.0,,,ESPN scoreboard
+680778,2024-05-11T11:30:00Z,2024,Chiangrai United,Nakhon Pathom,0.0,0.0,,,ESPN scoreboard
+680782,2024-05-11T13:00:00Z,2024,Sukhothai FC,Police Tero,2.0,0.0,,,ESPN scoreboard
+680779,2024-05-12T10:30:00Z,2024,Chonburi FC,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+680775,2024-05-12T11:00:00Z,2024,Buriram United,Port FC,1.0,1.0,,,ESPN scoreboard
+680776,2024-05-12T12:00:00Z,2024,Bangkok United,Trat,5.0,0.0,,,ESPN scoreboard
+680780,2024-05-13T11:30:00Z,2024,Lamphun Warriors,Uthai Thani FC,1.0,2.0,,,ESPN scoreboard
+680786,2024-05-17T12:00:00Z,2024,Police Tero,Bangkok United,3.0,0.0,,,ESPN scoreboard
+680784,2024-05-18T11:00:00Z,2024,Muangthong United,Chonburi FC,6.0,0.0,,,ESPN scoreboard
+680789,2024-05-18T11:00:00Z,2024,PT Prachuap FC,Chiangrai United,1.0,0.0,,,ESPN scoreboard
+680788,2024-05-18T11:30:00Z,2024,Trat,Lamphun Warriors,2.0,2.0,,,ESPN scoreboard
+680787,2024-05-18T12:00:00Z,2024,Uthai Thani FC,Buriram United,0.0,2.0,,,ESPN scoreboard
+680785,2024-05-19T10:30:00Z,2024,Khon Kaen United,Sukhothai FC,5.0,1.0,,,ESPN scoreboard
+680783,2024-05-19T11:00:00Z,2024,Nakhon Pathom,BG Pathum United,1.0,3.0,,,ESPN scoreboard
+680677,2024-05-19T12:00:00Z,2024,Ratchaburi FC,Port FC,2.0,2.0,,,ESPN scoreboard
+680792,2024-05-26T11:00:00Z,2024,Bangkok United,Uthai Thani FC,3.0,0.0,,,ESPN scoreboard
+680791,2024-05-26T11:00:00Z,2024,BG Pathum United,Police Tero,4.0,2.0,,,ESPN scoreboard
+680793,2024-05-26T11:00:00Z,2024,Buriram United,Khon Kaen United,8.0,2.0,,,ESPN scoreboard
+680797,2024-05-26T11:00:00Z,2024,Chiangrai United,Muangthong United,2.0,3.0,,,ESPN scoreboard
+680796,2024-05-26T11:00:00Z,2024,Chonburi FC,Trat,3.0,2.0,,,ESPN scoreboard
+680795,2024-05-26T11:00:00Z,2024,Port FC,Nakhon Pathom,6.0,0.0,,,ESPN scoreboard
+680798,2024-05-26T11:00:00Z,2024,Sukhothai FC,Lamphun Warriors,0.0,3.0,,,ESPN scoreboard
+680794,2024-05-26T12:00:00Z,2024,Ratchaburi FC,PT Prachuap FC,3.0,0.0,,,ESPN scoreboard
+710671,2024-08-09T12:00:00Z,2024,Bangkok United,PT Prachuap FC,2.0,1.0,,,ESPN scoreboard
+710665,2024-08-10T11:00:00Z,2024,Nong Bua Pitchaya,Buriram United,0.0,4.0,,,ESPN scoreboard
+710668,2024-08-10T11:30:00Z,2024,Sukhothai FC,BG Pathum United,1.0,3.0,,,ESPN scoreboard
+710667,2024-08-10T12:00:00Z,2024,Rayong FC,Port FC,1.0,3.0,,,ESPN scoreboard
+710664,2024-08-11T11:00:00Z,2024,Ratchaburi FC,Nakhon Pathom,2.0,3.0,,,ESPN scoreboard
+710670,2024-08-11T11:30:00Z,2024,Lamphun Warriors,Uthai Thani FC,1.0,0.0,,,ESPN scoreboard
+710666,2024-08-11T12:00:00Z,2024,Nakhon Ratchasima FC,Muangthong United,2.0,1.0,,,ESPN scoreboard
+710669,2024-08-12T12:00:00Z,2024,Chiangrai United,Khon Kaen United,2.0,0.0,,,ESPN scoreboard
+710674,2024-08-16T12:00:00Z,2024,BG Pathum United,Rayong FC,0.0,1.0,,,ESPN scoreboard
+710789,2024-08-17T11:30:00Z,2024,Ratchaburi FC,Uthai Thani FC,1.0,1.0,,,ESPN scoreboard
+710673,2024-08-17T12:00:00Z,2024,PT Prachuap FC,Nong Bua Pitchaya,4.0,0.0,,,ESPN scoreboard
+710679,2024-08-18T11:00:00Z,2024,Muangthong United,Lamphun Warriors,1.0,0.0,,,ESPN scoreboard
+710678,2024-08-18T11:30:00Z,2024,Khon Kaen United,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+710677,2024-08-18T12:00:00Z,2024,Buriram United,Bangkok United,4.0,2.0,,,ESPN scoreboard
+710675,2024-08-18T12:00:00Z,2024,Nakhon Pathom,Nakhon Ratchasima FC,1.0,2.0,,,ESPN scoreboard
+710672,2024-08-19T12:00:00Z,2024,Port FC,Chiangrai United,5.0,1.0,,,ESPN scoreboard
+710684,2024-08-23T12:00:00Z,2024,Rayong FC,Muangthong United,1.0,1.0,,,ESPN scoreboard
+710680,2024-08-24T11:00:00Z,2024,Khon Kaen United,Port FC,1.0,2.0,,,ESPN scoreboard
+710685,2024-08-24T11:00:00Z,2024,Sukhothai FC,PT Prachuap FC,2.0,0.0,,,ESPN scoreboard
+710686,2024-08-24T11:30:00Z,2024,Nakhon Ratchasima FC,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+710687,2024-08-24T12:00:00Z,2024,Nong Bua Pitchaya,Nakhon Pathom,2.0,1.0,,,ESPN scoreboard
+710681,2024-08-25T11:00:00Z,2024,Chiangrai United,Buriram United,0.0,5.0,,,ESPN scoreboard
+710683,2024-08-25T11:30:00Z,2024,Ratchaburi FC,BG Pathum United,4.0,1.0,,,ESPN scoreboard
+710682,2024-08-25T12:00:00Z,2024,Bangkok United,Uthai Thani FC,0.0,0.0,,,ESPN scoreboard
+710695,2024-08-27T11:00:00Z,2024,Lamphun Warriors,Nong Bua Pitchaya,3.0,3.0,,,ESPN scoreboard
+710690,2024-08-27T12:00:00Z,2024,Port FC,Sukhothai FC,4.0,1.0,,,ESPN scoreboard
+710692,2024-08-28T11:00:00Z,2024,Uthai Thani FC,Nakhon Ratchasima FC,1.0,1.0,,,ESPN scoreboard
+710688,2024-08-28T11:30:00Z,2024,Muangthong United,Ratchaburi FC,2.0,0.0,,,ESPN scoreboard
+710691,2024-08-28T11:30:00Z,2024,PT Prachuap FC,Rayong FC,3.0,0.0,,,ESPN scoreboard
+710694,2024-08-28T12:00:00Z,2024,BG Pathum United,Chiangrai United,2.0,0.0,,,ESPN scoreboard
+710689,2024-08-29T11:00:00Z,2024,Nakhon Pathom,Bangkok United,0.0,3.0,,,ESPN scoreboard
+710807,2024-08-29T12:00:00Z,2024,Khon Kaen United,Buriram United,0.0,3.0,,,ESPN scoreboard
+710700,2024-08-31T11:00:00Z,2024,Nong Bua Pitchaya,Muangthong United,0.0,0.0,,,ESPN scoreboard
+710703,2024-08-31T11:30:00Z,2024,Sukhothai FC,Uthai Thani FC,2.0,3.0,,,ESPN scoreboard
+710698,2024-08-31T12:00:00Z,2024,Rayong FC,Nakhon Ratchasima FC,1.0,1.0,,,ESPN scoreboard
+710697,2024-08-31T13:00:00Z,2024,Chiangrai United,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+710699,2024-09-01T11:00:00Z,2024,Ratchaburi FC,Port FC,2.0,2.0,,,ESPN scoreboard
+710702,2024-09-01T11:30:00Z,2024,Bangkok United,Lamphun Warriors,3.0,2.0,,,ESPN scoreboard
+710701,2024-09-01T11:30:00Z,2024,Khon Kaen United,BG Pathum United,0.0,3.0,,,ESPN scoreboard
+710696,2024-09-01T12:00:00Z,2024,Buriram United,Nakhon Pathom,3.0,0.0,,,ESPN scoreboard
+710709,2024-09-12T11:30:00Z,2024,Port FC,Buriram United,0.0,0.0,,,ESPN scoreboard
+710708,2024-09-14T12:00:00Z,2024,Nakhon Ratchasima FC,Bangkok United,1.0,1.0,,,ESPN scoreboard
+710704,2024-09-14T13:00:00Z,2024,BG Pathum United,Nong Bua Pitchaya,1.0,1.0,,,ESPN scoreboard
+710706,2024-09-15T11:00:00Z,2024,Muangthong United,Sukhothai FC,4.0,2.0,,,ESPN scoreboard
+710711,2024-09-15T11:00:00Z,2024,Uthai Thani FC,Rayong FC,3.0,1.0,,,ESPN scoreboard
+710705,2024-09-15T12:00:00Z,2024,Lamphun Warriors,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+710710,2024-09-15T12:00:00Z,2024,PT Prachuap FC,Khon Kaen United,1.0,0.0,,,ESPN scoreboard
+710717,2024-09-20T12:00:00Z,2024,Khon Kaen United,Nakhon Pathom,0.0,0.0,,,ESPN scoreboard
+710718,2024-09-21T11:00:00Z,2024,Nong Bua Pitchaya,Uthai Thani FC,3.0,2.0,,,ESPN scoreboard
+710713,2024-09-21T12:00:00Z,2024,Ratchaburi FC,Nakhon Ratchasima FC,4.0,0.0,,,ESPN scoreboard
+710714,2024-09-21T13:00:00Z,2024,Sukhothai FC,Lamphun Warriors,4.0,0.0,,,ESPN scoreboard
+710712,2024-09-22T11:00:00Z,2024,Rayong FC,Bangkok United,0.0,3.0,,,ESPN scoreboard
+710715,2024-09-22T12:00:00Z,2024,Buriram United,PT Prachuap FC,6.0,0.0,,,ESPN scoreboard
+710719,2024-09-22T12:00:00Z,2024,Port FC,BG Pathum United,1.0,2.0,,,ESPN scoreboard
+710721,2024-09-27T11:00:00Z,2024,Muangthong United,Khon Kaen United,0.0,0.0,,,ESPN scoreboard
+710726,2024-09-27T12:00:00Z,2024,Bangkok United,Ratchaburi FC,0.0,0.0,,,ESPN scoreboard
+710723,2024-09-28T11:00:00Z,2024,Nakhon Ratchasima FC,Nong Bua Pitchaya,2.0,1.0,,,ESPN scoreboard
+710724,2024-09-28T11:00:00Z,2024,PT Prachuap FC,Port FC,0.0,0.0,,,ESPN scoreboard
+710722,2024-09-28T12:00:00Z,2024,Nakhon Pathom,Sukhothai FC,0.0,1.0,,,ESPN scoreboard
+710720,2024-09-29T11:00:00Z,2024,Lamphun Warriors,Rayong FC,4.0,1.0,,,ESPN scoreboard
+710725,2024-09-29T12:00:00Z,2024,Uthai Thani FC,Chiangrai United,3.0,0.0,,,ESPN scoreboard
+710731,2024-10-04T12:00:00Z,2024,Chiangrai United,Lamphun Warriors,2.0,0.0,,,ESPN scoreboard
+710727,2024-10-05T11:00:00Z,2024,PT Prachuap FC,BG Pathum United,2.0,2.0,,,ESPN scoreboard
+710732,2024-10-05T11:00:00Z,2024,Sukhothai FC,Nakhon Ratchasima FC,1.0,0.0,,,ESPN scoreboard
+710730,2024-10-05T12:00:00Z,2024,Khon Kaen United,Uthai Thani FC,0.0,1.0,,,ESPN scoreboard
+710734,2024-10-05T13:00:00Z,2024,Ratchaburi FC,Rayong FC,2.0,0.0,,,ESPN scoreboard
+710729,2024-10-06T11:00:00Z,2024,Nong Bua Pitchaya,Bangkok United,2.0,3.0,,,ESPN scoreboard
+710728,2024-10-06T11:00:00Z,2024,Port FC,Nakhon Pathom,2.0,0.0,,,ESPN scoreboard
+710849,2024-10-17T12:00:00Z,2024,Buriram United,Uthai Thani FC,1.0,0.0,,,ESPN scoreboard
+710735,2024-10-19T11:00:00Z,2024,Nakhon Ratchasima FC,Port FC,2.0,3.0,,,ESPN scoreboard
+710740,2024-10-19T12:00:00Z,2024,Lamphun Warriors,Khon Kaen United,0.0,1.0,,,ESPN scoreboard
+710739,2024-10-19T14:00:00Z,2024,Muangthong United,BG Pathum United,1.0,1.0,,,ESPN scoreboard
+710741,2024-10-20T11:00:00Z,2024,Bangkok United,Sukhothai FC,4.0,1.0,,,ESPN scoreboard
+710736,2024-10-20T11:00:00Z,2024,Ratchaburi FC,Chiangrai United,1.0,0.0,,,ESPN scoreboard
+710738,2024-10-20T12:00:00Z,2024,Nakhon Pathom,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+710737,2024-10-21T12:00:00Z,2024,Rayong FC,Nong Bua Pitchaya,3.0,1.0,,,ESPN scoreboard
+710743,2024-10-25T12:00:00Z,2024,Nong Bua Pitchaya,Ratchaburi FC,5.0,3.0,,,ESPN scoreboard
+710749,2024-10-26T11:00:00Z,2024,Buriram United,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+710747,2024-10-26T11:00:00Z,2024,Sukhothai FC,Rayong FC,3.0,1.0,,,ESPN scoreboard
+710748,2024-10-26T12:00:00Z,2024,BG Pathum United,Nakhon Pathom,3.0,1.0,,,ESPN scoreboard
+710746,2024-10-26T12:00:00Z,2024,Khon Kaen United,Nakhon Ratchasima FC,0.0,0.0,,,ESPN scoreboard
+710750,2024-10-27T11:00:00Z,2024,Chiangrai United,Bangkok United,1.0,2.0,,,ESPN scoreboard
+710744,2024-10-27T11:00:00Z,2024,Port FC,Muangthong United,1.0,1.0,,,ESPN scoreboard
+710745,2024-10-27T12:00:00Z,2024,PT Prachuap FC,Uthai Thani FC,3.0,0.0,,,ESPN scoreboard
+710758,2024-11-02T11:00:00Z,2024,Muangthong United,PT Prachuap FC,0.0,2.0,,,ESPN scoreboard
+710756,2024-11-02T11:00:00Z,2024,Ratchaburi FC,Sukhothai FC,2.0,2.0,,,ESPN scoreboard
+710751,2024-11-02T12:00:00Z,2024,Bangkok United,Port FC,2.0,0.0,,,ESPN scoreboard
+710757,2024-11-03T11:00:00Z,2024,Rayong FC,Chiangrai United,2.0,0.0,,,ESPN scoreboard
+710753,2024-11-03T11:00:00Z,2024,Uthai Thani FC,Nakhon Pathom,2.0,1.0,,,ESPN scoreboard
+710755,2024-11-03T12:00:00Z,2024,Nong Bua Pitchaya,Khon Kaen United,6.0,1.0,,,ESPN scoreboard
+710752,2024-11-04T12:00:00Z,2024,Lamphun Warriors,BG Pathum United,2.0,2.0,,,ESPN scoreboard
+710760,2024-11-08T12:00:00Z,2024,Sukhothai FC,Nong Bua Pitchaya,5.0,2.0,,,ESPN scoreboard
+710762,2024-11-09T11:00:00Z,2024,Chiangrai United,Nakhon Ratchasima FC,0.0,2.0,,,ESPN scoreboard
+710766,2024-11-09T11:00:00Z,2024,PT Prachuap FC,Ratchaburi FC,3.0,2.0,,,ESPN scoreboard
+710759,2024-11-09T12:00:00Z,2024,BG Pathum United,Uthai Thani FC,2.0,1.0,,,ESPN scoreboard
+710876,2024-11-10T11:00:00Z,2024,Rayong FC,Buriram United,1.0,1.0,,,ESPN scoreboard
+710763,2024-11-10T12:00:00Z,2024,Khon Kaen United,Bangkok United,2.0,3.0,,,ESPN scoreboard
+710873,2024-11-11T12:00:00Z,2024,Muangthong United,Nakhon Pathom,3.0,1.0,,,ESPN scoreboard
+710881,2024-11-22T11:00:00Z,2024,Buriram United,Sukhothai FC,2.0,0.0,,,ESPN scoreboard
+710770,2024-11-23T11:00:00Z,2024,Uthai Thani FC,Port FC,1.0,1.0,,,ESPN scoreboard
+710884,2024-11-23T12:00:00Z,2024,Muangthong United,Bangkok United,2.0,1.0,,,ESPN scoreboard
+710772,2024-11-23T13:00:00Z,2024,Rayong FC,Nakhon Pathom,2.0,2.0,,,ESPN scoreboard
+710774,2024-11-24T11:00:00Z,2024,Nong Bua Pitchaya,Chiangrai United,0.0,2.0,,,ESPN scoreboard
+710771,2024-11-24T11:00:00Z,2024,Ratchaburi FC,Khon Kaen United,2.0,0.0,,,ESPN scoreboard
+710768,2024-11-24T12:00:00Z,2024,Lamphun Warriors,PT Prachuap FC,0.0,0.0,,,ESPN scoreboard
+710769,2024-11-24T12:00:00Z,2024,Nakhon Ratchasima FC,BG Pathum United,1.0,0.0,,,ESPN scoreboard
+710781,2024-11-29T12:00:00Z,2024,PT Prachuap FC,Nakhon Ratchasima FC,2.0,2.0,,,ESPN scoreboard
+710777,2024-11-30T11:00:00Z,2024,Khon Kaen United,Rayong FC,0.0,1.0,,,ESPN scoreboard
+710775,2024-11-30T11:00:00Z,2024,Nakhon Pathom,Lamphun Warriors,0.0,3.0,,,ESPN scoreboard
+710778,2024-11-30T12:00:00Z,2024,Chiangrai United,Sukhothai FC,0.0,0.0,,,ESPN scoreboard
+710782,2024-12-01T11:00:00Z,2024,Port FC,Nong Bua Pitchaya,2.0,1.0,,,ESPN scoreboard
+710780,2024-12-01T12:00:00Z,2024,BG Pathum United,Bangkok United,1.0,0.0,,,ESPN scoreboard
+710707,2024-12-07T11:00:00Z,2024,Nakhon Pathom,Chiangrai United,2.0,1.0,,,ESPN scoreboard
+710779,2024-12-08T11:00:00Z,2024,Buriram United,Ratchaburi FC,6.0,0.0,,,ESPN scoreboard
+710754,2024-12-14T12:00:00Z,2024,Nakhon Ratchasima FC,Buriram United,1.0,5.0,,,ESPN scoreboard
+710716,2024-12-15T11:00:00Z,2024,Chiangrai United,Muangthong United,3.0,1.0,,,ESPN scoreboard
+710733,2024-12-22T12:00:00Z,2024,Buriram United,Muangthong United,1.0,0.0,,,ESPN scoreboard
+710783,2024-12-29T12:00:00Z,2024,BG Pathum United,Buriram United,0.0,2.0,,,ESPN scoreboard
+710765,2025-01-08T12:00:00Z,2025,Port FC,Lamphun Warriors,2.0,1.0,,,ESPN scoreboard
+710788,2025-01-10T12:00:00Z,2025,Nong Bua Pitchaya,PT Prachuap FC,1.0,0.0,,,ESPN scoreboard
+710786,2025-01-11T11:00:00Z,2025,Lamphun Warriors,Muangthong United,1.0,5.0,,,ESPN scoreboard
+710791,2025-01-11T11:00:00Z,2025,Nakhon Ratchasima FC,Nakhon Pathom,0.0,3.0,,,ESPN scoreboard
+710787,2025-01-11T12:00:00Z,2025,Sukhothai FC,Khon Kaen United,1.0,0.0,,,ESPN scoreboard
+710676,2025-01-11T12:00:00Z,2025,Uthai Thani FC,Ratchaburi FC,1.0,2.0,,,ESPN scoreboard
+710785,2025-01-12T11:00:00Z,2025,Chiangrai United,Port FC,1.0,0.0,,,ESPN scoreboard
+710790,2025-01-12T11:00:00Z,2025,Rayong FC,BG Pathum United,1.0,1.0,,,ESPN scoreboard
+710784,2025-01-12T12:00:00Z,2025,Bangkok United,Buriram United,3.0,2.0,,,ESPN scoreboard
+710792,2025-01-14T11:00:00Z,2025,Lamphun Warriors,Nakhon Ratchasima FC,3.0,0.0,,,ESPN scoreboard
+710799,2025-01-14T12:00:00Z,2025,Nakhon Pathom,Nong Bua Pitchaya,1.0,1.0,,,ESPN scoreboard
+710798,2025-01-15T11:00:00Z,2025,Port FC,Khon Kaen United,1.0,2.0,,,ESPN scoreboard
+710797,2025-01-15T11:00:00Z,2025,PT Prachuap FC,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+710794,2025-01-15T12:00:00Z,2025,BG Pathum United,Ratchaburi FC,1.0,2.0,,,ESPN scoreboard
+710793,2025-01-15T12:00:00Z,2025,Buriram United,Chiangrai United,8.0,0.0,,,ESPN scoreboard
+710796,2025-01-16T11:00:00Z,2025,Uthai Thani FC,Bangkok United,0.0,2.0,,,ESPN scoreboard
+710795,2025-01-16T12:00:00Z,2025,Muangthong United,Rayong FC,4.0,0.0,,,ESPN scoreboard
+710801,2025-01-18T11:00:00Z,2025,Chiangrai United,BG Pathum United,1.0,0.0,,,ESPN scoreboard
+710804,2025-01-18T12:00:00Z,2025,Nong Bua Pitchaya,Lamphun Warriors,0.0,0.0,,,ESPN scoreboard
+710693,2025-01-19T11:00:00Z,2025,Buriram United,Khon Kaen United,9.0,0.0,,,ESPN scoreboard
+710805,2025-01-19T11:00:00Z,2025,Ratchaburi FC,Muangthong United,1.0,0.0,,,ESPN scoreboard
+710803,2025-01-19T12:00:00Z,2025,Nakhon Ratchasima FC,Uthai Thani FC,3.0,2.0,,,ESPN scoreboard
+710806,2025-01-19T12:00:00Z,2025,Rayong FC,PT Prachuap FC,3.0,2.0,,,ESPN scoreboard
+710802,2025-01-20T11:00:00Z,2025,Sukhothai FC,Port FC,3.0,2.0,,,ESPN scoreboard
+710800,2025-01-20T12:00:00Z,2025,Bangkok United,Nakhon Pathom,1.0,1.0,,,ESPN scoreboard
+710808,2025-01-24T12:00:00Z,2025,Port FC,Ratchaburi FC,3.0,3.0,,,ESPN scoreboard
+710813,2025-01-25T11:00:00Z,2025,Lamphun Warriors,Bangkok United,0.0,1.0,,,ESPN scoreboard
+710811,2025-01-25T11:00:00Z,2025,Nakhon Ratchasima FC,Rayong FC,3.0,3.0,,,ESPN scoreboard
+710814,2025-01-25T12:00:00Z,2025,Muangthong United,Nong Bua Pitchaya,2.0,1.0,,,ESPN scoreboard
+710809,2025-01-26T11:00:00Z,2025,PT Prachuap FC,Chiangrai United,2.0,0.0,,,ESPN scoreboard
+710812,2025-01-26T11:00:00Z,2025,Uthai Thani FC,Sukhothai FC,3.0,0.0,,,ESPN scoreboard
+710810,2025-01-26T12:00:00Z,2025,BG Pathum United,Khon Kaen United,4.0,1.0,,,ESPN scoreboard
+710815,2025-01-26T12:00:00Z,2025,Nakhon Pathom,Buriram United,1.0,3.0,,,ESPN scoreboard
+710826,2025-01-29T11:00:00Z,2025,PT Prachuap FC,Buriram United,1.0,2.0,,,ESPN scoreboard
+710816,2025-02-01T11:30:00Z,2025,Nong Bua Pitchaya,BG Pathum United,1.0,1.0,,,ESPN scoreboard
+710817,2025-02-01T11:30:00Z,2025,Ratchaburi FC,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+710818,2025-02-01T12:00:00Z,2025,Rayong FC,Uthai Thani FC,2.0,3.0,,,ESPN scoreboard
+710822,2025-02-02T11:00:00Z,2025,Bangkok United,Nakhon Ratchasima FC,2.0,1.0,,,ESPN scoreboard
+710821,2025-02-02T11:00:00Z,2025,Buriram United,Port FC,0.0,1.0,,,ESPN scoreboard
+710820,2025-02-02T11:00:00Z,2025,Chiangrai United,Nakhon Pathom,3.0,0.0,,,ESPN scoreboard
+710819,2025-02-02T12:00:00Z,2025,Khon Kaen United,PT Prachuap FC,1.0,4.0,,,ESPN scoreboard
+710823,2025-02-02T12:00:00Z,2025,Sukhothai FC,Muangthong United,1.0,3.0,,,ESPN scoreboard
+710830,2025-02-07T12:00:00Z,2025,Bangkok United,Rayong FC,2.0,2.0,,,ESPN scoreboard
+710827,2025-02-08T11:00:00Z,2025,Muangthong United,Chiangrai United,2.0,1.0,,,ESPN scoreboard
+710825,2025-02-08T12:00:00Z,2025,Nakhon Ratchasima FC,Ratchaburi FC,1.0,1.0,,,ESPN scoreboard
+710831,2025-02-09T11:00:00Z,2025,Lamphun Warriors,Sukhothai FC,1.0,0.0,,,ESPN scoreboard
+710824,2025-02-09T11:00:00Z,2025,Nakhon Pathom,Khon Kaen United,2.0,1.0,,,ESPN scoreboard
+710829,2025-02-09T12:00:00Z,2025,BG Pathum United,Port FC,1.0,0.0,,,ESPN scoreboard
+710828,2025-02-10T12:00:00Z,2025,Uthai Thani FC,Nong Bua Pitchaya,3.0,0.0,,,ESPN scoreboard
+710838,2025-02-15T11:00:00Z,2025,Nong Bua Pitchaya,Nakhon Ratchasima FC,1.0,1.0,,,ESPN scoreboard
+710834,2025-02-15T11:00:00Z,2025,Sukhothai FC,Nakhon Pathom,0.0,0.0,,,ESPN scoreboard
+710833,2025-02-15T12:00:00Z,2025,Chiangrai United,Uthai Thani FC,1.0,0.0,,,ESPN scoreboard
+710835,2025-02-17T12:00:00Z,2025,Rayong FC,Lamphun Warriors,2.0,3.0,,,ESPN scoreboard
+710842,2025-02-21T12:00:00Z,2025,Nakhon Ratchasima FC,Sukhothai FC,2.0,2.0,,,ESPN scoreboard
+710841,2025-02-22T11:00:00Z,2025,Rayong FC,Ratchaburi FC,1.0,4.0,,,ESPN scoreboard
+710847,2025-02-22T11:00:00Z,2025,Uthai Thani FC,Khon Kaen United,0.0,0.0,,,ESPN scoreboard
+710840,2025-02-22T12:00:00Z,2025,BG Pathum United,PT Prachuap FC,1.0,0.0,,,ESPN scoreboard
+710846,2025-02-23T11:00:00Z,2025,Bangkok United,Nong Bua Pitchaya,1.0,0.0,,,ESPN scoreboard
+710845,2025-02-23T12:00:00Z,2025,Lamphun Warriors,Chiangrai United,1.0,0.0,,,ESPN scoreboard
+710844,2025-02-23T12:00:00Z,2025,Muangthong United,Buriram United,1.0,3.0,,,ESPN scoreboard
+710854,2025-03-01T11:00:00Z,2025,Nong Bua Pitchaya,Rayong FC,1.0,1.0,,,ESPN scoreboard
+710742,2025-03-01T11:00:00Z,2025,Uthai Thani FC,Buriram United,0.0,0.0,,,ESPN scoreboard
+710848,2025-03-01T12:00:00Z,2025,BG Pathum United,Muangthong United,2.0,0.0,,,ESPN scoreboard
+710853,2025-03-01T12:00:00Z,2025,Port FC,Nakhon Ratchasima FC,4.0,2.0,,,ESPN scoreboard
+710850,2025-03-02T11:00:00Z,2025,Chiangrai United,Ratchaburi FC,0.0,1.0,,,ESPN scoreboard
+710851,2025-03-02T11:00:00Z,2025,Sukhothai FC,Bangkok United,1.0,3.0,,,ESPN scoreboard
+710855,2025-03-02T12:00:00Z,2025,Khon Kaen United,Lamphun Warriors,0.0,0.0,,,ESPN scoreboard
+710852,2025-03-02T12:00:00Z,2025,PT Prachuap FC,Nakhon Pathom,1.0,0.0,,,ESPN scoreboard
+710863,2025-03-08T11:00:00Z,2025,Nakhon Pathom,BG Pathum United,1.0,4.0,,,ESPN scoreboard
+710860,2025-03-08T12:00:00Z,2025,Bangkok United,Chiangrai United,3.0,2.0,,,ESPN scoreboard
+710859,2025-03-08T12:00:00Z,2025,Rayong FC,Sukhothai FC,2.0,1.0,,,ESPN scoreboard
+710857,2025-03-09T11:00:00Z,2025,Nakhon Ratchasima FC,Khon Kaen United,3.0,1.0,,,ESPN scoreboard
+710856,2025-03-09T11:00:00Z,2025,Ratchaburi FC,Nong Bua Pitchaya,4.0,0.0,,,ESPN scoreboard
+710862,2025-03-09T12:00:00Z,2025,Muangthong United,Port FC,1.0,2.0,,,ESPN scoreboard
+710858,2025-03-09T12:00:00Z,2025,Uthai Thani FC,PT Prachuap FC,3.0,1.0,,,ESPN scoreboard
+710869,2025-03-14T12:00:00Z,2025,BG Pathum United,Lamphun Warriors,1.0,0.0,,,ESPN scoreboard
+710871,2025-03-15T11:00:00Z,2025,Khon Kaen United,Nong Bua Pitchaya,0.0,1.0,,,ESPN scoreboard
+710864,2025-03-15T11:00:00Z,2025,Nakhon Pathom,Uthai Thani FC,1.0,0.0,,,ESPN scoreboard
+710870,2025-03-15T12:00:00Z,2025,Sukhothai FC,Ratchaburi FC,2.0,1.0,,,ESPN scoreboard
+710867,2025-03-16T11:00:00Z,2025,Chiangrai United,Rayong FC,1.0,0.0,,,ESPN scoreboard
+710866,2025-03-16T11:00:00Z,2025,PT Prachuap FC,Muangthong United,5.0,0.0,,,ESPN scoreboard
+710868,2025-03-16T12:00:00Z,2025,Buriram United,Nakhon Ratchasima FC,5.0,0.0,,,ESPN scoreboard
+710865,2025-03-16T12:00:00Z,2025,Port FC,Bangkok United,0.0,0.0,,,ESPN scoreboard
+710861,2025-03-26T11:00:00Z,2025,Lamphun Warriors,Buriram United,1.0,2.0,,,ESPN scoreboard
+710877,2025-03-28T12:00:00Z,2025,Ratchaburi FC,PT Prachuap FC,3.0,2.0,,,ESPN scoreboard
+710761,2025-03-29T11:00:00Z,2025,Buriram United,Rayong FC,2.0,1.0,,,ESPN scoreboard
+710872,2025-03-29T11:00:00Z,2025,Nakhon Ratchasima FC,Chiangrai United,1.0,4.0,,,ESPN scoreboard
+710875,2025-03-29T12:00:00Z,2025,Nong Bua Pitchaya,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+710879,2025-03-29T12:00:00Z,2025,Uthai Thani FC,BG Pathum United,1.0,1.0,,,ESPN scoreboard
+710878,2025-03-30T11:00:00Z,2025,Bangkok United,Khon Kaen United,5.0,0.0,,,ESPN scoreboard
+710874,2025-03-30T11:00:00Z,2025,Lamphun Warriors,Port FC,3.0,2.0,,,ESPN scoreboard
+710764,2025-03-30T12:00:00Z,2025,Nakhon Pathom,Muangthong United,2.0,4.0,,,ESPN scoreboard
+710839,2025-04-02T11:00:00Z,2025,Khon Kaen United,Muangthong United,2.0,1.0,,,ESPN scoreboard
+710836,2025-04-02T11:00:00Z,2025,Ratchaburi FC,Bangkok United,1.0,2.0,,,ESPN scoreboard
+710882,2025-04-04T12:00:00Z,2025,Chiangrai United,Nong Bua Pitchaya,2.0,1.0,,,ESPN scoreboard
+710887,2025-04-05T11:00:00Z,2025,PT Prachuap FC,Lamphun Warriors,2.0,1.0,,,ESPN scoreboard
+710767,2025-04-05T12:00:00Z,2025,Bangkok United,Muangthong United,2.0,1.0,,,ESPN scoreboard
+710886,2025-04-05T12:00:00Z,2025,Port FC,Uthai Thani FC,1.0,1.0,,,ESPN scoreboard
+710880,2025-04-06T11:00:00Z,2025,BG Pathum United,Nakhon Ratchasima FC,1.0,0.0,,,ESPN scoreboard
+710883,2025-04-06T11:00:00Z,2025,Khon Kaen United,Ratchaburi FC,4.0,7.0,,,ESPN scoreboard
+710773,2025-04-06T11:00:00Z,2025,Sukhothai FC,Buriram United,1.0,2.0,,,ESPN scoreboard
+710885,2025-04-06T12:00:00Z,2025,Nakhon Pathom,Rayong FC,1.0,2.0,,,ESPN scoreboard
+710837,2025-04-10T11:00:00Z,2025,Port FC,PT Prachuap FC,0.0,2.0,,,ESPN scoreboard
+710832,2025-04-12T12:00:00Z,2025,Buriram United,BG Pathum United,1.0,2.0,,,ESPN scoreboard
+710843,2025-04-13T11:00:00Z,2025,Nakhon Pathom,Port FC,2.0,2.0,,,ESPN scoreboard
+710776,2025-04-13T12:00:00Z,2025,Muangthong United,Uthai Thani FC,2.0,0.0,,,ESPN scoreboard
+710892,2025-04-19T11:00:00Z,2025,Ratchaburi FC,Buriram United,3.0,2.0,,,ESPN scoreboard
+710894,2025-04-19T11:00:00Z,2025,Sukhothai FC,Chiangrai United,3.0,3.0,,,ESPN scoreboard
+710888,2025-04-19T12:00:00Z,2025,Bangkok United,BG Pathum United,3.0,0.0,,,ESPN scoreboard
+710889,2025-04-19T12:00:00Z,2025,Lamphun Warriors,Nakhon Pathom,1.0,1.0,,,ESPN scoreboard
+710891,2025-04-20T11:00:00Z,2025,Nong Bua Pitchaya,Port FC,1.0,2.0,,,ESPN scoreboard
+710893,2025-04-20T11:00:00Z,2025,Rayong FC,Khon Kaen United,4.0,0.0,,,ESPN scoreboard
+710890,2025-04-20T12:00:00Z,2025,Nakhon Ratchasima FC,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+710895,2025-04-20T12:00:00Z,2025,Uthai Thani FC,Muangthong United,1.0,1.0,,,ESPN scoreboard
+710896,2025-04-27T11:00:00Z,2025,BG Pathum United,Sukhothai FC,4.0,4.0,,,ESPN scoreboard
+710898,2025-04-27T11:00:00Z,2025,Khon Kaen United,Chiangrai United,3.0,1.0,,,ESPN scoreboard
+710902,2025-04-27T11:00:00Z,2025,Muangthong United,Nakhon Ratchasima FC,2.0,0.0,,,ESPN scoreboard
+710903,2025-04-27T11:00:00Z,2025,Uthai Thani FC,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+710897,2025-04-30T11:00:00Z,2025,Buriram United,Nong Bua Pitchaya,7.0,0.0,,,ESPN scoreboard
+710901,2025-04-30T11:00:00Z,2025,Nakhon Pathom,Ratchaburi FC,1.0,6.0,,,ESPN scoreboard
+710900,2025-04-30T11:00:00Z,2025,Port FC,Rayong FC,4.0,1.0,,,ESPN scoreboard
+710899,2025-04-30T11:00:00Z,2025,PT Prachuap FC,Bangkok United,2.0,4.0,,,ESPN scoreboard
+751469,2025-08-15T12:00:00Z,2025,Ratchaburi FC,Kanchanaburi Power FC,1.0,1.0,,,ESPN scoreboard
+751470,2025-08-16T11:00:00Z,2025,PT Prachuap FC,BG Pathum United,2.0,2.0,,,ESPN scoreboard
+751471,2025-08-16T11:30:00Z,2025,Nakhon Ratchasima FC,Chonburi FC,0.0,0.0,,,ESPN scoreboard
+751472,2025-08-16T12:00:00Z,2025,Lamphun Warriors,Buriram United,2.0,3.0,,,ESPN scoreboard
+751473,2025-08-16T12:30:00Z,2025,Muangthong United,Sukhothai FC,1.0,0.0,,,ESPN scoreboard
+751474,2025-08-17T11:00:00Z,2025,Uthai Thani FC,Chiangrai United,1.0,1.0,,,ESPN scoreboard
+751475,2025-08-17T11:30:00Z,2025,Port FC,Ayutthaya United,3.0,1.0,,,ESPN scoreboard
+751476,2025-08-17T12:00:00Z,2025,Bangkok United,Rayong FC,3.0,2.0,,,ESPN scoreboard
+751477,2025-08-22T12:00:00Z,2025,Rayong FC,Nakhon Ratchasima FC,1.0,2.0,,,ESPN scoreboard
+751478,2025-08-23T11:00:00Z,2025,Chiangrai United,PT Prachuap FC,2.0,1.0,,,ESPN scoreboard
+751479,2025-08-23T11:30:00Z,2025,Ayutthaya United,Muangthong United,2.0,2.0,,,ESPN scoreboard
+751484,2025-08-23T12:00:00Z,2025,Chonburi FC,Ratchaburi FC,0.0,1.0,,,ESPN scoreboard
+751481,2025-08-23T12:30:00Z,2025,BG Pathum United,Lamphun Warriors,2.0,1.0,,,ESPN scoreboard
+751482,2025-08-24T11:00:00Z,2025,Kanchanaburi Power FC,Bangkok United,3.0,3.0,,,ESPN scoreboard
+751483,2025-08-24T11:30:00Z,2025,Sukhothai FC,Port FC,1.0,0.0,,,ESPN scoreboard
+751480,2025-08-24T12:00:00Z,2025,Buriram United,Uthai Thani FC,5.0,1.0,,,ESPN scoreboard
+751485,2025-08-29T12:00:00Z,2025,Uthai Thani FC,Ayutthaya United,1.0,4.0,,,ESPN scoreboard
+751486,2025-08-30T11:00:00Z,2025,Nakhon Ratchasima FC,Ratchaburi FC,0.0,2.0,,,ESPN scoreboard
+751487,2025-08-30T11:30:00Z,2025,Lamphun Warriors,Chonburi FC,2.0,2.0,,,ESPN scoreboard
+751488,2025-08-30T12:00:00Z,2025,Bangkok United,BG Pathum United,2.0,1.0,,,ESPN scoreboard
+751489,2025-08-30T12:30:00Z,2025,Port FC,Rayong FC,1.0,1.0,,,ESPN scoreboard
+751490,2025-08-31T11:00:00Z,2025,Chiangrai United,Buriram United,1.0,2.0,,,ESPN scoreboard
+751491,2025-08-31T11:30:00Z,2025,PT Prachuap FC,Sukhothai FC,0.0,0.0,,,ESPN scoreboard
+751492,2025-08-31T12:00:00Z,2025,Muangthong United,Kanchanaburi Power FC,2.0,0.0,,,ESPN scoreboard
+757344,2025-09-12T12:00:00Z,2025,Buriram United,PT Prachuap FC,2.0,0.0,,,ESPN scoreboard
+757345,2025-09-12T12:00:00Z,2025,Uthai Thani FC,BG Pathum United,0.0,1.0,,,ESPN scoreboard
+757346,2025-09-13T11:00:00Z,2025,Chonburi FC,Bangkok United,0.0,1.0,,,ESPN scoreboard
+757347,2025-09-13T11:30:00Z,2025,Sukhothai FC,Lamphun Warriors,1.0,2.0,,,ESPN scoreboard
+757348,2025-09-13T12:00:00Z,2025,Ratchaburi FC,Port FC,1.0,0.0,,,ESPN scoreboard
+757349,2025-09-14T11:00:00Z,2025,Rayong FC,Muangthong United,2.0,0.0,,,ESPN scoreboard
+757350,2025-09-14T11:30:00Z,2025,Ayutthaya United,Chiangrai United,1.0,1.0,,,ESPN scoreboard
+757351,2025-09-14T13:00:00Z,2025,Kanchanaburi Power FC,Nakhon Ratchasima FC,0.0,0.0,,,ESPN scoreboard
+757352,2025-09-19T12:00:00Z,2025,Port FC,Chonburi FC,3.0,0.0,,,ESPN scoreboard
+757353,2025-09-20T11:00:00Z,2025,Lamphun Warriors,Nakhon Ratchasima FC,2.0,2.0,,,ESPN scoreboard
+757354,2025-09-20T11:30:00Z,2025,Uthai Thani FC,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+757355,2025-09-20T12:00:00Z,2025,PT Prachuap FC,Kanchanaburi Power FC,2.0,0.0,,,ESPN scoreboard
+757356,2025-09-21T11:00:00Z,2025,Chiangrai United,BG Pathum United,1.0,0.0,,,ESPN scoreboard
+757357,2025-09-21T11:30:00Z,2025,Muangthong United,Ratchaburi FC,1.0,3.0,,,ESPN scoreboard
+757358,2025-09-21T11:30:00Z,2025,Rayong FC,Ayutthaya United,2.0,2.0,,,ESPN scoreboard
+757359,2025-09-21T12:00:00Z,2025,Bangkok United,Buriram United,1.0,2.0,,,ESPN scoreboard
+757360,2025-09-26T12:00:00Z,2025,Sukhothai FC,Chiangrai United,1.0,1.0,,,ESPN scoreboard
+757361,2025-09-27T10:00:00Z,2025,Ayutthaya United,Buriram United,1.0,4.0,,,ESPN scoreboard
+757362,2025-09-27T11:30:00Z,2025,Rayong FC,Uthai Thani FC,2.0,1.0,,,ESPN scoreboard
+757363,2025-09-27T12:00:00Z,2025,Chonburi FC,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+757364,2025-09-27T12:30:00Z,2025,Kanchanaburi Power FC,Lamphun Warriors,4.0,0.0,,,ESPN scoreboard
+757365,2025-09-28T11:00:00Z,2025,Ratchaburi FC,Bangkok United,0.0,1.0,,,ESPN scoreboard
+757366,2025-09-28T11:30:00Z,2025,Nakhon Ratchasima FC,Muangthong United,1.0,1.0,,,ESPN scoreboard
+757367,2025-09-28T12:00:00Z,2025,BG Pathum United,Port FC,2.0,0.0,,,ESPN scoreboard
+757368,2025-10-03T12:00:00Z,2025,Lamphun Warriors,Muangthong United,2.0,2.0,,,ESPN scoreboard
+757369,2025-10-04T11:00:00Z,2025,Chiangrai United,Rayong FC,0.0,1.0,,,ESPN scoreboard
+757370,2025-10-04T11:30:00Z,2025,Uthai Thani FC,Chonburi FC,1.0,1.0,,,ESPN scoreboard
+757371,2025-10-04T12:00:00Z,2025,Port FC,Kanchanaburi Power FC,8.0,0.0,,,ESPN scoreboard
+757372,2025-10-04T12:30:00Z,2025,Ayutthaya United,Sukhothai FC,1.0,1.0,,,ESPN scoreboard
+757373,2025-10-05T11:00:00Z,2025,Bangkok United,Nakhon Ratchasima FC,3.0,1.0,,,ESPN scoreboard
+757374,2025-10-05T11:30:00Z,2025,PT Prachuap FC,Ratchaburi FC,1.0,0.0,,,ESPN scoreboard
+757375,2025-10-05T12:00:00Z,2025,Buriram United,BG Pathum United,2.0,2.0,,,ESPN scoreboard
+757376,2025-10-18T11:00:00Z,2025,Nakhon Ratchasima FC,Port FC,0.0,2.0,,,ESPN scoreboard
+757377,2025-10-18T11:30:00Z,2025,Ratchaburi FC,Lamphun Warriors,5.0,0.0,,,ESPN scoreboard
+757378,2025-10-18T12:00:00Z,2025,Muangthong United,Bangkok United,0.0,0.0,,,ESPN scoreboard
+757379,2025-10-18T12:30:00Z,2025,BG Pathum United,Ayutthaya United,1.0,0.0,,,ESPN scoreboard
+757380,2025-10-19T11:00:00Z,2025,Rayong FC,PT Prachuap FC,1.0,1.0,,,ESPN scoreboard
+757381,2025-10-19T11:30:00Z,2025,Chonburi FC,Chiangrai United,1.0,1.0,,,ESPN scoreboard
+757382,2025-10-19T12:00:00Z,2025,Kanchanaburi Power FC,Uthai Thani FC,1.0,1.0,,,ESPN scoreboard
+757383,2025-10-24T12:00:00Z,2025,Port FC,Muangthong United,1.0,0.0,,,ESPN scoreboard
+757384,2025-10-25T11:00:00Z,2025,Ayutthaya United,Chonburi FC,1.0,2.0,,,ESPN scoreboard
+757385,2025-10-25T11:30:00Z,2025,Chiangrai United,Kanchanaburi Power FC,2.0,0.0,,,ESPN scoreboard
+757386,2025-10-25T12:00:00Z,2025,PT Prachuap FC,Nakhon Ratchasima FC,2.0,0.0,,,ESPN scoreboard
+757387,2025-10-26T11:00:00Z,2025,Buriram United,Rayong FC,2.0,1.0,,,ESPN scoreboard
+757388,2025-10-26T11:30:00Z,2025,Bangkok United,Lamphun Warriors,4.0,3.0,,,ESPN scoreboard
+757389,2025-10-26T11:30:00Z,2025,Sukhothai FC,BG Pathum United,3.0,1.0,,,ESPN scoreboard
+757390,2025-10-26T12:00:00Z,2025,Uthai Thani FC,Ratchaburi FC,2.0,3.0,,,ESPN scoreboard
+757392,2025-11-01T11:30:00Z,2025,Kanchanaburi Power FC,Ayutthaya United,1.0,2.0,,,ESPN scoreboard
+757393,2025-11-01T12:00:00Z,2025,Buriram United,Nakhon Ratchasima FC,2.0,1.0,,,ESPN scoreboard
+757394,2025-11-01T12:30:00Z,2025,Rayong FC,Sukhothai FC,2.0,0.0,,,ESPN scoreboard
+757395,2025-11-02T11:00:00Z,2025,Muangthong United,PT Prachuap FC,1.0,4.0,,,ESPN scoreboard
+757397,2025-11-02T11:30:00Z,2025,Bangkok United,Uthai Thani FC,1.0,2.0,,,ESPN scoreboard
+757396,2025-11-02T11:30:00Z,2025,Lamphun Warriors,Port FC,0.0,2.0,,,ESPN scoreboard
+757398,2025-11-02T12:00:00Z,2025,Chonburi FC,BG Pathum United,1.0,2.0,,,ESPN scoreboard
+757399,2025-11-07T12:00:00Z,2025,PT Prachuap FC,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+757400,2025-11-08T11:00:00Z,2025,Sukhothai FC,Kanchanaburi Power FC,1.0,1.0,,,ESPN scoreboard
+757401,2025-11-08T11:30:00Z,2025,Chiangrai United,Nakhon Ratchasima FC,2.0,0.0,,,ESPN scoreboard
+757402,2025-11-08T12:00:00Z,2025,Uthai Thani FC,Muangthong United,3.0,1.0,,,ESPN scoreboard
+757403,2025-11-09T11:00:00Z,2025,BG Pathum United,Rayong FC,1.0,1.0,,,ESPN scoreboard
+757404,2025-11-09T11:30:00Z,2025,Ayutthaya United,Ratchaburi FC,1.0,3.0,,,ESPN scoreboard
+757405,2025-11-09T11:30:00Z,2025,Chonburi FC,Buriram United,4.0,2.0,,,ESPN scoreboard
+757406,2025-11-09T12:00:00Z,2025,Port FC,Bangkok United,0.0,0.0,,,ESPN scoreboard
+757407,2025-11-22T11:00:00Z,2025,Port FC,Chiangrai United,1.0,1.0,,,ESPN scoreboard
+757408,2025-11-22T11:30:00Z,2025,Bangkok United,PT Prachuap FC,4.0,1.0,,,ESPN scoreboard
+757409,2025-11-22T12:00:00Z,2025,Muangthong United,Buriram United,0.0,5.0,,,ESPN scoreboard
+757410,2025-11-22T12:30:00Z,2025,Ratchaburi FC,BG Pathum United,0.0,0.0,,,ESPN scoreboard
+757411,2025-11-23T11:00:00Z,2025,Nakhon Ratchasima FC,Ayutthaya United,0.0,1.0,,,ESPN scoreboard
+757412,2025-11-23T11:30:00Z,2025,Kanchanaburi Power FC,Rayong FC,1.0,1.0,,,ESPN scoreboard
+757413,2025-11-23T11:30:00Z,2025,Sukhothai FC,Chonburi FC,2.0,1.0,,,ESPN scoreboard
+757414,2025-11-23T12:00:00Z,2025,Lamphun Warriors,Uthai Thani FC,2.0,2.0,,,ESPN scoreboard
+757415,2025-11-28T12:00:00Z,2025,PT Prachuap FC,Port FC,0.0,1.0,,,ESPN scoreboard
+757416,2025-11-29T11:00:00Z,2025,Uthai Thani FC,Nakhon Ratchasima FC,7.0,0.0,,,ESPN scoreboard
+757417,2025-11-29T11:30:00Z,2025,Ayutthaya United,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+757418,2025-11-29T12:00:00Z,2025,Rayong FC,Chonburi FC,1.0,0.0,,,ESPN scoreboard
+757419,2025-11-29T12:30:00Z,2025,Chiangrai United,Muangthong United,0.0,2.0,,,ESPN scoreboard
+757420,2025-11-30T11:00:00Z,2025,Sukhothai FC,Bangkok United,0.0,0.0,,,ESPN scoreboard
+757422,2025-11-30T12:00:00Z,2025,Buriram United,Ratchaburi FC,2.0,0.0,,,ESPN scoreboard
+757423,2025-12-05T12:00:00Z,2025,Ratchaburi FC,Sukhothai FC,1.0,0.0,,,ESPN scoreboard
+757424,2025-12-06T11:00:00Z,2025,Lamphun Warriors,Rayong FC,2.0,2.0,,,ESPN scoreboard
+757425,2025-12-06T11:30:00Z,2025,Buriram United,Kanchanaburi Power FC,3.0,1.0,,,ESPN scoreboard
+757426,2025-12-06T12:00:00Z,2025,Muangthong United,Chonburi FC,2.0,3.0,,,ESPN scoreboard
+757427,2025-12-06T12:30:00Z,2025,PT Prachuap FC,Ayutthaya United,4.0,4.0,,,ESPN scoreboard
+757428,2025-12-07T11:00:00Z,2025,Bangkok United,Chiangrai United,1.0,1.0,,,ESPN scoreboard
+757429,2025-12-07T11:30:00Z,2025,Nakhon Ratchasima FC,BG Pathum United,0.0,1.0,,,ESPN scoreboard
+757430,2025-12-07T12:00:00Z,2025,Port FC,Uthai Thani FC,3.0,1.0,,,ESPN scoreboard
+757431,2025-12-12T12:00:00Z,2025,Chonburi FC,Kanchanaburi Power FC,1.0,1.0,,,ESPN scoreboard
+757432,2025-12-13T11:00:00Z,2025,Sukhothai FC,Nakhon Ratchasima FC,2.0,1.0,,,ESPN scoreboard
+757435,2025-12-13T11:30:00Z,2025,Uthai Thani FC,PT Prachuap FC,4.0,0.0,,,ESPN scoreboard
+757437,2025-12-13T12:00:00Z,2025,Chiangrai United,Lamphun Warriors,1.0,1.0,,,ESPN scoreboard
+757433,2025-12-14T11:00:00Z,2025,Ayutthaya United,Bangkok United,3.0,1.0,,,ESPN scoreboard
+757434,2025-12-14T11:30:00Z,2025,Buriram United,Port FC,1.0,0.0,,,ESPN scoreboard
+757436,2025-12-14T12:00:00Z,2025,BG Pathum United,Muangthong United,3.0,0.0,,,ESPN scoreboard
+757438,2025-12-16T12:00:00Z,2025,Rayong FC,Ratchaburi FC,2.0,4.0,,,ESPN scoreboard
+757391,2025-12-24T11:00:00Z,2025,Ratchaburi FC,Chiangrai United,1.0,2.0,,,ESPN scoreboard
+759237,2025-12-24T11:00:00Z,2025,Sukhothai FC,Buriram United,0.0,1.0,,,ESPN scoreboard
+757421,2025-12-24T12:00:00Z,2025,BG Pathum United,Kanchanaburi Power FC,2.0,1.0,,,ESPN scoreboard

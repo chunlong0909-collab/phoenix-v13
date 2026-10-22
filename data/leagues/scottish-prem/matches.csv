@@ -1,966 +1,685 @@
-﻿date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
-2018-08-04,1819,Hamilton,Hearts,1,4,3,6,football-data.co.uk
-2018-09-01,1819,Hamilton,St Johnstone,1,2,4,2,football-data.co.uk
-2018-09-22,1819,Hamilton,St Mirren,3,0,4,3,football-data.co.uk
-2018-09-29,1819,Hamilton,Dundee,0,2,4,5,football-data.co.uk
-2018-10-21,1819,Hamilton,Rangers,1,4,1,5,football-data.co.uk
-2018-11-03,1819,Hamilton,Livingston,1,0,1,4,football-data.co.uk
-2018-11-24,1819,Hamilton,Celtic,0,3,3,6,football-data.co.uk
-2018-12-08,1819,Hamilton,Hibernian,0,1,1,6,football-data.co.uk
-2018-12-22,1819,Hamilton,Kilmarnock,1,1,3,6,football-data.co.uk
-2018-12-29,1819,Hamilton,Motherwell,1,2,1,8,football-data.co.uk
-2019-01-23,1819,Hamilton,Aberdeen,0,3,4,2,football-data.co.uk
-2019-02-02,1819,Hamilton,Dundee,1,1,6,7,football-data.co.uk
-2019-02-06,1819,Hamilton,St Johnstone,2,1,4,4,football-data.co.uk
-2019-02-24,1819,Hamilton,Rangers,0,5,1,8,football-data.co.uk
-2019-03-16,1819,Hamilton,Hearts,1,0,3,5,football-data.co.uk
-2019-04-06,1819,Hamilton,St Mirren,1,1,7,5,football-data.co.uk
-2019-04-20,1819,Hamilton,Motherwell,1,1,2,5,football-data.co.uk
-2019-04-27,1819,Hamilton,Livingston,3,3,9,4,football-data.co.uk
-2019-05-18,1819,Hamilton,St Johnstone,2,0,7,3,football-data.co.uk
-2019-08-10,1920,Hamilton,Kilmarnock,2,0,1,17,football-data.co.uk
-2019-08-24,1920,Hamilton,Motherwell,1,3,2,11,football-data.co.uk
-2019-09-14,1920,Hamilton,Celtic,0,1,1,4,football-data.co.uk
-2019-09-28,1920,Hamilton,Livingston,2,1,4,7,football-data.co.uk
-2019-10-19,1920,Hamilton,Hibernian,1,1,6,8,football-data.co.uk
-2019-10-30,1920,Hamilton,Aberdeen,0,1,3,11,football-data.co.uk
-2019-11-02,1920,Hamilton,Ross County,2,2,8,6,football-data.co.uk
-2019-11-24,1920,Hamilton,Rangers,1,3,4,9,football-data.co.uk
-2019-12-07,1920,Hamilton,St Mirren,0,1,10,6,football-data.co.uk
-2019-12-21,1920,Hamilton,Hearts,2,1,1,11,football-data.co.uk
-2019-12-26,1920,Hamilton,St Johnstone,0,1,2,4,football-data.co.uk
-2020-01-25,1920,Hamilton,Livingston,2,4,3,3,football-data.co.uk
-2020-02-02,1920,Hamilton,Celtic,1,4,2,15,football-data.co.uk
-2020-02-11,1920,Hamilton,Aberdeen,1,3,4,8,football-data.co.uk
-2020-02-22,1920,Hamilton,Motherwell,0,0,5,5,football-data.co.uk
-2020-03-07,1920,Hamilton,Kilmarnock,1,0,6,9,football-data.co.uk
-2020-08-08,2021,Hamilton,Ross County,0,1,9,1,football-data.co.uk
-2020-08-15,2021,Hamilton,St Mirren,0,1,2,9,football-data.co.uk
-2020-08-29,2021,Hamilton,Rangers,0,2,6,3,football-data.co.uk
-2020-09-26,2021,Hamilton,Dundee United,1,1,7,5,football-data.co.uk
-2020-10-17,2021,Hamilton,St Johnstone,3,5,3,7,football-data.co.uk
-2020-11-25,2021,Hamilton,Aberdeen,1,1,1,7,football-data.co.uk
-2020-12-05,2021,Hamilton,Kilmarnock,1,0,3,2,football-data.co.uk
-2020-12-12,2021,Hamilton,Hibernian,0,4,1,6,football-data.co.uk
-2020-12-23,2021,Hamilton,Livingston,0,2,3,7,football-data.co.uk
-2020-12-26,2021,Hamilton,Celtic,0,3,3,7,football-data.co.uk
-2021-01-02,2021,Hamilton,Motherwell,3,0,3,2,football-data.co.uk
-2021-01-16,2021,Hamilton,Dundee United,0,0,9,6,football-data.co.uk
-2021-02-03,2021,Hamilton,Ross County,1,2,4,7,football-data.co.uk
-2021-02-07,2021,Hamilton,Rangers,1,1,5,4,football-data.co.uk
-2021-03-03,2021,Hamilton,St Johnstone,1,1,8,8,football-data.co.uk
-2021-03-20,2021,Hamilton,St Mirren,1,1,5,8,football-data.co.uk
-2021-04-10,2021,Hamilton,Dundee United,0,1,10,3,football-data.co.uk
-2021-04-21,2021,Hamilton,Motherwell,0,1,4,6,football-data.co.uk
-2021-05-16,2021,Hamilton,Kilmarnock,0,2,6,4,football-data.co.uk
-2022-04-02,2122,Dundee,Aberdeen,2,2,2,7,football-data.co.uk
-2022-04-02,2122,St Johnstone,Livingston,1,0,1,6,football-data.co.uk
-2022-04-09,2122,Livingston,Motherwell,2,2,6,6,football-data.co.uk
-2022-04-23,2122,Dundee,St Johnstone,1,1,4,7,football-data.co.uk
-2022-04-24,2122,Ross County,Celtic,0,2,2,11,football-data.co.uk
-2022-04-24,2122,Dundee United,Hearts,2,3,5,9,football-data.co.uk
-2022-04-30,2122,St Johnstone,St Mirren,0,1,6,5,football-data.co.uk
-2022-04-30,2122,Livingston,Hibernian,1,0,5,9,football-data.co.uk
-2022-04-30,2122,Dundee United,Motherwell,1,0,8,4,football-data.co.uk
-2022-05-07,2122,Ross County,Motherwell,0,1,13,5,football-data.co.uk
-2022-05-07,2122,Livingston,St Johnstone,1,1,3,2,football-data.co.uk
-2022-05-10,2122,Dundee,Hibernian,3,1,4,6,football-data.co.uk
-2022-05-11,2122,Dundee United,Celtic,1,1,1,10,football-data.co.uk
-2022-05-11,2122,St Johnstone,Aberdeen,1,0,6,3,football-data.co.uk
-2022-05-14,2122,Ross County,Dundee United,1,2,2,5,football-data.co.uk
-2022-05-15,2122,Livingston,Dundee,2,1,10,8,football-data.co.uk
-2022-07-30,2223,St Johnstone,Hibernian,0,1,3,9,football-data.co.uk
-2022-07-30,2223,Livingston,Rangers,1,2,0,8,football-data.co.uk
-2022-08-06,2223,Ross County,Celtic,1,3,3,12,football-data.co.uk
-2022-08-07,2223,Dundee United,Livingston,0,1,9,4,football-data.co.uk
-2022-08-13,2223,Livingston,Hibernian,2,1,3,14,football-data.co.uk
-2022-08-20,2223,St Johnstone,Aberdeen,0,1,5,5,football-data.co.uk
-2022-08-20,2223,Dundee United,St Mirren,0,3,6,7,football-data.co.uk
-2022-08-20,2223,Ross County,Kilmarnock,1,0,1,7,football-data.co.uk
-2022-08-28,2223,Dundee United,Celtic,0,9,2,11,football-data.co.uk
-2022-09-03,2223,St Johnstone,St Mirren,3,0,1,9,football-data.co.uk
-2022-09-03,2223,Livingston,Hearts,1,0,3,3,football-data.co.uk
-2022-09-03,2223,Ross County,Aberdeen,1,1,3,13,football-data.co.uk
-2022-09-17,2223,Livingston,Kilmarnock,1,0,5,4,football-data.co.uk
-2022-09-17,2223,St Johnstone,Ross County,0,0,5,3,football-data.co.uk
-2022-10-01,2223,Ross County,Hibernian,0,2,6,11,football-data.co.uk
-2022-10-01,2223,Dundee United,St Johnstone,1,2,9,0,football-data.co.uk
-2022-10-04,2223,Ross County,Motherwell,0,5,4,3,football-data.co.uk
-2022-10-08,2223,St Johnstone,Celtic,1,2,2,8,football-data.co.uk
-2022-10-08,2223,Livingston,Ross County,0,1,9,2,football-data.co.uk
-2022-10-08,2223,Dundee United,Aberdeen,4,0,5,1,football-data.co.uk
-2022-10-11,2223,Dundee United,Hibernian,1,0,5,10,football-data.co.uk
-2022-10-15,2223,Livingston,St Johnstone,1,0,8,2,football-data.co.uk
-2022-10-15,2223,Ross County,Dundee United,1,1,4,10,football-data.co.uk
-2022-10-29,2223,St Johnstone,Kilmarnock,1,0,3,6,football-data.co.uk
-2022-10-29,2223,Dundee United,Motherwell,0,1,10,5,football-data.co.uk
-2022-10-30,2223,Livingston,Celtic,0,3,0,4,football-data.co.uk
-2022-10-30,2223,Ross County,Hearts,1,2,6,1,football-data.co.uk
-2022-11-05,2223,Ross County,St Mirren,3,2,7,5,football-data.co.uk
-2022-11-06,2223,St Johnstone,Rangers,2,1,0,20,football-data.co.uk
-2022-11-08,2223,Livingston,Aberdeen,2,1,7,8,football-data.co.uk
-2022-11-09,2223,Dundee United,Kilmarnock,4,0,3,4,football-data.co.uk
-2022-11-12,2223,St Johnstone,Motherwell,1,1,8,4,football-data.co.uk
-2022-12-17,2223,Ross County,St Johnstone,1,2,0,6,football-data.co.uk
-2022-12-23,2223,Ross County,Rangers,0,1,0,4,football-data.co.uk
-2022-12-24,2223,Dundee United,Hearts,2,2,6,9,football-data.co.uk
-2022-12-28,2223,Dundee United,Ross County,3,0,3,2,football-data.co.uk
-2022-12-28,2223,Livingston,St Mirren,1,1,4,5,football-data.co.uk
-2022-12-28,2223,St Johnstone,Hearts,2,3,4,11,football-data.co.uk
-2023-01-02,2223,Livingston,Motherwell,1,1,5,4,football-data.co.uk
-2023-01-02,2223,St Johnstone,Dundee United,0,1,3,2,football-data.co.uk
-2023-01-07,2223,Ross County,Livingston,0,2,4,4,football-data.co.uk
-2023-01-08,2223,Dundee United,Rangers,0,2,1,7,football-data.co.uk
-2023-01-14,2223,St Johnstone,Livingston,2,4,5,3,football-data.co.uk
-2023-01-28,2223,Ross County,Kilmarnock,3,0,0,5,football-data.co.uk
-2023-01-29,2223,Livingston,Hearts,0,0,1,5,football-data.co.uk
-2023-01-29,2223,Dundee United,Celtic,0,2,1,3,football-data.co.uk
-2023-01-31,2223,Ross County,Hibernian,1,1,3,3,football-data.co.uk
-2023-02-04,2223,Livingston,Kilmarnock,3,1,5,5,football-data.co.uk
-2023-02-05,2223,St Johnstone,Celtic,1,4,3,4,football-data.co.uk
-2023-02-18,2223,Dundee United,St Johnstone,1,2,11,6,football-data.co.uk
-2023-02-18,2223,Livingston,Rangers,0,3,2,9,football-data.co.uk
-2023-02-25,2223,Ross County,Dundee United,4,0,3,2,football-data.co.uk
-2023-02-25,2223,St Johnstone,St Mirren,1,1,5,2,football-data.co.uk
-2023-03-04,2223,Ross County,Motherwell,0,2,9,4,football-data.co.uk
-2023-03-04,2223,Dundee United,Aberdeen,1,3,10,5,football-data.co.uk
-2023-03-04,2223,Livingston,Hibernian,1,4,4,3,football-data.co.uk
-2023-03-08,2223,Livingston,Dundee United,1,1,4,6,football-data.co.uk
-2023-03-18,2223,Dundee United,St Mirren,1,1,1,4,football-data.co.uk
-2023-03-18,2223,Livingston,Ross County,2,1,8,6,football-data.co.uk
-2023-04-01,2223,St Johnstone,Aberdeen,0,1,7,7,football-data.co.uk
-2023-04-02,2223,Ross County,Celtic,0,2,2,9,football-data.co.uk
-2023-04-08,2223,St Johnstone,Ross County,0,2,7,5,football-data.co.uk
-2023-04-09,2223,Dundee United,Hibernian,2,1,0,4,football-data.co.uk
-2023-04-14,2223,Ross County,Aberdeen,0,1,10,2,football-data.co.uk
-2023-04-15,2223,Livingston,St Johnstone,2,0,2,3,football-data.co.uk
-2023-04-15,2223,Motherwell,Dundee United,1,2,6,6,football-data.co.uk
-2023-04-22,2223,St Johnstone,Hibernian,1,1,8,1,football-data.co.uk
-2023-04-22,2223,Dundee United,Livingston,2,0,6,3,football-data.co.uk
-2023-04-22,2223,Celtic,Motherwell,1,1,13,3,football-data.co.uk
-2023-04-23,2223,Aberdeen,Rangers,2,0,3,7,football-data.co.uk
-2023-05-06,2223,Hibernian,St Mirren,2,1,3,5,football-data.co.uk
-2023-05-06,2223,Ross County,Livingston,2,0,5,3,football-data.co.uk
-2023-05-06,2223,St Johnstone,Dundee United,1,0,9,2,football-data.co.uk
-2023-05-06,2223,Motherwell,Kilmarnock,2,0,8,1,football-data.co.uk
-2023-05-07,2223,Rangers,Aberdeen,1,0,12,6,football-data.co.uk
-2023-05-07,2223,Hearts,Celtic,0,2,6,5,football-data.co.uk
-2023-05-13,2223,Aberdeen,Hibernian,0,0,3,8,football-data.co.uk
-2023-05-13,2223,Dundee United,Ross County,1,3,6,5,football-data.co.uk
-2023-05-13,2223,Kilmarnock,Livingston,2,0,2,5,football-data.co.uk
-2023-05-13,2223,St Johnstone,Motherwell,0,2,6,4,football-data.co.uk
-2023-05-13,2223,St Mirren,Hearts,2,2,7,4,football-data.co.uk
-2023-05-13,2223,Rangers,Celtic,3,0,5,5,football-data.co.uk
-2023-05-20,2223,Motherwell,Ross County,1,0,4,4,football-data.co.uk
-2023-05-20,2223,Livingston,Dundee United,2,1,1,12,football-data.co.uk
-2023-05-20,2223,Kilmarnock,St Johnstone,0,1,3,8,football-data.co.uk
-2023-05-20,2223,Celtic,St Mirren,2,2,14,2,football-data.co.uk
-2023-05-20,2223,Hearts,Aberdeen,2,1,5,2,football-data.co.uk
-2023-05-21,2223,Hibernian,Rangers,1,3,7,5,football-data.co.uk
-2023-05-24,2223,Livingston,Motherwell,1,1,1,11,football-data.co.uk
-2023-05-24,2223,Hibernian,Celtic,4,2,8,10,football-data.co.uk
-2023-05-24,2223,Dundee United,Kilmarnock,0,3,3,5,football-data.co.uk
-2023-05-24,2223,Aberdeen,St Mirren,3,0,2,2,football-data.co.uk
-2023-05-24,2223,Ross County,St Johnstone,3,3,6,4,football-data.co.uk
-2023-05-24,2223,Rangers,Hearts,2,2,9,2,football-data.co.uk
-2023-05-27,2223,Celtic,Aberdeen,5,0,10,2,football-data.co.uk
-2023-05-27,2223,Hearts,Hibernian,1,1,4,9,football-data.co.uk
-2023-05-27,2223,St Mirren,Rangers,0,3,5,3,football-data.co.uk
-2023-05-28,2223,St Johnstone,Livingston,2,0,4,2,football-data.co.uk
-2023-05-28,2223,Motherwell,Dundee United,3,2,9,0,football-data.co.uk
-2023-05-28,2223,Kilmarnock,Ross County,3,1,5,3,football-data.co.uk
-2023-08-05,2324,Celtic,Ross County,4,2,4,8,football-data.co.uk
-2023-08-05,2324,Dundee,Motherwell,1,1,7,12,football-data.co.uk
-2023-08-05,2324,Livingston,Aberdeen,0,0,7,7,football-data.co.uk
-2023-08-05,2324,St Johnstone,Hearts,0,2,6,9,football-data.co.uk
-2023-08-05,2324,Kilmarnock,Rangers,1,0,2,8,football-data.co.uk
-2023-08-06,2324,Hibernian,St Mirren,2,3,2,7,football-data.co.uk
-2023-08-12,2324,Ross County,St Johnstone,2,0,6,7,football-data.co.uk
-2023-08-12,2324,St Mirren,Dundee,2,1,4,3,football-data.co.uk
-2023-08-12,2324,Rangers,Livingston,4,0,5,4,football-data.co.uk
-2023-08-13,2324,Aberdeen,Celtic,1,3,9,9,football-data.co.uk
-2023-08-13,2324,Hearts,Kilmarnock,0,0,6,5,football-data.co.uk
-2023-08-13,2324,Motherwell,Hibernian,2,1,5,2,football-data.co.uk
-2023-08-26,2324,Ross County,Rangers,0,2,4,8,football-data.co.uk
-2023-08-26,2324,Celtic,St Johnstone,0,0,19,1,football-data.co.uk
-2023-08-26,2324,Hibernian,Livingston,2,3,9,3,football-data.co.uk
-2023-08-26,2324,Motherwell,Kilmarnock,2,1,1,6,football-data.co.uk
-2023-08-27,2324,St Mirren,Aberdeen,2,2,4,3,football-data.co.uk
-2023-08-27,2324,Dundee,Hearts,1,0,3,8,football-data.co.uk
-2023-09-02,2324,St Johnstone,Dundee,2,2,4,6,football-data.co.uk
-2023-09-02,2324,Livingston,St Mirren,1,1,6,2,football-data.co.uk
-2023-09-02,2324,Kilmarnock,Ross County,0,1,14,2,football-data.co.uk
-2023-09-03,2324,Rangers,Celtic,0,1,6,2,football-data.co.uk
-2023-09-03,2324,Aberdeen,Hibernian,0,2,7,5,football-data.co.uk
-2023-09-03,2324,Hearts,Motherwell,0,1,16,5,football-data.co.uk
-2023-09-16,2324,Ross County,Livingston,1,1,6,2,football-data.co.uk
-2023-09-16,2324,Kilmarnock,Hibernian,2,2,4,4,football-data.co.uk
-2023-09-16,2324,Motherwell,St Mirren,0,1,8,3,football-data.co.uk
-2023-09-16,2324,Celtic,Dundee,3,0,9,1,football-data.co.uk
-2023-09-16,2324,St Johnstone,Rangers,0,2,3,5,football-data.co.uk
-2023-09-16,2324,Hearts,Aberdeen,2,0,9,3,football-data.co.uk
-2023-09-23,2324,Livingston,Celtic,0,3,2,4,football-data.co.uk
-2023-09-23,2324,Dundee,Kilmarnock,2,2,4,7,football-data.co.uk
-2023-09-23,2324,Hibernian,St Johnstone,2,0,4,4,football-data.co.uk
-2023-09-23,2324,St Mirren,Hearts,1,0,4,8,football-data.co.uk
-2023-09-24,2324,Aberdeen,Ross County,4,0,5,5,football-data.co.uk
-2023-09-24,2324,Rangers,Motherwell,1,0,2,2,football-data.co.uk
-2023-09-30,2324,Ross County,Hearts,0,1,5,5,football-data.co.uk
-2023-09-30,2324,Rangers,Aberdeen,1,3,5,8,football-data.co.uk
-2023-09-30,2324,St Johnstone,Livingston,1,1,5,2,football-data.co.uk
-2023-09-30,2324,Hibernian,Dundee,0,0,14,1,football-data.co.uk
-2023-09-30,2324,Motherwell,Celtic,1,2,4,6,football-data.co.uk
-2023-09-30,2324,Kilmarnock,St Mirren,1,1,7,6,football-data.co.uk
-2023-10-07,2324,Celtic,Kilmarnock,3,1,11,1,football-data.co.uk
-2023-10-07,2324,Hearts,Hibernian,2,2,7,4,football-data.co.uk
-2023-10-07,2324,Livingston,Motherwell,2,0,3,5,football-data.co.uk
-2023-10-08,2324,St Mirren,Rangers,0,3,3,10,football-data.co.uk
-2023-10-08,2324,Aberdeen,St Johnstone,0,0,5,3,football-data.co.uk
-2023-10-21,2324,Kilmarnock,Livingston,3,1,5,4,football-data.co.uk
-2023-10-21,2324,Rangers,Hibernian,4,0,5,4,football-data.co.uk
-2023-10-22,2324,Hearts,Celtic,1,4,3,5,football-data.co.uk
-2023-10-24,2324,Dundee,Ross County,0,0,7,4,football-data.co.uk
-2023-10-28,2324,St Mirren,St Johnstone,4,0,4,8,football-data.co.uk
-2023-10-28,2324,Motherwell,Ross County,3,3,6,4,football-data.co.uk
-2023-10-28,2324,Hibernian,Celtic,0,0,3,6,football-data.co.uk
-2023-10-28,2324,Livingston,Dundee,0,2,1,5,football-data.co.uk
-2023-10-29,2324,Kilmarnock,Aberdeen,2,0,9,3,football-data.co.uk
-2023-10-29,2324,Rangers,Hearts,2,1,11,2,football-data.co.uk
-2023-10-31,2324,Hibernian,Ross County,2,2,5,5,football-data.co.uk
-2023-11-01,2324,St Johnstone,Kilmarnock,2,1,5,12,football-data.co.uk
-2023-11-01,2324,Celtic,St Mirren,2,1,12,2,football-data.co.uk
-2023-11-01,2324,Dundee,Rangers,0,5,6,7,football-data.co.uk
-2023-11-01,2324,Hearts,Livingston,1,0,12,1,football-data.co.uk
-2023-11-01,2324,Motherwell,Aberdeen,2,4,1,4,football-data.co.uk
-2023-11-04,2324,Ross County,Celtic,0,3,2,13,football-data.co.uk
-2023-11-04,2324,Kilmarnock,Motherwell,1,0,9,3,football-data.co.uk
-2023-11-05,2324,Dundee,Livingston,1,0,5,12,football-data.co.uk
-2023-11-07,2324,St Johnstone,Motherwell,2,2,6,7,football-data.co.uk
-2023-11-08,2324,St Mirren,Hibernian,2,2,3,1,football-data.co.uk
-2023-11-11,2324,Dundee,St Mirren,4,0,7,4,football-data.co.uk
-2023-11-11,2324,Hibernian,Kilmarnock,1,0,5,10,football-data.co.uk
-2023-11-11,2324,Motherwell,Hearts,1,2,4,10,football-data.co.uk
-2023-11-11,2324,St Johnstone,Ross County,1,0,3,4,football-data.co.uk
-2023-11-12,2324,Livingston,Rangers,0,2,3,9,football-data.co.uk
-2023-11-12,2324,Celtic,Aberdeen,6,0,11,0,football-data.co.uk
-2023-11-25,2324,St Mirren,Livingston,1,0,7,3,football-data.co.uk
-2023-11-25,2324,Ross County,Kilmarnock,0,0,9,5,football-data.co.uk
-2023-11-25,2324,Hearts,St Johnstone,1,0,6,5,football-data.co.uk
-2023-11-25,2324,Dundee,Hibernian,1,2,7,3,football-data.co.uk
-2023-11-25,2324,Celtic,Motherwell,1,1,13,2,football-data.co.uk
-2023-11-26,2324,Aberdeen,Rangers,1,1,0,5,football-data.co.uk
-2023-11-28,2324,Ross County,St Mirren,1,0,7,5,football-data.co.uk
-2023-12-02,2324,Kilmarnock,Hearts,0,1,7,3,football-data.co.uk
-2023-12-02,2324,Motherwell,Dundee,3,3,4,4,football-data.co.uk
-2023-12-03,2324,St Johnstone,Celtic,1,3,2,12,football-data.co.uk
-2023-12-03,2324,Hibernian,Aberdeen,2,0,6,6,football-data.co.uk
-2023-12-03,2324,Rangers,St Mirren,2,0,8,5,football-data.co.uk
-2023-12-05,2324,Ross County,Motherwell,3,0,6,3,football-data.co.uk
-2023-12-06,2324,Hearts,Rangers,0,1,6,5,football-data.co.uk
-2023-12-06,2324,St Johnstone,St Mirren,1,0,0,7,football-data.co.uk
-2023-12-06,2324,Celtic,Hibernian,4,1,11,4,football-data.co.uk
-2023-12-06,2324,Aberdeen,Kilmarnock,0,1,4,5,football-data.co.uk
-2023-12-09,2324,St Mirren,Ross County,2,0,10,4,football-data.co.uk
-2023-12-09,2324,Rangers,Dundee,3,1,5,7,football-data.co.uk
-2023-12-09,2324,Aberdeen,Hearts,2,1,3,8,football-data.co.uk
-2023-12-09,2324,Livingston,Hibernian,0,1,6,0,football-data.co.uk
-2023-12-09,2324,Motherwell,St Johnstone,1,1,3,2,football-data.co.uk
-2023-12-10,2324,Kilmarnock,Celtic,2,1,5,9,football-data.co.uk
-2023-12-16,2324,Celtic,Hearts,0,2,18,3,football-data.co.uk
-2023-12-16,2324,Livingston,Kilmarnock,0,0,0,8,football-data.co.uk
-2023-12-16,2324,Ross County,Dundee,0,1,2,9,football-data.co.uk
-2023-12-16,2324,St Johnstone,Hibernian,1,0,5,5,football-data.co.uk
-2023-12-16,2324,St Mirren,Motherwell,0,0,6,4,football-data.co.uk
-2023-12-20,2324,Aberdeen,Livingston,2,1,1,3,football-data.co.uk
-2023-12-20,2324,Rangers,St Johnstone,2,0,10,2,football-data.co.uk
-2023-12-23,2324,Hearts,St Mirren,2,0,8,6,football-data.co.uk
-2023-12-23,2324,Kilmarnock,St Johnstone,2,1,5,1,football-data.co.uk
-2023-12-23,2324,Celtic,Livingston,2,0,14,0,football-data.co.uk
-2023-12-24,2324,Motherwell,Rangers,0,2,3,5,football-data.co.uk
-2023-12-26,2324,Dundee,Celtic,0,3,1,23,football-data.co.uk
-2023-12-27,2324,Livingston,St Johnstone,0,0,6,3,football-data.co.uk
-2023-12-27,2324,St Mirren,Kilmarnock,0,1,4,4,football-data.co.uk
-2023-12-27,2324,Hibernian,Hearts,0,1,6,5,football-data.co.uk
-2023-12-30,2324,Celtic,Rangers,2,1,4,2,football-data.co.uk
-2023-12-30,2324,Aberdeen,St Mirren,0,3,13,2,football-data.co.uk
-2023-12-30,2324,Kilmarnock,Dundee,2,2,7,8,football-data.co.uk
-2023-12-30,2324,Motherwell,Livingston,3,1,4,3,football-data.co.uk
-2023-12-30,2324,Hearts,Ross County,2,2,9,5,football-data.co.uk
-2024-01-02,2324,Hibernian,Motherwell,2,2,7,3,football-data.co.uk
-2024-01-02,2324,Livingston,Hearts,1,2,2,3,football-data.co.uk
-2024-01-02,2324,Rangers,Kilmarnock,3,1,7,5,football-data.co.uk
-2024-01-02,2324,Ross County,Aberdeen,0,3,4,5,football-data.co.uk
-2024-01-02,2324,St Mirren,Celtic,0,3,1,12,football-data.co.uk
-2024-01-23,2324,Hearts,Dundee,3,2,7,1,football-data.co.uk
-2024-01-24,2324,Hibernian,Rangers,0,3,4,10,football-data.co.uk
-2024-01-24,2324,St Johnstone,Aberdeen,1,1,1,4,football-data.co.uk
-2024-01-27,2324,St Johnstone,Motherwell,1,1,0,6,football-data.co.uk
-2024-01-27,2324,Livingston,Dundee,1,4,5,3,football-data.co.uk
-2024-01-27,2324,St Mirren,Rangers,0,1,4,3,football-data.co.uk
-2024-01-27,2324,Hearts,Aberdeen,2,0,7,7,football-data.co.uk
-2024-01-27,2324,Celtic,Ross County,1,0,7,7,football-data.co.uk
-2024-01-27,2324,Kilmarnock,Hibernian,2,2,7,3,football-data.co.uk
-2024-01-30,2324,Aberdeen,Dundee,1,1,0,3,football-data.co.uk
-2024-01-30,2324,Livingston,Ross County,2,2,5,3,football-data.co.uk
-2024-02-03,2324,Rangers,Livingston,3,0,14,0,football-data.co.uk
-2024-02-03,2324,Motherwell,Kilmarnock,1,1,6,5,football-data.co.uk
-2024-02-03,2324,Ross County,St Johnstone,0,1,8,4,football-data.co.uk
-2024-02-03,2324,Hibernian,St Mirren,0,3,6,7,football-data.co.uk
-2024-02-03,2324,Dundee,Hearts,2,3,8,5,football-data.co.uk
-2024-02-03,2324,Aberdeen,Celtic,1,1,1,12,football-data.co.uk
-2024-02-06,2324,Motherwell,Ross County,5,0,3,6,football-data.co.uk
-2024-02-06,2324,Rangers,Aberdeen,2,1,13,2,football-data.co.uk
-2024-02-07,2324,Kilmarnock,Livingston,1,0,9,2,football-data.co.uk
-2024-02-07,2324,St Johnstone,Hearts,0,1,2,4,football-data.co.uk
-2024-02-07,2324,St Mirren,Dundee,2,0,6,5,football-data.co.uk
-2024-02-07,2324,Hibernian,Celtic,1,2,4,5,football-data.co.uk
-2024-02-11,2324,Dundee,St Johnstone,2,1,13,7,football-data.co.uk
-2024-02-14,2324,Aberdeen,Motherwell,3,3,7,3,football-data.co.uk
-2024-02-14,2324,Rangers,Ross County,3,1,20,3,football-data.co.uk
-2024-02-17,2324,Livingston,St Mirren,1,0,4,9,football-data.co.uk
-2024-02-17,2324,Hearts,Motherwell,2,0,9,7,football-data.co.uk
-2024-02-17,2324,Celtic,Kilmarnock,1,1,8,4,football-data.co.uk
-2024-02-17,2324,Aberdeen,Hibernian,2,2,4,2,football-data.co.uk
-2024-02-17,2324,Dundee,Ross County,2,0,6,2,football-data.co.uk
-2024-02-18,2324,St Johnstone,Rangers,0,3,3,1,football-data.co.uk
-2024-02-24,2324,Hibernian,Dundee,2,1,10,2,football-data.co.uk
-2024-02-24,2324,Kilmarnock,Aberdeen,2,0,5,3,football-data.co.uk
-2024-02-24,2324,Rangers,Hearts,5,0,4,2,football-data.co.uk
-2024-02-24,2324,Ross County,Livingston,3,2,6,4,football-data.co.uk
-2024-02-24,2324,St Mirren,St Johnstone,2,0,5,6,football-data.co.uk
-2024-02-25,2324,Motherwell,Celtic,1,3,4,4,football-data.co.uk
-2024-02-27,2324,Ross County,St Mirren,1,1,3,4,football-data.co.uk
-2024-02-28,2324,Livingston,Motherwell,1,3,1,4,football-data.co.uk
-2024-02-28,2324,Kilmarnock,Rangers,1,2,8,6,football-data.co.uk
-2024-02-28,2324,Aberdeen,St Johnstone,0,2,11,7,football-data.co.uk
-2024-02-28,2324,Hearts,Hibernian,1,1,4,9,football-data.co.uk
-2024-02-28,2324,Celtic,Dundee,7,1,5,5,football-data.co.uk
-2024-03-02,2324,Dundee,Kilmarnock,2,2,4,6,football-data.co.uk
-2024-03-02,2324,Hibernian,Ross County,2,0,8,2,football-data.co.uk
-2024-03-02,2324,Rangers,Motherwell,1,2,15,2,football-data.co.uk
-2024-03-02,2324,St Johnstone,Livingston,1,1,2,2,football-data.co.uk
-2024-03-02,2324,St Mirren,Aberdeen,2,1,3,2,football-data.co.uk
-2024-03-03,2324,Hearts,Celtic,2,0,7,7,football-data.co.uk
-2024-03-13,2324,Ross County,Hibernian,2,2,2,6,football-data.co.uk
-2024-03-13,2324,Dundee,Aberdeen,1,0,6,4,football-data.co.uk
-2024-03-16,2324,Celtic,St Johnstone,3,1,10,2,football-data.co.uk
-2024-03-16,2324,Hibernian,Livingston,3,0,3,2,football-data.co.uk
-2024-03-16,2324,Kilmarnock,St Mirren,5,2,1,3,football-data.co.uk
-2024-03-16,2324,Motherwell,Aberdeen,0,1,6,6,football-data.co.uk
-2024-03-16,2324,Ross County,Hearts,2,1,2,15,football-data.co.uk
-2024-03-30,2324,Rangers,Hibernian,3,1,9,4,football-data.co.uk
-2024-03-30,2324,Aberdeen,Ross County,2,1,2,8,football-data.co.uk
-2024-03-30,2324,Hearts,Kilmarnock,1,1,7,7,football-data.co.uk
-2024-03-30,2324,Motherwell,St Mirren,1,1,4,4,football-data.co.uk
-2024-03-30,2324,St Johnstone,Dundee,1,2,11,2,football-data.co.uk
-2024-03-31,2324,Livingston,Celtic,0,3,0,8,football-data.co.uk
-2024-04-06,2324,Dundee,Motherwell,2,3,3,11,football-data.co.uk
-2024-04-06,2324,Hibernian,St Johnstone,1,2,13,3,football-data.co.uk
-2024-04-06,2324,Kilmarnock,Ross County,1,0,4,3,football-data.co.uk
-2024-04-06,2324,Livingston,Aberdeen,0,0,2,5,football-data.co.uk
-2024-04-06,2324,St Mirren,Hearts,1,2,8,7,football-data.co.uk
-2024-04-07,2324,Rangers,Celtic,3,3,3,2,football-data.co.uk
-2024-04-13,2324,St Johnstone,Kilmarnock,0,2,2,6,football-data.co.uk
-2024-04-13,2324,Hearts,Livingston,4,2,5,5,football-data.co.uk
-2024-04-13,2324,Motherwell,Hibernian,1,1,4,6,football-data.co.uk
-2024-04-13,2324,Aberdeen,Dundee,0,0,3,5,football-data.co.uk
-2024-04-13,2324,Celtic,St Mirren,3,0,11,1,football-data.co.uk
-2024-04-14,2324,Ross County,Rangers,3,2,3,17,football-data.co.uk
-2024-04-17,2324,Dundee,Rangers,0,0,2,9,football-data.co.uk
-2024-04-27,2324,Aberdeen,Motherwell,1,0,10,7,football-data.co.uk
-2024-04-27,2324,Kilmarnock,Hearts,0,0,8,4,football-data.co.uk
-2024-04-27,2324,Livingston,Ross County,2,0,4,5,football-data.co.uk
-2024-04-27,2324,St Johnstone,Hibernian,1,3,1,7,football-data.co.uk
-2024-04-28,2324,St Mirren,Rangers,1,2,4,8,football-data.co.uk
-2024-04-28,2324,Dundee,Celtic,1,2,8,8,football-data.co.uk
-2024-05-04,2324,Ross County,Hibernian,2,1,5,7,football-data.co.uk
-2024-05-04,2324,Dundee,St Mirren,1,3,4,8,football-data.co.uk
-2024-05-04,2324,Motherwell,Livingston,4,1,6,2,football-data.co.uk
-2024-05-04,2324,Aberdeen,St Johnstone,1,0,7,4,football-data.co.uk
-2024-05-04,2324,Celtic,Hearts,3,0,17,8,football-data.co.uk
-2024-05-05,2324,Rangers,Kilmarnock,4,1,16,1,football-data.co.uk
-2024-05-11,2324,Celtic,Rangers,2,1,10,5,football-data.co.uk
-2024-05-11,2324,Hearts,Dundee,3,0,2,5,football-data.co.uk
-2024-05-11,2324,Livingston,St Johnstone,2,1,4,8,football-data.co.uk
-2024-05-11,2324,Ross County,Motherwell,1,5,8,5,football-data.co.uk
-2024-05-11,2324,St Mirren,Kilmarnock,0,1,8,5,football-data.co.uk
-2024-05-12,2324,Hibernian,Aberdeen,0,4,8,3,football-data.co.uk
-2024-05-14,2324,Rangers,Dundee,5,2,6,5,football-data.co.uk
-2024-05-15,2324,Kilmarnock,Celtic,0,5,2,9,football-data.co.uk
-2024-05-15,2324,Aberdeen,Livingston,5,1,6,3,football-data.co.uk
-2024-05-15,2324,Hibernian,Motherwell,3,0,8,4,football-data.co.uk
-2024-05-15,2324,St Johnstone,Ross County,1,1,4,4,football-data.co.uk
-2024-05-15,2324,St Mirren,Hearts,2,2,4,3,football-data.co.uk
-2024-05-18,2324,Celtic,St Mirren,3,2,11,3,football-data.co.uk
-2024-05-18,2324,Dundee,Kilmarnock,1,1,4,3,football-data.co.uk
-2024-05-18,2324,Hearts,Rangers,3,3,2,6,football-data.co.uk
-2024-05-19,2324,Motherwell,St Johnstone,1,2,7,3,football-data.co.uk
-2024-05-19,2324,Ross County,Aberdeen,2,2,3,7,football-data.co.uk
-2024-05-19,2324,Livingston,Hibernian,1,1,4,9,football-data.co.uk
-2024-08-03,2425,Hearts,Rangers,0,0,8,7,football-data.co.uk
-2024-08-03,2425,Motherwell,Ross County,0,0,9,3,football-data.co.uk
-2024-08-04,2425,Dundee United,Dundee,2,2,5,6,football-data.co.uk
-2024-08-04,2425,St Mirren,Hibernian,3,0,4,8,football-data.co.uk
-2024-08-04,2425,Celtic,Kilmarnock,4,0,10,1,football-data.co.uk
-2024-08-05,2425,St Johnstone,Aberdeen,1,2,12,7,football-data.co.uk
-2024-08-10,2425,Dundee,Hearts,3,1,2,10,football-data.co.uk
-2024-08-10,2425,Ross County,Dundee United,1,1,7,5,football-data.co.uk
-2024-08-10,2425,Rangers,Motherwell,2,1,6,4,football-data.co.uk
-2024-08-11,2425,Hibernian,Celtic,0,2,3,5,football-data.co.uk
-2024-08-11,2425,Aberdeen,St Mirren,3,1,6,2,football-data.co.uk
-2024-08-11,2425,Kilmarnock,St Johnstone,0,3,4,4,football-data.co.uk
-2024-08-24,2425,Dundee United,St Johnstone,2,0,2,6,football-data.co.uk
-2024-08-24,2425,Hibernian,Dundee,2,2,5,4,football-data.co.uk
-2024-08-24,2425,Rangers,Ross County,6,0,5,0,football-data.co.uk
-2024-08-25,2425,Motherwell,Hearts,3,1,8,7,football-data.co.uk
-2024-08-25,2425,Aberdeen,Kilmarnock,2,0,8,6,football-data.co.uk
-2024-08-25,2425,St Mirren,Celtic,0,3,2,10,football-data.co.uk
-2024-08-31,2425,Ross County,Aberdeen,0,1,1,12,football-data.co.uk
-2024-08-31,2425,Dundee,St Mirren,2,2,6,1,football-data.co.uk
-2024-08-31,2425,St Johnstone,Motherwell,1,2,4,13,football-data.co.uk
-2024-09-01,2425,Celtic,Rangers,3,0,7,4,football-data.co.uk
-2024-09-01,2425,Hearts,Dundee United,0,1,6,4,football-data.co.uk
-2024-09-01,2425,Kilmarnock,Hibernian,1,1,4,7,football-data.co.uk
-2024-09-14,2425,Aberdeen,Motherwell,2,1,6,5,football-data.co.uk
-2024-09-14,2425,Celtic,Hearts,2,0,5,3,football-data.co.uk
-2024-09-14,2425,Hibernian,St Johnstone,2,0,5,7,football-data.co.uk
-2024-09-14,2425,Ross County,Dundee,2,0,3,8,football-data.co.uk
-2024-09-14,2425,St Mirren,Kilmarnock,2,2,3,10,football-data.co.uk
-2024-09-15,2425,Dundee United,Rangers,0,1,4,4,football-data.co.uk
-2024-09-21,2425,Ross County,St Johnstone,3,3,1,3,football-data.co.uk
-2024-09-21,2425,St Mirren,Hearts,2,1,5,4,football-data.co.uk
-2024-09-28,2425,Motherwell,St Mirren,2,1,9,6,football-data.co.uk
-2024-09-28,2425,St Johnstone,Celtic,0,6,3,13,football-data.co.uk
-2024-09-28,2425,Hearts,Ross County,1,1,11,5,football-data.co.uk
-2024-09-28,2425,Kilmarnock,Dundee United,3,3,7,3,football-data.co.uk
-2024-09-28,2425,Dundee,Aberdeen,1,2,10,4,football-data.co.uk
-2024-09-29,2425,Rangers,Hibernian,1,0,4,7,football-data.co.uk
-2024-10-05,2425,Dundee,Kilmarnock,2,3,2,10,football-data.co.uk
-2024-10-05,2425,Hibernian,Motherwell,1,2,10,5,football-data.co.uk
-2024-10-05,2425,St Mirren,Dundee United,0,1,3,3,football-data.co.uk
-2024-10-06,2425,Ross County,Celtic,1,2,1,9,football-data.co.uk
-2024-10-06,2425,Aberdeen,Hearts,3,2,2,5,football-data.co.uk
-2024-10-06,2425,Rangers,St Johnstone,2,0,7,3,football-data.co.uk
-2024-10-19,2425,Celtic,Aberdeen,2,2,19,2,football-data.co.uk
-2024-10-19,2425,Dundee United,Hibernian,3,2,5,5,football-data.co.uk
-2024-10-19,2425,Hearts,St Mirren,4,0,1,6,football-data.co.uk
-2024-10-19,2425,Motherwell,Dundee,0,1,3,5,football-data.co.uk
-2024-10-19,2425,St Johnstone,Ross County,3,0,5,3,football-data.co.uk
-2024-10-20,2425,Kilmarnock,Rangers,1,0,1,6,football-data.co.uk
-2024-10-26,2425,Aberdeen,Dundee United,1,0,8,2,football-data.co.uk
-2024-10-26,2425,Ross County,Kilmarnock,2,1,5,5,football-data.co.uk
-2024-10-26,2425,Dundee,St Johnstone,1,2,2,3,football-data.co.uk
-2024-10-27,2425,Rangers,St Mirren,2,1,7,3,football-data.co.uk
-2024-10-27,2425,Hibernian,Hearts,1,1,1,6,football-data.co.uk
-2024-10-27,2425,Motherwell,Celtic,0,3,3,10,football-data.co.uk
-2024-10-30,2425,Celtic,Dundee,2,0,7,2,football-data.co.uk
-2024-10-30,2425,Dundee United,Motherwell,1,2,11,3,football-data.co.uk
-2024-10-30,2425,Hearts,Kilmarnock,1,2,10,1,football-data.co.uk
-2024-10-30,2425,Ross County,Hibernian,0,0,4,2,football-data.co.uk
-2024-10-30,2425,St Mirren,St Johnstone,3,1,9,2,football-data.co.uk
-2024-10-30,2425,Aberdeen,Rangers,2,1,4,6,football-data.co.uk
-2024-11-02,2425,St Johnstone,Hearts,1,2,6,9,football-data.co.uk
-2024-11-02,2425,St Mirren,Ross County,0,0,6,5,football-data.co.uk
-2024-11-03,2425,Dundee,Kilmarnock,3,2,7,1,football-data.co.uk
-2024-11-03,2425,Hibernian,Dundee United,1,1,13,2,football-data.co.uk
-2024-11-09,2425,Motherwell,St Johnstone,2,1,3,3,football-data.co.uk
-2024-11-09,2425,Aberdeen,Dundee,4,1,7,4,football-data.co.uk
-2024-11-09,2425,Dundee United,Ross County,3,0,5,3,football-data.co.uk
-2024-11-09,2425,Hibernian,St Mirren,1,2,5,5,football-data.co.uk
-2024-11-10,2425,Kilmarnock,Celtic,0,2,6,4,football-data.co.uk
-2024-11-10,2425,Rangers,Hearts,1,0,9,6,football-data.co.uk
-2024-11-23,2425,Dundee,Hibernian,4,1,8,2,football-data.co.uk
-2024-11-23,2425,St Mirren,Aberdeen,2,1,7,3,football-data.co.uk
-2024-11-23,2425,Hearts,Celtic,1,4,1,6,football-data.co.uk
-2024-11-23,2425,Ross County,Motherwell,2,1,12,3,football-data.co.uk
-2024-11-23,2425,St Johnstone,Kilmarnock,1,0,4,14,football-data.co.uk
-2024-11-23,2425,Rangers,Dundee United,1,1,9,1,football-data.co.uk
-2024-11-26,2425,Hibernian,Aberdeen,3,3,9,6,football-data.co.uk
-2024-11-30,2425,Celtic,Ross County,5,0,19,0,football-data.co.uk
-2024-11-30,2425,Dundee United,St Mirren,2,0,4,8,football-data.co.uk
-2024-11-30,2425,Kilmarnock,Dundee,1,1,6,3,football-data.co.uk
-2024-11-30,2425,Motherwell,Hibernian,0,3,3,4,football-data.co.uk
-2024-12-01,2425,St Johnstone,Rangers,0,1,3,5,football-data.co.uk
-2024-12-01,2425,Hearts,Aberdeen,1,1,9,6,football-data.co.uk
-2024-12-04,2425,Aberdeen,Celtic,0,1,2,10,football-data.co.uk
-2024-12-04,2425,Dundee,Motherwell,4,1,4,10,football-data.co.uk
-2024-12-04,2425,Rangers,Kilmarnock,6,0,7,4,football-data.co.uk
-2024-12-07,2425,Aberdeen,St Johnstone,1,1,6,1,football-data.co.uk
-2024-12-07,2425,Celtic,Hibernian,3,0,14,7,football-data.co.uk
-2024-12-07,2425,Dundee United,Kilmarnock,1,1,9,1,football-data.co.uk
-2024-12-07,2425,Hearts,Dundee,2,0,6,4,football-data.co.uk
-2024-12-07,2425,St Mirren,Motherwell,0,1,7,2,football-data.co.uk
-2024-12-08,2425,Ross County,Rangers,0,3,8,10,football-data.co.uk
-2024-12-14,2425,Hibernian,Ross County,3,1,9,15,football-data.co.uk
-2024-12-14,2425,Motherwell,Dundee United,4,3,2,3,football-data.co.uk
-2024-12-14,2425,St Johnstone,St Mirren,2,3,1,2,football-data.co.uk
-2024-12-15,2425,Kilmarnock,Hearts,1,0,3,6,football-data.co.uk
-2024-12-20,2425,Motherwell,Kilmarnock,1,1,2,8,football-data.co.uk
-2024-12-21,2425,Aberdeen,Hibernian,1,3,5,6,football-data.co.uk
-2024-12-21,2425,Rangers,Dundee,1,0,6,3,football-data.co.uk
-2024-12-21,2425,Ross County,St Mirren,1,2,4,2,football-data.co.uk
-2024-12-22,2425,Hearts,St Johnstone,2,1,8,0,football-data.co.uk
-2024-12-22,2425,Dundee United,Celtic,0,0,3,9,football-data.co.uk
-2024-12-26,2425,Dundee,Ross County,0,3,5,5,football-data.co.uk
-2024-12-26,2425,Kilmarnock,Aberdeen,4,0,7,3,football-data.co.uk
-2024-12-26,2425,St Johnstone,Dundee United,1,2,4,10,football-data.co.uk
-2024-12-26,2425,St Mirren,Rangers,2,1,7,6,football-data.co.uk
-2024-12-26,2425,Celtic,Motherwell,4,0,6,3,football-data.co.uk
-2024-12-26,2425,Hearts,Hibernian,1,2,6,3,football-data.co.uk
-2024-12-29,2425,Dundee United,Aberdeen,1,0,9,1,football-data.co.uk
-2024-12-29,2425,Ross County,Hearts,2,2,10,5,football-data.co.uk
-2024-12-29,2425,Motherwell,Rangers,2,2,3,6,football-data.co.uk
-2024-12-29,2425,Hibernian,Kilmarnock,1,0,5,10,football-data.co.uk
-2024-12-29,2425,Celtic,St Johnstone,4,0,12,2,football-data.co.uk
-2024-12-29,2425,St Mirren,Dundee,1,2,5,9,football-data.co.uk
-2025-01-02,2425,Hearts,Motherwell,1,0,12,4,football-data.co.uk
-2025-01-02,2425,Aberdeen,Ross County,1,2,9,4,football-data.co.uk
-2025-01-02,2425,Rangers,Celtic,3,0,8,4,football-data.co.uk
-2025-01-02,2425,St Johnstone,Hibernian,1,1,4,9,football-data.co.uk
-2025-01-02,2425,Dundee,Dundee United,1,2,6,4,football-data.co.uk
-2025-01-02,2425,Kilmarnock,St Mirren,2,0,4,2,football-data.co.uk
-2025-01-05,2425,Dundee United,Hearts,0,1,5,5,football-data.co.uk
-2025-01-05,2425,Motherwell,Aberdeen,2,0,3,8,football-data.co.uk
-2025-01-05,2425,St Johnstone,Dundee,1,3,3,5,football-data.co.uk
-2025-01-05,2425,Hibernian,Rangers,3,3,10,8,football-data.co.uk
-2025-01-05,2425,Celtic,St Mirren,3,0,8,3,football-data.co.uk
-2025-01-05,2425,Kilmarnock,Ross County,0,1,7,6,football-data.co.uk
-2025-01-08,2425,Kilmarnock,Motherwell,0,0,15,2,football-data.co.uk
-2025-01-08,2425,Celtic,Dundee United,2,0,13,4,football-data.co.uk
-2025-01-09,2425,Dundee,Rangers,1,1,3,7,football-data.co.uk
-2025-01-11,2425,Ross County,Celtic,1,4,6,7,football-data.co.uk
-2025-01-11,2425,Hibernian,Motherwell,3,1,3,6,football-data.co.uk
-2025-01-11,2425,St Mirren,Dundee United,0,1,8,5,football-data.co.uk
-2025-01-12,2425,Aberdeen,Hearts,0,0,4,3,football-data.co.uk
-2025-01-12,2425,Rangers,St Johnstone,3,1,12,2,football-data.co.uk
-2025-01-14,2425,Dundee,Celtic,3,3,2,4,football-data.co.uk
-2025-01-15,2425,Rangers,Aberdeen,3,0,10,3,football-data.co.uk
-2025-01-25,2425,St Johnstone,Motherwell,2,1,7,3,football-data.co.uk
-2025-01-25,2425,Ross County,Hibernian,1,1,2,8,football-data.co.uk
-2025-01-25,2425,Aberdeen,St Mirren,0,3,6,3,football-data.co.uk
-2025-01-25,2425,Hearts,Kilmarnock,3,2,3,7,football-data.co.uk
-2025-01-26,2425,Dundee United,Rangers,1,3,3,4,football-data.co.uk
-2025-02-01,2425,Dundee,Hearts,0,6,3,9,football-data.co.uk
-2025-02-01,2425,Hibernian,Aberdeen,2,0,2,8,football-data.co.uk
-2025-02-01,2425,St Mirren,St Johnstone,0,1,5,3,football-data.co.uk
-2025-02-01,2425,Kilmarnock,Dundee United,1,0,3,4,football-data.co.uk
-2025-02-02,2425,Motherwell,Celtic,1,3,3,10,football-data.co.uk
-2025-02-02,2425,Rangers,Ross County,4,0,8,3,football-data.co.uk
-2025-02-05,2425,Celtic,Dundee,6,0,6,3,football-data.co.uk
-2025-02-15,2425,Motherwell,Ross County,0,3,6,3,football-data.co.uk
-2025-02-15,2425,Dundee,Aberdeen,1,2,8,7,football-data.co.uk
-2025-02-15,2425,Celtic,Dundee United,3,0,15,0,football-data.co.uk
-2025-02-15,2425,Kilmarnock,St Johnstone,3,1,7,5,football-data.co.uk
-2025-02-16,2425,Hearts,Rangers,1,3,10,7,football-data.co.uk
-2025-02-16,2425,St Mirren,Hibernian,0,0,4,3,football-data.co.uk
-2025-02-22,2425,Hibernian,Celtic,2,1,5,10,football-data.co.uk
-2025-02-22,2425,Aberdeen,Kilmarnock,1,0,8,5,football-data.co.uk
-2025-02-22,2425,Dundee United,Motherwell,1,0,2,7,football-data.co.uk
-2025-02-22,2425,Rangers,St Mirren,0,2,11,3,football-data.co.uk
-2025-02-22,2425,Ross County,Dundee,3,1,9,6,football-data.co.uk
-2025-02-23,2425,St Johnstone,Hearts,1,2,3,6,football-data.co.uk
-2025-02-25,2425,Celtic,Aberdeen,5,1,4,3,football-data.co.uk
-2025-02-26,2425,Kilmarnock,Rangers,2,4,6,4,football-data.co.uk
-2025-02-26,2425,St Johnstone,Ross County,1,0,12,3,football-data.co.uk
-2025-02-26,2425,Hearts,St Mirren,3,1,5,6,football-data.co.uk
-2025-02-26,2425,Dundee United,Hibernian,1,3,1,10,football-data.co.uk
-2025-02-26,2425,Motherwell,Dundee,2,1,5,10,football-data.co.uk
-2025-03-01,2425,Dundee,St Johnstone,1,1,4,4,football-data.co.uk
-2025-03-01,2425,Rangers,Motherwell,1,2,12,3,football-data.co.uk
-2025-03-01,2425,Ross County,Kilmarnock,1,0,5,6,football-data.co.uk
-2025-03-01,2425,St Mirren,Celtic,2,5,3,3,football-data.co.uk
-2025-03-02,2425,Hibernian,Hearts,2,1,4,6,football-data.co.uk
-2025-03-02,2425,Aberdeen,Dundee United,2,2,14,5,football-data.co.uk
-2025-03-15,2425,St Johnstone,Aberdeen,0,0,1,6,football-data.co.uk
-2025-03-15,2425,Motherwell,St Mirren,2,2,0,7,football-data.co.uk
-2025-03-15,2425,Kilmarnock,Hibernian,1,1,4,5,football-data.co.uk
-2025-03-15,2425,Hearts,Ross County,2,0,6,6,football-data.co.uk
-2025-03-16,2425,Celtic,Rangers,2,3,7,6,football-data.co.uk
-2025-03-16,2425,Dundee United,Dundee,2,4,2,4,football-data.co.uk
-2025-03-29,2425,Aberdeen,Motherwell,4,1,9,4,football-data.co.uk
-2025-03-29,2425,Celtic,Hearts,3,0,6,1,football-data.co.uk
-2025-03-29,2425,Hibernian,St Johnstone,3,0,5,2,football-data.co.uk
-2025-03-29,2425,St Mirren,Kilmarnock,5,1,4,7,football-data.co.uk
-2025-03-29,2425,Dundee,Rangers,3,4,7,3,football-data.co.uk
-2025-03-30,2425,Ross County,Dundee United,0,1,4,9,football-data.co.uk
-2025-04-05,2425,Dundee,St Mirren,2,0,4,10,football-data.co.uk
-2025-04-05,2425,Kilmarnock,Motherwell,2,0,7,2,football-data.co.uk
-2025-04-05,2425,Rangers,Hibernian,0,2,5,1,football-data.co.uk
-2025-04-05,2425,Ross County,Aberdeen,0,1,9,1,football-data.co.uk
-2025-04-06,2425,St Johnstone,Celtic,1,0,4,11,football-data.co.uk
-2025-04-06,2425,Hearts,Dundee United,0,1,5,2,football-data.co.uk
-2025-04-12,2425,Celtic,Kilmarnock,5,1,10,0,football-data.co.uk
-2025-04-12,2425,Dundee United,St Johnstone,1,0,6,5,football-data.co.uk
-2025-04-12,2425,Motherwell,Hearts,0,0,4,2,football-data.co.uk
-2025-04-12,2425,St Mirren,Ross County,3,2,6,7,football-data.co.uk
-2025-04-13,2425,Aberdeen,Rangers,2,2,6,1,football-data.co.uk
-2025-04-13,2425,Hibernian,Dundee,4,0,8,3,football-data.co.uk
-2025-04-26,2425,Motherwell,St Johnstone,3,2,5,9,football-data.co.uk
-2025-04-26,2425,Kilmarnock,Ross County,2,0,5,4,football-data.co.uk
-2025-04-26,2425,St Mirren,Rangers,2,2,3,3,football-data.co.uk
-2025-04-26,2425,Aberdeen,Hibernian,1,0,10,5,football-data.co.uk
-2025-04-26,2425,Hearts,Dundee,0,1,7,3,football-data.co.uk
-2025-04-26,2425,Dundee United,Celtic,0,5,1,8,football-data.co.uk
-2025-05-03,2425,St Mirren,Aberdeen,1,0,5,11,football-data.co.uk
-2025-05-03,2425,St Johnstone,Kilmarnock,0,2,6,2,football-data.co.uk
-2025-05-03,2425,Dundee,Motherwell,1,2,7,4,football-data.co.uk
-2025-05-03,2425,Hibernian,Dundee United,3,1,8,4,football-data.co.uk
-2025-05-03,2425,Ross County,Hearts,1,3,4,13,football-data.co.uk
-2025-05-04,2425,Rangers,Celtic,1,1,5,6,football-data.co.uk
-2025-05-10,2425,Celtic,Hibernian,3,1,8,3,football-data.co.uk
-2025-05-10,2425,Dundee United,St Mirren,0,2,4,6,football-data.co.uk
-2025-05-10,2425,Hearts,Motherwell,3,0,6,1,football-data.co.uk
-2025-05-10,2425,Kilmarnock,Dundee,3,2,7,2,football-data.co.uk
-2025-05-10,2425,St Johnstone,Ross County,2,1,4,4,football-data.co.uk
-2025-05-11,2425,Rangers,Aberdeen,4,0,7,2,football-data.co.uk
-2025-05-14,2425,Hearts,St Johnstone,2,1,8,7,football-data.co.uk
-2025-05-14,2425,Rangers,Dundee United,3,1,9,4,football-data.co.uk
-2025-05-14,2425,St Mirren,Hibernian,2,2,5,6,football-data.co.uk
-2025-05-14,2425,Aberdeen,Celtic,1,5,6,6,football-data.co.uk
-2025-05-14,2425,Dundee,Ross County,1,1,10,5,football-data.co.uk
-2025-05-14,2425,Motherwell,Kilmarnock,3,0,5,4,football-data.co.uk
-2025-05-17,2425,Celtic,St Mirren,1,1,14,0,football-data.co.uk
-2025-05-17,2425,Dundee United,Aberdeen,2,1,8,13,football-data.co.uk
-2025-05-17,2425,Hibernian,Rangers,2,2,3,13,football-data.co.uk
-2025-05-18,2425,Kilmarnock,Hearts,0,1,3,5,football-data.co.uk
-2025-05-18,2425,Ross County,Motherwell,1,1,5,6,football-data.co.uk
-2025-05-18,2425,St Johnstone,Dundee,0,2,1,9,football-data.co.uk
-2025-08-02,2526,Motherwell,Rangers,1,1,1,12,football-data.co.uk
-2025-08-02,2526,Kilmarnock,Livingston,2,2,3,5,football-data.co.uk
-2025-08-03,2526,Falkirk,Dundee United,2,2,2,4,football-data.co.uk
-2025-08-03,2526,Dundee,Hibernian,1,2,3,11,football-data.co.uk
-2025-08-03,2526,Celtic,St Mirren,1,0,12,1,football-data.co.uk
-2025-08-04,2526,Hearts,Aberdeen,2,0,3,3,football-data.co.uk
-2025-08-09,2526,Livingston,Falkirk,3,1,4,5,football-data.co.uk
-2025-08-09,2526,St Mirren,Motherwell,0,0,7,4,football-data.co.uk
-2025-08-09,2526,Rangers,Dundee,1,1,7,4,football-data.co.uk
-2025-08-10,2526,Aberdeen,Celtic,0,2,1,6,football-data.co.uk
-2025-08-10,2526,Dundee United,Hearts,2,3,2,9,football-data.co.uk
-2025-08-10,2526,Hibernian,Kilmarnock,2,2,4,7,football-data.co.uk
-2025-08-23,2526,Kilmarnock,Dundee,0,0,7,3,football-data.co.uk
-2025-08-23,2526,Hearts,Motherwell,3,3,9,3,football-data.co.uk
-2025-08-23,2526,Celtic,Livingston,3,0,10,4,football-data.co.uk
-2025-08-24,2526,St Mirren,Rangers,1,1,6,6,football-data.co.uk
-2025-08-30,2526,Livingston,Hearts,1,2,5,9,football-data.co.uk
-2025-08-30,2526,Motherwell,Kilmarnock,2,2,9,0,football-data.co.uk
-2025-08-31,2526,Rangers,Celtic,0,0,8,1,football-data.co.uk
-2025-08-31,2526,Dundee,Dundee United,0,2,3,2,football-data.co.uk
-2025-08-31,2526,Aberdeen,Falkirk,0,1,5,6,football-data.co.uk
-2025-08-31,2526,Hibernian,St Mirren,1,1,10,7,football-data.co.uk
-2025-09-13,2526,Falkirk,St Mirren,1,2,4,2,football-data.co.uk
-2025-09-13,2526,Hibernian,Dundee United,3,3,6,4,football-data.co.uk
-2025-09-13,2526,Aberdeen,Livingston,0,0,6,6,football-data.co.uk
-2025-09-13,2526,Dundee,Motherwell,1,1,2,6,football-data.co.uk
-2025-09-13,2526,Rangers,Hearts,0,2,9,2,football-data.co.uk
-2025-09-14,2526,Kilmarnock,Celtic,1,2,6,7,football-data.co.uk
-2025-09-20,2526,Dundee,Livingston,3,2,8,3,football-data.co.uk
-2025-09-23,2526,Dundee United,Aberdeen,2,0,11,3,football-data.co.uk
-2025-09-23,2526,Falkirk,Hibernian,2,2,5,5,football-data.co.uk
-2025-09-27,2526,Celtic,Hibernian,0,0,7,2,football-data.co.uk
-2025-09-27,2526,Dundee United,Kilmarnock,0,2,9,6,football-data.co.uk
-2025-09-27,2526,Hearts,Falkirk,3,0,9,5,football-data.co.uk
-2025-09-27,2526,St Mirren,Dundee,1,0,5,5,football-data.co.uk
-2025-09-27,2526,Motherwell,Aberdeen,2,0,3,4,football-data.co.uk
-2025-09-28,2526,Livingston,Rangers,1,2,4,8,football-data.co.uk
-2025-10-04,2526,Dundee United,Livingston,1,1,4,5,football-data.co.uk
-2025-10-04,2526,Kilmarnock,St Mirren,2,0,4,9,football-data.co.uk
-2025-10-04,2526,Hearts,Hibernian,1,0,4,2,football-data.co.uk
-2025-10-05,2526,Falkirk,Rangers,1,1,7,6,football-data.co.uk
-2025-10-05,2526,Celtic,Motherwell,3,2,10,0,football-data.co.uk
-2025-10-05,2526,Aberdeen,Dundee,4,0,11,2,football-data.co.uk
-2025-10-18,2526,Hibernian,Livingston,4,0,7,10,football-data.co.uk
-2025-10-18,2526,Motherwell,Falkirk,1,2,6,4,football-data.co.uk
-2025-10-18,2526,Rangers,Dundee United,2,2,7,2,football-data.co.uk
-2025-10-18,2526,St Mirren,Aberdeen,0,1,5,2,football-data.co.uk
-2025-10-18,2526,Kilmarnock,Hearts,0,3,4,5,football-data.co.uk
-2025-10-19,2526,Dundee,Celtic,2,0,2,12,football-data.co.uk
-2025-10-25,2526,Dundee United,St Mirren,3,1,4,12,football-data.co.uk
-2025-10-25,2526,Falkirk,Dundee,2,1,5,3,football-data.co.uk
-2025-10-25,2526,Livingston,Motherwell,1,2,0,3,football-data.co.uk
-2025-10-26,2526,Hearts,Celtic,3,1,5,9,football-data.co.uk
-2025-10-26,2526,Rangers,Kilmarnock,3,1,9,2,football-data.co.uk
-2025-10-26,2526,Aberdeen,Hibernian,1,2,6,3,football-data.co.uk
-2025-10-29,2526,Kilmarnock,Aberdeen,0,1,7,2,football-data.co.uk
-2025-10-29,2526,Hibernian,Rangers,0,1,5,4,football-data.co.uk
-2025-10-29,2526,Motherwell,Dundee United,2,0,4,2,football-data.co.uk
-2025-10-29,2526,Celtic,Falkirk,4,0,6,3,football-data.co.uk
-2025-10-29,2526,St Mirren,Hearts,2,2,6,7,football-data.co.uk
-2025-11-01,2526,Falkirk,Kilmarnock,3,1,2,6,football-data.co.uk
-2025-11-01,2526,Livingston,Hibernian,2,2,6,1,football-data.co.uk
-2025-11-01,2526,Hearts,Dundee,4,0,6,2,football-data.co.uk
-2025-11-08,2526,St Mirren,Hibernian,0,3,5,6,football-data.co.uk
-2025-11-08,2526,Falkirk,Livingston,1,1,6,1,football-data.co.uk
-2025-11-09,2526,Aberdeen,Motherwell,1,1,4,6,football-data.co.uk
-2025-11-09,2526,Dundee,Rangers,0,3,4,6,football-data.co.uk
-2025-11-09,2526,Hearts,Dundee United,1,1,4,3,football-data.co.uk
-2025-11-09,2526,Celtic,Kilmarnock,4,0,8,7,football-data.co.uk
-2025-11-22,2526,Dundee United,Falkirk,0,3,5,5,football-data.co.uk
-2025-11-22,2526,Hibernian,Dundee,2,0,8,3,football-data.co.uk
-2025-11-22,2526,Kilmarnock,Motherwell,1,3,3,3,football-data.co.uk
-2025-11-22,2526,Rangers,Livingston,2,1,2,1,football-data.co.uk
-2025-11-22,2526,St Mirren,Celtic,0,1,2,4,football-data.co.uk
-2025-11-23,2526,Aberdeen,Hearts,1,0,6,3,football-data.co.uk
-2025-11-25,2526,Motherwell,Hibernian,2,0,0,2,football-data.co.uk
-2025-11-29,2526,Motherwell,Hearts,0,0,3,4,football-data.co.uk
-2025-11-29,2526,Dundee,St Mirren,3,1,1,11,football-data.co.uk
-2025-11-29,2526,Kilmarnock,Dundee United,1,1,3,3,football-data.co.uk
-2025-11-30,2526,Hibernian,Celtic,1,2,4,3,football-data.co.uk
-2025-11-30,2526,Rangers,Falkirk,0,0,4,5,football-data.co.uk
-2025-11-30,2526,Livingston,Aberdeen,0,1,7,4,football-data.co.uk
-2025-12-03,2526,Aberdeen,St Mirren,3,3,8,6,football-data.co.uk
-2025-12-03,2526,Celtic,Dundee,1,0,6,0,football-data.co.uk
-2025-12-03,2526,Dundee United,Rangers,2,2,8,9,football-data.co.uk
-2025-12-03,2526,Falkirk,Motherwell,0,0,6,3,football-data.co.uk
-2025-12-03,2526,Hearts,Kilmarnock,1,1,9,1,football-data.co.uk
-2025-12-06,2526,Kilmarnock,Rangers,0,3,7,2,football-data.co.uk
-2025-12-06,2526,St Mirren,Dundee United,2,0,3,2,football-data.co.uk
-2025-12-06,2526,Hibernian,Falkirk,3,0,10,4,football-data.co.uk
-2025-12-06,2526,Dundee,Aberdeen,1,3,6,4,football-data.co.uk
-2025-12-06,2526,Motherwell,Livingston,3,0,4,5,football-data.co.uk
-2025-12-07,2526,Celtic,Hearts,1,2,5,3,football-data.co.uk
-2025-12-13,2526,Dundee United,Motherwell,0,0,1,4,football-data.co.uk
-2025-12-13,2526,Livingston,Dundee,2,2,7,0,football-data.co.uk
-2025-12-13,2526,Falkirk,Hearts,0,2,3,7,football-data.co.uk
-2025-12-14,2526,Aberdeen,Kilmarnock,2,1,9,3,football-data.co.uk
-2025-12-15,2526,Rangers,Hibernian,1,0,5,5,football-data.co.uk
-2025-12-17,2526,Dundee United,Celtic,2,1,7,6,football-data.co.uk
-2025-12-20,2526,Motherwell,Dundee,1,0,2,3,football-data.co.uk
-2025-12-20,2526,St Mirren,Livingston,1,0,7,4,football-data.co.uk
-2025-12-20,2526,Dundee United,Hibernian,1,1,5,7,football-data.co.uk
-2025-12-20,2526,Kilmarnock,Falkirk,0,1,2,2,football-data.co.uk
-2025-12-21,2526,Hearts,Rangers,2,1,6,10,football-data.co.uk
-2025-12-21,2526,Celtic,Aberdeen,3,1,8,4,football-data.co.uk
-2025-12-27,2526,Hibernian,Hearts,3,2,3,8,football-data.co.uk
-2025-12-27,2526,Dundee,Falkirk,1,0,1,9,football-data.co.uk
-2025-12-27,2526,Livingston,Celtic,2,4,11,4,football-data.co.uk
-2025-12-27,2526,Rangers,Motherwell,1,0,5,1,football-data.co.uk
-2025-12-27,2526,St Mirren,Kilmarnock,0,0,11,4,football-data.co.uk
-2025-12-27,2526,Aberdeen,Dundee United,1,1,9,5,football-data.co.uk
-2025-12-30,2526,Dundee,Kilmarnock,2,1,7,5,football-data.co.uk
-2025-12-30,2526,Livingston,Dundee United,1,3,2,7,football-data.co.uk
-2025-12-30,2526,Hibernian,Aberdeen,2,0,4,5,football-data.co.uk
-2025-12-30,2526,Motherwell,Celtic,2,0,1,3,football-data.co.uk
-2025-12-30,2526,Rangers,St Mirren,2,1,5,4,football-data.co.uk
-2026-01-03,2526,Celtic,Rangers,1,3,8,5,football-data.co.uk
-2026-01-03,2526,Dundee United,Dundee,0,1,8,2,football-data.co.uk
-2026-01-03,2526,Falkirk,Aberdeen,1,0,5,4,football-data.co.uk
-2026-01-03,2526,Hearts,Livingston,1,0,7,3,football-data.co.uk
-2026-01-03,2526,Kilmarnock,Hibernian,1,3,5,3,football-data.co.uk
-2026-01-03,2526,Motherwell,St Mirren,2,0,9,8,football-data.co.uk
-2026-01-06,2526,Rangers,Aberdeen,2,0,7,4,football-data.co.uk
-2026-01-10,2526,Livingston,Kilmarnock,1,1,7,5,football-data.co.uk
-2026-01-10,2526,St Mirren,Falkirk,0,2,4,8,football-data.co.uk
-2026-01-10,2526,Celtic,Dundee United,4,0,12,3,football-data.co.uk
-2026-01-10,2526,Hibernian,Motherwell,1,1,4,4,football-data.co.uk
-2026-01-11,2526,Dundee,Hearts,0,1,6,4,football-data.co.uk
-2026-01-11,2526,Aberdeen,Rangers,0,2,6,6,football-data.co.uk
-2026-01-14,2526,Falkirk,Celtic,0,1,3,4,football-data.co.uk
-2026-01-14,2526,Hearts,St Mirren,2,0,3,5,football-data.co.uk
-2026-01-20,2526,Livingston,St Mirren,1,1,3,4,football-data.co.uk
-2026-01-24,2526,Aberdeen,Livingston,6,2,8,2,football-data.co.uk
-2026-01-24,2526,Falkirk,Hibernian,4,1,7,4,football-data.co.uk
-2026-01-24,2526,Motherwell,Kilmarnock,4,0,2,1,football-data.co.uk
-2026-01-25,2526,Hearts,Celtic,2,2,2,2,football-data.co.uk
-2026-01-25,2526,Rangers,Dundee,3,0,7,1,football-data.co.uk
-2026-01-31,2526,St Mirren,Dundee,0,0,5,6,football-data.co.uk
-2026-01-31,2526,Dundee United,Hearts,0,3,0,6,football-data.co.uk
-2026-01-31,2526,Kilmarnock,Aberdeen,3,0,7,3,football-data.co.uk
-2026-01-31,2526,Livingston,Motherwell,0,2,7,7,football-data.co.uk
-2026-02-01,2526,Hibernian,Rangers,0,0,9,8,football-data.co.uk
-2026-02-01,2526,Celtic,Falkirk,2,0,9,4,football-data.co.uk
-2026-02-03,2526,St Mirren,Hearts,1,0,7,2,football-data.co.uk
-2026-02-04,2526,Rangers,Kilmarnock,5,1,10,1,football-data.co.uk
-2026-02-04,2526,Livingston,Falkirk,1,2,6,4,football-data.co.uk
-2026-02-04,2526,Hibernian,Dundee United,3,2,4,6,football-data.co.uk
-2026-02-10,2526,Hearts,Hibernian,1,0,4,8,football-data.co.uk
-2026-02-11,2526,Celtic,Livingston,2,1,10,3,football-data.co.uk
-2026-02-11,2526,Falkirk,Dundee,1,0,4,4,football-data.co.uk
-2026-02-11,2526,Kilmarnock,St Mirren,4,3,9,4,football-data.co.uk
-2026-02-11,2526,Motherwell,Rangers,1,1,6,3,football-data.co.uk
-2026-02-14,2526,Falkirk,Dundee United,2,3,4,5,football-data.co.uk
-2026-02-14,2526,Dundee,Livingston,2,2,10,2,football-data.co.uk
-2026-02-14,2526,Hibernian,St Mirren,2,0,6,8,football-data.co.uk
-2026-02-15,2526,Kilmarnock,Celtic,2,3,6,7,football-data.co.uk
-2026-02-15,2526,Rangers,Hearts,4,2,7,3,football-data.co.uk
-2026-02-15,2526,Motherwell,Aberdeen,2,0,4,2,football-data.co.uk
-2026-02-21,2526,Aberdeen,Dundee,2,3,2,9,football-data.co.uk
-2026-02-21,2526,Dundee United,Kilmarnock,1,1,6,3,football-data.co.uk
-2026-02-21,2526,Hearts,Falkirk,1,0,8,4,football-data.co.uk
-2026-02-21,2526,St Mirren,Motherwell,0,5,4,7,football-data.co.uk
-2026-02-22,2526,Celtic,Hibernian,1,2,11,1,football-data.co.uk
-2026-02-22,2526,Livingston,Rangers,2,2,3,15,football-data.co.uk
-2026-02-24,2526,Dundee United,Aberdeen,0,0,4,6,football-data.co.uk
-2026-02-28,2526,Dundee,Hibernian,3,3,6,6,football-data.co.uk
-2026-02-28,2526,Falkirk,Kilmarnock,5,1,3,2,football-data.co.uk
-2026-02-28,2526,Hearts,Aberdeen,1,0,7,4,football-data.co.uk
-2026-02-28,2526,Livingston,St Mirren,1,1,7,2,football-data.co.uk
-2026-02-28,2526,Motherwell,Dundee United,2,0,5,3,football-data.co.uk
-2026-03-01,2526,Rangers,Celtic,2,2,6,7,football-data.co.uk
-2026-03-03,2526,Dundee United,St Mirren,2,1,8,4,football-data.co.uk
-2026-03-04,2526,Aberdeen,Celtic,1,2,6,6,football-data.co.uk
-2026-03-07,2526,Dundee,Motherwell,2,1,3,1,football-data.co.uk
-2026-03-14,2526,Kilmarnock,Hearts,1,0,2,9,football-data.co.uk
-2026-03-14,2526,Aberdeen,Falkirk,1,1,4,10,football-data.co.uk
-2026-03-14,2526,Celtic,Motherwell,3,1,2,3,football-data.co.uk
-2026-03-14,2526,Hibernian,Livingston,0,0,12,0,football-data.co.uk
-2026-03-15,2526,St Mirren,Rangers,0,1,1,11,football-data.co.uk
-2026-03-15,2526,Dundee,Dundee United,2,2,4,7,football-data.co.uk
-2026-03-21,2526,Falkirk,St Mirren,1,2,7,4,football-data.co.uk
-2026-03-21,2526,Hearts,Dundee,1,0,4,7,football-data.co.uk
-2026-03-21,2526,Kilmarnock,Livingston,2,0,3,4,football-data.co.uk
-2026-03-21,2526,Motherwell,Hibernian,0,0,2,4,football-data.co.uk
-2026-03-21,2526,Rangers,Aberdeen,4,1,2,4,football-data.co.uk
-2026-03-22,2526,Dundee United,Celtic,2,0,7,6,football-data.co.uk
-2026-04-04,2526,Hibernian,Kilmarnock,3,0,3,9,football-data.co.uk
-2026-04-04,2526,Motherwell,Falkirk,2,3,6,2,football-data.co.uk
-2026-04-04,2526,Rangers,Dundee United,4,2,10,1,football-data.co.uk
-2026-04-04,2526,St Mirren,Aberdeen,2,0,8,5,football-data.co.uk
-2026-04-05,2526,Dundee,Celtic,1,2,1,4,football-data.co.uk
-2026-04-05,2526,Livingston,Hearts,2,2,5,5,football-data.co.uk
-2026-04-11,2526,Hearts,Motherwell,3,1,6,4,football-data.co.uk
-2026-04-11,2526,Kilmarnock,Dundee,2,2,4,2,football-data.co.uk
-2026-04-11,2526,Dundee United,Livingston,3,2,4,3,football-data.co.uk
-2026-04-11,2526,Celtic,St Mirren,1,0,3,7,football-data.co.uk
-2026-04-11,2526,Aberdeen,Hibernian,2,0,3,3,football-data.co.uk
-2026-04-12,2526,Falkirk,Rangers,3,6,2,1,football-data.co.uk
-2026-04-25,2526,Aberdeen,Kilmarnock,1,0,6,5,football-data.co.uk
-2026-04-25,2526,St Mirren,Livingston,0,2,8,7,football-data.co.uk
-2026-04-25,2526,Celtic,Falkirk,3,1,9,7,football-data.co.uk
-2026-04-26,2526,Dundee United,Dundee,3,0,2,4,football-data.co.uk
-2026-04-26,2526,Rangers,Motherwell,2,3,7,5,football-data.co.uk
-2026-04-26,2526,Hibernian,Hearts,1,2,0,11,football-data.co.uk
-2026-05-01,2526,Livingston,Aberdeen,2,2,6,4,football-data.co.uk
-2026-05-02,2526,Falkirk,Motherwell,1,0,2,5,football-data.co.uk
-2026-05-02,2526,Dundee,St Mirren,1,0,5,6,football-data.co.uk
-2026-05-02,2526,Kilmarnock,Dundee United,3,0,4,8,football-data.co.uk
-2026-05-03,2526,Hibernian,Celtic,1,2,0,13,football-data.co.uk
-2026-05-04,2526,Hearts,Rangers,2,1,2,6,football-data.co.uk
-2026-05-09,2526,Aberdeen,Dundee United,2,0,4,2,football-data.co.uk
-2026-05-09,2526,Dundee,Livingston,3,0,7,5,football-data.co.uk
-2026-05-09,2526,Falkirk,Hibernian,1,3,6,5,football-data.co.uk
-2026-05-09,2526,St Mirren,Kilmarnock,0,3,1,4,football-data.co.uk
-2026-05-09,2526,Motherwell,Hearts,1,1,2,6,football-data.co.uk
-2026-05-10,2526,Celtic,Rangers,3,1,1,7,football-data.co.uk
-2026-05-12,2526,Aberdeen,St Mirren,0,2,6,1,football-data.co.uk
-2026-05-12,2526,Dundee United,Livingston,0,0,7,8,football-data.co.uk
-2026-05-12,2526,Kilmarnock,Dundee,3,1,6,2,football-data.co.uk
-2026-05-13,2526,Hearts,Falkirk,3,0,5,5,football-data.co.uk
-2026-05-13,2526,Rangers,Hibernian,1,2,9,3,football-data.co.uk
-2026-05-13,2526,Motherwell,Celtic,2,3,4,3,football-data.co.uk
-2026-05-16,2526,Falkirk,Rangers,2,5,7,4,football-data.co.uk
-2026-05-16,2526,Hibernian,Motherwell,0,1,7,4,football-data.co.uk
-2026-05-16,2526,Celtic,Hearts,3,1,9,6,football-data.co.uk
-2026-05-17,2526,Dundee,Aberdeen,3,2,7,2,football-data.co.uk
-2026-05-17,2526,St Mirren,Dundee United,1,1,10,2,football-data.co.uk
-2026-05-17,2526,Livingston,Kilmarnock,1,4,6,1,football-data.co.uk
-2018-08-11,1819,Motherwell,Hamilton,0,1,4,2,football-data.co.uk
-2018-08-26,1819,Celtic,Hamilton,1,0,9,3,football-data.co.uk
-2018-09-15,1819,Livingston,Hamilton,1,0,3,4,football-data.co.uk
-2018-10-06,1819,Hibernian,Hamilton,6,0,5,0,football-data.co.uk
-2018-10-27,1819,Kilmarnock,Hamilton,1,1,1,1,football-data.co.uk
-2018-10-31,1819,Aberdeen,Hamilton,3,0,8,1,football-data.co.uk
-2018-11-10,1819,St Johnstone,Hamilton,4,0,2,2,football-data.co.uk
-2018-12-01,1819,St Mirren,Hamilton,1,3,6,2,football-data.co.uk
-2018-12-05,1819,Dundee,Hamilton,4,0,5,4,football-data.co.uk
-2018-12-16,1819,Rangers,Hamilton,1,0,22,2,football-data.co.uk
-2018-12-26,1819,Hearts,Hamilton,2,0,5,6,football-data.co.uk
-2019-01-26,1819,Celtic,Hamilton,3,0,13,3,football-data.co.uk
-2019-02-16,1819,Hibernian,Hamilton,2,0,8,4,football-data.co.uk
-2019-02-27,1819,Aberdeen,Hamilton,0,2,11,5,football-data.co.uk
-2019-03-09,1819,Motherwell,Hamilton,3,0,2,1,football-data.co.uk
-2019-03-30,1819,Kilmarnock,Hamilton,5,0,6,1,football-data.co.uk
-2019-04-03,1819,Livingston,Hamilton,2,0,4,5,football-data.co.uk
-2019-05-04,1819,Dundee,Hamilton,0,1,3,8,football-data.co.uk
-2019-05-13,1819,St Mirren,Hamilton,2,0,9,2,football-data.co.uk
-2019-08-03,1920,Ross County,Hamilton,3,0,9,6,football-data.co.uk
-2019-08-31,1920,Hearts,Hamilton,2,2,6,8,football-data.co.uk
-2019-09-21,1920,St Mirren,Hamilton,0,0,8,6,football-data.co.uk
-2019-10-06,1920,Rangers,Hamilton,5,0,8,0,football-data.co.uk
-2019-10-26,1920,St Johnstone,Hamilton,3,2,10,3,football-data.co.uk
-2019-11-09,1920,Kilmarnock,Hamilton,2,2,12,4,football-data.co.uk
-2019-11-30,1920,Livingston,Hamilton,0,0,6,2,football-data.co.uk
-2019-12-04,1920,Celtic,Hamilton,2,1,7,2,football-data.co.uk
-2019-12-14,1920,Aberdeen,Hamilton,1,0,8,4,football-data.co.uk
-2019-12-29,1920,Motherwell,Hamilton,1,2,2,4,football-data.co.uk
-2020-01-22,1920,Hibernian,Hamilton,2,1,8,2,football-data.co.uk
-2020-02-05,1920,St Mirren,Hamilton,1,1,6,5,football-data.co.uk
-2020-02-15,1920,Hearts,Hamilton,2,2,7,1,football-data.co.uk
-2020-03-04,1920,Rangers,Hamilton,0,1,16,1,football-data.co.uk
-2020-08-02,2021,Celtic,Hamilton,5,1,11,8,football-data.co.uk
-2020-08-22,2021,Motherwell,Hamilton,0,1,13,5,football-data.co.uk
-2020-09-12,2021,Livingston,Hamilton,1,2,8,2,football-data.co.uk
-2020-09-19,2021,Kilmarnock,Hamilton,2,1,6,8,football-data.co.uk
-2020-10-02,2021,Hibernian,Hamilton,3,2,7,2,football-data.co.uk
-2020-10-20,2021,Aberdeen,Hamilton,4,2,10,2,football-data.co.uk
-2020-11-08,2021,Rangers,Hamilton,8,0,7,0,football-data.co.uk
-2020-11-21,2021,Dundee United,Hamilton,2,1,2,1,football-data.co.uk
-2020-12-19,2021,Ross County,Hamilton,0,2,7,3,football-data.co.uk
-2020-12-30,2021,St Johnstone,Hamilton,0,0,9,1,football-data.co.uk
-2021-01-09,2021,Kilmarnock,Hamilton,2,0,5,3,football-data.co.uk
-2021-01-27,2021,Celtic,Hamilton,2,0,6,4,football-data.co.uk
-2021-02-13,2021,Motherwell,Hamilton,1,4,7,5,football-data.co.uk
-2021-02-17,2021,St Mirren,Hamilton,1,1,6,5,football-data.co.uk
-2021-02-20,2021,Hibernian,Hamilton,2,0,8,3,football-data.co.uk
-2021-03-06,2021,Aberdeen,Hamilton,0,0,4,4,football-data.co.uk
-2021-03-13,2021,Livingston,Hamilton,2,1,3,3,football-data.co.uk
-2021-05-01,2021,St Mirren,Hamilton,1,2,6,4,football-data.co.uk
-2021-05-12,2021,Ross County,Hamilton,2,1,0,8,football-data.co.uk
-2022-04-02,2122,Hibernian,Dundee United,1,1,7,4,football-data.co.uk
-2022-04-09,2122,Aberdeen,Ross County,0,1,3,1,football-data.co.uk
-2022-04-23,2122,Aberdeen,Livingston,1,2,12,6,football-data.co.uk
-2022-04-30,2122,Aberdeen,Dundee,1,0,6,6,football-data.co.uk
-2022-04-30,2122,Hearts,Ross County,0,0,7,1,football-data.co.uk
-2022-05-07,2122,St Mirren,Dundee,2,0,11,6,football-data.co.uk
-2022-05-08,2122,Rangers,Dundee United,2,0,8,1,football-data.co.uk
-2022-05-11,2122,Rangers,Ross County,4,1,8,1,football-data.co.uk
-2022-05-11,2122,St Mirren,Livingston,0,0,6,4,football-data.co.uk
-2022-05-15,2122,Hibernian,St Johnstone,4,0,4,6,football-data.co.uk
-2022-07-30,2223,Kilmarnock,Dundee United,1,1,4,4,football-data.co.uk
-2022-07-30,2223,Hearts,Ross County,2,1,4,2,football-data.co.uk
-2022-08-06,2223,Motherwell,St Johnstone,1,2,4,6,football-data.co.uk
-2022-08-13,2223,Rangers,St Johnstone,4,0,9,1,football-data.co.uk
-2022-08-13,2223,St Mirren,Ross County,1,0,6,5,football-data.co.uk
-2022-08-14,2223,Hearts,Dundee United,4,1,3,2,football-data.co.uk
-2022-08-20,2223,Motherwell,Livingston,1,0,2,1,football-data.co.uk
-2022-08-27,2223,Aberdeen,Livingston,5,0,8,3,football-data.co.uk
-2022-08-27,2223,Rangers,Ross County,4,0,7,1,football-data.co.uk
-2022-08-28,2223,Hearts,St Johnstone,3,2,3,4,football-data.co.uk
-2022-09-03,2223,Motherwell,Dundee United,0,0,3,6,football-data.co.uk
-2022-09-17,2223,Rangers,Dundee United,2,1,7,4,football-data.co.uk
-2022-10-01,2223,St Mirren,Livingston,2,1,6,7,football-data.co.uk
-2022-10-05,2223,Kilmarnock,St Johnstone,2,1,5,5,football-data.co.uk
-2022-10-21,2223,Hibernian,St Johnstone,1,2,1,1,football-data.co.uk
-2022-10-22,2223,St Mirren,Dundee United,2,1,6,6,football-data.co.uk
-2022-10-22,2223,Kilmarnock,Ross County,1,0,5,7,football-data.co.uk
-2022-10-22,2223,Rangers,Livingston,1,1,14,1,football-data.co.uk
-2022-11-04,2223,Kilmarnock,Livingston,2,3,5,4,football-data.co.uk
-2022-11-05,2223,Celtic,Dundee United,4,2,11,2,football-data.co.uk
-2022-11-08,2223,Hibernian,Ross County,0,2,4,3,football-data.co.uk
-2022-11-09,2223,St Mirren,St Johnstone,2,2,6,3,football-data.co.uk
-2022-11-12,2223,Aberdeen,Dundee United,1,0,3,3,football-data.co.uk
-2022-11-12,2223,Celtic,Ross County,2,1,9,0,football-data.co.uk
-2022-11-12,2223,Hearts,Livingston,1,1,11,6,football-data.co.uk
-2022-12-21,2223,Celtic,Livingston,2,1,10,1,football-data.co.uk
-2022-12-24,2223,Hibernian,Livingston,4,0,9,1,football-data.co.uk
-2022-12-24,2223,Celtic,St Johnstone,4,1,9,1,football-data.co.uk
-2023-01-02,2223,Aberdeen,Ross County,0,0,11,1,football-data.co.uk
-2023-01-07,2223,Aberdeen,St Johnstone,2,0,9,2,football-data.co.uk
-2023-01-14,2223,Hibernian,Dundee United,2,2,3,6,football-data.co.uk
-2023-01-14,2223,Motherwell,Ross County,1,1,7,3,football-data.co.uk
-2023-01-28,2223,Rangers,St Johnstone,2,0,9,3,football-data.co.uk
-2023-02-01,2223,Celtic,Livingston,3,0,8,0,football-data.co.uk
-2023-02-01,2223,Kilmarnock,Dundee United,1,0,7,2,football-data.co.uk
-2023-02-01,2223,Motherwell,St Johnstone,0,2,1,3,football-data.co.uk
-2023-02-04,2223,Rangers,Ross County,2,1,4,6,football-data.co.uk
-2023-02-04,2223,Hearts,Dundee United,3,1,10,3,football-data.co.uk
-2023-02-18,2223,St Mirren,Ross County,1,0,10,8,football-data.co.uk
-2023-02-25,2223,Aberdeen,Livingston,1,0,8,8,football-data.co.uk
-2023-03-04,2223,Hearts,St Johnstone,3,0,8,7,football-data.co.uk
-2023-03-18,2223,Kilmarnock,St Johnstone,1,1,9,5,football-data.co.uk
-2023-04-01,2223,St Mirren,Livingston,3,0,4,9,football-data.co.uk
-2023-04-01,2223,Rangers,Dundee United,2,0,10,2,football-data.co.uk
-2023-04-08,2223,Motherwell,Livingston,3,0,4,2,football-data.co.uk
-2023-04-15,2223,Hibernian,Hearts,1,0,5,7,football-data.co.uk
-2023-04-15,2223,Rangers,St Mirren,5,2,6,4,football-data.co.uk
-2023-04-22,2223,St Mirren,Kilmarnock,0,2,5,1,football-data.co.uk
-2023-04-22,2223,Hearts,Ross County,6,1,8,5,football-data.co.uk
+﻿fixture_id,date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+fd-0,2023-08-05T00:00:00Z,2023,Celtic,Ross County,4,2,4,8,football-data.co.uk
+fd-1,2023-08-05T00:00:00Z,2023,Dundee,Motherwell,1,1,7,12,football-data.co.uk
+fd-2,2023-08-05T00:00:00Z,2023,Livingston,Aberdeen,0,0,7,7,football-data.co.uk
+fd-3,2023-08-05T00:00:00Z,2023,St Johnstone,Hearts,0,2,6,9,football-data.co.uk
+fd-4,2023-08-05T00:00:00Z,2023,Kilmarnock,Rangers,1,0,2,8,football-data.co.uk
+fd-5,2023-08-06T00:00:00Z,2023,Hibernian,St Mirren,2,3,2,7,football-data.co.uk
+fd-6,2023-08-12T00:00:00Z,2023,Rangers,Livingston,4,0,5,4,football-data.co.uk
+fd-7,2023-08-12T00:00:00Z,2023,Ross County,St Johnstone,2,0,6,7,football-data.co.uk
+fd-8,2023-08-12T00:00:00Z,2023,St Mirren,Dundee,2,1,4,3,football-data.co.uk
+fd-9,2023-08-13T00:00:00Z,2023,Aberdeen,Celtic,1,3,9,9,football-data.co.uk
+fd-10,2023-08-13T00:00:00Z,2023,Hearts,Kilmarnock,0,0,6,5,football-data.co.uk
+fd-11,2023-08-13T00:00:00Z,2023,Motherwell,Hibernian,2,1,5,2,football-data.co.uk
+fd-12,2023-08-26T00:00:00Z,2023,Ross County,Rangers,0,2,4,8,football-data.co.uk
+fd-13,2023-08-26T00:00:00Z,2023,Celtic,St Johnstone,0,0,19,1,football-data.co.uk
+fd-14,2023-08-26T00:00:00Z,2023,Hibernian,Livingston,2,3,9,3,football-data.co.uk
+fd-15,2023-08-26T00:00:00Z,2023,Motherwell,Kilmarnock,2,1,1,6,football-data.co.uk
+fd-16,2023-08-27T00:00:00Z,2023,Dundee,Hearts,1,0,3,8,football-data.co.uk
+fd-17,2023-08-27T00:00:00Z,2023,St Mirren,Aberdeen,2,2,4,3,football-data.co.uk
+fd-18,2023-09-02T00:00:00Z,2023,Kilmarnock,Ross County,0,1,14,2,football-data.co.uk
+fd-19,2023-09-02T00:00:00Z,2023,Livingston,St Mirren,1,1,6,2,football-data.co.uk
+fd-20,2023-09-02T00:00:00Z,2023,St Johnstone,Dundee,2,2,4,6,football-data.co.uk
+fd-21,2023-09-03T00:00:00Z,2023,Rangers,Celtic,0,1,6,2,football-data.co.uk
+fd-22,2023-09-03T00:00:00Z,2023,Aberdeen,Hibernian,0,2,7,5,football-data.co.uk
+fd-23,2023-09-03T00:00:00Z,2023,Hearts,Motherwell,0,1,16,5,football-data.co.uk
+fd-24,2023-09-16T00:00:00Z,2023,St Johnstone,Rangers,0,2,3,5,football-data.co.uk
+fd-25,2023-09-16T00:00:00Z,2023,Celtic,Dundee,3,0,9,1,football-data.co.uk
+fd-26,2023-09-16T00:00:00Z,2023,Hearts,Aberdeen,2,0,9,3,football-data.co.uk
+fd-27,2023-09-16T00:00:00Z,2023,Kilmarnock,Hibernian,2,2,4,4,football-data.co.uk
+fd-28,2023-09-16T00:00:00Z,2023,Motherwell,St Mirren,0,1,8,3,football-data.co.uk
+fd-29,2023-09-16T00:00:00Z,2023,Ross County,Livingston,1,1,6,2,football-data.co.uk
+fd-30,2023-09-23T00:00:00Z,2023,Livingston,Celtic,0,3,2,4,football-data.co.uk
+fd-31,2023-09-23T00:00:00Z,2023,Dundee,Kilmarnock,2,2,4,7,football-data.co.uk
+fd-32,2023-09-23T00:00:00Z,2023,Hibernian,St Johnstone,2,0,4,4,football-data.co.uk
+fd-33,2023-09-23T00:00:00Z,2023,St Mirren,Hearts,1,0,4,8,football-data.co.uk
+fd-34,2023-09-24T00:00:00Z,2023,Aberdeen,Ross County,4,0,5,5,football-data.co.uk
+fd-35,2023-09-24T00:00:00Z,2023,Rangers,Motherwell,1,0,2,2,football-data.co.uk
+fd-36,2023-09-30T00:00:00Z,2023,Motherwell,Celtic,1,2,4,6,football-data.co.uk
+fd-37,2023-09-30T00:00:00Z,2023,Hibernian,Dundee,0,0,14,1,football-data.co.uk
+fd-38,2023-09-30T00:00:00Z,2023,Kilmarnock,St Mirren,1,1,7,6,football-data.co.uk
+fd-39,2023-09-30T00:00:00Z,2023,Rangers,Aberdeen,1,3,5,8,football-data.co.uk
+fd-40,2023-09-30T00:00:00Z,2023,Ross County,Hearts,0,1,5,5,football-data.co.uk
+fd-41,2023-09-30T00:00:00Z,2023,St Johnstone,Livingston,1,1,5,2,football-data.co.uk
+fd-42,2023-10-07T00:00:00Z,2023,Celtic,Kilmarnock,3,1,11,1,football-data.co.uk
+fd-43,2023-10-07T00:00:00Z,2023,Hearts,Hibernian,2,2,7,4,football-data.co.uk
+fd-44,2023-10-07T00:00:00Z,2023,Livingston,Motherwell,2,0,3,5,football-data.co.uk
+fd-45,2023-10-08T00:00:00Z,2023,St Mirren,Rangers,0,3,3,10,football-data.co.uk
+fd-46,2023-10-08T00:00:00Z,2023,Aberdeen,St Johnstone,0,0,5,3,football-data.co.uk
+fd-47,2023-10-21T00:00:00Z,2023,Kilmarnock,Livingston,3,1,5,4,football-data.co.uk
+fd-48,2023-10-21T00:00:00Z,2023,Rangers,Hibernian,4,0,5,4,football-data.co.uk
+fd-49,2023-10-22T00:00:00Z,2023,Hearts,Celtic,1,4,3,5,football-data.co.uk
+fd-50,2023-10-24T00:00:00Z,2023,Dundee,Ross County,0,0,7,4,football-data.co.uk
+fd-51,2023-10-28T00:00:00Z,2023,Hibernian,Celtic,0,0,3,6,football-data.co.uk
+fd-52,2023-10-28T00:00:00Z,2023,Livingston,Dundee,0,2,1,5,football-data.co.uk
+fd-53,2023-10-28T00:00:00Z,2023,Motherwell,Ross County,3,3,6,4,football-data.co.uk
+fd-54,2023-10-28T00:00:00Z,2023,St Mirren,St Johnstone,4,0,4,8,football-data.co.uk
+fd-55,2023-10-29T00:00:00Z,2023,Kilmarnock,Aberdeen,2,0,9,3,football-data.co.uk
+fd-56,2023-10-29T00:00:00Z,2023,Rangers,Hearts,2,1,11,2,football-data.co.uk
+fd-57,2023-10-31T00:00:00Z,2023,Hibernian,Ross County,2,2,5,5,football-data.co.uk
+fd-58,2023-11-01T00:00:00Z,2023,Celtic,St Mirren,2,1,12,2,football-data.co.uk
+fd-59,2023-11-01T00:00:00Z,2023,Dundee,Rangers,0,5,6,7,football-data.co.uk
+fd-60,2023-11-01T00:00:00Z,2023,Hearts,Livingston,1,0,12,1,football-data.co.uk
+fd-61,2023-11-01T00:00:00Z,2023,Motherwell,Aberdeen,2,4,1,4,football-data.co.uk
+fd-62,2023-11-01T00:00:00Z,2023,St Johnstone,Kilmarnock,2,1,5,12,football-data.co.uk
+fd-63,2023-11-04T00:00:00Z,2023,Ross County,Celtic,0,3,2,13,football-data.co.uk
+fd-64,2023-11-04T00:00:00Z,2023,Kilmarnock,Motherwell,1,0,9,3,football-data.co.uk
+fd-65,2023-11-05T00:00:00Z,2023,Dundee,Livingston,1,0,5,12,football-data.co.uk
+fd-66,2023-11-07T00:00:00Z,2023,St Johnstone,Motherwell,2,2,6,7,football-data.co.uk
+fd-67,2023-11-08T00:00:00Z,2023,St Mirren,Hibernian,2,2,3,1,football-data.co.uk
+fd-68,2023-11-11T00:00:00Z,2023,Dundee,St Mirren,4,0,7,4,football-data.co.uk
+fd-69,2023-11-11T00:00:00Z,2023,Hibernian,Kilmarnock,1,0,5,10,football-data.co.uk
+fd-70,2023-11-11T00:00:00Z,2023,Motherwell,Hearts,1,2,4,10,football-data.co.uk
+fd-71,2023-11-11T00:00:00Z,2023,St Johnstone,Ross County,1,0,3,4,football-data.co.uk
+fd-72,2023-11-12T00:00:00Z,2023,Livingston,Rangers,0,2,3,9,football-data.co.uk
+fd-73,2023-11-12T00:00:00Z,2023,Celtic,Aberdeen,6,0,11,0,football-data.co.uk
+fd-74,2023-11-25T00:00:00Z,2023,Celtic,Motherwell,1,1,13,2,football-data.co.uk
+fd-75,2023-11-25T00:00:00Z,2023,Dundee,Hibernian,1,2,7,3,football-data.co.uk
+fd-76,2023-11-25T00:00:00Z,2023,Hearts,St Johnstone,1,0,6,5,football-data.co.uk
+fd-77,2023-11-25T00:00:00Z,2023,Ross County,Kilmarnock,0,0,9,5,football-data.co.uk
+fd-78,2023-11-25T00:00:00Z,2023,St Mirren,Livingston,1,0,7,3,football-data.co.uk
+fd-79,2023-11-26T00:00:00Z,2023,Aberdeen,Rangers,1,1,0,5,football-data.co.uk
+fd-80,2023-11-28T00:00:00Z,2023,Ross County,St Mirren,1,0,7,5,football-data.co.uk
+fd-81,2023-12-02T00:00:00Z,2023,Kilmarnock,Hearts,0,1,7,3,football-data.co.uk
+fd-82,2023-12-02T00:00:00Z,2023,Motherwell,Dundee,3,3,4,4,football-data.co.uk
+fd-83,2023-12-03T00:00:00Z,2023,St Johnstone,Celtic,1,3,2,12,football-data.co.uk
+fd-84,2023-12-03T00:00:00Z,2023,Hibernian,Aberdeen,2,0,6,6,football-data.co.uk
+fd-85,2023-12-03T00:00:00Z,2023,Rangers,St Mirren,2,0,8,5,football-data.co.uk
+fd-86,2023-12-05T00:00:00Z,2023,Ross County,Motherwell,3,0,6,3,football-data.co.uk
+fd-87,2023-12-06T00:00:00Z,2023,Aberdeen,Kilmarnock,0,1,4,5,football-data.co.uk
+fd-88,2023-12-06T00:00:00Z,2023,Celtic,Hibernian,4,1,11,4,football-data.co.uk
+fd-89,2023-12-06T00:00:00Z,2023,St Johnstone,St Mirren,1,0,0,7,football-data.co.uk
+fd-90,2023-12-06T00:00:00Z,2023,Hearts,Rangers,0,1,6,5,football-data.co.uk
+fd-91,2023-12-09T00:00:00Z,2023,Aberdeen,Hearts,2,1,3,8,football-data.co.uk
+fd-92,2023-12-09T00:00:00Z,2023,Livingston,Hibernian,0,1,6,0,football-data.co.uk
+fd-93,2023-12-09T00:00:00Z,2023,Motherwell,St Johnstone,1,1,3,2,football-data.co.uk
+fd-94,2023-12-09T00:00:00Z,2023,Rangers,Dundee,3,1,5,7,football-data.co.uk
+fd-95,2023-12-09T00:00:00Z,2023,St Mirren,Ross County,2,0,10,4,football-data.co.uk
+fd-96,2023-12-10T00:00:00Z,2023,Kilmarnock,Celtic,2,1,5,9,football-data.co.uk
+fd-97,2023-12-16T00:00:00Z,2023,Celtic,Hearts,0,2,18,3,football-data.co.uk
+fd-98,2023-12-16T00:00:00Z,2023,Livingston,Kilmarnock,0,0,0,8,football-data.co.uk
+fd-99,2023-12-16T00:00:00Z,2023,Ross County,Dundee,0,1,2,9,football-data.co.uk
+fd-100,2023-12-16T00:00:00Z,2023,St Johnstone,Hibernian,1,0,5,5,football-data.co.uk
+fd-101,2023-12-16T00:00:00Z,2023,St Mirren,Motherwell,0,0,6,4,football-data.co.uk
+fd-102,2023-12-20T00:00:00Z,2023,Aberdeen,Livingston,2,1,1,3,football-data.co.uk
+fd-103,2023-12-20T00:00:00Z,2023,Rangers,St Johnstone,2,0,10,2,football-data.co.uk
+fd-104,2023-12-23T00:00:00Z,2023,Celtic,Livingston,2,0,14,0,football-data.co.uk
+fd-105,2023-12-23T00:00:00Z,2023,Hearts,St Mirren,2,0,8,6,football-data.co.uk
+fd-106,2023-12-23T00:00:00Z,2023,Kilmarnock,St Johnstone,2,1,5,1,football-data.co.uk
+fd-107,2023-12-24T00:00:00Z,2023,Motherwell,Rangers,0,2,3,5,football-data.co.uk
+fd-108,2023-12-26T00:00:00Z,2023,Dundee,Celtic,0,3,1,23,football-data.co.uk
+fd-109,2023-12-27T00:00:00Z,2023,Livingston,St Johnstone,0,0,6,3,football-data.co.uk
+fd-110,2023-12-27T00:00:00Z,2023,St Mirren,Kilmarnock,0,1,4,4,football-data.co.uk
+fd-111,2023-12-27T00:00:00Z,2023,Hibernian,Hearts,0,1,6,5,football-data.co.uk
+fd-112,2023-12-30T00:00:00Z,2023,Celtic,Rangers,2,1,4,2,football-data.co.uk
+fd-113,2023-12-30T00:00:00Z,2023,Aberdeen,St Mirren,0,3,13,2,football-data.co.uk
+fd-114,2023-12-30T00:00:00Z,2023,Hearts,Ross County,2,2,9,5,football-data.co.uk
+fd-115,2023-12-30T00:00:00Z,2023,Kilmarnock,Dundee,2,2,7,8,football-data.co.uk
+fd-116,2023-12-30T00:00:00Z,2023,Motherwell,Livingston,3,1,4,3,football-data.co.uk
+fd-117,2024-01-02T00:00:00Z,2023,Hibernian,Motherwell,2,2,7,3,football-data.co.uk
+fd-118,2024-01-02T00:00:00Z,2023,Livingston,Hearts,1,2,2,3,football-data.co.uk
+fd-119,2024-01-02T00:00:00Z,2023,Rangers,Kilmarnock,3,1,7,5,football-data.co.uk
+fd-120,2024-01-02T00:00:00Z,2023,Ross County,Aberdeen,0,3,4,5,football-data.co.uk
+fd-121,2024-01-02T00:00:00Z,2023,St Mirren,Celtic,0,3,1,12,football-data.co.uk
+fd-122,2024-01-23T00:00:00Z,2023,Hearts,Dundee,3,2,7,1,football-data.co.uk
+fd-123,2024-01-24T00:00:00Z,2023,Hibernian,Rangers,0,3,4,10,football-data.co.uk
+fd-124,2024-01-24T00:00:00Z,2023,St Johnstone,Aberdeen,1,1,1,4,football-data.co.uk
+fd-125,2024-01-27T00:00:00Z,2023,St Mirren,Rangers,0,1,4,3,football-data.co.uk
+fd-126,2024-01-27T00:00:00Z,2023,Celtic,Ross County,1,0,7,7,football-data.co.uk
+fd-127,2024-01-27T00:00:00Z,2023,Hearts,Aberdeen,2,0,7,7,football-data.co.uk
+fd-128,2024-01-27T00:00:00Z,2023,Kilmarnock,Hibernian,2,2,7,3,football-data.co.uk
+fd-129,2024-01-27T00:00:00Z,2023,Livingston,Dundee,1,4,5,3,football-data.co.uk
+fd-130,2024-01-27T00:00:00Z,2023,St Johnstone,Motherwell,1,1,0,6,football-data.co.uk
+fd-131,2024-01-30T00:00:00Z,2023,Aberdeen,Dundee,1,1,0,3,football-data.co.uk
+fd-132,2024-01-30T00:00:00Z,2023,Livingston,Ross County,2,2,5,3,football-data.co.uk
+fd-133,2024-02-03T00:00:00Z,2023,Aberdeen,Celtic,1,1,1,12,football-data.co.uk
+fd-134,2024-02-03T00:00:00Z,2023,Dundee,Hearts,2,3,8,5,football-data.co.uk
+fd-135,2024-02-03T00:00:00Z,2023,Hibernian,St Mirren,0,3,6,7,football-data.co.uk
+fd-136,2024-02-03T00:00:00Z,2023,Motherwell,Kilmarnock,1,1,6,5,football-data.co.uk
+fd-137,2024-02-03T00:00:00Z,2023,Rangers,Livingston,3,0,14,0,football-data.co.uk
+fd-138,2024-02-03T00:00:00Z,2023,Ross County,St Johnstone,0,1,8,4,football-data.co.uk
+fd-139,2024-02-06T00:00:00Z,2023,Motherwell,Ross County,5,0,3,6,football-data.co.uk
+fd-140,2024-02-06T00:00:00Z,2023,Rangers,Aberdeen,2,1,13,2,football-data.co.uk
+fd-141,2024-02-07T00:00:00Z,2023,Kilmarnock,Livingston,1,0,9,2,football-data.co.uk
+fd-142,2024-02-07T00:00:00Z,2023,St Johnstone,Hearts,0,1,2,4,football-data.co.uk
+fd-143,2024-02-07T00:00:00Z,2023,St Mirren,Dundee,2,0,6,5,football-data.co.uk
+fd-144,2024-02-07T00:00:00Z,2023,Hibernian,Celtic,1,2,4,5,football-data.co.uk
+fd-145,2024-02-11T00:00:00Z,2023,Dundee,St Johnstone,2,1,13,7,football-data.co.uk
+fd-146,2024-02-14T00:00:00Z,2023,Aberdeen,Motherwell,3,3,7,3,football-data.co.uk
+fd-147,2024-02-14T00:00:00Z,2023,Rangers,Ross County,3,1,20,3,football-data.co.uk
+fd-148,2024-02-17T00:00:00Z,2023,Aberdeen,Hibernian,2,2,4,2,football-data.co.uk
+fd-149,2024-02-17T00:00:00Z,2023,Celtic,Kilmarnock,1,1,8,4,football-data.co.uk
+fd-150,2024-02-17T00:00:00Z,2023,Dundee,Ross County,2,0,6,2,football-data.co.uk
+fd-151,2024-02-17T00:00:00Z,2023,Hearts,Motherwell,2,0,9,7,football-data.co.uk
+fd-152,2024-02-17T00:00:00Z,2023,Livingston,St Mirren,1,0,4,9,football-data.co.uk
+fd-153,2024-02-18T00:00:00Z,2023,St Johnstone,Rangers,0,3,3,1,football-data.co.uk
+fd-154,2024-02-24T00:00:00Z,2023,Hibernian,Dundee,2,1,10,2,football-data.co.uk
+fd-155,2024-02-24T00:00:00Z,2023,Kilmarnock,Aberdeen,2,0,5,3,football-data.co.uk
+fd-156,2024-02-24T00:00:00Z,2023,Rangers,Hearts,5,0,4,2,football-data.co.uk
+fd-157,2024-02-24T00:00:00Z,2023,Ross County,Livingston,3,2,6,4,football-data.co.uk
+fd-158,2024-02-24T00:00:00Z,2023,St Mirren,St Johnstone,2,0,5,6,football-data.co.uk
+fd-159,2024-02-25T00:00:00Z,2023,Motherwell,Celtic,1,3,4,4,football-data.co.uk
+fd-160,2024-02-27T00:00:00Z,2023,Ross County,St Mirren,1,1,3,4,football-data.co.uk
+fd-161,2024-02-28T00:00:00Z,2023,Aberdeen,St Johnstone,0,2,11,7,football-data.co.uk
+fd-162,2024-02-28T00:00:00Z,2023,Celtic,Dundee,7,1,5,5,football-data.co.uk
+fd-163,2024-02-28T00:00:00Z,2023,Hearts,Hibernian,1,1,4,9,football-data.co.uk
+fd-164,2024-02-28T00:00:00Z,2023,Kilmarnock,Rangers,1,2,8,6,football-data.co.uk
+fd-165,2024-02-28T00:00:00Z,2023,Livingston,Motherwell,1,3,1,4,football-data.co.uk
+fd-166,2024-03-02T00:00:00Z,2023,Dundee,Kilmarnock,2,2,4,6,football-data.co.uk
+fd-167,2024-03-02T00:00:00Z,2023,Hibernian,Ross County,2,0,8,2,football-data.co.uk
+fd-168,2024-03-02T00:00:00Z,2023,Rangers,Motherwell,1,2,15,2,football-data.co.uk
+fd-169,2024-03-02T00:00:00Z,2023,St Johnstone,Livingston,1,1,2,2,football-data.co.uk
+fd-170,2024-03-02T00:00:00Z,2023,St Mirren,Aberdeen,2,1,3,2,football-data.co.uk
+fd-171,2024-03-03T00:00:00Z,2023,Hearts,Celtic,2,0,7,7,football-data.co.uk
+fd-172,2024-03-13T00:00:00Z,2023,Dundee,Aberdeen,1,0,6,4,football-data.co.uk
+fd-173,2024-03-13T00:00:00Z,2023,Ross County,Hibernian,2,2,2,6,football-data.co.uk
+fd-174,2024-03-16T00:00:00Z,2023,Celtic,St Johnstone,3,1,10,2,football-data.co.uk
+fd-175,2024-03-16T00:00:00Z,2023,Hibernian,Livingston,3,0,3,2,football-data.co.uk
+fd-176,2024-03-16T00:00:00Z,2023,Kilmarnock,St Mirren,5,2,1,3,football-data.co.uk
+fd-177,2024-03-16T00:00:00Z,2023,Motherwell,Aberdeen,0,1,6,6,football-data.co.uk
+fd-178,2024-03-16T00:00:00Z,2023,Ross County,Hearts,2,1,2,15,football-data.co.uk
+fd-179,2024-03-30T00:00:00Z,2023,Aberdeen,Ross County,2,1,2,8,football-data.co.uk
+fd-180,2024-03-30T00:00:00Z,2023,Hearts,Kilmarnock,1,1,7,7,football-data.co.uk
+fd-181,2024-03-30T00:00:00Z,2023,Motherwell,St Mirren,1,1,4,4,football-data.co.uk
+fd-182,2024-03-30T00:00:00Z,2023,Rangers,Hibernian,3,1,9,4,football-data.co.uk
+fd-183,2024-03-30T00:00:00Z,2023,St Johnstone,Dundee,1,2,11,2,football-data.co.uk
+fd-184,2024-03-31T00:00:00Z,2023,Livingston,Celtic,0,3,0,8,football-data.co.uk
+fd-185,2024-04-06T00:00:00Z,2023,Dundee,Motherwell,2,3,3,11,football-data.co.uk
+fd-186,2024-04-06T00:00:00Z,2023,Hibernian,St Johnstone,1,2,13,3,football-data.co.uk
+fd-187,2024-04-06T00:00:00Z,2023,Kilmarnock,Ross County,1,0,4,3,football-data.co.uk
+fd-188,2024-04-06T00:00:00Z,2023,Livingston,Aberdeen,0,0,2,5,football-data.co.uk
+fd-189,2024-04-06T00:00:00Z,2023,St Mirren,Hearts,1,2,8,7,football-data.co.uk
+fd-190,2024-04-07T00:00:00Z,2023,Rangers,Celtic,3,3,3,2,football-data.co.uk
+fd-191,2024-04-13T00:00:00Z,2023,Aberdeen,Dundee,0,0,3,5,football-data.co.uk
+fd-192,2024-04-13T00:00:00Z,2023,Celtic,St Mirren,3,0,11,1,football-data.co.uk
+fd-193,2024-04-13T00:00:00Z,2023,Hearts,Livingston,4,2,5,5,football-data.co.uk
+fd-194,2024-04-13T00:00:00Z,2023,Motherwell,Hibernian,1,1,4,6,football-data.co.uk
+fd-195,2024-04-13T00:00:00Z,2023,St Johnstone,Kilmarnock,0,2,2,6,football-data.co.uk
+fd-196,2024-04-14T00:00:00Z,2023,Ross County,Rangers,3,2,3,17,football-data.co.uk
+fd-197,2024-04-17T00:00:00Z,2023,Dundee,Rangers,0,0,2,9,football-data.co.uk
+fd-198,2024-04-27T00:00:00Z,2023,Aberdeen,Motherwell,1,0,10,7,football-data.co.uk
+fd-199,2024-04-27T00:00:00Z,2023,Kilmarnock,Hearts,0,0,8,4,football-data.co.uk
+fd-200,2024-04-27T00:00:00Z,2023,Livingston,Ross County,2,0,4,5,football-data.co.uk
+fd-201,2024-04-27T00:00:00Z,2023,St Johnstone,Hibernian,1,3,1,7,football-data.co.uk
+fd-202,2024-04-28T00:00:00Z,2023,St Mirren,Rangers,1,2,4,8,football-data.co.uk
+fd-203,2024-04-28T00:00:00Z,2023,Dundee,Celtic,1,2,8,8,football-data.co.uk
+fd-204,2024-05-04T00:00:00Z,2023,Aberdeen,St Johnstone,1,0,7,4,football-data.co.uk
+fd-205,2024-05-04T00:00:00Z,2023,Celtic,Hearts,3,0,17,8,football-data.co.uk
+fd-206,2024-05-04T00:00:00Z,2023,Dundee,St Mirren,1,3,4,8,football-data.co.uk
+fd-207,2024-05-04T00:00:00Z,2023,Motherwell,Livingston,4,1,6,2,football-data.co.uk
+fd-208,2024-05-04T00:00:00Z,2023,Ross County,Hibernian,2,1,5,7,football-data.co.uk
+fd-209,2024-05-05T00:00:00Z,2023,Rangers,Kilmarnock,4,1,16,1,football-data.co.uk
+fd-210,2024-05-11T00:00:00Z,2023,Celtic,Rangers,2,1,10,5,football-data.co.uk
+fd-211,2024-05-11T00:00:00Z,2023,Hearts,Dundee,3,0,2,5,football-data.co.uk
+fd-212,2024-05-11T00:00:00Z,2023,Livingston,St Johnstone,2,1,4,8,football-data.co.uk
+fd-213,2024-05-11T00:00:00Z,2023,Ross County,Motherwell,1,5,8,5,football-data.co.uk
+fd-214,2024-05-11T00:00:00Z,2023,St Mirren,Kilmarnock,0,1,8,5,football-data.co.uk
+fd-215,2024-05-12T00:00:00Z,2023,Hibernian,Aberdeen,0,4,8,3,football-data.co.uk
+fd-216,2024-05-14T00:00:00Z,2023,Rangers,Dundee,5,2,6,5,football-data.co.uk
+fd-217,2024-05-15T00:00:00Z,2023,Kilmarnock,Celtic,0,5,2,9,football-data.co.uk
+fd-218,2024-05-15T00:00:00Z,2023,Aberdeen,Livingston,5,1,6,3,football-data.co.uk
+fd-219,2024-05-15T00:00:00Z,2023,Hibernian,Motherwell,3,0,8,4,football-data.co.uk
+fd-220,2024-05-15T00:00:00Z,2023,St Johnstone,Ross County,1,1,4,4,football-data.co.uk
+fd-221,2024-05-15T00:00:00Z,2023,St Mirren,Hearts,2,2,4,3,football-data.co.uk
+fd-222,2024-05-18T00:00:00Z,2023,Celtic,St Mirren,3,2,11,3,football-data.co.uk
+fd-223,2024-05-18T00:00:00Z,2023,Dundee,Kilmarnock,1,1,4,3,football-data.co.uk
+fd-224,2024-05-18T00:00:00Z,2023,Hearts,Rangers,3,3,2,6,football-data.co.uk
+fd-225,2024-05-19T00:00:00Z,2023,Livingston,Hibernian,1,1,4,9,football-data.co.uk
+fd-226,2024-05-19T00:00:00Z,2023,Motherwell,St Johnstone,1,2,7,3,football-data.co.uk
+fd-227,2024-05-19T00:00:00Z,2023,Ross County,Aberdeen,2,2,3,7,football-data.co.uk
+fd-0,2024-08-03T00:00:00Z,2024,Hearts,Rangers,0,0,8,7,football-data.co.uk
+fd-1,2024-08-03T00:00:00Z,2024,Motherwell,Ross County,0,0,9,3,football-data.co.uk
+fd-2,2024-08-04T00:00:00Z,2024,Dundee United,Dundee,2,2,5,6,football-data.co.uk
+fd-3,2024-08-04T00:00:00Z,2024,St Mirren,Hibernian,3,0,4,8,football-data.co.uk
+fd-4,2024-08-04T00:00:00Z,2024,Celtic,Kilmarnock,4,0,10,1,football-data.co.uk
+fd-5,2024-08-05T00:00:00Z,2024,St Johnstone,Aberdeen,1,2,12,7,football-data.co.uk
+fd-6,2024-08-10T00:00:00Z,2024,Rangers,Motherwell,2,1,6,4,football-data.co.uk
+fd-7,2024-08-10T00:00:00Z,2024,Ross County,Dundee United,1,1,7,5,football-data.co.uk
+fd-8,2024-08-10T00:00:00Z,2024,Dundee,Hearts,3,1,2,10,football-data.co.uk
+fd-9,2024-08-11T00:00:00Z,2024,Hibernian,Celtic,0,2,3,5,football-data.co.uk
+fd-10,2024-08-11T00:00:00Z,2024,Aberdeen,St Mirren,3,1,6,2,football-data.co.uk
+fd-11,2024-08-11T00:00:00Z,2024,Kilmarnock,St Johnstone,0,3,4,4,football-data.co.uk
+fd-12,2024-08-24T00:00:00Z,2024,Dundee United,St Johnstone,2,0,2,6,football-data.co.uk
+fd-13,2024-08-24T00:00:00Z,2024,Hibernian,Dundee,2,2,5,4,football-data.co.uk
+fd-14,2024-08-24T00:00:00Z,2024,Rangers,Ross County,6,0,5,0,football-data.co.uk
+fd-15,2024-08-25T00:00:00Z,2024,St Mirren,Celtic,0,3,2,10,football-data.co.uk
+fd-16,2024-08-25T00:00:00Z,2024,Aberdeen,Kilmarnock,2,0,8,6,football-data.co.uk
+fd-17,2024-08-25T00:00:00Z,2024,Motherwell,Hearts,3,1,8,7,football-data.co.uk
+fd-18,2024-08-31T00:00:00Z,2024,Dundee,St Mirren,2,2,6,1,football-data.co.uk
+fd-19,2024-08-31T00:00:00Z,2024,St Johnstone,Motherwell,1,2,4,13,football-data.co.uk
+fd-20,2024-08-31T00:00:00Z,2024,Ross County,Aberdeen,0,1,1,12,football-data.co.uk
+fd-21,2024-09-01T00:00:00Z,2024,Celtic,Rangers,3,0,7,4,football-data.co.uk
+fd-22,2024-09-01T00:00:00Z,2024,Hearts,Dundee United,0,1,6,4,football-data.co.uk
+fd-23,2024-09-01T00:00:00Z,2024,Kilmarnock,Hibernian,1,1,4,7,football-data.co.uk
+fd-24,2024-09-14T00:00:00Z,2024,Aberdeen,Motherwell,2,1,6,5,football-data.co.uk
+fd-25,2024-09-14T00:00:00Z,2024,Celtic,Hearts,2,0,5,3,football-data.co.uk
+fd-26,2024-09-14T00:00:00Z,2024,Hibernian,St Johnstone,2,0,5,7,football-data.co.uk
+fd-27,2024-09-14T00:00:00Z,2024,Ross County,Dundee,2,0,3,8,football-data.co.uk
+fd-28,2024-09-14T00:00:00Z,2024,St Mirren,Kilmarnock,2,2,3,10,football-data.co.uk
+fd-29,2024-09-15T00:00:00Z,2024,Dundee United,Rangers,0,1,4,4,football-data.co.uk
+fd-30,2024-09-21T00:00:00Z,2024,Ross County,St Johnstone,3,3,1,3,football-data.co.uk
+fd-31,2024-09-21T00:00:00Z,2024,St Mirren,Hearts,2,1,5,4,football-data.co.uk
+fd-32,2024-09-28T00:00:00Z,2024,Dundee,Aberdeen,1,2,10,4,football-data.co.uk
+fd-33,2024-09-28T00:00:00Z,2024,Hearts,Ross County,1,1,11,5,football-data.co.uk
+fd-34,2024-09-28T00:00:00Z,2024,Kilmarnock,Dundee United,3,3,7,3,football-data.co.uk
+fd-35,2024-09-28T00:00:00Z,2024,Motherwell,St Mirren,2,1,9,6,football-data.co.uk
+fd-36,2024-09-28T00:00:00Z,2024,St Johnstone,Celtic,0,6,3,13,football-data.co.uk
+fd-37,2024-09-29T00:00:00Z,2024,Rangers,Hibernian,1,0,4,7,football-data.co.uk
+fd-38,2024-10-05T00:00:00Z,2024,Dundee,Kilmarnock,2,3,2,10,football-data.co.uk
+fd-39,2024-10-05T00:00:00Z,2024,Hibernian,Motherwell,1,2,10,5,football-data.co.uk
+fd-40,2024-10-05T00:00:00Z,2024,St Mirren,Dundee United,0,1,3,3,football-data.co.uk
+fd-41,2024-10-06T00:00:00Z,2024,Ross County,Celtic,1,2,1,9,football-data.co.uk
+fd-42,2024-10-06T00:00:00Z,2024,Aberdeen,Hearts,3,2,2,5,football-data.co.uk
+fd-43,2024-10-06T00:00:00Z,2024,Rangers,St Johnstone,2,0,7,3,football-data.co.uk
+fd-44,2024-10-19T00:00:00Z,2024,Celtic,Aberdeen,2,2,19,2,football-data.co.uk
+fd-45,2024-10-19T00:00:00Z,2024,Dundee United,Hibernian,3,2,5,5,football-data.co.uk
+fd-46,2024-10-19T00:00:00Z,2024,Hearts,St Mirren,4,0,1,6,football-data.co.uk
+fd-47,2024-10-19T00:00:00Z,2024,Motherwell,Dundee,0,1,3,5,football-data.co.uk
+fd-48,2024-10-19T00:00:00Z,2024,St Johnstone,Ross County,3,0,5,3,football-data.co.uk
+fd-49,2024-10-20T00:00:00Z,2024,Kilmarnock,Rangers,1,0,1,6,football-data.co.uk
+fd-50,2024-10-26T00:00:00Z,2024,Dundee,St Johnstone,1,2,2,3,football-data.co.uk
+fd-51,2024-10-26T00:00:00Z,2024,Ross County,Kilmarnock,2,1,5,5,football-data.co.uk
+fd-52,2024-10-26T00:00:00Z,2024,Aberdeen,Dundee United,1,0,8,2,football-data.co.uk
+fd-53,2024-10-27T00:00:00Z,2024,Hibernian,Hearts,1,1,1,6,football-data.co.uk
+fd-54,2024-10-27T00:00:00Z,2024,Motherwell,Celtic,0,3,3,10,football-data.co.uk
+fd-55,2024-10-27T00:00:00Z,2024,Rangers,St Mirren,2,1,7,3,football-data.co.uk
+fd-56,2024-10-30T00:00:00Z,2024,Celtic,Dundee,2,0,7,2,football-data.co.uk
+fd-57,2024-10-30T00:00:00Z,2024,Dundee United,Motherwell,1,2,11,3,football-data.co.uk
+fd-58,2024-10-30T00:00:00Z,2024,Hearts,Kilmarnock,1,2,10,1,football-data.co.uk
+fd-59,2024-10-30T00:00:00Z,2024,Ross County,Hibernian,0,0,4,2,football-data.co.uk
+fd-60,2024-10-30T00:00:00Z,2024,St Mirren,St Johnstone,3,1,9,2,football-data.co.uk
+fd-61,2024-10-30T00:00:00Z,2024,Aberdeen,Rangers,2,1,4,6,football-data.co.uk
+fd-62,2024-11-02T00:00:00Z,2024,St Johnstone,Hearts,1,2,6,9,football-data.co.uk
+fd-63,2024-11-02T00:00:00Z,2024,St Mirren,Ross County,0,0,6,5,football-data.co.uk
+fd-64,2024-11-03T00:00:00Z,2024,Dundee,Kilmarnock,3,2,7,1,football-data.co.uk
+fd-65,2024-11-03T00:00:00Z,2024,Hibernian,Dundee United,1,1,13,2,football-data.co.uk
+fd-66,2024-11-09T00:00:00Z,2024,Dundee United,Ross County,3,0,5,3,football-data.co.uk
+fd-67,2024-11-09T00:00:00Z,2024,Hibernian,St Mirren,1,2,5,5,football-data.co.uk
+fd-68,2024-11-09T00:00:00Z,2024,Motherwell,St Johnstone,2,1,3,3,football-data.co.uk
+fd-69,2024-11-09T00:00:00Z,2024,Aberdeen,Dundee,4,1,7,4,football-data.co.uk
+fd-70,2024-11-10T00:00:00Z,2024,Kilmarnock,Celtic,0,2,6,4,football-data.co.uk
+fd-71,2024-11-10T00:00:00Z,2024,Rangers,Hearts,1,0,9,6,football-data.co.uk
+fd-72,2024-11-23T00:00:00Z,2024,St Johnstone,Kilmarnock,1,0,4,14,football-data.co.uk
+fd-73,2024-11-23T00:00:00Z,2024,Ross County,Motherwell,2,1,12,3,football-data.co.uk
+fd-74,2024-11-23T00:00:00Z,2024,Rangers,Dundee United,1,1,9,1,football-data.co.uk
+fd-75,2024-11-23T00:00:00Z,2024,St Mirren,Aberdeen,2,1,7,3,football-data.co.uk
+fd-76,2024-11-23T00:00:00Z,2024,Dundee,Hibernian,4,1,8,2,football-data.co.uk
+fd-77,2024-11-23T00:00:00Z,2024,Hearts,Celtic,1,4,1,6,football-data.co.uk
+fd-78,2024-11-26T00:00:00Z,2024,Hibernian,Aberdeen,3,3,9,6,football-data.co.uk
+fd-79,2024-11-30T00:00:00Z,2024,Celtic,Ross County,5,0,19,0,football-data.co.uk
+fd-80,2024-11-30T00:00:00Z,2024,Dundee United,St Mirren,2,0,4,8,football-data.co.uk
+fd-81,2024-11-30T00:00:00Z,2024,Kilmarnock,Dundee,1,1,6,3,football-data.co.uk
+fd-82,2024-11-30T00:00:00Z,2024,Motherwell,Hibernian,0,3,3,4,football-data.co.uk
+fd-83,2024-12-01T00:00:00Z,2024,St Johnstone,Rangers,0,1,3,5,football-data.co.uk
+fd-84,2024-12-01T00:00:00Z,2024,Hearts,Aberdeen,1,1,9,6,football-data.co.uk
+fd-85,2024-12-04T00:00:00Z,2024,Dundee,Motherwell,4,1,4,10,football-data.co.uk
+fd-86,2024-12-04T00:00:00Z,2024,Rangers,Kilmarnock,6,0,7,4,football-data.co.uk
+fd-87,2024-12-04T00:00:00Z,2024,Aberdeen,Celtic,0,1,2,10,football-data.co.uk
+fd-88,2024-12-07T00:00:00Z,2024,Aberdeen,St Johnstone,1,1,6,1,football-data.co.uk
+fd-89,2024-12-07T00:00:00Z,2024,Celtic,Hibernian,3,0,14,7,football-data.co.uk
+fd-90,2024-12-07T00:00:00Z,2024,Dundee United,Kilmarnock,1,1,9,1,football-data.co.uk
+fd-91,2024-12-07T00:00:00Z,2024,Hearts,Dundee,2,0,6,4,football-data.co.uk
+fd-92,2024-12-07T00:00:00Z,2024,St Mirren,Motherwell,0,1,7,2,football-data.co.uk
+fd-93,2024-12-08T00:00:00Z,2024,Ross County,Rangers,0,3,8,10,football-data.co.uk
+fd-94,2024-12-14T00:00:00Z,2024,Hibernian,Ross County,3,1,9,15,football-data.co.uk
+fd-95,2024-12-14T00:00:00Z,2024,Motherwell,Dundee United,4,3,2,3,football-data.co.uk
+fd-96,2024-12-14T00:00:00Z,2024,St Johnstone,St Mirren,2,3,1,2,football-data.co.uk
+fd-97,2024-12-15T00:00:00Z,2024,Kilmarnock,Hearts,1,0,3,6,football-data.co.uk
+fd-98,2024-12-20T00:00:00Z,2024,Motherwell,Kilmarnock,1,1,2,8,football-data.co.uk
+fd-99,2024-12-21T00:00:00Z,2024,Aberdeen,Hibernian,1,3,5,6,football-data.co.uk
+fd-100,2024-12-21T00:00:00Z,2024,Rangers,Dundee,1,0,6,3,football-data.co.uk
+fd-101,2024-12-21T00:00:00Z,2024,Ross County,St Mirren,1,2,4,2,football-data.co.uk
+fd-102,2024-12-22T00:00:00Z,2024,Dundee United,Celtic,0,0,3,9,football-data.co.uk
+fd-103,2024-12-22T00:00:00Z,2024,Hearts,St Johnstone,2,1,8,0,football-data.co.uk
+fd-104,2024-12-26T00:00:00Z,2024,Hearts,Hibernian,1,2,6,3,football-data.co.uk
+fd-105,2024-12-26T00:00:00Z,2024,Celtic,Motherwell,4,0,6,3,football-data.co.uk
+fd-106,2024-12-26T00:00:00Z,2024,Dundee,Ross County,0,3,5,5,football-data.co.uk
+fd-107,2024-12-26T00:00:00Z,2024,Kilmarnock,Aberdeen,4,0,7,3,football-data.co.uk
+fd-108,2024-12-26T00:00:00Z,2024,St Johnstone,Dundee United,1,2,4,10,football-data.co.uk
+fd-109,2024-12-26T00:00:00Z,2024,St Mirren,Rangers,2,1,7,6,football-data.co.uk
+fd-110,2024-12-29T00:00:00Z,2024,Celtic,St Johnstone,4,0,12,2,football-data.co.uk
+fd-111,2024-12-29T00:00:00Z,2024,Hibernian,Kilmarnock,1,0,5,10,football-data.co.uk
+fd-112,2024-12-29T00:00:00Z,2024,Motherwell,Rangers,2,2,3,6,football-data.co.uk
+fd-113,2024-12-29T00:00:00Z,2024,Ross County,Hearts,2,2,10,5,football-data.co.uk
+fd-114,2024-12-29T00:00:00Z,2024,St Mirren,Dundee,1,2,5,9,football-data.co.uk
+fd-115,2024-12-29T00:00:00Z,2024,Dundee United,Aberdeen,1,0,9,1,football-data.co.uk
+fd-116,2025-01-02T00:00:00Z,2024,Aberdeen,Ross County,1,2,9,4,football-data.co.uk
+fd-117,2025-01-02T00:00:00Z,2024,Hearts,Motherwell,1,0,12,4,football-data.co.uk
+fd-118,2025-01-02T00:00:00Z,2024,Kilmarnock,St Mirren,2,0,4,2,football-data.co.uk
+fd-119,2025-01-02T00:00:00Z,2024,Rangers,Celtic,3,0,8,4,football-data.co.uk
+fd-120,2025-01-02T00:00:00Z,2024,St Johnstone,Hibernian,1,1,4,9,football-data.co.uk
+fd-121,2025-01-02T00:00:00Z,2024,Dundee,Dundee United,1,2,6,4,football-data.co.uk
+fd-122,2025-01-05T00:00:00Z,2024,Hibernian,Rangers,3,3,10,8,football-data.co.uk
+fd-123,2025-01-05T00:00:00Z,2024,Motherwell,Aberdeen,2,0,3,8,football-data.co.uk
+fd-124,2025-01-05T00:00:00Z,2024,Celtic,St Mirren,3,0,8,3,football-data.co.uk
+fd-125,2025-01-05T00:00:00Z,2024,Dundee United,Hearts,0,1,5,5,football-data.co.uk
+fd-126,2025-01-05T00:00:00Z,2024,Kilmarnock,Ross County,0,1,7,6,football-data.co.uk
+fd-127,2025-01-05T00:00:00Z,2024,St Johnstone,Dundee,1,3,3,5,football-data.co.uk
+fd-128,2025-01-08T00:00:00Z,2024,Celtic,Dundee United,2,0,13,4,football-data.co.uk
+fd-129,2025-01-08T00:00:00Z,2024,Kilmarnock,Motherwell,0,0,15,2,football-data.co.uk
+fd-130,2025-01-09T00:00:00Z,2024,Dundee,Rangers,1,1,3,7,football-data.co.uk
+fd-131,2025-01-11T00:00:00Z,2024,Ross County,Celtic,1,4,6,7,football-data.co.uk
+fd-132,2025-01-11T00:00:00Z,2024,Hibernian,Motherwell,3,1,3,6,football-data.co.uk
+fd-133,2025-01-11T00:00:00Z,2024,St Mirren,Dundee United,0,1,8,5,football-data.co.uk
+fd-134,2025-01-12T00:00:00Z,2024,Aberdeen,Hearts,0,0,4,3,football-data.co.uk
+fd-135,2025-01-12T00:00:00Z,2024,Rangers,St Johnstone,3,1,12,2,football-data.co.uk
+fd-136,2025-01-14T00:00:00Z,2024,Dundee,Celtic,3,3,2,4,football-data.co.uk
+fd-137,2025-01-15T00:00:00Z,2024,Rangers,Aberdeen,3,0,10,3,football-data.co.uk
+fd-138,2025-01-25T00:00:00Z,2024,Aberdeen,St Mirren,0,3,6,3,football-data.co.uk
+fd-139,2025-01-25T00:00:00Z,2024,Hearts,Kilmarnock,3,2,3,7,football-data.co.uk
+fd-140,2025-01-25T00:00:00Z,2024,Ross County,Hibernian,1,1,2,8,football-data.co.uk
+fd-141,2025-01-25T00:00:00Z,2024,St Johnstone,Motherwell,2,1,7,3,football-data.co.uk
+fd-142,2025-01-26T00:00:00Z,2024,Dundee United,Rangers,1,3,3,4,football-data.co.uk
+fd-143,2025-02-01T00:00:00Z,2024,Dundee,Hearts,0,6,3,9,football-data.co.uk
+fd-144,2025-02-01T00:00:00Z,2024,Hibernian,Aberdeen,2,0,2,8,football-data.co.uk
+fd-145,2025-02-01T00:00:00Z,2024,St Mirren,St Johnstone,0,1,5,3,football-data.co.uk
+fd-146,2025-02-01T00:00:00Z,2024,Kilmarnock,Dundee United,1,0,3,4,football-data.co.uk
+fd-147,2025-02-02T00:00:00Z,2024,Motherwell,Celtic,1,3,3,10,football-data.co.uk
+fd-148,2025-02-02T00:00:00Z,2024,Rangers,Ross County,4,0,8,3,football-data.co.uk
+fd-149,2025-02-05T00:00:00Z,2024,Celtic,Dundee,6,0,6,3,football-data.co.uk
+fd-150,2025-02-15T00:00:00Z,2024,Celtic,Dundee United,3,0,15,0,football-data.co.uk
+fd-151,2025-02-15T00:00:00Z,2024,Dundee,Aberdeen,1,2,8,7,football-data.co.uk
+fd-152,2025-02-15T00:00:00Z,2024,Kilmarnock,St Johnstone,3,1,7,5,football-data.co.uk
+fd-153,2025-02-15T00:00:00Z,2024,Motherwell,Ross County,0,3,6,3,football-data.co.uk
+fd-154,2025-02-16T00:00:00Z,2024,Hearts,Rangers,1,3,10,7,football-data.co.uk
+fd-155,2025-02-16T00:00:00Z,2024,St Mirren,Hibernian,0,0,4,3,football-data.co.uk
+fd-156,2025-02-22T00:00:00Z,2024,Hibernian,Celtic,2,1,5,10,football-data.co.uk
+fd-157,2025-02-22T00:00:00Z,2024,Aberdeen,Kilmarnock,1,0,8,5,football-data.co.uk
+fd-158,2025-02-22T00:00:00Z,2024,Dundee United,Motherwell,1,0,2,7,football-data.co.uk
+fd-159,2025-02-22T00:00:00Z,2024,Rangers,St Mirren,0,2,11,3,football-data.co.uk
+fd-160,2025-02-22T00:00:00Z,2024,Ross County,Dundee,3,1,9,6,football-data.co.uk
+fd-161,2025-02-23T00:00:00Z,2024,St Johnstone,Hearts,1,2,3,6,football-data.co.uk
+fd-162,2025-02-25T00:00:00Z,2024,Celtic,Aberdeen,5,1,4,3,football-data.co.uk
+fd-163,2025-02-26T00:00:00Z,2024,Dundee United,Hibernian,1,3,1,10,football-data.co.uk
+fd-164,2025-02-26T00:00:00Z,2024,Hearts,St Mirren,3,1,5,6,football-data.co.uk
+fd-165,2025-02-26T00:00:00Z,2024,Motherwell,Dundee,2,1,5,10,football-data.co.uk
+fd-166,2025-02-26T00:00:00Z,2024,St Johnstone,Ross County,1,0,12,3,football-data.co.uk
+fd-167,2025-02-26T00:00:00Z,2024,Kilmarnock,Rangers,2,4,6,4,football-data.co.uk
+fd-168,2025-03-01T00:00:00Z,2024,Dundee,St Johnstone,1,1,4,4,football-data.co.uk
+fd-169,2025-03-01T00:00:00Z,2024,Rangers,Motherwell,1,2,12,3,football-data.co.uk
+fd-170,2025-03-01T00:00:00Z,2024,Ross County,Kilmarnock,1,0,5,6,football-data.co.uk
+fd-171,2025-03-01T00:00:00Z,2024,St Mirren,Celtic,2,5,3,3,football-data.co.uk
+fd-172,2025-03-02T00:00:00Z,2024,Hibernian,Hearts,2,1,4,6,football-data.co.uk
+fd-173,2025-03-02T00:00:00Z,2024,Aberdeen,Dundee United,2,2,14,5,football-data.co.uk
+fd-174,2025-03-15T00:00:00Z,2024,Hearts,Ross County,2,0,6,6,football-data.co.uk
+fd-175,2025-03-15T00:00:00Z,2024,Kilmarnock,Hibernian,1,1,4,5,football-data.co.uk
+fd-176,2025-03-15T00:00:00Z,2024,Motherwell,St Mirren,2,2,0,7,football-data.co.uk
+fd-177,2025-03-15T00:00:00Z,2024,St Johnstone,Aberdeen,0,0,1,6,football-data.co.uk
+fd-178,2025-03-16T00:00:00Z,2024,Celtic,Rangers,2,3,7,6,football-data.co.uk
+fd-179,2025-03-16T00:00:00Z,2024,Dundee United,Dundee,2,4,2,4,football-data.co.uk
+fd-180,2025-03-29T00:00:00Z,2024,Aberdeen,Motherwell,4,1,9,4,football-data.co.uk
+fd-181,2025-03-29T00:00:00Z,2024,Celtic,Hearts,3,0,6,1,football-data.co.uk
+fd-182,2025-03-29T00:00:00Z,2024,Hibernian,St Johnstone,3,0,5,2,football-data.co.uk
+fd-183,2025-03-29T00:00:00Z,2024,St Mirren,Kilmarnock,5,1,4,7,football-data.co.uk
+fd-184,2025-03-29T00:00:00Z,2024,Dundee,Rangers,3,4,7,3,football-data.co.uk
+fd-185,2025-03-30T00:00:00Z,2024,Ross County,Dundee United,0,1,4,9,football-data.co.uk
+fd-186,2025-04-05T00:00:00Z,2024,Dundee,St Mirren,2,0,4,10,football-data.co.uk
+fd-187,2025-04-05T00:00:00Z,2024,Kilmarnock,Motherwell,2,0,7,2,football-data.co.uk
+fd-188,2025-04-05T00:00:00Z,2024,Rangers,Hibernian,0,2,5,1,football-data.co.uk
+fd-189,2025-04-05T00:00:00Z,2024,Ross County,Aberdeen,0,1,9,1,football-data.co.uk
+fd-190,2025-04-06T00:00:00Z,2024,St Johnstone,Celtic,1,0,4,11,football-data.co.uk
+fd-191,2025-04-06T00:00:00Z,2024,Hearts,Dundee United,0,1,5,2,football-data.co.uk
+fd-192,2025-04-12T00:00:00Z,2024,Celtic,Kilmarnock,5,1,10,0,football-data.co.uk
+fd-193,2025-04-12T00:00:00Z,2024,Dundee United,St Johnstone,1,0,6,5,football-data.co.uk
+fd-194,2025-04-12T00:00:00Z,2024,Motherwell,Hearts,0,0,4,2,football-data.co.uk
+fd-195,2025-04-12T00:00:00Z,2024,St Mirren,Ross County,3,2,6,7,football-data.co.uk
+fd-196,2025-04-13T00:00:00Z,2024,Aberdeen,Rangers,2,2,6,1,football-data.co.uk
+fd-197,2025-04-13T00:00:00Z,2024,Hibernian,Dundee,4,0,8,3,football-data.co.uk
+fd-198,2025-04-26T00:00:00Z,2024,Dundee United,Celtic,0,5,1,8,football-data.co.uk
+fd-199,2025-04-26T00:00:00Z,2024,Aberdeen,Hibernian,1,0,10,5,football-data.co.uk
+fd-200,2025-04-26T00:00:00Z,2024,Hearts,Dundee,0,1,7,3,football-data.co.uk
+fd-201,2025-04-26T00:00:00Z,2024,Kilmarnock,Ross County,2,0,5,4,football-data.co.uk
+fd-202,2025-04-26T00:00:00Z,2024,Motherwell,St Johnstone,3,2,5,9,football-data.co.uk
+fd-203,2025-04-26T00:00:00Z,2024,St Mirren,Rangers,2,2,3,3,football-data.co.uk
+fd-204,2025-05-03T00:00:00Z,2024,Dundee,Motherwell,1,2,7,4,football-data.co.uk
+fd-205,2025-05-03T00:00:00Z,2024,Hibernian,Dundee United,3,1,8,4,football-data.co.uk
+fd-206,2025-05-03T00:00:00Z,2024,Ross County,Hearts,1,3,4,13,football-data.co.uk
+fd-207,2025-05-03T00:00:00Z,2024,St Johnstone,Kilmarnock,0,2,6,2,football-data.co.uk
+fd-208,2025-05-03T00:00:00Z,2024,St Mirren,Aberdeen,1,0,5,11,football-data.co.uk
+fd-209,2025-05-04T00:00:00Z,2024,Rangers,Celtic,1,1,5,6,football-data.co.uk
+fd-210,2025-05-10T00:00:00Z,2024,Celtic,Hibernian,3,1,8,3,football-data.co.uk
+fd-211,2025-05-10T00:00:00Z,2024,Dundee United,St Mirren,0,2,4,6,football-data.co.uk
+fd-212,2025-05-10T00:00:00Z,2024,Hearts,Motherwell,3,0,6,1,football-data.co.uk
+fd-213,2025-05-10T00:00:00Z,2024,Kilmarnock,Dundee,3,2,7,2,football-data.co.uk
+fd-214,2025-05-10T00:00:00Z,2024,St Johnstone,Ross County,2,1,4,4,football-data.co.uk
+fd-215,2025-05-11T00:00:00Z,2024,Rangers,Aberdeen,4,0,7,2,football-data.co.uk
+fd-216,2025-05-14T00:00:00Z,2024,Dundee,Ross County,1,1,10,5,football-data.co.uk
+fd-217,2025-05-14T00:00:00Z,2024,Hearts,St Johnstone,2,1,8,7,football-data.co.uk
+fd-218,2025-05-14T00:00:00Z,2024,Motherwell,Kilmarnock,3,0,5,4,football-data.co.uk
+fd-219,2025-05-14T00:00:00Z,2024,Rangers,Dundee United,3,1,9,4,football-data.co.uk
+fd-220,2025-05-14T00:00:00Z,2024,St Mirren,Hibernian,2,2,5,6,football-data.co.uk
+fd-221,2025-05-14T00:00:00Z,2024,Aberdeen,Celtic,1,5,6,6,football-data.co.uk
+fd-222,2025-05-17T00:00:00Z,2024,Celtic,St Mirren,1,1,14,0,football-data.co.uk
+fd-223,2025-05-17T00:00:00Z,2024,Dundee United,Aberdeen,2,1,8,13,football-data.co.uk
+fd-224,2025-05-17T00:00:00Z,2024,Hibernian,Rangers,2,2,3,13,football-data.co.uk
+fd-225,2025-05-18T00:00:00Z,2024,Kilmarnock,Hearts,0,1,3,5,football-data.co.uk
+fd-226,2025-05-18T00:00:00Z,2024,Ross County,Motherwell,1,1,5,6,football-data.co.uk
+fd-227,2025-05-18T00:00:00Z,2024,St Johnstone,Dundee,0,2,1,9,football-data.co.uk
+fd-0,2025-08-02T00:00:00Z,2025,Kilmarnock,Livingston,2,2,3,5,football-data.co.uk
+fd-1,2025-08-02T00:00:00Z,2025,Motherwell,Rangers,1,1,1,12,football-data.co.uk
+fd-2,2025-08-03T00:00:00Z,2025,Falkirk,Dundee United,2,2,2,4,football-data.co.uk
+fd-3,2025-08-03T00:00:00Z,2025,Dundee,Hibernian,1,2,3,11,football-data.co.uk
+fd-4,2025-08-03T00:00:00Z,2025,Celtic,St Mirren,1,0,12,1,football-data.co.uk
+fd-5,2025-08-04T00:00:00Z,2025,Hearts,Aberdeen,2,0,3,3,football-data.co.uk
+fd-6,2025-08-09T00:00:00Z,2025,Livingston,Falkirk,3,1,4,5,football-data.co.uk
+fd-7,2025-08-09T00:00:00Z,2025,St Mirren,Motherwell,0,0,7,4,football-data.co.uk
+fd-8,2025-08-09T00:00:00Z,2025,Rangers,Dundee,1,1,7,4,football-data.co.uk
+fd-9,2025-08-10T00:00:00Z,2025,Aberdeen,Celtic,0,2,1,6,football-data.co.uk
+fd-10,2025-08-10T00:00:00Z,2025,Dundee United,Hearts,2,3,2,9,football-data.co.uk
+fd-11,2025-08-10T00:00:00Z,2025,Hibernian,Kilmarnock,2,2,4,7,football-data.co.uk
+fd-12,2025-08-23T00:00:00Z,2025,Celtic,Livingston,3,0,10,4,football-data.co.uk
+fd-13,2025-08-23T00:00:00Z,2025,Hearts,Motherwell,3,3,9,3,football-data.co.uk
+fd-14,2025-08-23T00:00:00Z,2025,Kilmarnock,Dundee,0,0,7,3,football-data.co.uk
+fd-15,2025-08-24T00:00:00Z,2025,St Mirren,Rangers,1,1,6,6,football-data.co.uk
+fd-16,2025-08-30T00:00:00Z,2025,Livingston,Hearts,1,2,5,9,football-data.co.uk
+fd-17,2025-08-30T00:00:00Z,2025,Motherwell,Kilmarnock,2,2,9,0,football-data.co.uk
+fd-18,2025-08-31T00:00:00Z,2025,Rangers,Celtic,0,0,8,1,football-data.co.uk
+fd-19,2025-08-31T00:00:00Z,2025,Dundee,Dundee United,0,2,3,2,football-data.co.uk
+fd-20,2025-08-31T00:00:00Z,2025,Aberdeen,Falkirk,0,1,5,6,football-data.co.uk
+fd-21,2025-08-31T00:00:00Z,2025,Hibernian,St Mirren,1,1,10,7,football-data.co.uk
+fd-22,2025-09-13T00:00:00Z,2025,Aberdeen,Livingston,0,0,6,6,football-data.co.uk
+fd-23,2025-09-13T00:00:00Z,2025,Dundee,Motherwell,1,1,2,6,football-data.co.uk
+fd-24,2025-09-13T00:00:00Z,2025,Falkirk,St Mirren,1,2,4,2,football-data.co.uk
+fd-25,2025-09-13T00:00:00Z,2025,Rangers,Hearts,0,2,9,2,football-data.co.uk
+fd-26,2025-09-13T00:00:00Z,2025,Hibernian,Dundee United,3,3,6,4,football-data.co.uk
+fd-27,2025-09-14T00:00:00Z,2025,Kilmarnock,Celtic,1,2,6,7,football-data.co.uk
+fd-28,2025-09-20T00:00:00Z,2025,Dundee,Livingston,3,2,8,3,football-data.co.uk
+fd-29,2025-09-23T00:00:00Z,2025,Dundee United,Aberdeen,2,0,11,3,football-data.co.uk
+fd-30,2025-09-23T00:00:00Z,2025,Falkirk,Hibernian,2,2,5,5,football-data.co.uk
+fd-31,2025-09-27T00:00:00Z,2025,Celtic,Hibernian,0,0,7,2,football-data.co.uk
+fd-32,2025-09-27T00:00:00Z,2025,Dundee United,Kilmarnock,0,2,9,6,football-data.co.uk
+fd-33,2025-09-27T00:00:00Z,2025,Hearts,Falkirk,3,0,9,5,football-data.co.uk
+fd-34,2025-09-27T00:00:00Z,2025,St Mirren,Dundee,1,0,5,5,football-data.co.uk
+fd-35,2025-09-27T00:00:00Z,2025,Motherwell,Aberdeen,2,0,3,4,football-data.co.uk
+fd-36,2025-09-28T00:00:00Z,2025,Livingston,Rangers,1,2,4,8,football-data.co.uk
+fd-37,2025-10-04T00:00:00Z,2025,Dundee United,Livingston,1,1,4,5,football-data.co.uk
+fd-38,2025-10-04T00:00:00Z,2025,Kilmarnock,St Mirren,2,0,4,9,football-data.co.uk
+fd-39,2025-10-04T00:00:00Z,2025,Hearts,Hibernian,1,0,4,2,football-data.co.uk
+fd-40,2025-10-05T00:00:00Z,2025,Aberdeen,Dundee,4,0,11,2,football-data.co.uk
+fd-41,2025-10-05T00:00:00Z,2025,Celtic,Motherwell,3,2,10,0,football-data.co.uk
+fd-42,2025-10-05T00:00:00Z,2025,Falkirk,Rangers,1,1,7,6,football-data.co.uk
+fd-43,2025-10-18T00:00:00Z,2025,Hibernian,Livingston,4,0,7,10,football-data.co.uk
+fd-44,2025-10-18T00:00:00Z,2025,Motherwell,Falkirk,1,2,6,4,football-data.co.uk
+fd-45,2025-10-18T00:00:00Z,2025,Rangers,Dundee United,2,2,7,2,football-data.co.uk
+fd-46,2025-10-18T00:00:00Z,2025,St Mirren,Aberdeen,0,1,5,2,football-data.co.uk
+fd-47,2025-10-18T00:00:00Z,2025,Kilmarnock,Hearts,0,3,4,5,football-data.co.uk
+fd-48,2025-10-19T00:00:00Z,2025,Dundee,Celtic,2,0,2,12,football-data.co.uk
+fd-49,2025-10-25T00:00:00Z,2025,Dundee United,St Mirren,3,1,4,12,football-data.co.uk
+fd-50,2025-10-25T00:00:00Z,2025,Falkirk,Dundee,2,1,5,3,football-data.co.uk
+fd-51,2025-10-25T00:00:00Z,2025,Livingston,Motherwell,1,2,0,3,football-data.co.uk
+fd-52,2025-10-26T00:00:00Z,2025,Hearts,Celtic,3,1,5,9,football-data.co.uk
+fd-53,2025-10-26T00:00:00Z,2025,Aberdeen,Hibernian,1,2,6,3,football-data.co.uk
+fd-54,2025-10-26T00:00:00Z,2025,Rangers,Kilmarnock,3,1,9,2,football-data.co.uk
+fd-55,2025-10-29T00:00:00Z,2025,Celtic,Falkirk,4,0,6,3,football-data.co.uk
+fd-56,2025-10-29T00:00:00Z,2025,Hibernian,Rangers,0,1,5,4,football-data.co.uk
+fd-57,2025-10-29T00:00:00Z,2025,Kilmarnock,Aberdeen,0,1,7,2,football-data.co.uk
+fd-58,2025-10-29T00:00:00Z,2025,Motherwell,Dundee United,2,0,4,2,football-data.co.uk
+fd-59,2025-10-29T00:00:00Z,2025,St Mirren,Hearts,2,2,6,7,football-data.co.uk
+fd-60,2025-11-01T00:00:00Z,2025,Falkirk,Kilmarnock,3,1,2,6,football-data.co.uk
+fd-61,2025-11-01T00:00:00Z,2025,Hearts,Dundee,4,0,6,2,football-data.co.uk
+fd-62,2025-11-01T00:00:00Z,2025,Livingston,Hibernian,2,2,6,1,football-data.co.uk
+fd-63,2025-11-08T00:00:00Z,2025,Falkirk,Livingston,1,1,6,1,football-data.co.uk
+fd-64,2025-11-08T00:00:00Z,2025,St Mirren,Hibernian,0,3,5,6,football-data.co.uk
+fd-65,2025-11-09T00:00:00Z,2025,Aberdeen,Motherwell,1,1,4,6,football-data.co.uk
+fd-66,2025-11-09T00:00:00Z,2025,Dundee,Rangers,0,3,4,6,football-data.co.uk
+fd-67,2025-11-09T00:00:00Z,2025,Hearts,Dundee United,1,1,4,3,football-data.co.uk
+fd-68,2025-11-09T00:00:00Z,2025,Celtic,Kilmarnock,4,0,8,7,football-data.co.uk
+fd-69,2025-11-22T00:00:00Z,2025,Dundee United,Falkirk,0,3,5,5,football-data.co.uk
+fd-70,2025-11-22T00:00:00Z,2025,Hibernian,Dundee,2,0,8,3,football-data.co.uk
+fd-71,2025-11-22T00:00:00Z,2025,Kilmarnock,Motherwell,1,3,3,3,football-data.co.uk
+fd-72,2025-11-22T00:00:00Z,2025,Rangers,Livingston,2,1,2,1,football-data.co.uk
+fd-73,2025-11-22T00:00:00Z,2025,St Mirren,Celtic,0,1,2,4,football-data.co.uk
+fd-74,2025-11-23T00:00:00Z,2025,Aberdeen,Hearts,1,0,6,3,football-data.co.uk
+fd-75,2025-11-25T00:00:00Z,2025,Motherwell,Hibernian,2,0,0,2,football-data.co.uk
+fd-76,2025-11-29T00:00:00Z,2025,Dundee,St Mirren,3,1,1,11,football-data.co.uk
+fd-77,2025-11-29T00:00:00Z,2025,Motherwell,Hearts,0,0,3,4,football-data.co.uk
+fd-78,2025-11-29T00:00:00Z,2025,Kilmarnock,Dundee United,1,1,3,3,football-data.co.uk
+fd-79,2025-11-30T00:00:00Z,2025,Hibernian,Celtic,1,2,4,3,football-data.co.uk
+fd-80,2025-11-30T00:00:00Z,2025,Rangers,Falkirk,0,0,4,5,football-data.co.uk
+fd-81,2025-11-30T00:00:00Z,2025,Livingston,Aberdeen,0,1,7,4,football-data.co.uk
+fd-82,2025-12-03T00:00:00Z,2025,Aberdeen,St Mirren,3,3,8,6,football-data.co.uk
+fd-83,2025-12-03T00:00:00Z,2025,Celtic,Dundee,1,0,6,0,football-data.co.uk
+fd-84,2025-12-03T00:00:00Z,2025,Dundee United,Rangers,2,2,8,9,football-data.co.uk
+fd-85,2025-12-03T00:00:00Z,2025,Falkirk,Motherwell,0,0,6,3,football-data.co.uk
+fd-86,2025-12-03T00:00:00Z,2025,Hearts,Kilmarnock,1,1,9,1,football-data.co.uk
+fd-87,2025-12-06T00:00:00Z,2025,Dundee,Aberdeen,1,3,6,4,football-data.co.uk
+fd-88,2025-12-06T00:00:00Z,2025,Hibernian,Falkirk,3,0,10,4,football-data.co.uk
+fd-89,2025-12-06T00:00:00Z,2025,Motherwell,Livingston,3,0,4,5,football-data.co.uk
+fd-90,2025-12-06T00:00:00Z,2025,St Mirren,Dundee United,2,0,3,2,football-data.co.uk
+fd-91,2025-12-06T00:00:00Z,2025,Kilmarnock,Rangers,0,3,7,2,football-data.co.uk
+fd-92,2025-12-07T00:00:00Z,2025,Celtic,Hearts,1,2,5,3,football-data.co.uk
+fd-93,2025-12-13T00:00:00Z,2025,Dundee United,Motherwell,0,0,1,4,football-data.co.uk
+fd-94,2025-12-13T00:00:00Z,2025,Livingston,Dundee,2,2,7,0,football-data.co.uk
+fd-95,2025-12-13T00:00:00Z,2025,Falkirk,Hearts,0,2,3,7,football-data.co.uk
+fd-96,2025-12-14T00:00:00Z,2025,Aberdeen,Kilmarnock,2,1,9,3,football-data.co.uk
+fd-97,2025-12-15T00:00:00Z,2025,Rangers,Hibernian,1,0,5,5,football-data.co.uk
+fd-98,2025-12-17T00:00:00Z,2025,Dundee United,Celtic,2,1,7,6,football-data.co.uk
+fd-99,2025-12-20T00:00:00Z,2025,Dundee United,Hibernian,1,1,5,7,football-data.co.uk
+fd-100,2025-12-20T00:00:00Z,2025,Kilmarnock,Falkirk,0,1,2,2,football-data.co.uk
+fd-101,2025-12-20T00:00:00Z,2025,Motherwell,Dundee,1,0,2,3,football-data.co.uk
+fd-102,2025-12-20T00:00:00Z,2025,St Mirren,Livingston,1,0,7,4,football-data.co.uk
+fd-103,2025-12-21T00:00:00Z,2025,Hearts,Rangers,2,1,6,10,football-data.co.uk
+fd-104,2025-12-21T00:00:00Z,2025,Celtic,Aberdeen,3,1,8,4,football-data.co.uk
+fd-105,2025-12-27T00:00:00Z,2025,Hibernian,Hearts,3,2,3,8,football-data.co.uk
+fd-106,2025-12-27T00:00:00Z,2025,Dundee,Falkirk,1,0,1,9,football-data.co.uk
+fd-107,2025-12-27T00:00:00Z,2025,Livingston,Celtic,2,4,11,4,football-data.co.uk
+fd-108,2025-12-27T00:00:00Z,2025,Rangers,Motherwell,1,0,5,1,football-data.co.uk
+fd-109,2025-12-27T00:00:00Z,2025,St Mirren,Kilmarnock,0,0,11,4,football-data.co.uk
+fd-110,2025-12-27T00:00:00Z,2025,Aberdeen,Dundee United,1,1,9,5,football-data.co.uk
+fd-111,2025-12-30T00:00:00Z,2025,Dundee,Kilmarnock,2,1,7,5,football-data.co.uk
+fd-112,2025-12-30T00:00:00Z,2025,Hibernian,Aberdeen,2,0,4,5,football-data.co.uk
+fd-113,2025-12-30T00:00:00Z,2025,Livingston,Dundee United,1,3,2,7,football-data.co.uk
+fd-114,2025-12-30T00:00:00Z,2025,Rangers,St Mirren,2,1,5,4,football-data.co.uk
+fd-115,2025-12-30T00:00:00Z,2025,Motherwell,Celtic,2,0,1,3,football-data.co.uk
+fd-116,2026-01-03T00:00:00Z,2025,Celtic,Rangers,1,3,8,5,football-data.co.uk
+fd-117,2026-01-03T00:00:00Z,2025,Dundee United,Dundee,0,1,8,2,football-data.co.uk
+fd-118,2026-01-03T00:00:00Z,2025,Falkirk,Aberdeen,1,0,5,4,football-data.co.uk
+fd-119,2026-01-03T00:00:00Z,2025,Hearts,Livingston,1,0,7,3,football-data.co.uk
+fd-120,2026-01-03T00:00:00Z,2025,Kilmarnock,Hibernian,1,3,5,3,football-data.co.uk
+fd-121,2026-01-03T00:00:00Z,2025,Motherwell,St Mirren,2,0,9,8,football-data.co.uk
+fd-122,2026-01-06T00:00:00Z,2025,Rangers,Aberdeen,2,0,7,4,football-data.co.uk
+fd-123,2026-01-10T00:00:00Z,2025,Celtic,Dundee United,4,0,12,3,football-data.co.uk
+fd-124,2026-01-10T00:00:00Z,2025,Hibernian,Motherwell,1,1,4,4,football-data.co.uk
+fd-125,2026-01-10T00:00:00Z,2025,Livingston,Kilmarnock,1,1,7,5,football-data.co.uk
+fd-126,2026-01-10T00:00:00Z,2025,St Mirren,Falkirk,0,2,4,8,football-data.co.uk
+fd-127,2026-01-11T00:00:00Z,2025,Dundee,Hearts,0,1,6,4,football-data.co.uk
+fd-128,2026-01-11T00:00:00Z,2025,Aberdeen,Rangers,0,2,6,6,football-data.co.uk
+fd-129,2026-01-14T00:00:00Z,2025,Falkirk,Celtic,0,1,3,4,football-data.co.uk
+fd-130,2026-01-14T00:00:00Z,2025,Hearts,St Mirren,2,0,3,5,football-data.co.uk
+fd-131,2026-01-20T00:00:00Z,2025,Livingston,St Mirren,1,1,3,4,football-data.co.uk
+fd-132,2026-01-24T00:00:00Z,2025,Aberdeen,Livingston,6,2,8,2,football-data.co.uk
+fd-133,2026-01-24T00:00:00Z,2025,Falkirk,Hibernian,4,1,7,4,football-data.co.uk
+fd-134,2026-01-24T00:00:00Z,2025,Motherwell,Kilmarnock,4,0,2,1,football-data.co.uk
+fd-135,2026-01-25T00:00:00Z,2025,Hearts,Celtic,2,2,2,2,football-data.co.uk
+fd-136,2026-01-25T00:00:00Z,2025,Rangers,Dundee,3,0,7,1,football-data.co.uk
+fd-137,2026-01-31T00:00:00Z,2025,Kilmarnock,Aberdeen,3,0,7,3,football-data.co.uk
+fd-138,2026-01-31T00:00:00Z,2025,Livingston,Motherwell,0,2,7,7,football-data.co.uk
+fd-139,2026-01-31T00:00:00Z,2025,St Mirren,Dundee,0,0,5,6,football-data.co.uk
+fd-140,2026-01-31T00:00:00Z,2025,Dundee United,Hearts,0,3,0,6,football-data.co.uk
+fd-141,2026-02-01T00:00:00Z,2025,Hibernian,Rangers,0,0,9,8,football-data.co.uk
+fd-142,2026-02-01T00:00:00Z,2025,Celtic,Falkirk,2,0,9,4,football-data.co.uk
+fd-143,2026-02-03T00:00:00Z,2025,St Mirren,Hearts,1,0,7,2,football-data.co.uk
+fd-144,2026-02-04T00:00:00Z,2025,Hibernian,Dundee United,3,2,4,6,football-data.co.uk
+fd-145,2026-02-04T00:00:00Z,2025,Livingston,Falkirk,1,2,6,4,football-data.co.uk
+fd-146,2026-02-04T00:00:00Z,2025,Rangers,Kilmarnock,5,1,10,1,football-data.co.uk
+fd-147,2026-02-10T00:00:00Z,2025,Hearts,Hibernian,1,0,4,8,football-data.co.uk
+fd-148,2026-02-11T00:00:00Z,2025,Celtic,Livingston,2,1,10,3,football-data.co.uk
+fd-149,2026-02-11T00:00:00Z,2025,Falkirk,Dundee,1,0,4,4,football-data.co.uk
+fd-150,2026-02-11T00:00:00Z,2025,Kilmarnock,St Mirren,4,3,9,4,football-data.co.uk
+fd-151,2026-02-11T00:00:00Z,2025,Motherwell,Rangers,1,1,6,3,football-data.co.uk
+fd-152,2026-02-14T00:00:00Z,2025,Dundee,Livingston,2,2,10,2,football-data.co.uk
+fd-153,2026-02-14T00:00:00Z,2025,Falkirk,Dundee United,2,3,4,5,football-data.co.uk
+fd-154,2026-02-14T00:00:00Z,2025,Hibernian,St Mirren,2,0,6,8,football-data.co.uk
+fd-155,2026-02-15T00:00:00Z,2025,Kilmarnock,Celtic,2,3,6,7,football-data.co.uk
+fd-156,2026-02-15T00:00:00Z,2025,Motherwell,Aberdeen,2,0,4,2,football-data.co.uk
+fd-157,2026-02-15T00:00:00Z,2025,Rangers,Hearts,4,2,7,3,football-data.co.uk
+fd-158,2026-02-21T00:00:00Z,2025,Aberdeen,Dundee,2,3,2,9,football-data.co.uk
+fd-159,2026-02-21T00:00:00Z,2025,Dundee United,Kilmarnock,1,1,6,3,football-data.co.uk
+fd-160,2026-02-21T00:00:00Z,2025,Hearts,Falkirk,1,0,8,4,football-data.co.uk
+fd-161,2026-02-21T00:00:00Z,2025,St Mirren,Motherwell,0,5,4,7,football-data.co.uk
+fd-162,2026-02-22T00:00:00Z,2025,Celtic,Hibernian,1,2,11,1,football-data.co.uk
+fd-163,2026-02-22T00:00:00Z,2025,Livingston,Rangers,2,2,3,15,football-data.co.uk
+fd-164,2026-02-24T00:00:00Z,2025,Dundee United,Aberdeen,0,0,4,6,football-data.co.uk
+fd-165,2026-02-28T00:00:00Z,2025,Dundee,Hibernian,3,3,6,6,football-data.co.uk
+fd-166,2026-02-28T00:00:00Z,2025,Falkirk,Kilmarnock,5,1,3,2,football-data.co.uk
+fd-167,2026-02-28T00:00:00Z,2025,Hearts,Aberdeen,1,0,7,4,football-data.co.uk
+fd-168,2026-02-28T00:00:00Z,2025,Livingston,St Mirren,1,1,7,2,football-data.co.uk
+fd-169,2026-02-28T00:00:00Z,2025,Motherwell,Dundee United,2,0,5,3,football-data.co.uk
+fd-170,2026-03-01T00:00:00Z,2025,Rangers,Celtic,2,2,6,7,football-data.co.uk
+fd-171,2026-03-03T00:00:00Z,2025,Dundee United,St Mirren,2,1,8,4,football-data.co.uk
+fd-172,2026-03-04T00:00:00Z,2025,Aberdeen,Celtic,1,2,6,6,football-data.co.uk
+fd-173,2026-03-07T00:00:00Z,2025,Dundee,Motherwell,2,1,3,1,football-data.co.uk
+fd-174,2026-03-14T00:00:00Z,2025,Aberdeen,Falkirk,1,1,4,10,football-data.co.uk
+fd-175,2026-03-14T00:00:00Z,2025,Celtic,Motherwell,3,1,2,3,football-data.co.uk
+fd-176,2026-03-14T00:00:00Z,2025,Hibernian,Livingston,0,0,12,0,football-data.co.uk
+fd-177,2026-03-14T00:00:00Z,2025,Kilmarnock,Hearts,1,0,2,9,football-data.co.uk
+fd-178,2026-03-15T00:00:00Z,2025,St Mirren,Rangers,0,1,1,11,football-data.co.uk
+fd-179,2026-03-15T00:00:00Z,2025,Dundee,Dundee United,2,2,4,7,football-data.co.uk
+fd-180,2026-03-21T00:00:00Z,2025,Falkirk,St Mirren,1,2,7,4,football-data.co.uk
+fd-181,2026-03-21T00:00:00Z,2025,Hearts,Dundee,1,0,4,7,football-data.co.uk
+fd-182,2026-03-21T00:00:00Z,2025,Kilmarnock,Livingston,2,0,3,4,football-data.co.uk
+fd-183,2026-03-21T00:00:00Z,2025,Motherwell,Hibernian,0,0,2,4,football-data.co.uk
+fd-184,2026-03-21T00:00:00Z,2025,Rangers,Aberdeen,4,1,2,4,football-data.co.uk
+fd-185,2026-03-22T00:00:00Z,2025,Dundee United,Celtic,2,0,7,6,football-data.co.uk
+fd-186,2026-04-04T00:00:00Z,2025,Hibernian,Kilmarnock,3,0,3,9,football-data.co.uk
+fd-187,2026-04-04T00:00:00Z,2025,Motherwell,Falkirk,2,3,6,2,football-data.co.uk
+fd-188,2026-04-04T00:00:00Z,2025,Rangers,Dundee United,4,2,10,1,football-data.co.uk
+fd-189,2026-04-04T00:00:00Z,2025,St Mirren,Aberdeen,2,0,8,5,football-data.co.uk
+fd-190,2026-04-05T00:00:00Z,2025,Livingston,Hearts,2,2,5,5,football-data.co.uk
+fd-191,2026-04-05T00:00:00Z,2025,Dundee,Celtic,1,2,1,4,football-data.co.uk
+fd-192,2026-04-11T00:00:00Z,2025,Aberdeen,Hibernian,2,0,3,3,football-data.co.uk
+fd-193,2026-04-11T00:00:00Z,2025,Celtic,St Mirren,1,0,3,7,football-data.co.uk
+fd-194,2026-04-11T00:00:00Z,2025,Dundee United,Livingston,3,2,4,3,football-data.co.uk
+fd-195,2026-04-11T00:00:00Z,2025,Hearts,Motherwell,3,1,6,4,football-data.co.uk
+fd-196,2026-04-11T00:00:00Z,2025,Kilmarnock,Dundee,2,2,4,2,football-data.co.uk
+fd-197,2026-04-12T00:00:00Z,2025,Falkirk,Rangers,3,6,2,1,football-data.co.uk
+fd-198,2026-04-25T00:00:00Z,2025,Aberdeen,Kilmarnock,1,0,6,5,football-data.co.uk
+fd-199,2026-04-25T00:00:00Z,2025,St Mirren,Livingston,0,2,8,7,football-data.co.uk
+fd-200,2026-04-25T00:00:00Z,2025,Celtic,Falkirk,3,1,9,7,football-data.co.uk
+fd-201,2026-04-26T00:00:00Z,2025,Dundee United,Dundee,3,0,2,4,football-data.co.uk
+fd-202,2026-04-26T00:00:00Z,2025,Rangers,Motherwell,2,3,7,5,football-data.co.uk
+fd-203,2026-04-26T00:00:00Z,2025,Hibernian,Hearts,1,2,0,11,football-data.co.uk
+fd-204,2026-05-01T00:00:00Z,2025,Livingston,Aberdeen,2,2,6,4,football-data.co.uk
+fd-205,2026-05-02T00:00:00Z,2025,Dundee,St Mirren,1,0,5,6,football-data.co.uk
+fd-206,2026-05-02T00:00:00Z,2025,Falkirk,Motherwell,1,0,2,5,football-data.co.uk
+fd-207,2026-05-02T00:00:00Z,2025,Kilmarnock,Dundee United,3,0,4,8,football-data.co.uk
+fd-208,2026-05-03T00:00:00Z,2025,Hibernian,Celtic,1,2,0,13,football-data.co.uk
+fd-209,2026-05-04T00:00:00Z,2025,Hearts,Rangers,2,1,2,6,football-data.co.uk
+fd-210,2026-05-09T00:00:00Z,2025,Aberdeen,Dundee United,2,0,4,2,football-data.co.uk
+fd-211,2026-05-09T00:00:00Z,2025,Dundee,Livingston,3,0,7,5,football-data.co.uk
+fd-212,2026-05-09T00:00:00Z,2025,Falkirk,Hibernian,1,3,6,5,football-data.co.uk
+fd-213,2026-05-09T00:00:00Z,2025,St Mirren,Kilmarnock,0,3,1,4,football-data.co.uk
+fd-214,2026-05-09T00:00:00Z,2025,Motherwell,Hearts,1,1,2,6,football-data.co.uk
+fd-215,2026-05-10T00:00:00Z,2025,Celtic,Rangers,3,1,1,7,football-data.co.uk
+fd-216,2026-05-12T00:00:00Z,2025,Aberdeen,St Mirren,0,2,6,1,football-data.co.uk
+fd-217,2026-05-12T00:00:00Z,2025,Dundee United,Livingston,0,0,7,8,football-data.co.uk
+fd-218,2026-05-12T00:00:00Z,2025,Kilmarnock,Dundee,3,1,6,2,football-data.co.uk
+fd-219,2026-05-13T00:00:00Z,2025,Hearts,Falkirk,3,0,5,5,football-data.co.uk
+fd-220,2026-05-13T00:00:00Z,2025,Motherwell,Celtic,2,3,4,3,football-data.co.uk
+fd-221,2026-05-13T00:00:00Z,2025,Rangers,Hibernian,1,2,9,3,football-data.co.uk
+fd-222,2026-05-16T00:00:00Z,2025,Celtic,Hearts,3,1,9,6,football-data.co.uk
+fd-223,2026-05-16T00:00:00Z,2025,Falkirk,Rangers,2,5,7,4,football-data.co.uk
+fd-224,2026-05-16T00:00:00Z,2025,Hibernian,Motherwell,0,1,7,4,football-data.co.uk
+fd-225,2026-05-17T00:00:00Z,2025,Dundee,Aberdeen,3,2,7,2,football-data.co.uk
+fd-226,2026-05-17T00:00:00Z,2025,Livingston,Kilmarnock,1,4,6,1,football-data.co.uk
+fd-227,2026-05-17T00:00:00Z,2025,St Mirren,Dundee United,1,1,10,2,football-data.co.uk

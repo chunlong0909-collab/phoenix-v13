@@ -1,17 +1,13 @@
 {
   "league_id": "scottish-prem",
   "name_zh": "蘇超",
-  "updated_at": "2026-10-21T09:01:51.503120+00:00",
+  "updated_at": "2026-10-22T19:41:35.028229+00:00",
+  "fixtures": 684,
+  "teams": 14,
+  "players": 420,
+  "corner_fixtures": 684,
   "sources": [
     "football-data.co.uk"
   ],
-  "teams": 15,
-  "players": 314,
-  "matches": 965,
-  "corner_matches": 965,
-  "quality": "高",
-  "dataSource": "ESPN／football-data／openfootball",
-  "lastUpdated": "2026-10-21T09:01:51.503120+00:00",
-  "players_update_protected": false,
-  "errors": []
+  "status": "ok"
 }

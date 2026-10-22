@@ -1,17 +1,13 @@
 {
   "league_id": "laliga",
   "name_zh": "西甲",
-  "updated_at": "2026-10-21T08:59:39.826427+00:00",
+  "updated_at": "2026-10-22T19:37:10.606454+00:00",
+  "fixtures": 1140,
+  "teams": 26,
+  "players": 834,
+  "corner_fixtures": 1140,
   "sources": [
     "football-data.co.uk"
   ],
-  "teams": 28,
-  "players": 549,
-  "matches": 1871,
-  "corner_matches": 1871,
-  "quality": "高",
-  "dataSource": "ESPN／football-data／openfootball",
-  "lastUpdated": "2026-10-21T08:59:39.826427+00:00",
-  "players_update_protected": false,
-  "errors": []
+  "status": "ok"
 }

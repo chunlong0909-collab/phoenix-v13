@@ -1,1 +1,586 @@
-﻿
+﻿fixture_id,date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+637004,2023-02-17T18:00:00Z,2023,AaB,AGF,0.0,1.0,,,ESPN scoreboard
+637005,2023-02-19T13:00:00Z,2023,Lyngby Boldklub,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+637008,2023-02-19T13:00:00Z,2023,Odense Boldklub,Randers FC,0.0,0.0,,,ESPN scoreboard
+637007,2023-02-19T15:00:00Z,2023,Silkeborg IF,F.C. København,0.0,3.0,,,ESPN scoreboard
+637003,2023-02-19T17:00:00Z,2023,Brøndby IF,AC Horsens,5.0,2.0,,,ESPN scoreboard
+637006,2023-02-20T18:00:00Z,2023,Viborg FF,FC Midtjylland,0.0,4.0,,,ESPN scoreboard
+637009,2023-02-24T18:00:00Z,2023,FC Nordsjælland,Odense Boldklub,4.0,2.0,,,ESPN scoreboard
+637013,2023-02-26T13:00:00Z,2023,AC Horsens,Viborg FF,0.0,3.0,,,ESPN scoreboard
+637014,2023-02-26T13:00:00Z,2023,Randers FC,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+637011,2023-02-26T15:00:00Z,2023,F.C. København,AaB,1.0,0.0,,,ESPN scoreboard
+637012,2023-02-26T17:00:00Z,2023,AGF,Silkeborg IF,1.0,1.0,,,ESPN scoreboard
+637010,2023-02-27T18:00:00Z,2023,FC Midtjylland,Brøndby IF,0.0,1.0,,,ESPN scoreboard
+637019,2023-03-03T18:00:00Z,2023,AGF,AC Horsens,2.0,0.0,,,ESPN scoreboard
+637015,2023-03-05T13:00:00Z,2023,Silkeborg IF,FC Nordsjælland,2.0,1.0,,,ESPN scoreboard
+637020,2023-03-05T13:00:00Z,2023,Viborg FF,Randers FC,2.0,2.0,,,ESPN scoreboard
+637016,2023-03-05T15:00:00Z,2023,Lyngby Boldklub,Brøndby IF,1.0,0.0,,,ESPN scoreboard
+637017,2023-03-05T17:30:00Z,2023,F.C. København,Odense Boldklub,7.0,0.0,,,ESPN scoreboard
+637018,2023-03-06T18:00:00Z,2023,AaB,FC Midtjylland,0.0,0.0,,,ESPN scoreboard
+637024,2023-03-10T18:00:00Z,2023,Odense Boldklub,AaB,2.0,1.0,,,ESPN scoreboard
+637023,2023-03-12T13:00:00Z,2023,FC Midtjylland,Lyngby Boldklub,1.0,3.0,,,ESPN scoreboard
+637026,2023-03-12T13:00:00Z,2023,Viborg FF,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+637021,2023-03-12T15:00:00Z,2023,AC Horsens,F.C. København,1.0,4.0,,,ESPN scoreboard
+637022,2023-03-12T17:00:00Z,2023,Brøndby IF,Silkeborg IF,2.0,1.0,,,ESPN scoreboard
+637025,2023-03-13T18:00:00Z,2023,Randers FC,AGF,1.0,2.0,,,ESPN scoreboard
+637028,2023-03-19T14:00:00Z,2023,AaB,Randers FC,0.0,1.0,,,ESPN scoreboard
+637027,2023-03-19T14:00:00Z,2023,AGF,Odense Boldklub,1.0,0.0,,,ESPN scoreboard
+637031,2023-03-19T14:00:00Z,2023,F.C. København,Viborg FF,2.0,1.0,,,ESPN scoreboard
+637030,2023-03-19T14:00:00Z,2023,FC Nordsjælland,Brøndby IF,2.0,1.0,,,ESPN scoreboard
+637029,2023-03-19T14:00:00Z,2023,Lyngby Boldklub,AC Horsens,1.0,1.0,,,ESPN scoreboard
+637032,2023-03-19T14:00:00Z,2023,Silkeborg IF,FC Midtjylland,3.0,3.0,,,ESPN scoreboard
+667601,2023-03-31T17:00:00Z,2023,Odense Boldklub,FC Midtjylland,1.0,3.0,,,ESPN scoreboard
+667602,2023-04-02T12:00:00Z,2023,AC Horsens,AaB,0.0,4.0,,,ESPN scoreboard
+667603,2023-04-02T12:00:00Z,2023,Lyngby Boldklub,Silkeborg IF,1.0,1.0,,,ESPN scoreboard
+667604,2023-04-02T14:00:00Z,2023,Brøndby IF,Viborg FF,0.0,3.0,,,ESPN scoreboard
+667605,2023-04-02T16:00:00Z,2023,F.C. København,FC Nordsjælland,2.0,1.0,,,ESPN scoreboard
+667606,2023-04-03T17:00:00Z,2023,AGF,Randers FC,1.0,1.0,,,ESPN scoreboard
+667607,2023-04-09T14:00:00Z,2023,Viborg FF,AGF,0.0,1.0,,,ESPN scoreboard
+667608,2023-04-10T12:00:00Z,2023,AaB,Odense Boldklub,2.0,3.0,,,ESPN scoreboard
+667609,2023-04-10T12:00:00Z,2023,FC Midtjylland,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+667610,2023-04-10T14:00:00Z,2023,Randers FC,F.C. København,1.0,0.0,,,ESPN scoreboard
+667611,2023-04-10T16:00:00Z,2023,FC Nordsjælland,Brøndby IF,2.0,1.0,,,ESPN scoreboard
+667612,2023-04-11T16:30:00Z,2023,Silkeborg IF,AC Horsens,1.0,2.0,,,ESPN scoreboard
+667613,2023-04-14T17:00:00Z,2023,FC Midtjylland,AaB,1.0,1.0,,,ESPN scoreboard
+667614,2023-04-16T12:00:00Z,2023,Lyngby Boldklub,AC Horsens,2.0,1.0,,,ESPN scoreboard
+667615,2023-04-16T12:00:00Z,2023,Odense Boldklub,Silkeborg IF,2.0,0.0,,,ESPN scoreboard
+667616,2023-04-16T14:00:00Z,2023,F.C. København,Viborg FF,2.0,1.0,,,ESPN scoreboard
+667617,2023-04-16T16:00:00Z,2023,Brøndby IF,AGF,1.0,0.0,,,ESPN scoreboard
+667618,2023-04-17T17:00:00Z,2023,Randers FC,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+667619,2023-04-21T17:00:00Z,2023,Silkeborg IF,AaB,2.0,2.0,,,ESPN scoreboard
+667620,2023-04-23T12:00:00Z,2023,AC Horsens,FC Midtjylland,0.0,2.0,,,ESPN scoreboard
+667621,2023-04-23T12:00:00Z,2023,Viborg FF,FC Nordsjælland,1.0,0.0,,,ESPN scoreboard
+667622,2023-04-23T14:00:00Z,2023,Brøndby IF,Randers FC,0.0,4.0,,,ESPN scoreboard
+667623,2023-04-23T16:00:00Z,2023,AGF,F.C. København,0.0,0.0,,,ESPN scoreboard
+667624,2023-04-24T17:00:00Z,2023,Odense Boldklub,Lyngby Boldklub,2.0,2.0,,,ESPN scoreboard
+667625,2023-04-28T17:00:00Z,2023,AC Horsens,Odense Boldklub,2.0,2.0,,,ESPN scoreboard
+667626,2023-04-30T12:00:00Z,2023,AaB,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+667627,2023-04-30T12:00:00Z,2023,Viborg FF,Randers FC,3.0,1.0,,,ESPN scoreboard
+667628,2023-04-30T14:00:00Z,2023,F.C. København,Brøndby IF,0.0,1.0,,,ESPN scoreboard
+667629,2023-04-30T16:00:00Z,2023,FC Nordsjælland,AGF,0.0,1.0,,,ESPN scoreboard
+667630,2023-05-01T17:00:00Z,2023,FC Midtjylland,Silkeborg IF,3.0,0.0,,,ESPN scoreboard
+667631,2023-05-07T10:00:00Z,2023,AaB,AC Horsens,4.0,0.0,,,ESPN scoreboard
+667633,2023-05-07T12:00:00Z,2023,Lyngby Boldklub,FC Midtjylland,2.0,1.0,,,ESPN scoreboard
+667632,2023-05-07T12:00:00Z,2023,Silkeborg IF,Odense Boldklub,0.0,1.0,,,ESPN scoreboard
+667634,2023-05-07T14:00:00Z,2023,Randers FC,Brøndby IF,1.0,3.0,,,ESPN scoreboard
+667635,2023-05-07T16:00:00Z,2023,AGF,Viborg FF,3.0,0.0,,,ESPN scoreboard
+667636,2023-05-08T17:00:00Z,2023,FC Nordsjælland,F.C. København,3.0,2.0,,,ESPN scoreboard
+667637,2023-05-12T17:00:00Z,2023,Odense Boldklub,AaB,1.0,1.0,,,ESPN scoreboard
+667638,2023-05-14T12:00:00Z,2023,FC Midtjylland,AC Horsens,3.0,1.0,,,ESPN scoreboard
+667639,2023-05-14T12:00:00Z,2023,Silkeborg IF,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+667640,2023-05-14T14:00:00Z,2023,Brøndby IF,F.C. København,1.0,3.0,,,ESPN scoreboard
+667641,2023-05-14T16:00:00Z,2023,AGF,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+667642,2023-05-15T17:00:00Z,2023,Randers FC,Viborg FF,0.0,2.0,,,ESPN scoreboard
+667647,2023-05-19T17:00:00Z,2023,AC Horsens,Silkeborg IF,0.0,1.0,,,ESPN scoreboard
+667643,2023-05-21T12:00:00Z,2023,AaB,FC Midtjylland,0.0,2.0,,,ESPN scoreboard
+667644,2023-05-21T12:00:00Z,2023,Lyngby Boldklub,Odense Boldklub,0.0,4.0,,,ESPN scoreboard
+667645,2023-05-21T14:05:00Z,2023,Viborg FF,Brøndby IF,1.0,1.0,,,ESPN scoreboard
+667646,2023-05-21T16:00:00Z,2023,F.C. København,AGF,4.0,3.0,,,ESPN scoreboard
+667648,2023-05-22T17:00:00Z,2023,FC Nordsjælland,Randers FC,3.0,1.0,,,ESPN scoreboard
+667649,2023-05-26T17:00:00Z,2023,Odense Boldklub,AC Horsens,2.0,1.0,,,ESPN scoreboard
+667650,2023-05-29T12:00:00Z,2023,Lyngby Boldklub,AaB,2.0,1.0,,,ESPN scoreboard
+667651,2023-05-29T12:00:00Z,2023,Silkeborg IF,FC Midtjylland,3.0,3.0,,,ESPN scoreboard
+667652,2023-05-29T14:00:00Z,2023,Viborg FF,F.C. København,1.0,2.0,,,ESPN scoreboard
+667653,2023-05-29T16:00:00Z,2023,Brøndby IF,FC Nordsjælland,5.0,1.0,,,ESPN scoreboard
+667654,2023-05-30T17:00:00Z,2023,Randers FC,AGF,1.0,3.0,,,ESPN scoreboard
+667656,2023-06-03T12:00:00Z,2023,AaB,Silkeborg IF,0.0,1.0,,,ESPN scoreboard
+667657,2023-06-03T12:00:00Z,2023,AC Horsens,Lyngby Boldklub,0.0,0.0,,,ESPN scoreboard
+667655,2023-06-03T12:00:00Z,2023,FC Midtjylland,Odense Boldklub,4.0,2.0,,,ESPN scoreboard
+667659,2023-06-04T15:00:00Z,2023,AGF,Brøndby IF,3.0,3.0,,,ESPN scoreboard
+667660,2023-06-04T15:00:00Z,2023,F.C. København,Randers FC,1.0,1.0,,,ESPN scoreboard
+667658,2023-06-04T15:00:00Z,2023,FC Nordsjælland,Viborg FF,0.0,0.0,,,ESPN scoreboard
+670102,2023-06-09T17:00:00Z,2023,Viborg FF,FC Midtjylland,0.0,1.0,,,ESPN scoreboard
+670873,2023-07-21T17:00:00Z,2023,FC Midtjylland,Hvidovre IF,1.0,0.0,,,ESPN scoreboard
+670874,2023-07-22T14:00:00Z,2023,Lyngby Boldklub,F.C. København,1.0,2.0,,,ESPN scoreboard
+670875,2023-07-23T12:00:00Z,2023,AGF,Vejle Boldklub,1.0,0.0,,,ESPN scoreboard
+670876,2023-07-23T14:00:00Z,2023,Odense Boldklub,Randers FC,2.0,2.0,,,ESPN scoreboard
+670877,2023-07-23T16:00:00Z,2023,Silkeborg IF,Brøndby IF,1.0,2.0,,,ESPN scoreboard
+670878,2023-07-24T17:00:00Z,2023,FC Nordsjælland,Viborg FF,4.0,1.0,,,ESPN scoreboard
+670879,2023-07-28T17:00:00Z,2023,Viborg FF,Lyngby Boldklub,2.0,2.0,,,ESPN scoreboard
+670880,2023-07-29T14:00:00Z,2023,Vejle Boldklub,F.C. København,2.0,3.0,,,ESPN scoreboard
+670881,2023-07-30T12:00:00Z,2023,FC Midtjylland,Silkeborg IF,2.0,0.0,,,ESPN scoreboard
+670882,2023-07-30T14:00:00Z,2023,Randers FC,Hvidovre IF,2.0,2.0,,,ESPN scoreboard
+670883,2023-07-30T16:00:00Z,2023,Brøndby IF,Odense Boldklub,1.0,2.0,,,ESPN scoreboard
+670884,2023-07-31T17:00:00Z,2023,AGF,FC Nordsjælland,1.0,3.0,,,ESPN scoreboard
+670886,2023-08-04T17:00:00Z,2023,Silkeborg IF,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+670885,2023-08-05T14:00:00Z,2023,F.C. København,Randers FC,4.0,0.0,,,ESPN scoreboard
+670887,2023-08-06T12:00:00Z,2023,Hvidovre IF,AGF,0.0,2.0,,,ESPN scoreboard
+670888,2023-08-06T14:00:00Z,2023,Lyngby Boldklub,FC Midtjylland,4.0,1.0,,,ESPN scoreboard
+670889,2023-08-06T16:00:00Z,2023,FC Nordsjælland,Brøndby IF,3.0,1.0,,,ESPN scoreboard
+670890,2023-08-07T17:00:00Z,2023,Odense Boldklub,Viborg FF,1.0,2.0,,,ESPN scoreboard
+670894,2023-08-11T17:00:00Z,2023,F.C. København,Odense Boldklub,2.0,1.0,,,ESPN scoreboard
+670891,2023-08-13T12:00:00Z,2023,Randers FC,FC Nordsjælland,0.0,5.0,,,ESPN scoreboard
+670892,2023-08-13T12:00:00Z,2023,Vejle Boldklub,FC Midtjylland,1.0,2.0,,,ESPN scoreboard
+670893,2023-08-13T14:00:00Z,2023,Brøndby IF,Lyngby Boldklub,3.0,0.0,,,ESPN scoreboard
+670895,2023-08-13T16:00:00Z,2023,AGF,Silkeborg IF,2.0,2.0,,,ESPN scoreboard
+670896,2023-08-14T17:00:00Z,2023,Viborg FF,Hvidovre IF,0.0,0.0,,,ESPN scoreboard
+670897,2023-08-18T17:00:00Z,2023,Hvidovre IF,F.C. København,0.0,2.0,,,ESPN scoreboard
+670898,2023-08-20T12:00:00Z,2023,Silkeborg IF,FC Nordsjælland,2.0,0.0,,,ESPN scoreboard
+670899,2023-08-20T14:00:00Z,2023,Lyngby Boldklub,Randers FC,1.0,0.0,,,ESPN scoreboard
+670900,2023-08-20T16:00:00Z,2023,FC Midtjylland,Brøndby IF,0.0,1.0,,,ESPN scoreboard
+670901,2023-08-20T18:00:00Z,2023,Odense Boldklub,AGF,1.0,1.0,,,ESPN scoreboard
+670902,2023-08-21T17:00:00Z,2023,Viborg FF,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+670903,2023-08-25T16:30:00Z,2023,Randers FC,Viborg FF,1.0,0.0,,,ESPN scoreboard
+670904,2023-08-26T14:00:00Z,2023,F.C. København,Silkeborg IF,1.0,3.0,,,ESPN scoreboard
+670905,2023-08-27T12:00:00Z,2023,AGF,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+670906,2023-08-27T14:00:00Z,2023,Hvidovre IF,Odense Boldklub,1.0,5.0,,,ESPN scoreboard
+670907,2023-08-27T16:00:00Z,2023,FC Nordsjælland,FC Midtjylland,3.0,0.0,,,ESPN scoreboard
+670908,2023-08-28T17:00:00Z,2023,Vejle Boldklub,Brøndby IF,0.0,1.0,,,ESPN scoreboard
+670909,2023-09-01T17:00:00Z,2023,Odense Boldklub,Vejle Boldklub,1.0,2.0,,,ESPN scoreboard
+670911,2023-09-03T12:00:00Z,2023,Lyngby Boldklub,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+670910,2023-09-03T12:00:00Z,2023,Silkeborg IF,Hvidovre IF,1.0,0.0,,,ESPN scoreboard
+670912,2023-09-03T14:00:00Z,2023,Brøndby IF,Randers FC,3.0,1.0,,,ESPN scoreboard
+670913,2023-09-03T16:00:00Z,2023,F.C. København,Viborg FF,2.0,0.0,,,ESPN scoreboard
+670914,2023-09-03T18:00:00Z,2023,FC Midtjylland,AGF,1.0,1.0,,,ESPN scoreboard
+670916,2023-09-15T17:00:00Z,2023,Viborg FF,FC Midtjylland,2.0,2.0,,,ESPN scoreboard
+670918,2023-09-16T14:00:00Z,2023,FC Nordsjælland,F.C. København,2.0,2.0,,,ESPN scoreboard
+670919,2023-09-17T12:00:00Z,2023,Vejle Boldklub,Randers FC,1.0,2.0,,,ESPN scoreboard
+670920,2023-09-17T14:00:00Z,2023,Hvidovre IF,Lyngby Boldklub,0.0,1.0,,,ESPN scoreboard
+670917,2023-09-17T16:00:00Z,2023,AGF,Brøndby IF,0.0,3.0,,,ESPN scoreboard
+670915,2023-09-18T17:00:00Z,2023,Odense Boldklub,Silkeborg IF,0.0,3.0,,,ESPN scoreboard
+670922,2023-09-22T17:00:00Z,2023,Lyngby Boldklub,Vejle Boldklub,1.0,1.0,,,ESPN scoreboard
+670926,2023-09-24T12:00:00Z,2023,Brøndby IF,F.C. København,2.0,3.0,,,ESPN scoreboard
+670923,2023-09-24T12:00:00Z,2023,Silkeborg IF,Viborg FF,2.0,0.0,,,ESPN scoreboard
+670921,2023-09-24T14:00:00Z,2023,Randers FC,AGF,1.0,1.0,,,ESPN scoreboard
+670925,2023-09-24T16:00:00Z,2023,FC Midtjylland,Odense Boldklub,2.0,1.0,,,ESPN scoreboard
+670924,2023-09-25T17:00:00Z,2023,FC Nordsjælland,Hvidovre IF,0.0,0.0,,,ESPN scoreboard
+670927,2023-09-30T13:00:00Z,2023,F.C. København,FC Midtjylland,0.0,2.0,,,ESPN scoreboard
+670930,2023-10-01T12:00:00Z,2023,Randers FC,Silkeborg IF,1.0,0.0,,,ESPN scoreboard
+670931,2023-10-01T12:00:00Z,2023,Vejle Boldklub,FC Nordsjælland,0.0,0.0,,,ESPN scoreboard
+670932,2023-10-01T14:00:00Z,2023,Hvidovre IF,Brøndby IF,0.0,3.0,,,ESPN scoreboard
+670928,2023-10-01T16:00:00Z,2023,Viborg FF,AGF,2.0,1.0,,,ESPN scoreboard
+670929,2023-10-02T17:00:00Z,2023,Odense Boldklub,Lyngby Boldklub,1.0,2.0,,,ESPN scoreboard
+670933,2023-10-06T17:00:00Z,2023,Silkeborg IF,Lyngby Boldklub,5.0,0.0,,,ESPN scoreboard
+670934,2023-10-08T12:00:00Z,2023,FC Nordsjælland,Odense Boldklub,0.0,1.0,,,ESPN scoreboard
+670937,2023-10-08T12:00:00Z,2023,Vejle Boldklub,Hvidovre IF,3.0,1.0,,,ESPN scoreboard
+670936,2023-10-08T14:00:00Z,2023,Brøndby IF,Viborg FF,1.0,0.0,,,ESPN scoreboard
+670935,2023-10-08T16:00:00Z,2023,FC Midtjylland,Randers FC,2.0,2.0,,,ESPN scoreboard
+670938,2023-10-08T18:00:00Z,2023,AGF,F.C. København,1.0,1.0,,,ESPN scoreboard
+670944,2023-10-20T17:00:00Z,2023,Hvidovre IF,Silkeborg IF,1.0,2.0,,,ESPN scoreboard
+670942,2023-10-21T15:00:00Z,2023,F.C. København,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+670943,2023-10-22T12:00:00Z,2023,Lyngby Boldklub,AGF,0.0,2.0,,,ESPN scoreboard
+670939,2023-10-22T14:00:00Z,2023,Viborg FF,FC Nordsjælland,0.0,2.0,,,ESPN scoreboard
+670940,2023-10-22T16:00:00Z,2023,Randers FC,Brøndby IF,2.0,2.0,,,ESPN scoreboard
+670941,2023-10-23T17:00:00Z,2023,Odense Boldklub,FC Midtjylland,1.0,2.0,,,ESPN scoreboard
+670949,2023-10-27T17:00:00Z,2023,FC Midtjylland,Lyngby Boldklub,2.0,1.0,,,ESPN scoreboard
+670948,2023-10-28T15:00:00Z,2023,F.C. København,Hvidovre IF,4.0,0.0,,,ESPN scoreboard
+670946,2023-10-29T13:00:00Z,2023,Vejle Boldklub,Viborg FF,1.0,1.0,,,ESPN scoreboard
+670945,2023-10-29T15:00:00Z,2023,Silkeborg IF,Odense Boldklub,0.0,0.0,,,ESPN scoreboard
+670950,2023-10-29T17:00:00Z,2023,Brøndby IF,FC Nordsjælland,2.0,1.0,,,ESPN scoreboard
+670947,2023-10-30T18:00:00Z,2023,AGF,Randers FC,2.0,1.0,,,ESPN scoreboard
+670952,2023-11-04T15:30:00Z,2023,Lyngby Boldklub,Odense Boldklub,2.0,2.0,,,ESPN scoreboard
+670953,2023-11-05T13:00:00Z,2023,FC Nordsjælland,Vejle Boldklub,1.0,0.0,,,ESPN scoreboard
+670955,2023-11-05T13:00:00Z,2023,Viborg FF,Silkeborg IF,2.0,1.0,,,ESPN scoreboard
+670951,2023-11-05T15:00:00Z,2023,Randers FC,F.C. København,2.0,4.0,,,ESPN scoreboard
+670956,2023-11-05T17:00:00Z,2023,Hvidovre IF,FC Midtjylland,1.0,4.0,,,ESPN scoreboard
+670954,2023-11-06T18:00:00Z,2023,Brøndby IF,AGF,1.0,1.0,,,ESPN scoreboard
+670959,2023-11-10T18:00:00Z,2023,Silkeborg IF,Randers FC,1.0,1.0,,,ESPN scoreboard
+670960,2023-11-12T11:00:00Z,2023,F.C. København,Brøndby IF,0.0,0.0,,,ESPN scoreboard
+670958,2023-11-12T13:00:00Z,2023,Vejle Boldklub,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+670961,2023-11-12T15:00:00Z,2023,FC Midtjylland,FC Nordsjælland,2.0,0.0,,,ESPN scoreboard
+670962,2023-11-12T17:00:00Z,2023,Odense Boldklub,Hvidovre IF,0.0,2.0,,,ESPN scoreboard
+670957,2023-11-12T19:00:00Z,2023,AGF,Viborg FF,2.0,0.0,,,ESPN scoreboard
+670968,2023-11-24T18:00:00Z,2023,Hvidovre IF,Vejle Boldklub,1.0,1.0,,,ESPN scoreboard
+670963,2023-11-25T18:00:00Z,2023,Viborg FF,F.C. København,2.0,1.0,,,ESPN scoreboard
+670967,2023-11-26T13:00:00Z,2023,FC Nordsjælland,AGF,0.0,0.0,,,ESPN scoreboard
+670965,2023-11-26T15:00:00Z,2023,Randers FC,Odense Boldklub,0.0,1.0,,,ESPN scoreboard
+670966,2023-11-26T17:00:00Z,2023,Lyngby Boldklub,Brøndby IF,3.0,3.0,,,ESPN scoreboard
+670964,2023-11-27T18:00:00Z,2023,Silkeborg IF,FC Midtjylland,1.0,4.0,,,ESPN scoreboard
+670973,2023-12-01T18:00:00Z,2023,Randers FC,Vejle Boldklub,0.0,0.0,,,ESPN scoreboard
+670974,2023-12-03T13:00:00Z,2023,Lyngby Boldklub,Silkeborg IF,2.0,0.0,,,ESPN scoreboard
+670971,2023-12-03T13:00:00Z,2023,Odense Boldklub,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+670970,2023-12-03T15:00:00Z,2023,Brøndby IF,Hvidovre IF,4.0,0.0,,,ESPN scoreboard
+670969,2023-12-03T17:00:00Z,2023,F.C. København,AGF,1.0,2.0,,,ESPN scoreboard
+670972,2023-12-04T18:00:00Z,2023,FC Midtjylland,Viborg FF,5.0,1.0,,,ESPN scoreboard
+670976,2024-02-16T18:00:00Z,2024,Viborg FF,Odense Boldklub,1.0,2.0,,,ESPN scoreboard
+670979,2024-02-18T13:00:00Z,2024,FC Nordsjælland,Lyngby Boldklub,3.0,2.0,,,ESPN scoreboard
+670975,2024-02-18T13:00:00Z,2024,Hvidovre IF,Randers FC,1.0,3.0,,,ESPN scoreboard
+670980,2024-02-18T15:00:00Z,2024,Silkeborg IF,F.C. København,0.0,3.0,,,ESPN scoreboard
+670978,2024-02-18T17:00:00Z,2024,Brøndby IF,FC Midtjylland,1.0,0.0,,,ESPN scoreboard
+670977,2024-02-19T18:00:00Z,2024,Vejle Boldklub,AGF,0.0,0.0,,,ESPN scoreboard
+670985,2024-02-23T18:00:00Z,2024,Randers FC,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+670986,2024-02-25T13:00:00Z,2024,Hvidovre IF,Viborg FF,2.0,2.0,,,ESPN scoreboard
+670981,2024-02-25T13:00:00Z,2024,Vejle Boldklub,Silkeborg IF,2.0,0.0,,,ESPN scoreboard
+670982,2024-02-25T15:00:00Z,2024,Odense Boldklub,Brøndby IF,0.0,3.0,,,ESPN scoreboard
+670984,2024-02-25T17:00:00Z,2024,AGF,FC Midtjylland,2.0,3.0,,,ESPN scoreboard
+670983,2024-02-26T18:00:00Z,2024,F.C. København,FC Nordsjælland,2.0,0.0,,,ESPN scoreboard
+670987,2024-03-01T18:00:00Z,2024,FC Midtjylland,F.C. København,2.0,0.0,,,ESPN scoreboard
+670990,2024-03-03T13:00:00Z,2024,Lyngby Boldklub,Hvidovre IF,2.0,4.0,,,ESPN scoreboard
+670991,2024-03-03T13:00:00Z,2024,Viborg FF,Randers FC,3.0,0.0,,,ESPN scoreboard
+670989,2024-03-03T15:00:00Z,2024,Brøndby IF,Vejle Boldklub,1.0,1.0,,,ESPN scoreboard
+670988,2024-03-03T17:00:00Z,2024,AGF,Odense Boldklub,1.0,1.0,,,ESPN scoreboard
+670992,2024-03-04T18:00:00Z,2024,FC Nordsjælland,Silkeborg IF,3.0,1.0,,,ESPN scoreboard
+670998,2024-03-08T18:00:00Z,2024,Hvidovre IF,FC Nordsjælland,1.0,2.0,,,ESPN scoreboard
+670995,2024-03-10T13:00:00Z,2024,Silkeborg IF,AGF,0.0,1.0,,,ESPN scoreboard
+670994,2024-03-10T13:00:00Z,2024,Vejle Boldklub,Odense Boldklub,0.0,1.0,,,ESPN scoreboard
+670996,2024-03-10T15:00:00Z,2024,F.C. København,Lyngby Boldklub,4.0,0.0,,,ESPN scoreboard
+670993,2024-03-10T17:00:00Z,2024,Viborg FF,Brøndby IF,1.0,2.0,,,ESPN scoreboard
+670997,2024-03-11T18:00:00Z,2024,Randers FC,FC Midtjylland,0.0,1.0,,,ESPN scoreboard
+671000,2024-03-17T16:00:00Z,2024,AGF,Hvidovre IF,1.0,0.0,,,ESPN scoreboard
+671001,2024-03-17T16:00:00Z,2024,Brøndby IF,Silkeborg IF,4.0,1.0,,,ESPN scoreboard
+671003,2024-03-17T16:00:00Z,2024,FC Midtjylland,Vejle Boldklub,3.0,0.0,,,ESPN scoreboard
+670999,2024-03-17T16:00:00Z,2024,FC Nordsjælland,Randers FC,1.0,1.0,,,ESPN scoreboard
+671002,2024-03-17T16:00:00Z,2024,Lyngby Boldklub,Viborg FF,2.0,0.0,,,ESPN scoreboard
+671004,2024-03-17T16:00:00Z,2024,Odense Boldklub,F.C. København,0.0,2.0,,,ESPN scoreboard
+700930,2024-03-31T12:00:00Z,2024,Randers FC,Lyngby Boldklub,6.0,2.0,,,ESPN scoreboard
+700931,2024-03-31T14:00:00Z,2024,Viborg FF,Hvidovre IF,3.0,1.0,,,ESPN scoreboard
+700932,2024-04-01T12:00:00Z,2024,F.C. København,Brøndby IF,1.0,2.0,,,ESPN scoreboard
+700933,2024-04-01T14:00:00Z,2024,FC Midtjylland,FC Nordsjælland,2.0,3.0,,,ESPN scoreboard
+700934,2024-04-01T16:00:00Z,2024,Silkeborg IF,AGF,2.0,2.0,,,ESPN scoreboard
+700935,2024-04-02T17:00:00Z,2024,Odense Boldklub,Vejle Boldklub,0.0,1.0,,,ESPN scoreboard
+700936,2024-04-05T17:00:00Z,2024,Lyngby Boldklub,Odense Boldklub,0.0,0.0,,,ESPN scoreboard
+700937,2024-04-07T12:00:00Z,2024,Hvidovre IF,Randers FC,1.0,3.0,,,ESPN scoreboard
+700938,2024-04-07T12:00:00Z,2024,Vejle Boldklub,Viborg FF,1.0,1.0,,,ESPN scoreboard
+700939,2024-04-07T14:00:00Z,2024,FC Nordsjælland,F.C. København,2.0,1.0,,,ESPN scoreboard
+700940,2024-04-07T16:00:00Z,2024,AGF,FC Midtjylland,0.0,1.0,,,ESPN scoreboard
+700941,2024-04-08T17:00:00Z,2024,Brøndby IF,Silkeborg IF,1.0,1.0,,,ESPN scoreboard
+700942,2024-04-12T17:00:00Z,2024,Odense Boldklub,Viborg FF,1.0,3.0,,,ESPN scoreboard
+700943,2024-04-14T12:00:00Z,2024,Lyngby Boldklub,Hvidovre IF,1.0,1.0,,,ESPN scoreboard
+700944,2024-04-14T12:00:00Z,2024,Vejle Boldklub,Randers FC,1.0,2.0,,,ESPN scoreboard
+700945,2024-04-14T14:00:00Z,2024,AGF,Brøndby IF,2.0,2.0,,,ESPN scoreboard
+700946,2024-04-14T16:00:00Z,2024,FC Midtjylland,F.C. København,2.0,2.0,,,ESPN scoreboard
+700947,2024-04-15T17:00:00Z,2024,Silkeborg IF,FC Nordsjælland,0.0,1.0,,,ESPN scoreboard
+700948,2024-04-19T17:00:00Z,2024,Randers FC,Odense Boldklub,2.0,2.0,,,ESPN scoreboard
+700950,2024-04-21T12:00:00Z,2024,Hvidovre IF,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+700949,2024-04-21T12:00:00Z,2024,Viborg FF,Lyngby Boldklub,2.0,1.0,,,ESPN scoreboard
+700951,2024-04-21T14:00:00Z,2024,F.C. København,Silkeborg IF,2.0,0.0,,,ESPN scoreboard
+700952,2024-04-21T16:00:00Z,2024,Brøndby IF,FC Midtjylland,2.0,1.0,,,ESPN scoreboard
+700953,2024-04-22T17:00:00Z,2024,FC Nordsjælland,AGF,7.0,2.0,,,ESPN scoreboard
+700954,2024-04-26T17:00:00Z,2024,Lyngby Boldklub,Vejle Boldklub,1.0,1.0,,,ESPN scoreboard
+700956,2024-04-28T12:00:00Z,2024,Odense Boldklub,Hvidovre IF,1.0,2.0,,,ESPN scoreboard
+700955,2024-04-28T12:00:00Z,2024,Viborg FF,Randers FC,0.0,0.0,,,ESPN scoreboard
+700957,2024-04-28T14:00:00Z,2024,FC Nordsjælland,Brøndby IF,1.0,1.0,,,ESPN scoreboard
+700958,2024-04-28T16:00:00Z,2024,F.C. København,AGF,3.0,2.0,,,ESPN scoreboard
+700959,2024-04-29T17:00:00Z,2024,Silkeborg IF,FC Midtjylland,3.0,0.0,,,ESPN scoreboard
+700960,2024-05-03T17:00:00Z,2024,AGF,FC Nordsjælland,1.0,3.0,,,ESPN scoreboard
+700961,2024-05-05T12:00:00Z,2024,Hvidovre IF,Viborg FF,0.0,1.0,,,ESPN scoreboard
+700962,2024-05-05T12:00:00Z,2024,Lyngby Boldklub,Randers FC,2.0,1.0,,,ESPN scoreboard
+700963,2024-05-05T14:00:00Z,2024,Silkeborg IF,F.C. København,0.0,3.0,,,ESPN scoreboard
+700964,2024-05-05T16:00:00Z,2024,FC Midtjylland,Brøndby IF,3.0,2.0,,,ESPN scoreboard
+700965,2024-05-06T17:00:00Z,2024,Vejle Boldklub,Odense Boldklub,3.0,2.0,,,ESPN scoreboard
+700966,2024-05-10T17:00:00Z,2024,Odense Boldklub,Lyngby Boldklub,1.0,2.0,,,ESPN scoreboard
+700967,2024-05-12T12:00:00Z,2024,Randers FC,Hvidovre IF,2.0,2.0,,,ESPN scoreboard
+700968,2024-05-12T12:00:00Z,2024,Viborg FF,Vejle Boldklub,1.0,2.0,,,ESPN scoreboard
+700969,2024-05-12T14:00:00Z,2024,Brøndby IF,F.C. København,1.0,3.0,,,ESPN scoreboard
+700970,2024-05-12T16:00:00Z,2024,FC Midtjylland,AGF,2.0,1.0,,,ESPN scoreboard
+700971,2024-05-12T18:00:00Z,2024,FC Nordsjælland,Silkeborg IF,4.0,1.0,,,ESPN scoreboard
+700972,2024-05-15T16:00:00Z,2024,Randers FC,Viborg FF,1.0,0.0,,,ESPN scoreboard
+700973,2024-05-15T16:00:00Z,2024,Vejle Boldklub,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+700974,2024-05-15T18:00:00Z,2024,Brøndby IF,FC Nordsjælland,1.0,0.0,,,ESPN scoreboard
+700975,2024-05-16T16:00:00Z,2024,AGF,Silkeborg IF,0.0,1.0,,,ESPN scoreboard
+700976,2024-05-16T16:00:00Z,2024,Hvidovre IF,Odense Boldklub,1.0,2.0,,,ESPN scoreboard
+700977,2024-05-16T18:00:00Z,2024,F.C. København,FC Midtjylland,1.0,2.0,,,ESPN scoreboard
+700978,2024-05-19T12:00:00Z,2024,Odense Boldklub,Randers FC,2.0,0.0,,,ESPN scoreboard
+700979,2024-05-20T12:00:00Z,2024,Lyngby Boldklub,Viborg FF,3.0,1.0,,,ESPN scoreboard
+700980,2024-05-20T12:00:00Z,2024,Vejle Boldklub,Hvidovre IF,2.0,0.0,,,ESPN scoreboard
+700981,2024-05-20T14:00:00Z,2024,Silkeborg IF,Brøndby IF,0.0,2.0,,,ESPN scoreboard
+700982,2024-05-20T16:00:00Z,2024,FC Nordsjælland,FC Midtjylland,3.0,3.0,,,ESPN scoreboard
+700983,2024-05-21T17:00:00Z,2024,AGF,F.C. København,3.0,2.0,,,ESPN scoreboard
+700986,2024-05-25T13:00:00Z,2024,Hvidovre IF,Lyngby Boldklub,0.0,0.0,,,ESPN scoreboard
+700985,2024-05-25T13:00:00Z,2024,Randers FC,Vejle Boldklub,1.0,0.0,,,ESPN scoreboard
+700984,2024-05-25T13:00:00Z,2024,Viborg FF,Odense Boldklub,2.0,1.0,,,ESPN scoreboard
+700989,2024-05-26T15:00:00Z,2024,Brøndby IF,AGF,2.0,3.0,,,ESPN scoreboard
+700987,2024-05-26T15:00:00Z,2024,F.C. København,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+700988,2024-05-26T15:00:00Z,2024,FC Midtjylland,Silkeborg IF,3.0,3.0,,,ESPN scoreboard
+702822,2024-05-31T17:00:00Z,2024,F.C. København,Randers FC,2.0,1.0,,,ESPN scoreboard
+703370,2024-07-19T16:00:00Z,2024,AGF,FC Midtjylland,1.0,1.0,,,ESPN scoreboard
+703371,2024-07-19T18:00:00Z,2024,FC Nordsjælland,AaB,3.0,0.0,,,ESPN scoreboard
+703372,2024-07-21T12:00:00Z,2024,Silkeborg IF,Sønderjyske Fodbold,1.0,0.0,,,ESPN scoreboard
+703374,2024-07-21T14:00:00Z,2024,Vejle Boldklub,Randers FC,2.0,3.0,,,ESPN scoreboard
+703373,2024-07-21T16:00:00Z,2024,Viborg FF,Brøndby IF,3.0,3.0,,,ESPN scoreboard
+703375,2024-07-22T17:00:00Z,2024,Lyngby Boldklub,F.C. København,0.0,2.0,,,ESPN scoreboard
+703376,2024-07-26T17:00:00Z,2024,Sønderjyske Fodbold,Lyngby Boldklub,1.0,1.0,,,ESPN scoreboard
+703377,2024-07-27T14:00:00Z,2024,FC Nordsjælland,FC Midtjylland,2.0,2.0,,,ESPN scoreboard
+703378,2024-07-28T12:00:00Z,2024,Randers FC,Viborg FF,3.0,1.0,,,ESPN scoreboard
+703379,2024-07-28T14:00:00Z,2024,AaB,Silkeborg IF,2.0,1.0,,,ESPN scoreboard
+703380,2024-07-28T16:00:00Z,2024,F.C. København,AGF,3.0,2.0,,,ESPN scoreboard
+703381,2024-07-29T17:00:00Z,2024,Brøndby IF,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+703383,2024-08-02T17:00:00Z,2024,AGF,Sønderjyske Fodbold,4.0,0.0,,,ESPN scoreboard
+703382,2024-08-03T14:00:00Z,2024,FC Midtjylland,AaB,2.0,0.0,,,ESPN scoreboard
+703384,2024-08-04T12:00:00Z,2024,Silkeborg IF,Viborg FF,3.0,2.0,,,ESPN scoreboard
+703385,2024-08-04T14:00:00Z,2024,F.C. København,Randers FC,1.0,1.0,,,ESPN scoreboard
+703386,2024-08-04T16:00:00Z,2024,Lyngby Boldklub,Brøndby IF,0.0,2.0,,,ESPN scoreboard
+703387,2024-08-05T17:00:00Z,2024,Vejle Boldklub,FC Nordsjælland,0.0,1.0,,,ESPN scoreboard
+703388,2024-08-09T17:00:00Z,2024,FC Midtjylland,Vejle Boldklub,2.0,0.0,,,ESPN scoreboard
+703389,2024-08-11T12:00:00Z,2024,FC Nordsjælland,Lyngby Boldklub,1.0,1.0,,,ESPN scoreboard
+703390,2024-08-11T12:00:00Z,2024,Randers FC,Silkeborg IF,0.0,2.0,,,ESPN scoreboard
+703391,2024-08-11T14:00:00Z,2024,Brøndby IF,AGF,0.0,1.0,,,ESPN scoreboard
+703392,2024-08-11T16:00:00Z,2024,Sønderjyske Fodbold,F.C. København,0.0,2.0,,,ESPN scoreboard
+703393,2024-08-12T17:00:00Z,2024,Viborg FF,AaB,2.0,3.0,,,ESPN scoreboard
+703394,2024-08-16T17:00:00Z,2024,Lyngby Boldklub,FC Midtjylland,1.0,2.0,,,ESPN scoreboard
+703395,2024-08-18T12:00:00Z,2024,Randers FC,Sønderjyske Fodbold,1.0,2.0,,,ESPN scoreboard
+703396,2024-08-18T12:00:00Z,2024,Silkeborg IF,FC Nordsjælland,4.0,1.0,,,ESPN scoreboard
+703397,2024-08-18T14:00:00Z,2024,F.C. København,Viborg FF,1.0,1.0,,,ESPN scoreboard
+703398,2024-08-18T16:00:00Z,2024,AaB,Brøndby IF,0.0,4.0,,,ESPN scoreboard
+703399,2024-08-19T17:00:00Z,2024,AGF,Vejle Boldklub,5.0,1.0,,,ESPN scoreboard
+703401,2024-08-23T17:00:00Z,2024,AaB,AGF,0.0,4.0,,,ESPN scoreboard
+703400,2024-08-24T14:00:00Z,2024,FC Midtjylland,Sønderjyske Fodbold,3.0,2.0,,,ESPN scoreboard
+703402,2024-08-25T12:00:00Z,2024,Vejle Boldklub,Silkeborg IF,1.0,3.0,,,ESPN scoreboard
+703403,2024-08-25T14:00:00Z,2024,FC Nordsjælland,F.C. København,3.0,2.0,,,ESPN scoreboard
+703404,2024-08-25T16:00:00Z,2024,Brøndby IF,Randers FC,2.0,2.0,,,ESPN scoreboard
+703405,2024-08-26T17:00:00Z,2024,Viborg FF,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+703406,2024-08-30T17:00:00Z,2024,Lyngby Boldklub,Vejle Boldklub,1.0,0.0,,,ESPN scoreboard
+703407,2024-08-31T14:00:00Z,2024,AGF,FC Nordsjælland,4.0,2.0,,,ESPN scoreboard
+703408,2024-09-01T12:00:00Z,2024,F.C. København,Brøndby IF,3.0,1.0,,,ESPN scoreboard
+703409,2024-09-01T12:00:00Z,2024,Sønderjyske Fodbold,Viborg FF,2.0,2.0,,,ESPN scoreboard
+703410,2024-09-01T14:00:00Z,2024,Silkeborg IF,FC Midtjylland,1.0,3.0,,,ESPN scoreboard
+703411,2024-09-01T16:00:00Z,2024,Randers FC,AaB,1.0,0.0,,,ESPN scoreboard
+703413,2024-09-13T17:00:00Z,2024,AaB,Lyngby Boldklub,2.0,1.0,,,ESPN scoreboard
+703415,2024-09-14T16:00:00Z,2024,FC Midtjylland,F.C. København,2.0,1.0,,,ESPN scoreboard
+703416,2024-09-15T12:00:00Z,2024,AGF,Silkeborg IF,1.0,1.0,,,ESPN scoreboard
+703412,2024-09-15T14:00:00Z,2024,Vejle Boldklub,Viborg FF,0.0,5.0,,,ESPN scoreboard
+703414,2024-09-15T16:00:00Z,2024,Brøndby IF,Sønderjyske Fodbold,2.0,0.0,,,ESPN scoreboard
+703417,2024-09-16T17:00:00Z,2024,FC Nordsjælland,Randers FC,1.0,1.0,,,ESPN scoreboard
+703423,2024-09-20T17:00:00Z,2024,Viborg FF,FC Nordsjælland,3.0,2.0,,,ESPN scoreboard
+703420,2024-09-22T12:00:00Z,2024,Randers FC,FC Midtjylland,2.0,2.0,,,ESPN scoreboard
+703422,2024-09-22T12:00:00Z,2024,Sønderjyske Fodbold,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+703419,2024-09-22T14:00:00Z,2024,Lyngby Boldklub,AGF,0.0,0.0,,,ESPN scoreboard
+703421,2024-09-22T16:00:00Z,2024,Silkeborg IF,Brøndby IF,3.0,3.0,,,ESPN scoreboard
+703418,2024-09-23T17:00:00Z,2024,F.C. København,AaB,2.0,0.0,,,ESPN scoreboard
+703424,2024-09-28T14:00:00Z,2024,AGF,Randers FC,2.0,2.0,,,ESPN scoreboard
+703425,2024-09-29T12:00:00Z,2024,AaB,Sønderjyske Fodbold,3.0,0.0,,,ESPN scoreboard
+703426,2024-09-29T12:00:00Z,2024,FC Midtjylland,Viborg FF,3.0,1.0,,,ESPN scoreboard
+703428,2024-09-29T14:00:00Z,2024,Lyngby Boldklub,Silkeborg IF,2.0,2.0,,,ESPN scoreboard
+703429,2024-09-29T16:00:00Z,2024,Vejle Boldklub,F.C. København,1.0,2.0,,,ESPN scoreboard
+703427,2024-09-30T17:00:00Z,2024,FC Nordsjælland,Brøndby IF,4.0,1.0,,,ESPN scoreboard
+703434,2024-10-04T17:00:00Z,2024,Vejle Boldklub,AaB,2.0,2.0,,,ESPN scoreboard
+703431,2024-10-06T12:00:00Z,2024,Randers FC,Lyngby Boldklub,1.0,1.0,,,ESPN scoreboard
+703433,2024-10-06T12:00:00Z,2024,Sønderjyske Fodbold,FC Nordsjælland,1.0,4.0,,,ESPN scoreboard
+703435,2024-10-06T14:00:00Z,2024,Viborg FF,AGF,1.0,1.0,,,ESPN scoreboard
+703430,2024-10-06T16:00:00Z,2024,Brøndby IF,FC Midtjylland,2.0,0.0,,,ESPN scoreboard
+703432,2024-10-06T18:00:00Z,2024,Silkeborg IF,F.C. København,2.0,2.0,,,ESPN scoreboard
+703438,2024-10-18T17:00:00Z,2024,F.C. København,Vejle Boldklub,3.0,1.0,,,ESPN scoreboard
+703437,2024-10-20T12:00:00Z,2024,AaB,Randers FC,0.0,2.0,,,ESPN scoreboard
+703440,2024-10-20T12:00:00Z,2024,Lyngby Boldklub,Viborg FF,0.0,0.0,,,ESPN scoreboard
+703439,2024-10-20T14:00:00Z,2024,FC Nordsjælland,Silkeborg IF,1.0,1.0,,,ESPN scoreboard
+703441,2024-10-20T16:00:00Z,2024,Sønderjyske Fodbold,FC Midtjylland,3.0,2.0,,,ESPN scoreboard
+703436,2024-10-21T17:00:00Z,2024,AGF,Brøndby IF,1.0,0.0,,,ESPN scoreboard
+703445,2024-10-25T17:00:00Z,2024,Silkeborg IF,AaB,1.0,1.0,,,ESPN scoreboard
+703442,2024-10-27T11:15:00Z,2024,Brøndby IF,F.C. København,0.0,0.0,,,ESPN scoreboard
+703446,2024-10-27T13:00:00Z,2024,Vejle Boldklub,Lyngby Boldklub,2.0,0.0,,,ESPN scoreboard
+703447,2024-10-27T15:00:00Z,2024,Viborg FF,Sønderjyske Fodbold,4.0,2.0,,,ESPN scoreboard
+703443,2024-10-27T17:00:00Z,2024,FC Midtjylland,AGF,2.0,0.0,,,ESPN scoreboard
+703444,2024-10-28T18:00:00Z,2024,Randers FC,FC Nordsjælland,4.0,0.0,,,ESPN scoreboard
+703453,2024-11-02T16:00:00Z,2024,Sønderjyske Fodbold,Randers FC,1.0,4.0,,,ESPN scoreboard
+703451,2024-11-03T13:00:00Z,2024,FC Midtjylland,Brøndby IF,1.0,5.0,,,ESPN scoreboard
+703452,2024-11-03T13:00:00Z,2024,FC Nordsjælland,Viborg FF,2.0,1.0,,,ESPN scoreboard
+703448,2024-11-03T15:00:00Z,2024,AGF,Lyngby Boldklub,2.0,1.0,,,ESPN scoreboard
+703449,2024-11-03T17:00:00Z,2024,AaB,Vejle Boldklub,3.0,3.0,,,ESPN scoreboard
+703450,2024-11-04T18:00:00Z,2024,F.C. København,Silkeborg IF,2.0,2.0,,,ESPN scoreboard
+703458,2024-11-08T18:00:00Z,2024,Vejle Boldklub,Sønderjyske Fodbold,1.0,1.0,,,ESPN scoreboard
+703456,2024-11-10T13:00:00Z,2024,Lyngby Boldklub,AaB,2.0,2.0,,,ESPN scoreboard
+703457,2024-11-10T13:00:00Z,2024,Silkeborg IF,Randers FC,1.0,0.0,,,ESPN scoreboard
+703459,2024-11-10T15:00:00Z,2024,Viborg FF,FC Midtjylland,1.0,0.0,,,ESPN scoreboard
+703454,2024-11-10T17:00:00Z,2024,AGF,F.C. København,1.0,1.0,,,ESPN scoreboard
+703455,2024-11-10T19:00:00Z,2024,Brøndby IF,FC Nordsjælland,1.0,1.0,,,ESPN scoreboard
+703463,2024-11-22T18:00:00Z,2024,FC Nordsjælland,AGF,1.0,0.0,,,ESPN scoreboard
+703460,2024-11-24T13:00:00Z,2024,AaB,Viborg FF,0.0,0.0,,,ESPN scoreboard
+703464,2024-11-24T13:00:00Z,2024,Randers FC,Vejle Boldklub,2.0,0.0,,,ESPN scoreboard
+703465,2024-11-24T15:00:00Z,2024,Sønderjyske Fodbold,Brøndby IF,2.0,2.0,,,ESPN scoreboard
+703461,2024-11-24T17:00:00Z,2024,F.C. København,Lyngby Boldklub,2.0,1.0,,,ESPN scoreboard
+703462,2024-11-25T18:00:00Z,2024,FC Midtjylland,Silkeborg IF,1.0,0.0,,,ESPN scoreboard
+703466,2024-11-29T18:00:00Z,2024,Brøndby IF,AaB,1.0,0.0,,,ESPN scoreboard
+703468,2024-12-01T13:00:00Z,2024,Lyngby Boldklub,Sønderjyske Fodbold,0.0,2.0,,,ESPN scoreboard
+703471,2024-12-01T13:00:00Z,2024,Viborg FF,Randers FC,1.0,2.0,,,ESPN scoreboard
+703470,2024-12-01T15:00:00Z,2024,Vejle Boldklub,FC Midtjylland,0.0,3.0,,,ESPN scoreboard
+703469,2024-12-01T17:00:00Z,2024,Silkeborg IF,AGF,1.0,1.0,,,ESPN scoreboard
+703467,2024-12-02T18:00:00Z,2024,F.C. København,FC Nordsjælland,3.0,1.0,,,ESPN scoreboard
+703473,2025-02-14T18:00:00Z,2025,Brøndby IF,Viborg FF,4.0,1.0,,,ESPN scoreboard
+703476,2025-02-16T13:00:00Z,2025,Silkeborg IF,Vejle Boldklub,0.0,1.0,,,ESPN scoreboard
+703477,2025-02-16T15:00:00Z,2025,Sønderjyske Fodbold,AGF,1.0,4.0,,,ESPN scoreboard
+703474,2025-02-16T17:00:00Z,2025,FC Midtjylland,Lyngby Boldklub,1.0,0.0,,,ESPN scoreboard
+703475,2025-02-17T18:00:00Z,2025,Randers FC,F.C. København,1.0,2.0,,,ESPN scoreboard
+703481,2025-02-21T18:00:00Z,2025,Lyngby Boldklub,Randers FC,0.0,0.0,,,ESPN scoreboard
+703478,2025-02-23T13:00:00Z,2025,AGF,AaB,4.0,0.0,,,ESPN scoreboard
+703480,2025-02-23T13:00:00Z,2025,FC Nordsjælland,Sønderjyske Fodbold,3.0,2.0,,,ESPN scoreboard
+703482,2025-02-23T15:00:00Z,2025,Vejle Boldklub,Brøndby IF,2.0,2.0,,,ESPN scoreboard
+703479,2025-02-23T17:00:00Z,2025,F.C. København,FC Midtjylland,1.0,0.0,,,ESPN scoreboard
+703483,2025-02-24T18:00:00Z,2025,Viborg FF,Silkeborg IF,1.0,4.0,,,ESPN scoreboard
+703472,2025-02-26T18:30:00Z,2025,AaB,FC Nordsjælland,1.0,2.0,,,ESPN scoreboard
+703487,2025-02-28T18:00:00Z,2025,Randers FC,AGF,1.0,1.0,,,ESPN scoreboard
+703488,2025-03-02T13:00:00Z,2025,Sønderjyske Fodbold,Silkeborg IF,1.0,3.0,,,ESPN scoreboard
+703489,2025-03-02T13:00:00Z,2025,Viborg FF,Vejle Boldklub,3.0,1.0,,,ESPN scoreboard
+703486,2025-03-02T15:00:00Z,2025,FC Midtjylland,FC Nordsjælland,2.0,1.0,,,ESPN scoreboard
+703484,2025-03-02T17:00:00Z,2025,AaB,F.C. København,0.0,0.0,,,ESPN scoreboard
+703485,2025-03-03T18:00:00Z,2025,Brøndby IF,Lyngby Boldklub,1.0,1.0,,,ESPN scoreboard
+703493,2025-03-07T18:00:00Z,2025,FC Nordsjælland,Vejle Boldklub,3.0,1.0,,,ESPN scoreboard
+703491,2025-03-09T13:00:00Z,2025,AaB,FC Midtjylland,1.0,4.0,,,ESPN scoreboard
+703495,2025-03-09T13:00:00Z,2025,Silkeborg IF,Lyngby Boldklub,0.0,1.0,,,ESPN scoreboard
+703490,2025-03-09T15:00:00Z,2025,AGF,Viborg FF,1.0,1.0,,,ESPN scoreboard
+703492,2025-03-09T17:00:00Z,2025,F.C. København,Sønderjyske Fodbold,1.0,1.0,,,ESPN scoreboard
+703494,2025-03-10T18:00:00Z,2025,Randers FC,Brøndby IF,4.0,2.0,,,ESPN scoreboard
+703496,2025-03-16T16:00:00Z,2025,Brøndby IF,Silkeborg IF,2.0,2.0,,,ESPN scoreboard
+703497,2025-03-16T16:00:00Z,2025,FC Midtjylland,Randers FC,4.0,2.0,,,ESPN scoreboard
+703498,2025-03-16T16:00:00Z,2025,Lyngby Boldklub,FC Nordsjælland,1.0,0.0,,,ESPN scoreboard
+703499,2025-03-16T16:00:00Z,2025,Sønderjyske Fodbold,AaB,0.0,3.0,,,ESPN scoreboard
+703500,2025-03-16T16:00:00Z,2025,Vejle Boldklub,AGF,3.0,2.0,,,ESPN scoreboard
+703501,2025-03-16T16:00:00Z,2025,Viborg FF,F.C. København,3.0,2.0,,,ESPN scoreboard
+734878,2025-03-28T18:00:00Z,2025,AaB,Viborg FF,0.0,4.0,,,ESPN scoreboard
+734879,2025-03-30T12:00:00Z,2025,Lyngby Boldklub,Vejle Boldklub,1.0,2.0,,,ESPN scoreboard
+734880,2025-03-30T12:00:00Z,2025,Sønderjyske Fodbold,Silkeborg IF,2.0,1.0,,,ESPN scoreboard
+734881,2025-03-30T14:00:00Z,2025,AGF,FC Nordsjælland,2.0,0.0,,,ESPN scoreboard
+734882,2025-03-30T16:00:00Z,2025,FC Midtjylland,Brøndby IF,0.0,2.0,,,ESPN scoreboard
+734883,2025-03-31T17:00:00Z,2025,F.C. København,Randers FC,1.0,0.0,,,ESPN scoreboard
+734884,2025-04-04T17:00:00Z,2025,Randers FC,FC Midtjylland,2.0,1.0,,,ESPN scoreboard
+734885,2025-04-06T12:00:00Z,2025,Silkeborg IF,Lyngby Boldklub,2.0,1.0,,,ESPN scoreboard
+734886,2025-04-06T12:00:00Z,2025,Viborg FF,Sønderjyske Fodbold,2.0,1.0,,,ESPN scoreboard
+734887,2025-04-06T14:00:00Z,2025,Vejle Boldklub,AaB,1.0,1.0,,,ESPN scoreboard
+734888,2025-04-06T16:00:00Z,2025,FC Nordsjælland,F.C. København,0.0,1.0,,,ESPN scoreboard
+734889,2025-04-07T17:00:00Z,2025,Brøndby IF,AGF,2.0,1.0,,,ESPN scoreboard
+734890,2025-04-11T17:00:00Z,2025,AaB,Lyngby Boldklub,2.0,2.0,,,ESPN scoreboard
+734891,2025-04-13T12:00:00Z,2025,F.C. København,Brøndby IF,1.0,2.0,,,ESPN scoreboard
+734892,2025-04-13T12:00:00Z,2025,Viborg FF,Silkeborg IF,2.0,1.0,,,ESPN scoreboard
+734893,2025-04-13T14:00:00Z,2025,AGF,FC Midtjylland,1.0,1.0,,,ESPN scoreboard
+734894,2025-04-13T16:00:00Z,2025,FC Nordsjælland,Randers FC,5.0,2.0,,,ESPN scoreboard
+734895,2025-04-14T17:00:00Z,2025,Sønderjyske Fodbold,Vejle Boldklub,1.0,0.0,,,ESPN scoreboard
+734896,2025-04-16T17:00:00Z,2025,Silkeborg IF,AaB,4.0,0.0,,,ESPN scoreboard
+734897,2025-04-17T12:00:00Z,2025,Lyngby Boldklub,Sønderjyske Fodbold,0.0,2.0,,,ESPN scoreboard
+734898,2025-04-17T12:00:00Z,2025,Vejle Boldklub,Viborg FF,3.0,3.0,,,ESPN scoreboard
+734899,2025-04-17T14:00:00Z,2025,Randers FC,AGF,3.0,1.0,,,ESPN scoreboard
+734900,2025-04-17T16:00:00Z,2025,FC Midtjylland,F.C. København,4.0,2.0,,,ESPN scoreboard
+734901,2025-04-18T17:00:00Z,2025,Brøndby IF,FC Nordsjælland,0.0,0.0,,,ESPN scoreboard
+734902,2025-04-20T15:00:00Z,2025,AaB,Sønderjyske Fodbold,2.0,3.0,,,ESPN scoreboard
+734903,2025-04-21T12:00:00Z,2025,Vejle Boldklub,Silkeborg IF,0.0,4.0,,,ESPN scoreboard
+734904,2025-04-21T12:00:00Z,2025,Viborg FF,Lyngby Boldklub,1.0,1.0,,,ESPN scoreboard
+734905,2025-04-21T14:00:00Z,2025,Brøndby IF,Randers FC,4.0,3.0,,,ESPN scoreboard
+734906,2025-04-21T16:00:00Z,2025,F.C. København,AGF,3.0,1.0,,,ESPN scoreboard
+734907,2025-04-22T17:00:00Z,2025,FC Nordsjælland,FC Midtjylland,3.0,2.0,,,ESPN scoreboard
+734908,2025-04-25T17:00:00Z,2025,Randers FC,Brøndby IF,0.0,0.0,,,ESPN scoreboard
+734910,2025-04-27T12:00:00Z,2025,Lyngby Boldklub,Silkeborg IF,2.0,0.0,,,ESPN scoreboard
+734909,2025-04-27T12:00:00Z,2025,Sønderjyske Fodbold,Viborg FF,2.0,2.0,,,ESPN scoreboard
+734911,2025-04-27T14:00:00Z,2025,AGF,F.C. København,1.0,3.0,,,ESPN scoreboard
+734912,2025-04-27T16:00:00Z,2025,FC Midtjylland,FC Nordsjælland,5.0,0.0,,,ESPN scoreboard
+734913,2025-04-28T17:00:00Z,2025,AaB,Vejle Boldklub,0.0,1.0,,,ESPN scoreboard
+734914,2025-05-02T17:00:00Z,2025,Randers FC,FC Nordsjælland,3.0,2.0,,,ESPN scoreboard
+734915,2025-05-04T12:00:00Z,2025,Lyngby Boldklub,Viborg FF,0.0,0.0,,,ESPN scoreboard
+734916,2025-05-04T12:00:00Z,2025,Silkeborg IF,Vejle Boldklub,1.0,1.0,,,ESPN scoreboard
+734917,2025-05-04T14:00:00Z,2025,Brøndby IF,F.C. København,0.0,3.0,,,ESPN scoreboard
+734918,2025-05-04T16:00:00Z,2025,FC Midtjylland,AGF,3.0,1.0,,,ESPN scoreboard
+734919,2025-05-05T17:00:00Z,2025,Sønderjyske Fodbold,AaB,2.0,2.0,,,ESPN scoreboard
+734920,2025-05-11T12:00:00Z,2025,FC Nordsjælland,Brøndby IF,2.0,2.0,,,ESPN scoreboard
+734921,2025-05-11T12:00:00Z,2025,Silkeborg IF,Sønderjyske Fodbold,1.0,0.0,,,ESPN scoreboard
+734922,2025-05-11T14:00:00Z,2025,AGF,Randers FC,1.0,3.0,,,ESPN scoreboard
+734923,2025-05-11T16:00:00Z,2025,Viborg FF,AaB,3.0,1.0,,,ESPN scoreboard
+734924,2025-05-11T18:00:00Z,2025,F.C. København,FC Midtjylland,1.0,1.0,,,ESPN scoreboard
+734925,2025-05-12T17:00:00Z,2025,Vejle Boldklub,Lyngby Boldklub,2.0,0.0,,,ESPN scoreboard
+734926,2025-05-16T17:00:00Z,2025,FC Nordsjælland,AGF,2.0,0.0,,,ESPN scoreboard
+734928,2025-05-18T12:00:00Z,2025,AaB,Silkeborg IF,2.0,3.0,,,ESPN scoreboard
+734927,2025-05-18T12:00:00Z,2025,Viborg FF,Vejle Boldklub,0.0,1.0,,,ESPN scoreboard
+734929,2025-05-18T14:00:00Z,2025,Sønderjyske Fodbold,Lyngby Boldklub,5.0,1.0,,,ESPN scoreboard
+734930,2025-05-18T16:00:00Z,2025,Randers FC,F.C. København,0.0,4.0,,,ESPN scoreboard
+734931,2025-05-19T17:00:00Z,2025,Brøndby IF,FC Midtjylland,1.0,2.0,,,ESPN scoreboard
+734933,2025-05-24T13:00:00Z,2025,Lyngby Boldklub,AaB,3.0,1.0,,,ESPN scoreboard
+734934,2025-05-24T13:00:00Z,2025,Silkeborg IF,Viborg FF,1.0,2.0,,,ESPN scoreboard
+734932,2025-05-24T13:00:00Z,2025,Vejle Boldklub,Sønderjyske Fodbold,2.0,3.0,,,ESPN scoreboard
+734936,2025-05-25T15:00:00Z,2025,AGF,Brøndby IF,2.0,3.0,,,ESPN scoreboard
+734937,2025-05-25T15:00:00Z,2025,F.C. København,FC Nordsjælland,3.0,0.0,,,ESPN scoreboard
+734935,2025-05-25T15:00:00Z,2025,FC Midtjylland,Randers FC,3.0,2.0,,,ESPN scoreboard
+735896,2025-06-01T16:30:00Z,2025,Randers FC,Silkeborg IF,1.0,3.0,,,ESPN scoreboard
+737966,2025-07-18T17:00:00Z,2025,Viborg FF,F.C. København,2.0,3.0,,,ESPN scoreboard
+737967,2025-07-20T12:00:00Z,2025,FC Fredericia,FC Nordsjælland,2.0,3.0,,,ESPN scoreboard
+737968,2025-07-20T12:00:00Z,2025,Vejle Boldklub,Randers FC,1.0,1.0,,,ESPN scoreboard
+737969,2025-07-20T14:00:00Z,2025,Sønderjyske Fodbold,AGF,1.0,1.0,,,ESPN scoreboard
+737970,2025-07-20T16:00:00Z,2025,FC Midtjylland,Odense Boldklub,3.0,3.0,,,ESPN scoreboard
+737971,2025-07-20T18:00:00Z,2025,Brøndby IF,Silkeborg IF,3.0,0.0,,,ESPN scoreboard
+737972,2025-07-25T17:00:00Z,2025,AGF,Randers FC,1.0,2.0,,,ESPN scoreboard
+737973,2025-07-26T16:00:00Z,2025,F.C. København,Vejle Boldklub,2.0,0.0,,,ESPN scoreboard
+737974,2025-07-27T12:00:00Z,2025,Odense Boldklub,Viborg FF,3.0,1.0,,,ESPN scoreboard
+737975,2025-07-27T14:00:00Z,2025,Silkeborg IF,FC Fredericia,0.0,2.0,,,ESPN scoreboard
+737976,2025-07-27T16:00:00Z,2025,FC Nordsjælland,Brøndby IF,0.0,1.0,,,ESPN scoreboard
+737977,2025-07-28T17:00:00Z,2025,FC Midtjylland,Sønderjyske Fodbold,6.0,2.0,,,ESPN scoreboard
+737978,2025-08-01T16:00:00Z,2025,FC Fredericia,F.C. København,0.0,2.0,,,ESPN scoreboard
+737979,2025-08-01T18:00:00Z,2025,Vejle Boldklub,Odense Boldklub,4.0,0.0,,,ESPN scoreboard
+737980,2025-08-03T12:00:00Z,2025,Randers FC,Silkeborg IF,1.0,0.0,,,ESPN scoreboard
+737981,2025-08-03T12:00:00Z,2025,Sønderjyske Fodbold,FC Nordsjælland,3.0,2.0,,,ESPN scoreboard
+737982,2025-08-03T14:00:00Z,2025,AGF,FC Midtjylland,0.0,0.0,,,ESPN scoreboard
+737983,2025-08-03T16:00:00Z,2025,Brøndby IF,Viborg FF,0.0,2.0,,,ESPN scoreboard
+737984,2025-08-08T16:00:00Z,2025,F.C. København,AGF,2.0,3.0,,,ESPN scoreboard
+737985,2025-08-08T18:00:00Z,2025,Viborg FF,Sønderjyske Fodbold,1.0,0.0,,,ESPN scoreboard
+737986,2025-08-10T12:00:00Z,2025,FC Midtjylland,FC Fredericia,3.0,3.0,,,ESPN scoreboard
+737987,2025-08-10T14:00:00Z,2025,Silkeborg IF,FC Nordsjælland,4.0,2.0,,,ESPN scoreboard
+737988,2025-08-10T16:00:00Z,2025,Brøndby IF,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+737989,2025-08-11T17:00:00Z,2025,Odense Boldklub,Randers FC,3.0,2.0,,,ESPN scoreboard
+737990,2025-08-15T16:00:00Z,2025,FC Nordsjælland,F.C. København,1.0,3.0,,,ESPN scoreboard
+737991,2025-08-15T18:00:00Z,2025,FC Fredericia,Sønderjyske Fodbold,3.0,2.0,,,ESPN scoreboard
+737992,2025-08-17T12:00:00Z,2025,Vejle Boldklub,FC Midtjylland,0.0,2.0,,,ESPN scoreboard
+737993,2025-08-17T14:00:00Z,2025,Viborg FF,Silkeborg IF,2.0,3.0,,,ESPN scoreboard
+737994,2025-08-17T16:00:00Z,2025,Randers FC,Brøndby IF,0.0,2.0,,,ESPN scoreboard
+737995,2025-08-18T17:00:00Z,2025,Odense Boldklub,AGF,1.0,5.0,,,ESPN scoreboard
+737996,2025-08-23T16:00:00Z,2025,F.C. København,Odense Boldklub,1.0,1.0,,,ESPN scoreboard
+737997,2025-08-24T12:00:00Z,2025,FC Fredericia,Randers FC,1.0,0.0,,,ESPN scoreboard
+737998,2025-08-24T12:00:00Z,2025,FC Midtjylland,Silkeborg IF,4.0,2.0,,,ESPN scoreboard
+737999,2025-08-24T14:00:00Z,2025,Sønderjyske Fodbold,Brøndby IF,2.0,0.0,,,ESPN scoreboard
+738000,2025-08-24T16:00:00Z,2025,AGF,Vejle Boldklub,1.0,0.0,,,ESPN scoreboard
+738001,2025-08-25T17:00:00Z,2025,FC Nordsjælland,Viborg FF,1.0,0.0,,,ESPN scoreboard
+738002,2025-08-29T17:00:00Z,2025,Vejle Boldklub,Viborg FF,1.0,2.0,,,ESPN scoreboard
+738003,2025-08-31T12:00:00Z,2025,AGF,FC Fredericia,4.0,1.0,,,ESPN scoreboard
+738004,2025-08-31T12:00:00Z,2025,Silkeborg IF,Sønderjyske Fodbold,0.0,2.0,,,ESPN scoreboard
+738005,2025-08-31T14:00:00Z,2025,Odense Boldklub,FC Nordsjælland,1.0,2.0,,,ESPN scoreboard
+738006,2025-08-31T16:00:00Z,2025,Randers FC,F.C. København,1.0,5.0,,,ESPN scoreboard
+738007,2025-08-31T18:00:00Z,2025,Brøndby IF,FC Midtjylland,1.0,3.0,,,ESPN scoreboard
+738011,2025-09-12T17:00:00Z,2025,Sønderjyske Fodbold,Randers FC,0.0,1.0,,,ESPN scoreboard
+738012,2025-09-13T13:00:00Z,2025,Brøndby IF,F.C. København,2.0,1.0,,,ESPN scoreboard
+738010,2025-09-14T12:00:00Z,2025,Viborg FF,AGF,1.0,2.0,,,ESPN scoreboard
+738013,2025-09-14T14:00:00Z,2025,FC Nordsjælland,FC Midtjylland,1.0,0.0,,,ESPN scoreboard
+738008,2025-09-14T16:00:00Z,2025,Silkeborg IF,Odense Boldklub,2.0,1.0,,,ESPN scoreboard
+738009,2025-09-15T17:00:00Z,2025,FC Fredericia,Vejle Boldklub,1.0,1.0,,,ESPN scoreboard
+738015,2025-09-19T17:00:00Z,2025,Odense Boldklub,FC Fredericia,3.0,2.0,,,ESPN scoreboard
+738017,2025-09-20T16:00:00Z,2025,FC Midtjylland,Viborg FF,2.0,0.0,,,ESPN scoreboard
+738019,2025-09-21T12:00:00Z,2025,Vejle Boldklub,Sønderjyske Fodbold,2.0,2.0,,,ESPN scoreboard
+738016,2025-09-21T14:00:00Z,2025,F.C. København,Silkeborg IF,3.0,3.0,,,ESPN scoreboard
+738014,2025-09-21T16:00:00Z,2025,AGF,Brøndby IF,1.0,0.0,,,ESPN scoreboard
+738018,2025-09-22T17:00:00Z,2025,Randers FC,FC Nordsjælland,3.0,0.0,,,ESPN scoreboard
+738024,2025-09-27T16:00:00Z,2025,Sønderjyske Fodbold,F.C. København,1.0,2.0,,,ESPN scoreboard
+738020,2025-09-28T12:00:00Z,2025,Viborg FF,FC Fredericia,2.0,1.0,,,ESPN scoreboard
+738025,2025-09-28T14:00:00Z,2025,Silkeborg IF,Vejle Boldklub,1.0,1.0,,,ESPN scoreboard
+738021,2025-09-28T16:00:00Z,2025,FC Nordsjælland,AGF,1.0,2.0,,,ESPN scoreboard
+738022,2025-09-28T18:00:00Z,2025,Brøndby IF,Odense Boldklub,5.0,1.0,,,ESPN scoreboard
+738023,2025-09-29T17:00:00Z,2025,FC Midtjylland,Randers FC,2.0,1.0,,,ESPN scoreboard
+738030,2025-10-03T17:00:00Z,2025,Odense Boldklub,Sønderjyske Fodbold,1.0,1.0,,,ESPN scoreboard
+738028,2025-10-05T12:00:00Z,2025,Randers FC,Viborg FF,2.0,1.0,,,ESPN scoreboard
+738031,2025-10-05T12:00:00Z,2025,Vejle Boldklub,FC Nordsjælland,0.0,3.0,,,ESPN scoreboard
+738026,2025-10-05T14:00:00Z,2025,AGF,Silkeborg IF,3.0,1.0,,,ESPN scoreboard
+738027,2025-10-05T16:00:00Z,2025,F.C. København,FC Midtjylland,1.0,1.0,,,ESPN scoreboard
+738029,2025-10-05T18:00:00Z,2025,FC Fredericia,Brøndby IF,0.0,2.0,,,ESPN scoreboard
+738032,2025-10-17T17:00:00Z,2025,Silkeborg IF,F.C. København,3.0,1.0,,,ESPN scoreboard
+738035,2025-10-19T12:00:00Z,2025,FC Nordsjælland,Randers FC,1.0,0.0,,,ESPN scoreboard
+738033,2025-10-19T12:00:00Z,2025,Viborg FF,Odense Boldklub,1.0,2.0,,,ESPN scoreboard
+738037,2025-10-19T14:00:00Z,2025,Brøndby IF,AGF,3.0,3.0,,,ESPN scoreboard
+738036,2025-10-19T16:00:00Z,2025,FC Midtjylland,Vejle Boldklub,5.0,1.0,,,ESPN scoreboard
+738034,2025-10-20T17:00:00Z,2025,Sønderjyske Fodbold,FC Fredericia,3.0,0.0,,,ESPN scoreboard
+738043,2025-10-24T17:00:00Z,2025,AGF,FC Nordsjælland,1.0,0.0,,,ESPN scoreboard
+738039,2025-10-26T13:00:00Z,2025,FC Fredericia,FC Midtjylland,0.0,4.0,,,ESPN scoreboard
+738038,2025-10-26T13:00:00Z,2025,Vejle Boldklub,Silkeborg IF,1.0,2.0,,,ESPN scoreboard
+738040,2025-10-26T15:00:00Z,2025,Randers FC,Sønderjyske Fodbold,0.0,0.0,,,ESPN scoreboard
+738042,2025-10-26T17:00:00Z,2025,F.C. København,Viborg FF,0.0,0.0,,,ESPN scoreboard
+738041,2025-10-27T18:00:00Z,2025,Odense Boldklub,Brøndby IF,1.0,4.0,,,ESPN scoreboard
+738044,2025-11-01T17:00:00Z,2025,F.C. København,FC Fredericia,3.0,2.0,,,ESPN scoreboard
+738046,2025-11-02T13:00:00Z,2025,Viborg FF,Randers FC,3.0,2.0,,,ESPN scoreboard
+738049,2025-11-02T15:00:00Z,2025,Sønderjyske Fodbold,Vejle Boldklub,2.0,1.0,,,ESPN scoreboard
+738045,2025-11-02T17:00:00Z,2025,FC Nordsjælland,Odense Boldklub,2.0,4.0,,,ESPN scoreboard
+738048,2025-11-02T19:00:00Z,2025,Silkeborg IF,Brøndby IF,0.0,2.0,,,ESPN scoreboard
+738047,2025-11-03T18:00:00Z,2025,FC Midtjylland,AGF,1.0,1.0,,,ESPN scoreboard
+738053,2025-11-07T18:00:00Z,2025,Odense Boldklub,Silkeborg IF,1.0,1.0,,,ESPN scoreboard
+738052,2025-11-09T13:00:00Z,2025,FC Fredericia,Viborg FF,0.0,3.0,,,ESPN scoreboard
+738050,2025-11-09T13:00:00Z,2025,Vejle Boldklub,F.C. København,2.0,0.0,,,ESPN scoreboard
+738051,2025-11-09T15:00:00Z,2025,Randers FC,FC Midtjylland,0.0,2.0,,,ESPN scoreboard
+738055,2025-11-09T17:00:00Z,2025,AGF,Sønderjyske Fodbold,2.0,3.0,,,ESPN scoreboard
+738054,2025-11-09T19:00:00Z,2025,Brøndby IF,FC Nordsjælland,2.0,0.0,,,ESPN scoreboard
+738059,2025-11-21T18:00:00Z,2025,Silkeborg IF,AGF,0.0,2.0,,,ESPN scoreboard
+738061,2025-11-23T11:00:00Z,2025,F.C. København,Brøndby IF,1.0,0.0,,,ESPN scoreboard
+738057,2025-11-23T13:00:00Z,2025,Viborg FF,Vejle Boldklub,5.0,2.0,,,ESPN scoreboard
+738056,2025-11-23T15:00:00Z,2025,FC Nordsjælland,FC Fredericia,5.0,0.0,,,ESPN scoreboard
+738058,2025-11-23T17:00:00Z,2025,Sønderjyske Fodbold,FC Midtjylland,2.0,1.0,,,ESPN scoreboard
+738060,2025-11-24T18:00:00Z,2025,Randers FC,Odense Boldklub,0.0,0.0,,,ESPN scoreboard
+738066,2025-11-28T18:00:00Z,2025,Sønderjyske Fodbold,Viborg FF,2.0,2.0,,,ESPN scoreboard
+738067,2025-11-30T13:00:00Z,2025,AGF,F.C. København,2.0,0.0,,,ESPN scoreboard
+738062,2025-11-30T13:00:00Z,2025,Silkeborg IF,Randers FC,0.0,0.0,,,ESPN scoreboard
+738065,2025-11-30T15:00:00Z,2025,FC Midtjylland,FC Nordsjælland,6.0,0.0,,,ESPN scoreboard
+738063,2025-11-30T17:00:00Z,2025,Odense Boldklub,Vejle Boldklub,3.0,0.0,,,ESPN scoreboard
+738064,2025-12-01T18:00:00Z,2025,Brøndby IF,FC Fredericia,1.0,3.0,,,ESPN scoreboard
+738068,2025-12-05T18:00:00Z,2025,FC Fredericia,Odense Boldklub,1.0,3.0,,,ESPN scoreboard
+738073,2025-12-07T13:00:00Z,2025,FC Nordsjælland,Silkeborg IF,5.0,0.0,,,ESPN scoreboard
+738069,2025-12-07T13:00:00Z,2025,Viborg FF,FC Midtjylland,3.0,3.0,,,ESPN scoreboard
+738071,2025-12-07T15:00:00Z,2025,Randers FC,AGF,1.0,2.0,,,ESPN scoreboard
+738072,2025-12-07T17:00:00Z,2025,F.C. København,Sønderjyske Fodbold,0.0,2.0,,,ESPN scoreboard
+738070,2025-12-08T18:00:00Z,2025,Vejle Boldklub,Brøndby IF,2.0,1.0,,,ESPN scoreboard

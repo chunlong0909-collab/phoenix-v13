@@ -1,773 +1,514 @@
-﻿date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
-2025-01-01,pacific,Auckland FC,Melbourne Victory,0,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-01-12,pacific,Macarthur FC,Western United,3,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-01-13,pacific,Macarthur FC,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-01-18,pacific,Auckland FC,Melbourne City FC,3,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-01-20,pacific,Macarthur FC,Wellington Phoenix,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-01-25,pacific,Macarthur FC,Melbourne City FC,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-01-28,pacific,Macarthur FC,Perth Glory,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-01-28,pacific,Macarthur FC,Western United,2,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-01-30,pacific,Macarthur FC,Sydney FC,0,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-02-01,pacific,Auckland FC,Macarthur FC,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-01,pacific,Macarthur FC,Western United,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-04,pacific,Macarthur FC,Western Sydney Wanderers,4,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-02-06,pacific,Macarthur FC,Western Sydney Wanderers,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-02-09,pacific,Macarthur FC,Western United,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-12,pacific,Macarthur FC,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-02-12,pacific,Macarthur FC,Adelaide United,4,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-02-18,pacific,Macarthur FC,Wellington Phoenix,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-02-18,pacific,Macarthur FC,Newcastle United Jets,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-02-19,pacific,Macarthur FC,Adelaide United,4,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-22,pacific,Auckland FC,Wellington Phoenix,6,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-23,pacific,Western United,Sydney FC,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-23,pacific,Western United,Adelaide United,3,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-25,pacific,Newcastle United Jets,Western United,1,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-02-26,pacific,Newcastle United Jets,Macarthur FC,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-28,pacific,Newcastle United Jets,Wellington Phoenix,0,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-01,pacific,Macarthur FC,Melbourne City FC,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-01,pacific,Western United,Central Coast Mariners,6,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-01,pacific,Macarthur FC,Sydney FC,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-01,pacific,Auckland FC,Adelaide United,4,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-02,pacific,Newcastle United Jets,Central Coast Mariners,0,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-02,pacific,Western United,Perth Glory,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-02,pacific,Western Sydney Wanderers,Melbourne City FC,0,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-04,pacific,Western United,Perth Glory,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-04,pacific,Western Sydney Wanderers,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-05,pacific,Macarthur FC,Brisbane Roar,3,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-05,pacific,Western Sydney Wanderers,Sydney FC,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-05,pacific,Western United,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-06,pacific,Brisbane Roar,Western Sydney Wanderers,3,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-06,pacific,Perth Glory,Adelaide United,1,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-07,pacific,Wellington Phoenix,Perth Glory,3,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-07,pacific,Western United,Western Sydney Wanderers,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-08,pacific,Melbourne Victory,Central Coast Mariners,3,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-08,pacific,Adelaide United,Brisbane Roar,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-08,pacific,Western United,Wellington Phoenix,4,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-08,pacific,Brisbane Roar,Western Sydney Wanderers,1,4,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-08,pacific,Western Sydney Wanderers,Western United,1,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-08,pacific,Perth Glory,Melbourne City FC,2,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-09,pacific,Adelaide United,Melbourne Victory,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-09,pacific,Perth Glory,Newcastle United Jets,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-09,pacific,Wellington Phoenix,Newcastle United Jets,3,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-09,pacific,Newcastle United Jets,Auckland FC,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-10,pacific,Perth Glory,Western Sydney Wanderers,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-10,pacific,Macarthur FC,Central Coast Mariners,0,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-11,pacific,Newcastle United Jets,Adelaide United,2,4,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-12,pacific,Brisbane Roar,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-12,pacific,Western United,Melbourne City FC,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-12,pacific,Perth Glory,Sydney FC,0,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-12,pacific,Wellington Phoenix,Sydney FC,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-12,pacific,Melbourne City FC,Western Sydney Wanderers,7,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-12,pacific,Macarthur FC,Western Sydney Wanderers,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-13,pacific,Brisbane Roar,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-13,pacific,Melbourne Victory,Western United,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-13,pacific,Melbourne Victory,Adelaide United,1,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-13,pacific,Adelaide United,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-14,pacific,Adelaide United,Macarthur FC,4,5,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-14,pacific,Western United,Melbourne Victory,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-14,pacific,Melbourne City FC,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-14,pacific,Western United,Brisbane Roar,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-15,pacific,Perth Glory,Central Coast Mariners,0,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-15,pacific,Western Sydney Wanderers,Melbourne Victory,4,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-15,pacific,Perth Glory,Brisbane Roar,1,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-15,pacific,Wellington Phoenix,Melbourne Victory,3,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-15,pacific,Adelaide United,Newcastle United Jets,0,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-15,pacific,Western Sydney Wanderers,Wellington Phoenix,4,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-15,pacific,Newcastle United Jets,Adelaide United,0,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-15,pacific,Adelaide United,Perth Glory,0,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-16,pacific,Melbourne Victory,Brisbane Roar,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-16,pacific,Adelaide United,Western Sydney Wanderers,1,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-16,pacific,Brisbane Roar,Macarthur FC,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-16,pacific,Wellington Phoenix,Sydney FC,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-16,pacific,Perth Glory,Western Sydney Wanderers,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-16,pacific,Newcastle United Jets,Western United,2,6,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-16,pacific,Newcastle United Jets,Central Coast Mariners,2,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-16,pacific,Auckland FC,Central Coast Mariners,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-17,pacific,Adelaide United,Wellington Phoenix,5,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-17,pacific,Wellington Phoenix,Western Sydney Wanderers,3,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-18,pacific,Newcastle United Jets,Perth Glory,2,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-18,pacific,Brisbane Roar,Western United,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-18,pacific,Newcastle United Jets,Wellington Phoenix,4,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-19,pacific,Melbourne City FC,Melbourne Victory,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-19,pacific,Sydney FC,Western United,3,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-19,pacific,Central Coast Mariners,Macarthur FC,4,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-19,pacific,Western Sydney Wanderers,Perth Glory,3,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-19,pacific,Macarthur FC,Melbourne City FC,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-19,pacific,Melbourne Victory,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-19,pacific,Perth Glory,Brisbane Roar,1,4,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-20,pacific,Central Coast Mariners,Melbourne City FC,2,4,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-20,pacific,Macarthur FC,Western United,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-20,pacific,Brisbane Roar,Newcastle United Jets,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-20,pacific,Western Sydney Wanderers,Adelaide United,0,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-21,pacific,Wellington Phoenix,Brisbane Roar,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-21,pacific,Western Sydney Wanderers,Sydney FC,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-21,pacific,Newcastle United Jets,Adelaide United,1,4,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-22,pacific,Melbourne City FC,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-23,pacific,Melbourne Victory,Western United,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-23,pacific,Newcastle United Jets,Melbourne City FC,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-23,pacific,Brisbane Roar,Melbourne City FC,1,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-24,pacific,Perth Glory,Sydney FC,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-24,pacific,Wellington Phoenix,Melbourne Victory,4,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-25,pacific,Newcastle United Jets,Sydney FC,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-26,pacific,Melbourne City FC,Western Sydney Wanderers,4,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-26,pacific,Central Coast Mariners,Adelaide United,3,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-26,pacific,Macarthur FC,Melbourne City FC,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-26,pacific,Brisbane Roar,Western United,2,3,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-26,pacific,Wellington Phoenix,Perth Glory,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-27,pacific,Melbourne Victory,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-27,pacific,Perth Glory,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-27,pacific,Central Coast Mariners,Melbourne Victory,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-28,pacific,Wellington Phoenix,Macarthur FC,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-28,pacific,Adelaide United,Sydney FC,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-28,pacific,Macarthur FC,Newcastle United Jets,3,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-29,pacific,Adelaide United,Western United,4,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-29,pacific,Brisbane Roar,Sydney FC,1,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-29,pacific,Melbourne Victory,Adelaide United,5,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-29,pacific,Sydney FC,Melbourne City FC,2,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-29,pacific,Wellington Phoenix,Western Sydney Wanderers,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-30,pacific,Melbourne City FC,Newcastle United Jets,0,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-30,pacific,Sydney FC,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-30,pacific,Brisbane Roar,Wellington Phoenix,0,3,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-30,pacific,Perth Glory,Newcastle United Jets,0,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-30,pacific,Brisbane Roar,Auckland FC,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-30,pacific,Central Coast Mariners,Perth Glory,3,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-30,pacific,Sydney FC,Macarthur FC,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-30,pacific,Western Sydney Wanderers,Melbourne City FC,3,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-30,pacific,Perth Glory,Melbourne Victory,0,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-30,pacific,Wellington Phoenix,Newcastle United Jets,4,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-31,pacific,Melbourne Victory,Perth Glory,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-31,pacific,Wellington Phoenix,Brisbane Roar,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-31,pacific,Central Coast Mariners,Adelaide United,0,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-31,pacific,Western Sydney Wanderers,Adelaide United,2,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-01,pacific,Central Coast Mariners,Adelaide United,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-01,pacific,Central Coast Mariners,Brisbane Roar,4,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-01,pacific,Wellington Phoenix,Melbourne Victory,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-01,pacific,Western United,Melbourne City FC,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-01,pacific,Macarthur FC,Western Sydney Wanderers,1,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-01,pacific,Perth Glory,Macarthur FC,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-01,pacific,Sydney FC,Western United,3,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-02,pacific,Central Coast Mariners,Melbourne City FC,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-02,pacific,Adelaide United,Melbourne Victory,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-02,pacific,Melbourne City FC,Newcastle United Jets,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-02,pacific,Sydney FC,Western Sydney Wanderers,3,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-02,pacific,Western United,Central Coast Mariners,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-02,pacific,Macarthur FC,Perth Glory,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-02,pacific,Wellington Phoenix,Melbourne City FC,0,6,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-03,pacific,Brisbane Roar,Newcastle United Jets,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-03,pacific,Brisbane Roar,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-03,pacific,Perth Glory,Sydney FC,1,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-03,pacific,Macarthur FC,Perth Glory,4,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-04,pacific,Melbourne Victory,Sydney FC,0,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-04,pacific,Brisbane Roar,Macarthur FC,1,5,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-05,pacific,Adelaide United,Sydney FC,2,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-05,pacific,Western Sydney Wanderers,Brisbane Roar,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-05,pacific,Western United,Perth Glory,3,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-05,pacific,Wellington Phoenix,Melbourne City FC,2,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-05,pacific,Melbourne City FC,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-05,pacific,Newcastle United Jets,Western United,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-05,pacific,Central Coast Mariners,Wellington Phoenix,5,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-05,pacific,Auckland FC,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-05,pacific,Melbourne City FC,Brisbane Roar,4,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-06,pacific,Newcastle United Jets,Western Sydney Wanderers,3,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-06,pacific,Sydney FC,Melbourne Victory,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-06,pacific,Central Coast Mariners,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-06,pacific,Western United,Macarthur FC,4,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-06,pacific,Perth Glory,Melbourne Victory,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-06,pacific,Melbourne City FC,Sydney FC,4,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-06,pacific,Newcastle United Jets,Wellington Phoenix,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-06,pacific,Western Sydney Wanderers,Central Coast Mariners,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-06,pacific,Melbourne Victory,Melbourne City FC,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-07,pacific,Sydney FC,Perth Glory,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-07,pacific,Adelaide United,Sydney FC,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-07,pacific,Perth Glory,Adelaide United,2,4,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-07,pacific,Western United,Central Coast Mariners,0,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-07,pacific,Newcastle United Jets,Sydney FC,3,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-07,pacific,Adelaide United,Wellington Phoenix,3,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-07,pacific,Central Coast Mariners,Perth Glory,0,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-08,pacific,Macarthur FC,Western Sydney Wanderers,2,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-08,pacific,Brisbane Roar,Newcastle United Jets,3,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-08,pacific,Adelaide United,Macarthur FC,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-09,pacific,Melbourne Victory,Perth Glory,0,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-09,pacific,Melbourne Victory,Melbourne City FC,3,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-09,pacific,Central Coast Mariners,Sydney FC,0,5,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-09,pacific,Western United,Wellington Phoenix,1,4,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-09,pacific,Macarthur FC,Brisbane Roar,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-09,pacific,Western Sydney Wanderers,Brisbane Roar,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-10,pacific,Newcastle United Jets,Melbourne Victory,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-10,pacific,Melbourne City FC,Wellington Phoenix,4,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-10,pacific,Newcastle United Jets,Perth Glory,6,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-10,pacific,Sydney FC,Melbourne City FC,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-10,pacific,Adelaide United,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-11,pacific,Wellington Phoenix,Western United,3,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-11,pacific,Melbourne City FC,Brisbane Roar,3,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-12,pacific,Melbourne Victory,Brisbane Roar,0,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-12,pacific,Perth Glory,Adelaide United,4,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-12,pacific,Sydney FC,Adelaide United,2,3,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-12,pacific,Newcastle United Jets,Central Coast Mariners,6,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-12,pacific,Adelaide United,Macarthur FC,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-12,pacific,Sydney FC,Auckland FC,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-12,pacific,Wellington Phoenix,Melbourne Victory,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-12,pacific,Brisbane Roar,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-13,pacific,Western Sydney Wanderers,Western United,2,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-13,pacific,Sydney FC,Western Sydney Wanderers,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-13,pacific,Brisbane Roar,Newcastle United Jets,0,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-13,pacific,Western Sydney Wanderers,Sydney FC,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-13,pacific,Newcastle United Jets,Perth Glory,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-13,pacific,Western Sydney Wanderers,Central Coast Mariners,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-13,pacific,Western United,Central Coast Mariners,0,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-13,pacific,Perth Glory,Wellington Phoenix,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-13,pacific,Melbourne City FC,Adelaide United,0,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-14,pacific,Adelaide United,Macarthur FC,3,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-14,pacific,Melbourne City FC,Perth Glory,8,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-14,pacific,Perth Glory,Newcastle United Jets,1,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-14,pacific,Melbourne Victory,Central Coast Mariners,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-14,pacific,Newcastle United Jets,Macarthur FC,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-15,pacific,Central Coast Mariners,Melbourne City FC,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-15,pacific,Western Sydney Wanderers,Melbourne Victory,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-15,pacific,Macarthur FC,Brisbane Roar,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-16,pacific,Adelaide United,Western United,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-16,pacific,Western Sydney Wanderers,Brisbane Roar,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-16,pacific,Newcastle United Jets,Melbourne Victory,1,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-16,pacific,Sydney FC,Perth Glory,4,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-16,pacific,Western United,Adelaide United,3,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-16,pacific,Western United,Perth Glory,6,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-16,pacific,Wellington Phoenix,Brisbane Roar,2,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-17,pacific,Wellington Phoenix,Central Coast Mariners,0,4,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-17,pacific,Melbourne City FC,Melbourne Victory,7,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-17,pacific,Western United,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-17,pacific,Brisbane Roar,Western United,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-18,pacific,Sydney FC,Perth Glory,1,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-18,pacific,Macarthur FC,Newcastle United Jets,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-18,pacific,Perth Glory,Wellington Phoenix,1,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-18,pacific,Adelaide United,Wellington Phoenix,3,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-18,pacific,Sydney FC,Adelaide United,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-19,pacific,Western Sydney Wanderers,Melbourne City FC,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-19,pacific,Newcastle United Jets,Wellington Phoenix,1,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-19,pacific,Adelaide United,Melbourne Victory,1,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-19,pacific,Melbourne Victory,Auckland FC,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-19,pacific,Western United,Macarthur FC,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-20,pacific,Western Sydney Wanderers,Melbourne City FC,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-20,pacific,Macarthur FC,Sydney FC,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-20,pacific,Brisbane Roar,Newcastle United Jets,1,6,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-20,pacific,Central Coast Mariners,Western Sydney Wanderers,3,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-20,pacific,Sydney FC,Newcastle United Jets,3,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-20,pacific,Central Coast Mariners,Macarthur FC,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-20,pacific,Melbourne Victory,Brisbane Roar,0,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-20,pacific,Western Sydney Wanderers,Newcastle United Jets,3,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-21,pacific,Perth Glory,Western United,3,4,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-21,pacific,Western Sydney Wanderers,Wellington Phoenix,4,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-21,pacific,Wellington Phoenix,Melbourne City FC,3,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-22,pacific,Western United,Melbourne City FC,1,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-22,pacific,Newcastle United Jets,Central Coast Mariners,1,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-22,pacific,Western United,Wellington Phoenix,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-22,pacific,Brisbane Roar,Adelaide United,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-22,pacific,Macarthur FC,Melbourne Victory,1,4,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-23,pacific,Melbourne Victory,Macarthur FC,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-23,pacific,Perth Glory,Adelaide United,4,4,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-23,pacific,Melbourne Victory,Western Sydney Wanderers,5,4,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-23,pacific,Newcastle United Jets,Central Coast Mariners,2,4,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-24,pacific,Macarthur FC,Melbourne City FC,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-24,pacific,Adelaide United,Perth Glory,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-24,pacific,Wellington Phoenix,Western Sydney Wanderers,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-24,pacific,Brisbane Roar,Sydney FC,0,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-24,pacific,Central Coast Mariners,Sydney FC,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-25,pacific,Brisbane Roar,Adelaide United,3,5,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-25,pacific,Brisbane Roar,Melbourne Victory,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-25,pacific,Wellington Phoenix,Adelaide United,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-25,pacific,Macarthur FC,Melbourne Victory,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-26,pacific,Brisbane Roar,Wellington Phoenix,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-26,pacific,Melbourne City FC,Adelaide United,0,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-26,pacific,Melbourne City FC,Central Coast Mariners,5,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-26,pacific,Western United,Newcastle United Jets,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-26,pacific,Brisbane Roar,Adelaide United,3,4,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-26,pacific,Newcastle United Jets,Western Sydney Wanderers,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-27,pacific,Newcastle United Jets,Central Coast Mariners,1,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-27,pacific,Wellington Phoenix,Macarthur FC,3,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-27,pacific,Auckland FC,Perth Glory,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-27,pacific,Western United,Sydney FC,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-04-27,pacific,Newcastle United Jets,Sydney FC,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-27,pacific,Melbourne Victory,Western Sydney Wanderers,3,4,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-27,pacific,Western Sydney Wanderers,Melbourne Victory,0,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-27,pacific,Sydney FC,Melbourne Victory,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-28,pacific,Central Coast Mariners,Brisbane Roar,0,4,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-28,pacific,Melbourne City FC,Western United,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-28,pacific,Perth Glory,Wellington Phoenix,5,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-04-28,pacific,Melbourne City FC,Western Sydney Wanderers,3,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-28,pacific,Sydney FC,Perth Glory,7,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-04-28,pacific,Adelaide United,Central Coast Mariners,1,4,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-29,pacific,Macarthur FC,Wellington Phoenix,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-29,pacific,Melbourne City FC,Newcastle United Jets,3,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-29,pacific,Perth Glory,Western United,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-29,pacific,Melbourne Victory,Brisbane Roar,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-29,pacific,Sydney FC,Newcastle United Jets,2,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-04-29,pacific,Melbourne Victory,Wellington Phoenix,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-30,pacific,Perth Glory,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-30,pacific,Adelaide United,Western United,0,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-04-30,pacific,Central Coast Mariners,Western United,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-04-30,pacific,Adelaide United,Brisbane Roar,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-01,pacific,Perth Glory,Macarthur FC,0,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-01,pacific,Western Sydney Wanderers,Sydney FC,3,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-01,pacific,Central Coast Mariners,Adelaide United,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-01,pacific,Macarthur FC,Newcastle United Jets,0,3,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-01,pacific,Brisbane Roar,Wellington Phoenix,0,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-02,pacific,Melbourne Victory,Central Coast Mariners,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-02,pacific,Central Coast Mariners,Brisbane Roar,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-05-03,pacific,Melbourne City FC,Sydney FC,5,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-05-03,pacific,Western United,Auckland FC,4,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-05-03,pacific,Macarthur FC,Western Sydney Wanderers,1,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-05-03,pacific,Melbourne Victory,Wellington Phoenix,3,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-05-03,pacific,Brisbane Roar,Central Coast Mariners,0,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-04,pacific,Newcastle United Jets,Western United,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-04,pacific,Sydney FC,Macarthur FC,4,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-04,pacific,Perth Glory,Melbourne City FC,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-04,pacific,Wellington Phoenix,Perth Glory,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-05-04,pacific,Melbourne Victory,Newcastle United Jets,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-05-05,pacific,Brisbane Roar,Western United,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-05,pacific,Perth Glory,Melbourne City FC,1,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-05,pacific,Adelaide United,Wellington Phoenix,2,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-05-05,pacific,Western Sydney Wanderers,Wellington Phoenix,1,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-05,pacific,Adelaide United,Melbourne City FC,1,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-05-05,pacific,Melbourne Victory,Melbourne City FC,3,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-06,pacific,Western Sydney Wanderers,Sydney FC,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-05-06,pacific,Melbourne Victory,Macarthur FC,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-07,pacific,Sydney FC,Melbourne Victory,1,4,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-07,pacific,Central Coast Mariners,Newcastle United Jets,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-07,pacific,Adelaide United,Wellington Phoenix,0,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-08,pacific,Newcastle United Jets,Sydney FC,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-08,pacific,Western Sydney Wanderers,Western United,5,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-08,pacific,Macarthur FC,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-08,pacific,Adelaide United,Western United,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-09,pacific,Melbourne City FC,Brisbane Roar,3,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-09,pacific,Perth Glory,Melbourne Victory,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-09,pacific,Melbourne City FC,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-10,pacific,Perth Glory,Adelaide United,5,4,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-05-10,pacific,Brisbane Roar,Sydney FC,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-10,pacific,Sydney FC,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-12,pacific,Melbourne Victory,Wellington Phoenix,0,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-12,pacific,Sydney FC,Melbourne City FC,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-05-12,pacific,Perth Glory,Western United,3,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-12,pacific,Brisbane Roar,Central Coast Mariners,0,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-12,pacific,Sydney FC,Melbourne Victory,6,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-05-13,pacific,Adelaide United,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-05-13,pacific,Melbourne City FC,Adelaide United,4,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-14,pacific,Western United,Wellington Phoenix,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-14,pacific,Macarthur FC,Melbourne Victory,3,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-15,pacific,Newcastle United Jets,Central Coast Mariners,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-15,pacific,Western United,Sydney FC,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-15,pacific,Adelaide United,Central Coast Mariners,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-16,pacific,Melbourne City FC,Wellington Phoenix,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-16,pacific,Adelaide United,Brisbane Roar,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-16,pacific,Perth Glory,Western Sydney Wanderers,5,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-17,pacific,Western United,Melbourne Victory,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-18,pacific,Wellington Phoenix,Melbourne Victory,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-18,pacific,Adelaide United,Melbourne City FC,0,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-18,pacific,Central Coast Mariners,Sydney FC,0,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-19,pacific,Perth Glory,Adelaide United,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-19,pacific,Sydney FC,Melbourne Victory,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-19,pacific,Perth Glory,Sydney FC,1,4,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-05-19,pacific,Melbourne City FC,Sydney FC,4,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-05-20,pacific,Central Coast Mariners,Adelaide United,2,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-05-21,pacific,Melbourne Victory,Western United,1,4,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-21,pacific,Newcastle United Jets,Brisbane Roar,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-22,pacific,Melbourne City FC,Adelaide United,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-22,pacific,Wellington Phoenix,Western United,3,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-22,pacific,Melbourne City FC,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-23,pacific,Perth Glory,Macarthur FC,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-23,pacific,Melbourne Victory,Adelaide United,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-23,pacific,Sydney FC,Western Sydney Wanderers,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-25,pacific,Central Coast Mariners,Melbourne Victory,3,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-05-25,pacific,Brisbane Roar,Melbourne City FC,3,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-26,pacific,Western Sydney Wanderers,Wellington Phoenix,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-27,pacific,Macarthur FC,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-28,pacific,Western United,Melbourne Victory,1,6,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-28,pacific,Melbourne City FC,Western United,0,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-05-29,pacific,Adelaide United,Sydney FC,1,4,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-30,pacific,Wellington Phoenix,Perth Glory,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-30,pacific,Western Sydney Wanderers,Brisbane Roar,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-05-31,pacific,Western United,Macarthur FC,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-01,pacific,Central Coast Mariners,Newcastle United Jets,0,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-02,pacific,Brisbane Roar,Perth Glory,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-03,pacific,Adelaide United,Western Sydney Wanderers,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-03,pacific,Melbourne City FC,Central Coast Mariners,1,6,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-06-04,pacific,Macarthur FC,Wellington Phoenix,0,3,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-05,pacific,Brisbane Roar,Sydney FC,0,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-05,pacific,Central Coast Mariners,Western United,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-05,pacific,Newcastle United Jets,Perth Glory,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-06,pacific,Melbourne Victory,Melbourne City FC,1,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-10,pacific,Melbourne City FC,Newcastle United Jets,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-12,pacific,Central Coast Mariners,Macarthur FC,0,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-13,pacific,Brisbane Roar,Adelaide United,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-19,pacific,Sydney FC,Adelaide United,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-20,pacific,Melbourne City FC,Macarthur FC,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-06-27,pacific,Melbourne City FC,Sydney FC,3,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-07-17,pacific,Sydney FC,Wellington Phoenix,3,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-18,pacific,Perth Glory,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-19,pacific,Brisbane Roar,Adelaide United,0,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-21,pacific,Sydney FC,Newcastle United Jets,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-22,pacific,Perth Glory,Wellington Phoenix,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-24,pacific,Central Coast Mariners,Newcastle United Jets,0,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-25,pacific,Wellington Phoenix,Adelaide United,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-25,pacific,Melbourne Victory,Western United,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-27,pacific,Central Coast Mariners,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-29,pacific,Melbourne Victory,Brisbane Roar,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-30,pacific,Adelaide United,Perth Glory,5,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-07-31,pacific,Western Sydney Wanderers,Wellington Phoenix,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-01,pacific,Melbourne City FC,Sydney FC,2,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-02,pacific,Newcastle United Jets,Western United,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-03,pacific,Melbourne Victory,Central Coast Mariners,2,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-04,pacific,Western Sydney Wanderers,Perth Glory,1,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-05,pacific,Wellington Phoenix,Brisbane Roar,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-06,pacific,Adelaide United,Sydney FC,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-07,pacific,Western United,Western Sydney Wanderers,5,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-08,pacific,Perth Glory,Melbourne Victory,0,4,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-10,pacific,Brisbane Roar,Sydney FC,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-11,pacific,Melbourne City FC,Adelaide United,2,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-12,pacific,Western Sydney Wanderers,Melbourne Victory,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-12,pacific,Perth Glory,Western United,0,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-13,pacific,Newcastle United Jets,Wellington Phoenix,3,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-15,pacific,Sydney FC,Western United,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-19,pacific,Western United,Melbourne City FC,1,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-22,pacific,Wellington Phoenix,Perth Glory,0,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-23,pacific,Brisbane Roar,Western United,0,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-26,pacific,Melbourne City FC,Western United,2,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-26,pacific,Sydney FC,Perth Glory,2,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-08-30,pacific,Sydney FC,Melbourne City FC,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-08,pacific,Sydney FC,Melbourne Victory,2,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-08,pacific,Brisbane Roar,Macarthur FC,0,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-09,pacific,Western Sydney Wanderers,Perth Glory,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-09,pacific,Wellington Phoenix,Adelaide United,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-12,pacific,Melbourne Victory,Melbourne City FC,0,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-12,pacific,Western Sydney Wanderers,Central Coast Mariners,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-13,pacific,Wellington Phoenix,Western United,0,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-13,pacific,Perth Glory,Brisbane Roar,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-14,pacific,Brisbane Roar,Melbourne City FC,0,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-15,pacific,Newcastle United Jets,Perth Glory,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-15,pacific,Melbourne Victory,Western Sydney Wanderers,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-16,pacific,Western United,Sydney FC,1,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-16,pacific,Macarthur FC,Adelaide United,2,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-16,pacific,Wellington Phoenix,Central Coast Mariners,2,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-18,pacific,Melbourne Victory,Western Sydney Wanderers,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-19,pacific,Western United,Perth Glory,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-19,pacific,Central Coast Mariners,Newcastle United Jets,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-19,pacific,Western Sydney Wanderers,Sydney FC,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-19,pacific,Newcastle United Jets,Melbourne City FC,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-19,pacific,Auckland FC,Brisbane Roar,2,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-20,pacific,Melbourne Victory,Melbourne City FC,1,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-20,pacific,Macarthur FC,Perth Glory,6,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-20,pacific,Wellington Phoenix,Western United,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-20,pacific,Melbourne City FC,Adelaide United,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-20,pacific,Sydney FC,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-21,pacific,Brisbane Roar,Central Coast Mariners,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-21,pacific,Wellington Phoenix,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-21,pacific,Western United,Macarthur FC,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-21,pacific,Macarthur FC,Brisbane Roar,1,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-21,pacific,Sydney FC,Melbourne Victory,0,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-21,pacific,Perth Glory,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-21,pacific,Melbourne City FC,Western United,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-22,pacific,Newcastle United Jets,Wellington Phoenix,3,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-22,pacific,Western Sydney Wanderers,Brisbane Roar,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-22,pacific,Melbourne Victory,Melbourne City FC,0,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-22,pacific,Western Sydney Wanderers,Wellington Phoenix,0,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-22,pacific,Perth Glory,Newcastle United Jets,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-23,pacific,Sydney FC,Adelaide United,2,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-23,pacific,Central Coast Mariners,Perth Glory,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-25,pacific,Macarthur FC,Newcastle United Jets,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-25,pacific,Brisbane Roar,Melbourne Victory,0,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-26,pacific,Newcastle United Jets,Adelaide United,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-26,pacific,Western Sydney Wanderers,Sydney FC,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-26,pacific,Adelaide United,Newcastle United Jets,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-26,pacific,Adelaide United,Central Coast Mariners,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-26,pacific,Melbourne City FC,Melbourne Victory,1,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-26,pacific,Perth Glory,Wellington Phoenix,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-27,pacific,Western United,Melbourne City FC,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-27,pacific,Wellington Phoenix,Perth Glory,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-10-27,pacific,Brisbane Roar,Sydney FC,3,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-27,pacific,Auckland FC,Sydney FC,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-27,pacific,Central Coast Mariners,Melbourne City FC,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-27,pacific,Sydney FC,Western Sydney Wanderers,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-27,pacific,Western United,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-10-28,pacific,Western Sydney Wanderers,Western United,5,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-28,pacific,Brisbane Roar,Wellington Phoenix,0,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-28,pacific,Western Sydney Wanderers,Newcastle United Jets,2,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-28,pacific,Wellington Phoenix,Perth Glory,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-28,pacific,Melbourne Victory,Perth Glory,2,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-10-29,pacific,Melbourne Victory,Newcastle United Jets,5,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-29,pacific,Central Coast Mariners,Macarthur FC,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-29,pacific,Brisbane Roar,Melbourne Victory,0,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-29,pacific,Central Coast Mariners,Western United,4,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-29,pacific,Macarthur FC,Sydney FC,2,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-29,pacific,Adelaide United,Melbourne City FC,6,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-10-30,pacific,Adelaide United,Perth Glory,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-10-30,pacific,Melbourne City FC,Wellington Phoenix,2,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-01,pacific,Brisbane Roar,Sydney FC,2,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-01,pacific,Sydney FC,Newcastle United Jets,4,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-02,pacific,Western Sydney Wanderers,Adelaide United,3,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-02,pacific,Melbourne City FC,Sydney FC,0,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-02,pacific,Wellington Phoenix,Auckland FC,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-02,pacific,Central Coast Mariners,Perth Glory,0,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-02,pacific,Melbourne Victory,Western United,2,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-02,pacific,Western Sydney Wanderers,Brisbane Roar,0,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-03,pacific,Newcastle United Jets,Melbourne Victory,0,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-03,pacific,Wellington Phoenix,Western Sydney Wanderers,0,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-03,pacific,Perth Glory,Brisbane Roar,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-03,pacific,Melbourne City FC,Sydney FC,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-03,pacific,Melbourne Victory,Macarthur FC,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-03,pacific,Perth Glory,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-03,pacific,Melbourne City FC,Wellington Phoenix,3,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-04,pacific,Melbourne Victory,Adelaide United,1,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-04,pacific,Melbourne Victory,Newcastle United Jets,4,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-04,pacific,Western United,Melbourne City FC,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-04,pacific,Wellington Phoenix,Brisbane Roar,5,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-04,pacific,Macarthur FC,Western United,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-04,pacific,Central Coast Mariners,Adelaide United,0,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-04,pacific,Perth Glory,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-05,pacific,Newcastle United Jets,Western Sydney Wanderers,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-05,pacific,Melbourne City FC,Perth Glory,4,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-05,pacific,Western Sydney Wanderers,Central Coast Mariners,0,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-06,pacific,Wellington Phoenix,Macarthur FC,4,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-06,pacific,Western United,Adelaide United,2,4,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-06,pacific,Brisbane Roar,Sydney FC,3,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-08,pacific,Western Sydney Wanderers,Newcastle United Jets,4,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-08,pacific,Melbourne City FC,Central Coast Mariners,3,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-09,pacific,Adelaide United,Western United,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-09,pacific,Western United,Western Sydney Wanderers,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-09,pacific,Melbourne Victory,Brisbane Roar,2,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-09,pacific,Melbourne City FC,Wellington Phoenix,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-09,pacific,Newcastle United Jets,Perth Glory,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-10,pacific,Central Coast Mariners,Wellington Phoenix,0,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-10,pacific,Adelaide United,Brisbane Roar,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-10,pacific,Perth Glory,Melbourne City FC,0,5,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-10,pacific,Newcastle United Jets,Sydney FC,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-10,pacific,Melbourne Victory,Wellington Phoenix,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-10,pacific,Western Sydney Wanderers,Brisbane Roar,2,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-10,pacific,Sydney FC,Macarthur FC,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-11,pacific,Western Sydney Wanderers,Perth Glory,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-11,pacific,Adelaide United,Sydney FC,1,5,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-11,pacific,Adelaide United,Perth Glory,0,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-11,pacific,Adelaide United,Melbourne Victory,3,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-11,pacific,Melbourne Victory,Central Coast Mariners,4,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-11,pacific,Western United,Newcastle United Jets,0,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-12,pacific,Melbourne City FC,Macarthur FC,3,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-12,pacific,Central Coast Mariners,Brisbane Roar,1,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-12,pacific,Newcastle United Jets,Melbourne City FC,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-12,pacific,Sydney FC,Western Sydney Wanderers,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-13,pacific,Central Coast Mariners,Macarthur FC,2,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-13,pacific,Wellington Phoenix,Western United,2,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-11-16,pacific,Western United,Newcastle United Jets,0,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-16,pacific,Central Coast Mariners,Adelaide United,1,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-17,pacific,Sydney FC,Melbourne Victory,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-17,pacific,Brisbane Roar,Melbourne City FC,4,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-20,pacific,Western United,Melbourne Victory,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-20,pacific,Perth Glory,Adelaide United,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-20,pacific,Western Sydney Wanderers,Sydney FC,0,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-21,pacific,Newcastle United Jets,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-21,pacific,Macarthur FC,Wellington Phoenix,1,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-22,pacific,Western Sydney Wanderers,Melbourne City FC,2,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-22,pacific,Newcastle United Jets,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-22,pacific,Perth Glory,Western United,1,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-23,pacific,Adelaide United,Melbourne Victory,3,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-23,pacific,Western Sydney Wanderers,Newcastle United Jets,0,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-23,pacific,Brisbane Roar,Adelaide United,2,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-23,pacific,Sydney FC,Western Sydney Wanderers,4,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-23,pacific,Wellington Phoenix,Brisbane Roar,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-23,pacific,Perth Glory,Sydney FC,1,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-24,pacific,Wellington Phoenix,Adelaide United,1,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-24,pacific,Wellington Phoenix,Melbourne Victory,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-24,pacific,Macarthur FC,Melbourne Victory,1,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-24,pacific,Central Coast Mariners,Western United,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-24,pacific,Macarthur FC,Auckland FC,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-24,pacific,Brisbane Roar,Melbourne City FC,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-25,pacific,Sydney FC,Western Sydney Wanderers,0,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-25,pacific,Central Coast Mariners,Newcastle United Jets,3,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-25,pacific,Perth Glory,Central Coast Mariners,3,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-25,pacific,Sydney FC,Melbourne Victory,1,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-25,pacific,Wellington Phoenix,Melbourne City FC,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-26,pacific,Western United,Perth Glory,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-26,pacific,Western United,Adelaide United,1,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-26,pacific,Brisbane Roar,Perth Glory,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-11-27,pacific,Wellington Phoenix,Central Coast Mariners,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-27,pacific,Sydney FC,Macarthur FC,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-27,pacific,Adelaide United,Melbourne City FC,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-28,pacific,Western Sydney Wanderers,Newcastle United Jets,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-28,pacific,Melbourne Victory,Brisbane Roar,3,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-11-29,pacific,Melbourne Victory,Perth Glory,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-29,pacific,Adelaide United,Perth Glory,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-30,pacific,Brisbane Roar,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-30,pacific,Newcastle United Jets,Western Sydney Wanderers,2,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-11-30,pacific,Adelaide United,Brisbane Roar,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-11-30,pacific,Auckland FC,Newcastle United Jets,2,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-30,pacific,Melbourne City FC,Western Sydney Wanderers,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-11-30,pacific,Macarthur FC,Brisbane Roar,4,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-01,pacific,Brisbane Roar,Western Sydney Wanderers,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-01,pacific,Central Coast Mariners,Sydney FC,1,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-01,pacific,Western United,Melbourne Victory,1,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-01,pacific,Adelaide United,Wellington Phoenix,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-01,pacific,Melbourne Victory,Western Sydney Wanderers,4,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-01,pacific,Western United,Sydney FC,0,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-02,pacific,Sydney FC,Perth Glory,3,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-02,pacific,Wellington Phoenix,Perth Glory,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-02,pacific,Melbourne City FC,Newcastle United Jets,3,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-02,pacific,Western United,Wellington Phoenix,0,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-03,pacific,Wellington Phoenix,Western Sydney Wanderers,0,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-03,pacific,Central Coast Mariners,Melbourne Victory,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-03,pacific,Newcastle United Jets,Melbourne City FC,0,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-04,pacific,Brisbane Roar,Adelaide United,0,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-04,pacific,Melbourne City FC,Western United,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-04,pacific,Sydney FC,Newcastle United Jets,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-04,pacific,Macarthur FC,Adelaide United,4,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-05,pacific,Macarthur FC,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-05,pacific,Melbourne Victory,Perth Glory,0,3,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-06,pacific,Brisbane Roar,Melbourne City FC,1,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-06,pacific,Melbourne City FC,Perth Glory,0,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-07,pacific,Western Sydney Wanderers,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-07,pacific,Newcastle United Jets,Adelaide United,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-07,pacific,Western United,Macarthur FC,0,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-07,pacific,Wellington Phoenix,Western Sydney Wanderers,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-07,pacific,Auckland FC,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-07,pacific,Sydney FC,Brisbane Roar,5,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-08,pacific,Melbourne Victory,Perth Glory,2,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-08,pacific,Central Coast Mariners,Sydney FC,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-08,pacific,Melbourne City FC,Perth Glory,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-08,pacific,Adelaide United,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-08,pacific,Central Coast Mariners,Western United,4,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-08,pacific,Sydney FC,Wellington Phoenix,1,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-08,pacific,Melbourne Victory,Adelaide United,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-08,pacific,Perth Glory,Melbourne City FC,1,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-08,pacific,Western United,Melbourne Victory,3,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-09,pacific,Newcastle United Jets,Brisbane Roar,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-09,pacific,Sydney FC,Macarthur FC,0,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-09,pacific,Wellington Phoenix,Newcastle United Jets,0,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-10,pacific,Western Sydney Wanderers,Melbourne Victory,3,4,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-10,pacific,Adelaide United,Brisbane Roar,0,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-10,pacific,Perth Glory,Western United,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-10,pacific,Sydney FC,Melbourne City FC,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-10,pacific,Wellington Phoenix,Western Sydney Wanderers,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-10,pacific,Newcastle United Jets,Wellington Phoenix,4,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-11,pacific,Western United,Brisbane Roar,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-11,pacific,Adelaide United,Melbourne Victory,1,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-11,pacific,Central Coast Mariners,Newcastle United Jets,1,2,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-11,pacific,Macarthur FC,Melbourne Victory,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-11,pacific,Western Sydney Wanderers,Macarthur FC,0,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-12,pacific,Central Coast Mariners,Sydney FC,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-13,pacific,Brisbane Roar,Western United,0,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-13,pacific,Central Coast Mariners,Adelaide United,0,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-14,pacific,Wellington Phoenix,Macarthur FC,1,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-14,pacific,Western Sydney Wanderers,Brisbane Roar,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-14,pacific,Brisbane Roar,Melbourne Victory,2,4,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-14,pacific,Sydney FC,Western United,3,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-14,pacific,Perth Glory,Western Sydney Wanderers,2,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-14,pacific,Sydney FC,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-14,pacific,Melbourne Victory,Wellington Phoenix,0,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-14,pacific,Perth Glory,Newcastle United Jets,0,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-15,pacific,Western Sydney Wanderers,Adelaide United,1,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-15,pacific,Western United,Brisbane Roar,2,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-15,pacific,Western Sydney Wanderers,Sydney FC,1,3,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-15,pacific,Wellington Phoenix,Central Coast Mariners,2,0,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-15,pacific,Melbourne City FC,Auckland FC,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-15,pacific,Newcastle United Jets,Melbourne City FC,0,4,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-16,pacific,Newcastle United Jets,Brisbane Roar,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-16,pacific,Melbourne Victory,Sydney FC,3,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-16,pacific,Adelaide United,Melbourne City FC,0,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-16,pacific,Newcastle United Jets,Perth Glory,0,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-17,pacific,Western United,Adelaide United,1,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-17,pacific,Melbourne City FC,Central Coast Mariners,3,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-17,pacific,Central Coast Mariners,Sydney FC,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-17,pacific,Wellington Phoenix,Adelaide United,3,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-18,pacific,Macarthur FC,Wellington Phoenix,0,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-18,pacific,Melbourne City FC,Melbourne Victory,2,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-18,pacific,Central Coast Mariners,Western Sydney Wanderers,2,0,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-18,pacific,Western United,Western Sydney Wanderers,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-18,pacific,Macarthur FC,Perth Glory,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-19,pacific,Sydney FC,Wellington Phoenix,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-19,pacific,Macarthur FC,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-12-20,pacific,Western Sydney Wanderers,Western United,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-20,pacific,Adelaide United,Sydney FC,3,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-21,pacific,Auckland FC,Western United,0,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-21,pacific,Brisbane Roar,Central Coast Mariners,0,3,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-21,pacific,Melbourne Victory,Melbourne City FC,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-21,pacific,Perth Glory,Newcastle United Jets,6,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-21,pacific,Perth Glory,Sydney FC,1,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-21,pacific,Wellington Phoenix,Sydney FC,2,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-21,pacific,Central Coast Mariners,Newcastle United Jets,3,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-21,pacific,Melbourne City FC,Melbourne Victory,1,2,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-21,pacific,Brisbane Roar,Perth Glory,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-22,pacific,Central Coast Mariners,Adelaide United,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-22,pacific,Wellington Phoenix,Brisbane Roar,4,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-22,pacific,Western Sydney Wanderers,Wellington Phoenix,4,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-22,pacific,Melbourne City FC,Melbourne Victory,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-22,pacific,Adelaide United,Newcastle United Jets,3,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-23,pacific,Macarthur FC,Central Coast Mariners,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-23,pacific,Melbourne City FC,Melbourne Victory,0,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-23,pacific,Sydney FC,Western United,4,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-23,pacific,Perth Glory,Macarthur FC,3,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-23,pacific,Wellington Phoenix,Western Sydney Wanderers,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-23,pacific,Central Coast Mariners,Newcastle United Jets,1,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-24,pacific,Sydney FC,Macarthur FC,0,3,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-26,pacific,Western United,Melbourne Victory,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-26,pacific,Adelaide United,Western Sydney Wanderers,2,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-27,pacific,Adelaide United,Western Sydney Wanderers,2,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-27,pacific,Perth Glory,Macarthur FC,0,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-27,pacific,Melbourne City FC,Central Coast Mariners,1,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-27,pacific,Adelaide United,Newcastle United Jets,0,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-28,pacific,Melbourne Victory,Wellington Phoenix,1,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-28,pacific,Newcastle United Jets,Brisbane Roar,1,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-28,pacific,Melbourne City FC,Brisbane Roar,8,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-28,pacific,Wellington Phoenix,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-28,pacific,Sydney FC,Melbourne Victory,3,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-28,pacific,Central Coast Mariners,Auckland FC,1,4,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-28,pacific,Western United,Wellington Phoenix,1,3,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-29,pacific,Sydney FC,Brisbane Roar,2,1,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-29,pacific,Sydney FC,Melbourne City FC,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-12-29,pacific,Western United,Brisbane Roar,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-29,pacific,Brisbane Roar,Melbourne City FC,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-12-29,pacific,Sydney FC,Wellington Phoenix,3,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-30,pacific,Newcastle United Jets,Adelaide United,1,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-12-30,pacific,Newcastle United Jets,Western United,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-30,pacific,Western United,Brisbane Roar,1,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-30,pacific,Western Sydney Wanderers,Macarthur FC,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-12-30,pacific,Melbourne Victory,Adelaide United,2,0,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-31,pacific,Central Coast Mariners,Melbourne City FC,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-12-31,pacific,Central Coast Mariners,Melbourne Victory,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-12-31,pacific,Central Coast Mariners,Perth Glory,4,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-12-31,pacific,Central Coast Mariners,Newcastle United Jets,1,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-,pacific,Newcastle United Jets,Perth Glory,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-,pacific,Melbourne Victory,Adelaide United,2,1,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-01-11,pacific,Perth Glory,Auckland FC,1,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-01-22,pacific,Adelaide United,Auckland FC,2,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-01-26,pacific,Western Sydney Wanderers,Auckland FC,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-04,pacific,Melbourne City FC,Macarthur FC,6,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-02-06,pacific,Wellington Phoenix,Macarthur FC,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-09,pacific,Brisbane Roar,Macarthur FC,0,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-02-10,pacific,Central Coast Mariners,Macarthur FC,3,3,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-10,pacific,Melbourne Victory,Macarthur FC,0,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-02-13,pacific,Brisbane Roar,Macarthur FC,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-15,pacific,Western United,Auckland FC,0,2,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-16,pacific,Western Sydney Wanderers,Macarthur FC,2,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-20,pacific,Western United,Macarthur FC,4,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-02-23,pacific,Perth Glory,Macarthur FC,0,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-25,pacific,Newcastle United Jets,Macarthur FC,2,2,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-02-25,pacific,Western Sydney Wanderers,Macarthur FC,4,0,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-02-27,pacific,Perth Glory,Western United,0,2,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-02-27,pacific,Melbourne Victory,Western United,3,4,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-02-28,pacific,Central Coast Mariners,Western United,1,3,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-02-28,pacific,Sydney FC,Macarthur FC,0,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-02,pacific,Perth Glory,Central Coast Mariners,1,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-04,pacific,Melbourne Victory,Macarthur FC,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-05,pacific,Central Coast Mariners,Brisbane Roar,2,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-06,pacific,Melbourne Victory,Melbourne City FC,0,6,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-07,pacific,Adelaide United,Western United,1,5,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-07,pacific,Melbourne City FC,Macarthur FC,2,0,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-08,pacific,Central Coast Mariners,Macarthur FC,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-09,pacific,Melbourne City FC,Macarthur FC,3,1,,,openfootball (pacific/australia/2021-22_au1.txt)
-2026-03-10,pacific,Sydney FC,Brisbane Roar,1,1,,,openfootball (pacific/australia/2023-24_au1.txt)
-2026-03-10,pacific,Sydney FC,Western United,2,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-11,pacific,Central Coast Mariners,Macarthur FC,4,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-12,pacific,Melbourne City FC,Macarthur FC,3,0,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-12,pacific,Melbourne City FC,Newcastle United Jets,0,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-12,pacific,Melbourne City FC,Brisbane Roar,2,1,,,openfootball (pacific/australia/2022-23_au1.txt)
-2026-03-13,pacific,Sydney FC,Newcastle United Jets,2,1,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-14,pacific,Sydney FC,Perth Glory,0,0,,,openfootball (pacific/australia/2019-20_au1.txt)
-2026-03-14,pacific,Central Coast Mariners,Perth Glory,2,2,,,openfootball (pacific/australia/2020-21_au1.txt)
-2026-03-16,pacific,Sydney FC,Wellington Phoenix,1,1,,,openfootball (pacific/australia/2024-25_au1.txt)
-2026-03-17,pacific,Sydney FC,Melbourne City FC,0,2,,,openfootball (pacific/australia/2018-19_au1.txt)
-2026-03-18,pacific,Sydney FC,Western Sydney Wanderers,0,4,,,openfootball (pacific/australia/2022-23_au1.txt)
+﻿fixture_id,date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+650537,2023-01-01T06:00:00Z,2023,Western Sydney Wanderers,Macarthur FC,4.0,0.0,,,ESPN scoreboard
+650538,2023-01-02T02:00:00Z,2023,Wellington Phoenix FC,Melbourne City FC,1.0,3.0,,,ESPN scoreboard
+650539,2023-01-02T08:45:00Z,2023,Adelaide United,Perth Glory,2.0,0.0,,,ESPN scoreboard
+650540,2023-01-06T08:45:00Z,2023,Melbourne Victory,Brisbane Roar,0.0,1.0,,,ESPN scoreboard
+650541,2023-01-06T11:30:00Z,2023,Perth Glory,Western Sydney Wanderers,1.0,0.0,,,ESPN scoreboard
+650542,2023-01-07T06:00:00Z,2023,Central Coast Mariners,Adelaide United,4.0,0.0,,,ESPN scoreboard
+650543,2023-01-07T06:00:00Z,2023,Sydney FC,Wellington Phoenix FC,0.0,1.0,,,ESPN scoreboard
+650544,2023-01-07T08:45:00Z,2023,Melbourne City FC,Western United,4.0,0.0,,,ESPN scoreboard
+650545,2023-01-08T04:00:00Z,2023,Macarthur FC,Newcastle Jets,2.0,0.0,,,ESPN scoreboard
+650515,2023-01-10T11:30:00Z,2023,Perth Glory,Brisbane Roar,2.0,1.0,,,ESPN scoreboard
+650546,2023-01-13T08:45:00Z,2023,Macarthur FC,Central Coast Mariners,1.0,2.0,,,ESPN scoreboard
+650547,2023-01-14T06:00:00Z,2023,Brisbane Roar,Wellington Phoenix FC,0.0,1.0,,,ESPN scoreboard
+650548,2023-01-14T08:45:00Z,2023,Adelaide United,Melbourne Victory,1.0,1.0,,,ESPN scoreboard
+650549,2023-01-14T11:30:00Z,2023,Perth Glory,Sydney FC,2.0,2.0,,,ESPN scoreboard
+650550,2023-01-15T04:00:00Z,2023,Western Sydney Wanderers,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+650551,2023-01-15T06:00:00Z,2023,Western United,Newcastle Jets,1.0,1.0,,,ESPN scoreboard
+650552,2023-01-20T08:45:00Z,2023,Adelaide United,Macarthur FC,1.0,0.0,,,ESPN scoreboard
+650553,2023-01-21T06:00:00Z,2023,Western United,Sydney FC,1.0,0.0,,,ESPN scoreboard
+650554,2023-01-21T08:45:00Z,2023,Brisbane Roar,Melbourne City FC,0.0,0.0,,,ESPN scoreboard
+650555,2023-01-21T11:30:00Z,2023,Perth Glory,Melbourne Victory,3.0,1.0,,,ESPN scoreboard
+650556,2023-01-22T02:00:00Z,2023,Wellington Phoenix FC,Central Coast Mariners,2.0,1.0,,,ESPN scoreboard
+650557,2023-01-22T04:00:00Z,2023,Newcastle Jets,Western Sydney Wanderers,1.0,1.0,,,ESPN scoreboard
+650558,2023-01-26T07:45:00Z,2023,Melbourne Victory,Sydney FC,1.0,2.0,,,ESPN scoreboard
+650559,2023-01-27T08:45:00Z,2023,Newcastle Jets,Brisbane Roar,4.0,0.0,,,ESPN scoreboard
+650560,2023-01-28T02:00:00Z,2023,Wellington Phoenix FC,Perth Glory,2.0,2.0,,,ESPN scoreboard
+650561,2023-01-28T06:00:00Z,2023,Macarthur FC,Western United,2.0,2.0,,,ESPN scoreboard
+650562,2023-01-28T08:45:00Z,2023,Central Coast Mariners,Western Sydney Wanderers,2.0,2.0,,,ESPN scoreboard
+650563,2023-01-29T04:00:00Z,2023,Melbourne City FC,Adelaide United,3.0,3.0,,,ESPN scoreboard
+650564,2023-02-03T08:45:00Z,2023,Melbourne Victory,Wellington Phoenix FC,3.0,1.0,,,ESPN scoreboard
+650566,2023-02-04T06:00:00Z,2023,Melbourne City FC,Macarthur FC,6.0,1.0,,,ESPN scoreboard
+650565,2023-02-04T06:00:00Z,2023,Sydney FC,Central Coast Mariners,3.0,2.0,,,ESPN scoreboard
+650567,2023-02-04T08:45:00Z,2023,Adelaide United,Brisbane Roar,2.0,1.0,,,ESPN scoreboard
+650568,2023-02-04T11:30:00Z,2023,Perth Glory,Newcastle Jets,2.0,2.0,,,ESPN scoreboard
+650569,2023-02-05T04:00:00Z,2023,Western Sydney Wanderers,Western United,1.0,0.0,,,ESPN scoreboard
+650570,2023-02-10T08:45:00Z,2023,Brisbane Roar,Central Coast Mariners,1.0,2.0,,,ESPN scoreboard
+650571,2023-02-11T06:00:00Z,2023,Western United,Adelaide United,2.0,3.0,,,ESPN scoreboard
+650572,2023-02-11T08:45:00Z,2023,Western Sydney Wanderers,Sydney FC,0.0,1.0,,,ESPN scoreboard
+650573,2023-02-11T11:30:00Z,2023,Perth Glory,Melbourne City FC,2.0,4.0,,,ESPN scoreboard
+650574,2023-02-12T04:00:00Z,2023,Newcastle Jets,Melbourne Victory,2.0,1.0,,,ESPN scoreboard
+650575,2023-02-12T06:00:00Z,2023,Macarthur FC,Wellington Phoenix FC,2.0,1.0,,,ESPN scoreboard
+650576,2023-02-17T08:45:00Z,2023,Western United,Wellington Phoenix FC,0.0,3.0,,,ESPN scoreboard
+650578,2023-02-18T06:00:00Z,2023,Sydney FC,Brisbane Roar,1.0,1.0,,,ESPN scoreboard
+650577,2023-02-18T07:00:00Z,2023,Macarthur FC,Newcastle Jets,0.0,1.0,,,ESPN scoreboard
+650579,2023-02-18T08:45:00Z,2023,Melbourne Victory,Melbourne City FC,3.0,2.0,,,ESPN scoreboard
+650497,2023-02-18T11:30:00Z,2023,Perth Glory,Central Coast Mariners,2.0,2.0,,,ESPN scoreboard
+650581,2023-02-19T04:00:00Z,2023,Adelaide United,Western Sydney Wanderers,4.0,4.0,,,ESPN scoreboard
+650582,2023-02-24T08:45:00Z,2023,Central Coast Mariners,Wellington Phoenix FC,1.0,1.0,,,ESPN scoreboard
+650583,2023-02-25T06:00:00Z,2023,Melbourne City FC,Sydney FC,3.0,2.0,,,ESPN scoreboard
+650584,2023-02-25T06:00:00Z,2023,Newcastle Jets,Western United,1.0,3.0,,,ESPN scoreboard
+650585,2023-02-25T08:45:00Z,2023,Western Sydney Wanderers,Macarthur FC,4.0,0.0,,,ESPN scoreboard
+650586,2023-02-26T04:00:00Z,2023,Melbourne Victory,Adelaide United,1.0,1.0,,,ESPN scoreboard
+650587,2023-02-26T06:00:00Z,2023,Brisbane Roar,Perth Glory,2.0,1.0,,,ESPN scoreboard
+650588,2023-03-03T08:45:00Z,2023,Adelaide United,Melbourne City FC,4.0,2.0,,,ESPN scoreboard
+650589,2023-03-04T02:00:00Z,2023,Wellington Phoenix FC,Newcastle Jets,2.0,1.0,,,ESPN scoreboard
+650591,2023-03-04T06:00:00Z,2023,Western Sydney Wanderers,Central Coast Mariners,2.0,0.0,,,ESPN scoreboard
+650590,2023-03-04T06:00:00Z,2023,Western United,Perth Glory,2.0,1.0,,,ESPN scoreboard
+650592,2023-03-04T08:45:00Z,2023,Sydney FC,Melbourne Victory,1.0,0.0,,,ESPN scoreboard
+650593,2023-03-05T04:00:00Z,2023,Macarthur FC,Brisbane Roar,3.0,2.0,,,ESPN scoreboard
+650595,2023-03-10T11:00:00Z,2023,Perth Glory,Western Sydney Wanderers,1.0,0.0,,,ESPN scoreboard
+650594,2023-03-11T06:00:00Z,2023,Central Coast Mariners,Macarthur FC,4.0,1.0,,,ESPN scoreboard
+650596,2023-03-11T08:45:00Z,2023,Newcastle Jets,Adelaide United,2.0,4.0,,,ESPN scoreboard
+650597,2023-03-12T02:00:00Z,2023,Wellington Phoenix FC,Sydney FC,1.0,0.0,,,ESPN scoreboard
+650598,2023-03-12T04:00:00Z,2023,Melbourne City FC,Brisbane Roar,2.0,1.0,,,ESPN scoreboard
+650599,2023-03-13T07:00:00Z,2023,Melbourne Victory,Western United,1.0,2.0,,,ESPN scoreboard
+650600,2023-03-17T08:45:00Z,2023,Adelaide United,Wellington Phoenix FC,5.0,1.0,,,ESPN scoreboard
+650601,2023-03-18T06:00:00Z,2023,Brisbane Roar,Western United,1.0,0.0,,,ESPN scoreboard
+650602,2023-03-18T06:00:00Z,2023,Newcastle Jets,Perth Glory,2.0,2.0,,,ESPN scoreboard
+650603,2023-03-18T08:45:00Z,2023,Sydney FC,Western Sydney Wanderers,0.0,4.0,,,ESPN scoreboard
+650605,2023-03-19T06:00:00Z,2023,Melbourne Victory,Central Coast Mariners,2.0,0.0,,,ESPN scoreboard
+650604,2023-03-19T08:00:00Z,2023,Macarthur FC,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+650606,2023-03-31T08:45:00Z,2023,Western Sydney Wanderers,Adelaide United,2.0,3.0,,,ESPN scoreboard
+650607,2023-04-01T02:00:00Z,2023,Wellington Phoenix FC,Melbourne Victory,1.0,2.0,,,ESPN scoreboard
+650608,2023-04-01T06:00:00Z,2023,Central Coast Mariners,Brisbane Roar,4.0,1.0,,,ESPN scoreboard
+650609,2023-04-01T08:45:00Z,2023,Sydney FC,Western United,3.0,3.0,,,ESPN scoreboard
+650610,2023-04-01T11:00:00Z,2023,Perth Glory,Macarthur FC,2.0,1.0,,,ESPN scoreboard
+650611,2023-04-02T05:00:00Z,2023,Melbourne City FC,Newcastle Jets,1.0,1.0,,,ESPN scoreboard
+650525,2023-04-05T09:00:00Z,2023,Melbourne City FC,Melbourne Victory,2.0,1.0,,,ESPN scoreboard
+650612,2023-04-07T05:00:00Z,2023,Western United,Central Coast Mariners,0.0,3.0,,,ESPN scoreboard
+650613,2023-04-07T07:00:00Z,2023,Adelaide United,Sydney FC,1.0,1.0,,,ESPN scoreboard
+650614,2023-04-08T07:00:00Z,2023,Brisbane Roar,Newcastle Jets,3.0,0.0,,,ESPN scoreboard
+650615,2023-04-08T09:45:00Z,2023,Macarthur FC,Western Sydney Wanderers,2.0,2.0,,,ESPN scoreboard
+650616,2023-04-09T05:00:00Z,2023,Melbourne Victory,Perth Glory,0.0,0.0,,,ESPN scoreboard
+650617,2023-04-10T06:00:00Z,2023,Melbourne City FC,Wellington Phoenix FC,4.0,1.0,,,ESPN scoreboard
+650618,2023-04-14T09:45:00Z,2023,Newcastle Jets,Macarthur FC,2.0,1.0,,,ESPN scoreboard
+650619,2023-04-15T07:00:00Z,2023,Central Coast Mariners,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+650620,2023-04-15T09:45:00Z,2023,Western Sydney Wanderers,Melbourne Victory,2.0,1.0,,,ESPN scoreboard
+650621,2023-04-16T03:00:00Z,2023,Wellington Phoenix FC,Brisbane Roar,2.0,2.0,,,ESPN scoreboard
+650622,2023-04-16T05:00:00Z,2023,Sydney FC,Perth Glory,4.0,1.0,,,ESPN scoreboard
+650623,2023-04-16T07:00:00Z,2023,Adelaide United,Western United,0.0,1.0,,,ESPN scoreboard
+650624,2023-04-21T09:45:00Z,2023,Western Sydney Wanderers,Wellington Phoenix FC,4.0,0.0,,,ESPN scoreboard
+650625,2023-04-22T07:00:00Z,2023,Newcastle Jets,Central Coast Mariners,1.0,3.0,,,ESPN scoreboard
+650626,2023-04-22T09:45:00Z,2023,Western United,Melbourne City FC,1.0,3.0,,,ESPN scoreboard
+650627,2023-04-23T05:00:00Z,2023,Melbourne Victory,Macarthur FC,2.0,1.0,,,ESPN scoreboard
+650628,2023-04-23T08:00:00Z,2023,Perth Glory,Adelaide United,4.0,4.0,,,ESPN scoreboard
+650629,2023-04-24T09:00:00Z,2023,Brisbane Roar,Sydney FC,0.0,2.0,,,ESPN scoreboard
+650631,2023-04-28T09:45:00Z,2023,Adelaide United,Central Coast Mariners,1.0,4.0,,,ESPN scoreboard
+650630,2023-04-28T09:45:00Z,2023,Melbourne City FC,Western Sydney Wanderers,3.0,2.0,,,ESPN scoreboard
+650635,2023-04-29T07:00:00Z,2023,Macarthur FC,Wellington Phoenix FC,0.0,1.0,,,ESPN scoreboard
+650632,2023-04-29T07:00:00Z,2023,Sydney FC,Newcastle Jets,2.0,0.0,,,ESPN scoreboard
+650633,2023-04-29T09:45:00Z,2023,Melbourne Victory,Brisbane Roar,0.0,1.0,,,ESPN scoreboard
+650634,2023-04-29T12:00:00Z,2023,Perth Glory,Western United,1.0,2.0,,,ESPN scoreboard
+668695,2023-05-05T09:45:00Z,2023,Adelaide United,Wellington Phoenix FC,2.0,0.0,,,ESPN scoreboard
+668696,2023-05-06T09:45:00Z,2023,Western Sydney Wanderers,Sydney FC,1.0,2.0,,,ESPN scoreboard
+668784,2023-05-12T09:45:00Z,2023,Sydney FC,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+668785,2023-05-13T09:45:00Z,2023,Adelaide United,Central Coast Mariners,1.0,2.0,,,ESPN scoreboard
+668786,2023-05-19T09:45:00Z,2023,Melbourne City FC,Sydney FC,4.0,0.0,,,ESPN scoreboard
+668787,2023-05-20T09:45:00Z,2023,Central Coast Mariners,Adelaide United,2.0,0.0,,,ESPN scoreboard
+669266,2023-06-03T09:45:00Z,2023,Melbourne City FC,Central Coast Mariners,1.0,6.0,,,ESPN scoreboard
+686447,2023-10-20T08:45:00Z,2023,Adelaide United,Central Coast Mariners,3.0,0.0,,,ESPN scoreboard
+686448,2023-10-21T04:30:00Z,2023,Macarthur FC,Brisbane Roar,1.0,1.0,,,ESPN scoreboard
+686449,2023-10-21T06:30:00Z,2023,Melbourne City FC,Western United,1.0,2.0,,,ESPN scoreboard
+686450,2023-10-21T08:45:00Z,2023,Sydney FC,Melbourne Victory,0.0,2.0,,,ESPN scoreboard
+686451,2023-10-22T04:00:00Z,2023,Western Sydney Wanderers,Wellington Phoenix FC,0.0,0.0,,,ESPN scoreboard
+686452,2023-10-22T08:45:00Z,2023,Perth Glory,Newcastle Jets,2.0,2.0,,,ESPN scoreboard
+686453,2023-10-27T08:45:00Z,2023,Brisbane Roar,Sydney FC,3.0,0.0,,,ESPN scoreboard
+686454,2023-10-28T04:30:00Z,2023,Wellington Phoenix FC,Perth Glory,2.0,1.0,,,ESPN scoreboard
+686455,2023-10-28T08:45:00Z,2023,Western Sydney Wanderers,Western United,5.0,0.0,,,ESPN scoreboard
+686457,2023-10-29T04:00:00Z,2023,Central Coast Mariners,Macarthur FC,1.0,2.0,,,ESPN scoreboard
+686458,2023-10-29T06:00:00Z,2023,Melbourne Victory,Newcastle Jets,5.0,3.0,,,ESPN scoreboard
+686456,2023-10-29T08:00:00Z,2023,Adelaide United,Melbourne City FC,6.0,0.0,,,ESPN scoreboard
+686459,2023-11-03T08:45:00Z,2023,Melbourne City FC,Sydney FC,2.0,0.0,,,ESPN scoreboard
+686460,2023-11-04T04:30:00Z,2023,Wellington Phoenix FC,Brisbane Roar,5.0,2.0,,,ESPN scoreboard
+686461,2023-11-04T06:30:00Z,2023,Macarthur FC,Western United,1.0,0.0,,,ESPN scoreboard
+686462,2023-11-04T08:45:00Z,2023,Melbourne Victory,Adelaide United,1.0,1.0,,,ESPN scoreboard
+686463,2023-11-04T10:45:00Z,2023,Perth Glory,Central Coast Mariners,2.0,0.0,,,ESPN scoreboard
+686464,2023-11-05T04:00:00Z,2023,Newcastle Jets,Western Sydney Wanderers,2.0,2.0,,,ESPN scoreboard
+686465,2023-11-10T08:45:00Z,2023,Melbourne Victory,Wellington Phoenix FC,1.0,1.0,,,ESPN scoreboard
+686466,2023-11-11T04:30:00Z,2023,Western United,Newcastle Jets,0.0,1.0,,,ESPN scoreboard
+686469,2023-11-11T06:30:00Z,2023,Western Sydney Wanderers,Perth Glory,2.0,0.0,,,ESPN scoreboard
+686468,2023-11-11T08:45:00Z,2023,Adelaide United,Sydney FC,1.0,5.0,,,ESPN scoreboard
+686467,2023-11-12T04:00:00Z,2023,Melbourne City FC,Macarthur FC,3.0,3.0,,,ESPN scoreboard
+686470,2023-11-12T06:00:00Z,2023,Central Coast Mariners,Brisbane Roar,1.0,2.0,,,ESPN scoreboard
+686471,2023-11-24T08:45:00Z,2023,Macarthur FC,Melbourne Victory,1.0,1.0,,,ESPN scoreboard
+686472,2023-11-25T03:30:00Z,2023,Wellington Phoenix FC,Melbourne City FC,1.0,0.0,,,ESPN scoreboard
+686557,2023-11-25T06:30:00Z,2023,Central Coast Mariners,Newcastle Jets,3.0,1.0,,,ESPN scoreboard
+686474,2023-11-25T08:45:00Z,2023,Sydney FC,Western Sydney Wanderers,0.0,1.0,,,ESPN scoreboard
+686475,2023-11-26T04:00:00Z,2023,Brisbane Roar,Perth Glory,2.0,1.0,,,ESPN scoreboard
+686476,2023-11-26T06:00:00Z,2023,Western United,Adelaide United,1.0,3.0,,,ESPN scoreboard
+686477,2023-12-01T08:45:00Z,2023,Brisbane Roar,Western Sydney Wanderers,2.0,2.0,,,ESPN scoreboard
+686478,2023-12-02T06:30:00Z,2023,Western United,Wellington Phoenix FC,0.0,1.0,,,ESPN scoreboard
+686480,2023-12-02T08:45:00Z,2023,Sydney FC,Perth Glory,3.0,2.0,,,ESPN scoreboard
+686481,2023-12-03T04:00:00Z,2023,Central Coast Mariners,Melbourne Victory,2.0,2.0,,,ESPN scoreboard
+686479,2023-12-03T06:00:00Z,2023,Newcastle Jets,Melbourne City FC,0.0,2.0,,,ESPN scoreboard
+686482,2023-12-04T08:00:00Z,2023,Macarthur FC,Adelaide United,4.0,3.0,,,ESPN scoreboard
+686483,2023-12-08T08:45:00Z,2023,Central Coast Mariners,Western United,4.0,0.0,,,ESPN scoreboard
+686486,2023-12-08T10:45:00Z,2023,Perth Glory,Melbourne City FC,1.0,2.0,,,ESPN scoreboard
+686484,2023-12-09T06:30:00Z,2023,Wellington Phoenix FC,Newcastle Jets,0.0,3.0,,,ESPN scoreboard
+686485,2023-12-09T08:45:00Z,2023,Sydney FC,Macarthur FC,0.0,2.0,,,ESPN scoreboard
+686487,2023-12-10T04:00:00Z,2023,Adelaide United,Brisbane Roar,0.0,2.0,,,ESPN scoreboard
+686488,2023-12-10T06:00:00Z,2023,Western Sydney Wanderers,Melbourne Victory,3.0,4.0,,,ESPN scoreboard
+686490,2023-12-15T07:00:00Z,2023,Western United,Brisbane Roar,2.0,1.0,,,ESPN scoreboard
+686489,2023-12-15T08:45:00Z,2023,Western Sydney Wanderers,Adelaide United,1.0,0.0,,,ESPN scoreboard
+686491,2023-12-16T07:00:00Z,2023,Newcastle Jets,Perth Glory,2.0,2.0,,,ESPN scoreboard
+686492,2023-12-16T08:45:00Z,2023,Melbourne Victory,Sydney FC,3.0,0.0,,,ESPN scoreboard
+686493,2023-12-17T06:00:00Z,2023,Melbourne City FC,Central Coast Mariners,3.0,3.0,,,ESPN scoreboard
+686494,2023-12-18T08:00:00Z,2023,Macarthur FC,Wellington Phoenix FC,0.0,3.0,,,ESPN scoreboard
+686495,2023-12-21T08:45:00Z,2023,Brisbane Roar,Central Coast Mariners,0.0,3.0,,,ESPN scoreboard
+686496,2023-12-22T08:45:00Z,2023,Adelaide United,Newcastle Jets,3.0,1.0,,,ESPN scoreboard
+686497,2023-12-23T04:30:00Z,2023,Wellington Phoenix FC,Western Sydney Wanderers,2.0,0.0,,,ESPN scoreboard
+686498,2023-12-23T06:30:00Z,2023,Sydney FC,Western United,4.0,2.0,,,ESPN scoreboard
+686499,2023-12-23T08:45:00Z,2023,Melbourne City FC,Melbourne Victory,0.0,0.0,,,ESPN scoreboard
+686500,2023-12-23T11:30:00Z,2023,Perth Glory,Macarthur FC,3.0,2.0,,,ESPN scoreboard
+686501,2023-12-28T08:45:00Z,2023,Melbourne City FC,Brisbane Roar,8.0,1.0,,,ESPN scoreboard
+686502,2023-12-29T08:45:00Z,2023,Sydney FC,Wellington Phoenix FC,3.0,1.0,,,ESPN scoreboard
+686503,2023-12-30T06:30:00Z,2023,Newcastle Jets,Western United,2.0,0.0,,,ESPN scoreboard
+686504,2023-12-30T08:45:00Z,2023,Melbourne Victory,Adelaide United,2.0,0.0,,,ESPN scoreboard
+686505,2023-12-31T08:00:00Z,2023,Central Coast Mariners,Perth Glory,4.0,2.0,,,ESPN scoreboard
+686506,2024-01-01T06:00:00Z,2024,Western Sydney Wanderers,Macarthur FC,3.0,1.0,,,ESPN scoreboard
+686507,2024-01-04T08:45:00Z,2024,Adelaide United,Wellington Phoenix FC,2.0,2.0,,,ESPN scoreboard
+686508,2024-01-05T08:45:00Z,2024,Macarthur FC,Newcastle Jets,1.0,1.0,,,ESPN scoreboard
+686509,2024-01-06T06:30:00Z,2024,Western Sydney Wanderers,Central Coast Mariners,0.0,1.0,,,ESPN scoreboard
+686510,2024-01-06T08:45:00Z,2024,Brisbane Roar,Sydney FC,1.0,2.0,,,ESPN scoreboard
+686511,2024-01-06T10:45:00Z,2024,Perth Glory,Melbourne Victory,2.0,3.0,,,ESPN scoreboard
+686512,2024-01-07T06:00:00Z,2024,Western United,Melbourne City FC,1.0,2.0,,,ESPN scoreboard
+686518,2024-01-08T08:45:00Z,2024,Adelaide United,Macarthur FC,1.0,1.0,,,ESPN scoreboard
+689474,2024-01-12T06:30:00Z,2024,Macarthur FC,Western United,3.0,3.0,,,ESPN scoreboard
+689475,2024-01-12T09:15:00Z,2024,Melbourne City FC,Western Sydney Wanderers,0.0,1.0,,,ESPN scoreboard
+689477,2024-01-13T06:15:00Z,2024,Central Coast Mariners,Melbourne Victory,1.0,1.0,,,ESPN scoreboard
+689476,2024-01-13T09:00:00Z,2024,Adelaide United,Sydney FC,4.0,3.0,,,ESPN scoreboard
+689478,2024-01-14T08:45:00Z,2024,Brisbane Roar,Newcastle Jets,3.0,2.0,,,ESPN scoreboard
+689479,2024-01-14T08:45:00Z,2024,Perth Glory,Wellington Phoenix FC,3.0,4.0,,,ESPN scoreboard
+686519,2024-01-18T08:45:00Z,2024,Brisbane Roar,Macarthur FC,1.0,3.0,,,ESPN scoreboard
+686520,2024-01-19T06:00:00Z,2024,Wellington Phoenix FC,Melbourne Victory,1.0,1.0,,,ESPN scoreboard
+686521,2024-01-19T08:45:00Z,2024,Sydney FC,Newcastle Jets,4.0,0.0,,,ESPN scoreboard
+686523,2024-01-20T08:45:00Z,2024,Western Sydney Wanderers,Perth Glory,1.0,2.0,,,ESPN scoreboard
+686524,2024-01-21T07:00:00Z,2024,Central Coast Mariners,Melbourne City FC,2.0,1.0,,,ESPN scoreboard
+686515,2024-01-23T08:00:00Z,2024,Newcastle Jets,Brisbane Roar,3.0,1.0,,,ESPN scoreboard
+686525,2024-01-25T08:45:00Z,2024,Melbourne City FC,Adelaide United,1.0,0.0,,,ESPN scoreboard
+686526,2024-01-26T08:45:00Z,2024,Melbourne Victory,Sydney FC,1.0,1.0,,,ESPN scoreboard
+686527,2024-01-27T06:00:00Z,2024,Western United,Western Sydney Wanderers,0.0,1.0,,,ESPN scoreboard
+686528,2024-01-27T07:00:00Z,2024,Newcastle Jets,Wellington Phoenix FC,1.0,2.0,,,ESPN scoreboard
+686529,2024-01-27T08:45:00Z,2024,Central Coast Mariners,Brisbane Roar,2.0,0.0,,,ESPN scoreboard
+686530,2024-01-28T06:00:00Z,2024,Macarthur FC,Perth Glory,2.0,2.0,,,ESPN scoreboard
+686531,2024-02-02T08:45:00Z,2024,Brisbane Roar,Wellington Phoenix FC,1.0,1.0,,,ESPN scoreboard
+686532,2024-02-02T10:45:00Z,2024,Perth Glory,Melbourne City FC,4.0,2.0,,,ESPN scoreboard
+686533,2024-02-03T06:00:00Z,2024,Western United,Sydney FC,2.0,2.0,,,ESPN scoreboard
+686534,2024-02-03T07:00:00Z,2024,Newcastle Jets,Melbourne Victory,1.0,1.0,,,ESPN scoreboard
+686535,2024-02-03T08:45:00Z,2024,Adelaide United,Central Coast Mariners,0.0,4.0,,,ESPN scoreboard
+686536,2024-02-04T08:00:00Z,2024,Macarthur FC,Western Sydney Wanderers,4.0,3.0,,,ESPN scoreboard
+686517,2024-02-06T03:00:00Z,2024,Wellington Phoenix FC,Central Coast Mariners,0.0,0.0,,,ESPN scoreboard
+686537,2024-02-09T08:45:00Z,2024,Adelaide United,Perth Glory,3.0,3.0,,,ESPN scoreboard
+686538,2024-02-10T04:45:00Z,2024,Wellington Phoenix FC,Western United,2.0,0.0,,,ESPN scoreboard
+686539,2024-02-10T06:30:00Z,2024,Melbourne Victory,Macarthur FC,0.0,1.0,,,ESPN scoreboard
+686540,2024-02-10T07:00:00Z,2024,Brisbane Roar,Melbourne City FC,5.0,1.0,,,ESPN scoreboard
+686541,2024-02-10T08:45:00Z,2024,Central Coast Mariners,Sydney FC,1.0,3.0,,,ESPN scoreboard
+686542,2024-02-11T06:00:00Z,2024,Western Sydney Wanderers,Newcastle Jets,3.0,3.0,,,ESPN scoreboard
+686544,2024-02-16T08:45:00Z,2024,Western United,Newcastle Jets,2.0,0.0,,,ESPN scoreboard
+686545,2024-02-17T07:00:00Z,2024,Sydney FC,Adelaide United,2.0,1.0,,,ESPN scoreboard
+686546,2024-02-17T08:45:00Z,2024,Melbourne City FC,Melbourne Victory,0.0,0.0,,,ESPN scoreboard
+686547,2024-02-17T10:45:00Z,2024,Perth Glory,Brisbane Roar,3.0,2.0,,,ESPN scoreboard
+686548,2024-02-18T06:00:00Z,2024,Central Coast Mariners,Western Sydney Wanderers,1.0,0.0,,,ESPN scoreboard
+686543,2024-02-18T06:00:00Z,2024,Macarthur FC,Wellington Phoenix FC,1.0,2.0,,,ESPN scoreboard
+686513,2024-02-20T08:00:00Z,2024,Melbourne Victory,Western United,2.0,1.0,,,ESPN scoreboard
+686549,2024-02-23T08:45:00Z,2024,Brisbane Roar,Western United,2.0,2.0,,,ESPN scoreboard
+686550,2024-02-24T06:30:00Z,2024,Sydney FC,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+686552,2024-02-24T08:45:00Z,2024,Adelaide United,Western Sydney Wanderers,1.0,2.0,,,ESPN scoreboard
+686553,2024-02-24T10:45:00Z,2024,Perth Glory,Wellington Phoenix FC,0.0,0.0,,,ESPN scoreboard
+686554,2024-02-25T06:00:00Z,2024,Melbourne Victory,Central Coast Mariners,0.0,1.0,,,ESPN scoreboard
+686551,2024-02-25T06:00:00Z,2024,Newcastle Jets,Macarthur FC,2.0,2.0,,,ESPN scoreboard
+686555,2024-03-01T08:45:00Z,2024,Macarthur FC,Melbourne City FC,2.0,0.0,,,ESPN scoreboard
+686556,2024-03-02T06:00:00Z,2024,Western United,Perth Glory,1.0,0.0,,,ESPN scoreboard
+686473,2024-03-02T07:00:00Z,2024,Newcastle Jets,Central Coast Mariners,0.0,1.0,,,ESPN scoreboard
+686558,2024-03-02T08:45:00Z,2024,Western Sydney Wanderers,Sydney FC,1.0,4.0,,,ESPN scoreboard
+686559,2024-03-03T04:00:00Z,2024,Wellington Phoenix FC,Adelaide United,3.0,2.0,,,ESPN scoreboard
+686560,2024-03-03T06:00:00Z,2024,Brisbane Roar,Melbourne Victory,3.0,2.0,,,ESPN scoreboard
+686561,2024-03-08T08:45:00Z,2024,Western Sydney Wanderers,Western United,1.0,3.0,,,ESPN scoreboard
+686562,2024-03-09T08:00:00Z,2024,Melbourne City FC,Wellington Phoenix FC,1.0,0.0,,,ESPN scoreboard
+686564,2024-03-09T09:15:00Z,2024,Adelaide United,Melbourne Victory,1.0,2.0,,,ESPN scoreboard
+686565,2024-03-09T10:45:00Z,2024,Perth Glory,Newcastle Jets,2.0,2.0,,,ESPN scoreboard
+686563,2024-03-10T06:00:00Z,2024,Macarthur FC,Central Coast Mariners,0.0,3.0,,,ESPN scoreboard
+686566,2024-03-10T06:00:00Z,2024,Sydney FC,Brisbane Roar,1.0,1.0,,,ESPN scoreboard
+686516,2024-03-12T08:00:00Z,2024,Melbourne City FC,Western Sydney Wanderers,7.0,0.0,,,ESPN scoreboard
+686570,2024-03-14T08:00:00Z,2024,Western United,Melbourne Victory,2.0,2.0,,,ESPN scoreboard
+686567,2024-03-15T08:45:00Z,2024,Newcastle Jets,Adelaide United,0.0,1.0,,,ESPN scoreboard
+686568,2024-03-16T04:30:00Z,2024,Wellington Phoenix FC,Sydney FC,2.0,1.0,,,ESPN scoreboard
+686569,2024-03-16T05:00:00Z,2024,Brisbane Roar,Macarthur FC,1.0,2.0,,,ESPN scoreboard
+686571,2024-03-16T08:45:00Z,2024,Perth Glory,Western Sydney Wanderers,1.0,2.0,,,ESPN scoreboard
+686574,2024-03-29T08:45:00Z,2024,Adelaide United,Western United,4.0,1.0,,,ESPN scoreboard
+686575,2024-03-30T06:30:00Z,2024,Melbourne City FC,Newcastle Jets,0.0,0.0,,,ESPN scoreboard
+686576,2024-03-30T08:45:00Z,2024,Sydney FC,Central Coast Mariners,2.0,0.0,,,ESPN scoreboard
+686573,2024-03-31T00:00:00Z,2024,Wellington Phoenix FC,Brisbane Roar,1.0,0.0,,,ESPN scoreboard
+686578,2024-03-31T04:00:00Z,2024,Melbourne Victory,Perth Glory,2.0,1.0,,,ESPN scoreboard
+686577,2024-04-01T04:00:00Z,2024,Macarthur FC,Western Sydney Wanderers,1.0,3.0,,,ESPN scoreboard
+686572,2024-04-02T08:00:00Z,2024,Central Coast Mariners,Melbourne City FC,2.0,1.0,,,ESPN scoreboard
+686514,2024-04-03T10:45:00Z,2024,Perth Glory,Sydney FC,1.0,1.0,,,ESPN scoreboard
+686579,2024-04-05T08:45:00Z,2024,Western Sydney Wanderers,Brisbane Roar,1.0,2.0,,,ESPN scoreboard
+686582,2024-04-06T04:30:00Z,2024,Western United,Macarthur FC,4.0,2.0,,,ESPN scoreboard
+686580,2024-04-06T06:30:00Z,2024,Central Coast Mariners,Wellington Phoenix FC,2.0,1.0,,,ESPN scoreboard
+686581,2024-04-06T08:45:00Z,2024,Melbourne Victory,Melbourne City FC,2.0,1.0,,,ESPN scoreboard
+686583,2024-04-07T05:00:00Z,2024,Newcastle Jets,Sydney FC,3.0,1.0,,,ESPN scoreboard
+686584,2024-04-07T07:00:00Z,2024,Perth Glory,Adelaide United,2.0,4.0,,,ESPN scoreboard
+686585,2024-04-12T07:00:00Z,2024,Wellington Phoenix FC,Melbourne Victory,1.0,0.0,,,ESPN scoreboard
+686586,2024-04-12T09:45:00Z,2024,Adelaide United,Macarthur FC,1.0,2.0,,,ESPN scoreboard
+686589,2024-04-13T05:30:00Z,2024,Western United,Central Coast Mariners,0.0,2.0,,,ESPN scoreboard
+686587,2024-04-13T07:30:00Z,2024,Brisbane Roar,Newcastle Jets,0.0,2.0,,,ESPN scoreboard
+686588,2024-04-13T09:45:00Z,2024,Sydney FC,Western Sydney Wanderers,2.0,1.0,,,ESPN scoreboard
+686590,2024-04-14T05:00:00Z,2024,Melbourne City FC,Perth Glory,8.0,0.0,,,ESPN scoreboard
+686522,2024-04-16T09:00:00Z,2024,Western United,Adelaide United,3.0,3.0,,,ESPN scoreboard
+686591,2024-04-19T09:45:00Z,2024,Newcastle Jets,Wellington Phoenix FC,1.0,1.0,,,ESPN scoreboard
+686594,2024-04-20T05:30:00Z,2024,Western Sydney Wanderers,Melbourne City FC,1.0,2.0,,,ESPN scoreboard
+686593,2024-04-20T07:30:00Z,2024,Melbourne Victory,Brisbane Roar,0.0,0.0,,,ESPN scoreboard
+686595,2024-04-20T09:45:00Z,2024,Macarthur FC,Sydney FC,1.0,0.0,,,ESPN scoreboard
+686596,2024-04-21T07:00:00Z,2024,Perth Glory,Western United,3.0,4.0,,,ESPN scoreboard
+686597,2024-04-26T09:45:00Z,2024,Brisbane Roar,Adelaide United,3.0,4.0,,,ESPN scoreboard
+686599,2024-04-27T07:15:00Z,2024,Newcastle Jets,Central Coast Mariners,1.0,3.0,,,ESPN scoreboard
+686600,2024-04-27T07:15:00Z,2024,Wellington Phoenix FC,Macarthur FC,3.0,0.0,,,ESPN scoreboard
+686598,2024-04-27T09:45:00Z,2024,Melbourne Victory,Western Sydney Wanderers,3.0,4.0,,,ESPN scoreboard
+686602,2024-04-28T05:00:00Z,2024,Sydney FC,Perth Glory,7.0,1.0,,,ESPN scoreboard
+686601,2024-04-28T07:00:00Z,2024,Melbourne City FC,Western United,1.0,0.0,,,ESPN scoreboard
+686592,2024-05-01T09:00:00Z,2024,Central Coast Mariners,Adelaide United,2.0,0.0,,,ESPN scoreboard
+702243,2024-05-04T09:45:00Z,2024,Sydney FC,Macarthur FC,4.0,0.0,,,ESPN scoreboard
+702244,2024-05-05T07:00:00Z,2024,Melbourne Victory,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+702245,2024-05-10T09:45:00Z,2024,Sydney FC,Central Coast Mariners,1.0,2.0,,,ESPN scoreboard
+702246,2024-05-12T06:00:00Z,2024,Melbourne Victory,Wellington Phoenix FC,0.0,0.0,,,ESPN scoreboard
+702247,2024-05-18T06:30:00Z,2024,Wellington Phoenix FC,Melbourne Victory,1.0,2.0,,,ESPN scoreboard
+702248,2024-05-18T09:45:00Z,2024,Central Coast Mariners,Sydney FC,0.0,0.0,,,ESPN scoreboard
+702623,2024-05-25T09:55:00Z,2024,Central Coast Mariners,Melbourne Victory,3.0,1.0,,,ESPN scoreboard
+717917,2024-10-18T08:35:00Z,2024,Central Coast Mariners,Melbourne Victory,0.0,0.0,,,ESPN scoreboard
+717918,2024-10-19T04:00:00Z,2024,Auckland FC,Brisbane Roar,2.0,0.0,,,ESPN scoreboard
+717919,2024-10-19T06:00:00Z,2024,Newcastle Jets,Melbourne City FC,0.0,1.0,,,ESPN scoreboard
+717920,2024-10-19T08:35:00Z,2024,Western Sydney Wanderers,Sydney FC,1.0,2.0,,,ESPN scoreboard
+717921,2024-10-20T03:00:00Z,2024,Wellington Phoenix FC,Western United,1.0,1.0,,,ESPN scoreboard
+717922,2024-10-20T05:00:00Z,2024,Macarthur FC,Perth Glory,6.0,1.0,,,ESPN scoreboard
+717923,2024-10-25T08:35:00Z,2024,Macarthur FC,Newcastle Jets,1.0,2.0,,,ESPN scoreboard
+717924,2024-10-26T06:00:00Z,2024,Adelaide United,Central Coast Mariners,1.0,1.0,,,ESPN scoreboard
+717925,2024-10-26T08:35:00Z,2024,Melbourne City FC,Melbourne Victory,1.0,3.0,,,ESPN scoreboard
+717926,2024-10-26T10:45:00Z,2024,Perth Glory,Wellington Phoenix FC,0.0,2.0,,,ESPN scoreboard
+717927,2024-10-27T03:00:00Z,2024,Auckland FC,Sydney FC,1.0,0.0,,,ESPN scoreboard
+717928,2024-10-27T05:00:00Z,2024,Western United,Western Sydney Wanderers,1.0,1.0,,,ESPN scoreboard
+717929,2024-11-01T08:35:00Z,2024,Brisbane Roar,Sydney FC,2.0,3.0,,,ESPN scoreboard
+717930,2024-11-02T04:00:00Z,2024,Wellington Phoenix FC,Auckland FC,0.0,2.0,,,ESPN scoreboard
+717931,2024-11-02T06:00:00Z,2024,Central Coast Mariners,Perth Glory,0.0,0.0,,,ESPN scoreboard
+717932,2024-11-02T08:35:00Z,2024,Western Sydney Wanderers,Adelaide United,3.0,4.0,,,ESPN scoreboard
+717933,2024-11-03T05:00:00Z,2024,Melbourne Victory,Macarthur FC,2.0,1.0,,,ESPN scoreboard
+717934,2024-11-04T08:00:00Z,2024,Western United,Melbourne City FC,0.0,1.0,,,ESPN scoreboard
+717935,2024-11-08T08:35:00Z,2024,Western Sydney Wanderers,Newcastle Jets,4.0,1.0,,,ESPN scoreboard
+717936,2024-11-09T06:00:00Z,2024,Melbourne Victory,Brisbane Roar,2.0,0.0,,,ESPN scoreboard
+717938,2024-11-09T08:35:00Z,2024,Adelaide United,Western United,2.0,1.0,,,ESPN scoreboard
+717939,2024-11-10T05:00:00Z,2024,Central Coast Mariners,Wellington Phoenix FC,0.0,3.0,,,ESPN scoreboard
+717937,2024-11-10T07:00:00Z,2024,Sydney FC,Macarthur FC,1.0,2.0,,,ESPN scoreboard
+717940,2024-11-10T09:45:00Z,2024,Perth Glory,Melbourne City FC,0.0,5.0,,,ESPN scoreboard
+717941,2024-11-22T06:30:00Z,2024,Perth Glory,Western United,1.0,3.0,,,ESPN scoreboard
+717942,2024-11-22T09:00:00Z,2024,Newcastle Jets,Central Coast Mariners,1.0,2.0,,,ESPN scoreboard
+717943,2024-11-23T06:00:00Z,2024,Brisbane Roar,Adelaide United,2.0,3.0,,,ESPN scoreboard
+717944,2024-11-23T08:35:00Z,2024,Sydney FC,Western Sydney Wanderers,4.0,2.0,,,ESPN scoreboard
+717945,2024-11-24T02:30:00Z,2024,Wellington Phoenix FC,Melbourne Victory,1.0,0.0,,,ESPN scoreboard
+717946,2024-11-24T05:00:00Z,2024,Macarthur FC,Auckland FC,0.0,1.0,,,ESPN scoreboard
+717947,2024-11-29T08:35:00Z,2024,Adelaide United,Perth Glory,2.0,2.0,,,ESPN scoreboard
+717948,2024-11-30T04:00:00Z,2024,Auckland FC,Newcastle Jets,2.0,0.0,,,ESPN scoreboard
+717949,2024-11-30T06:00:00Z,2024,Melbourne City FC,Western Sydney Wanderers,0.0,2.0,,,ESPN scoreboard
+717951,2024-11-30T08:35:00Z,2024,Macarthur FC,Brisbane Roar,4.0,4.0,,,ESPN scoreboard
+717950,2024-12-01T05:00:00Z,2024,Western United,Melbourne Victory,1.0,3.0,,,ESPN scoreboard
+717952,2024-12-06T08:35:00Z,2024,Brisbane Roar,Melbourne City FC,1.0,4.0,,,ESPN scoreboard
+717953,2024-12-07T04:00:00Z,2024,Auckland FC,Wellington Phoenix FC,2.0,1.0,,,ESPN scoreboard
+717954,2024-12-07T07:00:00Z,2024,Newcastle Jets,Adelaide United,0.0,1.0,,,ESPN scoreboard
+717955,2024-12-07T07:00:00Z,2024,Western United,Macarthur FC,0.0,0.0,,,ESPN scoreboard
+717957,2024-12-08T06:00:00Z,2024,Melbourne Victory,Perth Glory,2.0,0.0,,,ESPN scoreboard
+717956,2024-12-08T07:00:00Z,2024,Central Coast Mariners,Sydney FC,2.0,1.0,,,ESPN scoreboard
+717958,2024-12-13T08:35:00Z,2024,Central Coast Mariners,Adelaide United,0.0,4.0,,,ESPN scoreboard
+717959,2024-12-14T04:00:00Z,2024,Wellington Phoenix FC,Macarthur FC,1.0,2.0,,,ESPN scoreboard
+717960,2024-12-14T06:00:00Z,2024,Sydney FC,Western United,3.0,4.0,,,ESPN scoreboard
+717961,2024-12-14T08:35:00Z,2024,Western Sydney Wanderers,Brisbane Roar,2.0,2.0,,,ESPN scoreboard
+717962,2024-12-14T10:45:00Z,2024,Perth Glory,Newcastle Jets,0.0,4.0,,,ESPN scoreboard
+717963,2024-12-15T06:00:00Z,2024,Melbourne City FC,Auckland FC,2.0,2.0,,,ESPN scoreboard
+717964,2024-12-20T08:35:00Z,2024,Adelaide United,Sydney FC,3.0,3.0,,,ESPN scoreboard
+717965,2024-12-21T04:00:00Z,2024,Auckland FC,Western United,0.0,4.0,,,ESPN scoreboard
+717966,2024-12-21T06:00:00Z,2024,Brisbane Roar,Perth Glory,0.0,1.0,,,ESPN scoreboard
+717967,2024-12-21T08:35:00Z,2024,Melbourne Victory,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+717968,2024-12-22T06:00:00Z,2024,Western Sydney Wanderers,Wellington Phoenix FC,4.0,1.0,,,ESPN scoreboard
+717969,2024-12-23T08:00:00Z,2024,Macarthur FC,Central Coast Mariners,1.0,1.0,,,ESPN scoreboard
+717970,2024-12-27T08:35:00Z,2024,Adelaide United,Western Sydney Wanderers,2.0,3.0,,,ESPN scoreboard
+717971,2024-12-27T11:45:00Z,2024,Perth Glory,Macarthur FC,0.0,3.0,,,ESPN scoreboard
+717972,2024-12-28T04:00:00Z,2024,Wellington Phoenix FC,Newcastle Jets,2.0,1.0,,,ESPN scoreboard
+717973,2024-12-28T06:00:00Z,2024,Central Coast Mariners,Auckland FC,1.0,4.0,,,ESPN scoreboard
+717974,2024-12-28T08:35:00Z,2024,Sydney FC,Melbourne Victory,3.0,0.0,,,ESPN scoreboard
+717975,2024-12-29T06:00:00Z,2024,Western United,Brisbane Roar,1.0,0.0,,,ESPN scoreboard
+717976,2024-12-31T08:00:00Z,2024,Central Coast Mariners,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+717977,2025-01-01T04:00:00Z,2024,Auckland FC,Melbourne Victory,0.0,0.0,,,ESPN scoreboard
+717978,2025-01-01T07:00:00Z,2025,Western Sydney Wanderers,Macarthur FC,2.0,3.0,,,ESPN scoreboard
+717979,2025-01-03T06:00:00Z,2025,Melbourne City FC,Wellington Phoenix FC,2.0,0.0,,,ESPN scoreboard
+717980,2025-01-03T08:35:00Z,2025,Brisbane Roar,Central Coast Mariners,1.0,3.0,,,ESPN scoreboard
+717981,2025-01-03T10:45:00Z,2025,Perth Glory,Western United,2.0,3.0,,,ESPN scoreboard
+717982,2025-01-04T06:00:00Z,2025,Newcastle Jets,Sydney FC,2.0,2.0,,,ESPN scoreboard
+717983,2025-01-04T08:35:00Z,2025,Melbourne Victory,Western Sydney Wanderers,2.0,2.0,,,ESPN scoreboard
+717984,2025-01-06T08:00:00Z,2025,Macarthur FC,Adelaide United,1.0,2.0,,,ESPN scoreboard
+717985,2025-01-07T07:00:00Z,2025,Melbourne City FC,Western United,2.0,0.0,,,ESPN scoreboard
+717986,2025-01-07T09:00:00Z,2025,Brisbane Roar,Newcastle Jets,0.0,1.0,,,ESPN scoreboard
+717987,2025-01-08T08:00:00Z,2025,Sydney FC,Perth Glory,3.0,0.0,,,ESPN scoreboard
+717988,2025-01-10T08:35:00Z,2025,Melbourne Victory,Western United,3.0,4.0,,,ESPN scoreboard
+717989,2025-01-11T04:00:00Z,2025,Wellington Phoenix FC,Adelaide United,1.0,2.0,,,ESPN scoreboard
+717990,2025-01-11T06:00:00Z,2025,Melbourne City FC,Brisbane Roar,1.0,0.0,,,ESPN scoreboard
+717991,2025-01-11T08:35:00Z,2025,Sydney FC,Central Coast Mariners,4.0,1.0,,,ESPN scoreboard
+717992,2025-01-11T10:45:00Z,2025,Perth Glory,Auckland FC,1.0,0.0,,,ESPN scoreboard
+717993,2025-01-12T06:00:00Z,2025,Newcastle Jets,Macarthur FC,1.0,3.0,,,ESPN scoreboard
+717994,2025-01-14T10:45:00Z,2025,Perth Glory,Western Sydney Wanderers,1.0,2.0,,,ESPN scoreboard
+717995,2025-01-15T06:00:00Z,2025,Wellington Phoenix FC,Sydney FC,0.0,0.0,,,ESPN scoreboard
+717999,2025-01-17T06:00:00Z,2025,Western United,Newcastle Jets,3.0,1.0,,,ESPN scoreboard
+717996,2025-01-17T08:35:00Z,2025,Western Sydney Wanderers,Central Coast Mariners,1.0,3.0,,,ESPN scoreboard
+717997,2025-01-18T04:00:00Z,2025,Auckland FC,Melbourne City FC,3.0,0.0,,,ESPN scoreboard
+717998,2025-01-18T06:00:00Z,2025,Sydney FC,Brisbane Roar,3.0,4.0,,,ESPN scoreboard
+718000,2025-01-18T08:35:00Z,2025,Adelaide United,Melbourne Victory,3.0,2.0,,,ESPN scoreboard
+718001,2025-01-20T08:00:00Z,2025,Macarthur FC,Wellington Phoenix FC,1.0,2.0,,,ESPN scoreboard
+718002,2025-01-22T08:30:00Z,2025,Adelaide United,Auckland FC,2.0,2.0,,,ESPN scoreboard
+718003,2025-01-24T08:35:00Z,2025,Melbourne Victory,Sydney FC,2.0,0.0,,,ESPN scoreboard
+718004,2025-01-25T04:00:00Z,2025,Wellington Phoenix FC,Central Coast Mariners,0.0,0.0,,,ESPN scoreboard
+718006,2025-01-25T06:00:00Z,2025,Newcastle Jets,Perth Glory,2.0,2.0,,,ESPN scoreboard
+718007,2025-01-25T08:35:00Z,2025,Macarthur FC,Melbourne City FC,1.0,0.0,,,ESPN scoreboard
+718008,2025-01-26T06:00:00Z,2025,Western Sydney Wanderers,Auckland FC,0.0,1.0,,,ESPN scoreboard
+718009,2025-01-29T08:00:00Z,2025,Western United,Central Coast Mariners,2.0,2.0,,,ESPN scoreboard
+718010,2025-01-31T08:35:00Z,2025,Brisbane Roar,Western Sydney Wanderers,0.0,1.0,,,ESPN scoreboard
+718011,2025-02-01T04:00:00Z,2025,Auckland FC,Macarthur FC,2.0,1.0,,,ESPN scoreboard
+718012,2025-02-01T06:00:00Z,2025,Sydney FC,Adelaide United,4.0,1.0,,,ESPN scoreboard
+718013,2025-02-01T08:35:00Z,2025,Central Coast Mariners,Newcastle Jets,2.0,2.0,,,ESPN scoreboard
+718014,2025-02-01T10:45:00Z,2025,Perth Glory,Melbourne Victory,0.0,2.0,,,ESPN scoreboard
+718015,2025-02-06T04:00:00Z,2025,Wellington Phoenix FC,Brisbane Roar,1.0,1.0,,,ESPN scoreboard
+718016,2025-02-07T08:35:00Z,2025,Adelaide United,Melbourne City FC,1.0,0.0,,,ESPN scoreboard
+718017,2025-02-07T10:45:00Z,2025,Perth Glory,Central Coast Mariners,1.0,1.0,,,ESPN scoreboard
+718018,2025-02-08T06:00:00Z,2025,Newcastle Jets,Melbourne Victory,3.0,0.0,,,ESPN scoreboard
+718019,2025-02-08T08:35:00Z,2025,Sydney FC,Western Sydney Wanderers,3.0,3.0,,,ESPN scoreboard
+718020,2025-02-09T06:00:00Z,2025,Macarthur FC,Western United,2.0,2.0,,,ESPN scoreboard
+718021,2025-02-14T08:35:00Z,2025,Melbourne Victory,Wellington Phoenix FC,1.0,0.0,,,ESPN scoreboard
+718022,2025-02-15T06:00:00Z,2025,Melbourne City FC,Perth Glory,1.0,0.0,,,ESPN scoreboard
+718023,2025-02-15T07:00:00Z,2025,Western United,Auckland FC,0.0,2.0,,,ESPN scoreboard
+718024,2025-02-15T08:35:00Z,2025,Adelaide United,Newcastle Jets,1.0,2.0,,,ESPN scoreboard
+718025,2025-02-16T06:00:00Z,2025,Western Sydney Wanderers,Macarthur FC,2.0,1.0,,,ESPN scoreboard
+718026,2025-02-21T08:35:00Z,2025,Newcastle Jets,Brisbane Roar,3.0,1.0,,,ESPN scoreboard
+718027,2025-02-22T04:00:00Z,2025,Auckland FC,Wellington Phoenix FC,6.0,1.0,,,ESPN scoreboard
+718028,2025-02-22T06:00:00Z,2025,Central Coast Mariners,Western Sydney Wanderers,0.0,4.0,,,ESPN scoreboard
+718029,2025-02-22T08:35:00Z,2025,Melbourne Victory,Melbourne City FC,2.0,2.0,,,ESPN scoreboard
+718030,2025-02-22T10:45:00Z,2025,Perth Glory,Sydney FC,0.0,0.0,,,ESPN scoreboard
+718031,2025-02-23T06:00:00Z,2025,Western United,Adelaide United,3.0,0.0,,,ESPN scoreboard
+718032,2025-02-28T06:30:00Z,2025,Wellington Phoenix FC,Melbourne City FC,0.0,1.0,,,ESPN scoreboard
+718033,2025-02-28T08:35:00Z,2025,Central Coast Mariners,Western United,1.0,3.0,,,ESPN scoreboard
+718034,2025-03-01T04:00:00Z,2025,Auckland FC,Adelaide United,4.0,4.0,,,ESPN scoreboard
+718035,2025-03-01T06:00:00Z,2025,Brisbane Roar,Melbourne Victory,1.0,1.0,,,ESPN scoreboard
+718036,2025-03-01T08:35:00Z,2025,Macarthur FC,Sydney FC,0.0,2.0,,,ESPN scoreboard
+718037,2025-03-02T06:00:00Z,2025,Western Sydney Wanderers,Perth Glory,4.0,1.0,,,ESPN scoreboard
+718038,2025-03-07T08:35:00Z,2025,Melbourne City FC,Macarthur FC,2.0,0.0,,,ESPN scoreboard
+718039,2025-03-08T06:00:00Z,2025,Adelaide United,Brisbane Roar,1.0,1.0,,,ESPN scoreboard
+718040,2025-03-08T07:00:00Z,2025,Western United,Wellington Phoenix FC,4.0,1.0,,,ESPN scoreboard
+718041,2025-03-08T08:35:00Z,2025,Melbourne Victory,Central Coast Mariners,3.0,0.0,,,ESPN scoreboard
+718042,2025-03-09T06:00:00Z,2025,Newcastle Jets,Auckland FC,1.0,1.0,,,ESPN scoreboard
+718043,2025-03-12T08:00:00Z,2025,Melbourne City FC,Newcastle Jets,0.0,1.0,,,ESPN scoreboard
+718044,2025-03-14T08:35:00Z,2025,Adelaide United,Macarthur FC,4.0,5.0,,,ESPN scoreboard
+718046,2025-03-15T08:30:00Z,2025,Western Sydney Wanderers,Melbourne Victory,4.0,2.0,,,ESPN scoreboard
+718047,2025-03-15T10:45:00Z,2025,Perth Glory,Brisbane Roar,1.0,3.0,,,ESPN scoreboard
+718048,2025-03-16T04:00:00Z,2025,Auckland FC,Central Coast Mariners,2.0,2.0,,,ESPN scoreboard
+718049,2025-03-16T06:00:00Z,2025,Newcastle Jets,Western United,2.0,6.0,,,ESPN scoreboard
+718045,2025-03-16T08:00:00Z,2025,Sydney FC,Wellington Phoenix FC,1.0,1.0,,,ESPN scoreboard
+718050,2025-03-28T08:35:00Z,2025,Macarthur FC,Newcastle Jets,3.0,3.0,,,ESPN scoreboard
+718051,2025-03-29T04:00:00Z,2025,Wellington Phoenix FC,Western Sydney Wanderers,2.0,2.0,,,ESPN scoreboard
+718052,2025-03-29T06:00:00Z,2025,Sydney FC,Melbourne City FC,2.0,3.0,,,ESPN scoreboard
+718053,2025-03-29T08:35:00Z,2025,Melbourne Victory,Adelaide United,5.0,3.0,,,ESPN scoreboard
+718054,2025-03-30T04:00:00Z,2025,Central Coast Mariners,Perth Glory,3.0,1.0,,,ESPN scoreboard
+718055,2025-03-30T06:00:00Z,2025,Brisbane Roar,Auckland FC,0.0,2.0,,,ESPN scoreboard
+718056,2025-04-04T08:35:00Z,2025,Brisbane Roar,Macarthur FC,1.0,5.0,,,ESPN scoreboard
+718057,2025-04-05T04:00:00Z,2025,Auckland FC,Western Sydney Wanderers,1.0,1.0,,,ESPN scoreboard
+718058,2025-04-05T06:00:00Z,2025,Melbourne City FC,Central Coast Mariners,1.0,0.0,,,ESPN scoreboard
+718059,2025-04-05T07:00:00Z,2025,Western United,Perth Glory,3.0,1.0,,,ESPN scoreboard
+718060,2025-04-05T08:35:00Z,2025,Adelaide United,Sydney FC,2.0,3.0,,,ESPN scoreboard
+718061,2025-04-06T07:00:00Z,2025,Newcastle Jets,Wellington Phoenix FC,1.0,2.0,,,ESPN scoreboard
+718062,2025-04-11T09:35:00Z,2025,Melbourne City FC,Brisbane Roar,3.0,2.0,,,ESPN scoreboard
+718063,2025-04-12T05:00:00Z,2025,Wellington Phoenix FC,Melbourne Victory,2.0,3.0,,,ESPN scoreboard
+718064,2025-04-12T07:00:00Z,2025,Sydney FC,Auckland FC,2.0,2.0,,,ESPN scoreboard
+718065,2025-04-12T09:35:00Z,2025,Newcastle Jets,Central Coast Mariners,6.0,0.0,,,ESPN scoreboard
+718066,2025-04-12T11:45:00Z,2025,Perth Glory,Adelaide United,4.0,1.0,,,ESPN scoreboard
+718067,2025-04-13T07:00:00Z,2025,Western Sydney Wanderers,Western United,2.0,0.0,,,ESPN scoreboard
+718068,2025-04-17T09:35:00Z,2025,Brisbane Roar,Western United,2.0,1.0,,,ESPN scoreboard
+718069,2025-04-18T09:35:00Z,2025,Adelaide United,Wellington Phoenix FC,3.0,2.0,,,ESPN scoreboard
+718070,2025-04-19T07:00:00Z,2025,Melbourne Victory,Auckland FC,0.0,2.0,,,ESPN scoreboard
+718071,2025-04-19T09:35:00Z,2025,Western Sydney Wanderers,Melbourne City FC,2.0,2.0,,,ESPN scoreboard
+718072,2025-04-20T05:00:00Z,2025,Sydney FC,Newcastle Jets,3.0,2.0,,,ESPN scoreboard
+718073,2025-04-20T07:00:00Z,2025,Central Coast Mariners,Macarthur FC,2.0,2.0,,,ESPN scoreboard
+718005,2025-04-22T09:00:00Z,2025,Brisbane Roar,Adelaide United,1.0,1.0,,,ESPN scoreboard
+718074,2025-04-25T09:35:00Z,2025,Macarthur FC,Melbourne Victory,1.0,2.0,,,ESPN scoreboard
+718075,2025-04-26T05:00:00Z,2025,Brisbane Roar,Wellington Phoenix FC,1.0,0.0,,,ESPN scoreboard
+718076,2025-04-26T07:00:00Z,2025,Newcastle Jets,Western Sydney Wanderers,0.0,1.0,,,ESPN scoreboard
+718077,2025-04-26T09:35:00Z,2025,Melbourne City FC,Adelaide United,0.0,0.0,,,ESPN scoreboard
+718078,2025-04-27T05:00:00Z,2025,Auckland FC,Perth Glory,1.0,0.0,,,ESPN scoreboard
+718079,2025-04-27T07:00:00Z,2025,Western United,Sydney FC,1.0,0.0,,,ESPN scoreboard
+718081,2025-05-02T09:35:00Z,2025,Central Coast Mariners,Brisbane Roar,1.0,2.0,,,ESPN scoreboard
+718082,2025-05-03T07:00:00Z,2025,Melbourne City FC,Sydney FC,5.0,1.0,,,ESPN scoreboard
+718083,2025-05-03T08:00:00Z,2025,Western United,Auckland FC,4.0,2.0,,,ESPN scoreboard
+718084,2025-05-03T09:35:00Z,2025,Macarthur FC,Western Sydney Wanderers,1.0,3.0,,,ESPN scoreboard
+718080,2025-05-04T05:00:00Z,2025,Wellington Phoenix FC,Perth Glory,0.0,2.0,,,ESPN scoreboard
+718085,2025-05-04T07:00:00Z,2025,Melbourne Victory,Newcastle Jets,1.0,1.0,,,ESPN scoreboard
+721515,2025-05-09T09:35:00Z,2025,Western United,Adelaide United,3.0,2.0,,,ESPN scoreboard
+721516,2025-05-10T09:35:00Z,2025,Western Sydney Wanderers,Melbourne Victory,1.0,2.0,,,ESPN scoreboard
+721517,2025-05-16T09:35:00Z,2025,Western United,Melbourne City FC,0.0,3.0,,,ESPN scoreboard
+721518,2025-05-17T09:35:00Z,2025,Melbourne Victory,Auckland FC,0.0,1.0,,,ESPN scoreboard
+721519,2025-05-24T06:00:00Z,2025,Auckland FC,Melbourne Victory,0.0,2.0,,,ESPN scoreboard
+721520,2025-05-24T09:35:00Z,2025,Melbourne City FC,Western United,1.0,1.0,,,ESPN scoreboard
+721521,2025-05-31T09:40:00Z,2025,Melbourne City FC,Melbourne Victory,1.0,0.0,,,ESPN scoreboard
+758415,2025-10-17T08:00:00Z,2025,Adelaide United,Sydney FC,2.0,1.0,,,ESPN scoreboard
+758416,2025-10-17T10:05:00Z,2025,Brisbane Roar,Macarthur FC,1.0,0.0,,,ESPN scoreboard
+758417,2025-10-18T06:00:00Z,2025,Western Sydney Wanderers,Melbourne City FC,1.0,1.0,,,ESPN scoreboard
+758418,2025-10-18T08:35:00Z,2025,Melbourne Victory,Auckland FC,0.0,0.0,,,ESPN scoreboard
+758419,2025-10-18T10:45:00Z,2025,Perth Glory,Wellington Phoenix FC,2.0,2.0,,,ESPN scoreboard
+758420,2025-10-19T04:00:00Z,2025,Central Coast Mariners,Newcastle Jets,3.0,2.0,,,ESPN scoreboard
+758421,2025-10-24T08:35:00Z,2025,Newcastle Jets,Melbourne Victory,5.0,2.0,,,ESPN scoreboard
+758422,2025-10-25T04:00:00Z,2025,Auckland FC,Western Sydney Wanderers,1.0,0.0,,,ESPN scoreboard
+758423,2025-10-25T06:00:00Z,2025,Melbourne City FC,Perth Glory,4.0,0.0,,,ESPN scoreboard
+758424,2025-10-25T08:35:00Z,2025,Sydney FC,Central Coast Mariners,2.0,0.0,,,ESPN scoreboard
+758425,2025-10-26T02:00:00Z,2025,Wellington Phoenix FC,Brisbane Roar,2.0,1.0,,,ESPN scoreboard
+758426,2025-10-27T08:00:00Z,2025,Macarthur FC,Adelaide United,2.0,1.0,,,ESPN scoreboard
+758427,2025-10-31T08:35:00Z,2025,Brisbane Roar,Melbourne City FC,0.0,0.0,,,ESPN scoreboard
+758428,2025-10-31T10:45:00Z,2025,Perth Glory,Melbourne Victory,0.0,2.0,,,ESPN scoreboard
+758429,2025-11-01T04:00:00Z,2025,Auckland FC,Adelaide United,2.0,1.0,,,ESPN scoreboard
+758430,2025-11-01T06:00:00Z,2025,Newcastle Jets,Sydney FC,1.0,4.0,,,ESPN scoreboard
+758431,2025-11-01T08:35:00Z,2025,Macarthur FC,Western Sydney Wanderers,1.0,1.0,,,ESPN scoreboard
+758432,2025-11-02T05:00:00Z,2025,Central Coast Mariners,Wellington Phoenix FC,1.0,1.0,,,ESPN scoreboard
+758434,2025-11-07T08:35:00Z,2025,Adelaide United,Western Sydney Wanderers,2.0,0.0,,,ESPN scoreboard
+758435,2025-11-07T10:45:00Z,2025,Perth Glory,Central Coast Mariners,0.0,1.0,,,ESPN scoreboard
+758436,2025-11-08T06:00:00Z,2025,Wellington Phoenix FC,Auckland FC,1.0,2.0,,,ESPN scoreboard
+758437,2025-11-08T08:35:00Z,2025,Melbourne Victory,Melbourne City FC,0.0,2.0,,,ESPN scoreboard
+758438,2025-11-09T04:00:00Z,2025,Sydney FC,Macarthur FC,2.0,0.0,,,ESPN scoreboard
+758433,2025-11-09T06:00:00Z,2025,Brisbane Roar,Newcastle Jets,3.0,0.0,,,ESPN scoreboard
+758439,2025-11-21T08:35:00Z,2025,Adelaide United,Melbourne City FC,4.0,1.0,,,ESPN scoreboard
+758440,2025-11-22T04:00:00Z,2025,Wellington Phoenix FC,Macarthur FC,0.0,1.0,,,ESPN scoreboard
+758441,2025-11-22T06:00:00Z,2025,Western Sydney Wanderers,Central Coast Mariners,3.0,2.0,,,ESPN scoreboard
+758442,2025-11-22T08:35:00Z,2025,Sydney FC,Melbourne Victory,3.0,0.0,,,ESPN scoreboard
+758443,2025-11-23T02:00:00Z,2025,Auckland FC,Brisbane Roar,1.0,1.0,,,ESPN scoreboard
+758444,2025-11-23T06:00:00Z,2025,Newcastle Jets,Perth Glory,1.0,2.0,,,ESPN scoreboard
+758445,2025-11-28T08:35:00Z,2025,Brisbane Roar,Melbourne Victory,1.0,0.0,,,ESPN scoreboard
+758446,2025-11-29T04:00:00Z,2025,Wellington Phoenix FC,Adelaide United,2.0,1.0,,,ESPN scoreboard
+758447,2025-11-29T06:00:00Z,2025,Central Coast Mariners,Melbourne City FC,0.0,0.0,,,ESPN scoreboard
+758448,2025-11-29T08:35:00Z,2025,Western Sydney Wanderers,Sydney FC,1.0,0.0,,,ESPN scoreboard
+758449,2025-11-30T02:00:00Z,2025,Auckland FC,Newcastle Jets,1.0,2.0,,,ESPN scoreboard
+758450,2025-11-30T07:00:00Z,2025,Macarthur FC,Perth Glory,0.0,2.0,,,ESPN scoreboard
+758451,2025-12-05T08:35:00Z,2025,Macarthur FC,Melbourne Victory,0.0,0.0,,,ESPN scoreboard
+758452,2025-12-05T10:45:00Z,2025,Perth Glory,Western Sydney Wanderers,1.0,0.0,,,ESPN scoreboard
+758453,2025-12-06T04:00:00Z,2025,Auckland FC,Wellington Phoenix FC,3.0,1.0,,,ESPN scoreboard
+758454,2025-12-06T06:00:00Z,2025,Newcastle Jets,Melbourne City FC,0.0,1.0,,,ESPN scoreboard
+758455,2025-12-06T08:35:00Z,2025,Central Coast Mariners,Sydney FC,1.0,2.0,,,ESPN scoreboard
+758456,2025-12-07T08:35:00Z,2025,Adelaide United,Brisbane Roar,0.0,1.0,,,ESPN scoreboard
+758458,2025-12-12T08:35:00Z,2025,Central Coast Mariners,Auckland FC,1.0,2.0,,,ESPN scoreboard
+758459,2025-12-13T06:00:00Z,2025,Western Sydney Wanderers,Brisbane Roar,0.0,0.0,,,ESPN scoreboard
+758460,2025-12-13T08:35:00Z,2025,Melbourne Victory,Adelaide United,2.0,1.0,,,ESPN scoreboard
+758461,2025-12-13T10:45:00Z,2025,Perth Glory,Sydney FC,0.0,1.0,,,ESPN scoreboard
+758462,2025-12-14T02:00:00Z,2025,Wellington Phoenix FC,Newcastle Jets,1.0,3.0,,,ESPN scoreboard
+758468,2025-12-19T07:00:00Z,2025,Macarthur FC,Brisbane Roar,2.0,1.0,,,ESPN scoreboard
+758463,2025-12-19T09:00:00Z,2025,Western Sydney Wanderers,Auckland FC,0.0,2.0,,,ESPN scoreboard
+758464,2025-12-20T06:00:00Z,2025,Newcastle Jets,Sydney FC,2.0,0.0,,,ESPN scoreboard
+758465,2025-12-20T08:35:00Z,2025,Melbourne City FC,Melbourne Victory,0.0,1.0,,,ESPN scoreboard
+758466,2025-12-20T10:45:00Z,2025,Perth Glory,Adelaide United,0.0,1.0,,,ESPN scoreboard
+758467,2025-12-21T02:00:00Z,2025,Wellington Phoenix FC,Central Coast Mariners,3.0,1.0,,,ESPN scoreboard
+758457,2025-12-23T08:15:00Z,2025,Melbourne City FC,Macarthur FC,1.0,1.0,,,ESPN scoreboard
+758469,2025-12-26T08:35:00Z,2025,Newcastle Jets,Macarthur FC,4.0,5.0,,,ESPN scoreboard
+758471,2025-12-27T08:35:00Z,2025,Adelaide United,Western Sydney Wanderers,3.0,2.0,,,ESPN scoreboard
+758472,2025-12-28T08:00:00Z,2025,Melbourne City FC,Perth Glory,1.0,3.0,,,ESPN scoreboard
+758473,2025-12-29T08:00:00Z,2025,Melbourne Victory,Wellington Phoenix FC,5.0,1.0,,,ESPN scoreboard
+758474,2025-12-31T08:00:00Z,2025,Central Coast Mariners,Brisbane Roar,1.0,2.0,,,ESPN scoreboard
+758476,2026-01-01T04:00:00Z,2025,Auckland FC,Newcastle Jets,1.0,3.0,,,ESPN scoreboard

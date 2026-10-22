@@ -1,0 +1,272 @@
+[
+  {
+    "league_id": "epl",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ConnectionError: Could not download https://fbref.com/en/comps/."
+  },
+  {
+    "league_id": "championship",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ValueError: \n                        Invalid league 'ENG-Championship'. Valid leagues are:\n                        ['Big 5 European Leagues Combined',\n 'ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'INT-European Championship',\n \"INT-Women's World Cup\",\n 'INT-World Cup',\n 'ITA-Serie A']\n                        "
+  },
+  {
+    "league_id": "laliga",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ConnectionError: Could not download https://fbref.com/en/comps/."
+  },
+  {
+    "league_id": "laliga2",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ValueError: \n                        Invalid league 'ESP-Segunda-Division'. Valid leagues are:\n                        ['Big 5 European Leagues Combined',\n 'ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'INT-European Championship',\n \"INT-Women's World Cup\",\n 'INT-World Cup',\n 'ITA-Serie A']\n                        "
+  },
+  {
+    "league_id": "bundesliga",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ConnectionError: Could not download https://fbref.com/en/comps/."
+  },
+  {
+    "league_id": "bundesliga2",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ValueError: \n                        Invalid league 'GER-2-Bundesliga'. Valid leagues are:\n                        ['Big 5 European Leagues Combined',\n 'ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'INT-European Championship',\n \"INT-Women's World Cup\",\n 'INT-World Cup',\n 'ITA-Serie A']\n                        "
+  },
+  {
+    "league_id": "ligue2",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ValueError: \n                        Invalid league 'FRA-Ligue-2'. Valid leagues are:\n                        ['Big 5 European Leagues Combined',\n 'ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'INT-European Championship',\n \"INT-Women's World Cup\",\n 'INT-World Cup',\n 'ITA-Serie A']\n                        "
+  },
+  {
+    "league_id": "eredivisie",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ValueError: \n                        Invalid league 'NED-Eredivisie'. Valid leagues are:\n                        ['Big 5 European Leagues Combined',\n 'ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'INT-European Championship',\n \"INT-Women's World Cup\",\n 'INT-World Cup',\n 'ITA-Serie A']\n                        "
+  },
+  {
+    "league_id": "eerste",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "scottish-prem",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ValueError: \n                        Invalid league 'SCO-Premiership'. Valid leagues are:\n                        ['Big 5 European Leagues Combined',\n 'ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'INT-European Championship',\n \"INT-Women's World Cup\",\n 'INT-World Cup',\n 'ITA-Serie A']\n                        "
+  },
+  {
+    "league_id": "austrian-bundesliga",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "danish-superliga",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "a-league",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "a-league-women",
+    "name_zh": "女子澳職",
+    "updated_at": "2026-10-22T19:41:45.858630+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "australia-cup",
+    "name_zh": "澳洲盃",
+    "updated_at": "2026-10-22T19:41:46.229138+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "j1",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "j2",
+    "name_zh": "日乙J2",
+    "updated_at": "2026-10-22T19:41:51.750193+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "k1",
+    "name_zh": "韓職K1",
+    "updated_at": "2026-10-22T19:41:52.013794+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "k2",
+    "name_zh": "韓乙K2",
+    "updated_at": "2026-10-22T19:41:52.415692+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "saudi-pro",
+    "name_zh": "沙職",
+    "updated_at": "2026-10-22T19:41:52.680978+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "qatar-stars",
+    "name_zh": "卡塔爾",
+    "updated_at": "2026-10-22T19:41:52.931753+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "uae-pro",
+    "name_zh": "阿聯酋",
+    "updated_at": "2026-10-22T19:41:53.188445+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "thai-league1",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "veikkausliiga",
+    "name_zh": "芬超",
+    "updated_at": "2026-10-22T19:41:58.550937+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "eliteserien",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "russian-prem",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "liga-mx",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "expansion-mx",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "argentina-primera",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "serie-a",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref error: ValueError: \n                        Invalid league 'ITA-Serie-A'. Valid leagues are:\n                        ['Big 5 European Leagues Combined',\n 'ENG-Premier League',\n 'ESP-La Liga',\n 'FRA-Ligue 1',\n 'GER-Bundesliga',\n 'INT-European Championship',\n \"INT-Women's World Cup\",\n 'INT-World Cup',\n 'ITA-Serie A']\n                        "
+  },
+  {
+    "league_id": "serie-b",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "uruguay-primera",
+    "status": "failed",
+    "error": "no such table: fixtures",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "toppserien",
+    "name_zh": "女子挪超",
+    "updated_at": "2026-10-22T19:42:47.374310+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  },
+  {
+    "league_id": "libertadores-femenina",
+    "name_zh": "女子南美自由盃",
+    "updated_at": "2026-10-22T19:42:47.377941+00:00",
+    "fixtures": 0,
+    "teams": 0,
+    "players": 0,
+    "corner_fixtures": 0,
+    "sources": [],
+    "status": "insufficient",
+    "primary_source_note": "FBref unavailable for configured league"
+  }
+]

@@ -1,17 +1,13 @@
 {
   "league_id": "bundesliga2",
   "name_zh": "德乙",
-  "updated_at": "2026-10-21T09:00:52.260448+00:00",
+  "updated_at": "2026-10-22T19:41:01.078700+00:00",
+  "fixtures": 918,
+  "teams": 28,
+  "players": 841,
+  "corner_fixtures": 918,
   "sources": [
     "football-data.co.uk"
   ],
-  "teams": 35,
-  "players": 475,
-  "matches": 2038,
-  "corner_matches": 2038,
-  "quality": "高",
-  "dataSource": "ESPN／football-data／openfootball",
-  "lastUpdated": "2026-10-21T09:00:52.260448+00:00",
-  "players_update_protected": false,
-  "errors": []
+  "status": "ok"
 }

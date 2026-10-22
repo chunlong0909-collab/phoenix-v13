@@ -1,1 +1,1174 @@
-﻿
+﻿fixture_id,date,season,home_team,away_team,home_goals,away_goals,home_corners,away_corners,source
+637684,2023-01-06T19:00:00Z,2023,FC Den Bosch,Jong FC Utrecht,1.0,4.0,,,ESPN scoreboard
+637685,2023-01-06T19:00:00Z,2023,FC Dordrecht,ADO Den Haag,0.0,1.0,,,ESPN scoreboard
+637692,2023-01-06T19:00:00Z,2023,Jong Ajax,FC Eindhoven,1.0,1.0,,,ESPN scoreboard
+637693,2023-01-06T19:00:00Z,2023,Jong AZ,Heracles Almelo,1.0,1.0,,,ESPN scoreboard
+637691,2023-01-06T19:00:00Z,2023,MVV Maastricht,De Graafschap,2.0,2.0,,,ESPN scoreboard
+637690,2023-01-06T19:00:00Z,2023,NAC Breda,Jong PSV,2.0,1.0,,,ESPN scoreboard
+637689,2023-01-06T19:00:00Z,2023,PEC Zwolle,Almere City,3.0,2.0,,,ESPN scoreboard
+637688,2023-01-06T19:00:00Z,2023,TOP Oss,Telstar,2.0,1.0,,,ESPN scoreboard
+637687,2023-01-06T19:00:00Z,2023,VVV-Venlo,Helmond Sport,1.0,1.0,,,ESPN scoreboard
+637686,2023-01-06T19:00:00Z,2023,Willem II,Roda JC Kerkrade,1.0,0.0,,,ESPN scoreboard
+637680,2023-01-09T19:00:00Z,2023,Jong FC Utrecht,Jong AZ,0.0,2.0,,,ESPN scoreboard
+637699,2023-01-13T19:00:00Z,2023,ADO Den Haag,MVV Maastricht,2.0,1.0,,,ESPN scoreboard
+637697,2023-01-13T19:00:00Z,2023,De Graafschap,Jong Ajax,3.0,0.0,,,ESPN scoreboard
+637695,2023-01-13T19:00:00Z,2023,Helmond Sport,NAC Breda,2.0,2.0,,,ESPN scoreboard
+637694,2023-01-13T19:00:00Z,2023,Roda JC Kerkrade,TOP Oss,1.0,1.0,,,ESPN scoreboard
+637700,2023-01-13T19:00:00Z,2023,Telstar,Jong AZ,1.0,0.0,,,ESPN scoreboard
+637698,2023-01-15T11:15:00Z,2023,Almere City,Willem II,1.0,0.0,,,ESPN scoreboard
+637701,2023-01-15T13:30:00Z,2023,Heracles Almelo,PEC Zwolle,0.0,3.0,,,ESPN scoreboard
+637696,2023-01-16T19:00:00Z,2023,FC Eindhoven,FC Den Bosch,4.0,1.0,,,ESPN scoreboard
+637702,2023-01-16T19:00:00Z,2023,Jong FC Utrecht,FC Dordrecht,0.0,1.0,,,ESPN scoreboard
+637648,2023-01-16T19:00:00Z,2023,TOP Oss,Jong AZ,1.0,3.0,,,ESPN scoreboard
+637704,2023-01-20T19:00:00Z,2023,Almere City,De Graafschap,2.0,2.0,,,ESPN scoreboard
+637705,2023-01-20T19:00:00Z,2023,FC Den Bosch,Jong PSV,1.0,0.0,,,ESPN scoreboard
+637707,2023-01-20T19:00:00Z,2023,PEC Zwolle,VVV-Venlo,2.0,0.0,,,ESPN scoreboard
+637708,2023-01-20T19:00:00Z,2023,TOP Oss,NAC Breda,1.0,2.0,,,ESPN scoreboard
+637710,2023-01-21T15:30:00Z,2023,FC Dordrecht,Telstar,0.0,0.0,,,ESPN scoreboard
+637711,2023-01-22T11:15:00Z,2023,ADO Den Haag,Jong FC Utrecht,1.0,1.0,,,ESPN scoreboard
+637713,2023-01-23T19:00:00Z,2023,Jong Ajax,Roda JC Kerkrade,1.0,2.0,,,ESPN scoreboard
+637712,2023-01-23T19:00:00Z,2023,Jong AZ,Helmond Sport,1.0,1.0,,,ESPN scoreboard
+637703,2023-01-23T19:00:00Z,2023,Jong PSV,VVV-Venlo,1.0,2.0,,,ESPN scoreboard
+637683,2023-01-24T19:00:00Z,2023,Telstar,MVV Maastricht,5.0,3.0,,,ESPN scoreboard
+637714,2023-01-27T19:00:00Z,2023,FC Den Bosch,MVV Maastricht,3.0,3.0,,,ESPN scoreboard
+637715,2023-01-27T19:00:00Z,2023,FC Eindhoven,Heracles Almelo,1.0,0.0,,,ESPN scoreboard
+637716,2023-01-27T19:00:00Z,2023,Helmond Sport,Jong Ajax,1.0,1.0,,,ESPN scoreboard
+637717,2023-01-27T19:00:00Z,2023,NAC Breda,Jong AZ,5.0,1.0,,,ESPN scoreboard
+637718,2023-01-27T19:00:00Z,2023,PEC Zwolle,TOP Oss,4.0,1.0,,,ESPN scoreboard
+637720,2023-01-27T19:00:00Z,2023,Roda JC Kerkrade,FC Dordrecht,1.0,0.0,,,ESPN scoreboard
+637721,2023-01-27T19:00:00Z,2023,Telstar,Almere City,0.0,1.0,,,ESPN scoreboard
+637719,2023-01-27T19:00:00Z,2023,VVV-Venlo,ADO Den Haag,0.0,0.0,,,ESPN scoreboard
+637722,2023-01-30T19:00:00Z,2023,Jong FC Utrecht,De Graafschap,1.0,1.0,,,ESPN scoreboard
+637723,2023-01-30T19:00:00Z,2023,Jong PSV,Willem II,3.0,2.0,,,ESPN scoreboard
+637682,2023-01-30T19:00:00Z,2023,Roda JC Kerkrade,PEC Zwolle,1.0,2.0,,,ESPN scoreboard
+637724,2023-02-03T19:00:00Z,2023,ADO Den Haag,NAC Breda,2.0,1.0,,,ESPN scoreboard
+637725,2023-02-03T19:00:00Z,2023,Almere City,Jong PSV,1.0,2.0,,,ESPN scoreboard
+637726,2023-02-03T19:00:00Z,2023,De Graafschap,Telstar,0.0,1.0,,,ESPN scoreboard
+637727,2023-02-03T19:00:00Z,2023,FC Dordrecht,FC Eindhoven,4.0,0.0,,,ESPN scoreboard
+637728,2023-02-03T19:00:00Z,2023,Heracles Almelo,Jong FC Utrecht,6.0,1.0,,,ESPN scoreboard
+637732,2023-02-03T19:00:00Z,2023,Jong AZ,VVV-Venlo,4.0,3.0,,,ESPN scoreboard
+637729,2023-02-03T19:00:00Z,2023,TOP Oss,FC Den Bosch,3.0,0.0,,,ESPN scoreboard
+637730,2023-02-03T19:00:00Z,2023,Willem II,Helmond Sport,5.0,1.0,,,ESPN scoreboard
+637731,2023-02-05T11:15:00Z,2023,Roda JC Kerkrade,MVV Maastricht,2.0,1.0,,,ESPN scoreboard
+637733,2023-02-06T19:00:00Z,2023,Jong Ajax,PEC Zwolle,0.0,0.0,,,ESPN scoreboard
+637709,2023-02-06T19:00:00Z,2023,Willem II,FC Eindhoven,3.0,0.0,,,ESPN scoreboard
+637734,2023-02-10T19:00:00Z,2023,FC Den Bosch,Jong Ajax,4.0,2.0,,,ESPN scoreboard
+637735,2023-02-10T19:00:00Z,2023,FC Eindhoven,Almere City,0.0,1.0,,,ESPN scoreboard
+637736,2023-02-10T19:00:00Z,2023,Helmond Sport,Roda JC Kerkrade,1.0,0.0,,,ESPN scoreboard
+637737,2023-02-10T19:00:00Z,2023,MVV Maastricht,TOP Oss,5.0,1.0,,,ESPN scoreboard
+637738,2023-02-10T19:00:00Z,2023,NAC Breda,De Graafschap,2.0,0.0,,,ESPN scoreboard
+637739,2023-02-10T19:00:00Z,2023,PEC Zwolle,Jong AZ,4.0,1.0,,,ESPN scoreboard
+637740,2023-02-10T19:00:00Z,2023,VVV-Venlo,Heracles Almelo,3.0,1.0,,,ESPN scoreboard
+637741,2023-02-10T19:00:00Z,2023,Willem II,FC Dordrecht,1.0,0.0,,,ESPN scoreboard
+637742,2023-02-13T19:00:00Z,2023,Jong FC Utrecht,Telstar,0.0,1.0,,,ESPN scoreboard
+637743,2023-02-13T19:00:00Z,2023,Jong PSV,ADO Den Haag,1.0,2.0,,,ESPN scoreboard
+637706,2023-02-13T19:00:00Z,2023,MVV Maastricht,Heracles Almelo,0.0,2.0,,,ESPN scoreboard
+637745,2023-02-17T19:00:00Z,2023,ADO Den Haag,PEC Zwolle,3.0,1.0,,,ESPN scoreboard
+637744,2023-02-17T19:00:00Z,2023,Almere City,Helmond Sport,0.0,0.0,,,ESPN scoreboard
+637746,2023-02-17T19:00:00Z,2023,FC Dordrecht,VVV-Venlo,1.0,2.0,,,ESPN scoreboard
+637747,2023-02-17T19:00:00Z,2023,Heracles Almelo,Willem II,1.0,1.0,,,ESPN scoreboard
+637752,2023-02-17T19:00:00Z,2023,Jong AZ,FC Den Bosch,3.0,1.0,,,ESPN scoreboard
+637749,2023-02-17T19:00:00Z,2023,Telstar,Jong PSV,1.0,1.0,,,ESPN scoreboard
+637748,2023-02-17T19:00:00Z,2023,TOP Oss,FC Eindhoven,2.0,0.0,,,ESPN scoreboard
+637750,2023-02-19T11:15:00Z,2023,De Graafschap,Roda JC Kerkrade,2.0,0.0,,,ESPN scoreboard
+637751,2023-02-20T19:00:00Z,2023,Jong Ajax,MVV Maastricht,4.0,2.0,,,ESPN scoreboard
+637753,2023-02-20T19:00:00Z,2023,Jong FC Utrecht,NAC Breda,4.0,1.0,,,ESPN scoreboard
+637754,2023-02-24T19:00:00Z,2023,FC Eindhoven,De Graafschap,0.0,4.0,,,ESPN scoreboard
+637755,2023-02-24T19:00:00Z,2023,Helmond Sport,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+637756,2023-02-24T19:00:00Z,2023,Heracles Almelo,Telstar,7.0,0.0,,,ESPN scoreboard
+637757,2023-02-24T19:00:00Z,2023,NAC Breda,FC Dordrecht,3.0,2.0,,,ESPN scoreboard
+637758,2023-02-24T19:00:00Z,2023,Roda JC Kerkrade,Almere City,0.0,2.0,,,ESPN scoreboard
+637760,2023-02-24T19:00:00Z,2023,VVV-Venlo,TOP Oss,0.0,1.0,,,ESPN scoreboard
+637759,2023-02-24T19:00:00Z,2023,Willem II,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+637761,2023-02-26T11:15:00Z,2023,FC Den Bosch,ADO Den Haag,0.0,0.0,,,ESPN scoreboard
+637762,2023-02-27T19:00:00Z,2023,Jong PSV,Jong AZ,3.0,3.0,,,ESPN scoreboard
+637763,2023-02-27T19:00:00Z,2023,MVV Maastricht,PEC Zwolle,3.0,2.0,,,ESPN scoreboard
+637764,2023-03-03T19:00:00Z,2023,FC Dordrecht,Almere City,0.0,1.0,,,ESPN scoreboard
+637767,2023-03-03T19:00:00Z,2023,MVV Maastricht,VVV-Venlo,0.0,1.0,,,ESPN scoreboard
+637768,2023-03-03T19:00:00Z,2023,PEC Zwolle,FC Den Bosch,13.0,0.0,,,ESPN scoreboard
+637769,2023-03-03T19:00:00Z,2023,Telstar,FC Eindhoven,0.0,1.0,,,ESPN scoreboard
+637766,2023-03-06T19:00:00Z,2023,ADO Den Haag,Heracles Almelo,0.0,3.0,,,ESPN scoreboard
+637765,2023-03-06T19:00:00Z,2023,De Graafschap,Helmond Sport,2.0,0.0,,,ESPN scoreboard
+637771,2023-03-06T19:00:00Z,2023,Jong Ajax,TOP Oss,1.0,2.0,,,ESPN scoreboard
+637772,2023-03-06T19:00:00Z,2023,Jong AZ,Willem II,2.0,2.0,,,ESPN scoreboard
+637770,2023-03-06T19:00:00Z,2023,Jong FC Utrecht,Roda JC Kerkrade,1.0,3.0,,,ESPN scoreboard
+637773,2023-03-06T19:00:00Z,2023,Jong PSV,NAC Breda,1.0,2.0,,,ESPN scoreboard
+637775,2023-03-10T19:00:00Z,2023,FC Dordrecht,De Graafschap,0.0,4.0,,,ESPN scoreboard
+637776,2023-03-10T19:00:00Z,2023,FC Eindhoven,Jong Ajax,5.0,1.0,,,ESPN scoreboard
+637777,2023-03-10T19:00:00Z,2023,Helmond Sport,Jong PSV,3.0,0.0,,,ESPN scoreboard
+637779,2023-03-10T19:00:00Z,2023,NAC Breda,MVV Maastricht,4.0,1.0,,,ESPN scoreboard
+637780,2023-03-10T19:00:00Z,2023,Roda JC Kerkrade,Telstar,1.0,2.0,,,ESPN scoreboard
+637781,2023-03-10T19:00:00Z,2023,TOP Oss,ADO Den Haag,2.0,3.0,,,ESPN scoreboard
+637782,2023-03-10T19:00:00Z,2023,VVV-Venlo,FC Den Bosch,4.0,0.0,,,ESPN scoreboard
+637778,2023-03-10T19:00:00Z,2023,Willem II,PEC Zwolle,2.0,3.0,,,ESPN scoreboard
+637783,2023-03-10T19:45:00Z,2023,Heracles Almelo,Jong AZ,2.0,0.0,,,ESPN scoreboard
+637793,2023-03-13T19:00:00Z,2023,Almere City,VVV-Venlo,1.0,3.0,,,ESPN scoreboard
+637789,2023-03-13T19:00:00Z,2023,De Graafschap,PEC Zwolle,0.0,1.0,,,ESPN scoreboard
+637790,2023-03-13T19:00:00Z,2023,FC Eindhoven,ADO Den Haag,1.0,1.0,,,ESPN scoreboard
+637788,2023-03-13T19:00:00Z,2023,Jong FC Utrecht,Jong PSV,0.0,1.0,,,ESPN scoreboard
+637792,2023-03-13T19:00:00Z,2023,NAC Breda,Jong Ajax,2.0,6.0,,,ESPN scoreboard
+637791,2023-03-13T19:00:00Z,2023,Roda JC Kerkrade,Jong AZ,2.0,0.0,,,ESPN scoreboard
+637794,2023-03-17T19:00:00Z,2023,ADO Den Haag,Willem II,1.0,3.0,,,ESPN scoreboard
+637795,2023-03-17T19:00:00Z,2023,FC Den Bosch,FC Dordrecht,3.0,1.0,,,ESPN scoreboard
+637796,2023-03-17T19:00:00Z,2023,Helmond Sport,Telstar,2.0,2.0,,,ESPN scoreboard
+637803,2023-03-17T19:00:00Z,2023,Jong Ajax,Almere City,0.0,2.0,,,ESPN scoreboard
+637801,2023-03-17T19:00:00Z,2023,Jong AZ,FC Eindhoven,1.0,1.0,,,ESPN scoreboard
+637802,2023-03-17T19:00:00Z,2023,Jong PSV,De Graafschap,2.0,1.0,,,ESPN scoreboard
+637797,2023-03-17T19:00:00Z,2023,MVV Maastricht,Jong FC Utrecht,1.0,0.0,,,ESPN scoreboard
+637798,2023-03-17T19:00:00Z,2023,PEC Zwolle,NAC Breda,2.0,0.0,,,ESPN scoreboard
+637799,2023-03-17T19:00:00Z,2023,TOP Oss,Heracles Almelo,1.0,5.0,,,ESPN scoreboard
+637800,2023-03-19T11:15:00Z,2023,VVV-Venlo,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+637784,2023-03-26T12:30:00Z,2023,FC Dordrecht,Helmond Sport,0.0,0.0,,,ESPN scoreboard
+637787,2023-03-26T12:30:00Z,2023,Heracles Almelo,FC Den Bosch,3.0,2.0,,,ESPN scoreboard
+637786,2023-03-26T12:30:00Z,2023,Telstar,TOP Oss,1.0,0.0,,,ESPN scoreboard
+637785,2023-03-26T12:30:00Z,2023,Willem II,MVV Maastricht,2.0,0.0,,,ESPN scoreboard
+637807,2023-03-31T18:00:00Z,2023,ADO Den Haag,Telstar,3.0,1.0,,,ESPN scoreboard
+637808,2023-03-31T18:00:00Z,2023,Heracles Almelo,Almere City,1.0,1.0,,,ESPN scoreboard
+637809,2023-03-31T18:00:00Z,2023,MVV Maastricht,FC Eindhoven,3.0,2.0,,,ESPN scoreboard
+637805,2023-03-31T18:00:00Z,2023,PEC Zwolle,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+637804,2023-03-31T18:00:00Z,2023,TOP Oss,Helmond Sport,2.0,2.0,,,ESPN scoreboard
+637806,2023-03-31T18:00:00Z,2023,VVV-Venlo,NAC Breda,1.0,3.0,,,ESPN scoreboard
+637810,2023-04-02T10:15:00Z,2023,FC Den Bosch,Willem II,0.0,2.0,,,ESPN scoreboard
+637774,2023-04-03T18:00:00Z,2023,Almere City,Jong FC Utrecht,1.0,0.0,,,ESPN scoreboard
+637813,2023-04-03T18:00:00Z,2023,Jong Ajax,FC Dordrecht,4.0,1.0,,,ESPN scoreboard
+637811,2023-04-03T18:00:00Z,2023,Jong AZ,De Graafschap,0.0,1.0,,,ESPN scoreboard
+637812,2023-04-03T18:00:00Z,2023,Jong PSV,Roda JC Kerkrade,5.0,1.0,,,ESPN scoreboard
+637817,2023-04-07T18:00:00Z,2023,Almere City,Jong AZ,2.0,1.0,,,ESPN scoreboard
+637821,2023-04-07T18:00:00Z,2023,De Graafschap,Heracles Almelo,5.0,3.0,,,ESPN scoreboard
+637820,2023-04-07T18:00:00Z,2023,FC Dordrecht,Jong PSV,1.0,0.0,,,ESPN scoreboard
+637819,2023-04-07T18:00:00Z,2023,FC Eindhoven,PEC Zwolle,4.0,2.0,,,ESPN scoreboard
+637818,2023-04-07T18:00:00Z,2023,Helmond Sport,MVV Maastricht,1.0,2.0,,,ESPN scoreboard
+637816,2023-04-07T18:00:00Z,2023,NAC Breda,FC Den Bosch,2.0,0.0,,,ESPN scoreboard
+637814,2023-04-07T18:00:00Z,2023,Roda JC Kerkrade,ADO Den Haag,1.0,1.0,,,ESPN scoreboard
+637815,2023-04-07T18:00:00Z,2023,Telstar,Jong Ajax,2.0,3.0,,,ESPN scoreboard
+637822,2023-04-09T10:15:00Z,2023,Willem II,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+637823,2023-04-10T18:00:00Z,2023,Jong FC Utrecht,TOP Oss,4.0,2.0,,,ESPN scoreboard
+637830,2023-04-14T18:00:00Z,2023,FC Den Bosch,Helmond Sport,1.0,2.0,,,ESPN scoreboard
+637829,2023-04-14T18:00:00Z,2023,Heracles Almelo,Roda JC Kerkrade,1.0,0.0,,,ESPN scoreboard
+637828,2023-04-14T18:00:00Z,2023,MVV Maastricht,FC Dordrecht,2.0,1.0,,,ESPN scoreboard
+637824,2023-04-14T18:00:00Z,2023,PEC Zwolle,Telstar,2.0,0.0,,,ESPN scoreboard
+637825,2023-04-14T18:00:00Z,2023,TOP Oss,De Graafschap,3.0,3.0,,,ESPN scoreboard
+637826,2023-04-14T18:00:00Z,2023,VVV-Venlo,FC Eindhoven,2.0,2.0,,,ESPN scoreboard
+637831,2023-04-16T10:15:00Z,2023,ADO Den Haag,Almere City,2.0,3.0,,,ESPN scoreboard
+637832,2023-04-17T18:00:00Z,2023,Jong Ajax,Jong PSV,5.0,4.0,,,ESPN scoreboard
+637833,2023-04-17T18:00:00Z,2023,Jong AZ,Jong FC Utrecht,4.0,0.0,,,ESPN scoreboard
+637841,2023-04-21T18:00:00Z,2023,Almere City,PEC Zwolle,1.0,1.0,,,ESPN scoreboard
+637840,2023-04-21T18:00:00Z,2023,De Graafschap,ADO Den Haag,0.0,1.0,,,ESPN scoreboard
+637837,2023-04-21T18:00:00Z,2023,FC Dordrecht,Jong AZ,1.0,0.0,,,ESPN scoreboard
+637835,2023-04-21T18:00:00Z,2023,FC Eindhoven,NAC Breda,1.0,2.0,,,ESPN scoreboard
+637836,2023-04-21T18:00:00Z,2023,Helmond Sport,Heracles Almelo,0.0,1.0,,,ESPN scoreboard
+637834,2023-04-21T18:00:00Z,2023,Roda JC Kerkrade,FC Den Bosch,0.0,1.0,,,ESPN scoreboard
+637839,2023-04-21T18:00:00Z,2023,Telstar,VVV-Venlo,1.0,0.0,,,ESPN scoreboard
+637838,2023-04-21T18:00:00Z,2023,Willem II,TOP Oss,4.0,0.0,,,ESPN scoreboard
+637843,2023-04-24T18:00:00Z,2023,Jong FC Utrecht,Jong Ajax,1.0,0.0,,,ESPN scoreboard
+637842,2023-04-24T18:00:00Z,2023,Jong PSV,MVV Maastricht,0.0,1.0,,,ESPN scoreboard
+637827,2023-04-25T12:30:00Z,2023,NAC Breda,Willem II,1.0,1.0,,,ESPN scoreboard
+637844,2023-04-28T18:00:00Z,2023,ADO Den Haag,Helmond Sport,2.0,2.0,,,ESPN scoreboard
+637845,2023-04-28T18:00:00Z,2023,FC Den Bosch,Telstar,0.0,1.0,,,ESPN scoreboard
+637848,2023-04-28T18:00:00Z,2023,FC Eindhoven,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+637851,2023-04-28T18:00:00Z,2023,Heracles Almelo,Jong PSV,3.0,0.0,,,ESPN scoreboard
+637850,2023-04-28T18:00:00Z,2023,MVV Maastricht,Jong AZ,1.0,3.0,,,ESPN scoreboard
+637849,2023-04-28T18:00:00Z,2023,PEC Zwolle,FC Dordrecht,4.0,0.0,,,ESPN scoreboard
+637846,2023-04-28T18:00:00Z,2023,TOP Oss,Almere City,0.0,5.0,,,ESPN scoreboard
+637847,2023-04-28T18:00:00Z,2023,VVV-Venlo,Jong Ajax,0.0,1.0,,,ESPN scoreboard
+637853,2023-04-29T16:45:00Z,2023,NAC Breda,Roda JC Kerkrade,4.0,2.0,,,ESPN scoreboard
+637852,2023-04-29T19:00:00Z,2023,Willem II,De Graafschap,3.0,2.0,,,ESPN scoreboard
+637856,2023-05-05T18:00:00Z,2023,De Graafschap,MVV Maastricht,2.0,1.0,,,ESPN scoreboard
+637855,2023-05-05T18:00:00Z,2023,FC Dordrecht,Heracles Almelo,1.0,3.0,,,ESPN scoreboard
+637854,2023-05-05T18:00:00Z,2023,Helmond Sport,VVV-Venlo,1.0,1.0,,,ESPN scoreboard
+637858,2023-05-05T18:00:00Z,2023,Roda JC Kerkrade,FC Eindhoven,1.0,2.0,,,ESPN scoreboard
+637859,2023-05-05T18:00:00Z,2023,Telstar,Willem II,0.0,0.0,,,ESPN scoreboard
+637857,2023-05-07T10:15:00Z,2023,Almere City,NAC Breda,0.0,2.0,,,ESPN scoreboard
+637861,2023-05-08T18:00:00Z,2023,Jong Ajax,ADO Den Haag,4.0,2.0,,,ESPN scoreboard
+637860,2023-05-08T18:00:00Z,2023,Jong AZ,TOP Oss,1.0,1.0,,,ESPN scoreboard
+637862,2023-05-08T18:00:00Z,2023,Jong FC Utrecht,FC Den Bosch,0.0,0.0,,,ESPN scoreboard
+637863,2023-05-08T18:00:00Z,2023,Jong PSV,PEC Zwolle,3.0,1.0,,,ESPN scoreboard
+637867,2023-05-12T18:00:00Z,2023,ADO Den Haag,FC Dordrecht,2.0,2.0,,,ESPN scoreboard
+637866,2023-05-12T18:00:00Z,2023,FC Den Bosch,Almere City,2.0,2.0,,,ESPN scoreboard
+637865,2023-05-12T18:00:00Z,2023,FC Eindhoven,Helmond Sport,0.0,1.0,,,ESPN scoreboard
+637864,2023-05-12T18:00:00Z,2023,Jong Ajax,Jong AZ,1.0,2.0,,,ESPN scoreboard
+637868,2023-05-12T18:00:00Z,2023,MVV Maastricht,Telstar,2.0,1.0,,,ESPN scoreboard
+637873,2023-05-12T18:00:00Z,2023,NAC Breda,Heracles Almelo,0.0,3.0,,,ESPN scoreboard
+637872,2023-05-12T18:00:00Z,2023,PEC Zwolle,Roda JC Kerkrade,3.0,1.0,,,ESPN scoreboard
+637871,2023-05-12T18:00:00Z,2023,TOP Oss,Jong PSV,1.0,0.0,,,ESPN scoreboard
+637870,2023-05-12T18:00:00Z,2023,VVV-Venlo,De Graafschap,2.0,1.0,,,ESPN scoreboard
+637869,2023-05-12T18:00:00Z,2023,Willem II,Jong FC Utrecht,3.0,0.0,,,ESPN scoreboard
+637874,2023-05-19T18:00:00Z,2023,Almere City,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+637875,2023-05-19T18:00:00Z,2023,De Graafschap,FC Den Bosch,3.0,0.0,,,ESPN scoreboard
+637876,2023-05-19T18:00:00Z,2023,FC Dordrecht,TOP Oss,2.0,2.0,,,ESPN scoreboard
+637877,2023-05-19T18:00:00Z,2023,Helmond Sport,PEC Zwolle,2.0,3.0,,,ESPN scoreboard
+637882,2023-05-19T18:00:00Z,2023,Heracles Almelo,Jong Ajax,2.0,0.0,,,ESPN scoreboard
+637881,2023-05-19T18:00:00Z,2023,Jong AZ,ADO Den Haag,0.0,2.0,,,ESPN scoreboard
+637880,2023-05-19T18:00:00Z,2023,Jong FC Utrecht,VVV-Venlo,1.0,1.0,,,ESPN scoreboard
+637879,2023-05-19T18:00:00Z,2023,Jong PSV,FC Eindhoven,1.0,1.0,,,ESPN scoreboard
+637883,2023-05-19T18:00:00Z,2023,Roda JC Kerkrade,Willem II,2.0,2.0,,,ESPN scoreboard
+637878,2023-05-19T18:00:00Z,2023,Telstar,NAC Breda,2.0,1.0,,,ESPN scoreboard
+675628,2023-08-11T18:00:00Z,2023,De Graafschap,ADO Den Haag,0.0,0.0,,,ESPN scoreboard
+675629,2023-08-11T18:00:00Z,2023,FC Den Bosch,TOP Oss,1.0,0.0,,,ESPN scoreboard
+675630,2023-08-11T18:00:00Z,2023,FC Dordrecht,NAC Breda,2.0,2.0,,,ESPN scoreboard
+675631,2023-08-11T18:00:00Z,2023,FC Groningen,Jong Ajax,4.0,1.0,,,ESPN scoreboard
+675632,2023-08-11T18:00:00Z,2023,Roda JC Kerkrade,Helmond Sport,4.0,1.0,,,ESPN scoreboard
+675633,2023-08-11T18:00:00Z,2023,SC Cambuur,FC Emmen,2.0,2.0,,,ESPN scoreboard
+675634,2023-08-13T10:15:00Z,2023,FC Eindhoven,Willem II,1.0,1.0,,,ESPN scoreboard
+675635,2023-08-13T14:45:00Z,2023,VVV-Venlo,MVV Maastricht,1.0,3.0,,,ESPN scoreboard
+675637,2023-08-14T18:00:00Z,2023,Jong AZ,Jong FC Utrecht,1.0,0.0,,,ESPN scoreboard
+675636,2023-08-14T18:00:00Z,2023,Jong PSV,Telstar,1.0,0.0,,,ESPN scoreboard
+675643,2023-08-18T18:00:00Z,2023,ADO Den Haag,Roda JC Kerkrade,0.0,3.0,,,ESPN scoreboard
+675644,2023-08-18T18:00:00Z,2023,FC Emmen,VVV-Venlo,2.0,2.0,,,ESPN scoreboard
+675645,2023-08-18T18:00:00Z,2023,Helmond Sport,FC Den Bosch,1.0,0.0,,,ESPN scoreboard
+675639,2023-08-18T18:00:00Z,2023,NAC Breda,Jong AZ,2.0,1.0,,,ESPN scoreboard
+675640,2023-08-18T18:00:00Z,2023,Telstar,SC Cambuur,2.0,3.0,,,ESPN scoreboard
+675638,2023-08-18T18:00:00Z,2023,TOP Oss,Jong PSV,4.0,1.0,,,ESPN scoreboard
+675641,2023-08-18T18:00:00Z,2023,Willem II,FC Dordrecht,2.0,0.0,,,ESPN scoreboard
+675646,2023-08-21T18:00:00Z,2023,Jong Ajax,De Graafschap,1.0,2.0,,,ESPN scoreboard
+675647,2023-08-21T18:00:00Z,2023,Jong FC Utrecht,FC Groningen,1.0,0.0,,,ESPN scoreboard
+675649,2023-08-25T18:00:00Z,2023,De Graafschap,FC Emmen,0.0,1.0,,,ESPN scoreboard
+675652,2023-08-25T18:00:00Z,2023,FC Den Bosch,ADO Den Haag,1.0,2.0,,,ESPN scoreboard
+675650,2023-08-25T18:00:00Z,2023,FC Dordrecht,MVV Maastricht,2.0,2.0,,,ESPN scoreboard
+675651,2023-08-25T18:00:00Z,2023,FC Eindhoven,NAC Breda,2.0,0.0,,,ESPN scoreboard
+675653,2023-08-25T18:00:00Z,2023,Roda JC Kerkrade,TOP Oss,2.0,0.0,,,ESPN scoreboard
+675648,2023-08-25T18:00:00Z,2023,SC Cambuur,Jong Ajax,4.0,2.0,,,ESPN scoreboard
+675654,2023-08-25T18:00:00Z,2023,VVV-Venlo,Jong FC Utrecht,4.0,1.0,,,ESPN scoreboard
+675655,2023-08-27T12:30:00Z,2023,FC Groningen,Willem II,0.0,0.0,,,ESPN scoreboard
+675657,2023-08-28T18:00:00Z,2023,Jong AZ,Telstar,3.0,1.0,,,ESPN scoreboard
+675656,2023-08-28T18:00:00Z,2023,Jong PSV,Helmond Sport,2.0,1.0,,,ESPN scoreboard
+675289,2023-09-01T18:00:00Z,2023,FC Den Bosch,Jong PSV,1.0,2.0,,,ESPN scoreboard
+675290,2023-09-01T18:00:00Z,2023,FC Emmen,FC Dordrecht,2.0,4.0,,,ESPN scoreboard
+675291,2023-09-01T18:00:00Z,2023,Helmond Sport,SC Cambuur,2.0,1.0,,,ESPN scoreboard
+675292,2023-09-01T18:00:00Z,2023,Jong FC Utrecht,Roda JC Kerkrade,1.0,0.0,,,ESPN scoreboard
+675293,2023-09-01T18:00:00Z,2023,MVV Maastricht,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+675295,2023-09-01T18:00:00Z,2023,Telstar,FC Eindhoven,0.0,1.0,,,ESPN scoreboard
+675294,2023-09-01T18:00:00Z,2023,TOP Oss,FC Groningen,0.0,2.0,,,ESPN scoreboard
+675296,2023-09-01T18:00:00Z,2023,VVV-Venlo,De Graafschap,2.0,0.0,,,ESPN scoreboard
+675309,2023-09-03T14:45:00Z,2023,ADO Den Haag,Jong AZ,4.0,1.0,,,ESPN scoreboard
+675308,2023-09-05T08:30:00Z,2023,Willem II,NAC Breda,1.0,4.0,,,ESPN scoreboard
+675658,2023-09-08T19:00:00Z,2023,Willem II,MVV Maastricht,2.0,1.0,,,ESPN scoreboard
+675659,2023-09-09T14:30:00Z,2023,Telstar,VVV-Venlo,1.0,2.0,,,ESPN scoreboard
+675660,2023-09-09T16:45:00Z,2023,SC Cambuur,FC Den Bosch,3.0,1.0,,,ESPN scoreboard
+675661,2023-09-09T19:00:00Z,2023,NAC Breda,Roda JC Kerkrade,1.0,3.0,,,ESPN scoreboard
+675665,2023-09-15T18:00:00Z,2023,FC Den Bosch,MVV Maastricht,3.0,2.0,,,ESPN scoreboard
+675668,2023-09-15T18:00:00Z,2023,FC Dordrecht,Jong FC Utrecht,3.0,3.0,,,ESPN scoreboard
+675667,2023-09-15T18:00:00Z,2023,FC Groningen,ADO Den Haag,0.0,1.0,,,ESPN scoreboard
+675666,2023-09-15T18:00:00Z,2023,Helmond Sport,TOP Oss,1.0,1.0,,,ESPN scoreboard
+675664,2023-09-15T18:00:00Z,2023,Jong Ajax,FC Emmen,3.0,3.0,,,ESPN scoreboard
+675670,2023-09-15T18:00:00Z,2023,Jong AZ,FC Eindhoven,0.0,0.0,,,ESPN scoreboard
+675663,2023-09-15T18:00:00Z,2023,Jong PSV,De Graafschap,1.0,3.0,,,ESPN scoreboard
+675662,2023-09-15T18:00:00Z,2023,Roda JC Kerkrade,Telstar,3.0,0.0,,,ESPN scoreboard
+675669,2023-09-15T18:00:00Z,2023,VVV-Venlo,NAC Breda,3.0,1.0,,,ESPN scoreboard
+675671,2023-09-17T14:45:00Z,2023,SC Cambuur,Willem II,1.0,0.0,,,ESPN scoreboard
+675674,2023-09-18T18:00:00Z,2023,De Graafschap,Helmond Sport,2.0,1.0,,,ESPN scoreboard
+675675,2023-09-18T18:00:00Z,2023,FC Eindhoven,ADO Den Haag,1.0,1.0,,,ESPN scoreboard
+675677,2023-09-18T18:00:00Z,2023,FC Emmen,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+675676,2023-09-18T18:00:00Z,2023,FC Groningen,Jong PSV,4.0,0.0,,,ESPN scoreboard
+675673,2023-09-18T18:00:00Z,2023,Jong AZ,Jong Ajax,5.0,2.0,,,ESPN scoreboard
+675672,2023-09-18T18:00:00Z,2023,TOP Oss,FC Dordrecht,0.0,1.0,,,ESPN scoreboard
+675678,2023-09-22T18:00:00Z,2023,ADO Den Haag,Telstar,1.0,1.0,,,ESPN scoreboard
+675679,2023-09-22T18:00:00Z,2023,FC Dordrecht,Jong AZ,0.0,0.0,,,ESPN scoreboard
+675686,2023-09-22T18:00:00Z,2023,Jong FC Utrecht,SC Cambuur,3.0,2.0,,,ESPN scoreboard
+675681,2023-09-22T18:00:00Z,2023,Jong PSV,VVV-Venlo,0.0,0.0,,,ESPN scoreboard
+675682,2023-09-22T18:00:00Z,2023,NAC Breda,FC Emmen,1.0,3.0,,,ESPN scoreboard
+675683,2023-09-22T18:00:00Z,2023,Roda JC Kerkrade,FC Den Bosch,4.0,1.0,,,ESPN scoreboard
+675680,2023-09-22T18:15:00Z,2023,Helmond Sport,FC Groningen,1.0,2.0,,,ESPN scoreboard
+675685,2023-09-24T12:30:00Z,2023,MVV Maastricht,De Graafschap,1.0,2.0,,,ESPN scoreboard
+675687,2023-09-25T18:00:00Z,2023,Jong Ajax,FC Eindhoven,1.0,1.0,,,ESPN scoreboard
+675693,2023-09-29T18:00:00Z,2023,De Graafschap,Roda JC Kerkrade,0.0,0.0,,,ESPN scoreboard
+675691,2023-09-29T18:00:00Z,2023,FC Eindhoven,FC Dordrecht,1.0,1.0,,,ESPN scoreboard
+675690,2023-09-29T18:00:00Z,2023,FC Groningen,FC Den Bosch,0.0,3.0,,,ESPN scoreboard
+675307,2023-09-29T18:00:00Z,2023,Jong AZ,Willem II,0.0,2.0,,,ESPN scoreboard
+675689,2023-09-29T18:00:00Z,2023,MVV Maastricht,ADO Den Haag,0.0,3.0,,,ESPN scoreboard
+675694,2023-09-29T18:00:00Z,2023,SC Cambuur,Jong PSV,3.0,4.0,,,ESPN scoreboard
+675692,2023-09-29T18:00:00Z,2023,Telstar,Jong Ajax,3.0,2.0,,,ESPN scoreboard
+675688,2023-09-29T18:00:00Z,2023,TOP Oss,FC Emmen,0.0,1.0,,,ESPN scoreboard
+675297,2023-10-01T10:15:00Z,2023,VVV-Venlo,Helmond Sport,0.0,4.0,,,ESPN scoreboard
+675306,2023-10-02T18:00:00Z,2023,Jong FC Utrecht,NAC Breda,1.0,1.0,,,ESPN scoreboard
+675642,2023-10-02T18:00:00Z,2023,MVV Maastricht,FC Eindhoven,0.0,1.0,,,ESPN scoreboard
+675684,2023-10-03T18:00:00Z,2023,Willem II,TOP Oss,2.0,1.0,,,ESPN scoreboard
+675696,2023-10-06T18:00:00Z,2023,ADO Den Haag,TOP Oss,2.0,1.0,,,ESPN scoreboard
+675697,2023-10-06T18:00:00Z,2023,FC Den Bosch,FC Eindhoven,0.0,1.0,,,ESPN scoreboard
+675698,2023-10-06T18:00:00Z,2023,FC Dordrecht,SC Cambuur,5.0,2.0,,,ESPN scoreboard
+675704,2023-10-06T18:00:00Z,2023,FC Emmen,Telstar,2.0,0.0,,,ESPN scoreboard
+675703,2023-10-06T18:00:00Z,2023,Helmond Sport,Jong FC Utrecht,4.0,0.0,,,ESPN scoreboard
+675695,2023-10-06T18:00:00Z,2023,Jong Ajax,VVV-Venlo,3.0,0.0,,,ESPN scoreboard
+675701,2023-10-06T18:00:00Z,2023,Jong PSV,MVV Maastricht,2.0,3.0,,,ESPN scoreboard
+675700,2023-10-06T18:00:00Z,2023,NAC Breda,FC Groningen,3.0,2.0,,,ESPN scoreboard
+675699,2023-10-06T18:00:00Z,2023,Roda JC Kerkrade,Jong AZ,3.0,1.0,,,ESPN scoreboard
+675702,2023-10-06T18:00:00Z,2023,Willem II,De Graafschap,4.0,2.0,,,ESPN scoreboard
+675705,2023-10-14T14:30:00Z,2023,VVV-Venlo,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+675706,2023-10-14T18:00:00Z,2023,Telstar,MVV Maastricht,2.0,1.0,,,ESPN scoreboard
+675707,2023-10-15T12:30:00Z,2023,Willem II,FC Den Bosch,3.0,1.0,,,ESPN scoreboard
+675708,2023-10-15T14:45:00Z,2023,SC Cambuur,NAC Breda,2.0,3.0,,,ESPN scoreboard
+675713,2023-10-20T18:00:00Z,2023,De Graafschap,FC Groningen,2.0,1.0,,,ESPN scoreboard
+675712,2023-10-20T18:00:00Z,2023,FC Den Bosch,VVV-Venlo,1.0,2.0,,,ESPN scoreboard
+675714,2023-10-20T18:00:00Z,2023,FC Dordrecht,Jong Ajax,4.0,0.0,,,ESPN scoreboard
+675715,2023-10-20T18:00:00Z,2023,FC Eindhoven,Helmond Sport,1.0,2.0,,,ESPN scoreboard
+675716,2023-10-20T18:00:00Z,2023,FC Emmen,ADO Den Haag,2.0,3.0,,,ESPN scoreboard
+675717,2023-10-20T18:00:00Z,2023,Jong AZ,TOP Oss,3.0,0.0,,,ESPN scoreboard
+675709,2023-10-20T18:00:00Z,2023,MVV Maastricht,SC Cambuur,1.0,1.0,,,ESPN scoreboard
+675710,2023-10-20T18:00:00Z,2023,NAC Breda,Telstar,3.0,1.0,,,ESPN scoreboard
+675718,2023-10-21T18:00:00Z,2023,Roda JC Kerkrade,Willem II,0.0,1.0,,,ESPN scoreboard
+675724,2023-10-23T18:00:00Z,2023,FC Groningen,FC Emmen,0.0,0.0,,,ESPN scoreboard
+675723,2023-10-23T18:00:00Z,2023,Helmond Sport,FC Dordrecht,1.0,1.0,,,ESPN scoreboard
+675721,2023-10-23T18:00:00Z,2023,Jong Ajax,ADO Den Haag,0.0,0.0,,,ESPN scoreboard
+675722,2023-10-23T18:00:00Z,2023,Jong AZ,De Graafschap,3.0,0.0,,,ESPN scoreboard
+675719,2023-10-23T18:00:00Z,2023,Jong PSV,FC Eindhoven,3.0,4.0,,,ESPN scoreboard
+675720,2023-10-23T18:00:00Z,2023,TOP Oss,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+675729,2023-10-27T18:00:00Z,2023,ADO Den Haag,VVV-Venlo,2.0,2.0,,,ESPN scoreboard
+675725,2023-10-27T18:00:00Z,2023,De Graafschap,FC Eindhoven,2.0,1.0,,,ESPN scoreboard
+675727,2023-10-27T18:00:00Z,2023,FC Dordrecht,FC Den Bosch,5.0,1.0,,,ESPN scoreboard
+675728,2023-10-27T18:00:00Z,2023,FC Emmen,Jong AZ,2.0,1.0,,,ESPN scoreboard
+675731,2023-10-27T18:00:00Z,2023,NAC Breda,Helmond Sport,1.0,1.0,,,ESPN scoreboard
+675732,2023-10-27T18:00:00Z,2023,Roda JC Kerkrade,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+675730,2023-10-27T18:00:00Z,2023,Telstar,TOP Oss,1.0,0.0,,,ESPN scoreboard
+675726,2023-10-27T18:00:00Z,2023,Willem II,Jong PSV,3.0,0.0,,,ESPN scoreboard
+675733,2023-10-29T11:15:00Z,2023,SC Cambuur,FC Groningen,2.0,1.0,,,ESPN scoreboard
+675734,2023-10-30T19:00:00Z,2023,Jong FC Utrecht,MVV Maastricht,1.0,1.0,,,ESPN scoreboard
+675316,2023-11-03T19:00:00Z,2023,De Graafschap,NAC Breda,1.0,0.0,,,ESPN scoreboard
+675312,2023-11-03T19:00:00Z,2023,Helmond Sport,Telstar,1.0,0.0,,,ESPN scoreboard
+675310,2023-11-03T19:00:00Z,2023,VVV-Venlo,Jong AZ,2.0,2.0,,,ESPN scoreboard
+675315,2023-11-04T17:45:00Z,2023,FC Den Bosch,Jong FC Utrecht,1.0,1.0,,,ESPN scoreboard
+675311,2023-11-05T13:30:00Z,2023,FC Groningen,FC Dordrecht,2.0,2.0,,,ESPN scoreboard
+675317,2023-11-06T19:00:00Z,2023,FC Eindhoven,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+675736,2023-11-06T19:00:00Z,2023,Jong Ajax,Willem II,1.0,0.0,,,ESPN scoreboard
+675735,2023-11-06T19:00:00Z,2023,Jong PSV,ADO Den Haag,1.0,2.0,,,ESPN scoreboard
+675313,2023-11-06T19:00:00Z,2023,MVV Maastricht,FC Emmen,1.0,1.0,,,ESPN scoreboard
+675314,2023-11-06T19:00:00Z,2023,TOP Oss,SC Cambuur,1.0,8.0,,,ESPN scoreboard
+675745,2023-11-10T19:00:00Z,2023,FC Dordrecht,Jong PSV,1.0,4.0,,,ESPN scoreboard
+675740,2023-11-10T19:00:00Z,2023,FC Eindhoven,VVV-Venlo,0.0,2.0,,,ESPN scoreboard
+675741,2023-11-10T19:00:00Z,2023,FC Emmen,FC Den Bosch,1.0,0.0,,,ESPN scoreboard
+675742,2023-11-10T19:00:00Z,2023,Jong AZ,Helmond Sport,2.0,1.0,,,ESPN scoreboard
+675743,2023-11-10T19:00:00Z,2023,NAC Breda,Jong Ajax,1.0,1.0,,,ESPN scoreboard
+675738,2023-11-10T19:00:00Z,2023,Telstar,De Graafschap,1.0,2.0,,,ESPN scoreboard
+675744,2023-11-10T19:00:00Z,2023,TOP Oss,MVV Maastricht,0.0,1.0,,,ESPN scoreboard
+675739,2023-11-10T19:00:00Z,2023,Willem II,Jong FC Utrecht,2.0,1.0,,,ESPN scoreboard
+675737,2023-11-12T13:30:00Z,2023,ADO Den Haag,SC Cambuur,1.0,2.0,,,ESPN scoreboard
+675746,2023-11-12T15:45:00Z,2023,Roda JC Kerkrade,FC Groningen,0.0,0.0,,,ESPN scoreboard
+675747,2023-11-17T17:45:00Z,2023,FC Den Bosch,Telstar,1.0,4.0,,,ESPN scoreboard
+675748,2023-11-17T20:00:00Z,2023,VVV-Venlo,Willem II,1.0,3.0,,,ESPN scoreboard
+675749,2023-11-19T13:30:00Z,2023,SC Cambuur,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+675750,2023-11-19T15:45:00Z,2023,MVV Maastricht,NAC Breda,1.0,4.0,,,ESPN scoreboard
+675751,2023-11-24T19:00:00Z,2023,FC Dordrecht,ADO Den Haag,2.0,2.0,,,ESPN scoreboard
+675752,2023-11-24T19:00:00Z,2023,FC Groningen,FC Eindhoven,2.0,1.0,,,ESPN scoreboard
+675759,2023-11-24T19:00:00Z,2023,Helmond Sport,FC Emmen,1.0,2.0,,,ESPN scoreboard
+675758,2023-11-24T19:00:00Z,2023,Jong Ajax,TOP Oss,1.0,0.0,,,ESPN scoreboard
+675757,2023-11-24T19:00:00Z,2023,Jong FC Utrecht,De Graafschap,2.0,0.0,,,ESPN scoreboard
+675756,2023-11-24T19:00:00Z,2023,Jong PSV,Jong AZ,1.0,2.0,,,ESPN scoreboard
+675755,2023-11-24T19:00:00Z,2023,NAC Breda,FC Den Bosch,1.0,0.0,,,ESPN scoreboard
+675754,2023-11-24T19:00:00Z,2023,Telstar,Willem II,1.0,5.0,,,ESPN scoreboard
+675753,2023-11-24T19:00:00Z,2023,VVV-Venlo,SC Cambuur,1.0,2.0,,,ESPN scoreboard
+675760,2023-11-26T11:15:00Z,2023,Roda JC Kerkrade,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+675764,2023-11-27T19:00:00Z,2023,ADO Den Haag,Jong FC Utrecht,6.0,0.0,,,ESPN scoreboard
+675762,2023-11-27T19:00:00Z,2023,FC Eindhoven,TOP Oss,0.0,0.0,,,ESPN scoreboard
+675763,2023-11-27T19:00:00Z,2023,FC Emmen,Jong PSV,1.0,0.0,,,ESPN scoreboard
+675766,2023-11-27T19:00:00Z,2023,Jong Ajax,Helmond Sport,4.0,1.0,,,ESPN scoreboard
+675765,2023-11-27T19:00:00Z,2023,Jong AZ,FC Groningen,0.0,5.0,,,ESPN scoreboard
+675298,2023-12-01T19:00:00Z,2023,FC Den Bosch,Jong Ajax,3.0,3.0,,,ESPN scoreboard
+675299,2023-12-01T19:00:00Z,2023,FC Dordrecht,Roda JC Kerkrade,2.0,0.0,,,ESPN scoreboard
+675300,2023-12-01T19:00:00Z,2023,FC Groningen,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+675301,2023-12-01T19:00:00Z,2023,Helmond Sport,ADO Den Haag,3.0,2.0,,,ESPN scoreboard
+675711,2023-12-01T19:00:00Z,2023,Jong FC Utrecht,Jong PSV,0.0,0.0,,,ESPN scoreboard
+675302,2023-12-01T19:00:00Z,2023,MVV Maastricht,Jong AZ,4.0,0.0,,,ESPN scoreboard
+675303,2023-12-01T19:00:00Z,2023,SC Cambuur,FC Eindhoven,2.0,2.0,,,ESPN scoreboard
+675304,2023-12-01T19:00:00Z,2023,TOP Oss,De Graafschap,0.0,1.0,,,ESPN scoreboard
+675305,2023-12-01T19:00:00Z,2023,Willem II,FC Emmen,3.0,0.0,,,ESPN scoreboard
+675761,2023-12-04T19:00:00Z,2023,De Graafschap,FC Dordrecht,1.0,1.0,,,ESPN scoreboard
+675319,2023-12-04T19:00:00Z,2023,Jong FC Utrecht,Telstar,0.0,0.0,,,ESPN scoreboard
+675318,2023-12-04T19:00:00Z,2023,Jong PSV,NAC Breda,0.0,5.0,,,ESPN scoreboard
+675771,2023-12-08T19:00:00Z,2023,ADO Den Haag,Willem II,1.0,1.0,,,ESPN scoreboard
+675767,2023-12-08T19:00:00Z,2023,De Graafschap,SC Cambuur,2.0,3.0,,,ESPN scoreboard
+675773,2023-12-08T19:00:00Z,2023,FC Eindhoven,FC Emmen,3.0,2.0,,,ESPN scoreboard
+675772,2023-12-08T19:00:00Z,2023,FC Groningen,Telstar,2.0,0.0,,,ESPN scoreboard
+675770,2023-12-08T19:00:00Z,2023,Helmond Sport,MVV Maastricht,1.0,2.0,,,ESPN scoreboard
+675768,2023-12-08T19:00:00Z,2023,NAC Breda,TOP Oss,2.0,0.0,,,ESPN scoreboard
+675774,2023-12-08T19:00:00Z,2023,Roda JC Kerkrade,Jong PSV,2.0,1.0,,,ESPN scoreboard
+675769,2023-12-08T19:00:00Z,2023,VVV-Venlo,FC Dordrecht,3.0,1.0,,,ESPN scoreboard
+675776,2023-12-11T19:00:00Z,2023,Jong Ajax,Jong FC Utrecht,2.0,1.0,,,ESPN scoreboard
+675775,2023-12-11T19:00:00Z,2023,Jong AZ,FC Den Bosch,0.0,0.0,,,ESPN scoreboard
+675785,2023-12-15T19:00:00Z,2023,ADO Den Haag,NAC Breda,3.0,1.0,,,ESPN scoreboard
+675784,2023-12-15T19:00:00Z,2023,FC Den Bosch,De Graafschap,0.0,4.0,,,ESPN scoreboard
+675783,2023-12-15T19:00:00Z,2023,FC Emmen,Roda JC Kerkrade,0.0,1.0,,,ESPN scoreboard
+675782,2023-12-15T19:00:00Z,2023,Jong FC Utrecht,FC Eindhoven,2.0,5.0,,,ESPN scoreboard
+675781,2023-12-15T19:00:00Z,2023,Jong PSV,Jong Ajax,2.0,2.0,,,ESPN scoreboard
+675780,2023-12-15T19:00:00Z,2023,MVV Maastricht,FC Groningen,1.0,1.0,,,ESPN scoreboard
+675786,2023-12-15T19:00:00Z,2023,SC Cambuur,Jong AZ,1.0,2.0,,,ESPN scoreboard
+675778,2023-12-15T19:00:00Z,2023,Telstar,FC Dordrecht,0.0,2.0,,,ESPN scoreboard
+675779,2023-12-15T19:00:00Z,2023,TOP Oss,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+675777,2023-12-15T19:00:00Z,2023,Willem II,Helmond Sport,4.0,1.0,,,ESPN scoreboard
+675791,2023-12-22T19:00:00Z,2023,FC Den Bosch,SC Cambuur,3.0,1.0,,,ESPN scoreboard
+675795,2023-12-22T19:00:00Z,2023,FC Groningen,Jong FC Utrecht,2.0,1.0,,,ESPN scoreboard
+675789,2023-12-22T19:00:00Z,2023,MVV Maastricht,TOP Oss,2.0,0.0,,,ESPN scoreboard
+675796,2023-12-22T19:00:00Z,2023,NAC Breda,Willem II,1.0,2.0,,,ESPN scoreboard
+675790,2023-12-22T19:00:00Z,2023,VVV-Venlo,Telstar,2.0,1.0,,,ESPN scoreboard
+675788,2023-12-23T13:00:00Z,2023,Jong AZ,ADO Den Haag,1.0,2.0,,,ESPN scoreboard
+675792,2023-12-23T15:30:00Z,2023,FC Dordrecht,FC Emmen,2.0,1.0,,,ESPN scoreboard
+675793,2023-12-23T17:45:00Z,2023,Helmond Sport,Roda JC Kerkrade,3.0,3.0,,,ESPN scoreboard
+675794,2023-12-23T20:00:00Z,2023,FC Eindhoven,Jong Ajax,2.0,2.0,,,ESPN scoreboard
+675797,2024-01-12T19:00:00Z,2024,ADO Den Haag,De Graafschap,5.0,3.0,,,ESPN scoreboard
+675798,2024-01-12T19:00:00Z,2024,FC Dordrecht,Helmond Sport,2.0,0.0,,,ESPN scoreboard
+675801,2024-01-12T19:00:00Z,2024,SC Cambuur,MVV Maastricht,5.0,2.0,,,ESPN scoreboard
+675800,2024-01-12T19:00:00Z,2024,Telstar,Jong AZ,1.0,1.0,,,ESPN scoreboard
+675802,2024-01-12T19:00:00Z,2024,TOP Oss,Willem II,0.0,5.0,,,ESPN scoreboard
+675799,2024-01-13T15:30:00Z,2024,FC Emmen,NAC Breda,2.0,3.0,,,ESPN scoreboard
+675804,2024-01-15T19:00:00Z,2024,Jong FC Utrecht,VVV-Venlo,0.0,0.0,,,ESPN scoreboard
+675806,2024-01-15T19:00:00Z,2024,Jong PSV,FC Den Bosch,2.0,2.0,,,ESPN scoreboard
+675809,2024-01-19T19:00:00Z,2024,FC Den Bosch,Roda JC Kerkrade,0.0,0.0,,,ESPN scoreboard
+675808,2024-01-19T19:00:00Z,2024,FC Eindhoven,De Graafschap,0.0,1.0,,,ESPN scoreboard
+675810,2024-01-19T19:00:00Z,2024,Helmond Sport,Jong PSV,2.0,2.0,,,ESPN scoreboard
+675811,2024-01-19T19:00:00Z,2024,MVV Maastricht,Jong FC Utrecht,3.0,0.0,,,ESPN scoreboard
+675813,2024-01-19T19:00:00Z,2024,TOP Oss,Telstar,1.0,0.0,,,ESPN scoreboard
+675815,2024-01-19T19:00:00Z,2024,Willem II,Jong Ajax,1.0,1.0,,,ESPN scoreboard
+675787,2024-01-22T19:00:00Z,2024,De Graafschap,Jong PSV,4.0,2.0,,,ESPN scoreboard
+675805,2024-01-22T19:00:00Z,2024,Jong Ajax,FC Groningen,0.0,1.0,,,ESPN scoreboard
+675816,2024-01-22T19:00:00Z,2024,Jong AZ,FC Dordrecht,5.0,1.0,,,ESPN scoreboard
+675803,2024-01-22T19:00:00Z,2024,Roda JC Kerkrade,FC Eindhoven,3.0,0.0,,,ESPN scoreboard
+675812,2024-01-22T19:00:00Z,2024,VVV-Venlo,ADO Den Haag,2.0,1.0,,,ESPN scoreboard
+675817,2024-01-26T19:00:00Z,2024,ADO Den Haag,FC Emmen,3.0,0.0,,,ESPN scoreboard
+675818,2024-01-26T19:00:00Z,2024,De Graafschap,VVV-Venlo,3.0,0.0,,,ESPN scoreboard
+675819,2024-01-26T19:00:00Z,2024,FC Eindhoven,MVV Maastricht,0.0,3.0,,,ESPN scoreboard
+675822,2024-01-26T19:00:00Z,2024,FC Groningen,Jong AZ,4.0,1.0,,,ESPN scoreboard
+675824,2024-01-26T19:00:00Z,2024,Helmond Sport,NAC Breda,1.0,0.0,,,ESPN scoreboard
+675820,2024-01-26T19:00:00Z,2024,Roda JC Kerkrade,Jong FC Utrecht,0.0,0.0,,,ESPN scoreboard
+675821,2024-01-26T19:00:00Z,2024,Telstar,FC Den Bosch,0.0,0.0,,,ESPN scoreboard
+675826,2024-01-29T19:00:00Z,2024,Jong Ajax,FC Dordrecht,2.0,2.0,,,ESPN scoreboard
+675825,2024-01-29T19:00:00Z,2024,Jong PSV,Willem II,1.0,1.0,,,ESPN scoreboard
+675823,2024-01-29T19:00:00Z,2024,SC Cambuur,TOP Oss,1.0,2.0,,,ESPN scoreboard
+675831,2024-02-02T19:00:00Z,2024,FC Den Bosch,Helmond Sport,0.0,0.0,,,ESPN scoreboard
+675830,2024-02-02T19:00:00Z,2024,FC Dordrecht,FC Groningen,1.0,0.0,,,ESPN scoreboard
+675829,2024-02-02T19:00:00Z,2024,FC Emmen,FC Eindhoven,1.0,1.0,,,ESPN scoreboard
+675828,2024-02-02T19:00:00Z,2024,MVV Maastricht,Telstar,6.0,1.0,,,ESPN scoreboard
+675827,2024-02-02T19:00:00Z,2024,NAC Breda,De Graafschap,0.0,0.0,,,ESPN scoreboard
+675832,2024-02-02T19:00:00Z,2024,TOP Oss,ADO Den Haag,1.0,3.0,,,ESPN scoreboard
+675833,2024-02-02T19:00:00Z,2024,VVV-Venlo,Jong PSV,3.0,2.0,,,ESPN scoreboard
+675834,2024-02-02T19:00:00Z,2024,Willem II,SC Cambuur,1.0,1.0,,,ESPN scoreboard
+675836,2024-02-05T19:00:00Z,2024,Jong AZ,Roda JC Kerkrade,1.0,0.0,,,ESPN scoreboard
+675835,2024-02-05T19:00:00Z,2024,Jong FC Utrecht,Jong Ajax,0.0,1.0,,,ESPN scoreboard
+675842,2024-02-09T19:00:00Z,2024,De Graafschap,Willem II,0.0,2.0,,,ESPN scoreboard
+675840,2024-02-09T19:00:00Z,2024,Jong PSV,FC Emmen,3.0,0.0,,,ESPN scoreboard
+675843,2024-02-09T19:00:00Z,2024,NAC Breda,FC Eindhoven,2.0,2.0,,,ESPN scoreboard
+675838,2024-02-09T19:00:00Z,2024,Roda JC Kerkrade,FC Dordrecht,4.0,1.0,,,ESPN scoreboard
+675839,2024-02-09T19:00:00Z,2024,Telstar,Helmond Sport,3.0,2.0,,,ESPN scoreboard
+675837,2024-02-10T15:30:00Z,2024,SC Cambuur,VVV-Venlo,3.0,3.0,,,ESPN scoreboard
+675844,2024-02-11T11:15:00Z,2024,ADO Den Haag,FC Den Bosch,3.0,0.0,,,ESPN scoreboard
+675841,2024-02-11T13:30:00Z,2024,FC Groningen,TOP Oss,3.0,0.0,,,ESPN scoreboard
+675845,2024-02-12T19:00:00Z,2024,Jong Ajax,MVV Maastricht,3.0,0.0,,,ESPN scoreboard
+675846,2024-02-12T19:00:00Z,2024,Jong FC Utrecht,Jong AZ,1.0,2.0,,,ESPN scoreboard
+675847,2024-02-16T19:00:00Z,2024,FC Den Bosch,Jong AZ,0.0,0.0,,,ESPN scoreboard
+675854,2024-02-16T19:00:00Z,2024,FC Dordrecht,VVV-Venlo,1.0,0.0,,,ESPN scoreboard
+675852,2024-02-16T19:00:00Z,2024,Helmond Sport,De Graafschap,3.0,1.0,,,ESPN scoreboard
+675855,2024-02-16T19:00:00Z,2024,Roda JC Kerkrade,FC Emmen,3.0,2.0,,,ESPN scoreboard
+675848,2024-02-16T19:00:00Z,2024,SC Cambuur,Jong FC Utrecht,2.0,4.0,,,ESPN scoreboard
+675850,2024-02-16T19:00:00Z,2024,Telstar,NAC Breda,1.0,1.0,,,ESPN scoreboard
+675851,2024-02-16T19:00:00Z,2024,TOP Oss,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+675849,2024-02-16T19:00:00Z,2024,Willem II,ADO Den Haag,2.0,1.0,,,ESPN scoreboard
+675853,2024-02-18T15:45:00Z,2024,FC Eindhoven,FC Groningen,0.0,3.0,,,ESPN scoreboard
+675856,2024-02-19T19:00:00Z,2024,MVV Maastricht,Jong PSV,3.0,3.0,,,ESPN scoreboard
+675814,2024-02-19T19:00:00Z,2024,NAC Breda,SC Cambuur,1.0,2.0,,,ESPN scoreboard
+675861,2024-02-23T19:00:00Z,2024,ADO Den Haag,MVV Maastricht,2.0,2.0,,,ESPN scoreboard
+675859,2024-02-23T19:00:00Z,2024,De Graafschap,FC Den Bosch,2.0,0.0,,,ESPN scoreboard
+675862,2024-02-23T19:00:00Z,2024,FC Emmen,SC Cambuur,2.0,0.0,,,ESPN scoreboard
+675860,2024-02-23T19:00:00Z,2024,FC Groningen,Helmond Sport,0.0,0.0,,,ESPN scoreboard
+675858,2024-02-23T19:00:00Z,2024,VVV-Venlo,FC Eindhoven,2.0,2.0,,,ESPN scoreboard
+675857,2024-02-23T19:00:00Z,2024,Willem II,Roda JC Kerkrade,2.0,3.0,,,ESPN scoreboard
+675863,2024-02-26T19:00:00Z,2024,Jong Ajax,Telstar,0.0,3.0,,,ESPN scoreboard
+675865,2024-02-26T19:00:00Z,2024,Jong AZ,NAC Breda,2.0,3.0,,,ESPN scoreboard
+675864,2024-02-26T19:00:00Z,2024,Jong FC Utrecht,TOP Oss,0.0,3.0,,,ESPN scoreboard
+675866,2024-02-26T19:00:00Z,2024,Jong PSV,FC Dordrecht,0.0,1.0,,,ESPN scoreboard
+675872,2024-03-01T19:00:00Z,2024,ADO Den Haag,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+675873,2024-03-01T19:00:00Z,2024,De Graafschap,TOP Oss,2.0,1.0,,,ESPN scoreboard
+675871,2024-03-01T19:00:00Z,2024,FC Eindhoven,Jong AZ,1.0,1.0,,,ESPN scoreboard
+675870,2024-03-01T19:00:00Z,2024,FC Emmen,Willem II,2.0,0.0,,,ESPN scoreboard
+675869,2024-03-01T19:00:00Z,2024,Helmond Sport,VVV-Venlo,1.0,1.0,,,ESPN scoreboard
+675875,2024-03-01T19:00:00Z,2024,NAC Breda,Jong FC Utrecht,3.0,1.0,,,ESPN scoreboard
+675867,2024-03-01T19:00:00Z,2024,Telstar,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+675868,2024-03-04T13:00:00Z,2024,MVV Maastricht,FC Dordrecht,1.0,3.0,,,ESPN scoreboard
+675874,2024-03-04T19:00:00Z,2024,FC Den Bosch,FC Groningen,1.0,4.0,,,ESPN scoreboard
+675876,2024-03-04T19:00:00Z,2024,Jong PSV,SC Cambuur,3.0,1.0,,,ESPN scoreboard
+675881,2024-03-08T19:00:00Z,2024,FC Dordrecht,Telstar,2.0,0.0,,,ESPN scoreboard
+675877,2024-03-08T19:00:00Z,2024,FC Groningen,MVV Maastricht,3.0,0.0,,,ESPN scoreboard
+675885,2024-03-08T19:00:00Z,2024,Jong Ajax,NAC Breda,0.0,1.0,,,ESPN scoreboard
+675886,2024-03-08T19:00:00Z,2024,Jong AZ,Jong PSV,4.0,1.0,,,ESPN scoreboard
+675884,2024-03-08T19:00:00Z,2024,Jong FC Utrecht,Helmond Sport,0.0,1.0,,,ESPN scoreboard
+675883,2024-03-08T19:00:00Z,2024,Roda JC Kerkrade,ADO Den Haag,2.0,2.0,,,ESPN scoreboard
+675882,2024-03-08T19:00:00Z,2024,SC Cambuur,De Graafschap,1.0,2.0,,,ESPN scoreboard
+675878,2024-03-08T19:00:00Z,2024,TOP Oss,FC Den Bosch,1.0,2.0,,,ESPN scoreboard
+675880,2024-03-08T19:00:00Z,2024,VVV-Venlo,FC Emmen,2.0,0.0,,,ESPN scoreboard
+675879,2024-03-08T19:00:00Z,2024,Willem II,FC Eindhoven,3.0,0.0,,,ESPN scoreboard
+675887,2024-03-11T19:00:00Z,2024,ADO Den Haag,FC Dordrecht,2.0,2.0,,,ESPN scoreboard
+675891,2024-03-11T19:00:00Z,2024,De Graafschap,Jong Ajax,0.0,2.0,,,ESPN scoreboard
+675892,2024-03-11T19:00:00Z,2024,FC Eindhoven,Jong FC Utrecht,3.0,0.0,,,ESPN scoreboard
+675889,2024-03-11T19:00:00Z,2024,FC Emmen,TOP Oss,0.0,1.0,,,ESPN scoreboard
+675890,2024-03-11T19:00:00Z,2024,Helmond Sport,Jong AZ,3.0,1.0,,,ESPN scoreboard
+675888,2024-03-11T19:00:00Z,2024,Jong PSV,FC Groningen,2.0,3.0,,,ESPN scoreboard
+675899,2024-03-15T19:00:00Z,2024,FC Den Bosch,Willem II,1.0,4.0,,,ESPN scoreboard
+675893,2024-03-15T19:00:00Z,2024,FC Dordrecht,FC Eindhoven,0.0,0.0,,,ESPN scoreboard
+675901,2024-03-15T19:00:00Z,2024,FC Groningen,De Graafschap,4.0,2.0,,,ESPN scoreboard
+675894,2024-03-15T19:00:00Z,2024,Jong Ajax,Jong PSV,3.0,0.0,,,ESPN scoreboard
+675900,2024-03-15T19:00:00Z,2024,Jong AZ,SC Cambuur,2.0,0.0,,,ESPN scoreboard
+675898,2024-03-15T19:00:00Z,2024,Jong FC Utrecht,FC Emmen,2.0,3.0,,,ESPN scoreboard
+675897,2024-03-15T19:00:00Z,2024,NAC Breda,VVV-Venlo,1.0,0.0,,,ESPN scoreboard
+675895,2024-03-15T19:00:00Z,2024,Telstar,ADO Den Haag,3.0,1.0,,,ESPN scoreboard
+675896,2024-03-15T19:00:00Z,2024,TOP Oss,Helmond Sport,1.0,0.0,,,ESPN scoreboard
+675902,2024-03-17T11:15:00Z,2024,MVV Maastricht,Roda JC Kerkrade,0.0,3.0,,,ESPN scoreboard
+675904,2024-03-23T19:00:00Z,2024,MVV Maastricht,FC Den Bosch,1.0,0.0,,,ESPN scoreboard
+675903,2024-03-23T19:00:00Z,2024,Roda JC Kerkrade,NAC Breda,3.0,1.0,,,ESPN scoreboard
+675905,2024-03-23T19:00:00Z,2024,SC Cambuur,Telstar,1.0,0.0,,,ESPN scoreboard
+675906,2024-03-23T19:00:00Z,2024,Willem II,VVV-Venlo,2.0,0.0,,,ESPN scoreboard
+675914,2024-03-29T19:00:00Z,2024,ADO Den Haag,FC Groningen,0.0,2.0,,,ESPN scoreboard
+675913,2024-03-29T19:00:00Z,2024,De Graafschap,Jong AZ,2.0,1.0,,,ESPN scoreboard
+675912,2024-03-29T19:00:00Z,2024,FC Den Bosch,FC Dordrecht,0.0,3.0,,,ESPN scoreboard
+675907,2024-03-29T19:00:00Z,2024,FC Eindhoven,SC Cambuur,0.0,3.0,,,ESPN scoreboard
+675911,2024-03-29T19:00:00Z,2024,FC Emmen,Jong Ajax,4.0,2.0,,,ESPN scoreboard
+675908,2024-03-29T19:00:00Z,2024,Helmond Sport,Willem II,0.0,2.0,,,ESPN scoreboard
+675915,2024-03-29T19:00:00Z,2024,NAC Breda,MVV Maastricht,1.0,2.0,,,ESPN scoreboard
+675910,2024-03-29T19:00:00Z,2024,Telstar,Jong FC Utrecht,5.0,1.0,,,ESPN scoreboard
+675909,2024-03-29T19:00:00Z,2024,VVV-Venlo,TOP Oss,2.0,0.0,,,ESPN scoreboard
+675807,2024-04-01T12:30:00Z,2024,FC Emmen,FC Groningen,0.0,3.0,,,ESPN scoreboard
+675916,2024-04-01T18:00:00Z,2024,Jong PSV,Roda JC Kerkrade,2.0,3.0,,,ESPN scoreboard
+675921,2024-04-05T18:00:00Z,2024,FC Dordrecht,De Graafschap,2.0,1.0,,,ESPN scoreboard
+675917,2024-04-05T18:00:00Z,2024,MVV Maastricht,Helmond Sport,3.0,0.0,,,ESPN scoreboard
+675919,2024-04-05T18:00:00Z,2024,SC Cambuur,ADO Den Haag,0.0,2.0,,,ESPN scoreboard
+675920,2024-04-05T18:00:00Z,2024,Telstar,Jong PSV,3.0,1.0,,,ESPN scoreboard
+675918,2024-04-05T18:00:00Z,2024,TOP Oss,FC Eindhoven,2.0,1.0,,,ESPN scoreboard
+675922,2024-04-07T10:15:00Z,2024,FC Groningen,NAC Breda,1.0,1.0,,,ESPN scoreboard
+675923,2024-04-07T14:45:00Z,2024,Roda JC Kerkrade,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+675924,2024-04-08T18:00:00Z,2024,Jong Ajax,FC Den Bosch,0.0,2.0,,,ESPN scoreboard
+675926,2024-04-08T18:00:00Z,2024,Jong AZ,FC Emmen,3.0,2.0,,,ESPN scoreboard
+675925,2024-04-08T18:00:00Z,2024,Jong FC Utrecht,Willem II,1.0,1.0,,,ESPN scoreboard
+675932,2024-04-12T18:00:00Z,2024,ADO Den Haag,Helmond Sport,0.0,1.0,,,ESPN scoreboard
+675933,2024-04-12T18:00:00Z,2024,De Graafschap,Telstar,5.0,1.0,,,ESPN scoreboard
+675928,2024-04-12T18:00:00Z,2024,FC Eindhoven,Jong PSV,2.0,5.0,,,ESPN scoreboard
+675929,2024-04-12T18:00:00Z,2024,FC Emmen,MVV Maastricht,1.0,3.0,,,ESPN scoreboard
+675930,2024-04-12T18:00:00Z,2024,NAC Breda,FC Dordrecht,1.0,4.0,,,ESPN scoreboard
+675931,2024-04-12T18:00:00Z,2024,TOP Oss,Roda JC Kerkrade,1.0,4.0,,,ESPN scoreboard
+675927,2024-04-12T18:00:00Z,2024,Willem II,Jong AZ,4.0,1.0,,,ESPN scoreboard
+675934,2024-04-14T14:45:00Z,2024,VVV-Venlo,FC Groningen,0.0,1.0,,,ESPN scoreboard
+675936,2024-04-15T18:00:00Z,2024,Jong Ajax,SC Cambuur,2.0,1.0,,,ESPN scoreboard
+675935,2024-04-15T18:00:00Z,2024,Jong FC Utrecht,FC Den Bosch,0.0,2.0,,,ESPN scoreboard
+675937,2024-04-19T18:00:00Z,2024,FC Den Bosch,NAC Breda,2.0,2.0,,,ESPN scoreboard
+675938,2024-04-19T18:00:00Z,2024,FC Dordrecht,TOP Oss,3.0,1.0,,,ESPN scoreboard
+675939,2024-04-19T18:00:00Z,2024,Helmond Sport,Jong Ajax,3.0,1.0,,,ESPN scoreboard
+675940,2024-04-19T18:00:00Z,2024,Roda JC Kerkrade,De Graafschap,1.0,1.0,,,ESPN scoreboard
+675941,2024-04-19T18:00:00Z,2024,Telstar,FC Emmen,2.0,3.0,,,ESPN scoreboard
+675942,2024-04-20T14:30:00Z,2024,ADO Den Haag,FC Eindhoven,1.0,1.0,,,ESPN scoreboard
+675943,2024-04-20T16:45:00Z,2024,MVV Maastricht,Willem II,1.0,1.0,,,ESPN scoreboard
+675944,2024-04-20T19:00:00Z,2024,FC Groningen,SC Cambuur,3.0,0.0,,,ESPN scoreboard
+675946,2024-04-22T18:00:00Z,2024,Jong AZ,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+675945,2024-04-22T18:00:00Z,2024,Jong PSV,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+675950,2024-04-26T18:00:00Z,2024,De Graafschap,MVV Maastricht,3.0,0.0,,,ESPN scoreboard
+675951,2024-04-26T18:00:00Z,2024,Jong Ajax,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+675949,2024-04-26T18:00:00Z,2024,SC Cambuur,FC Dordrecht,3.0,3.0,,,ESPN scoreboard
+675948,2024-04-26T18:00:00Z,2024,TOP Oss,Jong AZ,1.0,1.0,,,ESPN scoreboard
+675947,2024-04-26T18:00:00Z,2024,VVV-Venlo,FC Den Bosch,2.0,3.0,,,ESPN scoreboard
+675952,2024-04-26T18:00:00Z,2024,Willem II,FC Groningen,1.0,1.0,,,ESPN scoreboard
+675954,2024-04-28T10:15:00Z,2024,FC Eindhoven,Telstar,1.0,1.0,,,ESPN scoreboard
+675955,2024-04-28T14:45:00Z,2024,NAC Breda,Jong PSV,2.0,0.0,,,ESPN scoreboard
+675953,2024-04-29T18:00:00Z,2024,FC Emmen,Helmond Sport,3.0,0.0,,,ESPN scoreboard
+675956,2024-04-29T18:00:00Z,2024,Jong FC Utrecht,ADO Den Haag,0.0,2.0,,,ESPN scoreboard
+675959,2024-05-03T18:00:00Z,2024,De Graafschap,Jong FC Utrecht,2.0,2.0,,,ESPN scoreboard
+675960,2024-05-03T18:00:00Z,2024,FC Den Bosch,FC Emmen,1.0,2.0,,,ESPN scoreboard
+675958,2024-05-03T18:00:00Z,2024,FC Dordrecht,Willem II,1.0,1.0,,,ESPN scoreboard
+675957,2024-05-03T18:00:00Z,2024,Helmond Sport,FC Eindhoven,2.0,0.0,,,ESPN scoreboard
+675961,2024-05-03T18:00:00Z,2024,Jong AZ,MVV Maastricht,2.0,3.0,,,ESPN scoreboard
+675966,2024-05-03T18:00:00Z,2024,Jong PSV,TOP Oss,4.0,1.0,,,ESPN scoreboard
+675965,2024-05-03T18:00:00Z,2024,NAC Breda,ADO Den Haag,2.0,2.0,,,ESPN scoreboard
+675964,2024-05-03T18:00:00Z,2024,Roda JC Kerkrade,SC Cambuur,2.0,0.0,,,ESPN scoreboard
+675963,2024-05-03T18:00:00Z,2024,Telstar,FC Groningen,1.0,1.0,,,ESPN scoreboard
+675962,2024-05-03T18:00:00Z,2024,VVV-Venlo,Jong Ajax,2.0,0.0,,,ESPN scoreboard
+675967,2024-05-10T18:00:00Z,2024,ADO Den Haag,Jong PSV,2.0,3.0,,,ESPN scoreboard
+675975,2024-05-10T18:00:00Z,2024,FC Eindhoven,FC Den Bosch,2.0,0.0,,,ESPN scoreboard
+675974,2024-05-10T18:00:00Z,2024,FC Emmen,De Graafschap,2.0,1.0,,,ESPN scoreboard
+675973,2024-05-10T18:00:00Z,2024,FC Groningen,Roda JC Kerkrade,2.0,0.0,,,ESPN scoreboard
+675971,2024-05-10T18:00:00Z,2024,Jong Ajax,Jong AZ,1.0,4.0,,,ESPN scoreboard
+675976,2024-05-10T18:00:00Z,2024,Jong FC Utrecht,FC Dordrecht,1.0,1.0,,,ESPN scoreboard
+675970,2024-05-10T18:00:00Z,2024,MVV Maastricht,VVV-Venlo,2.0,0.0,,,ESPN scoreboard
+675969,2024-05-10T18:00:00Z,2024,SC Cambuur,Helmond Sport,1.0,1.0,,,ESPN scoreboard
+675968,2024-05-10T18:00:00Z,2024,TOP Oss,NAC Breda,1.0,1.0,,,ESPN scoreboard
+675972,2024-05-10T18:00:00Z,2024,Willem II,Telstar,3.0,2.0,,,ESPN scoreboard
+705513,2024-08-09T18:00:00Z,2024,FC Eindhoven,FC Den Bosch,2.0,0.0,,,ESPN scoreboard
+705514,2024-08-09T18:00:00Z,2024,FC Emmen,FC Dordrecht,1.0,2.0,,,ESPN scoreboard
+705515,2024-08-09T18:00:00Z,2024,Helmond Sport,Jong FC Utrecht,1.0,1.0,,,ESPN scoreboard
+705516,2024-08-09T18:00:00Z,2024,MVV Maastricht,SC Cambuur,0.0,1.0,,,ESPN scoreboard
+705517,2024-08-09T18:00:00Z,2024,TOP Oss,Excelsior,3.0,1.0,,,ESPN scoreboard
+705518,2024-08-09T18:00:00Z,2024,Vitesse,Telstar,2.0,3.0,,,ESPN scoreboard
+705519,2024-08-10T14:30:00Z,2024,ADO Den Haag,VVV-Venlo,1.0,1.0,,,ESPN scoreboard
+705520,2024-08-11T14:45:00Z,2024,De Graafschap,FC Volendam,4.0,3.0,,,ESPN scoreboard
+705521,2024-08-12T18:00:00Z,2024,Jong AZ,Roda JC Kerkrade,6.0,1.0,,,ESPN scoreboard
+705522,2024-08-12T18:00:00Z,2024,Jong PSV,Jong Ajax,2.0,2.0,,,ESPN scoreboard
+705523,2024-08-16T18:00:00Z,2024,Excelsior,De Graafschap,3.0,1.0,,,ESPN scoreboard
+705525,2024-08-16T18:00:00Z,2024,Jong FC Utrecht,Jong PSV,0.0,2.0,,,ESPN scoreboard
+705526,2024-08-16T18:00:00Z,2024,Roda JC Kerkrade,TOP Oss,0.0,0.0,,,ESPN scoreboard
+705528,2024-08-16T18:00:00Z,2024,Telstar,FC Eindhoven,0.0,3.0,,,ESPN scoreboard
+705529,2024-08-16T18:00:00Z,2024,VVV-Venlo,Vitesse,0.0,1.0,,,ESPN scoreboard
+705524,2024-08-16T18:15:00Z,2024,FC Den Bosch,Jong AZ,6.0,0.0,,,ESPN scoreboard
+705530,2024-08-17T14:30:00Z,2024,FC Dordrecht,ADO Den Haag,1.0,1.0,,,ESPN scoreboard
+705527,2024-08-18T10:15:00Z,2024,SC Cambuur,Helmond Sport,0.0,1.0,,,ESPN scoreboard
+705531,2024-08-18T14:45:00Z,2024,FC Volendam,FC Emmen,0.0,1.0,,,ESPN scoreboard
+705532,2024-08-19T18:00:00Z,2024,Jong Ajax,MVV Maastricht,0.0,0.0,,,ESPN scoreboard
+705533,2024-08-23T18:00:00Z,2024,ADO Den Haag,FC Volendam,2.0,1.0,,,ESPN scoreboard
+705534,2024-08-23T18:00:00Z,2024,De Graafschap,Jong FC Utrecht,2.0,2.0,,,ESPN scoreboard
+705535,2024-08-23T18:00:00Z,2024,FC Den Bosch,MVV Maastricht,1.0,1.0,,,ESPN scoreboard
+705536,2024-08-23T18:00:00Z,2024,FC Emmen,Helmond Sport,0.0,0.0,,,ESPN scoreboard
+705537,2024-08-23T18:00:00Z,2024,TOP Oss,SC Cambuur,1.0,0.0,,,ESPN scoreboard
+705539,2024-08-24T14:30:00Z,2024,FC Eindhoven,Jong Ajax,0.0,3.0,,,ESPN scoreboard
+705538,2024-08-25T10:15:00Z,2024,Vitesse,Excelsior,1.0,1.0,,,ESPN scoreboard
+705540,2024-08-25T14:45:00Z,2024,VVV-Venlo,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+705541,2024-08-26T18:00:00Z,2024,Jong AZ,FC Dordrecht,3.0,1.0,,,ESPN scoreboard
+705542,2024-08-26T18:00:00Z,2024,Jong PSV,Telstar,0.0,2.0,,,ESPN scoreboard
+705543,2024-08-30T18:00:00Z,2024,ADO Den Haag,Excelsior,0.0,5.0,,,ESPN scoreboard
+705544,2024-08-30T18:00:00Z,2024,FC Dordrecht,SC Cambuur,2.0,0.0,,,ESPN scoreboard
+705545,2024-08-30T18:00:00Z,2024,Helmond Sport,VVV-Venlo,3.0,0.0,,,ESPN scoreboard
+705546,2024-08-30T18:00:00Z,2024,Jong Ajax,FC Den Bosch,1.0,2.0,,,ESPN scoreboard
+705547,2024-08-30T18:00:00Z,2024,Jong FC Utrecht,FC Emmen,1.0,2.0,,,ESPN scoreboard
+705548,2024-08-30T18:00:00Z,2024,MVV Maastricht,Jong PSV,3.0,2.0,,,ESPN scoreboard
+705549,2024-08-30T18:00:00Z,2024,Telstar,Jong AZ,0.0,0.0,,,ESPN scoreboard
+705550,2024-08-30T18:00:00Z,2024,Vitesse,FC Eindhoven,1.0,1.0,,,ESPN scoreboard
+705551,2024-08-31T14:30:00Z,2024,FC Volendam,TOP Oss,4.0,0.0,,,ESPN scoreboard
+705552,2024-09-01T14:45:00Z,2024,Roda JC Kerkrade,De Graafschap,1.0,4.0,,,ESPN scoreboard
+705553,2024-09-06T18:00:00Z,2024,De Graafschap,FC Eindhoven,2.0,0.0,,,ESPN scoreboard
+705554,2024-09-08T12:30:00Z,2024,Telstar,MVV Maastricht,4.0,0.0,,,ESPN scoreboard
+705555,2024-09-13T18:00:00Z,2024,De Graafschap,Helmond Sport,2.0,3.0,,,ESPN scoreboard
+705560,2024-09-13T18:00:00Z,2024,Excelsior,Telstar,3.0,2.0,,,ESPN scoreboard
+705561,2024-09-13T18:00:00Z,2024,FC Den Bosch,ADO Den Haag,2.0,0.0,,,ESPN scoreboard
+705562,2024-09-13T18:00:00Z,2024,FC Eindhoven,FC Dordrecht,0.0,0.0,,,ESPN scoreboard
+705563,2024-09-13T18:00:00Z,2024,FC Emmen,Roda JC Kerkrade,1.0,3.0,,,ESPN scoreboard
+705556,2024-09-13T18:00:00Z,2024,Jong AZ,Vitesse,0.0,1.0,,,ESPN scoreboard
+705557,2024-09-13T18:00:00Z,2024,MVV Maastricht,FC Volendam,2.0,2.0,,,ESPN scoreboard
+705558,2024-09-13T18:00:00Z,2024,SC Cambuur,Jong Ajax,0.0,1.0,,,ESPN scoreboard
+705559,2024-09-13T18:00:00Z,2024,TOP Oss,Jong PSV,0.0,3.0,,,ESPN scoreboard
+705564,2024-09-13T18:00:00Z,2024,VVV-Venlo,Jong FC Utrecht,3.0,2.0,,,ESPN scoreboard
+705565,2024-09-16T18:00:00Z,2024,Excelsior,VVV-Venlo,4.0,0.0,,,ESPN scoreboard
+705566,2024-09-16T18:00:00Z,2024,FC Emmen,Vitesse,3.0,3.0,,,ESPN scoreboard
+705568,2024-09-16T18:00:00Z,2024,Helmond Sport,TOP Oss,1.0,0.0,,,ESPN scoreboard
+705570,2024-09-16T18:00:00Z,2024,Jong FC Utrecht,FC Den Bosch,0.0,3.0,,,ESPN scoreboard
+705571,2024-09-16T18:00:00Z,2024,Jong PSV,ADO Den Haag,2.0,2.0,,,ESPN scoreboard
+705572,2024-09-16T18:00:00Z,2024,SC Cambuur,Roda JC Kerkrade,0.0,0.0,,,ESPN scoreboard
+705567,2024-09-17T18:00:00Z,2024,FC Volendam,FC Dordrecht,2.0,0.0,,,ESPN scoreboard
+705569,2024-09-17T18:00:00Z,2024,Jong Ajax,Jong AZ,1.0,2.0,,,ESPN scoreboard
+705573,2024-09-20T18:00:00Z,2024,ADO Den Haag,Telstar,1.0,1.0,,,ESPN scoreboard
+705574,2024-09-20T18:00:00Z,2024,FC Den Bosch,FC Emmen,1.0,0.0,,,ESPN scoreboard
+705575,2024-09-20T18:00:00Z,2024,FC Dordrecht,Excelsior,2.0,2.0,,,ESPN scoreboard
+705576,2024-09-20T18:00:00Z,2024,Helmond Sport,FC Volendam,2.0,3.0,,,ESPN scoreboard
+705577,2024-09-20T18:00:00Z,2024,VVV-Venlo,Jong PSV,0.0,2.0,,,ESPN scoreboard
+705578,2024-09-21T14:30:00Z,2024,Roda JC Kerkrade,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+705579,2024-09-21T16:45:00Z,2024,Vitesse,Jong Ajax,2.0,2.0,,,ESPN scoreboard
+705580,2024-09-22T14:45:00Z,2024,TOP Oss,FC Eindhoven,0.0,4.0,,,ESPN scoreboard
+705581,2024-09-23T18:00:00Z,2024,Jong AZ,De Graafschap,2.0,2.0,,,ESPN scoreboard
+705582,2024-09-23T18:00:00Z,2024,Jong FC Utrecht,SC Cambuur,0.0,4.0,,,ESPN scoreboard
+705583,2024-09-27T18:00:00Z,2024,ADO Den Haag,Jong FC Utrecht,1.0,1.0,,,ESPN scoreboard
+705584,2024-09-27T18:00:00Z,2024,Excelsior,Jong AZ,4.0,2.0,,,ESPN scoreboard
+705585,2024-09-27T18:00:00Z,2024,FC Eindhoven,Roda JC Kerkrade,0.0,0.0,,,ESPN scoreboard
+705586,2024-09-27T18:00:00Z,2024,FC Volendam,VVV-Venlo,2.0,4.0,,,ESPN scoreboard
+705587,2024-09-27T18:00:00Z,2024,MVV Maastricht,TOP Oss,2.0,2.0,,,ESPN scoreboard
+705592,2024-09-28T14:30:00Z,2024,Telstar,FC Den Bosch,0.0,0.0,,,ESPN scoreboard
+705588,2024-09-29T12:30:00Z,2024,De Graafschap,Vitesse,3.0,1.0,,,ESPN scoreboard
+705589,2024-09-29T14:45:00Z,2024,SC Cambuur,FC Emmen,1.0,3.0,,,ESPN scoreboard
+705590,2024-09-30T18:00:00Z,2024,Jong Ajax,FC Dordrecht,0.0,1.0,,,ESPN scoreboard
+705591,2024-09-30T18:00:00Z,2024,Jong PSV,Helmond Sport,1.0,3.0,,,ESPN scoreboard
+705601,2024-10-04T18:00:00Z,2024,FC Den Bosch,De Graafschap,2.0,2.0,,,ESPN scoreboard
+705594,2024-10-04T18:00:00Z,2024,FC Dordrecht,Jong PSV,2.0,0.0,,,ESPN scoreboard
+705595,2024-10-04T18:00:00Z,2024,FC Emmen,MVV Maastricht,1.0,1.0,,,ESPN scoreboard
+705596,2024-10-04T18:00:00Z,2024,Helmond Sport,Jong Ajax,1.0,1.0,,,ESPN scoreboard
+705597,2024-10-04T18:00:00Z,2024,Jong AZ,FC Eindhoven,2.0,3.0,,,ESPN scoreboard
+705598,2024-10-04T18:00:00Z,2024,Jong FC Utrecht,Telstar,1.0,1.0,,,ESPN scoreboard
+705600,2024-10-04T18:00:00Z,2024,Roda JC Kerkrade,Excelsior,3.0,0.0,,,ESPN scoreboard
+705602,2024-10-04T18:00:00Z,2024,TOP Oss,ADO Den Haag,1.0,5.0,,,ESPN scoreboard
+705593,2024-10-04T18:00:00Z,2024,Vitesse,FC Volendam,1.0,2.0,,,ESPN scoreboard
+705599,2024-10-04T18:00:00Z,2024,VVV-Venlo,SC Cambuur,0.0,1.0,,,ESPN scoreboard
+705603,2024-10-12T18:00:00Z,2024,Telstar,De Graafschap,2.0,2.0,,,ESPN scoreboard
+705604,2024-10-13T12:30:00Z,2024,MVV Maastricht,VVV-Venlo,2.0,0.0,,,ESPN scoreboard
+705605,2024-10-18T18:00:00Z,2024,ADO Den Haag,Roda JC Kerkrade,3.0,0.0,,,ESPN scoreboard
+705606,2024-10-18T18:00:00Z,2024,De Graafschap,Jong PSV,3.0,1.0,,,ESPN scoreboard
+705607,2024-10-18T18:00:00Z,2024,Excelsior,MVV Maastricht,3.0,2.0,,,ESPN scoreboard
+705608,2024-10-18T18:00:00Z,2024,FC Den Bosch,Vitesse,4.0,2.0,,,ESPN scoreboard
+705609,2024-10-18T18:00:00Z,2024,FC Eindhoven,FC Emmen,0.0,3.0,,,ESPN scoreboard
+705611,2024-10-18T18:00:00Z,2024,Jong Ajax,Jong FC Utrecht,0.0,0.0,,,ESPN scoreboard
+705610,2024-10-18T18:00:00Z,2024,Jong AZ,Helmond Sport,2.0,3.0,,,ESPN scoreboard
+705612,2024-10-18T18:00:00Z,2024,SC Cambuur,FC Volendam,1.0,2.0,,,ESPN scoreboard
+705613,2024-10-18T18:00:00Z,2024,TOP Oss,Telstar,1.0,1.0,,,ESPN scoreboard
+705614,2024-10-18T18:00:00Z,2024,VVV-Venlo,FC Dordrecht,2.0,3.0,,,ESPN scoreboard
+705618,2024-10-21T18:00:00Z,2024,Helmond Sport,Roda JC Kerkrade,2.0,1.0,,,ESPN scoreboard
+705619,2024-10-21T18:00:00Z,2024,Jong Ajax,ADO Den Haag,0.0,0.0,,,ESPN scoreboard
+705621,2024-10-21T18:00:00Z,2024,Jong PSV,Excelsior,1.0,3.0,,,ESPN scoreboard
+705622,2024-10-21T18:00:00Z,2024,SC Cambuur,FC Eindhoven,2.0,0.0,,,ESPN scoreboard
+705615,2024-10-22T18:00:00Z,2024,FC Dordrecht,Vitesse,2.0,2.0,,,ESPN scoreboard
+705616,2024-10-22T18:00:00Z,2024,FC Emmen,TOP Oss,2.0,0.0,,,ESPN scoreboard
+705617,2024-10-22T18:00:00Z,2024,FC Volendam,FC Den Bosch,3.0,2.0,,,ESPN scoreboard
+705620,2024-10-22T18:00:00Z,2024,Jong FC Utrecht,Jong AZ,0.0,1.0,,,ESPN scoreboard
+705623,2024-10-25T18:00:00Z,2024,ADO Den Haag,De Graafschap,1.0,2.0,,,ESPN scoreboard
+705626,2024-10-25T18:00:00Z,2024,FC Dordrecht,Jong FC Utrecht,3.0,1.0,,,ESPN scoreboard
+705628,2024-10-25T18:00:00Z,2024,FC Volendam,FC Eindhoven,4.0,1.0,,,ESPN scoreboard
+705629,2024-10-25T18:00:00Z,2024,Roda JC Kerkrade,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+705630,2024-10-25T18:00:00Z,2024,TOP Oss,Jong AZ,2.0,1.0,,,ESPN scoreboard
+705625,2024-10-25T18:00:00Z,2024,Vitesse,Jong PSV,1.0,3.0,,,ESPN scoreboard
+705624,2024-10-25T18:00:00Z,2024,VVV-Venlo,FC Den Bosch,1.0,2.0,,,ESPN scoreboard
+705631,2024-10-26T14:30:00Z,2024,Excelsior,SC Cambuur,0.0,1.0,,,ESPN scoreboard
+705627,2024-10-27T11:15:00Z,2024,FC Emmen,Telstar,0.0,1.0,,,ESPN scoreboard
+705632,2024-10-27T15:45:00Z,2024,MVV Maastricht,Helmond Sport,1.0,2.0,,,ESPN scoreboard
+705633,2024-11-01T19:00:00Z,2024,De Graafschap,FC Dordrecht,4.0,1.0,,,ESPN scoreboard
+705634,2024-11-01T19:00:00Z,2024,FC Eindhoven,ADO Den Haag,0.0,4.0,,,ESPN scoreboard
+705636,2024-11-01T19:00:00Z,2024,Jong Ajax,VVV-Venlo,0.0,1.0,,,ESPN scoreboard
+705635,2024-11-01T19:00:00Z,2024,Jong AZ,SC Cambuur,2.0,3.0,,,ESPN scoreboard
+705639,2024-11-02T15:30:00Z,2024,FC Den Bosch,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+705638,2024-11-02T15:30:00Z,2024,Vitesse,TOP Oss,0.0,0.0,,,ESPN scoreboard
+705637,2024-11-03T13:30:00Z,2024,Telstar,FC Volendam,2.0,2.0,,,ESPN scoreboard
+705640,2024-11-03T15:45:00Z,2024,Helmond Sport,Excelsior,0.0,1.0,,,ESPN scoreboard
+705641,2024-11-04T19:00:00Z,2024,Jong FC Utrecht,MVV Maastricht,4.0,3.0,,,ESPN scoreboard
+705642,2024-11-04T19:15:00Z,2024,Jong PSV,FC Emmen,2.0,3.0,,,ESPN scoreboard
+705643,2024-11-08T19:00:00Z,2024,ADO Den Haag,Vitesse,2.0,0.0,,,ESPN scoreboard
+705650,2024-11-08T19:00:00Z,2024,Excelsior,FC Eindhoven,2.0,0.0,,,ESPN scoreboard
+705646,2024-11-08T19:00:00Z,2024,FC Emmen,Jong Ajax,4.0,2.0,,,ESPN scoreboard
+705645,2024-11-08T19:00:00Z,2024,FC Volendam,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+705644,2024-11-08T19:00:00Z,2024,MVV Maastricht,De Graafschap,0.0,0.0,,,ESPN scoreboard
+705649,2024-11-08T19:00:00Z,2024,SC Cambuur,Jong PSV,1.0,0.0,,,ESPN scoreboard
+705648,2024-11-08T19:00:00Z,2024,TOP Oss,FC Den Bosch,1.0,0.0,,,ESPN scoreboard
+705647,2024-11-08T19:00:00Z,2024,VVV-Venlo,Jong AZ,0.0,1.0,,,ESPN scoreboard
+705651,2024-11-09T15:30:00Z,2024,Roda JC Kerkrade,Telstar,1.0,0.0,,,ESPN scoreboard
+705652,2024-11-10T15:45:00Z,2024,FC Dordrecht,Helmond Sport,4.0,0.0,,,ESPN scoreboard
+705653,2024-11-15T19:00:00Z,2024,Telstar,VVV-Venlo,4.0,0.0,,,ESPN scoreboard
+705654,2024-11-17T13:30:00Z,2024,FC Eindhoven,MVV Maastricht,1.0,1.0,,,ESPN scoreboard
+705655,2024-11-22T19:00:00Z,2024,De Graafschap,TOP Oss,4.0,0.0,,,ESPN scoreboard
+705656,2024-11-22T19:00:00Z,2024,FC Den Bosch,Excelsior,0.0,3.0,,,ESPN scoreboard
+705657,2024-11-22T19:00:00Z,2024,Helmond Sport,FC Eindhoven,3.0,4.0,,,ESPN scoreboard
+705659,2024-11-22T19:00:00Z,2024,Jong Ajax,Telstar,3.0,0.0,,,ESPN scoreboard
+705658,2024-11-22T19:00:00Z,2024,Jong AZ,ADO Den Haag,3.0,3.0,,,ESPN scoreboard
+705660,2024-11-22T19:00:00Z,2024,Jong FC Utrecht,Roda JC Kerkrade,1.0,3.0,,,ESPN scoreboard
+705661,2024-11-22T19:00:00Z,2024,Jong PSV,FC Volendam,1.0,4.0,,,ESPN scoreboard
+705662,2024-11-22T19:00:00Z,2024,MVV Maastricht,FC Dordrecht,2.0,1.0,,,ESPN scoreboard
+705664,2024-11-22T19:00:00Z,2024,Vitesse,SC Cambuur,0.0,6.0,,,ESPN scoreboard
+705663,2024-11-22T19:00:00Z,2024,VVV-Venlo,FC Emmen,0.0,2.0,,,ESPN scoreboard
+705665,2024-11-25T19:00:00Z,2024,FC Dordrecht,TOP Oss,2.0,2.0,,,ESPN scoreboard
+705666,2024-11-25T19:00:00Z,2024,FC Emmen,De Graafschap,3.0,0.0,,,ESPN scoreboard
+705667,2024-11-25T19:00:00Z,2024,FC Volendam,Jong Ajax,3.0,0.0,,,ESPN scoreboard
+705668,2024-11-25T19:00:00Z,2024,Helmond Sport,ADO Den Haag,2.0,1.0,,,ESPN scoreboard
+705670,2024-11-25T19:00:00Z,2024,Jong PSV,Jong AZ,2.0,1.0,,,ESPN scoreboard
+705669,2024-11-26T19:00:00Z,2024,Jong FC Utrecht,Excelsior,0.0,0.0,,,ESPN scoreboard
+705671,2024-11-26T19:00:00Z,2024,Roda JC Kerkrade,Vitesse,3.0,0.0,,,ESPN scoreboard
+705672,2024-11-26T19:00:00Z,2024,SC Cambuur,FC Den Bosch,1.0,2.0,,,ESPN scoreboard
+705677,2024-11-29T19:00:00Z,2024,ADO Den Haag,FC Emmen,2.0,1.0,,,ESPN scoreboard
+705679,2024-11-29T19:00:00Z,2024,Excelsior,Jong Ajax,2.0,0.0,,,ESPN scoreboard
+705673,2024-11-29T19:00:00Z,2024,FC Eindhoven,Jong PSV,1.0,0.0,,,ESPN scoreboard
+705674,2024-11-29T19:00:00Z,2024,Roda JC Kerkrade,FC Volendam,1.0,1.0,,,ESPN scoreboard
+705675,2024-11-29T19:00:00Z,2024,Telstar,SC Cambuur,2.0,2.0,,,ESPN scoreboard
+705676,2024-11-29T19:00:00Z,2024,Vitesse,Helmond Sport,2.0,1.0,,,ESPN scoreboard
+705680,2024-11-30T15:30:00Z,2024,TOP Oss,Jong FC Utrecht,1.0,1.0,,,ESPN scoreboard
+705678,2024-12-01T11:15:00Z,2024,De Graafschap,VVV-Venlo,3.0,1.0,,,ESPN scoreboard
+705681,2024-12-01T15:45:00Z,2024,FC Den Bosch,FC Dordrecht,2.0,3.0,,,ESPN scoreboard
+705682,2024-12-02T19:00:00Z,2024,Jong AZ,MVV Maastricht,2.0,3.0,,,ESPN scoreboard
+705683,2024-12-06T19:00:00Z,2024,FC Dordrecht,Telstar,3.0,2.0,,,ESPN scoreboard
+705684,2024-12-06T19:00:00Z,2024,FC Volendam,Jong AZ,2.0,0.0,,,ESPN scoreboard
+705685,2024-12-06T19:00:00Z,2024,Helmond Sport,FC Den Bosch,0.0,0.0,,,ESPN scoreboard
+705686,2024-12-06T19:00:00Z,2024,MVV Maastricht,Vitesse,2.0,2.0,,,ESPN scoreboard
+705687,2024-12-06T19:00:00Z,2024,VVV-Venlo,TOP Oss,0.0,0.0,,,ESPN scoreboard
+705688,2024-12-07T15:30:00Z,2024,SC Cambuur,ADO Den Haag,2.0,1.0,,,ESPN scoreboard
+705689,2024-12-08T15:45:00Z,2024,FC Emmen,Excelsior,1.0,1.0,,,ESPN scoreboard
+705690,2024-12-09T19:00:00Z,2024,Jong Ajax,De Graafschap,2.0,0.0,,,ESPN scoreboard
+705691,2024-12-09T19:00:00Z,2024,Jong FC Utrecht,FC Eindhoven,0.0,4.0,,,ESPN scoreboard
+705692,2024-12-09T19:00:00Z,2024,Jong PSV,Roda JC Kerkrade,2.0,3.0,,,ESPN scoreboard
+705693,2024-12-13T19:00:00Z,2024,ADO Den Haag,MVV Maastricht,2.0,0.0,,,ESPN scoreboard
+705694,2024-12-13T19:00:00Z,2024,De Graafschap,SC Cambuur,0.0,2.0,,,ESPN scoreboard
+705695,2024-12-13T19:00:00Z,2024,Excelsior,FC Volendam,0.0,0.0,,,ESPN scoreboard
+705696,2024-12-13T19:00:00Z,2024,FC Den Bosch,Jong PSV,1.0,1.0,,,ESPN scoreboard
+705697,2024-12-13T19:00:00Z,2024,FC Eindhoven,VVV-Venlo,1.0,3.0,,,ESPN scoreboard
+705698,2024-12-13T19:00:00Z,2024,Jong AZ,FC Emmen,1.0,1.0,,,ESPN scoreboard
+705699,2024-12-13T19:00:00Z,2024,Roda JC Kerkrade,FC Dordrecht,0.0,1.0,,,ESPN scoreboard
+705701,2024-12-13T19:00:00Z,2024,Telstar,Helmond Sport,3.0,0.0,,,ESPN scoreboard
+705700,2024-12-13T19:00:00Z,2024,TOP Oss,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+705702,2024-12-13T19:00:00Z,2024,Vitesse,Jong FC Utrecht,2.0,1.0,,,ESPN scoreboard
+705703,2024-12-20T19:00:00Z,2024,FC Dordrecht,FC Eindhoven,3.0,3.0,,,ESPN scoreboard
+705704,2024-12-20T19:00:00Z,2024,FC Emmen,FC Den Bosch,0.0,3.0,,,ESPN scoreboard
+705711,2024-12-20T19:00:00Z,2024,Jong FC Utrecht,Helmond Sport,3.0,1.0,,,ESPN scoreboard
+705712,2024-12-20T19:00:00Z,2024,Jong PSV,Vitesse,6.0,4.0,,,ESPN scoreboard
+705707,2024-12-20T19:00:00Z,2024,SC Cambuur,Jong AZ,0.0,2.0,,,ESPN scoreboard
+705708,2024-12-21T15:30:00Z,2024,VVV-Venlo,Excelsior,1.0,1.0,,,ESPN scoreboard
+705705,2024-12-22T13:30:00Z,2024,FC Volendam,De Graafschap,2.0,1.0,,,ESPN scoreboard
+705706,2024-12-22T13:30:00Z,2024,MVV Maastricht,Telstar,5.0,1.0,,,ESPN scoreboard
+705709,2024-12-22T15:45:00Z,2024,ADO Den Haag,TOP Oss,1.0,0.0,,,ESPN scoreboard
+705710,2024-12-23T19:00:00Z,2024,Jong Ajax,Roda JC Kerkrade,3.0,1.0,,,ESPN scoreboard
+705714,2025-01-10T19:00:00Z,2025,Excelsior,FC Dordrecht,1.0,0.0,,,ESPN scoreboard
+705720,2025-01-10T19:00:00Z,2025,FC Eindhoven,FC Volendam,1.0,3.0,,,ESPN scoreboard
+705718,2025-01-10T19:00:00Z,2025,TOP Oss,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+705719,2025-01-12T11:15:00Z,2025,Telstar,Jong PSV,1.0,0.0,,,ESPN scoreboard
+705721,2025-01-12T15:45:00Z,2025,Vitesse,VVV-Venlo,1.0,4.0,,,ESPN scoreboard
+705722,2025-01-13T19:00:00Z,2025,Jong AZ,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+705723,2025-01-17T19:00:00Z,2025,ADO Den Haag,Helmond Sport,3.0,1.0,,,ESPN scoreboard
+705724,2025-01-17T19:00:00Z,2025,FC Dordrecht,Jong AZ,1.0,1.0,,,ESPN scoreboard
+705725,2025-01-17T19:00:00Z,2025,FC Volendam,Vitesse,4.0,0.0,,,ESPN scoreboard
+705726,2025-01-17T19:00:00Z,2025,SC Cambuur,Excelsior,1.0,0.0,,,ESPN scoreboard
+705727,2025-01-17T19:00:00Z,2025,TOP Oss,Roda JC Kerkrade,0.0,2.0,,,ESPN scoreboard
+705728,2025-01-17T19:00:00Z,2025,VVV-Venlo,Telstar,1.0,0.0,,,ESPN scoreboard
+705729,2025-01-18T15:30:00Z,2025,MVV Maastricht,FC Den Bosch,5.0,0.0,,,ESPN scoreboard
+705730,2025-01-19T15:45:00Z,2025,FC Emmen,FC Eindhoven,1.0,2.0,,,ESPN scoreboard
+705731,2025-01-20T19:00:00Z,2025,Jong Ajax,Jong PSV,4.0,0.0,,,ESPN scoreboard
+705732,2025-01-20T19:00:00Z,2025,Jong FC Utrecht,De Graafschap,1.0,1.0,,,ESPN scoreboard
+705717,2025-01-20T19:00:00Z,2025,Roda JC Kerkrade,SC Cambuur,0.0,1.0,,,ESPN scoreboard
+705733,2025-01-24T19:00:00Z,2025,De Graafschap,FC Emmen,4.0,0.0,,,ESPN scoreboard
+705734,2025-01-24T19:00:00Z,2025,FC Den Bosch,TOP Oss,1.0,0.0,,,ESPN scoreboard
+705735,2025-01-24T19:00:00Z,2025,FC Eindhoven,SC Cambuur,4.0,2.0,,,ESPN scoreboard
+705736,2025-01-24T19:00:00Z,2025,FC Volendam,MVV Maastricht,3.0,1.0,,,ESPN scoreboard
+705737,2025-01-24T19:00:00Z,2025,Roda JC Kerkrade,Jong FC Utrecht,3.0,0.0,,,ESPN scoreboard
+705738,2025-01-24T19:00:00Z,2025,Vitesse,FC Dordrecht,0.0,3.0,,,ESPN scoreboard
+705739,2025-01-25T15:30:00Z,2025,Telstar,Jong Ajax,3.0,0.0,,,ESPN scoreboard
+705740,2025-01-26T11:15:00Z,2025,Excelsior,ADO Den Haag,1.0,0.0,,,ESPN scoreboard
+705741,2025-01-26T15:45:00Z,2025,Helmond Sport,Jong AZ,2.0,1.0,,,ESPN scoreboard
+705715,2025-01-27T19:00:00Z,2025,FC Den Bosch,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+705742,2025-01-27T19:00:00Z,2025,Jong PSV,VVV-Venlo,1.0,2.0,,,ESPN scoreboard
+705743,2025-01-31T19:00:00Z,2025,ADO Den Haag,FC Eindhoven,2.0,1.0,,,ESPN scoreboard
+705744,2025-01-31T19:00:00Z,2025,FC Den Bosch,FC Volendam,3.0,0.0,,,ESPN scoreboard
+705745,2025-01-31T19:00:00Z,2025,FC Dordrecht,De Graafschap,1.0,1.0,,,ESPN scoreboard
+705746,2025-01-31T19:00:00Z,2025,FC Emmen,Jong PSV,4.0,2.0,,,ESPN scoreboard
+705747,2025-01-31T19:00:00Z,2025,SC Cambuur,Telstar,2.0,1.0,,,ESPN scoreboard
+705748,2025-02-01T15:30:00Z,2025,Excelsior,Vitesse,1.0,3.0,,,ESPN scoreboard
+705749,2025-02-01T17:45:00Z,2025,MVV Maastricht,Roda JC Kerkrade,3.0,2.0,,,ESPN scoreboard
+705750,2025-02-02T15:45:00Z,2025,TOP Oss,Helmond Sport,1.0,1.0,,,ESPN scoreboard
+705713,2025-02-03T19:00:00Z,2025,De Graafschap,ADO Den Haag,1.0,2.0,,,ESPN scoreboard
+705751,2025-02-03T19:15:00Z,2025,Jong AZ,VVV-Venlo,3.0,0.0,,,ESPN scoreboard
+705753,2025-02-07T19:00:00Z,2025,De Graafschap,FC Den Bosch,1.0,0.0,,,ESPN scoreboard
+705755,2025-02-07T19:00:00Z,2025,FC Eindhoven,TOP Oss,3.0,0.0,,,ESPN scoreboard
+705754,2025-02-07T19:00:00Z,2025,Roda JC Kerkrade,Jong AZ,3.0,3.0,,,ESPN scoreboard
+705756,2025-02-07T19:10:00Z,2025,FC Volendam,ADO Den Haag,1.0,2.0,,,ESPN scoreboard
+705757,2025-02-08T15:30:00Z,2025,Helmond Sport,FC Dordrecht,0.0,1.0,,,ESPN scoreboard
+705758,2025-02-09T11:15:00Z,2025,VVV-Venlo,MVV Maastricht,0.0,0.0,,,ESPN scoreboard
+705759,2025-02-09T15:45:00Z,2025,Telstar,Jong FC Utrecht,6.0,0.0,,,ESPN scoreboard
+705761,2025-02-10T19:00:00Z,2025,Jong Ajax,Excelsior,3.0,2.0,,,ESPN scoreboard
+705762,2025-02-10T19:00:00Z,2025,Jong PSV,SC Cambuur,1.0,4.0,,,ESPN scoreboard
+705760,2025-02-10T19:00:00Z,2025,Vitesse,FC Emmen,2.0,0.0,,,ESPN scoreboard
+705764,2025-02-14T19:00:00Z,2025,ADO Den Haag,Jong Ajax,1.0,0.0,,,ESPN scoreboard
+705766,2025-02-14T19:00:00Z,2025,FC Den Bosch,Telstar,0.0,1.0,,,ESPN scoreboard
+705770,2025-02-14T19:00:00Z,2025,FC Dordrecht,Roda JC Kerkrade,2.0,1.0,,,ESPN scoreboard
+705765,2025-02-14T19:00:00Z,2025,MVV Maastricht,FC Eindhoven,2.0,0.0,,,ESPN scoreboard
+705767,2025-02-14T19:00:00Z,2025,SC Cambuur,TOP Oss,1.0,1.0,,,ESPN scoreboard
+705768,2025-02-15T15:30:00Z,2025,FC Emmen,FC Volendam,1.0,2.0,,,ESPN scoreboard
+705769,2025-02-16T11:15:00Z,2025,Vitesse,De Graafschap,2.0,0.0,,,ESPN scoreboard
+705763,2025-02-16T15:45:00Z,2025,Excelsior,Helmond Sport,1.0,1.0,,,ESPN scoreboard
+705775,2025-02-21T19:00:00Z,2025,De Graafschap,Jong AZ,5.0,1.0,,,ESPN scoreboard
+705773,2025-02-21T19:00:00Z,2025,Helmond Sport,Vitesse,3.0,0.0,,,ESPN scoreboard
+705778,2025-02-21T19:00:00Z,2025,Roda JC Kerkrade,FC Den Bosch,0.0,0.0,,,ESPN scoreboard
+705776,2025-02-21T19:00:00Z,2025,Telstar,Excelsior,1.0,3.0,,,ESPN scoreboard
+705777,2025-02-21T19:00:00Z,2025,TOP Oss,FC Emmen,0.0,4.0,,,ESPN scoreboard
+705779,2025-02-22T15:30:00Z,2025,VVV-Venlo,FC Volendam,1.0,3.0,,,ESPN scoreboard
+705774,2025-02-23T11:15:00Z,2025,FC Eindhoven,Jong FC Utrecht,1.0,2.0,,,ESPN scoreboard
+705780,2025-02-23T15:45:00Z,2025,MVV Maastricht,ADO Den Haag,1.0,4.0,,,ESPN scoreboard
+705716,2025-02-24T19:00:00Z,2025,Helmond Sport,FC Emmen,1.0,2.0,,,ESPN scoreboard
+705781,2025-02-24T19:00:00Z,2025,Jong Ajax,SC Cambuur,1.0,1.0,,,ESPN scoreboard
+705782,2025-02-24T19:00:00Z,2025,Jong PSV,FC Dordrecht,1.0,2.0,,,ESPN scoreboard
+705783,2025-02-28T19:00:00Z,2025,FC Dordrecht,FC Emmen,3.0,0.0,,,ESPN scoreboard
+705784,2025-02-28T19:00:00Z,2025,FC Volendam,Helmond Sport,3.0,1.0,,,ESPN scoreboard
+705752,2025-02-28T19:00:00Z,2025,Jong FC Utrecht,Jong Ajax,1.0,2.0,,,ESPN scoreboard
+705785,2025-02-28T19:00:00Z,2025,Jong PSV,De Graafschap,1.0,2.0,,,ESPN scoreboard
+705787,2025-02-28T19:00:00Z,2025,SC Cambuur,VVV-Venlo,5.0,0.0,,,ESPN scoreboard
+705786,2025-03-01T15:30:00Z,2025,Vitesse,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+705788,2025-03-02T11:15:00Z,2025,ADO Den Haag,FC Den Bosch,2.0,1.0,,,ESPN scoreboard
+705789,2025-03-02T15:45:00Z,2025,Excelsior,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+705791,2025-03-03T19:00:00Z,2025,Jong Ajax,FC Eindhoven,0.0,2.0,,,ESPN scoreboard
+705790,2025-03-03T19:00:00Z,2025,Jong AZ,Telstar,1.0,2.0,,,ESPN scoreboard
+705792,2025-03-03T19:00:00Z,2025,Jong FC Utrecht,TOP Oss,1.0,1.0,,,ESPN scoreboard
+705793,2025-03-07T19:00:00Z,2025,De Graafschap,Excelsior,2.0,1.0,,,ESPN scoreboard
+705794,2025-03-07T19:00:00Z,2025,FC Den Bosch,SC Cambuur,0.0,2.0,,,ESPN scoreboard
+705795,2025-03-07T19:00:00Z,2025,FC Eindhoven,Vitesse,3.0,3.0,,,ESPN scoreboard
+705796,2025-03-07T19:00:00Z,2025,FC Emmen,ADO Den Haag,0.0,1.0,,,ESPN scoreboard
+705797,2025-03-07T19:00:00Z,2025,Helmond Sport,MVV Maastricht,4.0,0.0,,,ESPN scoreboard
+705798,2025-03-07T19:00:00Z,2025,Jong AZ,Jong FC Utrecht,5.0,1.0,,,ESPN scoreboard
+705799,2025-03-07T19:00:00Z,2025,Roda JC Kerkrade,Jong PSV,2.0,1.0,,,ESPN scoreboard
+705801,2025-03-07T19:00:00Z,2025,Telstar,FC Dordrecht,5.0,0.0,,,ESPN scoreboard
+705800,2025-03-07T19:00:00Z,2025,TOP Oss,FC Volendam,0.0,2.0,,,ESPN scoreboard
+705802,2025-03-07T19:00:00Z,2025,VVV-Venlo,Jong Ajax,1.0,0.0,,,ESPN scoreboard
+705808,2025-03-10T19:00:00Z,2025,Excelsior,FC Den Bosch,3.0,1.0,,,ESPN scoreboard
+705810,2025-03-10T19:00:00Z,2025,Jong FC Utrecht,Vitesse,0.0,2.0,,,ESPN scoreboard
+705809,2025-03-10T19:00:00Z,2025,Jong PSV,TOP Oss,2.0,2.0,,,ESPN scoreboard
+705812,2025-03-10T19:00:00Z,2025,SC Cambuur,FC Dordrecht,1.0,0.0,,,ESPN scoreboard
+705807,2025-03-11T19:00:00Z,2025,ADO Den Haag,Jong AZ,0.0,3.0,,,ESPN scoreboard
+705811,2025-03-11T19:00:00Z,2025,FC Volendam,Telstar,3.0,0.0,,,ESPN scoreboard
+705805,2025-03-11T19:00:00Z,2025,Jong Ajax,FC Emmen,0.0,2.0,,,ESPN scoreboard
+705806,2025-03-11T19:00:00Z,2025,Roda JC Kerkrade,Helmond Sport,3.0,2.0,,,ESPN scoreboard
+705813,2025-03-14T19:00:00Z,2025,FC Dordrecht,VVV-Venlo,4.0,0.0,,,ESPN scoreboard
+705814,2025-03-14T19:00:00Z,2025,FC Eindhoven,Excelsior,1.0,2.0,,,ESPN scoreboard
+705815,2025-03-14T19:00:00Z,2025,FC Emmen,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+705816,2025-03-14T19:00:00Z,2025,Helmond Sport,Jong PSV,1.0,1.0,,,ESPN scoreboard
+705817,2025-03-14T19:00:00Z,2025,MVV Maastricht,Jong AZ,0.0,1.0,,,ESPN scoreboard
+705819,2025-03-14T19:00:00Z,2025,Telstar,Roda JC Kerkrade,3.0,1.0,,,ESPN scoreboard
+705820,2025-03-14T19:00:00Z,2025,Vitesse,ADO Den Haag,0.0,1.0,,,ESPN scoreboard
+705821,2025-03-15T15:30:00Z,2025,FC Volendam,SC Cambuur,4.0,1.0,,,ESPN scoreboard
+705818,2025-03-16T11:15:00Z,2025,TOP Oss,De Graafschap,0.0,2.0,,,ESPN scoreboard
+705822,2025-03-16T15:45:00Z,2025,FC Den Bosch,Jong Ajax,3.0,1.0,,,ESPN scoreboard
+705804,2025-03-22T17:45:00Z,2025,De Graafschap,MVV Maastricht,0.0,0.0,,,ESPN scoreboard
+705803,2025-03-22T20:00:00Z,2025,VVV-Venlo,FC Eindhoven,2.0,2.0,,,ESPN scoreboard
+705823,2025-03-28T19:00:00Z,2025,Excelsior,Jong FC Utrecht,3.0,0.0,,,ESPN scoreboard
+705824,2025-03-28T19:00:00Z,2025,FC Eindhoven,Helmond Sport,2.0,2.0,,,ESPN scoreboard
+705825,2025-03-28T19:00:00Z,2025,MVV Maastricht,FC Emmen,1.0,2.0,,,ESPN scoreboard
+705826,2025-03-28T19:00:00Z,2025,SC Cambuur,De Graafschap,3.0,2.0,,,ESPN scoreboard
+705827,2025-03-28T19:00:00Z,2025,Telstar,Vitesse,1.0,0.0,,,ESPN scoreboard
+705828,2025-03-29T15:30:00Z,2025,Roda JC Kerkrade,VVV-Venlo,1.0,4.0,,,ESPN scoreboard
+705829,2025-03-30T14:45:00Z,2025,ADO Den Haag,FC Dordrecht,2.0,1.0,,,ESPN scoreboard
+705831,2025-03-31T18:00:00Z,2025,Jong Ajax,FC Volendam,0.0,2.0,,,ESPN scoreboard
+705830,2025-03-31T18:00:00Z,2025,Jong AZ,TOP Oss,1.0,1.0,,,ESPN scoreboard
+705832,2025-03-31T18:00:00Z,2025,Jong PSV,FC Den Bosch,2.0,4.0,,,ESPN scoreboard
+705772,2025-04-01T18:00:00Z,2025,Jong FC Utrecht,VVV-Venlo,0.0,0.0,,,ESPN scoreboard
+705834,2025-04-04T18:00:00Z,2025,FC Dordrecht,Jong Ajax,3.0,0.0,,,ESPN scoreboard
+705835,2025-04-04T18:00:00Z,2025,FC Emmen,SC Cambuur,3.0,0.0,,,ESPN scoreboard
+705836,2025-04-04T18:00:00Z,2025,FC Volendam,Jong PSV,4.0,0.0,,,ESPN scoreboard
+705837,2025-04-04T18:00:00Z,2025,MVV Maastricht,Excelsior,1.0,2.0,,,ESPN scoreboard
+705838,2025-04-04T18:00:00Z,2025,TOP Oss,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+705839,2025-04-04T18:00:00Z,2025,Vitesse,Jong AZ,2.0,2.0,,,ESPN scoreboard
+705840,2025-04-05T14:30:00Z,2025,Helmond Sport,Telstar,2.0,2.0,,,ESPN scoreboard
+705833,2025-04-06T10:15:00Z,2025,FC Den Bosch,FC Eindhoven,2.0,2.0,,,ESPN scoreboard
+705841,2025-04-06T14:45:00Z,2025,De Graafschap,Roda JC Kerkrade,2.0,0.0,,,ESPN scoreboard
+705771,2025-04-07T18:00:00Z,2025,Jong AZ,Jong PSV,2.0,2.0,,,ESPN scoreboard
+705842,2025-04-07T18:00:00Z,2025,Jong FC Utrecht,ADO Den Haag,1.0,1.0,,,ESPN scoreboard
+705843,2025-04-11T18:00:00Z,2025,Excelsior,TOP Oss,2.0,0.0,,,ESPN scoreboard
+705844,2025-04-11T18:00:00Z,2025,FC Eindhoven,De Graafschap,1.0,0.0,,,ESPN scoreboard
+705845,2025-04-11T18:00:00Z,2025,Roda JC Kerkrade,FC Emmen,1.0,0.0,,,ESPN scoreboard
+705847,2025-04-11T18:00:00Z,2025,Telstar,ADO Den Haag,1.0,1.0,,,ESPN scoreboard
+705848,2025-04-12T14:30:00Z,2025,FC Dordrecht,FC Den Bosch,4.0,0.0,,,ESPN scoreboard
+705846,2025-04-13T10:15:00Z,2025,SC Cambuur,Jong FC Utrecht,3.0,1.0,,,ESPN scoreboard
+705849,2025-04-13T14:45:00Z,2025,VVV-Venlo,Helmond Sport,4.0,1.0,,,ESPN scoreboard
+705851,2025-04-14T18:00:00Z,2025,Jong Ajax,Vitesse,1.0,1.0,,,ESPN scoreboard
+705850,2025-04-14T18:00:00Z,2025,Jong AZ,FC Volendam,0.0,1.0,,,ESPN scoreboard
+705852,2025-04-14T18:00:00Z,2025,Jong PSV,MVV Maastricht,3.0,2.0,,,ESPN scoreboard
+705854,2025-04-18T18:00:00Z,2025,FC Den Bosch,VVV-Venlo,0.0,0.0,,,ESPN scoreboard
+705855,2025-04-18T18:00:00Z,2025,FC Eindhoven,Telstar,0.0,4.0,,,ESPN scoreboard
+705857,2025-04-18T18:00:00Z,2025,FC Emmen,Jong AZ,1.0,4.0,,,ESPN scoreboard
+705853,2025-04-18T18:00:00Z,2025,Helmond Sport,SC Cambuur,1.0,1.0,,,ESPN scoreboard
+705856,2025-04-18T18:00:00Z,2025,MVV Maastricht,Jong FC Utrecht,5.0,0.0,,,ESPN scoreboard
+705858,2025-04-19T14:30:00Z,2025,Vitesse,Roda JC Kerkrade,3.0,0.0,,,ESPN scoreboard
+705859,2025-04-19T16:45:00Z,2025,TOP Oss,FC Dordrecht,2.0,0.0,,,ESPN scoreboard
+705860,2025-04-19T19:00:00Z,2025,De Graafschap,Jong Ajax,2.0,0.0,,,ESPN scoreboard
+705861,2025-04-20T12:30:00Z,2025,ADO Den Haag,Jong PSV,3.0,2.0,,,ESPN scoreboard
+705862,2025-04-20T14:45:00Z,2025,FC Volendam,Excelsior,1.0,4.0,,,ESPN scoreboard
+705866,2025-04-24T18:00:00Z,2025,Roda JC Kerkrade,ADO Den Haag,1.0,1.0,,,ESPN scoreboard
+705865,2025-04-25T18:00:00Z,2025,FC Dordrecht,MVV Maastricht,3.0,0.0,,,ESPN scoreboard
+705867,2025-04-25T18:00:00Z,2025,SC Cambuur,Vitesse,2.0,1.0,,,ESPN scoreboard
+705863,2025-04-25T18:00:00Z,2025,Telstar,TOP Oss,3.0,2.0,,,ESPN scoreboard
+705868,2025-04-27T14:45:00Z,2025,Excelsior,FC Emmen,2.0,0.0,,,ESPN scoreboard
+705870,2025-04-28T18:00:00Z,2025,Jong Ajax,Helmond Sport,1.0,0.0,,,ESPN scoreboard
+705869,2025-04-28T18:00:00Z,2025,Jong AZ,FC Den Bosch,0.0,0.0,,,ESPN scoreboard
+705871,2025-04-28T18:00:00Z,2025,Jong FC Utrecht,FC Volendam,2.0,3.0,,,ESPN scoreboard
+705872,2025-04-28T18:00:00Z,2025,Jong PSV,FC Eindhoven,0.0,2.0,,,ESPN scoreboard
+705864,2025-04-28T18:00:00Z,2025,VVV-Venlo,De Graafschap,3.0,1.0,,,ESPN scoreboard
+705873,2025-05-02T18:00:00Z,2025,ADO Den Haag,SC Cambuur,3.0,4.0,,,ESPN scoreboard
+705874,2025-05-02T18:00:00Z,2025,De Graafschap,Telstar,2.0,1.0,,,ESPN scoreboard
+705875,2025-05-02T18:00:00Z,2025,Excelsior,Jong PSV,5.0,0.0,,,ESPN scoreboard
+705876,2025-05-02T18:00:00Z,2025,FC Den Bosch,Helmond Sport,1.0,0.0,,,ESPN scoreboard
+705877,2025-05-02T18:00:00Z,2025,FC Eindhoven,Jong AZ,2.0,4.0,,,ESPN scoreboard
+705878,2025-05-02T18:00:00Z,2025,FC Emmen,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+705879,2025-05-02T18:00:00Z,2025,FC Volendam,Roda JC Kerkrade,3.0,2.0,,,ESPN scoreboard
+705880,2025-05-02T18:00:00Z,2025,Jong FC Utrecht,FC Dordrecht,1.0,0.0,,,ESPN scoreboard
+705881,2025-05-02T18:00:00Z,2025,MVV Maastricht,Jong Ajax,1.0,0.0,,,ESPN scoreboard
+705882,2025-05-02T18:00:00Z,2025,TOP Oss,Vitesse,2.0,2.0,,,ESPN scoreboard
+705883,2025-05-09T18:00:00Z,2025,FC Dordrecht,FC Volendam,4.0,1.0,,,ESPN scoreboard
+705884,2025-05-09T18:00:00Z,2025,Helmond Sport,De Graafschap,1.0,4.0,,,ESPN scoreboard
+705886,2025-05-09T18:00:00Z,2025,Jong Ajax,TOP Oss,0.0,0.0,,,ESPN scoreboard
+705885,2025-05-09T18:00:00Z,2025,Jong AZ,Excelsior,2.0,1.0,,,ESPN scoreboard
+705892,2025-05-09T18:00:00Z,2025,Jong PSV,Jong FC Utrecht,3.0,1.0,,,ESPN scoreboard
+705887,2025-05-09T18:00:00Z,2025,Roda JC Kerkrade,FC Eindhoven,0.0,1.0,,,ESPN scoreboard
+705889,2025-05-09T18:00:00Z,2025,SC Cambuur,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+705890,2025-05-09T18:00:00Z,2025,Telstar,FC Emmen,3.0,0.0,,,ESPN scoreboard
+705888,2025-05-09T18:00:00Z,2025,Vitesse,FC Den Bosch,3.0,1.0,,,ESPN scoreboard
+705891,2025-05-09T18:00:00Z,2025,VVV-Venlo,ADO Den Haag,2.0,7.0,,,ESPN scoreboard
+741283,2025-08-08T18:00:00Z,2025,De Graafschap,VVV-Venlo,3.0,2.0,,,ESPN scoreboard
+741284,2025-08-08T18:00:00Z,2025,FC Den Bosch,Jong Ajax,2.0,0.0,,,ESPN scoreboard
+741285,2025-08-08T18:00:00Z,2025,FC Dordrecht,SC Cambuur,1.0,0.0,,,ESPN scoreboard
+741286,2025-08-08T18:00:00Z,2025,FC Eindhoven,Jong FC Utrecht,1.0,0.0,,,ESPN scoreboard
+741287,2025-08-08T18:00:00Z,2025,TOP Oss,MVV Maastricht,4.0,0.0,,,ESPN scoreboard
+741289,2025-08-10T10:15:00Z,2025,Helmond Sport,Roda JC Kerkrade,1.0,3.0,,,ESPN scoreboard
+741290,2025-08-10T14:45:00Z,2025,ADO Den Haag,Willem II,5.0,1.0,,,ESPN scoreboard
+741291,2025-08-11T18:00:00Z,2025,Jong AZ,RKC Waalwijk,2.0,3.0,,,ESPN scoreboard
+741292,2025-08-11T18:00:00Z,2025,Jong PSV,FC Emmen,3.0,1.0,,,ESPN scoreboard
+741293,2025-08-15T18:00:00Z,2025,RKC Waalwijk,Helmond Sport,1.0,1.0,,,ESPN scoreboard
+741294,2025-08-15T18:00:00Z,2025,Roda JC Kerkrade,De Graafschap,1.0,0.0,,,ESPN scoreboard
+741295,2025-08-15T18:00:00Z,2025,SC Cambuur,TOP Oss,1.0,0.0,,,ESPN scoreboard
+741296,2025-08-15T18:00:00Z,2025,VVV-Venlo,Jong PSV,0.0,2.0,,,ESPN scoreboard
+741298,2025-08-16T14:30:00Z,2025,MVV Maastricht,FC Dordrecht,0.0,1.0,,,ESPN scoreboard
+741299,2025-08-17T10:15:00Z,2025,FC Emmen,Almere City,1.0,4.0,,,ESPN scoreboard
+741300,2025-08-17T14:45:00Z,2025,Willem II,FC Eindhoven,0.0,1.0,,,ESPN scoreboard
+741301,2025-08-18T18:00:00Z,2025,Jong Ajax,Jong AZ,4.0,1.0,,,ESPN scoreboard
+741302,2025-08-18T18:00:00Z,2025,Jong FC Utrecht,ADO Den Haag,2.0,2.0,,,ESPN scoreboard
+741304,2025-08-22T18:00:00Z,2025,Almere City,Willem II,0.0,1.0,,,ESPN scoreboard
+741305,2025-08-22T18:00:00Z,2025,De Graafschap,MVV Maastricht,0.0,1.0,,,ESPN scoreboard
+741306,2025-08-22T18:00:00Z,2025,FC Eindhoven,RKC Waalwijk,1.0,0.0,,,ESPN scoreboard
+741307,2025-08-22T18:00:00Z,2025,Helmond Sport,FC Emmen,2.0,0.0,,,ESPN scoreboard
+741308,2025-08-23T14:30:00Z,2025,FC Dordrecht,Jong PSV,1.0,2.0,,,ESPN scoreboard
+741309,2025-08-24T10:15:00Z,2025,VVV-Venlo,Roda JC Kerkrade,3.0,1.0,,,ESPN scoreboard
+741310,2025-08-24T14:45:00Z,2025,FC Den Bosch,TOP Oss,5.0,2.0,,,ESPN scoreboard
+741311,2025-08-25T18:00:00Z,2025,Jong AZ,SC Cambuur,0.0,1.0,,,ESPN scoreboard
+741312,2025-08-25T18:00:00Z,2025,Jong FC Utrecht,Jong Ajax,4.0,3.0,,,ESPN scoreboard
+741313,2025-08-29T18:00:00Z,2025,ADO Den Haag,Helmond Sport,2.0,0.0,,,ESPN scoreboard
+741314,2025-08-29T18:00:00Z,2025,FC Emmen,FC Den Bosch,3.0,1.0,,,ESPN scoreboard
+741315,2025-08-29T18:00:00Z,2025,Jong Ajax,MVV Maastricht,0.0,0.0,,,ESPN scoreboard
+741316,2025-08-29T18:00:00Z,2025,Jong PSV,Jong AZ,1.0,0.0,,,ESPN scoreboard
+741317,2025-08-29T18:00:00Z,2025,Roda JC Kerkrade,FC Eindhoven,0.0,0.0,,,ESPN scoreboard
+741318,2025-08-29T18:00:00Z,2025,TOP Oss,FC Dordrecht,0.0,3.0,,,ESPN scoreboard
+741319,2025-08-29T18:00:00Z,2025,Willem II,Jong FC Utrecht,2.0,1.0,,,ESPN scoreboard
+741320,2025-08-30T14:30:00Z,2025,RKC Waalwijk,Almere City,2.0,0.0,,,ESPN scoreboard
+741322,2025-08-31T14:45:00Z,2025,SC Cambuur,VVV-Venlo,3.0,1.0,,,ESPN scoreboard
+741323,2025-09-05T18:00:00Z,2025,De Graafschap,FC Emmen,2.0,3.0,,,ESPN scoreboard
+741324,2025-09-06T18:00:00Z,2025,SC Cambuur,Willem II,2.0,2.0,,,ESPN scoreboard
+741328,2025-09-12T18:00:00Z,2025,Almere City,Jong PSV,2.0,4.0,,,ESPN scoreboard
+741329,2025-09-12T18:00:00Z,2025,De Graafschap,Willem II,1.0,1.0,,,ESPN scoreboard
+741326,2025-09-12T18:00:00Z,2025,FC Den Bosch,FC Dordrecht,3.0,3.0,,,ESPN scoreboard
+741325,2025-09-12T18:00:00Z,2025,FC Eindhoven,ADO Den Haag,0.0,1.0,,,ESPN scoreboard
+741327,2025-09-12T18:00:00Z,2025,FC Emmen,TOP Oss,1.0,1.0,,,ESPN scoreboard
+758206,2025-09-12T18:00:00Z,2025,Jong AZ,Vitesse,4.0,0.0,,,ESPN scoreboard
+741331,2025-09-12T18:00:00Z,2025,Jong FC Utrecht,RKC Waalwijk,2.0,0.0,,,ESPN scoreboard
+741330,2025-09-12T18:00:00Z,2025,MVV Maastricht,SC Cambuur,0.0,1.0,,,ESPN scoreboard
+741333,2025-09-12T18:00:00Z,2025,Roda JC Kerkrade,Jong Ajax,3.0,3.0,,,ESPN scoreboard
+741334,2025-09-13T14:30:00Z,2025,VVV-Venlo,Helmond Sport,2.0,1.0,,,ESPN scoreboard
+741335,2025-09-15T18:00:00Z,2025,Almere City,FC Eindhoven,5.0,0.0,,,ESPN scoreboard
+741336,2025-09-15T18:00:00Z,2025,FC Dordrecht,Jong AZ,1.0,1.0,,,ESPN scoreboard
+741337,2025-09-15T18:00:00Z,2025,Jong Ajax,ADO Den Haag,1.0,3.0,,,ESPN scoreboard
+741338,2025-09-15T18:00:00Z,2025,Jong PSV,Roda JC Kerkrade,0.0,1.0,,,ESPN scoreboard
+741340,2025-09-16T18:00:00Z,2025,Helmond Sport,Jong FC Utrecht,2.0,1.0,,,ESPN scoreboard
+741341,2025-09-16T18:00:00Z,2025,MVV Maastricht,FC Den Bosch,2.0,4.0,,,ESPN scoreboard
+758207,2025-09-16T18:00:00Z,2025,RKC Waalwijk,Vitesse,1.0,1.0,,,ESPN scoreboard
+741339,2025-09-16T18:00:00Z,2025,TOP Oss,VVV-Venlo,2.0,1.0,,,ESPN scoreboard
+741347,2025-09-19T18:00:00Z,2025,ADO Den Haag,Almere City,2.0,1.0,,,ESPN scoreboard
+741343,2025-09-19T18:00:00Z,2025,FC Eindhoven,TOP Oss,3.0,4.0,,,ESPN scoreboard
+741345,2025-09-19T18:00:00Z,2025,FC Emmen,FC Dordrecht,2.0,0.0,,,ESPN scoreboard
+741344,2025-09-19T18:00:00Z,2025,Roda JC Kerkrade,RKC Waalwijk,1.0,4.0,,,ESPN scoreboard
+741346,2025-09-19T18:00:00Z,2025,Willem II,Jong Ajax,1.0,0.0,,,ESPN scoreboard
+758208,2025-09-20T18:00:00Z,2025,Vitesse,Helmond Sport,3.0,1.0,,,ESPN scoreboard
+741349,2025-09-21T14:45:00Z,2025,VVV-Venlo,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+741350,2025-09-22T18:00:00Z,2025,Jong AZ,De Graafschap,1.0,3.0,,,ESPN scoreboard
+741352,2025-09-22T18:00:00Z,2025,Jong FC Utrecht,SC Cambuur,2.0,4.0,,,ESPN scoreboard
+741351,2025-09-22T18:00:00Z,2025,Jong PSV,FC Den Bosch,3.0,0.0,,,ESPN scoreboard
+741357,2025-09-26T18:00:00Z,2025,Almere City,Jong FC Utrecht,4.0,0.0,,,ESPN scoreboard
+741358,2025-09-26T18:00:00Z,2025,FC Den Bosch,Jong AZ,2.0,3.0,,,ESPN scoreboard
+741359,2025-09-26T18:00:00Z,2025,FC Dordrecht,De Graafschap,1.0,1.0,,,ESPN scoreboard
+741356,2025-09-26T18:00:00Z,2025,Helmond Sport,FC Eindhoven,1.0,0.0,,,ESPN scoreboard
+741361,2025-09-26T18:00:00Z,2025,Jong Ajax,VVV-Venlo,2.0,4.0,,,ESPN scoreboard
+741355,2025-09-26T18:00:00Z,2025,MVV Maastricht,FC Emmen,1.0,0.0,,,ESPN scoreboard
+741353,2025-09-26T18:00:00Z,2025,RKC Waalwijk,ADO Den Haag,1.0,3.0,,,ESPN scoreboard
+741354,2025-09-26T18:00:00Z,2025,SC Cambuur,Jong PSV,5.0,3.0,,,ESPN scoreboard
+741360,2025-09-26T18:00:00Z,2025,TOP Oss,Roda JC Kerkrade,1.0,2.0,,,ESPN scoreboard
+758209,2025-09-27T14:30:00Z,2025,Vitesse,Willem II,1.0,2.0,,,ESPN scoreboard
+741366,2025-09-29T18:00:00Z,2025,ADO Den Haag,TOP Oss,5.0,1.0,,,ESPN scoreboard
+741363,2025-09-29T18:00:00Z,2025,De Graafschap,Almere City,3.0,2.0,,,ESPN scoreboard
+741364,2025-09-29T18:00:00Z,2025,Jong PSV,MVV Maastricht,2.0,2.0,,,ESPN scoreboard
+741365,2025-09-29T18:00:00Z,2025,RKC Waalwijk,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+741367,2025-09-29T18:00:00Z,2025,Roda JC Kerkrade,SC Cambuur,1.0,1.0,,,ESPN scoreboard
+741368,2025-09-30T18:00:00Z,2025,FC Eindhoven,FC Dordrecht,2.0,2.0,,,ESPN scoreboard
+758725,2025-09-30T18:00:00Z,2025,FC Emmen,Vitesse,2.0,4.0,,,ESPN scoreboard
+741370,2025-09-30T18:00:00Z,2025,Jong FC Utrecht,Jong AZ,0.0,0.0,,,ESPN scoreboard
+741371,2025-09-30T18:00:00Z,2025,VVV-Venlo,FC Den Bosch,0.0,1.0,,,ESPN scoreboard
+741372,2025-09-30T18:00:00Z,2025,Willem II,Helmond Sport,1.0,0.0,,,ESPN scoreboard
+741381,2025-10-03T18:00:00Z,2025,FC Den Bosch,RKC Waalwijk,2.0,2.0,,,ESPN scoreboard
+741377,2025-10-03T18:00:00Z,2025,FC Dordrecht,VVV-Venlo,2.0,0.0,,,ESPN scoreboard
+741374,2025-10-03T18:00:00Z,2025,Helmond Sport,Almere City,2.0,1.0,,,ESPN scoreboard
+741380,2025-10-03T18:00:00Z,2025,Jong Ajax,De Graafschap,2.0,2.0,,,ESPN scoreboard
+741378,2025-10-03T18:00:00Z,2025,Jong AZ,ADO Den Haag,0.0,4.0,,,ESPN scoreboard
+741379,2025-10-03T18:00:00Z,2025,MVV Maastricht,FC Eindhoven,3.0,1.0,,,ESPN scoreboard
+741373,2025-10-03T18:00:00Z,2025,SC Cambuur,FC Emmen,3.0,2.0,,,ESPN scoreboard
+741382,2025-10-03T18:00:00Z,2025,TOP Oss,Jong PSV,1.0,1.0,,,ESPN scoreboard
+758726,2025-10-03T18:00:00Z,2025,Vitesse,Jong FC Utrecht,2.0,0.0,,,ESPN scoreboard
+741375,2025-10-03T18:00:00Z,2025,Willem II,Roda JC Kerkrade,1.0,2.0,,,ESPN scoreboard
+758727,2025-10-06T18:00:00Z,2025,Vitesse,FC Den Bosch,1.0,2.0,,,ESPN scoreboard
+758761,2025-10-10T18:15:00Z,2025,Almere City,Vitesse,2.0,2.0,,,ESPN scoreboard
+741383,2025-10-11T16:45:00Z,2025,FC Emmen,FC Eindhoven,6.0,0.0,,,ESPN scoreboard
+741384,2025-10-11T19:00:00Z,2025,SC Cambuur,De Graafschap,2.0,0.0,,,ESPN scoreboard
+741386,2025-10-17T16:30:00Z,2025,RKC Waalwijk,Willem II,2.0,3.0,,,ESPN scoreboard
+741393,2025-10-17T18:00:00Z,2025,ADO Den Haag,FC Dordrecht,3.0,0.0,,,ESPN scoreboard
+741392,2025-10-17T18:00:00Z,2025,Almere City,SC Cambuur,1.0,1.0,,,ESPN scoreboard
+758728,2025-10-17T18:00:00Z,2025,FC Eindhoven,Vitesse,0.0,4.0,,,ESPN scoreboard
+741390,2025-10-17T18:00:00Z,2025,Helmond Sport,Jong AZ,4.0,2.0,,,ESPN scoreboard
+741389,2025-10-17T18:00:00Z,2025,Jong Ajax,Jong PSV,2.0,2.0,,,ESPN scoreboard
+741387,2025-10-17T18:00:00Z,2025,Jong FC Utrecht,MVV Maastricht,3.0,1.0,,,ESPN scoreboard
+741385,2025-10-17T18:00:00Z,2025,Roda JC Kerkrade,FC Den Bosch,6.0,0.0,,,ESPN scoreboard
+741388,2025-10-17T18:00:00Z,2025,VVV-Venlo,FC Emmen,4.0,0.0,,,ESPN scoreboard
+741394,2025-10-18T14:30:00Z,2025,De Graafschap,TOP Oss,1.0,1.0,,,ESPN scoreboard
+741396,2025-10-20T18:00:00Z,2025,FC Dordrecht,RKC Waalwijk,1.0,2.0,,,ESPN scoreboard
+741395,2025-10-20T18:00:00Z,2025,Jong AZ,Willem II,4.0,0.0,,,ESPN scoreboard
+741398,2025-10-20T18:00:00Z,2025,Jong PSV,ADO Den Haag,0.0,3.0,,,ESPN scoreboard
+741397,2025-10-20T18:00:00Z,2025,Roda JC Kerkrade,Almere City,2.0,0.0,,,ESPN scoreboard
+741400,2025-10-21T18:00:00Z,2025,FC Den Bosch,Helmond Sport,1.0,0.0,,,ESPN scoreboard
+758729,2025-10-21T18:00:00Z,2025,MVV Maastricht,Vitesse,3.0,2.0,,,ESPN scoreboard
+741402,2025-10-21T18:00:00Z,2025,TOP Oss,Jong Ajax,1.0,1.0,,,ESPN scoreboard
+741401,2025-10-21T18:00:00Z,2025,VVV-Venlo,Jong FC Utrecht,0.0,1.0,,,ESPN scoreboard
+741409,2025-10-24T18:00:00Z,2025,Almere City,Jong AZ,1.0,3.0,,,ESPN scoreboard
+741410,2025-10-24T18:00:00Z,2025,De Graafschap,Jong PSV,3.0,2.0,,,ESPN scoreboard
+741408,2025-10-24T18:00:00Z,2025,FC Eindhoven,VVV-Venlo,0.0,1.0,,,ESPN scoreboard
+741403,2025-10-24T18:00:00Z,2025,Helmond Sport,FC Dordrecht,1.0,2.0,,,ESPN scoreboard
+741404,2025-10-24T18:00:00Z,2025,Jong Ajax,FC Emmen,0.0,1.0,,,ESPN scoreboard
+741405,2025-10-24T18:00:00Z,2025,Jong FC Utrecht,TOP Oss,0.0,0.0,,,ESPN scoreboard
+741407,2025-10-24T18:00:00Z,2025,RKC Waalwijk,SC Cambuur,4.0,2.0,,,ESPN scoreboard
+758730,2025-10-24T18:00:00Z,2025,Vitesse,Roda JC Kerkrade,2.0,2.0,,,ESPN scoreboard
+741411,2025-10-25T14:30:00Z,2025,ADO Den Haag,FC Den Bosch,2.0,1.0,,,ESPN scoreboard
+741412,2025-10-26T13:30:00Z,2025,Willem II,MVV Maastricht,2.0,2.0,,,ESPN scoreboard
+741413,2025-10-31T19:00:00Z,2025,FC Den Bosch,De Graafschap,1.0,2.0,,,ESPN scoreboard
+741415,2025-10-31T19:00:00Z,2025,TOP Oss,Helmond Sport,0.0,3.0,,,ESPN scoreboard
+758731,2025-10-31T19:00:00Z,2025,VVV-Venlo,Vitesse,1.0,2.0,,,ESPN scoreboard
+741419,2025-11-01T15:30:00Z,2025,Roda JC Kerkrade,Jong FC Utrecht,1.0,1.0,,,ESPN scoreboard
+741417,2025-11-01T19:00:00Z,2025,SC Cambuur,Jong Ajax,4.0,1.0,,,ESPN scoreboard
+741416,2025-11-02T13:30:00Z,2025,FC Emmen,RKC Waalwijk,2.0,2.0,,,ESPN scoreboard
+741420,2025-11-02T15:45:00Z,2025,MVV Maastricht,ADO Den Haag,3.0,4.0,,,ESPN scoreboard
+741414,2025-11-03T19:00:00Z,2025,FC Dordrecht,Almere City,0.0,1.0,,,ESPN scoreboard
+741421,2025-11-03T19:00:00Z,2025,Jong AZ,FC Eindhoven,0.0,2.0,,,ESPN scoreboard
+741422,2025-11-03T19:00:00Z,2025,Jong PSV,Willem II,2.0,1.0,,,ESPN scoreboard
+741423,2025-11-07T19:00:00Z,2025,ADO Den Haag,Roda JC Kerkrade,4.0,0.0,,,ESPN scoreboard
+741424,2025-11-07T19:00:00Z,2025,Almere City,MVV Maastricht,4.0,0.0,,,ESPN scoreboard
+741425,2025-11-07T19:00:00Z,2025,FC Eindhoven,FC Den Bosch,1.0,3.0,,,ESPN scoreboard
+741427,2025-11-07T19:00:00Z,2025,Jong Ajax,FC Dordrecht,0.0,0.0,,,ESPN scoreboard
+741426,2025-11-07T19:00:00Z,2025,Jong AZ,VVV-Venlo,0.0,2.0,,,ESPN scoreboard
+741428,2025-11-07T19:00:00Z,2025,Jong FC Utrecht,FC Emmen,1.0,2.0,,,ESPN scoreboard
+758732,2025-11-07T19:00:00Z,2025,Vitesse,SC Cambuur,0.0,4.0,,,ESPN scoreboard
+741430,2025-11-07T19:00:00Z,2025,Willem II,TOP Oss,1.0,1.0,,,ESPN scoreboard
+741431,2025-11-08T15:30:00Z,2025,Helmond Sport,Jong PSV,2.0,3.0,,,ESPN scoreboard
+741432,2025-11-09T15:45:00Z,2025,RKC Waalwijk,De Graafschap,1.0,4.0,,,ESPN scoreboard
+741433,2025-11-15T17:45:00Z,2025,FC Eindhoven,SC Cambuur,3.0,3.0,,,ESPN scoreboard
+741434,2025-11-15T20:00:00Z,2025,Willem II,FC Emmen,1.0,1.0,,,ESPN scoreboard
+741435,2025-11-21T19:00:00Z,2025,De Graafschap,Helmond Sport,3.0,1.0,,,ESPN scoreboard
+741436,2025-11-21T19:00:00Z,2025,FC Den Bosch,Almere City,5.0,2.0,,,ESPN scoreboard
+758733,2025-11-21T19:00:00Z,2025,FC Dordrecht,Vitesse,1.0,1.0,,,ESPN scoreboard
+741438,2025-11-21T19:00:00Z,2025,Jong Ajax,FC Eindhoven,1.0,3.0,,,ESPN scoreboard
+741439,2025-11-21T19:00:00Z,2025,Jong PSV,Jong FC Utrecht,3.0,3.0,,,ESPN scoreboard
+741440,2025-11-21T19:00:00Z,2025,MVV Maastricht,Jong AZ,1.0,3.0,,,ESPN scoreboard
+741441,2025-11-21T19:00:00Z,2025,SC Cambuur,ADO Den Haag,2.0,0.0,,,ESPN scoreboard
+741442,2025-11-21T19:00:00Z,2025,TOP Oss,RKC Waalwijk,0.0,0.0,,,ESPN scoreboard
+741443,2025-11-21T19:00:00Z,2025,VVV-Venlo,Willem II,0.0,2.0,,,ESPN scoreboard
+741444,2025-11-22T15:30:00Z,2025,FC Emmen,Roda JC Kerkrade,1.0,1.0,,,ESPN scoreboard
+741445,2025-11-24T19:00:00Z,2025,Almere City,VVV-Venlo,3.0,0.0,,,ESPN scoreboard
+741446,2025-11-24T19:00:00Z,2025,Helmond Sport,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+741447,2025-11-24T19:00:00Z,2025,Jong AZ,TOP Oss,0.0,1.0,,,ESPN scoreboard
+741448,2025-11-24T19:00:00Z,2025,Jong FC Utrecht,FC Den Bosch,3.0,2.0,,,ESPN scoreboard
+741449,2025-11-25T19:00:00Z,2025,ADO Den Haag,De Graafschap,3.0,2.0,,,ESPN scoreboard
+741450,2025-11-25T19:00:00Z,2025,RKC Waalwijk,MVV Maastricht,1.0,0.0,,,ESPN scoreboard
+741451,2025-11-25T19:00:00Z,2025,Roda JC Kerkrade,FC Dordrecht,1.0,2.0,,,ESPN scoreboard
+758734,2025-11-25T19:00:00Z,2025,Vitesse,Jong PSV,3.0,1.0,,,ESPN scoreboard
+741453,2025-11-28T19:00:00Z,2025,FC Den Bosch,Willem II,2.0,1.0,,,ESPN scoreboard
+741454,2025-11-28T19:00:00Z,2025,FC Dordrecht,Jong FC Utrecht,1.0,2.0,,,ESPN scoreboard
+741455,2025-11-28T19:00:00Z,2025,FC Emmen,Jong AZ,4.0,2.0,,,ESPN scoreboard
+741456,2025-11-28T19:00:00Z,2025,SC Cambuur,Helmond Sport,0.0,0.0,,,ESPN scoreboard
+741457,2025-11-28T19:00:00Z,2025,VVV-Venlo,ADO Den Haag,0.0,3.0,,,ESPN scoreboard
+741458,2025-11-29T15:30:00Z,2025,TOP Oss,Almere City,1.0,2.0,,,ESPN scoreboard
+741459,2025-11-30T11:15:00Z,2025,MVV Maastricht,Roda JC Kerkrade,0.0,0.0,,,ESPN scoreboard
+741460,2025-11-30T15:45:00Z,2025,De Graafschap,FC Eindhoven,2.0,0.0,,,ESPN scoreboard
+758735,2025-12-01T19:00:00Z,2025,Jong Ajax,Vitesse,2.0,0.0,,,ESPN scoreboard
+741462,2025-12-01T19:00:00Z,2025,Jong PSV,RKC Waalwijk,3.0,1.0,,,ESPN scoreboard
+759086,2025-12-04T19:00:00Z,2025,Vitesse,De Graafschap,1.0,2.0,,,ESPN scoreboard
+741465,2025-12-05T19:00:00Z,2025,ADO Den Haag,FC Emmen,2.0,1.0,,,ESPN scoreboard
+741463,2025-12-05T19:00:00Z,2025,Almere City,Jong Ajax,3.0,2.0,,,ESPN scoreboard
+741470,2025-12-05T19:00:00Z,2025,FC Eindhoven,Jong PSV,4.0,0.0,,,ESPN scoreboard
+741464,2025-12-05T19:00:00Z,2025,Helmond Sport,MVV Maastricht,2.0,4.0,,,ESPN scoreboard
+741467,2025-12-05T19:00:00Z,2025,RKC Waalwijk,VVV-Venlo,1.0,2.0,,,ESPN scoreboard
+741466,2025-12-05T19:00:00Z,2025,Roda JC Kerkrade,Jong AZ,2.0,3.0,,,ESPN scoreboard
+741468,2025-12-05T19:00:00Z,2025,SC Cambuur,FC Den Bosch,2.0,1.0,,,ESPN scoreboard
+741469,2025-12-06T15:30:00Z,2025,Willem II,FC Dordrecht,2.0,0.0,,,ESPN scoreboard
+758736,2025-12-07T15:45:00Z,2025,Vitesse,TOP Oss,0.0,0.0,,,ESPN scoreboard
+741472,2025-12-08T19:00:00Z,2025,Jong FC Utrecht,De Graafschap,2.0,3.0,,,ESPN scoreboard
+758737,2025-12-10T19:00:00Z,2025,Vitesse,RKC Waalwijk,2.0,1.0,,,ESPN scoreboard
+741475,2025-12-12T19:00:00Z,2025,De Graafschap,Roda JC Kerkrade,2.0,3.0,,,ESPN scoreboard
+741478,2025-12-12T19:00:00Z,2025,FC Den Bosch,VVV-Venlo,0.0,1.0,,,ESPN scoreboard
+741477,2025-12-12T19:00:00Z,2025,FC Dordrecht,FC Eindhoven,3.0,4.0,,,ESPN scoreboard
+741476,2025-12-12T19:00:00Z,2025,FC Emmen,Helmond Sport,4.0,1.0,,,ESPN scoreboard
+741479,2025-12-12T19:00:00Z,2025,Jong AZ,Jong FC Utrecht,1.0,4.0,,,ESPN scoreboard
+741480,2025-12-12T19:00:00Z,2025,Jong PSV,Almere City,2.0,3.0,,,ESPN scoreboard
+741481,2025-12-12T19:00:00Z,2025,MVV Maastricht,Jong Ajax,2.0,1.0,,,ESPN scoreboard
+741482,2025-12-12T19:00:00Z,2025,TOP Oss,ADO Den Haag,3.0,4.0,,,ESPN scoreboard
+741473,2025-12-12T19:00:00Z,2025,Willem II,SC Cambuur,0.0,1.0,,,ESPN scoreboard
+741485,2025-12-19T19:00:00Z,2025,ADO Den Haag,Jong PSV,1.0,2.0,,,ESPN scoreboard
+741490,2025-12-19T19:00:00Z,2025,FC Eindhoven,Jong AZ,3.0,2.0,,,ESPN scoreboard
+741484,2025-12-19T19:00:00Z,2025,SC Cambuur,MVV Maastricht,4.0,0.0,,,ESPN scoreboard
+741488,2025-12-19T19:00:00Z,2025,VVV-Venlo,FC Dordrecht,3.0,1.0,,,ESPN scoreboard
+741489,2025-12-20T15:30:00Z,2025,TOP Oss,De Graafschap,2.0,3.0,,,ESPN scoreboard
+741486,2025-12-20T19:00:00Z,2025,Almere City,FC Emmen,4.0,2.0,,,ESPN scoreboard
+758738,2025-12-21T11:15:00Z,2025,FC Den Bosch,Vitesse,2.0,0.0,,,ESPN scoreboard
+741483,2025-12-21T13:30:00Z,2025,Helmond Sport,Willem II,2.0,2.0,,,ESPN scoreboard
+741492,2025-12-22T19:00:00Z,2025,Jong Ajax,RKC Waalwijk,0.0,2.0,,,ESPN scoreboard
+741491,2025-12-22T19:00:00Z,2025,Jong FC Utrecht,Roda JC Kerkrade,1.0,3.0,,,ESPN scoreboard

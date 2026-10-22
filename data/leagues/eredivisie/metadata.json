@@ -1,17 +1,13 @@
 {
   "league_id": "eredivisie",
   "name_zh": "荷甲",
-  "updated_at": "2026-10-21T09:01:37.651633+00:00",
+  "updated_at": "2026-10-22T19:41:21.512765+00:00",
+  "fixtures": 918,
+  "teams": 24,
+  "players": 734,
+  "corner_fixtures": 918,
   "sources": [
     "football-data.co.uk"
   ],
-  "teams": 27,
-  "players": 504,
-  "matches": 1707,
-  "corner_matches": 1707,
-  "quality": "高",
-  "dataSource": "ESPN／football-data／openfootball",
-  "lastUpdated": "2026-10-21T09:01:37.651633+00:00",
-  "players_update_protected": false,
-  "errors": []
+  "status": "ok"
 }

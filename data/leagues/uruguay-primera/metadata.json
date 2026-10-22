@@ -1,15 +1,13 @@
 {
   "league_id": "uruguay-primera",
   "name_zh": "烏拉圭甲",
-  "updated_at": "2026-10-21T09:03:15.925965+00:00",
-  "sources": [],
-  "teams": 0,
-  "players": 506,
-  "matches": 0,
-  "corner_matches": 0,
-  "quality": "樣本不足",
-  "dataSource": "ESPN／football-data／openfootball",
-  "lastUpdated": "2026-10-21T09:03:15.925965+00:00",
-  "players_update_protected": false,
-  "errors": []
+  "updated_at": "2026-10-22T19:42:47.147666+00:00",
+  "fixtures": 897,
+  "teams": 20,
+  "players": 580,
+  "corner_fixtures": 0,
+  "sources": [
+    "ESPN scoreboard"
+  ],
+  "status": "ok"
 }
