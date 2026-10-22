@@ -118,6 +118,13 @@ st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layou
 
 DB = Path(__file__).with_name("football_library.db")
 DB_PATH = str(DB)
+MANUAL_LEAGUE_DIR = Path(__file__).with_name("data") / "manual_leagues"
+
+
+def manual_league_path(league):
+    """每個聯賽一份手動覆蓋檔；只使用安全檔名，避免路徑穿越。"""
+    slug = re.sub(r"[^a-z0-9_-]+", "_", str(league).strip().lower()).strip("_") or "league"
+    return MANUAL_LEAGUE_DIR / f"{slug}.csv"
 
 
 def db_connect():
@@ -412,6 +419,97 @@ def clean_matches(df, source, league, season):
     df["season"] = str(season)
     df["source"] = source
     return df[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]]
+
+
+MANUAL_LEAGUE_COLUMNS = ["日期", "主隊", "客隊", "比分", "半場比分", "主隊角球", "客隊角球", "主隊排名", "客隊排名"]
+
+
+def _parse_score_pair(value, label):
+    match = re.fullmatch(r"\s*(\d+)\s*[-:]\s*(\d+)\s*", str(value or ""))
+    if not match:
+        raise ValueError(f"{label}必須是例如 1-0 的格式")
+    return int(match.group(1)), int(match.group(2))
+
+
+def read_manual_league_csv(uploaded_file, league):
+    """讀取資料不足聯賽的固定 9 欄 CSV，保留排名及半場比分作情境輸入。"""
+    if uploaded_file is None:
+        raise ValueError("請先選擇 CSV")
+    raw = uploaded_file.getvalue()
+    if not raw:
+        raise ValueError("CSV 是空白檔案")
+    frame = pd.read_csv(BytesIO(raw), encoding="utf-8-sig")
+    frame.columns = [str(c).strip() for c in frame.columns]
+    if frame.columns.tolist() != MANUAL_LEAGUE_COLUMNS:
+        missing = [c for c in MANUAL_LEAGUE_COLUMNS if c not in frame.columns]
+        extra = [c for c in frame.columns if c not in MANUAL_LEAGUE_COLUMNS]
+        detail = []
+        if missing:
+            detail.append("缺少：" + ", ".join(missing))
+        if extra:
+            detail.append("多出：" + ", ".join(extra))
+        raise ValueError("CSV 必須固定 9 欄（" + "；".join(detail) + "）")
+    frame = frame[MANUAL_LEAGUE_COLUMNS].copy()
+    if frame.empty:
+        raise ValueError("CSV 沒有賽果資料")
+    scores = frame["比分"].map(lambda x: _parse_score_pair(x, "比分"))
+    half_scores = frame["半場比分"].map(lambda x: _parse_score_pair(x, "半場比分"))
+    frame["HG"] = scores.map(lambda x: x[0])
+    frame["AG"] = scores.map(lambda x: x[1])
+    frame["HT_HG"] = half_scores.map(lambda x: x[0])
+    frame["HT_AG"] = half_scores.map(lambda x: x[1])
+    frame["HomeRank"] = pd.to_numeric(frame["主隊排名"], errors="coerce")
+    frame["AwayRank"] = pd.to_numeric(frame["客隊排名"], errors="coerce")
+    if frame[["HomeRank", "AwayRank"]].isna().any().any() or (frame[["HomeRank", "AwayRank"]] < 1).any().any():
+        raise ValueError("主隊排名及客隊排名必須是正整數")
+    frame["HC"] = pd.to_numeric(frame["主隊角球"], errors="coerce")
+    frame["AC"] = pd.to_numeric(frame["客隊角球"], errors="coerce")
+    if frame[["HC", "AC"]].isna().any().any() or (frame[["HC", "AC"]] < 0).any().any():
+        raise ValueError("主隊角球及客隊角球必須是 0 或以上數字")
+    normalized = pd.DataFrame({
+        "Date": frame["日期"], "Home": frame["主隊"], "Away": frame["客隊"],
+        "HG": frame["HG"], "AG": frame["AG"], "HC": frame["HC"], "AC": frame["AC"],
+    })
+    normalized = clean_matches(normalized, "手動上載聯賽 CSV", league, datetime.now().year)
+    # clean_matches 只保留通用比賽欄位；排名及半場比分另行按原順序附加。
+    normalized["HT_HG"] = frame["HT_HG"].to_numpy()
+    normalized["HT_AG"] = frame["HT_AG"].to_numpy()
+    normalized["HomeRank"] = frame["HomeRank"].to_numpy()
+    normalized["AwayRank"] = frame["AwayRank"].to_numpy()
+    return normalized
+
+
+def save_manual_league_override(matches, league):
+    """寫入磁碟並清除該聯賽舊免費來源，確保分析不混用兩套樣本。"""
+    if matches is None or len(matches) < 5:
+        raise ValueError("至少需要 5 場完整賽果才可以覆蓋聯賽資料")
+    MANUAL_LEAGUE_DIR.mkdir(parents=True, exist_ok=True)
+    out = matches.copy()
+    out[["Date", "Home", "Away", "HG", "AG", "HC", "AC", "HT_HG", "HT_AG", "HomeRank", "AwayRank"]].to_csv(
+        manual_league_path(league), index=False, encoding="utf-8-sig"
+    )
+    with db_connect() as conn:
+        conn.execute("DELETE FROM matches WHERE league=?", (league,))
+    save_matches(out)
+
+
+def load_manual_league_override(league):
+    path = manual_league_path(league)
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        raw = pd.read_csv(path, encoding="utf-8-sig")
+        required = {"Date", "Home", "Away", "HG", "AG", "HC", "AC", "HT_HG", "HT_AG", "HomeRank", "AwayRank"}
+        if not required.issubset(raw.columns):
+            return pd.DataFrame()
+        return clean_matches(raw, "手動上載聯賽 CSV", league, datetime.now().year).assign(
+            HT_HG=pd.to_numeric(raw["HT_HG"], errors="coerce").to_numpy(),
+            HT_AG=pd.to_numeric(raw["HT_AG"], errors="coerce").to_numpy(),
+            HomeRank=pd.to_numeric(raw["HomeRank"], errors="coerce").to_numpy(),
+            AwayRank=pd.to_numeric(raw["AwayRank"], errors="coerce").to_numpy(),
+        )
+    except Exception:
+        return pd.DataFrame()
 
 
 def read_uploaded_matches(uploaded_file, league):
@@ -1464,6 +1562,26 @@ def walk_forward_backtest(matches, min_team_games=4):
     return detail, summary
 
 
+def merge_manual_match_metadata(df, league):
+    """把不適合放入舊 SQLite schema 的排名／半場欄位合併回分析表。"""
+    manual = load_manual_league_override(league)
+    if df is None or df.empty or manual.empty:
+        return df
+    def key(frame):
+        return (frame["Date"].astype(str).str[:10] + "|" +
+                frame["Home"].astype(str).map(team_key) + "|" +
+                frame["Away"].astype(str).map(team_key))
+    lookup = manual.copy()
+    lookup["_manual_key"] = key(lookup)
+    lookup = lookup.drop_duplicates("_manual_key").set_index("_manual_key")
+    out = df.copy()
+    out["_manual_key"] = key(out)
+    for col in ["HT_HG", "HT_AG", "HomeRank", "AwayRank"]:
+        if col in lookup.columns:
+            out[col] = out["_manual_key"].map(lookup[col])
+    return out.drop(columns=["_manual_key"])
+
+
 def all_saved_matches(league):
     with db_connect() as c:
         df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
@@ -1479,7 +1597,7 @@ def all_saved_matches(league):
         df["DateParsed"] = pd.to_datetime(df.get("Date", ""), errors="coerce", dayfirst=True)
     if "source" not in df.columns:
         df["source"] = "本地SQLite"
-    return df
+    return merge_manual_match_metadata(df, league)
 
 
 def local_api_matches(league):
@@ -1493,9 +1611,10 @@ def local_api_matches(league):
             data = r.json().get("data", [])
             if data:
                 df = pd.DataFrame(data)
-                return df.rename(columns={"home_team": "Home", "away_team": "Away", "home_goals": "HG",
-                                          "away_goals": "AG", "home_corners": "HC", "away_corners": "AC",
-                                          "date": "Date"})
+                df = df.rename(columns={"home_team": "Home", "away_team": "Away", "home_goals": "HG",
+                                        "away_goals": "AG", "home_corners": "HC", "away_corners": "AC",
+                                        "date": "Date"})
+                return merge_manual_match_metadata(df, league)
     except Exception:
         pass
     return pd.DataFrame()
@@ -1513,6 +1632,14 @@ def import_local_league_cache():
         return 0
     total = 0
     for item in config.get("leagues", []):
+        manual = load_manual_league_override(item["name_zh"])
+        if not manual.empty:
+            # 手動資料是該聯賽的明確覆蓋來源，不再混入免費快取。
+            with db_connect() as conn:
+                conn.execute("DELETE FROM matches WHERE league=?", (item["name_zh"],))
+            save_matches(manual)
+            total += len(manual)
+            continue
         path = cache_root / item["id"] / "matches.csv"
         if not path.exists():
             continue
@@ -1664,6 +1791,32 @@ with st.sidebar:
         except Exception:
             pass
     league = st.selectbox("聯賽", list(LEAGUES))
+    current_league_rows = all_saved_matches(league)
+    manual_override = manual_league_path(league).exists()
+    if len(current_league_rows) < 5 and not manual_override:
+        st.warning(f"{league} 目前只有 {len(current_league_rows)} 場可用資料；請上載至少 5 場真實賽果。")
+        manual_upload = st.file_uploader(
+            "資料不足聯賽 CSV（固定 9 欄）",
+            type=["csv"], key="manual_league_csv",
+            help="欄位必須是：日期,主隊,客隊,比分,半場比分,主隊角球,客隊角球,主隊排名,客隊排名。"
+        )
+        st.download_button(
+            "下載資料不足聯賽 CSV 範本",
+            data=("日期,主隊,客隊,比分,半場比分,主隊角球,客隊角球,主隊排名,客隊排名\n"
+                  "2025-08-15,主隊A,客隊B,1-0,1-0,5,2,12,14\n").encode("utf-8-sig"),
+            file_name="資料不足聯賽_9欄範本.csv", mime="text/csv", use_container_width=True
+        )
+        upload_manual = st.button("上載CSV", use_container_width=True, key="upload_manual_league")
+        if upload_manual:
+            try:
+                parsed_manual = read_manual_league_csv(manual_upload, league)
+                save_manual_league_override(parsed_manual, league)
+                st.success(f"已覆蓋 {league} 免費來源並保存 {len(parsed_manual)} 場；下次開啟不需重新上載。")
+                st.rerun()
+            except Exception as exc:
+                st.warning(f"手動聯賽 CSV 未能上載：{exc}")
+    elif manual_override:
+        st.success(f"{league} 正使用已保存的手動 CSV 覆蓋資料（{len(current_league_rows)} 場）。")
     fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
     st.caption("目前不使用已停用的 API-Football；如需分析沒有 Football-Data 對照的聯賽，必須提供其他可用公開賽果頁面，或設定仍有效的 API-Football Token。")
     crawl_url = st.text_input(
