@@ -41,6 +41,7 @@ try:
     from data.brain.learning import learning_adjustment, learning_summary, load_log
     from data.v17_engine import build_card
     from data.pro_odds_page import merge_professional_page, odds_usage, find_event
+    from analysis.market_backtest import walk_forward_market_backtest
 except Exception:
     def fetch_realtime_context(*args, **kwargs):
         return {"status": "unavailable", "source": "未取得", "injury_data_verified": False,
@@ -75,6 +76,7 @@ except Exception:
     def merge_professional_page(*args, **kwargs): return {"odds_meta": {"status": "unavailable"}, "odds_snapshot": None, "match_detail": {}}
     def odds_usage(): return {"date": "", "calls": 0}
     def find_event(*args, **kwargs): return None
+    def walk_forward_market_backtest(*args, **kwargs): return pd.DataFrame(), {"入球樣本數": 0, "角球樣本數": 0}
 
 # 重要模組獨立重試：即使專業盤口或其他選配模組失敗，V2解讀、學習、
 # 角球及傷停修正仍然可以正常載入，不應整批退回後備模式。
@@ -2114,6 +2116,7 @@ if run_backtest:
                 st.warning("目前沒有足夠的歷史賽果，暫時不能回測；程式沒有使用假數據。")
                 st.stop()
         detail, summary = walk_forward_backtest(saved)
+        market_detail, market_summary = walk_forward_market_backtest(saved)
     st.subheader(f"{league} 模型回測")
     if not detail.empty:
         m1, m2, m3, m4 = st.columns(4)
@@ -2121,8 +2124,23 @@ if run_backtest:
         m2.metric("勝和負方向命中", f"{summary['勝和負方向命中率']:.1%}")
         m3.metric("比分 Top 5 包含率", f"{summary['比分Top5包含率']:.1%}")
         m4.metric("Brier Score", f"{summary['Brier Score']:.3f}")
+        st.markdown("**入球／角球大小回測（只用每場日期之前的資料）**")
+        g1, g2 = st.columns(2)
+        with g1:
+            goal_rate = market_summary.get("細3.5命中率")
+            goal_text = "資料不足" if goal_rate is None else f"{goal_rate:.1%}"
+            st.metric("細3.5 命中率", goal_text)
+            st.caption(f"樣本 {market_summary.get('入球樣本數', 0)} 場｜按賠率1.4淨利潤 {market_summary.get('細3.5淨利潤', 0.0):+.2f} 單位")
+        with g2:
+            corner_rate = market_summary.get("大9.5角命中率")
+            corner_text = "資料不足" if corner_rate is None else f"{corner_rate:.1%}"
+            st.metric("大9.5角 命中率", corner_text)
+            st.caption(f"樣本 {market_summary.get('角球樣本數', 0)} 場｜按賠率1.8淨利潤 {market_summary.get('大9.5角淨利潤', 0.0):+.2f} 單位")
         st.caption("回測只使用每場比賽日期之前的賽果；樣本太少時不會硬算，數字只代表過往樣本，不保證未來表現。")
         st.dataframe(detail.tail(100), use_container_width=True, hide_index=True)
+        if not market_detail.empty:
+            with st.expander("入球／角球大小逐場回測明細"):
+                st.dataframe(market_detail.tail(100), use_container_width=True, hide_index=True)
     else:
         st.warning("現有資料不足以進行逐場回測；每隊至少需要先有 4 場更早的賽果。")
 
