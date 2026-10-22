@@ -1790,7 +1790,11 @@ with st.sidebar:
             goal_under_odds_map[x] = st.number_input(f"細 {x}", 0.0, 100.0, 0.0, key=f"goal_under_{x}")
     goal_over_odds = goal_over_odds_map[2.5] or None
     goal_under_odds = goal_under_odds_map[2.5] or None
-    handicap_line = st.number_input("主隊亞洲讓球線（例如 -0.5 或 +1.75）", -3.0, 3.0, 0.0, step=0.25)
+    handicap_line_input = st.number_input("主隊亞洲讓球線（例如 -0.5 或 +1.75）", -3.0, 3.0, 0.0, step=0.25)
+    # 只接受標準四分之一盤；手機手動輸入異常小數時，不讓它與錯誤賠率配對。
+    handicap_line = round(float(handicap_line_input) * 4) / 4
+    if abs(float(handicap_line_input) - handicap_line) > 1e-9:
+        st.warning(f"讓球線 {handicap_line_input:+.2f} 不是標準盤，已按最近四分一盤 {handicap_line:+.2f} 計算。請核對賠率是否屬於同一條線。")
     handicap_odds = st.number_input("讓球主隊賠率（0=沒有此盤）", 0.0, 100.0, 1.90)
     handicap_odds = handicap_odds or None
     corner_line = 9.5
@@ -1946,7 +1950,9 @@ if run:
         st.info(f"傷停修正：{injury_adjustment}")
     hp, dp, ap = probs(hx, ax)
     pasted_rows = parse_odds_text(pasted_odds)
-    pasted_results = compare_odds(pasted_rows, hx, ax) if pasted_rows else []
+    # CornerOU must be valued only after the corner model is available;
+    # initialise here so the V2 reader can still run before corner assembly.
+    pasted_results = []
     low_score_tight = sum(poisson(k, hx + ax) for k in range(3))
     v2_corner_insight = corner_insight(.252, .306, low_score_tight)
     reader = read_match(hx, ax, xg_last8={"home":hgf, "away":agf}, shots={}, odds_rows=pasted_results,
@@ -1990,11 +1996,15 @@ if run:
         if corner_lams:
             _over = total_over_probability(linkage_corner_total, _line)
             corner_card_probs[_line] = {"over": _over, "under": 1.0 - _over}
-        else:
-            corner_card_probs[_line] = (linkage_market.get(_line) or {
+    else:
+        corner_card_probs[_line] = (linkage_market.get(_line) or {
                 "over": total_over_probability(linkage_corner_total, _line),
                 "under": 1.0 - total_over_probability(linkage_corner_total, _line),
             })
+    pasted_results = compare_odds(pasted_rows, hx, ax, corner_total=linkage_corner_total) if pasted_rows else []
+    reader = read_match(hx, ax, xg_last8={"home":hgf, "away":agf}, shots={}, odds_rows=pasted_results,
+                        draw_probability=dp, low_score_tight=low_score_tight, corner_insight=v2_corner_insight,
+                        model_home_probability=hp, model_away_probability=ap)
     v17_card = build_card(
         home, away, str(match_date) if "match_date" in locals() else "",
         hx, ax, {2.5: goal_lines[2.5], 3.5: goal_lines[3.5], 4.5: goal_lines[4.5]},
