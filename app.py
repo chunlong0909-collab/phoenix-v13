@@ -74,6 +74,17 @@ try:
 except Exception:
     pass
 try:
+    from data.odds.odds_mapper import parse_odds_text as _parse_odds_text
+    parse_odds_text = _parse_odds_text
+except Exception:
+    pass
+try:
+    from analysis.odds_vs_model import compare_odds as _compare_odds
+    from analysis.odds_vs_model import ai_summary as _ai_summary
+    compare_odds, ai_summary = _compare_odds, _ai_summary
+except Exception:
+    pass
+try:
     from data.brain.learning import learning_adjustment as _learning_adjustment
     from data.brain.learning import learning_summary as _learning_summary
     from data.brain.learning import load_log as _load_log
