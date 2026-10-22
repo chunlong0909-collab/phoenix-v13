@@ -2,6 +2,7 @@ name: daily-football-update
 
 on:
   schedule:
+    # GitHub Actions uses UTC; 19:00 UTC = 03:00 next day Hong Kong time.
     - cron: "0 19 * * *"
   workflow_dispatch:
 
@@ -11,32 +12,19 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 下載專案
-        uses: actions/checkout@v4
-
-      - name: 設定 Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
-
-      - name: 安裝依賴
-        run: pip install -r requirements.txt
-
-      - name: 更新最新球員及球隊資料
-        run: python espn_bulk_collect.py
-
-      - name: 更新最新賽果資料
-        run: python league_collector.py --leagues all --max-matches 60
-
-      - name: 建立歷史與最新資料合併檔
-        run: python scripts/build_complete.py
-
-      - name: 儲存更新
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      # 無 API Key：FBref/soccerdata 優先，失敗或不支援時使用既有公開後備來源。
+      - run: python scripts/sync_free_sources.py --leagues all
+      - run: python scripts/build_complete.py
+      - name: commit
         run: |
           git config user.name "auto-bot"
           git config user.email "auto@bot.com"
-          git add data/
-          git commit -m "auto: daily football update $(date +%Y-%m-%d)" || echo "no changes"
+          git add data/ scripts/sync_free_sources.py requirements.txt
+          git commit -m "auto: daily update $(date +%Y-%m-%d)" || echo "no changes"
           git push
