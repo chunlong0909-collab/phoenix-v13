@@ -258,7 +258,13 @@ ALIASES = {
     "伊高斯": "Go Ahead Eagles", "前進之鷹": "Go Ahead Eagles",
     "阿爾克馬爾": "AZ", "艾克馬亞": "AZ", "格羅寧根": "FC Groningen",
     "烏德勒支": "FC Utrecht", "飛燕諾": "Feyenoord Rotterdam",
-    "聖保羅": "São Paulo", "坎培拉克羅地亞": "Canberra Croatia", "悉尼聯": "Sydney FC",
+    "聖保羅": "São Paulo", "坎培拉克羅地亞": "Canberra Croatia",
+    # Australian Championship cache uses the short provider names; accept the
+    # official English names and Chinese names without mapping Sydney United to
+    # the unrelated Sydney FC.
+    "南墨爾本": "South Melbourne", "South Melbourne FC": "South Melbourne",
+    "悉尼聯": "Sydney Utd", "悉尼聯隊": "Sydney Utd",
+    "Sydney United 58": "Sydney Utd", "Sydney United": "Sydney Utd",
     "艾費哈": "Al Feiha", "阿爾費哈": "Al Feiha", "吉達艾阿里": "Al Ahli SC",
     "吉達艾里": "Al Ahli SC", "吉達阿赫利": "Al Ahli SC", "阿赫利": "Al Ahli SC",
     "幸運切爾達": "Celta B", "切爾達B": "Celta B", "特內里費": "Tenerife",
