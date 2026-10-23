@@ -1929,6 +1929,29 @@ with st.sidebar:
             st.caption(f"本地已快取 {len(ok)} 個聯賽；零成本模式")
         except Exception:
             pass
+    html_probe = st.button(
+        "測試直接 HTML 來源（安全試跑）", use_container_width=True,
+        help="測試 FBref／Soccerway 的公開 HTML 及南墨爾本、悉尼聯58；被封或無表格時不會覆蓋現有資料。",
+    )
+    if html_probe:
+        with st.spinner("正在測試直接 HTML 來源；空資料不會寫入……"):
+            try:
+                probe = subprocess.run(
+                    ["python3", str(Path(__file__).parent / "scripts" / "html_sources_sync.py"),
+                     "--pilot", "--sleep", "5"],
+                    cwd=str(Path(__file__).parent), capture_output=True, text=True, timeout=180,
+                )
+                report_path = Path(__file__).parent / "data" / "html_sources_sync_report.json"
+                report = json.loads(report_path.read_text(encoding="utf-8")) if report_path.exists() else []
+                inserted = sum(int(x.get("rows", 0) or 0) for x in report)
+                if probe.returncode == 0 and inserted:
+                    st.success(f"HTML 試跑完成，已寫入 {inserted} 場已核實賽果。")
+                elif probe.returncode == 0:
+                    st.warning("HTML 試跑完成，但來源目前沒有可解析表格；現有資料保持不變。")
+                else:
+                    st.warning("HTML 試跑未完成；現有資料保持不變。")
+            except Exception as exc:
+                st.warning(f"HTML 試跑未完成：{exc}；現有資料保持不變。")
     league = st.selectbox("聯賽", list(LEAGUES))
     current_league_rows = all_saved_matches(league)
     manual_override = manual_league_path(league).exists()
