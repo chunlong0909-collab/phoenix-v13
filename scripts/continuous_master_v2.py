@@ -15,7 +15,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DB=ROOT/'football_library.db'; AUDIT=ROOT/'data/local_completeness_audit.json'
 CHECKPOINT=ROOT/'checkpoint.json'; LEARN=ROOT/'learn.json'; FAILED=ROOT/'failed_teams.log'
 UA=["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 Version/17 Safari/605.1.15"]
-SOURCE_NAMES=['soccerway','worldfootball','fbref','football_data_api','api_football']
+SOURCE_NAMES=['soccerway','worldfootball','fbref','football_data_api']
 EASY=['日職','K1','K2','美職']; HARD=['卡塔爾超級聯賽','沙職']
 
 
@@ -89,35 +89,47 @@ def source_fbref(league,team):
     try:return structured_from_html(req('https://fbref.com/en/squads/'),league,team,'FBref explicit FT+HT')
     except Exception:return []
 
-def source_api(league,team):
+def norm_name(x):
+    return re.sub(r'[^a-z0-9]+','',clean_name(x).lower())
+
+def football_data_headers():
     token=os.getenv('FOOTBALL_DATA_TOKEN')
-    if not token:return []
-    # football-data.org v4 score.halfTime is accepted only when present; no token means skip.
+    return {'X-Auth-Token':token,'User-Agent':'phoenix-v13'} if token else None
+
+def football_data_team_id(team_name, catalog):
+    target=norm_name(team_name)
+    exact={norm_name(x.get('name')):x.get('id') for x in catalog if x.get('name')}
+    if target in exact:return exact[target]
+    # 只接受完整名稱包含關係，避免把相似隊伍錯配。
+    candidates=[(x.get('id'),norm_name(x.get('name'))) for x in catalog if x.get('name') and (target in norm_name(x['name']) or norm_name(x['name']) in target)]
+    return candidates[0][0] if len(candidates)==1 else None
+
+def source_football_data(league,team):
+    headers=football_data_headers()
+    if not headers:return []
     try:
-        r=requests.get('https://api.football-data.org/v4/matches',headers={'X-Auth-Token':token,'User-Agent':random.choice(UA)},timeout=30); r.raise_for_status(); out=[]
+        catalog=[]; offset=0
+        while offset < 2000:
+            r=requests.get('https://api.football-data.org/v4/teams',headers=headers,params={'limit':100,'offset':offset},timeout=30); r.raise_for_status(); data=r.json(); batch=data.get('teams',[]); catalog.extend(batch)
+            if len(batch)<100:break
+            offset+=100
+        team_id=football_data_team_id(team,catalog)
+        if not team_id:
+            print(f'football-data.org | {team} | team_id not found',flush=True); return []
+        r=requests.get(f'https://api.football-data.org/v4/teams/{team_id}/matches',headers=headers,params={'limit':50,'status':'FINISHED'},timeout=30); r.raise_for_status()
+        out=[]
         for m in r.json().get('matches',[]):
-            h=m.get('score',{}).get('halfTime',{}); f=m.get('score',{}).get('fullTime',{})
+            f=(m.get('score') or {}).get('fullTime') or {}; h=(m.get('score') or {}).get('halfTime') or {}
             home=clean_name((m.get('homeTeam') or {}).get('name')); away=clean_name((m.get('awayTeam') or {}).get('name'))
-            if team.lower() not in (home+' '+away).lower() or None in (f.get('home'),f.get('away'),h.get('home'),h.get('away')):continue
+            if not home or not away or None in (f.get('home'),f.get('away'),h.get('home'),h.get('away')):continue
+            print(f"HT from football-data.org ({h['home']}:{h['away']})",flush=True)
             out.append({'league':league,'season':'current','home':home,'away':away,'hg':f['home'],'ag':f['away'],'ht_home':h['home'],'ht_away':h['away'],'date':str(m.get('utcDate',''))[:10],'source':'football-data.org v4 explicit FT+HT'})
         return out
-    except Exception:return []
+    except Exception as exc:
+        print(f'football-data.org | {team} | unavailable: {type(exc).__name__}',flush=True)
+        return []
 
-def source_api_football(league,team):
-    token=os.getenv('API_FOOTBALL_TOKEN')
-    if not token:return []
-    # 只有 API 明確回傳 score.halftime 才接受；不把 null 轉成 0。
-    try:
-        r=requests.get('https://v3.football.api-sports.io/fixtures',params={'team':team,'last':20},headers={'x-apisports-key':token,'User-Agent':random.choice(UA)},timeout=30); r.raise_for_status(); out=[]
-        for item in r.json().get('response',[]):
-            f=item.get('goals') or {}; s=item.get('score') or {}; h=s.get('halftime') or {}; fx=item.get('fixture') or {}; teams=item.get('teams') or {}
-            home=clean_name((teams.get('home') or {}).get('name')); away=clean_name((teams.get('away') or {}).get('name'))
-            if not home or not away or None in (f.get('home'),f.get('away'),h.get('home'),h.get('away')):continue
-            out.append({'league':league,'season':'current','home':home,'away':away,'hg':f['home'],'ag':f['away'],'ht_home':h['home'],'ht_away':h['away'],'date':str(fx.get('date',''))[:10],'source':'API-Football explicit score.halftime'})
-        return out
-    except Exception:return []
-
-ADAPTERS={'soccerway':source_soccerway,'worldfootball':source_worldfootball,'fbref':source_fbref,'football_data_api':source_api,'api_football':source_api_football}
+ADAPTERS={'soccerway':source_soccerway,'worldfootball':source_worldfootball,'fbref':source_fbref,'football_data_api':source_football_data}
 
 def targets(limit,league=None):
     a=load_json(AUDIT,{}); out=[]
@@ -126,7 +138,7 @@ def targets(limit,league=None):
     leagues=([league] if league else [x for x in order if x in leagues]+[x for x in leagues if x not in order])
     for lg in leagues:
         for x in a.get('leagues',{}).get(lg,[]):
-            if int(x.get('matches',0))<20:out.append((lg,x['team_name']))
+            if int(x.get('matches',0))<36:out.append((lg,x['team_name']))
             if len(out)>=limit:return out
     return out
 
@@ -151,10 +163,10 @@ def main():
             for r in rows: merged[(r['date'],r['home'],r['away'])]=r
             if len(merged)>=20:break
         rows=list(merged.values())
-        if len(rows)>=20:
-            save_rows(c,rows[:20]); learn[team]={'source':next((s for s,n in used if n),'multi'),'matches':len(rows[:20]),'updated_at':now()}; report['completed'].append({'league':lg,'team':team,'matches':len(rows[:20]),'sources':used})
+        if len(rows)>=36:
+            save_rows(c,rows[:36]); learn[team]={'source':next((s for s,n in used if n),'multi'),'matches':len(rows[:36]),'updated_at':now()}; report['completed'].append({'league':lg,'team':team,'matches':len(rows[:36]),'sources':used})
         else:
-            FAILED.open('a',encoding='utf-8').write(f'{now()} | {lg} | {team} | sources={used} | no_ht_retry\n'); report['failed'].append({'league':lg,'team':team,'matches':len(rows),'sources':used,'reason':'no_ht_retry'})
+            FAILED.open('a',encoding='utf-8').write(f'{now()} | {lg} | {team} | sources={used} | need_36_explicit_ht\n'); report['failed'].append({'league':lg,'team':team,'matches':len(rows),'sources':used,'reason':'need_36_explicit_ht'})
     c.close(); LEARN.write_text(json.dumps(learn,ensure_ascii=False,indent=2)+'\n'); report['done_in_batch']=len(report['completed']); print(json.dumps(report,ensure_ascii=False,indent=2))
     old=load_json(CHECKPOINT,{}); done=int(old.get('done_teams',0))+len(report['completed']); CHECKPOINT.write_text(json.dumps({'updated_at':now(),'done_teams':done,'total_teams':int(old.get('total_teams',865)),'last_batch':report,'status':'incomplete'},ensure_ascii=False,indent=2)+'\n'); (ROOT/'data'/'continuous_master_v2_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 if __name__=='__main__':main()
