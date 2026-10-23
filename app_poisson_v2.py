@@ -110,6 +110,47 @@ def team_history(path: Path, team_ids):
         )
 
 
+def load_player_ratings(path: Path = DB_PATH) -> pd.DataFrame:
+    """Load verified player ratings keyed by FotMob ID, without estimation."""
+    with db_connect(path) as conn:
+        exists = conn.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='players'"
+        ).fetchone()
+        if not exists:
+            return pd.DataFrame(columns=[
+                "fotmob_player_id", "player_name", "team", "position",
+                "rating", "market_value", "season", "source",
+            ])
+        return pd.read_sql_query(
+            "SELECT p.fotmob_player_id, p.player_name, "
+            "COALESCE(t.zh_name, t.en_name, '') AS team, p.position, "
+            "p.rating, p.market_value, p.season, p.source "
+            "FROM players p LEFT JOIN teams t ON t.id=p.team_id "
+            "ORDER BY p.rating DESC, p.player_name",
+            conn,
+        )
+
+
+def render_player_page(path: Path = DB_PATH):
+    st.subheader("球員評分")
+    st.caption("資料源欄位：fotmob_player_id；未取得核實資料時不會填寫評分或身價。")
+    with db_connect(path) as conn:
+        has_players = conn.execute(
+            "SELECT 1 FROM sqlite_master WHERE type='table' AND name='players'"
+        ).fetchone() is not None
+        team_values = conn.execute("SELECT COUNT(*) FROM team_values").fetchone()[0]
+    if not has_players:
+        st.info("球員資料表尚未有資料；評分樣本收集中。")
+        st.caption(f"team_values：{team_values} 筆；沒有身價資料，不作估算。")
+        return
+    ratings = load_player_ratings(path)
+    if ratings.empty:
+        st.info("目前沒有可核實的 FotMob 球員評分；資料會保留空值。")
+    else:
+        st.dataframe(ratings, use_container_width=True, hide_index=True)
+    st.caption(f"球員樣本：{len(ratings)}；team_values：{team_values} 筆。")
+
+
 st.set_page_config(page_title="泊松足球分析 V2", layout="wide")
 st.title("⚽ 泊松足球分析 V2")
 st.caption("獨立驗證版：使用 football_complete.db；team_values 缺失時不會估算或報錯。")
@@ -132,12 +173,17 @@ if focus_home.empty or focus_away.empty:
 
 with st.sidebar:
     st.header("比賽設定")
+    page = st.radio("頁面", ["賽事分析", "球員評分"], index=0)
     if st.button("一鍵載入：南墨爾本 vs 悉尼聯58"):
         if not focus_home.empty:
             st.session_state.home_id = int(focus_home.iloc[0].id)
         if not focus_away.empty:
             st.session_state.away_id = int(focus_away.iloc[0].id)
     league_id = st.selectbox("聯賽內部 ID", leagues.league_id.tolist() if not leagues.empty else [], format_func=lambda x: f"{x}（{int(leagues.loc[leagues.league_id==x,'fixtures'].iloc[0])}場）")
+
+if page == "球員評分":
+    render_player_page()
+    st.stop()
 
 home_default = int(st.session_state.get("home_id", teams.iloc[0].id))
 away_default = int(st.session_state.get("away_id", teams.iloc[min(1, len(teams)-1)].id))
@@ -160,7 +206,9 @@ else:
     st.write(f"樣本：{metrics['sample']} 場；大 2.5：{prediction['over25']*100:.1f}%；細 2.5：{prediction['under25']*100:.1f}%")
     st.write(f"主勝：{prediction['home_win']*100:.1f}%　和局：{prediction['draw']*100:.1f}%　客勝：{prediction['away_win']*100:.1f}%")
     sh_h, n_h = second_half_metrics(DB_PATH, int(home_id)); sh_a, n_a = second_half_metrics(DB_PATH, int(away_id))
-    st.info(f"下半場失波率：{home_label} {sh_h*100:.1f}%（{n_h}場）；{away_label} {sh_a*100:.1f}%（{n_a}場）。")
+    home_ht_text = f"{sh_h*100:.1f}%（{n_h}場）" if n_h else "樣本收集中（0場）"
+    away_ht_text = f"{sh_a*100:.1f}%（{n_a}場）" if n_a else "樣本收集中（0場）"
+    st.info(f"下半場失波率：{home_label} {home_ht_text}；{away_label} {away_ht_text}。")
 
 st.divider()
 st.subheader("兩隊已保存的真實完賽明細")

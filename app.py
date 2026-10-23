@@ -470,6 +470,7 @@ def clean_matches(df, source, league, season):
 
 
 FLASH_SCORE_RESULTS = {
+    "卡塔爾超級聯賽": "https://www.flashscore.com/football/qatar/qsl/results/",
     "女子南美自由盃": "https://www.flashscore.com/football/south-america/copa-libertadores-women/results/",
 }
 GENERATED_BACKFILL_DIR = Path(__file__).with_name("data") / "generated_backfills"
