@@ -13,6 +13,7 @@ from pathlib import Path
 from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup, Comment
+from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'catalog'; MATCH_DIR=OUT/'matches'
@@ -31,12 +32,30 @@ LEAGUES={
  '冰島':85,'愛爾蘭':80,'威爾斯':108,'北愛':98,'捷克':66,'克羅地亞':63,'塞爾維亞':54,
 }
 PHASE1={'英超':5,'澳職':3,'卡塔爾':5}
+SCHEDULE_SLUGS={'英超':'Premier-League-Scores-and-Fixtures','澳職':'A-League-Men-Scores-and-Fixtures'}
 S=requests.Session(); S.headers.update({'User-Agent':UA,'Accept-Language':'en-US,en;q=0.9'})
+_PW=None; _BROWSER=None; _PAGE=None
 
 def now(): return datetime.now(timezone.utc).isoformat()
 def pause(): time.sleep(random.uniform(1.0,2.5))
 def get(url):
-    pause(); r=S.get(url,timeout=35); r.raise_for_status(); return r.text
+    pause()
+    try:
+        r=S.get(url,timeout=35)
+        if r.ok and len(r.text)>1000:return r.text
+    except requests.RequestException:
+        pass
+    global _PW,_BROWSER,_PAGE
+    if _PAGE is None:
+        _PW=sync_playwright().start()
+        _BROWSER=_PW.chromium.launch(headless=True)
+        _PAGE=_BROWSER.new_page(user_agent=UA,locale='en-US')
+    _PAGE.goto(url,wait_until='domcontentloaded',timeout=60000)
+    _PAGE.wait_for_timeout(6000)
+    html=_PAGE.content()
+    if 'Just a moment...' in html or 'cf-chl-' in html:
+        raise RuntimeError('FBref Cloudflare challenge remained after Playwright wait')
+    return html
 
 def visible_html(html):
     soup=BeautifulSoup(html,'html.parser')
@@ -57,6 +76,9 @@ def explicit_ht(x):
 
 def comp_url(name,kind='schedule'):
     cid=LEAGUES[name]
+    slug=SCHEDULE_SLUGS.get(name)
+    if kind=='schedule' and slug:
+        return f'https://fbref.com/en/comps/{cid}/{SEASON}/schedule/{slug}'
     return f'https://fbref.com/en/comps/{cid}/{SEASON}/{kind}/'
 
 def discover_teams(league):
