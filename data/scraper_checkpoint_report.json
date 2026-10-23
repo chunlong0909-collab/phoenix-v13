@@ -1,0 +1,58 @@
+{
+  "updated_at": "2026-10-23T17:12:45.956288+00:00",
+  "requested": [
+    [
+      "卡塔爾超級聯賽",
+      "Al Ahli Doha"
+    ],
+    [
+      "卡塔爾超級聯賽",
+      "Al Arabi"
+    ],
+    [
+      "卡塔爾超級聯賽",
+      "Al Duhail"
+    ],
+    [
+      "卡塔爾超級聯賽",
+      "Al Gharafa"
+    ],
+    [
+      "卡塔爾超級聯賽",
+      "Al Rayyan"
+    ]
+  ],
+  "completed": [],
+  "failed": [
+    {
+      "league": "卡塔爾超級聯賽",
+      "team": "Al Ahli Doha",
+      "matches": 0,
+      "reason": "team page not found: Al Ahli Doha"
+    },
+    {
+      "league": "卡塔爾超級聯賽",
+      "team": "Al Arabi",
+      "matches": 0,
+      "reason": "team page not found: Al Arabi"
+    },
+    {
+      "league": "卡塔爾超級聯賽",
+      "team": "Al Duhail",
+      "matches": 0,
+      "reason": "team page not found: Al Duhail"
+    },
+    {
+      "league": "卡塔爾超級聯賽",
+      "team": "Al Gharafa",
+      "matches": 0,
+      "reason": "team page not found: Al Gharafa"
+    },
+    {
+      "league": "卡塔爾超級聯賽",
+      "team": "Al Rayyan",
+      "matches": 0,
+      "reason": "team page not found: Al Rayyan"
+    }
+  ]
+}
