@@ -15,7 +15,7 @@ ROOT=Path(__file__).resolve().parents[1]
 DB=ROOT/'football_library.db'; AUDIT=ROOT/'data/local_completeness_audit.json'
 CHECKPOINT=ROOT/'checkpoint.json'; LEARN=ROOT/'learn.json'; FAILED=ROOT/'failed_teams.log'
 UA=["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 Version/17 Safari/605.1.15"]
-SOURCE_NAMES=['soccerway','worldfootball','fbref','football_data_api']
+SOURCE_NAMES=['soccerway','worldfootball','fbref','football_data_api','api_football']
 EASY=['日職','K1','K2','美職']; HARD=['卡塔爾超級聯賽','沙職']
 
 
@@ -32,11 +32,18 @@ def score(text):
     m=re.search(r'(?<!\d)(\d+)\s*[-:]\s*(\d+)(?!\d)',text or '')
     return (int(m.group(1)),int(m.group(2))) if m else None
 
-def ht(text):
+def parse_ht_smart(text):
+    """辨識括號HT、尾綴HT及常見 JSON halftime；不作任何估算。"""
     text=re.sub(r'\s+',' ',text or '')
-    for p in [r'\bHT\b[^0-9]*(\d+)\s*[-:]\s*(\d+)',r'\b(?:1ST\s+HALF|HALF|半場)\b[^0-9]*(\d+)\s*[-:]\s*(\d+)',r'\(\s*(\d+)\s*[-:]\s*(\d+)\s*\)']:
+    # 例：2:1 (1:0) 或 2-1 (1-0)，括號內比分優先視作HT。
+    m=re.search(r'\(\s*(\d+)\s*[:\-]\s*(\d+)\s*\)',text)
+    if m:return int(m.group(1)),int(m.group(2))
+    for p in [r'\bHT\b[^0-9]*(\d+)\s*[-:]\s*(\d+)',r'(\d+)\s*[-:]\s*(\d+)\s*\bHT\b',r'\b(?:1ST\s+HALF|HALF|半場)\b[^0-9]*(\d+)\s*[-:]\s*(\d+)']:
         m=re.search(p,text,re.I)
         if m:return int(m.group(1)),int(m.group(2))
+    # 常見 API 文字化 JSON：ht: {home: 1, away: 0}
+    m=re.search(r'(?:ht|half.?time|halftime)\s*["\']?\s*[:=]\s*\{[^}]*?home[^0-9]*(\d+)[^}]*?away[^0-9]*(\d+)',text,re.I)
+    if m:return int(m.group(1)),int(m.group(2))
     return None
 
 def clean_name(x): return re.sub(r'\s+',' ',str(x or '')).strip()
@@ -49,7 +56,10 @@ def structured_from_html(html,league,team,source):
     if not blocks: blocks=re.findall(r'.{0,700}(?:HT|Half|半場|half.?time).{0,700}',html,re.I|re.S)
     for b in blocks:
         text=re.sub('<[^>]+>',' ',b); text=re.sub(r'\s+',' ',text)
-        f=score(text); h=ht(text)
+        f=score(text); h=parse_ht_smart(text)
+        bm=re.search(r'\(\s*(\d+)\s*[:\-]\s*(\d+)\s*\)',text)
+        if bm:
+            print(f"HT from bracket ({bm.group(1)}:{bm.group(2)})",flush=True)
         if not (f and h and team.lower().split()[0] in text.lower()): continue
         # Require two non-numeric word chunks around a score; reject unknown away names.
         chunks=re.findall(r'[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ0-9 .&()_-]{2,50}',text)
@@ -93,7 +103,21 @@ def source_api(league,team):
         return out
     except Exception:return []
 
-ADAPTERS={'soccerway':source_soccerway,'worldfootball':source_worldfootball,'fbref':source_fbref,'football_data_api':source_api}
+def source_api_football(league,team):
+    token=os.getenv('API_FOOTBALL_TOKEN')
+    if not token:return []
+    # 只有 API 明確回傳 score.halftime 才接受；不把 null 轉成 0。
+    try:
+        r=requests.get('https://v3.football.api-sports.io/fixtures',params={'team':team,'last':20},headers={'x-apisports-key':token,'User-Agent':random.choice(UA)},timeout=30); r.raise_for_status(); out=[]
+        for item in r.json().get('response',[]):
+            f=item.get('goals') or {}; s=item.get('score') or {}; h=s.get('halftime') or {}; fx=item.get('fixture') or {}; teams=item.get('teams') or {}
+            home=clean_name((teams.get('home') or {}).get('name')); away=clean_name((teams.get('away') or {}).get('name'))
+            if not home or not away or None in (f.get('home'),f.get('away'),h.get('home'),h.get('away')):continue
+            out.append({'league':league,'season':'current','home':home,'away':away,'hg':f['home'],'ag':f['away'],'ht_home':h['home'],'ht_away':h['away'],'date':str(fx.get('date',''))[:10],'source':'API-Football explicit score.halftime'})
+        return out
+    except Exception:return []
+
+ADAPTERS={'soccerway':source_soccerway,'worldfootball':source_worldfootball,'fbref':source_fbref,'football_data_api':source_api,'api_football':source_api_football}
 
 def targets(limit,league=None):
     a=load_json(AUDIT,{}); out=[]
