@@ -2353,7 +2353,13 @@ if run:
     a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
     pair_data_ok, pair_data_reasons = pair_data_status(h, a, stale_data)
     if not pair_data_ok:
-        st.warning("；".join(pair_data_reasons) + "；本場只作模型參考，不作下注結論。")
+        # 硬性信任閘門：樣本不足時不能再展示看似精確的主客、大小球或
+        # 角球機率。否則畫面一邊寫「資料不足」，一邊仍顯示 0.505880，
+        # 容易令使用者誤以為那是可用的正式預測。
+        st.error("；".join(pair_data_reasons))
+        st.warning("資料不足，未能作可信分析；本次不顯示模型機率、EV、比分池或下注方向。請先補足主隊及客隊各至少4場已核實賽果。")
+        st.info("可使用上方「上載CSV」或「一鍵補20場」補入真實賽果；角球若未有核實HC/AC，角球分析仍會保持資料不足。")
+        st.stop()
     hgf = (h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean() if not h.empty else 1.0)
     hga = (h.apply(lambda r: r.AG if r.Home == home else r.HG, axis=1).mean() if not h.empty else 1.0)
     agf = (a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean() if not a.empty else 1.0)
