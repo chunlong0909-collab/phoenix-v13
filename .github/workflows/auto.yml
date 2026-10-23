@@ -2,8 +2,8 @@ name: daily-football-update
 
 on:
   schedule:
-    # GitHub Actions uses UTC; 19:00 UTC = 03:00 next day Hong Kong time.
-    - cron: "0 19 * * *"
+    # GitHub Actions uses UTC; 20:00 UTC = 04:00 next day Hong Kong time.
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 permissions:
