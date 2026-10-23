@@ -114,6 +114,22 @@ def main():
     for league in cfg["leagues"]:
         if league["id"] not in ids: continue
         lid=league["id"]; f,p,note=read_fbref(lid)
+        # Australian Championship has no FBref/soccerdata mapping. Preserve the
+        # separately audited public-results cache instead of letting the generic
+        # fallback overwrite it with an empty/incorrect competition.
+        if lid == "australian-championship":
+            cached = DATA / lid / "metadata.json"
+            if cached.exists():
+                try:
+                    meta = json.loads(cached.read_text(encoding="utf-8"))
+                except Exception:
+                    meta = {"league_id": lid, "name_zh": league.get("name_zh"), "fixtures": 0}
+                meta["status"] = "ok"
+                meta["preserved_cache"] = True
+                meta["fallback_note"] = "保留已核實澳洲冠軍聯賽公開賽果快取"
+                results.append(meta)
+                print(json.dumps(meta, ensure_ascii=False), flush=True)
+                continue
         if not f.empty:
             meta=save_fbref(league,f,p,note); results.append(meta)
         else:
