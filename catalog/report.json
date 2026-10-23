@@ -1,0 +1,24 @@
+{
+  "season": "2025-2026",
+  "updated_at": "2026-10-23T18:14:28.183840+00:00",
+  "leagues": {},
+  "errors": [
+    {
+      "league": "英超",
+      "error": "RuntimeError: FBref Cloudflare challenge remained after Playwright wait"
+    },
+    {
+      "league": "澳職",
+      "error": "RuntimeError: FBref Cloudflare challenge remained after Playwright wait"
+    },
+    {
+      "league": "卡塔爾",
+      "error": "RuntimeError: FBref Cloudflare challenge remained after Playwright wait"
+    }
+  ],
+  "totals": {
+    "teams": 0,
+    "players": 0,
+    "complete_teams": 0
+  }
+}
