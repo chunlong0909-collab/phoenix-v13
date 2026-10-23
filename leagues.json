@@ -422,7 +422,7 @@
     },
     {
       "id": "australian-championship",
-      "name_zh": "澳洲冠軍聯賽",
+      "name_zh": "澳洲冠軍聯賽盃",
       "name_en": "Australian Championship",
       "provider": "official/flashscore",
       "openfootball_paths": [],
