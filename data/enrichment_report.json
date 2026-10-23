@@ -7,5 +7,9 @@
   "goals_written": 2,
   "cards_written": 6,
   "market_values_written": 0,
-  "note": "Only exact ESPN events written; no inferred data."
+  "note": "Only exact ESPN events written; no inferred data.",
+  "market_value_season": "2025-2026",
+  "market_value_source": "Transfermarkt visible HTML via normal Playwright",
+  "market_value_remaining_without_value": 682,
+  "market_value_policy": "CAPTCHA/blocked/no-value pages remain unfilled; no inferred zeros or estimates"
 }

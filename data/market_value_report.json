@@ -1,0 +1,18 @@
+{
+  "updated_at": "2026-10-23T09:17:07.246617+00:00",
+  "season": "2025-2026",
+  "source": "Transfermarkt visible HTML via normal Playwright",
+  "written": 0,
+  "unmatched_values": [],
+  "remaining_without_value": 682,
+  "competitions": [
+    {
+      "competition": "GB1",
+      "url": "https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1",
+      "status": 405,
+      "values": {},
+      "reason": "no_visible_market_values"
+    }
+  ],
+  "policy": "CAPTCHA/blocked/no-value pages remain unfilled; no inferred zeros or estimates"
+}
