@@ -1,0 +1,91 @@
+{
+  "merged": [
+    {
+      "from": "Pau",
+      "to": "Pau FC"
+    },
+    {
+      "from": "Twente",
+      "to": "FC Twente"
+    },
+    {
+      "from": "Utrecht",
+      "to": "FC Utrecht"
+    },
+    {
+      "from": "Volendam",
+      "to": "FC Volendam"
+    },
+    {
+      "from": "Groningen",
+      "to": "FC Groningen"
+    },
+    {
+      "from": "VVV Venlo",
+      "to": "VVV-Venlo"
+    },
+    {
+      "from": "Wellington Phoenix",
+      "to": "Wellington Phoenix FC"
+    },
+    {
+      "from": "Kyoto Sanga",
+      "to": "Kyoto Sanga FC"
+    },
+    {
+      "from": "FC Machida Zelvia",
+      "to": "Machida Zelvia"
+    },
+    {
+      "from": "Club Necaxa",
+      "to": "Necaxa"
+    },
+    {
+      "from": "Club América",
+      "to": "América"
+    },
+    {
+      "from": "Club Tijuana",
+      "to": "Tijuana"
+    },
+    {
+      "from": "Puebla",
+      "to": "Puebla FC"
+    },
+    {
+      "from": "Club León",
+      "to": "León"
+    },
+    {
+      "from": "Club Celaya",
+      "to": "Celaya"
+    },
+    {
+      "from": "Atlético La Paz",
+      "to": "Club Atlético La Paz"
+    },
+    {
+      "from": "Tepatitlán",
+      "to": "Tepatitlán FC"
+    },
+    {
+      "from": "Atlético Morelia",
+      "to": "Club Atlético Morelia"
+    },
+    {
+      "from": "South Melbourne",
+      "to": "South Melbourne FC"
+    },
+    {
+      "from": "Damac",
+      "to": "Damac FC"
+    },
+    {
+      "from": "Al Ra'ed",
+      "to": "Al Raed"
+    }
+  ],
+  "merged_count": 21,
+  "south_melbourne_count": 22,
+  "sydney_united_count": 20
+}
