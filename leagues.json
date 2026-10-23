@@ -1,40 +1,434 @@
 {
   "version": 1,
-  "updated_at": "",
+  "updated_at": "2026-10-23",
   "leagues": [
-    {"id":"epl","name_zh":"英超","name_en":"English Premier League","provider":"football-data","fd_code":"E0","openfootball_paths":["europe/england"],"sportsdb_names":["English Premier League"]},
-    {"id":"championship","name_zh":"英冠","name_en":"Championship","provider":"football-data","fd_code":"E1","openfootball_paths":["europe/england"],"sportsdb_names":["English League Championship"]},
-    {"id":"laliga","name_zh":"西甲","name_en":"LaLiga","provider":"football-data","fd_code":"SP1","openfootball_paths":["europe/spain"],"sportsdb_names":["Spanish La Liga"]},
-    {"id":"laliga2","name_zh":"西乙","name_en":"LaLiga2","provider":"football-data","fd_code":"SP2","openfootball_paths":["europe/spain"],"sportsdb_names":["Spanish Segunda Division"]},
-    {"id":"bundesliga","name_zh":"德甲","name_en":"Bundesliga","provider":"football-data","fd_code":"D1","openfootball_paths":["europe/germany"],"sportsdb_names":["German Bundesliga"]},
-    {"id":"bundesliga2","name_zh":"德乙","name_en":"Bundesliga2","provider":"football-data","fd_code":"D2","openfootball_paths":["europe/germany"],"sportsdb_names":["German 2. Bundesliga"]},
-    {"id":"ligue2","name_zh":"法乙","name_en":"Ligue 2","provider":"football-data","fd_code":"F2","openfootball_paths":["europe/france"],"sportsdb_names":["French Ligue 2"]},
-    {"id":"eredivisie","name_zh":"荷甲","name_en":"Eredivisie","provider":"football-data","fd_code":"N1","openfootball_paths":["europe/netherlands"],"sportsdb_names":["Dutch Eredivisie"]},
-    {"id":"eerste","name_zh":"荷乙","name_en":"Eerste Divisie","provider":"openfootball","openfootball_paths":["europe/netherlands"],"sportsdb_names":["Dutch Eerste Divisie"]},
-    {"id":"scottish-prem","name_zh":"蘇超","name_en":"Scottish Premiership","provider":"football-data","fd_code":"SC0","openfootball_paths":["europe/scotland"],"sportsdb_names":["Scottish Premier League"]},
-    {"id":"austrian-bundesliga","name_zh":"奧甲","name_en":"Austrian Bundesliga","provider":"openfootball","openfootball_paths":["europe/austria"],"sportsdb_names":["Austrian Bundesliga"]},
-    {"id":"danish-superliga","name_zh":"丹超","name_en":"Danish Superliga","provider":"openfootball","openfootball_paths":["europe/denmark"],"sportsdb_names":["Danish Superliga"]},
-    {"id":"a-league","name_zh":"澳職","name_en":"A-League","provider":"openfootball","openfootball_paths":["pacific/australia"],"sportsdb_names":["A-League"]},
-    {"id":"a-league-women","name_zh":"女子澳職","name_en":"A-League Women","provider":"openfootball","openfootball_paths":["pacific/australia"],"sportsdb_names":["A-League Women"]},
-    {"id":"australia-cup","name_zh":"澳洲盃","name_en":"Australia Cup","provider":"openfootball","openfootball_paths":["pacific/australia"],"sportsdb_names":["Australia Cup"]},
-    {"id":"j1","name_zh":"日職J1","name_en":"J1 League","provider":"openfootball","openfootball_paths":["asia/japan"],"sportsdb_names":["J1 League"]},
-    {"id":"j2","name_zh":"日乙J2","name_en":"J2 League","provider":"openfootball","openfootball_paths":["asia/japan"],"sportsdb_names":["J2 League"]},
-    {"id":"k1","name_zh":"韓職K1","name_en":"K League 1","provider":"openfootball","openfootball_paths":["asia/south-korea"],"sportsdb_names":["K League 1"]},
-    {"id":"k2","name_zh":"韓乙K2","name_en":"K League 2","provider":"openfootball","openfootball_paths":["asia/south-korea"],"sportsdb_names":["K League 2"]},
-    {"id":"saudi-pro","name_zh":"沙職","name_en":"Saudi Pro League","provider":"openfootball","openfootball_paths":["asia/saudi-arabia"],"sportsdb_names":["Saudi Pro League"]},
-    {"id":"qatar-stars","name_zh":"卡塔爾","name_en":"Qatar Stars League","provider":"openfootball","openfootball_paths":["asia/qatar"],"sportsdb_names":["Qatar Stars League"]},
-    {"id":"uae-pro","name_zh":"阿聯酋","name_en":"UAE Pro League","provider":"openfootball","openfootball_paths":["asia/uae"],"sportsdb_names":["UAE Pro League"]},
-    {"id":"thai-league1","name_zh":"泰甲","name_en":"Thai League 1","provider":"openfootball","openfootball_paths":["asia/thailand"],"sportsdb_names":["Thai League 1"]},
-    {"id":"veikkausliiga","name_zh":"芬超","name_en":"Veikkausliiga","provider":"openfootball","openfootball_paths":["europe/finland"],"sportsdb_names":["Finnish Veikkausliiga"]},
-    {"id":"eliteserien","name_zh":"挪超","name_en":"Eliteserien","provider":"openfootball","openfootball_paths":["europe/norway"],"sportsdb_names":["Norwegian Eliteserien"]},
-    {"id":"russian-prem","name_zh":"俄超","name_en":"Russian Premier League","provider":"openfootball","openfootball_paths":["europe/russia"],"sportsdb_names":["Russian Premier League"]},
-    {"id":"liga-mx","name_zh":"墨超","name_en":"Liga MX","provider":"openfootball","openfootball_paths":["north-america/mexico"],"sportsdb_names":["Mexican Liga MX"]},
-    {"id":"expansion-mx","name_zh":"墨甲","name_en":"Expansion MX","provider":"openfootball","openfootball_paths":["north-america/mexico"],"sportsdb_names":["Liga de Expansion MX"]},
-    {"id":"argentina-primera","name_zh":"阿甲","name_en":"Argentine Primera","provider":"openfootball","openfootball_paths":["south-america/argentina"],"sportsdb_names":["Argentine Primera Division"]},
-    {"id":"serie-a","name_zh":"巴甲","name_en":"Serie A","provider":"football-data","fd_code":"BRA","openfootball_paths":["south-america/brazil"],"sportsdb_names":["Brazilian Serie A"]},
-    {"id":"serie-b","name_zh":"巴乙","name_en":"Serie B","provider":"openfootball","openfootball_paths":["south-america/brazil"],"sportsdb_names":["Brazilian Serie B"]},
-    {"id":"uruguay-primera","name_zh":"烏拉圭甲","name_en":"Uruguay Primera","provider":"openfootball","openfootball_paths":["south-america/uruguay"],"sportsdb_names":["Uruguayan Primera Division"]},
-    {"id":"toppserien","name_zh":"女子挪超","name_en":"Toppserien","provider":"openfootball","openfootball_paths":["europe/norway"],"sportsdb_names":["Norwegian Toppserien"]},
-    {"id":"libertadores-femenina","name_zh":"女子南美自由盃","name_en":"Women Libertadores","provider":"openfootball","openfootball_paths":["south-america/libertadores-femenina"],"sportsdb_names":["Copa Libertadores Femenina"]}
+    {
+      "id": "epl",
+      "name_zh": "英超",
+      "name_en": "English Premier League",
+      "provider": "football-data",
+      "fd_code": "E0",
+      "openfootball_paths": [
+        "europe/england"
+      ],
+      "sportsdb_names": [
+        "English Premier League"
+      ]
+    },
+    {
+      "id": "championship",
+      "name_zh": "英冠",
+      "name_en": "Championship",
+      "provider": "football-data",
+      "fd_code": "E1",
+      "openfootball_paths": [
+        "europe/england"
+      ],
+      "sportsdb_names": [
+        "English League Championship"
+      ]
+    },
+    {
+      "id": "laliga",
+      "name_zh": "西甲",
+      "name_en": "LaLiga",
+      "provider": "football-data",
+      "fd_code": "SP1",
+      "openfootball_paths": [
+        "europe/spain"
+      ],
+      "sportsdb_names": [
+        "Spanish La Liga"
+      ]
+    },
+    {
+      "id": "laliga2",
+      "name_zh": "西乙",
+      "name_en": "LaLiga2",
+      "provider": "football-data",
+      "fd_code": "SP2",
+      "openfootball_paths": [
+        "europe/spain"
+      ],
+      "sportsdb_names": [
+        "Spanish Segunda Division"
+      ]
+    },
+    {
+      "id": "bundesliga",
+      "name_zh": "德甲",
+      "name_en": "Bundesliga",
+      "provider": "football-data",
+      "fd_code": "D1",
+      "openfootball_paths": [
+        "europe/germany"
+      ],
+      "sportsdb_names": [
+        "German Bundesliga"
+      ]
+    },
+    {
+      "id": "bundesliga2",
+      "name_zh": "德乙",
+      "name_en": "Bundesliga2",
+      "provider": "football-data",
+      "fd_code": "D2",
+      "openfootball_paths": [
+        "europe/germany"
+      ],
+      "sportsdb_names": [
+        "German 2. Bundesliga"
+      ]
+    },
+    {
+      "id": "ligue2",
+      "name_zh": "法乙",
+      "name_en": "Ligue 2",
+      "provider": "football-data",
+      "fd_code": "F2",
+      "openfootball_paths": [
+        "europe/france"
+      ],
+      "sportsdb_names": [
+        "French Ligue 2"
+      ]
+    },
+    {
+      "id": "eredivisie",
+      "name_zh": "荷甲",
+      "name_en": "Eredivisie",
+      "provider": "football-data",
+      "fd_code": "N1",
+      "openfootball_paths": [
+        "europe/netherlands"
+      ],
+      "sportsdb_names": [
+        "Dutch Eredivisie"
+      ]
+    },
+    {
+      "id": "eerste",
+      "name_zh": "荷乙",
+      "name_en": "Eerste Divisie",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "europe/netherlands"
+      ],
+      "sportsdb_names": [
+        "Dutch Eerste Divisie"
+      ]
+    },
+    {
+      "id": "scottish-prem",
+      "name_zh": "蘇超",
+      "name_en": "Scottish Premiership",
+      "provider": "football-data",
+      "fd_code": "SC0",
+      "openfootball_paths": [
+        "europe/scotland"
+      ],
+      "sportsdb_names": [
+        "Scottish Premier League"
+      ]
+    },
+    {
+      "id": "austrian-bundesliga",
+      "name_zh": "奧甲",
+      "name_en": "Austrian Bundesliga",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "europe/austria"
+      ],
+      "sportsdb_names": [
+        "Austrian Bundesliga"
+      ]
+    },
+    {
+      "id": "danish-superliga",
+      "name_zh": "丹超",
+      "name_en": "Danish Superliga",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "europe/denmark"
+      ],
+      "sportsdb_names": [
+        "Danish Superliga"
+      ]
+    },
+    {
+      "id": "a-league",
+      "name_zh": "澳職",
+      "name_en": "A-League",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "pacific/australia"
+      ],
+      "sportsdb_names": [
+        "A-League"
+      ]
+    },
+    {
+      "id": "a-league-women",
+      "name_zh": "女子澳職",
+      "name_en": "A-League Women",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "pacific/australia"
+      ],
+      "sportsdb_names": [
+        "A-League Women"
+      ]
+    },
+    {
+      "id": "australia-cup",
+      "name_zh": "澳洲盃",
+      "name_en": "Australia Cup",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "pacific/australia"
+      ],
+      "sportsdb_names": [
+        "Australia Cup"
+      ]
+    },
+    {
+      "id": "j1",
+      "name_zh": "日職J1",
+      "name_en": "J1 League",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/japan"
+      ],
+      "sportsdb_names": [
+        "J1 League"
+      ]
+    },
+    {
+      "id": "j2",
+      "name_zh": "日乙J2",
+      "name_en": "J2 League",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/japan"
+      ],
+      "sportsdb_names": [
+        "J2 League"
+      ]
+    },
+    {
+      "id": "k1",
+      "name_zh": "韓職K1",
+      "name_en": "K League 1",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/south-korea"
+      ],
+      "sportsdb_names": [
+        "K League 1"
+      ]
+    },
+    {
+      "id": "k2",
+      "name_zh": "韓乙K2",
+      "name_en": "K League 2",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/south-korea"
+      ],
+      "sportsdb_names": [
+        "K League 2"
+      ]
+    },
+    {
+      "id": "saudi-pro",
+      "name_zh": "沙職",
+      "name_en": "Saudi Pro League",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/saudi-arabia"
+      ],
+      "sportsdb_names": [
+        "Saudi Pro League"
+      ]
+    },
+    {
+      "id": "qatar-stars",
+      "name_zh": "卡塔爾",
+      "name_en": "Qatar Stars League",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/qatar"
+      ],
+      "sportsdb_names": [
+        "Qatar Stars League"
+      ]
+    },
+    {
+      "id": "uae-pro",
+      "name_zh": "阿聯酋",
+      "name_en": "UAE Pro League",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/uae"
+      ],
+      "sportsdb_names": [
+        "UAE Pro League"
+      ]
+    },
+    {
+      "id": "thai-league1",
+      "name_zh": "泰甲",
+      "name_en": "Thai League 1",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "asia/thailand"
+      ],
+      "sportsdb_names": [
+        "Thai League 1"
+      ]
+    },
+    {
+      "id": "veikkausliiga",
+      "name_zh": "芬超",
+      "name_en": "Veikkausliiga",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "europe/finland"
+      ],
+      "sportsdb_names": [
+        "Finnish Veikkausliiga"
+      ]
+    },
+    {
+      "id": "eliteserien",
+      "name_zh": "挪超",
+      "name_en": "Eliteserien",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "europe/norway"
+      ],
+      "sportsdb_names": [
+        "Norwegian Eliteserien"
+      ]
+    },
+    {
+      "id": "russian-prem",
+      "name_zh": "俄超",
+      "name_en": "Russian Premier League",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "europe/russia"
+      ],
+      "sportsdb_names": [
+        "Russian Premier League"
+      ]
+    },
+    {
+      "id": "liga-mx",
+      "name_zh": "墨超",
+      "name_en": "Liga MX",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "north-america/mexico"
+      ],
+      "sportsdb_names": [
+        "Mexican Liga MX"
+      ]
+    },
+    {
+      "id": "expansion-mx",
+      "name_zh": "墨甲",
+      "name_en": "Expansion MX",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "north-america/mexico"
+      ],
+      "sportsdb_names": [
+        "Liga de Expansion MX"
+      ]
+    },
+    {
+      "id": "argentina-primera",
+      "name_zh": "阿甲",
+      "name_en": "Argentine Primera",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "south-america/argentina"
+      ],
+      "sportsdb_names": [
+        "Argentine Primera Division"
+      ]
+    },
+    {
+      "id": "serie-a",
+      "name_zh": "巴甲",
+      "name_en": "Serie A",
+      "provider": "football-data",
+      "fd_code": "BRA",
+      "openfootball_paths": [
+        "south-america/brazil"
+      ],
+      "sportsdb_names": [
+        "Brazilian Serie A"
+      ]
+    },
+    {
+      "id": "serie-b",
+      "name_zh": "巴乙",
+      "name_en": "Serie B",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "south-america/brazil"
+      ],
+      "sportsdb_names": [
+        "Brazilian Serie B"
+      ]
+    },
+    {
+      "id": "uruguay-primera",
+      "name_zh": "烏拉圭甲",
+      "name_en": "Uruguay Primera",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "south-america/uruguay"
+      ],
+      "sportsdb_names": [
+        "Uruguayan Primera Division"
+      ]
+    },
+    {
+      "id": "toppserien",
+      "name_zh": "女子挪超",
+      "name_en": "Toppserien",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "europe/norway"
+      ],
+      "sportsdb_names": [
+        "Norwegian Toppserien"
+      ]
+    },
+    {
+      "id": "libertadores-femenina",
+      "name_zh": "女子南美自由盃",
+      "name_en": "Women Libertadores",
+      "provider": "openfootball",
+      "openfootball_paths": [
+        "south-america/libertadores-femenina"
+      ],
+      "sportsdb_names": [
+        "Copa Libertadores Femenina"
+      ]
+    },
+    {
+      "id": "australian-championship",
+      "name_zh": "澳洲冠軍聯賽",
+      "name_en": "Australian Championship",
+      "provider": "official/flashscore",
+      "openfootball_paths": [],
+      "sportsdb_names": [
+        "Australian Championship"
+      ]
+    }
   ]
 }
