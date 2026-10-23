@@ -132,7 +132,26 @@ def manual_league_path(league):
 def db_connect():
     """建立可容忍短暫並行讀寫的 SQLite 連線。"""
     conn = sqlite3.connect(DB_PATH, timeout=30, check_same_thread=False)
-    conn.execute("PRAGMA journal_mode=WAL;")
+    # WAL 只在可寫入環境嘗試設定；Streamlit Cloud 重啟或多工作者
+    # 同時讀取時，切換 journal mode 可能在 SELECT 前觸發 database locked。
+    try:
+        conn.execute("PRAGMA journal_mode=WAL;")
+    except sqlite3.OperationalError:
+        pass
+    conn.execute("PRAGMA busy_timeout=30000;")
+    return conn
+
+
+def db_read_connect():
+    """以只讀連線讀取資料，避免分析頁被背景寫入鎖住。"""
+    try:
+        conn = sqlite3.connect(
+            f"file:{Path(DB_PATH).resolve()}?mode=ro",
+            uri=True, timeout=30, check_same_thread=False,
+        )
+    except sqlite3.OperationalError:
+        # 本地測試或首次初始化時資料庫可能尚未存在，交回一般連線。
+        conn = db_connect()
     conn.execute("PRAGMA busy_timeout=30000;")
     return conn
 
@@ -1692,8 +1711,14 @@ def merge_manual_match_metadata(df, league):
 
 
 def all_saved_matches(league):
-    with db_connect() as c:
-        df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
+    try:
+        with db_read_connect() as c:
+            df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
+    except sqlite3.DatabaseError:
+        # 線上部署遇到殘留 WAL/短暫寫鎖時，重試一次一般連線；
+        # 絕不把 SQLite traceback 直接顯示給使用者。
+        with db_connect() as c:
+            df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
     if df.empty:
         return df
     df = df.rename(columns={"home": "Home", "away": "Away", "hg": "HG", "ag": "AG",
