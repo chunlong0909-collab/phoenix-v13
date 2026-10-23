@@ -139,12 +139,17 @@ def init_db(path):
     c = sqlite3.connect(path, timeout=30)
     c.execute("PRAGMA busy_timeout=30000")
     c.executescript("""
-    CREATE TABLE IF NOT EXISTS fixtures (match_id TEXT PRIMARY KEY, league TEXT, date TEXT, season TEXT, home_team TEXT, away_team TEXT, home_goals INTEGER, away_goals INTEGER, half_home_goals INTEGER, half_away_goals INTEGER, source TEXT);
+    CREATE TABLE IF NOT EXISTS fixtures (match_id TEXT PRIMARY KEY, league TEXT, date TEXT, season TEXT, home_team TEXT, away_team TEXT, home_goals INTEGER, away_goals INTEGER, half_home_goals INTEGER, half_away_goals INTEGER, possession_home REAL, possession_away REAL, shots_home REAL, shots_away REAL, shots_on_target_home REAL, shots_on_target_away REAL, source TEXT);
     CREATE TABLE IF NOT EXISTS goals (match_id TEXT, team TEXT, minute INTEGER, source TEXT, PRIMARY KEY(match_id, team, minute));
     CREATE TABLE IF NOT EXISTS corners (match_id TEXT PRIMARY KEY, corner_home REAL, corner_away REAL, verified INTEGER NOT NULL DEFAULT 0, source_fbref TEXT, source_flashscore TEXT, source TEXT);
     CREATE TABLE IF NOT EXISTS teams (team_id TEXT PRIMARY KEY, en_name TEXT, zh_name TEXT, market_value REAL, league TEXT, source TEXT);
     CREATE TABLE IF NOT EXISTS sync_log (league TEXT, status TEXT, message TEXT, captured_at TEXT);
     """)
+    # 兼容早期已建立的空表；只加欄位，不刪除任何既有資料。
+    cols = {r[1] for r in c.execute("PRAGMA table_info(fixtures)").fetchall()}
+    for col in ("possession_home", "possession_away", "shots_home", "shots_away", "shots_on_target_home", "shots_on_target_away"):
+        if col not in cols:
+            c.execute(f"ALTER TABLE fixtures ADD COLUMN {col} REAL")
     c.commit(); return c
 
 
@@ -160,9 +165,9 @@ def write_rows(league, df, source, conns):
     now = datetime.now(timezone.utc).isoformat()
     for _, r in df.iterrows():
         key = f"html-{league}-{r['date']}-{r['home_team']}-{r['away_team']}"
-        vals = (key, league, r.get("date"), "2025-26", r["home_team"], r["away_team"], int(r["home_goals"]), int(r["away_goals"]), None, None, source)
+        vals = (key, league, r.get("date"), "2025-26", r["home_team"], r["away_team"], int(r["home_goals"]), int(r["away_goals"]), None, None, r.get("possession_home"), r.get("possession_away"), r.get("shots_home"), r.get("shots_away"), r.get("shots_on_target_home"), r.get("shots_on_target_away"), source)
         for c in conns:
-            c.execute("INSERT OR REPLACE INTO fixtures VALUES (?,?,?,?,?,?,?,?,?,?,?)", vals)
+            c.execute("INSERT OR REPLACE INTO fixtures VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", vals)
             for team in (r["home_team"], r["away_team"]):
                 tid = re.sub(r"[^a-z0-9]+", "-", team.lower()).strip("-")
                 c.execute("INSERT OR REPLACE INTO teams(team_id,en_name,zh_name,market_value,league,source) VALUES(?,?,?,?,?,?)", (tid, team, zh_name(team), None, league, source))
