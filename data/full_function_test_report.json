@@ -1,0 +1,27 @@
+{
+  "functional_tests": {
+    "python_compile": "PASS",
+    "app_streamlit_start": "PASS",
+    "v2_streamlit_start": "PASS",
+    "qatar_ui_reads_saved_data": "PASS",
+    "flashscore_fetch_20": "PASS",
+    "html_corner_parser": "PASS",
+    "empty_html_guard": "PASS",
+    "fixed_9_column_csv_parser": "PASS",
+    "market_backtest_18_lines": "PASS",
+    "v2_player_page": "PASS",
+    "v2_missing_ht_returns_zero_samples": "PASS",
+    "sqlite_integrity": "PASS",
+    "zip_integrity": "PASS"
+  },
+  "data_coverage": {
+    "football_library_matches": 47585,
+    "qatar_saved_matches": 20,
+    "football_complete_fixtures": 65961,
+    "football_complete_ht_complete": 20,
+    "all_teams_20_matches": "FAIL",
+    "all_matches_have_ht": "FAIL",
+    "reason": "football_library.matches has no ht_home/ht_away columns; only verified source fields are retained."
+  },
+  "honesty_note": "No missing half-time scores or corners were fabricated."
+}

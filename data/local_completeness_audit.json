@@ -1,0 +1,3598 @@
+{
+  "database": "football_library.db",
+  "integrity": "ok",
+  "matches_rows": 47585,
+  "matches_columns": [
+    "league",
+    "season",
+    "home",
+    "away",
+    "hg",
+    "ag",
+    "date",
+    "source",
+    "captured_at",
+    "hc",
+    "ac"
+  ],
+  "has_ht_home": false,
+  "has_ht_away": false,
+  "league_count": 30,
+  "team_count": 865,
+  "leagues": {
+    "丹超": [
+      {
+        "team_name": "AC Horsens",
+        "matches": 15
+      },
+      {
+        "team_name": "AGF",
+        "matches": 97
+      },
+      {
+        "team_name": "AaB",
+        "matches": 47
+      },
+      {
+        "team_name": "Brøndby IF",
+        "matches": 97
+      },
+      {
+        "team_name": "F.C. København",
+        "matches": 98
+      },
+      {
+        "team_name": "FC Fredericia",
+        "matches": 18
+      },
+      {
+        "team_name": "FC Midtjylland",
+        "matches": 98
+      },
+      {
+        "team_name": "FC Nordsjælland",
+        "matches": 97
+      },
+      {
+        "team_name": "Hvidovre IF",
+        "matches": 32
+      },
+      {
+        "team_name": "Lyngby Boldklub",
+        "matches": 79
+      },
+      {
+        "team_name": "Odense Boldklub",
+        "matches": 65
+      },
+      {
+        "team_name": "Randers FC",
+        "matches": 99
+      },
+      {
+        "team_name": "Silkeborg IF",
+        "matches": 98
+      },
+      {
+        "team_name": "Sønderjyske Fodbold",
+        "matches": 50
+      },
+      {
+        "team_name": "Vejle Boldklub",
+        "matches": 82
+      },
+      {
+        "team_name": "Viborg FF",
+        "matches": 98
+      }
+    ],
+    "俄超": [
+      {
+        "team_name": "Akhmat Grozny",
+        "matches": 92
+      },
+      {
+        "team_name": "Akron Tolyatti",
+        "matches": 48
+      },
+      {
+        "team_name": "CSKA Moscow",
+        "matches": 91
+      },
+      {
+        "team_name": "Dinamo Moscow",
+        "matches": 91
+      },
+      {
+        "team_name": "Dynamo Makhachkala",
+        "matches": 48
+      },
+      {
+        "team_name": "FC Baltika Kaliningrad",
+        "matches": 48
+      },
+      {
+        "team_name": "FC Khimki",
+        "matches": 43
+      },
+      {
+        "team_name": "FC Ural Ekaterinburg",
+        "matches": 43
+      },
+      {
+        "team_name": "FK Torpedo Moscow",
+        "matches": 13
+      },
+      {
+        "team_name": "Fakel Voronezh",
+        "matches": 73
+      },
+      {
+        "team_name": "Gazovik Orenburg",
+        "matches": 92
+      },
+      {
+        "team_name": "Krasnodar",
+        "matches": 91
+      },
+      {
+        "team_name": "Krylia Sovetov",
+        "matches": 91
+      },
+      {
+        "team_name": "Lokomotiv Moscow",
+        "matches": 91
+      },
+      {
+        "team_name": "Nizhny Novgorod",
+        "matches": 91
+      },
+      {
+        "team_name": "Rostov",
+        "matches": 91
+      },
+      {
+        "team_name": "Rubin Kazan",
+        "matches": 78
+      },
+      {
+        "team_name": "Sochi",
+        "matches": 61
+      },
+      {
+        "team_name": "Spartak Moscow",
+        "matches": 91
+      },
+      {
+        "team_name": "Zenit St Petersburg",
+        "matches": 91
+      }
+    ],
+    "卡塔爾超級聯賽": [
+      {
+        "team_name": "Al Ahli Doha",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Arabi",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Duhail",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Gharafa",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Rayyan",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Sadd",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Sailiya",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Shahaniya",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Wakrah",
+        "matches": 3
+      },
+      {
+        "team_name": "Lusail",
+        "matches": 3
+      },
+      {
+        "team_name": "Qatar SC",
+        "matches": 3
+      },
+      {
+        "team_name": "Shamal",
+        "matches": 3
+      }
+    ],
+    "墨甲": [
+      {
+        "team_name": "Alacranes de Durango",
+        "matches": 37
+      },
+      {
+        "team_name": "Alebrijes de Oaxaca",
+        "matches": 285
+      },
+      {
+        "team_name": "Atlante",
+        "matches": 350
+      },
+      {
+        "team_name": "Atlético La Paz",
+        "matches": 93
+      },
+      {
+        "team_name": "Atlético Morelia",
+        "matches": 130
+      },
+      {
+        "team_name": "Atlético San Luis",
+        "matches": 100
+      },
+      {
+        "team_name": "Atlético Zacatepec",
+        "matches": 91
+      },
+      {
+        "team_name": "CF Monterrey II",
+        "matches": 69
+      },
+      {
+        "team_name": "Cafetaleros de Chiapas",
+        "matches": 21
+      },
+      {
+        "team_name": "Cafetaleros de Tapachula",
+        "matches": 124
+      },
+      {
+        "team_name": "Cancún FC",
+        "matches": 225
+      },
+      {
+        "team_name": "Celaya",
+        "matches": 87
+      },
+      {
+        "team_name": "Cimarrones de Sonora",
+        "matches": 231
+      },
+      {
+        "team_name": "Club Atlético La Paz",
+        "matches": 95
+      },
+      {
+        "team_name": "Club Atlético Morelia",
+        "matches": 104
+      },
+      {
+        "team_name": "Club Celaya",
+        "matches": 216
+      },
+      {
+        "team_name": "Club Deportivo Irapuato",
+        "matches": 20
+      },
+      {
+        "team_name": "Club Jaiba Brava",
+        "matches": 54
+      },
+      {
+        "team_name": "Club Necaxa",
+        "matches": 38
+      },
+      {
+        "team_name": "Club Zacatepec",
+        "matches": 68
+      },
+      {
+        "team_name": "Correcaminos UAT",
+        "matches": 266
+      },
+      {
+        "team_name": "Coyotes de Tlaxcala",
+        "matches": 124
+      },
+      {
+        "team_name": "Deportivo Tepic",
+        "matches": 64
+      },
+      {
+        "team_name": "Dorados de Sinaloa",
+        "matches": 271
+      },
+      {
+        "team_name": "Durango",
+        "matches": 17
+      },
+      {
+        "team_name": "FC Juárez",
+        "matches": 128
+      },
+      {
+        "team_name": "Leones Negros",
+        "matches": 307
+      },
+      {
+        "team_name": "Lobos BUAP",
+        "matches": 74
+      },
+      {
+        "team_name": "Loros UCOL",
+        "matches": 47
+      },
+      {
+        "team_name": "Mineros de Zacatecas",
+        "matches": 312
+      },
+      {
+        "team_name": "Murciélagos FC",
+        "matches": 96
+      },
+      {
+        "team_name": "Potros UAEM",
+        "matches": 108
+      },
+      {
+        "team_name": "Pumas Tabasco",
+        "matches": 115
+      },
+      {
+        "team_name": "Raya2",
+        "matches": 20
+      },
+      {
+        "team_name": "TM Fútbol Club",
+        "matches": 136
+      },
+      {
+        "team_name": "Tampico Madero",
+        "matches": 25
+      },
+      {
+        "team_name": "Tapatío",
+        "matches": 239
+      },
+      {
+        "team_name": "Tepatitlán",
+        "matches": 125
+      },
+      {
+        "team_name": "Tepatitlán FC",
+        "matches": 98
+      },
+      {
+        "team_name": "Tlaxcala FC",
+        "matches": 90
+      },
+      {
+        "team_name": "Venados FC",
+        "matches": 294
+      }
+    ],
+    "墨超": [
+      {
+        "team_name": "Alacranes de Durango",
+        "matches": 37
+      },
+      {
+        "team_name": "Alebrijes de Oaxaca",
+        "matches": 124
+      },
+      {
+        "team_name": "América",
+        "matches": 133
+      },
+      {
+        "team_name": "Atlante",
+        "matches": 163
+      },
+      {
+        "team_name": "Atlas",
+        "matches": 107
+      },
+      {
+        "team_name": "Atlas Guadalajara",
+        "matches": 126
+      },
+      {
+        "team_name": "Atlético La Paz",
+        "matches": 93
+      },
+      {
+        "team_name": "Atlético Morelia",
+        "matches": 142
+      },
+      {
+        "team_name": "Atlético San Luis",
+        "matches": 127
+      },
+      {
+        "team_name": "Atlético de San Luis",
+        "matches": 114
+      },
+      {
+        "team_name": "CF América",
+        "matches": 138
+      },
+      {
+        "team_name": "CF Monterrey",
+        "matches": 131
+      },
+      {
+        "team_name": "CF Monterrey II",
+        "matches": 69
+      },
+      {
+        "team_name": "CF Pachuca",
+        "matches": 128
+      },
+      {
+        "team_name": "Cancún FC",
+        "matches": 130
+      },
+      {
+        "team_name": "Cimarrones de Sonora",
+        "matches": 124
+      },
+      {
+        "team_name": "Club Celaya",
+        "matches": 141
+      },
+      {
+        "team_name": "Club León",
+        "matches": 127
+      },
+      {
+        "team_name": "Club Necaxa",
+        "matches": 122
+      },
+      {
+        "team_name": "Club Tijuana",
+        "matches": 120
+      },
+      {
+        "team_name": "Correcaminos UAT",
+        "matches": 123
+      },
+      {
+        "team_name": "Coyotes de Tlaxcala",
+        "matches": 126
+      },
+      {
+        "team_name": "Cruz Azul",
+        "matches": 252
+      },
+      {
+        "team_name": "Deportivo Guadalajara",
+        "matches": 130
+      },
+      {
+        "team_name": "Deportivo Toluca",
+        "matches": 126
+      },
+      {
+        "team_name": "Dorados de Sinaloa",
+        "matches": 123
+      },
+      {
+        "team_name": "FC Juárez",
+        "matches": 227
+      },
+      {
+        "team_name": "Gallos Blancos",
+        "matches": 121
+      },
+      {
+        "team_name": "Guadalajara",
+        "matches": 117
+      },
+      {
+        "team_name": "Leones Negros",
+        "matches": 136
+      },
+      {
+        "team_name": "León",
+        "matches": 109
+      },
+      {
+        "team_name": "Mazatlán FC",
+        "matches": 223
+      },
+      {
+        "team_name": "Mineros de Zacatecas",
+        "matches": 138
+      },
+      {
+        "team_name": "Monterrey",
+        "matches": 126
+      },
+      {
+        "team_name": "Necaxa",
+        "matches": 106
+      },
+      {
+        "team_name": "Pachuca",
+        "matches": 112
+      },
+      {
+        "team_name": "Puebla",
+        "matches": 105
+      },
+      {
+        "team_name": "Puebla FC",
+        "matches": 123
+      },
+      {
+        "team_name": "Pumas Tabasco",
+        "matches": 98
+      },
+      {
+        "team_name": "Pumas UNAM",
+        "matches": 243
+      },
+      {
+        "team_name": "Querétaro",
+        "matches": 103
+      },
+      {
+        "team_name": "Santos",
+        "matches": 107
+      },
+      {
+        "team_name": "Santos Laguna",
+        "matches": 125
+      },
+      {
+        "team_name": "TM Fútbol Club",
+        "matches": 77
+      },
+      {
+        "team_name": "Tampico Madero",
+        "matches": 25
+      },
+      {
+        "team_name": "Tapatío",
+        "matches": 140
+      },
+      {
+        "team_name": "Tepatitlán",
+        "matches": 130
+      },
+      {
+        "team_name": "Tigres UANL",
+        "matches": 129
+      },
+      {
+        "team_name": "Tijuana",
+        "matches": 109
+      },
+      {
+        "team_name": "Toluca",
+        "matches": 120
+      },
+      {
+        "team_name": "UANL Tigres",
+        "matches": 138
+      },
+      {
+        "team_name": "Venados FC",
+        "matches": 131
+      }
+    ],
+    "奧甲": [
+      {
+        "team_name": "Austria Lustenau",
+        "matches": 51
+      },
+      {
+        "team_name": "Austria Vienna",
+        "matches": 102
+      },
+      {
+        "team_name": "FC Blau-Weiß Linz",
+        "matches": 81
+      },
+      {
+        "team_name": "Grazer AK",
+        "matches": 49
+      },
+      {
+        "team_name": "LASK Linz",
+        "matches": 100
+      },
+      {
+        "team_name": "RB Salzburg",
+        "matches": 97
+      },
+      {
+        "team_name": "Rapid Vienna",
+        "matches": 99
+      },
+      {
+        "team_name": "SC Rheindorf Altach",
+        "matches": 97
+      },
+      {
+        "team_name": "SK Austria Klagenfurt",
+        "matches": 80
+      },
+      {
+        "team_name": "SK Sturm Graz",
+        "matches": 97
+      },
+      {
+        "team_name": "SV Josko Ried",
+        "matches": 33
+      },
+      {
+        "team_name": "TSV Hartberg",
+        "matches": 100
+      },
+      {
+        "team_name": "WSG Swarovski Tirol",
+        "matches": 97
+      },
+      {
+        "team_name": "Wolfsberger",
+        "matches": 99
+      }
+    ],
+    "女子南美自由盃": [
+      {
+        "team_name": "ADIFFEM",
+        "matches": 1
+      },
+      {
+        "team_name": "América de Cali Femenino",
+        "matches": 1
+      },
+      {
+        "team_name": "Atletico Tembetary",
+        "matches": 2
+      },
+      {
+        "team_name": "Boca Juniors",
+        "matches": 2
+      },
+      {
+        "team_name": "CA Bella Vista",
+        "matches": 1
+      },
+      {
+        "team_name": "CA Fénix Capurro",
+        "matches": 1
+      },
+      {
+        "team_name": "CA Juventud de Las Piedras",
+        "matches": 2
+      },
+      {
+        "team_name": "CS Cerrito",
+        "matches": 1
+      },
+      {
+        "team_name": "Canadian SC",
+        "matches": 3
+      },
+      {
+        "team_name": "Cerro Porteño",
+        "matches": 6
+      },
+      {
+        "team_name": "Club América",
+        "matches": 1
+      },
+      {
+        "team_name": "Club Atlético Tembetary",
+        "matches": 1
+      },
+      {
+        "team_name": "Club Guaraní",
+        "matches": 5
+      },
+      {
+        "team_name": "Club Nacional de Football W (Uru)",
+        "matches": 57
+      },
+      {
+        "team_name": "Colo-Colo",
+        "matches": 1
+      },
+      {
+        "team_name": "Corinthians",
+        "matches": 1
+      },
+      {
+        "team_name": "Danubio",
+        "matches": 2
+      },
+      {
+        "team_name": "Defensor Sporting",
+        "matches": 5
+      },
+      {
+        "team_name": "Deportivo Cali Femenino",
+        "matches": 5
+      },
+      {
+        "team_name": "General Caballero (JLM)",
+        "matches": 2
+      },
+      {
+        "team_name": "Internacional",
+        "matches": 1
+      },
+      {
+        "team_name": "Libertad Asuncion W (Par)",
+        "matches": 60
+      },
+      {
+        "team_name": "Liverpool UY",
+        "matches": 5
+      },
+      {
+        "team_name": "Montevideo City Torque",
+        "matches": 4
+      },
+      {
+        "team_name": "Montevideo Wanderers",
+        "matches": 8
+      },
+      {
+        "team_name": "Nacional - Humaita",
+        "matches": 4
+      },
+      {
+        "team_name": "Olimpia",
+        "matches": 6
+      },
+      {
+        "team_name": "Peñarol",
+        "matches": 8
+      },
+      {
+        "team_name": "Racing Club de Montevideo",
+        "matches": 1
+      },
+      {
+        "team_name": "Recoleta FC",
+        "matches": 4
+      },
+      {
+        "team_name": "Rubio Ñu",
+        "matches": 2
+      },
+      {
+        "team_name": "San Diego Wave FC",
+        "matches": 1
+      },
+      {
+        "team_name": "San Jacinto Keguay",
+        "matches": 3
+      },
+      {
+        "team_name": "Sportivo 2 de Mayo",
+        "matches": 4
+      },
+      {
+        "team_name": "Sportivo Ameliano",
+        "matches": 4
+      },
+      {
+        "team_name": "Sportivo Luqueño",
+        "matches": 4
+      },
+      {
+        "team_name": "Sportivo San Lorenzo",
+        "matches": 2
+      },
+      {
+        "team_name": "Sportivo Trinidense",
+        "matches": 5
+      },
+      {
+        "team_name": "Torque",
+        "matches": 2
+      },
+      {
+        "team_name": "Universidad de Chile",
+        "matches": 4
+      }
+    ],
+    "巴乙": [
+      {
+        "team_name": "ABC",
+        "matches": 38
+      },
+      {
+        "team_name": "Amazonas",
+        "matches": 76
+      },
+      {
+        "team_name": "América Mineiro",
+        "matches": 76
+      },
+      {
+        "team_name": "Athletic",
+        "matches": 39
+      },
+      {
+        "team_name": "Athletico-PR",
+        "matches": 38
+      },
+      {
+        "team_name": "Atlético Goianiense",
+        "matches": 76
+      },
+      {
+        "team_name": "Avaí",
+        "matches": 114
+      },
+      {
+        "team_name": "Botafogo-SP",
+        "matches": 114
+      },
+      {
+        "team_name": "Brusque",
+        "matches": 38
+      },
+      {
+        "team_name": "CRB",
+        "matches": 114
+      },
+      {
+        "team_name": "Ceará",
+        "matches": 76
+      },
+      {
+        "team_name": "Chapecoense",
+        "matches": 114
+      },
+      {
+        "team_name": "Coritiba",
+        "matches": 76
+      },
+      {
+        "team_name": "Criciúma",
+        "matches": 77
+      },
+      {
+        "team_name": "Cuiabá",
+        "matches": 38
+      },
+      {
+        "team_name": "Ferroviária",
+        "matches": 38
+      },
+      {
+        "team_name": "Goiás",
+        "matches": 76
+      },
+      {
+        "team_name": "Guarani",
+        "matches": 76
+      },
+      {
+        "team_name": "Ituano",
+        "matches": 76
+      },
+      {
+        "team_name": "Juventude",
+        "matches": 38
+      },
+      {
+        "team_name": "Londrina",
+        "matches": 38
+      },
+      {
+        "team_name": "Mirassol",
+        "matches": 76
+      },
+      {
+        "team_name": "Novorizontino",
+        "matches": 114
+      },
+      {
+        "team_name": "Operário PR",
+        "matches": 77
+      },
+      {
+        "team_name": "Paysandu",
+        "matches": 76
+      },
+      {
+        "team_name": "Ponte Preta",
+        "matches": 76
+      },
+      {
+        "team_name": "Remo",
+        "matches": 38
+      },
+      {
+        "team_name": "Sampaio Corrêa",
+        "matches": 38
+      },
+      {
+        "team_name": "Santos",
+        "matches": 38
+      },
+      {
+        "team_name": "Sport",
+        "matches": 77
+      },
+      {
+        "team_name": "Tombense",
+        "matches": 38
+      },
+      {
+        "team_name": "Vila Nova",
+        "matches": 114
+      },
+      {
+        "team_name": "Vitória",
+        "matches": 38
+      },
+      {
+        "team_name": "Volta Redonda",
+        "matches": 38
+      }
+    ],
+    "巴甲": [
+      {
+        "team_name": "América Mineiro",
+        "matches": 38
+      },
+      {
+        "team_name": "Athletico-PR",
+        "matches": 76
+      },
+      {
+        "team_name": "Atlético Goianiense",
+        "matches": 38
+      },
+      {
+        "team_name": "Atlético-MG",
+        "matches": 114
+      },
+      {
+        "team_name": "Bahia",
+        "matches": 114
+      },
+      {
+        "team_name": "Botafogo",
+        "matches": 114
+      },
+      {
+        "team_name": "Ceará",
+        "matches": 38
+      },
+      {
+        "team_name": "Corinthians",
+        "matches": 114
+      },
+      {
+        "team_name": "Coritiba",
+        "matches": 38
+      },
+      {
+        "team_name": "Criciúma",
+        "matches": 38
+      },
+      {
+        "team_name": "Cruzeiro",
+        "matches": 114
+      },
+      {
+        "team_name": "Cuiabá",
+        "matches": 76
+      },
+      {
+        "team_name": "Flamengo",
+        "matches": 114
+      },
+      {
+        "team_name": "Fluminense",
+        "matches": 114
+      },
+      {
+        "team_name": "Fortaleza",
+        "matches": 114
+      },
+      {
+        "team_name": "Goiás",
+        "matches": 38
+      },
+      {
+        "team_name": "Grêmio",
+        "matches": 114
+      },
+      {
+        "team_name": "Internacional",
+        "matches": 114
+      },
+      {
+        "team_name": "Juventude",
+        "matches": 76
+      },
+      {
+        "team_name": "Mirassol",
+        "matches": 38
+      },
+      {
+        "team_name": "Monza",
+        "matches": 1
+      },
+      {
+        "team_name": "Palmeiras",
+        "matches": 114
+      },
+      {
+        "team_name": "Red Bull Bragantino",
+        "matches": 114
+      },
+      {
+        "team_name": "Santos",
+        "matches": 76
+      },
+      {
+        "team_name": "Sport",
+        "matches": 38
+      },
+      {
+        "team_name": "São Paulo",
+        "matches": 114
+      },
+      {
+        "team_name": "Torino",
+        "matches": 1
+      },
+      {
+        "team_name": "Vasco da Gama",
+        "matches": 114
+      },
+      {
+        "team_name": "Vitória",
+        "matches": 76
+      }
+    ],
+    "德乙": [
+      {
+        "team_name": "Bielefeld",
+        "matches": 124
+      },
+      {
+        "team_name": "Bochum",
+        "matches": 124
+      },
+      {
+        "team_name": "Braunschweig",
+        "matches": 176
+      },
+      {
+        "team_name": "Darmstadt",
+        "matches": 205
+      },
+      {
+        "team_name": "Dresden",
+        "matches": 124
+      },
+      {
+        "team_name": "Duisburg",
+        "matches": 34
+      },
+      {
+        "team_name": "Elversberg",
+        "matches": 136
+      },
+      {
+        "team_name": "Erzgebirge Aue",
+        "matches": 124
+      },
+      {
+        "team_name": "FC Koln",
+        "matches": 102
+      },
+      {
+        "team_name": "Fortuna Dusseldorf",
+        "matches": 199
+      },
+      {
+        "team_name": "Greuther Furth",
+        "matches": 205
+      },
+      {
+        "team_name": "Hamburg",
+        "matches": 205
+      },
+      {
+        "team_name": "Hannover",
+        "matches": 216
+      },
+      {
+        "team_name": "Hansa Rostock",
+        "matches": 102
+      },
+      {
+        "team_name": "Heidenheim",
+        "matches": 138
+      },
+      {
+        "team_name": "Hertha",
+        "matches": 136
+      },
+      {
+        "team_name": "Holstein Kiel",
+        "matches": 172
+      },
+      {
+        "team_name": "Ingolstadt",
+        "matches": 68
+      },
+      {
+        "team_name": "Kaiserslautern",
+        "matches": 163
+      },
+      {
+        "team_name": "Karlsruhe",
+        "matches": 215
+      },
+      {
+        "team_name": "Magdeburg",
+        "matches": 174
+      },
+      {
+        "team_name": "Nurnberg",
+        "matches": 215
+      },
+      {
+        "team_name": "Osnabruck",
+        "matches": 102
+      },
+      {
+        "team_name": "Paderborn",
+        "matches": 211
+      },
+      {
+        "team_name": "PreuÃen MÃ¼nster",
+        "matches": 102
+      },
+      {
+        "team_name": "Regensburg",
+        "matches": 187
+      },
+      {
+        "team_name": "Sandhausen",
+        "matches": 139
+      },
+      {
+        "team_name": "Schalke 04",
+        "matches": 163
+      },
+      {
+        "team_name": "St Pauli",
+        "matches": 155
+      },
+      {
+        "team_name": "Stuttgart",
+        "matches": 34
+      },
+      {
+        "team_name": "Ulm",
+        "matches": 68
+      },
+      {
+        "team_name": "Union Berlin",
+        "matches": 34
+      },
+      {
+        "team_name": "Wehen",
+        "matches": 68
+      },
+      {
+        "team_name": "Werder Bremen",
+        "matches": 34
+      },
+      {
+        "team_name": "Wurzburger Kickers",
+        "matches": 34
+      }
+    ],
+    "德甲": [
+      {
+        "team_name": "Augsburg",
+        "matches": 254
+      },
+      {
+        "team_name": "Bayern Munich",
+        "matches": 254
+      },
+      {
+        "team_name": "Bielefeld",
+        "matches": 68
+      },
+      {
+        "team_name": "Bochum",
+        "matches": 190
+      },
+      {
+        "team_name": "Darmstadt",
+        "matches": 68
+      },
+      {
+        "team_name": "Dortmund",
+        "matches": 254
+      },
+      {
+        "team_name": "Ein Frankfurt",
+        "matches": 253
+      },
+      {
+        "team_name": "FC Koln",
+        "matches": 204
+      },
+      {
+        "team_name": "Fortuna Dusseldorf",
+        "matches": 68
+      },
+      {
+        "team_name": "Freiburg",
+        "matches": 254
+      },
+      {
+        "team_name": "Greuther Furth",
+        "matches": 34
+      },
+      {
+        "team_name": "Hamburg",
+        "matches": 68
+      },
+      {
+        "team_name": "Hannover",
+        "matches": 34
+      },
+      {
+        "team_name": "Heidenheim",
+        "matches": 204
+      },
+      {
+        "team_name": "Hertha",
+        "matches": 130
+      },
+      {
+        "team_name": "Hoffenheim",
+        "matches": 254
+      },
+      {
+        "team_name": "Holstein Kiel",
+        "matches": 68
+      },
+      {
+        "team_name": "Leverkusen",
+        "matches": 255
+      },
+      {
+        "team_name": "M'gladbach",
+        "matches": 255
+      },
+      {
+        "team_name": "Mainz",
+        "matches": 255
+      },
+      {
+        "team_name": "Nurnberg",
+        "matches": 34
+      },
+      {
+        "team_name": "Paderborn",
+        "matches": 34
+      },
+      {
+        "team_name": "RB Leipzig",
+        "matches": 254
+      },
+      {
+        "team_name": "Schalke 04",
+        "matches": 123
+      },
+      {
+        "team_name": "St Pauli",
+        "matches": 136
+      },
+      {
+        "team_name": "Stuttgart",
+        "matches": 250
+      },
+      {
+        "team_name": "Union Berlin",
+        "matches": 247
+      },
+      {
+        "team_name": "Werder Bremen",
+        "matches": 246
+      },
+      {
+        "team_name": "Wolfsburg",
+        "matches": 254
+      }
+    ],
+    "挪超": [
+      {
+        "team_name": "Aalesund",
+        "matches": 30
+      },
+      {
+        "team_name": "Bodo/Glimt",
+        "matches": 91
+      },
+      {
+        "team_name": "Bryne",
+        "matches": 30
+      },
+      {
+        "team_name": "Fredrikstad",
+        "matches": 60
+      },
+      {
+        "team_name": "Hamarkameratene",
+        "matches": 91
+      },
+      {
+        "team_name": "Haugesund",
+        "matches": 90
+      },
+      {
+        "team_name": "KFUM Oslo",
+        "matches": 60
+      },
+      {
+        "team_name": "Kristiansund BK",
+        "matches": 60
+      },
+      {
+        "team_name": "Lillestrom",
+        "matches": 60
+      },
+      {
+        "team_name": "Molde",
+        "matches": 90
+      },
+      {
+        "team_name": "Odds BK",
+        "matches": 60
+      },
+      {
+        "team_name": "Rosenborg",
+        "matches": 91
+      },
+      {
+        "team_name": "SK Brann",
+        "matches": 90
+      },
+      {
+        "team_name": "Sandefjord",
+        "matches": 90
+      },
+      {
+        "team_name": "Sarpsborg FK",
+        "matches": 90
+      },
+      {
+        "team_name": "Stabaek",
+        "matches": 30
+      },
+      {
+        "team_name": "Stromsgodset",
+        "matches": 90
+      },
+      {
+        "team_name": "Tromso",
+        "matches": 90
+      },
+      {
+        "team_name": "Viking FK",
+        "matches": 90
+      },
+      {
+        "team_name": "Vålerenga",
+        "matches": 61
+      }
+    ],
+    "日職J1": [
+      {
+        "team_name": "Albirex Niigata",
+        "matches": 196
+      },
+      {
+        "team_name": "Avispa Fukuoka",
+        "matches": 236
+      },
+      {
+        "team_name": "Cerezo Osaka",
+        "matches": 261
+      },
+      {
+        "team_name": "Consadole Sapporo",
+        "matches": 72
+      },
+      {
+        "team_name": "FC Machida Zelvia",
+        "matches": 51
+      },
+      {
+        "team_name": "FC Tokyo",
+        "matches": 259
+      },
+      {
+        "team_name": "Fagiano Okayama",
+        "matches": 52
+      },
+      {
+        "team_name": "Gamba Osaka",
+        "matches": 258
+      },
+      {
+        "team_name": "Hokkaido Consadole Sapporo",
+        "matches": 147
+      },
+      {
+        "team_name": "Jubilo Iwata",
+        "matches": 38
+      },
+      {
+        "team_name": "Júbilo Iwata",
+        "matches": 106
+      },
+      {
+        "team_name": "Kashima Antlers",
+        "matches": 256
+      },
+      {
+        "team_name": "Kashiwa Reysol",
+        "matches": 248
+      },
+      {
+        "team_name": "Kawasaki Frontale",
+        "matches": 264
+      },
+      {
+        "team_name": "Kyoto Sanga",
+        "matches": 110
+      },
+      {
+        "team_name": "Kyoto Sanga FC",
+        "matches": 119
+      },
+      {
+        "team_name": "Machida Zelvia",
+        "matches": 76
+      },
+      {
+        "team_name": "Matsumoto Yamaga",
+        "matches": 34
+      },
+      {
+        "team_name": "Nagoya Grampus",
+        "matches": 258
+      },
+      {
+        "team_name": "Oita Trinita",
+        "matches": 106
+      },
+      {
+        "team_name": "Sagan Tosu",
+        "matches": 215
+      },
+      {
+        "team_name": "Sanfrecce Hiroshima",
+        "matches": 263
+      },
+      {
+        "team_name": "Shimizu S-Pulse",
+        "matches": 166
+      },
+      {
+        "team_name": "Shonan Bellmare",
+        "matches": 257
+      },
+      {
+        "team_name": "Tokushima Vortis",
+        "matches": 38
+      },
+      {
+        "team_name": "Tokyo Verdy",
+        "matches": 51
+      },
+      {
+        "team_name": "Tokyo Verdy 1969",
+        "matches": 76
+      },
+      {
+        "team_name": "Urawa Red Diamonds",
+        "matches": 260
+      },
+      {
+        "team_name": "Vegalta Sendai",
+        "matches": 106
+      },
+      {
+        "team_name": "Vissel Kobe",
+        "matches": 263
+      },
+      {
+        "team_name": "Yokohama F. Marinos",
+        "matches": 266
+      },
+      {
+        "team_name": "Yokohama FC",
+        "matches": 190
+      }
+    ],
+    "沙特職業聯賽": [
+      {
+        "team_name": "Abha",
+        "matches": 23
+      },
+      {
+        "team_name": "Al Ahli SC",
+        "matches": 92
+      },
+      {
+        "team_name": "Al Ettifaq",
+        "matches": 93
+      },
+      {
+        "team_name": "Al Faisaly",
+        "matches": 9
+      },
+      {
+        "team_name": "Al Fateh",
+        "matches": 93
+      },
+      {
+        "team_name": "Al Feiha",
+        "matches": 94
+      },
+      {
+        "team_name": "Al Hazem",
+        "matches": 60
+      },
+      {
+        "team_name": "Al Hilal",
+        "matches": 92
+      },
+      {
+        "team_name": "Al Ittihad",
+        "matches": 93
+      },
+      {
+        "team_name": "Al Khaleej",
+        "matches": 93
+      },
+      {
+        "team_name": "Al Kholood",
+        "matches": 77
+      },
+      {
+        "team_name": "Al Najma",
+        "matches": 34
+      },
+      {
+        "team_name": "Al Nassr",
+        "matches": 92
+      },
+      {
+        "team_name": "Al Okhdood",
+        "matches": 83
+      },
+      {
+        "team_name": "Al Orobah",
+        "matches": 34
+      },
+      {
+        "team_name": "Al Qadsiah",
+        "matches": 78
+      },
+      {
+        "team_name": "Al Raed",
+        "matches": 49
+      },
+      {
+        "team_name": "Al Riyadh",
+        "matches": 92
+      },
+      {
+        "team_name": "Al Shabab",
+        "matches": 92
+      },
+      {
+        "team_name": "Al Taawoun",
+        "matches": 93
+      },
+      {
+        "team_name": "Al Tai",
+        "matches": 16
+      },
+      {
+        "team_name": "Al Wehda",
+        "matches": 49
+      },
+      {
+        "team_name": "Damac",
+        "matches": 83
+      },
+      {
+        "team_name": "Diriyah",
+        "matches": 10
+      },
+      {
+        "team_name": "Neom SC",
+        "matches": 44
+      }
+    ],
+    "沙職": [
+      {
+        "team_name": "Al Ahli SFC",
+        "matches": 29
+      },
+      {
+        "team_name": "Al Ettifaq",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Fateh",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Fayha",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Hilal",
+        "matches": 29
+      },
+      {
+        "team_name": "Al Ittihad",
+        "matches": 29
+      },
+      {
+        "team_name": "Al Khaleej",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Kholood",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Nassr",
+        "matches": 29
+      },
+      {
+        "team_name": "Al Okhdood",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Orobah",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Qadsiah",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Ra'ed",
+        "matches": 29
+      },
+      {
+        "team_name": "Al Riyadh",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Shabab",
+        "matches": 30
+      },
+      {
+        "team_name": "Al Taawoun",
+        "matches": 29
+      },
+      {
+        "team_name": "Al Wehda",
+        "matches": 30
+      },
+      {
+        "team_name": "Damac FC",
+        "matches": 30
+      }
+    ],
+    "法乙": [
+      {
+        "team_name": "AC Ajaccio",
+        "matches": 72
+      },
+      {
+        "team_name": "AJ Auxerre",
+        "matches": 38
+      },
+      {
+        "team_name": "AS Nancy Lorraine",
+        "matches": 17
+      },
+      {
+        "team_name": "Ajaccio",
+        "matches": 164
+      },
+      {
+        "team_name": "Ajaccio GFCO",
+        "matches": 38
+      },
+      {
+        "team_name": "Amiens",
+        "matches": 182
+      },
+      {
+        "team_name": "Angers",
+        "matches": 76
+      },
+      {
+        "team_name": "Annecy",
+        "matches": 244
+      },
+      {
+        "team_name": "Auxerre",
+        "matches": 145
+      },
+      {
+        "team_name": "Bastia",
+        "matches": 269
+      },
+      {
+        "team_name": "Beziers",
+        "matches": 38
+      },
+      {
+        "team_name": "Bordeaux",
+        "matches": 135
+      },
+      {
+        "team_name": "Boulogne",
+        "matches": 51
+      },
+      {
+        "team_name": "Brest",
+        "matches": 38
+      },
+      {
+        "team_name": "Caen",
+        "matches": 263
+      },
+      {
+        "team_name": "Chambly",
+        "matches": 66
+      },
+      {
+        "team_name": "Chateauroux",
+        "matches": 104
+      },
+      {
+        "team_name": "Clermont",
+        "matches": 144
+      },
+      {
+        "team_name": "Clermont Foot",
+        "matches": 51
+      },
+      {
+        "team_name": "Concarneau",
+        "matches": 76
+      },
+      {
+        "team_name": "Dijon",
+        "matches": 76
+      },
+      {
+        "team_name": "Dijon FCO",
+        "matches": 21
+      },
+      {
+        "team_name": "Dunkerque",
+        "matches": 243
+      },
+      {
+        "team_name": "Grenoble",
+        "matches": 319
+      },
+      {
+        "team_name": "Guingamp",
+        "matches": 303
+      },
+      {
+        "team_name": "Laval",
+        "matches": 135
+      },
+      {
+        "team_name": "Le Havre",
+        "matches": 146
+      },
+      {
+        "team_name": "Le Havre AC",
+        "matches": 21
+      },
+      {
+        "team_name": "Le Mans",
+        "matches": 79
+      },
+      {
+        "team_name": "Lens",
+        "matches": 66
+      },
+      {
+        "team_name": "Lorient",
+        "matches": 134
+      },
+      {
+        "team_name": "Martigues",
+        "matches": 68
+      },
+      {
+        "team_name": "Metz",
+        "matches": 165
+      },
+      {
+        "team_name": "Montpellier",
+        "matches": 51
+      },
+      {
+        "team_name": "Nancy",
+        "matches": 143
+      },
+      {
+        "team_name": "Nimes",
+        "matches": 97
+      },
+      {
+        "team_name": "Niort",
+        "matches": 167
+      },
+      {
+        "team_name": "Orleans",
+        "matches": 66
+      },
+      {
+        "team_name": "Paris FC",
+        "matches": 279
+      },
+      {
+        "team_name": "Pau",
+        "matches": 110
+      },
+      {
+        "team_name": "Pau FC",
+        "matches": 178
+      },
+      {
+        "team_name": "Quevilly Rouen",
+        "matches": 114
+      },
+      {
+        "team_name": "Red Star",
+        "matches": 105
+      },
+      {
+        "team_name": "Red Star FC 93",
+        "matches": 51
+      },
+      {
+        "team_name": "Reims",
+        "matches": 34
+      },
+      {
+        "team_name": "Rodez",
+        "matches": 192
+      },
+      {
+        "team_name": "Rodez Aveyron",
+        "matches": 110
+      },
+      {
+        "team_name": "SC Amiens",
+        "matches": 110
+      },
+      {
+        "team_name": "Saint-Étienne",
+        "matches": 76
+      },
+      {
+        "team_name": "Sochaux",
+        "matches": 166
+      },
+      {
+        "team_name": "St Etienne",
+        "matches": 110
+      },
+      {
+        "team_name": "Stade Laval",
+        "matches": 110
+      },
+      {
+        "team_name": "Stade de Reims",
+        "matches": 17
+      },
+      {
+        "team_name": "Toulouse",
+        "matches": 76
+      },
+      {
+        "team_name": "Troyes",
+        "matches": 250
+      },
+      {
+        "team_name": "US Quevilly",
+        "matches": 59
+      },
+      {
+        "team_name": "Valenciennes",
+        "matches": 224
+      }
+    ],
+    "泰甲": [
+      {
+        "team_name": "Ayutthaya United",
+        "matches": 16
+      },
+      {
+        "team_name": "BG Pathum United",
+        "matches": 91
+      },
+      {
+        "team_name": "Bangkok United",
+        "matches": 91
+      },
+      {
+        "team_name": "Buriram United",
+        "matches": 91
+      },
+      {
+        "team_name": "Chiangrai United",
+        "matches": 91
+      },
+      {
+        "team_name": "Chonburi FC",
+        "matches": 61
+      },
+      {
+        "team_name": "Kanchanaburi Power FC",
+        "matches": 16
+      },
+      {
+        "team_name": "Khon Kaen United",
+        "matches": 75
+      },
+      {
+        "team_name": "Lampang",
+        "matches": 15
+      },
+      {
+        "team_name": "Lamphun Warriors",
+        "matches": 91
+      },
+      {
+        "team_name": "Muangthong United",
+        "matches": 91
+      },
+      {
+        "team_name": "Nakhon Pathom",
+        "matches": 60
+      },
+      {
+        "team_name": "Nakhon Ratchasima FC",
+        "matches": 61
+      },
+      {
+        "team_name": "Nong Bua Pitchaya",
+        "matches": 45
+      },
+      {
+        "team_name": "PT Prachuap FC",
+        "matches": 91
+      },
+      {
+        "team_name": "Police Tero",
+        "matches": 45
+      },
+      {
+        "team_name": "Port FC",
+        "matches": 91
+      },
+      {
+        "team_name": "Ratchaburi FC",
+        "matches": 91
+      },
+      {
+        "team_name": "Rayong FC",
+        "matches": 46
+      },
+      {
+        "team_name": "Sukhothai FC",
+        "matches": 91
+      },
+      {
+        "team_name": "Trat",
+        "matches": 30
+      },
+      {
+        "team_name": "Uthai Thani FC",
+        "matches": 76
+      }
+    ],
+    "澳洲冠軍聯賽": [
+      {
+        "team_name": "Adelaide City",
+        "matches": 1
+      },
+      {
+        "team_name": "Avondale FC",
+        "matches": 1
+      },
+      {
+        "team_name": "Bayswater",
+        "matches": 1
+      },
+      {
+        "team_name": "Broadmeadow",
+        "matches": 1
+      },
+      {
+        "team_name": "Canberra Croatia",
+        "matches": 1
+      },
+      {
+        "team_name": "Marconi Stallions",
+        "matches": 1
+      },
+      {
+        "team_name": "Oakleigh Cannons",
+        "matches": 1
+      },
+      {
+        "team_name": "Preston Lions",
+        "matches": 1
+      },
+      {
+        "team_name": "Queensland Lions",
+        "matches": 1
+      },
+      {
+        "team_name": "South Hobart",
+        "matches": 1
+      },
+      {
+        "team_name": "South Melbourne",
+        "matches": 1
+      },
+      {
+        "team_name": "Sutherland Sharks",
+        "matches": 1
+      },
+      {
+        "team_name": "Sydney Olympic",
+        "matches": 1
+      },
+      {
+        "team_name": "Sydney Utd",
+        "matches": 1
+      },
+      {
+        "team_name": "Wests APIA",
+        "matches": 1
+      },
+      {
+        "team_name": "Wollongong Wolves",
+        "matches": 1
+      }
+    ],
+    "澳洲冠軍聯賽盃": [
+      {
+        "team_name": "APIA Leichhardt",
+        "matches": 4
+      },
+      {
+        "team_name": "Adelaide City",
+        "matches": 1
+      },
+      {
+        "team_name": "Avondale FC",
+        "matches": 1
+      },
+      {
+        "team_name": "Bayswater",
+        "matches": 1
+      },
+      {
+        "team_name": "Broadmeadow",
+        "matches": 1
+      },
+      {
+        "team_name": "Canberra Croatia",
+        "matches": 3
+      },
+      {
+        "team_name": "Caroline Springs",
+        "matches": 2
+      },
+      {
+        "team_name": "Heidelberg",
+        "matches": 4
+      },
+      {
+        "team_name": "Lions FC",
+        "matches": 2
+      },
+      {
+        "team_name": "Manly United",
+        "matches": 2
+      },
+      {
+        "team_name": "Marconi",
+        "matches": 2
+      },
+      {
+        "team_name": "Marconi Stallions",
+        "matches": 1
+      },
+      {
+        "team_name": "Melbourne City II",
+        "matches": 2
+      },
+      {
+        "team_name": "Melbourne Victory",
+        "matches": 2
+      },
+      {
+        "team_name": "NWS Spirit",
+        "matches": 2
+      },
+      {
+        "team_name": "Oakleigh",
+        "matches": 2
+      },
+      {
+        "team_name": "Oakleigh Cannons",
+        "matches": 1
+      },
+      {
+        "team_name": "Preston Lions",
+        "matches": 3
+      },
+      {
+        "team_name": "Queensland Lions",
+        "matches": 1
+      },
+      {
+        "team_name": "South Hobart",
+        "matches": 1
+      },
+      {
+        "team_name": "South Melbourne",
+        "matches": 1
+      },
+      {
+        "team_name": "South Melbourne FC",
+        "matches": 20
+      },
+      {
+        "team_name": "St Albans",
+        "matches": 2
+      },
+      {
+        "team_name": "St George City",
+        "matches": 2
+      },
+      {
+        "team_name": "St George Saints",
+        "matches": 2
+      },
+      {
+        "team_name": "Sutherland Sharks",
+        "matches": 3
+      },
+      {
+        "team_name": "Sydney Olympic",
+        "matches": 3
+      },
+      {
+        "team_name": "Sydney United 58 FC",
+        "matches": 20
+      },
+      {
+        "team_name": "Sydney Utd",
+        "matches": 1
+      },
+      {
+        "team_name": "Wests APIA",
+        "matches": 1
+      },
+      {
+        "team_name": "Wollongong",
+        "matches": 2
+      },
+      {
+        "team_name": "Wollongong Wolves",
+        "matches": 1
+      }
+    ],
+    "澳職": [
+      {
+        "team_name": "Adelaide United",
+        "matches": 211
+      },
+      {
+        "team_name": "Auckland FC",
+        "matches": 64
+      },
+      {
+        "team_name": "Brisbane Roar",
+        "matches": 202
+      },
+      {
+        "team_name": "Central Coast Mariners",
+        "matches": 214
+      },
+      {
+        "team_name": "Macarthur FC",
+        "matches": 201
+      },
+      {
+        "team_name": "Melbourne City FC",
+        "matches": 218
+      },
+      {
+        "team_name": "Melbourne Victory",
+        "matches": 214
+      },
+      {
+        "team_name": "Newcastle Jets",
+        "matches": 80
+      },
+      {
+        "team_name": "Newcastle United Jets",
+        "matches": 124
+      },
+      {
+        "team_name": "Perth Glory",
+        "matches": 209
+      },
+      {
+        "team_name": "Sydney FC",
+        "matches": 216
+      },
+      {
+        "team_name": "Wellington Phoenix",
+        "matches": 128
+      },
+      {
+        "team_name": "Wellington Phoenix FC",
+        "matches": 83
+      },
+      {
+        "team_name": "Western Sydney Wanderers",
+        "matches": 207
+      },
+      {
+        "team_name": "Western United",
+        "matches": 199
+      }
+    ],
+    "烏拉圭甲": [
+      {
+        "team_name": "Boston River",
+        "matches": 111
+      },
+      {
+        "team_name": "Cerro",
+        "matches": 111
+      },
+      {
+        "team_name": "Cerro Largo",
+        "matches": 111
+      },
+      {
+        "team_name": "Danubio",
+        "matches": 111
+      },
+      {
+        "team_name": "Defensor Sporting",
+        "matches": 112
+      },
+      {
+        "team_name": "Deportivo Maldonado",
+        "matches": 74
+      },
+      {
+        "team_name": "Fénix ",
+        "matches": 74
+      },
+      {
+        "team_name": "Juventud",
+        "matches": 37
+      },
+      {
+        "team_name": "La Luz",
+        "matches": 37
+      },
+      {
+        "team_name": "Liverpool",
+        "matches": 116
+      },
+      {
+        "team_name": "Miramar Misiones",
+        "matches": 74
+      },
+      {
+        "team_name": "Montevideo City Torque",
+        "matches": 74
+      },
+      {
+        "team_name": "Montevideo Wanderers",
+        "matches": 111
+      },
+      {
+        "team_name": "Nacional",
+        "matches": 115
+      },
+      {
+        "team_name": "Peñarol",
+        "matches": 119
+      },
+      {
+        "team_name": "Plaza Colonia",
+        "matches": 74
+      },
+      {
+        "team_name": "Progreso",
+        "matches": 74
+      },
+      {
+        "team_name": "Racing (Montevideo)",
+        "matches": 111
+      },
+      {
+        "team_name": "Rampla Juniors",
+        "matches": 37
+      },
+      {
+        "team_name": "River Plate",
+        "matches": 111
+      }
+    ],
+    "英冠": [
+      {
+        "team_name": "Aston Villa",
+        "matches": 46
+      },
+      {
+        "team_name": "Barnsley",
+        "matches": 124
+      },
+      {
+        "team_name": "Birmingham",
+        "matches": 265
+      },
+      {
+        "team_name": "Blackburn",
+        "matches": 332
+      },
+      {
+        "team_name": "Blackpool",
+        "matches": 92
+      },
+      {
+        "team_name": "Bolton",
+        "matches": 46
+      },
+      {
+        "team_name": "Bournemouth",
+        "matches": 92
+      },
+      {
+        "team_name": "Brentford",
+        "matches": 121
+      },
+      {
+        "team_name": "Bristol City",
+        "matches": 335
+      },
+      {
+        "team_name": "Burnley",
+        "matches": 138
+      },
+      {
+        "team_name": "Cardiff",
+        "matches": 263
+      },
+      {
+        "team_name": "Charlton",
+        "matches": 138
+      },
+      {
+        "team_name": "Coventry",
+        "matches": 312
+      },
+      {
+        "team_name": "Derby",
+        "matches": 249
+      },
+      {
+        "team_name": "Fulham",
+        "matches": 92
+      },
+      {
+        "team_name": "Huddersfield",
+        "matches": 198
+      },
+      {
+        "team_name": "Hull",
+        "matches": 324
+      },
+      {
+        "team_name": "Ipswich",
+        "matches": 214
+      },
+      {
+        "team_name": "Leeds",
+        "matches": 222
+      },
+      {
+        "team_name": "Leicester",
+        "matches": 184
+      },
+      {
+        "team_name": "Luton",
+        "matches": 193
+      },
+      {
+        "team_name": "Middlesbrough",
+        "matches": 332
+      },
+      {
+        "team_name": "Millwall",
+        "matches": 332
+      },
+      {
+        "team_name": "Norwich",
+        "matches": 307
+      },
+      {
+        "team_name": "Nott'm Forest",
+        "matches": 132
+      },
+      {
+        "team_name": "Oxford",
+        "matches": 184
+      },
+      {
+        "team_name": "Peterboro",
+        "matches": 46
+      },
+      {
+        "team_name": "Plymouth",
+        "matches": 184
+      },
+      {
+        "team_name": "Portsmouth",
+        "matches": 184
+      },
+      {
+        "team_name": "Preston",
+        "matches": 331
+      },
+      {
+        "team_name": "QPR",
+        "matches": 337
+      },
+      {
+        "team_name": "Reading",
+        "matches": 145
+      },
+      {
+        "team_name": "Rotherham",
+        "matches": 177
+      },
+      {
+        "team_name": "Sheffield United",
+        "matches": 242
+      },
+      {
+        "team_name": "Sheffield Weds",
+        "matches": 299
+      },
+      {
+        "team_name": "Southampton",
+        "matches": 184
+      },
+      {
+        "team_name": "Stoke",
+        "matches": 334
+      },
+      {
+        "team_name": "Sunderland",
+        "matches": 219
+      },
+      {
+        "team_name": "Swansea",
+        "matches": 333
+      },
+      {
+        "team_name": "Watford",
+        "matches": 297
+      },
+      {
+        "team_name": "West Brom",
+        "matches": 320
+      },
+      {
+        "team_name": "Wigan",
+        "matches": 121
+      },
+      {
+        "team_name": "Wrexham",
+        "matches": 92
+      },
+      {
+        "team_name": "Wycombe",
+        "matches": 46
+      }
+    ],
+    "英格蘭超級聯賽": [
+      {
+        "team_name": "Arsenal",
+        "matches": 7
+      },
+      {
+        "team_name": "Aston Villa",
+        "matches": 7
+      },
+      {
+        "team_name": "Bournemouth",
+        "matches": 7
+      },
+      {
+        "team_name": "Brentford",
+        "matches": 7
+      },
+      {
+        "team_name": "Brighton",
+        "matches": 7
+      },
+      {
+        "team_name": "Chelsea",
+        "matches": 7
+      },
+      {
+        "team_name": "Coventry City",
+        "matches": 7
+      },
+      {
+        "team_name": "Crystal Palace",
+        "matches": 7
+      },
+      {
+        "team_name": "Everton",
+        "matches": 7
+      },
+      {
+        "team_name": "Fulham",
+        "matches": 7
+      },
+      {
+        "team_name": "Hull",
+        "matches": 7
+      },
+      {
+        "team_name": "Ipswich",
+        "matches": 7
+      },
+      {
+        "team_name": "Leeds",
+        "matches": 7
+      },
+      {
+        "team_name": "Liverpool",
+        "matches": 7
+      },
+      {
+        "team_name": "Man City",
+        "matches": 7
+      },
+      {
+        "team_name": "Man United",
+        "matches": 7
+      },
+      {
+        "team_name": "Newcastle",
+        "matches": 7
+      },
+      {
+        "team_name": "Nott'm Forest",
+        "matches": 7
+      },
+      {
+        "team_name": "Sunderland",
+        "matches": 7
+      },
+      {
+        "team_name": "Tottenham Hotspur",
+        "matches": 7
+      }
+    ],
+    "英超": [
+      {
+        "team_name": "Arsenal",
+        "matches": 268
+      },
+      {
+        "team_name": "Aston Villa",
+        "matches": 262
+      },
+      {
+        "team_name": "Bournemouth",
+        "matches": 250
+      },
+      {
+        "team_name": "Brentford",
+        "matches": 252
+      },
+      {
+        "team_name": "Brighton",
+        "matches": 271
+      },
+      {
+        "team_name": "Burnley",
+        "matches": 211
+      },
+      {
+        "team_name": "Cardiff",
+        "matches": 38
+      },
+      {
+        "team_name": "Chelsea",
+        "matches": 270
+      },
+      {
+        "team_name": "Crystal Palace",
+        "matches": 270
+      },
+      {
+        "team_name": "Everton",
+        "matches": 267
+      },
+      {
+        "team_name": "Fulham",
+        "matches": 251
+      },
+      {
+        "team_name": "Huddersfield",
+        "matches": 38
+      },
+      {
+        "team_name": "Ipswich",
+        "matches": 76
+      },
+      {
+        "team_name": "Leeds",
+        "matches": 161
+      },
+      {
+        "team_name": "Leicester",
+        "matches": 174
+      },
+      {
+        "team_name": "Liverpool",
+        "matches": 269
+      },
+      {
+        "team_name": "Luton",
+        "matches": 76
+      },
+      {
+        "team_name": "Man City",
+        "matches": 269
+      },
+      {
+        "team_name": "Man United",
+        "matches": 272
+      },
+      {
+        "team_name": "Newcastle",
+        "matches": 267
+      },
+      {
+        "team_name": "Norwich",
+        "matches": 76
+      },
+      {
+        "team_name": "Nott'm Forest",
+        "matches": 239
+      },
+      {
+        "team_name": "Sheffield United",
+        "matches": 152
+      },
+      {
+        "team_name": "Southampton",
+        "matches": 175
+      },
+      {
+        "team_name": "Sunderland",
+        "matches": 76
+      },
+      {
+        "team_name": "Tottenham",
+        "matches": 270
+      },
+      {
+        "team_name": "Watford",
+        "matches": 114
+      },
+      {
+        "team_name": "West Brom",
+        "matches": 38
+      },
+      {
+        "team_name": "West Ham",
+        "matches": 269
+      },
+      {
+        "team_name": "Wolves",
+        "matches": 269
+      }
+    ],
+    "荷乙": [
+      {
+        "team_name": "ADO Den Haag",
+        "matches": 116
+      },
+      {
+        "team_name": "Almere City",
+        "matches": 41
+      },
+      {
+        "team_name": "De Graafschap",
+        "matches": 117
+      },
+      {
+        "team_name": "Excelsior",
+        "matches": 38
+      },
+      {
+        "team_name": "FC Den Bosch",
+        "matches": 117
+      },
+      {
+        "team_name": "FC Dordrecht",
+        "matches": 117
+      },
+      {
+        "team_name": "FC Eindhoven",
+        "matches": 117
+      },
+      {
+        "team_name": "FC Emmen",
+        "matches": 97
+      },
+      {
+        "team_name": "FC Groningen",
+        "matches": 38
+      },
+      {
+        "team_name": "FC Volendam",
+        "matches": 38
+      },
+      {
+        "team_name": "Helmond Sport",
+        "matches": 117
+      },
+      {
+        "team_name": "Heracles Almelo",
+        "matches": 20
+      },
+      {
+        "team_name": "Jong AZ",
+        "matches": 119
+      },
+      {
+        "team_name": "Jong Ajax",
+        "matches": 117
+      },
+      {
+        "team_name": "Jong FC Utrecht",
+        "matches": 118
+      },
+      {
+        "team_name": "Jong PSV",
+        "matches": 117
+      },
+      {
+        "team_name": "MVV Maastricht",
+        "matches": 118
+      },
+      {
+        "team_name": "NAC Breda",
+        "matches": 58
+      },
+      {
+        "team_name": "PEC Zwolle",
+        "matches": 21
+      },
+      {
+        "team_name": "RKC Waalwijk",
+        "matches": 21
+      },
+      {
+        "team_name": "Roda JC Kerkrade",
+        "matches": 118
+      },
+      {
+        "team_name": "SC Cambuur",
+        "matches": 97
+      },
+      {
+        "team_name": "TOP Oss",
+        "matches": 118
+      },
+      {
+        "team_name": "Telstar",
+        "matches": 97
+      },
+      {
+        "team_name": "VVV-Venlo",
+        "matches": 117
+      },
+      {
+        "team_name": "Vitesse",
+        "matches": 58
+      },
+      {
+        "team_name": "Willem II",
+        "matches": 79
+      }
+    ],
+    "荷甲": [
+      {
+        "team_name": "AZ Alkmaar",
+        "matches": 268
+      },
+      {
+        "team_name": "Ajax",
+        "matches": 161
+      },
+      {
+        "team_name": "Ajax Amsterdam",
+        "matches": 105
+      },
+      {
+        "team_name": "Almere City",
+        "matches": 136
+      },
+      {
+        "team_name": "Cambuur",
+        "matches": 68
+      },
+      {
+        "team_name": "Den Haag",
+        "matches": 94
+      },
+      {
+        "team_name": "Excelsior",
+        "matches": 195
+      },
+      {
+        "team_name": "FC Emmen",
+        "matches": 142
+      },
+      {
+        "team_name": "FC Groningen",
+        "matches": 71
+      },
+      {
+        "team_name": "FC Twente",
+        "matches": 111
+      },
+      {
+        "team_name": "FC Utrecht",
+        "matches": 109
+      },
+      {
+        "team_name": "FC Volendam",
+        "matches": 71
+      },
+      {
+        "team_name": "Feyenoord",
+        "matches": 162
+      },
+      {
+        "team_name": "Feyenoord Rotterdam",
+        "matches": 105
+      },
+      {
+        "team_name": "For Sittard",
+        "matches": 162
+      },
+      {
+        "team_name": "Fortuna Sittard",
+        "matches": 105
+      },
+      {
+        "team_name": "Go Ahead Eagles",
+        "matches": 244
+      },
+      {
+        "team_name": "Graafschap",
+        "matches": 34
+      },
+      {
+        "team_name": "Groningen",
+        "matches": 150
+      },
+      {
+        "team_name": "Heerenveen",
+        "matches": 271
+      },
+      {
+        "team_name": "Heracles",
+        "matches": 149
+      },
+      {
+        "team_name": "Heracles Almelo",
+        "matches": 85
+      },
+      {
+        "team_name": "NAC Breda",
+        "matches": 153
+      },
+      {
+        "team_name": "NEC Nijmegen",
+        "matches": 107
+      },
+      {
+        "team_name": "Nijmegen",
+        "matches": 136
+      },
+      {
+        "team_name": "PEC Zwolle",
+        "matches": 85
+      },
+      {
+        "team_name": "PSV Eindhoven",
+        "matches": 270
+      },
+      {
+        "team_name": "RKC Waalwijk",
+        "matches": 88
+      },
+      {
+        "team_name": "SC Cambuur",
+        "matches": 20
+      },
+      {
+        "team_name": "Sparta Rotterdam",
+        "matches": 261
+      },
+      {
+        "team_name": "Telstar",
+        "matches": 51
+      },
+      {
+        "team_name": "Twente",
+        "matches": 153
+      },
+      {
+        "team_name": "Utrecht",
+        "matches": 163
+      },
+      {
+        "team_name": "VVV Venlo",
+        "matches": 94
+      },
+      {
+        "team_name": "Vitesse",
+        "matches": 194
+      },
+      {
+        "team_name": "Volendam",
+        "matches": 102
+      },
+      {
+        "team_name": "Waalwijk",
+        "matches": 138
+      },
+      {
+        "team_name": "Willem II",
+        "matches": 167
+      },
+      {
+        "team_name": "Zwolle",
+        "matches": 146
+      }
+    ],
+    "蘇超": [
+      {
+        "team_name": "Aberdeen",
+        "matches": 228
+      },
+      {
+        "team_name": "Celtic",
+        "matches": 226
+      },
+      {
+        "team_name": "Dundee",
+        "matches": 192
+      },
+      {
+        "team_name": "Dundee United",
+        "matches": 202
+      },
+      {
+        "team_name": "Falkirk",
+        "matches": 57
+      },
+      {
+        "team_name": "Hamilton",
+        "matches": 106
+      },
+      {
+        "team_name": "Heart of Midlothian",
+        "matches": 88
+      },
+      {
+        "team_name": "Hearts",
+        "matches": 140
+      },
+      {
+        "team_name": "Hibernian",
+        "matches": 230
+      },
+      {
+        "team_name": "Kilmarnock",
+        "matches": 226
+      },
+      {
+        "team_name": "Livingston",
+        "matches": 179
+      },
+      {
+        "team_name": "Motherwell",
+        "matches": 232
+      },
+      {
+        "team_name": "Rangers",
+        "matches": 230
+      },
+      {
+        "team_name": "Ross County",
+        "matches": 191
+      },
+      {
+        "team_name": "St Johnstone",
+        "matches": 196
+      },
+      {
+        "team_name": "St Mirren",
+        "matches": 233
+      }
+    ],
+    "西乙": [
+      {
+        "team_name": "Alaves",
+        "matches": 42
+      },
+      {
+        "team_name": "Albacete",
+        "matches": 328
+      },
+      {
+        "team_name": "Alcorcon",
+        "matches": 193
+      },
+      {
+        "team_name": "Almeria",
+        "matches": 258
+      },
+      {
+        "team_name": "Amorebieta",
+        "matches": 126
+      },
+      {
+        "team_name": "Andorra",
+        "matches": 206
+      },
+      {
+        "team_name": "Burgos",
+        "matches": 292
+      },
+      {
+        "team_name": "Cadiz",
+        "matches": 221
+      },
+      {
+        "team_name": "Cartagena",
+        "matches": 247
+      },
+      {
+        "team_name": "Castellon",
+        "matches": 206
+      },
+      {
+        "team_name": "Ceuta",
+        "matches": 84
+      },
+      {
+        "team_name": "Cordoba",
+        "matches": 205
+      },
+      {
+        "team_name": "Cultural Leonesa",
+        "matches": 84
+      },
+      {
+        "team_name": "Eibar",
+        "matches": 296
+      },
+      {
+        "team_name": "Elche",
+        "matches": 220
+      },
+      {
+        "team_name": "Eldense",
+        "matches": 168
+      },
+      {
+        "team_name": "Espanol",
+        "matches": 126
+      },
+      {
+        "team_name": "Extremadura UD",
+        "matches": 84
+      },
+      {
+        "team_name": "Ferrol",
+        "matches": 168
+      },
+      {
+        "team_name": "Fuenlabrada",
+        "matches": 122
+      },
+      {
+        "team_name": "Gimnastic",
+        "matches": 42
+      },
+      {
+        "team_name": "Girona",
+        "matches": 121
+      },
+      {
+        "team_name": "Granada",
+        "matches": 221
+      },
+      {
+        "team_name": "Huesca",
+        "matches": 310
+      },
+      {
+        "team_name": "Ibiza",
+        "matches": 84
+      },
+      {
+        "team_name": "La Coruna",
+        "matches": 222
+      },
+      {
+        "team_name": "Las Palmas",
+        "matches": 218
+      },
+      {
+        "team_name": "Leganes",
+        "matches": 249
+      },
+      {
+        "team_name": "Levante",
+        "matches": 205
+      },
+      {
+        "team_name": "Logrones",
+        "matches": 42
+      },
+      {
+        "team_name": "Lugo",
+        "matches": 152
+      },
+      {
+        "team_name": "Malaga",
+        "matches": 277
+      },
+      {
+        "team_name": "Mallorca",
+        "matches": 84
+      },
+      {
+        "team_name": "Mirandes",
+        "matches": 332
+      },
+      {
+        "team_name": "Numancia",
+        "matches": 84
+      },
+      {
+        "team_name": "Osasuna",
+        "matches": 42
+      },
+      {
+        "team_name": "Oviedo",
+        "matches": 276
+      },
+      {
+        "team_name": "Ponferradina",
+        "matches": 135
+      },
+      {
+        "team_name": "Rayo Majadahonda",
+        "matches": 42
+      },
+      {
+        "team_name": "Reus Deportiu",
+        "matches": 42
+      },
+      {
+        "team_name": "Sabadell",
+        "matches": 42
+      },
+      {
+        "team_name": "Santander",
+        "matches": 290
+      },
+      {
+        "team_name": "Sociedad B",
+        "matches": 126
+      },
+      {
+        "team_name": "Sp Gijon",
+        "matches": 350
+      },
+      {
+        "team_name": "Tenerife",
+        "matches": 279
+      },
+      {
+        "team_name": "Valladolid",
+        "matches": 206
+      },
+      {
+        "team_name": "Vallecano",
+        "matches": 84
+      },
+      {
+        "team_name": "Villarreal B",
+        "matches": 126
+      },
+      {
+        "team_name": "Zaragoza",
+        "matches": 351
+      }
+    ],
+    "西甲": [
+      {
+        "team_name": "Alaves",
+        "matches": 263
+      },
+      {
+        "team_name": "Almeria",
+        "matches": 114
+      },
+      {
+        "team_name": "Ath Bilbao",
+        "matches": 274
+      },
+      {
+        "team_name": "Ath Madrid",
+        "matches": 270
+      },
+      {
+        "team_name": "Barcelona",
+        "matches": 271
+      },
+      {
+        "team_name": "Betis",
+        "matches": 273
+      },
+      {
+        "team_name": "Cadiz",
+        "matches": 165
+      },
+      {
+        "team_name": "Celta",
+        "matches": 273
+      },
+      {
+        "team_name": "Eibar",
+        "matches": 114
+      },
+      {
+        "team_name": "Elche",
+        "matches": 168
+      },
+      {
+        "team_name": "Espanol",
+        "matches": 213
+      },
+      {
+        "team_name": "Getafe",
+        "matches": 271
+      },
+      {
+        "team_name": "Girona",
+        "matches": 250
+      },
+      {
+        "team_name": "Granada",
+        "matches": 162
+      },
+      {
+        "team_name": "Huesca",
+        "matches": 76
+      },
+      {
+        "team_name": "Las Palmas",
+        "matches": 152
+      },
+      {
+        "team_name": "Leganes",
+        "matches": 152
+      },
+      {
+        "team_name": "Levante",
+        "matches": 168
+      },
+      {
+        "team_name": "Mallorca",
+        "matches": 257
+      },
+      {
+        "team_name": "Osasuna",
+        "matches": 269
+      },
+      {
+        "team_name": "Oviedo",
+        "matches": 76
+      },
+      {
+        "team_name": "Real Madrid",
+        "matches": 275
+      },
+      {
+        "team_name": "Sevilla",
+        "matches": 270
+      },
+      {
+        "team_name": "Sociedad",
+        "matches": 275
+      },
+      {
+        "team_name": "Valencia",
+        "matches": 274
+      },
+      {
+        "team_name": "Valladolid",
+        "matches": 168
+      },
+      {
+        "team_name": "Vallecano",
+        "matches": 257
+      },
+      {
+        "team_name": "Villarreal",
+        "matches": 272
+      }
+    ],
+    "阿甲": [
+      {
+        "team_name": "Aldosivi",
+        "matches": 32
+      },
+      {
+        "team_name": "Argentinos Juniors",
+        "matches": 90
+      },
+      {
+        "team_name": "Arsenal Sarandi",
+        "matches": 27
+      },
+      {
+        "team_name": "Atlético Tucumán",
+        "matches": 87
+      },
+      {
+        "team_name": "Banfield",
+        "matches": 86
+      },
+      {
+        "team_name": "Barracas Central",
+        "matches": 89
+      },
+      {
+        "team_name": "Belgrano (Córdoba)",
+        "matches": 86
+      },
+      {
+        "team_name": "Boca Juniors",
+        "matches": 91
+      },
+      {
+        "team_name": "Central Córdoba (Santiago del Estero)",
+        "matches": 88
+      },
+      {
+        "team_name": "Colón (Santa Fe)",
+        "matches": 27
+      },
+      {
+        "team_name": "Defensa y Justicia",
+        "matches": 86
+      },
+      {
+        "team_name": "Deportivo Riestra",
+        "matches": 61
+      },
+      {
+        "team_name": "Estudiantes de La Plata",
+        "matches": 91
+      },
+      {
+        "team_name": "Gimnasia (Mendoza)",
+        "matches": 1
+      },
+      {
+        "team_name": "Gimnasia La Plata",
+        "matches": 90
+      },
+      {
+        "team_name": "Godoy Cruz Antonio Tomba",
+        "matches": 86
+      },
+      {
+        "team_name": "Huracán",
+        "matches": 90
+      },
+      {
+        "team_name": "Independiente",
+        "matches": 89
+      },
+      {
+        "team_name": "Independiente Rivadavia",
+        "matches": 60
+      },
+      {
+        "team_name": "Instituto (Córdoba)",
+        "matches": 87
+      },
+      {
+        "team_name": "Lanús",
+        "matches": 88
+      },
+      {
+        "team_name": "Newell's Old Boys",
+        "matches": 86
+      },
+      {
+        "team_name": "Platense",
+        "matches": 91
+      },
+      {
+        "team_name": "Racing Club",
+        "matches": 91
+      },
+      {
+        "team_name": "River Plate",
+        "matches": 89
+      },
+      {
+        "team_name": "Rosario Central",
+        "matches": 89
+      },
+      {
+        "team_name": "San Lorenzo",
+        "matches": 90
+      },
+      {
+        "team_name": "San Martín (San Juan)",
+        "matches": 32
+      },
+      {
+        "team_name": "Sarmiento (Junín)",
+        "matches": 87
+      },
+      {
+        "team_name": "Talleres (Córdoba)",
+        "matches": 87
+      },
+      {
+        "team_name": "Tigre",
+        "matches": 90
+      },
+      {
+        "team_name": "Unión (Santa Fe)",
+        "matches": 87
+      },
+      {
+        "team_name": "Vélez Sarsfield",
+        "matches": 87
+      }
+    ]
+  },
+  "qatar": {
+    "team_count": 12,
+    "teams": [
+      {
+        "team_name": "Al Ahli Doha",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Arabi",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Duhail",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Gharafa",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Rayyan",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Sadd",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Sailiya",
+        "matches": 3
+      },
+      {
+        "team_name": "Al Shahaniya",
+        "matches": 4
+      },
+      {
+        "team_name": "Al Wakrah",
+        "matches": 3
+      },
+      {
+        "team_name": "Lusail",
+        "matches": 3
+      },
+      {
+        "team_name": "Qatar SC",
+        "matches": 3
+      },
+      {
+        "team_name": "Shamal",
+        "matches": 3
+      }
+    ],
+    "all_teams_at_least_20": false
+  }
+}
