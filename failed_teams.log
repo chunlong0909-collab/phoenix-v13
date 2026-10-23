@@ -3,3 +3,9 @@
 2026-10-23T17:13:09.607119+00:00 | 卡塔爾超級聯賽 | Al Duhail | team page not found: Al Duhail
 2026-10-23T17:13:15.680453+00:00 | 卡塔爾超級聯賽 | Al Gharafa | team page not found: Al Gharafa
 2026-10-23T17:13:21.669726+00:00 | 卡塔爾超級聯賽 | Al Rayyan | team page not found: Al Rayyan
+2026-10-23T17:21:37.867587+00:00 | 卡塔爾超級聯賽 | Al Ahli Doha | all fallbacks failed: Al Ahli Doha
+2026-10-23T17:22:44.190901+00:00 | 卡塔爾超級聯賽 | Al Ahli Doha | sources=[('football_data_api', 0), ('fbref', 0), ('soccerway', 0)] | no_ht_retry
+2026-10-23T17:23:14.458580+00:00 | 卡塔爾超級聯賽 | Al Arabi | sources=[('soccerway', 0), ('fbref', 0), ('worldfootball', 0)] | no_ht_retry
+2026-10-23T17:23:41.487821+00:00 | 卡塔爾超級聯賽 | Al Duhail | sources=[('soccerway', 0), ('fbref', 0), ('worldfootball', 0)] | no_ht_retry
+2026-10-23T17:23:51.568049+00:00 | 卡塔爾超級聯賽 | Al Gharafa | sources=[('football_data_api', 0), ('fbref', 0), ('worldfootball', 0)] | no_ht_retry
+2026-10-23T17:24:18.272323+00:00 | 卡塔爾超級聯賽 | Al Rayyan | sources=[('fbref', 0), ('soccerway', 0), ('worldfootball', 0)] | no_ht_retry

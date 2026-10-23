@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-23T17:12:45.956288+00:00",
+  "updated_at": "2026-10-23T17:24:18.273453+00:00",
   "done_teams": 0,
   "total_teams": 865,
   "last_batch": {
-    "updated_at": "2026-10-23T17:12:45.956288+00:00",
+    "updated_at": "2026-10-23T17:22:17.945781+00:00",
     "requested": [
       [
         "卡塔爾超級聯賽",
@@ -32,33 +32,104 @@
         "league": "卡塔爾超級聯賽",
         "team": "Al Ahli Doha",
         "matches": 0,
-        "reason": "team page not found: Al Ahli Doha"
+        "sources": [
+          [
+            "football_data_api",
+            0
+          ],
+          [
+            "fbref",
+            0
+          ],
+          [
+            "soccerway",
+            0
+          ]
+        ],
+        "reason": "no_ht_retry"
       },
       {
         "league": "卡塔爾超級聯賽",
         "team": "Al Arabi",
         "matches": 0,
-        "reason": "team page not found: Al Arabi"
+        "sources": [
+          [
+            "soccerway",
+            0
+          ],
+          [
+            "fbref",
+            0
+          ],
+          [
+            "worldfootball",
+            0
+          ]
+        ],
+        "reason": "no_ht_retry"
       },
       {
         "league": "卡塔爾超級聯賽",
         "team": "Al Duhail",
         "matches": 0,
-        "reason": "team page not found: Al Duhail"
+        "sources": [
+          [
+            "soccerway",
+            0
+          ],
+          [
+            "fbref",
+            0
+          ],
+          [
+            "worldfootball",
+            0
+          ]
+        ],
+        "reason": "no_ht_retry"
       },
       {
         "league": "卡塔爾超級聯賽",
         "team": "Al Gharafa",
         "matches": 0,
-        "reason": "team page not found: Al Gharafa"
+        "sources": [
+          [
+            "football_data_api",
+            0
+          ],
+          [
+            "fbref",
+            0
+          ],
+          [
+            "worldfootball",
+            0
+          ]
+        ],
+        "reason": "no_ht_retry"
       },
       {
         "league": "卡塔爾超級聯賽",
         "team": "Al Rayyan",
         "matches": 0,
-        "reason": "team page not found: Al Rayyan"
+        "sources": [
+          [
+            "fbref",
+            0
+          ],
+          [
+            "soccerway",
+            0
+          ],
+          [
+            "worldfootball",
+            0
+          ]
+        ],
+        "reason": "no_ht_retry"
       }
-    ]
+    ],
+    "done_in_batch": 0
   },
   "status": "incomplete"
 }
