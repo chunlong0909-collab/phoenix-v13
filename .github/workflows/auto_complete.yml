@@ -1,0 +1,55 @@
+name: auto-complete-football-data
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每3小時執行一次；GitHub cron 使用 UTC
+    - cron: "0 */3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  crawl-checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Run one real checkpoint batch
+        run: python scripts/scraper_full_20_checkpoint.py --limit-teams 5
+
+      - name: Validate no fabricated HT values
+        run: |
+          python - <<'PY'
+          import json, sqlite3
+          c = sqlite3.connect('football_library.db')
+          assert c.execute('pragma integrity_check').fetchone()[0] == 'ok'
+          cols = {r[1] for r in c.execute('pragma table_info(matches)')}
+          assert {'ht_home','ht_away'} <= cols
+          r = json.load(open('checkpoint.json'))
+          assert r['done_teams'] <= r['total_teams']
+          print('checkpoint=', r['done_teams'], '/', r['total_teams'])
+          print('failed log exists=', __import__('os').path.exists('failed_teams.log'))
+          c.close()
+          PY
+
+      - name: Commit checkpoint and real data
+        run: |
+          git config user.name "phoenix-auto-bot"
+          git config user.email "auto@phoenix-v13.invalid"
+          git add football_library.db checkpoint.json failed_teams.log data/scraper_checkpoint_report.json scripts/scraper_full_20_checkpoint.py
+          git commit -m "auto: real HT checkpoint batch $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git push origin main
