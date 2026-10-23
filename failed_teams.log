@@ -9,3 +9,8 @@
 2026-10-23T17:23:41.487821+00:00 | 卡塔爾超級聯賽 | Al Duhail | sources=[('soccerway', 0), ('fbref', 0), ('worldfootball', 0)] | no_ht_retry
 2026-10-23T17:23:51.568049+00:00 | 卡塔爾超級聯賽 | Al Gharafa | sources=[('football_data_api', 0), ('fbref', 0), ('worldfootball', 0)] | no_ht_retry
 2026-10-23T17:24:18.272323+00:00 | 卡塔爾超級聯賽 | Al Rayyan | sources=[('fbref', 0), ('soccerway', 0), ('worldfootball', 0)] | no_ht_retry
+2026-10-23T17:28:16.486569+00:00 | 卡塔爾超級聯賽 | Al Ahli Doha | sources=[('football_data_api', 0), ('soccerway', 0), ('worldfootball', 0)] | no_ht_retry
+2026-10-23T17:28:35.118586+00:00 | 卡塔爾超級聯賽 | Al Arabi | sources=[('football_data_api', 0), ('soccerway', 0), ('api_football', 0)] | no_ht_retry
+2026-10-23T17:28:57.066181+00:00 | 卡塔爾超級聯賽 | Al Duhail | sources=[('soccerway', 0), ('worldfootball', 0), ('football_data_api', 0)] | no_ht_retry
+2026-10-23T17:29:14.824830+00:00 | 卡塔爾超級聯賽 | Al Gharafa | sources=[('soccerway', 0), ('football_data_api', 0), ('api_football', 0)] | no_ht_retry
+2026-10-23T17:29:18.969394+00:00 | 卡塔爾超級聯賽 | Al Rayyan | sources=[('football_data_api', 0), ('fbref', 0), ('api_football', 0)] | no_ht_retry
