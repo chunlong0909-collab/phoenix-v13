@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-10-23T17:29:18.970254+00:00",
+  "updated_at": "2026-10-23T17:51:25.616858+00:00",
   "done_teams": 0,
   "total_teams": 865,
   "last_batch": {
-    "updated_at": "2026-10-23T17:27:53.200796+00:00",
+    "updated_at": "2026-10-23T17:49:42.596200+00:00",
     "requested": [
       [
         "卡塔爾超級聯賽",
@@ -34,7 +34,7 @@
         "matches": 0,
         "sources": [
           [
-            "football_data_api",
+            "worldfootball",
             0
           ],
           [
@@ -42,11 +42,11 @@
             0
           ],
           [
-            "worldfootball",
+            "fbref",
             0
           ]
         ],
-        "reason": "no_ht_retry"
+        "reason": "need_36_explicit_ht"
       },
       {
         "league": "卡塔爾超級聯賽",
@@ -54,65 +54,9 @@
         "matches": 0,
         "sources": [
           [
-            "football_data_api",
-            0
-          ],
-          [
             "soccerway",
             0
           ],
-          [
-            "api_football",
-            0
-          ]
-        ],
-        "reason": "no_ht_retry"
-      },
-      {
-        "league": "卡塔爾超級聯賽",
-        "team": "Al Duhail",
-        "matches": 0,
-        "sources": [
-          [
-            "soccerway",
-            0
-          ],
-          [
-            "worldfootball",
-            0
-          ],
-          [
-            "football_data_api",
-            0
-          ]
-        ],
-        "reason": "no_ht_retry"
-      },
-      {
-        "league": "卡塔爾超級聯賽",
-        "team": "Al Gharafa",
-        "matches": 0,
-        "sources": [
-          [
-            "soccerway",
-            0
-          ],
-          [
-            "football_data_api",
-            0
-          ],
-          [
-            "api_football",
-            0
-          ]
-        ],
-        "reason": "no_ht_retry"
-      },
-      {
-        "league": "卡塔爾超級聯賽",
-        "team": "Al Rayyan",
-        "matches": 0,
-        "sources": [
           [
             "football_data_api",
             0
@@ -120,13 +64,69 @@
           [
             "fbref",
             0
+          ]
+        ],
+        "reason": "need_36_explicit_ht"
+      },
+      {
+        "league": "卡塔爾超級聯賽",
+        "team": "Al Duhail",
+        "matches": 0,
+        "sources": [
+          [
+            "worldfootball",
+            0
           ],
           [
-            "api_football",
+            "football_data_api",
+            0
+          ],
+          [
+            "fbref",
             0
           ]
         ],
-        "reason": "no_ht_retry"
+        "reason": "need_36_explicit_ht"
+      },
+      {
+        "league": "卡塔爾超級聯賽",
+        "team": "Al Gharafa",
+        "matches": 0,
+        "sources": [
+          [
+            "fbref",
+            0
+          ],
+          [
+            "football_data_api",
+            0
+          ],
+          [
+            "worldfootball",
+            0
+          ]
+        ],
+        "reason": "need_36_explicit_ht"
+      },
+      {
+        "league": "卡塔爾超級聯賽",
+        "team": "Al Rayyan",
+        "matches": 0,
+        "sources": [
+          [
+            "fbref",
+            0
+          ],
+          [
+            "soccerway",
+            0
+          ],
+          [
+            "worldfootball",
+            0
+          ]
+        ],
+        "reason": "need_36_explicit_ht"
       }
     ],
     "done_in_batch": 0
