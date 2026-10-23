@@ -1,0 +1,12 @@
+{
+  "league_id": "australian-championship",
+  "name_zh": "澳洲冠軍聯賽",
+  "name_en": "Australian Championship",
+  "updated_at": "2026-10-23T01:56:24.281809+00:00",
+  "fixtures": 8,
+  "players": 0,
+  "corner_fixtures": 0,
+  "corner_data_missing": true,
+  "dataSource": "Flashscore public results; official Australian Championship site used to verify competition and fixture",
+  "note": "Round 1 real results; corners unavailable, so corner fields remain blank"
+}
