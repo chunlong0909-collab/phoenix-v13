@@ -44,7 +44,7 @@
 9322,Villarreal B,368878,Pau Navarro,D,2005-04-25T07:00Z,,ESPN roster,2025
 9322,Villarreal B,384543,Alejandro Alcira Marco,D,2004-01-24T08:00Z,,ESPN roster,2025
 9322,Villarreal B,384545,Kevin Jesús Martel González,D,2005-01-23T08:00Z,,ESPN roster,2025
-9322,Villarreal B,195785,Victor Moreno,D,1994-10-23T07:00Z,,ESPN roster,2025
+9322,Villarreal B,195785,Víctor Moreno,M,2005-09-30T07:00Z,,ESPN roster,2025
 9322,Villarreal B,230894,Javi Ontiveros,M,1997-09-09T07:00Z,,ESPN roster,2025
 9322,Villarreal B,243580,Jordi Ortega,M,2003-02-23T08:00Z,,ESPN roster,2025
 9322,Villarreal B,297365,Aitor Gelardo,M,2002-06-26T07:00Z,,ESPN roster,2025
@@ -270,7 +270,7 @@
 99,Málaga,388602,Chupete,F,2004-08-24T07:00Z,,ESPN roster,2025
 245,Tenerife,264077,Dani Martín,G,1998-07-08T07:00Z,,ESPN roster,2025
 245,Tenerife,400058,Gabriel Lozano,G,2004-07-06T07:00Z,,ESPN roster,2025
-245,Tenerife,84064,Jorge Moreno,G,2004-12-28T08:00Z,,ESPN roster,2025
+245,Tenerife,84064,Jorge Moreno,D,2001-07-25T07:00Z,,ESPN roster,2025
 245,Tenerife,130137,Marc Mateu,D,1990-06-16T07:00Z,,ESPN roster,2025
 245,Tenerife,204899,José León,D,1995-02-03T08:00Z,,ESPN roster,2025
 245,Tenerife,235018,Anthony Landázuri,D,1997-04-19T07:00Z,,ESPN roster,2025
@@ -280,7 +280,7 @@
 245,Tenerife,377597,César Álvarez,D,2003-04-15T07:00Z,,ESPN roster,2025
 245,Tenerife,102805,Jesús Álvarez,M,1999-11-17T08:00Z,,ESPN roster,2025
 245,Tenerife,185866,Juanjo,M,2000-03-22T08:00Z,,ESPN roster,2025
-245,Tenerife,195785,Victor Moreno,D,1994-10-23T07:00Z,,ESPN roster,2025
+245,Tenerife,195785,Víctor Moreno,M,2005-09-30T07:00Z,,ESPN roster,2025
 245,Tenerife,220073,Mauro Pittón,M,1994-08-08T07:00Z,,ESPN roster,2025
 245,Tenerife,231574,Nacho Gil,M,1995-09-09T07:00Z,,ESPN roster,2025
 245,Tenerife,311533,Martin Pecar,M,2002-07-05T07:00Z,,ESPN roster,2025
@@ -390,7 +390,7 @@
 5419,FC Cartagena,316040,Pablo Cuñat,G,2002-04-28T07:00Z,,ESPN roster,2025
 5419,FC Cartagena,367940,Nono,G,2005-02-26T08:00Z,,ESPN roster,2025
 5419,FC Cartagena,377596,Jhafets,G,2006-09-16T07:00Z,,ESPN roster,2025
-5419,FC Cartagena,84064,Jorge Moreno,G,2004-12-28T08:00Z,,ESPN roster,2025
+5419,FC Cartagena,84064,Jorge Moreno,D,2001-07-25T07:00Z,,ESPN roster,2025
 5419,FC Cartagena,129711,Kiko,D,1988-08-21T07:00Z,,ESPN roster,2025
 5419,FC Cartagena,136729,Pedro Alcalá,D,1989-03-19T08:00Z,,ESPN roster,2025
 5419,FC Cartagena,180341,Nacho Martínez,D,1989-03-07T08:00Z,,ESPN roster,2025
@@ -497,7 +497,7 @@
 98,Las Palmas,165671,Jefté,F,1993-07-06T07:00Z,,ESPN roster,2025
 98,Las Palmas,188165,Sandro,F,1995-07-09T07:00Z,,ESPN roster,2025
 98,Las Palmas,241461,Elías Romero,F,2004-05-11T07:00Z,,ESPN roster,2025
-98,Las Palmas,259984,Jorge Cruz,D,2000-01-24T08:00Z,,ESPN roster,2025
+98,Las Palmas,259984,Jorge Cruz,F,2000-01-24T08:00Z,,ESPN roster,2025
 98,Las Palmas,265959,Taisei Miyashiro,F,2000-05-26T07:00Z,,ESPN roster,2025
 98,Las Palmas,409288,Adam Arvelo,F,2005-05-31T07:00Z,,ESPN roster,2025
 98,Las Palmas,414085,Iván Medina,F,2004-03-03T08:00Z,,ESPN roster,2025
@@ -505,7 +505,7 @@
 87,Racing Santander,394309,Laro Gómez,G,2006-10-16T07:00Z,,ESPN roster,2025
 87,Racing Santander,400222,Simon Eriksson,G,2006-04-24T07:00Z,,ESPN roster,2025
 87,Racing Santander,417252,Álvaro Jiménez,G,2003-02-07T08:00Z,,ESPN roster,2025
-87,Racing Santander,128374,Javier Castro,M,2000-09-13T07:00Z,,ESPN roster,2025
+87,Racing Santander,128374,Javier Castro,D,2000-09-13T07:00Z,,ESPN roster,2025
 87,Racing Santander,178237,Jorge Salinas,D,2007-04-03T07:00Z,,ESPN roster,2025
 87,Racing Santander,259839,Manu,D,1998-07-19T07:00Z,,ESPN roster,2025
 87,Racing Santander,300471,Alvaro Mantilla,D,2000-05-09T07:00Z,,ESPN roster,2025
@@ -698,6 +698,7 @@
 95,Real Valladolid,364090,Robin Van Duiven,F,2006-04-08T07:00Z,,ESPN roster,2025
 95,Real Valladolid,371617,Adrián Arnun,F,2007-03-04T08:00Z,,ESPN roster,2025
 95,Real Valladolid,422017,Brain Obosso,F,2004-12-17T08:00Z,,ESPN roster,2025
+95,Real Valladolid,3111397,Tomás Fernández Sabatini,F,,,ESPN roster,2025
 95,Real Valladolid,3125552,Hugo Calvo Vadillo,F,,,ESPN roster,2025
 3751,Elche,173749,Matías Dituro,G,1987-05-08T07:00Z,,ESPN roster,2025
 3751,Elche,227192,Miguel San Román,G,1997-07-14T07:00Z,,ESPN roster,2025
@@ -838,7 +839,7 @@
 11121,AD Alcorcón,300266,Lucas Anacker,G,1996-09-22T07:00Z,,ESPN roster,2025
 11121,AD Alcorcón,303886,Jesus Ruiz,G,1997-01-20T08:00Z,,ESPN roster,2025
 11121,AD Alcorcón,121989,Jean-Sylvain Babin,D,1986-10-14T07:00Z,,ESPN roster,2025
-11121,AD Alcorcón,128374,Javier Castro,M,2000-09-13T07:00Z,,ESPN roster,2025
+11121,AD Alcorcón,128374,Javier Castro,D,2000-09-13T07:00Z,,ESPN roster,2025
 11121,AD Alcorcón,132602,Bryan Osorio,D,2004-01-01T08:00Z,,ESPN roster,2025
 11121,AD Alcorcón,187232,Xavier Quintillá,D,1996-08-23T07:00Z,,ESPN roster,2025
 11121,AD Alcorcón,192763,Chema,D,1992-03-03T08:00Z,,ESPN roster,2025
@@ -851,7 +852,7 @@
 11121,AD Alcorcón,131771,Pedro Mosquera,M,1988-04-21T07:00Z,,ESPN roster,2025
 11121,AD Alcorcón,149752,Juan Manuel Bravo,M,1998-02-10T08:00Z,,ESPN roster,2025
 11121,AD Alcorcón,155580,Fede Vico,M,1994-07-04T07:00Z,,ESPN roster,2025
-11121,AD Alcorcón,160264,Israel García,M,2004-01-29T08:00Z,,ESPN roster,2025
+11121,AD Alcorcón,160264,Israel García,F,1999-09-13T07:00Z,,ESPN roster,2025
 11121,AD Alcorcón,174820,Javi Pérez,M,1995-08-14T07:00Z,,ESPN roster,2025
 11121,AD Alcorcón,182653,Javi Lara,M,1985-12-04T08:00Z,,ESPN roster,2025
 11121,AD Alcorcón,242441,Yan Eteki,M,1997-08-26T07:00Z,,ESPN roster,2025
@@ -901,7 +902,7 @@
 3842,Cádiz,195604,David Gil,G,1994-01-11T08:00Z,,ESPN roster,2025
 3842,Cádiz,209578,Jokin Ezkieta,G,1996-08-17T07:00Z,,ESPN roster,2025
 3842,Cádiz,400253,Rubén Domínguez,G,2005-06-08T07:00Z,,ESPN roster,2025
-3842,Cádiz,128374,Javier Castro,M,2000-09-13T07:00Z,,ESPN roster,2025
+3842,Cádiz,128374,Javier Castro,D,2000-09-13T07:00Z,,ESPN roster,2025
 3842,Cádiz,306347,Giorgi Gocholeishvili,D,2001-02-14T08:00Z,,ESPN roster,2025
 3842,Cádiz,319121,Kenan Toubibou,D,2004-12-09T08:00Z,,ESPN roster,2025
 3842,Cádiz,331977,Cristian Gutiérrez,D,2000-11-30T08:00Z,,ESPN roster,2025
@@ -1011,7 +1012,7 @@
 6832,Almería,376425,Quim Junyent,M,2007-03-25T07:00Z,,ESPN roster,2025
 6832,Almería,389437,Stefan Dzodic,M,2005-03-15T08:00Z,,ESPN roster,2025
 6832,Almería,396775,Kassoum Koné,M,1996-12-22T08:00Z,,ESPN roster,2025
-6832,Almería,41549,Ibrahima Koné,F,1999-06-16T07:00Z,,ESPN roster,2025
+6832,Almería,41549,Ibrahim Koné,G,1989-12-05T08:00Z,,ESPN roster,2025
 6832,Almería,175010,Léo Baptistão,F,1992-08-26T07:00Z,,ESPN roster,2025
 6832,Almería,193130,Adri Embarba,F,1992-05-07T07:00Z,,ESPN roster,2025
 6832,Almería,277717,Miguel de la Fuente,F,1999-09-03T07:00Z,,ESPN roster,2025
