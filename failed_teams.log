@@ -19,3 +19,8 @@
 2026-10-23T17:50:46.462313+00:00 | 卡塔爾超級聯賽 | Al Duhail | sources=[('worldfootball', 0), ('football_data_api', 0), ('fbref', 0)] | need_36_explicit_ht
 2026-10-23T17:50:54.952023+00:00 | 卡塔爾超級聯賽 | Al Gharafa | sources=[('fbref', 0), ('football_data_api', 0), ('worldfootball', 0)] | need_36_explicit_ht
 2026-10-23T17:51:25.616033+00:00 | 卡塔爾超級聯賽 | Al Rayyan | sources=[('fbref', 0), ('soccerway', 0), ('worldfootball', 0)] | need_36_explicit_ht
+2026-10-23T18:02:17.124667+00:00 | 英超 | Manchester City | sources=[('fbref', 0), ('soccerway', 0), ('worldfootball', 0)] | need_36_explicit_ht
+2026-10-23T18:02:26.759658+00:00 | 英超 | Arsenal | sources=[('soccerway', 0), ('worldfootball', 0), ('fbref', 0)] | need_36_explicit_ht
+2026-10-23T18:02:33.307929+00:00 | 英超 | Liverpool | sources=[('football_data_api', 0), ('worldfootball', 0), ('soccerway', 0)] | need_36_explicit_ht
+2026-10-23T18:02:41.172240+00:00 | 英超 | Chelsea | sources=[('soccerway', 0), ('worldfootball', 0), ('fbref', 0)] | need_36_explicit_ht
+2026-10-23T18:02:45.281769+00:00 | 英超 | Manchester United | sources=[('fbref', 0), ('worldfootball', 0), ('football_data_api', 0)] | need_36_explicit_ht

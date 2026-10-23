@@ -1,128 +1,128 @@
 {
-  "updated_at": "2026-10-23T17:27:53.200796+00:00",
+  "updated_at": "2026-10-23T18:02:07.466695+00:00",
   "requested": [
     [
-      "卡塔爾超級聯賽",
-      "Al Ahli Doha"
+      "英超",
+      "Manchester City"
     ],
     [
-      "卡塔爾超級聯賽",
-      "Al Arabi"
+      "英超",
+      "Arsenal"
     ],
     [
-      "卡塔爾超級聯賽",
-      "Al Duhail"
+      "英超",
+      "Liverpool"
     ],
     [
-      "卡塔爾超級聯賽",
-      "Al Gharafa"
+      "英超",
+      "Chelsea"
     ],
     [
-      "卡塔爾超級聯賽",
-      "Al Rayyan"
+      "英超",
+      "Manchester United"
     ]
   ],
   "completed": [],
   "failed": [
     {
-      "league": "卡塔爾超級聯賽",
-      "team": "Al Ahli Doha",
+      "league": "英超",
+      "team": "Manchester City",
       "matches": 0,
       "sources": [
-        [
-          "football_data_api",
-          0
-        ],
-        [
-          "soccerway",
-          0
-        ],
-        [
-          "worldfootball",
-          0
-        ]
-      ],
-      "reason": "no_ht_retry"
-    },
-    {
-      "league": "卡塔爾超級聯賽",
-      "team": "Al Arabi",
-      "matches": 0,
-      "sources": [
-        [
-          "football_data_api",
-          0
-        ],
-        [
-          "soccerway",
-          0
-        ],
-        [
-          "api_football",
-          0
-        ]
-      ],
-      "reason": "no_ht_retry"
-    },
-    {
-      "league": "卡塔爾超級聯賽",
-      "team": "Al Duhail",
-      "matches": 0,
-      "sources": [
-        [
-          "soccerway",
-          0
-        ],
-        [
-          "worldfootball",
-          0
-        ],
-        [
-          "football_data_api",
-          0
-        ]
-      ],
-      "reason": "no_ht_retry"
-    },
-    {
-      "league": "卡塔爾超級聯賽",
-      "team": "Al Gharafa",
-      "matches": 0,
-      "sources": [
-        [
-          "soccerway",
-          0
-        ],
-        [
-          "football_data_api",
-          0
-        ],
-        [
-          "api_football",
-          0
-        ]
-      ],
-      "reason": "no_ht_retry"
-    },
-    {
-      "league": "卡塔爾超級聯賽",
-      "team": "Al Rayyan",
-      "matches": 0,
-      "sources": [
-        [
-          "football_data_api",
-          0
-        ],
         [
           "fbref",
           0
         ],
         [
-          "api_football",
+          "soccerway",
+          0
+        ],
+        [
+          "worldfootball",
           0
         ]
       ],
-      "reason": "no_ht_retry"
+      "reason": "need_36_explicit_ht"
+    },
+    {
+      "league": "英超",
+      "team": "Arsenal",
+      "matches": 0,
+      "sources": [
+        [
+          "soccerway",
+          0
+        ],
+        [
+          "worldfootball",
+          0
+        ],
+        [
+          "fbref",
+          0
+        ]
+      ],
+      "reason": "need_36_explicit_ht"
+    },
+    {
+      "league": "英超",
+      "team": "Liverpool",
+      "matches": 0,
+      "sources": [
+        [
+          "football_data_api",
+          0
+        ],
+        [
+          "worldfootball",
+          0
+        ],
+        [
+          "soccerway",
+          0
+        ]
+      ],
+      "reason": "need_36_explicit_ht"
+    },
+    {
+      "league": "英超",
+      "team": "Chelsea",
+      "matches": 0,
+      "sources": [
+        [
+          "soccerway",
+          0
+        ],
+        [
+          "worldfootball",
+          0
+        ],
+        [
+          "fbref",
+          0
+        ]
+      ],
+      "reason": "need_36_explicit_ht"
+    },
+    {
+      "league": "英超",
+      "team": "Manchester United",
+      "matches": 0,
+      "sources": [
+        [
+          "fbref",
+          0
+        ],
+        [
+          "worldfootball",
+          0
+        ],
+        [
+          "football_data_api",
+          0
+        ]
+      ],
+      "reason": "need_36_explicit_ht"
     }
   ],
   "done_in_batch": 0
