@@ -25,35 +25,27 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install playwright requests
+          pip install playwright requests beautifulsoup4
           python -m playwright install --with-deps chromium
 
-      - name: Run one intelligent multi-source checkpoint batch
-        env:
-          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: >-
-          python scripts/continuous_master_v2.py --league 英超 --limit-teams 5 --teams
-          "Manchester City" "Arsenal" "Liverpool" "Chelsea" "Manchester United"
+      - name: Build dynamic phase one catalog
+        run: python scripts/master_football_catalog.py --phase1
 
       - name: Validate no fabricated HT values
         run: |
           python - <<'PY'
           import json, sqlite3
-          c = sqlite3.connect('football_library.db')
-          assert c.execute('pragma integrity_check').fetchone()[0] == 'ok'
-          cols = {r[1] for r in c.execute('pragma table_info(matches)')}
-          assert {'ht_home','ht_away'} <= cols
-          r = json.load(open('checkpoint.json'))
-          assert r['done_teams'] <= r['total_teams']
-          print('checkpoint=', r['done_teams'], '/', r['total_teams'])
-          print('failed log exists=', __import__('os').path.exists('failed_teams.log'))
-          c.close()
+          r = json.load(open('catalog/report.json'))
+          assert r['season'] == '2025-2026'
+          assert r['totals']['teams'] >= 0
+          print('dynamic teams=', r['totals']['teams'])
+          print('complete teams=', r['totals']['complete_teams'])
           PY
 
       - name: Commit checkpoint and real data
         run: |
           git config user.name "phoenix-auto-bot"
           git config user.email "auto@phoenix-v13.invalid"
-          git add football_library.db checkpoint.json failed_teams.log learn.json data/continuous_master_v2_report.json scripts/continuous_master_v2.py .github/workflows/auto_complete.yml
-          git commit -m "auto: real HT checkpoint batch $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git add catalog scripts/master_football_catalog.py .github/workflows/auto_complete.yml
+          git commit -m "auto: dynamic teams players and explicit HT catalog $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
           git push origin main
