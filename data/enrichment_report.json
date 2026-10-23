@@ -1,0 +1,11 @@
+{
+  "updated_at": "2026-10-23T08:49:06.454187+00:00",
+  "requested_fixtures": 10,
+  "scoreboards_ok": 4,
+  "exact_matches": 2,
+  "summaries_ok": 2,
+  "goals_written": 2,
+  "cards_written": 6,
+  "market_values_written": 0,
+  "note": "Only exact ESPN events written; no inferred data."
+}
