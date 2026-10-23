@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T17:22:17.945781+00:00",
+  "updated_at": "2026-10-23T17:27:53.200796+00:00",
   "requested": [
     [
       "卡塔爾超級聯賽",
@@ -34,11 +34,11 @@
           0
         ],
         [
-          "fbref",
+          "soccerway",
           0
         ],
         [
-          "soccerway",
+          "worldfootball",
           0
         ]
       ],
@@ -50,15 +50,15 @@
       "matches": 0,
       "sources": [
         [
+          "football_data_api",
+          0
+        ],
+        [
           "soccerway",
           0
         ],
         [
-          "fbref",
-          0
-        ],
-        [
-          "worldfootball",
+          "api_football",
           0
         ]
       ],
@@ -74,11 +74,11 @@
           0
         ],
         [
-          "fbref",
+          "worldfootball",
           0
         ],
         [
-          "worldfootball",
+          "football_data_api",
           0
         ]
       ],
@@ -90,15 +90,15 @@
       "matches": 0,
       "sources": [
         [
+          "soccerway",
+          0
+        ],
+        [
           "football_data_api",
           0
         ],
         [
-          "fbref",
-          0
-        ],
-        [
-          "worldfootball",
+          "api_football",
           0
         ]
       ],
@@ -110,15 +110,15 @@
       "matches": 0,
       "sources": [
         [
+          "football_data_api",
+          0
+        ],
+        [
           "fbref",
           0
         ],
         [
-          "soccerway",
-          0
-        ],
-        [
-          "worldfootball",
+          "api_football",
           0
         ]
       ],
