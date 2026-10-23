@@ -29,7 +29,11 @@ jobs:
           python -m playwright install --with-deps chromium
 
       - name: Run one intelligent multi-source checkpoint batch
-        run: python scripts/continuous_master_v2.py --limit-teams 5
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: >-
+          python scripts/continuous_master_v2.py --league 英超 --limit-teams 5 --teams
+          "Manchester City" "Arsenal" "Liverpool" "Chelsea" "Manchester United"
 
       - name: Validate no fabricated HT values
         run: |
