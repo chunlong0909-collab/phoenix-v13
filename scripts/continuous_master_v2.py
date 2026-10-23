@@ -131,7 +131,9 @@ def source_football_data(league,team):
 
 ADAPTERS={'soccerway':source_soccerway,'worldfootball':source_worldfootball,'fbref':source_fbref,'football_data_api':source_football_data}
 
-def targets(limit,league=None):
+def targets(limit,league=None,team_names=None):
+    if team_names:
+        return [(league or '英超',x) for x in team_names[:limit]]
     a=load_json(AUDIT,{}); out=[]
     order=EASY+HARD
     leagues=list(a.get('leagues',{}))
@@ -151,8 +153,8 @@ def save_rows(conn,rows):
     conn.commit()
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--limit-teams',type=int,default=5); ap.add_argument('--league'); args=ap.parse_args()
-    learn=load_json(LEARN,{}); fail=load_json(CHECKPOINT,{}); ts=targets(args.limit_teams,args.league); report={'updated_at':now(),'requested':ts,'completed':[],'failed':[]}
+    ap=argparse.ArgumentParser(); ap.add_argument('--limit-teams',type=int,default=5); ap.add_argument('--league'); ap.add_argument('--teams',nargs='*'); args=ap.parse_args()
+    learn=load_json(LEARN,{}); fail=load_json(CHECKPOINT,{}); ts=targets(args.limit_teams,args.league,args.teams); report={'updated_at':now(),'requested':ts,'completed':[],'failed':[]}
     c=sqlite3.connect(DB,timeout=30); c.execute('pragma busy_timeout=30000')
     for lg,team in ts:
         preferred=learn.get(team,{}).get('source'); pool=SOURCE_NAMES[:]; random.shuffle(pool)
@@ -161,12 +163,13 @@ def main():
         for s in pool:
             rows=ADAPTERS[s](lg,team); used.append((s,len(rows))); print(f'{lg} | {team} | source={s} | explicit_HT={len(rows)}',flush=True)
             for r in rows: merged[(r['date'],r['home'],r['away'])]=r
-            if len(merged)>=20:break
+            if len(merged)>=36:break
         rows=list(merged.values())
         if len(rows)>=36:
             save_rows(c,rows[:36]); learn[team]={'source':next((s for s,n in used if n),'multi'),'matches':len(rows[:36]),'updated_at':now()}; report['completed'].append({'league':lg,'team':team,'matches':len(rows[:36]),'sources':used})
         else:
-            FAILED.open('a',encoding='utf-8').write(f'{now()} | {lg} | {team} | sources={used} | need_36_explicit_ht\n'); report['failed'].append({'league':lg,'team':team,'matches':len(rows),'sources':used,'reason':'need_36_explicit_ht'})
+            reason='need_football_data_paid' if '卡塔爾' in lg else 'need_36_explicit_ht'
+            FAILED.open('a',encoding='utf-8').write(f'{now()} | {lg} | {team} | sources={used} | {reason}\n'); report['failed'].append({'league':lg,'team':team,'matches':len(rows),'sources':used,'reason':reason})
     c.close(); LEARN.write_text(json.dumps(learn,ensure_ascii=False,indent=2)+'\n'); report['done_in_batch']=len(report['completed']); print(json.dumps(report,ensure_ascii=False,indent=2))
     old=load_json(CHECKPOINT,{}); done=int(old.get('done_teams',0))+len(report['completed']); CHECKPOINT.write_text(json.dumps({'updated_at':now(),'done_teams':done,'total_teams':int(old.get('total_teams',865)),'last_batch':report,'status':'incomplete'},ensure_ascii=False,indent=2)+'\n'); (ROOT/'data'/'continuous_master_v2_report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 if __name__=='__main__':main()
