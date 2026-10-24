@@ -65,7 +65,7 @@ def load_matches():
     return data, teams, team_names, matches_by_league, bad_ft
 
 
-def poisson_probs(lam_h, lam_a):
+def poisson_probs(lam_h, lam_a, rho=0.0):
     def p(k, lam): return math.exp(-lam) * (lam ** k) / math.factorial(k)
     ph = [p(k, lam_h) for k in range(10)]
     pa = [p(k, lam_a) for k in range(10)]
@@ -73,7 +73,12 @@ def poisson_probs(lam_h, lam_a):
     home = draw = away = over = 0.0
     for i, x in enumerate(ph):
         for j, y in enumerate(pa):
-            q = x*y
+            tau = 1.0
+            if i == 0 and j == 0: tau = 1 - lam_h * lam_a * rho
+            elif i == 1 and j == 0: tau = 1 + lam_a * rho
+            elif i == 0 and j == 1: tau = 1 + lam_h * rho
+            elif i == 1 and j == 1: tau = 1 - rho
+            q = x*y*tau
             if i > j: home += q
             elif i == j: draw += q
             else: away += q
@@ -82,6 +87,40 @@ def poisson_probs(lam_h, lam_a):
     hda = [home/total, draw/total, away/total]
     ou = [1-over/total, over/total]
     return hda, ou
+
+
+def match_lambdas(m, model):
+    sh = model['stats'].get(m['home']); sa = model['stats'].get(m['away'])
+    ah = (sh['gf']/sh['n']/model['home_avg']) if sh and sh['n'] else 1.0
+    da = (sh['ga']/sh['n']/model['away_avg']) if sh and sh['n'] else 1.0
+    aa = (sa['gf']/sa['n']/model['away_avg']) if sa and sa['n'] else 1.0
+    dh = (sa['ga']/sa['n']/model['home_avg']) if sa and sa['n'] else 1.0
+    return max(0.05, model['home_avg'] * ah * dh), max(0.05, model['away_avg'] * aa * da)
+
+
+def fit_rho(ms, model):
+    # Estimate rho only from observed training FT; no HT or score imputation.
+    best_rho, best_ll = 0.0, float('-inf')
+    for step in range(-100, 101):
+        rho = step / 200.0
+        ll = 0.0
+        for m in ms:
+            lh, la = match_lambdas(m, model)
+            def pmf(k, lam): return math.exp(-lam) * (lam ** k) / math.factorial(k)
+            norm = 0.0; target = 0.0
+            for i in range(10):
+                for j in range(10):
+                    tau = 1.0
+                    if i == 0 and j == 0: tau = 1 - lh * la * rho
+                    elif i == 1 and j == 0: tau = 1 + la * rho
+                    elif i == 0 and j == 1: tau = 1 + lh * rho
+                    elif i == 1 and j == 1: tau = 1 - rho
+                    q = pmf(i, lh) * pmf(j, la) * tau
+                    norm += q
+                    if i == m['ft_home'] and j == m['ft_away']: target = q
+            if target > 0 and norm > 0: ll += math.log(target / norm)
+        if ll > best_ll: best_rho, best_ll = rho, ll
+    return best_rho
 
 
 def fit_models(train_matches):
@@ -99,7 +138,9 @@ def fit_models(train_matches):
         for m in ms:
             stats[m['home']]['gf'] += m['ft_home']; stats[m['home']]['ga'] += m['ft_away']; stats[m['home']]['n'] += 1
             stats[m['away']]['gf'] += m['ft_away']; stats[m['away']]['ga'] += m['ft_home']; stats[m['away']]['n'] += 1
-        by_league[league] = {'matches': len(ms), 'home_avg': home_avg, 'away_avg': away_avg, 'stats': dict(stats)}
+        model = {'matches': len(ms), 'home_avg': home_avg, 'away_avg': away_avg, 'stats': dict(stats)}
+        model['rho'] = fit_rho(ms, model)
+        by_league[league] = model
     return by_league, global_home, global_away
 
 
@@ -108,16 +149,8 @@ def evaluate(ms, model):
     class_total = defaultdict(int); class_correct = defaultdict(int)
     total = len(ms)
     for m in ms:
-        sh = model['stats'].get(m['home']); sa = model['stats'].get(m['away'])
-        # For teams without training rows, use neutral league rates and explicitly
-        # count the match as fallback rather than pretending it had team history.
-        ah = (sh['gf']/sh['n']/model['home_avg']) if sh and sh['n'] else 1.0
-        da = (sh['ga']/sh['n']/model['away_avg']) if sh and sh['n'] else 1.0
-        aa = (sa['gf']/sa['n']/model['away_avg']) if sa and sa['n'] else 1.0
-        dh = (sa['ga']/sa['n']/model['home_avg']) if sa and sa['n'] else 1.0
-        lam_h = max(0.05, model['home_avg'] * ah * dh)
-        lam_a = max(0.05, model['away_avg'] * aa * da)
-        hda, ou = poisson_probs(lam_h, lam_a)
+        lam_h, lam_a = match_lambdas(m, model)
+        hda, ou = poisson_probs(lam_h, lam_a, model.get('rho', 0.0))
         pred_hda = max(range(3), key=lambda i: hda[i])
         actual_hda = 0 if m['ft_home'] > m['ft_away'] else 1 if m['ft_home'] == m['ft_away'] else 2
         actual_ou = 1 if m['ft_home'] + m['ft_away'] > 2.5 else 0
@@ -148,7 +181,7 @@ def main():
         if league in models:
             ev = evaluate(te, models[league])
             status = '樣本不足' if len(te) < MIN_SAMPLE else '可評估'
-            ev.update({'status': status, 'train_matches': len(tr), 'test_period': '2023-08-01..2024-07-31'})
+            ev.update({'status': status, 'train_matches': len(tr), 'rho': models[league].get('rho'), 'test_period': '2023-08-01..2024-07-31'})
         else:
             ev = {'status':'樣本不足', 'sample_size':len(te), 'train_matches':len(tr), 'accuracy':None, 'over25_accuracy':None,
                   'precision':{'home':None,'draw':None,'away':None}, 'class_samples':{}, 'test_period':'2023-08-01..2024-07-31',
@@ -174,10 +207,10 @@ def main():
         else:
             group_reports[group]={'sample_size':0,'accuracy':None,'over25_accuracy':None,'precision':{'home':None,'draw':None,'away':None},'status':'樣本不足','leagues_included':[],'note':'沒有合資格訓練資料'}
     catalog_match_rows = sum(len(t.get('matches', [])) for v in data.values() if isinstance(v, dict) for t in v.get('teams', []))
-    report={'method':'Poisson independent goals; real FT only; no HT imputation','train_cutoff_exclusive':str(TRAIN_CUTOFF),'test_period':'2023-08-01..2024-07-31','min_sample_for_full_status':MIN_SAMPLE,
+    report={'method':'Dixon-Coles low-score calibrated Poisson; rho fitted on training FT; real FT only; no HT imputation','train_cutoff_exclusive':str(TRAIN_CUTOFF),'test_period':'2023-08-01..2024-07-31','min_sample_for_full_status':MIN_SAMPLE,
             'catalog_total_teams':teams,'catalog_match_rows':catalog_match_rows,'unique_ft_matches':sum(len(x) for x in all_by_league.values()),'ft_invalid_rows':bad_ft,
-            'train_matches_total':sum(map(len,train.values())),'test_matches_total':sum(map(len,test.values())),'league_reports':league_reports,'group_reports':group_reports,
-            'data_quality_note':'Catalog目前多數聯賽沒有2023-08-01前訓練FT；這些組別accuracy/precision保留null並標記樣本不足。'}
+            'train_matches_total':sum(map(len,train.values())),'test_matches_total':sum(map(len,test.values())),'rho_by_league':{k:v.get('rho') for k,v in models.items()},'league_reports':league_reports,'group_reports':group_reports,
+            'data_quality_note':'Dixon-Coles rho只由訓練期真實FT估計；HT全程保持null且不作估算。訓練期沒有足夠FT的聯賽，其accuracy/precision保留null並標記樣本不足。'}
     REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'TOTAL_TEAMS':teams,'UNIQUE_FT_MATCHES':report['unique_ft_matches'],'TRAIN':report['train_matches_total'],'TEST':report['test_matches_total'],'GROUPS':group_reports},ensure_ascii=False,indent=2))
 
