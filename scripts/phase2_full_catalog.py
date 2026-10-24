@@ -20,7 +20,7 @@ BATCHES={1:('英超','PL',20),2:('西甲','PD',20),3:('意甲','SA',20),4:('德�
 S=requests.Session()
 
 def now(): return datetime.now(timezone.utc).isoformat()
-def pause(): time.sleep(2+random.random()*1.5)
+def pause(): time.sleep(15+random.random()*2)
 def get(path, token, params=None):
     for attempt in range(4):
         pause(); r=S.get(BASE+path, headers={'X-Auth-Token':token,'User-Agent':random.choice(UA),'Accept':'application/json'}, params=params, timeout=60)
