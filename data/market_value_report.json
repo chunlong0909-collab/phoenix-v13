@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T09:17:07.246617+00:00",
+  "updated_at": "2026-10-24T20:23:50.208406+00:00",
   "season": "2025-2026",
   "source": "Transfermarkt visible HTML via normal Playwright",
   "written": 0,
@@ -9,9 +9,65 @@
     {
       "competition": "GB1",
       "url": "https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1",
-      "status": 405,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "ES1",
+      "url": "https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "L1",
+      "url": "https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "NL1",
+      "url": "https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "JAP1",
+      "url": "https://www.transfermarkt.com/j1-league/startseite/wettbewerb/JAP1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "KR1",
+      "url": "https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/KR1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "AUS1",
+      "url": "https://www.transfermarkt.com/a-league-men/startseite/wettbewerb/AUS1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "BRA1",
+      "url": "https://www.transfermarkt.com/campeonato-brasileiro-serie-a/startseite/wettbewerb/BRA1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
+    },
+    {
+      "competition": "ARG1",
+      "url": "https://www.transfermarkt.com/liga-profesional-de-futbol/startseite/wettbewerb/ARG1",
+      "status": 202,
+      "values": {},
+      "reason": "blocked_or_challenge"
     }
   ],
   "policy": "CAPTCHA/blocked/no-value pages remain unfilled; no inferred zeros or estimates"
