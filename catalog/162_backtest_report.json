@@ -4,31 +4,32 @@
   "test_period": "2023-08-01..2024-07-31",
   "min_sample_for_full_status": 100,
   "catalog_total_teams": 162,
-  "catalog_match_rows": 6978,
-  "unique_ft_matches": 3800,
+  "catalog_match_rows": 12079,
+  "unique_ft_matches": 8901,
   "ft_invalid_rows": 0,
-  "train_matches_total": 168,
+  "train_matches_total": 5269,
   "test_matches_total": 1156,
   "league_reports": {
     "英超": {
-      "status": "樣本不足",
       "sample_size": 10,
-      "train_matches": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "accuracy": 0.3,
+      "over25_accuracy": 0.4,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.3333333333333333,
+        "draw": 0.0,
+        "away": 0.6666666666666666
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "away": 3,
+        "home": 3,
+        "draw": 4
+      },
+      "status": "樣本不足",
+      "train_matches": 746,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "西甲": {
-      "status": "樣本不足",
       "sample_size": 0,
-      "train_matches": 0,
       "accuracy": null,
       "over25_accuracy": null,
       "precision": {
@@ -36,14 +37,17 @@
         "draw": null,
         "away": null
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+      },
+      "status": "樣本不足",
+      "train_matches": 752,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "意甲": {
-      "status": "樣本不足",
       "sample_size": 0,
-      "train_matches": 0,
       "accuracy": null,
       "over25_accuracy": null,
       "precision": {
@@ -51,39 +55,50 @@
         "draw": null,
         "away": null
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+      },
+      "status": "樣本不足",
+      "train_matches": 720,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "德甲": {
-      "status": "樣本不足",
       "sample_size": 14,
-      "train_matches": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "accuracy": 0.42857142857142855,
+      "over25_accuracy": 0.2857142857142857,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.5,
+        "draw": 0.0,
+        "away": 1.0
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "home": 4,
+        "draw": 6,
+        "away": 4
+      },
+      "status": "樣本不足",
+      "train_matches": 594,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "法甲": {
-      "status": "樣本不足",
       "sample_size": 82,
-      "train_matches": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "accuracy": 0.5,
+      "over25_accuracy": 0.5487804878048781,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.6071428571428571,
+        "draw": 0.0,
+        "away": 0.7058823529411765
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "home": 28,
+        "away": 34,
+        "draw": 20
+      },
+      "status": "樣本不足",
+      "train_matches": 742,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "J1聯賽": {
       "status": "樣本不足",
@@ -101,58 +116,67 @@
       "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
     },
     "葡超": {
-      "status": "樣本不足",
       "sample_size": 135,
-      "train_matches": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "accuracy": 0.6148148148148148,
+      "over25_accuracy": 0.5703703703703704,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.6909090909090909,
+        "draw": 0.03333333333333333,
+        "away": 0.88
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "away": 50,
+        "home": 55,
+        "draw": 30
+      },
+      "status": "可評估",
+      "train_matches": 432,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "荷甲": {
-      "status": "樣本不足",
       "sample_size": 86,
-      "train_matches": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "accuracy": 0.5581395348837209,
+      "over25_accuracy": 0.7325581395348837,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.6756756756756757,
+        "draw": 0.0,
+        "away": 0.92
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "home": 37,
+        "draw": 24,
+        "away": 25
+      },
+      "status": "樣本不足",
+      "train_matches": 348,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "土超": {
-      "status": "樣本不足",
       "sample_size": 198,
-      "train_matches": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "accuracy": 0.6060606060606061,
+      "over25_accuracy": 0.5454545454545454,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.7311827956989247,
+        "draw": 0.0,
+        "away": 0.7536231884057971
       },
-      "class_samples": {},
-      "test_period": "2023-08-01..2024-07-31",
-      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+      "class_samples": {
+        "draw": 36,
+        "home": 93,
+        "away": 69
+      },
+      "status": "可評估",
+      "train_matches": 384,
+      "test_period": "2023-08-01..2024-07-31"
     },
     "比甲": {
       "sample_size": 186,
-      "accuracy": 0.43010752688172044,
-      "over25_accuracy": 0.4838709677419355,
+      "accuracy": 0.521505376344086,
+      "over25_accuracy": 0.5645161290322581,
       "precision": {
-        "home": 0.55,
-        "draw": 0.0851063829787234,
-        "away": 0.5423728813559322
+        "home": 0.6375,
+        "draw": 0.0,
+        "away": 0.7796610169491526
       },
       "class_samples": {
         "away": 59,
@@ -160,7 +184,7 @@
         "draw": 47
       },
       "status": "可評估",
-      "train_matches": 5,
+      "train_matches": 388,
       "test_period": "2023-08-01..2024-07-31"
     },
     "巴甲": {
@@ -184,39 +208,47 @@
   },
   "group_reports": {
     "舊有134隊": {
-      "sample_size": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "sample_size": 327,
+      "accuracy": 0.5535168195718655,
+      "over25_accuracy": 0.5902140672782875,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.6535433070866141,
+        "draw": 0.011904761904761904,
+        "away": 0.8362068965517241
       },
-      "status": "樣本不足",
-      "leagues_included": [],
-      "note": "沒有合資格訓練資料"
+      "status": "可評估",
+      "leagues_included": [
+        "西甲",
+        "英超",
+        "法甲",
+        "意甲",
+        "德甲",
+        "荷甲",
+        "葡超"
+      ]
     },
     "新增土超6隊": {
-      "sample_size": 0,
-      "accuracy": null,
-      "over25_accuracy": null,
+      "sample_size": 198,
+      "accuracy": 0.6060606060606061,
+      "over25_accuracy": 0.5454545454545454,
       "precision": {
-        "home": null,
-        "draw": null,
-        "away": null
+        "home": 0.7311827956989247,
+        "draw": 0.0,
+        "away": 0.7536231884057971
       },
-      "status": "樣本不足",
-      "leagues_included": [],
-      "note": "沒有合資格訓練資料"
+      "status": "可評估",
+      "leagues_included": [
+        "土超"
+      ]
     },
     "新增比甲6隊": {
       "sample_size": 186,
-      "accuracy": 0.43010752688172044,
-      "over25_accuracy": 0.4838709677419355,
+      "accuracy": 0.521505376344086,
+      "over25_accuracy": 0.5645161290322581,
       "precision": {
-        "home": 0.55,
-        "draw": 0.0851063829787234,
-        "away": 0.5423728813559322
+        "home": 0.6375,
+        "draw": 0.0,
+        "away": 0.7796610169491526
       },
       "status": "可評估",
       "leagues_included": [

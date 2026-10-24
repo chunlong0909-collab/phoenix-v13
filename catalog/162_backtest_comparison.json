@@ -1,0 +1,21 @@
+{
+  "baseline_report": "catalog/162_backtest_report.json before 2021-2023 FT augmentation",
+  "augmented_period": "2021-08-01..2023-07-31",
+  "policy": "real FT only; HT remains null; no score imputation",
+  "train_matches": {"before": 168, "after": 5269, "delta": 5101},
+  "groups": {
+    "新增比甲6隊": {
+      "accuracy": {"before": 0.43010752688172044, "after": 0.521505376344086, "delta": 0.0913978494623656},
+      "over25_accuracy": {"before": 0.4838709677419355, "after": 0.5645161290322581, "delta": 0.08064516129032256},
+      "draw_precision": {"before": 0.0851063829787234, "after": 0.0, "delta": -0.0851063829787234},
+      "sample_size": {"before": 186, "after": 186}
+    },
+    "新增巴甲16隊": {
+      "accuracy": {"before": 0.4, "after": 0.4, "delta": 0.0},
+      "over25_accuracy": {"before": 0.5121951219512195, "after": 0.5121951219512195, "delta": 0.0},
+      "draw_precision": {"before": 0.0, "after": 0.0, "delta": 0.0},
+      "sample_size": {"before": 205, "after": 205}
+    }
+  },
+  "conclusion": "Historical FT materially improves training volume and Belgian accuracy, but this current winner-takes-max Poisson decision rule does not improve draw precision; draw calibration/model changes are still required."
+}
