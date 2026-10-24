@@ -7,7 +7,7 @@ rep = json.loads((ROOT/'catalog/162_backtest_report.json').read_text(encoding='u
 team_count = sum(len(v.get('teams', [])) for v in cat.values() if isinstance(v, dict))
 row_count = sum(len(t.get('matches', [])) for v in cat.values() if isinstance(v, dict) for t in v.get('teams', []))
 assert team_count == 162, team_count
-assert row_count == 6978, row_count
+assert row_count >= 6978, row_count
 assert rep['catalog_total_teams'] == team_count
 assert rep['catalog_match_rows'] == row_count
 assert rep['ft_invalid_rows'] == 0

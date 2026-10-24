@@ -161,7 +161,7 @@ def main():
         eligible = []
         for lg in leagues:
             if lg in models: eligible.extend(test.get(lg, []))
-        parts = [evaluate(test[lg], models[lg]) for lg in leagues if lg in models]
+        parts = [evaluate(test[lg], models[lg]) for lg in leagues if lg in models and test.get(lg)]
         n = sum(x['sample_size'] for x in parts)
         if n:
             correct = sum(x['accuracy']*x['sample_size'] for x in parts)
