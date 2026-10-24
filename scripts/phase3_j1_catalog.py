@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Phase 3 Tier 1: append 20 J1 teams to the existing Phase 2 catalog.
-Only accepts explicit FT and HT from football-data.org. Missing HT is skipped;
+Uses football-data.org when available, then FBref Schedule and WorldFootball.
+Only accepts explicit FT and HT. Missing HT is skipped;
 no score is inferred and an incomplete team never fails the whole batch.
 """
 from __future__ import annotations
@@ -34,7 +35,7 @@ J1 = {
     "Albirex Niigata", "Avispa Fukuoka", "Kashiwa Reysol", "Consadole Sapporo",
     "Tokyo Verdy", "Machida Zelvia", "Jubilo Iwata",
 }
-FBREF_J1_2024 = "https://fbref.com/en/comps/25/2024/2024-J1-League-Stats"
+FBREF_J1_2024 = "https://fbref.com/en/comps/25/2024/schedule/2024-J1-League-Scores-and-Fixtures"
 WORLDFOOTBALL_J1 = "https://www.worldfootball.net/competition/co48/japan-j1-league/"
 
 S = requests.Session()
@@ -159,7 +160,9 @@ def fbref_j1_matches():
         raise RuntimeError("FBref returned a challenge or empty page")
     soup = _visible_soup(response.text)
     rows = []
-    for tr in soup.select("tr"):
+    schedule = soup.select_one("table#sched_2024_25_1") or soup.select_one("table.stats_table")
+    row_nodes = schedule.select("tr") if schedule else soup.select("tr")
+    for tr in row_nodes:
         cells = {node.get("data-stat"): node.get_text(" ", strip=True) for node in tr.select("[data-stat]")}
         home, away, score = cells.get("home_team"), cells.get("away_team"), cells.get("score")
         link = tr.select_one('a[href*="/en/matches/"]')
@@ -172,6 +175,7 @@ def fbref_j1_matches():
         rows.append({"match_id": urljoin("https://fbref.com", link.get("href")), "date": date,
                      "home": home, "away": away, "ft_home": int(ft.group(1)), "ft_away": int(ft.group(2)),
                      "match_url": urljoin("https://fbref.com", link.get("href"))})
+    print(f"FBref fetched {len(rows)} rows, sample: {rows[:2]}", flush=True)
     if not rows:
         raise RuntimeError("FBref J1 schedule contained no parseable fixture rows")
     output, seen = [], set()
