@@ -23,9 +23,10 @@ UA_LIST=['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/5
 PHASE1={'英超':5,'澳職':3,'卡塔爾':5}
 BATCHES={
     2:{'英冠':10,'西甲':10,'德甲':10,'意甲':10,'法甲':10},
+    3:{'巴甲':10,'英超':10,'意甲':10,'西甲':13,'德甲':10,'法甲':10},
 }
 # These are search hints only; teams are always discovered from the response.
-FD_HINTS={'英超':['PL','Premier League'],'西甲':['PD','Primera Division'],'德甲':['BL1','Bundesliga'],'意甲':['SA','Serie A'],'法甲':['FL1','Ligue 1'],'澳職':['APL','A-League','AUS'],'卡塔爾':['QSL','Qatar'],'沙職':['SPL','Saudi']}
+FD_HINTS={'英超':['PL','Premier League'],'西甲':['PD','Primera Division'],'德甲':['BL1','Bundesliga'],'意甲':['SA','Serie A'],'巴甲':['BSA','Brasileirao','Brazil'],'法甲':['FL1','Ligue 1'],'澳職':['APL','A-League','AUS'],'卡塔爾':['QSL','Qatar'],'沙職':['SPL','Saudi']}
 WORLD_URLS={
     '澳職':'https://www.worldfootball.net/competition/co6/australia-a-league/se103328/2025-2026/results-and-standings/',
     '卡塔爾':'https://www.worldfootball.net/competition/co833/qatar-stars-league/se97176/2025-2026/results-and-standings/',
@@ -46,6 +47,11 @@ def competitions(token):
 
 def find_code(league, comps):
     hints=FD_HINTS.get(league,[])
+    # Prefer an exact competition code; substring matching would mistake
+    # Brazil's BSA for Italy's SA.
+    codes={h for h in hints if re.fullmatch(r'[A-Z0-9]{2,5}',h)}
+    for c in comps:
+        if c.get('code') in codes: return c.get('code')
     for c in comps:
         text=f"{c.get('code','')} {c.get('name','')} {c.get('area',{}).get('name','')}".lower()
         if any(h.lower() in text for h in hints): return c.get('code')
