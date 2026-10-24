@@ -33,10 +33,10 @@ jobs:
           pip install requests beautifulsoup4 playwright
           playwright install --with-deps chromium
 
-      - name: Build Plan B phase one catalog
+      - name: Build Plan B real cross-season catalog
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: python scripts/plan_b_catalog.py --batch "${{ inputs.batch || '2' }}"
+        run: python scripts/plan_b_catalog.py --batch "${{ inputs.batch || '2' }}" --mode real
 
       - name: Validate Plan B produced real teams and explicit HT
         run: |
@@ -44,6 +44,7 @@ jobs:
           import json, sqlite3
           r = json.load(open('catalog/report.json'))
           assert r['season'] == '2025-2026 + 2024-2025'
+          assert r['mode'] == 'real'
           assert r['source_policy'].startswith('football-data.org')
           assert r['totals']['complete_teams'] >= 40, r['totals']
           assert r['totals']['incomplete_teams'] == r['totals']['teams'] - r['totals']['complete_teams']
@@ -58,6 +59,16 @@ jobs:
         run: |
           BATCH="${{ inputs.batch || '2' }}"
           zip -qr "phoenix_TRUE_FINAL_v${BATCH}.zip" catalog
+
+      - name: Upload verified ZIP and failure list
+        uses: actions/upload-artifact@v4
+        with:
+          name: phoenix_TRUE_FINAL_v${{ inputs.batch || '2' }}
+          path: |
+            phoenix_TRUE_FINAL_v${{ inputs.batch || '2' }}.zip
+            catalog/fail_list.txt
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Commit checkpoint and real data
         run: |
