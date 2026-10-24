@@ -1,0 +1,572 @@
+{
+  "method": "Dixon-Coles low-score calibrated Poisson; rho fitted on training FT; real FT only; no HT imputation",
+  "train_cutoff_exclusive": "2023-08-01",
+  "test_period": "2023-08-01..2024-07-31",
+  "min_sample_for_full_status": 100,
+  "catalog_total_teams": 367,
+  "catalog_match_rows": 36810,
+  "unique_ft_matches": 23668,
+  "ft_invalid_rows": 0,
+  "train_matches_total": 12996,
+  "test_matches_total": 4892,
+  "rho_by_league": {
+    "英超": 0.04,
+    "西甲": 0.035,
+    "意甲": -0.02,
+    "德甲": -0.495,
+    "法甲": -0.055,
+    "葡超": 0.125,
+    "荷甲": -0.465,
+    "土超": -0.495,
+    "比甲": -0.465,
+    "巴甲": -0.445,
+    "奧甲": -0.135,
+    "瑞士超": -0.5,
+    "挪超": 0.48,
+    "瑞典超": -0.04,
+    "丹超": -0.075,
+    "希超": -0.1,
+    "英冠": 0.01,
+    "英甲": -0.015,
+    "德乙": -0.065
+  },
+  "league_reports": {
+    "英超": {
+      "sample_size": 10,
+      "accuracy": 0.3,
+      "over25_accuracy": 0.4,
+      "precision": {
+        "home": 0.3333333333333333,
+        "draw": 0.0,
+        "away": 0.6666666666666666
+      },
+      "class_samples": {
+        "away": 3,
+        "home": 3,
+        "draw": 4
+      },
+      "status": "樣本不足",
+      "train_matches": 746,
+      "rho": 0.04,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "西甲": {
+      "sample_size": 0,
+      "accuracy": null,
+      "over25_accuracy": null,
+      "precision": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "class_samples": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+      },
+      "status": "樣本不足",
+      "train_matches": 752,
+      "rho": 0.035,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "意甲": {
+      "sample_size": 0,
+      "accuracy": null,
+      "over25_accuracy": null,
+      "precision": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "class_samples": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+      },
+      "status": "樣本不足",
+      "train_matches": 720,
+      "rho": -0.02,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "德甲": {
+      "sample_size": 14,
+      "accuracy": 0.2857142857142857,
+      "over25_accuracy": 0.2857142857142857,
+      "precision": {
+        "home": 0.25,
+        "draw": 0.0,
+        "away": 0.75
+      },
+      "class_samples": {
+        "home": 4,
+        "draw": 6,
+        "away": 4
+      },
+      "status": "樣本不足",
+      "train_matches": 594,
+      "rho": -0.495,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "法甲": {
+      "sample_size": 82,
+      "accuracy": 0.5,
+      "over25_accuracy": 0.5487804878048781,
+      "precision": {
+        "home": 0.6071428571428571,
+        "draw": 0.0,
+        "away": 0.7058823529411765
+      },
+      "class_samples": {
+        "home": 28,
+        "away": 34,
+        "draw": 20
+      },
+      "status": "樣本不足",
+      "train_matches": 742,
+      "rho": -0.055,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "J1聯賽": {
+      "status": "樣本不足",
+      "sample_size": 240,
+      "train_matches": 0,
+      "accuracy": null,
+      "over25_accuracy": null,
+      "precision": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "class_samples": {},
+      "test_period": "2023-08-01..2024-07-31",
+      "note": "2023-08-01前沒有可用FT訓練賽事，未進行無依據預測"
+    },
+    "葡超": {
+      "sample_size": 351,
+      "accuracy": 0.5669515669515669,
+      "over25_accuracy": 0.5698005698005698,
+      "precision": {
+        "home": 0.6346153846153846,
+        "draw": 0.0,
+        "away": 0.8620689655172413
+      },
+      "class_samples": {
+        "away": 116,
+        "home": 156,
+        "draw": 79
+      },
+      "status": "可評估",
+      "train_matches": 864,
+      "rho": 0.125,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "荷甲": {
+      "sample_size": 320,
+      "accuracy": 0.503125,
+      "over25_accuracy": 0.609375,
+      "precision": {
+        "home": 0.5333333333333333,
+        "draw": 0.13414634146341464,
+        "away": 0.7572815533980582
+      },
+      "class_samples": {
+        "home": 135,
+        "draw": 82,
+        "away": 103
+      },
+      "status": "可評估",
+      "train_matches": 858,
+      "rho": -0.465,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "土超": {
+      "sample_size": 522,
+      "accuracy": 0.46934865900383144,
+      "over25_accuracy": 0.5727969348659003,
+      "precision": {
+        "home": 0.5041666666666667,
+        "draw": 0.14285714285714285,
+        "away": 0.6794871794871795
+      },
+      "class_samples": {
+        "draw": 126,
+        "home": 240,
+        "away": 156
+      },
+      "status": "可評估",
+      "train_matches": 1022,
+      "rho": -0.495,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "比甲": {
+      "sample_size": 456,
+      "accuracy": 0.5109649122807017,
+      "over25_accuracy": 0.5482456140350878,
+      "precision": {
+        "home": 0.5204081632653061,
+        "draw": 0.1864406779661017,
+        "away": 0.7676056338028169
+      },
+      "class_samples": {
+        "away": 142,
+        "home": 196,
+        "draw": 118
+      },
+      "status": "可評估",
+      "train_matches": 879,
+      "rho": -0.465,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "巴甲": {
+      "sample_size": 205,
+      "accuracy": 0.3463414634146341,
+      "over25_accuracy": 0.5121951219512195,
+      "precision": {
+        "home": 0.25510204081632654,
+        "draw": 0.2549019607843137,
+        "away": 0.5892857142857143
+      },
+      "class_samples": {
+        "home": 98,
+        "draw": 51,
+        "away": 56
+      },
+      "status": "可評估",
+      "train_matches": 163,
+      "rho": -0.445,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "奧甲": {
+      "sample_size": 189,
+      "accuracy": 0.47619047619047616,
+      "over25_accuracy": 0.5026455026455027,
+      "precision": {
+        "home": 0.6285714285714286,
+        "draw": 0.0,
+        "away": 0.7419354838709677
+      },
+      "class_samples": {
+        "home": 70,
+        "away": 62,
+        "draw": 57
+      },
+      "status": "可評估",
+      "train_matches": 392,
+      "rho": -0.135,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "瑞士超": {
+      "sample_size": 227,
+      "accuracy": 0.4185022026431718,
+      "over25_accuracy": 0.5418502202643172,
+      "precision": {
+        "home": 0.4,
+        "draw": 0.15384615384615385,
+        "away": 0.6615384615384615
+      },
+      "class_samples": {
+        "home": 110,
+        "away": 65,
+        "draw": 52
+      },
+      "status": "可評估",
+      "train_matches": 375,
+      "rho": -0.5,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "挪超": {
+      "sample_size": 240,
+      "accuracy": 0.45,
+      "over25_accuracy": 0.5666666666666667,
+      "precision": {
+        "home": 0.39805825242718446,
+        "draw": 0.0,
+        "away": 0.8170731707317073
+      },
+      "class_samples": {
+        "home": 103,
+        "away": 82,
+        "draw": 55
+      },
+      "status": "可評估",
+      "train_matches": 611,
+      "rho": 0.48,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "瑞典超": {
+      "sample_size": 232,
+      "accuracy": 0.4396551724137931,
+      "over25_accuracy": 0.5431034482758621,
+      "precision": {
+        "home": 0.4051724137931034,
+        "draw": 0.0,
+        "away": 0.6875
+      },
+      "class_samples": {
+        "draw": 36,
+        "home": 116,
+        "away": 80
+      },
+      "status": "可評估",
+      "train_matches": 610,
+      "rho": -0.04,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "丹超": {
+      "sample_size": 189,
+      "accuracy": 0.4656084656084656,
+      "over25_accuracy": 0.5714285714285714,
+      "precision": {
+        "home": 0.5714285714285714,
+        "draw": 0.0,
+        "away": 0.6984126984126984
+      },
+      "class_samples": {
+        "home": 77,
+        "away": 63,
+        "draw": 49
+      },
+      "status": "可評估",
+      "train_matches": 394,
+      "rho": -0.075,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "希超": {
+      "sample_size": 240,
+      "accuracy": 0.5,
+      "over25_accuracy": 0.425,
+      "precision": {
+        "home": 0.6074766355140186,
+        "draw": 0.016129032258064516,
+        "away": 0.7605633802816901
+      },
+      "class_samples": {
+        "home": 107,
+        "away": 71,
+        "draw": 62
+      },
+      "status": "可評估",
+      "train_matches": 477,
+      "rho": -0.1,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "英冠": {
+      "sample_size": 546,
+      "accuracy": 0.3974358974358974,
+      "over25_accuracy": 0.4706959706959707,
+      "precision": {
+        "home": 0.430327868852459,
+        "draw": 0.0,
+        "away": 0.64
+      },
+      "class_samples": {
+        "home": 244,
+        "draw": 127,
+        "away": 175
+      },
+      "status": "可評估",
+      "train_matches": 1092,
+      "rho": 0.01,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "英甲": {
+      "sample_size": 532,
+      "accuracy": 0.4699248120300752,
+      "over25_accuracy": 0.5375939849624061,
+      "precision": {
+        "home": 0.5422222222222223,
+        "draw": 0.0,
+        "away": 0.7231638418079096
+      },
+      "class_samples": {
+        "home": 225,
+        "away": 177,
+        "draw": 130
+      },
+      "status": "可評估",
+      "train_matches": 1084,
+      "rho": -0.015,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "德乙": {
+      "sample_size": 297,
+      "accuracy": 0.42424242424242425,
+      "over25_accuracy": 0.5252525252525253,
+      "precision": {
+        "home": 0.4338235294117647,
+        "draw": 0.028985507246376812,
+        "away": 0.7065217391304348
+      },
+      "class_samples": {
+        "draw": 69,
+        "away": 92,
+        "home": 136
+      },
+      "status": "可評估",
+      "train_matches": 621,
+      "rho": -0.065,
+      "test_period": "2023-08-01..2024-07-31"
+    }
+  },
+  "group_reports": {
+    "原有230隊": {
+      "sample_size": 4652,
+      "accuracy": 0.4628116938950989,
+      "over25_accuracy": 0.5354686156491831,
+      "precision": {
+        "home": 0.49267578125,
+        "draw": 0.06678539626001781,
+        "away": 0.7218095881161377
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "英超",
+        "西甲",
+        "意甲",
+        "德甲",
+        "法甲",
+        "葡超",
+        "荷甲",
+        "土超",
+        "比甲",
+        "巴甲",
+        "奧甲",
+        "瑞士超",
+        "挪超",
+        "瑞典超",
+        "丹超",
+        "希超",
+        "英冠",
+        "英甲",
+        "德乙"
+      ]
+    },
+    "新增荷甲18隊": {
+      "sample_size": 320,
+      "accuracy": 0.503125,
+      "over25_accuracy": 0.609375,
+      "precision": {
+        "home": 0.5333333333333333,
+        "draw": 0.13414634146341464,
+        "away": 0.7572815533980582
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "荷甲"
+      ]
+    },
+    "新增葡超18隊": {
+      "sample_size": 351,
+      "accuracy": 0.5669515669515669,
+      "over25_accuracy": 0.5698005698005698,
+      "precision": {
+        "home": 0.6346153846153846,
+        "draw": 0.0,
+        "away": 0.8620689655172413
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "葡超"
+      ]
+    },
+    "新增比甲16隊": {
+      "sample_size": 456,
+      "accuracy": 0.5109649122807017,
+      "over25_accuracy": 0.5482456140350878,
+      "precision": {
+        "home": 0.5204081632653061,
+        "draw": 0.1864406779661017,
+        "away": 0.7676056338028169
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "比甲"
+      ]
+    },
+    "新增土超19隊": {
+      "sample_size": 522,
+      "accuracy": 0.46934865900383144,
+      "over25_accuracy": 0.5727969348659003,
+      "precision": {
+        "home": 0.5041666666666667,
+        "draw": 0.14285714285714285,
+        "away": 0.6794871794871795
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "土超"
+      ]
+    },
+    "新增希超14隊": {
+      "sample_size": 240,
+      "accuracy": 0.5,
+      "over25_accuracy": 0.425,
+      "precision": {
+        "home": 0.6074766355140186,
+        "draw": 0.016129032258064516,
+        "away": 0.7605633802816901
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "希超"
+      ]
+    },
+    "新增奧超12隊": {
+      "sample_size": 189,
+      "accuracy": 0.47619047619047616,
+      "over25_accuracy": 0.5026455026455027,
+      "precision": {
+        "home": 0.6285714285714286,
+        "draw": 0.0,
+        "away": 0.7419354838709677
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "奧甲"
+      ]
+    },
+    "新增英冠28隊": {
+      "sample_size": 546,
+      "accuracy": 0.3974358974358974,
+      "over25_accuracy": 0.4706959706959707,
+      "precision": {
+        "home": 0.430327868852459,
+        "draw": 0.0,
+        "away": 0.64
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "英冠"
+      ]
+    },
+    "新增英甲26隊": {
+      "sample_size": 532,
+      "accuracy": 0.4699248120300752,
+      "over25_accuracy": 0.5375939849624061,
+      "precision": {
+        "home": 0.5422222222222223,
+        "draw": 0.0,
+        "away": 0.7231638418079096
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "英甲"
+      ]
+    },
+    "新增德乙26隊": {
+      "sample_size": 297,
+      "accuracy": 0.42424242424242425,
+      "over25_accuracy": 0.5252525252525253,
+      "precision": {
+        "home": 0.4338235294117647,
+        "draw": 0.028985507246376812,
+        "away": 0.7065217391304348
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "德乙"
+      ]
+    }
+  },
+  "data_quality_note": "Dixon-Coles rho只由訓練期真實FT估計；HT全程保持null且不作估算。訓練期沒有足夠FT的聯賽，其accuracy/precision保留null並標記樣本不足。"
+}

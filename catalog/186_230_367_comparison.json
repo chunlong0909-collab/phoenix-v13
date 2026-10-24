@@ -1,0 +1,136 @@
+{
+  "model": "Dixon-Coles low-score calibrated Poisson; real FT only",
+  "versions": {
+    "186": {
+      "teams": 186,
+      "catalog_rows": 15030,
+      "unique_ft_matches": 10491
+    },
+    "230": {
+      "teams": 230,
+      "catalog_rows": 19815,
+      "unique_ft_matches": 13167,
+      "backtest_report": "catalog/162_backtest_report.json"
+    },
+    "367": {
+      "teams": 367,
+      "catalog_rows": 36810,
+      "unique_ft_matches": 23668,
+      "backtest_report": "catalog/367_backtest_report.json"
+    }
+  },
+  "367_backtest_groups": {
+    "原有230隊": {
+      "sample_size": 4652,
+      "accuracy": 0.4628116938950989,
+      "over25_accuracy": 0.5354686156491831,
+      "precision": {
+        "home": 0.49267578125,
+        "draw": 0.06678539626001781,
+        "away": 0.7218095881161377
+      },
+      "status": "可評估"
+    },
+    "新增荷甲18隊": {
+      "sample_size": 320,
+      "accuracy": 0.503125,
+      "over25_accuracy": 0.609375,
+      "precision": {
+        "home": 0.5333333333333333,
+        "draw": 0.13414634146341464,
+        "away": 0.7572815533980582
+      },
+      "status": "可評估"
+    },
+    "新增葡超18隊": {
+      "sample_size": 351,
+      "accuracy": 0.5669515669515669,
+      "over25_accuracy": 0.5698005698005698,
+      "precision": {
+        "home": 0.6346153846153846,
+        "draw": 0.0,
+        "away": 0.8620689655172413
+      },
+      "status": "可評估"
+    },
+    "新增比甲16隊": {
+      "sample_size": 456,
+      "accuracy": 0.5109649122807017,
+      "over25_accuracy": 0.5482456140350878,
+      "precision": {
+        "home": 0.5204081632653061,
+        "draw": 0.1864406779661017,
+        "away": 0.7676056338028169
+      },
+      "status": "可評估"
+    },
+    "新增土超19隊": {
+      "sample_size": 522,
+      "accuracy": 0.46934865900383144,
+      "over25_accuracy": 0.5727969348659003,
+      "precision": {
+        "home": 0.5041666666666667,
+        "draw": 0.14285714285714285,
+        "away": 0.6794871794871795
+      },
+      "status": "可評估"
+    },
+    "新增希超14隊": {
+      "sample_size": 240,
+      "accuracy": 0.5,
+      "over25_accuracy": 0.425,
+      "precision": {
+        "home": 0.6074766355140186,
+        "draw": 0.016129032258064516,
+        "away": 0.7605633802816901
+      },
+      "status": "可評估"
+    },
+    "新增奧超12隊": {
+      "sample_size": 189,
+      "accuracy": 0.47619047619047616,
+      "over25_accuracy": 0.5026455026455027,
+      "precision": {
+        "home": 0.6285714285714286,
+        "draw": 0.0,
+        "away": 0.7419354838709677
+      },
+      "status": "可評估"
+    },
+    "新增英冠28隊": {
+      "sample_size": 546,
+      "accuracy": 0.3974358974358974,
+      "over25_accuracy": 0.4706959706959707,
+      "precision": {
+        "home": 0.430327868852459,
+        "draw": 0.0,
+        "away": 0.64
+      },
+      "status": "可評估"
+    },
+    "新增英甲26隊": {
+      "sample_size": 532,
+      "accuracy": 0.4699248120300752,
+      "over25_accuracy": 0.5375939849624061,
+      "precision": {
+        "home": 0.5422222222222223,
+        "draw": 0.0,
+        "away": 0.7231638418079096
+      },
+      "status": "可評估"
+    },
+    "新增德乙26隊": {
+      "sample_size": 297,
+      "accuracy": 0.42424242424242425,
+      "over25_accuracy": 0.5252525252525253,
+      "precision": {
+        "home": 0.4338235294117647,
+        "draw": 0.028985507246376812,
+        "away": 0.7065217391304348
+      },
+      "status": "可評估"
+    }
+  },
+  "data_policy": "Existing 230 teams preserved. New 137 teams use four seasons of verified FT CSV; new HT fields are null and never imputed. Existing real HT fields are preserved.",
+  "note": "Unique FT count may differ between expansion audit and backtest deduplication because backtest applies its own date normalization."
+}

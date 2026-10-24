@@ -1,0 +1,29 @@
+{
+  "base_teams": 230,
+  "added_teams": 137,
+  "total_teams": 367,
+  "catalog_rows": 36810,
+  "unique_ft_matches": 23206,
+  "ft_invalid_rows": 0,
+  "existing_ht_nonnull_rows": 5065,
+  "new_ht_nonnull_rows": 0,
+  "ht_policy": "new rows null; existing real HT preserved",
+  "source_seasons": [
+    "2021/2022",
+    "2022/2023",
+    "2023/2024",
+    "2024/2025"
+  ],
+  "added_by_league": {
+    "荷甲": 12,
+    "葡超": 8,
+    "比甲": 10,
+    "土超": 13,
+    "希超": 14,
+    "奧甲": 0,
+    "英冠": 28,
+    "英甲": 26,
+    "德乙": 26
+  },
+  "sources": "https://football-data.co.uk/downloadm.php"
+}
