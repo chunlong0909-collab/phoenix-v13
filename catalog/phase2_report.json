@@ -2,8 +2,8 @@
   "phase": 2,
   "mode": "real",
   "source_policy": "football-data.org only; explicit FT+HT; no inferred stats",
-  "updated_at": "2026-10-24T02:56:21.265614+00:00",
-  "batch": 1,
+  "updated_at": "2026-10-24T04:17:46.799740+00:00",
+  "batch": 2,
   "leagues": {
     "英超": {
       "target_teams": 20,
@@ -11,13 +11,20 @@
       "teams": 20,
       "matches": 930,
       "players": 493
+    },
+    "西甲": {
+      "target_teams": 20,
+      "completed_teams": 20,
+      "teams": 20,
+      "matches": 930,
+      "players": 421
     }
   },
   "totals": {
-    "teams": 20,
+    "teams": 40,
     "target_teams": 98,
-    "complete_teams": 20,
-    "matches": 930,
-    "players": 493
+    "complete_teams": 40,
+    "matches": 1860,
+    "players": 914
   }
 }

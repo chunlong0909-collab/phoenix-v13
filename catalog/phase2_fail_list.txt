@@ -2,3 +2,10 @@
 英超	Manchester City FC	48/36	players=24/25
 英超	Nottingham Forest FC	48/36	players=23/25
 英超	Leeds United FC	38/36	players=24/25
+西甲	CA Osasuna	48/36	players=24/25
+西甲	Getafe CF	48/36	players=24/25
+西甲	Girona FC	48/36	players=0/25
+西甲	RCD Mallorca	48/36	players=0/25
+西甲	Real Sociedad de Fútbol	48/36	players=24/25
+西甲	Villarreal CF	48/36	players=24/25
+西甲	Real Oviedo	38/36	players=0/25
