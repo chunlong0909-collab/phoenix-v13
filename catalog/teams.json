@@ -1,5 +1,245 @@
 [
   {
+    "team_id": "botafogo-fr",
+    "name": "Botafogo FR",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "ca-mineiro",
+    "name": "CA Mineiro",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "cr-flamengo",
+    "name": "CR Flamengo",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "cr-vasco-da-gama",
+    "name": "CR Vasco da Gama",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "cruzeiro-ec",
+    "name": "Cruzeiro EC",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "ec-bahia",
+    "name": "EC Bahia",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "ec-juventude",
+    "name": "EC Juventude",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "ec-vit-ria",
+    "name": "EC Vitória",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "fluminense-fc",
+    "name": "Fluminense FC",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "fortaleza-ec",
+    "name": "Fortaleza EC",
+    "league": "巴甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "afc-bournemouth",
+    "name": "AFC Bournemouth",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "arsenal-fc",
+    "name": "Arsenal FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "aston-villa-fc",
+    "name": "Aston Villa FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "brentford-fc",
+    "name": "Brentford FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "brighton-hove-albion-fc",
+    "name": "Brighton & Hove Albion FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "chelsea-fc",
+    "name": "Chelsea FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "crystal-palace-fc",
+    "name": "Crystal Palace FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "everton-fc",
+    "name": "Everton FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "fulham-fc",
+    "name": "Fulham FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "liverpool-fc",
+    "name": "Liverpool FC",
+    "league": "英超",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "ac-milan",
+    "name": "AC Milan",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "acf-fiorentina",
+    "name": "ACF Fiorentina",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "as-roma",
+    "name": "AS Roma",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "atalanta-bc",
+    "name": "Atalanta BC",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "bologna-fc-1909",
+    "name": "Bologna FC 1909",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "cagliari-calcio",
+    "name": "Cagliari Calcio",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "como-1907",
+    "name": "Como 1907",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "fc-internazionale-milano",
+    "name": "FC Internazionale Milano",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "genoa-cfc",
+    "name": "Genoa CFC",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "hellas-verona-fc",
+    "name": "Hellas Verona FC",
+    "league": "意甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
     "team_id": "athletic-club",
     "name": "Athletic Club",
     "league": "西甲",
@@ -74,6 +314,30 @@
   {
     "team_id": "rcd-mallorca",
     "name": "RCD Mallorca",
+    "league": "西甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "rayo-vallecano-de-madrid",
+    "name": "Rayo Vallecano de Madrid",
+    "league": "西甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "real-betis-balompi",
+    "name": "Real Betis Balompié",
+    "league": "西甲",
+    "matches": 36,
+    "players": 0,
+    "status": "complete"
+  },
+  {
+    "team_id": "real-madrid-cf",
+    "name": "Real Madrid CF",
     "league": "西甲",
     "matches": 36,
     "players": 0,
@@ -155,86 +419,6 @@
     "team_id": "rb-leipzig",
     "name": "RB Leipzig",
     "league": "德甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "botafogo-fr",
-    "name": "Botafogo FR",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "ca-mineiro",
-    "name": "CA Mineiro",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "cr-flamengo",
-    "name": "CR Flamengo",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "cr-vasco-da-gama",
-    "name": "CR Vasco da Gama",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "cruzeiro-ec",
-    "name": "Cruzeiro EC",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "ec-bahia",
-    "name": "EC Bahia",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "ec-juventude",
-    "name": "EC Juventude",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "ec-vit-ria",
-    "name": "EC Vitória",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "fluminense-fc",
-    "name": "Fluminense FC",
-    "league": "意甲",
-    "matches": 36,
-    "players": 0,
-    "status": "complete"
-  },
-  {
-    "team_id": "fortaleza-ec",
-    "name": "Fortaleza EC",
-    "league": "意甲",
     "matches": 36,
     "players": 0,
     "status": "complete"
