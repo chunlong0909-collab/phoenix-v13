@@ -495,6 +495,48 @@ def official_csv_matches():
     print(f"Official CSV rows={len(out)}", flush=True)
     return out, None if out else "Official J1 CSV contained no parseable rows"
 
+def local_hardcode_j1_matches():
+    """Use the checked-in 2024 J1 FT dump only; never synthesize scores.
+
+    The repository's league CSV contains 2023-2025 seasons. We accept only
+    season 2024, require 380 rows and exactly 20 teams, and preserve its
+    ESPN scoreboard provenance. HT is intentionally null because this local
+    dump contains FT only.
+    """
+    path = ROOT / "data" / "leagues" / "j1" / "matches.csv"
+    if not path.exists():
+        print("J1_HARDCODE source missing", flush=True)
+        return [], "local J1 league CSV missing"
+    aliases = {
+        "Urawa Red Diamonds": "Urawa Reds",
+        "Yokohama F. Marinos": "Yokohama F Marinos",
+        "Tokyo Verdy 1969": "Tokyo Verdy",
+    }
+    out = []
+    with path.open(newline="", encoding="utf-8-sig") as fh:
+        for row in csv.DictReader(fh):
+            if row.get("season", "").strip() != "2024":
+                continue
+            home, away = row.get("home_team", "").strip(), row.get("away_team", "").strip()
+            hg, ag = row.get("home_goals", "").strip(), row.get("away_goals", "").strip()
+            if not home or not away or hg == "" or ag == "":
+                continue
+            try:
+                ft_home, ft_away = int(float(hg)), int(float(ag))
+            except ValueError:
+                continue
+            out.append({"match_id": f"local-j1-2024-{row.get('fixture_id') or len(out)}",
+                        "date": row.get("date", "").strip(),
+                        "home": aliases.get(home, home), "away": aliases.get(away, away),
+                        "ft_home": ft_home, "ft_away": ft_away,
+                        "ht_home": None, "ht_away": None, "explicit_ht": False,
+                        "season": 2024, "source": "local-j1-2024-real-ft"})
+    teams = {m["home"] for m in out} | {m["away"] for m in out}
+    print(f"J1_HARDCODE ROWS={len(out)} TEAMS={len(teams)}", flush=True)
+    if len(out) != 380 or len(teams) != 20:
+        return [], f"local J1 validation failed rows={len(out)} teams={len(teams)}"
+    return out, None
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--mode", default="real"); args = ap.parse_args()
     if args.mode != "real": raise SystemExit("only --mode real is allowed")
@@ -521,13 +563,23 @@ def main():
             source_policy = "WorldFootball requests/BeautifulSoup; explicit parenthesized FT+HT"
         else:
             match_errors.append(fallback_error or "WorldFootball returned no matches")
-    if not matches and not worldfootball_only:
+    if len(matches) < 380 and not worldfootball_only:
+        print("ALL SOURCES BLOCKED, SWITCH TO HARDCODE J1 2024", flush=True)
         csv_matches, csv_error = official_csv_matches()
-        if csv_matches:
+        csv_teams = {m.get("home") for m in csv_matches} | {m.get("away") for m in csv_matches}
+        if len(csv_matches) >= 380 and len(csv_teams) == 20:
             matches = csv_matches
             source_policy = "user-supplied official J.League CSV; no inferred HT"
         else:
+            if csv_matches:
+                csv_error = f"official CSV validation failed rows={len(csv_matches)} teams={len(csv_teams)}"
             match_errors.append(csv_error or "No official CSV fallback supplied")
+            local_matches, local_error = local_hardcode_j1_matches()
+            if local_matches:
+                matches = local_matches
+                source_policy = "local checked-in J1 2024 real FT dump; no inferred HT"
+            else:
+                match_errors.append(local_error or "No valid local J1 hardcode source")
     by = {}
     for m in matches:
         by.setdefault(m["home"], []).append(m); by.setdefault(m["away"], []).append(m)
