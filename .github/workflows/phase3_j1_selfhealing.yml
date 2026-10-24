@@ -22,8 +22,21 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip requests beautifulsoup4 lxml pandas
 
+      - name: Diagnose checkout before scraper
+        run: |
+          echo "===CHECKOUT DIAGNOSTIC==="
+          pwd
+          ls -la
+          ls -R scripts catalog data 2>&1 || true
+          test -f scripts/phase3_j1_catalog.py
+          python - <<'PY'
+          import sys
+          print('PYTHON', sys.version)
+          import requests, bs4
+          print('IMPORTS OK', requests.__version__, bs4.__version__)
+          PY
+
       - name: Collect J1 with A to B to C to D plus CSV fallback
-        continue-on-error: true
         env:
           J1_SELFHEALING: "1"
         run: python scripts/phase3_j1_catalog.py --mode real
@@ -34,6 +47,10 @@ jobs:
           import json
           from pathlib import Path
           p = Path('catalog/complete_5_leagues_catalog.json')
+          report = Path('catalog/phase3_j1_report.json')
+          if report.exists() and json.loads(report.read_text(encoding='utf-8')).get('safe_skip'):
+              print('KEEP 98 SAFE')
+              raise SystemExit(0)
           if not p.exists():
               raise SystemExit('J1 validation failed: catalog was not produced')
           data = json.loads(p.read_text(encoding='utf-8'))
@@ -59,6 +76,17 @@ jobs:
 
       - name: Commit only after strict validation
         run: |
+          if python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('catalog/phase3_j1_report.json')
+          print(bool(p.exists() and json.loads(p.read_text(encoding='utf-8')).get('safe_skip')))
+          raise SystemExit(0 if p.exists() and json.loads(p.read_text(encoding='utf-8')).get('safe_skip') else 1)
+          PY
+          then
+            echo "KEEP 98 SAFE - no commit or push"
+            exit 0
+          fi
           git config user.name "phoenix-auto-bot"
           git config user.email "auto@phoenix-v13.invalid"
           git add scripts/phase3_j1_catalog.py .github/workflows/phase3_j1_selfhealing.yml catalog/complete_5_leagues_catalog.json catalog/phoenix_FULL_ALL_98teams.json catalog/phase3_j1_report.json catalog/phase3_j1_fail_list.txt
