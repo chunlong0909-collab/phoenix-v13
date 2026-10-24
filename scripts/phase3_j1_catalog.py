@@ -326,19 +326,16 @@ def worldfootball_matches():
     like ``2:1 (1:0)``.
     """
     headers = {"User-Agent": random.choice(UA), "Accept-Language": "en-US,en;q=0.9"}
-    urls = [
-        "https://www.worldfootball.net/schedule/jpn-j1-league-2024-spieltag/",
-        WORLDFOOTBALL_J1,
-    ]
+    urls = [f"https://www.worldfootball.net/schedule/jpn-j1-league-2024-spieltag/{round_no}/" for round_no in range(1, 39)]
     matches, seen = [], set()
     for url in urls:
         try:
             response = S.get(url, headers=headers, timeout=30)
             soup = BeautifulSoup(response.text, "html.parser")
-            print(f"WorldFootball url={url} status={response.status_code} tables={len(soup.find_all('table'))}", flush=True)
+            print(f"WorldFootball round={url.rsplit('/', 2)[-2]} status={response.status_code} tables={len(soup.find_all('table'))}", flush=True)
             if response.status_code != 200 or "Just a moment" in response.text:
                 continue
-            for node in soup.select("tr, .match, .match-row, .box"): 
+            for node in soup.select("tr"):
                 text = node.get_text(" ", strip=True)
                 score = re.search(r"(?<!\d)(\d+)\s*:\s*(\d+)\s*\((\d+)\s*:\s*(\d+)\)", text)
                 if not score:
@@ -392,11 +389,13 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--mode", default="real"); args = ap.parse_args()
     if args.mode != "real": raise SystemExit("only --mode real is allowed")
     token = os.getenv("FOOTBALL_DATA_TOKEN")
-    if not token: raise SystemExit("FOOTBALL_DATA_TOKEN missing; no data written")
+    worldfootball_only = os.getenv("J1_WORLD_FOOTBALL_ONLY") == "1"
+    if not token and not worldfootball_only:
+        raise SystemExit("FOOTBALL_DATA_TOKEN missing; no data written")
     existing = load_existing()
-    matches, match_errors = explicit_matches("J1", token)
-    current, team_error = teams_for_current("J1", token)
-    source_policy = "football-data.org J1; explicit FT+HT"
+    matches, match_errors = ([], []) if worldfootball_only else explicit_matches("J1", token)
+    current, team_error = ({}, None) if worldfootball_only else teams_for_current("J1", token)
+    source_policy = "WorldFootball rounds 1-38; explicit FT+HT" if worldfootball_only else "football-data.org J1; explicit FT+HT"
     if not matches:
         fallback_matches, fallback_error = worldfootball_matches()
         if fallback_matches:
@@ -404,7 +403,7 @@ def main():
             source_policy = "WorldFootball requests/BeautifulSoup; explicit parenthesized FT+HT"
         else:
             match_errors.append(fallback_error or "WorldFootball returned no matches")
-    if not matches:
+    if not matches and not worldfootball_only:
         csv_matches, csv_error = official_csv_matches()
         if csv_matches:
             matches = csv_matches
@@ -423,7 +422,7 @@ def main():
         if not found:
             found = _fuzzy_provider_name(wanted, list(set(current) | set(by)))
         if found: selected.append((wanted, found))
-    if len(selected) < 20:
+    if len(selected) < 20 and not worldfootball_only:
         # Preserve the user's requested 20-team target where the provider names differ.
         ranked = sorted((n for n in by if n not in {x[1] for x in selected}), key=lambda n: (-len(by[n]), n))
         for n in ranked:
@@ -439,7 +438,7 @@ def main():
             if m["match_id"] not in seen: ms.append(m); seen.add(m["match_id"])
         ms = ms[:48]
         tid = str(current.get(provider_name, {}).get("id") or "").strip() or provider_name.lower().replace(" ", "-")
-        squad, pe = players_for_team(tid, token)
+        squad, pe = ([], None) if worldfootball_only else players_for_team(tid, token)
         if pe: errors.append(f"{wanted}:players:{pe}")
         teams.append({"team_id": tid, "name": wanted, "provider_name": provider_name, "league": "J1聯賽",
                       "matches": ms, "players": squad, "match_count": len(ms), "player_count": len(squad),
