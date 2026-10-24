@@ -5,11 +5,18 @@ Only accepts explicit FT and HT. Missing HT is skipped;
 no score is inferred and an incomplete team never fails the whole batch.
 """
 from __future__ import annotations
+import sys
+print("===SELFHEALING START===", sys.version, flush=True)
+try:
+    import requests
+    import bs4
+except Exception as e:
+    print("IMPORT FAIL", e, flush=True)
+    sys.exit(1)
 import argparse, csv, difflib, io, json, os, random, re, time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
-import requests
 from bs4 import BeautifulSoup, Comment
 try:
     import pandas as pd
@@ -455,6 +462,7 @@ def selfhealing_matches():
             rows, error = loader()
         except Exception as exc:
             rows, error = [], f"{type(exc).__name__}: {exc}"
+        print(f"TRY {label} STATUS={'OK' if rows else 'EMPTY'} ROWS={len(rows)}", flush=True)
         if rows:
             print(f"Using source {label}, rows={len(rows)}", flush=True)
             return rows, errors, label
@@ -555,15 +563,10 @@ def main():
                       "status": "complete" if len(ms) >= 36 else "incomplete"})
         print(f"J1聯賽 | {wanted} | matches={len(ms)} | players={len(squad)}", flush=True)
     if len(teams) == 0:
-        warning = {"j1_2024_20teams": {"note": "fallback empty", "teams": [], "errors": errors, "updated_at": now()}}
-        existing["J1聯賽"] = warning["j1_2024_20teams"]
         CATALOG.mkdir(exist_ok=True)
-        payload = json.dumps(existing, ensure_ascii=False, indent=2) + "\n"
-        SOURCE.write_text(payload, encoding="utf-8")
-        OUT.write_text(payload, encoding="utf-8")
-        REPORT.write_text(json.dumps({"phase": 3, "batch": 6, "warning": "fallback empty", "totals": {"teams": 0, "matches": 0, "players": 0}}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        REPORT.write_text(json.dumps({"phase": 3, "batch": 6, "safe_skip": True, "warning": "all sources returned zero rows", "errors": errors, "updated_at": now()}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         FAIL.write_text("J1聯賽\tno teams found from FBref/J.League/WorldFootball\n", encoding="utf-8")
-        print("WARNING: no J1 teams found; wrote fallback empty warning JSON", flush=True)
+        print("KEEP 98 SAFE", flush=True)
         return
     if len(teams) < 20:
         print(f"WARNING: expected 20 J1 teams, got {len(teams)}; writing partial catalog honestly", flush=True)
