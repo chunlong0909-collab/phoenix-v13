@@ -10,7 +10,7 @@ REPORT = ROOT / 'catalog' / '162_backtest_report.json'
 TRAIN_CUTOFF = date(2023, 8, 1)
 TEST_END = date(2024, 7, 31)
 MIN_SAMPLE = 100
-NEW_GROUPS = {'土超': '新增土超6隊', '比甲': '新增比甲6隊', '巴甲': '新增巴甲16隊'}
+NEW_GROUPS = {'土超': '新增土超6隊', '比甲': '新增比甲6隊', '巴甲': '新增巴甲16隊', '奧甲': '新增奧甲12隊', '瑞士超': '新增瑞士超12隊'}
 OLD_LEAGUES = {'英超', '西甲', '意甲', '德甲', '法甲', 'J1聯賽', '葡超', '荷甲'}
 
 
@@ -174,7 +174,7 @@ def main():
             if m['date'] < TRAIN_CUTOFF: train[league].append(m)
             elif m['date'] <= TEST_END: test[league].append(m)
     models, global_home, global_away = fit_models(train)
-    groups = {'舊有134隊': list(OLD_LEAGUES), '新增土超6隊': ['土超'], '新增比甲6隊': ['比甲'], '新增巴甲16隊': ['巴甲']}
+    groups = {'舊有134隊': list(OLD_LEAGUES), '新增土超6隊': ['土超'], '新增比甲6隊': ['比甲'], '新增巴甲16隊': ['巴甲'], '新增奧甲12隊': ['奧甲'], '新增瑞士超12隊': ['瑞士超']}
     league_reports = {}
     for league in data:
         tr = train.get(league, []); te = test.get(league, [])
