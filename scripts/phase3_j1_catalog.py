@@ -360,6 +360,74 @@ def worldfootball_matches():
     print(f"WorldFootball rows={len(matches)}", flush=True)
     return matches, None if matches else "WorldFootball requests returned no accessible explicit J1 rows"
 
+def _retry_html(url, label):
+    """Fetch one public HTML page with header rotation and bounded retries."""
+    for attempt in range(1, 4):
+        headers = {"User-Agent": random.choice(UA), "Accept-Language": "en-US,en;q=0.9"}
+        try:
+            response = S.get(url, headers=headers, timeout=30)
+            print(f"{label} attempt={attempt} status={response.status_code}", flush=True)
+            if response.status_code == 200 and "Just a moment" not in response.text:
+                return response.text
+        except Exception as exc:
+            print(f"{label} attempt={attempt} error={exc}", flush=True)
+        if attempt < 3:
+            time.sleep(5)
+    return ""
+
+def transfermarkt_j1_matches():
+    """Best-effort Transfermarkt schedule parser; FT-only is still real data."""
+    found, seen = [], set()
+    urls = [
+        "https://www.transfermarkt.com/j1-league/spieltag/wettbewerb/JAP1/saison_id/2024/spieltag/1",
+        "https://www.transfermarkt.com/j1-league/gesamtspielplan/wettbewerb/JAP1/saison_id/2024",
+    ]
+    for url in urls:
+        html = _retry_html(url, "Transfermarkt")
+        if not html:
+            continue
+        soup = BeautifulSoup(html, "html.parser")
+        print(f"Transfermarkt tables={len(soup.find_all('table'))}", flush=True)
+        for tr in soup.select("tr"):
+            text = tr.get_text(" ", strip=True)
+            score = re.search(r"(?<!\d)(\d+)\s*[:\-]\s*(\d+)(?!\d)", text)
+            links = [a.get_text(" ", strip=True) for a in tr.select("a") if a.get_text(" ", strip=True)]
+            if not score or len(links) < 2:
+                continue
+            match_link = tr.select_one('a[href*="spielbericht"], a[href*="match"]')
+            mid = urljoin("https://www.transfermarkt.com", match_link.get("href")) if match_link else f"tm-j1-{len(found)}"
+            if mid in seen:
+                continue
+            seen.add(mid)
+            date_m = re.search(r"(\d{1,2})\.(\d{1,2})\.(2024)", text)
+            date = f"2024-{int(date_m.group(2)):02d}-{int(date_m.group(1)):02d}" if date_m else ""
+            found.append({"match_id": mid, "date": date, "home": links[0], "away": links[1],
+                          "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
+                          "ht_home": None, "ht_away": None, "explicit_ht": False,
+                          "source": "transfermarkt.com"})
+    print(f"Transfermarkt rows={len(found)}", flush=True)
+    return found, None if found else "Transfermarkt returned no J1 rows"
+
+def selfhealing_matches():
+    """Try A->B->C; a source is accepted only when it returns real rows."""
+    sources = [
+        ("A", worldfootball_matches),
+        ("B", transfermarkt_j1_matches),
+        ("C", fbref_j1_matches),
+    ]
+    errors = []
+    for label, loader in sources:
+        try:
+            rows, error = loader()
+        except Exception as exc:
+            rows, error = [], f"{type(exc).__name__}: {exc}"
+        if rows:
+            print(f"Using source {label}, rows={len(rows)}", flush=True)
+            return rows, errors, label
+        errors.append(f"source_{label}:{error or 'no rows'}")
+        print(f"Source {label} empty; switching to next source", flush=True)
+    return [], errors, None
+
 def official_csv_matches():
     """Parse a user-provided official CSV; never create or download a dump."""
     path = os.getenv("J1_OFFICIAL_CSV", "").strip()
@@ -390,13 +458,21 @@ def main():
     if args.mode != "real": raise SystemExit("only --mode real is allowed")
     token = os.getenv("FOOTBALL_DATA_TOKEN")
     worldfootball_only = os.getenv("J1_WORLD_FOOTBALL_ONLY") == "1"
-    if not token and not worldfootball_only:
+    selfhealing = os.getenv("J1_SELFHEALING") == "1"
+    if not token and not worldfootball_only and not selfhealing:
         raise SystemExit("FOOTBALL_DATA_TOKEN missing; no data written")
     existing = load_existing()
-    matches, match_errors = ([], []) if worldfootball_only else explicit_matches("J1", token)
+    if selfhealing:
+        matches, match_errors, chosen_source = selfhealing_matches()
+        source_policy = f"self-healing source {chosen_source or 'none'}; A WorldFootball -> B Transfermarkt -> C FBref"
+    else:
+        matches, match_errors = ([], []) if worldfootball_only else explicit_matches("J1", token)
+        chosen_source = None
+        source_policy = "WorldFootball rounds 1-38; explicit FT+HT" if worldfootball_only else "football-data.org J1; explicit FT+HT"
     current, team_error = ({}, None) if worldfootball_only else teams_for_current("J1", token)
-    source_policy = "WorldFootball rounds 1-38; explicit FT+HT" if worldfootball_only else "football-data.org J1; explicit FT+HT"
-    if not matches:
+    if selfhealing:
+        current, team_error = {}, None
+    if not matches and not selfhealing:
         fallback_matches, fallback_error = worldfootball_matches()
         if fallback_matches:
             matches = fallback_matches
@@ -422,7 +498,7 @@ def main():
         if not found:
             found = _fuzzy_provider_name(wanted, list(set(current) | set(by)))
         if found: selected.append((wanted, found))
-    if len(selected) < 20 and not worldfootball_only:
+    if len(selected) < 20 and not worldfootball_only and not selfhealing:
         # Preserve the user's requested 20-team target where the provider names differ.
         ranked = sorted((n for n in by if n not in {x[1] for x in selected}), key=lambda n: (-len(by[n]), n))
         for n in ranked:
@@ -438,7 +514,7 @@ def main():
             if m["match_id"] not in seen: ms.append(m); seen.add(m["match_id"])
         ms = ms[:48]
         tid = str(current.get(provider_name, {}).get("id") or "").strip() or provider_name.lower().replace(" ", "-")
-        squad, pe = ([], None) if worldfootball_only else players_for_team(tid, token)
+        squad, pe = ([], None) if (worldfootball_only or selfhealing) else players_for_team(tid, token)
         if pe: errors.append(f"{wanted}:players:{pe}")
         teams.append({"team_id": tid, "name": wanted, "provider_name": provider_name, "league": "J1聯賽",
                       "matches": ms, "players": squad, "match_count": len(ms), "player_count": len(squad),
