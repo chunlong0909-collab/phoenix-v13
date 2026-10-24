@@ -1,0 +1,34 @@
+{
+  "catalog": "complete_5_leagues_catalog.json",
+  "catalog_total_teams": 162,
+  "catalog_match_rows": 12079,
+  "policy": "real FT only; HT remains null; no imputation",
+  "model_change": {
+    "before": "independent Poisson with winner-takes-max probability",
+    "after": "Dixon-Coles low-score tau correction with league rho fitted on training FT"
+  },
+  "baseline_after_historical_ft": {
+    "old_134_accuracy": 0.5535168195718655,
+    "old_134_over25_accuracy": 0.5902140672782875,
+    "old_134_draw_precision": 0.011904761904761904,
+    "belgium_accuracy": 0.521505376344086,
+    "belgium_over25_accuracy": 0.5645161290322581,
+    "belgium_draw_precision": 0.0,
+    "brazil_accuracy": 0.4,
+    "brazil_over25_accuracy": 0.5121951219512195,
+    "brazil_draw_precision": 0.0
+  },
+  "dixon_coles_current": {
+    "old_134_accuracy": 0.5443425076452599,
+    "old_134_over25_accuracy": 0.5902140672782875,
+    "old_134_draw_precision": 0.011904761904761904,
+    "belgium_accuracy": 0.521505376344086,
+    "belgium_over25_accuracy": 0.5645161290322581,
+    "belgium_draw_precision": 0.1276595744680851,
+    "brazil_accuracy": 0.3463414634146341,
+    "brazil_over25_accuracy": 0.5121951219512195,
+    "brazil_draw_precision": 0.2549019607843137
+  },
+  "honest_conclusion": "Dixon-Coles improves draw precision for the new Belgian and Brazilian groups, but does not meet the requested 15% draw precision for every group and lowers the pooled old-134 accuracy below 55%. No post-hoc draw threshold is applied because it reduces 1X2 accuracy to approximately 46-47%.",
+  "rho_estimation": "grid search from -0.50 to 0.50 on training FT exact-score likelihood"
+}
