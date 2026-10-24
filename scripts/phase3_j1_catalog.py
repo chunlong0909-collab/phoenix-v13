@@ -41,6 +41,7 @@ J1 = {
 }
 FBREF_J1_2024 = "https://fbref.com/en/comps/25/schedule/"
 JLEAGUE_DATA = "https://www.jleague.co/data/"
+JLEAGUE_EN = "https://www.jleague.jp/en/"
 WORLDFOOTBALL_J1 = "https://www.worldfootball.net/competition/co48/japan-j1-league/"
 
 S = requests.Session()
@@ -265,6 +266,38 @@ def jleague_official_matches():
     print(f"JLeague fetched={len(found)} rows", flush=True)
     return found, None if found else "J.League official page contained no parseable FT rows"
 
+def jleague_english_matches():
+    """Fourth source: public J.League English landing page, requests only.
+
+    This source is accepted only when its HTML exposes real fixture rows. It
+    is intentionally FT-only; HT remains null rather than being inferred.
+    """
+    html = _retry_html(JLEAGUE_EN, "JLeague-English")
+    if not html:
+        return [], "J.League English page unavailable"
+    soup = _visible_soup(html)
+    found, seen = [], set()
+    for tr in soup.select("tr"):
+        text = tr.get_text(" ", strip=True)
+        score = re.search(r"(?<!\d)(\d+)\s*[-:]\s*(\d+)(?!\d)", text)
+        cells = [x.get_text(" ", strip=True) for x in tr.select("th,td")]
+        if not score or len(cells) < 3:
+            continue
+        teams = [x for x in cells if x and not re.fullmatch(r"\d+[-:]\d+", x)]
+        if len(teams) < 2:
+            continue
+        key = (teams[0], teams[1], score.group(0), text)
+        if key in seen:
+            continue
+        seen.add(key)
+        found.append({"match_id": f"jleague-en-{len(found)}", "date": "",
+                      "home": teams[0], "away": teams[1],
+                      "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
+                      "ht_home": None, "ht_away": None, "explicit_ht": False,
+                      "source": "jleague.jp/en"})
+    print(f"JLeague-English fetched={len(found)} rows", flush=True)
+    return found, None if found else "J.League English page contained no parseable FT rows"
+
 def playwright_jleague_matches():
     """Render the official J.League pages and parse only visible real FT rows.
 
@@ -409,11 +442,12 @@ def transfermarkt_j1_matches():
     return found, None if found else "Transfermarkt returned no J1 rows"
 
 def selfhealing_matches():
-    """Try A->B->C; a source is accepted only when it returns real rows."""
+    """Try A->B->C->D; a source is accepted only when it returns real rows."""
     sources = [
         ("A", worldfootball_matches),
         ("B", transfermarkt_j1_matches),
         ("C", fbref_j1_matches),
+        ("D", jleague_english_matches),
     ]
     errors = []
     for label, loader in sources:
@@ -429,8 +463,8 @@ def selfhealing_matches():
     return [], errors, None
 
 def official_csv_matches():
-    """Parse a user-provided official CSV; never create or download a dump."""
-    path = os.getenv("J1_OFFICIAL_CSV", "").strip()
+    """Parse a supplied official CSV; never create or download a dump."""
+    path = os.getenv("J1_OFFICIAL_CSV", str(ROOT / "data" / "j1_2024_fixture.csv")).strip()
     if not path or not Path(path).exists():
         return [], "No official J1 CSV supplied"
     out = []
@@ -464,7 +498,7 @@ def main():
     existing = load_existing()
     if selfhealing:
         matches, match_errors, chosen_source = selfhealing_matches()
-        source_policy = f"self-healing source {chosen_source or 'none'}; A WorldFootball -> B Transfermarkt -> C FBref"
+        source_policy = f"self-healing source {chosen_source or 'none'}; A WorldFootball -> B Transfermarkt -> C FBref -> D JLeague English -> CSV"
     else:
         matches, match_errors = ([], []) if worldfootball_only else explicit_matches("J1", token)
         chosen_source = None
