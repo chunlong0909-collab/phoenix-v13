@@ -20,7 +20,7 @@ BATCHES={1:('英超','PL',20),2:('西甲','PD',20),3:('意甲','SA',20),4:('德�
 S=requests.Session()
 
 def now(): return datetime.now(timezone.utc).isoformat()
-def pause(): time.sleep(15+random.random()*2)
+def pause(): time.sleep(20+random.random()*5)
 def get(path, token, params=None):
     for attempt in range(4):
         pause(); r=S.get(BASE+path, headers={'X-Auth-Token':token,'User-Agent':random.choice(UA),'Accept':'application/json'}, params=params, timeout=60)
@@ -37,7 +37,10 @@ def get(path, token, params=None):
 
 def explicit_matches(code, token):
     allm=[]; errors=[]
-    for season in (2025,2024):
+    # Use the two most recent seasons first; the older season is a real-data
+    # fallback for teams with fewer than 36 explicit-HT matches (e.g. promoted
+    # Bundesliga clubs). Never infer HT from FT.
+    for season in (2025,2024,2023):
         d,e=get(f'/competitions/{code}/matches',token,{'season':season,'status':'FINISHED','limit':100})
         if e: errors.append(f'{season}:{e}'); continue
         allm += (d or {}).get('matches',[])
