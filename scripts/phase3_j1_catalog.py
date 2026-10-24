@@ -265,6 +265,59 @@ def jleague_official_matches():
     print(f"JLeague fetched={len(found)} rows", flush=True)
     return found, None if found else "J.League official page contained no parseable FT rows"
 
+def playwright_jleague_matches():
+    """Render the official J.League pages and parse only visible real FT rows.
+
+    This is deliberately not a placeholder path: an empty rendered page is a
+    hard failure for this source and no score is invented.
+    """
+    if sync_playwright is None:
+        return [], "Playwright is not installed"
+    urls = ["https://www.jleague.jp/match/j1/2024/", "https://www.jleague.jp/match/"]
+    found, seen = [], set()
+    try:
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=random.choice(UA), locale="en-US")
+            for url in urls:
+                try:
+                    page.goto(url, wait_until="networkidle", timeout=90000)
+                except Exception:
+                    page.goto(url, wait_until="domcontentloaded", timeout=90000)
+                page.wait_for_timeout(8000)
+                html = page.content()
+                soup = _visible_soup(html)
+                tables = soup.find_all("table")
+                print(f"Playwright url={url} tables={len(tables)}", flush=True)
+                for table in tables:
+                    for tr in table.select("tr"):
+                        cells = [x.get_text(" ", strip=True) for x in tr.select("th,td")]
+                        text = " | ".join(cells)
+                        score = re.search(r"(?<!\d)(\d+)\s*[-:]\s*(\d+)(?!\d)", text)
+                        if not score or len(cells) < 3:
+                            continue
+                        teams = [x for x in cells if x and not re.fullmatch(r"\d+[-:]\d+", x)]
+                        if len(teams) < 2:
+                            continue
+                        key = (teams[0], teams[1], score.group(0), text)
+                        if key in seen:
+                            continue
+                        seen.add(key)
+                        date_m = re.search(r"(2024)[./-](\d{1,2})[./-](\d{1,2})", text)
+                        date = f"{date_m.group(1)}-{int(date_m.group(2)):02d}-{int(date_m.group(3)):02d}" if date_m else ""
+                        ht = _explicit_ht(text)
+                        item = {"match_id": f"jleague-browser-{len(found)}", "date": date,
+                                "home": teams[0], "away": teams[1],
+                                "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
+                                "ht_home": ht[0] if ht else None, "ht_away": ht[1] if ht else None,
+                                "explicit_ht": bool(ht), "source": "jleague.jp-playwright"}
+                        found.append(item)
+            browser.close()
+        print(f"Playwright fetched={len(found)} rows", flush=True)
+        return found, None if found else "Playwright rendered no parseable J.League FT rows"
+    except Exception as exc:
+        return [], f"Playwright J.League fallback failed: {exc}"
+
 def worldfootball_matches():
     """Fallback for J1, which is not exposed by football-data.org.
 
@@ -320,6 +373,14 @@ def main():
     matches, match_errors = explicit_matches("J1", token)
     current, team_error = teams_for_current("J1", token)
     source_policy = "football-data.org J1; explicit FT+HT"
+    if not matches:
+        browser_matches, browser_error = playwright_jleague_matches()
+        if browser_matches:
+            matches = browser_matches
+            match_errors.append("used rendered J.League official pages")
+            source_policy = "J.League official Playwright; HT only when explicit"
+        elif browser_error:
+            match_errors.append(browser_error)
     if not matches:
         try:
             fbref_matches, fbref_error = fbref_j1_matches()
