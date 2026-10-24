@@ -35,7 +35,8 @@ J1 = {
     "Albirex Niigata", "Avispa Fukuoka", "Kashiwa Reysol", "Consadole Sapporo",
     "Tokyo Verdy", "Machida Zelvia", "Jubilo Iwata",
 }
-FBREF_J1_2024 = "https://fbref.com/en/comps/25/2024/schedule/2024-J1-League-Scores-and-Fixtures"
+FBREF_J1_2024 = "https://fbref.com/en/comps/25/schedule/"
+JLEAGUE_DATA = "https://www.jleague.co/data/"
 WORLDFOOTBALL_J1 = "https://www.worldfootball.net/competition/co48/japan-j1-league/"
 
 S = requests.Session()
@@ -153,15 +154,22 @@ def fbref_j1_matches():
     FT comes from the schedule table; HT is accepted only from an explicit
     bracket/HT label on the match page. No score is ever inferred.
     """
-    headers = {"User-Agent": random.choice(UA), "Accept-Language": "en-US,en;q=0.9"}
-    response = S.get(FBREF_J1_2024, headers=headers, timeout=60)
+    headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US"}
+    response = S.get(FBREF_J1_2024, headers=headers, timeout=20)
+    print(f"Step1 FBref status={response.status_code}", flush=True)
     response.raise_for_status()
     if len(response.text) < 1000 or "Just a moment" in response.text:
         raise RuntimeError("FBref returned a challenge or empty page")
     soup = _visible_soup(response.text)
+    tables = soup.find_all("table")
+    print(f"Step1 FBref tables={len(tables)}", flush=True)
     rows = []
-    schedule = soup.select_one("table#sched_2024_25_1") or soup.select_one("table.stats_table")
-    row_nodes = schedule.select("tr") if schedule else soup.select("tr")
+    row_nodes = []
+    for table in tables:
+        text = table.get_text(" ", strip=True).lower()
+        has_teams = ("home" in text and "away" in text) or table.select_one('[data-stat="home_team"]')
+        if has_teams:
+            row_nodes.extend(table.select("tr"))
     for tr in row_nodes:
         cells = {node.get("data-stat"): node.get_text(" ", strip=True) for node in tr.select("[data-stat]")}
         home, away, score = cells.get("home_team"), cells.get("away_team"), cells.get("score")
@@ -199,6 +207,36 @@ def fbref_j1_matches():
         output.append(item)
     print(f"With explicit HT got {explicit_ht_count} matches", flush=True)
     return output, None if output else "FBref J1 schedule contained no FT rows"
+
+def jleague_official_matches():
+    """Best-effort official J.League FT table fallback; never infers HT."""
+    headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US"}
+    r = S.get(JLEAGUE_DATA, headers=headers, timeout=20)
+    soup = _visible_soup(r.text)
+    tables = soup.find_all("table")
+    print(f"Step1 JLeague status={r.status_code} tables={len(tables)}", flush=True)
+    found, seen = [], set()
+    for table in tables:
+        for tr in table.select("tr"):
+            text = tr.get_text(" ", strip=True)
+            score = re.search(r"(?<!\d)(\d+)\s*[-:]\s*(\d+)(?!\d)", text)
+            cells = [x.get_text(" ", strip=True) for x in tr.select("th,td")]
+            if not score or len(cells) < 3:
+                continue
+            teams = [x for x in cells if x and not re.fullmatch(r"\d+[-:]\d+", x)]
+            if len(teams) < 2:
+                continue
+            key = (teams[0], teams[1], score.group(0))
+            if key in seen:
+                continue
+            seen.add(key)
+            found.append({"match_id": f"jleague-{len(found)}", "date": "",
+                          "home": teams[0], "away": teams[1],
+                          "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
+                          "ht_home": None, "ht_away": None, "explicit_ht": False,
+                          "source": "jleague.co"})
+    print(f"JLeague fallback fetched {len(found)} rows", flush=True)
+    return found, None if found else "J.League official page contained no parseable FT rows"
 
 def worldfootball_matches():
     """Fallback for J1, which is not exposed by football-data.org.
@@ -262,10 +300,19 @@ def main():
             fbref_matches, fbref_error = [], f"FBref J1 fallback failed: {exc}"
         if fbref_matches:
             matches = fbref_matches
-            match_errors.append("football-data.org has no J1 competition; used FBref J1 2024")
-            source_policy = "FBref J1 2024; explicit parenthesized FT+HT"
+            match_errors.append("football-data.org has no J1 competition; used FBref J1 schedule")
+            source_policy = "FBref J1 schedule FT; HT only when explicit"
         else:
             match_errors.append(fbref_error or "FBref J1 returned no matches")
+            official_matches, official_error = jleague_official_matches()
+            if official_matches:
+                matches = official_matches
+                match_errors.append("used J.League official FT fallback")
+                source_policy = "J.League official FT; HT only when explicit"
+            elif official_error:
+                match_errors.append(official_error)
+            
+        if not matches:
             fallback_matches, fallback_error = worldfootball_matches()
             if fallback_matches:
                 matches = fallback_matches
