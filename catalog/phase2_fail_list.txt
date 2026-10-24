@@ -17,3 +17,13 @@
 德甲	VfL Wolfsburg	48/36	players=0/25
 德甲	FC St. Pauli 1910	48/36	players=0/25
 德甲	Hamburger SV	34/36	players=25/25
+法甲	Olympique de Marseille	48/36	players=23/25
+法甲	Paris Saint-Germain FC	48/36	players=24/25
+法甲	Stade Brestois 29	48/36	players=23/25
+法甲	FC Nantes	48/36	players=0/25
+法甲	Toulouse FC	48/36	players=24/25
+法甲	Angers SCO	48/36	players=22/25
+法甲	FC Metz	48/36	players=0/25
+法甲	Stade de Reims	48/36	players=0/25
+法甲	Montpellier HSC	48/36	players=0/25
+法甲	Clermont Foot 63	34/36	players=0/25
