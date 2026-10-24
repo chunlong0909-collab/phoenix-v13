@@ -6,8 +6,8 @@ cat = json.loads((ROOT/'catalog/complete_5_leagues_catalog.json').read_text(enco
 rep = json.loads((ROOT/'catalog/162_backtest_report.json').read_text(encoding='utf-8'))
 team_count = sum(len(v.get('teams', [])) for v in cat.values() if isinstance(v, dict))
 row_count = sum(len(t.get('matches', [])) for v in cat.values() if isinstance(v, dict) for t in v.get('teams', []))
-assert team_count == 186, team_count
-assert row_count >= 14260, row_count
+assert team_count == 230, team_count
+assert row_count >= 19815, row_count
 assert rep['catalog_total_teams'] == team_count
 assert rep['catalog_match_rows'] == row_count
 assert rep['ft_invalid_rows'] == 0
