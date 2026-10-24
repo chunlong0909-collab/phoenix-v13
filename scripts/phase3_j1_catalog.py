@@ -5,7 +5,7 @@ Only accepts explicit FT and HT. Missing HT is skipped;
 no score is inferred and an incomplete team never fails the whole batch.
 """
 from __future__ import annotations
-import argparse, difflib, io, json, os, random, re, time
+import argparse, csv, difflib, io, json, os, random, re, time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
@@ -319,50 +319,74 @@ def playwright_jleague_matches():
         return [], f"Playwright J.League fallback failed: {exc}"
 
 def worldfootball_matches():
-    """Fallback for J1, which is not exposed by football-data.org.
+    """Read WorldFootball with requests/BeautifulSoup only.
 
-    Only accepts score strings containing an explicit parenthesized half-time
-    score such as ``2:1 (1:0)``. No half-time score is inferred.
+    Cloudflare responses are reported as a source failure. We never use a
+    browser here and never infer HT from FT. Match pages must expose a score
+    like ``2:1 (1:0)``.
     """
-    if sync_playwright is None:
-        return [], "Playwright is not installed"
+    headers = {"User-Agent": random.choice(UA), "Accept-Language": "en-US,en;q=0.9"}
+    urls = [
+        "https://www.worldfootball.net/schedule/jpn-j1-league-2024-spieltag/",
+        WORLDFOOTBALL_J1,
+    ]
     matches, seen = [], set()
-    try:
-        with sync_playwright() as pw:
-            browser = pw.chromium.launch(headless=True)
-            page = browser.new_page(user_agent=random.choice(UA))
-            page.goto(WORLDFOOTBALL_J1, wait_until="domcontentloaded", timeout=60000)
-            page.wait_for_timeout(5000)
-            links = page.locator('a[href*="/match-report/"]').evaluate_all("els => els.map(e => e.href)")
-            for href in links:
-                if href in seen:
-                    continue
-                seen.add(href)
-                page.goto(href, wait_until="domcontentloaded", timeout=60000)
-                page.wait_for_timeout(700)
-                text = page.locator("body").inner_text()
+    for url in urls:
+        try:
+            response = S.get(url, headers=headers, timeout=30)
+            soup = BeautifulSoup(response.text, "html.parser")
+            print(f"WorldFootball url={url} status={response.status_code} tables={len(soup.find_all('table'))}", flush=True)
+            if response.status_code != 200 or "Just a moment" in response.text:
+                continue
+            for node in soup.select("tr, .match, .match-row, .box"): 
+                text = node.get_text(" ", strip=True)
                 score = re.search(r"(?<!\d)(\d+)\s*:\s*(\d+)\s*\((\d+)\s*:\s*(\d+)\)", text)
                 if not score:
                     continue
-                slug = href.rstrip("/").split("/match-report/")[-1]
-                teams = slug.split("/", 1)[-1].split("_", 1)
-                if len(teams) != 2:
+                link = node.select_one('a[href*="match-report"]')
+                href = urljoin("https://www.worldfootball.net", link.get("href")) if link else f"worldfootball-j1-{len(matches)}"
+                if href in seen:
+                    continue
+                seen.add(href)
+                names = [a.get_text(" ", strip=True) for a in node.select("a") if a.get_text(" ", strip=True)]
+                names = [x for x in names if not re.search(r"\d+\s*:\s*\d+", x)]
+                if len(names) < 2:
                     continue
                 date_m = re.search(r"(\d{2})\.(\d{2})\.(\d{4})", text)
                 date = f"{date_m.group(3)}-{date_m.group(2)}-{date_m.group(1)}" if date_m else ""
-                matches.append({
-                    "match_id": href,
-                    "date": date,
-                    "home": teams[0].replace("-", " ").title(),
-                    "away": teams[1].replace("-", " ").title(),
-                    "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
-                    "ht_home": int(score.group(3)), "ht_away": int(score.group(4)),
-                    "explicit_ht": True, "source": "worldfootball.net"
-                })
-            browser.close()
-        return matches, None if matches else "WorldFootball returned no explicit J1 half-time scores"
-    except Exception as exc:
-        return [], f"WorldFootball fallback failed: {exc}"
+                matches.append({"match_id": href, "date": date, "home": names[0], "away": names[1],
+                                "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
+                                "ht_home": int(score.group(3)), "ht_away": int(score.group(4)),
+                                "explicit_ht": True, "source": "worldfootball.net"})
+        except Exception as exc:
+            print(f"WorldFootball request error={exc}", flush=True)
+    print(f"WorldFootball rows={len(matches)}", flush=True)
+    return matches, None if matches else "WorldFootball requests returned no accessible explicit J1 rows"
+
+def official_csv_matches():
+    """Parse a user-provided official CSV; never create or download a dump."""
+    path = os.getenv("J1_OFFICIAL_CSV", "").strip()
+    if not path or not Path(path).exists():
+        return [], "No official J1 CSV supplied"
+    out = []
+    with Path(path).open(newline="", encoding="utf-8-sig") as fh:
+        for i, row in enumerate(csv.DictReader(fh), 1):
+            def val(*keys):
+                for k in keys:
+                    if row.get(k, "").strip() != "": return row[k].strip()
+                return ""
+            ft = re.match(r"^(\d+)\s*[-:]\s*(\d+)$", val("score", "FT", "ft"))
+            ht = re.match(r"^(\d+)\s*[-:]\s*(\d+)$", val("ht", "HT", "half_time"))
+            home, away = val("home", "Home", "主隊"), val("away", "Away", "客隊")
+            if not (ft and home and away): continue
+            item = {"match_id": f"official-csv-{i}", "date": val("date", "Date", "日期"), "home": home, "away": away,
+                    "ft_home": int(ft.group(1)), "ft_away": int(ft.group(2)), "ht_home": None, "ht_away": None,
+                    "explicit_ht": False, "source": "official-jleague-csv"}
+            if ht:
+                item.update(ht_home=int(ht.group(1)), ht_away=int(ht.group(2)), explicit_ht=True)
+            out.append(item)
+    print(f"Official CSV rows={len(out)}", flush=True)
+    return out, None if out else "Official J1 CSV contained no parseable rows"
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--mode", default="real"); args = ap.parse_args()
@@ -374,40 +398,19 @@ def main():
     current, team_error = teams_for_current("J1", token)
     source_policy = "football-data.org J1; explicit FT+HT"
     if not matches:
-        browser_matches, browser_error = playwright_jleague_matches()
-        if browser_matches:
-            matches = browser_matches
-            match_errors.append("used rendered J.League official pages")
-            source_policy = "J.League official Playwright; HT only when explicit"
-        elif browser_error:
-            match_errors.append(browser_error)
-    if not matches:
-        try:
-            fbref_matches, fbref_error = fbref_j1_matches()
-        except Exception as exc:
-            fbref_matches, fbref_error = [], f"FBref J1 fallback failed: {exc}"
-        if fbref_matches:
-            matches = fbref_matches
-            match_errors.append("football-data.org has no J1 competition; used FBref J1 schedule")
-            source_policy = "FBref J1 schedule FT; HT only when explicit"
+        fallback_matches, fallback_error = worldfootball_matches()
+        if fallback_matches:
+            matches = fallback_matches
+            source_policy = "WorldFootball requests/BeautifulSoup; explicit parenthesized FT+HT"
         else:
-            match_errors.append(fbref_error or "FBref J1 returned no matches")
-            official_matches, official_error = jleague_official_matches()
-            if official_matches:
-                matches = official_matches
-                match_errors.append("used J.League official FT fallback")
-                source_policy = "J.League official FT; HT only when explicit"
-            elif official_error:
-                match_errors.append(official_error)
-            
-        if not matches:
-            fallback_matches, fallback_error = worldfootball_matches()
-            if fallback_matches:
-                matches = fallback_matches
-                match_errors.append("used dynamic WorldFootball fallback")
-                source_policy = "WorldFootball dynamic J1; explicit parenthesized FT+HT"
-            elif fallback_error:
-                match_errors.append(fallback_error)
+            match_errors.append(fallback_error or "WorldFootball returned no matches")
+    if not matches:
+        csv_matches, csv_error = official_csv_matches()
+        if csv_matches:
+            matches = csv_matches
+            source_policy = "user-supplied official J.League CSV; no inferred HT"
+        else:
+            match_errors.append(csv_error or "No official CSV fallback supplied")
     by = {}
     for m in matches:
         by.setdefault(m["home"], []).append(m); by.setdefault(m["away"], []).append(m)
