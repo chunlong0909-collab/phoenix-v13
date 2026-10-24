@@ -37,9 +37,23 @@ def now(): return datetime.now(timezone.utc).isoformat()
 def pause(): time.sleep(2.0+random.random()*0.5)
 def headers(token): return {'X-Auth-Token':token,'User-Agent':random.choice(UA_LIST),'Accept':'application/json'}
 def api_get(path,token,params=None):
-    pause(); r=S.get(BASE+path,headers=headers(token),params=params,timeout=45)
-    if r.status_code in (401,403,404): return None, f'HTTP {r.status_code}'
-    r.raise_for_status(); return r.json(),None
+    for attempt in range(3):
+        pause(); r=S.get(BASE+path,headers=headers(token),params=params,timeout=45)
+        if r.status_code == 429:
+            # football-data.org's free tier is rate limited. Respect its
+            # Retry-After value (or wait a full minute) instead of aborting
+            # a multi-league batch halfway through.
+            retry_after=r.headers.get('Retry-After')
+            try: wait=max(60,int(retry_after or 60))
+            except ValueError: wait=60
+            if attempt < 2:
+                print(f'RATE_LIMIT {path}; sleeping {wait}s before retry',flush=True)
+                time.sleep(wait); continue
+            return None, 'HTTP 429 after retries'
+        if r.status_code in (401,403,404): return None, f'HTTP {r.status_code}'
+        if r.status_code >= 400: return None, f'HTTP {r.status_code}'
+        return r.json(),None
+    return None,'request retries exhausted'
 
 def competitions(token):
     d,e=api_get('/competitions',token)
