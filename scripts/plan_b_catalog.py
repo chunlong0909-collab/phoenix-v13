@@ -13,11 +13,23 @@ from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from playwright.sync_api import sync_playwright
+except Exception:
+    sync_playwright = None
+
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'catalog'; MATCH_DIR=OUT/'matches'
 UA_LIST=['Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36','Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 Version/17 Safari/605.1.15']
 PHASE1={'英超':5,'澳職':3,'卡塔爾':5}
+BATCHES={
+    2:{'英冠':10,'西甲':10,'德甲':10,'意甲':10,'法甲':10},
+}
 # These are search hints only; teams are always discovered from the response.
 FD_HINTS={'英超':['PL','Premier League'],'西甲':['PD','Primera Division'],'德甲':['BL1','Bundesliga'],'意甲':['SA','Serie A'],'法甲':['FL1','Ligue 1'],'澳職':['APL','A-League','AUS'],'卡塔爾':['QSL','Qatar'],'沙職':['SPL','Saudi']}
+WORLD_URLS={
+    '澳職':'https://www.worldfootball.net/competition/co6/australia-a-league/se103328/2025-2026/results-and-standings/',
+    '卡塔爾':'https://www.worldfootball.net/competition/co833/qatar-stars-league/se97176/2025-2026/results-and-standings/',
+}
 S=requests.Session(); BASE='https://api.football-data.org/v4'
 
 def now(): return datetime.now(timezone.utc).isoformat()
@@ -57,9 +69,44 @@ def api_matches(code,token):
     return out,errors
 
 def worldfootball_fallback(league):
-    # Deliberately conservative: only accept a page when it yields explicit
-    # parenthesized HT values. No guessed URL/team list and no synthetic rows.
-    return [], ['WorldFootball fallback requires a verified competition page for '+league]
+    # Use a real browser because WorldFootball returns a Cloudflare page to
+    # ordinary HTTP clients. Only score strings containing (H:A) are accepted.
+    if not sync_playwright or league not in WORLD_URLS:
+        return [], ['WorldFootball browser fallback unavailable for '+league]
+    try:
+        with sync_playwright() as pw:
+            browser=pw.chromium.launch(headless=True)
+            page=browser.new_page(user_agent=random.choice(UA_LIST))
+            page.goto(WORLD_URLS[league], wait_until='domcontentloaded', timeout=60000)
+            page.wait_for_timeout(5000)
+            hrefs=page.locator('a[href*="/match-report/"]').evaluate_all("els => els.map(e => e.href)")
+            # Collect round pages too, so the current page is not the only round.
+            round_hrefs=page.locator('a[href*="/matchday/"]').evaluate_all("els => els.map(e => e.href)")
+            urls=[]
+            for u in [WORLD_URLS[league]]+round_hrefs:
+                if u not in urls: urls.append(u)
+            for u in urls[:40]:
+                page.goto(u, wait_until='domcontentloaded', timeout=60000); page.wait_for_timeout(1200)
+                hrefs += page.locator('a[href*="/match-report/"]').evaluate_all("els => els.map(e => e.href)")
+            matches=[]; seen=set()
+            for u in hrefs:
+                if u in seen: continue
+                seen.add(u); page.goto(u, wait_until='domcontentloaded', timeout=60000); page.wait_for_timeout(700)
+                text=page.locator('body').inner_text()
+                scores=re.findall(r'(?<!\d)(\d+)\s*:\s*(\d+)\s*\((\d+)\s*:\s*(\d+)\)', text)
+                if not scores: continue
+                ft_h,ft_a,ht_h,ht_a=map(int,scores[0])
+                slug=u.rstrip('/').split('/')[-1]
+                parts=slug.split('_',1)
+                if len(parts)!=2: continue
+                home=parts[0].replace('-',' ').title(); away=parts[1].replace('-',' ').title()
+                date_m=re.search(r'(\d{2})\.(\d{2})\.(\d{4})', text)
+                date=f'{date_m.group(3)}-{date_m.group(2)}-{date_m.group(1)}' if date_m else ''
+                matches.append({'match_id':u.split('/match-report/')[-1],'date':date,'home':home,'away':away,'ft_home':ft_h,'ft_away':ft_a,'ht_home':ht_h,'ht_away':ht_a,'source':'worldfootball.net','explicit_ht':True})
+            browser.close()
+            return matches, [] if matches else ['WorldFootball pages contained no explicit parenthesized HT for '+league]
+    except Exception as exc:
+        return [], ['WorldFootball browser error '+league+': '+str(exc)]
 
 def players_api(team_id,token):
     d,e=api_get(f'/teams/{team_id}',token)
@@ -70,14 +117,22 @@ def players_api(team_id,token):
     return [x for x in out if x['name']][:25]
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--phase1',action='store_true'); ap.add_argument('--leagues',nargs='*'); args=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('--phase1',action='store_true'); ap.add_argument('--batch',type=int); ap.add_argument('--leagues',nargs='*'); args=ap.parse_args()
     token=os.getenv('FOOTBALL_DATA_TOKEN')
     OUT.mkdir(exist_ok=True); MATCH_DIR.mkdir(exist_ok=True)
     report={'season':'2025-2026','source_policy':'football-data.org then WorldFootball; never FBref','updated_at':now(),'leagues':{},'errors':[]}
     if not token:
         report['errors'].append('FOOTBALL_DATA_TOKEN missing in this execution environment')
         (OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n'); print(json.dumps(report,ensure_ascii=False,indent=2)); return 2
-    comps=competitions(token); wanted={x:(PHASE1[x] if args.phase1 else 9999) for x in (args.leagues or PHASE1)}
+    comps=competitions(token)
+    if args.batch is not None:
+        wanted=dict(BATCHES.get(args.batch,{}))
+        if not wanted:
+            report['errors'].append(f'unknown batch: {args.batch}')
+            (OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n'); print(json.dumps(report,ensure_ascii=False,indent=2)); return 2
+    else:
+        wanted={x:(PHASE1[x] if args.phase1 else 9999) for x in (args.leagues or PHASE1)}
+    report['batch']=args.batch or (1 if args.phase1 else None)
     teams=[]; players=[]
     for league,limit in wanted.items():
         code=find_code(league,comps); matches=[]; errors=[]; source='football-data.org'
