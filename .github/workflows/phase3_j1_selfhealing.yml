@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --upgrade pip requests beautifulsoup4 lxml pandas
 
-      - name: Collect J1 with A to B to C fallback
+      - name: Collect J1 with A to B to C to D plus CSV fallback
         continue-on-error: true
         env:
           J1_SELFHEALING: "1"
@@ -48,7 +48,7 @@ jobs:
               raise SystemExit(f'J1 validation failed: teams={len(teams)}, expected 20')
           if len(unique) < 380:
               raise SystemExit(f'J1 validation failed: matches={len(unique)}, expected at least 380')
-          if not sources.intersection({'worldfootball.net', 'transfermarkt.com', 'FBref'}):
+          if not sources.intersection({'worldfootball.net', 'transfermarkt.com', 'FBref', 'jleague.jp/en', 'official-jleague-csv'}):
               raise SystemExit(f'J1 validation failed: unexpected sources={sources}')
           if any(m.get('ft_home') is None or m.get('ft_away') is None for m in rows):
               raise SystemExit('J1 validation failed: missing real FT')
