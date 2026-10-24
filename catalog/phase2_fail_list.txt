@@ -13,3 +13,7 @@
 意甲	Hellas Verona FC	48/36	players=0/25
 意甲	AC Pisa 1909	38/36	players=0/25
 意甲	US Cremonese	38/36	players=0/25
+德甲	1. FC Heidenheim 1846	48/36	players=0/25
+德甲	VfL Wolfsburg	48/36	players=0/25
+德甲	FC St. Pauli 1910	48/36	players=0/25
+德甲	Hamburger SV	34/36	players=25/25
