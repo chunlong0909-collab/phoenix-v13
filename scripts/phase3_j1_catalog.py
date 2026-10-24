@@ -4,10 +4,15 @@ Only accepts explicit FT and HT from football-data.org. Missing HT is skipped;
 no score is inferred and an incomplete team never fails the whole batch.
 """
 from __future__ import annotations
-import argparse, json, os, random, time
+import argparse, json, os, random, re, time
 from datetime import datetime, timezone
 from pathlib import Path
 import requests
+
+try:
+    from playwright.sync_api import sync_playwright
+except Exception:
+    sync_playwright = None
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = ROOT / "catalog"
@@ -27,6 +32,7 @@ J1 = {
     "Albirex Niigata", "Avispa Fukuoka", "Kashiwa Reysol", "Consadole Sapporo",
     "Tokyo Verdy", "Machida Zelvia", "Jubilo Iwata",
 }
+WORLDFOOTBALL_J1 = "https://www.worldfootball.net/competition/co48/japan-j1-league/se63746/2024/results-and-standings/"
 
 S = requests.Session()
 
@@ -96,6 +102,52 @@ def players_for_team(team_id, token):
                     "age": age, "goals": None, "assists": None, "apps": None, "source": "football-data.org"})
     return [x for x in out if x["name"]], None
 
+def worldfootball_matches():
+    """Fallback for J1, which is not exposed by football-data.org.
+
+    Only accepts score strings containing an explicit parenthesized half-time
+    score such as ``2:1 (1:0)``. No half-time score is inferred.
+    """
+    if sync_playwright is None:
+        return [], "Playwright is not installed"
+    matches, seen = [], set()
+    try:
+        with sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            page = browser.new_page(user_agent=random.choice(UA))
+            page.goto(WORLDFOOTBALL_J1, wait_until="domcontentloaded", timeout=60000)
+            page.wait_for_timeout(5000)
+            links = page.locator('a[href*="/match-report/"]').evaluate_all("els => els.map(e => e.href)")
+            for href in links:
+                if href in seen:
+                    continue
+                seen.add(href)
+                page.goto(href, wait_until="domcontentloaded", timeout=60000)
+                page.wait_for_timeout(700)
+                text = page.locator("body").inner_text()
+                score = re.search(r"(?<!\d)(\d+)\s*:\s*(\d+)\s*\((\d+)\s*:\s*(\d+)\)", text)
+                if not score:
+                    continue
+                slug = href.rstrip("/").split("/match-report/")[-1]
+                teams = slug.split("/", 1)[-1].split("_", 1)
+                if len(teams) != 2:
+                    continue
+                date_m = re.search(r"(\d{2})\.(\d{2})\.(\d{4})", text)
+                date = f"{date_m.group(3)}-{date_m.group(2)}-{date_m.group(1)}" if date_m else ""
+                matches.append({
+                    "match_id": href,
+                    "date": date,
+                    "home": teams[0].replace("-", " ").title(),
+                    "away": teams[1].replace("-", " ").title(),
+                    "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
+                    "ht_home": int(score.group(3)), "ht_away": int(score.group(4)),
+                    "explicit_ht": True, "source": "worldfootball.net"
+                })
+            browser.close()
+        return matches, None if matches else "WorldFootball returned no explicit J1 half-time scores"
+    except Exception as exc:
+        return [], f"WorldFootball fallback failed: {exc}"
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--mode", default="real"); args = ap.parse_args()
     if args.mode != "real": raise SystemExit("only --mode real is allowed")
@@ -104,6 +156,15 @@ def main():
     existing = load_existing()
     matches, match_errors = explicit_matches("J1", token)
     current, team_error = teams_for_current("J1", token)
+    source_policy = "football-data.org J1; explicit FT+HT"
+    if not matches:
+        fallback_matches, fallback_error = worldfootball_matches()
+        if fallback_matches:
+            matches = fallback_matches
+            match_errors.append("football-data.org has no J1 competition; used WorldFootball fallback")
+            source_policy = "WorldFootball J1 2024; explicit parenthesized FT+HT"
+        elif fallback_error:
+            match_errors.append(fallback_error)
     by = {}
     for m in matches:
         by.setdefault(m["home"], []).append(m); by.setdefault(m["away"], []).append(m)
@@ -135,12 +196,12 @@ def main():
                       "status": "complete" if len(ms) >= 36 else "incomplete"})
         print(f"J1聯賽 | {wanted} | matches={len(ms)} | players={len(squad)}", flush=True)
     if len(teams) != 20: raise SystemExit(f"expected 20 J1 teams, got {len(teams)}")
-    existing["J1聯賽"] = {"target_teams": 20, "competition_code": "J1", "updated_at": now(), "teams": teams, "errors": errors}
+    existing["J1聯賽"] = {"target_teams": 20, "competition_code": "J1", "updated_at": now(), "teams": teams, "errors": errors, "source_policy": source_policy}
     CATALOG.mkdir(exist_ok=True)
     payload = json.dumps(existing, ensure_ascii=False, indent=2) + "\n"
     SOURCE.write_text(payload, encoding="utf-8")
     OUT.write_text(payload, encoding="utf-8")
-    report = {"phase": 3, "batch": 6, "mode": "real", "source_policy": "football-data.org only; explicit FT+HT; no inferred stats", "updated_at": now(), "leagues": {}}
+    report = {"phase": 3, "batch": 6, "mode": "real", "source_policy": source_policy + "; no inferred stats", "updated_at": now(), "leagues": {}}
     for lg, block in existing.items():
         report["leagues"][lg] = {"teams": len(block["teams"]), "completed_teams": sum(t["status"] == "complete" for t in block["teams"]), "matches": sum(len(t["matches"]) for t in block["teams"]), "players": sum(len(t["players"]) for t in block["teams"])}
     report["totals"] = {"teams": sum(x["teams"] for x in report["leagues"].values()), "matches": sum(x["matches"] for x in report["leagues"].values()), "players": sum(x["players"] for x in report["leagues"].values())}
