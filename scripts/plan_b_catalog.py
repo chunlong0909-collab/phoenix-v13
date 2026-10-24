@@ -120,7 +120,7 @@ def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--phase1',action='store_true'); ap.add_argument('--batch',type=int); ap.add_argument('--leagues',nargs='*'); args=ap.parse_args()
     token=os.getenv('FOOTBALL_DATA_TOKEN')
     OUT.mkdir(exist_ok=True); MATCH_DIR.mkdir(exist_ok=True)
-    report={'season':'2025-2026','source_policy':'football-data.org then WorldFootball; never FBref','updated_at':now(),'leagues':{},'errors':[]}
+    report={'season':'2025-2026 + 2024-2025','source_policy':'football-data.org then WorldFootball; never FBref','updated_at':now(),'leagues':{},'errors':[]}
     if not token:
         report['errors'].append('FOOTBALL_DATA_TOKEN missing in this execution environment')
         (OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n'); print(json.dumps(report,ensure_ascii=False,indent=2)); return 2
@@ -143,7 +143,10 @@ def main():
         for m in matches:
             by.setdefault(m['home'],[]).append(m); by.setdefault(m['away'],[]).append(m)
         names=sorted(by)
-        selected=names[:limit]
+        # Prefer teams with the most explicit-HT matches. This avoids spending
+        # the limited batch slots on newly promoted/relegated teams that cannot
+        # reach 36 matches even after combining both seasons.
+        selected=sorted(names,key=lambda n:(-len(by[n]),n))[:limit]
         info={'competition_code':code,'source':source,'discovered_teams':len(names),'target_teams':len(selected),'teams':[],'errors':errors}
         for name in selected:
             ms=sorted(by[name],key=lambda x:x['date'],reverse=True)[:36]
@@ -155,8 +158,14 @@ def main():
         report['leagues'][league]=info
         if errors: report['errors'].append({'league':league,'errors':errors})
     (OUT/'teams.json').write_text(json.dumps(teams,ensure_ascii=False,indent=2)+'\n')
+    completed=[x for x in teams if x['status']=='complete']
+    incomplete=[x for x in teams if x['status']!='complete']
+    (OUT/'completed_teams.json').write_text(json.dumps(completed,ensure_ascii=False,indent=2)+'\n')
+    (OUT/'fail_list.txt').write_text(''.join(f"{x['league']}\t{x['name']}\t{x['matches']}/36\n" for x in incomplete),encoding='utf-8')
     (OUT/'players.json').write_text(json.dumps(players,ensure_ascii=False,indent=2)+'\n')
-    report['totals']={'teams':len(teams),'players':len(players),'complete_teams':sum(x['status']=='complete' for x in teams)}
+    report['totals']={'teams':len(teams),'players':len(players),'complete_teams':len(completed),'incomplete_teams':len(incomplete)}
+    report['completed_teams_file']='catalog/completed_teams.json'
+    report['fail_list_file']='catalog/fail_list.txt'
     report['accepted_only_explicit_ht']=True
     (OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report,ensure_ascii=False,indent=2))
