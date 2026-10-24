@@ -1,0 +1,32 @@
+{
+  "base_teams": 134,
+  "final_teams": 162,
+  "final_matches": 6978,
+  "ht_policy": "null when source has no HTHG/HTAG",
+  "leagues": [
+    {
+      "league": "土超",
+      "source_rows": 380,
+      "source_teams": 20,
+      "ft_ok": 380,
+      "added_teams": 6,
+      "added_matches": 228
+    },
+    {
+      "league": "比甲",
+      "source_rows": 312,
+      "source_teams": 16,
+      "ft_ok": 312,
+      "added_teams": 6,
+      "added_matches": 242
+    },
+    {
+      "league": "巴甲",
+      "source_rows": 380,
+      "source_teams": 20,
+      "ft_ok": 380,
+      "added_teams": 16,
+      "added_matches": 608
+    }
+  ]
+}
