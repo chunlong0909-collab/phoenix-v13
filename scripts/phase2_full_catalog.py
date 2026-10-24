@@ -124,8 +124,13 @@ def main():
     for lg,data in existing.items():
         failed += [f"{lg}\t{t['name']}\t{t['match_count']}/36\tplayers={t['player_count']}/25" for t in data['teams'] if t['status']!='complete' or t['player_count']<25]
     FAIL.write_text('\n'.join(failed)+ ('\n' if failed else ''),encoding='utf-8')
-    if len(teams)!=target: raise SystemExit(f'expected {target} teams, got {len(teams)}')
-    if any(t['status']!='complete' for t in teams): raise SystemExit('batch has incomplete explicit-HT teams; see phase2_fail_list.txt')
+    if len(teams)!=target:
+        raise SystemExit(f'expected {target} teams, got {len(teams)}')
+    # An individual team may have fewer than 36 real explicit-HT matches
+    # (for example a newly promoted club). Keep the team and its real matches,
+    # list the deficit in phase2_fail_list.txt, and do not fail the whole batch.
+    # Missing HT matches were already skipped in explicit_matches(); no FT is
+    # ever used as an HT estimate.
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
 if __name__=='__main__': main()
