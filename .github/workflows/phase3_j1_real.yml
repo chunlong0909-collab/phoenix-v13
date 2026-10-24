@@ -1,0 +1,71 @@
+name: phoenix-tier1-j1-real-20-teams
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  j1-real:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install playwright beautifulsoup4 lxml requests pandas
+          python -m playwright install chromium --with-deps
+
+      - name: Collect J1 from rendered/API/public sources
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/phase3_j1_catalog.py --mode real
+
+      - name: Strict real-data validation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path('catalog/complete_5_leagues_catalog.json')
+          d=json.loads(p.read_text(encoding='utf-8'))
+          block=d.get('J1聯賽', {})
+          teams=block.get('teams', [])
+          all_matches=[]
+          for t in teams:
+              all_matches.extend(t.get('matches', []))
+          unique={(m.get('match_id'), m.get('date'), m.get('home'), m.get('away')) for m in all_matches}
+          print(f'After fuzzy matching got {len(teams)} teams')
+          print(f'J1 catalog rows={len(all_matches)} unique={len(unique)}')
+          if len(teams) != 20:
+              raise SystemExit(f'J1 strict validation failed: expected 20 teams, got {len(teams)}')
+          if len(unique) < 100:
+              raise SystemExit(f'J1 strict validation failed: too few real rows ({len(unique)})')
+          if not all(m.get('source') and not str(m.get('source')).lower().startswith('placeholder') for m in all_matches):
+              raise SystemExit('J1 strict validation failed: placeholder source detected')
+          out=Path('catalog/complete_5_leagues_catalog.json')
+          if out.stat().st_size <= 100_000:
+              raise SystemExit(f'J1 strict validation failed: catalog too small ({out.stat().st_size} bytes)')
+          print(f'J1_REAL_VALIDATION_OK size={out.stat().st_size} bytes')
+          PY
+          ls -lh catalog/complete_5_leagues_catalog.json
+
+      - name: Commit and rebase push
+        run: |
+          git config user.name "phoenix-auto-bot"
+          git config user.email "auto@phoenix-v13.invalid"
+          git add scripts/phase3_j1_catalog.py .github/workflows/phase3_j1_real.yml catalog/complete_5_leagues_catalog.json catalog/phoenix_FULL_ALL_98teams.json catalog/phase3_j1_report.json catalog/phase3_j1_fail_list.txt
+          git commit -m "phase3 tier1: append real J1 data" || echo "no changes"
+          git config pull.rebase true
+          git pull origin main --rebase
+          git push origin main
