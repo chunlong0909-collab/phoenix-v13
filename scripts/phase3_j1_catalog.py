@@ -179,20 +179,26 @@ def fbref_j1_matches():
     if not rows:
         raise RuntimeError("FBref J1 schedule contained no parseable fixture rows")
     output, seen = [], set()
+    explicit_ht_count = 0
     for row in rows:
         if row["match_id"] in seen:
             continue
         seen.add(row["match_id"])
         pause()
         detail = S.get(row["match_url"], headers=headers, timeout=60)
-        if not detail.ok:
-            continue
-        ht = _explicit_ht(_visible_soup(detail.text).get_text(" ", strip=True))
-        if not ht:
-            continue
-        output.append({k: row[k] for k in ("match_id", "date", "home", "away", "ft_home", "ft_away")}
-                      | {"ht_home": ht[0], "ht_away": ht[1], "explicit_ht": True, "source": "FBref"})
-    return output, None if output else "FBref J1 pages contained no explicit half-time scores"
+        ht = None
+        if detail.ok:
+            ht = _explicit_ht(_visible_soup(detail.text).get_text(" ", strip=True))
+        item = {k: row[k] for k in ("match_id", "date", "home", "away", "ft_home", "ft_away")}
+        if ht:
+            item.update({"ht_home": ht[0], "ht_away": ht[1], "explicit_ht": True})
+            explicit_ht_count += 1
+        else:
+            item.update({"ht_home": None, "ht_away": None, "explicit_ht": False})
+        item["source"] = "FBref"
+        output.append(item)
+    print(f"With explicit HT got {explicit_ht_count} matches", flush=True)
+    return output, None if output else "FBref J1 schedule contained no FT rows"
 
 def worldfootball_matches():
     """Fallback for J1, which is not exposed by football-data.org.
@@ -285,6 +291,7 @@ def main():
             if len(selected) >= 20: break
             selected.append((n, n))
     selected = selected[:20]
+    print(f"After fuzzy matching got {len(selected)} teams: {[x[0] for x in selected]}", flush=True)
     teams, errors = [], list(match_errors)
     if team_error: errors.append(f"teams:{team_error}")
     for wanted, provider_name in selected:
@@ -299,7 +306,10 @@ def main():
                       "matches": ms, "players": squad, "match_count": len(ms), "player_count": len(squad),
                       "status": "complete" if len(ms) >= 36 else "incomplete"})
         print(f"J1聯賽 | {wanted} | matches={len(ms)} | players={len(squad)}", flush=True)
-    if len(teams) != 20: raise SystemExit(f"expected 20 J1 teams, got {len(teams)}")
+    if len(teams) == 0:
+        raise SystemExit("no J1 teams found from available sources")
+    if len(teams) < 20:
+        print(f"WARNING: expected 20 J1 teams, got {len(teams)}; writing partial catalog honestly", flush=True)
     existing["J1聯賽"] = {"target_teams": 20, "competition_code": "J1", "updated_at": now(), "teams": teams, "errors": errors, "source_policy": source_policy}
     CATALOG.mkdir(exist_ok=True)
     payload = json.dumps(existing, ensure_ascii=False, indent=2) + "\n"
