@@ -77160,5 +77160,19 @@
       "Montpellier HSC:players:HTTP 400",
       "Clermont Foot 63:players:HTTP 400"
     ]
+  },
+  "J1聯賽": {
+    "note": "fallback empty",
+    "teams": [],
+    "errors": [
+      "2024:HTTP 404",
+      "2025:HTTP 404",
+      "2023:HTTP 404",
+      "FBref J1 fallback failed: 403 Client Error: Forbidden for url: https://fbref.com/en/comps/25/schedule/",
+      "J.League official page contained no parseable FT rows",
+      "WorldFootball returned no explicit J1 half-time scores",
+      "teams:HTTP 404"
+    ],
+    "updated_at": "2026-10-24T10:30:40.397633+00:00"
   }
 }

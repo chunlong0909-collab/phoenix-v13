@@ -1,0 +1,10 @@
+{
+  "phase": 3,
+  "batch": 6,
+  "warning": "fallback empty",
+  "totals": {
+    "teams": 0,
+    "matches": 0,
+    "players": 0
+  }
+}
