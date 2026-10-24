@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       batch:
-        description: "批次編號；2=英冠/西甲/德甲/意甲/法甲各10隊"
+        description: "批次編號；3=巴甲10+英超10+意甲10+西甲13+德甲10+法甲10"
         required: true
-        default: "2"
+        default: "3"
   schedule:
     # 每3小時執行一次；GitHub cron 使用 UTC
     - cron: "0 */3 * * *"
@@ -36,7 +36,7 @@ jobs:
       - name: Build Plan B real cross-season catalog
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: python scripts/plan_b_catalog.py --batch "${{ inputs.batch || '2' }}" --mode real
+        run: python scripts/plan_b_catalog.py --batch "${{ inputs.batch || '3' }}" --mode real
 
       - name: Validate Plan B produced real teams and explicit HT
         run: |
@@ -46,7 +46,11 @@ jobs:
           assert r['season'] == '2025-2026 + 2024-2025'
           assert r['mode'] == 'real'
           assert r['source_policy'].startswith('football-data.org')
-          assert r['totals']['complete_teams'] >= 40, r['totals']
+          assert r['totals']['complete_teams'] == 63, r['totals']
+          assert r['totals']['teams'] == 63, r['totals']
+          expected = {'巴甲': 10, '英超': 10, '意甲': 10, '西甲': 13, '德甲': 10, '法甲': 10}
+          actual = {k: v['target_teams'] for k, v in r['leagues'].items()}
+          assert actual == expected, actual
           assert r['totals']['incomplete_teams'] == r['totals']['teams'] - r['totals']['complete_teams']
           assert __import__('os').path.exists('catalog/fail_list.txt')
           assert __import__('os').path.exists('catalog/completed_teams.json')
@@ -57,23 +61,12 @@ jobs:
 
       - name: Package verified batch
         run: |
-          BATCH="${{ inputs.batch || '2' }}"
-          zip -qr "phoenix_TRUE_FINAL_v${BATCH}.zip" catalog
-
-      - name: Upload verified ZIP and failure list
-        uses: actions/upload-artifact@v4
-        with:
-          name: phoenix_TRUE_FINAL_v${{ inputs.batch || '2' }}
-          path: |
-            phoenix_TRUE_FINAL_v${{ inputs.batch || '2' }}.zip
-            catalog/fail_list.txt
-          if-no-files-found: error
-          retention-days: 14
+          zip -qr phoenix_TRUE_FINAL_v2_plus23.zip catalog
 
       - name: Commit checkpoint and real data
         run: |
           git config user.name "phoenix-auto-bot"
           git config user.email "auto@phoenix-v13.invalid"
-          git add catalog "phoenix_TRUE_FINAL_v${{ inputs.batch || '2' }}.zip" scripts/plan_b_catalog.py .github/workflows/auto_complete.yml
-          git commit -m "auto: Plan B football-data catalog with explicit HT $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
+          git add catalog phoenix_TRUE_FINAL_v2_plus23.zip scripts/plan_b_catalog.py .github/workflows/auto_complete.yml
+          git commit -m "day2: add 23 teams and fix league labels $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
           git push origin main
