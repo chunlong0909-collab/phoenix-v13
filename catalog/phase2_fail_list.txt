@@ -1,0 +1,4 @@
+英超	Everton FC	48/36	players=22/25
+英超	Manchester City FC	48/36	players=24/25
+英超	Nottingham Forest FC	48/36	players=23/25
+英超	Leeds United FC	38/36	players=24/25

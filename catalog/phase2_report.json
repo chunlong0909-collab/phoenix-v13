@@ -1,0 +1,23 @@
+{
+  "phase": 2,
+  "mode": "real",
+  "source_policy": "football-data.org only; explicit FT+HT; no inferred stats",
+  "updated_at": "2026-10-24T02:56:21.265614+00:00",
+  "batch": 1,
+  "leagues": {
+    "英超": {
+      "target_teams": 20,
+      "completed_teams": 20,
+      "teams": 20,
+      "matches": 930,
+      "players": 493
+    }
+  },
+  "totals": {
+    "teams": 20,
+    "target_teams": 98,
+    "complete_teams": 20,
+    "matches": 930,
+    "players": 493
+  }
+}
