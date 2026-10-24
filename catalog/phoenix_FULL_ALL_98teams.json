@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-10-24T02:56:21.249058+00:00",
+    "updated_at": "2026-10-24T07:20:22.642020+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -14650,6 +14650,126 @@
             "ht_away": 0,
             "explicit_ht": true,
             "source": "football-data.org"
+          },
+          {
+            "match_id": "436316",
+            "date": "2024-05-19",
+            "home": "Burnley FC",
+            "away": "Nottingham Forest FC",
+            "ft_home": 1,
+            "ft_away": 2,
+            "ht_home": 0,
+            "ht_away": 2,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436310",
+            "date": "2024-05-11",
+            "home": "Tottenham Hotspur FC",
+            "away": "Burnley FC",
+            "ft_home": 2,
+            "ft_away": 1,
+            "ht_home": 1,
+            "ht_away": 1,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436296",
+            "date": "2024-05-04",
+            "home": "Burnley FC",
+            "away": "Newcastle United FC",
+            "ft_home": 1,
+            "ft_away": 4,
+            "ht_home": 0,
+            "ht_away": 3,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436287",
+            "date": "2024-04-27",
+            "home": "Manchester United FC",
+            "away": "Burnley FC",
+            "ft_home": 1,
+            "ft_away": 1,
+            "ht_home": 0,
+            "ht_away": 0,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436280",
+            "date": "2024-04-20",
+            "home": "Sheffield United FC",
+            "away": "Burnley FC",
+            "ft_home": 1,
+            "ft_away": 4,
+            "ht_home": 0,
+            "ht_away": 2,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436266",
+            "date": "2024-04-13",
+            "home": "Burnley FC",
+            "away": "Brighton & Hove Albion FC",
+            "ft_home": 1,
+            "ft_away": 1,
+            "ht_home": 0,
+            "ht_away": 0,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436256",
+            "date": "2024-04-06",
+            "home": "Everton FC",
+            "away": "Burnley FC",
+            "ft_home": 1,
+            "ft_away": 0,
+            "ht_home": 1,
+            "ht_away": 0,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436246",
+            "date": "2024-04-02",
+            "home": "Burnley FC",
+            "away": "Wolverhampton Wanderers FC",
+            "ft_home": 1,
+            "ft_away": 1,
+            "ht_home": 1,
+            "ht_away": 1,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436236",
+            "date": "2024-03-30",
+            "home": "Chelsea FC",
+            "away": "Burnley FC",
+            "ft_home": 2,
+            "ft_away": 2,
+            "ht_home": 1,
+            "ht_away": 0,
+            "explicit_ht": true,
+            "source": "football-data.org"
+          },
+          {
+            "match_id": "436225",
+            "date": "2024-03-16",
+            "home": "Burnley FC",
+            "away": "Brentford FC",
+            "ft_home": 2,
+            "ft_away": 1,
+            "ht_home": 1,
+            "ht_away": 0,
+            "explicit_ht": true,
+            "source": "football-data.org"
           }
         ],
         "players": [
@@ -14904,7 +15024,7 @@
             "source": "football-data.org"
           }
         ],
-        "match_count": 38,
+        "match_count": 48,
         "player_count": 25,
         "status": "complete"
       },
