@@ -1,0 +1,58 @@
+name: phoenix-tier1-j1-20-teams
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  j1-catalog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests
+
+      - name: Collect J1 20 teams with explicit FT and HT
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/phase3_j1_catalog.py --mode real
+
+      - name: Validate appended catalog
+        run: |
+          python - <<'PY'
+          import json, os
+          p='catalog/complete_5_leagues_catalog.json'
+          d=json.load(open(p))
+          assert 'J1聯賽' in d
+          assert len(d['J1聯賽']['teams']) == 20
+          assert sum(len(x['teams']) for x in d.values()) >= 118
+          for block in d.values():
+              for team in block['teams']:
+                  assert team['match_count'] == len(team['matches'])
+                  for m in team['matches']:
+                      assert m['explicit_ht'] is True
+                      assert all(m.get(k) is not None for k in ('ft_home','ft_away','ht_home','ht_away'))
+          print('J1_VALIDATION_OK', len(d['J1聯賽']['teams']))
+          PY
+
+      - name: Commit and rebase push
+        run: |
+          git config user.name "phoenix-auto-bot"
+          git config user.email "auto@phoenix-v13.invalid"
+          git add scripts/phase3_j1_catalog.py .github/workflows/phase3_j1.yml catalog/complete_5_leagues_catalog.json catalog/phoenix_FULL_ALL_98teams.json catalog/phase3_j1_report.json catalog/phase3_j1_fail_list.txt
+          git commit -m "phase3 tier1: append J1 20 teams" || echo "no changes"
+          git config pull.rebase true
+          git pull origin main --rebase
+          git push origin main
