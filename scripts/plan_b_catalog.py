@@ -117,10 +117,10 @@ def players_api(team_id,token):
     return [x for x in out if x['name']][:25]
 
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--phase1',action='store_true'); ap.add_argument('--batch',type=int); ap.add_argument('--leagues',nargs='*'); args=ap.parse_args()
+    ap=argparse.ArgumentParser(); ap.add_argument('--phase1',action='store_true'); ap.add_argument('--batch',type=int); ap.add_argument('--leagues',nargs='*'); ap.add_argument('--mode',choices=['real'],required=True,help='Only real network collection is allowed'); args=ap.parse_args()
     token=os.getenv('FOOTBALL_DATA_TOKEN')
     OUT.mkdir(exist_ok=True); MATCH_DIR.mkdir(exist_ok=True)
-    report={'season':'2025-2026 + 2024-2025','source_policy':'football-data.org then WorldFootball; never FBref','updated_at':now(),'leagues':{},'errors':[]}
+    report={'season':'2025-2026 + 2024-2025','source_policy':'football-data.org then WorldFootball; never FBref','updated_at':now(),'mode':args.mode,'leagues':{},'errors':[]}
     if not token:
         report['errors'].append('FOOTBALL_DATA_TOKEN missing in this execution environment')
         (OUT/'report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n'); print(json.dumps(report,ensure_ascii=False,indent=2)); return 2
