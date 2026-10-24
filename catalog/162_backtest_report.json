@@ -3,12 +3,12 @@
   "train_cutoff_exclusive": "2023-08-01",
   "test_period": "2023-08-01..2024-07-31",
   "min_sample_for_full_status": 100,
-  "catalog_total_teams": 186,
-  "catalog_match_rows": 15030,
-  "unique_ft_matches": 10491,
+  "catalog_total_teams": 230,
+  "catalog_match_rows": 19815,
+  "unique_ft_matches": 13167,
   "ft_invalid_rows": 0,
-  "train_matches_total": 6036,
-  "test_matches_total": 1572,
+  "train_matches_total": 7651,
+  "test_matches_total": 2233,
   "rho_by_league": {
     "英超": 0.04,
     "西甲": 0.035,
@@ -21,7 +21,10 @@
     "比甲": -0.48,
     "巴甲": -0.445,
     "奧甲": -0.135,
-    "瑞士超": -0.5
+    "瑞士超": -0.5,
+    "挪超": 0.48,
+    "瑞典超": -0.04,
+    "丹超": -0.075
   },
   "league_reports": {
     "英超": {
@@ -266,6 +269,63 @@
       "train_matches": 375,
       "rho": -0.5,
       "test_period": "2023-08-01..2024-07-31"
+    },
+    "挪超": {
+      "sample_size": 240,
+      "accuracy": 0.45,
+      "over25_accuracy": 0.5666666666666667,
+      "precision": {
+        "home": 0.39805825242718446,
+        "draw": 0.0,
+        "away": 0.8170731707317073
+      },
+      "class_samples": {
+        "home": 103,
+        "away": 82,
+        "draw": 55
+      },
+      "status": "可評估",
+      "train_matches": 611,
+      "rho": 0.48,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "瑞典超": {
+      "sample_size": 232,
+      "accuracy": 0.4396551724137931,
+      "over25_accuracy": 0.5431034482758621,
+      "precision": {
+        "home": 0.4051724137931034,
+        "draw": 0.0,
+        "away": 0.6875
+      },
+      "class_samples": {
+        "draw": 36,
+        "home": 116,
+        "away": 80
+      },
+      "status": "可評估",
+      "train_matches": 610,
+      "rho": -0.04,
+      "test_period": "2023-08-01..2024-07-31"
+    },
+    "丹超": {
+      "sample_size": 189,
+      "accuracy": 0.4656084656084656,
+      "over25_accuracy": 0.5714285714285714,
+      "precision": {
+        "home": 0.5714285714285714,
+        "draw": 0.0,
+        "away": 0.6984126984126984
+      },
+      "class_samples": {
+        "home": 77,
+        "away": 63,
+        "draw": 49
+      },
+      "status": "可評估",
+      "train_matches": 394,
+      "rho": -0.075,
+      "test_period": "2023-08-01..2024-07-31"
     }
   },
   "group_reports": {
@@ -280,13 +340,13 @@
       },
       "status": "可評估",
       "leagues_included": [
-        "西甲",
-        "葡超",
-        "意甲",
-        "荷甲",
+        "德甲",
         "法甲",
+        "葡超",
         "英超",
-        "德甲"
+        "西甲",
+        "意甲",
+        "荷甲"
       ]
     },
     "新增土超6隊": {
@@ -357,6 +417,48 @@
       "status": "可評估",
       "leagues_included": [
         "瑞士超"
+      ]
+    },
+    "新增挪超16隊": {
+      "sample_size": 240,
+      "accuracy": 0.45,
+      "over25_accuracy": 0.5666666666666667,
+      "precision": {
+        "home": 0.39805825242718446,
+        "draw": 0.0,
+        "away": 0.8170731707317073
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "挪超"
+      ]
+    },
+    "新增瑞典超16隊": {
+      "sample_size": 232,
+      "accuracy": 0.4396551724137931,
+      "over25_accuracy": 0.5431034482758621,
+      "precision": {
+        "home": 0.4051724137931034,
+        "draw": 0.0,
+        "away": 0.6875
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "瑞典超"
+      ]
+    },
+    "新增丹超12隊": {
+      "sample_size": 189,
+      "accuracy": 0.4656084656084656,
+      "over25_accuracy": 0.5714285714285714,
+      "precision": {
+        "home": 0.5714285714285714,
+        "draw": 0.0,
+        "away": 0.6984126984126984
+      },
+      "status": "可評估",
+      "leagues_included": [
+        "丹超"
       ]
     }
   },

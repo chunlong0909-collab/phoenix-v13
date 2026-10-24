@@ -1,0 +1,22 @@
+{
+  "base_teams": 186,
+  "added_teams": 44,
+  "total_teams": 230,
+  "base_catalog_rows": 15030,
+  "catalog_rows": 19815,
+  "unique_ft_matches": 13386,
+  "ft_invalid_rows": 0,
+  "new_ht_nonnull_rows": 0,
+  "ht_policy": "null; no imputation",
+  "source_seasons": [
+    "2021/2022",
+    "2022/2023",
+    "2023/2024",
+    "2024/2025"
+  ],
+  "sources": {
+    "挪超": "https://football-data.co.uk/new/NOR.csv",
+    "瑞典超": "https://football-data.co.uk/new/SWE.csv",
+    "丹超": "https://football-data.co.uk/new/DNK.csv"
+  }
+}
