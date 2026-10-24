@@ -1,0 +1,68 @@
+name: phoenix-tier1-j1-selfhealing
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  j1-selfhealing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests beautifulsoup4 lxml pandas
+
+      - name: Collect J1 with A to B to C fallback
+        continue-on-error: true
+        env:
+          J1_SELFHEALING: "1"
+        run: python scripts/phase3_j1_catalog.py --mode real
+
+      - name: Strict validation before any push
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path('catalog/complete_5_leagues_catalog.json')
+          if not p.exists():
+              raise SystemExit('J1 validation failed: catalog was not produced')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          block = data.get('J1聯賽', {})
+          teams = block.get('teams', [])
+          rows = [m for t in teams for m in t.get('matches', [])]
+          unique = {(m.get('match_id'), m.get('date'), m.get('home'), m.get('away'), m.get('ft_home'), m.get('ft_away')) for m in rows}
+          sources = {m.get('source') for m in rows}
+          print(f'Using source {block.get("source_policy", "unknown")}, rows={len(unique)}')
+          print(f'teams={len(teams)} matches={len(unique)} file={p.stat().st_size}')
+          if len(teams) != 20:
+              raise SystemExit(f'J1 validation failed: teams={len(teams)}, expected 20')
+          if len(unique) < 380:
+              raise SystemExit(f'J1 validation failed: matches={len(unique)}, expected at least 380')
+          if not sources.intersection({'worldfootball.net', 'transfermarkt.com', 'FBref'}):
+              raise SystemExit(f'J1 validation failed: unexpected sources={sources}')
+          if any(m.get('ft_home') is None or m.get('ft_away') is None for m in rows):
+              raise SystemExit('J1 validation failed: missing real FT')
+          if p.stat().st_size <= 50_000:
+              raise SystemExit(f'J1 validation failed: file too small ({p.stat().st_size} bytes)')
+          print('J1_SELFHEALING_VALIDATION_OK')
+          PY
+
+      - name: Commit only after strict validation
+        run: |
+          git config user.name "phoenix-auto-bot"
+          git config user.email "auto@phoenix-v13.invalid"
+          git add scripts/phase3_j1_catalog.py .github/workflows/phase3_j1_selfhealing.yml catalog/complete_5_leagues_catalog.json catalog/phoenix_FULL_ALL_98teams.json catalog/phase3_j1_report.json catalog/phase3_j1_fail_list.txt
+          git commit -m "phase3 tier1: append J1 with self-healing sources"
+          git config pull.rebase true
+          git pull origin main --rebase
+          git push origin main
