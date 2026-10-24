@@ -1,10 +1,10 @@
 {
   "league_id": "bundesliga",
   "name_zh": "德甲",
-  "updated_at": "2026-10-23T20:24:58.597415+00:00",
+  "updated_at": "2026-10-24T20:19:08.565219+00:00",
   "fixtures": 918,
   "teams": 23,
-  "players": 690,
+  "players": 691,
   "corner_fixtures": 917,
   "sources": [
     "football-data.co.uk"

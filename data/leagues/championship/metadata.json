@@ -1,10 +1,10 @@
 {
   "league_id": "championship",
   "name_zh": "英冠",
-  "updated_at": "2026-10-23T20:17:39.418316+00:00",
+  "updated_at": "2026-10-24T20:11:51.221781+00:00",
   "fixtures": 1656,
   "teams": 35,
-  "players": 1097,
+  "players": 1099,
   "corner_fixtures": 1656,
   "sources": [
     "football-data.co.uk"

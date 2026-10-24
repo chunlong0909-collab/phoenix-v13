@@ -1,10 +1,10 @@
 {
   "league_id": "eredivisie",
   "name_zh": "荷甲",
-  "updated_at": "2026-10-23T20:25:36.209389+00:00",
+  "updated_at": "2026-10-24T20:19:46.657262+00:00",
   "fixtures": 918,
   "teams": 24,
-  "players": 734,
+  "players": 735,
   "corner_fixtures": 918,
   "sources": [
     "football-data.co.uk"

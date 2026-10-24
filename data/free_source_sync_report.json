@@ -2,7 +2,7 @@
   {
     "league_id": "epl",
     "name_zh": "英超",
-    "updated_at": "2026-10-23T20:17:24.390076+00:00",
+    "updated_at": "2026-10-24T20:11:36.470906+00:00",
     "fixtures": 1140,
     "teams": 25,
     "players": 771,
@@ -16,10 +16,10 @@
   {
     "league_id": "championship",
     "name_zh": "英冠",
-    "updated_at": "2026-10-23T20:17:39.418316+00:00",
+    "updated_at": "2026-10-24T20:11:51.221781+00:00",
     "fixtures": 1656,
     "teams": 35,
-    "players": 1097,
+    "players": 1099,
     "corner_fixtures": 1656,
     "sources": [
       "football-data.co.uk"
@@ -30,7 +30,7 @@
   {
     "league_id": "laliga",
     "name_zh": "西甲",
-    "updated_at": "2026-10-23T20:21:11.812163+00:00",
+    "updated_at": "2026-10-24T20:15:22.931053+00:00",
     "fixtures": 1140,
     "teams": 26,
     "players": 835,
@@ -44,10 +44,10 @@
   {
     "league_id": "laliga2",
     "name_zh": "西乙",
-    "updated_at": "2026-10-23T20:21:27.464971+00:00",
+    "updated_at": "2026-10-24T20:15:38.368576+00:00",
     "fixtures": 1386,
     "teams": 37,
-    "players": 1098,
+    "players": 1100,
     "corner_fixtures": 1386,
     "sources": [
       "football-data.co.uk"
@@ -58,10 +58,10 @@
   {
     "league_id": "bundesliga",
     "name_zh": "德甲",
-    "updated_at": "2026-10-23T20:24:58.597415+00:00",
+    "updated_at": "2026-10-24T20:19:08.565219+00:00",
     "fixtures": 918,
     "teams": 23,
-    "players": 690,
+    "players": 691,
     "corner_fixtures": 917,
     "sources": [
       "football-data.co.uk"
@@ -72,7 +72,7 @@
   {
     "league_id": "bundesliga2",
     "name_zh": "德乙",
-    "updated_at": "2026-10-23T20:25:10.955880+00:00",
+    "updated_at": "2026-10-24T20:19:21.160091+00:00",
     "fixtures": 918,
     "teams": 28,
     "players": 841,
@@ -86,7 +86,7 @@
   {
     "league_id": "ligue2",
     "name_zh": "法乙",
-    "updated_at": "2026-10-23T20:25:25.223199+00:00",
+    "updated_at": "2026-10-24T20:19:35.808773+00:00",
     "fixtures": 990,
     "teams": 35,
     "players": 1088,
@@ -100,10 +100,10 @@
   {
     "league_id": "eredivisie",
     "name_zh": "荷甲",
-    "updated_at": "2026-10-23T20:25:36.209389+00:00",
+    "updated_at": "2026-10-24T20:19:46.657262+00:00",
     "fixtures": 918,
     "teams": 24,
-    "players": 734,
+    "players": 735,
     "corner_fixtures": 918,
     "sources": [
       "football-data.co.uk"
@@ -114,10 +114,10 @@
   {
     "league_id": "eerste",
     "name_zh": "荷乙",
-    "updated_at": "2026-10-23T20:25:45.167860+00:00",
+    "updated_at": "2026-10-24T20:19:55.884615+00:00",
     "fixtures": 1173,
     "teams": 27,
-    "players": 886,
+    "players": 887,
     "corner_fixtures": 0,
     "sources": [
       "ESPN scoreboard"
@@ -128,10 +128,10 @@
   {
     "league_id": "scottish-prem",
     "name_zh": "蘇超",
-    "updated_at": "2026-10-23T20:25:53.142759+00:00",
+    "updated_at": "2026-10-24T20:20:03.772638+00:00",
     "fixtures": 684,
     "teams": 14,
-    "players": 420,
+    "players": 419,
     "corner_fixtures": 684,
     "sources": [
       "football-data.co.uk"
@@ -142,10 +142,10 @@
   {
     "league_id": "austrian-bundesliga",
     "name_zh": "奧甲",
-    "updated_at": "2026-10-23T20:25:57.591247+00:00",
+    "updated_at": "2026-10-24T20:20:08.324812+00:00",
     "fixtures": 591,
     "teams": 14,
-    "players": 421,
+    "players": 422,
     "corner_fixtures": 0,
     "sources": [
       "ESPN scoreboard"
@@ -156,7 +156,7 @@
   {
     "league_id": "danish-superliga",
     "name_zh": "丹超",
-    "updated_at": "2026-10-23T20:26:02.679479+00:00",
+    "updated_at": "2026-10-24T20:20:13.858476+00:00",
     "fixtures": 585,
     "teams": 16,
     "players": 445,
@@ -170,7 +170,7 @@
   {
     "league_id": "a-league",
     "name_zh": "澳職",
-    "updated_at": "2026-10-23T20:26:06.918930+00:00",
+    "updated_at": "2026-10-24T20:20:18.269407+00:00",
     "fixtures": 513,
     "teams": 13,
     "players": 366,
@@ -184,7 +184,7 @@
   {
     "league_id": "a-league-women",
     "name_zh": "女子澳職",
-    "updated_at": "2026-10-23T20:26:07.334252+00:00",
+    "updated_at": "2026-10-24T20:20:18.743980+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -196,7 +196,7 @@
   {
     "league_id": "australia-cup",
     "name_zh": "澳洲盃",
-    "updated_at": "2026-10-23T20:26:07.874249+00:00",
+    "updated_at": "2026-10-24T20:20:19.259874+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -208,7 +208,7 @@
   {
     "league_id": "j1",
     "name_zh": "日職J1",
-    "updated_at": "2026-10-23T20:26:15.102752+00:00",
+    "updated_at": "2026-10-24T20:20:26.588889+00:00",
     "fixtures": 1066,
     "teams": 23,
     "players": 851,
@@ -222,7 +222,7 @@
   {
     "league_id": "j2",
     "name_zh": "日乙J2",
-    "updated_at": "2026-10-23T20:26:15.142798+00:00",
+    "updated_at": "2026-10-24T20:20:26.627296+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -234,7 +234,7 @@
   {
     "league_id": "k1",
     "name_zh": "韓職K1",
-    "updated_at": "2026-10-23T20:26:15.851410+00:00",
+    "updated_at": "2026-10-24T20:20:27.143475+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -246,7 +246,7 @@
   {
     "league_id": "k2",
     "name_zh": "韓乙K2",
-    "updated_at": "2026-10-23T20:26:16.620755+00:00",
+    "updated_at": "2026-10-24T20:20:28.123024+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -258,7 +258,7 @@
   {
     "league_id": "saudi-pro",
     "name_zh": "沙職",
-    "updated_at": "2026-10-23T20:26:17.196611+00:00",
+    "updated_at": "2026-10-24T20:20:28.690624+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -270,7 +270,7 @@
   {
     "league_id": "qatar-stars",
     "name_zh": "卡塔爾",
-    "updated_at": "2026-10-23T20:26:17.868245+00:00",
+    "updated_at": "2026-10-24T20:20:29.121274+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -282,7 +282,7 @@
   {
     "league_id": "uae-pro",
     "name_zh": "阿聯酋",
-    "updated_at": "2026-10-23T20:26:18.389308+00:00",
+    "updated_at": "2026-10-24T20:20:29.509442+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -294,7 +294,7 @@
   {
     "league_id": "thai-league1",
     "name_zh": "泰甲",
-    "updated_at": "2026-10-23T20:26:26.855618+00:00",
+    "updated_at": "2026-10-24T20:20:37.470967+00:00",
     "fixtures": 720,
     "teams": 22,
     "players": 0,
@@ -308,7 +308,7 @@
   {
     "league_id": "veikkausliiga",
     "name_zh": "芬超",
-    "updated_at": "2026-10-23T20:26:27.517150+00:00",
+    "updated_at": "2026-10-24T20:20:37.895075+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -320,10 +320,10 @@
   {
     "league_id": "eliteserien",
     "name_zh": "挪超",
-    "updated_at": "2026-10-23T20:26:35.154232+00:00",
+    "updated_at": "2026-10-24T20:20:44.229562+00:00",
     "fixtures": 720,
     "teams": 20,
-    "players": 616,
+    "players": 619,
     "corner_fixtures": 0,
     "sources": [
       "ESPN scoreboard"
@@ -334,7 +334,7 @@
   {
     "league_id": "russian-prem",
     "name_zh": "俄超",
-    "updated_at": "2026-10-23T20:26:43.152871+00:00",
+    "updated_at": "2026-10-24T20:20:51.468058+00:00",
     "fixtures": 728,
     "teams": 20,
     "players": 574,
@@ -348,7 +348,7 @@
   {
     "league_id": "liga-mx",
     "name_zh": "墨超",
-    "updated_at": "2026-10-23T20:26:51.028337+00:00",
+    "updated_at": "2026-10-24T20:20:57.624703+00:00",
     "fixtures": 1021,
     "teams": 18,
     "players": 586,
@@ -362,7 +362,7 @@
   {
     "league_id": "expansion-mx",
     "name_zh": "墨甲",
-    "updated_at": "2026-10-23T20:26:58.450600+00:00",
+    "updated_at": "2026-10-24T20:21:04.607597+00:00",
     "fixtures": 778,
     "teams": 20,
     "players": 453,
@@ -376,7 +376,7 @@
   {
     "league_id": "argentina-primera",
     "name_zh": "阿甲",
-    "updated_at": "2026-10-23T20:27:08.588613+00:00",
+    "updated_at": "2026-10-24T20:21:15.269272+00:00",
     "fixtures": 1266,
     "teams": 32,
     "players": 1115,
@@ -390,7 +390,7 @@
   {
     "league_id": "serie-a",
     "name_zh": "巴甲",
-    "updated_at": "2026-10-23T20:27:20.564781+00:00",
+    "updated_at": "2026-10-24T20:21:26.953919+00:00",
     "fixtures": 1140,
     "teams": 27,
     "players": 1247,
@@ -404,7 +404,7 @@
   {
     "league_id": "serie-b",
     "name_zh": "巴乙",
-    "updated_at": "2026-10-23T20:27:32.075513+00:00",
+    "updated_at": "2026-10-24T20:21:39.202451+00:00",
     "fixtures": 1140,
     "teams": 34,
     "players": 1536,
@@ -418,10 +418,10 @@
   {
     "league_id": "uruguay-primera",
     "name_zh": "烏拉圭甲",
-    "updated_at": "2026-10-23T20:27:38.311086+00:00",
+    "updated_at": "2026-10-24T20:21:45.506593+00:00",
     "fixtures": 897,
     "teams": 20,
-    "players": 580,
+    "players": 582,
     "corner_fixtures": 0,
     "sources": [
       "ESPN scoreboard"
@@ -432,7 +432,7 @@
   {
     "league_id": "toppserien",
     "name_zh": "女子挪超",
-    "updated_at": "2026-10-23T20:27:38.793171+00:00",
+    "updated_at": "2026-10-24T20:21:45.982999+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
@@ -444,7 +444,7 @@
   {
     "league_id": "libertadores-femenina",
     "name_zh": "女子南美自由盃",
-    "updated_at": "2026-10-23T20:27:38.796329+00:00",
+    "updated_at": "2026-10-24T20:21:45.986177+00:00",
     "fixtures": 0,
     "teams": 0,
     "players": 0,
