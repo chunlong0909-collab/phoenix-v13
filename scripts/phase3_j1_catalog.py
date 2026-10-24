@@ -4,10 +4,12 @@ Only accepts explicit FT and HT from football-data.org. Missing HT is skipped;
 no score is inferred and an incomplete team never fails the whole batch.
 """
 from __future__ import annotations
-import argparse, json, os, random, re, time
+import argparse, difflib, json, os, random, re, time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin
 import requests
+from bs4 import BeautifulSoup, Comment
 
 try:
     from playwright.sync_api import sync_playwright
@@ -32,7 +34,8 @@ J1 = {
     "Albirex Niigata", "Avispa Fukuoka", "Kashiwa Reysol", "Consadole Sapporo",
     "Tokyo Verdy", "Machida Zelvia", "Jubilo Iwata",
 }
-WORLDFOOTBALL_J1 = "https://www.worldfootball.net/competition/co48/japan-j1-league/se63746/2024/results-and-standings/"
+FBREF_J1_2024 = "https://fbref.com/en/comps/25/2024/2024-J1-League-Stats"
+WORLDFOOTBALL_J1 = "https://www.worldfootball.net/competition/co48/japan-j1-league/"
 
 S = requests.Session()
 
@@ -102,6 +105,91 @@ def players_for_team(team_id, token):
                     "age": age, "goals": None, "assists": None, "apps": None, "source": "football-data.org"})
     return [x for x in out if x["name"]], None
 
+def _visible_soup(html):
+    soup = BeautifulSoup(html, "html.parser")
+    for comment in soup.find_all(string=lambda x: isinstance(x, Comment)):
+        if "<table" in comment or "stats_table" in comment:
+            comment.replace_with(BeautifulSoup(comment, "html.parser"))
+    return soup
+
+def _explicit_ht(text):
+    for pattern in (
+        r"\(\s*(\d+)\s*[:\-]\s*(\d+)\s*\)",
+        r"\bHT\b[^0-9]*(\d+)\s*[:\-]\s*(\d+)",
+        r"\bhalf.?time\b[^0-9]*(\d+)\s*[:\-]\s*(\d+)",
+    ):
+        match = re.search(pattern, text or "", re.I)
+        if match:
+            return int(match.group(1)), int(match.group(2))
+    return None
+
+def _fuzzy_key(name):
+    value = re.sub(r"[^a-z0-9]", "", (name or "").lower())
+    aliases = {
+        "urawarediamonds": "urawareds",
+        "yokohamafmarinos": "yokohamafmarinos",
+        "kashimaantlers": "kashimaantlers",
+        "kawasaki": "kawasakifrontale",
+        "fc tokyo".replace(" ", ""): "fctokyo",
+        "machidazelvia": "machidazelvia",
+        "jubilo iwata".replace(" ", ""): "jubilo iwata".replace(" ", ""),
+    }
+    return aliases.get(value, value)
+
+def _fuzzy_provider_name(wanted, provider_names):
+    wanted_key = _fuzzy_key(wanted)
+    if wanted_key in {_fuzzy_key(x) for x in provider_names}:
+        return next(x for x in provider_names if _fuzzy_key(x) == wanted_key)
+    for candidate in provider_names:
+        a, b = wanted_key, _fuzzy_key(candidate)
+        if a in b or b in a or difflib.SequenceMatcher(None, a, b).ratio() >= 0.72:
+            return candidate
+    return None
+
+def fbref_j1_matches():
+    """Read J1 2024 from FBref using requests/BeautifulSoup only.
+
+    FT comes from the schedule table; HT is accepted only from an explicit
+    bracket/HT label on the match page. No score is ever inferred.
+    """
+    headers = {"User-Agent": random.choice(UA), "Accept-Language": "en-US,en;q=0.9"}
+    response = S.get(FBREF_J1_2024, headers=headers, timeout=60)
+    response.raise_for_status()
+    if len(response.text) < 1000 or "Just a moment" in response.text:
+        raise RuntimeError("FBref returned a challenge or empty page")
+    soup = _visible_soup(response.text)
+    rows = []
+    for tr in soup.select("tr"):
+        cells = {node.get("data-stat"): node.get_text(" ", strip=True) for node in tr.select("[data-stat]")}
+        home, away, score = cells.get("home_team"), cells.get("away_team"), cells.get("score")
+        link = tr.select_one('a[href*="/en/matches/"]')
+        date = cells.get("date") or cells.get("datetime")
+        if not (home and away and score and link and date):
+            continue
+        ft = re.search(r"(\d+)\s*[–—-:]\s*(\d+)", score)
+        if not ft:
+            continue
+        rows.append({"match_id": urljoin("https://fbref.com", link.get("href")), "date": date,
+                     "home": home, "away": away, "ft_home": int(ft.group(1)), "ft_away": int(ft.group(2)),
+                     "match_url": urljoin("https://fbref.com", link.get("href"))})
+    if not rows:
+        raise RuntimeError("FBref J1 schedule contained no parseable fixture rows")
+    output, seen = [], set()
+    for row in rows:
+        if row["match_id"] in seen:
+            continue
+        seen.add(row["match_id"])
+        pause()
+        detail = S.get(row["match_url"], headers=headers, timeout=60)
+        if not detail.ok:
+            continue
+        ht = _explicit_ht(_visible_soup(detail.text).get_text(" ", strip=True))
+        if not ht:
+            continue
+        output.append({k: row[k] for k in ("match_id", "date", "home", "away", "ft_home", "ft_away")}
+                      | {"ht_home": ht[0], "ht_away": ht[1], "explicit_ht": True, "source": "FBref"})
+    return output, None if output else "FBref J1 pages contained no explicit half-time scores"
+
 def worldfootball_matches():
     """Fallback for J1, which is not exposed by football-data.org.
 
@@ -158,21 +246,33 @@ def main():
     current, team_error = teams_for_current("J1", token)
     source_policy = "football-data.org J1; explicit FT+HT"
     if not matches:
-        fallback_matches, fallback_error = worldfootball_matches()
-        if fallback_matches:
-            matches = fallback_matches
-            match_errors.append("football-data.org has no J1 competition; used WorldFootball fallback")
-            source_policy = "WorldFootball J1 2024; explicit parenthesized FT+HT"
-        elif fallback_error:
-            match_errors.append(fallback_error)
+        try:
+            fbref_matches, fbref_error = fbref_j1_matches()
+        except Exception as exc:
+            fbref_matches, fbref_error = [], f"FBref J1 fallback failed: {exc}"
+        if fbref_matches:
+            matches = fbref_matches
+            match_errors.append("football-data.org has no J1 competition; used FBref J1 2024")
+            source_policy = "FBref J1 2024; explicit parenthesized FT+HT"
+        else:
+            match_errors.append(fbref_error or "FBref J1 returned no matches")
+            fallback_matches, fallback_error = worldfootball_matches()
+            if fallback_matches:
+                matches = fallback_matches
+                match_errors.append("used dynamic WorldFootball fallback")
+                source_policy = "WorldFootball dynamic J1; explicit parenthesized FT+HT"
+            elif fallback_error:
+                match_errors.append(fallback_error)
     by = {}
     for m in matches:
         by.setdefault(m["home"], []).append(m); by.setdefault(m["away"], []).append(m)
-    aliases = {"Kashima Antlers": ["Kashima Antlers"], "Urawa Reds": ["Urawa Reds"]}
+    aliases = {"Urawa Reds": ["Urawa Reds", "Urawa Red Diamonds"]}
     selected = []
     for wanted in sorted(J1):
         names = aliases.get(wanted, [wanted])
         found = next((n for n in names if n in current or n in by), None)
+        if not found:
+            found = _fuzzy_provider_name(wanted, list(set(current) | set(by)))
         if found: selected.append((wanted, found))
     if len(selected) < 20:
         # Preserve the user's requested 20-team target where the provider names differ.
