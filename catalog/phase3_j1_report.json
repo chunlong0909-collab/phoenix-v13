@@ -1,10 +1,50 @@
 {
   "phase": 3,
   "batch": 6,
-  "warning": "fallback empty",
+  "mode": "real",
+  "source_policy": "local checked-in J1 2024 real FT dump; no inferred HT; no inferred stats",
+  "updated_at": "2026-10-24T14:18:32.292729+00:00",
+  "leagues": {
+    "英超": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 940,
+      "players": 493
+    },
+    "西甲": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 930,
+      "players": 421
+    },
+    "意甲": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 930,
+      "players": 424
+    },
+    "德甲": {
+      "teams": 18,
+      "completed_teams": 17,
+      "matches": 850,
+      "players": 375
+    },
+    "法甲": {
+      "teams": 20,
+      "completed_teams": 19,
+      "matches": 946,
+      "players": 366
+    },
+    "J1聯賽": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 760,
+      "players": 0
+    }
+  },
   "totals": {
-    "teams": 0,
-    "matches": 0,
-    "players": 0
+    "teams": 118,
+    "matches": 5356,
+    "players": 2079
   }
 }

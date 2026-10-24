@@ -1,1 +1,20 @@
-J1聯賽	no teams found from FBref/J.League/WorldFootball
+J1聯賽	Albirex Niigata	38/36	players=0/25
+J1聯賽	Avispa Fukuoka	38/36	players=0/25
+J1聯賽	Cerezo Osaka	38/36	players=0/25
+J1聯賽	Consadole Sapporo	38/36	players=0/25
+J1聯賽	FC Tokyo	38/36	players=0/25
+J1聯賽	Gamba Osaka	38/36	players=0/25
+J1聯賽	Jubilo Iwata	38/36	players=0/25
+J1聯賽	Kashima Antlers	38/36	players=0/25
+J1聯賽	Kashiwa Reysol	38/36	players=0/25
+J1聯賽	Kawasaki Frontale	38/36	players=0/25
+J1聯賽	Kyoto Sanga	38/36	players=0/25
+J1聯賽	Machida Zelvia	38/36	players=0/25
+J1聯賽	Nagoya Grampus	38/36	players=0/25
+J1聯賽	Sagan Tosu	38/36	players=0/25
+J1聯賽	Sanfrecce Hiroshima	38/36	players=0/25
+J1聯賽	Shonan Bellmare	38/36	players=0/25
+J1聯賽	Tokyo Verdy	38/36	players=0/25
+J1聯賽	Urawa Reds	38/36	players=0/25
+J1聯賽	Vissel Kobe	38/36	players=0/25
+J1聯賽	Yokohama F Marinos	38/36	players=0/25
