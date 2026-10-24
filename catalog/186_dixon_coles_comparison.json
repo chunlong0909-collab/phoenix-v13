@@ -1,0 +1,19 @@
+{
+  "base_catalog": {"teams": 162, "catalog_rows": 12079, "unique_ft_matches": 8901},
+  "expanded_catalog": {"teams": 186, "catalog_rows": 15030, "unique_ft_matches": 10491},
+  "added": {"奧甲": 12, "瑞士超": 12},
+  "source_seasons": ["2021/2022", "2022/2023", "2023/2024", "2024/2025"],
+  "source": "football-data.co.uk new/AUT.csv and new/SWZ.csv",
+  "data_policy": "FT only; ft_invalid_rows=0; HT remains null; no imputation; original 162 teams and 12079 rows preserved",
+  "dixon_coles": {
+    "report": "catalog/162_backtest_report.json",
+    "old_134_accuracy": 0.5443425076452599,
+    "old_134_over25_accuracy": 0.5902140672782875,
+    "austria_12_accuracy": 0.47619047619047616,
+    "austria_12_over25_accuracy": 0.5026455026455027,
+    "austria_12_draw_precision": 0.0,
+    "switzerland_12_accuracy": 0.4185022026431718,
+    "switzerland_12_over25_accuracy": 0.5418502202643172,
+    "switzerland_12_draw_precision": 0.15384615384615385
+  }
+}

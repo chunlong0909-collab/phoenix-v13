@@ -1,0 +1,19 @@
+{
+  "base_teams": 162,
+  "added_teams": 24,
+  "total_teams": 186,
+  "catalog_rows": 15030,
+  "unique_match_rows": 10710,
+  "source_seasons": [
+    "2021/2022",
+    "2022/2023",
+    "2023/2024",
+    "2024/2025"
+  ],
+  "ft_invalid_rows": 0,
+  "ht_policy": "null; no imputation",
+  "sources": {
+    "奧甲": "https://football-data.co.uk/new/AUT.csv",
+    "瑞士超": "https://football-data.co.uk/new/SWZ.csv"
+  }
+}
