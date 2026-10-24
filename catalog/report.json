@@ -1,24 +1,391 @@
 {
-  "season": "2025-2026",
-  "updated_at": "2026-10-23T18:14:28.183840+00:00",
-  "leagues": {},
+  "season": "2025-2026 + 2024-2025",
+  "source_policy": "football-data.org then WorldFootball; never FBref",
+  "updated_at": "2026-10-24T01:55:25.643336+00:00",
+  "leagues": {
+    "英冠": {
+      "competition_code": null,
+      "source": "worldfootball.net",
+      "discovered_teams": 0,
+      "target_teams": 0,
+      "teams": [],
+      "errors": [
+        "WorldFootball browser fallback unavailable for 英冠"
+      ]
+    },
+    "西甲": {
+      "competition_code": "PD",
+      "source": "football-data.org",
+      "discovered_teams": 23,
+      "target_teams": 10,
+      "teams": [
+        {
+          "team_id": "athletic-club",
+          "name": "Athletic Club",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "ca-osasuna",
+          "name": "CA Osasuna",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "club-atl-tico-de-madrid",
+          "name": "Club Atlético de Madrid",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "deportivo-alav-s",
+          "name": "Deportivo Alavés",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "fc-barcelona",
+          "name": "FC Barcelona",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "getafe-cf",
+          "name": "Getafe CF",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "girona-fc",
+          "name": "Girona FC",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "rc-celta-de-vigo",
+          "name": "RC Celta de Vigo",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "rcd-espanyol-de-barcelona",
+          "name": "RCD Espanyol de Barcelona",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "rcd-mallorca",
+          "name": "RCD Mallorca",
+          "league": "西甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        }
+      ],
+      "errors": []
+    },
+    "德甲": {
+      "competition_code": "BL1",
+      "source": "football-data.org",
+      "discovered_teams": 20,
+      "target_teams": 10,
+      "teams": [
+        {
+          "team_id": "1-fc-heidenheim-1846",
+          "name": "1. FC Heidenheim 1846",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "1-fsv-mainz-05",
+          "name": "1. FSV Mainz 05",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "bayer-04-leverkusen",
+          "name": "Bayer 04 Leverkusen",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "borussia-dortmund",
+          "name": "Borussia Dortmund",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "borussia-m-nchengladbach",
+          "name": "Borussia Mönchengladbach",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "eintracht-frankfurt",
+          "name": "Eintracht Frankfurt",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "fc-augsburg",
+          "name": "FC Augsburg",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "fc-bayern-m-nchen",
+          "name": "FC Bayern München",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "fc-st-pauli-1910",
+          "name": "FC St. Pauli 1910",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "rb-leipzig",
+          "name": "RB Leipzig",
+          "league": "德甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        }
+      ],
+      "errors": []
+    },
+    "意甲": {
+      "competition_code": "BSA",
+      "source": "football-data.org",
+      "discovered_teams": 24,
+      "target_teams": 10,
+      "teams": [
+        {
+          "team_id": "botafogo-fr",
+          "name": "Botafogo FR",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "ca-mineiro",
+          "name": "CA Mineiro",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "cr-flamengo",
+          "name": "CR Flamengo",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "cr-vasco-da-gama",
+          "name": "CR Vasco da Gama",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "cruzeiro-ec",
+          "name": "Cruzeiro EC",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "ec-bahia",
+          "name": "EC Bahia",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "ec-juventude",
+          "name": "EC Juventude",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "ec-vit-ria",
+          "name": "EC Vitória",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "fluminense-fc",
+          "name": "Fluminense FC",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "fortaleza-ec",
+          "name": "Fortaleza EC",
+          "league": "意甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        }
+      ],
+      "errors": []
+    },
+    "法甲": {
+      "competition_code": "FL1",
+      "source": "football-data.org",
+      "discovered_teams": 21,
+      "target_teams": 10,
+      "teams": [
+        {
+          "team_id": "aj-auxerre",
+          "name": "AJ Auxerre",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "as-monaco-fc",
+          "name": "AS Monaco FC",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "angers-sco",
+          "name": "Angers SCO",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "le-havre-ac",
+          "name": "Le Havre AC",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "lille-osc",
+          "name": "Lille OSC",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "ogc-nice",
+          "name": "OGC Nice",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "olympique-lyonnais",
+          "name": "Olympique Lyonnais",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "olympique-de-marseille",
+          "name": "Olympique de Marseille",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "paris-saint-germain-fc",
+          "name": "Paris Saint-Germain FC",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        },
+        {
+          "team_id": "rc-strasbourg-alsace",
+          "name": "RC Strasbourg Alsace",
+          "league": "法甲",
+          "matches": 36,
+          "players": 0,
+          "status": "complete"
+        }
+      ],
+      "errors": []
+    }
+  },
   "errors": [
     {
-      "league": "英超",
-      "error": "RuntimeError: FBref Cloudflare challenge remained after Playwright wait"
-    },
-    {
-      "league": "澳職",
-      "error": "RuntimeError: FBref Cloudflare challenge remained after Playwright wait"
-    },
-    {
-      "league": "卡塔爾",
-      "error": "RuntimeError: FBref Cloudflare challenge remained after Playwright wait"
+      "league": "英冠",
+      "errors": [
+        "WorldFootball browser fallback unavailable for 英冠"
+      ]
     }
   ],
+  "batch": 2,
   "totals": {
-    "teams": 0,
+    "teams": 40,
     "players": 0,
-    "complete_teams": 0
-  }
+    "complete_teams": 40,
+    "incomplete_teams": 0
+  },
+  "completed_teams_file": "catalog/completed_teams.json",
+  "fail_list_file": "catalog/fail_list.txt",
+  "accepted_only_explicit_ht": true
 }
