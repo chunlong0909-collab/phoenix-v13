@@ -9,3 +9,7 @@
 西甲	Real Sociedad de Fútbol	48/36	players=24/25
 西甲	Villarreal CF	48/36	players=24/25
 西甲	Real Oviedo	38/36	players=0/25
+意甲	FC Internazionale Milano	48/36	players=24/25
+意甲	Hellas Verona FC	48/36	players=0/25
+意甲	AC Pisa 1909	38/36	players=0/25
+意甲	US Cremonese	38/36	players=0/25
