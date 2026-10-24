@@ -5,12 +5,16 @@ Only accepts explicit FT and HT. Missing HT is skipped;
 no score is inferred and an incomplete team never fails the whole batch.
 """
 from __future__ import annotations
-import argparse, difflib, json, os, random, re, time
+import argparse, difflib, io, json, os, random, re, time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup, Comment
+try:
+    import pandas as pd
+except Exception:
+    pd = None
 
 try:
     from playwright.sync_api import sync_playwright
@@ -144,7 +148,7 @@ def _fuzzy_provider_name(wanted, provider_names):
         return next(x for x in provider_names if _fuzzy_key(x) == wanted_key)
     for candidate in provider_names:
         a, b = wanted_key, _fuzzy_key(candidate)
-        if a in b or b in a or difflib.SequenceMatcher(None, a, b).ratio() >= 0.72:
+        if a in b or b in a or difflib.SequenceMatcher(None, a, b).ratio() >= 0.60:
             return candidate
     return None
 
@@ -160,8 +164,20 @@ def fbref_j1_matches():
     response.raise_for_status()
     if len(response.text) < 1000 or "Just a moment" in response.text:
         raise RuntimeError("FBref returned a challenge or empty page")
+    raw_soup = BeautifulSoup(response.text, "html.parser")
+    raw_tables = raw_soup.find_all("table")
+    comment_html = "\n".join(str(x) for x in raw_soup.find_all(string=lambda x: isinstance(x, Comment)))
+    comment_soup = BeautifulSoup(re.sub(r"<!--|-->", "", comment_html), "html.parser")
+    comment_tables = comment_soup.find_all("table")
+    print(f"DEBUG tables in comment={len(comment_tables)} raw={len(raw_tables)}", flush=True)
     soup = _visible_soup(response.text)
     tables = soup.find_all("table")
+    if pd is not None:
+        try:
+            pandas_tables = pd.read_html(io.StringIO(response.text))
+        except Exception:
+            pandas_tables = []
+        print(f"DEBUG pandas tables={len(pandas_tables)}", flush=True)
     print(f"Step1 FBref tables={len(tables)}", flush=True)
     rows = []
     row_nodes = []
@@ -211,12 +227,23 @@ def fbref_j1_matches():
 def jleague_official_matches():
     """Best-effort official J.League FT table fallback; never infers HT."""
     headers = {"User-Agent": "Mozilla/5.0", "Accept-Language": "en-US"}
-    r = S.get(JLEAGUE_DATA, headers=headers, timeout=20)
-    soup = _visible_soup(r.text)
-    tables = soup.find_all("table")
-    print(f"Step1 JLeague status={r.status_code} tables={len(tables)}", flush=True)
+    urls = [JLEAGUE_DATA, "https://www.jleague.jp/match/"]
+    responses = []
+    for url in urls:
+        try:
+            rr = S.get(url, headers=headers, timeout=20)
+            responses.append(rr)
+            print(f"Step1 JLeague url={url} status={rr.status_code}", flush=True)
+        except Exception as exc:
+            print(f"Step1 JLeague url={url} error={exc}", flush=True)
     found, seen = [], set()
-    for table in tables:
+    all_tables = []
+    for rr in responses:
+        raw = BeautifulSoup(rr.text, "html.parser")
+        all_tables.extend(raw.find_all("table"))
+        all_tables.extend(_visible_soup(rr.text).find_all("table"))
+    print(f"Step1 JLeague tables={len(all_tables)}", flush=True)
+    for table in all_tables:
         for tr in table.select("tr"):
             text = tr.get_text(" ", strip=True)
             score = re.search(r"(?<!\d)(\d+)\s*[-:]\s*(\d+)(?!\d)", text)
@@ -235,7 +262,7 @@ def jleague_official_matches():
                           "ft_home": int(score.group(1)), "ft_away": int(score.group(2)),
                           "ht_home": None, "ht_away": None, "explicit_ht": False,
                           "source": "jleague.co"})
-    print(f"JLeague fallback fetched {len(found)} rows", flush=True)
+    print(f"JLeague fetched={len(found)} rows", flush=True)
     return found, None if found else "J.League official page contained no parseable FT rows"
 
 def worldfootball_matches():
@@ -323,6 +350,7 @@ def main():
     by = {}
     for m in matches:
         by.setdefault(m["home"], []).append(m); by.setdefault(m["away"], []).append(m)
+    print(f"Schedule teams sample={list(set(by))[:5]}", flush=True)
     aliases = {"Urawa Reds": ["Urawa Reds", "Urawa Red Diamonds"]}
     selected = []
     for wanted in sorted(J1):
@@ -354,7 +382,16 @@ def main():
                       "status": "complete" if len(ms) >= 36 else "incomplete"})
         print(f"J1聯賽 | {wanted} | matches={len(ms)} | players={len(squad)}", flush=True)
     if len(teams) == 0:
-        raise SystemExit("no J1 teams found from available sources")
+        warning = {"j1_2024_20teams": {"note": "fallback empty", "teams": [], "errors": errors, "updated_at": now()}}
+        existing["J1聯賽"] = warning["j1_2024_20teams"]
+        CATALOG.mkdir(exist_ok=True)
+        payload = json.dumps(existing, ensure_ascii=False, indent=2) + "\n"
+        SOURCE.write_text(payload, encoding="utf-8")
+        OUT.write_text(payload, encoding="utf-8")
+        REPORT.write_text(json.dumps({"phase": 3, "batch": 6, "warning": "fallback empty", "totals": {"teams": 0, "matches": 0, "players": 0}}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        FAIL.write_text("J1聯賽\tno teams found from FBref/J.League/WorldFootball\n", encoding="utf-8")
+        print("WARNING: no J1 teams found; wrote fallback empty warning JSON", flush=True)
+        return
     if len(teams) < 20:
         print(f"WARNING: expected 20 J1 teams, got {len(teams)}; writing partial catalog honestly", flush=True)
     existing["J1聯賽"] = {"target_teams": 20, "competition_code": "J1", "updated_at": now(), "teams": teams, "errors": errors, "source_policy": source_policy}
