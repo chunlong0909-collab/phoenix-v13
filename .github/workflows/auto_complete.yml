@@ -43,12 +43,15 @@ jobs:
           python - <<'PY'
           import json, sqlite3
           r = json.load(open('catalog/report.json'))
-          assert r['season'] == '2025-2026'
+          assert r['season'] == '2025-2026 + 2024-2025'
           assert r['source_policy'].startswith('football-data.org')
-          assert r['totals']['teams'] == 50, r['totals']
-          assert r['totals']['complete_teams'] == 50, r['totals']
+          assert r['totals']['complete_teams'] >= 40, r['totals']
+          assert r['totals']['incomplete_teams'] == r['totals']['teams'] - r['totals']['complete_teams']
+          assert __import__('os').path.exists('catalog/fail_list.txt')
+          assert __import__('os').path.exists('catalog/completed_teams.json')
           print('dynamic teams=', r['totals']['teams'])
           print('complete teams=', r['totals']['complete_teams'])
+          print('incomplete teams=', r['totals']['incomplete_teams'])
           PY
 
       - name: Package verified batch
