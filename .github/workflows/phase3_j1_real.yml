@@ -49,8 +49,8 @@ jobs:
           print(f'J1 catalog rows={len(all_matches)} unique={len(unique)}')
           if len(teams) != 20:
               raise SystemExit(f'J1 strict validation failed: expected 20 teams, got {len(teams)}')
-          if len(unique) < 100:
-              raise SystemExit(f'J1 strict validation failed: too few real rows ({len(unique)})')
+          if len(unique) < 380:
+              raise SystemExit(f'J1 strict validation failed: expected at least 380 real rows, got {len(unique)}')
           if not all(m.get('source') and not str(m.get('source')).lower().startswith('placeholder') for m in all_matches):
               raise SystemExit('J1 strict validation failed: placeholder source detected')
           out=Path('catalog/complete_5_leagues_catalog.json')
