@@ -121,6 +121,13 @@ st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layou
 DB = Path(__file__).with_name("football_library.db")
 DB_PATH = str(DB)
 MANUAL_LEAGUE_DIR = Path(__file__).with_name("data") / "manual_leagues"
+PHOENIX_FINAL_DATA = Path(__file__).parent / "assets" / "data" / "phoenix_FINAL_63teams.json"
+
+# Phoenix 63隊畢業資料使用較短的聯賽標籤；App 原有選單使用完整中文名稱。
+PHOENIX_LEAGUE_ALIASES = {
+    "巴甲": "巴西甲組聯賽", "英超": "英格蘭超級聯賽", "意甲": "意大利甲組聯賽",
+    "西甲": "西班牙甲組聯賽", "德甲": "德國甲組聯賽", "法甲": "法國甲組聯賽",
+}
 
 
 def manual_league_path(league):
@@ -190,6 +197,7 @@ LEAGUES = {
     "英格蘭冠軍聯賽": {"api": 40, "csv": "E1"},
     "西班牙甲組聯賽": {"api": 140, "csv": "SP1"},
     "西班牙乙組聯賽": {"api": 141, "csv": "SP2"},
+    "意大利甲組聯賽": {"api": 135, "csv": "I1"},
     "德國甲組聯賽": {"api": 78, "csv": "D1"},
     "德國乙組聯賽": {"api": 79, "csv": "D2"},
     "法國乙組聯賽": {"api": 62, "csv": "F2"},
@@ -1711,7 +1719,54 @@ def merge_manual_match_metadata(df, league):
     return out.drop(columns=["_manual_key"])
 
 
+@st.cache_data(ttl=300, show_spinner=False)
+def load_phoenix_final_data():
+    """讀取已核實的63隊真HT資料；檔案缺失或格式錯誤時安全回退SQLite。"""
+    if not PHOENIX_FINAL_DATA.exists():
+        return {}
+    try:
+        payload = json.loads(PHOENIX_FINAL_DATA.read_text(encoding="utf-8"))
+        return payload if isinstance(payload, dict) else {}
+    except (OSError, ValueError, TypeError):
+        return {}
+
+
+def phoenix_final_matches(league):
+    """將Phoenix聯賽資料轉成舊App共用的欄位名稱，並按賽事去重。"""
+    short = next((k for k, v in PHOENIX_LEAGUE_ALIASES.items() if v == league), None)
+    if short is None:
+        return pd.DataFrame()
+    payload = load_phoenix_final_data()
+    key = next((k for k in payload if str(k).startswith(short + " ")), None)
+    if not key:
+        return pd.DataFrame()
+    rows, seen = [], set()
+    for team in payload.get(key, []):
+        for match in team.get("matches", []):
+            ident = "|".join(str(match.get(x, "")) for x in ("date", "home", "away", "ft_home", "ft_away"))
+            if ident in seen:
+                continue
+            seen.add(ident)
+            rows.append({
+                "Date": match.get("date"), "Home": match.get("home"), "Away": match.get("away"),
+                "HG": match.get("ft_home"), "AG": match.get("ft_away"),
+                "HT_HG": match.get("ht_home"), "HT_AG": match.get("ht_away"),
+                "HC": pd.NA, "AC": pd.NA, "league": league,
+                "source": "Phoenix 63隊真HT（football-data.org）",
+                "explicit_ht": bool(match.get("explicit_ht")),
+            })
+    if not rows:
+        return pd.DataFrame()
+    out = pd.DataFrame(rows)
+    out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce")
+    return out.sort_values(["DateParsed", "Home", "Away"], ascending=[False, True, True]).reset_index(drop=True)
+
+
 def all_saved_matches(league):
+    # 63隊畢業資料優先於舊SQLite，確保App直接使用明確半場比分。
+    phoenix = phoenix_final_matches(league)
+    if not phoenix.empty:
+        return phoenix
     try:
         with db_read_connect() as c:
             df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
