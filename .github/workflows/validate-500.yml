@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'catalog/complete_500_leagues_catalog.json'
-      - 'catalog/expansion_500_to_500_report.json'
-      - 'catalog/500_to_500_backtest_report.json'
+      - 'catalog/complete_500_partial_catalog.json'
+      - 'catalog/expansion_444_to_487_report.json'
+      - 'catalog/444_to_487_backtest_report.json'
       - 'scripts/complete_500_real.py'
-      - 'scripts/backtest_500_completion.py'
+      - 'scripts/backtest_500_partial.py'
       - 'scripts/validate_500_completion.py'
       - 'data/raw/secondary/**'
 
@@ -41,6 +41,6 @@ jobs:
         with:
           python-version: '3.11'
       - name: Re-run reproducible backtest
-        run: python scripts/backtest_500_completion.py
+        run: python scripts/backtest_500_partial.py
       - name: Validate generated report
         run: python scripts/validate_500_completion.py
