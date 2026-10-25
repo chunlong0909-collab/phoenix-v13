@@ -1,43 +1,17 @@
 {
-  "generated_at": "2026-10-25T13:45:31.297315+00:00",
+  "generated_at": "2026-10-25T13:56:59.743591+00:00",
   "physical_teams": 574,
-  "accepted_players": 0,
-  "teams_with_accepted_players": 0,
-  "age_coverage": 0.0,
-  "appearances_23_24_coverage": 0.0,
-  "appearances_24_25_coverage": 0.0,
-  "minutes_coverage": 0.0,
-  "source_url_coverage": 0.0,
-  "front_players": 0,
-  "back_players": 0,
-  "position_unknown": 0,
-  "source_policy": "Only player rows with verifiable Transfermarkt or FBref player page URLs and source fields may enter REAL outputs; no ESPN fallback is promoted.",
-  "probes": {
-    "transfermarkt": "HTTP 200 but roster table/player rows not exposed in static HTML during probe; requires browser/session or allowed source export",
-    "fbref": "HTTP 403 Cloudflare during probe"
-  },
-  "status": "playwright_rejected_strict_validation",
-  "note": "Playwright reached Transfermarkt HTTP 200, but the selector output did not establish roster identity and market values were malformed; no rows were promoted.",
-  "playwright_probe_5": {
-    "status": "failed_strict_validation",
-    "source": "Transfermarkt via Playwright Chromium",
-    "url_pattern": "https://www.transfermarkt.com/{slug}/kader/verein/{id}",
-    "teams_tested": [
-      "Manchester City",
-      "Arsenal",
-      "Real Madrid",
-      "FC Barcelona",
-      "Bayern Munich"
-    ],
-    "http_status": 200,
-    "observed": {
-      "player_links": "present",
-      "source_urls": "present",
-      "roster_identity": "not verified; selector returned players from unrelated teams",
-      "market_value": "not verified; extracted values included malformed strings such as | Player Name",
-      "fbref": "not attempted for production because prior probe returned HTTP 403 Cloudflare"
-    },
-    "accepted_into_real_master": 0,
-    "policy": "Do not promote a row unless roster identity, real market value format, player URL, and required fields are verified."
-  }
+  "mapped_teams": 173,
+  "api_success_teams": 159,
+  "teams_with_players": 159,
+  "total_players": 5161,
+  "age_coverage": 0.9407091648905251,
+  "current_appearances_coverage": 0.8707614803332687,
+  "historical_appearances_23_24_24_25_joint_coverage": 0.0,
+  "source_url_coverage": 1.0,
+  "front_players": 1282,
+  "back_players": 3879,
+  "status": "ESPN_API_CURRENT_ROSTERS",
+  "policy": "Only fields returned by ESPN API are populated; historical season fields remain null when not returned by endpoint.",
+  "endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams/{team_id}/roster"
 }
