@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T13:37:18.937094+00:00",
+  "generated_at": "2026-10-25T13:45:31.297315+00:00",
   "physical_teams": 574,
   "accepted_players": 0,
   "teams_with_accepted_players": 0,
@@ -16,6 +16,28 @@
     "transfermarkt": "HTTP 200 but roster table/player rows not exposed in static HTML during probe; requires browser/session or allowed source export",
     "fbref": "HTTP 403 Cloudflare during probe"
   },
-  "status": "blocked_sources_no_real_player_rows_written",
-  "note": "All missing fields remain null. This is an honest empty result, not a claim that the 574 rosters are complete."
+  "status": "playwright_rejected_strict_validation",
+  "note": "Playwright reached Transfermarkt HTTP 200, but the selector output did not establish roster identity and market values were malformed; no rows were promoted.",
+  "playwright_probe_5": {
+    "status": "failed_strict_validation",
+    "source": "Transfermarkt via Playwright Chromium",
+    "url_pattern": "https://www.transfermarkt.com/{slug}/kader/verein/{id}",
+    "teams_tested": [
+      "Manchester City",
+      "Arsenal",
+      "Real Madrid",
+      "FC Barcelona",
+      "Bayern Munich"
+    ],
+    "http_status": 200,
+    "observed": {
+      "player_links": "present",
+      "source_urls": "present",
+      "roster_identity": "not verified; selector returned players from unrelated teams",
+      "market_value": "not verified; extracted values included malformed strings such as | Player Name",
+      "fbref": "not attempted for production because prior probe returned HTTP 403 Cloudflare"
+    },
+    "accepted_into_real_master": 0,
+    "policy": "Do not promote a row unless roster identity, real market value format, player URL, and required fields are verified."
+  }
 }

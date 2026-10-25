@@ -1,0 +1,16 @@
+{
+  "status": "failed_strict_validation",
+  "source": "Transfermarkt via Playwright Chromium",
+  "url_pattern": "https://www.transfermarkt.com/{slug}/kader/verein/{id}",
+  "teams_tested": ["Manchester City", "Arsenal", "Real Madrid", "FC Barcelona", "Bayern Munich"],
+  "http_status": 200,
+  "observed": {
+    "player_links": "present",
+    "source_urls": "present",
+    "roster_identity": "not verified; selector returned players from unrelated teams",
+    "market_value": "not verified; extracted values included malformed strings such as | Player Name",
+    "fbref": "not attempted for production because prior probe returned HTTP 403 Cloudflare"
+  },
+  "accepted_into_real_master": 0,
+  "policy": "Do not promote a row unless roster identity, real market value format, player URL, and required fields are verified."
+}
