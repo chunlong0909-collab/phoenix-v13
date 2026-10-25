@@ -1,0 +1,298 @@
+{
+  "base_teams": 432,
+  "total_teams": 444,
+  "target_total": 500,
+  "target_reached": false,
+  "added_teams": 12,
+  "added": [
+    {
+      "league": "A-League",
+      "name": "Melbourne City FC",
+      "matches": 107,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Wellington Phoenix",
+      "matches": 106,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Adelaide United",
+      "matches": 105,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Western United",
+      "matches": 104,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Perth Glory",
+      "matches": 104,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Melbourne Victory",
+      "matches": 104,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Sydney FC",
+      "matches": 103,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Western Sydney Wanderers",
+      "matches": 102,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Newcastle United Jets",
+      "matches": 102,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Central Coast Mariners",
+      "matches": 101,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Macarthur FC",
+      "matches": 100,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    },
+    {
+      "league": "A-League",
+      "name": "Brisbane Roar",
+      "matches": 100,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ],
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    }
+  ],
+  "skipped_or_limited": {
+    "A-League": {
+      "available_new_full4": 12,
+      "target": 12,
+      "selected": [
+        "Melbourne City FC",
+        "Wellington Phoenix",
+        "Adelaide United",
+        "Western United",
+        "Perth Glory",
+        "Melbourne Victory",
+        "Sydney FC",
+        "Western Sydney Wanderers",
+        "Newcastle United Jets",
+        "Central Coast Mariners",
+        "Macarthur FC",
+        "Brisbane Roar"
+      ],
+      "minimum_matches_per_season": 20
+    },
+    "墨西超": {
+      "available_new_full4": 0,
+      "target": 18,
+      "selected": [],
+      "minimum_matches_per_season": 30
+    },
+    "K1": {
+      "target": 12,
+      "selected": [],
+      "reason": "FBref and FootyStats download endpoints were blocked in this run; no unverified rows added."
+    }
+  },
+  "source_audit": {
+    "K1": {
+      "source": "FBref via soccerdata/FBref schedule",
+      "seasons": {
+        "2021": {
+          "status": 403,
+          "bytes": 5513,
+          "accepted_rows": 0,
+          "reason": "blocked_or_not_parsed"
+        },
+        "2022": {
+          "status": 403,
+          "bytes": 5513,
+          "accepted_rows": 0,
+          "reason": "blocked_or_not_parsed"
+        },
+        "2023": {
+          "status": 403,
+          "bytes": 5513,
+          "accepted_rows": 0,
+          "reason": "blocked_or_not_parsed"
+        },
+        "2024": {
+          "status": 403,
+          "bytes": 5513,
+          "accepted_rows": 0,
+          "reason": "blocked_or_not_parsed"
+        }
+      }
+    },
+    "A-League": {
+      "source": "OpenFootball world raw Football.TXT fallback; FBref attempt recorded separately",
+      "seasons": {
+        "2021-22": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/pacific/australia/2021-22_au1.txt",
+          "file": "data/raw/secondary/openfootball/A_League_2021-22.txt",
+          "bytes": 14405,
+          "rows": 148,
+          "ft_invalid_rows": 0
+        },
+        "2022-23": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/pacific/australia/2022-23_au1.txt",
+          "file": "data/raw/secondary/openfootball/A_League_2022-23.txt",
+          "bytes": 14001,
+          "rows": 155,
+          "ft_invalid_rows": 0
+        },
+        "2023-24": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/pacific/australia/2023-24_au1.txt",
+          "file": "data/raw/secondary/openfootball/A_League_2023-24.txt",
+          "bytes": 14562,
+          "rows": 161,
+          "ft_invalid_rows": 0
+        },
+        "2024-25": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/pacific/australia/2024-25_au1.txt",
+          "file": "data/raw/secondary/openfootball/A_League_2024-25.txt",
+          "bytes": 14906,
+          "rows": 168,
+          "ft_invalid_rows": 0
+        }
+      }
+    },
+    "墨西超": {
+      "source": "OpenFootball world raw Football.TXT fallback; FBref attempt recorded separately",
+      "seasons": {
+        "2021-22": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/north-america/mexico/2021-22_mx1.txt",
+          "file": "data/raw/secondary/openfootball/墨西超_2021-22.txt",
+          "bytes": 28805,
+          "rows": 318,
+          "ft_invalid_rows": 0
+        },
+        "2022-23": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/north-america/mexico/2022-23_mx1.txt",
+          "file": "data/raw/secondary/openfootball/墨西超_2022-23.txt",
+          "bytes": 28686,
+          "rows": 309,
+          "ft_invalid_rows": 0
+        },
+        "2023-24": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/north-america/mexico/2023-24_mx1.txt",
+          "file": "data/raw/secondary/openfootball/墨西超_2023-24.txt",
+          "bytes": 28521,
+          "rows": 305,
+          "ft_invalid_rows": 0
+        },
+        "2024-25": {
+          "url": "https://raw.githubusercontent.com/openfootball/world/master/north-america/mexico/2024-25_mx1.txt",
+          "file": "data/raw/secondary/openfootball/墨西超_2024-25.txt",
+          "bytes": 28252,
+          "rows": 295,
+          "ft_invalid_rows": 0
+        }
+      }
+    }
+  },
+  "ft_invalid_rows": 0,
+  "new_ht_nonnull_rows": 0,
+  "policy": "Real FT only. HT remains null. Four requested seasons must meet configured minimum match counts. Blocked sources produce no data and no team is fabricated.",
+  "note": "Existing base already contained 18 Eredivisie, 18 Primeira Liga and 17 Liga MX teams; duplicates were not counted again."
+}
