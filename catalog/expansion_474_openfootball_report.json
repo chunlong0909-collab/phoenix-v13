@@ -1,0 +1,69 @@
+{
+  "base_teams": 444,
+  "target_total": 474,
+  "total_teams": 444,
+  "target_reached": false,
+  "added_teams": 0,
+  "added": [],
+  "source": "OpenFootball world / Football.TXT only",
+  "source_audit": {
+    "repository": "https://github.com/openfootball/world",
+    "tree_checked": "https://api.github.com/repos/openfootball/world/git/trees/master?recursive=1",
+    "K1": {
+      "candidate_match_paths": [],
+      "rows": 0,
+      "teams": 0
+    },
+    "墨西超": {
+      "2021-22": {
+        "path": "north-america/mexico/2021-22_mx1.txt",
+        "file": "data/raw/secondary/openfootball/2021-22_mx1.txt",
+        "bytes": 28805,
+        "rows": 318,
+        "ft_invalid_rows": 0
+      },
+      "2022-23": {
+        "path": "north-america/mexico/2022-23_mx1.txt",
+        "file": "data/raw/secondary/openfootball/2022-23_mx1.txt",
+        "bytes": 28686,
+        "rows": 309,
+        "ft_invalid_rows": 0
+      },
+      "2023-24": {
+        "path": "north-america/mexico/2023-24_mx1.txt",
+        "file": "data/raw/secondary/openfootball/2023-24_mx1.txt",
+        "bytes": 28521,
+        "rows": 305,
+        "ft_invalid_rows": 0
+      },
+      "2024-25": {
+        "path": "north-america/mexico/2024-25_mx1.txt",
+        "file": "data/raw/secondary/openfootball/2024-25_mx1.txt",
+        "bytes": 28252,
+        "rows": 295,
+        "ft_invalid_rows": 0
+      },
+      "candidate_new_full4": [
+        {
+          "name": "Santos Laguna",
+          "matches": 126
+        }
+      ]
+    }
+  },
+  "k1_candidates": 0,
+  "k1_selected": [],
+  "mexico_candidates": 1,
+  "mexico_selected": [
+    "Santos Laguna"
+  ],
+  "ft_invalid_rows": 0,
+  "new_ht_nonnull_rows": 0,
+  "transaction": "commit only when K1=12 and Mexico=18; otherwise preserve 444 baseline",
+  "policy": "Real FT only; no FBref; no HT estimation; no partial merge on failed target",
+  "status": "blocked_keep_444",
+  "notes": [
+    "K1 match TXT is absent from the inspected openfootball/world tree; club metadata is not used as fixtures.",
+    "Mexico files are parsed and audited, but a partial 1-team addition is not committed when the combined 30-team target fails."
+  ]
+}
