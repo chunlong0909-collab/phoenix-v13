@@ -31,16 +31,21 @@ jobs:
       - name: Refresh Wikipedia managers and coaches
         run: python scripts/enrich_coaches_for_436.py
 
+      - name: Sync verified squads into App assets
+        run: |
+          mkdir -p assets/data
+          cp data/final_574_squads_with_sources.json assets/data/final_574_squads_with_sources.json
+
       - name: Commit changed squad file
         shell: bash
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if git diff --quiet -- data/final_574_squads_with_sources.json; then
+          if git diff --quiet -- data/final_574_squads_with_sources.json assets/data/final_574_squads_with_sources.json; then
             echo 'No squad or coach changes detected.'
             exit 0
           fi
-          git add data/final_574_squads_with_sources.json
+          git add data/final_574_squads_with_sources.json assets/data/final_574_squads_with_sources.json
           git commit -m "chore: weekly squad+coach refresh $(date -u +%F)"
           git pull --rebase origin main
           git push origin HEAD:main

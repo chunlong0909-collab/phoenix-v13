@@ -16,6 +16,12 @@ import pandas as pd
 import requests
 import streamlit as st
 try:
+    from predict_match import apply_coach_factors, apply_weather_factor, load_squads
+except Exception:
+    apply_coach_factors = apply_weather_factor = None
+    def load_squads(path):
+        return {}
+try:
     from fbref import competition_matches, recent_match_reports, reports_to_dataframe
 except Exception:
     # fbref.py 不存在、依賴未安裝或網站模組失敗時，FBref 只會被停用，
@@ -122,6 +128,7 @@ DB = Path(__file__).with_name("football_library.db")
 DB_PATH = str(DB)
 MANUAL_LEAGUE_DIR = Path(__file__).with_name("data") / "manual_leagues"
 PHOENIX_FINAL_DATA = Path(__file__).parent / "assets" / "data" / "phoenix_FINAL_63teams.json"
+APP_SQUAD_DATA = Path(__file__).parent / "assets" / "data" / "final_574_squads_with_sources.json"
 
 # Phoenix 63隊畢業資料使用較短的聯賽標籤；App 原有選單使用完整中文名稱。
 PHOENIX_LEAGUE_ALIASES = {
@@ -134,6 +141,24 @@ def manual_league_path(league):
     """每個聯賽一份手動覆蓋檔；只使用安全檔名，避免路徑穿越。"""
     slug = re.sub(r"[^a-z0-9_-]+", "_", str(league).strip().lower()).strip("_") or "league"
     return MANUAL_LEAGUE_DIR / f"{slug}.csv"
+
+
+@st.cache_data(ttl=900, show_spinner=False)
+def load_app_squads():
+    if not APP_SQUAD_DATA.exists():
+        return {}
+    try:
+        return load_squads(APP_SQUAD_DATA)
+    except (OSError, ValueError, TypeError):
+        return {}
+
+
+def app_squad_for(team_name):
+    wanted = team_key(team_name)
+    for squad in load_app_squads().values():
+        if team_key(squad.get("team", "")) == wanted:
+            return squad
+    return {}
 
 
 def db_connect():
@@ -2496,6 +2521,29 @@ if run:
     home_learning_adjustment = learning_adjustment(home)
     away_learning_adjustment = learning_adjustment(away)
     hx, ax = max(.15, hx + home_learning_adjustment), max(.15, ax + away_learning_adjustment)
+    prediction_log = []
+    home_squad = app_squad_for(home)
+    away_squad = app_squad_for(away)
+    if apply_coach_factors is not None:
+        coach_result = apply_coach_factors(hx, ax, home_squad, away_squad, prediction_log)
+        hx, ax = coach_result["lambda_home"], coach_result["lambda_away"]
+    else:
+        coach_result = {"home_coach_factor": 1.0, "away_coach_factor": 1.0}
+    if apply_weather_factor is not None:
+        weather_result = apply_weather_factor(hx + ax, 0.0, {}, prediction_log=prediction_log)
+        weather_factor = weather_result["weather_factor"]
+        hx *= weather_factor.get("total_factor", 1.0)
+        ax *= weather_factor.get("total_factor", 1.0)
+    else:
+        weather_factor = {"total_factor": 1.0, "status": "module_unavailable"}
+    st.session_state["last_prediction_factors"] = {
+        "coach_factor": coach_result, "weather_factor": weather_factor,
+        "prediction_log": prediction_log,
+    }
+    st.caption(
+        f"教練因子：主 {coach_result.get('home_coach_factor', 1.0):.2f}／客 {coach_result.get('away_coach_factor', 1.0):.2f}｜"
+        f"天氣因子：{weather_factor.get('total_factor', 1.0):.2f}（{weather_factor.get('status', '未取得')}）"
+    )
     if live_context.get("status") == "ok":
         st.caption(f"即時資料：{live_context.get('source', '已取得')}｜H2H近4場：{len(live_context.get('h2h_last4', []))}｜主客近10場：{len(live_context.get('home_last10', []))}/{len(live_context.get('away_last10', []))}｜傷停：{len(live_context.get('injuries', []))}人")
     else:

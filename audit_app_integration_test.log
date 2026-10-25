@@ -1,0 +1,8 @@
+APP_TYPE=Streamlit Web
+SQUAD_APP_PATH=assets/data/final_574_squads_with_sources.json
+SQUAD_TEAMS= 574
+COACH_FACTOR= {"lambda_home": 1.2, "lambda_away": 0.828, "home_coach_factor": 1.0, "away_coach_factor": 0.92, "home_coach_style": "中性", "away_coach_style": "防守型", "coach_factor": {"home": {"name": "Marco Rose", "style": "中性", "factor": 1.0, "matched_keyword": null}, "away": {"name": "Mourinho", "style": "防守型", "factor": 0.92, "matched_keyword": "mourinho"}}}
+WEATHER_FACTOR= {"total_goals": 1.69575, "over25_probability": 0.4675, "weather_factor": {"status": "ok", "date": "2026-10-26", "rain_mm": 20.0, "temp_c": 3.0, "total_factor": 0.8075, "over25_factor": 0.85, "reasons": ["rain>15mm", "temp<5C"]}}
+IMPORT_TEST=PASS
+WORKFLOW_COPY_TEST=PASS
+PYCOMPILE=PASS
