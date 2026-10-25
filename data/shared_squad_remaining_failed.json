@@ -1,0 +1,1293 @@
+[
+  {
+    "catalog_key": "0162:土超:None",
+    "catalog_team_name": "Buyuksehyr",
+    "league": "土超",
+    "status": "no_squad",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0265:丹超:dnk-03",
+    "catalog_team_name": "Brondby",
+    "league": "丹超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0267:丹超:dnk-05",
+    "catalog_team_name": "Horsens",
+    "league": "丹超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0268:丹超:dnk-06",
+    "catalog_team_name": "Lyngby",
+    "league": "丹超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0273:丹超:dnk-11",
+    "catalog_team_name": "Silkeborg",
+    "league": "丹超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0274:丹超:dnk-12",
+    "catalog_team_name": "Viborg",
+    "league": "丹超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0277:希超:None",
+    "catalog_team_name": "AEK",
+    "league": "希超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0279:希超:None",
+    "catalog_team_name": "Aris",
+    "league": "希超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0281:希超:None",
+    "catalog_team_name": "Lamia",
+    "league": "希超",
+    "status": "no_squad",
+    "candidates": [
+      {
+        "title": "PAS Lamia 1964",
+        "url": "https://en.wikipedia.org/wiki/PAS_Lamia_1964",
+        "status": 200,
+        "players": 0
+      },
+      {
+        "title": "Lamia (city)",
+        "url": "https://en.wikipedia.org/wiki/Lamia_(city)",
+        "status": 200,
+        "players": 0
+      },
+      {
+        "title": "LaMia",
+        "url": "https://en.wikipedia.org/wiki/LaMia",
+        "status": 200,
+        "players": 0
+      },
+      {
+        "title": "List of football clubs in Greece",
+        "url": "https://en.wikipedia.org/wiki/List_of_football_clubs_in_Greece",
+        "status": 200,
+        "players": 0
+      },
+      {
+        "title": "LaMia Flight 2933",
+        "url": "https://en.wikipedia.org/wiki/LaMia_Flight_2933",
+        "status": 200,
+        "players": 0
+      },
+      {
+        "title": "Lamia (disambiguation)",
+        "url": "https://en.wikipedia.org/wiki/Lamia_(disambiguation)",
+        "status": 200,
+        "players": 0
+      },
+      {
+        "title": "Giannis Doiranlis",
+        "url": "https://en.wikipedia.org/wiki/Giannis_Doiranlis",
+        "status": 200,
+        "players": 0
+      },
+      {
+        "title": "Andreas Athanasakopoulos",
+        "url": "https://en.wikipedia.org/wiki/Andreas_Athanasakopoulos",
+        "status": 200,
+        "players": 0
+      }
+    ],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0289:英冠:None",
+    "catalog_team_name": "Blackburn",
+    "league": "英冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0295:英冠:None",
+    "catalog_team_name": "Coventry",
+    "league": "英冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0303:英冠:None",
+    "catalog_team_name": "Birmingham",
+    "league": "英冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0304:英冠:None",
+    "catalog_team_name": "Huddersfield",
+    "league": "英冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0308:英冠:None",
+    "catalog_team_name": "Derby",
+    "league": "英冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0317:英甲:None",
+    "catalog_team_name": "Bolton",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0318:英甲:None",
+    "catalog_team_name": "Cambridge",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0320:英甲:None",
+    "catalog_team_name": "Wycombe",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0321:英甲:None",
+    "catalog_team_name": "Charlton",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0322:英甲:None",
+    "catalog_team_name": "Burton",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0323:英甲:None",
+    "catalog_team_name": "Lincoln",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0325:英甲:None",
+    "catalog_team_name": "Cheltenham",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0328:英甲:None",
+    "catalog_team_name": "Wigan",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0329:英甲:None",
+    "catalog_team_name": "Bristol Rvs",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0330:英甲:None",
+    "catalog_team_name": "Barnsley",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0331:英甲:None",
+    "catalog_team_name": "Exeter",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0332:英甲:None",
+    "catalog_team_name": "Peterboro",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0333:英甲:None",
+    "catalog_team_name": "Ipswich",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0334:英甲:None",
+    "catalog_team_name": "Rotherham",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0335:英甲:None",
+    "catalog_team_name": "Accrington",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0337:英甲:None",
+    "catalog_team_name": "Morecambe",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0338:英甲:None",
+    "catalog_team_name": "Plymouth",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0339:英甲:None",
+    "catalog_team_name": "Sheffield Weds",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0340:英甲:None",
+    "catalog_team_name": "Derby",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0342:英甲:None",
+    "catalog_team_name": "Blackpool",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0343:英甲:A1000-carlisle",
+    "catalog_team_name": "Carlisle",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0344:英甲:A1000-colchester",
+    "catalog_team_name": "Colchester",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0346:英甲:A1000-forestgreen",
+    "catalog_team_name": "Forest Green",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0347:英甲:A1000-sutton",
+    "catalog_team_name": "Sutton",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0348:英甲:A1000-harrogate",
+    "catalog_team_name": "Harrogate",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0349:英甲:A1000-rochdale",
+    "catalog_team_name": "Rochdale",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0350:英甲:A1000-hartlepool",
+    "catalog_team_name": "Hartlepool",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0352:英甲:A1000-mansfield",
+    "catalog_team_name": "Mansfield",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0353:英甲:A1000-northampton",
+    "catalog_team_name": "Northampton",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0354:英甲:A1000-newportcounty",
+    "catalog_team_name": "Newport County",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0355:英甲:A1000-salford",
+    "catalog_team_name": "Salford",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0357:英甲:A1000-swindon",
+    "catalog_team_name": "Swindon",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0358:英甲:A1000-stevenage",
+    "catalog_team_name": "Stevenage",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0359:英甲:A1000-barrow",
+    "catalog_team_name": "Barrow",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0360:英甲:A1000-tranmere",
+    "catalog_team_name": "Tranmere",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0361:英甲:A1000-walsall",
+    "catalog_team_name": "Walsall",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0363:英甲:A1000-gillingham",
+    "catalog_team_name": "Gillingham",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0364:英甲:A1000-doncaster",
+    "catalog_team_name": "Doncaster",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0365:英甲:A1000-grimsby",
+    "catalog_team_name": "Grimsby",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0366:英甲:A1000-crewe",
+    "catalog_team_name": "Crewe",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0367:英甲:A1000-stockport",
+    "catalog_team_name": "Stockport",
+    "league": "英甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0369:德乙:None",
+    "catalog_team_name": "Nurnberg",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0370:德乙:None",
+    "catalog_team_name": "Karlsruhe",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0371:德乙:None",
+    "catalog_team_name": "Paderborn",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0372:德乙:None",
+    "catalog_team_name": "Hannover",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0374:德乙:None",
+    "catalog_team_name": "Hamburg",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0376:德乙:None",
+    "catalog_team_name": "Darmstadt",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0379:德乙:None",
+    "catalog_team_name": "Regensburg",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0383:德乙:None",
+    "catalog_team_name": "Magdeburg",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0385:德乙:None",
+    "catalog_team_name": "Heidenheim",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0386:德乙:None",
+    "catalog_team_name": "Sandhausen",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0387:德乙:None",
+    "catalog_team_name": "Hertha",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0388:德乙:None",
+    "catalog_team_name": "Elversberg",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0389:德乙:None",
+    "catalog_team_name": "Dresden",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0391:德乙:None",
+    "catalog_team_name": "Ingolstadt",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0393:德乙:None",
+    "catalog_team_name": "Bielefeld",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0394:德乙:None",
+    "catalog_team_name": "Osnabruck",
+    "league": "德乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0397:阿甲:estudiantes-l-p",
+    "catalog_team_name": "Estudiantes L.P.",
+    "league": "阿甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0401:阿甲:godoy-cruz",
+    "catalog_team_name": "Godoy Cruz",
+    "league": "阿甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0406:阿甲:gimnasia-l-p",
+    "catalog_team_name": "Gimnasia L.P.",
+    "league": "阿甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0413:阿甲:central-cordoba",
+    "catalog_team_name": "Central Cordoba",
+    "league": "阿甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0414:阿甲:atl-tucuman",
+    "catalog_team_name": "Atl. Tucuman",
+    "league": "阿甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0416:阿甲:650b-colonsantafe",
+    "catalog_team_name": "Colon Santa FE",
+    "league": "阿甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0417:阿甲:650b-arsenalsarandi",
+    "catalog_team_name": "Arsenal Sarandi",
+    "league": "阿甲",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0422:美職MLS:mls-new-york-city",
+    "catalog_team_name": "New York City",
+    "league": "美職MLS",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0423:美職MLS:mls-orlando-city",
+    "catalog_team_name": "Orlando City",
+    "league": "美職MLS",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0429:美職MLS:mls-atlanta-utd",
+    "catalog_team_name": "Atlanta Utd",
+    "league": "美職MLS",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0447:美職MLS:mls-chicago-fire",
+    "catalog_team_name": "Chicago Fire",
+    "league": "美職MLS",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0448:美職MLS:650b-charlotte",
+    "catalog_team_name": "Charlotte",
+    "league": "美職MLS",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0458:墨西超:atl-san-luis",
+    "catalog_team_name": "Atl. San Luis",
+    "league": "墨西超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0482:蘇超:planb-hearts",
+    "catalog_team_name": "Hearts",
+    "league": "蘇超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0487:蘇超:planb-rosscounty",
+    "catalog_team_name": "Ross County",
+    "league": "蘇超",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0491:意乙:A1000-perugia",
+    "catalog_team_name": "Perugia",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0492:意乙:A1000-cittadella",
+    "catalog_team_name": "Cittadella",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0495:意乙:A1000-brescia",
+    "catalog_team_name": "Brescia",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0496:意乙:A1000-ascoli",
+    "catalog_team_name": "Ascoli",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0497:意乙:A1000-cosenza",
+    "catalog_team_name": "Cosenza",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0498:意乙:A1000-benevento",
+    "catalog_team_name": "Benevento",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0499:意乙:A1000-cremonese",
+    "catalog_team_name": "Cremonese",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0501:意乙:A1000-pisa",
+    "catalog_team_name": "Pisa",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0502:意乙:A1000-spal",
+    "catalog_team_name": "Spal",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0503:意乙:A1000-bari",
+    "catalog_team_name": "Bari",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0504:意乙:A1000-palermo",
+    "catalog_team_name": "Palermo",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0505:意乙:A1000-sudtirol",
+    "catalog_team_name": "Sudtirol",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0506:意乙:A1000-modena",
+    "catalog_team_name": "Modena",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0508:意乙:A1000-catanzaro",
+    "catalog_team_name": "Catanzaro",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0510:意乙:A1000-spezia",
+    "catalog_team_name": "Spezia",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0511:意乙:A1000-reggiana",
+    "catalog_team_name": "Reggiana",
+    "league": "意乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0512:西乙:A1000-huesca",
+    "catalog_team_name": "Huesca",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0514:西乙:A1000-zaragoza",
+    "catalog_team_name": "Zaragoza",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0515:西乙:A1000-ibiza",
+    "catalog_team_name": "Ibiza",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0517:西乙:A1000-amorebieta",
+    "catalog_team_name": "Amorebieta",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0519:西乙:A1000-alcorcon",
+    "catalog_team_name": "Alcorcon",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0520:西乙:A1000-spgijon",
+    "catalog_team_name": "Sp Gijon",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0521:西乙:A1000-burgos",
+    "catalog_team_name": "Burgos",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0522:西乙:A1000-oviedo",
+    "catalog_team_name": "Oviedo",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0523:西乙:A1000-lugo",
+    "catalog_team_name": "Lugo",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0526:西乙:A1000-valladolid",
+    "catalog_team_name": "Valladolid",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0528:西乙:A1000-mirandes",
+    "catalog_team_name": "Mirandes",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0529:西乙:A1000-cartagena",
+    "catalog_team_name": "Cartagena",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0532:西乙:A1000-santander",
+    "catalog_team_name": "Santander",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0535:西乙:A1000-andorra",
+    "catalog_team_name": "Andorra",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0538:西乙:A1000-ferrol",
+    "catalog_team_name": "Ferrol",
+    "league": "西乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0540:法乙:A1000-bastia",
+    "catalog_team_name": "Bastia",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0541:法乙:A1000-nimes",
+    "catalog_team_name": "Nimes",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0542:法乙:A1000-amiens",
+    "catalog_team_name": "Amiens",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0543:法乙:A1000-auxerre",
+    "catalog_team_name": "Auxerre",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0544:法乙:A1000-caen",
+    "catalog_team_name": "Caen",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0545:法乙:A1000-rodez",
+    "catalog_team_name": "Rodez",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0550:法乙:A1000-lehavre",
+    "catalog_team_name": "Le Havre",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0553:法乙:A1000-ajaccio",
+    "catalog_team_name": "Ajaccio",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0554:法乙:A1000-valenciennes",
+    "catalog_team_name": "Valenciennes",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0555:法乙:A1000-niort",
+    "catalog_team_name": "Niort",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0556:法乙:A1000-dijon",
+    "catalog_team_name": "Dijon",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0558:法乙:A1000-stetienne",
+    "catalog_team_name": "St Etienne",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0560:法乙:A1000-laval",
+    "catalog_team_name": "Laval",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0561:法乙:A1000-bordeaux",
+    "catalog_team_name": "Bordeaux",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0563:法乙:A1000-troyes",
+    "catalog_team_name": "Troyes",
+    "league": "法乙",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0565:蘇冠:A1000-montrose",
+    "catalog_team_name": "Montrose",
+    "league": "蘇冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0566:蘇冠:A1000-clyde",
+    "catalog_team_name": "Clyde",
+    "league": "蘇冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0567:蘇冠:A1000-dumbarton",
+    "catalog_team_name": "Dumbarton",
+    "league": "蘇冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0570:蘇冠:A1000-peterhead",
+    "catalog_team_name": "Peterhead",
+    "league": "蘇冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0571:蘇冠:A1000-alloa",
+    "catalog_team_name": "Alloa",
+    "league": "蘇冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  },
+  {
+    "catalog_key": "0573:蘇冠:A1000-queenofsth",
+    "catalog_team_name": "Queen of Sth",
+    "league": "蘇冠",
+    "status": "search_error",
+    "candidates": [],
+    "players": [],
+    "reason": "no allowed child/reserve suffix for shared-squad rule"
+  }
+]

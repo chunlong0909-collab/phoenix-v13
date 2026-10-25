@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-10-25T18:13:14.777399+00:00",
+  "source": "shared populated parent squad",
+  "input_failed_teams": 138,
+  "shared_teams_added": 0,
+  "players_added": 0,
+  "remaining_failed_teams": 138,
+  "final_teams_with_players": 436,
+  "final_master_players": 9328,
+  "policy": "Only exact parent-name matches after removing an explicit allowed suffix; no ordinary first team is treated as a child.",
+  "shared_teams": []
+}
