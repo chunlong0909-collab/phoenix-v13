@@ -1,0 +1,110 @@
+{
+  "base_teams": 444,
+  "target_total": 487,
+  "total_teams": 455,
+  "added_teams": 11,
+  "added": [
+    {
+      "league": "日職",
+      "name": "Hokkaido Consadole Sapporo",
+      "matches": 144,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "Celtic",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "Rangers",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "Hearts",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "Hibernian",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "Aberdeen",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "Motherwell",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "St Mirren",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "Ross County",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "蘇超",
+      "name": "St Johnstone",
+      "matches": 152,
+      "source": "football-data.co.uk",
+      "ht_policy": "null"
+    },
+    {
+      "league": "墨西超",
+      "name": "Santos Laguna",
+      "matches": 127,
+      "source": "openfootball/world",
+      "ht_policy": "null"
+    }
+  ],
+  "source_stats": {
+    "瑞士超": {
+      "rows": 821,
+      "teams_in_source": 15,
+      "eligible": 0
+    },
+    "日職": {
+      "rows": 1376,
+      "teams_in_source": 28,
+      "eligible": 1
+    },
+    "蘇超": {
+      "rows": 912,
+      "teams_in_source": 13,
+      "eligible": 9
+    },
+    "墨西超": {
+      "eligible": 1,
+      "source": "openfootball/world"
+    }
+  },
+  "ft_invalid_rows": 0,
+  "new_ht_nonnull_rows": 0,
+  "policy": "Real FT only; HT null for all Plan B additions; no estimation; ineligible teams skipped.",
+  "status": "partial_success"
+}
