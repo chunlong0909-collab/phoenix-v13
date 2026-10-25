@@ -649,7 +649,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Marco Rose",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+    }
   },
   "0002:英超:57": {
     "team": "Arsenal FC",
@@ -1301,7 +1306,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Mikel Arteta",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Arsenal_F.C."
+    }
   },
   "0003:英超:58": {
     "team": "Aston Villa FC",
@@ -1953,7 +1963,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Unai Emery",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Aston_Villa_F.C._season"
+    }
   },
   "0004:英超:402": {
     "team": "Brentford FC",
@@ -2605,7 +2620,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Keith Andrews",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Brentford_F.C."
+    }
   },
   "0005:英超:397": {
     "team": "Brighton & Hove Albion FC",
@@ -3367,7 +3387,12 @@
       }
     ],
     "player_count": 34,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Fabian Hürzeler",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C."
+    }
   },
   "0006:英超:61": {
     "team": "Chelsea FC",
@@ -4041,7 +4066,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Xabi Alonso",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Chelsea_F.C."
+    }
   },
   "0007:英超:354": {
     "team": "Crystal Palace FC",
@@ -4781,7 +4811,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Pierre Sage",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C."
+    }
   },
   "0008:英超:62": {
     "team": "Everton FC",
@@ -5323,7 +5358,12 @@
       }
     ],
     "player_count": 24,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "David Moyes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Everton_F.C."
+    }
   },
   "0009:英超:63": {
     "team": "Fulham FC",
@@ -5975,7 +6015,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Álvaro Arbeloa",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fulham_F.C."
+    }
   },
   "0010:英超:64": {
     "team": "Liverpool FC",
@@ -7485,7 +7530,12 @@
       }
     ],
     "player_count": 68,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Andoni Iraola",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Liverpool_F.C."
+    }
   },
   "0011:英超:65": {
     "team": "Manchester City FC",
@@ -8093,7 +8143,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Enzo Maresca",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Manchester_City_F.C."
+    }
   },
   "0012:英超:66": {
     "team": "Manchester United FC",
@@ -8833,7 +8888,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Mark Beesley",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/F.C._United_of_Manchester"
+    }
   },
   "0013:英超:67": {
     "team": "Newcastle United FC",
@@ -9507,7 +9567,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Mark Milligan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Newcastle_Jets_FC"
+    }
   },
   "0014:英超:351": {
     "team": "Nottingham Forest FC",
@@ -10049,7 +10114,12 @@
       }
     ],
     "player_count": 24,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Oliver Glasner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C."
+    }
   },
   "0015:英超:73": {
     "team": "Tottenham Hotspur FC",
@@ -10723,7 +10793,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Roberto De Zerbi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C."
+    }
   },
   "0016:英超:563": {
     "team": "West Ham United FC",
@@ -11353,7 +11428,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Nuno Espírito Santo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/West_Ham_United_F.C."
+    }
   },
   "0017:英超:76": {
     "team": "Wolverhampton Wanderers FC",
@@ -12071,7 +12151,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "César Peixoto",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C."
+    }
   },
   "0018:英超:328": {
     "team": "Burnley FC",
@@ -12877,7 +12962,12 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Sean Dyche",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Burnley_F.C._season"
+    }
   },
   "0019:英超:341": {
     "team": "Leeds United FC",
@@ -13529,7 +13619,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Daniel Farke",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Leeds_United_F.C."
+    }
   },
   "0020:英超:71": {
     "team": "Sunderland AFC",
@@ -14269,7 +14364,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Régis Le Bris",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sunderland_A.F.C."
+    }
   },
   "0021:西甲:77": {
     "team": "Athletic Club",
@@ -14987,7 +15087,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Edin Terzić",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Athletic_Bilbao"
+    }
   },
   "0022:西甲:79": {
     "team": "CA Osasuna",
@@ -15217,7 +15322,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Jagoba Arrasate",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CA_Osasuna"
+    }
   },
   "0023:西甲:78": {
     "team": "Club Atlético de Madrid",
@@ -15447,7 +15557,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Diego Simeone",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid"
+    }
   },
   "0024:西甲:263": {
     "team": "Deportivo Alavés",
@@ -15713,7 +15828,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Quique Sánchez Flores",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s"
+    }
   },
   "0025:西甲:81": {
     "team": "FC Barcelona",
@@ -16409,7 +16529,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Juliano Belletti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic"
+    }
   },
   "0026:西甲:82": {
     "team": "Getafe CF",
@@ -17149,7 +17274,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "José Bordalás",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Getafe_CF"
+    }
   },
   "0027:西甲:298": {
     "team": "Girona FC",
@@ -17933,7 +18063,12 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Quique Álvarez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Girona_FC"
+    }
   },
   "0028:西甲:558": {
     "team": "RC Celta de Vigo",
@@ -18181,7 +18316,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Claudio Giráldez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo"
+    }
   },
   "0029:西甲:80": {
     "team": "RCD Espanyol de Barcelona",
@@ -18537,7 +18677,12 @@
       }
     ],
     "player_count": 19,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Manolo González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RCD_Espanyol"
+    }
   },
   "0030:西甲:89": {
     "team": "RCD Mallorca",
@@ -18803,7 +18948,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Luis García",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RCD_Mallorca"
+    }
   },
   "0031:西甲:87": {
     "team": "Rayo Vallecano de Madrid",
@@ -19051,7 +19201,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Beñat San José",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Rayo_Vallecano"
+    }
   },
   "0032:西甲:90": {
     "team": "Real Betis Balompié",
@@ -19299,7 +19454,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Manuel Pellegrini",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Betis"
+    }
   },
   "0033:西甲:86": {
     "team": "Real Madrid CF",
@@ -20083,7 +20243,12 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "José Mourinho",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+    }
   },
   "0034:西甲:92": {
     "team": "Real Sociedad de Fútbol",
@@ -20313,7 +20478,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Pellegrino Matarazzo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Sociedad"
+    }
   },
   "0035:西甲:559": {
     "team": "Sevilla FC",
@@ -21031,7 +21201,8 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0036:西甲:95": {
     "team": "Valencia CF",
@@ -21793,7 +21964,12 @@
       }
     ],
     "player_count": 34,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Javier Aguirre",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Valencia_CF"
+    }
   },
   "0037:西甲:94": {
     "team": "Villarreal CF",
@@ -22423,7 +22599,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Iñigo Pérez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Villarreal_CF"
+    }
   },
   "0038:西甲:285": {
     "team": "Elche CF",
@@ -23075,7 +23256,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Martín Anselmi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Elche_CF"
+    }
   },
   "0039:西甲:88": {
     "team": "Levante UD",
@@ -23323,7 +23509,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Luís Castro",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Levante_UD"
+    }
   },
   "0040:西甲:1048": {
     "team": "Real Oviedo",
@@ -24063,7 +24254,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Julián Calero",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Oviedo"
+    }
   },
   "0041:意甲:98": {
     "team": "AC Milan",
@@ -24693,7 +24889,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Ruben Amorim",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AC_Milan"
+    }
   },
   "0042:意甲:99": {
     "team": "ACF Fiorentina",
@@ -24923,7 +25124,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Fabio Grosso (until 6 September) Paolo Vanoli (from 7 September)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_ACF_Fiorentina_season"
+    }
   },
   "0043:意甲:100": {
     "team": "AS Roma",
@@ -25553,7 +25759,8 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0044:意甲:102": {
     "team": "Atalanta BC",
@@ -25801,7 +26008,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Nicola Beati",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Atalanta_BC_Under-23"
+    }
   },
   "0045:意甲:103": {
     "team": "Bologna FC 1909",
@@ -26067,7 +26279,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Raffaele Palladino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bologna_FC_1909"
+    }
   },
   "0046:意甲:104": {
     "team": "Cagliari Calcio",
@@ -26763,7 +26980,8 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0047:意甲:7397": {
     "team": "Como 1907",
@@ -27029,7 +27247,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Cesc Fàbregas",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Como_1907"
+    }
   },
   "0048:意甲:108": {
     "team": "FC Internazionale Milano",
@@ -27259,7 +27482,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0049:意甲:107": {
     "team": "Genoa CFC",
@@ -27525,7 +27749,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Daniele De Rossi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Genoa_CFC"
+    }
   },
   "0050:意甲:450": {
     "team": "Hellas Verona FC",
@@ -27827,7 +28056,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Marco Baroni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hellas_Verona_FC"
+    }
   },
   "0051:意甲:109": {
     "team": "Juventus FC",
@@ -28677,7 +28911,12 @@
       }
     ],
     "player_count": 38,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Luciano Spalletti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Juventus_FC"
+    }
   },
   "0052:意甲:112": {
     "team": "Parma Calcio 1913",
@@ -28943,7 +29182,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Alberto Gilardino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+    }
   },
   "0053:意甲:110": {
     "team": "SS Lazio",
@@ -29245,7 +29489,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Gennaro Gattuso",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SS_Lazio"
+    }
   },
   "0054:意甲:113": {
     "team": "SSC Napoli",
@@ -29511,7 +29760,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Massimiliano Allegri",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SSC_Napoli"
+    }
   },
   "0055:意甲:586": {
     "team": "Torino FC",
@@ -30251,7 +30505,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Ignazio Abate",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Torino_FC"
+    }
   },
   "0056:意甲:5890": {
     "team": "US Lecce",
@@ -30553,7 +30812,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Eusebio Di Francesco",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/US_Lecce"
+    }
   },
   "0057:意甲:115": {
     "team": "Udinese Calcio",
@@ -31183,7 +31447,8 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0058:意甲:487": {
     "team": "AC Pisa 1909",
@@ -31467,7 +31732,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Paolo Bianco",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Pisa_SC"
+    }
   },
   "0059:意甲:457": {
     "team": "US Cremonese",
@@ -31733,7 +32003,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Fabio Pecchia",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/US_Cremonese"
+    }
   },
   "0060:意甲:471": {
     "team": "US Sassuolo Calcio",
@@ -32053,7 +32328,8 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0061:德甲:44": {
     "team": "1. FC Heidenheim 1846",
@@ -32727,7 +33003,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Frank Schmidt",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FC_Heidenheim"
+    }
   },
   "0062:德甲:15": {
     "team": "1. FSV Mainz 05",
@@ -32975,7 +33256,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Urs Fischer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05"
+    }
   },
   "0063:德甲:3": {
     "team": "Bayer 04 Leverkusen",
@@ -33241,7 +33527,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Carles Martínez Novell",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen"
+    }
   },
   "0064:德甲:4": {
     "team": "Borussia Dortmund",
@@ -33959,7 +34250,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Niko Kovač",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Borussia_Dortmund"
+    }
   },
   "0065:德甲:18": {
     "team": "Borussia Mönchengladbach",
@@ -34677,7 +34973,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Alexander Blessin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach"
+    }
   },
   "0066:德甲:19": {
     "team": "Eintracht Frankfurt",
@@ -35285,7 +35586,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Adi Hütter",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt"
+    }
   },
   "0067:德甲:16": {
     "team": "FC Augsburg",
@@ -35893,7 +36199,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Manuel Baum",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Augsburg"
+    }
   },
   "0068:德甲:5": {
     "team": "FC Bayern München",
@@ -36123,7 +36434,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Vincent Kompany",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Bayern_Munich"
+    }
   },
   "0069:德甲:721": {
     "team": "RB Leipzig",
@@ -36775,7 +37091,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Martín Demichelis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RB_Leipzig"
+    }
   },
   "0070:德甲:17": {
     "team": "SC Freiburg",
@@ -37405,7 +37726,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Julian Schuster",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Freiburg"
+    }
   },
   "0071:德甲:12": {
     "team": "SV Werder Bremen",
@@ -37725,7 +38051,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Daniel Thioune",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SV_Werder_Bremen"
+    }
   },
   "0072:德甲:2": {
     "team": "TSG 1899 Hoffenheim",
@@ -37991,7 +38322,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Christian Ilzer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim"
+    }
   },
   "0073:德甲:10": {
     "team": "VfB Stuttgart",
@@ -38687,7 +39023,8 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0074:德甲:11": {
     "team": "VfL Wolfsburg",
@@ -39493,7 +39830,12 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Tobias Strobl",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/VfL_Wolfsburg"
+    }
   },
   "0075:德甲:28": {
     "team": "1. FC Union Berlin",
@@ -40211,7 +40553,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Mauro Lustrinelli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin"
+    }
   },
   "0076:德甲:1": {
     "team": "1. FC Köln",
@@ -40513,7 +40860,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "René Wagner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln"
+    }
   },
   "0077:德甲:20": {
     "team": "FC St. Pauli 1910",
@@ -40779,7 +41131,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Marcel Rapp",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_St._Pauli"
+    }
   },
   "0078:德甲:7": {
     "team": "Hamburger SV",
@@ -41045,7 +41402,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Merlin Polzin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hamburger_SV"
+    }
   },
   "0079:法甲:548": {
     "team": "AS Monaco FC",
@@ -41329,7 +41691,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Filipe Luís",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AS_Monaco_FC"
+    }
   },
   "0080:法甲:533": {
     "team": "Le Havre AC",
@@ -41595,7 +41962,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Didier Digard",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Le_Havre_AC"
+    }
   },
   "0081:法甲:521": {
     "team": "Lille OSC",
@@ -41843,7 +42215,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Davide Ancelotti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Lille_OSC"
+    }
   },
   "0082:法甲:522": {
     "team": "OGC Nice",
@@ -42127,7 +42504,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Olivier Pantaloni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/OGC_Nice"
+    }
   },
   "0083:法甲:523": {
     "team": "Olympique Lyonnais",
@@ -42375,7 +42757,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Paulo Fonseca Jorge Maciel (caretaker in Ligue 1, until 30 November)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Olympique_Lyonnais_season"
+    }
   },
   "0084:法甲:516": {
     "team": "Olympique de Marseille",
@@ -42587,7 +42974,8 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0085:法甲:524": {
     "team": "Paris Saint-Germain FC",
@@ -42817,7 +43205,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Luis Enrique",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC"
+    }
   },
   "0086:法甲:576": {
     "team": "RC Strasbourg Alsace",
@@ -43101,7 +43494,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Hugo Oliveira",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace"
+    }
   },
   "0087:法甲:546": {
     "team": "Racing Club de Lens",
@@ -43385,7 +43783,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Yannick Cahuzac",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RC_Lens"
+    }
   },
   "0088:法甲:512": {
     "team": "Stade Brestois 29",
@@ -43615,7 +44018,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Julien Lachuer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Stade_Brestois_29"
+    }
   },
   "0089:法甲:529": {
     "team": "Stade Rennais FC 1901",
@@ -43863,7 +44271,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Franck Haise",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Stade_Rennais_FC"
+    }
   },
   "0090:法甲:543": {
     "team": "FC Nantes",
@@ -44581,7 +44994,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Grégory Poirier",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Nantes"
+    }
   },
   "0091:法甲:511": {
     "team": "Toulouse FC",
@@ -44811,7 +45229,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0092:法甲:519": {
     "team": "AJ Auxerre",
@@ -45113,7 +45532,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Will Still",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AJ_Auxerre"
+    }
   },
   "0093:法甲:532": {
     "team": "Angers SCO",
@@ -45343,7 +45767,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Stéphane Gilli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Angers_SCO"
+    }
   },
   "0094:法甲:525": {
     "team": "FC Lorient",
@@ -45609,7 +46038,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Alexandre Dujeux",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Lorient"
+    }
   },
   "0095:法甲:545": {
     "team": "FC Metz",
@@ -46327,7 +46761,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Grégory Proment",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Metz"
+    }
   },
   "0096:法甲:stade-de-reims": {
     "team": "Stade de Reims",
@@ -47089,7 +47528,8 @@
       }
     ],
     "player_count": 34,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0097:法甲:montpellier-hsc": {
     "team": "Montpellier HSC",
@@ -47355,7 +47795,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Zoumana Camara",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Montpellier_HSC"
+    }
   },
   "0098:法甲:clermont-foot-63": {
     "team": "Clermont Foot 63",
@@ -47639,7 +48084,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "David Guion",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Clermont_Foot_63"
+    }
   },
   "0099:J1聯賽:albirex-niigata": {
     "team": "Albirex Niigata",
@@ -47959,7 +48409,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Jaswinder Singh",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Jurong"
+    }
   },
   "0100:J1聯賽:avispa-fukuoka": {
     "team": "Avispa Fukuoka",
@@ -48831,7 +49286,8 @@
       }
     ],
     "player_count": 39,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0101:J1聯賽:cerezo-osaka": {
     "team": "Cerezo Osaka",
@@ -49505,7 +49961,8 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0102:J1聯賽:consadole-sapporo": {
     "team": "Consadole Sapporo",
@@ -49861,7 +50318,8 @@
       }
     ],
     "player_count": 19,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0103:J1聯賽:fc-tokyo": {
     "team": "FC Tokyo",
@@ -50579,7 +51037,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Rikizo Matsuhashi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Tokyo"
+    }
   },
   "0104:J1聯賽:gamba-osaka": {
     "team": "Gamba Osaka",
@@ -51803,7 +52266,8 @@
       }
     ],
     "player_count": 55,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0105:J1聯賽:jubilo-iwata": {
     "team": "Jubilo Iwata",
@@ -52177,7 +52641,8 @@
       }
     ],
     "player_count": 20,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0106:J1聯賽:kashima-antlers": {
     "team": "Kashima Antlers",
@@ -53005,7 +53470,8 @@
       }
     ],
     "player_count": 37,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0107:J1聯賽:kashiwa-reysol": {
     "team": "Kashiwa Reysol",
@@ -54031,7 +54497,8 @@
       }
     ],
     "player_count": 46,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0108:J1聯賽:kawasaki-frontale": {
     "team": "Kawasaki Frontale",
@@ -54881,7 +55348,8 @@
       }
     ],
     "player_count": 38,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0109:J1聯賽:kyoto-sanga": {
     "team": "Kyoto Sanga",
@@ -55819,7 +56287,12 @@
       }
     ],
     "player_count": 42,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Ranko Popović",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"
+    }
   },
   "0110:J1聯賽:machida-zelvia": {
     "team": "Machida Zelvia",
@@ -56471,7 +56944,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Go Kuroda",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Machida_Zelvia"
+    }
   },
   "0111:J1聯賽:nagoya-grampus": {
     "team": "Nagoya Grampus",
@@ -57277,7 +57755,8 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0112:J1聯賽:sagan-tosu": {
     "team": "Sagan Tosu",
@@ -57615,7 +58094,12 @@
       }
     ],
     "player_count": 18,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Akio Kogiku",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sagan_Tosu"
+    }
   },
   "0113:J1聯賽:sanfrecce-hiroshima": {
     "team": "Sanfrecce Hiroshima",
@@ -58267,7 +58751,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Bartosch Gaul",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sanfrecce_Hiroshima"
+    }
   },
   "0114:J1聯賽:shonan-bellmare": {
     "team": "Shonan Bellmare",
@@ -58947,7 +59436,12 @@
       }
     ],
     "player_count": 37,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Satoshi Yamaguchi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Shonan_Bellmare"
+    }
   },
   "0115:J1聯賽:tokyo-verdy": {
     "team": "Tokyo Verdy",
@@ -59357,7 +59851,12 @@
       }
     ],
     "player_count": 22,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Naoki Sōma",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Tokyo_Verdy"
+    }
   },
   "0116:J1聯賽:urawa-reds": {
     "team": "Urawa Reds",
@@ -59677,7 +60176,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Cho Kwi-jae",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Urawa_Red_Diamonds"
+    }
   },
   "0117:J1聯賽:vissel-kobe": {
     "team": "Vissel Kobe",
@@ -60659,7 +61163,12 @@
       }
     ],
     "player_count": 44,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Michael Skibbe",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vissel_Kobe"
+    }
   },
   "0118:J1聯賽:yokohama-f-marinos": {
     "team": "Yokohama F Marinos",
@@ -61443,7 +61952,8 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0119:葡超:porto": {
     "team": "Porto",
@@ -61727,7 +62237,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Francesco Farioli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Porto"
+    }
   },
   "0120:葡超:benfica": {
     "team": "Benfica",
@@ -61993,7 +62508,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Marco Silva",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S.L._Benfica"
+    }
   },
   "0121:葡超:sporting-cp": {
     "team": "Sporting CP",
@@ -62277,7 +62797,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0122:葡超:braga": {
     "team": "Braga",
@@ -62543,7 +63064,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0123:葡超:vitoria-guimaraes": {
     "team": "Vitoria Guimaraes",
@@ -62827,7 +63349,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Tiago Margarido",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C."
+    }
   },
   "0124:葡超:moreirense": {
     "team": "Moreirense",
@@ -63111,7 +63638,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0125:葡超:arouca": {
     "team": "Arouca",
@@ -63359,7 +63887,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0126:葡超:famalicao": {
     "team": "Famalicao",
@@ -63607,7 +64136,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0127:葡超:casa-pia": {
     "team": "Casa Pia",
@@ -63891,7 +64421,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Filipe Coelho",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Casa_Pia_A.C."
+    }
   },
   "0128:葡超:farense": {
     "team": "Farense",
@@ -64157,7 +64692,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "José Faria",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S.C._Farense"
+    }
   },
   "0129:葡超:None": {
     "team": "Sp Lisbon",
@@ -64441,7 +64981,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Rui Borges",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sporting_CP"
+    }
   },
   "0130:葡超:None": {
     "team": "Guimaraes",
@@ -64725,7 +65270,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Tiago Margarido",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C."
+    }
   },
   "0131:葡超:None": {
     "team": "Gil Vicente",
@@ -65009,7 +65559,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Luís Pinto",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C."
+    }
   },
   "0132:葡超:None": {
     "team": "Estoril",
@@ -65311,7 +65866,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Vasco Matos",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia"
+    }
   },
   "0133:葡超:None": {
     "team": "Sp Braga",
@@ -65577,7 +66137,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Franclim Carvalho",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S.C._Braga"
+    }
   },
   "0134:葡超:None": {
     "team": "Boavista",
@@ -66778,7 +67343,12 @@
       }
     ],
     "player_count": 66,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Leandrão",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Boavista_Sport_Club"
+    }
   },
   "0135:葡超:None": {
     "team": "Vizela",
@@ -67080,7 +67650,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Ronald Molina",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/F.C._Vizela"
+    }
   },
   "0136:葡超:None": {
     "team": "Portimonense",
@@ -67364,7 +67939,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Alex Costa",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Portimonense_S.C."
+    }
   },
   "0137:荷甲:ajax": {
     "team": "Ajax",
@@ -67630,7 +68210,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Míchel",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AFC_Ajax"
+    }
   },
   "0138:荷甲:psv-eindhoven": {
     "team": "PSV Eindhoven",
@@ -68326,7 +68911,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Peter Bosz",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/PSV_Eindhoven"
+    }
   },
   "0139:荷甲:feyenoord": {
     "team": "Feyenoord",
@@ -68610,7 +69200,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Giovanni van Bronckhorst",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Feyenoord"
+    }
   },
   "0140:荷甲:az-alkmaar": {
     "team": "AZ Alkmaar",
@@ -69328,7 +69923,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Lee-Roy Echteld",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AZ_Alkmaar"
+    }
   },
   "0141:荷甲:twente": {
     "team": "Twente",
@@ -69980,7 +70580,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "John van den Brom",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Twente"
+    }
   },
   "0142:荷甲:utrecht": {
     "team": "Utrecht",
@@ -70720,7 +71325,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Anthony Correia",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Utrecht"
+    }
   },
   "0143:荷甲:None": {
     "team": "Go Ahead Eagles",
@@ -71394,7 +72004,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Joseph Oosting",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Go_Ahead_Eagles"
+    }
   },
   "0144:荷甲:None": {
     "team": "Waalwijk",
@@ -71660,7 +72275,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Sander Duits",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RKC_Waalwijk"
+    }
   },
   "0145:荷甲:None": {
     "team": "For Sittard",
@@ -71908,7 +72528,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Danny Buijs",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fortuna_Sittard"
+    }
   },
   "0146:荷甲:None": {
     "team": "Nijmegen",
@@ -72210,7 +72835,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Dick Schreuder",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/NEC_Nijmegen"
+    }
   },
   "0147:荷甲:None": {
     "team": "Heerenveen",
@@ -72818,7 +73448,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Robin Veldman",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Heerenveen"
+    }
   },
   "0148:荷甲:None": {
     "team": "Sparta Rotterdam",
@@ -73404,7 +74039,12 @@
       }
     ],
     "player_count": 26,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Rogier Meijer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sparta_Rotterdam"
+    }
   },
   "0149:荷甲:None": {
     "team": "Heracles",
@@ -73688,7 +74328,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Vincent Heilmann",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Heracles_Almelo"
+    }
   },
   "0150:荷甲:None": {
     "team": "Zwolle",
@@ -73936,7 +74581,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0151:荷甲:None": {
     "team": "Groningen",
@@ -74654,7 +75300,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Dick Lukkien",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Groningen"
+    }
   },
   "0152:荷甲:None": {
     "team": "Vitesse",
@@ -75438,7 +76089,12 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Mamadou Zongo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vitesse_FC"
+    }
   },
   "0153:荷甲:None": {
     "team": "Cambuur",
@@ -76134,7 +76790,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Johan Plat",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Cambuur"
+    }
   },
   "0154:荷甲:None": {
     "team": "Willem II",
@@ -76918,7 +77579,8 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0155:土超:galatasaray": {
     "team": "Galatasaray",
@@ -77220,7 +77882,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Okan Buruk",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
+    }
   },
   "0156:土超:fenerbahce": {
     "team": "Fenerbahce",
@@ -77468,7 +78135,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "İsmail Kartal",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)"
+    }
   },
   "0157:土超:besiktas": {
     "team": "Besiktas",
@@ -77770,7 +78442,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Vincenzo Italiano",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K."
+    }
   },
   "0158:土超:trabzonspor": {
     "team": "Trabzonspor",
@@ -78054,7 +78731,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Thomas Reis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Trabzonspor"
+    }
   },
   "0159:土超:basaksehir": {
     "team": "Basaksehir",
@@ -78338,7 +79020,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Nuri Şahin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K."
+    }
   },
   "0160:土超:adana-demirspor": {
     "team": "Adana Demirspor",
@@ -78586,7 +79273,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Kubilayhan Yücel",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Adana_Demirspor"
+    }
   },
   "0161:土超:None": {
     "team": "Hatayspor",
@@ -78798,7 +79490,12 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Bekir İrtegün",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hatayspor"
+    }
   },
   "0162:土超:None": {
     "team": "Buyuksehyr",
@@ -79112,7 +79809,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Vincenzo Italiano",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K."
+    }
   },
   "0164:土超:None": {
     "team": "Antalyaspor",
@@ -79432,7 +80134,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Osman Özköylü",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Antalyaspor"
+    }
   },
   "0165:土超:None": {
     "team": "Sivasspor",
@@ -79734,7 +80441,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "İsmet Taşdemir",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sivasspor"
+    }
   },
   "0166:土超:None": {
     "team": "Kayserispor",
@@ -80054,7 +80766,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Atila Gerin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kayserispor"
+    }
   },
   "0167:土超:None": {
     "team": "Kasimpasa",
@@ -80356,7 +81073,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Emre Belözoğlu",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K."
+    }
   },
   "0168:土超:None": {
     "team": "Alanyaspor",
@@ -80622,7 +81344,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "João Pereira",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Alanyaspor"
+    }
   },
   "0169:土超:None": {
     "team": "Gaziantep",
@@ -80906,7 +81633,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Orhan Ak",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Gaziantep_F.K."
+    }
   },
   "0170:土超:None": {
     "team": "Konyaspor",
@@ -81172,7 +81904,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "İlhan Palut",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Konyaspor"
+    }
   },
   "0171:土超:None": {
     "team": "Karagumruk",
@@ -81420,7 +82157,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Atılay Canel (until 16 January) Orhan Ak (from 17 January)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Fatih_Karag%C3%BCmr%C3%BCk_S.K._season"
+    }
   },
   "0172:土超:None": {
     "team": "Rizespor",
@@ -81704,7 +82446,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Recep Uçar",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor"
+    }
   },
   "0173:土超:None": {
     "team": "Giresunspor",
@@ -81952,7 +82699,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Adil Tozlu",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Giresunspor"
+    }
   },
   "0174:比甲:club-brugge": {
     "team": "Club Brugge",
@@ -82218,7 +82970,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Ivan Leko",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Brugge_KV"
+    }
   },
   "0175:比甲:anderlecht": {
     "team": "Anderlecht",
@@ -82538,7 +83295,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Vítor Bruno",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RSC_Anderlecht"
+    }
   },
   "0176:比甲:genk": {
     "team": "Genk",
@@ -82822,7 +83584,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Jess Thorup",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KRC_Genk"
+    }
   },
   "0177:比甲:antwerp": {
     "team": "Antwerp",
@@ -83106,7 +83873,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Marvin Compper",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC"
+    }
   },
   "0178:比甲:union-sg": {
     "team": "Union SG",
@@ -83354,7 +84126,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "David Hubert",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise"
+    }
   },
   "0179:比甲:gent": {
     "team": "Gent",
@@ -83674,7 +84451,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Rik De Mil",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KAA_Gent"
+    }
   },
   "0180:比甲:None": {
     "team": "Oud-Heverlee Leuven",
@@ -83994,7 +84776,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Timmy Simons",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven"
+    }
   },
   "0181:比甲:None": {
     "team": "Mechelen",
@@ -84314,7 +85101,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Frederik Vanderbiest",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KV_Mechelen"
+    }
   },
   "0182:比甲:None": {
     "team": "St. Gilloise",
@@ -84562,7 +85354,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "David Hubert",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise"
+    }
   },
   "0183:比甲:None": {
     "team": "Standard",
@@ -84828,7 +85625,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Vincent Euvrard",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge"
+    }
   },
   "0184:比甲:None": {
     "team": "St Truiden",
@@ -85076,7 +85878,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Frédéric De Meyer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sint-Truidense_VV"
+    }
   },
   "0185:比甲:None": {
     "team": "Charleroi",
@@ -85324,7 +86131,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Mario Kohnen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royal_Charleroi_SC"
+    }
   },
   "0186:比甲:None": {
     "team": "Cercle Brugge",
@@ -85590,7 +86402,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Lars Friis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cercle_Brugge_KSV"
+    }
   },
   "0187:比甲:None": {
     "team": "Kortrijk",
@@ -85856,7 +86673,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Christophe Lepoint (caretaker)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KV_Kortrijk"
+    }
   },
   "0188:比甲:None": {
     "team": "Westerlo",
@@ -86140,7 +86962,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Issame Charaï",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KVC_Westerlo"
+    }
   },
   "0189:比甲:None": {
     "team": "Eupen",
@@ -86424,7 +87251,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0190:巴甲:flamengo": {
     "team": "Flamengo",
@@ -86690,7 +87518,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Leonardo Jardim",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CR_Flamengo"
+    }
   },
   "0191:巴甲:palmeiras": {
     "team": "Palmeiras",
@@ -86938,7 +87771,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Abel Ferreira",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SE_Palmeiras"
+    }
   },
   "0192:巴甲:atletico-mineiro": {
     "team": "Atletico Mineiro",
@@ -87240,7 +88078,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Eduardo Domínguez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro"
+    }
   },
   "0193:巴甲:corinthians": {
     "team": "Corinthians",
@@ -87361,7 +88204,12 @@
       }
     ],
     "player_count": 6,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Clarence Seedorf",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Corinthians_Paulista"
+    }
   },
   "0194:巴甲:fluminense": {
     "team": "Fluminense",
@@ -87519,7 +88367,12 @@
       }
     ],
     "player_count": 8,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Marcão (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fluminense_FC"
+    }
   },
   "0195:巴甲:gremio": {
     "team": "Gremio",
@@ -87839,7 +88692,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Renato Portaluppi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_FBPA"
+    }
   },
   "0196:巴甲:botafogo": {
     "team": "Botafogo",
@@ -88141,7 +88999,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Tite",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Botafogo_FR"
+    }
   },
   "0197:巴甲:athletico-pr": {
     "team": "Athletico-PR",
@@ -88443,7 +89306,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Odair Hellmann",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Athletico_Paranaense"
+    }
   },
   "0198:巴甲:internacional": {
     "team": "Internacional",
@@ -88691,7 +89559,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Eduardo Baptista",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Internacional"
+    }
   },
   "0199:巴甲:fortaleza": {
     "team": "Fortaleza",
@@ -89011,7 +89884,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Paulo Autuori",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fortaleza_Esporte_Clube"
+    }
   },
   "0200:巴甲:sao-paulo": {
     "team": "Sao Paulo",
@@ -89367,7 +90245,12 @@
       }
     ],
     "player_count": 19,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Dorival Júnior",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_FC"
+    }
   },
   "0201:巴甲:cruzeiro": {
     "team": "Cruzeiro",
@@ -89687,7 +90570,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Artur Jorge",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cruzeiro_EC"
+    }
   },
   "0202:巴甲:bragantino": {
     "team": "Bragantino",
@@ -89989,7 +90877,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Vagner Mancini",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Red_Bull_Bragantino"
+    }
   },
   "0203:巴甲:santos": {
     "team": "Santos",
@@ -90729,7 +91622,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Cuca",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Santos_FC"
+    }
   },
   "0204:巴甲:bahia": {
     "team": "Bahia",
@@ -91013,7 +91911,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0205:巴甲:vasco": {
     "team": "Vasco",
@@ -91333,7 +92232,8 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0206:巴甲:cuiaba": {
     "team": "Cuiaba",
@@ -91653,7 +92553,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Eduardo Barros",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cuiab%C3%A1_Esporte_Clube"
+    }
   },
   "0207:奧甲:aut-01": {
     "team": "Salzburg",
@@ -91937,7 +92842,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0208:奧甲:aut-02": {
     "team": "Sturm Graz",
@@ -92185,7 +93091,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Fabio Ingolitsch",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SK_Sturm_Graz"
+    }
   },
   "0209:奧甲:aut-03": {
     "team": "LASK",
@@ -92451,7 +93362,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Dietmar Kühbauer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/LASK"
+    }
   },
   "0210:奧甲:aut-04": {
     "team": "SK Rapid",
@@ -92753,7 +93669,8 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0211:奧甲:aut-05": {
     "team": "Austria Vienna",
@@ -93019,7 +93936,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0212:奧甲:aut-06": {
     "team": "Wolfsberger AC",
@@ -93285,7 +94203,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Thomas Silberberger",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Wolfsberger_AC"
+    }
   },
   "0213:奧甲:aut-07": {
     "team": "Hartberg",
@@ -93569,7 +94492,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Markus Schopp",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/TSV_Hartberg"
+    }
   },
   "0214:奧甲:aut-08": {
     "team": "Altach",
@@ -93817,7 +94745,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Ognjen Zarić",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Rheindorf_Altach"
+    }
   },
   "0215:奧甲:aut-09": {
     "team": "Tirol",
@@ -94065,7 +94998,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0216:奧甲:aut-10": {
     "team": "A. Klagenfurt",
@@ -94313,7 +95247,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Harald Gärtner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SK_Austria_Klagenfurt_(2007)"
+    }
   },
   "0217:奧甲:aut-11": {
     "team": "BW Linz",
@@ -94489,7 +95428,12 @@
       }
     ],
     "player_count": 9,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Michael Köllner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Blau-Wei%C3%9F_Linz"
+    }
   },
   "0218:奧甲:aut-12": {
     "team": "A. Lustenau",
@@ -94719,7 +95663,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0219:瑞士超:swz-01": {
     "team": "Basel",
@@ -94967,7 +95912,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Slaviša Jokanović",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Basel"
+    }
   },
   "0220:瑞士超:swz-02": {
     "team": "Grasshoppers",
@@ -95269,7 +96219,8 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0221:瑞士超:swz-03": {
     "team": "Lugano",
@@ -95571,7 +96522,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Mattia Croci-Torti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Lugano"
+    }
   },
   "0222:瑞士超:swz-04": {
     "team": "Luzern",
@@ -95855,7 +96811,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0223:瑞士超:swz-05": {
     "team": "Servette",
@@ -96085,7 +97042,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Jocelyn Gourvennec",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Servette_FC"
+    }
   },
   "0224:瑞士超:swz-06": {
     "team": "St. Gallen",
@@ -96369,7 +97331,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Enrico Maaßen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_St._Gallen"
+    }
   },
   "0225:瑞士超:swz-07": {
     "team": "Young Boys",
@@ -96617,7 +97584,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Gerardo Seoane",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/BSC_Young_Boys"
+    }
   },
   "0226:瑞士超:swz-08": {
     "team": "Zurich",
@@ -96919,7 +97891,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Olaf Janßen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Grasshopper_Club_Zurich"
+    }
   },
   "0227:瑞士超:swz-09": {
     "team": "Winterthur",
@@ -97167,7 +98144,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Patrick Rahmen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Winterthur"
+    }
   },
   "0228:瑞士超:swz-10": {
     "team": "Lausanne",
@@ -97433,7 +98415,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0229:瑞士超:swz-11": {
     "team": "Sion",
@@ -97681,7 +98664,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Didier Tholot",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Sion"
+    }
   },
   "0230:瑞士超:swz-12": {
     "team": "Thun",
@@ -97965,7 +98953,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Gian-Luca Privitelli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Thun"
+    }
   },
   "0231:挪超:nor-01": {
     "team": "Bodo/Glimt",
@@ -98771,7 +99764,12 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Kjetil Knutsen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2026_FK_Bod%C3%B8%2FGlimt_season"
+    }
   },
   "0232:挪超:nor-02": {
     "team": "Brann",
@@ -99037,7 +100035,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Eirik Horneland",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SK_Brann"
+    }
   },
   "0233:挪超:nor-03": {
     "team": "Haugesund",
@@ -99303,7 +100306,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0234:挪超:nor-04": {
     "team": "Kristiansund",
@@ -99533,7 +100537,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Amund Skiri",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kristiansund_BK"
+    }
   },
   "0235:挪超:nor-05": {
     "team": "Lillestrom",
@@ -100207,7 +101216,8 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0236:挪超:nor-06": {
     "team": "Molde",
@@ -100969,7 +101979,12 @@
       }
     ],
     "player_count": 34,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Sindre Tjelmeland",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Molde_FK"
+    }
   },
   "0237:挪超:nor-07": {
     "team": "Odd",
@@ -101235,7 +102250,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0238:挪超:nor-08": {
     "team": "Rosenborg",
@@ -101931,7 +102947,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Freyr Alexandersson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Rosenborg_BK"
+    }
   },
   "0239:挪超:nor-09": {
     "team": "Sandefjord",
@@ -102671,7 +103692,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Andreas Tegström",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sandefjord_Fotball"
+    }
   },
   "0240:挪超:nor-10": {
     "team": "Sarpsborg 08",
@@ -102883,7 +103909,8 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0241:挪超:nor-11": {
     "team": "Stromsgodset",
@@ -103095,7 +104122,12 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Magne Hoset",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball"
+    }
   },
   "0242:挪超:nor-12": {
     "team": "Tromso",
@@ -103901,7 +104933,8 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0243:挪超:nor-13": {
     "team": "Valerenga",
@@ -104553,7 +105586,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Johannes Moesgaard",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball"
+    }
   },
   "0244:挪超:nor-14": {
     "team": "Viking",
@@ -104837,7 +105875,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Bjarte Lunde Aarsheim & Morten Jensen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Viking_FK"
+    }
   },
   "0245:挪超:nor-15": {
     "team": "Aalesund",
@@ -105533,7 +106576,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Kjetil Rekdal",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Aalesunds_FK"
+    }
   },
   "0246:挪超:nor-16": {
     "team": "Ham-Kam",
@@ -105798,7 +106846,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Thomas Myhre",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hamarkameratene"
+    }
   },
   "0247:瑞典超:swe-01": {
     "team": "AIK",
@@ -106100,7 +107153,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "José Riveiro",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AIK_Fotboll"
+    }
   },
   "0248:瑞典超:swe-02": {
     "team": "Djurgarden",
@@ -106348,7 +107406,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Jani Honkavaara",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_Fotboll"
+    }
   },
   "0249:瑞典超:swe-03": {
     "team": "Elfsborg",
@@ -106596,7 +107659,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0250:瑞典超:swe-04": {
     "team": "Goteborg",
@@ -106862,7 +107926,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0251:瑞典超:swe-05": {
     "team": "Hacken",
@@ -107128,7 +108193,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0252:瑞典超:swe-06": {
     "team": "Halmstad",
@@ -107340,7 +108406,12 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Stuart Baxter",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Halmstads_BK"
+    }
   },
   "0253:瑞典超:swe-07": {
     "team": "Hammarby",
@@ -107570,7 +108641,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0254:瑞典超:swe-08": {
     "team": "Kalmar",
@@ -107818,7 +108890,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0255:瑞典超:swe-09": {
     "team": "Malmo FF",
@@ -108138,7 +109211,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Gaute Helstrup",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Malm%C3%B6_FF"
+    }
   },
   "0256:瑞典超:swe-10": {
     "team": "Mjallby",
@@ -108404,7 +109482,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0257:瑞典超:swe-11": {
     "team": "Norrkoping",
@@ -108670,7 +109749,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0258:瑞典超:swe-12": {
     "team": "Sirius",
@@ -108900,7 +109980,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0259:瑞典超:swe-13": {
     "team": "Varberg",
@@ -109148,7 +110229,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0260:瑞典超:swe-14": {
     "team": "Varnamo",
@@ -109396,7 +110478,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Srdjan Tufegdžić",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/IFK_V%C3%A4rnamo"
+    }
   },
   "0261:瑞典超:swe-15": {
     "team": "Vasteras SK",
@@ -109662,7 +110749,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Alexander Rubin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll"
+    }
   },
   "0262:瑞典超:swe-16": {
     "team": "Brommapojkarna",
@@ -109946,7 +111038,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0263:丹超:dnk-01": {
     "team": "Aalborg",
@@ -110212,7 +111305,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Steffen Højer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AaB_Fodbold"
+    }
   },
   "0264:丹超:dnk-02": {
     "team": "Aarhus",
@@ -110478,7 +111576,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Jakob Poulsen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening"
+    }
   },
   "0265:丹超:dnk-03": {
     "team": "Brondby",
@@ -110720,7 +111823,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0267:丹超:dnk-05": {
     "team": "Horsens",
@@ -111440,7 +112544,8 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0270:丹超:dnk-08": {
     "team": "Nordsjaelland",
@@ -111724,7 +112829,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0271:丹超:dnk-09": {
     "team": "Odense",
@@ -111972,7 +113078,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Thomas Thomasberg",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Odense_Boldklub"
+    }
   },
   "0272:丹超:dnk-10": {
     "team": "Randers FC",
@@ -112690,7 +113801,8 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0273:丹超:dnk-11": {
     "team": "Silkeborg",
@@ -112998,7 +114110,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Jacob Neestrup",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Panathinaikos_F.C."
+    }
   },
   "0276:希超:None": {
     "team": "PAOK",
@@ -113282,7 +114399,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Alessio Lisci",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/PAOK_FC"
+    }
   },
   "0277:希超:None": {
     "team": "AEK",
@@ -113524,7 +114646,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0279:希超:None": {
     "team": "Aris",
@@ -113802,7 +114925,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0281:希超:None": {
     "team": "Lamia",
@@ -114116,7 +115240,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Giannis Anastasiou",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Panetolikos_F.C."
+    }
   },
   "0283:希超:None": {
     "team": "Atromitos",
@@ -114400,7 +115529,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0284:希超:None": {
     "team": "OFI Crete",
@@ -114684,7 +115814,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0285:希超:None": {
     "team": "Asteras Tripolis",
@@ -114968,7 +116099,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Georgios Antonopoulos",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C."
+    }
   },
   "0286:希超:None": {
     "team": "Giannina",
@@ -115198,7 +116334,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0287:希超:None": {
     "team": "Levadeiakos",
@@ -115518,7 +116655,8 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0288:希超:None": {
     "team": "Panserraikos",
@@ -115874,7 +117012,8 @@
       }
     ],
     "player_count": 19,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0289:英冠:None": {
     "team": "Blackburn",
@@ -116626,7 +117765,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Michael Skubala",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bristol_City_F.C."
+    }
   },
   "0291:英冠:None": {
     "team": "Cardiff",
@@ -116874,7 +118018,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0292:英冠:None": {
     "team": "Preston",
@@ -117122,7 +118267,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0293:英冠:None": {
     "team": "QPR",
@@ -117370,7 +118516,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Julien Stéphan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C."
+    }
   },
   "0294:英冠:None": {
     "team": "Stoke",
@@ -117636,7 +118787,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0295:英冠:None": {
     "team": "Coventry",
@@ -117968,7 +119120,8 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0297:英冠:None": {
     "team": "Middlesbrough",
@@ -118642,7 +119795,8 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0298:英冠:None": {
     "team": "Millwall",
@@ -119470,7 +120624,8 @@
       }
     ],
     "player_count": 37,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0299:英冠:None": {
     "team": "West Brom",
@@ -119682,7 +120837,8 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0300:英冠:None": {
     "team": "Swansea",
@@ -119930,7 +121086,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0301:英冠:None": {
     "team": "Luton",
@@ -120214,7 +121371,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0302:英冠:None": {
     "team": "Sheffield United",
@@ -120822,7 +121980,8 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0303:英冠:None": {
     "team": "Birmingham",
@@ -121586,7 +122745,8 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0306:英冠:None": {
     "team": "Watford",
@@ -122326,7 +123486,8 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0307:英冠:None": {
     "team": "Norwich",
@@ -122628,7 +123789,8 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0308:英冠:None": {
     "team": "Derby",
@@ -122924,7 +124086,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0310:英冠:None": {
     "team": "Reading",
@@ -123190,7 +124353,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0311:英冠:None": {
     "team": "Rotherham",
@@ -123510,7 +124674,8 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0312:英冠:None": {
     "team": "Burnley",
@@ -124316,7 +125481,8 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0313:英冠:None": {
     "team": "Sheffield Weds",
@@ -124618,7 +125784,8 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0314:英冠:None": {
     "team": "Plymouth",
@@ -124848,7 +126015,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0315:英冠:None": {
     "team": "Leeds",
@@ -125078,7 +126246,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0316:英冠:None": {
     "team": "Bournemouth",
@@ -125730,7 +126899,8 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0317:英甲:None": {
     "team": "Bolton",
@@ -126020,7 +127190,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0320:英甲:None": {
     "team": "Wycombe",
@@ -126280,7 +127451,8 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0325:英甲:None": {
     "team": "Cheltenham",
@@ -126540,7 +127712,8 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0327:英甲:None": {
     "team": "Portsmouth",
@@ -127302,7 +128475,8 @@
       }
     ],
     "player_count": 34,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0328:英甲:None": {
     "team": "Wigan",
@@ -127700,7 +128874,8 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0337:英甲:None": {
     "team": "Morecambe",
@@ -128032,7 +129207,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0342:英甲:None": {
     "team": "Blackpool",
@@ -128243,7 +129419,12 @@
       }
     ],
     "player_count": 9,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": {
+      "name": "Michael Duff",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bradford_City_A.F.C."
+    }
   },
   "0346:英甲:A1000-forestgreen": {
     "team": "Forest Green",
@@ -128587,7 +129768,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0352:英甲:A1000-mansfield": {
     "team": "Mansfield",
@@ -128955,7 +130137,8 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0357:英甲:A1000-swindon": {
     "team": "Swindon",
@@ -129299,7 +130482,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0363:英甲:A1000-gillingham": {
     "team": "Gillingham",
@@ -129643,7 +130827,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Martin Paterson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Notts_County_F.C."
+    }
   },
   "0369:德乙:None": {
     "team": "Nurnberg",
@@ -129975,7 +131164,8 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0374:德乙:None": {
     "team": "Hamburg",
@@ -130617,7 +131807,8 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0376:德乙:None": {
     "team": "Darmstadt",
@@ -130931,7 +132122,8 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0378:德乙:None": {
     "team": "St Pauli",
@@ -131627,7 +132819,8 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0379:德乙:None": {
     "team": "Regensburg",
@@ -132291,7 +133484,8 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0381:德乙:None": {
     "team": "Kaiserslautern",
@@ -133009,7 +134203,8 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0382:德乙:None": {
     "team": "Greuther Furth",
@@ -133275,7 +134470,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0383:德乙:None": {
     "team": "Magdeburg",
@@ -133553,7 +134749,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_search"
+    "source_status": "verified_wikipedia_search",
+    "coach": null
   },
   "0385:德乙:None": {
     "team": "Heidenheim",
@@ -134309,7 +135506,8 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0391:德乙:None": {
     "team": "Ingolstadt",
@@ -134551,7 +135749,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0393:德乙:None": {
     "team": "Bielefeld",
@@ -135623,7 +136822,8 @@
       }
     ],
     "player_count": 47,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0396:阿甲:river-plate": {
     "team": "River Plate",
@@ -136495,7 +137695,8 @@
       }
     ],
     "player_count": 39,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0397:阿甲:estudiantes-l-p": {
     "team": "Estudiantes L.P.",
@@ -137181,7 +138382,8 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0399:阿甲:rosario-central": {
     "team": "Rosario Central",
@@ -138009,7 +139211,8 @@
       }
     ],
     "player_count": 37,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0400:阿甲:platense": {
     "team": "Platense",
@@ -139123,7 +140326,8 @@
       }
     ],
     "player_count": 50,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0401:阿甲:godoy-cruz": {
     "team": "Godoy Cruz",
@@ -139919,7 +141123,8 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0403:阿甲:defensa-y-justicia": {
     "team": "Defensa y Justicia",
@@ -140703,7 +141908,8 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0404:阿甲:talleres-cordoba": {
     "team": "Talleres Cordoba",
@@ -141443,7 +142649,8 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0405:阿甲:huracan": {
     "team": "Huracan",
@@ -142095,7 +143302,8 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0406:阿甲:gimnasia-l-p": {
     "team": "Gimnasia L.P.",
@@ -142891,7 +144099,8 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0408:阿甲:union-de-santa-fe": {
     "team": "Union de Santa Fe",
@@ -143157,7 +144366,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0409:阿甲:sarmiento-junin": {
     "team": "Sarmiento Junin",
@@ -143897,7 +145107,8 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0410:阿甲:san-lorenzo": {
     "team": "San Lorenzo",
@@ -144769,7 +145980,12 @@
       }
     ],
     "player_count": 39,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Sergio Órteman",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Sportivo_San_Lorenzo"
+    }
   },
   "0411:阿甲:newells-old-boys": {
     "team": "Newells Old Boys",
@@ -145553,7 +146769,12 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Frank Darío Kudelka",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Newell%27s_Old_Boys"
+    }
   },
   "0412:阿甲:lanus": {
     "team": "Lanus",
@@ -146557,7 +147778,12 @@
       }
     ],
     "player_count": 45,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Mauricio Pellegrino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Lan%C3%BAs"
+    }
   },
   "0413:阿甲:central-cordoba": {
     "team": "Central Cordoba",
@@ -147365,7 +148591,12 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Sebastián Romero",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Racing_Club_de_Avellaneda"
+    }
   },
   "0416:阿甲:650b-colonsantafe": {
     "team": "Colon Santa FE",
@@ -147691,7 +148922,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Nicolás Diez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Argentinos_Juniors"
+    }
   },
   "0419:阿甲:650b-barracascentral": {
     "team": "Barracas Central",
@@ -148497,7 +149733,12 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Damián Ayude",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Barracas_Central"
+    }
   },
   "0420:阿甲:650b-tigre": {
     "team": "Tigre",
@@ -149545,7 +150786,12 @@
       }
     ],
     "player_count": 47,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Diego Dabove",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Tigre"
+    }
   },
   "0421:美職MLS:mls-los-angeles-fc": {
     "team": "Los Angeles FC",
@@ -149811,7 +151057,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Xavi Tamarit (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_FC"
+    }
   },
   "0422:美職MLS:mls-new-york-city": {
     "team": "New York City",
@@ -150119,7 +151370,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Michael Bradley",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls"
+    }
   },
   "0425:美職MLS:mls-seattle-sounders": {
     "team": "Seattle Sounders",
@@ -150385,7 +151641,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Brian Schmetzer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC"
+    }
   },
   "0426:美職MLS:mls-real-salt-lake": {
     "team": "Real Salt Lake",
@@ -150741,7 +152002,12 @@
       }
     ],
     "player_count": 19,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Pablo Mastroeni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Salt_Lake"
+    }
   },
   "0427:美職MLS:mls-philadelphia-union": {
     "team": "Philadelphia Union",
@@ -150989,7 +152255,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Ryan Richter (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Philadelphia_Union"
+    }
   },
   "0428:美職MLS:mls-fc-cincinnati": {
     "team": "FC Cincinnati",
@@ -151273,7 +152544,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Pat Noonan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Cincinnati"
+    }
   },
   "0429:美職MLS:mls-atlanta-utd": {
     "team": "Atlanta Utd",
@@ -151587,7 +152863,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Laurent Courtois (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Columbus_Crew"
+    }
   },
   "0431:美職MLS:mls-vancouver-whitecaps": {
     "team": "Vancouver Whitecaps",
@@ -151871,7 +153152,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Jesper Sørensen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC"
+    }
   },
   "0432:美職MLS:mls-los-angeles-galaxy": {
     "team": "Los Angeles Galaxy",
@@ -152137,7 +153423,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Xavi Tamarit (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_FC"
+    }
   },
   "0433:美職MLS:mls-houston-dynamo": {
     "team": "Houston Dynamo",
@@ -152385,7 +153676,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Ben Olsen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC"
+    }
   },
   "0434:美職MLS:mls-sporting-kansas-city": {
     "team": "Sporting Kansas City",
@@ -152633,7 +153929,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Raphaël Wicky",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sporting_Kansas_City"
+    }
   },
   "0435:美職MLS:mls-portland-timbers": {
     "team": "Portland Timbers",
@@ -152899,7 +154200,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Martí Cifuentes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Portland_Timbers"
+    }
   },
   "0436:美職MLS:mls-nashville-sc": {
     "team": "Nashville SC",
@@ -153165,7 +154471,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "B. J. Callaghan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Nashville_SC"
+    }
   },
   "0437:美職MLS:mls-minnesota-united": {
     "team": "Minnesota United",
@@ -153449,7 +154760,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Cameron Knowles",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Minnesota_United_FC"
+    }
   },
   "0438:美職MLS:mls-fc-dallas": {
     "team": "FC Dallas",
@@ -153769,7 +155085,12 @@
       }
     ],
     "player_count": 17,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Eric Quill",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Dallas"
+    }
   },
   "0439:美職MLS:mls-inter-miami": {
     "team": "Inter Miami",
@@ -154071,7 +155392,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Kily González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Inter_Miami_CF"
+    }
   },
   "0440:美職MLS:mls-new-england-revolution": {
     "team": "New England Revolution",
@@ -154355,7 +155681,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Marko Mitrović",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/New_England_Revolution"
+    }
   },
   "0441:美職MLS:mls-colorado-rapids": {
     "team": "Colorado Rapids",
@@ -154621,7 +155952,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Matt Wells",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Colorado_Rapids"
+    }
   },
   "0442:美職MLS:mls-cf-montreal": {
     "team": "CF Montreal",
@@ -154905,7 +156241,12 @@
       }
     ],
     "player_count": 15,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Philippe Eullaffroy (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al"
+    }
   },
   "0443:美職MLS:mls-austin-fc": {
     "team": "Austin FC",
@@ -155135,7 +156476,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Davy Arnaud (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Austin_FC"
+    }
   },
   "0444:美職MLS:mls-san-jose-earthquakes": {
     "team": "San Jose Earthquakes",
@@ -155437,7 +156783,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Bruce Arena",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes"
+    }
   },
   "0445:美職MLS:mls-toronto-fc": {
     "team": "Toronto FC",
@@ -155739,7 +157090,12 @@
       }
     ],
     "player_count": 16,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Mauro Eustáquio",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Inter_Toronto_FC"
+    }
   },
   "0446:美職MLS:mls-dc-united": {
     "team": "DC United",
@@ -155987,7 +157343,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Omid Namazi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/DC_Power_FC"
+    }
   },
   "0447:美職MLS:mls-chicago-fire": {
     "team": "Chicago Fire",
@@ -156795,7 +158156,12 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Guillermo Almada",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica"
+    }
   },
   "0450:墨西超:tigres-uanl": {
     "team": "Tigres UANL",
@@ -157601,7 +158967,12 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Víctor Manuel Vucetich (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Tigres_UANL"
+    }
   },
   "0451:墨西超:monterrey": {
     "team": "Monterrey",
@@ -158319,7 +159690,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Matías Almeyda",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/C.F._Monterrey"
+    }
   },
   "0452:墨西超:cruz-azul": {
     "team": "Cruz Azul",
@@ -159213,7 +160589,12 @@
       }
     ],
     "player_count": 40,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Joel Huiqui",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cruz_Azul"
+    }
   },
   "0453:墨西超:toluca": {
     "team": "Toluca",
@@ -159975,7 +161356,12 @@
       }
     ],
     "player_count": 34,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Antonio Mohamed",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Toluca_FC"
+    }
   },
   "0454:墨西超:pachuca": {
     "team": "Pachuca",
@@ -160715,7 +162101,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Benjamín Mora",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/C.F._Pachuca"
+    }
   },
   "0455:墨西超:guadalajara-chivas": {
     "team": "Guadalajara Chivas",
@@ -160945,7 +162336,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Gabriel Milito",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/C.D._Guadalajara"
+    }
   },
   "0456:墨西超:unam-pumas": {
     "team": "UNAM Pumas",
@@ -161211,7 +162607,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Esteban Solari",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Pumas_UNAM"
+    }
   },
   "0457:墨西超:atlas": {
     "team": "Atlas",
@@ -161951,7 +163352,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Hernán Crespo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Atlas_F.C."
+    }
   },
   "0458:墨西超:atl-san-luis": {
     "team": "Atl. San Luis",
@@ -162681,7 +164087,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Javier Gandolfi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Le%C3%B3n"
+    }
   },
   "0460:墨西超:puebla": {
     "team": "Puebla",
@@ -163333,7 +164744,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Gerardo Espinoza",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Puebla"
+    }
   },
   "0461:墨西超:necaxa": {
     "team": "Necaxa",
@@ -163985,7 +165401,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Juan Reynoso",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Necaxa"
+    }
   },
   "0462:墨西超:club-tijuana": {
     "team": "Club Tijuana",
@@ -164593,7 +166014,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Sebastián Abreu",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Tijuana"
+    }
   },
   "0463:墨西超:mazatlan-fc": {
     "team": "Mazatlan FC",
@@ -164859,7 +166285,8 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0464:墨西超:juarez": {
     "team": "Juarez",
@@ -165643,7 +167070,12 @@
       }
     ],
     "player_count": 35,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Gustavo Lema",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Ju%C3%A1rez"
+    }
   },
   "0465:墨西超:queretaro": {
     "team": "Queretaro",
@@ -166317,7 +167749,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Esteban González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Quer%C3%A9taro_F.C."
+    }
   },
   "0466:墨西超:planb-santoslaguna": {
     "team": "Santos Laguna",
@@ -166565,7 +168002,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Renato Paiva",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Santos_Laguna"
+    }
   },
   "0467:A-League:a-league-melbourne-city-fc": {
     "team": "Melbourne City FC",
@@ -167195,7 +168637,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Aurelio Vidmar",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Melbourne_City_FC"
+    }
   },
   "0468:A-League:a-league-wellington-phoenix": {
     "team": "Wellington Phoenix",
@@ -167737,7 +169184,12 @@
       }
     ],
     "player_count": 24,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Chris Greenacre",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Wellington_Phoenix_FC"
+    }
   },
   "0469:A-League:a-league-adelaide-united": {
     "team": "Adelaide United",
@@ -168433,7 +169885,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Airton Andrioli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Adelaide_United_FC"
+    }
   },
   "0470:A-League:a-league-western-united": {
     "team": "Western United",
@@ -168645,7 +170102,12 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Ufuk Talay",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC"
+    }
   },
   "0471:A-League:a-league-perth-glory": {
     "team": "Perth Glory",
@@ -169319,7 +170781,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Adam Griffiths",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Perth_Glory_FC"
+    }
   },
   "0472:A-League:a-league-melbourne-victory": {
     "team": "Melbourne Victory",
@@ -170059,7 +171526,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Giovanni Savarese",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Melbourne_Victory_FC"
+    }
   },
   "0473:A-League:a-league-sydney-fc": {
     "team": "Sydney FC",
@@ -170667,7 +172139,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Patrick Kisnorbo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sydney_FC"
+    }
   },
   "0474:A-League:a-league-western-sydney-wanderers": {
     "team": "Western Sydney Wanderers",
@@ -171297,7 +172774,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Ufuk Talay",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC"
+    }
   },
   "0475:A-League:a-league-newcastle-united-jets": {
     "team": "Newcastle United Jets",
@@ -171563,7 +173045,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Mark Milligan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Newcastle_Jets_FC"
+    }
   },
   "0476:A-League:a-league-central-coast-mariners": {
     "team": "Central Coast Mariners",
@@ -172281,7 +173768,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "John Hutchinson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Central_Coast_Mariners_FC"
+    }
   },
   "0477:A-League:a-league-macarthur-fc": {
     "team": "Macarthur FC",
@@ -172911,7 +174403,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Sasa Ognenovski",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Macarthur_FC"
+    }
   },
   "0478:A-League:a-league-brisbane-roar": {
     "team": "Brisbane Roar",
@@ -173431,7 +174928,12 @@
       }
     ],
     "player_count": 23,
-    "source_status": "verified_espn_api_direct"
+    "source_status": "verified_espn_api_direct",
+    "coach": {
+      "name": "Michael Valkanis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Brisbane_Roar_FC"
+    }
   },
   "0479:日職:planb-hokkaidoconsadolesapporo": {
     "team": "Hokkaido Consadole Sapporo",
@@ -173787,7 +175289,12 @@
       }
     ],
     "player_count": 19,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Kenta Kawai",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hokkaido_Consadole_Sapporo"
+    }
   },
   "0480:蘇超:planb-celtic": {
     "team": "Celtic",
@@ -174527,7 +176034,12 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Martin O'Neill",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Celtic_F.C."
+    }
   },
   "0481:蘇超:planb-rangers": {
     "team": "Rangers",
@@ -175179,7 +176691,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Derek McInnes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Rangers_F.C."
+    }
   },
   "0482:蘇超:planb-hearts": {
     "team": "Hearts",
@@ -175821,7 +177338,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Marink Reedijk",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hibernian_F.C."
+    }
   },
   "0484:蘇超:planb-aberdeen": {
     "team": "Aberdeen",
@@ -176473,7 +177995,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Stephen Robinson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Aberdeen_F.C."
+    }
   },
   "0485:蘇超:planb-motherwell": {
     "team": "Motherwell",
@@ -177235,7 +178762,12 @@
       }
     ],
     "player_count": 34,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Alfred Johansson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Motherwell_F.C."
+    }
   },
   "0486:蘇超:planb-stmirren": {
     "team": "St Mirren",
@@ -177909,7 +179441,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Craig McLeish",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/St_Mirren_F.C."
+    }
   },
   "0487:蘇超:planb-rosscounty": {
     "team": "Ross County",
@@ -178529,7 +180066,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Simo Valakari",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/St_Johnstone_F.C."
+    }
   },
   "0489:意乙:A1000-frosinone": {
     "team": "Frosinone",
@@ -179181,7 +180723,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Massimiliano Alvini",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Frosinone_Calcio"
+    }
   },
   "0490:意乙:A1000-parma": {
     "team": "Parma",
@@ -179899,7 +181446,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Alberto Gilardino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
+    }
   },
   "0491:意乙:A1000-perugia": {
     "team": "Perugia",
@@ -180189,7 +181741,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Marco Marchionni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AS_Reggina_1914"
+    }
   },
   "0494:意乙:A1000-ternana": {
     "team": "Ternana",
@@ -180293,7 +181850,12 @@
       }
     ],
     "player_count": 5,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Andrea Lisuzzo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Nuova_Ternana_1925"
+    }
   },
   "0495:意乙:A1000-brescia": {
     "team": "Brescia",
@@ -180983,7 +182545,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Cesc Fàbregas",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Como_1907"
+    }
   },
   "0501:意乙:A1000-pisa": {
     "team": "Pisa",
@@ -181861,7 +183428,12 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Davide Nicola",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Venezia_FC"
+    }
   },
   "0508:意乙:A1000-catanzaro": {
     "team": "Catanzaro",
@@ -182139,7 +183711,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Luca D'Angelo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/UC_Sampdoria"
+    }
   },
   "0510:意乙:A1000-spezia": {
     "team": "Spezia",
@@ -182827,7 +184404,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Jokin Aranbarri",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SD_Eibar"
+    }
   },
   "0514:西乙:A1000-zaragoza": {
     "team": "Zaragoza",
@@ -183591,7 +185173,8 @@
       }
     ],
     "player_count": 33,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0517:西乙:A1000-amorebieta": {
     "team": "Amorebieta",
@@ -183851,7 +185434,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Mehdi Nafti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SD_Ponferradina"
+    }
   },
   "0519:西乙:A1000-alcorcon": {
     "team": "Alcorcon",
@@ -184541,7 +186129,12 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Álvaro Cervera",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CD_Tenerife"
+    }
   },
   "0525:西乙:A1000-laspalmas": {
     "team": "Las Palmas",
@@ -185413,7 +187006,12 @@
       }
     ],
     "player_count": 39,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Rubén de la Barrera",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/UD_Las_Palmas"
+    }
   },
   "0526:西乙:A1000-valladolid": {
     "team": "Valladolid",
@@ -186143,7 +187741,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Juan Francisco Funes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF"
+    }
   },
   "0528:西乙:A1000-mirandes": {
     "team": "Mirandes",
@@ -186863,7 +188466,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "García Pimienta",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa"
+    }
   },
   "0531:西乙:A1000-levante": {
     "team": "Levante",
@@ -187493,7 +189101,8 @@
       }
     ],
     "player_count": 28,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0532:西乙:A1000-santander": {
     "team": "Santander",
@@ -187753,7 +189362,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Iñigo Pérez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Villarreal_CF"
+    }
   },
   "0534:西乙:A1000-granada": {
     "team": "Granada",
@@ -188581,7 +190195,12 @@
       }
     ],
     "player_count": 37,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Pacheta",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Granada_CF"
+    }
   },
   "0535:西乙:A1000-andorra": {
     "team": "Andorra",
@@ -189399,7 +191018,12 @@
       }
     ],
     "player_count": 36,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Alberto González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Albacete_Balompi%C3%A9"
+    }
   },
   "0537:西乙:A1000-elche": {
     "team": "Elche",
@@ -190051,7 +191675,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Martín Anselmi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Elche_CF"
+    }
   },
   "0538:西乙:A1000-ferrol": {
     "team": "Ferrol",
@@ -190329,7 +191958,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Javi Calleja",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CD_Eldense"
+    }
   },
   "0540:法乙:A1000-bastia": {
     "team": "Bastia",
@@ -191053,7 +192687,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Albert Sánchez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/USL_Dunkerque"
+    }
   },
   "0547:法乙:A1000-quevillyrouen": {
     "team": "Quevilly Rouen",
@@ -191283,7 +192922,12 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Gabriel Santos",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole"
+    }
   },
   "0548:法乙:A1000-grenoble": {
     "team": "Grenoble",
@@ -191979,7 +193623,12 @@
       }
     ],
     "player_count": 31,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Olivier Frapolli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Grenoble_Foot_38"
+    }
   },
   "0549:法乙:A1000-parisfc": {
     "team": "Paris FC",
@@ -192227,7 +193876,12 @@
       }
     ],
     "player_count": 13,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Liam Rosenior",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Paris_FC"
+    }
   },
   "0550:法乙:A1000-lehavre": {
     "team": "Le Havre",
@@ -192913,7 +194567,12 @@
       }
     ],
     "player_count": 30,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Sylvain Ripoll",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/En_Avant_Guingamp"
+    }
   },
   "0552:法乙:A1000-paufc": {
     "team": "Pau FC",
@@ -193565,7 +195224,8 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": null
   },
   "0553:法乙:A1000-ajaccio": {
     "team": "Ajaccio",
@@ -194265,7 +195925,12 @@
       }
     ],
     "player_count": 29,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Vincent Hognon",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Sochaux-Montb%C3%A9liard"
+    }
   },
   "0558:法乙:A1000-stetienne": {
     "team": "St Etienne",
@@ -194885,7 +196550,12 @@
       }
     ],
     "player_count": 27,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Laurent Guyot",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Annecy"
+    }
   },
   "0560:法乙:A1000-laval": {
     "team": "Laval",
@@ -195627,7 +197297,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "Grégory Proment",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Metz"
+    }
   },
   "0563:法乙:A1000-troyes": {
     "team": "Troyes",
@@ -195905,7 +197580,12 @@
       }
     ],
     "player_count": 14,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "John Rankin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Airdrieonians_F.C."
+    }
   },
   "0565:蘇冠:A1000-montrose": {
     "team": "Montrose",
@@ -196153,7 +197833,8 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0569:蘇冠:A1000-falkirk": {
     "team": "Falkirk",
@@ -196871,7 +198552,12 @@
       }
     ],
     "player_count": 32,
-    "source_status": "ok"
+    "source_status": "ok",
+    "coach": {
+      "name": "John McGlynn",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Falkirk_F.C."
+    }
   },
   "0570:蘇冠:A1000-peterhead": {
     "team": "Peterhead",
@@ -197125,7 +198811,8 @@
       }
     ],
     "player_count": 12,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": null
   },
   "0573:蘇冠:A1000-queenofsth": {
     "team": "Queen of Sth",
@@ -197349,6 +199036,11 @@
       }
     ],
     "player_count": 11,
-    "source_status": "verified_wikipedia_current_squad"
+    "source_status": "verified_wikipedia_current_squad",
+    "coach": {
+      "name": "Willie Gibson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Annan_Athletic_F.C."
+    }
   }
 }

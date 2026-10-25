@@ -1,0 +1,6279 @@
+{
+  "generated_at": "2026-10-25T18:26:43.616703+00:00",
+  "target_teams": 436,
+  "with_coach": 314,
+  "coverage": 0.7202,
+  "wikipedia_manager": 314,
+  "espn_team_page_coach": 0,
+  "without_coach": 122,
+  "policy": "Only explicit Wikipedia infobox manager/head coach/coach or explicit ESPN coach/manager fields accepted; player arrays unchanged.",
+  "results": {
+    "0001:英超:1044": {
+      "status": "ok",
+      "name": "Marco Rose",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "AFC Bournemouth",
+          "url": "https://en.wikipedia.org/wiki/AFC_Bournemouth",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0002:英超:57": {
+      "status": "ok",
+      "name": "Mikel Arteta",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Arsenal F.C.",
+          "url": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0003:英超:58": {
+      "status": "ok",
+      "name": "Unai Emery",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Aston_Villa_F.C._season",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "2026–27 Aston Villa F.C. season",
+          "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_Aston_Villa_F.C._season",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0004:英超:402": {
+      "status": "ok",
+      "name": "Keith Andrews",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Brentford F.C.",
+          "url": "https://en.wikipedia.org/wiki/Brentford_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0005:英超:397": {
+      "status": "ok",
+      "name": "Fabian Hürzeler",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Brighton & Hove Albion F.C.",
+          "url": "https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0006:英超:61": {
+      "status": "ok",
+      "name": "Xabi Alonso",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Chelsea F.C.",
+          "url": "https://en.wikipedia.org/wiki/Chelsea_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0007:英超:354": {
+      "status": "ok",
+      "name": "Pierre Sage",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Crystal Palace F.C.",
+          "url": "https://en.wikipedia.org/wiki/Crystal_Palace_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0008:英超:62": {
+      "status": "ok",
+      "name": "David Moyes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Everton_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Everton F.C.",
+          "url": "https://en.wikipedia.org/wiki/Everton_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0009:英超:63": {
+      "status": "ok",
+      "name": "Álvaro Arbeloa",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fulham_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Fulham F.C.",
+          "url": "https://en.wikipedia.org/wiki/Fulham_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0010:英超:64": {
+      "status": "ok",
+      "name": "Andoni Iraola",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Liverpool F.C.",
+          "url": "https://en.wikipedia.org/wiki/Liverpool_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0011:英超:65": {
+      "status": "ok",
+      "name": "Enzo Maresca",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Manchester City F.C.",
+          "url": "https://en.wikipedia.org/wiki/Manchester_City_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0012:英超:66": {
+      "status": "ok",
+      "name": "Mark Beesley",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/F.C._United_of_Manchester",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "F.C. United of Manchester",
+          "url": "https://en.wikipedia.org/wiki/F.C._United_of_Manchester",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0013:英超:67": {
+      "status": "ok",
+      "name": "Mark Milligan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Newcastle_Jets_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Newcastle Jets FC",
+          "url": "https://en.wikipedia.org/wiki/Newcastle_Jets_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0014:英超:351": {
+      "status": "ok",
+      "name": "Oliver Glasner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Nottingham Forest F.C.",
+          "url": "https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0015:英超:73": {
+      "status": "ok",
+      "name": "Roberto De Zerbi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Tottenham Hotspur F.C.",
+          "url": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0016:英超:563": {
+      "status": "ok",
+      "name": "Nuno Espírito Santo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "West Ham United F.C.",
+          "url": "https://en.wikipedia.org/wiki/West_Ham_United_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0017:英超:76": {
+      "status": "ok",
+      "name": "César Peixoto",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Wolverhampton Wanderers F.C.",
+          "url": "https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0018:英超:328": {
+      "status": "ok",
+      "name": "Sean Dyche",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Burnley_F.C._season",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Burnley F.C.",
+          "url": "https://en.wikipedia.org/wiki/Burnley_F.C.",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "List of Burnley F.C. managers",
+          "url": "https://en.wikipedia.org/wiki/List_of_Burnley_F.C._managers",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "2018–19 Burnley F.C. season",
+          "url": "https://en.wikipedia.org/wiki/2018%E2%80%9319_Burnley_F.C._season",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0019:英超:341": {
+      "status": "ok",
+      "name": "Daniel Farke",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Leeds United F.C.",
+          "url": "https://en.wikipedia.org/wiki/Leeds_United_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0020:英超:71": {
+      "status": "ok",
+      "name": "Régis Le Bris",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sunderland A.F.C.",
+          "url": "https://en.wikipedia.org/wiki/Sunderland_A.F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0021:西甲:77": {
+      "status": "ok",
+      "name": "Edin Terzić",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Athletic Bilbao",
+          "url": "https://en.wikipedia.org/wiki/Athletic_Bilbao",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0022:西甲:79": {
+      "status": "ok",
+      "name": "Jagoba Arrasate",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CA_Osasuna",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "CA Osasuna",
+          "url": "https://en.wikipedia.org/wiki/CA_Osasuna",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0023:西甲:78": {
+      "status": "ok",
+      "name": "Diego Simeone",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Atlético Madrid",
+          "url": "https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0024:西甲:263": {
+      "status": "ok",
+      "name": "Quique Sánchez Flores",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Deportivo Alavés",
+          "url": "https://en.wikipedia.org/wiki/Deportivo_Alav%C3%A9s",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0025:西甲:81": {
+      "status": "ok",
+      "name": "Juliano Belletti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Barcelona Atlètic",
+          "url": "https://en.wikipedia.org/wiki/FC_Barcelona_Atl%C3%A8tic",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0026:西甲:82": {
+      "status": "ok",
+      "name": "José Bordalás",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Getafe_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Getafe CF",
+          "url": "https://en.wikipedia.org/wiki/Getafe_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0027:西甲:298": {
+      "status": "ok",
+      "name": "Quique Álvarez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Girona_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Girona FC",
+          "url": "https://en.wikipedia.org/wiki/Girona_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0028:西甲:558": {
+      "status": "ok",
+      "name": "Claudio Giráldez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "RC Celta de Vigo",
+          "url": "https://en.wikipedia.org/wiki/RC_Celta_de_Vigo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0029:西甲:80": {
+      "status": "ok",
+      "name": "Manolo González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RCD_Espanyol",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "RCD Espanyol",
+          "url": "https://en.wikipedia.org/wiki/RCD_Espanyol",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0030:西甲:89": {
+      "status": "ok",
+      "name": "Luis García",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RCD_Mallorca",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "RCD Mallorca",
+          "url": "https://en.wikipedia.org/wiki/RCD_Mallorca",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0031:西甲:87": {
+      "status": "ok",
+      "name": "Beñat San José",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Rayo_Vallecano",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Rayo Vallecano",
+          "url": "https://en.wikipedia.org/wiki/Rayo_Vallecano",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0032:西甲:90": {
+      "status": "ok",
+      "name": "Manuel Pellegrini",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Betis",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Real Betis",
+          "url": "https://en.wikipedia.org/wiki/Real_Betis",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0033:西甲:86": {
+      "status": "ok",
+      "name": "José Mourinho",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Real Madrid CF",
+          "url": "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0034:西甲:92": {
+      "status": "ok",
+      "name": "Pellegrino Matarazzo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Sociedad",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Real Sociedad",
+          "url": "https://en.wikipedia.org/wiki/Real_Sociedad",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0035:西甲:559": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sevilla+FC+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/243"
+      }
+    },
+    "0036:西甲:95": {
+      "status": "ok",
+      "name": "Javier Aguirre",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Valencia_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Valencia CF",
+          "url": "https://en.wikipedia.org/wiki/Valencia_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0037:西甲:94": {
+      "status": "ok",
+      "name": "Iñigo Pérez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Villarreal_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Villarreal CF",
+          "url": "https://en.wikipedia.org/wiki/Villarreal_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0038:西甲:285": {
+      "status": "ok",
+      "name": "Martín Anselmi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Elche_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Elche CF",
+          "url": "https://en.wikipedia.org/wiki/Elche_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0039:西甲:88": {
+      "status": "ok",
+      "name": "Luís Castro",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Levante_UD",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Levante UD",
+          "url": "https://en.wikipedia.org/wiki/Levante_UD",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0040:西甲:1048": {
+      "status": "ok",
+      "name": "Julián Calero",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Oviedo",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Real Oviedo",
+          "url": "https://en.wikipedia.org/wiki/Real_Oviedo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0041:意甲:98": {
+      "status": "ok",
+      "name": "Ruben Amorim",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AC_Milan",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "AC Milan",
+          "url": "https://en.wikipedia.org/wiki/AC_Milan",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0042:意甲:99": {
+      "status": "ok",
+      "name": "Fabio Grosso (until 6 September) Paolo Vanoli (from 7 September)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_ACF_Fiorentina_season",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "2026–27 ACF Fiorentina season",
+          "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_ACF_Fiorentina_season",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0043:意甲:100": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=AS+Roma+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/teams/104"
+      }
+    },
+    "0044:意甲:102": {
+      "status": "ok",
+      "name": "Nicola Beati",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Atalanta_BC_Under-23",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Atalanta BC Under-23",
+          "url": "https://en.wikipedia.org/wiki/Atalanta_BC_Under-23",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0045:意甲:103": {
+      "status": "ok",
+      "name": "Raffaele Palladino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Bologna FC 1909",
+          "url": "https://en.wikipedia.org/wiki/Bologna_FC_1909",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0046:意甲:104": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Cagliari+Calcio+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/teams/2925"
+      }
+    },
+    "0047:意甲:7397": {
+      "status": "ok",
+      "name": "Cesc Fàbregas",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Como_1907",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Como 1907",
+          "url": "https://en.wikipedia.org/wiki/Como_1907",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0048:意甲:108": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=FC+Internazionale+Milano+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0049:意甲:107": {
+      "status": "ok",
+      "name": "Daniele De Rossi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Genoa_CFC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Genoa CFC",
+          "url": "https://en.wikipedia.org/wiki/Genoa_CFC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0050:意甲:450": {
+      "status": "ok",
+      "name": "Marco Baroni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hellas_Verona_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Hellas Verona FC",
+          "url": "https://en.wikipedia.org/wiki/Hellas_Verona_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0051:意甲:109": {
+      "status": "ok",
+      "name": "Luciano Spalletti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Juventus_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Juventus FC",
+          "url": "https://en.wikipedia.org/wiki/Juventus_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0052:意甲:112": {
+      "status": "ok",
+      "name": "Alberto Gilardino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Parma Calcio 1913",
+          "url": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0053:意甲:110": {
+      "status": "ok",
+      "name": "Gennaro Gattuso",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SS_Lazio",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SS Lazio",
+          "url": "https://en.wikipedia.org/wiki/SS_Lazio",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0054:意甲:113": {
+      "status": "ok",
+      "name": "Massimiliano Allegri",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SSC_Napoli",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SSC Napoli",
+          "url": "https://en.wikipedia.org/wiki/SSC_Napoli",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0055:意甲:586": {
+      "status": "ok",
+      "name": "Ignazio Abate",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Torino_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Torino FC",
+          "url": "https://en.wikipedia.org/wiki/Torino_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0056:意甲:5890": {
+      "status": "ok",
+      "name": "Eusebio Di Francesco",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/US_Lecce",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "US Lecce",
+          "url": "https://en.wikipedia.org/wiki/US_Lecce",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0057:意甲:115": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Udinese+Calcio+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/teams/118"
+      }
+    },
+    "0058:意甲:487": {
+      "status": "ok",
+      "name": "Paolo Bianco",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Pisa_SC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Pisa SC",
+          "url": "https://en.wikipedia.org/wiki/Pisa_SC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0059:意甲:457": {
+      "status": "ok",
+      "name": "Fabio Pecchia",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/US_Cremonese",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "US Cremonese",
+          "url": "https://en.wikipedia.org/wiki/US_Cremonese",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0060:意甲:471": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=US+Sassuolo+Calcio+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0061:德甲:44": {
+      "status": "ok",
+      "name": "Frank Schmidt",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FC_Heidenheim",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "1. FC Heidenheim",
+          "url": "https://en.wikipedia.org/wiki/1._FC_Heidenheim",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0062:德甲:15": {
+      "status": "ok",
+      "name": "Urs Fischer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "1. FSV Mainz 05",
+          "url": "https://en.wikipedia.org/wiki/1._FSV_Mainz_05",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0063:德甲:3": {
+      "status": "ok",
+      "name": "Carles Martínez Novell",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Bayer 04 Leverkusen",
+          "url": "https://en.wikipedia.org/wiki/Bayer_04_Leverkusen",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0064:德甲:4": {
+      "status": "ok",
+      "name": "Niko Kovač",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Borussia Dortmund",
+          "url": "https://en.wikipedia.org/wiki/Borussia_Dortmund",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0065:德甲:18": {
+      "status": "ok",
+      "name": "Alexander Blessin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Borussia-Park",
+          "url": "https://en.wikipedia.org/wiki/Borussia-Park",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Borussia Mönchengladbach",
+          "url": "https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0066:德甲:19": {
+      "status": "ok",
+      "name": "Adi Hütter",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Eintracht Frankfurt",
+          "url": "https://en.wikipedia.org/wiki/Eintracht_Frankfurt",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0067:德甲:16": {
+      "status": "ok",
+      "name": "Manuel Baum",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Augsburg",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Augsburg",
+          "url": "https://en.wikipedia.org/wiki/FC_Augsburg",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0068:德甲:5": {
+      "status": "ok",
+      "name": "Vincent Kompany",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Bayern Munich",
+          "url": "https://en.wikipedia.org/wiki/FC_Bayern_Munich",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0069:德甲:721": {
+      "status": "ok",
+      "name": "Martín Demichelis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RB_Leipzig",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "RB Leipzig",
+          "url": "https://en.wikipedia.org/wiki/RB_Leipzig",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0070:德甲:17": {
+      "status": "ok",
+      "name": "Julian Schuster",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Freiburg",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SC Freiburg",
+          "url": "https://en.wikipedia.org/wiki/SC_Freiburg",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0071:德甲:12": {
+      "status": "ok",
+      "name": "Daniel Thioune",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SV Werder Bremen",
+          "url": "https://en.wikipedia.org/wiki/SV_Werder_Bremen",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0072:德甲:2": {
+      "status": "ok",
+      "name": "Christian Ilzer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "TSG 1899 Hoffenheim",
+          "url": "https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0073:德甲:10": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=VfB+Stuttgart+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/teams/134"
+      }
+    },
+    "0074:德甲:11": {
+      "status": "ok",
+      "name": "Tobias Strobl",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "VfL Wolfsburg",
+          "url": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0075:德甲:28": {
+      "status": "ok",
+      "name": "Mauro Lustrinelli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "1. FC Union Berlin",
+          "url": "https://en.wikipedia.org/wiki/1._FC_Union_Berlin",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0076:德甲:1": {
+      "status": "ok",
+      "name": "René Wagner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "1. FC Köln",
+          "url": "https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0077:德甲:20": {
+      "status": "ok",
+      "name": "Marcel Rapp",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_St._Pauli",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC St. Pauli",
+          "url": "https://en.wikipedia.org/wiki/FC_St._Pauli",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0078:德甲:7": {
+      "status": "ok",
+      "name": "Merlin Polzin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hamburger_SV",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Hamburger SV",
+          "url": "https://en.wikipedia.org/wiki/Hamburger_SV",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0079:法甲:548": {
+      "status": "ok",
+      "name": "Filipe Luís",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "AS Monaco FC",
+          "url": "https://en.wikipedia.org/wiki/AS_Monaco_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0080:法甲:533": {
+      "status": "ok",
+      "name": "Didier Digard",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Le_Havre_AC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Le Havre AC",
+          "url": "https://en.wikipedia.org/wiki/Le_Havre_AC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0081:法甲:521": {
+      "status": "ok",
+      "name": "Davide Ancelotti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Lille_OSC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Lille OSC",
+          "url": "https://en.wikipedia.org/wiki/Lille_OSC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0082:法甲:522": {
+      "status": "ok",
+      "name": "Olivier Pantaloni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/OGC_Nice",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "OGC Nice",
+          "url": "https://en.wikipedia.org/wiki/OGC_Nice",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0083:法甲:523": {
+      "status": "ok",
+      "name": "Paulo Fonseca Jorge Maciel (caretaker in Ligue 1, until 30 November)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Olympique_Lyonnais_season",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "2025–26 Olympique Lyonnais season",
+          "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Olympique_Lyonnais_season",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0084:法甲:516": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Olympique+de+Marseille+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0085:法甲:524": {
+      "status": "ok",
+      "name": "Luis Enrique",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Paris Saint-Germain FC",
+          "url": "https://en.wikipedia.org/wiki/Paris_Saint-Germain_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0086:法甲:576": {
+      "status": "ok",
+      "name": "Hugo Oliveira",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "RC Strasbourg Alsace",
+          "url": "https://en.wikipedia.org/wiki/RC_Strasbourg_Alsace",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0087:法甲:546": {
+      "status": "ok",
+      "name": "Yannick Cahuzac",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RC_Lens",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "RC Lens",
+          "url": "https://en.wikipedia.org/wiki/RC_Lens",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0088:法甲:512": {
+      "status": "ok",
+      "name": "Julien Lachuer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Stade_Brestois_29",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Stade Brestois 29",
+          "url": "https://en.wikipedia.org/wiki/Stade_Brestois_29",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0089:法甲:529": {
+      "status": "ok",
+      "name": "Franck Haise",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Stade Rennais FC",
+          "url": "https://en.wikipedia.org/wiki/Stade_Rennais_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0090:法甲:543": {
+      "status": "ok",
+      "name": "Grégory Poirier",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Nantes",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Nantes",
+          "url": "https://en.wikipedia.org/wiki/FC_Nantes",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0091:法甲:511": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Toulouse+FC+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0092:法甲:519": {
+      "status": "ok",
+      "name": "Will Still",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AJ_Auxerre",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "AJ Auxerre",
+          "url": "https://en.wikipedia.org/wiki/AJ_Auxerre",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0093:法甲:532": {
+      "status": "ok",
+      "name": "Stéphane Gilli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Angers_SCO",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Angers SCO",
+          "url": "https://en.wikipedia.org/wiki/Angers_SCO",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0094:法甲:525": {
+      "status": "ok",
+      "name": "Alexandre Dujeux",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Lorient",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Lorient",
+          "url": "https://en.wikipedia.org/wiki/FC_Lorient",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0095:法甲:545": {
+      "status": "ok",
+      "name": "Grégory Proment",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Metz",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Metz",
+          "url": "https://en.wikipedia.org/wiki/FC_Metz",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0096:法甲:stade-de-reims": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Stade+de+Reims+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/teams/3243"
+      }
+    },
+    "0097:法甲:montpellier-hsc": {
+      "status": "ok",
+      "name": "Zoumana Camara",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Montpellier_HSC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Montpellier HSC",
+          "url": "https://en.wikipedia.org/wiki/Montpellier_HSC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0098:法甲:clermont-foot-63": {
+      "status": "ok",
+      "name": "David Guion",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Clermont_Foot_63",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Clermont Foot 63",
+          "url": "https://en.wikipedia.org/wiki/Clermont_Foot_63",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0099:J1聯賽:albirex-niigata": {
+      "status": "ok",
+      "name": "Jaswinder Singh",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Jurong",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Jurong",
+          "url": "https://en.wikipedia.org/wiki/FC_Jurong",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0100:J1聯賽:avispa-fukuoka": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Avispa+Fukuoka+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0101:J1聯賽:cerezo-osaka": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Cerezo+Osaka+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0102:J1聯賽:consadole-sapporo": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Consadole+Sapporo+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0103:J1聯賽:fc-tokyo": {
+      "status": "ok",
+      "name": "Rikizo Matsuhashi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Tokyo",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Tokyo",
+          "url": "https://en.wikipedia.org/wiki/FC_Tokyo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0104:J1聯賽:gamba-osaka": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Gamba+Osaka+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0105:J1聯賽:jubilo-iwata": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Jubilo+Iwata+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0106:J1聯賽:kashima-antlers": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kashima+Antlers+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0107:J1聯賽:kashiwa-reysol": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kashiwa+Reysol+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0108:J1聯賽:kawasaki-frontale": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kawasaki+Frontale+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0109:J1聯賽:kyoto-sanga": {
+      "status": "ok",
+      "name": "Ranko Popović",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kyoto_Sanga_FC",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Kyoto Sanga FC",
+          "url": "https://en.wikipedia.org/wiki/Kyoto_Sanga_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0110:J1聯賽:machida-zelvia": {
+      "status": "ok",
+      "name": "Go Kuroda",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Machida_Zelvia",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "FC Machida Zelvia",
+          "url": "https://en.wikipedia.org/wiki/FC_Machida_Zelvia",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0111:J1聯賽:nagoya-grampus": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Nagoya+Grampus+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0112:J1聯賽:sagan-tosu": {
+      "status": "ok",
+      "name": "Akio Kogiku",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sagan_Tosu",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Sagan Tosu",
+          "url": "https://en.wikipedia.org/wiki/Sagan_Tosu",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0113:J1聯賽:sanfrecce-hiroshima": {
+      "status": "ok",
+      "name": "Bartosch Gaul",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sanfrecce_Hiroshima",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Sanfrecce Hiroshima",
+          "url": "https://en.wikipedia.org/wiki/Sanfrecce_Hiroshima",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0114:J1聯賽:shonan-bellmare": {
+      "status": "ok",
+      "name": "Satoshi Yamaguchi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Shonan_Bellmare",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Shonan Bellmare",
+          "url": "https://en.wikipedia.org/wiki/Shonan_Bellmare",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0115:J1聯賽:tokyo-verdy": {
+      "status": "ok",
+      "name": "Naoki Sōma",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Tokyo_Verdy",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Tokyo Verdy",
+          "url": "https://en.wikipedia.org/wiki/Tokyo_Verdy",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0116:J1聯賽:urawa-reds": {
+      "status": "ok",
+      "name": "Cho Kwi-jae",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Urawa_Red_Diamonds",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Urawa Red Diamonds",
+          "url": "https://en.wikipedia.org/wiki/Urawa_Red_Diamonds",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0117:J1聯賽:vissel-kobe": {
+      "status": "ok",
+      "name": "Michael Skibbe",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vissel_Kobe",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Vissel Kobe",
+          "url": "https://en.wikipedia.org/wiki/Vissel_Kobe",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0118:J1聯賽:yokohama-f-marinos": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Yokohama+F+Marinos+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0119:葡超:porto": {
+      "status": "ok",
+      "name": "Francesco Farioli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Porto",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Porto",
+          "url": "https://en.wikipedia.org/wiki/FC_Porto",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0120:葡超:benfica": {
+      "status": "ok",
+      "name": "Marco Silva",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S.L._Benfica",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "S.L. Benfica",
+          "url": "https://en.wikipedia.org/wiki/S.L._Benfica",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0121:葡超:sporting-cp": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sporting+CP+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0122:葡超:braga": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Braga+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0123:葡超:vitoria-guimaraes": {
+      "status": "ok",
+      "name": "Tiago Margarido",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Vitória S.C.",
+          "url": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0124:葡超:moreirense": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Moreirense+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0125:葡超:arouca": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Arouca+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0126:葡超:famalicao": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Famalicao+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0127:葡超:casa-pia": {
+      "status": "ok",
+      "name": "Filipe Coelho",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Casa_Pia_A.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Casa Pia A.C.",
+          "url": "https://en.wikipedia.org/wiki/Casa_Pia_A.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0128:葡超:farense": {
+      "status": "ok",
+      "name": "José Faria",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S.C._Farense",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "S.C. Farense",
+          "url": "https://en.wikipedia.org/wiki/S.C._Farense",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0129:葡超:None": {
+      "status": "ok",
+      "name": "Rui Borges",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sporting_CP",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sporting CP",
+          "url": "https://en.wikipedia.org/wiki/Sporting_CP",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0130:葡超:None": {
+      "status": "ok",
+      "name": "Tiago Margarido",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Bruno Guimarães",
+          "url": "https://en.wikipedia.org/wiki/Bruno_Guimar%C3%A3es",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Guimarães",
+          "url": "https://en.wikipedia.org/wiki/Guimar%C3%A3es",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Vitória S.C.",
+          "url": "https://en.wikipedia.org/wiki/Vit%C3%B3ria_S.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0131:葡超:None": {
+      "status": "ok",
+      "name": "Luís Pinto",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Gil Vicente F.C.",
+          "url": "https://en.wikipedia.org/wiki/Gil_Vicente_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0132:葡超:None": {
+      "status": "ok",
+      "name": "Vasco Matos",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "G.D. Estoril Praia",
+          "url": "https://en.wikipedia.org/wiki/G.D._Estoril_Praia",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0133:葡超:None": {
+      "status": "ok",
+      "name": "Franclim Carvalho",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S.C._Braga",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "S.C. Braga",
+          "url": "https://en.wikipedia.org/wiki/S.C._Braga",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0134:葡超:None": {
+      "status": "ok",
+      "name": "Leandrão",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Boavista_Sport_Club",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Boavista F.C.",
+          "url": "https://en.wikipedia.org/wiki/Boavista_F.C.",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Boavista Sport Club",
+          "url": "https://en.wikipedia.org/wiki/Boavista_Sport_Club",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0135:葡超:None": {
+      "status": "ok",
+      "name": "Ronald Molina",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/F.C._Vizela",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "F.C. Vizela",
+          "url": "https://en.wikipedia.org/wiki/F.C._Vizela",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0136:葡超:None": {
+      "status": "ok",
+      "name": "Alex Costa",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Portimonense_S.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Portimonense S.C.",
+          "url": "https://en.wikipedia.org/wiki/Portimonense_S.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0137:荷甲:ajax": {
+      "status": "ok",
+      "name": "Míchel",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AFC_Ajax",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "AJAX Football Club",
+          "url": "https://en.wikipedia.org/wiki/AJAX_Football_Club",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "AFC Ajax",
+          "url": "https://en.wikipedia.org/wiki/AFC_Ajax",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0138:荷甲:psv-eindhoven": {
+      "status": "ok",
+      "name": "Peter Bosz",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "PSV Eindhoven in international football",
+          "url": "https://en.wikipedia.org/wiki/PSV_Eindhoven_in_international_football",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "PSV Eindhoven",
+          "url": "https://en.wikipedia.org/wiki/PSV_Eindhoven",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0139:荷甲:feyenoord": {
+      "status": "ok",
+      "name": "Giovanni van Bronckhorst",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Feyenoord",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Feyenoord",
+          "url": "https://en.wikipedia.org/wiki/Feyenoord",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0140:荷甲:az-alkmaar": {
+      "status": "ok",
+      "name": "Lee-Roy Echteld",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AZ_Alkmaar",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "AZ Alkmaar",
+          "url": "https://en.wikipedia.org/wiki/AZ_Alkmaar",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0141:荷甲:twente": {
+      "status": "ok",
+      "name": "John van den Brom",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Twente",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Twente",
+          "url": "https://en.wikipedia.org/wiki/FC_Twente",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0142:荷甲:utrecht": {
+      "status": "ok",
+      "name": "Anthony Correia",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Utrecht",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Utrecht",
+          "url": "https://en.wikipedia.org/wiki/FC_Utrecht",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0143:荷甲:None": {
+      "status": "ok",
+      "name": "Joseph Oosting",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Go_Ahead_Eagles",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Go Ahead Eagles",
+          "url": "https://en.wikipedia.org/wiki/Go_Ahead_Eagles",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0144:荷甲:None": {
+      "status": "ok",
+      "name": "Sander Duits",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RKC_Waalwijk",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "RKC Waalwijk",
+          "url": "https://en.wikipedia.org/wiki/RKC_Waalwijk",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0145:荷甲:None": {
+      "status": "ok",
+      "name": "Danny Buijs",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fortuna_Sittard",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Fortuna Sittard",
+          "url": "https://en.wikipedia.org/wiki/Fortuna_Sittard",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0146:荷甲:None": {
+      "status": "ok",
+      "name": "Dick Schreuder",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/NEC_Nijmegen",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "NEC Nijmegen",
+          "url": "https://en.wikipedia.org/wiki/NEC_Nijmegen",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0147:荷甲:None": {
+      "status": "ok",
+      "name": "Robin Veldman",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Heerenveen",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SC Heerenveen",
+          "url": "https://en.wikipedia.org/wiki/SC_Heerenveen",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0148:荷甲:None": {
+      "status": "ok",
+      "name": "Rogier Meijer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sparta_Rotterdam",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sparta Rotterdam",
+          "url": "https://en.wikipedia.org/wiki/Sparta_Rotterdam",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0149:荷甲:None": {
+      "status": "ok",
+      "name": "Vincent Heilmann",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Heracles_Almelo",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Heracles Almelo",
+          "url": "https://en.wikipedia.org/wiki/Heracles_Almelo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0150:荷甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "not_found",
+        "attempts": [
+          {
+            "title": "PEC Zwolle",
+            "url": "https://en.wikipedia.org/wiki/PEC_Zwolle",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "List of football clubs in the Netherlands",
+            "url": "https://en.wikipedia.org/wiki/List_of_football_clubs_in_the_Netherlands",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "Zwolle (disambiguation)",
+            "url": "https://en.wikipedia.org/wiki/Zwolle_(disambiguation)",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "Ryan Thomas (footballer)",
+            "url": "https://en.wikipedia.org/wiki/Ryan_Thomas_(footballer)",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "List of PEC Zwolle seasons",
+            "url": "https://en.wikipedia.org/wiki/List_of_PEC_Zwolle_seasons",
+            "status": 200,
+            "found": false
+          }
+        ]
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0151:荷甲:None": {
+      "status": "ok",
+      "name": "Dick Lukkien",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Groningen",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Groningen",
+          "url": "https://en.wikipedia.org/wiki/FC_Groningen",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0152:荷甲:None": {
+      "status": "ok",
+      "name": "Mamadou Zongo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vitesse_FC",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Vitesse FC",
+          "url": "https://en.wikipedia.org/wiki/Vitesse_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0153:荷甲:None": {
+      "status": "ok",
+      "name": "Johan Plat",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Cambuur",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SC Cambuur",
+          "url": "https://en.wikipedia.org/wiki/SC_Cambuur",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0154:荷甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "not_found",
+        "attempts": [
+          {
+            "title": "Adrie Koster",
+            "url": "https://en.wikipedia.org/wiki/Adrie_Koster",
+            "status": 200,
+            "found": false
+          }
+        ]
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/teams/156"
+      }
+    },
+    "0155:土超:galatasaray": {
+      "status": "ok",
+      "name": "Okan Buruk",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Galatasaray S.K. (football)",
+          "url": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0156:土超:fenerbahce": {
+      "status": "ok",
+      "name": "İsmail Kartal",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Fenerbahçe S.K. (football)",
+          "url": "https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football)",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0157:土超:besiktas": {
+      "status": "ok",
+      "name": "Vincenzo Italiano",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Beşiktaş J.K.",
+          "url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0158:土超:trabzonspor": {
+      "status": "ok",
+      "name": "Thomas Reis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Trabzonspor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Trabzonspor",
+          "url": "https://en.wikipedia.org/wiki/Trabzonspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0159:土超:basaksehir": {
+      "status": "ok",
+      "name": "Nuri Şahin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "İstanbul Başakşehir F.K.",
+          "url": "https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0160:土超:adana-demirspor": {
+      "status": "ok",
+      "name": "Kubilayhan Yücel",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Adana_Demirspor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Adana Demirspor",
+          "url": "https://en.wikipedia.org/wiki/Adana_Demirspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0161:土超:None": {
+      "status": "ok",
+      "name": "Bekir İrtegün",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hatayspor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Hatayspor",
+          "url": "https://en.wikipedia.org/wiki/Hatayspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0163:土超:None": {
+      "status": "ok",
+      "name": "Vincenzo Italiano",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Beşiktaş J.K.",
+          "url": "https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0164:土超:None": {
+      "status": "ok",
+      "name": "Osman Özköylü",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Antalyaspor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Antalyaspor",
+          "url": "https://en.wikipedia.org/wiki/Antalyaspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0165:土超:None": {
+      "status": "ok",
+      "name": "İsmet Taşdemir",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sivasspor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sivasspor",
+          "url": "https://en.wikipedia.org/wiki/Sivasspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0166:土超:None": {
+      "status": "ok",
+      "name": "Atila Gerin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kayserispor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Kayserispor",
+          "url": "https://en.wikipedia.org/wiki/Kayserispor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0167:土超:None": {
+      "status": "ok",
+      "name": "Emre Belözoğlu",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Kasımpaşa S.K.",
+          "url": "https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0168:土超:None": {
+      "status": "ok",
+      "name": "João Pereira",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Alanyaspor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Alanyaspor",
+          "url": "https://en.wikipedia.org/wiki/Alanyaspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0169:土超:None": {
+      "status": "ok",
+      "name": "Orhan Ak",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Gaziantep_F.K.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Gaziantep F.K.",
+          "url": "https://en.wikipedia.org/wiki/Gaziantep_F.K.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0170:土超:None": {
+      "status": "ok",
+      "name": "İlhan Palut",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Konyaspor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Konyaspor",
+          "url": "https://en.wikipedia.org/wiki/Konyaspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0171:土超:None": {
+      "status": "ok",
+      "name": "Atılay Canel (until 16 January) Orhan Ak (from 17 January)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Fatih_Karag%C3%BCmr%C3%BCk_S.K._season",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Fatih Karagümrük S.K.",
+          "url": "https://en.wikipedia.org/wiki/Fatih_Karag%C3%BCmr%C3%BCk_S.K.",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Karagümrük",
+          "url": "https://en.wikipedia.org/wiki/Karag%C3%BCmr%C3%BCk",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "2024–25 Fatih Karagümrük S.K. season",
+          "url": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Fatih_Karag%C3%BCmr%C3%BCk_S.K._season",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0172:土超:None": {
+      "status": "ok",
+      "name": "Recep Uçar",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Çaykur Rizespor",
+          "url": "https://en.wikipedia.org/wiki/%C3%87aykur_Rizespor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0173:土超:None": {
+      "status": "ok",
+      "name": "Adil Tozlu",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Giresunspor",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Giresunspor",
+          "url": "https://en.wikipedia.org/wiki/Giresunspor",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0174:比甲:club-brugge": {
+      "status": "ok",
+      "name": "Ivan Leko",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Club Brugge KV",
+          "url": "https://en.wikipedia.org/wiki/Club_Brugge_KV",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0175:比甲:anderlecht": {
+      "status": "ok",
+      "name": "Vítor Bruno",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/RSC_Anderlecht",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "RSC Anderlecht",
+          "url": "https://en.wikipedia.org/wiki/RSC_Anderlecht",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0176:比甲:genk": {
+      "status": "ok",
+      "name": "Jess Thorup",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KRC_Genk",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "KRC Genk",
+          "url": "https://en.wikipedia.org/wiki/KRC_Genk",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0177:比甲:antwerp": {
+      "status": "ok",
+      "name": "Marvin Compper",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Royal Antwerp FC",
+          "url": "https://en.wikipedia.org/wiki/Royal_Antwerp_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0178:比甲:union-sg": {
+      "status": "ok",
+      "name": "David Hubert",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SG Union Solingen",
+          "url": "https://en.wikipedia.org/wiki/SG_Union_Solingen",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Royale Union Saint-Gilloise",
+          "url": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0179:比甲:gent": {
+      "status": "ok",
+      "name": "Rik De Mil",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KAA_Gent",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "KAA Gent",
+          "url": "https://en.wikipedia.org/wiki/KAA_Gent",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0180:比甲:None": {
+      "status": "ok",
+      "name": "Timmy Simons",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Oud-Heverlee Leuven",
+          "url": "https://en.wikipedia.org/wiki/Oud-Heverlee_Leuven",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0181:比甲:None": {
+      "status": "ok",
+      "name": "Frederik Vanderbiest",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KV_Mechelen",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "KV Mechelen",
+          "url": "https://en.wikipedia.org/wiki/KV_Mechelen",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0182:比甲:None": {
+      "status": "ok",
+      "name": "David Hubert",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Royale Union Saint-Gilloise",
+          "url": "https://en.wikipedia.org/wiki/Royale_Union_Saint-Gilloise",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0183:比甲:None": {
+      "status": "ok",
+      "name": "Vincent Euvrard",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Standard Athletic Club",
+          "url": "https://en.wikipedia.org/wiki/Standard_Athletic_Club",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Standard Liège",
+          "url": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0184:比甲:None": {
+      "status": "ok",
+      "name": "Frédéric De Meyer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sint-Truidense_VV",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sint-Truiden",
+          "url": "https://en.wikipedia.org/wiki/Sint-Truiden",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Sint-Truidense VV",
+          "url": "https://en.wikipedia.org/wiki/Sint-Truidense_VV",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0185:比甲:None": {
+      "status": "ok",
+      "name": "Mario Kohnen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Royal_Charleroi_SC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Royal Charleroi SC",
+          "url": "https://en.wikipedia.org/wiki/Royal_Charleroi_SC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0186:比甲:None": {
+      "status": "ok",
+      "name": "Lars Friis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cercle_Brugge_KSV",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Cercle Brugge KSV",
+          "url": "https://en.wikipedia.org/wiki/Cercle_Brugge_KSV",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0187:比甲:None": {
+      "status": "ok",
+      "name": "Christophe Lepoint (caretaker)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KV_Kortrijk",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "KV Kortrijk",
+          "url": "https://en.wikipedia.org/wiki/KV_Kortrijk",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0188:比甲:None": {
+      "status": "ok",
+      "name": "Issame Charaï",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/KVC_Westerlo",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "KVC Westerlo",
+          "url": "https://en.wikipedia.org/wiki/KVC_Westerlo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0189:比甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Eupen+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0190:巴甲:flamengo": {
+      "status": "ok",
+      "name": "Leonardo Jardim",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CR_Flamengo",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "CR Flamengo",
+          "url": "https://en.wikipedia.org/wiki/CR_Flamengo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0191:巴甲:palmeiras": {
+      "status": "ok",
+      "name": "Abel Ferreira",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SE_Palmeiras",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SE Palmeiras",
+          "url": "https://en.wikipedia.org/wiki/SE_Palmeiras",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0192:巴甲:atletico-mineiro": {
+      "status": "ok",
+      "name": "Eduardo Domínguez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Clube Atlético Mineiro",
+          "url": "https://en.wikipedia.org/wiki/Clube_Atl%C3%A9tico_Mineiro",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0193:巴甲:corinthians": {
+      "status": "ok",
+      "name": "Clarence Seedorf",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Corinthians_Paulista",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SC Corinthians Paulista",
+          "url": "https://en.wikipedia.org/wiki/SC_Corinthians_Paulista",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0194:巴甲:fluminense": {
+      "status": "ok",
+      "name": "Marcão (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fluminense_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Fluminense FC",
+          "url": "https://en.wikipedia.org/wiki/Fluminense_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0195:巴甲:gremio": {
+      "status": "ok",
+      "name": "Renato Portaluppi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_FBPA",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Grêmio FBPA",
+          "url": "https://en.wikipedia.org/wiki/Gr%C3%AAmio_FBPA",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0196:巴甲:botafogo": {
+      "status": "ok",
+      "name": "Tite",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Botafogo_FR",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Botafogo FR",
+          "url": "https://en.wikipedia.org/wiki/Botafogo_FR",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0197:巴甲:athletico-pr": {
+      "status": "ok",
+      "name": "Odair Hellmann",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Athletico_Paranaense",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Club Athletico Paranaense",
+          "url": "https://en.wikipedia.org/wiki/Club_Athletico_Paranaense",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0198:巴甲:internacional": {
+      "status": "ok",
+      "name": "Eduardo Baptista",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Internacional",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SC Internacional",
+          "url": "https://en.wikipedia.org/wiki/SC_Internacional",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0199:巴甲:fortaleza": {
+      "status": "ok",
+      "name": "Paulo Autuori",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Fortaleza_Esporte_Clube",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Fortaleza Esporte Clube",
+          "url": "https://en.wikipedia.org/wiki/Fortaleza_Esporte_Clube",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0200:巴甲:sao-paulo": {
+      "status": "ok",
+      "name": "Dorival Júnior",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "São Paulo FC",
+          "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0201:巴甲:cruzeiro": {
+      "status": "ok",
+      "name": "Artur Jorge",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cruzeiro_EC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Cruzeiro EC",
+          "url": "https://en.wikipedia.org/wiki/Cruzeiro_EC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0202:巴甲:bragantino": {
+      "status": "ok",
+      "name": "Vagner Mancini",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Red_Bull_Bragantino",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Red Bull Bragantino",
+          "url": "https://en.wikipedia.org/wiki/Red_Bull_Bragantino",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0203:巴甲:santos": {
+      "status": "ok",
+      "name": "Cuca",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Santos_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Santos FC",
+          "url": "https://en.wikipedia.org/wiki/Santos_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0204:巴甲:bahia": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Bahia+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0205:巴甲:vasco": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Vasco+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0206:巴甲:cuiaba": {
+      "status": "ok",
+      "name": "Eduardo Barros",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cuiab%C3%A1_Esporte_Clube",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Cuiabá Esporte Clube",
+          "url": "https://en.wikipedia.org/wiki/Cuiab%C3%A1_Esporte_Clube",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0207:奧甲:aut-01": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Salzburg+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0208:奧甲:aut-02": {
+      "status": "ok",
+      "name": "Fabio Ingolitsch",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SK_Sturm_Graz",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SK Sturm Graz",
+          "url": "https://en.wikipedia.org/wiki/SK_Sturm_Graz",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0209:奧甲:aut-03": {
+      "status": "ok",
+      "name": "Dietmar Kühbauer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/LASK",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "LASK",
+          "url": "https://en.wikipedia.org/wiki/LASK",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0210:奧甲:aut-04": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=SK+Rapid+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0211:奧甲:aut-05": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Austria+Vienna+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0212:奧甲:aut-06": {
+      "status": "ok",
+      "name": "Thomas Silberberger",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Wolfsberger_AC",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Wolfsberger AC",
+          "url": "https://en.wikipedia.org/wiki/Wolfsberger_AC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0213:奧甲:aut-07": {
+      "status": "ok",
+      "name": "Markus Schopp",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/TSV_Hartberg",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "TSV Hartberg",
+          "url": "https://en.wikipedia.org/wiki/TSV_Hartberg",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0214:奧甲:aut-08": {
+      "status": "ok",
+      "name": "Ognjen Zarić",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SC_Rheindorf_Altach",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SC Rheindorf Altach",
+          "url": "https://en.wikipedia.org/wiki/SC_Rheindorf_Altach",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0215:奧甲:aut-09": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Tirol+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0216:奧甲:aut-10": {
+      "status": "ok",
+      "name": "Harald Gärtner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SK_Austria_Klagenfurt_(2007)",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "SK Austria Klagenfurt (2007)",
+          "url": "https://en.wikipedia.org/wiki/SK_Austria_Klagenfurt_(2007)",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0217:奧甲:aut-11": {
+      "status": "ok",
+      "name": "Michael Köllner",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Blau-Wei%C3%9F_Linz",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "FC Blau-Weiß Linz",
+          "url": "https://en.wikipedia.org/wiki/FC_Blau-Wei%C3%9F_Linz",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0218:奧甲:aut-12": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=A.+Lustenau+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0219:瑞士超:swz-01": {
+      "status": "ok",
+      "name": "Slaviša Jokanović",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Basel",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Basel",
+          "url": "https://en.wikipedia.org/wiki/FC_Basel",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0220:瑞士超:swz-02": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Grasshoppers+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0221:瑞士超:swz-03": {
+      "status": "ok",
+      "name": "Mattia Croci-Torti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Lugano",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Lugano",
+          "url": "https://en.wikipedia.org/wiki/FC_Lugano",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0222:瑞士超:swz-04": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Luzern+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0223:瑞士超:swz-05": {
+      "status": "ok",
+      "name": "Jocelyn Gourvennec",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Servette_FC",
+      "field": "coach",
+      "attempts": [
+        {
+          "title": "Servette FC",
+          "url": "https://en.wikipedia.org/wiki/Servette_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0224:瑞士超:swz-06": {
+      "status": "ok",
+      "name": "Enrico Maaßen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_St._Gallen",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC St. Gallen",
+          "url": "https://en.wikipedia.org/wiki/FC_St._Gallen",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0225:瑞士超:swz-07": {
+      "status": "ok",
+      "name": "Gerardo Seoane",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/BSC_Young_Boys",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "BSC Young Boys",
+          "url": "https://en.wikipedia.org/wiki/BSC_Young_Boys",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0226:瑞士超:swz-08": {
+      "status": "ok",
+      "name": "Olaf Janßen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Grasshopper_Club_Zurich",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Grasshopper Club Zurich",
+          "url": "https://en.wikipedia.org/wiki/Grasshopper_Club_Zurich",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0227:瑞士超:swz-09": {
+      "status": "ok",
+      "name": "Patrick Rahmen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Winterthur",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "FC Winterthur",
+          "url": "https://en.wikipedia.org/wiki/FC_Winterthur",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0228:瑞士超:swz-10": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Lausanne+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0229:瑞士超:swz-11": {
+      "status": "ok",
+      "name": "Didier Tholot",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Sion",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Sion",
+          "url": "https://en.wikipedia.org/wiki/FC_Sion",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0230:瑞士超:swz-12": {
+      "status": "ok",
+      "name": "Gian-Luca Privitelli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Thun",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "FC Thun",
+          "url": "https://en.wikipedia.org/wiki/FC_Thun",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0231:挪超:nor-01": {
+      "status": "ok",
+      "name": "Kjetil Knutsen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/2026_FK_Bod%C3%B8%2FGlimt_season",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "2026 FK Bodø/Glimt season",
+          "url": "https://en.wikipedia.org/wiki/2026_FK_Bod%C3%B8%2FGlimt_season",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0232:挪超:nor-02": {
+      "status": "ok",
+      "name": "Eirik Horneland",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SK_Brann",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "SK Brann",
+          "url": "https://en.wikipedia.org/wiki/SK_Brann",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0233:挪超:nor-03": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Haugesund+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0234:挪超:nor-04": {
+      "status": "ok",
+      "name": "Amund Skiri",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Kristiansund_BK",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Kristiansund BK",
+          "url": "https://en.wikipedia.org/wiki/Kristiansund_BK",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0235:挪超:nor-05": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Lillestrom+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/teams/987"
+      }
+    },
+    "0236:挪超:nor-06": {
+      "status": "ok",
+      "name": "Sindre Tjelmeland",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Molde_FK",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Molde FK",
+          "url": "https://en.wikipedia.org/wiki/Molde_FK",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0237:挪超:nor-07": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Odd+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0238:挪超:nor-08": {
+      "status": "ok",
+      "name": "Freyr Alexandersson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Rosenborg_BK",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Rosenborg BK",
+          "url": "https://en.wikipedia.org/wiki/Rosenborg_BK",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0239:挪超:nor-09": {
+      "status": "ok",
+      "name": "Andreas Tegström",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sandefjord_Fotball",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sandefjord Fotball",
+          "url": "https://en.wikipedia.org/wiki/Sandefjord_Fotball",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0240:挪超:nor-10": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sarpsborg+08+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0241:挪超:nor-11": {
+      "status": "ok",
+      "name": "Magne Hoset",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Strømsgodset Toppfotball",
+          "url": "https://en.wikipedia.org/wiki/Str%C3%B8msgodset_Toppfotball",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0242:挪超:nor-12": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Tromso+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/teams/5270"
+      }
+    },
+    "0243:挪超:nor-13": {
+      "status": "ok",
+      "name": "Johannes Moesgaard",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Vålerenga Fotball",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A5lerenga_Fotball",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0244:挪超:nor-14": {
+      "status": "ok",
+      "name": "Bjarte Lunde Aarsheim & Morten Jensen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Viking_FK",
+      "field": "head coaches",
+      "attempts": [
+        {
+          "title": "Viking FK",
+          "url": "https://en.wikipedia.org/wiki/Viking_FK",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0245:挪超:nor-15": {
+      "status": "ok",
+      "name": "Kjetil Rekdal",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Aalesunds_FK",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Aalesunds FK",
+          "url": "https://en.wikipedia.org/wiki/Aalesunds_FK",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0246:挪超:nor-16": {
+      "status": "ok",
+      "name": "Thomas Myhre",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hamarkameratene",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Hamarkameratene",
+          "url": "https://en.wikipedia.org/wiki/Hamarkameratene",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0247:瑞典超:swe-01": {
+      "status": "ok",
+      "name": "José Riveiro",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AIK_Fotboll",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "AIK Fotboll",
+          "url": "https://en.wikipedia.org/wiki/AIK_Fotboll",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0248:瑞典超:swe-02": {
+      "status": "ok",
+      "name": "Jani Honkavaara",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_Fotboll",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Djurgårdens IF Fotboll",
+          "url": "https://en.wikipedia.org/wiki/Djurg%C3%A5rdens_IF_Fotboll",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0249:瑞典超:swe-03": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Elfsborg+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0250:瑞典超:swe-04": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Goteborg+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0251:瑞典超:swe-05": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hacken+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0252:瑞典超:swe-06": {
+      "status": "ok",
+      "name": "Stuart Baxter",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Halmstads_BK",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Halmstad",
+          "url": "https://en.wikipedia.org/wiki/Halmstad",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Halmstads BK",
+          "url": "https://en.wikipedia.org/wiki/Halmstads_BK",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0253:瑞典超:swe-07": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hammarby+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0254:瑞典超:swe-08": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kalmar+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0255:瑞典超:swe-09": {
+      "status": "ok",
+      "name": "Gaute Helstrup",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Malm%C3%B6_FF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Malmö FF",
+          "url": "https://en.wikipedia.org/wiki/Malm%C3%B6_FF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0256:瑞典超:swe-10": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Mjallby+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0257:瑞典超:swe-11": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Norrkoping+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0258:瑞典超:swe-12": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sirius+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0259:瑞典超:swe-13": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Varberg+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0260:瑞典超:swe-14": {
+      "status": "ok",
+      "name": "Srdjan Tufegdžić",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/IFK_V%C3%A4rnamo",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "IFK Värnamo",
+          "url": "https://en.wikipedia.org/wiki/IFK_V%C3%A4rnamo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0261:瑞典超:swe-15": {
+      "status": "ok",
+      "name": "Alexander Rubin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Västerås SK Fotboll",
+          "url": "https://en.wikipedia.org/wiki/V%C3%A4ster%C3%A5s_SK_Fotboll",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0262:瑞典超:swe-16": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Brommapojkarna+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0263:丹超:dnk-01": {
+      "status": "ok",
+      "name": "Steffen Højer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AaB_Fodbold",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Aalborg Boldspilklub",
+          "url": "https://en.wikipedia.org/wiki/Aalborg_Boldspilklub",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "AaB Fodbold",
+          "url": "https://en.wikipedia.org/wiki/AaB_Fodbold",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0264:丹超:dnk-02": {
+      "status": "ok",
+      "name": "Jakob Poulsen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Aarhus Gymnastikforening",
+          "url": "https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0266:丹超:dnk-04": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=FC+Copenhagen+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0269:丹超:dnk-07": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Midtjylland+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/teams/572"
+      }
+    },
+    "0270:丹超:dnk-08": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Nordsjaelland+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0271:丹超:dnk-09": {
+      "status": "ok",
+      "name": "Thomas Thomasberg",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Odense_Boldklub",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Odense Boldklub",
+          "url": "https://en.wikipedia.org/wiki/Odense_Boldklub",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0272:丹超:dnk-10": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Randers+FC+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/teams/3132"
+      }
+    },
+    "0275:希超:None": {
+      "status": "ok",
+      "name": "Jacob Neestrup",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Panathinaikos_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Panathinaikos F.C.",
+          "url": "https://en.wikipedia.org/wiki/Panathinaikos_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0276:希超:None": {
+      "status": "ok",
+      "name": "Alessio Lisci",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/PAOK_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "PAOK FC",
+          "url": "https://en.wikipedia.org/wiki/PAOK_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0278:希超:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Olympiakos+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0280:希超:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Volos+NFC+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0282:希超:None": {
+      "status": "ok",
+      "name": "Giannis Anastasiou",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Panetolikos_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Panetolikos F.C.",
+          "url": "https://en.wikipedia.org/wiki/Panetolikos_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0283:希超:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Atromitos+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0284:希超:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=OFI+Crete+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0285:希超:None": {
+      "status": "ok",
+      "name": "Georgios Antonopoulos",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Asteras Tripolis F.C.",
+          "url": "https://en.wikipedia.org/wiki/Asteras_Tripolis_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0286:希超:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Giannina+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0287:希超:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Levadeiakos+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0288:希超:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Panserraikos+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0290:英冠:None": {
+      "status": "ok",
+      "name": "Michael Skubala",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Bristol City F.C.",
+          "url": "https://en.wikipedia.org/wiki/Bristol_City_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0291:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Cardiff+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0292:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Preston+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0293:英冠:None": {
+      "status": "ok",
+      "name": "Julien Stéphan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Queens Park Rangers F.C.",
+          "url": "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0294:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Stoke+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0296:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hull+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0297:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Middlesbrough+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/teams/369"
+      }
+    },
+    "0298:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Millwall+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/teams/391"
+      }
+    },
+    "0299:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=West+Brom+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0300:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Swansea+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0301:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Luton+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0302:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sheffield+United+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/teams/398"
+      }
+    },
+    "0305:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sunderland+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/teams/366"
+      }
+    },
+    "0306:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Watford+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/teams/395"
+      }
+    },
+    "0307:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Norwich+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0309:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Blackpool+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0310:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Reading+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0311:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Rotherham+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0312:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Burnley+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/teams/379"
+      }
+    },
+    "0313:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sheffield+Weds+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0314:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Plymouth+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0315:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Leeds+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0316:英冠:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Bournemouth+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.2/teams/349"
+      }
+    },
+    "0319:英甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Shrewsbury+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0324:英甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Fleetwood+Town+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0326:英甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Oxford+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0327:英甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Portsmouth+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.3/teams/385"
+      }
+    },
+    "0336:英甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Milton+Keynes+Dons+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0341:英甲:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Port+Vale+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0345:英甲:A1000-bradford": {
+      "status": "ok",
+      "name": "Michael Duff",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Bradford_City_A.F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Bradford (Park Avenue) A.F.C.",
+          "url": "https://en.wikipedia.org/wiki/Bradford_(Park_Avenue)_A.F.C.",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Bradford City A.F.C.",
+          "url": "https://en.wikipedia.org/wiki/Bradford_City_A.F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0351:英甲:A1000-crawleytown": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Crawley+Town+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0356:英甲:A1000-leytonorient": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Leyton+Orient+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0362:英甲:A1000-afcwimbledon": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=AFC+Wimbledon+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0368:英甲:A1000-nottscounty": {
+      "status": "ok",
+      "name": "Martin Paterson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Notts_County_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Notts County F.C.",
+          "url": "https://en.wikipedia.org/wiki/Notts_County_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0373:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Fortuna+Dusseldorf+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0375:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Schalke+04+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/teams/133"
+      }
+    },
+    "0377:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Hansa+Rostock+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0378:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=St+Pauli+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/teams/270"
+      }
+    },
+    "0380:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Holstein+Kiel+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/teams/7884"
+      }
+    },
+    "0381:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kaiserslautern+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/teams/130"
+      }
+    },
+    "0382:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Greuther+Furth+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0384:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Braunschweig+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0390:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Werder+Bremen+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.2/teams/137"
+      }
+    },
+    "0392:德乙:None": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Erzgebirge+Aue+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0395:阿甲:boca-juniors": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Boca+Juniors+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/5"
+      }
+    },
+    "0396:阿甲:river-plate": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=River+Plate+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/16"
+      }
+    },
+    "0398:阿甲:velez-sarsfield": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Velez+Sarsfield+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/21"
+      }
+    },
+    "0399:阿甲:rosario-central": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Rosario+Central+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/17"
+      }
+    },
+    "0400:阿甲:platense": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Platense+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/7764"
+      }
+    },
+    "0402:阿甲:independiente": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Independiente+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/11"
+      }
+    },
+    "0403:阿甲:defensa-y-justicia": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Defensa+y+Justicia+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/8950"
+      }
+    },
+    "0404:阿甲:talleres-cordoba": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Talleres+Cordoba+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/19"
+      }
+    },
+    "0405:阿甲:huracan": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Huracan+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/10"
+      }
+    },
+    "0407:阿甲:banfield": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Banfield+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/235"
+      }
+    },
+    "0408:阿甲:union-de-santa-fe": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Union+de+Santa+Fe+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0409:阿甲:sarmiento-junin": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Sarmiento+Junin+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/teams/10158"
+      }
+    },
+    "0410:阿甲:san-lorenzo": {
+      "status": "ok",
+      "name": "Sergio Órteman",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Sportivo_San_Lorenzo",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Club Sportivo San Lorenzo",
+          "url": "https://en.wikipedia.org/wiki/Club_Sportivo_San_Lorenzo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0411:阿甲:newells-old-boys": {
+      "status": "ok",
+      "name": "Frank Darío Kudelka",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Newell%27s_Old_Boys",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Newell's Old Boys",
+          "url": "https://en.wikipedia.org/wiki/Newell%27s_Old_Boys",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0412:阿甲:lanus": {
+      "status": "ok",
+      "name": "Mauricio Pellegrino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Lan%C3%BAs",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Club Atlético Lanús",
+          "url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Lan%C3%BAs",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0415:阿甲:650b-racingclub": {
+      "status": "ok",
+      "name": "Sebastián Romero",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Racing_Club_de_Avellaneda",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Racing Club de Avellaneda",
+          "url": "https://en.wikipedia.org/wiki/Racing_Club_de_Avellaneda",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0418:阿甲:650b-argentinosjrs": {
+      "status": "ok",
+      "name": "Nicolás Diez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Argentinos_Juniors",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Argentinos Juniors",
+          "url": "https://en.wikipedia.org/wiki/Argentinos_Juniors",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0419:阿甲:650b-barracascentral": {
+      "status": "ok",
+      "name": "Damián Ayude",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Barracas_Central",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Barracas Central",
+          "url": "https://en.wikipedia.org/wiki/Barracas_Central",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0420:阿甲:650b-tigre": {
+      "status": "ok",
+      "name": "Diego Dabove",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Tigre",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Club Atlético Tigre",
+          "url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Tigre",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0421:美職MLS:mls-los-angeles-fc": {
+      "status": "ok",
+      "name": "Xavi Tamarit (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "field": "coach",
+      "attempts": [
+        {
+          "title": "Los Angeles FC",
+          "url": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0424:美職MLS:mls-new-york-red-bulls": {
+      "status": "ok",
+      "name": "Michael Bradley",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "New York Red Bulls",
+          "url": "https://en.wikipedia.org/wiki/New_York_Red_Bulls",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0425:美職MLS:mls-seattle-sounders": {
+      "status": "ok",
+      "name": "Brian Schmetzer",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Seattle Sounders FC",
+          "url": "https://en.wikipedia.org/wiki/Seattle_Sounders_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0426:美職MLS:mls-real-salt-lake": {
+      "status": "ok",
+      "name": "Pablo Mastroeni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Real Salt Lake",
+          "url": "https://en.wikipedia.org/wiki/Real_Salt_Lake",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0427:美職MLS:mls-philadelphia-union": {
+      "status": "ok",
+      "name": "Ryan Richter (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Philadelphia Union",
+          "url": "https://en.wikipedia.org/wiki/Philadelphia_Union",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0428:美職MLS:mls-fc-cincinnati": {
+      "status": "ok",
+      "name": "Pat Noonan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Cincinnati",
+          "url": "https://en.wikipedia.org/wiki/FC_Cincinnati",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0430:美職MLS:mls-columbus-crew": {
+      "status": "ok",
+      "name": "Laurent Courtois (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Columbus_Crew",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Columbus Crew",
+          "url": "https://en.wikipedia.org/wiki/Columbus_Crew",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0431:美職MLS:mls-vancouver-whitecaps": {
+      "status": "ok",
+      "name": "Jesper Sørensen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
+      "field": "coach",
+      "attempts": [
+        {
+          "title": "Vancouver Whitecaps FC",
+          "url": "https://en.wikipedia.org/wiki/Vancouver_Whitecaps_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0432:美職MLS:mls-los-angeles-galaxy": {
+      "status": "ok",
+      "name": "Xavi Tamarit (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+      "field": "coach",
+      "attempts": [
+        {
+          "title": "Los Angeles FC",
+          "url": "https://en.wikipedia.org/wiki/Los_Angeles_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0433:美職MLS:mls-houston-dynamo": {
+      "status": "ok",
+      "name": "Ben Olsen",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Houston Dynamo FC",
+          "url": "https://en.wikipedia.org/wiki/Houston_Dynamo_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0434:美職MLS:mls-sporting-kansas-city": {
+      "status": "ok",
+      "name": "Raphaël Wicky",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sporting Kansas City",
+          "url": "https://en.wikipedia.org/wiki/Sporting_Kansas_City",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0435:美職MLS:mls-portland-timbers": {
+      "status": "ok",
+      "name": "Martí Cifuentes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Portland_Timbers",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Portland Timbers",
+          "url": "https://en.wikipedia.org/wiki/Portland_Timbers",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0436:美職MLS:mls-nashville-sc": {
+      "status": "ok",
+      "name": "B. J. Callaghan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Nashville_SC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Nashville SC",
+          "url": "https://en.wikipedia.org/wiki/Nashville_SC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0437:美職MLS:mls-minnesota-united": {
+      "status": "ok",
+      "name": "Cameron Knowles",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Minnesota_United_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Minnesota United FC",
+          "url": "https://en.wikipedia.org/wiki/Minnesota_United_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0438:美職MLS:mls-fc-dallas": {
+      "status": "ok",
+      "name": "Eric Quill",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Dallas",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Dallas",
+          "url": "https://en.wikipedia.org/wiki/FC_Dallas",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0439:美職MLS:mls-inter-miami": {
+      "status": "ok",
+      "name": "Kily González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Inter Miami CF",
+          "url": "https://en.wikipedia.org/wiki/Inter_Miami_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0440:美職MLS:mls-new-england-revolution": {
+      "status": "ok",
+      "name": "Marko Mitrović",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/New_England_Revolution",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "New England Revolution",
+          "url": "https://en.wikipedia.org/wiki/New_England_Revolution",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0441:美職MLS:mls-colorado-rapids": {
+      "status": "ok",
+      "name": "Matt Wells",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Colorado_Rapids",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Colorado Rapids",
+          "url": "https://en.wikipedia.org/wiki/Colorado_Rapids",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0442:美職MLS:mls-cf-montreal": {
+      "status": "ok",
+      "name": "Philippe Eullaffroy (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "CF Montréal",
+          "url": "https://en.wikipedia.org/wiki/CF_Montr%C3%A9al",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0443:美職MLS:mls-austin-fc": {
+      "status": "ok",
+      "name": "Davy Arnaud (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Austin_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Austin FC",
+          "url": "https://en.wikipedia.org/wiki/Austin_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0444:美職MLS:mls-san-jose-earthquakes": {
+      "status": "ok",
+      "name": "Bruce Arena",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "San Jose Earthquakes",
+          "url": "https://en.wikipedia.org/wiki/San_Jose_Earthquakes",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0445:美職MLS:mls-toronto-fc": {
+      "status": "ok",
+      "name": "Mauro Eustáquio",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Inter_Toronto_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Inter Toronto FC",
+          "url": "https://en.wikipedia.org/wiki/Inter_Toronto_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0446:美職MLS:mls-dc-united": {
+      "status": "ok",
+      "name": "Omid Namazi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/DC_Power_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "DC Power FC",
+          "url": "https://en.wikipedia.org/wiki/DC_Power_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0449:墨西超:club-america": {
+      "status": "ok",
+      "name": "Guillermo Almada",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Club América",
+          "url": "https://en.wikipedia.org/wiki/Club_Am%C3%A9rica",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0450:墨西超:tigres-uanl": {
+      "status": "ok",
+      "name": "Víctor Manuel Vucetich (interim)",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Tigres_UANL",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Tigres UANL",
+          "url": "https://en.wikipedia.org/wiki/Tigres_UANL",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0451:墨西超:monterrey": {
+      "status": "ok",
+      "name": "Matías Almeyda",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/C.F._Monterrey",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "C.F. Monterrey",
+          "url": "https://en.wikipedia.org/wiki/C.F._Monterrey",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0452:墨西超:cruz-azul": {
+      "status": "ok",
+      "name": "Joel Huiqui",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Cruz_Azul",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Cruz Azul",
+          "url": "https://en.wikipedia.org/wiki/Cruz_Azul",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0453:墨西超:toluca": {
+      "status": "ok",
+      "name": "Antonio Mohamed",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Toluca_FC",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Toluca FC",
+          "url": "https://en.wikipedia.org/wiki/Toluca_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0454:墨西超:pachuca": {
+      "status": "ok",
+      "name": "Benjamín Mora",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/C.F._Pachuca",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "C.F. Pachuca",
+          "url": "https://en.wikipedia.org/wiki/C.F._Pachuca",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0455:墨西超:guadalajara-chivas": {
+      "status": "ok",
+      "name": "Gabriel Milito",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "C.D. Guadalajara",
+          "url": "https://en.wikipedia.org/wiki/C.D._Guadalajara",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0456:墨西超:unam-pumas": {
+      "status": "ok",
+      "name": "Esteban Solari",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Pumas_UNAM",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Pumas UNAM",
+          "url": "https://en.wikipedia.org/wiki/Pumas_UNAM",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0457:墨西超:atlas": {
+      "status": "ok",
+      "name": "Hernán Crespo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Atlas_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Atlas F.C.",
+          "url": "https://en.wikipedia.org/wiki/Atlas_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0459:墨西超:club-leon": {
+      "status": "ok",
+      "name": "Javier Gandolfi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Le%C3%B3n",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Club León",
+          "url": "https://en.wikipedia.org/wiki/Club_Le%C3%B3n",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0460:墨西超:puebla": {
+      "status": "ok",
+      "name": "Gerardo Espinoza",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Puebla",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Club Puebla",
+          "url": "https://en.wikipedia.org/wiki/Club_Puebla",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0461:墨西超:necaxa": {
+      "status": "ok",
+      "name": "Juan Reynoso",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Necaxa",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Club Necaxa",
+          "url": "https://en.wikipedia.org/wiki/Club_Necaxa",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0462:墨西超:club-tijuana": {
+      "status": "ok",
+      "name": "Sebastián Abreu",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Club_Tijuana",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Club Tijuana",
+          "url": "https://en.wikipedia.org/wiki/Club_Tijuana",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0463:墨西超:mazatlan-fc": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "not_found",
+        "attempts": [
+          {
+            "title": "Mazatlán F.C.",
+            "url": "https://en.wikipedia.org/wiki/Mazatl%C3%A1n_F.C.",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "Luis Rey (footballer)",
+            "url": "https://en.wikipedia.org/wiki/Luis_Rey_(footballer)",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "Omar Moreno (footballer)",
+            "url": "https://en.wikipedia.org/wiki/Omar_Moreno_(footballer)",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "Estadio El Encanto",
+            "url": "https://en.wikipedia.org/wiki/Estadio_El_Encanto",
+            "status": 200,
+            "found": false
+          },
+          {
+            "title": "Mazatlán",
+            "url": "https://en.wikipedia.org/wiki/Mazatl%C3%A1n",
+            "status": 200,
+            "found": false
+          }
+        ]
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0464:墨西超:juarez": {
+      "status": "ok",
+      "name": "Gustavo Lema",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Ju%C3%A1rez",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "FC Juárez",
+          "url": "https://en.wikipedia.org/wiki/FC_Ju%C3%A1rez",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0465:墨西超:queretaro": {
+      "status": "ok",
+      "name": "Esteban González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Quer%C3%A9taro_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Querétaro F.C.",
+          "url": "https://en.wikipedia.org/wiki/Quer%C3%A9taro_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0466:墨西超:planb-santoslaguna": {
+      "status": "ok",
+      "name": "Renato Paiva",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Santos_Laguna",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Santos Laguna",
+          "url": "https://en.wikipedia.org/wiki/Santos_Laguna",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0467:A-League:a-league-melbourne-city-fc": {
+      "status": "ok",
+      "name": "Aurelio Vidmar",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Melbourne_City_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Melbourne City FC",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_City_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0468:A-League:a-league-wellington-phoenix": {
+      "status": "ok",
+      "name": "Chris Greenacre",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Wellington_Phoenix_FC",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Wellington Phoenix FC",
+          "url": "https://en.wikipedia.org/wiki/Wellington_Phoenix_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0469:A-League:a-league-adelaide-united": {
+      "status": "ok",
+      "name": "Airton Andrioli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Adelaide_United_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Adelaide United FC",
+          "url": "https://en.wikipedia.org/wiki/Adelaide_United_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0470:A-League:a-league-western-united": {
+      "status": "ok",
+      "name": "Ufuk Talay",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Western United FC",
+          "url": "https://en.wikipedia.org/wiki/Western_United_FC",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "List of Australian rules football clubs in Australia",
+          "url": "https://en.wikipedia.org/wiki/List_of_Australian_rules_football_clubs_in_Australia",
+          "status": 200,
+          "found": false
+        },
+        {
+          "title": "Western Sydney Wanderers FC",
+          "url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0471:A-League:a-league-perth-glory": {
+      "status": "ok",
+      "name": "Adam Griffiths",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Perth_Glory_FC",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Perth Glory FC",
+          "url": "https://en.wikipedia.org/wiki/Perth_Glory_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0472:A-League:a-league-melbourne-victory": {
+      "status": "ok",
+      "name": "Giovanni Savarese",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Melbourne_Victory_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Melbourne Victory FC",
+          "url": "https://en.wikipedia.org/wiki/Melbourne_Victory_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0473:A-League:a-league-sydney-fc": {
+      "status": "ok",
+      "name": "Patrick Kisnorbo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Sydney_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Sydney FC",
+          "url": "https://en.wikipedia.org/wiki/Sydney_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0474:A-League:a-league-western-sydney-wanderers": {
+      "status": "ok",
+      "name": "Ufuk Talay",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Western Sydney Wanderers FC",
+          "url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0475:A-League:a-league-newcastle-united-jets": {
+      "status": "ok",
+      "name": "Mark Milligan",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Newcastle_Jets_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Newcastle Jets FC",
+          "url": "https://en.wikipedia.org/wiki/Newcastle_Jets_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0476:A-League:a-league-central-coast-mariners": {
+      "status": "ok",
+      "name": "John Hutchinson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Central_Coast_Mariners_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Central Coast Mariners FC",
+          "url": "https://en.wikipedia.org/wiki/Central_Coast_Mariners_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0477:A-League:a-league-macarthur-fc": {
+      "status": "ok",
+      "name": "Sasa Ognenovski",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Macarthur_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Macarthur FC",
+          "url": "https://en.wikipedia.org/wiki/Macarthur_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0478:A-League:a-league-brisbane-roar": {
+      "status": "ok",
+      "name": "Michael Valkanis",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Brisbane_Roar_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Brisbane Roar FC",
+          "url": "https://en.wikipedia.org/wiki/Brisbane_Roar_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0479:日職:planb-hokkaidoconsadolesapporo": {
+      "status": "ok",
+      "name": "Kenta Kawai",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hokkaido_Consadole_Sapporo",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Hokkaido Consadole Sapporo",
+          "url": "https://en.wikipedia.org/wiki/Hokkaido_Consadole_Sapporo",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0480:蘇超:planb-celtic": {
+      "status": "ok",
+      "name": "Martin O'Neill",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Celtic_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Celtic F.C.",
+          "url": "https://en.wikipedia.org/wiki/Celtic_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0481:蘇超:planb-rangers": {
+      "status": "ok",
+      "name": "Derek McInnes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Rangers_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Rangers F.C.",
+          "url": "https://en.wikipedia.org/wiki/Rangers_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0483:蘇超:planb-hibernian": {
+      "status": "ok",
+      "name": "Marink Reedijk",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Hibernian F.C.",
+          "url": "https://en.wikipedia.org/wiki/Hibernian_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0484:蘇超:planb-aberdeen": {
+      "status": "ok",
+      "name": "Stephen Robinson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Aberdeen_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Aberdeen F.C.",
+          "url": "https://en.wikipedia.org/wiki/Aberdeen_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0485:蘇超:planb-motherwell": {
+      "status": "ok",
+      "name": "Alfred Johansson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Motherwell_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Motherwell F.C.",
+          "url": "https://en.wikipedia.org/wiki/Motherwell_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0486:蘇超:planb-stmirren": {
+      "status": "ok",
+      "name": "Craig McLeish",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/St_Mirren_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "St Mirren F.C.",
+          "url": "https://en.wikipedia.org/wiki/St_Mirren_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0488:蘇超:planb-stjohnstone": {
+      "status": "ok",
+      "name": "Simo Valakari",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/St_Johnstone_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "St Johnstone F.C.",
+          "url": "https://en.wikipedia.org/wiki/St_Johnstone_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0489:意乙:A1000-frosinone": {
+      "status": "ok",
+      "name": "Massimiliano Alvini",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Frosinone_Calcio",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Frosinone Calcio",
+          "url": "https://en.wikipedia.org/wiki/Frosinone_Calcio",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0490:意乙:A1000-parma": {
+      "status": "ok",
+      "name": "Alberto Gilardino",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Parma Calcio 1913",
+          "url": "https://en.wikipedia.org/wiki/Parma_Calcio_1913",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0493:意乙:A1000-reggina": {
+      "status": "ok",
+      "name": "Marco Marchionni",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/AS_Reggina_1914",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "AS Reggina 1914",
+          "url": "https://en.wikipedia.org/wiki/AS_Reggina_1914",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0494:意乙:A1000-ternana": {
+      "status": "ok",
+      "name": "Andrea Lisuzzo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Nuova_Ternana_1925",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Nuova Ternana 1925",
+          "url": "https://en.wikipedia.org/wiki/Nuova_Ternana_1925",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0500:意乙:A1000-como": {
+      "status": "ok",
+      "name": "Cesc Fàbregas",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Como_1907",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Como 1907",
+          "url": "https://en.wikipedia.org/wiki/Como_1907",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0507:意乙:A1000-venezia": {
+      "status": "ok",
+      "name": "Davide Nicola",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Venezia_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Venezia FC",
+          "url": "https://en.wikipedia.org/wiki/Venezia_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0509:意乙:A1000-sampdoria": {
+      "status": "ok",
+      "name": "Luca D'Angelo",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/UC_Sampdoria",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "UC Sampdoria",
+          "url": "https://en.wikipedia.org/wiki/UC_Sampdoria",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0513:西乙:A1000-eibar": {
+      "status": "ok",
+      "name": "Jokin Aranbarri",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SD_Eibar",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SD Eibar",
+          "url": "https://en.wikipedia.org/wiki/SD_Eibar",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0516:西乙:A1000-leganes": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Leganes+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/teams/17534"
+      }
+    },
+    "0518:西乙:A1000-ponferradina": {
+      "status": "ok",
+      "name": "Mehdi Nafti",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/SD_Ponferradina",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "SD Ponferradina",
+          "url": "https://en.wikipedia.org/wiki/SD_Ponferradina",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0524:西乙:A1000-tenerife": {
+      "status": "ok",
+      "name": "Álvaro Cervera",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CD_Tenerife",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "CD Tenerife",
+          "url": "https://en.wikipedia.org/wiki/CD_Tenerife",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0525:西乙:A1000-laspalmas": {
+      "status": "ok",
+      "name": "Rubén de la Barrera",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/UD_Las_Palmas",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "UD Las Palmas",
+          "url": "https://en.wikipedia.org/wiki/UD_Las_Palmas",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0527:西乙:A1000-malaga": {
+      "status": "ok",
+      "name": "Juan Francisco Funes",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Málaga CF",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A1laga_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0530:西乙:A1000-almeria": {
+      "status": "ok",
+      "name": "García Pimienta",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "UD Almería",
+          "url": "https://en.wikipedia.org/wiki/UD_Almer%C3%ADa",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0531:西乙:A1000-levante": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Levante+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/teams/1538"
+      }
+    },
+    "0533:西乙:A1000-villarrealb": {
+      "status": "ok",
+      "name": "Iñigo Pérez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Villarreal_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Villarreal CF",
+          "url": "https://en.wikipedia.org/wiki/Villarreal_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0534:西乙:A1000-granada": {
+      "status": "ok",
+      "name": "Pacheta",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Granada_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Granada CF",
+          "url": "https://en.wikipedia.org/wiki/Granada_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0536:西乙:A1000-albacete": {
+      "status": "ok",
+      "name": "Alberto González",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Albacete_Balompi%C3%A9",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Albacete Balompié",
+          "url": "https://en.wikipedia.org/wiki/Albacete_Balompi%C3%A9",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0537:西乙:A1000-elche": {
+      "status": "ok",
+      "name": "Martín Anselmi",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Elche_CF",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Elche CF",
+          "url": "https://en.wikipedia.org/wiki/Elche_CF",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0539:西乙:A1000-eldense": {
+      "status": "ok",
+      "name": "Javi Calleja",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/CD_Eldense",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "CD Eldense",
+          "url": "https://en.wikipedia.org/wiki/CD_Eldense",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0546:法乙:A1000-dunkerque": {
+      "status": "ok",
+      "name": "Albert Sánchez",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/USL_Dunkerque",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "USL Dunkerque",
+          "url": "https://en.wikipedia.org/wiki/USL_Dunkerque",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0547:法乙:A1000-quevillyrouen": {
+      "status": "ok",
+      "name": "Gabriel Santos",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "US Quevilly-Rouen Métropole",
+          "url": "https://en.wikipedia.org/wiki/US_Quevilly-Rouen_M%C3%A9tropole",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0548:法乙:A1000-grenoble": {
+      "status": "ok",
+      "name": "Olivier Frapolli",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Grenoble_Foot_38",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Grenoble Foot 38",
+          "url": "https://en.wikipedia.org/wiki/Grenoble_Foot_38",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0549:法乙:A1000-parisfc": {
+      "status": "ok",
+      "name": "Liam Rosenior",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Paris_FC",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Paris FC",
+          "url": "https://en.wikipedia.org/wiki/Paris_FC",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0551:法乙:A1000-guingamp": {
+      "status": "ok",
+      "name": "Sylvain Ripoll",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/En_Avant_Guingamp",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "En Avant Guingamp",
+          "url": "https://en.wikipedia.org/wiki/En_Avant_Guingamp",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0552:法乙:A1000-paufc": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Pau+FC+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_found",
+        "http_status": 200,
+        "source_url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/teams/10678"
+      }
+    },
+    "0557:法乙:A1000-sochaux": {
+      "status": "ok",
+      "name": "Vincent Hognon",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Sochaux-Montb%C3%A9liard",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Sochaux-Montbéliard",
+          "url": "https://en.wikipedia.org/wiki/FC_Sochaux-Montb%C3%A9liard",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0559:法乙:A1000-annecy": {
+      "status": "ok",
+      "name": "Laurent Guyot",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Annecy",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Annecy",
+          "url": "https://en.wikipedia.org/wiki/FC_Annecy",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0562:法乙:A1000-metz": {
+      "status": "ok",
+      "name": "Grégory Proment",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/FC_Metz",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "FC Metz",
+          "url": "https://en.wikipedia.org/wiki/FC_Metz",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0564:蘇冠:A1000-airdrieutd": {
+      "status": "ok",
+      "name": "John Rankin",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Airdrieonians_F.C.",
+      "field": "head coach",
+      "attempts": [
+        {
+          "title": "Airdrieonians F.C.",
+          "url": "https://en.wikipedia.org/wiki/Airdrieonians_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0568:蘇冠:A1000-coverangers": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Cove+Rangers+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0569:蘇冠:A1000-falkirk": {
+      "status": "ok",
+      "name": "John McGlynn",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Falkirk_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Falkirk F.C.",
+          "url": "https://en.wikipedia.org/wiki/Falkirk_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    },
+    "0572:蘇冠:A1000-keltyhearts": {
+      "status": "not_found",
+      "wikipedia": {
+        "status": "error",
+        "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=Kelty+Hearts+football+club&format=json&srlimit=6"
+      },
+      "espn": {
+        "status": "not_attempted",
+        "reason": "missing ESPN ID or league slug"
+      }
+    },
+    "0574:蘇冠:A1000-annanathletic": {
+      "status": "ok",
+      "name": "Willie Gibson",
+      "source": "wikipedia_manager",
+      "source_url": "https://en.wikipedia.org/wiki/Annan_Athletic_F.C.",
+      "field": "manager",
+      "attempts": [
+        {
+          "title": "Annan Athletic F.C.",
+          "url": "https://en.wikipedia.org/wiki/Annan_Athletic_F.C.",
+          "status": 200,
+          "found": true
+        }
+      ]
+    }
+  }
+}
