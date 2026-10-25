@@ -1,0 +1,610 @@
+{
+  "baseline_teams": 455,
+  "requested_target": 650,
+  "requested_additions": 195,
+  "minimum_matches": 90,
+  "season_window": [
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "policy": "Real FT only; invalid FT rows are skipped; HT remains null; duplicate teams are never appended.",
+  "sources": {
+    "美職MLS": {
+      "exists": true,
+      "path": "data/raw/MLS_all_seasons.csv",
+      "source_rows": 2004,
+      "ft_invalid_rows": 0,
+      "teams_seen": 29,
+      "eligible_new": 1,
+      "rows_used": 2004
+    },
+    "巴西乙": {
+      "exists": true,
+      "path": "data/leagues/serie-b/matches.csv",
+      "source_rows": 760,
+      "ft_invalid_rows": 0,
+      "teams_seen": 28,
+      "eligible_new": 0,
+      "rows_used": 760
+    },
+    "阿甲": {
+      "exists": true,
+      "path": "data/raw/ARG_all_seasons.csv",
+      "source_rows": 2245,
+      "ft_invalid_rows": 0,
+      "teams_seen": 32,
+      "eligible_new": 6,
+      "rows_used": 2245
+    },
+    "泰超": {
+      "exists": true,
+      "path": "data/leagues/thai-league1/matches.csv",
+      "source_rows": 478,
+      "ft_invalid_rows": 0,
+      "teams_seen": 20,
+      "eligible_new": 0,
+      "rows_used": 478
+    },
+    "日職J2候選檔": {
+      "exists": true,
+      "path": "data/leagues/j2/matches.csv",
+      "source_rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "rows_used": 0
+    },
+    "墨乙": {
+      "exists": true,
+      "path": "data/leagues/expansion-mx/matches.csv",
+      "source_rows": 538,
+      "ft_invalid_rows": 0,
+      "teams_seen": 19,
+      "eligible_new": 0,
+      "rows_used": 538
+    }
+  },
+  "added": [
+    {
+      "league": "美職MLS",
+      "name": "Charlotte",
+      "matches": 106,
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "source": "data/raw/MLS_all_seasons.csv",
+      "ht_policy": "null"
+    },
+    {
+      "league": "阿甲",
+      "name": "Racing Club",
+      "matches": 167,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "source": "data/raw/ARG_all_seasons.csv",
+      "ht_policy": "null"
+    },
+    {
+      "league": "阿甲",
+      "name": "Colon Santa FE",
+      "matches": 124,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "source": "data/raw/ARG_all_seasons.csv",
+      "ht_policy": "null"
+    },
+    {
+      "league": "阿甲",
+      "name": "Arsenal Sarandi",
+      "matches": 120,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023"
+      ],
+      "source": "data/raw/ARG_all_seasons.csv",
+      "ht_policy": "null"
+    },
+    {
+      "league": "阿甲",
+      "name": "Argentinos Jrs",
+      "matches": 165,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "source": "data/raw/ARG_all_seasons.csv",
+      "ht_policy": "null"
+    },
+    {
+      "league": "阿甲",
+      "name": "Barracas Central",
+      "matches": 124,
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "source": "data/raw/ARG_all_seasons.csv",
+      "ht_policy": "null"
+    },
+    {
+      "league": "阿甲",
+      "name": "Tigre",
+      "matches": 126,
+      "seasons": [
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "source": "data/raw/ARG_all_seasons.csv",
+      "ht_policy": "null"
+    }
+  ],
+  "skipped": [
+    {
+      "league": "美職MLS",
+      "name": "Austin FC",
+      "matches": 70,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Guarani",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Guarani",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Ituano",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Ituano",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Vila Nova",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Vila Nova",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Mirassol",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Mirassol",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Sampaio Corrêa",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Sampaio Corrêa",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Juventude",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Juventude",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Criciúma",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Criciúma",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Londrina",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Londrina",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Vitória",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Vitória",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Atlético Goianiense",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Novorizontino",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Botafogo-SP",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Operário PR",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Santos",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Santos",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Amazonas",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Ceará",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Ponte Preta",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "巴西乙",
+      "name": "Brusque",
+      "matches": 38,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "阿甲",
+      "name": "Aldosivi",
+      "matches": 80,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "阿甲",
+      "name": "Talleres Cordoba",
+      "matches": 79,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "阿甲",
+      "name": "Instituto",
+      "matches": 82,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "阿甲",
+      "name": "Racing Club",
+      "matches": 83,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "阿甲",
+      "name": "Instituto",
+      "matches": 41,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "阿甲",
+      "name": "Ind. Rivadavia",
+      "matches": 41,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Lampang",
+      "matches": 15,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Lampang",
+      "matches": 59,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Bangkok United",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Bangkok United",
+      "matches": 30,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Nakhon Ratchasima FC",
+      "matches": 30,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Nakhon Ratchasima FC",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Ratchaburi FC",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Ratchaburi FC",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Port FC",
+      "matches": 59,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Port FC",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Chiangrai United",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Chiangrai United",
+      "matches": 59,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Chonburi FC",
+      "matches": 45,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Chonburi FC",
+      "matches": 45,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Sukhothai FC",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Sukhothai FC",
+      "matches": 60,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Nakhon Pathom",
+      "matches": 45,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Uthai Thani FC",
+      "matches": 44,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Trat",
+      "matches": 30,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "泰超",
+      "name": "Rayong FC",
+      "matches": 15,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Celaya",
+      "matches": 71,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Celaya",
+      "matches": 69,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Club Atlético La Paz",
+      "matches": 67,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Club Atlético La Paz",
+      "matches": 68,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Venados FC",
+      "matches": 68,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Venados FC",
+      "matches": 64,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Durango",
+      "matches": 17,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Durango",
+      "matches": 51,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Atlante",
+      "matches": 83,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Atlante",
+      "matches": 62,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Raya2",
+      "matches": 20,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Raya2",
+      "matches": 77,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Tlaxcala FC",
+      "matches": 62,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Tlaxcala FC",
+      "matches": 68,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Correcaminos UAT",
+      "matches": 61,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Pumas Tabasco",
+      "matches": 17,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Mineros de Zacatecas",
+      "matches": 61,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Cancún FC",
+      "matches": 76,
+      "reason": "below_90_or_invalid_source"
+    },
+    {
+      "league": "墨乙",
+      "name": "Club Jaiba Brava",
+      "matches": 14,
+      "reason": "below_90_or_invalid_source"
+    }
+  ],
+  "total_teams": 462,
+  "added_teams": 7,
+  "projected_shortfall_to_650": 188,
+  "ft_invalid_rows": 0,
+  "new_ht_nonnull_rows": 0,
+  "target_reached": false,
+  "status": "partial_honest_data_only"
+}
