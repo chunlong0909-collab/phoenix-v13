@@ -28,5 +28,15 @@
     "direct_total_players": 11312,
     "direct_success_teams": 355
   },
-  "note": "Master only includes exact-safe mappings. Unmapped successful direct rosters remain in espn_direct_rosters.json."
+  "note": "Master only includes exact-safe mappings. Unmapped successful direct rosters remain in espn_direct_rosters.json.",
+  "exact_mapping_merge": {
+    "mapping_file": "data/team_name_mapping_355_to_574.csv",
+    "mapped_rosters": 147,
+    "mapped_catalog_teams": 146,
+    "unmatched_successful_rosters": 208,
+    "new_players_added": 0,
+    "master_players": 5423,
+    "direct_evidence_players": 11312,
+    "policy": "Only unique exact normalized name matches were merged; all unmatched evidence remains independent."
+  }
 }

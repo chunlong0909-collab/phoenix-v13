@@ -1,5341 +1,1458 @@
 [
   {
-    "team": "CA Osasuna",
-    "team_id": "79",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "22344",
+    "espn_team_name": "Auckland FC",
+    "normalized_name": "auckland",
+    "player_count": 23,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Club Atlético de Madrid",
-    "team_id": "78",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "5323",
+    "espn_team_name": "Newcastle Jets",
+    "normalized_name": "newcastle jets",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Deportivo Alavés",
-    "team_id": "263",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "4",
+    "espn_team_name": "Belgrano (Córdoba)",
+    "normalized_name": "belgrano (cordoba)",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "RC Celta de Vigo",
-    "team_id": "558",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "11989",
+    "espn_team_name": "Central Córdoba (Santiago del Estero)",
+    "normalized_name": "central cordoba (santiago del estero)",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "RCD Espanyol de Barcelona",
-    "team_id": "80",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3",
+    "espn_team_name": "Argentinos Juniors",
+    "normalized_name": "argentinos juniors",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "RCD Mallorca",
-    "team_id": "89",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9785",
+    "espn_team_name": "Atlético Tucumán",
+    "normalized_name": "atletico tucuman",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Rayo Vallecano de Madrid",
-    "team_id": "87",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9739",
+    "espn_team_name": "Aldosivi",
+    "normalized_name": "aldosivi",
+    "player_count": 38,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Real Betis Balompié",
-    "team_id": "90",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "17702",
+    "espn_team_name": "Deportivo Riestra",
+    "normalized_name": "deportivo riestra",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Real Sociedad de Fútbol",
-    "team_id": "92",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "8",
+    "espn_team_name": "Estudiantes de La Plata",
+    "normalized_name": "estudiantes de la plata",
+    "player_count": 50,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Levante UD",
-    "team_id": "88",
-    "league": "西甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9",
+    "espn_team_name": "Gimnasia La Plata",
+    "normalized_name": "gimnasia la plata",
+    "player_count": 40,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "ACF Fiorentina",
-    "team_id": "99",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "19685",
+    "espn_team_name": "Estudiantes de Río Cuarto",
+    "normalized_name": "estudiantes de rio cuarto",
+    "player_count": 41,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Atalanta BC",
-    "team_id": "102",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2975",
+    "espn_team_name": "Instituto (Córdoba)",
+    "normalized_name": "instituto (cordoba)",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Bologna FC 1909",
-    "team_id": "103",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9744",
+    "espn_team_name": "Independiente Rivadavia",
+    "normalized_name": "independiente rivadavia",
+    "player_count": 49,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Como 1907",
-    "team_id": "7397",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "14",
+    "espn_team_name": "Newell's Old Boys",
+    "normalized_name": "newell's old boys",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "FC Internazionale Milano",
-    "team_id": "108",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10158",
+    "espn_team_name": "Sarmiento (Junín)",
+    "normalized_name": "sarmiento (junin)",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Genoa CFC",
-    "team_id": "107",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "19",
+    "espn_team_name": "Talleres (Córdoba)",
+    "normalized_name": "talleres (cordoba)",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Hellas Verona FC",
-    "team_id": "450",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "11972",
+    "espn_team_name": "Gimnasia (Mendoza)",
+    "normalized_name": "gimnasia (mendoza)",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Parma Calcio 1913",
-    "team_id": "112",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "20",
+    "espn_team_name": "Unión (Santa Fe)",
+    "normalized_name": "union (santa fe)",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "SS Lazio",
-    "team_id": "110",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "123",
+    "espn_team_name": "Energie Cottbus",
+    "normalized_name": "energie cottbus",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "SSC Napoli",
-    "team_id": "113",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "269",
+    "espn_team_name": "1. FC Nürnberg",
+    "normalized_name": "1. nurnberg",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "US Lecce",
-    "team_id": "5890",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "129",
+    "espn_team_name": "Hertha Berlin",
+    "normalized_name": "hertha berlin",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "AC Pisa 1909",
-    "team_id": "487",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2506",
+    "espn_team_name": "Arminia Bielefeld",
+    "normalized_name": "arminia bielefeld",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "US Cremonese",
-    "team_id": "457",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "4471",
+    "espn_team_name": "Karlsruher SC",
+    "normalized_name": "karlsruher sc",
+    "player_count": 17,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "US Sassuolo Calcio",
-    "team_id": "471",
-    "league": "意甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3812",
+    "espn_team_name": "SV Darmstadt 98",
+    "normalized_name": "sv darmstadt 98",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "1. FSV Mainz 05",
-    "team_id": "15",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3070",
+    "espn_team_name": "SpVgg Greuther Fürth",
+    "normalized_name": "spvgg greuther furth",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Bayer 04 Leverkusen",
-    "team_id": "3",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "270",
+    "espn_team_name": "St. Pauli",
+    "normalized_name": "st. pauli",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "FC Bayern München",
-    "team_id": "5",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3067",
+    "espn_team_name": "TSV Eintracht Braunschweig",
+    "normalized_name": "tsv eintracht braunschweig",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "SV Werder Bremen",
-    "team_id": "12",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2428",
+    "espn_team_name": "Hannover 96",
+    "normalized_name": "hannover 96",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "TSG 1899 Hoffenheim",
-    "team_id": "2",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "121",
+    "espn_team_name": "VfL Bochum",
+    "normalized_name": "vfl bochum",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "1. FC Köln",
-    "team_id": "1",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "131",
+    "espn_team_name": "Bayer Leverkusen",
+    "normalized_name": "bayer leverkusen",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "FC St. Pauli 1910",
-    "team_id": "20",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "122",
+    "espn_team_name": "FC Cologne",
+    "normalized_name": "cologne",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Hamburger SV",
-    "team_id": "7",
-    "league": "德甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "132",
+    "espn_team_name": "Bayern Munich",
+    "normalized_name": "bayern munich",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "AS Monaco FC",
-    "team_id": "548",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "127",
+    "espn_team_name": "Hamburg SV",
+    "normalized_name": "hamburg sv",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Le Havre AC",
-    "team_id": "533",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2950",
+    "espn_team_name": "Mainz",
+    "normalized_name": "mainz",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Lille OSC",
-    "team_id": "521",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7911",
+    "espn_team_name": "TSG Hoffenheim",
+    "normalized_name": "tsg hoffenheim",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "OGC Nice",
-    "team_id": "522",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10388",
+    "espn_team_name": "SV Elversberg",
+    "normalized_name": "sv elversberg",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Olympique Lyonnais",
-    "team_id": "523",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3307",
+    "espn_team_name": "SC Paderborn 07",
+    "normalized_name": "sc paderborn 07",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Olympique de Marseille",
-    "team_id": "516",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "365",
+    "espn_team_name": "Blackburn Rovers",
+    "normalized_name": "blackburn rovers",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Paris Saint-Germain FC",
-    "team_id": "524",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "358",
+    "espn_team_name": "Bolton Wanderers",
+    "normalized_name": "bolton wanderers",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "RC Strasbourg Alsace",
-    "team_id": "576",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "392",
+    "espn_team_name": "Birmingham City",
+    "normalized_name": "birmingham city",
+    "player_count": 26,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Racing Club de Lens",
-    "team_id": "546",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "374",
+    "espn_team_name": "Derby County",
+    "normalized_name": "derby county",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Stade Brestois 29",
-    "team_id": "512",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "347",
+    "espn_team_name": "Cardiff City",
+    "normalized_name": "cardiff city",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Stade Rennais FC 1901",
-    "team_id": "529",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "314",
+    "espn_team_name": "Lincoln City",
+    "normalized_name": "lincoln city",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Toulouse FC",
-    "team_id": "511",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "379",
+    "espn_team_name": "Burnley",
+    "normalized_name": "burnley",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "AJ Auxerre",
-    "team_id": "519",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "372",
+    "espn_team_name": "Charlton Athletic",
+    "normalized_name": "charlton athletic",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Angers SCO",
-    "team_id": "532",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "381",
+    "espn_team_name": "Norwich City",
+    "normalized_name": "norwich city",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "FC Lorient",
-    "team_id": "525",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "394",
+    "espn_team_name": "Preston North End",
+    "normalized_name": "preston north end",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Montpellier HSC",
-    "team_id": "montpellier-hsc",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "334",
+    "espn_team_name": "Queens Park Rangers",
+    "normalized_name": "queens park rangers",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Clermont Foot 63",
-    "team_id": "clermont-foot-63",
-    "league": "法甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "376",
+    "espn_team_name": "Southampton",
+    "normalized_name": "southampton",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Albirex Niigata",
-    "team_id": "albirex-niigata",
-    "league": "J1聯賽",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "383",
+    "espn_team_name": "West Bromwich Albion",
+    "normalized_name": "west bromwich albion",
+    "player_count": 26,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Consadole Sapporo",
-    "team_id": "consadole-sapporo",
-    "league": "J1聯賽",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "336",
+    "espn_team_name": "Stoke City",
+    "normalized_name": "stoke city",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Jubilo Iwata",
-    "team_id": "jubilo-iwata",
-    "league": "J1聯賽",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "318",
+    "espn_team_name": "Swansea City",
+    "normalized_name": "swansea city",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sagan Tosu",
-    "team_id": "sagan-tosu",
-    "league": "J1聯賽",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "352",
+    "espn_team_name": "Wrexham",
+    "normalized_name": "wrexham",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Shonan Bellmare",
-    "team_id": "shonan-bellmare",
-    "league": "J1聯賽",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3585",
+    "espn_team_name": "AC Horsens",
+    "normalized_name": "ac horsens",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Tokyo Verdy",
-    "team_id": "tokyo-verdy",
-    "league": "J1聯賽",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "575",
+    "espn_team_name": "Brøndby IF",
+    "normalized_name": "brndby if",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Urawa Reds",
-    "team_id": "urawa-reds",
-    "league": "J1聯賽",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7853",
+    "espn_team_name": "AGF",
+    "normalized_name": "agf",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Porto",
-    "team_id": "porto",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "909",
+    "espn_team_name": "F.C. København",
+    "normalized_name": "f.c. kbenhavn",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Benfica",
-    "team_id": "benfica",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "11550",
+    "espn_team_name": "Odense Boldklub",
+    "normalized_name": "odense boldklub",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sporting CP",
-    "team_id": "sporting-cp",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7860",
+    "espn_team_name": "Lyngby Boldklub",
+    "normalized_name": "lyngby boldklub",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Braga",
-    "team_id": "braga",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3101",
+    "espn_team_name": "FC Nordsjælland",
+    "normalized_name": "nordsjlland",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Vitoria Guimaraes",
-    "team_id": "vitoria-guimaraes",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3153",
+    "espn_team_name": "Viborg FF",
+    "normalized_name": "viborg ff",
+    "player_count": 26,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Moreirense",
-    "team_id": "moreirense",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "8118",
+    "espn_team_name": "Sønderjyske Fodbold",
+    "normalized_name": "snderjyske fodbold",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Arouca",
-    "team_id": "arouca",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "607",
+    "espn_team_name": "Silkeborg IF",
+    "normalized_name": "silkeborg if",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Famalicao",
-    "team_id": "famalicao",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "5291",
+    "espn_team_name": "Almere City",
+    "normalized_name": "almere city",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Casa Pia",
-    "team_id": "casa-pia",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2727",
+    "espn_team_name": "FC Volendam",
+    "normalized_name": "volendam",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Farense",
-    "team_id": "farense",
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "144",
+    "espn_team_name": "De Graafschap",
+    "normalized_name": "de graafschap",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sp Lisbon",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "271",
+    "espn_team_name": "FC Den Bosch",
+    "normalized_name": "den bosch",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Guimaraes",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "4426",
+    "espn_team_name": "FC Dordrecht",
+    "normalized_name": "dordrecht",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Gil Vicente",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3732",
+    "espn_team_name": "FC Eindhoven",
+    "normalized_name": "eindhoven",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Estoril",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3707",
+    "espn_team_name": "FC Emmen",
+    "normalized_name": "emmen",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sp Braga",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3775",
+    "espn_team_name": "Helmond Sport",
+    "normalized_name": "helmond sport",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Boavista",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3708",
+    "espn_team_name": "Heracles Almelo",
+    "normalized_name": "heracles almelo",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Vizela",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "18748",
+    "espn_team_name": "Jong AZ",
+    "normalized_name": "jong az",
+    "player_count": 39,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Portimonense",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9983",
+    "espn_team_name": "Jong PSV",
+    "normalized_name": "jong psv",
+    "player_count": 47,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Ajax",
-    "team_id": "ajax",
-    "league": "荷甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10597",
+    "espn_team_name": "Jong Ajax",
+    "normalized_name": "jong ajax",
+    "player_count": 38,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Feyenoord",
-    "team_id": "feyenoord",
-    "league": "荷甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "18278",
+    "espn_team_name": "Jong FC Utrecht",
+    "normalized_name": "jong utrecht",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Waalwijk",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3730",
+    "espn_team_name": "MVV Maastricht",
+    "normalized_name": "mvv maastricht",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "For Sittard",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "141",
+    "espn_team_name": "NAC Breda",
+    "normalized_name": "nac breda",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Nijmegen",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "155",
+    "espn_team_name": "RKC Waalwijk",
+    "normalized_name": "rkc waalwijk",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Heracles",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "149",
+    "espn_team_name": "Roda JC Kerkrade",
+    "normalized_name": "roda jc kerkrade",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Zwolle",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3731",
+    "espn_team_name": "VVV-Venlo",
+    "normalized_name": "vvv-venlo",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Galatasaray",
-    "team_id": "galatasaray",
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3728",
+    "espn_team_name": "TOP Oss",
+    "normalized_name": "top oss",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Fenerbahce",
-    "team_id": "fenerbahce",
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "21380",
+    "espn_team_name": "Hamarkameratene",
+    "normalized_name": "hamarkameratene",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Besiktas",
-    "team_id": "besiktas",
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "22165",
+    "espn_team_name": "KFUM Oslo",
+    "normalized_name": "kfum oslo",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Trabzonspor",
-    "team_id": "trabzonspor",
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "6750",
+    "espn_team_name": "IK Start",
+    "normalized_name": "ik start",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Basaksehir",
-    "team_id": "basaksehir",
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "6672",
+    "espn_team_name": "Kristiansund BK",
+    "normalized_name": "kristiansund bk",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Adana Demirspor",
-    "team_id": "adana-demirspor",
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3039",
+    "espn_team_name": "Fredrikstad",
+    "normalized_name": "fredrikstad",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Hatayspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "620",
+    "espn_team_name": "SK Brann",
+    "normalized_name": "sk brann",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Buyuksehyr",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "5002",
+    "espn_team_name": "Sarpsborg FK",
+    "normalized_name": "sarpsborg fk",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Ad. Demirspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "510",
+    "espn_team_name": "Viking FK",
+    "normalized_name": "viking fk",
+    "player_count": 40,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Antalyaspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "349",
+    "espn_team_name": "AFC Bournemouth",
+    "normalized_name": "bournemouth",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sivasspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "388",
+    "espn_team_name": "Coventry City",
+    "normalized_name": "coventry city",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Kayserispor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "373",
+    "espn_team_name": "Ipswich Town",
+    "normalized_name": "ipswich town",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Kasimpasa",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "306",
+    "espn_team_name": "Hull City",
+    "normalized_name": "hull city",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Alanyaspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "366",
+    "espn_team_name": "Sunderland",
+    "normalized_name": "sunderland",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Gaziantep",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "142",
+    "espn_team_name": "Feyenoord Rotterdam",
+    "normalized_name": "feyenoord rotterdam",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Konyaspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "139",
+    "espn_team_name": "Ajax Amsterdam",
+    "normalized_name": "ajax amsterdam",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Karagumruk",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2726",
+    "espn_team_name": "ADO Den Haag",
+    "normalized_name": "ado den haag",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Rizespor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2566",
+    "espn_team_name": "Excelsior",
+    "normalized_name": "excelsior",
+    "player_count": 26,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Giresunspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "143",
+    "espn_team_name": "Fortuna Sittard",
+    "normalized_name": "fortuna sittard",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Club Brugge",
-    "team_id": "club-brugge",
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "147",
+    "espn_team_name": "NEC Nijmegen",
+    "normalized_name": "nec nijmegen",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Anderlecht",
-    "team_id": "anderlecht",
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2565",
+    "espn_team_name": "PEC Zwolle",
+    "normalized_name": "pec zwolle",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Genk",
-    "team_id": "genk",
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3736",
+    "espn_team_name": "SC Cambuur",
+    "normalized_name": "sc cambuur",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Antwerp",
-    "team_id": "antwerp",
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3735",
+    "espn_team_name": "Telstar",
+    "normalized_name": "telstar",
+    "player_count": 25,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Union SG",
-    "team_id": "union-sg",
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "20724",
+    "espn_team_name": "Cancún FC",
+    "normalized_name": "cancun",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Gent",
-    "team_id": "gent",
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3432",
+    "espn_team_name": "Dorados de Sinaloa",
+    "normalized_name": "dorados de sinaloa",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Oud-Heverlee Leuven",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "8931",
+    "espn_team_name": "Correcaminos UAT",
+    "normalized_name": "correcaminos uat",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Mechelen",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "17233",
+    "espn_team_name": "Alebrijes de Oaxaca",
+    "normalized_name": "alebrijes de oaxaca",
+    "player_count": 38,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "St. Gilloise",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "21533",
+    "espn_team_name": "Club Atlético La Paz",
+    "normalized_name": "club atletico la paz",
+    "player_count": 26,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Standard",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9371",
+    "espn_team_name": "Cruz Azul Hidalgo",
+    "normalized_name": "cruz azul hidalgo",
+    "player_count": 43,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "St Truiden",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10131",
+    "espn_team_name": "Club Jaiba Brava",
+    "normalized_name": "club jaiba brava",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Charleroi",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "221",
+    "espn_team_name": "Club Atlético Morelia",
+    "normalized_name": "club atletico morelia",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Cercle Brugge",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "21534",
+    "espn_team_name": "Durango",
+    "normalized_name": "durango",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Kortrijk",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10129",
+    "espn_team_name": "Leones Negros",
+    "normalized_name": "leones negros",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Westerlo",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "17514",
+    "espn_team_name": "Mineros de Zacatecas",
+    "normalized_name": "mineros de zacatecas",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Eupen",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "20720",
+    "espn_team_name": "Tapatío",
+    "normalized_name": "tapatio",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Flamengo",
-    "team_id": "flamengo",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "131881",
+    "espn_team_name": "Piratas",
+    "normalized_name": "piratas",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Palmeiras",
-    "team_id": "palmeiras",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "20722",
+    "espn_team_name": "Tlaxcala FC",
+    "normalized_name": "tlaxcala",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Atletico Mineiro",
-    "team_id": "atletico-mineiro",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "20721",
+    "espn_team_name": "Tepatitlán FC",
+    "normalized_name": "tepatitlan",
+    "player_count": 45,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Corinthians",
-    "team_id": "corinthians",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10124",
+    "espn_team_name": "Venados FC",
+    "normalized_name": "venados",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Fluminense",
-    "team_id": "fluminense",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7111",
+    "espn_team_name": "JEF United Ichihara-Chiba",
+    "normalized_name": "jef united ichihara-chiba",
+    "player_count": 38,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Gremio",
-    "team_id": "gremio",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "22522",
+    "espn_team_name": "Fagiano Okayama",
+    "normalized_name": "fagiano okayama",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Botafogo",
-    "team_id": "botafogo",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "131701",
+    "espn_team_name": "Mito Hollyhock",
+    "normalized_name": "mito hollyhock",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Athletico-PR",
-    "team_id": "athletico-pr",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7104",
+    "espn_team_name": "Shimizu S-Pulse",
+    "normalized_name": "shimizu s-pulse",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Internacional",
-    "team_id": "internacional",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3385",
+    "espn_team_name": "Urawa Red Diamonds",
+    "normalized_name": "urawa red diamonds",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sao Paulo",
-    "team_id": "sao-paulo",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3393",
+    "espn_team_name": "Tokyo Verdy 1969",
+    "normalized_name": "tokyo verdy 1969",
+    "player_count": 43,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Cruzeiro",
-    "team_id": "cruzeiro",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7116",
+    "espn_team_name": "Yokohama F. Marinos",
+    "normalized_name": "yokohama f. marinos",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Bragantino",
-    "team_id": "bragantino",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "19001",
+    "espn_team_name": "V-Varen Nagasaki",
+    "normalized_name": "v-varen nagasaki",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Bahia",
-    "team_id": "bahia",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "8447",
+    "espn_team_name": "Córdoba",
+    "normalized_name": "cordoba",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Vasco",
-    "team_id": "vasco",
-    "league": "巴甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3842",
+    "espn_team_name": "Cádiz",
+    "normalized_name": "cadiz",
+    "player_count": 40,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Salzburg",
-    "team_id": "aut-01",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "84",
+    "espn_team_name": "Mallorca",
+    "normalized_name": "mallorca",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sturm Graz",
-    "team_id": "aut-02",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3788",
+    "espn_team_name": "Sporting Gijón",
+    "normalized_name": "sporting gijon",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "LASK",
-    "team_id": "aut-03",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "95",
+    "espn_team_name": "Real Valladolid",
+    "normalized_name": "real valladolid",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "SK Rapid",
-    "team_id": "aut-04",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "1068",
+    "espn_team_name": "Atlético Madrid",
+    "normalized_name": "atletico madrid",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Wolfsberger AC",
-    "team_id": "aut-06",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "85",
+    "espn_team_name": "Celta Vigo",
+    "normalized_name": "celta vigo",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Hartberg",
-    "team_id": "aut-07",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3751",
+    "espn_team_name": "Elche",
+    "normalized_name": "elche",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Altach",
-    "team_id": "aut-08",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "96",
+    "espn_team_name": "Alavés",
+    "normalized_name": "alaves",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Tirol",
-    "team_id": "aut-09",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "88",
+    "espn_team_name": "Espanyol",
+    "normalized_name": "espanyol",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "A. Klagenfurt",
-    "team_id": "aut-10",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "87",
+    "espn_team_name": "Racing Santander",
+    "normalized_name": "racing santander",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "BW Linz",
-    "team_id": "aut-11",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "90",
+    "espn_team_name": "Deportivo",
+    "normalized_name": "deportivo",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "A. Lustenau",
-    "team_id": "aut-12",
-    "league": "奧甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "97",
+    "espn_team_name": "Osasuna",
+    "normalized_name": "osasuna",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Basel",
-    "team_id": "swz-01",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "244",
+    "espn_team_name": "Real Betis",
+    "normalized_name": "real betis",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Grasshoppers",
-    "team_id": "swz-02",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "101",
+    "espn_team_name": "Rayo Vallecano",
+    "normalized_name": "rayo vallecano",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Lugano",
-    "team_id": "swz-03",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "89",
+    "espn_team_name": "Real Sociedad",
+    "normalized_name": "real sociedad",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Luzern",
-    "team_id": "swz-04",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "226",
+    "espn_team_name": "Atlante",
+    "normalized_name": "atlante",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Servette",
-    "team_id": "swz-05",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "227",
+    "espn_team_name": "América",
+    "normalized_name": "america",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "St. Gallen",
-    "team_id": "swz-06",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "228",
+    "espn_team_name": "León",
+    "normalized_name": "leon",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Young Boys",
-    "team_id": "swz-07",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "15720",
+    "espn_team_name": "Atlético de San Luis",
+    "normalized_name": "atletico de san luis",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Zurich",
-    "team_id": "swz-08",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "233",
+    "espn_team_name": "Pumas UNAM",
+    "normalized_name": "pumas unam",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Winterthur",
-    "team_id": "swz-09",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "219",
+    "espn_team_name": "Guadalajara",
+    "normalized_name": "guadalajara",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Lausanne",
-    "team_id": "swz-10",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10125",
+    "espn_team_name": "Tijuana",
+    "normalized_name": "tijuana",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sion",
-    "team_id": "swz-11",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7869",
+    "espn_team_name": "Boulogne",
+    "normalized_name": "boulogne",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Thun",
-    "team_id": "swz-12",
-    "league": "瑞士超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3171",
+    "espn_team_name": "Clermont Foot",
+    "normalized_name": "clermont foot",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Brann",
-    "team_id": "nor-02",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3170",
+    "espn_team_name": "Dijon FCO",
+    "normalized_name": "dijon fco",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Haugesund",
-    "team_id": "nor-03",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3267",
+    "espn_team_name": "AS Nancy Lorraine",
+    "normalized_name": "as nancy lorraine",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Kristiansund",
-    "team_id": "nor-04",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "177",
+    "espn_team_name": "Metz",
+    "normalized_name": "metz",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Odd",
-    "team_id": "nor-07",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "178",
+    "espn_team_name": "Saint-Étienne",
+    "normalized_name": "saint-etienne",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sarpsborg 08",
-    "team_id": "nor-10",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "11884",
+    "espn_team_name": "Red Star FC 93",
+    "normalized_name": "red star 93",
+    "player_count": 27,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Stromsgodset",
-    "team_id": "nor-11",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "274",
+    "espn_team_name": "Montpellier",
+    "normalized_name": "montpellier",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Viking",
-    "team_id": "nor-14",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "7719",
+    "espn_team_name": "Rodez Aveyron",
+    "normalized_name": "rodez aveyron",
+    "player_count": 25,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Ham-Kam",
-    "team_id": "nor-16",
-    "league": "挪超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3266",
+    "espn_team_name": "Stade Laval",
+    "normalized_name": "stade laval",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "AIK",
-    "team_id": "swe-01",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "1963",
+    "espn_team_name": "CSKA Moscow",
+    "normalized_name": "cska moscow",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Djurgarden",
-    "team_id": "swe-02",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "22300",
+    "espn_team_name": "Dynamo Makhachkala",
+    "normalized_name": "dynamo makhachkala",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Elfsborg",
-    "team_id": "swe-03",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "18285",
+    "espn_team_name": "Gazovik Orenburg",
+    "normalized_name": "gazovik orenburg",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Goteborg",
-    "team_id": "swe-04",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2991",
+    "espn_team_name": "Akhmat Grozny",
+    "normalized_name": "akhmat grozny",
+    "player_count": 26,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Hacken",
-    "team_id": "swe-05",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "21949",
+    "espn_team_name": "FC Baltika Kaliningrad",
+    "normalized_name": "baltika kaliningrad",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Halmstad",
-    "team_id": "swe-06",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "21539",
+    "espn_team_name": "Fakel Voronezh",
+    "normalized_name": "fakel voronezh",
+    "player_count": 26,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Hammarby",
-    "team_id": "swe-07",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "22271",
+    "espn_team_name": "Akron Tolyatti",
+    "normalized_name": "akron tolyatti",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Kalmar",
-    "team_id": "swe-08",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "11336",
+    "espn_team_name": "Krasnodar",
+    "normalized_name": "krasnodar",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Malmo FF",
-    "team_id": "swe-09",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "596",
+    "espn_team_name": "Dinamo Moscow",
+    "normalized_name": "dinamo moscow",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Mjallby",
-    "team_id": "swe-10",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3852",
+    "espn_team_name": "Rostov",
+    "normalized_name": "rostov",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Norrkoping",
-    "team_id": "swe-11",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "442",
+    "espn_team_name": "Lokomotiv Moscow",
+    "normalized_name": "lokomotiv moscow",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Sirius",
-    "team_id": "swe-12",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3851",
+    "espn_team_name": "Rubin Kazan",
+    "normalized_name": "rubin kazan",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Varberg",
-    "team_id": "swe-13",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "21927",
+    "espn_team_name": "Rodina Moscow",
+    "normalized_name": "rodina moscow",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Varnamo",
-    "team_id": "swe-14",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3850",
+    "espn_team_name": "Krylia Sovetov",
+    "normalized_name": "krylia sovetov",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Vasteras SK",
-    "team_id": "swe-15",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "1941",
+    "espn_team_name": "Spartak Moscow",
+    "normalized_name": "spartak moscow",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Brommapojkarna",
-    "team_id": "swe-16",
-    "league": "瑞典超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2533",
+    "espn_team_name": "Zenit St Petersburg",
+    "normalized_name": "zenit st petersburg",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Aalborg",
-    "team_id": "dnk-01",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "260",
+    "espn_team_name": "Kilmarnock",
+    "normalized_name": "kilmarnock",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Aarhus",
-    "team_id": "dnk-02",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "264",
+    "espn_team_name": "Dundee United",
+    "normalized_name": "dundee united",
+    "player_count": 25,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Brondby",
-    "team_id": "dnk-03",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "261",
+    "espn_team_name": "Dundee",
+    "normalized_name": "dundee",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "FC Copenhagen",
-    "team_id": "dnk-04",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "262",
+    "espn_team_name": "Heart of Midlothian",
+    "normalized_name": "heart of midlothian",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Horsens",
-    "team_id": "dnk-05",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "105",
+    "espn_team_name": "Atalanta",
+    "normalized_name": "atalanta",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Lyngby",
-    "team_id": "dnk-06",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2925",
+    "espn_team_name": "Cagliari",
+    "normalized_name": "cagliari",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Nordsjaelland",
-    "team_id": "dnk-08",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "107",
+    "espn_team_name": "Bologna",
+    "normalized_name": "bologna",
+    "player_count": 29,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Odense",
-    "team_id": "dnk-09",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "109",
+    "espn_team_name": "Fiorentina",
+    "normalized_name": "fiorentina",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Silkeborg",
-    "team_id": "dnk-11",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3263",
+    "espn_team_name": "Genoa",
+    "normalized_name": "genoa",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Viborg",
-    "team_id": "dnk-12",
-    "league": "丹超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "110",
+    "espn_team_name": "Internazionale",
+    "normalized_name": "internazionale",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Panathinaikos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "113",
+    "espn_team_name": "Lecce",
+    "normalized_name": "lecce",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "PAOK",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "114",
+    "espn_team_name": "Napoli",
+    "normalized_name": "napoli",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "AEK",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "4007",
+    "espn_team_name": "Monza",
+    "normalized_name": "monza",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Olympiakos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "112",
+    "espn_team_name": "Lazio",
+    "normalized_name": "lazio",
+    "player_count": 32,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Aris",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "3997",
+    "espn_team_name": "Sassuolo",
+    "normalized_name": "sassuolo",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Volos NFC",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "118",
+    "espn_team_name": "Udinese",
+    "normalized_name": "udinese",
+    "player_count": 28,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Lamia",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "21403",
+    "espn_team_name": "Albion FC",
+    "normalized_name": "albion",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Panetolikos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9902",
+    "espn_team_name": "Cerro Largo",
+    "normalized_name": "cerro largo",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Atromitos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "10000",
+    "espn_team_name": "Deportivo Maldonado",
+    "normalized_name": "deportivo maldonado",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "OFI Crete",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "131688",
+    "espn_team_name": "Central Español Fútbol Club",
+    "normalized_name": "central espanol futbol club",
+    "player_count": 37,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Asteras Tripolis",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "4817",
+    "espn_team_name": "Danubio",
+    "normalized_name": "danubio",
+    "player_count": 35,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Giannina",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9999",
+    "espn_team_name": "Boston River",
+    "normalized_name": "boston river",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Levadeiakos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "5490",
+    "espn_team_name": "Cerro",
+    "normalized_name": "cerro",
+    "player_count": 30,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Panserraikos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "1007",
+    "espn_team_name": "Defensor Sporting",
+    "normalized_name": "defensor sporting",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Blackburn",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "8416",
+    "espn_team_name": "Juventud",
+    "normalized_name": "juventud",
+    "player_count": 34,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Cardiff",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "2684",
+    "espn_team_name": "Nacional",
+    "normalized_name": "nacional",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Preston",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "5501",
+    "espn_team_name": "Montevideo Wanderers",
+    "normalized_name": "montevideo wanderers",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "QPR",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "19002",
+    "espn_team_name": "Montevideo City Torque",
+    "normalized_name": "montevideo city torque",
+    "player_count": 38,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Stoke",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "6866",
+    "espn_team_name": "Progreso",
+    "normalized_name": "progreso",
+    "player_count": 33,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Coventry",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
+    "espn_team_id": "9903",
+    "espn_team_name": "Racing (Montevideo)",
+    "normalized_name": "racing (montevideo)",
+    "player_count": 31,
+    "reason": "no_unique_exact_catalog_match"
   },
   {
-    "team": "Hull",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "West Brom",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Swansea",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Luton",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Birmingham",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Huddersfield",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Norwich",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Derby",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Blackpool",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Reading",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Rotherham",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sheffield Weds",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Plymouth",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Leeds",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Bolton",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Cambridge",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Shrewsbury",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Wycombe",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Charlton",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Burton",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Lincoln",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Fleetwood Town",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Cheltenham",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Oxford",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Wigan",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Bristol Rvs",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Barnsley",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Exeter",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Peterboro",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ipswich",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Rotherham",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Accrington",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Milton Keynes Dons",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Morecambe",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Plymouth",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sheffield Weds",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Derby",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Port Vale",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Blackpool",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Carlisle",
-    "team_id": "A1000-carlisle",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Colchester",
-    "team_id": "A1000-colchester",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Bradford",
-    "team_id": "A1000-bradford",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Forest Green",
-    "team_id": "A1000-forestgreen",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sutton",
-    "team_id": "A1000-sutton",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Harrogate",
-    "team_id": "A1000-harrogate",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Rochdale",
-    "team_id": "A1000-rochdale",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Hartlepool",
-    "team_id": "A1000-hartlepool",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Crawley Town",
-    "team_id": "A1000-crawleytown",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Mansfield",
-    "team_id": "A1000-mansfield",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Northampton",
-    "team_id": "A1000-northampton",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Newport County",
-    "team_id": "A1000-newportcounty",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Salford",
-    "team_id": "A1000-salford",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Leyton Orient",
-    "team_id": "A1000-leytonorient",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Swindon",
-    "team_id": "A1000-swindon",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Stevenage",
-    "team_id": "A1000-stevenage",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Barrow",
-    "team_id": "A1000-barrow",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Tranmere",
-    "team_id": "A1000-tranmere",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Walsall",
-    "team_id": "A1000-walsall",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "AFC Wimbledon",
-    "team_id": "A1000-afcwimbledon",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Gillingham",
-    "team_id": "A1000-gillingham",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Doncaster",
-    "team_id": "A1000-doncaster",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Grimsby",
-    "team_id": "A1000-grimsby",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Crewe",
-    "team_id": "A1000-crewe",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Stockport",
-    "team_id": "A1000-stockport",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Notts County",
-    "team_id": "A1000-nottscounty",
-    "league": "英甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Nurnberg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Karlsruhe",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Paderborn",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Hannover",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Fortuna Dusseldorf",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Hamburg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Darmstadt",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Hansa Rostock",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Regensburg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Greuther Furth",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Magdeburg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Braunschweig",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Heidenheim",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sandhausen",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Hertha",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Elversberg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Dresden",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ingolstadt",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Erzgebirge Aue",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Bielefeld",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Osnabruck",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Estudiantes L.P.",
-    "team_id": "estudiantes-l-p",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Godoy Cruz",
-    "team_id": "godoy-cruz",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Gimnasia L.P.",
-    "team_id": "gimnasia-l-p",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Union de Santa Fe",
-    "team_id": "union-de-santa-fe",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Central Cordoba",
-    "team_id": "central-cordoba",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Atl. Tucuman",
-    "team_id": "atl-tucuman",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Colon Santa FE",
-    "team_id": "650b-colonsantafe",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Arsenal Sarandi",
-    "team_id": "650b-arsenalsarandi",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Argentinos Jrs",
-    "team_id": "650b-argentinosjrs",
-    "league": "阿甲",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Los Angeles FC",
-    "team_id": "mls-los-angeles-fc",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "New York City",
-    "team_id": "mls-new-york-city",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Orlando City",
-    "team_id": "mls-orlando-city",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "New York Red Bulls",
-    "team_id": "mls-new-york-red-bulls",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Seattle Sounders",
-    "team_id": "mls-seattle-sounders",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Real Salt Lake",
-    "team_id": "mls-real-salt-lake",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Philadelphia Union",
-    "team_id": "mls-philadelphia-union",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "FC Cincinnati",
-    "team_id": "mls-fc-cincinnati",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Atlanta Utd",
-    "team_id": "mls-atlanta-utd",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Columbus Crew",
-    "team_id": "mls-columbus-crew",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Vancouver Whitecaps",
-    "team_id": "mls-vancouver-whitecaps",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Los Angeles Galaxy",
-    "team_id": "mls-los-angeles-galaxy",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Houston Dynamo",
-    "team_id": "mls-houston-dynamo",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sporting Kansas City",
-    "team_id": "mls-sporting-kansas-city",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Portland Timbers",
-    "team_id": "mls-portland-timbers",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Nashville SC",
-    "team_id": "mls-nashville-sc",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Minnesota United",
-    "team_id": "mls-minnesota-united",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "FC Dallas",
-    "team_id": "mls-fc-dallas",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Inter Miami",
-    "team_id": "mls-inter-miami",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "New England Revolution",
-    "team_id": "mls-new-england-revolution",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Colorado Rapids",
-    "team_id": "mls-colorado-rapids",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "CF Montreal",
-    "team_id": "mls-cf-montreal",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Austin FC",
-    "team_id": "mls-austin-fc",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "San Jose Earthquakes",
-    "team_id": "mls-san-jose-earthquakes",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Toronto FC",
-    "team_id": "mls-toronto-fc",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "DC United",
-    "team_id": "mls-dc-united",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Chicago Fire",
-    "team_id": "mls-chicago-fire",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Charlotte",
-    "team_id": "650b-charlotte",
-    "league": "美職MLS",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Guadalajara Chivas",
-    "team_id": "guadalajara-chivas",
-    "league": "墨西超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "UNAM Pumas",
-    "team_id": "unam-pumas",
-    "league": "墨西超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Atl. San Luis",
-    "team_id": "atl-san-luis",
-    "league": "墨西超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Mazatlan FC",
-    "team_id": "mazatlan-fc",
-    "league": "墨西超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Santos Laguna",
-    "team_id": "planb-santoslaguna",
-    "league": "墨西超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Western United",
-    "team_id": "a-league-western-united",
-    "league": "A-League",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Newcastle United Jets",
-    "team_id": "a-league-newcastle-united-jets",
-    "league": "A-League",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Hokkaido Consadole Sapporo",
-    "team_id": "planb-hokkaidoconsadolesapporo",
-    "league": "日職",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Hearts",
-    "team_id": "planb-hearts",
-    "league": "蘇超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ross County",
-    "team_id": "planb-rosscounty",
-    "league": "蘇超",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Perugia",
-    "team_id": "A1000-perugia",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Cittadella",
-    "team_id": "A1000-cittadella",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Reggina",
-    "team_id": "A1000-reggina",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ternana",
-    "team_id": "A1000-ternana",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Brescia",
-    "team_id": "A1000-brescia",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ascoli",
-    "team_id": "A1000-ascoli",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Cosenza",
-    "team_id": "A1000-cosenza",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Benevento",
-    "team_id": "A1000-benevento",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Cremonese",
-    "team_id": "A1000-cremonese",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Pisa",
-    "team_id": "A1000-pisa",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Spal",
-    "team_id": "A1000-spal",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Bari",
-    "team_id": "A1000-bari",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Palermo",
-    "team_id": "A1000-palermo",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sudtirol",
-    "team_id": "A1000-sudtirol",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Modena",
-    "team_id": "A1000-modena",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Catanzaro",
-    "team_id": "A1000-catanzaro",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sampdoria",
-    "team_id": "A1000-sampdoria",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Spezia",
-    "team_id": "A1000-spezia",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Reggiana",
-    "team_id": "A1000-reggiana",
-    "league": "意乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Huesca",
-    "team_id": "A1000-huesca",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Zaragoza",
-    "team_id": "A1000-zaragoza",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ibiza",
-    "team_id": "A1000-ibiza",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Amorebieta",
-    "team_id": "A1000-amorebieta",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ponferradina",
-    "team_id": "A1000-ponferradina",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Alcorcon",
-    "team_id": "A1000-alcorcon",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Sp Gijon",
-    "team_id": "A1000-spgijon",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Oviedo",
-    "team_id": "A1000-oviedo",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Lugo",
-    "team_id": "A1000-lugo",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Valladolid",
-    "team_id": "A1000-valladolid",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Mirandes",
-    "team_id": "A1000-mirandes",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Cartagena",
-    "team_id": "A1000-cartagena",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Santander",
-    "team_id": "A1000-santander",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Villarreal B",
-    "team_id": "A1000-villarrealb",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ferrol",
-    "team_id": "A1000-ferrol",
-    "league": "西乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Bastia",
-    "team_id": "A1000-bastia",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Nimes",
-    "team_id": "A1000-nimes",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Amiens",
-    "team_id": "A1000-amiens",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Auxerre",
-    "team_id": "A1000-auxerre",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Caen",
-    "team_id": "A1000-caen",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Rodez",
-    "team_id": "A1000-rodez",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Quevilly Rouen",
-    "team_id": "A1000-quevillyrouen",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Paris FC",
-    "team_id": "A1000-parisfc",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Le Havre",
-    "team_id": "A1000-lehavre",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Ajaccio",
-    "team_id": "A1000-ajaccio",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Valenciennes",
-    "team_id": "A1000-valenciennes",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Niort",
-    "team_id": "A1000-niort",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Dijon",
-    "team_id": "A1000-dijon",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "St Etienne",
-    "team_id": "A1000-stetienne",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Laval",
-    "team_id": "A1000-laval",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Bordeaux",
-    "team_id": "A1000-bordeaux",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Troyes",
-    "team_id": "A1000-troyes",
-    "league": "法乙",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Airdrie Utd",
-    "team_id": "A1000-airdrieutd",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Montrose",
-    "team_id": "A1000-montrose",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Clyde",
-    "team_id": "A1000-clyde",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Dumbarton",
-    "team_id": "A1000-dumbarton",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Cove Rangers",
-    "team_id": "A1000-coverangers",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Peterhead",
-    "team_id": "A1000-peterhead",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Alloa",
-    "team_id": "A1000-alloa",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Kelty Hearts",
-    "team_id": "A1000-keltyhearts",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Queen of Sth",
-    "team_id": "A1000-queenofsth",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "Annan Athletic",
-    "team_id": "A1000-annanathletic",
-    "league": "蘇冠",
-    "reason": "no ESPN teamId mapping from existing ESPN catalog"
-  },
-  {
-    "team": "CA Osasuna",
-    "team_id": "79",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Club Atlético de Madrid",
-    "team_id": "78",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Deportivo Alavés",
-    "team_id": "263",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "RC Celta de Vigo",
-    "team_id": "558",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "RCD Espanyol de Barcelona",
-    "team_id": "80",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "RCD Mallorca",
-    "team_id": "89",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Rayo Vallecano de Madrid",
-    "team_id": "87",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Real Betis Balompié",
-    "team_id": "90",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Real Sociedad de Fútbol",
-    "team_id": "92",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Levante UD",
-    "team_id": "88",
-    "league": "西甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "ACF Fiorentina",
-    "team_id": "99",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Atalanta BC",
-    "team_id": "102",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bologna FC 1909",
-    "team_id": "103",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Como 1907",
-    "team_id": "7397",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "FC Internazionale Milano",
-    "team_id": "108",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Genoa CFC",
-    "team_id": "107",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hellas Verona FC",
-    "team_id": "450",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Parma Calcio 1913",
-    "team_id": "112",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "SS Lazio",
-    "team_id": "110",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "SSC Napoli",
-    "team_id": "113",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "US Lecce",
-    "team_id": "5890",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "AC Pisa 1909",
-    "team_id": "487",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "US Cremonese",
-    "team_id": "457",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "US Sassuolo Calcio",
-    "team_id": "471",
-    "league": "意甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "1. FSV Mainz 05",
-    "team_id": "15",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bayer 04 Leverkusen",
-    "team_id": "3",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "FC Bayern München",
-    "team_id": "5",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "SV Werder Bremen",
-    "team_id": "12",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "TSG 1899 Hoffenheim",
-    "team_id": "2",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "1. FC Köln",
-    "team_id": "1",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "FC St. Pauli 1910",
-    "team_id": "20",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hamburger SV",
-    "team_id": "7",
-    "league": "德甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "AS Monaco FC",
-    "team_id": "548",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Le Havre AC",
-    "team_id": "533",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Lille OSC",
-    "team_id": "521",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "OGC Nice",
-    "team_id": "522",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Olympique Lyonnais",
-    "team_id": "523",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Olympique de Marseille",
-    "team_id": "516",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Paris Saint-Germain FC",
-    "team_id": "524",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "RC Strasbourg Alsace",
-    "team_id": "576",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Racing Club de Lens",
-    "team_id": "546",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Stade Brestois 29",
-    "team_id": "512",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Stade Rennais FC 1901",
-    "team_id": "529",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Toulouse FC",
-    "team_id": "511",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "AJ Auxerre",
-    "team_id": "519",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Angers SCO",
-    "team_id": "532",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "FC Lorient",
-    "team_id": "525",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Montpellier HSC",
-    "team_id": "montpellier-hsc",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Clermont Foot 63",
-    "team_id": "clermont-foot-63",
-    "league": "法甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Albirex Niigata",
-    "team_id": "albirex-niigata",
-    "league": "J1聯賽",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Consadole Sapporo",
-    "team_id": "consadole-sapporo",
-    "league": "J1聯賽",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Jubilo Iwata",
-    "team_id": "jubilo-iwata",
-    "league": "J1聯賽",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sagan Tosu",
-    "team_id": "sagan-tosu",
-    "league": "J1聯賽",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Shonan Bellmare",
-    "team_id": "shonan-bellmare",
-    "league": "J1聯賽",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Tokyo Verdy",
-    "team_id": "tokyo-verdy",
-    "league": "J1聯賽",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Urawa Reds",
-    "team_id": "urawa-reds",
-    "league": "J1聯賽",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Porto",
-    "team_id": "porto",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Benfica",
-    "team_id": "benfica",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sporting CP",
-    "team_id": "sporting-cp",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Braga",
-    "team_id": "braga",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Vitoria Guimaraes",
-    "team_id": "vitoria-guimaraes",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Moreirense",
-    "team_id": "moreirense",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Arouca",
-    "team_id": "arouca",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Famalicao",
-    "team_id": "famalicao",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Casa Pia",
-    "team_id": "casa-pia",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Farense",
-    "team_id": "farense",
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sp Lisbon",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Guimaraes",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Gil Vicente",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Estoril",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sp Braga",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Boavista",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Vizela",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Portimonense",
-    "team_id": null,
-    "league": "葡超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ajax",
-    "team_id": "ajax",
-    "league": "荷甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Feyenoord",
-    "team_id": "feyenoord",
-    "league": "荷甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Waalwijk",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "For Sittard",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Nijmegen",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Heracles",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Zwolle",
-    "team_id": null,
-    "league": "荷甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Galatasaray",
-    "team_id": "galatasaray",
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Fenerbahce",
-    "team_id": "fenerbahce",
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Besiktas",
-    "team_id": "besiktas",
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Trabzonspor",
-    "team_id": "trabzonspor",
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Basaksehir",
-    "team_id": "basaksehir",
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Adana Demirspor",
-    "team_id": "adana-demirspor",
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hatayspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Buyuksehyr",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ad. Demirspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Antalyaspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sivasspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Kayserispor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Kasimpasa",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Alanyaspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Gaziantep",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Konyaspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Karagumruk",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Rizespor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Giresunspor",
-    "team_id": null,
-    "league": "土超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Club Brugge",
-    "team_id": "club-brugge",
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Anderlecht",
-    "team_id": "anderlecht",
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Genk",
-    "team_id": "genk",
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Antwerp",
-    "team_id": "antwerp",
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Union SG",
-    "team_id": "union-sg",
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Gent",
-    "team_id": "gent",
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Oud-Heverlee Leuven",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Mechelen",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "St. Gilloise",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Standard",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "St Truiden",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Charleroi",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cercle Brugge",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Kortrijk",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Westerlo",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Eupen",
-    "team_id": null,
-    "league": "比甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Flamengo",
-    "team_id": "flamengo",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Palmeiras",
-    "team_id": "palmeiras",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Atletico Mineiro",
-    "team_id": "atletico-mineiro",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Corinthians",
-    "team_id": "corinthians",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Fluminense",
-    "team_id": "fluminense",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Gremio",
-    "team_id": "gremio",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Botafogo",
-    "team_id": "botafogo",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Athletico-PR",
-    "team_id": "athletico-pr",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Internacional",
-    "team_id": "internacional",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Fortaleza",
-    "team_id": "fortaleza",
-    "league": "巴甲",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/teams/6272/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/6272"
-    ]
-  },
-  {
-    "team": "Sao Paulo",
-    "team_id": "sao-paulo",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cruzeiro",
-    "team_id": "cruzeiro",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bragantino",
-    "team_id": "bragantino",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bahia",
-    "team_id": "bahia",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Vasco",
-    "team_id": "vasco",
-    "league": "巴甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cuiaba",
-    "team_id": "cuiaba",
-    "league": "巴甲",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/ita.2/teams/17313/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/17313"
-    ]
-  },
-  {
-    "team": "Salzburg",
-    "team_id": "aut-01",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sturm Graz",
-    "team_id": "aut-02",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "LASK",
-    "team_id": "aut-03",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "SK Rapid",
-    "team_id": "aut-04",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Austria Vienna",
-    "team_id": "aut-05",
-    "league": "奧甲",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/teams/1382/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/1382"
-    ]
-  },
-  {
-    "team": "Wolfsberger AC",
-    "team_id": "aut-06",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hartberg",
-    "team_id": "aut-07",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Altach",
-    "team_id": "aut-08",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Tirol",
-    "team_id": "aut-09",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "A. Klagenfurt",
-    "team_id": "aut-10",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "BW Linz",
-    "team_id": "aut-11",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "A. Lustenau",
-    "team_id": "aut-12",
-    "league": "奧甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Basel",
-    "team_id": "swz-01",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Grasshoppers",
-    "team_id": "swz-02",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Lugano",
-    "team_id": "swz-03",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Luzern",
-    "team_id": "swz-04",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Servette",
-    "team_id": "swz-05",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "St. Gallen",
-    "team_id": "swz-06",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Young Boys",
-    "team_id": "swz-07",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Zurich",
-    "team_id": "swz-08",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Winterthur",
-    "team_id": "swz-09",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Lausanne",
-    "team_id": "swz-10",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sion",
-    "team_id": "swz-11",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Thun",
-    "team_id": "swz-12",
-    "league": "瑞士超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Brann",
-    "team_id": "nor-02",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Haugesund",
-    "team_id": "nor-03",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Kristiansund",
-    "team_id": "nor-04",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Odd",
-    "team_id": "nor-07",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sarpsborg 08",
-    "team_id": "nor-10",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Stromsgodset",
-    "team_id": "nor-11",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Viking",
-    "team_id": "nor-14",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ham-Kam",
-    "team_id": "nor-16",
-    "league": "挪超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "AIK",
-    "team_id": "swe-01",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Djurgarden",
-    "team_id": "swe-02",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Elfsborg",
-    "team_id": "swe-03",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Goteborg",
-    "team_id": "swe-04",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hacken",
-    "team_id": "swe-05",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Halmstad",
-    "team_id": "swe-06",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hammarby",
-    "team_id": "swe-07",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Kalmar",
-    "team_id": "swe-08",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Malmo FF",
-    "team_id": "swe-09",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Mjallby",
-    "team_id": "swe-10",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Norrkoping",
-    "team_id": "swe-11",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sirius",
-    "team_id": "swe-12",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Varberg",
-    "team_id": "swe-13",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Varnamo",
-    "team_id": "swe-14",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Vasteras SK",
-    "team_id": "swe-15",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Brommapojkarna",
-    "team_id": "swe-16",
-    "league": "瑞典超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Aalborg",
-    "team_id": "dnk-01",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Aarhus",
-    "team_id": "dnk-02",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Brondby",
-    "team_id": "dnk-03",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "FC Copenhagen",
-    "team_id": "dnk-04",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Horsens",
-    "team_id": "dnk-05",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Lyngby",
-    "team_id": "dnk-06",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Nordsjaelland",
-    "team_id": "dnk-08",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Odense",
-    "team_id": "dnk-09",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Silkeborg",
-    "team_id": "dnk-11",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Viborg",
-    "team_id": "dnk-12",
-    "league": "丹超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Panathinaikos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "PAOK",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "AEK",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Olympiakos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Aris",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Volos NFC",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Lamia",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Panetolikos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Atromitos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "OFI Crete",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Asteras Tripolis",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Giannina",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Levadeiakos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Panserraikos",
-    "team_id": null,
-    "league": "希超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Blackburn",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cardiff",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Preston",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "QPR",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Stoke",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Coventry",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hull",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "West Brom",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Swansea",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Luton",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Birmingham",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Huddersfield",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Norwich",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Derby",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Blackpool",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Reading",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Rotherham",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sheffield Weds",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Plymouth",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Leeds",
-    "team_id": null,
-    "league": "英冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bolton",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cambridge",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Shrewsbury",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Wycombe",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Charlton",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Burton",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Lincoln",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Fleetwood Town",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cheltenham",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Oxford",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Wigan",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bristol Rvs",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Barnsley",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Exeter",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Peterboro",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ipswich",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Rotherham",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Accrington",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Milton Keynes Dons",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Morecambe",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Plymouth",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sheffield Weds",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Derby",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Port Vale",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Blackpool",
-    "team_id": null,
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Carlisle",
-    "team_id": "A1000-carlisle",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Colchester",
-    "team_id": "A1000-colchester",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bradford",
-    "team_id": "A1000-bradford",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Forest Green",
-    "team_id": "A1000-forestgreen",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sutton",
-    "team_id": "A1000-sutton",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Harrogate",
-    "team_id": "A1000-harrogate",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Rochdale",
-    "team_id": "A1000-rochdale",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hartlepool",
-    "team_id": "A1000-hartlepool",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Crawley Town",
-    "team_id": "A1000-crawleytown",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Mansfield",
-    "team_id": "A1000-mansfield",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Northampton",
-    "team_id": "A1000-northampton",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Newport County",
-    "team_id": "A1000-newportcounty",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Salford",
-    "team_id": "A1000-salford",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Leyton Orient",
-    "team_id": "A1000-leytonorient",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Swindon",
-    "team_id": "A1000-swindon",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Stevenage",
-    "team_id": "A1000-stevenage",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Barrow",
-    "team_id": "A1000-barrow",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Tranmere",
-    "team_id": "A1000-tranmere",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Walsall",
-    "team_id": "A1000-walsall",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "AFC Wimbledon",
-    "team_id": "A1000-afcwimbledon",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Gillingham",
-    "team_id": "A1000-gillingham",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Doncaster",
-    "team_id": "A1000-doncaster",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Grimsby",
-    "team_id": "A1000-grimsby",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Crewe",
-    "team_id": "A1000-crewe",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Stockport",
-    "team_id": "A1000-stockport",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Notts County",
-    "team_id": "A1000-nottscounty",
-    "league": "英甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Nurnberg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Karlsruhe",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Paderborn",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hannover",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Fortuna Dusseldorf",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hamburg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Darmstadt",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hansa Rostock",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Regensburg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Greuther Furth",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Magdeburg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Braunschweig",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Heidenheim",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sandhausen",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hertha",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Elversberg",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Dresden",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ingolstadt",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Erzgebirge Aue",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bielefeld",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Osnabruck",
-    "team_id": null,
-    "league": "德乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Estudiantes L.P.",
-    "team_id": "estudiantes-l-p",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Godoy Cruz",
-    "team_id": "godoy-cruz",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Gimnasia L.P.",
-    "team_id": "gimnasia-l-p",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Union de Santa Fe",
-    "team_id": "union-de-santa-fe",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Central Cordoba",
-    "team_id": "central-cordoba",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Atl. Tucuman",
-    "team_id": "atl-tucuman",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Colon Santa FE",
-    "team_id": "650b-colonsantafe",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Arsenal Sarandi",
-    "team_id": "650b-arsenalsarandi",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Argentinos Jrs",
-    "team_id": "650b-argentinosjrs",
-    "league": "阿甲",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Los Angeles FC",
-    "team_id": "mls-los-angeles-fc",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "New York City",
-    "team_id": "mls-new-york-city",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Orlando City",
-    "team_id": "mls-orlando-city",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "New York Red Bulls",
-    "team_id": "mls-new-york-red-bulls",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Seattle Sounders",
-    "team_id": "mls-seattle-sounders",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Real Salt Lake",
-    "team_id": "mls-real-salt-lake",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Philadelphia Union",
-    "team_id": "mls-philadelphia-union",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "FC Cincinnati",
-    "team_id": "mls-fc-cincinnati",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Atlanta Utd",
-    "team_id": "mls-atlanta-utd",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Columbus Crew",
-    "team_id": "mls-columbus-crew",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Vancouver Whitecaps",
-    "team_id": "mls-vancouver-whitecaps",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Los Angeles Galaxy",
-    "team_id": "mls-los-angeles-galaxy",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Houston Dynamo",
-    "team_id": "mls-houston-dynamo",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sporting Kansas City",
-    "team_id": "mls-sporting-kansas-city",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Portland Timbers",
-    "team_id": "mls-portland-timbers",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Nashville SC",
-    "team_id": "mls-nashville-sc",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Minnesota United",
-    "team_id": "mls-minnesota-united",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "FC Dallas",
-    "team_id": "mls-fc-dallas",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Inter Miami",
-    "team_id": "mls-inter-miami",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "New England Revolution",
-    "team_id": "mls-new-england-revolution",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Colorado Rapids",
-    "team_id": "mls-colorado-rapids",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "CF Montreal",
-    "team_id": "mls-cf-montreal",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Austin FC",
-    "team_id": "mls-austin-fc",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "San Jose Earthquakes",
-    "team_id": "mls-san-jose-earthquakes",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Toronto FC",
-    "team_id": "mls-toronto-fc",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "DC United",
-    "team_id": "mls-dc-united",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Chicago Fire",
-    "team_id": "mls-chicago-fire",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Charlotte",
-    "team_id": "650b-charlotte",
-    "league": "美職MLS",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Guadalajara Chivas",
-    "team_id": "guadalajara-chivas",
-    "league": "墨西超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "UNAM Pumas",
-    "team_id": "unam-pumas",
-    "league": "墨西超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Atl. San Luis",
-    "team_id": "atl-san-luis",
-    "league": "墨西超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Mazatlan FC",
-    "team_id": "mazatlan-fc",
-    "league": "墨西超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Santos Laguna",
-    "team_id": "planb-santoslaguna",
-    "league": "墨西超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Melbourne City FC",
-    "team_id": "a-league-melbourne-city-fc",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/20280/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/20280"
-    ]
-  },
-  {
-    "team": "Wellington Phoenix",
-    "team_id": "a-league-wellington-phoenix",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/21133/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/21133"
-    ]
-  },
-  {
-    "team": "Adelaide United",
-    "team_id": "a-league-adelaide-united",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/20286/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/20286"
-    ]
-  },
-  {
-    "team": "Western United",
-    "team_id": "a-league-western-united",
-    "league": "A-League",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Perth Glory",
-    "team_id": "a-league-perth-glory",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/20282/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/20282"
-    ]
-  },
-  {
-    "team": "Melbourne Victory",
-    "team_id": "a-league-melbourne-victory",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/20284/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/20284"
-    ]
-  },
-  {
-    "team": "Sydney FC",
-    "team_id": "a-league-sydney-fc",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/20285/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/20285"
-    ]
-  },
-  {
-    "team": "Newcastle United Jets",
-    "team_id": "a-league-newcastle-united-jets",
-    "league": "A-League",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Central Coast Mariners",
-    "team_id": "a-league-central-coast-mariners",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/21991/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/21991"
-    ]
-  },
-  {
-    "team": "Brisbane Roar",
-    "team_id": "a-league-brisbane-roar",
-    "league": "A-League",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/aus.1/teams/20281/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/20281"
-    ]
-  },
-  {
-    "team": "Hokkaido Consadole Sapporo",
-    "team_id": "planb-hokkaidoconsadolesapporo",
-    "league": "日職",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Hearts",
-    "team_id": "planb-hearts",
-    "league": "蘇超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ross County",
-    "team_id": "planb-rosscounty",
-    "league": "蘇超",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Perugia",
-    "team_id": "A1000-perugia",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cittadella",
-    "team_id": "A1000-cittadella",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Reggina",
-    "team_id": "A1000-reggina",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ternana",
-    "team_id": "A1000-ternana",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Brescia",
-    "team_id": "A1000-brescia",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ascoli",
-    "team_id": "A1000-ascoli",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cosenza",
-    "team_id": "A1000-cosenza",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Benevento",
-    "team_id": "A1000-benevento",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cremonese",
-    "team_id": "A1000-cremonese",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Pisa",
-    "team_id": "A1000-pisa",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Spal",
-    "team_id": "A1000-spal",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bari",
-    "team_id": "A1000-bari",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Palermo",
-    "team_id": "A1000-palermo",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sudtirol",
-    "team_id": "A1000-sudtirol",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Modena",
-    "team_id": "A1000-modena",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Catanzaro",
-    "team_id": "A1000-catanzaro",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sampdoria",
-    "team_id": "A1000-sampdoria",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Spezia",
-    "team_id": "A1000-spezia",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Reggiana",
-    "team_id": "A1000-reggiana",
-    "league": "意乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Huesca",
-    "team_id": "A1000-huesca",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Zaragoza",
-    "team_id": "A1000-zaragoza",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ibiza",
-    "team_id": "A1000-ibiza",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Amorebieta",
-    "team_id": "A1000-amorebieta",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ponferradina",
-    "team_id": "A1000-ponferradina",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Alcorcon",
-    "team_id": "A1000-alcorcon",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Sp Gijon",
-    "team_id": "A1000-spgijon",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Burgos",
-    "team_id": "A1000-burgos",
-    "league": "西乙",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/12597/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/12597"
-    ]
-  },
-  {
-    "team": "Oviedo",
-    "team_id": "A1000-oviedo",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Lugo",
-    "team_id": "A1000-lugo",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Valladolid",
-    "team_id": "A1000-valladolid",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Mirandes",
-    "team_id": "A1000-mirandes",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cartagena",
-    "team_id": "A1000-cartagena",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Santander",
-    "team_id": "A1000-santander",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Villarreal B",
-    "team_id": "A1000-villarrealb",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Andorra",
-    "team_id": "A1000-andorra",
-    "league": "西乙",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/20179/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/20179"
-    ]
-  },
-  {
-    "team": "Ferrol",
-    "team_id": "A1000-ferrol",
-    "league": "西乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Eldense",
-    "team_id": "A1000-eldense",
-    "league": "西乙",
-    "reason": "HTTPError: 404 Client Error: Not Found for url: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/teams/7320/roster",
-    "source_urls": [
-      "https://www.espn.com/soccer/team/_/id/7320"
-    ]
-  },
-  {
-    "team": "Bastia",
-    "team_id": "A1000-bastia",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Nimes",
-    "team_id": "A1000-nimes",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Amiens",
-    "team_id": "A1000-amiens",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Auxerre",
-    "team_id": "A1000-auxerre",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Caen",
-    "team_id": "A1000-caen",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Rodez",
-    "team_id": "A1000-rodez",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Quevilly Rouen",
-    "team_id": "A1000-quevillyrouen",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Paris FC",
-    "team_id": "A1000-parisfc",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Le Havre",
-    "team_id": "A1000-lehavre",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Ajaccio",
-    "team_id": "A1000-ajaccio",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Valenciennes",
-    "team_id": "A1000-valenciennes",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Niort",
-    "team_id": "A1000-niort",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Dijon",
-    "team_id": "A1000-dijon",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "St Etienne",
-    "team_id": "A1000-stetienne",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Laval",
-    "team_id": "A1000-laval",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Bordeaux",
-    "team_id": "A1000-bordeaux",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Troyes",
-    "team_id": "A1000-troyes",
-    "league": "法乙",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Airdrie Utd",
-    "team_id": "A1000-airdrieutd",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Montrose",
-    "team_id": "A1000-montrose",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Clyde",
-    "team_id": "A1000-clyde",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Dumbarton",
-    "team_id": "A1000-dumbarton",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Cove Rangers",
-    "team_id": "A1000-coverangers",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Peterhead",
-    "team_id": "A1000-peterhead",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Alloa",
-    "team_id": "A1000-alloa",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Kelty Hearts",
-    "team_id": "A1000-keltyhearts",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Queen of Sth",
-    "team_id": "A1000-queenofsth",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
-  },
-  {
-    "team": "Annan Athletic",
-    "team_id": "A1000-annanathletic",
-    "league": "蘇冠",
-    "reason": "no API roster",
-    "source_urls": []
+    "espn_team_id": "2683",
+    "espn_team_name": "Peñarol",
+    "normalized_name": "penarol",
+    "player_count": 36,
+    "reason": "no_unique_exact_catalog_match"
   }
 ]
