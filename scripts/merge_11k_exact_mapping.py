@@ -27,6 +27,7 @@ def main():
    k,ct=hits[0];mapping[r['espn_team_id']]=k;rows.append({'espn_team_id':r['espn_team_id'],'espn_team_name':r.get('team','').strip(),'catalog_key':k,'catalog_team_name':ct,'normalized_name':norm(r.get('team')),'match_status':'exact','player_count':len(r['players'])})
   else:
    unmatched.append({'espn_team_id':r.get('espn_team_id'),'espn_team_name':r.get('team','').strip(),'normalized_name':norm(r.get('team')),'player_count':len(r['players']),'reason':'no_unique_exact_catalog_match'})
+   rows.append({'espn_team_id':r.get('espn_team_id'),'espn_team_name':r.get('team','').strip(),'catalog_key':'','catalog_team_name':'','normalized_name':norm(r.get('team')),'match_status':'unmatched_exact_only','player_count':len(r.get('players',[]))})
  with MAP.open('w',newline='',encoding='utf-8') as f:
   w=csv.DictWriter(f,fieldnames=['espn_team_id','espn_team_name','catalog_key','catalog_team_name','normalized_name','match_status','player_count']);w.writeheader();w.writerows(rows)
  added=0; merged_teams=set()

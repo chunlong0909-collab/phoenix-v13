@@ -2,64 +2,156 @@ espn_team_id,espn_team_name,catalog_key,catalog_team_name,normalized_name,match_
 19340,Macarthur FC,0477:A-League:a-league-macarthur-fc,Macarthur FC,macarthur,exact,28
 5325,Central Coast Mariners,0476:A-League:a-league-central-coast-mariners,Central Coast Mariners,central coast mariners,exact,32
 5321,Adelaide United,0469:A-League:a-league-adelaide-united,Adelaide United,adelaide united,exact,31
+22344,Auckland FC,,,auckland,unmatched_exact_only,23
 5328,Melbourne Victory,0472:A-League:a-league-melbourne-victory,Melbourne Victory,melbourne victory,exact,33
+5323,Newcastle Jets,,,newcastle jets,unmatched_exact_only,31
 5326,Brisbane Roar,0478:A-League:a-league-brisbane-roar,Brisbane Roar,brisbane roar,exact,23
 11143,Melbourne City FC,0467:A-League:a-league-melbourne-city-fc,Melbourne City FC,melbourne city,exact,28
 5322,Perth Glory,0471:A-League:a-league-perth-glory,Perth Glory,perth glory,exact,30
 5327,Sydney FC,0473:A-League:a-league-sydney-fc,Sydney FC,sydney,exact,27
 13696,Western Sydney Wanderers,0474:A-League:a-league-western-sydney-wanderers,Western Sydney Wanderers,western sydney wanderers,exact,28
 8352,Wellington Phoenix FC,0468:A-League:a-league-wellington-phoenix,Wellington Phoenix,wellington phoenix,exact,24
+4,Belgrano (Córdoba),,,belgrano (cordoba),unmatched_exact_only,32
+11989,Central Córdoba (Santiago del Estero),,,central cordoba (santiago del estero),unmatched_exact_only,33
+3,Argentinos Juniors,,,argentinos juniors,unmatched_exact_only,32
+9785,Atlético Tucumán,,,atletico tucuman,unmatched_exact_only,34
 235,Banfield,0407:阿甲:banfield,Banfield,banfield,exact,35
 5,Boca Juniors,0395:阿甲:boca-juniors,Boca Juniors,boca juniors,exact,47
 10060,Barracas Central,0419:阿甲:650b-barracascentral,Barracas Central,barracas central,exact,36
+9739,Aldosivi,,,aldosivi,unmatched_exact_only,38
+17702,Deportivo Riestra,,,deportivo riestra,unmatched_exact_only,32
+8,Estudiantes de La Plata,,,estudiantes de la plata,unmatched_exact_only,50
 8950,Defensa y Justicia,0403:阿甲:defensa-y-justicia,Defensa y Justicia,defensa y justicia,exact,35
+9,Gimnasia La Plata,,,gimnasia la plata,unmatched_exact_only,40
 10,Huracán,0405:阿甲:huracan,Huracan,huracan,exact,29
 11,Independiente,0402:阿甲:independiente,Independiente,independiente,exact,35
+19685,Estudiantes de Río Cuarto,,,estudiantes de rio cuarto,unmatched_exact_only,41
+2975,Instituto (Córdoba),,,instituto (cordoba),unmatched_exact_only,34
 12,Lanús,0412:阿甲:lanus,Lanus,lanus,exact,45
+9744,Independiente Rivadavia,,,independiente rivadavia,unmatched_exact_only,49
+14,Newell's Old Boys,,,newell's old boys,unmatched_exact_only,35
 16,River Plate,0396:阿甲:river-plate,River Plate,river plate,exact,39
 15,Racing Club,0415:阿甲:650b-racingclub,Racing Club,racing club,exact,35
 17,Rosario Central,0399:阿甲:rosario-central,Rosario Central,rosario central,exact,37
 18,San Lorenzo,0410:阿甲:san-lorenzo,San Lorenzo,san lorenzo,exact,39
+10158,Sarmiento (Junín),,,sarmiento (junin),unmatched_exact_only,33
+19,Talleres (Córdoba),,,talleres (cordoba),unmatched_exact_only,33
 7764,Platense,0400:阿甲:platense,Platense,platense,exact,50
+11972,Gimnasia (Mendoza),,,gimnasia (mendoza),unmatched_exact_only,31
 7767,Tigre,0420:阿甲:650b-tigre,Tigre,tigre,exact,47
+20,Unión (Santa Fe),,,union (santa fe),unmatched_exact_only,35
 21,Vélez Sarsfield,0398:阿甲:velez-sarsfield,Velez Sarsfield,velez sarsfield,exact,30
+123,Energie Cottbus,,,energie cottbus,unmatched_exact_only,29
+269,1. FC Nürnberg,,,1. nurnberg,unmatched_exact_only,29
+129,Hertha Berlin,,,hertha berlin,unmatched_exact_only,34
 6418,1. FC Heidenheim 1846,0061:德甲:44,1. FC Heidenheim 1846,1. heidenheim 1846,exact,30
 7884,Holstein Kiel,0380:德乙:None,Holstein Kiel,holstein kiel,exact,29
+2506,Arminia Bielefeld,,,arminia bielefeld,unmatched_exact_only,28
 130,Kaiserslautern,0381:德乙:None,Kaiserslautern,kaiserslautern,exact,32
+4471,Karlsruher SC,,,karlsruher sc,unmatched_exact_only,17
+3812,SV Darmstadt 98,,,sv darmstadt 98,unmatched_exact_only,32
+3070,SpVgg Greuther Fürth,,,spvgg greuther furth,unmatched_exact_only,30
+270,St. Pauli,,,st. pauli,unmatched_exact_only,31
+3067,TSV Eintracht Braunschweig,,,tsv eintracht braunschweig,unmatched_exact_only,29
+2428,Hannover 96,,,hannover 96,unmatched_exact_only,35
+121,VfL Bochum,,,vfl bochum,unmatched_exact_only,29
 138,VfL Wolfsburg,0074:德甲:11,VfL Wolfsburg,vfl wolfsburg,exact,36
+131,Bayer Leverkusen,,,bayer leverkusen,unmatched_exact_only,29
 124,Borussia Dortmund,0064:德甲:4,Borussia Dortmund,borussia dortmund,exact,32
 268,Borussia Mönchengladbach,0065:德甲:18,Borussia Mönchengladbach,borussia monchengladbach,exact,32
+122,FC Cologne,,,cologne,unmatched_exact_only,31
 125,Eintracht Frankfurt,0066:德甲:19,Eintracht Frankfurt,eintracht frankfurt,exact,27
+132,Bayern Munich,,,bayern munich,unmatched_exact_only,27
 3841,FC Augsburg,0067:德甲:16,FC Augsburg,augsburg,exact,27
 598,1. FC Union Berlin,0075:德甲:28,1. FC Union Berlin,1. union berlin,exact,32
+127,Hamburg SV,,,hamburg sv,unmatched_exact_only,30
 126,SC Freiburg,0070:德甲:17,SC Freiburg,sc freiburg,exact,28
+2950,Mainz,,,mainz,unmatched_exact_only,27
 11420,RB Leipzig,0069:德甲:721,RB Leipzig,rb leipzig,exact,29
+7911,TSG Hoffenheim,,,tsg hoffenheim,unmatched_exact_only,29
 133,Schalke 04,0375:德乙:None,Schalke 04,schalke 04,exact,28
 134,VfB Stuttgart,0073:德甲:10,VfB Stuttgart,vfb stuttgart,exact,31
+10388,SV Elversberg,,,sv elversberg,unmatched_exact_only,27
 137,Werder Bremen,0390:德乙:None,Werder Bremen,werder bremen,exact,31
+3307,SC Paderborn 07,,,sc paderborn 07,unmatched_exact_only,32
+365,Blackburn Rovers,,,blackburn rovers,unmatched_exact_only,35
+358,Bolton Wanderers,,,bolton wanderers,unmatched_exact_only,28
+392,Birmingham City,,,birmingham city,unmatched_exact_only,26
 333,Bristol City,0290:英冠:None,Bristol City,bristol city,exact,33
+374,Derby County,,,derby county,unmatched_exact_only,32
+347,Cardiff City,,,cardiff city,unmatched_exact_only,29
 369,Middlesbrough,0297:英冠:None,Middlesbrough,middlesbrough,exact,30
+314,Lincoln City,,,lincoln city,unmatched_exact_only,28
+379,Burnley,,,burnley,unmatched_exact_only,36
+372,Charlton Athletic,,,charlton athletic,unmatched_exact_only,33
+381,Norwich City,,,norwich city,unmatched_exact_only,34
 391,Millwall,0298:英冠:None,Millwall,millwall,exact,37
 385,Portsmouth,0327:英甲:None,Portsmouth,portsmouth,exact,34
+394,Preston North End,,,preston north end,unmatched_exact_only,28
+334,Queens Park Rangers,,,queens park rangers,unmatched_exact_only,27
+376,Southampton,,,southampton,unmatched_exact_only,28
 398,Sheffield United,0302:英冠:None,Sheffield United,sheffield united,exact,27
 371,West Ham United,0016:英超:563,West Ham United FC,west ham united,exact,28
 395,Watford,0306:英冠:None,Watford,watford,exact,33
 380,Wolverhampton Wanderers,0017:英超:76,Wolverhampton Wanderers FC,wolverhampton wanderers,exact,32
+383,West Bromwich Albion,,,west bromwich albion,unmatched_exact_only,26
+336,Stoke City,,,stoke city,unmatched_exact_only,30
+318,Swansea City,,,swansea city,unmatched_exact_only,29
+352,Wrexham,,,wrexham,unmatched_exact_only,29
+3585,AC Horsens,,,ac horsens,unmatched_exact_only,34
+575,Brøndby IF,,,brndby if,unmatched_exact_only,27
+7853,AGF,,,agf,unmatched_exact_only,33
 572,FC Midtjylland,0269:丹超:dnk-07,Midtjylland,midtjylland,exact,31
+909,F.C. København,,,f.c. kbenhavn,unmatched_exact_only,30
+11550,Odense Boldklub,,,odense boldklub,unmatched_exact_only,30
+7860,Lyngby Boldklub,,,lyngby boldklub,unmatched_exact_only,28
 3132,Randers FC,0272:丹超:dnk-10,Randers FC,randers,exact,32
+3101,FC Nordsjælland,,,nordsjlland,unmatched_exact_only,31
+3153,Viborg FF,,,viborg ff,unmatched_exact_only,26
+8118,Sønderjyske Fodbold,,,snderjyske fodbold,unmatched_exact_only,31
+607,Silkeborg IF,,,silkeborg if,unmatched_exact_only,27
+5291,Almere City,,,almere city,unmatched_exact_only,32
+2727,FC Volendam,,,volendam,unmatched_exact_only,29
+144,De Graafschap,,,de graafschap,unmatched_exact_only,34
+271,FC Den Bosch,,,den bosch,unmatched_exact_only,28
+4426,FC Dordrecht,,,dordrecht,unmatched_exact_only,34
+3732,FC Eindhoven,,,eindhoven,unmatched_exact_only,33
+3707,FC Emmen,,,emmen,unmatched_exact_only,31
+3775,Helmond Sport,,,helmond sport,unmatched_exact_only,31
+3708,Heracles Almelo,,,heracles almelo,unmatched_exact_only,32
+18748,Jong AZ,,,jong az,unmatched_exact_only,39
+9983,Jong PSV,,,jong psv,unmatched_exact_only,47
+10597,Jong Ajax,,,jong ajax,unmatched_exact_only,38
+18278,Jong FC Utrecht,,,jong utrecht,unmatched_exact_only,33
+3730,MVV Maastricht,,,mvv maastricht,unmatched_exact_only,32
+141,NAC Breda,,,nac breda,unmatched_exact_only,34
+155,RKC Waalwijk,,,rkc waalwijk,unmatched_exact_only,28
+149,Roda JC Kerkrade,,,roda jc kerkrade,unmatched_exact_only,29
+3731,VVV-Venlo,,,vvv-venlo,unmatched_exact_only,28
 154,Vitesse,0152:荷甲:None,Vitesse,vitesse,exact,35
+3728,TOP Oss,,,top oss,unmatched_exact_only,27
 987,Lillestrom,0235:挪超:nor-05,Lillestrom,lillestrom,exact,30
+21380,Hamarkameratene,,,hamarkameratene,unmatched_exact_only,29
 3278,Aalesund,0245:挪超:nor-15,Aalesund,aalesund,exact,31
+22165,KFUM Oslo,,,kfum oslo,unmatched_exact_only,31
 2980,Bodo/Glimt,0231:挪超:nor-01,Bodo/Glimt,bodo/glimt,exact,36
+6750,IK Start,,,ik start,unmatched_exact_only,31
+6672,Kristiansund BK,,,kristiansund bk,unmatched_exact_only,27
+3039,Fredrikstad,,,fredrikstad,unmatched_exact_only,28
 2715,Molde,0236:挪超:nor-06,Molde,molde,exact,34
+620,SK Brann,,,sk brann,unmatched_exact_only,30
+5002,Sarpsborg FK,,,sarpsborg fk,unmatched_exact_only,27
 5270,Tromso,0242:挪超:nor-12,Tromso,tromso,exact,36
 3279,Sandefjord,0239:挪超:nor-09,Sandefjord,sandefjord,exact,33
 2791,Vålerenga,0243:挪超:nor-13,Valerenga,valerenga,exact,29
+510,Viking FK,,,viking fk,unmatched_exact_only,40
 438,Rosenborg,0238:挪超:nor-08,Rosenborg,rosenborg,exact,31
 359,Arsenal,0002:英超:57,Arsenal FC,arsenal,exact,29
 331,Brighton & Hove Albion,0005:英超:397,Brighton & Hove Albion FC,brighton & hove albion,exact,34
+349,AFC Bournemouth,,,bournemouth,unmatched_exact_only,29
 362,Aston Villa,0003:英超:58,Aston Villa FC,aston villa,exact,29
 363,Chelsea,0006:英超:61,Chelsea FC,chelsea,exact,30
+388,Coventry City,,,coventry city,unmatched_exact_only,29
 337,Brentford,0004:英超:402,Brentford FC,brentford,exact,29
 384,Crystal Palace,0007:英超:354,Crystal Palace FC,crystal palace,exact,33
 368,Everton,0008:英超:62,Everton FC,everton,exact,24
@@ -67,82 +159,198 @@ espn_team_id,espn_team_name,catalog_key,catalog_team_name,normalized_name,match_
 364,Liverpool,0010:英超:64,Liverpool FC,liverpool,exact,34
 382,Manchester City,0011:英超:65,Manchester City FC,manchester city,exact,27
 357,Leeds United,0019:英超:341,Leeds United FC,leeds united,exact,29
+373,Ipswich Town,,,ipswich town,unmatched_exact_only,29
+306,Hull City,,,hull city,unmatched_exact_only,34
 361,Newcastle United,0013:英超:67,Newcastle United FC,newcastle united,exact,30
 370,Fulham,0009:英超:63,Fulham FC,fulham,exact,29
 393,Nottingham Forest,0014:英超:351,Nottingham Forest FC,nottingham forest,exact,24
+366,Sunderland,,,sunderland,unmatched_exact_only,33
 367,Tottenham Hotspur,0015:英超:73,Tottenham Hotspur FC,tottenham hotspur,exact,30
 153,FC Utrecht,0142:荷甲:utrecht,Utrecht,utrecht,exact,33
+142,Feyenoord Rotterdam,,,feyenoord rotterdam,unmatched_exact_only,33
+139,Ajax Amsterdam,,,ajax amsterdam,unmatched_exact_only,33
 140,AZ Alkmaar,0140:荷甲:az-alkmaar,AZ Alkmaar,az alkmaar,exact,32
 152,FC Twente,0141:荷甲:twente,Twente,twente,exact,29
+2726,ADO Den Haag,,,ado den haag,unmatched_exact_only,30
+2566,Excelsior,,,excelsior,unmatched_exact_only,26
+143,Fortuna Sittard,,,fortuna sittard,unmatched_exact_only,27
 145,FC Groningen,0151:荷甲:None,Groningen,groningen,exact,32
 146,Heerenveen,0147:荷甲:None,Heerenveen,heerenveen,exact,27
 3706,Go Ahead Eagles,0143:荷甲:None,Go Ahead Eagles,go ahead eagles,exact,30
 148,PSV Eindhoven,0138:荷甲:psv-eindhoven,PSV Eindhoven,psv eindhoven,exact,31
+147,NEC Nijmegen,,,nec nijmegen,unmatched_exact_only,31
+2565,PEC Zwolle,,,pec zwolle,unmatched_exact_only,28
 151,Sparta Rotterdam,0148:荷甲:None,Sparta Rotterdam,sparta rotterdam,exact,26
+3736,SC Cambuur,,,sc cambuur,unmatched_exact_only,31
+3735,Telstar,,,telstar,unmatched_exact_only,25
 156,Willem II,0154:荷甲:None,Willem II,willem ii,exact,35
+20724,Cancún FC,,,cancun,unmatched_exact_only,27
+3432,Dorados de Sinaloa,,,dorados de sinaloa,unmatched_exact_only,31
+8931,Correcaminos UAT,,,correcaminos uat,unmatched_exact_only,33
+17233,Alebrijes de Oaxaca,,,alebrijes de oaxaca,unmatched_exact_only,38
+21533,Club Atlético La Paz,,,club atletico la paz,unmatched_exact_only,26
+9371,Cruz Azul Hidalgo,,,cruz azul hidalgo,unmatched_exact_only,43
+10131,Club Jaiba Brava,,,club jaiba brava,unmatched_exact_only,30
+221,Club Atlético Morelia,,,club atletico morelia,unmatched_exact_only,32
+21534,Durango,,,durango,unmatched_exact_only,31
+10129,Leones Negros,,,leones negros,unmatched_exact_only,29
+17514,Mineros de Zacatecas,,,mineros de zacatecas,unmatched_exact_only,30
+20720,Tapatío,,,tapatio,unmatched_exact_only,36
+131881,Piratas,,,piratas,unmatched_exact_only,28
+20722,Tlaxcala FC,,,tlaxcala,unmatched_exact_only,32
+20721,Tepatitlán FC,,,tepatitlan,unmatched_exact_only,45
+10124,Venados FC,,,venados,unmatched_exact_only,33
 7109,Cerezo Osaka,0101:J1聯賽:cerezo-osaka,Cerezo Osaka,cerezo osaka,exact,30
+7111,JEF United Ichihara-Chiba,,,jef united ichihara-chiba,unmatched_exact_only,38
 7476,Kashiwa Reysol,0107:J1聯賽:kashiwa-reysol,Kashiwa Reysol,kashiwa reysol,exact,46
 7107,Avispa Fukuoka,0100:J1聯賽:avispa-fukuoka,Avispa Fukuoka,avispa fukuoka,exact,39
 3384,FC Tokyo,0103:J1聯賽:fc-tokyo,FC Tokyo,tokyo,exact,32
 7115,Kashima Antlers,0106:J1聯賽:kashima-antlers,Kashima Antlers,kashima antlers,exact,37
+22522,Fagiano Okayama,,,fagiano okayama,unmatched_exact_only,36
 7102,Gamba Osaka,0104:J1聯賽:gamba-osaka,Gamba Osaka,gamba osaka,exact,55
 22167,Machida Zelvia,0110:J1聯賽:machida-zelvia,Machida Zelvia,machida zelvia,exact,29
 7112,Kawasaki Frontale,0108:J1聯賽:kawasaki-frontale,Kawasaki Frontale,kawasaki frontale,exact,38
 7108,Nagoya Grampus,0111:J1聯賽:nagoya-grampus,Nagoya Grampus,nagoya grampus,exact,36
+131701,Mito Hollyhock,,,mito hollyhock,unmatched_exact_only,35
+7104,Shimizu S-Pulse,,,shimizu s-pulse,unmatched_exact_only,36
 7114,Sanfrecce Hiroshima,0113:J1聯賽:sanfrecce-hiroshima,Sanfrecce Hiroshima,sanfrecce hiroshima,exact,29
 21361,Kyoto Sanga,0109:J1聯賽:kyoto-sanga,Kyoto Sanga,kyoto sanga,exact,42
+3385,Urawa Red Diamonds,,,urawa red diamonds,unmatched_exact_only,33
+3393,Tokyo Verdy 1969,,,tokyo verdy 1969,unmatched_exact_only,43
 7477,Vissel Kobe,0117:J1聯賽:vissel-kobe,Vissel Kobe,vissel kobe,exact,44
+7116,Yokohama F. Marinos,,,yokohama f. marinos,unmatched_exact_only,35
+19001,V-Varen Nagasaki,,,v-varen nagasaki,unmatched_exact_only,36
 2737,Albacete,0536:西乙:A1000-albacete,Albacete,albacete,exact,36
+8447,Córdoba,,,cordoba,unmatched_exact_only,32
+3842,Cádiz,,,cadiz,unmatched_exact_only,40
 6832,Almería,0530:西乙:A1000-almeria,Almeria,almeria,exact,31
 3752,Eibar,0513:西乙:A1000-eibar,Eibar,eibar,exact,29
 98,Las Palmas,0525:西乙:A1000-laspalmas,Las Palmas,las palmas,exact,39
+84,Mallorca,,,mallorca,unmatched_exact_only,35
 17534,Leganés,0516:西乙:A1000-leganes,Leganes,leganes,exact,33
 9812,Girona,0027:西甲:298,Girona FC,girona,exact,35
 3747,Granada,0534:西乙:A1000-granada,Granada,granada,exact,37
+3788,Sporting Gijón,,,sporting gijon,unmatched_exact_only,30
 245,Tenerife,0524:西乙:A1000-tenerife,Tenerife,tenerife,exact,28
+95,Real Valladolid,,,real valladolid,unmatched_exact_only,35
 92,Real Oviedo,0040:西甲:1048,Real Oviedo,real oviedo,exact,33
+1068,Atlético Madrid,,,atletico madrid,unmatched_exact_only,29
 83,Barcelona,0025:西甲:81,FC Barcelona,barcelona,exact,31
+85,Celta Vigo,,,celta vigo,unmatched_exact_only,30
+3751,Elche,,,elche,unmatched_exact_only,29
 93,Athletic Club,0021:西甲:77,Athletic Club,athletic club,exact,32
+96,Alavés,,,alaves,unmatched_exact_only,28
+88,Espanyol,,,espanyol,unmatched_exact_only,29
 2922,Getafe,0026:西甲:82,Getafe CF,getafe,exact,33
 1538,Levante,0531:西乙:A1000-levante,Levante,levante,exact,28
 99,Málaga,0527:西乙:A1000-malaga,Malaga,malaga,exact,32
+87,Racing Santander,,,racing santander,unmatched_exact_only,29
+90,Deportivo,,,deportivo,unmatched_exact_only,31
+97,Osasuna,,,osasuna,unmatched_exact_only,28
+244,Real Betis,,,real betis,unmatched_exact_only,28
+101,Rayo Vallecano,,,rayo vallecano,unmatched_exact_only,33
 86,Real Madrid,0033:西甲:86,Real Madrid CF,real madrid,exact,35
+89,Real Sociedad,,,real sociedad,unmatched_exact_only,31
 243,Sevilla,0035:西甲:559,Sevilla FC,sevilla,exact,32
 94,Valencia,0036:西甲:95,Valencia CF,valencia,exact,34
 102,Villarreal,0037:西甲:94,Villarreal CF,villarreal,exact,28
+226,Atlante,,,atlante,unmatched_exact_only,33
 17851,FC Juárez,0464:墨西超:juarez,Juarez,juarez,exact,35
 216,Atlas,0457:墨西超:atlas,Atlas,atlas,exact,33
+227,América,,,america,unmatched_exact_only,35
+228,León,,,leon,unmatched_exact_only,32
 218,Cruz Azul,0452:墨西超:cruz-azul,Cruz Azul,cruz azul,exact,40
+15720,Atlético de San Luis,,,atletico de san luis,unmatched_exact_only,29
 229,Necaxa,0461:墨西超:necaxa,Necaxa,necaxa,exact,29
 234,Pachuca,0454:墨西超:pachuca,Pachuca,pachuca,exact,33
 220,Monterrey,0451:墨西超:monterrey,Monterrey,monterrey,exact,32
 222,Querétaro,0465:墨西超:queretaro,Queretaro,queretaro,exact,30
 231,Puebla,0460:墨西超:puebla,Puebla,puebla,exact,29
+233,Pumas UNAM,,,pumas unam,unmatched_exact_only,33
 225,Santos,0203:巴甲:santos,Santos,santos,exact,33
 223,Toluca,0453:墨西超:toluca,Toluca,toluca,exact,34
+219,Guadalajara,,,guadalajara,unmatched_exact_only,29
 232,Tigres UANL,0450:墨西超:tigres-uanl,Tigres UANL,tigres uanl,exact,36
+10125,Tijuana,,,tijuana,unmatched_exact_only,27
+7869,Boulogne,,,boulogne,unmatched_exact_only,29
+3171,Clermont Foot,,,clermont foot,unmatched_exact_only,32
+3170,Dijon FCO,,,dijon fco,unmatched_exact_only,31
+3267,AS Nancy Lorraine,,,as nancy lorraine,unmatched_exact_only,32
 171,Guingamp,0551:法乙:A1000-guingamp,Guingamp,guingamp,exact,30
 6994,Grenoble,0548:法乙:A1000-grenoble,Grenoble,grenoble,exact,31
 18066,Annecy,0559:法乙:A1000-annecy,Annecy,annecy,exact,27
 7732,Dunkerque,0546:法乙:A1000-dunkerque,Dunkerque,dunkerque,exact,29
+177,Metz,,,metz,unmatched_exact_only,32
 165,Nantes,0090:法甲:543,FC Nantes,nantes,exact,32
+178,Saint-Étienne,,,saint-etienne,unmatched_exact_only,28
+11884,Red Star FC 93,,,red star 93,unmatched_exact_only,27
 10678,Pau,0552:法乙:A1000-paufc,Pau FC,pau,exact,29
 272,Sochaux,0557:法乙:A1000-sochaux,Sochaux,sochaux,exact,29
+274,Montpellier,,,montpellier,unmatched_exact_only,31
+7719,Rodez Aveyron,,,rodez aveyron,unmatched_exact_only,25
+3266,Stade Laval,,,stade laval,unmatched_exact_only,32
 3243,Stade de Reims,0096:法甲:stade-de-reims,Stade de Reims,stade de reims,exact,34
+1963,CSKA Moscow,,,cska moscow,unmatched_exact_only,31
+22300,Dynamo Makhachkala,,,dynamo makhachkala,unmatched_exact_only,30
+18285,Gazovik Orenburg,,,gazovik orenburg,unmatched_exact_only,34
+2991,Akhmat Grozny,,,akhmat grozny,unmatched_exact_only,26
+21949,FC Baltika Kaliningrad,,,baltika kaliningrad,unmatched_exact_only,31
+21539,Fakel Voronezh,,,fakel voronezh,unmatched_exact_only,26
+22271,Akron Tolyatti,,,akron tolyatti,unmatched_exact_only,35
+11336,Krasnodar,,,krasnodar,unmatched_exact_only,32
+596,Dinamo Moscow,,,dinamo moscow,unmatched_exact_only,28
+3852,Rostov,,,rostov,unmatched_exact_only,31
+442,Lokomotiv Moscow,,,lokomotiv moscow,unmatched_exact_only,30
+3851,Rubin Kazan,,,rubin kazan,unmatched_exact_only,29
+21927,Rodina Moscow,,,rodina moscow,unmatched_exact_only,32
+3850,Krylia Sovetov,,,krylia sovetov,unmatched_exact_only,31
+1941,Spartak Moscow,,,spartak moscow,unmatched_exact_only,29
+2533,Zenit St Petersburg,,,zenit st petersburg,unmatched_exact_only,28
 263,Aberdeen,0484:蘇超:planb-aberdeen,Aberdeen,aberdeen,exact,29
+260,Kilmarnock,,,kilmarnock,unmatched_exact_only,30
 254,Falkirk,0569:蘇冠:A1000-falkirk,Falkirk,falkirk,exact,32
+264,Dundee United,,,dundee united,unmatched_exact_only,25
+261,Dundee,,,dundee,unmatched_exact_only,29
 256,Celtic,0480:蘇超:planb-celtic,Celtic,celtic,exact,33
+262,Heart of Midlothian,,,heart of midlothian,unmatched_exact_only,35
 266,Motherwell,0485:蘇超:planb-motherwell,Motherwell,motherwell,exact,34
 258,Hibernian,0483:蘇超:planb-hibernian,Hibernian,hibernian,exact,28
 257,Rangers,0481:蘇超:planb-rangers,Rangers,rangers,exact,29
 250,St Mirren,0486:蘇超:planb-stmirren,St Mirren,st mirren,exact,30
 267,St Johnstone,0488:蘇超:planb-stjohnstone,St Johnstone,st johnstone,exact,27
+105,Atalanta,,,atalanta,unmatched_exact_only,36
+2925,Cagliari,,,cagliari,unmatched_exact_only,31
 4057,Frosinone,0489:意乙:A1000-frosinone,Frosinone,frosinone,exact,29
 104,AS Roma,0043:意甲:100,AS Roma,as roma,exact,28
+107,Bologna,,,bologna,unmatched_exact_only,29
+109,Fiorentina,,,fiorentina,unmatched_exact_only,28
 103,AC Milan,0041:意甲:98,AC Milan,ac milan,exact,28
+3263,Genoa,,,genoa,unmatched_exact_only,34
+110,Internazionale,,,internazionale,unmatched_exact_only,31
 2572,Como,0500:意乙:A1000-como,Como,como,exact,28
 111,Juventus,0051:意甲:109,Juventus FC,juventus,exact,38
+113,Lecce,,,lecce,unmatched_exact_only,34
+114,Napoli,,,napoli,unmatched_exact_only,28
+4007,Monza,,,monza,unmatched_exact_only,32
+112,Lazio,,,lazio,unmatched_exact_only,32
+3997,Sassuolo,,,sassuolo,unmatched_exact_only,35
+118,Udinese,,,udinese,unmatched_exact_only,28
 239,Torino,0055:意甲:586,Torino FC,torino,exact,33
 17530,Venezia,0507:意乙:A1000-venezia,Venezia,venezia,exact,36
 115,Parma,0490:意乙:A1000-parma,Parma,parma,exact,32
+21403,Albion FC,,,albion,unmatched_exact_only,36
+9902,Cerro Largo,,,cerro largo,unmatched_exact_only,31
+10000,Deportivo Maldonado,,,deportivo maldonado,unmatched_exact_only,35
+131688,Central Español Fútbol Club,,,central espanol futbol club,unmatched_exact_only,37
+4817,Danubio,,,danubio,unmatched_exact_only,35
+9999,Boston River,,,boston river,unmatched_exact_only,31
+5490,Cerro,,,cerro,unmatched_exact_only,30
+1007,Defensor Sporting,,,defensor sporting,unmatched_exact_only,33
+8416,Juventud,,,juventud,unmatched_exact_only,34
 5492,Liverpool,0010:英超:64,Liverpool FC,liverpool,exact,34
+2684,Nacional,,,nacional,unmatched_exact_only,31
+5501,Montevideo Wanderers,,,montevideo wanderers,unmatched_exact_only,31
+19002,Montevideo City Torque,,,montevideo city torque,unmatched_exact_only,38
+6866,Progreso,,,progreso,unmatched_exact_only,33
+9903,Racing (Montevideo),,,racing (montevideo),unmatched_exact_only,31
+2683,Peñarol,,,penarol,unmatched_exact_only,36

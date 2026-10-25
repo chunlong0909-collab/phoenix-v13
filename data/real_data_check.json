@@ -31,7 +31,7 @@
   "note": "Master only includes exact-safe mappings. Unmapped successful direct rosters remain in espn_direct_rosters.json.",
   "exact_mapping_merge": {
     "mapping_file": "data/team_name_mapping_355_to_574.csv",
-    "mapped_rosters": 147,
+    "mapped_rosters": 355,
     "mapped_catalog_teams": 146,
     "unmatched_successful_rosters": 208,
     "new_players_added": 0,
