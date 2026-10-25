@@ -1,0 +1,1356 @@
+{
+  "generated_at": "2026-10-25T18:38:58.076525+00:00",
+  "input_missing_coaches": 122,
+  "soccerway_success": 0,
+  "wikidata_success": 0,
+  "new_coaches": 0,
+  "final_target_teams": 436,
+  "final_with_coach": 314,
+  "final_without_coach": 122,
+  "final_coverage": 0.7202,
+  "policy": "Only explicit Soccerway Coach/Manager info block or Wikidata P286 accepted; Bing snippets are discovery only.",
+  "results": {
+    "0035:西甲:559": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0043:意甲:100": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0046:意甲:104": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0048:意甲:108": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0057:意甲:115": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0060:意甲:471": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0073:德甲:10": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0084:法甲:516": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0091:法甲:511": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0096:法甲:stade-de-reims": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0100:J1聯賽:avispa-fukuoka": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0101:J1聯賽:cerezo-osaka": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0102:J1聯賽:consadole-sapporo": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0104:J1聯賽:gamba-osaka": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0105:J1聯賽:jubilo-iwata": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0106:J1聯賽:kashima-antlers": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0107:J1聯賽:kashiwa-reysol": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0108:J1聯賽:kawasaki-frontale": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0111:J1聯賽:nagoya-grampus": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0118:J1聯賽:yokohama-f-marinos": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0121:葡超:sporting-cp": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0122:葡超:braga": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0124:葡超:moreirense": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0125:葡超:arouca": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0126:葡超:famalicao": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0150:荷甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0154:荷甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0189:比甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0204:巴甲:bahia": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0205:巴甲:vasco": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0207:奧甲:aut-01": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0210:奧甲:aut-04": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0211:奧甲:aut-05": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0215:奧甲:aut-09": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0218:奧甲:aut-12": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0220:瑞士超:swz-02": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0222:瑞士超:swz-04": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0228:瑞士超:swz-10": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0233:挪超:nor-03": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0235:挪超:nor-05": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0237:挪超:nor-07": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0240:挪超:nor-10": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0242:挪超:nor-12": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0249:瑞典超:swe-03": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0250:瑞典超:swe-04": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0251:瑞典超:swe-05": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0253:瑞典超:swe-07": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0254:瑞典超:swe-08": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0256:瑞典超:swe-10": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0257:瑞典超:swe-11": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0258:瑞典超:swe-12": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0259:瑞典超:swe-13": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0262:瑞典超:swe-16": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0266:丹超:dnk-04": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0269:丹超:dnk-07": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0270:丹超:dnk-08": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0272:丹超:dnk-10": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0278:希超:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0280:希超:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0283:希超:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0284:希超:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0286:希超:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0287:希超:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0288:希超:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0291:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0292:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0294:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0296:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0297:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0298:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0299:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0300:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0301:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0302:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0305:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0306:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0307:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0309:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0310:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0311:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0312:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0313:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0314:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0315:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0316:英冠:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0319:英甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0324:英甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0326:英甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "not_found",
+        "reason": "no matching football club entity"
+      }
+    },
+    "0327:英甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0336:英甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0341:英甲:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0351:英甲:A1000-crawleytown": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0356:英甲:A1000-leytonorient": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0362:英甲:A1000-afcwimbledon": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0373:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0375:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0377:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0378:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0380:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0381:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0382:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0384:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0390:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0392:德乙:None": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0395:阿甲:boca-juniors": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0396:阿甲:river-plate": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0398:阿甲:velez-sarsfield": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0399:阿甲:rosario-central": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0400:阿甲:platense": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0402:阿甲:independiente": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0403:阿甲:defensa-y-justicia": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0404:阿甲:talleres-cordoba": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0405:阿甲:huracan": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0407:阿甲:banfield": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0408:阿甲:union-de-santa-fe": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0409:阿甲:sarmiento-junin": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0463:墨西超:mazatlan-fc": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0516:西乙:A1000-leganes": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0531:西乙:A1000-levante": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0552:法乙:A1000-paufc": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0568:蘇冠:A1000-coverangers": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    },
+    "0572:蘇冠:A1000-keltyhearts": {
+      "status": "not_found",
+      "soccerway": {
+        "status": "not_found",
+        "attempts": []
+      },
+      "wikidata": {
+        "status": "error",
+        "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      }
+    }
+  }
+}
