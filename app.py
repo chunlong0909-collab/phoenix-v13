@@ -16,9 +16,9 @@ import pandas as pd
 import requests
 import streamlit as st
 try:
-    from predict_match import apply_coach_factors, apply_weather_factor, load_squads
+    from predict_match import apply_coach_factors, apply_weather_factor, calculate_value_and_yinpan, load_squads
 except Exception:
-    apply_coach_factors = apply_weather_factor = None
+    apply_coach_factors = apply_weather_factor = calculate_value_and_yinpan = None
     def load_squads(path):
         return {}
 try:
@@ -2878,6 +2878,30 @@ if run:
         st.markdown("**角球預期（V1.4最穩區域）**")
         render_market_table("角球大小", fallback_rows, False, "corners_fallback")
 
+    # 純手動水位分析：不連接、不爬取任何莊家；沒有輸入的盤口不會虛構賠率。
+    if calculate_value_and_yinpan is not None:
+        yinpan_corner_total = sum(corner_lams) if corner_lams else float((corner_fallback or {}).get("total", 9.0))
+        odds_rows = []
+        for label, prob, odds in [
+            ("主勝", hp, home_odds), ("和局", dp, draw_odds), ("客勝", ap, away_odds),
+            (f"大 {line}", goal_lines[line], goal_over_odds),
+            (f"細 {line}", 1 - goal_lines[line], goal_under_odds),
+            (f"角球大 {corner_line}", 1.0 if yinpan_corner_total > corner_line else 0.6, corner_over_odds),
+            (f"角球細 {corner_line}", 0.0 if yinpan_corner_total > corner_line else 0.4, corner_under_odds),
+            (f"主隊讓球 {handicap_line:+.2f}", ah_home, handicap_odds),
+        ]:
+            analysis = calculate_value_and_yinpan(prob, odds, label)
+            if analysis:
+                odds_rows.append({"市場": label, "模型機率": analysis["model_prob"],
+                                  "莊家隱含機率": analysis["implied"], "VALUE": analysis["value"],
+                                  "機率差距": analysis["diff"], "陰盤／VALUE狀態": analysis["status"]})
+        st.markdown("### 手動賠率 VALUE／陰盤檢測")
+        st.caption("只分析你手動輸入的十進制賠率；差距 >25% 或 VALUE >25% 會標示疑似陰盤。請自行核對正選及傷病。")
+        if odds_rows:
+            odds_frame = pd.DataFrame(odds_rows)
+            st.dataframe(odds_frame.style.format({"模型機率": "{:.1%}", "莊家隱含機率": "{:.1%}", "VALUE": "{:+.1%}", "機率差距": "{:.1%}"}), use_container_width=True, hide_index=True)
+        else:
+            st.info("尚未輸入有效手動賠率（十進制賠率必須大於1），暫不計算VALUE或陰盤。")
     st.markdown("**綜合推薦**")
     best_market = max([(hp, "主勝"), (dp, "和局"), (ap, "客勝"), (over, f"大 {line}"), (under, f"細 {line}"), (ah_home, f"主隊讓球 {handicap_line:+.2f}")])
     best_signal, best_reason = signal(best_market[0], None, "")

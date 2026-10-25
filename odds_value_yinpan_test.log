@@ -1,0 +1,10 @@
+VALUE_10pct {"market": "主勝", "model_prob": 0.5, "implied": 0.45454545454545453, "value": 0.10000000000000009, "diff": 0.04545454545454547, "status": "✅ VALUE值得買"}
+NO_VALUE {"market": "和局", "model_prob": 0.4, "implied": 0.5, "value": -0.19999999999999996, "diff": 0.09999999999999998, "status": "❌ NO VALUE唔值"}
+YINPAN_DIFF_30pct {"market": "客勝", "model_prob": 0.8, "implied": 0.5, "value": 0.6000000000000001, "diff": 0.30000000000000004, "status": "⚠️ 疑似陰盤/陷阱 - 差距過大，查正選/傷病"}
+YINPAN_VALUE_30pct {"market": "大2.5", "model_prob": 0.7, "implied": 0.5555555555555556, "value": 0.26, "diff": 0.14444444444444438, "status": "⚠️ 疑似陰盤/陷阱 - 差距過大，查正選/傷病"}
+PREDICT_MATCH_ODDS_MARKETS= ['主勝', '和局', '客勝', '大2.5', '細2.5', '角球大9.5', '角球細9.5']
+CORNER_LINE=9.5 OVER_PROBABILITY=1.0 SIMPLE_RULE=PASS
+HANDICAP_UI=PASS
+NO_BOOKMAKER_NETWORK_CALL=PASS
+APP_UI_MARKETS=主客和／入球大小／角球大小／讓球
+PYCOMPILE=PASS

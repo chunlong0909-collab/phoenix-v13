@@ -59,8 +59,44 @@ def apply_weather_factor(total_goals,over25_probability,team=None,match_date=Non
  out={'total_goals':round(float(total_goals)*w['total_factor'],6),'over25_probability':round(float(over25_probability)*w['over25_factor'],6),'weather_factor':w}
  if prediction_log is not None:prediction_log.append({'timestamp':datetime.now(timezone.utc).isoformat(),'event':'weather_factor','weather_factor':w,'total_goals_before':float(total_goals),'over25_before':float(over25_probability),'total_goals_after':out['total_goals'],'over25_after':out['over25_probability']})
  return out
-def predict_match(total_goals,over25_probability,lat=None,lon=None,match_date=None,prediction_log=None):
- """Apply weather to an existing model output for the requested match date."""
- return apply_weather_factor(total_goals,over25_probability,{'lat':lat,'lon':lon},match_date,prediction_log)
+def calculate_value_and_yinpan(model_prob,bookmaker_odds,market_name=""):
+ """計算手動十進制賠率的隱含機率、EV及陰盤差距；不連接任何莊家。"""
+ try: prob=float(model_prob);odds=float(bookmaker_odds)
+ except (TypeError,ValueError): return None
+ if not 0<=prob<=1 or odds<=1:return None
+ implied=1.0/odds;value=(prob*odds)-1.0;diff=abs(prob-implied)
+ if diff>.25 or value>.25:status="⚠️ 疑似陰盤/陷阱 - 差距過大，查正選/傷病"
+ elif value>.05:status="✅ VALUE值得買"
+ elif value<-.05:status="❌ NO VALUE唔值"
+ else:status="➖ FAIR合理"
+ return {'market':market_name,'model_prob':prob,'implied':implied,'value':value,'diff':diff,'status':status}
+
+def _manual_odds_analysis(over25_probability,home_odds=None,draw_odds=None,away_odds=None,
+                          over_odds=None,under_odds=None,corner_over_odds=None,
+                          corner_under_odds=None,corner_line=9.5,over_line=2.5,
+                          corner_total=None,home_probability=None,draw_probability=None,
+                          away_probability=None):
+ rows={}
+ entries=(("主勝",home_probability,home_odds),("和局",draw_probability,draw_odds),
+          ("客勝",away_probability,away_odds),(f"大{over_line}",over25_probability,over_odds),
+          (f"細{over_line}",1-float(over25_probability),under_odds))
+ for name,prob,odds in entries:
+  if prob is not None and odds not in (None,0):rows[name]=calculate_value_and_yinpan(prob,odds,name)
+ if corner_total is not None:
+  cp=1.0 if float(corner_total)>float(corner_line) else .6
+  for name,prob,odds in ((f"角球大{corner_line}",cp,corner_over_odds),(f"角球細{corner_line}",1-cp,corner_under_odds)):
+   if odds not in (None,0):rows[name]=calculate_value_and_yinpan(prob,odds,name)
+ return rows
+
+def predict_match(total_goals,over25_probability,lat=None,lon=None,match_date=None,prediction_log=None,
+                  home_odds=None,draw_odds=None,away_odds=None,over_odds=None,under_odds=None,
+                  corner_over_odds=None,corner_under_odds=None,corner_line=9.5,over_line=2.5,
+                  corner_total=None,home_probability=None,draw_probability=None,away_probability=None):
+ """Apply weather and optionally analyse manually entered odds."""
+ out=apply_weather_factor(total_goals,over25_probability,{'lat':lat,'lon':lon},match_date,prediction_log)
+ out['odds_analysis']=_manual_odds_analysis(out['over25_probability'],home_odds,draw_odds,away_odds,over_odds,under_odds,corner_over_odds,corner_under_odds,corner_line,over_line,corner_total,home_probability,draw_probability,away_probability)
+ if prediction_log is not None and out['odds_analysis']:
+  prediction_log.append({'timestamp':datetime.now(timezone.utc).isoformat(),'event':'manual_odds_value_yinpan','markets':out['odds_analysis']})
+ return out
 def load_squads(path):return json.loads(Path(path).read_text(encoding='utf-8'))
 if __name__=='__main__':print(f"Loaded {len(load_squads(Path(__file__).parent/'data'/'final_574_squads_with_sources.json'))} team containers")
