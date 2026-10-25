@@ -1,0 +1,103 @@
+{
+  "method": "Dixon-Coles-compatible Poisson evaluation on real FT; logical filters are views only; no HT or FT imputation",
+  "catalog_logical_teams": 2448,
+  "test_period": "2023-08-01..2024-07-31",
+  "groups": {
+    "BASE": {
+      "sample_size": 13495,
+      "weight_sum": 13350.2,
+      "accuracy": 0.42134123749536867,
+      "weighted_accuracy": 0.42078770355500345,
+      "over25_accuracy": 0.5329381252315673,
+      "weighted_over25_accuracy": 0.5326062530898417,
+      "precision": {
+        "home": 0.8387205957014723,
+        "draw": 0.010866456963111238,
+        "away": 0.16923453167033506
+      },
+      "class_samples": {
+        "away": 4089,
+        "home": 5909,
+        "draw": 3497
+      },
+      "status": "可評估"
+    },
+    "HOME": {
+      "sample_size": 6458,
+      "weight_sum": 5108.48,
+      "accuracy": 0.4557138432951378,
+      "weighted_accuracy": 0.4553056877974933,
+      "over25_accuracy": 0.5551254258284298,
+      "weighted_over25_accuracy": 0.5541530944625016,
+      "precision": {
+        "home": 0.8159806295399515,
+        "draw": 0.0,
+        "away": 0.3060796645702306
+      },
+      "class_samples": {
+        "away": 1908,
+        "draw": 1659,
+        "home": 2891
+      },
+      "status": "可評估"
+    },
+    "EARLY": {
+      "sample_size": 0,
+      "weight_sum": 0,
+      "accuracy": null,
+      "weighted_accuracy": null,
+      "over25_accuracy": null,
+      "weighted_over25_accuracy": null,
+      "precision": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "class_samples": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+      },
+      "status": "樣本不足"
+    },
+    "AWAY": {
+      "sample_size": 6437,
+      "weight_sum": 5091.68,
+      "accuracy": 0.4508311325151468,
+      "weighted_accuracy": 0.4506174779247198,
+      "over25_accuracy": 0.5300605872300761,
+      "weighted_over25_accuracy": 0.530811048612597,
+      "precision": {
+        "home": 0.794246176256373,
+        "draw": 0.0,
+        "away": 0.3581718827620467
+      },
+      "class_samples": {
+        "home": 2746,
+        "draw": 1678,
+        "away": 2013
+      },
+      "status": "可評估"
+    },
+    "LATE": {
+      "sample_size": 0,
+      "weight_sum": 0,
+      "accuracy": null,
+      "weighted_accuracy": null,
+      "over25_accuracy": null,
+      "weighted_over25_accuracy": null,
+      "precision": {
+        "home": null,
+        "draw": null,
+        "away": null
+      },
+      "class_samples": {
+        "home": 0,
+        "draw": 0,
+        "away": 0
+      },
+      "status": "樣本不足"
+    }
+  },
+  "note": "BASE/HOME/AWAY/EARLY/LATE are reported separately. HOME/AWAY/EARLY/LATE may be sample-insufficient when the honest >=30-row gate leaves few test matches."
+}

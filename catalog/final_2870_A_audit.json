@@ -1,0 +1,3403 @@
+{
+  "physical_teams": 574,
+  "physical_retention_rate": 1.0,
+  "physical_catalog_rows": 63509,
+  "physical_unique_ft_rows": 39660,
+  "physical_ft_invalid_rows": 0,
+  "physical_ht_nonnull_rows": 5065,
+  "logical_target": 2870,
+  "logical_active": 2448,
+  "logical_dropped": 422,
+  "logical_by_type": {
+    "BASE": 573,
+    "HOME": 517,
+    "EARLY": 475,
+    "AWAY": 479,
+    "LATE": 404
+  },
+  "logical_catalog_rows": 178942,
+  "logical_ft_invalid_rows": 0,
+  "logical_ht_nonnull_rows": 9426,
+  "logical_unique_ft_rows": 39660,
+  "unique_ft_set_equal": true,
+  "split_rows_equal": true,
+  "split_policy": "All logical views reuse exact source match objects; no scores or HT values are generated. EARLY=2021-08-01..2023-07-31; LATE=2023-08-01..2025-07-31.",
+  "dropped_low_sample": [
+    {
+      "physical_id": "1044",
+      "name": "AFC Bournemouth",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 25,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "1044",
+      "name": "AFC Bournemouth",
+      "league": "英超",
+      "logical_type": "EARLY",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "1044",
+      "name": "AFC Bournemouth",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "57",
+      "name": "Arsenal FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "57",
+      "name": "Arsenal FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "58",
+      "name": "Aston Villa FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "402",
+      "name": "Brentford FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "397",
+      "name": "Brighton & Hove Albion FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "61",
+      "name": "Chelsea FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "354",
+      "name": "Crystal Palace FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "62",
+      "name": "Everton FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "63",
+      "name": "Fulham FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 26,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "63",
+      "name": "Fulham FC",
+      "league": "英超",
+      "logical_type": "EARLY",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "63",
+      "name": "Fulham FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "64",
+      "name": "Liverpool FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "64",
+      "name": "Liverpool FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "65",
+      "name": "Manchester City FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "65",
+      "name": "Manchester City FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "66",
+      "name": "Manchester United FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "67",
+      "name": "Newcastle United FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "67",
+      "name": "Newcastle United FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "351",
+      "name": "Nottingham Forest FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 26,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "351",
+      "name": "Nottingham Forest FC",
+      "league": "英超",
+      "logical_type": "EARLY",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "351",
+      "name": "Nottingham Forest FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "73",
+      "name": "Tottenham Hotspur FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "563",
+      "name": "West Ham United FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "76",
+      "name": "Wolverhampton Wanderers FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "328",
+      "name": "Burnley FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 28,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "328",
+      "name": "Burnley FC",
+      "league": "英超",
+      "logical_type": "EARLY",
+      "sample_count": 23,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "328",
+      "name": "Burnley FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "341",
+      "name": "Leeds United FC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 25,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "341",
+      "name": "Leeds United FC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "71",
+      "name": "Sunderland AFC",
+      "league": "英超",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "71",
+      "name": "Sunderland AFC",
+      "league": "英超",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "71",
+      "name": "Sunderland AFC",
+      "league": "英超",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "71",
+      "name": "Sunderland AFC",
+      "league": "英超",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "77",
+      "name": "Athletic Club",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "77",
+      "name": "Athletic Club",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "79",
+      "name": "CA Osasuna",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "78",
+      "name": "Club Atlético de Madrid",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "263",
+      "name": "Deportivo Alavés",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 25,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "263",
+      "name": "Deportivo Alavés",
+      "league": "西甲",
+      "logical_type": "EARLY",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "263",
+      "name": "Deportivo Alavés",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "81",
+      "name": "FC Barcelona",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 28,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "81",
+      "name": "FC Barcelona",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "82",
+      "name": "Getafe CF",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "82",
+      "name": "Getafe CF",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "298",
+      "name": "Girona FC",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "298",
+      "name": "Girona FC",
+      "league": "西甲",
+      "logical_type": "EARLY",
+      "sample_count": 22,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "298",
+      "name": "Girona FC",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "558",
+      "name": "RC Celta de Vigo",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "558",
+      "name": "RC Celta de Vigo",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "80",
+      "name": "RCD Espanyol de Barcelona",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "89",
+      "name": "RCD Mallorca",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "87",
+      "name": "Rayo Vallecano de Madrid",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "87",
+      "name": "Rayo Vallecano de Madrid",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "90",
+      "name": "Real Betis Balompié",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "90",
+      "name": "Real Betis Balompié",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "86",
+      "name": "Real Madrid CF",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 28,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "86",
+      "name": "Real Madrid CF",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "92",
+      "name": "Real Sociedad de Fútbol",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "92",
+      "name": "Real Sociedad de Fútbol",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "559",
+      "name": "Sevilla FC",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "559",
+      "name": "Sevilla FC",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "95",
+      "name": "Valencia CF",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "95",
+      "name": "Valencia CF",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "94",
+      "name": "Villarreal CF",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 28,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "94",
+      "name": "Villarreal CF",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "285",
+      "name": "Elche CF",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "285",
+      "name": "Elche CF",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "88",
+      "name": "Levante UD",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "88",
+      "name": "Levante UD",
+      "league": "西甲",
+      "logical_type": "EARLY",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "88",
+      "name": "Levante UD",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "1048",
+      "name": "Real Oviedo",
+      "league": "西甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "1048",
+      "name": "Real Oviedo",
+      "league": "西甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "1048",
+      "name": "Real Oviedo",
+      "league": "西甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "1048",
+      "name": "Real Oviedo",
+      "league": "西甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "98",
+      "name": "AC Milan",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "99",
+      "name": "ACF Fiorentina",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "100",
+      "name": "AS Roma",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "102",
+      "name": "Atalanta BC",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "103",
+      "name": "Bologna FC 1909",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "104",
+      "name": "Cagliari Calcio",
+      "league": "意甲",
+      "logical_type": "EARLY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "104",
+      "name": "Cagliari Calcio",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7397",
+      "name": "Como 1907",
+      "league": "意甲",
+      "logical_type": "HOME",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7397",
+      "name": "Como 1907",
+      "league": "意甲",
+      "logical_type": "AWAY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7397",
+      "name": "Como 1907",
+      "league": "意甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7397",
+      "name": "Como 1907",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "108",
+      "name": "FC Internazionale Milano",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "107",
+      "name": "Genoa CFC",
+      "league": "意甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "107",
+      "name": "Genoa CFC",
+      "league": "意甲",
+      "logical_type": "EARLY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "107",
+      "name": "Genoa CFC",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "450",
+      "name": "Hellas Verona FC",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "109",
+      "name": "Juventus FC",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "112",
+      "name": "Parma Calcio 1913",
+      "league": "意甲",
+      "logical_type": "HOME",
+      "sample_count": 23,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "112",
+      "name": "Parma Calcio 1913",
+      "league": "意甲",
+      "logical_type": "AWAY",
+      "sample_count": 25,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "112",
+      "name": "Parma Calcio 1913",
+      "league": "意甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "112",
+      "name": "Parma Calcio 1913",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "110",
+      "name": "SS Lazio",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "113",
+      "name": "SSC Napoli",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "586",
+      "name": "Torino FC",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "5890",
+      "name": "US Lecce",
+      "league": "意甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "5890",
+      "name": "US Lecce",
+      "league": "意甲",
+      "logical_type": "EARLY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "5890",
+      "name": "US Lecce",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "115",
+      "name": "Udinese Calcio",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 10,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "487",
+      "name": "AC Pisa 1909",
+      "league": "意甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "487",
+      "name": "AC Pisa 1909",
+      "league": "意甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "487",
+      "name": "AC Pisa 1909",
+      "league": "意甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "487",
+      "name": "AC Pisa 1909",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "457",
+      "name": "US Cremonese",
+      "league": "意甲",
+      "logical_type": "AWAY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "457",
+      "name": "US Cremonese",
+      "league": "意甲",
+      "logical_type": "EARLY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "457",
+      "name": "US Cremonese",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "471",
+      "name": "US Sassuolo Calcio",
+      "league": "意甲",
+      "logical_type": "AWAY",
+      "sample_count": 29,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "471",
+      "name": "US Sassuolo Calcio",
+      "league": "意甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "44",
+      "name": "1. FC Heidenheim 1846",
+      "league": "德甲",
+      "logical_type": "HOME",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "44",
+      "name": "1. FC Heidenheim 1846",
+      "league": "德甲",
+      "logical_type": "AWAY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "44",
+      "name": "1. FC Heidenheim 1846",
+      "league": "德甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "44",
+      "name": "1. FC Heidenheim 1846",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "15",
+      "name": "1. FSV Mainz 05",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "3",
+      "name": "Bayer 04 Leverkusen",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "4",
+      "name": "Borussia Dortmund",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "18",
+      "name": "Borussia Mönchengladbach",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "19",
+      "name": "Eintracht Frankfurt",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "16",
+      "name": "FC Augsburg",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "5",
+      "name": "FC Bayern München",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "721",
+      "name": "RB Leipzig",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "17",
+      "name": "SC Freiburg",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "12",
+      "name": "SV Werder Bremen",
+      "league": "德甲",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "12",
+      "name": "SV Werder Bremen",
+      "league": "德甲",
+      "logical_type": "EARLY",
+      "sample_count": 20,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "12",
+      "name": "SV Werder Bremen",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "2",
+      "name": "TSG 1899 Hoffenheim",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "10",
+      "name": "VfB Stuttgart",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "11",
+      "name": "VfL Wolfsburg",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "28",
+      "name": "1. FC Union Berlin",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "1",
+      "name": "1. FC Köln",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "20",
+      "name": "FC St. Pauli 1910",
+      "league": "德甲",
+      "logical_type": "HOME",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "20",
+      "name": "FC St. Pauli 1910",
+      "league": "德甲",
+      "logical_type": "AWAY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "20",
+      "name": "FC St. Pauli 1910",
+      "league": "德甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "20",
+      "name": "FC St. Pauli 1910",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7",
+      "name": "Hamburger SV",
+      "league": "德甲",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7",
+      "name": "Hamburger SV",
+      "league": "德甲",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7",
+      "name": "Hamburger SV",
+      "league": "德甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "7",
+      "name": "Hamburger SV",
+      "league": "德甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "548",
+      "name": "AS Monaco FC",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "533",
+      "name": "Le Havre AC",
+      "league": "法甲",
+      "logical_type": "HOME",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "533",
+      "name": "Le Havre AC",
+      "league": "法甲",
+      "logical_type": "AWAY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "533",
+      "name": "Le Havre AC",
+      "league": "法甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "533",
+      "name": "Le Havre AC",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "521",
+      "name": "Lille OSC",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "522",
+      "name": "OGC Nice",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "523",
+      "name": "Olympique Lyonnais",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "516",
+      "name": "Olympique de Marseille",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "524",
+      "name": "Paris Saint-Germain FC",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "576",
+      "name": "RC Strasbourg Alsace",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "546",
+      "name": "Racing Club de Lens",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "512",
+      "name": "Stade Brestois 29",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "529",
+      "name": "Stade Rennais FC 1901",
+      "league": "法甲",
+      "logical_type": "HOME",
+      "sample_count": 23,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "529",
+      "name": "Stade Rennais FC 1901",
+      "league": "法甲",
+      "logical_type": "AWAY",
+      "sample_count": 25,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "529",
+      "name": "Stade Rennais FC 1901",
+      "league": "法甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "529",
+      "name": "Stade Rennais FC 1901",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "543",
+      "name": "FC Nantes",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 15,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "511",
+      "name": "Toulouse FC",
+      "league": "法甲",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "511",
+      "name": "Toulouse FC",
+      "league": "法甲",
+      "logical_type": "EARLY",
+      "sample_count": 22,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "511",
+      "name": "Toulouse FC",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 15,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "519",
+      "name": "AJ Auxerre",
+      "league": "法甲",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "519",
+      "name": "AJ Auxerre",
+      "league": "法甲",
+      "logical_type": "EARLY",
+      "sample_count": 22,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "519",
+      "name": "AJ Auxerre",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "532",
+      "name": "Angers SCO",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "525",
+      "name": "FC Lorient",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "545",
+      "name": "FC Metz",
+      "league": "法甲",
+      "logical_type": "AWAY",
+      "sample_count": 28,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "545",
+      "name": "FC Metz",
+      "league": "法甲",
+      "logical_type": "EARLY",
+      "sample_count": 23,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "545",
+      "name": "FC Metz",
+      "league": "法甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "clermont-foot-63",
+      "name": "Clermont Foot 63",
+      "league": "法甲",
+      "logical_type": "AWAY",
+      "sample_count": 24,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "albirex-niigata",
+      "name": "Albirex Niigata",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "albirex-niigata",
+      "name": "Albirex Niigata",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "albirex-niigata",
+      "name": "Albirex Niigata",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "avispa-fukuoka",
+      "name": "Avispa Fukuoka",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "avispa-fukuoka",
+      "name": "Avispa Fukuoka",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "avispa-fukuoka",
+      "name": "Avispa Fukuoka",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "cerezo-osaka",
+      "name": "Cerezo Osaka",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "cerezo-osaka",
+      "name": "Cerezo Osaka",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "cerezo-osaka",
+      "name": "Cerezo Osaka",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "consadole-sapporo",
+      "name": "Consadole Sapporo",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "consadole-sapporo",
+      "name": "Consadole Sapporo",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "consadole-sapporo",
+      "name": "Consadole Sapporo",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fc-tokyo",
+      "name": "FC Tokyo",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fc-tokyo",
+      "name": "FC Tokyo",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fc-tokyo",
+      "name": "FC Tokyo",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "gamba-osaka",
+      "name": "Gamba Osaka",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "gamba-osaka",
+      "name": "Gamba Osaka",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "gamba-osaka",
+      "name": "Gamba Osaka",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "jubilo-iwata",
+      "name": "Jubilo Iwata",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "jubilo-iwata",
+      "name": "Jubilo Iwata",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "jubilo-iwata",
+      "name": "Jubilo Iwata",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kashima-antlers",
+      "name": "Kashima Antlers",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kashima-antlers",
+      "name": "Kashima Antlers",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kashima-antlers",
+      "name": "Kashima Antlers",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kashiwa-reysol",
+      "name": "Kashiwa Reysol",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kashiwa-reysol",
+      "name": "Kashiwa Reysol",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kashiwa-reysol",
+      "name": "Kashiwa Reysol",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kawasaki-frontale",
+      "name": "Kawasaki Frontale",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kawasaki-frontale",
+      "name": "Kawasaki Frontale",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kawasaki-frontale",
+      "name": "Kawasaki Frontale",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kyoto-sanga",
+      "name": "Kyoto Sanga",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kyoto-sanga",
+      "name": "Kyoto Sanga",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "kyoto-sanga",
+      "name": "Kyoto Sanga",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "machida-zelvia",
+      "name": "Machida Zelvia",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "machida-zelvia",
+      "name": "Machida Zelvia",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "machida-zelvia",
+      "name": "Machida Zelvia",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "nagoya-grampus",
+      "name": "Nagoya Grampus",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "nagoya-grampus",
+      "name": "Nagoya Grampus",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "nagoya-grampus",
+      "name": "Nagoya Grampus",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sagan-tosu",
+      "name": "Sagan Tosu",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sagan-tosu",
+      "name": "Sagan Tosu",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sagan-tosu",
+      "name": "Sagan Tosu",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sanfrecce-hiroshima",
+      "name": "Sanfrecce Hiroshima",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sanfrecce-hiroshima",
+      "name": "Sanfrecce Hiroshima",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sanfrecce-hiroshima",
+      "name": "Sanfrecce Hiroshima",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "shonan-bellmare",
+      "name": "Shonan Bellmare",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "shonan-bellmare",
+      "name": "Shonan Bellmare",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "shonan-bellmare",
+      "name": "Shonan Bellmare",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "tokyo-verdy",
+      "name": "Tokyo Verdy",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "tokyo-verdy",
+      "name": "Tokyo Verdy",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "tokyo-verdy",
+      "name": "Tokyo Verdy",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "urawa-reds",
+      "name": "Urawa Reds",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "urawa-reds",
+      "name": "Urawa Reds",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "urawa-reds",
+      "name": "Urawa Reds",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "vissel-kobe",
+      "name": "Vissel Kobe",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "vissel-kobe",
+      "name": "Vissel Kobe",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "vissel-kobe",
+      "name": "Vissel Kobe",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "yokohama-f-marinos",
+      "name": "Yokohama F Marinos",
+      "league": "J1聯賽",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "yokohama-f-marinos",
+      "name": "Yokohama F Marinos",
+      "league": "J1聯賽",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "yokohama-f-marinos",
+      "name": "Yokohama F Marinos",
+      "league": "J1聯賽",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "moreirense",
+      "name": "Moreirense",
+      "league": "葡超",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "moreirense",
+      "name": "Moreirense",
+      "league": "葡超",
+      "logical_type": "EARLY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "casa-pia",
+      "name": "Casa Pia",
+      "league": "葡超",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "casa-pia",
+      "name": "Casa Pia",
+      "league": "葡超",
+      "logical_type": "EARLY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "farense",
+      "name": "Farense",
+      "league": "葡超",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "farense",
+      "name": "Farense",
+      "league": "葡超",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "farense",
+      "name": "Farense",
+      "league": "葡超",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Cambuur",
+      "league": "荷甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "basaksehir",
+      "name": "Basaksehir",
+      "league": "土超",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "adana-demirspor",
+      "name": "Adana Demirspor",
+      "league": "土超",
+      "logical_type": "AWAY",
+      "sample_count": 27,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Giresunspor",
+      "league": "土超",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "union-sg",
+      "name": "Union SG",
+      "league": "比甲",
+      "logical_type": "AWAY",
+      "sample_count": 22,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "flamengo",
+      "name": "Flamengo",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "flamengo",
+      "name": "Flamengo",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "flamengo",
+      "name": "Flamengo",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "flamengo",
+      "name": "Flamengo",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "palmeiras",
+      "name": "Palmeiras",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "palmeiras",
+      "name": "Palmeiras",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "palmeiras",
+      "name": "Palmeiras",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "palmeiras",
+      "name": "Palmeiras",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "atletico-mineiro",
+      "name": "Atletico Mineiro",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "atletico-mineiro",
+      "name": "Atletico Mineiro",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "atletico-mineiro",
+      "name": "Atletico Mineiro",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "atletico-mineiro",
+      "name": "Atletico Mineiro",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "corinthians",
+      "name": "Corinthians",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "corinthians",
+      "name": "Corinthians",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "corinthians",
+      "name": "Corinthians",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 16,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "corinthians",
+      "name": "Corinthians",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 22,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fluminense",
+      "name": "Fluminense",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fluminense",
+      "name": "Fluminense",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fluminense",
+      "name": "Fluminense",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fluminense",
+      "name": "Fluminense",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "gremio",
+      "name": "Gremio",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "gremio",
+      "name": "Gremio",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "gremio",
+      "name": "Gremio",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 16,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "gremio",
+      "name": "Gremio",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 22,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "botafogo",
+      "name": "Botafogo",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "botafogo",
+      "name": "Botafogo",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "botafogo",
+      "name": "Botafogo",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "botafogo",
+      "name": "Botafogo",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "athletico-pr",
+      "name": "Athletico-PR",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "athletico-pr",
+      "name": "Athletico-PR",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "athletico-pr",
+      "name": "Athletico-PR",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "athletico-pr",
+      "name": "Athletico-PR",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "internacional",
+      "name": "Internacional",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "internacional",
+      "name": "Internacional",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "internacional",
+      "name": "Internacional",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "internacional",
+      "name": "Internacional",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fortaleza",
+      "name": "Fortaleza",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fortaleza",
+      "name": "Fortaleza",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fortaleza",
+      "name": "Fortaleza",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "fortaleza",
+      "name": "Fortaleza",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sao-paulo",
+      "name": "Sao Paulo",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sao-paulo",
+      "name": "Sao Paulo",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sao-paulo",
+      "name": "Sao Paulo",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "sao-paulo",
+      "name": "Sao Paulo",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "cruzeiro",
+      "name": "Cruzeiro",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "cruzeiro",
+      "name": "Cruzeiro",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "cruzeiro",
+      "name": "Cruzeiro",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "cruzeiro",
+      "name": "Cruzeiro",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bragantino",
+      "name": "Bragantino",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bragantino",
+      "name": "Bragantino",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bragantino",
+      "name": "Bragantino",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bragantino",
+      "name": "Bragantino",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "santos",
+      "name": "Santos",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "santos",
+      "name": "Santos",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "santos",
+      "name": "Santos",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "santos",
+      "name": "Santos",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bahia",
+      "name": "Bahia",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bahia",
+      "name": "Bahia",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bahia",
+      "name": "Bahia",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "bahia",
+      "name": "Bahia",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 21,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "vasco",
+      "name": "Vasco",
+      "league": "巴甲",
+      "logical_type": "HOME",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "vasco",
+      "name": "Vasco",
+      "league": "巴甲",
+      "logical_type": "AWAY",
+      "sample_count": 19,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "vasco",
+      "name": "Vasco",
+      "league": "巴甲",
+      "logical_type": "EARLY",
+      "sample_count": 16,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "vasco",
+      "name": "Vasco",
+      "league": "巴甲",
+      "logical_type": "LATE",
+      "sample_count": 22,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "aut-11",
+      "name": "BW Linz",
+      "league": "奧甲",
+      "logical_type": "EARLY",
+      "sample_count": 1,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swz-12",
+      "name": "Thun",
+      "league": "瑞士超",
+      "logical_type": "BASE",
+      "sample_count": 2,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swz-12",
+      "name": "Thun",
+      "league": "瑞士超",
+      "logical_type": "HOME",
+      "sample_count": 1,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swz-12",
+      "name": "Thun",
+      "league": "瑞士超",
+      "logical_type": "AWAY",
+      "sample_count": 1,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swz-12",
+      "name": "Thun",
+      "league": "瑞士超",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swz-12",
+      "name": "Thun",
+      "league": "瑞士超",
+      "logical_type": "LATE",
+      "sample_count": 2,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "nor-13",
+      "name": "Valerenga",
+      "league": "挪超",
+      "logical_type": "LATE",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "nor-15",
+      "name": "Aalesund",
+      "league": "挪超",
+      "logical_type": "LATE",
+      "sample_count": 13,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swe-13",
+      "name": "Varberg",
+      "league": "瑞典超",
+      "logical_type": "LATE",
+      "sample_count": 13,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swe-15",
+      "name": "Vasteras SK",
+      "league": "瑞典超",
+      "logical_type": "HOME",
+      "sample_count": 15,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swe-15",
+      "name": "Vasteras SK",
+      "league": "瑞典超",
+      "logical_type": "AWAY",
+      "sample_count": 15,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swe-15",
+      "name": "Vasteras SK",
+      "league": "瑞典超",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "swe-16",
+      "name": "Brommapojkarna",
+      "league": "瑞典超",
+      "logical_type": "EARLY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "dnk-05",
+      "name": "Horsens",
+      "league": "丹超",
+      "logical_type": "HOME",
+      "sample_count": 16,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "dnk-05",
+      "name": "Horsens",
+      "league": "丹超",
+      "logical_type": "AWAY",
+      "sample_count": 16,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "dnk-05",
+      "name": "Horsens",
+      "league": "丹超",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Panserraikos",
+      "league": "希超",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Blackpool",
+      "league": "英冠",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Reading",
+      "league": "英冠",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Sheffield Weds",
+      "league": "英冠",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Plymouth",
+      "league": "英冠",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Leeds",
+      "league": "英冠",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Bournemouth",
+      "league": "英冠",
+      "logical_type": "HOME",
+      "sample_count": 23,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Bournemouth",
+      "league": "英冠",
+      "logical_type": "AWAY",
+      "sample_count": 23,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Bournemouth",
+      "league": "英冠",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Ipswich",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Accrington",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Milton Keynes Dons",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Morecambe",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Plymouth",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Sheffield Weds",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Blackpool",
+      "league": "英甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-rochdale",
+      "name": "Rochdale",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-hartlepool",
+      "name": "Hartlepool",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-northampton",
+      "name": "Northampton",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-leytonorient",
+      "name": "Leyton Orient",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-stevenage",
+      "name": "Stevenage",
+      "league": "英甲",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-nottscounty",
+      "name": "Notts County",
+      "league": "英甲",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Heidenheim",
+      "league": "德乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Sandhausen",
+      "league": "德乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Hertha",
+      "league": "德乙",
+      "logical_type": "EARLY",
+      "sample_count": 1,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Elversberg",
+      "league": "德乙",
+      "logical_type": "EARLY",
+      "sample_count": 1,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Dresden",
+      "league": "德乙",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Dresden",
+      "league": "德乙",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Dresden",
+      "league": "德乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Werder Bremen",
+      "league": "德乙",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Werder Bremen",
+      "league": "德乙",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Werder Bremen",
+      "league": "德乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Ingolstadt",
+      "league": "德乙",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Ingolstadt",
+      "league": "德乙",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Ingolstadt",
+      "league": "德乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Erzgebirge Aue",
+      "league": "德乙",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Erzgebirge Aue",
+      "league": "德乙",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Erzgebirge Aue",
+      "league": "德乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Bielefeld",
+      "league": "德乙",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Bielefeld",
+      "league": "德乙",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Bielefeld",
+      "league": "德乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Osnabruck",
+      "league": "德乙",
+      "logical_type": "HOME",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Osnabruck",
+      "league": "德乙",
+      "logical_type": "AWAY",
+      "sample_count": 17,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": null,
+      "name": "Osnabruck",
+      "league": "德乙",
+      "logical_type": "EARLY",
+      "sample_count": 1,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "650b-colonsantafe",
+      "name": "Colon Santa FE",
+      "league": "阿甲",
+      "logical_type": "LATE",
+      "sample_count": 15,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "650b-arsenalsarandi",
+      "name": "Arsenal Sarandi",
+      "league": "阿甲",
+      "logical_type": "LATE",
+      "sample_count": 14,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "planb-santoslaguna",
+      "name": "Santos Laguna",
+      "league": "墨西超",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "planb-santoslaguna",
+      "name": "Santos Laguna",
+      "league": "墨西超",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-melbourne-city-fc",
+      "name": "Melbourne City FC",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-melbourne-city-fc",
+      "name": "Melbourne City FC",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-wellington-phoenix",
+      "name": "Wellington Phoenix",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-wellington-phoenix",
+      "name": "Wellington Phoenix",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-adelaide-united",
+      "name": "Adelaide United",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-adelaide-united",
+      "name": "Adelaide United",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-western-united",
+      "name": "Western United",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-western-united",
+      "name": "Western United",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-perth-glory",
+      "name": "Perth Glory",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-perth-glory",
+      "name": "Perth Glory",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-melbourne-victory",
+      "name": "Melbourne Victory",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-melbourne-victory",
+      "name": "Melbourne Victory",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-sydney-fc",
+      "name": "Sydney FC",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-sydney-fc",
+      "name": "Sydney FC",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-western-sydney-wanderers",
+      "name": "Western Sydney Wanderers",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-western-sydney-wanderers",
+      "name": "Western Sydney Wanderers",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-newcastle-united-jets",
+      "name": "Newcastle United Jets",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-newcastle-united-jets",
+      "name": "Newcastle United Jets",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-central-coast-mariners",
+      "name": "Central Coast Mariners",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-central-coast-mariners",
+      "name": "Central Coast Mariners",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-macarthur-fc",
+      "name": "Macarthur FC",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-macarthur-fc",
+      "name": "Macarthur FC",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-brisbane-roar",
+      "name": "Brisbane Roar",
+      "league": "A-League",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "a-league-brisbane-roar",
+      "name": "Brisbane Roar",
+      "league": "A-League",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-perugia",
+      "name": "Perugia",
+      "league": "意乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-reggina",
+      "name": "Reggina",
+      "league": "意乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-benevento",
+      "name": "Benevento",
+      "league": "意乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-spal",
+      "name": "Spal",
+      "league": "意乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-catanzaro",
+      "name": "Catanzaro",
+      "league": "意乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-sampdoria",
+      "name": "Sampdoria",
+      "league": "意乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-spezia",
+      "name": "Spezia",
+      "league": "意乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-reggiana",
+      "name": "Reggiana",
+      "league": "意乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-ibiza",
+      "name": "Ibiza",
+      "league": "西乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-ponferradina",
+      "name": "Ponferradina",
+      "league": "西乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-lugo",
+      "name": "Lugo",
+      "league": "西乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-laspalmas",
+      "name": "Las Palmas",
+      "league": "西乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-elche",
+      "name": "Elche",
+      "league": "西乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-ferrol",
+      "name": "Ferrol",
+      "league": "西乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-eldense",
+      "name": "Eldense",
+      "league": "西乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-nimes",
+      "name": "Nimes",
+      "league": "法乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-lehavre",
+      "name": "Le Havre",
+      "league": "法乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-niort",
+      "name": "Niort",
+      "league": "法乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-dijon",
+      "name": "Dijon",
+      "league": "法乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-sochaux",
+      "name": "Sochaux",
+      "league": "法乙",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-troyes",
+      "name": "Troyes",
+      "league": "法乙",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-airdrieutd",
+      "name": "Airdrie Utd",
+      "league": "蘇冠",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-clyde",
+      "name": "Clyde",
+      "league": "蘇冠",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-peterhead",
+      "name": "Peterhead",
+      "league": "蘇冠",
+      "logical_type": "LATE",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    },
+    {
+      "physical_id": "A1000-annanathletic",
+      "name": "Annan Athletic",
+      "league": "蘇冠",
+      "logical_type": "EARLY",
+      "sample_count": 0,
+      "reason": "dropped_low_sample"
+    }
+  ]
+}
