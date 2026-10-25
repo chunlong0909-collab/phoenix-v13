@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-10-25T13:36:58.624521+00:00",
+  "physical_teams": 574,
+  "accepted_players": 0,
+  "teams_with_accepted_players": 0,
+  "age_coverage": 0.0,
+  "appearances_23_24_coverage": 0.0,
+  "appearances_24_25_coverage": 0.0,
+  "minutes_coverage": 0.0,
+  "source_url_coverage": 0.0,
+  "front_players": 0,
+  "back_players": 0,
+  "position_unknown": 0,
+  "source_policy": "Only player rows with verifiable Transfermarkt or FBref player page URLs and source fields may enter REAL outputs; no ESPN fallback is promoted.",
+  "probes": {
+    "transfermarkt": "HTTP 200 but roster table/player rows not exposed in static HTML during probe; requires browser/session or allowed source export",
+    "fbref": "HTTP 403 Cloudflare during probe"
+  },
+  "status": "blocked_sources_no_real_player_rows_written",
+  "note": "All missing fields remain null. This is an honest empty result, not a claim that the 574 rosters are complete."
+}

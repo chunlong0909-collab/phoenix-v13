@@ -1,0 +1,4007 @@
+{
+  "英超:1044": {
+    "team": "AFC Bournemouth",
+    "team_id": "1044",
+    "league": "英超",
+    "physical_id": "1044",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:57": {
+    "team": "Arsenal FC",
+    "team_id": "57",
+    "league": "英超",
+    "physical_id": "57",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:58": {
+    "team": "Aston Villa FC",
+    "team_id": "58",
+    "league": "英超",
+    "physical_id": "58",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:402": {
+    "team": "Brentford FC",
+    "team_id": "402",
+    "league": "英超",
+    "physical_id": "402",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:397": {
+    "team": "Brighton & Hove Albion FC",
+    "team_id": "397",
+    "league": "英超",
+    "physical_id": "397",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:61": {
+    "team": "Chelsea FC",
+    "team_id": "61",
+    "league": "英超",
+    "physical_id": "61",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:354": {
+    "team": "Crystal Palace FC",
+    "team_id": "354",
+    "league": "英超",
+    "physical_id": "354",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:62": {
+    "team": "Everton FC",
+    "team_id": "62",
+    "league": "英超",
+    "physical_id": "62",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:63": {
+    "team": "Fulham FC",
+    "team_id": "63",
+    "league": "英超",
+    "physical_id": "63",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:64": {
+    "team": "Liverpool FC",
+    "team_id": "64",
+    "league": "英超",
+    "physical_id": "64",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:65": {
+    "team": "Manchester City FC",
+    "team_id": "65",
+    "league": "英超",
+    "physical_id": "65",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:66": {
+    "team": "Manchester United FC",
+    "team_id": "66",
+    "league": "英超",
+    "physical_id": "66",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:67": {
+    "team": "Newcastle United FC",
+    "team_id": "67",
+    "league": "英超",
+    "physical_id": "67",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:351": {
+    "team": "Nottingham Forest FC",
+    "team_id": "351",
+    "league": "英超",
+    "physical_id": "351",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:73": {
+    "team": "Tottenham Hotspur FC",
+    "team_id": "73",
+    "league": "英超",
+    "physical_id": "73",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:563": {
+    "team": "West Ham United FC",
+    "team_id": "563",
+    "league": "英超",
+    "physical_id": "563",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:76": {
+    "team": "Wolverhampton Wanderers FC",
+    "team_id": "76",
+    "league": "英超",
+    "physical_id": "76",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:328": {
+    "team": "Burnley FC",
+    "team_id": "328",
+    "league": "英超",
+    "physical_id": "328",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:341": {
+    "team": "Leeds United FC",
+    "team_id": "341",
+    "league": "英超",
+    "physical_id": "341",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英超:71": {
+    "team": "Sunderland AFC",
+    "team_id": "71",
+    "league": "英超",
+    "physical_id": "71",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:77": {
+    "team": "Athletic Club",
+    "team_id": "77",
+    "league": "西甲",
+    "physical_id": "77",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:79": {
+    "team": "CA Osasuna",
+    "team_id": "79",
+    "league": "西甲",
+    "physical_id": "79",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:78": {
+    "team": "Club Atlético de Madrid",
+    "team_id": "78",
+    "league": "西甲",
+    "physical_id": "78",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:263": {
+    "team": "Deportivo Alavés",
+    "team_id": "263",
+    "league": "西甲",
+    "physical_id": "263",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:81": {
+    "team": "FC Barcelona",
+    "team_id": "81",
+    "league": "西甲",
+    "physical_id": "81",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:82": {
+    "team": "Getafe CF",
+    "team_id": "82",
+    "league": "西甲",
+    "physical_id": "82",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:298": {
+    "team": "Girona FC",
+    "team_id": "298",
+    "league": "西甲",
+    "physical_id": "298",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:558": {
+    "team": "RC Celta de Vigo",
+    "team_id": "558",
+    "league": "西甲",
+    "physical_id": "558",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:80": {
+    "team": "RCD Espanyol de Barcelona",
+    "team_id": "80",
+    "league": "西甲",
+    "physical_id": "80",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:89": {
+    "team": "RCD Mallorca",
+    "team_id": "89",
+    "league": "西甲",
+    "physical_id": "89",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:87": {
+    "team": "Rayo Vallecano de Madrid",
+    "team_id": "87",
+    "league": "西甲",
+    "physical_id": "87",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:90": {
+    "team": "Real Betis Balompié",
+    "team_id": "90",
+    "league": "西甲",
+    "physical_id": "90",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:86": {
+    "team": "Real Madrid CF",
+    "team_id": "86",
+    "league": "西甲",
+    "physical_id": "86",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:92": {
+    "team": "Real Sociedad de Fútbol",
+    "team_id": "92",
+    "league": "西甲",
+    "physical_id": "92",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:559": {
+    "team": "Sevilla FC",
+    "team_id": "559",
+    "league": "西甲",
+    "physical_id": "559",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:95": {
+    "team": "Valencia CF",
+    "team_id": "95",
+    "league": "西甲",
+    "physical_id": "95",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:94": {
+    "team": "Villarreal CF",
+    "team_id": "94",
+    "league": "西甲",
+    "physical_id": "94",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:285": {
+    "team": "Elche CF",
+    "team_id": "285",
+    "league": "西甲",
+    "physical_id": "285",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:88": {
+    "team": "Levante UD",
+    "team_id": "88",
+    "league": "西甲",
+    "physical_id": "88",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西甲:1048": {
+    "team": "Real Oviedo",
+    "team_id": "1048",
+    "league": "西甲",
+    "physical_id": "1048",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:98": {
+    "team": "AC Milan",
+    "team_id": "98",
+    "league": "意甲",
+    "physical_id": "98",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:99": {
+    "team": "ACF Fiorentina",
+    "team_id": "99",
+    "league": "意甲",
+    "physical_id": "99",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:100": {
+    "team": "AS Roma",
+    "team_id": "100",
+    "league": "意甲",
+    "physical_id": "100",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:102": {
+    "team": "Atalanta BC",
+    "team_id": "102",
+    "league": "意甲",
+    "physical_id": "102",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:103": {
+    "team": "Bologna FC 1909",
+    "team_id": "103",
+    "league": "意甲",
+    "physical_id": "103",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:104": {
+    "team": "Cagliari Calcio",
+    "team_id": "104",
+    "league": "意甲",
+    "physical_id": "104",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:7397": {
+    "team": "Como 1907",
+    "team_id": "7397",
+    "league": "意甲",
+    "physical_id": "7397",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:108": {
+    "team": "FC Internazionale Milano",
+    "team_id": "108",
+    "league": "意甲",
+    "physical_id": "108",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:107": {
+    "team": "Genoa CFC",
+    "team_id": "107",
+    "league": "意甲",
+    "physical_id": "107",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:450": {
+    "team": "Hellas Verona FC",
+    "team_id": "450",
+    "league": "意甲",
+    "physical_id": "450",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:109": {
+    "team": "Juventus FC",
+    "team_id": "109",
+    "league": "意甲",
+    "physical_id": "109",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:112": {
+    "team": "Parma Calcio 1913",
+    "team_id": "112",
+    "league": "意甲",
+    "physical_id": "112",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:110": {
+    "team": "SS Lazio",
+    "team_id": "110",
+    "league": "意甲",
+    "physical_id": "110",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:113": {
+    "team": "SSC Napoli",
+    "team_id": "113",
+    "league": "意甲",
+    "physical_id": "113",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:586": {
+    "team": "Torino FC",
+    "team_id": "586",
+    "league": "意甲",
+    "physical_id": "586",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:5890": {
+    "team": "US Lecce",
+    "team_id": "5890",
+    "league": "意甲",
+    "physical_id": "5890",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:115": {
+    "team": "Udinese Calcio",
+    "team_id": "115",
+    "league": "意甲",
+    "physical_id": "115",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:487": {
+    "team": "AC Pisa 1909",
+    "team_id": "487",
+    "league": "意甲",
+    "physical_id": "487",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:457": {
+    "team": "US Cremonese",
+    "team_id": "457",
+    "league": "意甲",
+    "physical_id": "457",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意甲:471": {
+    "team": "US Sassuolo Calcio",
+    "team_id": "471",
+    "league": "意甲",
+    "physical_id": "471",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:44": {
+    "team": "1. FC Heidenheim 1846",
+    "team_id": "44",
+    "league": "德甲",
+    "physical_id": "44",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:15": {
+    "team": "1. FSV Mainz 05",
+    "team_id": "15",
+    "league": "德甲",
+    "physical_id": "15",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:3": {
+    "team": "Bayer 04 Leverkusen",
+    "team_id": "3",
+    "league": "德甲",
+    "physical_id": "3",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:4": {
+    "team": "Borussia Dortmund",
+    "team_id": "4",
+    "league": "德甲",
+    "physical_id": "4",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:18": {
+    "team": "Borussia Mönchengladbach",
+    "team_id": "18",
+    "league": "德甲",
+    "physical_id": "18",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:19": {
+    "team": "Eintracht Frankfurt",
+    "team_id": "19",
+    "league": "德甲",
+    "physical_id": "19",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:16": {
+    "team": "FC Augsburg",
+    "team_id": "16",
+    "league": "德甲",
+    "physical_id": "16",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:5": {
+    "team": "FC Bayern München",
+    "team_id": "5",
+    "league": "德甲",
+    "physical_id": "5",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:721": {
+    "team": "RB Leipzig",
+    "team_id": "721",
+    "league": "德甲",
+    "physical_id": "721",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:17": {
+    "team": "SC Freiburg",
+    "team_id": "17",
+    "league": "德甲",
+    "physical_id": "17",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:12": {
+    "team": "SV Werder Bremen",
+    "team_id": "12",
+    "league": "德甲",
+    "physical_id": "12",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:2": {
+    "team": "TSG 1899 Hoffenheim",
+    "team_id": "2",
+    "league": "德甲",
+    "physical_id": "2",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:10": {
+    "team": "VfB Stuttgart",
+    "team_id": "10",
+    "league": "德甲",
+    "physical_id": "10",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:11": {
+    "team": "VfL Wolfsburg",
+    "team_id": "11",
+    "league": "德甲",
+    "physical_id": "11",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:28": {
+    "team": "1. FC Union Berlin",
+    "team_id": "28",
+    "league": "德甲",
+    "physical_id": "28",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:1": {
+    "team": "1. FC Köln",
+    "team_id": "1",
+    "league": "德甲",
+    "physical_id": "1",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:20": {
+    "team": "FC St. Pauli 1910",
+    "team_id": "20",
+    "league": "德甲",
+    "physical_id": "20",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德甲:7": {
+    "team": "Hamburger SV",
+    "team_id": "7",
+    "league": "德甲",
+    "physical_id": "7",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:548": {
+    "team": "AS Monaco FC",
+    "team_id": "548",
+    "league": "法甲",
+    "physical_id": "548",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:533": {
+    "team": "Le Havre AC",
+    "team_id": "533",
+    "league": "法甲",
+    "physical_id": "533",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:521": {
+    "team": "Lille OSC",
+    "team_id": "521",
+    "league": "法甲",
+    "physical_id": "521",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:522": {
+    "team": "OGC Nice",
+    "team_id": "522",
+    "league": "法甲",
+    "physical_id": "522",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:523": {
+    "team": "Olympique Lyonnais",
+    "team_id": "523",
+    "league": "法甲",
+    "physical_id": "523",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:516": {
+    "team": "Olympique de Marseille",
+    "team_id": "516",
+    "league": "法甲",
+    "physical_id": "516",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:524": {
+    "team": "Paris Saint-Germain FC",
+    "team_id": "524",
+    "league": "法甲",
+    "physical_id": "524",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:576": {
+    "team": "RC Strasbourg Alsace",
+    "team_id": "576",
+    "league": "法甲",
+    "physical_id": "576",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:546": {
+    "team": "Racing Club de Lens",
+    "team_id": "546",
+    "league": "法甲",
+    "physical_id": "546",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:512": {
+    "team": "Stade Brestois 29",
+    "team_id": "512",
+    "league": "法甲",
+    "physical_id": "512",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:529": {
+    "team": "Stade Rennais FC 1901",
+    "team_id": "529",
+    "league": "法甲",
+    "physical_id": "529",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:543": {
+    "team": "FC Nantes",
+    "team_id": "543",
+    "league": "法甲",
+    "physical_id": "543",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:511": {
+    "team": "Toulouse FC",
+    "team_id": "511",
+    "league": "法甲",
+    "physical_id": "511",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:519": {
+    "team": "AJ Auxerre",
+    "team_id": "519",
+    "league": "法甲",
+    "physical_id": "519",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:532": {
+    "team": "Angers SCO",
+    "team_id": "532",
+    "league": "法甲",
+    "physical_id": "532",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:525": {
+    "team": "FC Lorient",
+    "team_id": "525",
+    "league": "法甲",
+    "physical_id": "525",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:545": {
+    "team": "FC Metz",
+    "team_id": "545",
+    "league": "法甲",
+    "physical_id": "545",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:stade-de-reims": {
+    "team": "Stade de Reims",
+    "team_id": "stade-de-reims",
+    "league": "法甲",
+    "physical_id": "stade-de-reims",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:montpellier-hsc": {
+    "team": "Montpellier HSC",
+    "team_id": "montpellier-hsc",
+    "league": "法甲",
+    "physical_id": "montpellier-hsc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法甲:clermont-foot-63": {
+    "team": "Clermont Foot 63",
+    "team_id": "clermont-foot-63",
+    "league": "法甲",
+    "physical_id": "clermont-foot-63",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:albirex-niigata": {
+    "team": "Albirex Niigata",
+    "team_id": "albirex-niigata",
+    "league": "J1聯賽",
+    "physical_id": "albirex-niigata",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:avispa-fukuoka": {
+    "team": "Avispa Fukuoka",
+    "team_id": "avispa-fukuoka",
+    "league": "J1聯賽",
+    "physical_id": "avispa-fukuoka",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:cerezo-osaka": {
+    "team": "Cerezo Osaka",
+    "team_id": "cerezo-osaka",
+    "league": "J1聯賽",
+    "physical_id": "cerezo-osaka",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:consadole-sapporo": {
+    "team": "Consadole Sapporo",
+    "team_id": "consadole-sapporo",
+    "league": "J1聯賽",
+    "physical_id": "consadole-sapporo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:fc-tokyo": {
+    "team": "FC Tokyo",
+    "team_id": "fc-tokyo",
+    "league": "J1聯賽",
+    "physical_id": "fc-tokyo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:gamba-osaka": {
+    "team": "Gamba Osaka",
+    "team_id": "gamba-osaka",
+    "league": "J1聯賽",
+    "physical_id": "gamba-osaka",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:jubilo-iwata": {
+    "team": "Jubilo Iwata",
+    "team_id": "jubilo-iwata",
+    "league": "J1聯賽",
+    "physical_id": "jubilo-iwata",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:kashima-antlers": {
+    "team": "Kashima Antlers",
+    "team_id": "kashima-antlers",
+    "league": "J1聯賽",
+    "physical_id": "kashima-antlers",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:kashiwa-reysol": {
+    "team": "Kashiwa Reysol",
+    "team_id": "kashiwa-reysol",
+    "league": "J1聯賽",
+    "physical_id": "kashiwa-reysol",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:kawasaki-frontale": {
+    "team": "Kawasaki Frontale",
+    "team_id": "kawasaki-frontale",
+    "league": "J1聯賽",
+    "physical_id": "kawasaki-frontale",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:kyoto-sanga": {
+    "team": "Kyoto Sanga",
+    "team_id": "kyoto-sanga",
+    "league": "J1聯賽",
+    "physical_id": "kyoto-sanga",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:machida-zelvia": {
+    "team": "Machida Zelvia",
+    "team_id": "machida-zelvia",
+    "league": "J1聯賽",
+    "physical_id": "machida-zelvia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:nagoya-grampus": {
+    "team": "Nagoya Grampus",
+    "team_id": "nagoya-grampus",
+    "league": "J1聯賽",
+    "physical_id": "nagoya-grampus",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:sagan-tosu": {
+    "team": "Sagan Tosu",
+    "team_id": "sagan-tosu",
+    "league": "J1聯賽",
+    "physical_id": "sagan-tosu",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:sanfrecce-hiroshima": {
+    "team": "Sanfrecce Hiroshima",
+    "team_id": "sanfrecce-hiroshima",
+    "league": "J1聯賽",
+    "physical_id": "sanfrecce-hiroshima",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:shonan-bellmare": {
+    "team": "Shonan Bellmare",
+    "team_id": "shonan-bellmare",
+    "league": "J1聯賽",
+    "physical_id": "shonan-bellmare",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:tokyo-verdy": {
+    "team": "Tokyo Verdy",
+    "team_id": "tokyo-verdy",
+    "league": "J1聯賽",
+    "physical_id": "tokyo-verdy",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:urawa-reds": {
+    "team": "Urawa Reds",
+    "team_id": "urawa-reds",
+    "league": "J1聯賽",
+    "physical_id": "urawa-reds",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:vissel-kobe": {
+    "team": "Vissel Kobe",
+    "team_id": "vissel-kobe",
+    "league": "J1聯賽",
+    "physical_id": "vissel-kobe",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "J1聯賽:yokohama-f-marinos": {
+    "team": "Yokohama F Marinos",
+    "team_id": "yokohama-f-marinos",
+    "league": "J1聯賽",
+    "physical_id": "yokohama-f-marinos",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:porto": {
+    "team": "Porto",
+    "team_id": "porto",
+    "league": "葡超",
+    "physical_id": "porto",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:benfica": {
+    "team": "Benfica",
+    "team_id": "benfica",
+    "league": "葡超",
+    "physical_id": "benfica",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:sporting-cp": {
+    "team": "Sporting CP",
+    "team_id": "sporting-cp",
+    "league": "葡超",
+    "physical_id": "sporting-cp",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:braga": {
+    "team": "Braga",
+    "team_id": "braga",
+    "league": "葡超",
+    "physical_id": "braga",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:vitoria-guimaraes": {
+    "team": "Vitoria Guimaraes",
+    "team_id": "vitoria-guimaraes",
+    "league": "葡超",
+    "physical_id": "vitoria-guimaraes",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:moreirense": {
+    "team": "Moreirense",
+    "team_id": "moreirense",
+    "league": "葡超",
+    "physical_id": "moreirense",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:arouca": {
+    "team": "Arouca",
+    "team_id": "arouca",
+    "league": "葡超",
+    "physical_id": "arouca",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:famalicao": {
+    "team": "Famalicao",
+    "team_id": "famalicao",
+    "league": "葡超",
+    "physical_id": "famalicao",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:casa-pia": {
+    "team": "Casa Pia",
+    "team_id": "casa-pia",
+    "league": "葡超",
+    "physical_id": "casa-pia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:farense": {
+    "team": "Farense",
+    "team_id": "farense",
+    "league": "葡超",
+    "physical_id": "farense",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "葡超:None": {
+    "team": "Portimonense",
+    "team_id": "None",
+    "league": "葡超",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "荷甲:ajax": {
+    "team": "Ajax",
+    "team_id": "ajax",
+    "league": "荷甲",
+    "physical_id": "ajax",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "荷甲:psv-eindhoven": {
+    "team": "PSV Eindhoven",
+    "team_id": "psv-eindhoven",
+    "league": "荷甲",
+    "physical_id": "psv-eindhoven",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "荷甲:feyenoord": {
+    "team": "Feyenoord",
+    "team_id": "feyenoord",
+    "league": "荷甲",
+    "physical_id": "feyenoord",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "荷甲:az-alkmaar": {
+    "team": "AZ Alkmaar",
+    "team_id": "az-alkmaar",
+    "league": "荷甲",
+    "physical_id": "az-alkmaar",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "荷甲:twente": {
+    "team": "Twente",
+    "team_id": "twente",
+    "league": "荷甲",
+    "physical_id": "twente",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "荷甲:utrecht": {
+    "team": "Utrecht",
+    "team_id": "utrecht",
+    "league": "荷甲",
+    "physical_id": "utrecht",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "荷甲:None": {
+    "team": "Willem II",
+    "team_id": "None",
+    "league": "荷甲",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "土超:galatasaray": {
+    "team": "Galatasaray",
+    "team_id": "galatasaray",
+    "league": "土超",
+    "physical_id": "galatasaray",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "土超:fenerbahce": {
+    "team": "Fenerbahce",
+    "team_id": "fenerbahce",
+    "league": "土超",
+    "physical_id": "fenerbahce",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "土超:besiktas": {
+    "team": "Besiktas",
+    "team_id": "besiktas",
+    "league": "土超",
+    "physical_id": "besiktas",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "土超:trabzonspor": {
+    "team": "Trabzonspor",
+    "team_id": "trabzonspor",
+    "league": "土超",
+    "physical_id": "trabzonspor",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "土超:basaksehir": {
+    "team": "Basaksehir",
+    "team_id": "basaksehir",
+    "league": "土超",
+    "physical_id": "basaksehir",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "土超:adana-demirspor": {
+    "team": "Adana Demirspor",
+    "team_id": "adana-demirspor",
+    "league": "土超",
+    "physical_id": "adana-demirspor",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "土超:None": {
+    "team": "Giresunspor",
+    "team_id": "None",
+    "league": "土超",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "比甲:club-brugge": {
+    "team": "Club Brugge",
+    "team_id": "club-brugge",
+    "league": "比甲",
+    "physical_id": "club-brugge",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "比甲:anderlecht": {
+    "team": "Anderlecht",
+    "team_id": "anderlecht",
+    "league": "比甲",
+    "physical_id": "anderlecht",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "比甲:genk": {
+    "team": "Genk",
+    "team_id": "genk",
+    "league": "比甲",
+    "physical_id": "genk",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "比甲:antwerp": {
+    "team": "Antwerp",
+    "team_id": "antwerp",
+    "league": "比甲",
+    "physical_id": "antwerp",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "比甲:union-sg": {
+    "team": "Union SG",
+    "team_id": "union-sg",
+    "league": "比甲",
+    "physical_id": "union-sg",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "比甲:gent": {
+    "team": "Gent",
+    "team_id": "gent",
+    "league": "比甲",
+    "physical_id": "gent",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "比甲:None": {
+    "team": "Eupen",
+    "team_id": "None",
+    "league": "比甲",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:flamengo": {
+    "team": "Flamengo",
+    "team_id": "flamengo",
+    "league": "巴甲",
+    "physical_id": "flamengo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:palmeiras": {
+    "team": "Palmeiras",
+    "team_id": "palmeiras",
+    "league": "巴甲",
+    "physical_id": "palmeiras",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:atletico-mineiro": {
+    "team": "Atletico Mineiro",
+    "team_id": "atletico-mineiro",
+    "league": "巴甲",
+    "physical_id": "atletico-mineiro",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:corinthians": {
+    "team": "Corinthians",
+    "team_id": "corinthians",
+    "league": "巴甲",
+    "physical_id": "corinthians",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:fluminense": {
+    "team": "Fluminense",
+    "team_id": "fluminense",
+    "league": "巴甲",
+    "physical_id": "fluminense",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:gremio": {
+    "team": "Gremio",
+    "team_id": "gremio",
+    "league": "巴甲",
+    "physical_id": "gremio",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:botafogo": {
+    "team": "Botafogo",
+    "team_id": "botafogo",
+    "league": "巴甲",
+    "physical_id": "botafogo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:athletico-pr": {
+    "team": "Athletico-PR",
+    "team_id": "athletico-pr",
+    "league": "巴甲",
+    "physical_id": "athletico-pr",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:internacional": {
+    "team": "Internacional",
+    "team_id": "internacional",
+    "league": "巴甲",
+    "physical_id": "internacional",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:fortaleza": {
+    "team": "Fortaleza",
+    "team_id": "fortaleza",
+    "league": "巴甲",
+    "physical_id": "fortaleza",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:sao-paulo": {
+    "team": "Sao Paulo",
+    "team_id": "sao-paulo",
+    "league": "巴甲",
+    "physical_id": "sao-paulo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:cruzeiro": {
+    "team": "Cruzeiro",
+    "team_id": "cruzeiro",
+    "league": "巴甲",
+    "physical_id": "cruzeiro",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:bragantino": {
+    "team": "Bragantino",
+    "team_id": "bragantino",
+    "league": "巴甲",
+    "physical_id": "bragantino",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:santos": {
+    "team": "Santos",
+    "team_id": "santos",
+    "league": "巴甲",
+    "physical_id": "santos",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:bahia": {
+    "team": "Bahia",
+    "team_id": "bahia",
+    "league": "巴甲",
+    "physical_id": "bahia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:vasco": {
+    "team": "Vasco",
+    "team_id": "vasco",
+    "league": "巴甲",
+    "physical_id": "vasco",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "巴甲:cuiaba": {
+    "team": "Cuiaba",
+    "team_id": "cuiaba",
+    "league": "巴甲",
+    "physical_id": "cuiaba",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-01": {
+    "team": "Salzburg",
+    "team_id": "aut-01",
+    "league": "奧甲",
+    "physical_id": "aut-01",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-02": {
+    "team": "Sturm Graz",
+    "team_id": "aut-02",
+    "league": "奧甲",
+    "physical_id": "aut-02",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-03": {
+    "team": "LASK",
+    "team_id": "aut-03",
+    "league": "奧甲",
+    "physical_id": "aut-03",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-04": {
+    "team": "SK Rapid",
+    "team_id": "aut-04",
+    "league": "奧甲",
+    "physical_id": "aut-04",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-05": {
+    "team": "Austria Vienna",
+    "team_id": "aut-05",
+    "league": "奧甲",
+    "physical_id": "aut-05",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-06": {
+    "team": "Wolfsberger AC",
+    "team_id": "aut-06",
+    "league": "奧甲",
+    "physical_id": "aut-06",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-07": {
+    "team": "Hartberg",
+    "team_id": "aut-07",
+    "league": "奧甲",
+    "physical_id": "aut-07",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-08": {
+    "team": "Altach",
+    "team_id": "aut-08",
+    "league": "奧甲",
+    "physical_id": "aut-08",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-09": {
+    "team": "Tirol",
+    "team_id": "aut-09",
+    "league": "奧甲",
+    "physical_id": "aut-09",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-10": {
+    "team": "A. Klagenfurt",
+    "team_id": "aut-10",
+    "league": "奧甲",
+    "physical_id": "aut-10",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-11": {
+    "team": "BW Linz",
+    "team_id": "aut-11",
+    "league": "奧甲",
+    "physical_id": "aut-11",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "奧甲:aut-12": {
+    "team": "A. Lustenau",
+    "team_id": "aut-12",
+    "league": "奧甲",
+    "physical_id": "aut-12",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-01": {
+    "team": "Basel",
+    "team_id": "swz-01",
+    "league": "瑞士超",
+    "physical_id": "swz-01",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-02": {
+    "team": "Grasshoppers",
+    "team_id": "swz-02",
+    "league": "瑞士超",
+    "physical_id": "swz-02",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-03": {
+    "team": "Lugano",
+    "team_id": "swz-03",
+    "league": "瑞士超",
+    "physical_id": "swz-03",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-04": {
+    "team": "Luzern",
+    "team_id": "swz-04",
+    "league": "瑞士超",
+    "physical_id": "swz-04",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-05": {
+    "team": "Servette",
+    "team_id": "swz-05",
+    "league": "瑞士超",
+    "physical_id": "swz-05",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-06": {
+    "team": "St. Gallen",
+    "team_id": "swz-06",
+    "league": "瑞士超",
+    "physical_id": "swz-06",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-07": {
+    "team": "Young Boys",
+    "team_id": "swz-07",
+    "league": "瑞士超",
+    "physical_id": "swz-07",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-08": {
+    "team": "Zurich",
+    "team_id": "swz-08",
+    "league": "瑞士超",
+    "physical_id": "swz-08",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-09": {
+    "team": "Winterthur",
+    "team_id": "swz-09",
+    "league": "瑞士超",
+    "physical_id": "swz-09",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-10": {
+    "team": "Lausanne",
+    "team_id": "swz-10",
+    "league": "瑞士超",
+    "physical_id": "swz-10",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-11": {
+    "team": "Sion",
+    "team_id": "swz-11",
+    "league": "瑞士超",
+    "physical_id": "swz-11",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞士超:swz-12": {
+    "team": "Thun",
+    "team_id": "swz-12",
+    "league": "瑞士超",
+    "physical_id": "swz-12",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-01": {
+    "team": "Bodo/Glimt",
+    "team_id": "nor-01",
+    "league": "挪超",
+    "physical_id": "nor-01",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-02": {
+    "team": "Brann",
+    "team_id": "nor-02",
+    "league": "挪超",
+    "physical_id": "nor-02",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-03": {
+    "team": "Haugesund",
+    "team_id": "nor-03",
+    "league": "挪超",
+    "physical_id": "nor-03",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-04": {
+    "team": "Kristiansund",
+    "team_id": "nor-04",
+    "league": "挪超",
+    "physical_id": "nor-04",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-05": {
+    "team": "Lillestrom",
+    "team_id": "nor-05",
+    "league": "挪超",
+    "physical_id": "nor-05",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-06": {
+    "team": "Molde",
+    "team_id": "nor-06",
+    "league": "挪超",
+    "physical_id": "nor-06",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-07": {
+    "team": "Odd",
+    "team_id": "nor-07",
+    "league": "挪超",
+    "physical_id": "nor-07",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-08": {
+    "team": "Rosenborg",
+    "team_id": "nor-08",
+    "league": "挪超",
+    "physical_id": "nor-08",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-09": {
+    "team": "Sandefjord",
+    "team_id": "nor-09",
+    "league": "挪超",
+    "physical_id": "nor-09",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-10": {
+    "team": "Sarpsborg 08",
+    "team_id": "nor-10",
+    "league": "挪超",
+    "physical_id": "nor-10",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-11": {
+    "team": "Stromsgodset",
+    "team_id": "nor-11",
+    "league": "挪超",
+    "physical_id": "nor-11",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-12": {
+    "team": "Tromso",
+    "team_id": "nor-12",
+    "league": "挪超",
+    "physical_id": "nor-12",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-13": {
+    "team": "Valerenga",
+    "team_id": "nor-13",
+    "league": "挪超",
+    "physical_id": "nor-13",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-14": {
+    "team": "Viking",
+    "team_id": "nor-14",
+    "league": "挪超",
+    "physical_id": "nor-14",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-15": {
+    "team": "Aalesund",
+    "team_id": "nor-15",
+    "league": "挪超",
+    "physical_id": "nor-15",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "挪超:nor-16": {
+    "team": "Ham-Kam",
+    "team_id": "nor-16",
+    "league": "挪超",
+    "physical_id": "nor-16",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-01": {
+    "team": "AIK",
+    "team_id": "swe-01",
+    "league": "瑞典超",
+    "physical_id": "swe-01",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-02": {
+    "team": "Djurgarden",
+    "team_id": "swe-02",
+    "league": "瑞典超",
+    "physical_id": "swe-02",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-03": {
+    "team": "Elfsborg",
+    "team_id": "swe-03",
+    "league": "瑞典超",
+    "physical_id": "swe-03",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-04": {
+    "team": "Goteborg",
+    "team_id": "swe-04",
+    "league": "瑞典超",
+    "physical_id": "swe-04",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-05": {
+    "team": "Hacken",
+    "team_id": "swe-05",
+    "league": "瑞典超",
+    "physical_id": "swe-05",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-06": {
+    "team": "Halmstad",
+    "team_id": "swe-06",
+    "league": "瑞典超",
+    "physical_id": "swe-06",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-07": {
+    "team": "Hammarby",
+    "team_id": "swe-07",
+    "league": "瑞典超",
+    "physical_id": "swe-07",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-08": {
+    "team": "Kalmar",
+    "team_id": "swe-08",
+    "league": "瑞典超",
+    "physical_id": "swe-08",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-09": {
+    "team": "Malmo FF",
+    "team_id": "swe-09",
+    "league": "瑞典超",
+    "physical_id": "swe-09",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-10": {
+    "team": "Mjallby",
+    "team_id": "swe-10",
+    "league": "瑞典超",
+    "physical_id": "swe-10",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-11": {
+    "team": "Norrkoping",
+    "team_id": "swe-11",
+    "league": "瑞典超",
+    "physical_id": "swe-11",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-12": {
+    "team": "Sirius",
+    "team_id": "swe-12",
+    "league": "瑞典超",
+    "physical_id": "swe-12",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-13": {
+    "team": "Varberg",
+    "team_id": "swe-13",
+    "league": "瑞典超",
+    "physical_id": "swe-13",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-14": {
+    "team": "Varnamo",
+    "team_id": "swe-14",
+    "league": "瑞典超",
+    "physical_id": "swe-14",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-15": {
+    "team": "Vasteras SK",
+    "team_id": "swe-15",
+    "league": "瑞典超",
+    "physical_id": "swe-15",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "瑞典超:swe-16": {
+    "team": "Brommapojkarna",
+    "team_id": "swe-16",
+    "league": "瑞典超",
+    "physical_id": "swe-16",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-01": {
+    "team": "Aalborg",
+    "team_id": "dnk-01",
+    "league": "丹超",
+    "physical_id": "dnk-01",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-02": {
+    "team": "Aarhus",
+    "team_id": "dnk-02",
+    "league": "丹超",
+    "physical_id": "dnk-02",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-03": {
+    "team": "Brondby",
+    "team_id": "dnk-03",
+    "league": "丹超",
+    "physical_id": "dnk-03",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-04": {
+    "team": "FC Copenhagen",
+    "team_id": "dnk-04",
+    "league": "丹超",
+    "physical_id": "dnk-04",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-05": {
+    "team": "Horsens",
+    "team_id": "dnk-05",
+    "league": "丹超",
+    "physical_id": "dnk-05",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-06": {
+    "team": "Lyngby",
+    "team_id": "dnk-06",
+    "league": "丹超",
+    "physical_id": "dnk-06",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-07": {
+    "team": "Midtjylland",
+    "team_id": "dnk-07",
+    "league": "丹超",
+    "physical_id": "dnk-07",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-08": {
+    "team": "Nordsjaelland",
+    "team_id": "dnk-08",
+    "league": "丹超",
+    "physical_id": "dnk-08",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-09": {
+    "team": "Odense",
+    "team_id": "dnk-09",
+    "league": "丹超",
+    "physical_id": "dnk-09",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-10": {
+    "team": "Randers FC",
+    "team_id": "dnk-10",
+    "league": "丹超",
+    "physical_id": "dnk-10",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-11": {
+    "team": "Silkeborg",
+    "team_id": "dnk-11",
+    "league": "丹超",
+    "physical_id": "dnk-11",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "丹超:dnk-12": {
+    "team": "Viborg",
+    "team_id": "dnk-12",
+    "league": "丹超",
+    "physical_id": "dnk-12",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "希超:None": {
+    "team": "Panserraikos",
+    "team_id": "None",
+    "league": "希超",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英冠:None": {
+    "team": "Bournemouth",
+    "team_id": "None",
+    "league": "英冠",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:None": {
+    "team": "Blackpool",
+    "team_id": "None",
+    "league": "英甲",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-carlisle": {
+    "team": "Carlisle",
+    "team_id": "A1000-carlisle",
+    "league": "英甲",
+    "physical_id": "A1000-carlisle",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-colchester": {
+    "team": "Colchester",
+    "team_id": "A1000-colchester",
+    "league": "英甲",
+    "physical_id": "A1000-colchester",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-bradford": {
+    "team": "Bradford",
+    "team_id": "A1000-bradford",
+    "league": "英甲",
+    "physical_id": "A1000-bradford",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-forestgreen": {
+    "team": "Forest Green",
+    "team_id": "A1000-forestgreen",
+    "league": "英甲",
+    "physical_id": "A1000-forestgreen",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-sutton": {
+    "team": "Sutton",
+    "team_id": "A1000-sutton",
+    "league": "英甲",
+    "physical_id": "A1000-sutton",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-harrogate": {
+    "team": "Harrogate",
+    "team_id": "A1000-harrogate",
+    "league": "英甲",
+    "physical_id": "A1000-harrogate",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-rochdale": {
+    "team": "Rochdale",
+    "team_id": "A1000-rochdale",
+    "league": "英甲",
+    "physical_id": "A1000-rochdale",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-hartlepool": {
+    "team": "Hartlepool",
+    "team_id": "A1000-hartlepool",
+    "league": "英甲",
+    "physical_id": "A1000-hartlepool",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-crawleytown": {
+    "team": "Crawley Town",
+    "team_id": "A1000-crawleytown",
+    "league": "英甲",
+    "physical_id": "A1000-crawleytown",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-mansfield": {
+    "team": "Mansfield",
+    "team_id": "A1000-mansfield",
+    "league": "英甲",
+    "physical_id": "A1000-mansfield",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-northampton": {
+    "team": "Northampton",
+    "team_id": "A1000-northampton",
+    "league": "英甲",
+    "physical_id": "A1000-northampton",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-newportcounty": {
+    "team": "Newport County",
+    "team_id": "A1000-newportcounty",
+    "league": "英甲",
+    "physical_id": "A1000-newportcounty",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-salford": {
+    "team": "Salford",
+    "team_id": "A1000-salford",
+    "league": "英甲",
+    "physical_id": "A1000-salford",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-leytonorient": {
+    "team": "Leyton Orient",
+    "team_id": "A1000-leytonorient",
+    "league": "英甲",
+    "physical_id": "A1000-leytonorient",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-swindon": {
+    "team": "Swindon",
+    "team_id": "A1000-swindon",
+    "league": "英甲",
+    "physical_id": "A1000-swindon",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-stevenage": {
+    "team": "Stevenage",
+    "team_id": "A1000-stevenage",
+    "league": "英甲",
+    "physical_id": "A1000-stevenage",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-barrow": {
+    "team": "Barrow",
+    "team_id": "A1000-barrow",
+    "league": "英甲",
+    "physical_id": "A1000-barrow",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-tranmere": {
+    "team": "Tranmere",
+    "team_id": "A1000-tranmere",
+    "league": "英甲",
+    "physical_id": "A1000-tranmere",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-walsall": {
+    "team": "Walsall",
+    "team_id": "A1000-walsall",
+    "league": "英甲",
+    "physical_id": "A1000-walsall",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-afcwimbledon": {
+    "team": "AFC Wimbledon",
+    "team_id": "A1000-afcwimbledon",
+    "league": "英甲",
+    "physical_id": "A1000-afcwimbledon",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-gillingham": {
+    "team": "Gillingham",
+    "team_id": "A1000-gillingham",
+    "league": "英甲",
+    "physical_id": "A1000-gillingham",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-doncaster": {
+    "team": "Doncaster",
+    "team_id": "A1000-doncaster",
+    "league": "英甲",
+    "physical_id": "A1000-doncaster",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-grimsby": {
+    "team": "Grimsby",
+    "team_id": "A1000-grimsby",
+    "league": "英甲",
+    "physical_id": "A1000-grimsby",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-crewe": {
+    "team": "Crewe",
+    "team_id": "A1000-crewe",
+    "league": "英甲",
+    "physical_id": "A1000-crewe",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-stockport": {
+    "team": "Stockport",
+    "team_id": "A1000-stockport",
+    "league": "英甲",
+    "physical_id": "A1000-stockport",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "英甲:A1000-nottscounty": {
+    "team": "Notts County",
+    "team_id": "A1000-nottscounty",
+    "league": "英甲",
+    "physical_id": "A1000-nottscounty",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "德乙:None": {
+    "team": "Osnabruck",
+    "team_id": "None",
+    "league": "德乙",
+    "physical_id": "None",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:boca-juniors": {
+    "team": "Boca Juniors",
+    "team_id": "boca-juniors",
+    "league": "阿甲",
+    "physical_id": "boca-juniors",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:river-plate": {
+    "team": "River Plate",
+    "team_id": "river-plate",
+    "league": "阿甲",
+    "physical_id": "river-plate",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:estudiantes-l-p": {
+    "team": "Estudiantes L.P.",
+    "team_id": "estudiantes-l-p",
+    "league": "阿甲",
+    "physical_id": "estudiantes-l-p",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:velez-sarsfield": {
+    "team": "Velez Sarsfield",
+    "team_id": "velez-sarsfield",
+    "league": "阿甲",
+    "physical_id": "velez-sarsfield",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:rosario-central": {
+    "team": "Rosario Central",
+    "team_id": "rosario-central",
+    "league": "阿甲",
+    "physical_id": "rosario-central",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:platense": {
+    "team": "Platense",
+    "team_id": "platense",
+    "league": "阿甲",
+    "physical_id": "platense",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:godoy-cruz": {
+    "team": "Godoy Cruz",
+    "team_id": "godoy-cruz",
+    "league": "阿甲",
+    "physical_id": "godoy-cruz",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:independiente": {
+    "team": "Independiente",
+    "team_id": "independiente",
+    "league": "阿甲",
+    "physical_id": "independiente",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:defensa-y-justicia": {
+    "team": "Defensa y Justicia",
+    "team_id": "defensa-y-justicia",
+    "league": "阿甲",
+    "physical_id": "defensa-y-justicia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:talleres-cordoba": {
+    "team": "Talleres Cordoba",
+    "team_id": "talleres-cordoba",
+    "league": "阿甲",
+    "physical_id": "talleres-cordoba",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:huracan": {
+    "team": "Huracan",
+    "team_id": "huracan",
+    "league": "阿甲",
+    "physical_id": "huracan",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:gimnasia-l-p": {
+    "team": "Gimnasia L.P.",
+    "team_id": "gimnasia-l-p",
+    "league": "阿甲",
+    "physical_id": "gimnasia-l-p",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:banfield": {
+    "team": "Banfield",
+    "team_id": "banfield",
+    "league": "阿甲",
+    "physical_id": "banfield",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:union-de-santa-fe": {
+    "team": "Union de Santa Fe",
+    "team_id": "union-de-santa-fe",
+    "league": "阿甲",
+    "physical_id": "union-de-santa-fe",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:sarmiento-junin": {
+    "team": "Sarmiento Junin",
+    "team_id": "sarmiento-junin",
+    "league": "阿甲",
+    "physical_id": "sarmiento-junin",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:san-lorenzo": {
+    "team": "San Lorenzo",
+    "team_id": "san-lorenzo",
+    "league": "阿甲",
+    "physical_id": "san-lorenzo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:newells-old-boys": {
+    "team": "Newells Old Boys",
+    "team_id": "newells-old-boys",
+    "league": "阿甲",
+    "physical_id": "newells-old-boys",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:lanus": {
+    "team": "Lanus",
+    "team_id": "lanus",
+    "league": "阿甲",
+    "physical_id": "lanus",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:central-cordoba": {
+    "team": "Central Cordoba",
+    "team_id": "central-cordoba",
+    "league": "阿甲",
+    "physical_id": "central-cordoba",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:atl-tucuman": {
+    "team": "Atl. Tucuman",
+    "team_id": "atl-tucuman",
+    "league": "阿甲",
+    "physical_id": "atl-tucuman",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:650b-racingclub": {
+    "team": "Racing Club",
+    "team_id": "650b-racingclub",
+    "league": "阿甲",
+    "physical_id": "650b-racingclub",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:650b-colonsantafe": {
+    "team": "Colon Santa FE",
+    "team_id": "650b-colonsantafe",
+    "league": "阿甲",
+    "physical_id": "650b-colonsantafe",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:650b-arsenalsarandi": {
+    "team": "Arsenal Sarandi",
+    "team_id": "650b-arsenalsarandi",
+    "league": "阿甲",
+    "physical_id": "650b-arsenalsarandi",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:650b-argentinosjrs": {
+    "team": "Argentinos Jrs",
+    "team_id": "650b-argentinosjrs",
+    "league": "阿甲",
+    "physical_id": "650b-argentinosjrs",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:650b-barracascentral": {
+    "team": "Barracas Central",
+    "team_id": "650b-barracascentral",
+    "league": "阿甲",
+    "physical_id": "650b-barracascentral",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "阿甲:650b-tigre": {
+    "team": "Tigre",
+    "team_id": "650b-tigre",
+    "league": "阿甲",
+    "physical_id": "650b-tigre",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-los-angeles-fc": {
+    "team": "Los Angeles FC",
+    "team_id": "mls-los-angeles-fc",
+    "league": "美職MLS",
+    "physical_id": "mls-los-angeles-fc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-new-york-city": {
+    "team": "New York City",
+    "team_id": "mls-new-york-city",
+    "league": "美職MLS",
+    "physical_id": "mls-new-york-city",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-orlando-city": {
+    "team": "Orlando City",
+    "team_id": "mls-orlando-city",
+    "league": "美職MLS",
+    "physical_id": "mls-orlando-city",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-new-york-red-bulls": {
+    "team": "New York Red Bulls",
+    "team_id": "mls-new-york-red-bulls",
+    "league": "美職MLS",
+    "physical_id": "mls-new-york-red-bulls",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-seattle-sounders": {
+    "team": "Seattle Sounders",
+    "team_id": "mls-seattle-sounders",
+    "league": "美職MLS",
+    "physical_id": "mls-seattle-sounders",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-real-salt-lake": {
+    "team": "Real Salt Lake",
+    "team_id": "mls-real-salt-lake",
+    "league": "美職MLS",
+    "physical_id": "mls-real-salt-lake",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-philadelphia-union": {
+    "team": "Philadelphia Union",
+    "team_id": "mls-philadelphia-union",
+    "league": "美職MLS",
+    "physical_id": "mls-philadelphia-union",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-fc-cincinnati": {
+    "team": "FC Cincinnati",
+    "team_id": "mls-fc-cincinnati",
+    "league": "美職MLS",
+    "physical_id": "mls-fc-cincinnati",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-atlanta-utd": {
+    "team": "Atlanta Utd",
+    "team_id": "mls-atlanta-utd",
+    "league": "美職MLS",
+    "physical_id": "mls-atlanta-utd",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-columbus-crew": {
+    "team": "Columbus Crew",
+    "team_id": "mls-columbus-crew",
+    "league": "美職MLS",
+    "physical_id": "mls-columbus-crew",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-vancouver-whitecaps": {
+    "team": "Vancouver Whitecaps",
+    "team_id": "mls-vancouver-whitecaps",
+    "league": "美職MLS",
+    "physical_id": "mls-vancouver-whitecaps",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-los-angeles-galaxy": {
+    "team": "Los Angeles Galaxy",
+    "team_id": "mls-los-angeles-galaxy",
+    "league": "美職MLS",
+    "physical_id": "mls-los-angeles-galaxy",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-houston-dynamo": {
+    "team": "Houston Dynamo",
+    "team_id": "mls-houston-dynamo",
+    "league": "美職MLS",
+    "physical_id": "mls-houston-dynamo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-sporting-kansas-city": {
+    "team": "Sporting Kansas City",
+    "team_id": "mls-sporting-kansas-city",
+    "league": "美職MLS",
+    "physical_id": "mls-sporting-kansas-city",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-portland-timbers": {
+    "team": "Portland Timbers",
+    "team_id": "mls-portland-timbers",
+    "league": "美職MLS",
+    "physical_id": "mls-portland-timbers",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-nashville-sc": {
+    "team": "Nashville SC",
+    "team_id": "mls-nashville-sc",
+    "league": "美職MLS",
+    "physical_id": "mls-nashville-sc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-minnesota-united": {
+    "team": "Minnesota United",
+    "team_id": "mls-minnesota-united",
+    "league": "美職MLS",
+    "physical_id": "mls-minnesota-united",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-fc-dallas": {
+    "team": "FC Dallas",
+    "team_id": "mls-fc-dallas",
+    "league": "美職MLS",
+    "physical_id": "mls-fc-dallas",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-inter-miami": {
+    "team": "Inter Miami",
+    "team_id": "mls-inter-miami",
+    "league": "美職MLS",
+    "physical_id": "mls-inter-miami",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-new-england-revolution": {
+    "team": "New England Revolution",
+    "team_id": "mls-new-england-revolution",
+    "league": "美職MLS",
+    "physical_id": "mls-new-england-revolution",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-colorado-rapids": {
+    "team": "Colorado Rapids",
+    "team_id": "mls-colorado-rapids",
+    "league": "美職MLS",
+    "physical_id": "mls-colorado-rapids",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-cf-montreal": {
+    "team": "CF Montreal",
+    "team_id": "mls-cf-montreal",
+    "league": "美職MLS",
+    "physical_id": "mls-cf-montreal",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-austin-fc": {
+    "team": "Austin FC",
+    "team_id": "mls-austin-fc",
+    "league": "美職MLS",
+    "physical_id": "mls-austin-fc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-san-jose-earthquakes": {
+    "team": "San Jose Earthquakes",
+    "team_id": "mls-san-jose-earthquakes",
+    "league": "美職MLS",
+    "physical_id": "mls-san-jose-earthquakes",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-toronto-fc": {
+    "team": "Toronto FC",
+    "team_id": "mls-toronto-fc",
+    "league": "美職MLS",
+    "physical_id": "mls-toronto-fc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-dc-united": {
+    "team": "DC United",
+    "team_id": "mls-dc-united",
+    "league": "美職MLS",
+    "physical_id": "mls-dc-united",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:mls-chicago-fire": {
+    "team": "Chicago Fire",
+    "team_id": "mls-chicago-fire",
+    "league": "美職MLS",
+    "physical_id": "mls-chicago-fire",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "美職MLS:650b-charlotte": {
+    "team": "Charlotte",
+    "team_id": "650b-charlotte",
+    "league": "美職MLS",
+    "physical_id": "650b-charlotte",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:club-america": {
+    "team": "Club America",
+    "team_id": "club-america",
+    "league": "墨西超",
+    "physical_id": "club-america",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:tigres-uanl": {
+    "team": "Tigres UANL",
+    "team_id": "tigres-uanl",
+    "league": "墨西超",
+    "physical_id": "tigres-uanl",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:monterrey": {
+    "team": "Monterrey",
+    "team_id": "monterrey",
+    "league": "墨西超",
+    "physical_id": "monterrey",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:cruz-azul": {
+    "team": "Cruz Azul",
+    "team_id": "cruz-azul",
+    "league": "墨西超",
+    "physical_id": "cruz-azul",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:toluca": {
+    "team": "Toluca",
+    "team_id": "toluca",
+    "league": "墨西超",
+    "physical_id": "toluca",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:pachuca": {
+    "team": "Pachuca",
+    "team_id": "pachuca",
+    "league": "墨西超",
+    "physical_id": "pachuca",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:guadalajara-chivas": {
+    "team": "Guadalajara Chivas",
+    "team_id": "guadalajara-chivas",
+    "league": "墨西超",
+    "physical_id": "guadalajara-chivas",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:unam-pumas": {
+    "team": "UNAM Pumas",
+    "team_id": "unam-pumas",
+    "league": "墨西超",
+    "physical_id": "unam-pumas",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:atlas": {
+    "team": "Atlas",
+    "team_id": "atlas",
+    "league": "墨西超",
+    "physical_id": "atlas",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:atl-san-luis": {
+    "team": "Atl. San Luis",
+    "team_id": "atl-san-luis",
+    "league": "墨西超",
+    "physical_id": "atl-san-luis",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:club-leon": {
+    "team": "Club Leon",
+    "team_id": "club-leon",
+    "league": "墨西超",
+    "physical_id": "club-leon",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:puebla": {
+    "team": "Puebla",
+    "team_id": "puebla",
+    "league": "墨西超",
+    "physical_id": "puebla",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:necaxa": {
+    "team": "Necaxa",
+    "team_id": "necaxa",
+    "league": "墨西超",
+    "physical_id": "necaxa",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:club-tijuana": {
+    "team": "Club Tijuana",
+    "team_id": "club-tijuana",
+    "league": "墨西超",
+    "physical_id": "club-tijuana",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:mazatlan-fc": {
+    "team": "Mazatlan FC",
+    "team_id": "mazatlan-fc",
+    "league": "墨西超",
+    "physical_id": "mazatlan-fc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:juarez": {
+    "team": "Juarez",
+    "team_id": "juarez",
+    "league": "墨西超",
+    "physical_id": "juarez",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:queretaro": {
+    "team": "Queretaro",
+    "team_id": "queretaro",
+    "league": "墨西超",
+    "physical_id": "queretaro",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "墨西超:planb-santoslaguna": {
+    "team": "Santos Laguna",
+    "team_id": "planb-santoslaguna",
+    "league": "墨西超",
+    "physical_id": "planb-santoslaguna",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-melbourne-city-fc": {
+    "team": "Melbourne City FC",
+    "team_id": "a-league-melbourne-city-fc",
+    "league": "A-League",
+    "physical_id": "a-league-melbourne-city-fc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-wellington-phoenix": {
+    "team": "Wellington Phoenix",
+    "team_id": "a-league-wellington-phoenix",
+    "league": "A-League",
+    "physical_id": "a-league-wellington-phoenix",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-adelaide-united": {
+    "team": "Adelaide United",
+    "team_id": "a-league-adelaide-united",
+    "league": "A-League",
+    "physical_id": "a-league-adelaide-united",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-western-united": {
+    "team": "Western United",
+    "team_id": "a-league-western-united",
+    "league": "A-League",
+    "physical_id": "a-league-western-united",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-perth-glory": {
+    "team": "Perth Glory",
+    "team_id": "a-league-perth-glory",
+    "league": "A-League",
+    "physical_id": "a-league-perth-glory",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-melbourne-victory": {
+    "team": "Melbourne Victory",
+    "team_id": "a-league-melbourne-victory",
+    "league": "A-League",
+    "physical_id": "a-league-melbourne-victory",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-sydney-fc": {
+    "team": "Sydney FC",
+    "team_id": "a-league-sydney-fc",
+    "league": "A-League",
+    "physical_id": "a-league-sydney-fc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-western-sydney-wanderers": {
+    "team": "Western Sydney Wanderers",
+    "team_id": "a-league-western-sydney-wanderers",
+    "league": "A-League",
+    "physical_id": "a-league-western-sydney-wanderers",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-newcastle-united-jets": {
+    "team": "Newcastle United Jets",
+    "team_id": "a-league-newcastle-united-jets",
+    "league": "A-League",
+    "physical_id": "a-league-newcastle-united-jets",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-central-coast-mariners": {
+    "team": "Central Coast Mariners",
+    "team_id": "a-league-central-coast-mariners",
+    "league": "A-League",
+    "physical_id": "a-league-central-coast-mariners",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-macarthur-fc": {
+    "team": "Macarthur FC",
+    "team_id": "a-league-macarthur-fc",
+    "league": "A-League",
+    "physical_id": "a-league-macarthur-fc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "A-League:a-league-brisbane-roar": {
+    "team": "Brisbane Roar",
+    "team_id": "a-league-brisbane-roar",
+    "league": "A-League",
+    "physical_id": "a-league-brisbane-roar",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "日職:planb-hokkaidoconsadolesapporo": {
+    "team": "Hokkaido Consadole Sapporo",
+    "team_id": "planb-hokkaidoconsadolesapporo",
+    "league": "日職",
+    "physical_id": "planb-hokkaidoconsadolesapporo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-celtic": {
+    "team": "Celtic",
+    "team_id": "planb-celtic",
+    "league": "蘇超",
+    "physical_id": "planb-celtic",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-rangers": {
+    "team": "Rangers",
+    "team_id": "planb-rangers",
+    "league": "蘇超",
+    "physical_id": "planb-rangers",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-hearts": {
+    "team": "Hearts",
+    "team_id": "planb-hearts",
+    "league": "蘇超",
+    "physical_id": "planb-hearts",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-hibernian": {
+    "team": "Hibernian",
+    "team_id": "planb-hibernian",
+    "league": "蘇超",
+    "physical_id": "planb-hibernian",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-aberdeen": {
+    "team": "Aberdeen",
+    "team_id": "planb-aberdeen",
+    "league": "蘇超",
+    "physical_id": "planb-aberdeen",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-motherwell": {
+    "team": "Motherwell",
+    "team_id": "planb-motherwell",
+    "league": "蘇超",
+    "physical_id": "planb-motherwell",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-stmirren": {
+    "team": "St Mirren",
+    "team_id": "planb-stmirren",
+    "league": "蘇超",
+    "physical_id": "planb-stmirren",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-rosscounty": {
+    "team": "Ross County",
+    "team_id": "planb-rosscounty",
+    "league": "蘇超",
+    "physical_id": "planb-rosscounty",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇超:planb-stjohnstone": {
+    "team": "St Johnstone",
+    "team_id": "planb-stjohnstone",
+    "league": "蘇超",
+    "physical_id": "planb-stjohnstone",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-frosinone": {
+    "team": "Frosinone",
+    "team_id": "A1000-frosinone",
+    "league": "意乙",
+    "physical_id": "A1000-frosinone",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-parma": {
+    "team": "Parma",
+    "team_id": "A1000-parma",
+    "league": "意乙",
+    "physical_id": "A1000-parma",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-perugia": {
+    "team": "Perugia",
+    "team_id": "A1000-perugia",
+    "league": "意乙",
+    "physical_id": "A1000-perugia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-cittadella": {
+    "team": "Cittadella",
+    "team_id": "A1000-cittadella",
+    "league": "意乙",
+    "physical_id": "A1000-cittadella",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-reggina": {
+    "team": "Reggina",
+    "team_id": "A1000-reggina",
+    "league": "意乙",
+    "physical_id": "A1000-reggina",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-ternana": {
+    "team": "Ternana",
+    "team_id": "A1000-ternana",
+    "league": "意乙",
+    "physical_id": "A1000-ternana",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-brescia": {
+    "team": "Brescia",
+    "team_id": "A1000-brescia",
+    "league": "意乙",
+    "physical_id": "A1000-brescia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-ascoli": {
+    "team": "Ascoli",
+    "team_id": "A1000-ascoli",
+    "league": "意乙",
+    "physical_id": "A1000-ascoli",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-cosenza": {
+    "team": "Cosenza",
+    "team_id": "A1000-cosenza",
+    "league": "意乙",
+    "physical_id": "A1000-cosenza",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-benevento": {
+    "team": "Benevento",
+    "team_id": "A1000-benevento",
+    "league": "意乙",
+    "physical_id": "A1000-benevento",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-cremonese": {
+    "team": "Cremonese",
+    "team_id": "A1000-cremonese",
+    "league": "意乙",
+    "physical_id": "A1000-cremonese",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-como": {
+    "team": "Como",
+    "team_id": "A1000-como",
+    "league": "意乙",
+    "physical_id": "A1000-como",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-pisa": {
+    "team": "Pisa",
+    "team_id": "A1000-pisa",
+    "league": "意乙",
+    "physical_id": "A1000-pisa",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-spal": {
+    "team": "Spal",
+    "team_id": "A1000-spal",
+    "league": "意乙",
+    "physical_id": "A1000-spal",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-bari": {
+    "team": "Bari",
+    "team_id": "A1000-bari",
+    "league": "意乙",
+    "physical_id": "A1000-bari",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-palermo": {
+    "team": "Palermo",
+    "team_id": "A1000-palermo",
+    "league": "意乙",
+    "physical_id": "A1000-palermo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-sudtirol": {
+    "team": "Sudtirol",
+    "team_id": "A1000-sudtirol",
+    "league": "意乙",
+    "physical_id": "A1000-sudtirol",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-modena": {
+    "team": "Modena",
+    "team_id": "A1000-modena",
+    "league": "意乙",
+    "physical_id": "A1000-modena",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-venezia": {
+    "team": "Venezia",
+    "team_id": "A1000-venezia",
+    "league": "意乙",
+    "physical_id": "A1000-venezia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-catanzaro": {
+    "team": "Catanzaro",
+    "team_id": "A1000-catanzaro",
+    "league": "意乙",
+    "physical_id": "A1000-catanzaro",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-sampdoria": {
+    "team": "Sampdoria",
+    "team_id": "A1000-sampdoria",
+    "league": "意乙",
+    "physical_id": "A1000-sampdoria",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-spezia": {
+    "team": "Spezia",
+    "team_id": "A1000-spezia",
+    "league": "意乙",
+    "physical_id": "A1000-spezia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "意乙:A1000-reggiana": {
+    "team": "Reggiana",
+    "team_id": "A1000-reggiana",
+    "league": "意乙",
+    "physical_id": "A1000-reggiana",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-huesca": {
+    "team": "Huesca",
+    "team_id": "A1000-huesca",
+    "league": "西乙",
+    "physical_id": "A1000-huesca",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-eibar": {
+    "team": "Eibar",
+    "team_id": "A1000-eibar",
+    "league": "西乙",
+    "physical_id": "A1000-eibar",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-zaragoza": {
+    "team": "Zaragoza",
+    "team_id": "A1000-zaragoza",
+    "league": "西乙",
+    "physical_id": "A1000-zaragoza",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-ibiza": {
+    "team": "Ibiza",
+    "team_id": "A1000-ibiza",
+    "league": "西乙",
+    "physical_id": "A1000-ibiza",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-leganes": {
+    "team": "Leganes",
+    "team_id": "A1000-leganes",
+    "league": "西乙",
+    "physical_id": "A1000-leganes",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-amorebieta": {
+    "team": "Amorebieta",
+    "team_id": "A1000-amorebieta",
+    "league": "西乙",
+    "physical_id": "A1000-amorebieta",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-ponferradina": {
+    "team": "Ponferradina",
+    "team_id": "A1000-ponferradina",
+    "league": "西乙",
+    "physical_id": "A1000-ponferradina",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-alcorcon": {
+    "team": "Alcorcon",
+    "team_id": "A1000-alcorcon",
+    "league": "西乙",
+    "physical_id": "A1000-alcorcon",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-spgijon": {
+    "team": "Sp Gijon",
+    "team_id": "A1000-spgijon",
+    "league": "西乙",
+    "physical_id": "A1000-spgijon",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-burgos": {
+    "team": "Burgos",
+    "team_id": "A1000-burgos",
+    "league": "西乙",
+    "physical_id": "A1000-burgos",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-oviedo": {
+    "team": "Oviedo",
+    "team_id": "A1000-oviedo",
+    "league": "西乙",
+    "physical_id": "A1000-oviedo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-lugo": {
+    "team": "Lugo",
+    "team_id": "A1000-lugo",
+    "league": "西乙",
+    "physical_id": "A1000-lugo",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-tenerife": {
+    "team": "Tenerife",
+    "team_id": "A1000-tenerife",
+    "league": "西乙",
+    "physical_id": "A1000-tenerife",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-laspalmas": {
+    "team": "Las Palmas",
+    "team_id": "A1000-laspalmas",
+    "league": "西乙",
+    "physical_id": "A1000-laspalmas",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-valladolid": {
+    "team": "Valladolid",
+    "team_id": "A1000-valladolid",
+    "league": "西乙",
+    "physical_id": "A1000-valladolid",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-malaga": {
+    "team": "Malaga",
+    "team_id": "A1000-malaga",
+    "league": "西乙",
+    "physical_id": "A1000-malaga",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-mirandes": {
+    "team": "Mirandes",
+    "team_id": "A1000-mirandes",
+    "league": "西乙",
+    "physical_id": "A1000-mirandes",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-cartagena": {
+    "team": "Cartagena",
+    "team_id": "A1000-cartagena",
+    "league": "西乙",
+    "physical_id": "A1000-cartagena",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-almeria": {
+    "team": "Almeria",
+    "team_id": "A1000-almeria",
+    "league": "西乙",
+    "physical_id": "A1000-almeria",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-levante": {
+    "team": "Levante",
+    "team_id": "A1000-levante",
+    "league": "西乙",
+    "physical_id": "A1000-levante",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-santander": {
+    "team": "Santander",
+    "team_id": "A1000-santander",
+    "league": "西乙",
+    "physical_id": "A1000-santander",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-villarrealb": {
+    "team": "Villarreal B",
+    "team_id": "A1000-villarrealb",
+    "league": "西乙",
+    "physical_id": "A1000-villarrealb",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-granada": {
+    "team": "Granada",
+    "team_id": "A1000-granada",
+    "league": "西乙",
+    "physical_id": "A1000-granada",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-andorra": {
+    "team": "Andorra",
+    "team_id": "A1000-andorra",
+    "league": "西乙",
+    "physical_id": "A1000-andorra",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-albacete": {
+    "team": "Albacete",
+    "team_id": "A1000-albacete",
+    "league": "西乙",
+    "physical_id": "A1000-albacete",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-elche": {
+    "team": "Elche",
+    "team_id": "A1000-elche",
+    "league": "西乙",
+    "physical_id": "A1000-elche",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-ferrol": {
+    "team": "Ferrol",
+    "team_id": "A1000-ferrol",
+    "league": "西乙",
+    "physical_id": "A1000-ferrol",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "西乙:A1000-eldense": {
+    "team": "Eldense",
+    "team_id": "A1000-eldense",
+    "league": "西乙",
+    "physical_id": "A1000-eldense",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-bastia": {
+    "team": "Bastia",
+    "team_id": "A1000-bastia",
+    "league": "法乙",
+    "physical_id": "A1000-bastia",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-nimes": {
+    "team": "Nimes",
+    "team_id": "A1000-nimes",
+    "league": "法乙",
+    "physical_id": "A1000-nimes",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-amiens": {
+    "team": "Amiens",
+    "team_id": "A1000-amiens",
+    "league": "法乙",
+    "physical_id": "A1000-amiens",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-auxerre": {
+    "team": "Auxerre",
+    "team_id": "A1000-auxerre",
+    "league": "法乙",
+    "physical_id": "A1000-auxerre",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-caen": {
+    "team": "Caen",
+    "team_id": "A1000-caen",
+    "league": "法乙",
+    "physical_id": "A1000-caen",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-rodez": {
+    "team": "Rodez",
+    "team_id": "A1000-rodez",
+    "league": "法乙",
+    "physical_id": "A1000-rodez",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-dunkerque": {
+    "team": "Dunkerque",
+    "team_id": "A1000-dunkerque",
+    "league": "法乙",
+    "physical_id": "A1000-dunkerque",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-quevillyrouen": {
+    "team": "Quevilly Rouen",
+    "team_id": "A1000-quevillyrouen",
+    "league": "法乙",
+    "physical_id": "A1000-quevillyrouen",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-grenoble": {
+    "team": "Grenoble",
+    "team_id": "A1000-grenoble",
+    "league": "法乙",
+    "physical_id": "A1000-grenoble",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-parisfc": {
+    "team": "Paris FC",
+    "team_id": "A1000-parisfc",
+    "league": "法乙",
+    "physical_id": "A1000-parisfc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-lehavre": {
+    "team": "Le Havre",
+    "team_id": "A1000-lehavre",
+    "league": "法乙",
+    "physical_id": "A1000-lehavre",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-guingamp": {
+    "team": "Guingamp",
+    "team_id": "A1000-guingamp",
+    "league": "法乙",
+    "physical_id": "A1000-guingamp",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-paufc": {
+    "team": "Pau FC",
+    "team_id": "A1000-paufc",
+    "league": "法乙",
+    "physical_id": "A1000-paufc",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-ajaccio": {
+    "team": "Ajaccio",
+    "team_id": "A1000-ajaccio",
+    "league": "法乙",
+    "physical_id": "A1000-ajaccio",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-valenciennes": {
+    "team": "Valenciennes",
+    "team_id": "A1000-valenciennes",
+    "league": "法乙",
+    "physical_id": "A1000-valenciennes",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-niort": {
+    "team": "Niort",
+    "team_id": "A1000-niort",
+    "league": "法乙",
+    "physical_id": "A1000-niort",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-dijon": {
+    "team": "Dijon",
+    "team_id": "A1000-dijon",
+    "league": "法乙",
+    "physical_id": "A1000-dijon",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-sochaux": {
+    "team": "Sochaux",
+    "team_id": "A1000-sochaux",
+    "league": "法乙",
+    "physical_id": "A1000-sochaux",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-stetienne": {
+    "team": "St Etienne",
+    "team_id": "A1000-stetienne",
+    "league": "法乙",
+    "physical_id": "A1000-stetienne",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-annecy": {
+    "team": "Annecy",
+    "team_id": "A1000-annecy",
+    "league": "法乙",
+    "physical_id": "A1000-annecy",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-laval": {
+    "team": "Laval",
+    "team_id": "A1000-laval",
+    "league": "法乙",
+    "physical_id": "A1000-laval",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-bordeaux": {
+    "team": "Bordeaux",
+    "team_id": "A1000-bordeaux",
+    "league": "法乙",
+    "physical_id": "A1000-bordeaux",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-metz": {
+    "team": "Metz",
+    "team_id": "A1000-metz",
+    "league": "法乙",
+    "physical_id": "A1000-metz",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "法乙:A1000-troyes": {
+    "team": "Troyes",
+    "team_id": "A1000-troyes",
+    "league": "法乙",
+    "physical_id": "A1000-troyes",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-airdrieutd": {
+    "team": "Airdrie Utd",
+    "team_id": "A1000-airdrieutd",
+    "league": "蘇冠",
+    "physical_id": "A1000-airdrieutd",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-montrose": {
+    "team": "Montrose",
+    "team_id": "A1000-montrose",
+    "league": "蘇冠",
+    "physical_id": "A1000-montrose",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-clyde": {
+    "team": "Clyde",
+    "team_id": "A1000-clyde",
+    "league": "蘇冠",
+    "physical_id": "A1000-clyde",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-dumbarton": {
+    "team": "Dumbarton",
+    "team_id": "A1000-dumbarton",
+    "league": "蘇冠",
+    "physical_id": "A1000-dumbarton",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-coverangers": {
+    "team": "Cove Rangers",
+    "team_id": "A1000-coverangers",
+    "league": "蘇冠",
+    "physical_id": "A1000-coverangers",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-falkirk": {
+    "team": "Falkirk",
+    "team_id": "A1000-falkirk",
+    "league": "蘇冠",
+    "physical_id": "A1000-falkirk",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-peterhead": {
+    "team": "Peterhead",
+    "team_id": "A1000-peterhead",
+    "league": "蘇冠",
+    "physical_id": "A1000-peterhead",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-alloa": {
+    "team": "Alloa",
+    "team_id": "A1000-alloa",
+    "league": "蘇冠",
+    "physical_id": "A1000-alloa",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-keltyhearts": {
+    "team": "Kelty Hearts",
+    "team_id": "A1000-keltyhearts",
+    "league": "蘇冠",
+    "physical_id": "A1000-keltyhearts",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-queenofsth": {
+    "team": "Queen of Sth",
+    "team_id": "A1000-queenofsth",
+    "league": "蘇冠",
+    "physical_id": "A1000-queenofsth",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  },
+  "蘇冠:A1000-annanathletic": {
+    "team": "Annan Athletic",
+    "team_id": "A1000-annanathletic",
+    "league": "蘇冠",
+    "physical_id": "A1000-annanathletic",
+    "front": [],
+    "back": [],
+    "source_status": "not_verified"
+  }
+}
