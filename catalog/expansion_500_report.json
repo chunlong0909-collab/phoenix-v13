@@ -1,0 +1,1037 @@
+{
+  "base_teams": 367,
+  "total_teams": 432,
+  "added_teams": 65,
+  "target_total": 500,
+  "target_reached": false,
+  "ft_invalid_rows": 0,
+  "new_ht_nonnull_rows": 0,
+  "source_audit": {
+    "阿甲": {
+      "source_type": "football-data.co.uk official aggregate CSV",
+      "url": "https://football-data.co.uk/new/ARG.csv",
+      "seasons": {
+        "2021": {
+          "source_season": "2021",
+          "file": "data/raw/ARG_all_seasons.csv",
+          "rows": 501,
+          "ft_invalid_rows": 0,
+          "bytes": 881271
+        },
+        "2022": {
+          "source_season": "2022",
+          "file": "data/raw/ARG_all_seasons.csv",
+          "rows": 581,
+          "ft_invalid_rows": 0,
+          "bytes": 881271
+        },
+        "2023": {
+          "source_season": "2023",
+          "file": "data/raw/ARG_all_seasons.csv",
+          "rows": 582,
+          "ft_invalid_rows": 0,
+          "bytes": 881271
+        },
+        "2024": {
+          "source_season": "2024",
+          "file": "data/raw/ARG_all_seasons.csv",
+          "rows": 581,
+          "ft_invalid_rows": 0,
+          "bytes": 881271
+        }
+      }
+    },
+    "巴甲": {
+      "source_type": "football-data.co.uk official aggregate CSV",
+      "url": "https://football-data.co.uk/new/BRA.csv",
+      "seasons": {
+        "2021": {
+          "source_season": "2021",
+          "file": "data/raw/BRA_all_seasons.csv",
+          "rows": 380,
+          "ft_invalid_rows": 0,
+          "bytes": 646941
+        },
+        "2022": {
+          "source_season": "2022",
+          "file": "data/raw/BRA_all_seasons.csv",
+          "rows": 380,
+          "ft_invalid_rows": 0,
+          "bytes": 646941
+        },
+        "2023": {
+          "source_season": "2023",
+          "file": "data/raw/BRA_all_seasons.csv",
+          "rows": 380,
+          "ft_invalid_rows": 0,
+          "bytes": 646941
+        },
+        "2024": {
+          "source_season": "2024",
+          "file": "data/raw/BRA_all_seasons.csv",
+          "rows": 380,
+          "ft_invalid_rows": 0,
+          "bytes": 646941
+        }
+      }
+    },
+    "美職MLS": {
+      "source_type": "football-data.co.uk official aggregate CSV",
+      "url": "https://football-data.co.uk/new/USA.csv",
+      "seasons": {
+        "2021": {
+          "source_season": "2021",
+          "file": "data/raw/MLS_all_seasons.csv",
+          "rows": 472,
+          "ft_invalid_rows": 0,
+          "bytes": 744346
+        },
+        "2022": {
+          "source_season": "2022",
+          "file": "data/raw/MLS_all_seasons.csv",
+          "rows": 489,
+          "ft_invalid_rows": 0,
+          "bytes": 744346
+        },
+        "2023": {
+          "source_season": "2023",
+          "file": "data/raw/MLS_all_seasons.csv",
+          "rows": 521,
+          "ft_invalid_rows": 0,
+          "bytes": 744346
+        },
+        "2024": {
+          "source_season": "2024",
+          "file": "data/raw/MLS_all_seasons.csv",
+          "rows": 522,
+          "ft_invalid_rows": 0,
+          "bytes": 744346
+        }
+      }
+    },
+    "墨西超": {
+      "source_type": "football-data.co.uk official aggregate CSV",
+      "url": "https://football-data.co.uk/new/MEX.csv",
+      "seasons": {
+        "2021-22": {
+          "source_season": "2021/2022",
+          "file": "data/raw/MEX_all_seasons.csv",
+          "rows": 342,
+          "ft_invalid_rows": 0,
+          "bytes": 575933
+        },
+        "2022-23": {
+          "source_season": "2022/2023",
+          "file": "data/raw/MEX_all_seasons.csv",
+          "rows": 342,
+          "ft_invalid_rows": 0,
+          "bytes": 575933
+        },
+        "2023-24": {
+          "source_season": "2023/2024",
+          "file": "data/raw/MEX_all_seasons.csv",
+          "rows": 340,
+          "ft_invalid_rows": 0,
+          "bytes": 575933
+        },
+        "2024-25": {
+          "source_season": "2024/2025",
+          "file": "data/raw/MEX_all_seasons.csv",
+          "rows": 340,
+          "ft_invalid_rows": 0,
+          "bytes": 575933
+        }
+      }
+    },
+    "J1聯賽": {
+      "source_type": "football-data.co.uk official aggregate CSV",
+      "url": "https://football-data.co.uk/new/JPN.csv",
+      "seasons": {
+        "2021": {
+          "source_season": "2021",
+          "file": "data/raw/JPN_all_seasons.csv",
+          "rows": 380,
+          "ft_invalid_rows": 0,
+          "bytes": 577742
+        },
+        "2022": {
+          "source_season": "2022",
+          "file": "data/raw/JPN_all_seasons.csv",
+          "rows": 310,
+          "ft_invalid_rows": 0,
+          "bytes": 577742
+        },
+        "2023": {
+          "source_season": "2023",
+          "file": "data/raw/JPN_all_seasons.csv",
+          "rows": 306,
+          "ft_invalid_rows": 0,
+          "bytes": 577742
+        },
+        "2024": {
+          "source_season": "2024",
+          "file": "data/raw/JPN_all_seasons.csv",
+          "rows": 380,
+          "ft_invalid_rows": 0,
+          "bytes": 577742
+        }
+      }
+    }
+  },
+  "selected_by_league": {
+    "阿甲": [
+      "Boca Juniors",
+      "River Plate",
+      "Estudiantes L.P.",
+      "Velez Sarsfield",
+      "Rosario Central",
+      "Platense",
+      "Godoy Cruz",
+      "Independiente",
+      "Defensa y Justicia",
+      "Talleres Cordoba",
+      "Huracan",
+      "Gimnasia L.P.",
+      "Banfield",
+      "Union de Santa Fe",
+      "Sarmiento Junin",
+      "San Lorenzo",
+      "Newells Old Boys",
+      "Lanus",
+      "Central Cordoba",
+      "Atl. Tucuman"
+    ],
+    "巴甲": [
+      "Cuiaba"
+    ],
+    "美職MLS": [
+      "Los Angeles FC",
+      "New York City",
+      "Orlando City",
+      "New York Red Bulls",
+      "Seattle Sounders",
+      "Real Salt Lake",
+      "Philadelphia Union",
+      "FC Cincinnati",
+      "Atlanta Utd",
+      "Columbus Crew",
+      "Vancouver Whitecaps",
+      "Los Angeles Galaxy",
+      "Houston Dynamo",
+      "Sporting Kansas City",
+      "Portland Timbers",
+      "Nashville SC",
+      "Minnesota United",
+      "FC Dallas",
+      "Inter Miami",
+      "New England Revolution",
+      "Colorado Rapids",
+      "CF Montreal",
+      "Austin FC",
+      "San Jose Earthquakes",
+      "Toronto FC",
+      "DC United",
+      "Chicago Fire"
+    ],
+    "墨西超": [
+      "Club America",
+      "Tigres UANL",
+      "Monterrey",
+      "Cruz Azul",
+      "Toluca",
+      "Pachuca",
+      "Guadalajara Chivas",
+      "UNAM Pumas",
+      "Atlas",
+      "Atl. San Luis",
+      "Club Leon",
+      "Puebla",
+      "Necaxa",
+      "Club Tijuana",
+      "Mazatlan FC",
+      "Juarez",
+      "Queretaro"
+    ],
+    "J1聯賽": []
+  },
+  "skipped_or_limited": {
+    "阿甲": {
+      "available_new_full4": 20,
+      "target": 28,
+      "not_added_due_to_cap": 0,
+      "minimum_matches_per_team_by_season": {
+        "2021": 30,
+        "2022": 30,
+        "2023": 30,
+        "2024": 27
+      },
+      "reason_if_zero": "No team met all four complete-season FT thresholds; partial/current-season rows were excluded."
+    },
+    "巴甲": {
+      "available_new_full4": 1,
+      "target": 20,
+      "not_added_due_to_cap": 0,
+      "minimum_matches_per_team_by_season": {
+        "2021": 38,
+        "2022": 38,
+        "2023": 38,
+        "2024": 38
+      },
+      "reason_if_zero": "No team met all four complete-season FT thresholds; partial/current-season rows were excluded."
+    },
+    "美職MLS": {
+      "available_new_full4": 27,
+      "target": 29,
+      "not_added_due_to_cap": 0,
+      "minimum_matches_per_team_by_season": {
+        "2021": 34,
+        "2022": 34,
+        "2023": 34,
+        "2024": 34
+      },
+      "reason_if_zero": "No team met all four complete-season FT thresholds; partial/current-season rows were excluded."
+    },
+    "墨西超": {
+      "available_new_full4": 17,
+      "target": 18,
+      "not_added_due_to_cap": 0,
+      "minimum_matches_per_team_by_season": {
+        "2021-22": 34,
+        "2022-23": 34,
+        "2023-24": 34,
+        "2024-25": 34
+      },
+      "reason_if_zero": "No team met all four complete-season FT thresholds; partial/current-season rows were excluded."
+    },
+    "J1聯賽": {
+      "available_new_full4": 0,
+      "target": 20,
+      "not_added_due_to_cap": 0,
+      "minimum_matches_per_team_by_season": {
+        "2021": 38,
+        "2022": 34,
+        "2023": 34,
+        "2024": 38
+      },
+      "reason_if_zero": "No team met all four complete-season FT thresholds; partial/current-season rows were excluded."
+    }
+  },
+  "added": [
+    {
+      "league": "阿甲",
+      "name": "Boca Juniors",
+      "matches": 168,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "River Plate",
+      "matches": 166,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Estudiantes L.P.",
+      "matches": 166,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Velez Sarsfield",
+      "matches": 165,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Rosario Central",
+      "matches": 164,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Platense",
+      "matches": 164,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Godoy Cruz",
+      "matches": 164,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Independiente",
+      "matches": 163,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Defensa y Justicia",
+      "matches": 163,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Talleres Cordoba",
+      "matches": 162,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Huracan",
+      "matches": 162,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Gimnasia L.P.",
+      "matches": 162,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Banfield",
+      "matches": 162,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Union de Santa Fe",
+      "matches": 161,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Sarmiento Junin",
+      "matches": 161,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "San Lorenzo",
+      "matches": 161,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Newells Old Boys",
+      "matches": 161,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Lanus",
+      "matches": 161,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Central Cordoba",
+      "matches": 161,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "阿甲",
+      "name": "Atl. Tucuman",
+      "matches": 161,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "巴甲",
+      "name": "Cuiaba",
+      "matches": 152,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Los Angeles FC",
+      "matches": 148,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "New York City",
+      "matches": 147,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Orlando City",
+      "matches": 146,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "New York Red Bulls",
+      "matches": 146,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Seattle Sounders",
+      "matches": 145,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Real Salt Lake",
+      "matches": 145,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Philadelphia Union",
+      "matches": 145,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "FC Cincinnati",
+      "matches": 145,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Atlanta Utd",
+      "matches": 145,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Columbus Crew",
+      "matches": 144,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Vancouver Whitecaps",
+      "matches": 143,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Los Angeles Galaxy",
+      "matches": 143,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Houston Dynamo",
+      "matches": 143,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Sporting Kansas City",
+      "matches": 142,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Portland Timbers",
+      "matches": 141,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Nashville SC",
+      "matches": 141,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Minnesota United",
+      "matches": 141,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "FC Dallas",
+      "matches": 141,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Inter Miami",
+      "matches": 140,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "New England Revolution",
+      "matches": 139,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Colorado Rapids",
+      "matches": 139,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "CF Montreal",
+      "matches": 139,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Austin FC",
+      "matches": 139,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "San Jose Earthquakes",
+      "matches": 137,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Toronto FC",
+      "matches": 136,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "DC United",
+      "matches": 136,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "美職MLS",
+      "name": "Chicago Fire",
+      "matches": 136,
+      "seasons": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Club America",
+      "matches": 175,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Tigres UANL",
+      "matches": 168,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Monterrey",
+      "matches": 164,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Cruz Azul",
+      "matches": 158,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Toluca",
+      "matches": 156,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Pachuca",
+      "matches": 156,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Guadalajara Chivas",
+      "matches": 154,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "UNAM Pumas",
+      "matches": 153,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Atlas",
+      "matches": 153,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Atl. San Luis",
+      "matches": 152,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Club Leon",
+      "matches": 150,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Puebla",
+      "matches": 148,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Necaxa",
+      "matches": 142,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Club Tijuana",
+      "matches": 140,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Mazatlan FC",
+      "matches": 138,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Juarez",
+      "matches": 138,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    },
+    {
+      "league": "墨西超",
+      "name": "Queretaro",
+      "matches": 137,
+      "seasons": [
+        "2021-22",
+        "2022-23",
+        "2023-24",
+        "2024-25"
+      ]
+    }
+  ],
+  "policy": "Real FT only; HT remains null; no score estimation. Teams must appear in all four source seasons and meet the configured completed-season FT threshold. Partial/current-season files are excluded."
+}

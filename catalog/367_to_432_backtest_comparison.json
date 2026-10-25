@@ -1,0 +1,31 @@
+{
+  "baseline_367": {
+    "catalog_total_teams": 367,
+    "unique_ft_matches": 23668,
+    "metrics": {
+      "sample_size": 4652,
+      "accuracy": 0.4628116938950989,
+      "over25_accuracy": 0.5354686156491831,
+      "precision": {
+        "home": 0.49267578125,
+        "draw": 0.06678539626001781,
+        "away": 0.7218095881161377
+      }
+    }
+  },
+  "world_catalog_actual": {
+    "catalog_total_teams": 432,
+    "unique_ft_matches": 29279,
+    "metrics": {
+      "sample_size": 4447,
+      "accuracy": 0.4681807960422757,
+      "over25_accuracy": 0.5365414886440297,
+      "precision": {
+        "home": 0.5046153846153846,
+        "draw": 0.05783582089552239,
+        "away": 0.7270175438596491
+      }
+    }
+  },
+  "note": "Comparison is descriptive; the 432-team release adds only real four-season FT and never imputes HT."
+}
