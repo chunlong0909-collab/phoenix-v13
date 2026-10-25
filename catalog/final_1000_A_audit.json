@@ -1,0 +1,1754 @@
+{
+  "baseline_teams": 462,
+  "baseline_catalog_matches": 50443,
+  "target_teams": 1000,
+  "total_teams": 574,
+  "added_teams": 112,
+  "shortfall": 426,
+  "sources": {
+    "德乙": {
+      "code": "D2",
+      "label": "Bundesliga 2",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 200,
+          "bytes": 140192,
+          "rows": 306,
+          "available": true
+        },
+        {
+          "season": "2223",
+          "status": 200,
+          "bytes": 140871,
+          "rows": 306,
+          "available": true
+        },
+        {
+          "season": "2324",
+          "status": 200,
+          "bytes": 137285,
+          "rows": 306,
+          "available": true
+        },
+        {
+          "season": "2425",
+          "status": 200,
+          "bytes": 157178,
+          "rows": 306,
+          "available": true
+        }
+      ],
+      "rows": 1224,
+      "ft_invalid_rows": 0,
+      "teams_seen": 30,
+      "eligible_new": 0,
+      "added": 0,
+      "error": null
+    },
+    "意乙": {
+      "code": "I2",
+      "label": "Serie B",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 200,
+          "bytes": 171409,
+          "rows": 380,
+          "available": true
+        },
+        {
+          "season": "2223",
+          "status": 200,
+          "bytes": 169009,
+          "rows": 380,
+          "available": true
+        },
+        {
+          "season": "2324",
+          "status": 200,
+          "bytes": 166710,
+          "rows": 380,
+          "available": true
+        },
+        {
+          "season": "2425",
+          "status": 200,
+          "bytes": 192674,
+          "rows": 380,
+          "available": true
+        }
+      ],
+      "rows": 1520,
+      "ft_invalid_rows": 0,
+      "teams_seen": 39,
+      "eligible_new": 23,
+      "added": 23,
+      "error": null
+    },
+    "西乙": {
+      "code": "SP2",
+      "label": "La Liga 2",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 200,
+          "bytes": 207787,
+          "rows": 462,
+          "available": true
+        },
+        {
+          "season": "2223",
+          "status": 200,
+          "bytes": 202621,
+          "rows": 462,
+          "available": true
+        },
+        {
+          "season": "2324",
+          "status": 200,
+          "bytes": 199754,
+          "rows": 462,
+          "available": true
+        },
+        {
+          "season": "2425",
+          "status": 200,
+          "bytes": 230032,
+          "rows": 462,
+          "available": true
+        }
+      ],
+      "rows": 1848,
+      "ft_invalid_rows": 0,
+      "teams_seen": 37,
+      "eligible_new": 28,
+      "added": 28,
+      "error": null
+    },
+    "法乙": {
+      "code": "F2",
+      "label": "Ligue 2",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 200,
+          "bytes": 170624,
+          "rows": 380,
+          "available": true
+        },
+        {
+          "season": "2223",
+          "status": 200,
+          "bytes": 170203,
+          "rows": 380,
+          "available": true
+        },
+        {
+          "season": "2324",
+          "status": 200,
+          "bytes": 167269,
+          "rows": 379,
+          "available": true
+        },
+        {
+          "season": "2425",
+          "status": 200,
+          "bytes": 155252,
+          "rows": 306,
+          "available": true
+        }
+      ],
+      "rows": 1445,
+      "ft_invalid_rows": 0,
+      "teams_seen": 32,
+      "eligible_new": 24,
+      "added": 24,
+      "error": null
+    },
+    "英甲": {
+      "code": "E3",
+      "label": "League One",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 200,
+          "bytes": 256169,
+          "rows": 552,
+          "available": true
+        },
+        {
+          "season": "2223",
+          "status": 200,
+          "bytes": 255530,
+          "rows": 552,
+          "available": true
+        },
+        {
+          "season": "2324",
+          "status": 200,
+          "bytes": 250842,
+          "rows": 552,
+          "available": true
+        },
+        {
+          "season": "2425",
+          "status": 200,
+          "bytes": 287557,
+          "rows": 552,
+          "available": true
+        }
+      ],
+      "rows": 2208,
+      "ft_invalid_rows": 0,
+      "teams_seen": 39,
+      "eligible_new": 26,
+      "added": 26,
+      "error": null
+    },
+    "英乙": {
+      "code": "E4",
+      "label": "League Two",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    },
+    "蘇冠": {
+      "code": "SC2",
+      "label": "Scottish Championship",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 200,
+          "bytes": 83348,
+          "rows": 180,
+          "available": true
+        },
+        {
+          "season": "2223",
+          "status": 200,
+          "bytes": 83683,
+          "rows": 180,
+          "available": true
+        },
+        {
+          "season": "2324",
+          "status": 200,
+          "bytes": 81152,
+          "rows": 180,
+          "available": true
+        },
+        {
+          "season": "2425",
+          "status": 200,
+          "bytes": 94833,
+          "rows": 180,
+          "available": true
+        }
+      ],
+      "rows": 720,
+      "ft_invalid_rows": 0,
+      "teams_seen": 21,
+      "eligible_new": 11,
+      "added": 11,
+      "error": null
+    },
+    "奧乙": {
+      "code": "AUT2",
+      "label": "Austria 2",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    },
+    "丹甲": {
+      "code": "DEN2",
+      "label": "Denmark 2",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    },
+    "瑞超": {
+      "code": "SWE",
+      "label": "Sweden Allsvenskan",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    },
+    "挪超": {
+      "code": "NOR",
+      "label": "Norway Eliteserien",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    },
+    "波蘭甲": {
+      "code": "POL",
+      "label": "Poland Ekstraklasa",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 404,
+          "bytes": 1271,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    },
+    "比乙": {
+      "code": "B2",
+      "label": "Belgium 2",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    },
+    "荷乙": {
+      "code": "N2",
+      "label": "Netherlands 2",
+      "evidence": [
+        {
+          "season": "2122",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2223",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2324",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        },
+        {
+          "season": "2425",
+          "status": 300,
+          "bytes": 810,
+          "available": false
+        }
+      ],
+      "rows": 0,
+      "ft_invalid_rows": 0,
+      "teams_seen": 0,
+      "eligible_new": 0,
+      "added": 0,
+      "error": "source unavailable"
+    }
+  },
+  "added": [
+    {
+      "league": "意乙",
+      "name": "Frosinone",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Parma",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Perugia",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Cittadella",
+      "matches": 152,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Reggina",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Ternana",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Brescia",
+      "matches": 152,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Ascoli",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Cosenza",
+      "matches": 152,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Benevento",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Cremonese",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Como",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Pisa",
+      "matches": 152,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Spal",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Bari",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Palermo",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Sudtirol",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Modena",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Venezia",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Catanzaro",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Sampdoria",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Spezia",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "意乙",
+      "name": "Reggiana",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "I2"
+    },
+    {
+      "league": "西乙",
+      "name": "Huesca",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Eibar",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Zaragoza",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Ibiza",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Leganes",
+      "matches": 126,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Amorebieta",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Ponferradina",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Alcorcon",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Sp Gijon",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Burgos",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Oviedo",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Lugo",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Tenerife",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Las Palmas",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Valladolid",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Malaga",
+      "matches": 126,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Mirandes",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Cartagena",
+      "matches": 168,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Almeria",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Levante",
+      "matches": 126,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Santander",
+      "matches": 126,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Villarreal B",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Granada",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Andorra",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Albacete",
+      "matches": 126,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Elche",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Ferrol",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "西乙",
+      "name": "Eldense",
+      "matches": 84,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SP2"
+    },
+    {
+      "league": "法乙",
+      "name": "Bastia",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Nimes",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Amiens",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Auxerre",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Caen",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Rodez",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Dunkerque",
+      "matches": 110,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Quevilly Rouen",
+      "matches": 114,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Grenoble",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Paris FC",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Le Havre",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Guingamp",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Pau FC",
+      "matches": 148,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Ajaccio",
+      "matches": 110,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Valenciennes",
+      "matches": 113,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Niort",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Dijon",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Sochaux",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "St Etienne",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Annecy",
+      "matches": 110,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Laval",
+      "matches": 110,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Bordeaux",
+      "matches": 76,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Metz",
+      "matches": 72,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "法乙",
+      "name": "Troyes",
+      "matches": 71,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "F2"
+    },
+    {
+      "league": "英甲",
+      "name": "Carlisle",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Colchester",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Bradford",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Forest Green",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Sutton",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Harrogate",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Rochdale",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Hartlepool",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Crawley Town",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Mansfield",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Northampton",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Newport County",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Salford",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Leyton Orient",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Swindon",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Stevenage",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Barrow",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Tranmere",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Walsall",
+      "matches": 184,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "AFC Wimbledon",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Gillingham",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Doncaster",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Grimsby",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Crewe",
+      "matches": 138,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Stockport",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "英甲",
+      "name": "Notts County",
+      "matches": 92,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "E3"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Airdrie Utd",
+      "matches": 72,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Montrose",
+      "matches": 144,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Clyde",
+      "matches": 72,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Dumbarton",
+      "matches": 72,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Cove Rangers",
+      "matches": 108,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Falkirk",
+      "matches": 108,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Peterhead",
+      "matches": 72,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Alloa",
+      "matches": 144,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Kelty Hearts",
+      "matches": 108,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Queen of Sth",
+      "matches": 108,
+      "weight": 1.0,
+      "tier": "concrete",
+      "source": "SC2"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Annan Athletic",
+      "matches": 72,
+      "weight": 0.6,
+      "tier": "concrete",
+      "source": "SC2"
+    }
+  ],
+  "skipped": [
+    {
+      "league": "德乙",
+      "name": "Wehen",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "德乙",
+      "name": "FC Koln",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "德乙",
+      "name": "Preußen Münster",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "德乙",
+      "name": "Ulm",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Pordenone",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Vicenza",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Monza",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Alessandria",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Lecce",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Crotone",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Cagliari",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Genoa",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "FeralpiSalo",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Lecco",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Juve Stabia",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Salernitana",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Sassuolo",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Cesena",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Carrarese",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "意乙",
+      "name": "Mantova",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Sociedad B",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Girona",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Fuenlabrada",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Alaves",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Espanol",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Cordoba",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Cadiz",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "Castellon",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "西乙",
+      "name": "La Coruna",
+      "matches": 42,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Nancy",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Toulouse",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Concarneau",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Angers",
+      "matches": 38,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Red Star",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Clermont",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Martigues",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "法乙",
+      "name": "Lorient",
+      "matches": 34,
+      "reason": "below_60"
+    },
+    {
+      "league": "英甲",
+      "name": "Oldham",
+      "matches": 46,
+      "reason": "below_60"
+    },
+    {
+      "league": "英甲",
+      "name": "Scunthorpe",
+      "matches": 46,
+      "reason": "below_60"
+    },
+    {
+      "league": "英甲",
+      "name": "Wrexham",
+      "matches": 46,
+      "reason": "below_60"
+    },
+    {
+      "league": "英甲",
+      "name": "Chesterfield",
+      "matches": 46,
+      "reason": "below_60"
+    },
+    {
+      "league": "英甲",
+      "name": "Bromley",
+      "matches": 46,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "East Fife",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Queens Park",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Dunfermline",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "FC Edinburgh",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Hamilton",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Stirling",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Edinburgh City",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Inverness C",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Stenhousemuir",
+      "matches": 36,
+      "reason": "below_60"
+    },
+    {
+      "league": "蘇冠",
+      "name": "Arbroath",
+      "matches": 36,
+      "reason": "below_60"
+    }
+  ],
+  "ft_invalid_rows": 0,
+  "new_ht_nonnull_rows": 0,
+  "policy": "Immutable 462-team steel base; append only; real FT; HT remains null; 60-89 matches weight 0.6, 90+ weight 1.0; unavailable sources skipped.",
+  "status": "partial_honest_data_only"
+}

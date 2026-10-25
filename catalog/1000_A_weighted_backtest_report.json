@@ -1,0 +1,62 @@
+{
+  "method": "Dixon-Coles low-score calibrated Poisson; FT only; HT never used or imputed",
+  "catalog_total_teams": 574,
+  "catalog_match_rows": 63509,
+  "unique_ft_matches": 38682,
+  "ft_invalid_rows": 1365,
+  "train_period": "before 2023-08-01",
+  "test_period": "2023-08-01..2024-07-31",
+  "groups": {
+    "steel": {
+      "sample_size": 5696,
+      "accuracy": 0.43872893258426965,
+      "over25_accuracy": 0.554248595505618,
+      "precision": {
+        "home": 0.46275752773375595,
+        "draw": 0.0013717421124828531,
+        "away": 0.7753792298716453
+      },
+      "class_samples": {
+        "away": 1714,
+        "home": 2524,
+        "draw": 1458
+      }
+    },
+    "concrete": {
+      "sample_size": 2754,
+      "accuracy": 0.3914306463326071,
+      "over25_accuracy": 0.5446623093681917,
+      "precision": {
+        "home": 0.41765704584040747,
+        "draw": 0.005434782608695652,
+        "away": 0.6928571428571428
+      },
+      "class_samples": {
+        "home": 1178,
+        "away": 840,
+        "draw": 736
+      }
+    },
+    "overall_weighted": {
+      "sample_size": 7348,
+      "accuracy": 0.4280931903543015,
+      "over25_accuracy": 0.5520929726198095,
+      "precision": {
+        "home": 0.45289092484834326,
+        "draw": 0.002316277110970792,
+        "away": 0.7566275924256193
+      },
+      "class_samples": {
+        "away": 2218,
+        "home": 3231,
+        "draw": 1900
+      }
+    },
+    "reference_previous_455_accuracy": 0.4682
+  },
+  "weight_policy": {
+    "steel": 1.0,
+    "concrete_60_89": 0.6
+  },
+  "note": "steel/concrete metrics are separated; weighted overall uses sample weights, not fabricated matches."
+}
