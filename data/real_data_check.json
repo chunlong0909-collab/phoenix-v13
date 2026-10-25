@@ -13,5 +13,12 @@
   "back_players": 3879,
   "status": "ESPN_API_CURRENT_ROSTERS",
   "policy": "Only fields returned by ESPN API are populated; historical season fields remain null when not returned by endpoint.",
-  "endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams/{team_id}/roster"
+  "endpoint": "https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams/{team_id}/roster",
+  "plan_d_direct_teamid": {
+    "teams_requested": 409,
+    "teams_success": 355,
+    "players_direct": 11312,
+    "historical_stats_endpoint": "404; fields retained null",
+    "direct_roster_file": "data/espn_direct_rosters.json"
+  }
 }
