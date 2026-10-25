@@ -1,0 +1,46 @@
+name: validate-500
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'catalog/complete_world_500_catalog.json'
+      - 'catalog/expansion_500_report.json'
+      - 'catalog/500_backtest_report.json'
+      - 'scripts/expand_500.py'
+      - 'scripts/validate_500.py'
+      - 'scripts/backtest_500.py'
+      - 'data/raw/*_all_seasons.csv'
+
+permissions:
+  contents: read
+
+jobs:
+  catalog-validation:
+    name: CATALOG GREEN actual-safe-world-catalog
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate real FT and null HT policy
+        run: python scripts/validate_500.py
+
+  backtest-validation:
+    name: BACKTEST GREEN Dixon-Coles real FT
+    needs: catalog-validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Re-run reproducible backtest
+        run: python scripts/backtest_500.py
+      - name: Validate generated report
+        run: python scripts/validate_500.py
