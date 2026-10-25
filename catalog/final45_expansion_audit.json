@@ -1,0 +1,721 @@
+{
+  "catalog": "catalog/complete_500_partial_catalog.json",
+  "baseline_teams": 455,
+  "requested_additions": 45,
+  "eligible_new_additions": 0,
+  "target_500_reached": false,
+  "policy": "No duplicate teams; real FT only; minimum 90 matches; no HT estimation.",
+  "leagues": {
+    "英冠": {
+      "source": "data/raw/E1.csv",
+      "source_rows": 2208,
+      "source_ft_invalid_rows": 0,
+      "requested": 12,
+      "already_present": 12,
+      "eligible_new": 0,
+      "teams": [
+        {
+          "name": "West Brom",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Blackburn",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Swansea",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Bristol City",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Cardiff",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Preston",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Hull",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "QPR",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Millwall",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Stoke",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Middlesbrough",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Coventry",
+          "source_matches": 184,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        }
+      ]
+    },
+    "奧甲": {
+      "source": "data/raw/AUT.csv",
+      "source_rows": 777,
+      "source_ft_invalid_rows": 0,
+      "requested": 12,
+      "already_present": 11,
+      "eligible_new": 0,
+      "teams": [
+        {
+          "name": "Austria Vienna",
+          "source_matches": 133,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Tirol",
+          "source_matches": 131,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "SK Rapid",
+          "source_matches": 130,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Hartberg",
+          "source_matches": 130,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Wolfsberger AC",
+          "source_matches": 130,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "LASK",
+          "source_matches": 129,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Sturm Graz",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Salzburg",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Altach",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "A. Klagenfurt",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "A. Lustenau",
+          "source_matches": 67,
+          "source_seasons": [
+            "2022/2023",
+            "2023/2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": false,
+          "all_four_seasons": false,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Ried",
+          "source_matches": 64,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": false,
+          "all_four_seasons": false,
+          "already_in_catalog": false,
+          "eligible_new": false
+        }
+      ]
+    },
+    "丹超": {
+      "source": "data/leagues/denmark/matches.csv",
+      "source_rows": 771,
+      "source_ft_invalid_rows": 0,
+      "requested": 10,
+      "already_present": 10,
+      "eligible_new": 0,
+      "teams": [
+        {
+          "name": "Viborg",
+          "source_matches": 130,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Midtjylland",
+          "source_matches": 129,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Randers FC",
+          "source_matches": 129,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "FC Copenhagen",
+          "source_matches": 129,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Nordsjaelland",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Aarhus",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Brondby",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Silkeborg",
+          "source_matches": 128,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Aalborg",
+          "source_matches": 97,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2024/2025"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": false,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Odense",
+          "source_matches": 96,
+          "source_seasons": [
+            "2021/2022",
+            "2022/2023",
+            "2023/2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": false,
+          "already_in_catalog": true,
+          "eligible_new": false
+        }
+      ]
+    },
+    "挪超": {
+      "source": "data/leagues/norway/matches.csv",
+      "source_rows": 967,
+      "source_ft_invalid_rows": 0,
+      "requested": 11,
+      "already_present": 11,
+      "eligible_new": 0,
+      "teams": [
+        {
+          "name": "Haugesund",
+          "source_matches": 122,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Sandefjord",
+          "source_matches": 122,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Bodo/Glimt",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Tromso",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Molde",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Viking",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Rosenborg",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Sarpsborg 08",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Stromsgodset",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Lillestrom",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        },
+        {
+          "name": "Odd",
+          "source_matches": 120,
+          "source_seasons": [
+            "2021",
+            "2022",
+            "2023",
+            "2024"
+          ],
+          "source_ft_invalid_rows": 0,
+          "minimum_90": true,
+          "all_four_seasons": true,
+          "already_in_catalog": true,
+          "eligible_new": false
+        }
+      ]
+    }
+  },
+  "projected_teams_after_safe_merge": 455,
+  "status": "keep_455_safe_no_new_unique_teams"
+}

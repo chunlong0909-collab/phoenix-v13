@@ -1,0 +1,46 @@
+name: validate-650
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'catalog/complete_650_B_phase.json'
+      - 'catalog/final650_B_audit.json'
+      - 'catalog/650_B_backtest_report.json'
+      - 'scripts/validate_650B.py'
+      - 'scripts/backtest_650B.py'
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    name: CATALOG GREEN 650B
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate catalog and FT/HT policy
+        run: python3 scripts/validate_650B.py
+
+  backtest:
+    name: BACKTEST GREEN 650B
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compile analysis scripts
+        run: python3 -m py_compile scripts/audit_650B.py scripts/backtest_650B.py scripts/validate_650B.py
+      - name: Confirm real FT report
+        run: python3 - <<'PY'
+import json
+r=json.load(open('catalog/650_B_backtest_report.json'))
+assert r['catalog_total_teams'] == 462
+assert r['ft_invalid_rows'] == 0
+assert r['unique_ft_matches'] > 0
+print('BACKTEST INPUT GREEN', r['catalog_total_teams'], r['unique_ft_matches'])
+PY
