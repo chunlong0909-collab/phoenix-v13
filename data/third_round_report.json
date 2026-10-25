@@ -1,0 +1,3324 @@
+{
+  "generated_at": "2026-10-25T18:13:30.484295+00:00",
+  "source": "WorldFootball.net",
+  "requested_teams": 138,
+  "successful_teams": 0,
+  "failed_teams": 138,
+  "players_added": 0,
+  "final_teams_with_players": 436,
+  "final_master_players": 9328,
+  "shared_squad_policy": "Allowed only after a verified WorldFootball A-team roster is found; none was available in this run.",
+  "status": "blocked_by_cloudflare",
+  "results": [
+    {
+      "catalog_key": "0162:土超:None",
+      "catalog_team_name": "Buyuksehyr",
+      "league": "土超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Buyuksehyr/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Buyuksehyr/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0265:丹超:dnk-03",
+      "catalog_team_name": "Brondby",
+      "league": "丹超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Brondby/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Brondby/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0267:丹超:dnk-05",
+      "catalog_team_name": "Horsens",
+      "league": "丹超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Horsens/",
+          "status": 403,
+          "bytes": 5528,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Horsens/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0268:丹超:dnk-06",
+      "catalog_team_name": "Lyngby",
+      "league": "丹超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Lyngby/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Lyngby/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0273:丹超:dnk-11",
+      "catalog_team_name": "Silkeborg",
+      "league": "丹超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Silkeborg/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Silkeborg/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0274:丹超:dnk-12",
+      "catalog_team_name": "Viborg",
+      "league": "丹超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Viborg/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Viborg/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0277:希超:None",
+      "catalog_team_name": "AEK",
+      "league": "希超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/AEK/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/AEK/",
+          "status": 403,
+          "bytes": 5495,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0279:希超:None",
+      "catalog_team_name": "Aris",
+      "league": "希超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Aris/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Aris/",
+          "status": 403,
+          "bytes": 5498,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0281:希超:None",
+      "catalog_team_name": "Lamia",
+      "league": "希超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Lamia/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Lamia/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0289:英冠:None",
+      "catalog_team_name": "Blackburn",
+      "league": "英冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Blackburn/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Blackburn/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0295:英冠:None",
+      "catalog_team_name": "Coventry",
+      "league": "英冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Coventry/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Coventry/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0303:英冠:None",
+      "catalog_team_name": "Birmingham",
+      "league": "英冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Birmingham/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Birmingham/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0304:英冠:None",
+      "catalog_team_name": "Huddersfield",
+      "league": "英冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Huddersfield/",
+          "status": 403,
+          "bytes": 5564,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Huddersfield/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0308:英冠:None",
+      "catalog_team_name": "Derby",
+      "league": "英冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Derby/",
+          "error": "ReadTimeout: HTTPSConnectionPool(host='www.worldfootball.net', port=443): Read timed out. (read timeout=5)"
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Derby/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0317:英甲:None",
+      "catalog_team_name": "Bolton",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Bolton/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Bolton/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0318:英甲:None",
+      "catalog_team_name": "Cambridge",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Cambridge/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Cambridge/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0320:英甲:None",
+      "catalog_team_name": "Wycombe",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Wycombe/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Wycombe/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0321:英甲:None",
+      "catalog_team_name": "Charlton",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Charlton/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Charlton/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0322:英甲:None",
+      "catalog_team_name": "Burton",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Burton/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Burton/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0323:英甲:None",
+      "catalog_team_name": "Lincoln",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Lincoln/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Lincoln/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0325:英甲:None",
+      "catalog_team_name": "Cheltenham",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Cheltenham/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Cheltenham/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0328:英甲:None",
+      "catalog_team_name": "Wigan",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Wigan/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Wigan/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0329:英甲:None",
+      "catalog_team_name": "Bristol Rvs",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Bristol%20Rvs/",
+          "status": 403,
+          "bytes": 5567,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Bristol_Rvs/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0330:英甲:None",
+      "catalog_team_name": "Barnsley",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Barnsley/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Barnsley/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0331:英甲:None",
+      "catalog_team_name": "Exeter",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Exeter/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Exeter/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0332:英甲:None",
+      "catalog_team_name": "Peterboro",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Peterboro/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Peterboro/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0333:英甲:None",
+      "catalog_team_name": "Ipswich",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Ipswich/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Ipswich/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0334:英甲:None",
+      "catalog_team_name": "Rotherham",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Rotherham/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Rotherham/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0335:英甲:None",
+      "catalog_team_name": "Accrington",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Accrington/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Accrington/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0337:英甲:None",
+      "catalog_team_name": "Morecambe",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Morecambe/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Morecambe/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0338:英甲:None",
+      "catalog_team_name": "Plymouth",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Plymouth/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Plymouth/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0339:英甲:None",
+      "catalog_team_name": "Sheffield Weds",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Sheffield%20Weds/",
+          "status": 403,
+          "bytes": 5576,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Sheffield_Weds/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0340:英甲:None",
+      "catalog_team_name": "Derby",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Derby/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Derby/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0342:英甲:None",
+      "catalog_team_name": "Blackpool",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Blackpool/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Blackpool/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0343:英甲:A1000-carlisle",
+      "catalog_team_name": "Carlisle",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Carlisle/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Carlisle/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0344:英甲:A1000-colchester",
+      "catalog_team_name": "Colchester",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Colchester/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Colchester/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0346:英甲:A1000-forestgreen",
+      "catalog_team_name": "Forest Green",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Forest%20Green/",
+          "status": 403,
+          "bytes": 5570,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Forest_Green/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0347:英甲:A1000-sutton",
+      "catalog_team_name": "Sutton",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Sutton/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Sutton/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0348:英甲:A1000-harrogate",
+      "catalog_team_name": "Harrogate",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Harrogate/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Harrogate/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0349:英甲:A1000-rochdale",
+      "catalog_team_name": "Rochdale",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Rochdale/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Rochdale/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0350:英甲:A1000-hartlepool",
+      "catalog_team_name": "Hartlepool",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Hartlepool/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Hartlepool/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0352:英甲:A1000-mansfield",
+      "catalog_team_name": "Mansfield",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Mansfield/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Mansfield/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0353:英甲:A1000-northampton",
+      "catalog_team_name": "Northampton",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Northampton/",
+          "status": 403,
+          "bytes": 5561,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Northampton/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0354:英甲:A1000-newportcounty",
+      "catalog_team_name": "Newport County",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Newport%20County/",
+          "status": 403,
+          "bytes": 5576,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Newport_County/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0355:英甲:A1000-salford",
+      "catalog_team_name": "Salford",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Salford/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Salford/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0357:英甲:A1000-swindon",
+      "catalog_team_name": "Swindon",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Swindon/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Swindon/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0358:英甲:A1000-stevenage",
+      "catalog_team_name": "Stevenage",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Stevenage/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Stevenage/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0359:英甲:A1000-barrow",
+      "catalog_team_name": "Barrow",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Barrow/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Barrow/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0360:英甲:A1000-tranmere",
+      "catalog_team_name": "Tranmere",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Tranmere/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Tranmere/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0361:英甲:A1000-walsall",
+      "catalog_team_name": "Walsall",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Walsall/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Walsall/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0363:英甲:A1000-gillingham",
+      "catalog_team_name": "Gillingham",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Gillingham/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Gillingham/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0364:英甲:A1000-doncaster",
+      "catalog_team_name": "Doncaster",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Doncaster/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Doncaster/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0365:英甲:A1000-grimsby",
+      "catalog_team_name": "Grimsby",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Grimsby/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Grimsby/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0366:英甲:A1000-crewe",
+      "catalog_team_name": "Crewe",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Crewe/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Crewe/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0367:英甲:A1000-stockport",
+      "catalog_team_name": "Stockport",
+      "league": "英甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Stockport/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Stockport/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0369:德乙:None",
+      "catalog_team_name": "Nurnberg",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Nurnberg/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Nurnberg/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0370:德乙:None",
+      "catalog_team_name": "Karlsruhe",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Karlsruhe/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Karlsruhe/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0371:德乙:None",
+      "catalog_team_name": "Paderborn",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Paderborn/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Paderborn/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0372:德乙:None",
+      "catalog_team_name": "Hannover",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Hannover/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Hannover/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0374:德乙:None",
+      "catalog_team_name": "Hamburg",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Hamburg/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Hamburg/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0376:德乙:None",
+      "catalog_team_name": "Darmstadt",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Darmstadt/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Darmstadt/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0379:德乙:None",
+      "catalog_team_name": "Regensburg",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Regensburg/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Regensburg/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0383:德乙:None",
+      "catalog_team_name": "Magdeburg",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Magdeburg/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Magdeburg/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0385:德乙:None",
+      "catalog_team_name": "Heidenheim",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Heidenheim/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Heidenheim/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0386:德乙:None",
+      "catalog_team_name": "Sandhausen",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Sandhausen/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Sandhausen/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0387:德乙:None",
+      "catalog_team_name": "Hertha",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Hertha/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Hertha/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0388:德乙:None",
+      "catalog_team_name": "Elversberg",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Elversberg/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Elversberg/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0389:德乙:None",
+      "catalog_team_name": "Dresden",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Dresden/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Dresden/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0391:德乙:None",
+      "catalog_team_name": "Ingolstadt",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Ingolstadt/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Ingolstadt/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0393:德乙:None",
+      "catalog_team_name": "Bielefeld",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Bielefeld/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Bielefeld/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0394:德乙:None",
+      "catalog_team_name": "Osnabruck",
+      "league": "德乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Osnabruck/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Osnabruck/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0397:阿甲:estudiantes-l-p",
+      "catalog_team_name": "Estudiantes L.P.",
+      "league": "阿甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Estudiantes%20L.P./",
+          "status": 403,
+          "bytes": 5582,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Estudiantes_L.P./",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0401:阿甲:godoy-cruz",
+      "catalog_team_name": "Godoy Cruz",
+      "league": "阿甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Godoy%20Cruz/",
+          "status": 403,
+          "bytes": 5564,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Godoy_Cruz/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0406:阿甲:gimnasia-l-p",
+      "catalog_team_name": "Gimnasia L.P.",
+      "league": "阿甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Gimnasia%20L.P./",
+          "status": 403,
+          "bytes": 5573,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Gimnasia_L.P./",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0413:阿甲:central-cordoba",
+      "catalog_team_name": "Central Cordoba",
+      "league": "阿甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Central%20Cordoba/",
+          "status": 403,
+          "bytes": 5579,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Central_Cordoba/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0414:阿甲:atl-tucuman",
+      "catalog_team_name": "Atl. Tucuman",
+      "league": "阿甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Atl.%20Tucuman/",
+          "status": 403,
+          "bytes": 5570,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Atl._Tucuman/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0416:阿甲:650b-colonsantafe",
+      "catalog_team_name": "Colon Santa FE",
+      "league": "阿甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Colon%20Santa%20FE/",
+          "status": 403,
+          "bytes": 5582,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Colon_Santa_FE/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0417:阿甲:650b-arsenalsarandi",
+      "catalog_team_name": "Arsenal Sarandi",
+      "league": "阿甲",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Arsenal%20Sarandi/",
+          "status": 403,
+          "bytes": 5579,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Arsenal_Sarandi/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0422:美職MLS:mls-new-york-city",
+      "catalog_team_name": "New York City",
+      "league": "美職MLS",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/New%20York%20City/",
+          "status": 403,
+          "bytes": 5579,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/New_York_City/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0423:美職MLS:mls-orlando-city",
+      "catalog_team_name": "Orlando City",
+      "league": "美職MLS",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Orlando%20City/",
+          "status": 403,
+          "bytes": 5570,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Orlando_City/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0429:美職MLS:mls-atlanta-utd",
+      "catalog_team_name": "Atlanta Utd",
+      "league": "美職MLS",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Atlanta%20Utd/",
+          "status": 403,
+          "bytes": 5567,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Atlanta_Utd/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0447:美職MLS:mls-chicago-fire",
+      "catalog_team_name": "Chicago Fire",
+      "league": "美職MLS",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Chicago%20Fire/",
+          "status": 403,
+          "bytes": 5570,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Chicago_Fire/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0448:美職MLS:650b-charlotte",
+      "catalog_team_name": "Charlotte",
+      "league": "美職MLS",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Charlotte/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Charlotte/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0458:墨西超:atl-san-luis",
+      "catalog_team_name": "Atl. San Luis",
+      "league": "墨西超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Atl.%20San%20Luis/",
+          "status": 403,
+          "bytes": 5579,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Atl._San_Luis/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0482:蘇超:planb-hearts",
+      "catalog_team_name": "Hearts",
+      "league": "蘇超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Hearts/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Hearts/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0487:蘇超:planb-rosscounty",
+      "catalog_team_name": "Ross County",
+      "league": "蘇超",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Ross%20County/",
+          "status": 403,
+          "bytes": 5567,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Ross_County/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0491:意乙:A1000-perugia",
+      "catalog_team_name": "Perugia",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Perugia/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Perugia/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0492:意乙:A1000-cittadella",
+      "catalog_team_name": "Cittadella",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Cittadella/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Cittadella/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0495:意乙:A1000-brescia",
+      "catalog_team_name": "Brescia",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Brescia/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Brescia/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0496:意乙:A1000-ascoli",
+      "catalog_team_name": "Ascoli",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Ascoli/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Ascoli/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0497:意乙:A1000-cosenza",
+      "catalog_team_name": "Cosenza",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Cosenza/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Cosenza/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0498:意乙:A1000-benevento",
+      "catalog_team_name": "Benevento",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Benevento/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Benevento/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0499:意乙:A1000-cremonese",
+      "catalog_team_name": "Cremonese",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Cremonese/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Cremonese/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0501:意乙:A1000-pisa",
+      "catalog_team_name": "Pisa",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Pisa/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Pisa/",
+          "status": 403,
+          "bytes": 5498,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0502:意乙:A1000-spal",
+      "catalog_team_name": "Spal",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Spal/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Spal/",
+          "status": 403,
+          "bytes": 5498,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0503:意乙:A1000-bari",
+      "catalog_team_name": "Bari",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Bari/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Bari/",
+          "status": 403,
+          "bytes": 5498,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0504:意乙:A1000-palermo",
+      "catalog_team_name": "Palermo",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Palermo/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Palermo/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0505:意乙:A1000-sudtirol",
+      "catalog_team_name": "Sudtirol",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Sudtirol/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Sudtirol/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0506:意乙:A1000-modena",
+      "catalog_team_name": "Modena",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Modena/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Modena/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0508:意乙:A1000-catanzaro",
+      "catalog_team_name": "Catanzaro",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Catanzaro/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Catanzaro/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0510:意乙:A1000-spezia",
+      "catalog_team_name": "Spezia",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Spezia/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Spezia/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0511:意乙:A1000-reggiana",
+      "catalog_team_name": "Reggiana",
+      "league": "意乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Reggiana/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Reggiana/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0512:西乙:A1000-huesca",
+      "catalog_team_name": "Huesca",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Huesca/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Huesca/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0514:西乙:A1000-zaragoza",
+      "catalog_team_name": "Zaragoza",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Zaragoza/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Zaragoza/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0515:西乙:A1000-ibiza",
+      "catalog_team_name": "Ibiza",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Ibiza/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Ibiza/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0517:西乙:A1000-amorebieta",
+      "catalog_team_name": "Amorebieta",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Amorebieta/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Amorebieta/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0519:西乙:A1000-alcorcon",
+      "catalog_team_name": "Alcorcon",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Alcorcon/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Alcorcon/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0520:西乙:A1000-spgijon",
+      "catalog_team_name": "Sp Gijon",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Sp%20Gijon/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Sp_Gijon/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0521:西乙:A1000-burgos",
+      "catalog_team_name": "Burgos",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Burgos/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Burgos/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0522:西乙:A1000-oviedo",
+      "catalog_team_name": "Oviedo",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Oviedo/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Oviedo/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0523:西乙:A1000-lugo",
+      "catalog_team_name": "Lugo",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Lugo/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Lugo/",
+          "status": 403,
+          "bytes": 5498,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0526:西乙:A1000-valladolid",
+      "catalog_team_name": "Valladolid",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Valladolid/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Valladolid/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0528:西乙:A1000-mirandes",
+      "catalog_team_name": "Mirandes",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Mirandes/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Mirandes/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0529:西乙:A1000-cartagena",
+      "catalog_team_name": "Cartagena",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Cartagena/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Cartagena/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0532:西乙:A1000-santander",
+      "catalog_team_name": "Santander",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Santander/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Santander/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0535:西乙:A1000-andorra",
+      "catalog_team_name": "Andorra",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Andorra/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Andorra/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0538:西乙:A1000-ferrol",
+      "catalog_team_name": "Ferrol",
+      "league": "西乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Ferrol/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Ferrol/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0540:法乙:A1000-bastia",
+      "catalog_team_name": "Bastia",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Bastia/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Bastia/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0541:法乙:A1000-nimes",
+      "catalog_team_name": "Nimes",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Nimes/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Nimes/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0542:法乙:A1000-amiens",
+      "catalog_team_name": "Amiens",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Amiens/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Amiens/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0543:法乙:A1000-auxerre",
+      "catalog_team_name": "Auxerre",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Auxerre/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Auxerre/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0544:法乙:A1000-caen",
+      "catalog_team_name": "Caen",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Caen/",
+          "status": 403,
+          "bytes": 5519,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Caen/",
+          "status": 403,
+          "bytes": 5498,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0545:法乙:A1000-rodez",
+      "catalog_team_name": "Rodez",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Rodez/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Rodez/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0550:法乙:A1000-lehavre",
+      "catalog_team_name": "Le Havre",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Le%20Havre/",
+          "status": 403,
+          "bytes": 5558,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Le_Havre/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0553:法乙:A1000-ajaccio",
+      "catalog_team_name": "Ajaccio",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Ajaccio/",
+          "status": 403,
+          "bytes": 5549,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Ajaccio/",
+          "status": 403,
+          "bytes": 5507,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0554:法乙:A1000-valenciennes",
+      "catalog_team_name": "Valenciennes",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Valenciennes/",
+          "status": 403,
+          "bytes": 5564,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Valenciennes/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0555:法乙:A1000-niort",
+      "catalog_team_name": "Niort",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Niort/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Niort/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0556:法乙:A1000-dijon",
+      "catalog_team_name": "Dijon",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Dijon/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Dijon/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0558:法乙:A1000-stetienne",
+      "catalog_team_name": "St Etienne",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/St%20Etienne/",
+          "status": 403,
+          "bytes": 5564,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/St_Etienne/",
+          "status": 403,
+          "bytes": 5516,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0560:法乙:A1000-laval",
+      "catalog_team_name": "Laval",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Laval/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Laval/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0561:法乙:A1000-bordeaux",
+      "catalog_team_name": "Bordeaux",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Bordeaux/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Bordeaux/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0563:法乙:A1000-troyes",
+      "catalog_team_name": "Troyes",
+      "league": "法乙",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Troyes/",
+          "status": 403,
+          "bytes": 5525,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Troyes/",
+          "status": 403,
+          "bytes": 5504,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0565:蘇冠:A1000-montrose",
+      "catalog_team_name": "Montrose",
+      "league": "蘇冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Montrose/",
+          "status": 403,
+          "bytes": 5552,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Montrose/",
+          "status": 403,
+          "bytes": 5510,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0566:蘇冠:A1000-clyde",
+      "catalog_team_name": "Clyde",
+      "league": "蘇冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Clyde/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Clyde/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0567:蘇冠:A1000-dumbarton",
+      "catalog_team_name": "Dumbarton",
+      "league": "蘇冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Dumbarton/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Dumbarton/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0570:蘇冠:A1000-peterhead",
+      "catalog_team_name": "Peterhead",
+      "league": "蘇冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Peterhead/",
+          "status": 403,
+          "bytes": 5555,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Peterhead/",
+          "status": 403,
+          "bytes": 5513,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0571:蘇冠:A1000-alloa",
+      "catalog_team_name": "Alloa",
+      "league": "蘇冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Alloa/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Alloa/",
+          "status": 403,
+          "bytes": 5501,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    },
+    {
+      "catalog_key": "0573:蘇冠:A1000-queenofsth",
+      "catalog_team_name": "Queen of Sth",
+      "league": "蘇冠",
+      "status": "blocked",
+      "players": 0,
+      "merged": false,
+      "is_shared_squad": false,
+      "attempts": [
+        {
+          "url": "https://www.worldfootball.net/search/clubs/Queen%20of%20Sth/",
+          "status": 403,
+          "bytes": 5576,
+          "blocked": true
+        },
+        {
+          "url": "https://www.worldfootball.net/teams/Queen_of_Sth/",
+          "status": 403,
+          "bytes": 5522,
+          "blocked": true
+        }
+      ],
+      "reason": "WorldFootball search and team pages did not expose a verified squad table"
+    }
+  ]
+}
