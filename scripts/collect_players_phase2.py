@@ -25,8 +25,8 @@ def main():
  ts=teams()
  if len(ts)!=574: raise SystemExit(f'expected 574 teams, got {len(ts)}')
  all_out={}; front_out={}; back_out={}; missing=[]
- for league,t in ts:
-  tid=str(t.get('team_id')); name=t.get('name'); key=f'{league}:{tid}'
+ for idx,(league,t) in enumerate(ts,1):
+  tid=str(t.get('team_id')); name=t.get('name'); key=f'{idx:04d}:{league}:{tid}'
   # No unverified ESPN/catalog rows are promoted into REAL output.
   all_out[key]={'team':name,'team_id':tid,'league':league,'physical_id':tid,'front':[],'back':[],'source_status':'not_verified'}
   front_out[key]={'team':name,'team_id':tid,'league':league,'front':[]}
