@@ -57,7 +57,6 @@ def espn_one(v):
 
 def main():
  d=json.loads(MASTER.read_text(encoding='utf-8'));targets=[(k,v) for k,v in d.items() if v.get('front') or v.get('back')]
- for _,v in targets:v['coach']=None
  def work(item):
   k,v=item;w=wiki_one(v)
   if w.get('status')=='ok':return k,w
@@ -67,8 +66,9 @@ def main():
  counts={'wikipedia_manager':0,'espn_team_page_coach':0,'none':0}
  for k,r in results.items():
   if r.get('status')=='ok':d[k]['coach']={'name':r['name'],'source':r['source'],'source_url':r.get('source_url')};counts[r['source']]+=1
+  elif d[k].get('coach'):counts.setdefault('preserved_existing',0);counts['preserved_existing']+=1
   else:counts['none']+=1
  MASTER.write_text(json.dumps(d,ensure_ascii=False,indent=2),encoding='utf-8')
- report={'generated_at':datetime.now(timezone.utc).isoformat(),'target_teams':len(targets),'with_coach':len(targets)-counts['none'],'coverage':round((len(targets)-counts['none'])/len(targets),4) if targets else 0,'wikipedia_manager':counts['wikipedia_manager'],'espn_team_page_coach':counts['espn_team_page_coach'],'without_coach':counts['none'],'policy':'Only explicit Wikipedia infobox manager/head coach/coach or explicit ESPN coach/manager fields accepted; player arrays unchanged.','results':results}
+ report={'generated_at':datetime.now(timezone.utc).isoformat(),'target_teams':len(targets),'with_coach':len(targets)-counts['none'],'coverage':round((len(targets)-counts['none'])/len(targets),4) if targets else 0,'wikipedia_manager':counts['wikipedia_manager'],'espn_team_page_coach':counts['espn_team_page_coach'],'preserved_existing':counts.get('preserved_existing',0),'without_coach':counts['none'],'policy':'Only explicit Wikipedia infobox manager/head coach/coach or explicit ESPN coach/manager fields accepted; existing coach records are preserved when refresh sources have no replacement. Player arrays unchanged.','results':results}
  REPORT.write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8');print(json.dumps({k:report[k] for k in ('target_teams','with_coach','coverage','wikipedia_manager','espn_team_page_coach','without_coach')},ensure_ascii=False,indent=2))
 if __name__=='__main__':main()
