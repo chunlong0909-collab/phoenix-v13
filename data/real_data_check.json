@@ -20,5 +20,13 @@
     "players_direct": 11312,
     "historical_stats_endpoint": "404; fields retained null",
     "direct_roster_file": "data/espn_direct_rosters.json"
-  }
+  },
+  "exact_direct_merge": {
+    "teams": 9,
+    "new_players": 262,
+    "master_players": 5423,
+    "direct_total_players": 11312,
+    "direct_success_teams": 355
+  },
+  "note": "Master only includes exact-safe mappings. Unmapped successful direct rosters remain in espn_direct_rosters.json."
 }
