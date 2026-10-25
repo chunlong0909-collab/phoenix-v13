@@ -39,7 +39,7 @@
 3,Argentinos Juniors,200687,Brayan Cortés,G,1995-03-11T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,335365,Gonzalo Siri Payer,G,2003-02-01T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,361419,Agustín Mangiaut,G,2004-05-24T07:00Z,,ESPN roster,2025
-3,Argentinos Juniors,118787,Franco Vázquez,D,2005-01-02T08:00Z,,ESPN roster,2025
+3,Argentinos Juniors,118787,Franco Vázquez,M,1989-02-22T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,172540,Erik Godoy,D,1993-08-16T07:00Z,,ESPN roster,2025
 3,Argentinos Juniors,199840,Mateo Mendoza,D,2004-11-21T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,218629,Sebastián Prieto,D,1993-04-09T07:00Z,,ESPN roster,2025
@@ -435,7 +435,7 @@
 16,River Plate,421516,Lucas Silva,M,2007-02-26T08:00Z,,ESPN roster,2025
 16,River Plate,421518,Valentín Lucero,M,2006-04-01T08:00Z,,ESPN roster,2025
 16,River Plate,3096761,Maximiliano Antonio Soria,M,,,ESPN roster,2025
-16,River Plate,87673,Alexis González,F,2005-01-13T08:00Z,,ESPN roster,2025
+16,River Plate,87673,Alexis González,D,2005-01-04T08:00Z,,ESPN roster,2025
 16,River Plate,195334,Sebastián Driussi,F,1996-02-09T08:00Z,,ESPN roster,2025
 16,River Plate,195681,Ángel Correa,F,1995-03-09T08:00Z,,ESPN roster,2025
 16,River Plate,197052,Rafael Borré,F,1995-09-15T07:00Z,,ESPN roster,2025
@@ -719,6 +719,7 @@
 4,Belgrano (Córdoba),418562,Agustín Griguol,D,2008-05-20T07:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),3126369,Joaquín Flandes,D,,,ESPN roster,2025
 4,Belgrano (Córdoba),3494,Adrián Sánchez,M,1999-05-14T07:00Z,,ESPN roster,2025
+4,Belgrano (Córdoba),118787,Franco Vázquez,M,1989-02-22T08:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),141074,Marcos Ortiz,M,2009-03-05T08:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),172267,Lucas Zelarayán,M,1992-06-20T07:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),178062,Emiliano Rigoni,M,1993-02-04T08:00Z,,ESPN roster,2025
@@ -728,6 +729,7 @@
 4,Belgrano (Córdoba),382905,Santino Gatti,M,2005-09-22T07:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),404542,Ramiro Tulián,M,2008-01-19T08:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),3126370,Thiago Cortés,M,,,ESPN roster,2025
+4,Belgrano (Córdoba),5326314,Gastón David Martínez,M,,,ESPN roster,2025
 4,Belgrano (Córdoba),204908,Lucas Passerini,F,1994-07-16T07:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),319604,Nicolás Fernández,F,1996-02-08T08:00Z,,ESPN roster,2025
 4,Belgrano (Córdoba),325528,Juan Velazquez,F,2004-11-19T08:00Z,,ESPN roster,2025
@@ -1094,6 +1096,7 @@
 9739,Aldosivi,347611,Federico Laurelli,D,2004-07-10T07:00Z,,ESPN roster,2025
 9739,Aldosivi,3102527,Mateo Sebastián Vales,D,,,ESPN roster,2025
 9739,Aldosivi,3102528,Simón Sammarone,D,,,ESPN roster,2025
+9739,Aldosivi,5326313,Santiago Filippini,D,,,ESPN roster,2025
 9739,Aldosivi,130004,Lucas Castro,M,1989-04-09T07:00Z,,ESPN roster,2025
 9739,Aldosivi,149621,Nicolás Gaitán,M,1988-02-23T08:00Z,,ESPN roster,2025
 9739,Aldosivi,150153,Roberto Bochi,M,1987-07-06T07:00Z,,ESPN roster,2025
@@ -1105,7 +1108,7 @@
 9739,Aldosivi,3136380,Pablo Argoytia,M,,,ESPN roster,2025
 9739,Aldosivi,75887,Augusto Fernández,F,2006-01-06T08:00Z,,ESPN roster,2025
 9739,Aldosivi,200259,Andrés Chávez,F,1991-03-21T08:00Z,,ESPN roster,2025
-9739,Aldosivi,204737,Alan Sosa,G,1996-04-27T07:00Z,,ESPN roster,2025
+9739,Aldosivi,204737,Alan Sosa,F,2003-05-05T07:00Z,,ESPN roster,2025
 9739,Aldosivi,212843,Andrés Vombergar,F,1994-11-20T08:00Z,,ESPN roster,2025
 9739,Aldosivi,240423,Nicolás Cordero,F,1999-04-11T07:00Z,,ESPN roster,2025
 9739,Aldosivi,272678,Matias Godoy,F,2002-01-10T08:00Z,,ESPN roster,2025

@@ -1,10 +1,10 @@
 {
   "league_id": "scottish-prem",
   "name_zh": "蘇超",
-  "updated_at": "2026-10-24T20:20:03.772638+00:00",
+  "updated_at": "2026-10-25T20:20:59.538831+00:00",
   "fixtures": 684,
   "teams": 14,
-  "players": 419,
+  "players": 420,
   "corner_fixtures": 684,
   "sources": [
     "football-data.co.uk"

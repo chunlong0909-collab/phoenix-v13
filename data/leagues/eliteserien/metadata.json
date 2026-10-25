@@ -1,10 +1,10 @@
 {
   "league_id": "eliteserien",
   "name_zh": "挪超",
-  "updated_at": "2026-10-24T20:20:44.229562+00:00",
+  "updated_at": "2026-10-25T20:21:46.948102+00:00",
   "fixtures": 720,
   "teams": 20,
-  "players": 619,
+  "players": 620,
   "corner_fixtures": 0,
   "sources": [
     "ESPN scoreboard"

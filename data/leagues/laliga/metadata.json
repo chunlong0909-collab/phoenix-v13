@@ -1,10 +1,10 @@
 {
   "league_id": "laliga",
   "name_zh": "西甲",
-  "updated_at": "2026-10-24T20:15:22.931053+00:00",
+  "updated_at": "2026-10-25T20:16:10.853861+00:00",
   "fixtures": 1140,
   "teams": 26,
-  "players": 835,
+  "players": 838,
   "corner_fixtures": 1140,
   "sources": [
     "football-data.co.uk"

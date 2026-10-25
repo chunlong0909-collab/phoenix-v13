@@ -1,10 +1,10 @@
 {
   "league_id": "epl",
   "name_zh": "英超",
-  "updated_at": "2026-10-24T20:11:36.470906+00:00",
+  "updated_at": "2026-10-25T20:12:18.803168+00:00",
   "fixtures": 1140,
   "teams": 25,
-  "players": 771,
+  "players": 770,
   "corner_fixtures": 1140,
   "sources": [
     "football-data.co.uk"

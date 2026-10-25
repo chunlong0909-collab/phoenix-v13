@@ -1,10 +1,10 @@
 {
   "league_id": "austrian-bundesliga",
   "name_zh": "奧甲",
-  "updated_at": "2026-10-24T20:20:08.324812+00:00",
+  "updated_at": "2026-10-25T20:21:05.479190+00:00",
   "fixtures": 591,
   "teams": 14,
-  "players": 422,
+  "players": 423,
   "corner_fixtures": 0,
   "sources": [
     "ESPN scoreboard"
