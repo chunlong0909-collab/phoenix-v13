@@ -8,8 +8,13 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: phoenix-tier1-j1-20-teams
+  cancel-in-progress: false
+
 jobs:
   j1-catalog:
+    continue-on-error: true
     runs-on: ubuntu-latest
     timeout-minutes: 180
     steps:
@@ -27,10 +32,27 @@ jobs:
           pip install playwright beautifulsoup4 lxml requests pandas
           playwright install chromium --with-deps
 
+      - name: Sync latest main before collecting
+        run: |
+          git config pull.rebase true
+          git pull --rebase origin main
+
       - name: Collect J1 20 teams with explicit FT and HT
+        continue-on-error: true
         env:
           FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
-        run: python scripts/phase3_j1_catalog.py --mode real
+        run: |
+          set +e
+          for attempt in 1 2 3; do
+            echo "J1 collector attempt ${attempt}/3"
+            python scripts/phase3_j1_catalog.py --mode real
+            rc=$?
+            if [ "$rc" -eq 0 ]; then exit 0; fi
+            echo "J1 collector failed with exit ${rc}; retrying"
+            sleep $((attempt * 10))
+          done
+          echo "J1 collector exhausted 3 retries; local fallback/report is retained"
+          exit 1
 
       - name: Validate appended catalog
         run: |
@@ -53,8 +75,36 @@ jobs:
         run: |
           git config user.name "phoenix-auto-bot"
           git config user.email "auto@phoenix-v13.invalid"
+          git config pull.rebase true
+          git pull --rebase origin main
           git add scripts/phase3_j1_catalog.py .github/workflows/phase3_j1.yml catalog/complete_5_leagues_catalog.json catalog/phoenix_FULL_ALL_98teams.json catalog/phase3_j1_report.json catalog/phase3_j1_fail_list.txt
           git commit -m "phase3 tier1: append J1 20 teams" || echo "no changes"
-          git config pull.rebase true
-          git pull origin main --rebase
-          git push origin main
+          for attempt in 1 2 3; do
+            if git push origin main; then exit 0; fi
+            echo "push conflict; preserving latest origin and reapplying only J1 block (attempt ${attempt}/3)"
+            mkdir -p /tmp/phoenix-j1-generated
+            for f in catalog/complete_5_leagues_catalog.json catalog/phoenix_FULL_ALL_98teams.json catalog/phase3_j1_report.json; do
+              [ -f "$f" ] && cp "$f" "/tmp/phoenix-j1-generated/$(basename "$f")"
+            done
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
+            import json
+            from pathlib import Path
+            saved=Path('/tmp/phoenix-j1-generated')
+            for name in ('complete_5_leagues_catalog.json','phoenix_FULL_ALL_98teams.json'):
+                target=Path('catalog')/name; source=saved/name
+                if not source.exists(): continue
+                base=json.loads(target.read_text(encoding='utf-8')) if target.exists() else {}
+                generated=json.loads(source.read_text(encoding='utf-8'))
+                if 'J1聯賽' in generated: base['J1聯賽']=generated['J1聯賽']
+                target.write_text(json.dumps(base,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+            report=saved/'phase3_j1_report.json'
+            if report.exists(): Path('catalog/phase3_j1_report.json').write_text(report.read_text(encoding='utf-8'),encoding='utf-8')
+            PY
+            git add scripts/phase3_j1_catalog.py .github/workflows/phase3_j1.yml catalog/complete_5_leagues_catalog.json catalog/phoenix_FULL_ALL_98teams.json catalog/phase3_j1_report.json catalog/phase3_j1_fail_list.txt
+            git commit -m "phase3 tier1: append J1 20 teams" || true
+            sleep $((attempt * 5))
+          done
+          echo "Unable to push after 3 attempts; job remains non-blocking"
+          exit 1
