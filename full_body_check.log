@@ -1,0 +1,69 @@
+PHOENIX FULL BODY HEALTH CHECK
+DATE=2026-10-26T01:58:56
+POLICY=真實資料優先；不以虛構球員或比分掩蓋資料缺口
+
+1. 數據骨架檢查
+PASS | data squad exists and >5MB | 5998672 bytes
+PASS | app squad exists and identical | data_md5=94234202266c3a9e8bbcd784a8c736a1 asset_md5=94234202266c3a9e8bbcd784a8c736a1
+PASS | 574 team containers | 574
+PASS | sample Man City real players >15 | [('Manchester City FC', 27)]
+PASS | sample Arsenal real players >15 | [('Arsenal FC', 29), ('Arsenal Sarandi', 0)]
+PASS | sample Real Madrid real players >15 | [('Real Madrid CF', 35)]
+FAIL | sample 巴黎 real players >15 | [('Paris Saint-Germain FC', 12)]
+FAIL | sample 傑志 real players >15 | not present in 574 catalog; no safe substitution
+PASS | Unknown Player <5% | 0/9328
+
+2. 主App接駁檢查
+PASS | app imports all prediction helpers | predict_match helpers
+PASS | no legacy fake markers | searched app.py
+PASS | app.py py_compile | PASS
+
+3. 預測核心檢查
+PASS | predict_match.py py_compile | PASS
+PASS | predict_match no odds output | {'total_goals': 2.0, 'over25_probability': 0.55, 'weather_factor': {'status': 'no_coordinates', 'date': '2026-10-27', 'total_factor': 1.0, 'over25_factor': 1.0, 'rain_mm': None, 'temp_c': None}, 'odds_analysis': {}}
+PASS | predict_match odds output | {'主勝': {'market': '主勝', 'model_prob': 0.52, 'implied': 0.5555555555555556, 'value': -0.06399999999999995, 'diff': 0.03555555555555556, 'status': '❌ NO VALUE唔值'}, '大2.5': {'market': '大2.5', 'model_prob': 0.55, 'implied': 0.5405405405405405, 'value': 0.01750000000000007, 'diff': 0.009459459459459585, 'status': '➖ FAIR合理'}, '角球大9.5': {'market': '角球大9.5', 'model_prob': 1.0, 'implied': 0.5263157894736842, 'value': 0.8999999999999999, 'diff': 0.4736842105263158, 'status': '⚠️ 疑似陰盤/陷阱 - 差距過大，查正選/傷病'}}
+PASS | weather 20mm/3C factor ~0.8075 | {'status': 'ok', 'date': '2026-10-27', 'rain_mm': 20.0, 'temp_c': 3.0, 'total_factor': 0.8075, 'over25_factor': 0.85, 'reasons': ['rain>15mm', 'temp<5C']}
+PASS | coach Pep uplift 5-15% | {'lambda_home': 1.08, 'lambda_away': 1.0, 'home_coach_factor': 1.08, 'away_coach_factor': 1.0, 'home_coach_style': '進攻型', 'away_coach_style': '中性', 'coach_factor': {'home': {'name': 'Pep Guardiola', 'style': '進攻型', 'factor': 1.08, 'matched_keyword': 'pep'}, 'away': {'name': '普通教練', 'style': '中性', 'factor': 1.0, 'matched_keyword': None}}}
+PASS | team smoke Man City/Arsenal squad resolution | Man City=27, Arsenal=29
+
+4. VALUE/陰盤功能檢查
+PASS | VALUE_10pct | {"market": "VALUE_10pct", "model_prob": 0.5, "implied": 0.45454545454545453, "value": 0.10000000000000009, "diff": 0.04545454545454547, "status": "✅ VALUE值得買"}
+PASS | NO_VALUE | {"market": "NO_VALUE", "model_prob": 0.4, "implied": 0.5, "value": -0.19999999999999996, "diff": 0.09999999999999998, "status": "❌ NO VALUE唔值"}
+PASS | YINPAN_DIFF_30pct | {"market": "YINPAN_DIFF_30pct", "model_prob": 0.8, "implied": 0.5, "value": 0.6000000000000001, "diff": 0.30000000000000004, "status": "⚠️ 疑似陰盤/陷阱 - 差距過大，查正選/傷病"}
+PASS | YINPAN_VALUE_30pct | {"market": "YINPAN_VALUE_30pct", "model_prob": 0.7, "implied": 0.5555555555555556, "value": 0.26, "diff": 0.14444444444444438, "status": "⚠️ 疑似陰盤/陷阱 - 差距過大，查正選/傷病"}
+PASS | no HKJC bookmaker network in code | executable source scan
+PASS | UI four markets | 1X2/goals/corners/handicap
+
+5. Workflow健康檢查
+PASS | legacy 98 workflow disabled | auto_complete_v2.yml.disabled
+PASS | weekly squad refresh and copy | copy step found
+PASS | all active workflow YAML valid | 11 workflows
+PASS | weekly copy dry-run | 5998672 bytes
+
+6. 依賴與環境檢查
+PASS | import streamlit | installed
+PASS | import pandas | installed
+PASS | import json | installed
+PASS | import requests | installed
+PASS | requirements present | /home/ubuntu/phoenix-v13-sync/requirements.txt
+PASS | gitignore protects logs/cache | /home/ubuntu/phoenix-v13-sync/.gitignore
+
+7. 安全性檢查
+PASS | no hardcoded credential literals | 
+PASS | README manual odds safety statement | README.md
+
+8. 交付摘要
+STRUCTURAL_AND_RUNTIME_CHECKS=PASS
+DATA_LIMITATIONS=Paris Saint-Germain has 12 locally sourced players; Kitchee is absent from the 574 catalog. No fake players were added.
+TEAM_NAME_API_NOTE=predict_match is a numeric-output transformer; app.py owns team-name model assembly.
+OVERALL=PASS_WITH_DATA_LIMITATIONS
+
+FINAL SECTION STATUS TABLE
+1 數據骨架：PASS_WITH_DATA_LIMITATIONS（巴黎12人；傑志不在574基座）
+2 主App接駁：PASS
+3 預測核心：PASS
+4 VALUE／陰盤：PASS
+5 Workflow：PASS
+6 依賴與環境：PASS
+7 安全性：PASS
+8 交付／可重現驗身：PASS_WITH_DATA_LIMITATIONS

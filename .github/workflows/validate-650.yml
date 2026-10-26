@@ -37,10 +37,10 @@ jobs:
         run: python3 -m py_compile scripts/audit_650B.py scripts/backtest_650B.py scripts/validate_650B.py
       - name: Confirm real FT report
         run: python3 - <<'PY'
-import json
-r=json.load(open('catalog/650_B_backtest_report.json'))
-assert r['catalog_total_teams'] == 462
-assert r['ft_invalid_rows'] == 0
-assert r['unique_ft_matches'] > 0
-print('BACKTEST INPUT GREEN', r['catalog_total_teams'], r['unique_ft_matches'])
-PY
+          import json
+          r=json.load(open('catalog/650_B_backtest_report.json'))
+          assert r['catalog_total_teams'] == 462
+          assert r['ft_invalid_rows'] == 0
+          assert r['unique_ft_matches'] > 0
+          print('BACKTEST INPUT GREEN', r['catalog_total_teams'], r['unique_ft_matches'])
+          PY
