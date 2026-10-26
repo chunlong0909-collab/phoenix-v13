@@ -1,0 +1,31 @@
+PASS | A-League | rows=20 | source=local:a-league | 
+PASS | J1聯賽 | rows=20 | source=local:j1 | 
+PASS | 丹超 | rows=20 | source=local:danish-superliga | 
+PASS | 土超 | rows=20 | source=local:super_lig | 
+PASS | 墨西超 | rows=20 | source=local:liga-mx | 
+PASS | 奧甲 | rows=20 | source=local:austrian-bundesliga | 
+PASS | 巴甲 | rows=20 | source=local:brasileirao | 
+PASS | 希超 | rows=20 | source=flashscore_public_results | HTTP source https://www.flashscore.com/football/greece/super-league/results/
+PASS | 德乙 | rows=20 | source=local:bundesliga2 | 
+PASS | 德甲 | rows=20 | source=local:bundesliga | 
+PASS | 意乙 | rows=20 | source=flashscore_public_results | HTTP source https://www.flashscore.com/football/italy/serie-b/results/
+PASS | 意甲 | rows=20 | source=flashscore_public_results | HTTP source https://www.flashscore.com/football/italy/serie-a/results/
+PASS | 挪超 | rows=20 | source=local:eliteserien | 
+PASS | 日職 | rows=20 | source=local:j2 | 
+PASS | 比甲 | rows=20 | source=local:jupiler | 
+PASS | 法乙 | rows=20 | source=local:ligue2 | 
+PASS | 法甲 | rows=20 | source=flashscore_public_results | HTTP source https://www.flashscore.com/football/france/ligue-1/results/
+PASS | 瑞典超 | rows=20 | source=local:sweden | 
+PASS | 瑞士超 | rows=20 | source=local:switzerland | 
+PASS | 美職MLS | rows=20 | source=flashscore_public_results | HTTP source https://www.flashscore.com/football/usa/mls/results/
+PASS | 英冠 | rows=20 | source=local:championship | 
+PASS | 英甲 | rows=20 | source=flashscore_public_results | HTTP source https://www.flashscore.com/football/england/league-one/results/
+PASS | 英超 | rows=20 | source=local:epl | 
+PASS | 荷甲 | rows=20 | source=local:eredivisie | 
+PASS | 葡超 | rows=20 | source=local:primeira_liga | 
+PASS | 蘇冠 | rows=20 | source=flashscore_public_results | HTTP source https://www.flashscore.com/football/scotland/championship/results/
+PASS | 蘇超 | rows=20 | source=local:scottish-prem | 
+PASS | 西乙 | rows=20 | source=local:laliga2 | 
+PASS | 西甲 | rows=20 | source=local:laliga | 
+PASS | 阿甲 | rows=20 | source=local:argentina-primera | 
+TOTAL_LEAGUES 30 AT_LEAST_20 30

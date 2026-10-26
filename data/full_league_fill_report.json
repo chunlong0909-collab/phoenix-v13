@@ -1,0 +1,212 @@
+[
+  {
+    "league": "A-League",
+    "rows": 20,
+    "source": "local:a-league",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "J1聯賽",
+    "rows": 20,
+    "source": "local:j1",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "丹超",
+    "rows": 20,
+    "source": "local:danish-superliga",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "土超",
+    "rows": 20,
+    "source": "local:super_lig",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "墨西超",
+    "rows": 20,
+    "source": "local:liga-mx",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "奧甲",
+    "rows": 20,
+    "source": "local:austrian-bundesliga",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "巴甲",
+    "rows": 20,
+    "source": "local:brasileirao",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "希超",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/greece/super-league/results/"
+  },
+  {
+    "league": "德乙",
+    "rows": 20,
+    "source": "local:bundesliga2",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "德甲",
+    "rows": 20,
+    "source": "local:bundesliga",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "意乙",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/italy/serie-b/results/"
+  },
+  {
+    "league": "意甲",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/italy/serie-a/results/"
+  },
+  {
+    "league": "挪超",
+    "rows": 20,
+    "source": "local:eliteserien",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "日職",
+    "rows": 20,
+    "source": "local:j2",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "比甲",
+    "rows": 20,
+    "source": "local:jupiler",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "法乙",
+    "rows": 20,
+    "source": "local:ligue2",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "法甲",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/france/ligue-1/results/"
+  },
+  {
+    "league": "瑞典超",
+    "rows": 20,
+    "source": "local:sweden",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "瑞士超",
+    "rows": 20,
+    "source": "local:switzerland",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "美職MLS",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/usa/mls/results/"
+  },
+  {
+    "league": "英冠",
+    "rows": 20,
+    "source": "local:championship",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "英甲",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/england/league-one/results/"
+  },
+  {
+    "league": "英超",
+    "rows": 20,
+    "source": "local:epl",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "荷甲",
+    "rows": 20,
+    "source": "local:eredivisie",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "葡超",
+    "rows": 20,
+    "source": "local:primeira_liga",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "蘇冠",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/scotland/championship/results/"
+  },
+  {
+    "league": "蘇超",
+    "rows": 20,
+    "source": "local:scottish-prem",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "西乙",
+    "rows": 20,
+    "source": "local:laliga2",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "西甲",
+    "rows": 20,
+    "source": "local:laliga",
+    "status": "PASS",
+    "note": ""
+  },
+  {
+    "league": "阿甲",
+    "rows": 20,
+    "source": "local:argentina-primera",
+    "status": "PASS",
+    "note": ""
+  }
+]

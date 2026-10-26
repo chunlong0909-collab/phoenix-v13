@@ -502,9 +502,19 @@ def clean_matches(df, source, league, season):
     return df[["league", "season", "Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"]]
 
 
+def load_flashscore_sources():
+    """讀取可公開核對的結果頁；沒有設定就不會自行猜URL。"""
+    path = Path(__file__).parent / "config" / "league_flashscore_sources.json"
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+        return value if isinstance(value, dict) else {}
+    except (OSError, ValueError, TypeError):
+        return {}
+
 FLASH_SCORE_RESULTS = {
     "卡塔爾超級聯賽": "https://www.flashscore.com/football/qatar/qsl/results/",
     "女子南美自由盃": "https://www.flashscore.com/football/south-america/copa-libertadores-women/results/",
+    **load_flashscore_sources(),
 }
 GENERATED_BACKFILL_DIR = Path(__file__).with_name("data") / "generated_backfills"
 
@@ -1792,6 +1802,9 @@ def all_saved_matches(league):
     phoenix = phoenix_final_matches(league)
     if not phoenix.empty:
         return phoenix
+    history = match_history_cache(league)
+    if not history.empty:
+        return merge_manual_match_metadata(history, league)
     try:
         with db_read_connect() as c:
             df = pd.read_sql_query("SELECT * FROM matches WHERE league=?", c, params=[league])
@@ -1815,6 +1828,40 @@ def all_saved_matches(league):
     unverified = df["source"].map(is_unverified_corner_source)
     df.loc[unverified, ["HC", "AC"]] = np.nan
     return merge_manual_match_metadata(df, league)
+
+
+def match_history_cache(league):
+    """讀取補數腳本產生的固定9欄真實賽果；角球空白代表來源未核實。"""
+    safe = re.sub(r"[^a-z0-9_-]+", "_", str(league).lower()).strip("_") or "league"
+    if safe == "league":
+        import hashlib
+        safe = "league_" + hashlib.sha1(str(league).encode("utf-8")).hexdigest()[:10]
+    paths = [
+        Path(__file__).parent / "data" / "match_history" / f"{safe}.csv",
+        Path(__file__).parent / "assets" / "data" / "match_history" / f"{safe}.csv",
+    ]
+    path = next((p for p in paths if p.exists()), None)
+    if path is None:
+        return pd.DataFrame()
+    try:
+        raw = pd.read_csv(path)
+        required = {"date", "home_team", "away_team", "home_goals", "away_goals", "league", "season"}
+        if not required.issubset(raw.columns):
+            return pd.DataFrame()
+        out = pd.DataFrame({
+            "Date": raw["date"], "Home": raw["home_team"], "Away": raw["away_team"],
+            "HG": pd.to_numeric(raw["home_goals"], errors="coerce"),
+            "AG": pd.to_numeric(raw["away_goals"], errors="coerce"),
+            "HC": pd.to_numeric(raw["home_corners"], errors="coerce") if "home_corners" in raw else np.nan,
+            "AC": pd.to_numeric(raw["away_corners"], errors="coerce") if "away_corners" in raw else np.nan,
+            "league": raw["league"], "season": raw["season"],
+            "source": "本地match_history（公開CSV／Flashscore結果頁）",
+        })
+        out = out.dropna(subset=["Date", "Home", "Away", "HG", "AG"])
+        out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce", dayfirst=True)
+        return out.reset_index(drop=True)
+    except (OSError, ValueError, TypeError, pd.errors.ParserError):
+        return pd.DataFrame()
 
 
 def local_api_matches(league):
