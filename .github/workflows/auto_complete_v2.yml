@@ -1,0 +1,85 @@
+name: phoenix-phase2-full-98-teams
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch:
+        description: "批次：1英超20、2西甲20、3意甲20、4德甲18、5法甲20"
+        required: true
+        default: "1"
+  schedule:
+    - cron: "30 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phoenix-phase2-full-98-teams
+  cancel-in-progress: false
+
+jobs:
+  phase2-catalog:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    timeout-minutes: 120
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip requests
+
+      - name: Collect one Phase 2 batch with explicit FT and HT
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: python scripts/phase2_full_catalog.py --batch "${{ inputs.batch || '1' }}"
+
+      - name: Validate no inferred half-time data
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          r=json.load(open('catalog/phase2_report.json'))
+          assert r['mode']=='real'
+          assert r['source_policy'].startswith('football-data.org')
+          assert os.path.exists('catalog/phoenix_FULL_ALL_98teams.json')
+          data=json.load(open('catalog/phoenix_FULL_ALL_98teams.json'))
+          phase2_leagues={'英超':20,'西甲':20,'意甲':20,'德甲':18,'法甲':20}
+          phase2_teams=0
+          for league, expected in phase2_leagues.items():
+              assert league in data, f'missing Phase2 league: {league}'
+              block=data[league]
+              assert len(block['teams']) == expected, (league, len(block['teams']), expected)
+              phase2_teams += len(block['teams'])
+              for team in block['teams']:
+                  assert team['match_count'] == len(team['matches'])
+                  for m in team['matches']:
+                      assert m['explicit_ht'] is True
+                      assert all(m.get(k) is not None for k in ('ft_home','ft_away','ht_home','ht_away'))
+                  for p in team['players']:
+                      assert all(k in p for k in ('name','pos','age','goals','assists','apps'))
+          extra=[k for k in data if k not in phase2_leagues]
+          assert phase2_teams == 98, phase2_teams
+          print(f'PHASE2_VALIDATION_OK teams={phase2_teams} preserved_extra_leagues={extra}')
+          print(json.dumps(r['totals'],ensure_ascii=False))
+          PY
+
+      - name: Commit Phase 2 checkpoint
+        run: |
+          git config user.name "phoenix-auto-bot"
+          git config user.email "auto@phoenix-v13.invalid"
+          git add scripts/phase2_full_catalog.py .github/workflows/auto_complete_v2.yml catalog/phoenix_FULL_ALL_98teams.json catalog/phase2_report.json catalog/phase2_fail_list.txt
+          git commit -m "63隊真HT畢業入App: phase2 batch ${{ inputs.batch || '1' }}" || echo "no changes"
+          git config pull.rebase true
+          git pull origin main --rebase
+          for attempt in 1 2 3; do
+            if git push origin main; then exit 0; fi
+            echo "Phase2 push conflict; retry ${attempt}/3"
+            git pull origin main --rebase || { git rebase --abort || true; }
+            sleep $((attempt * 5))
+          done
+          exit 1
