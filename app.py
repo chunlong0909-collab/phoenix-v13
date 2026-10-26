@@ -217,6 +217,19 @@ SPORTSDB_API = "https://www.thesportsdb.com/api/v1/json/123"
 FBREF_BASE = "https://fbref.com"
 HEADERS = {"User-Agent": "FootballResearchApp/1.0 (public-data research)"}
 
+LEAGUE_NAME_ALIASES = {
+    "丹麥超級聯賽": "丹超",
+    "丹超": "丹超",
+}
+MATCH_HISTORY_CACHE_VERSION = "2026-10-26-danish-name-alias-v2"
+DANISH_HISTORY_GITHUB_URL = (
+    "https://raw.githubusercontent.com/chunlong0909-collab/phoenix-v13/main/"
+    "assets/data/match_history/league_783f682b00.csv"
+)
+
+def canonical_league_name(league):
+    return LEAGUE_NAME_ALIASES.get(str(league).strip(), str(league).strip())
+
 LEAGUES = {
     "英格蘭超級聯賽": {"api": 39, "csv": "E0"},
     "英格蘭冠軍聯賽": {"api": 40, "csv": "E1"},
@@ -516,6 +529,9 @@ FLASH_SCORE_RESULTS = {
     "女子南美自由盃": "https://www.flashscore.com/football/south-america/copa-libertadores-women/results/",
     **load_flashscore_sources(),
 }
+# UI使用全名、資料層使用短名；兩者必須共用同一公開來源。
+FLASH_SCORE_RESULTS["丹超"] = "https://www.flashscore.com/football/denmark/superliga/results/"
+FLASH_SCORE_RESULTS["丹麥超級聯賽"] = FLASH_SCORE_RESULTS["丹超"]
 GENERATED_BACKFILL_DIR = Path(__file__).with_name("data") / "generated_backfills"
 
 
@@ -531,7 +547,8 @@ def fetch_flashscore_goal_results(league, limit=20):
     全場入球，不猜半場比分、排名或角球；角球欄按要求寫 0，但稍後會按 source
     標記為不可作角球回測。
     """
-    url = FLASH_SCORE_RESULTS.get(league)
+    canonical = canonical_league_name(league)
+    url = FLASH_SCORE_RESULTS.get(league) or FLASH_SCORE_RESULTS.get(canonical)
     if not url:
         raise ValueError(f"未設定 {league} 的 Flashscore 公開結果頁")
     response = requests.get(url, headers=HEADERS, timeout=20)
@@ -1802,7 +1819,7 @@ def all_saved_matches(league):
     phoenix = phoenix_final_matches(league)
     if not phoenix.empty:
         return phoenix
-    history = match_history_cache(league)
+    history = match_history_cache(league, MATCH_HISTORY_CACHE_VERSION)
     if not history.empty:
         return merge_manual_match_metadata(history, league)
     try:
@@ -1830,12 +1847,13 @@ def all_saved_matches(league):
     return merge_manual_match_metadata(df, league)
 
 
-def match_history_cache(league):
-    """讀取補數腳本產生的固定9欄真實賽果；角球空白代表來源未核實。"""
-    safe = re.sub(r"[^a-z0-9_-]+", "_", str(league).lower()).strip("_") or "league"
+def match_history_cache(league, cache_version=MATCH_HISTORY_CACHE_VERSION):
+    """讀取固定9欄真實賽果；版本參數令Streamlit部署識別新版cache。"""
+    canonical = canonical_league_name(league)
+    safe = re.sub(r"[^a-z0-9_-]+", "_", canonical.lower()).strip("_") or "league"
     if safe == "league":
         import hashlib
-        safe = "league_" + hashlib.sha1(str(league).encode("utf-8")).hexdigest()[:10]
+        safe = "league_" + hashlib.sha1(str(canonical).encode("utf-8")).hexdigest()[:10]
     paths = [
         Path(__file__).parent / "data" / "match_history" / f"{safe}.csv",
         Path(__file__).parent / "assets" / "data" / "match_history" / f"{safe}.csv",
@@ -1867,8 +1885,9 @@ def match_history_cache(league):
 def local_api_matches(league):
     """分析頁的本地API客戶端；API未啟動時才回退本地SQLite，避免阻塞使用。"""
     base = os.getenv("LOCAL_API_URL", "http://127.0.0.1:8000").rstrip("/")
+    canonical = canonical_league_name(league)
     lid = next((x.get("id") for x in json.loads(Path(__file__).with_name("leagues.json").read_text(encoding="utf-8")).get("leagues", [])
-                if x.get("name_zh") == league), league)
+                if x.get("name_zh") in {league, canonical}), canonical)
     try:
         r = requests.get(f"{base}/api/matches", params={"league": lid}, timeout=0.8)
         if r.ok:
@@ -1886,6 +1905,30 @@ def local_api_matches(league):
         pass
     return pd.DataFrame()
 
+
+def refresh_danish_match_history_from_github():
+    """按cache版本強制重拉GitHub最新丹超20場；驗證失敗絕不覆蓋舊檔。"""
+    url = DANISH_HISTORY_GITHUB_URL + "?cache_version=" + MATCH_HISTORY_CACHE_VERSION
+    try:
+        response = requests.get(url, headers={**HEADERS, "Cache-Control": "no-cache"}, timeout=20)
+        response.raise_for_status()
+        raw = pd.read_csv(StringIO(response.content.decode("utf-8-sig")))
+        required = {"date", "home_team", "away_team", "home_goals", "away_goals", "league", "season"}
+        if len(raw) < 20 or not required.issubset(raw.columns):
+            raise ValueError(f"GitHub CSV驗證失敗 rows={len(raw)}")
+        raw = raw.head(20)
+        if raw["home_goals"].isna().any() or raw["away_goals"].isna().any():
+            raise ValueError("GitHub CSV含缺失FT比分")
+        targets = [Path(__file__).parent / "data" / "match_history" / "league_783f682b00.csv",
+                   Path(__file__).parent / "assets" / "data" / "match_history" / "league_783f682b00.csv"]
+        for target in targets:
+            target.parent.mkdir(parents=True, exist_ok=True)
+            temp = target.with_suffix(target.suffix + ".tmp")
+            raw.to_csv(temp, index=False, encoding="utf-8-sig")
+            temp.replace(target)
+        return len(raw), None
+    except Exception as exc:
+        return 0, str(exc)
 
 def import_local_league_cache():
     """啟動時讀取 league_collector 產生的 CSV；只匯入本地檔，不自行猜測資料。"""
@@ -2038,17 +2081,20 @@ st.caption(f"數據接口：本地API（CSV驅動）｜延遲：{'<0.2秒' if _a
 
 with st.sidebar:
     test_update = st.button("更新四個測試聯賽（零成本）", use_container_width=True,
-                            help="英超、澳職、日職、韓職；資料先保存到 data/leagues/，失敗不會覆蓋舊快取。")
+                            help="更新英超、澳職、日職、韓職，並強制刷新丹超GitHub match_history快取。")
     if test_update:
+        danish_rows, danish_error = refresh_danish_match_history_from_github()
         with st.spinner("收集四個測試聯賽的公開資料中……"):
             result = subprocess.run(["python3", str(Path(__file__).with_name("league_collector.py")),
                                      "--leagues", "epl,a-league,j1,k1"], cwd=str(Path(__file__).parent),
                                     capture_output=True, text=True, timeout=300)
-        if result.returncode == 0:
-            st.success("四個測試聯賽收集完成；重新載入頁面後會自動匯入本地快取。")
+        if result.returncode == 0 and danish_rows >= 20:
+            st.success(f"四個測試聯賽收集完成；丹超GitHub快取已刷新 {danish_rows} 場（版本 {MATCH_HISTORY_CACHE_VERSION}）。")
             st.session_state["local_league_cache_loaded"] = False
+        elif result.returncode == 0:
+            st.warning(f"四個測試聯賽完成，但丹超快取未刷新：{danish_error or '資料不足'}；舊檔保持不變。")
         else:
-            st.warning("收集器未完成，舊快取仍會保留。請查看終端輸出或稍後重試。")
+            st.warning(f"收集器未完成；丹超快取{'已刷新' if danish_rows >= 20 else '保持舊檔'}。請查看終端輸出。")
     cache_index = Path(__file__).with_name("data") / "leagues" / "index.json"
     if cache_index.exists():
         try:
