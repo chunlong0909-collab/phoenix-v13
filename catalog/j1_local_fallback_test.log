@@ -1,0 +1,78 @@
+===SELFHEALING START=== 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+FOOTBALL_DATA_TOKEN missing; switching to local J1 fallback mode
+ALL SOURCES BLOCKED, SWITCH TO HARDCODE J1 2024
+J1_HARDCODE ROWS=380 TEAMS=20
+LOCAL_574_J1_TEAMS=20 ['Albirex Niigata', 'Avispa Fukuoka', 'Cerezo Osaka', 'Consadole Sapporo', 'FC Tokyo', 'Gamba Osaka', 'Jubilo Iwata', 'Kashima Antlers', 'Kashiwa Reysol', 'Kawasaki Frontale', 'Kyoto Sanga', 'Machida Zelvia', 'Nagoya Grampus', 'Sagan Tosu', 'Sanfrecce Hiroshima', 'Shonan Bellmare', 'Tokyo Verdy', 'Urawa Reds', 'Vissel Kobe', 'Yokohama F Marinos']
+Schedule teams sample=['Yokohama F Marinos', 'Albirex Niigata', 'Urawa Reds', 'Machida Zelvia', 'Sagan Tosu']
+After fuzzy matching got 20 teams: ['Albirex Niigata', 'Avispa Fukuoka', 'Cerezo Osaka', 'Consadole Sapporo', 'FC Tokyo', 'Gamba Osaka', 'Jubilo Iwata', 'Kashima Antlers', 'Kashiwa Reysol', 'Kawasaki Frontale', 'Kyoto Sanga', 'Machida Zelvia', 'Nagoya Grampus', 'Sagan Tosu', 'Sanfrecce Hiroshima', 'Shonan Bellmare', 'Tokyo Verdy', 'Urawa Reds', 'Vissel Kobe', 'Yokohama F Marinos']
+J1聯賽 | Albirex Niigata | matches=38 | players=0
+J1聯賽 | Avispa Fukuoka | matches=38 | players=0
+J1聯賽 | Cerezo Osaka | matches=38 | players=0
+J1聯賽 | Consadole Sapporo | matches=38 | players=0
+J1聯賽 | FC Tokyo | matches=38 | players=0
+J1聯賽 | Gamba Osaka | matches=38 | players=0
+J1聯賽 | Jubilo Iwata | matches=38 | players=0
+J1聯賽 | Kashima Antlers | matches=38 | players=0
+J1聯賽 | Kashiwa Reysol | matches=38 | players=0
+J1聯賽 | Kawasaki Frontale | matches=38 | players=0
+J1聯賽 | Kyoto Sanga | matches=38 | players=0
+J1聯賽 | Machida Zelvia | matches=38 | players=0
+J1聯賽 | Nagoya Grampus | matches=38 | players=0
+J1聯賽 | Sagan Tosu | matches=38 | players=0
+J1聯賽 | Sanfrecce Hiroshima | matches=38 | players=0
+J1聯賽 | Shonan Bellmare | matches=38 | players=0
+J1聯賽 | Tokyo Verdy | matches=38 | players=0
+J1聯賽 | Urawa Reds | matches=38 | players=0
+J1聯賽 | Vissel Kobe | matches=38 | players=0
+J1聯賽 | Yokohama F Marinos | matches=38 | players=0
+{
+  "phase": 3,
+  "batch": 6,
+  "mode": "real",
+  "source_policy": "local checked-in J1 2024 real FT dump; no inferred HT; no inferred stats",
+  "updated_at": "2026-10-26T04:10:46.722423+00:00",
+  "leagues": {
+    "英超": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 940,
+      "players": 493
+    },
+    "西甲": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 930,
+      "players": 421
+    },
+    "意甲": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 930,
+      "players": 424
+    },
+    "德甲": {
+      "teams": 18,
+      "completed_teams": 17,
+      "matches": 850,
+      "players": 375
+    },
+    "法甲": {
+      "teams": 20,
+      "completed_teams": 19,
+      "matches": 946,
+      "players": 366
+    },
+    "J1聯賽": {
+      "teams": 20,
+      "completed_teams": 20,
+      "matches": 760,
+      "players": 0
+    }
+  },
+  "totals": {
+    "teams": 118,
+    "matches": 5356,
+    "players": 2079
+  }
+}
+LOCAL_FALLBACK_TEST_PASS teams=20 unique_matches=380 ft_ok=380

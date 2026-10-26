@@ -34,6 +34,7 @@ SOURCE = CATALOG / "phoenix_FULL_ALL_98teams.json"
 OUT = CATALOG / "complete_5_leagues_catalog.json"
 REPORT = CATALOG / "phase3_j1_report.json"
 FAIL = CATALOG / "phase3_j1_fail_list.txt"
+LOCAL_SQUADS = ROOT / "data" / "final_574_squads_with_sources.json"
 BASE = "https://api.football-data.org/v4"
 UA = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
@@ -537,26 +538,48 @@ def local_hardcode_j1_matches():
         return [], f"local J1 validation failed rows={len(out)} teams={len(teams)}"
     return out, None
 
+def local_j1_team_whitelist():
+    """Read the immutable 574-team file to verify the expected 20 J1 identities."""
+    if not LOCAL_SQUADS.exists():
+        return set(), "local 574 squad file missing"
+    try:
+        data = json.loads(LOCAL_SQUADS.read_text(encoding="utf-8"))
+    except Exception as exc:
+        return set(), f"local 574 squad file invalid: {exc}"
+    aliases = {"Urawa Red Diamonds": "Urawa Reds", "Yokohama F. Marinos": "Yokohama F Marinos"}
+    teams = {aliases.get(str(v.get("team", "")).strip(), str(v.get("team", "")).strip())
+             for v in data.values() if isinstance(v, dict) and v.get("league") == "J1聯賽" and v.get("team")}
+    print(f"LOCAL_574_J1_TEAMS={len(teams)} {sorted(teams)}", flush=True)
+    if len(teams) != 20:
+        return teams, f"local 574 J1 whitelist has {len(teams)} teams, expected 20"
+    return teams, None
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--mode", default="real"); args = ap.parse_args()
     if args.mode != "real": raise SystemExit("only --mode real is allowed")
     token = os.getenv("FOOTBALL_DATA_TOKEN")
     worldfootball_only = os.getenv("J1_WORLD_FOOTBALL_ONLY") == "1"
     selfhealing = os.getenv("J1_SELFHEALING") == "1"
+    local_only = os.getenv("J1_LOCAL_ONLY") == "1"
     if not token and not worldfootball_only and not selfhealing:
-        raise SystemExit("FOOTBALL_DATA_TOKEN missing; no data written")
+        print("FOOTBALL_DATA_TOKEN missing; switching to local J1 fallback mode", flush=True)
     existing = load_existing()
-    if selfhealing:
+    if local_only:
+        matches, match_errors, chosen_source = [], ["local-only dry-run"], None
+        source_policy = "local J1 2024 real FT dry-run; no inferred HT"
+    elif selfhealing:
         matches, match_errors, chosen_source = selfhealing_matches()
         source_policy = f"self-healing source {chosen_source or 'none'}; A WorldFootball -> B Transfermarkt -> C FBref -> D JLeague English -> CSV"
     else:
-        matches, match_errors = ([], []) if worldfootball_only else explicit_matches("J1", token)
+        matches, match_errors = ([], []) if worldfootball_only else (
+            explicit_matches("J1", token) if token else ([], ["football-data.org token missing"])
+        )
         chosen_source = None
         source_policy = "WorldFootball rounds 1-38; explicit FT+HT" if worldfootball_only else "football-data.org J1; explicit FT+HT"
-    current, team_error = ({}, None) if worldfootball_only else teams_for_current("J1", token)
+    current, team_error = ({}, None) if (worldfootball_only or not token) else teams_for_current("J1", token)
     if selfhealing:
         current, team_error = {}, None
-    if not matches and not selfhealing:
+    if not matches and not selfhealing and not local_only:
         fallback_matches, fallback_error = worldfootball_matches()
         if fallback_matches:
             matches = fallback_matches
@@ -580,6 +603,9 @@ def main():
                 source_policy = "local checked-in J1 2024 real FT dump; no inferred HT"
             else:
                 match_errors.append(local_error or "No valid local J1 hardcode source")
+    local_whitelist, whitelist_error = local_j1_team_whitelist()
+    if whitelist_error:
+        match_errors.append(whitelist_error)
     by = {}
     for m in matches:
         by.setdefault(m["home"], []).append(m); by.setdefault(m["away"], []).append(m)
@@ -587,6 +613,8 @@ def main():
     aliases = {"Urawa Reds": ["Urawa Reds", "Urawa Red Diamonds"]}
     selected = []
     for wanted in sorted(J1):
+        if local_whitelist and wanted not in local_whitelist:
+            continue
         names = aliases.get(wanted, [wanted])
         found = next((n for n in names if n in current or n in by), None)
         if not found:
@@ -608,7 +636,7 @@ def main():
             if m["match_id"] not in seen: ms.append(m); seen.add(m["match_id"])
         ms = ms[:48]
         tid = str(current.get(provider_name, {}).get("id") or "").strip() or provider_name.lower().replace(" ", "-")
-        squad, pe = ([], None) if (worldfootball_only or selfhealing) else players_for_team(tid, token)
+        squad, pe = ([], None) if (worldfootball_only or selfhealing or local_only) else players_for_team(tid, token)
         if pe: errors.append(f"{wanted}:players:{pe}")
         teams.append({"team_id": tid, "name": wanted, "provider_name": provider_name, "league": "J1聯賽",
                       "matches": ms, "players": squad, "match_count": len(ms), "player_count": len(squad),
