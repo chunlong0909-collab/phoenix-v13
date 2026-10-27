@@ -221,7 +221,7 @@ LEAGUE_NAME_ALIASES = {
     "丹麥超級聯賽": "丹超",
     "丹超": "丹超",
 }
-MATCH_HISTORY_CACHE_VERSION = "2026-10-26-danish-name-alias-v2"
+MATCH_HISTORY_CACHE_VERSION = "2026-10-27-afc-elite-v1"
 DANISH_HISTORY_GITHUB_URL = (
     "https://raw.githubusercontent.com/chunlong0909-collab/phoenix-v13/main/"
     "assets/data/match_history/league_783f682b00.csv"
@@ -267,6 +267,9 @@ LEAGUES = {
     "女子挪威超級聯賽": {"api": None, "csv": ""},
     "女子南美自由盃": {"api": None, "csv": ""},
     "歐洲冠軍聯賽": {"api": 2, "csv": ""},
+    # AFC Elite uses the audited local match_history cache and public Flashscore
+    # results source; it does not require an API league id to be selectable.
+    "亞冠精英盃": {"api": None, "csv": "", "history_only": True},
 }
 
 # 多聯賽資料館：檔案名稱可用來自動判斷所屬聯賽；網址只作公開來源提示，
