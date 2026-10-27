@@ -7,5 +7,13 @@
   "players": 0,
   "corner_fixtures": 0,
   "sources": [],
-  "status": "insufficient"
+  "status": "insufficient",
+  "league": "韓職K1",
+  "season": "2024",
+  "matches_rows": 20,
+  "teams_in_matches": 12,
+  "ft_valid_rows": 20,
+  "corners_verified_rows": 0,
+  "corners_policy": "NULL: source table does not expose verified per-match HC/AC",
+  "source_url": "https://fbref.com/en/squads/2075253c/2024/matchlogs/c55/schedule/Daejeon-Hana-Citizen-Scores-and-Fixtures-K-League-1"
 }
