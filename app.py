@@ -1843,6 +1843,8 @@ def all_saved_matches(league):
         return phoenix
     history = match_history_cache(league, MATCH_HISTORY_CACHE_VERSION)
     if not history.empty:
+        if canonical_league_name(league) == "亞冠精英盃":
+            history = afc_cross_league_matches(history)
         return merge_manual_match_metadata(history, league)
     try:
         with db_read_connect() as c:
@@ -1914,6 +1916,77 @@ def match_history_cache(league, cache_version=MATCH_HISTORY_CACHE_VERSION):
         return pd.DataFrame()
 
 
+def _load_local_competition_json(league_id, display_name):
+    """讀取已存在的本地聯賽JSON；只轉換真實FT，不推算缺失欄位。"""
+    candidates = [
+        Path(__file__).parent / "data" / "leagues" / league_id / "matches.json",
+        Path(__file__).parent / "data" / f"{league_id}_matches.json",
+    ]
+    path = next((p for p in candidates if p.exists()), None)
+    if path is None:
+        return pd.DataFrame()
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(payload, list):
+            return pd.DataFrame()
+        rows = []
+        for row in payload:
+            if not isinstance(row, dict):
+                continue
+            home = row.get("home_team", row.get("Home"))
+            away = row.get("away_team", row.get("Away"))
+            hg = row.get("home_goals", row.get("HG"))
+            ag = row.get("away_goals", row.get("AG"))
+            if not home or not away or pd.isna(hg) or pd.isna(ag):
+                continue
+            rows.append({"Date": row.get("date", row.get("Date", "")), "Home": home, "Away": away,
+                         "HG": pd.to_numeric(hg, errors="coerce"), "AG": pd.to_numeric(ag, errors="coerce"),
+                         "HC": pd.to_numeric(row.get("home_corners"), errors="coerce"),
+                         "AC": pd.to_numeric(row.get("away_corners"), errors="coerce"),
+                         "league": display_name, "season": row.get("season", "local-json"),
+                         "source": row.get("source", f"本地{display_name} JSON"),
+                         "source_league": display_name})
+        if not rows:
+            return pd.DataFrame()
+        out = pd.DataFrame(rows).dropna(subset=["HG", "AG"])
+        out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce", dayfirst=True)
+        return out.reset_index(drop=True)
+    except (OSError, ValueError, TypeError, json.JSONDecodeError):
+        return pd.DataFrame()
+def afc_cross_league_matches(afc_matches):
+    """亞冠精英盃專用樣本擴充：合併本地K1/J1，絕不生成或估算賽果。"""
+    if afc_matches.empty:
+        return afc_matches
+    additions = []
+    for league_id, display_name in (("k1", "韓職K1"), ("j1", "日職J1")):
+        from_history = match_history_cache(display_name, MATCH_HISTORY_CACHE_VERSION)
+        from_json = _load_local_competition_json(league_id, display_name)
+        if not from_history.empty:
+            additions.append(from_history)
+        if not from_json.empty:
+            additions.append(from_json)
+    if not additions:
+        return afc_matches
+    extra = pd.concat(additions, ignore_index=True)
+    try:
+        config = json.loads((Path(__file__).with_name("leagues.json")).read_text(encoding="utf-8"))
+        item = next((x for x in config.get("leagues", []) if x.get("id") == "afc-champions-league-elite"), {})
+        directory = [str(x) for x in (item.get("team_directory") or [])]
+        def cross_key(value):
+            # 亞冠快取使用「Vissel Kobe (Jpn)」，J1 JSON通常使用「Vissel Kobe」；
+            # 國家括號只是來源標記，不是另一支球隊。
+            stripped = re.sub(r"\s*\([^)]*\)", "", str(value or ""))
+            return team_key(stripped)
+        for col in ("Home", "Away"):
+            extra[col] = extra[col].map(lambda value: next(
+                (name for name in directory if cross_key(name) == cross_key(value)), value
+            ))
+    except (OSError, ValueError, TypeError):
+        pass
+    combined = pd.concat([afc_matches.assign(source_league="亞冠精英盃"), extra], ignore_index=True)
+    dedupe_cols = ["Date", "Home", "Away", "HG", "AG"]
+    combined = combined.drop_duplicates(subset=[c for c in dedupe_cols if c in combined.columns])
+    return combined.sort_values("DateParsed", na_position="last").reset_index(drop=True)
 def local_api_matches(league):
     """分析頁的本地API客戶端；API未啟動時才回退本地SQLite，避免阻塞使用。"""
     base = os.getenv("LOCAL_API_URL", "http://127.0.0.1:8000").rstrip("/")
