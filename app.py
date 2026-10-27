@@ -16,6 +16,10 @@ import pandas as pd
 import requests
 import streamlit as st
 try:
+    from weather_reference import get_match_weather
+except Exception:
+    get_match_weather = None
+try:
     from predict_match import apply_coach_factors, apply_weather_factor, calculate_value_and_yinpan, load_squads
 except Exception:
     apply_coach_factors = apply_weather_factor = calculate_value_and_yinpan = None
@@ -221,7 +225,7 @@ LEAGUE_NAME_ALIASES = {
     "丹麥超級聯賽": "丹超",
     "丹超": "丹超",
 }
-MATCH_HISTORY_CACHE_VERSION = "2026-10-27-afc-elite-v18"
+MATCH_HISTORY_CACHE_VERSION = "2026-10-27-afc-elite-v18-weather-samples"
 DANISH_HISTORY_GITHUB_URL = (
     "https://raw.githubusercontent.com/chunlong0909-collab/phoenix-v13/main/"
     "assets/data/match_history/league_783f682b00.csv"
@@ -344,6 +348,8 @@ ALIASES = {
     "Al Ahli": "Al Ahli SC", "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
     "Al Fayha": "Al Feiha", "Al-Fayha": "Al Feiha",
     "迪里耶會": "Diriyah", "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
+    "沙比阿爾阿里": "Shabab Al Ahli Club", "Shabab Al Ahli Dubai": "Shabab Al Ahli Club", "Shabab Al Ahli Dubai (Uae)": "Shabab Al Ahli Club",
+    "艾斯迪格拿": "Esteghlal F.C.", "Esteghlal": "Esteghlal F.C.", "Esteghlal F.C. (Irn)": "Esteghlal F.C.",
     "艾利雅德": "Al Riyadh", "艾利雅得": "Al Riyadh",
 }
 
@@ -1908,6 +1914,7 @@ def match_history_cache(league, cache_version=MATCH_HISTORY_CACHE_VERSION):
             "AC": pd.to_numeric(raw["away_corners"], errors="coerce") if "away_corners" in raw else np.nan,
             "league": raw["league"], "season": raw["season"],
             "source": raw["source"] if "source" in raw else "本地match_history（公開CSV／Flashscore結果頁）",
+            "source_url": raw["source_url"] if "source_url" in raw else "",
         })
         out = out.dropna(subset=["Date", "Home", "Away", "HG", "AG"])
         out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce", dayfirst=True)
@@ -1953,11 +1960,33 @@ def _load_local_competition_json(league_id, display_name):
         return out.reset_index(drop=True)
     except (OSError, ValueError, TypeError, json.JSONDecodeError):
         return pd.DataFrame()
+def _load_afc_auxiliary_history():
+    """讀取已核實的UAE/Iran跨賽季樣本；不生成比分。"""
+    path = Path(__file__).parent / "data" / "match_history" / "uae_iran_history.csv"
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        raw = pd.read_csv(path)
+        out = pd.DataFrame({
+            "Date": raw["date"], "Home": raw["home_team"], "Away": raw["away_team"],
+            "HG": pd.to_numeric(raw["home_goals"], errors="coerce"), "AG": pd.to_numeric(raw["away_goals"], errors="coerce"),
+            "HC": pd.to_numeric(raw.get("home_corners"), errors="coerce"), "AC": pd.to_numeric(raw.get("away_corners"), errors="coerce"),
+            "league": raw["league"], "season": raw["season"], "source": raw["source"], "source_url": raw["source_url"],
+        }).dropna(subset=["Date", "Home", "Away", "HG", "AG"])
+        out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce")
+        return out
+    except Exception:
+        return pd.DataFrame()
+
+
 def afc_cross_league_matches(afc_matches):
     """亞冠精英盃專用樣本擴充：合併本地K1/J1，絕不生成或估算賽果。"""
     if afc_matches.empty:
         return afc_matches
     additions = []
+    auxiliary = _load_afc_auxiliary_history()
+    if not auxiliary.empty:
+        additions.append(auxiliary)
     for league_id, display_name in (("k1", "韓職K1"), ("j1", "日職J1")):
         from_history = match_history_cache(display_name, MATCH_HISTORY_CACHE_VERSION)
         from_json = _load_local_competition_json(league_id, display_name)
@@ -2780,6 +2809,13 @@ if run:
         f"教練因子：主 {coach_result.get('home_coach_factor', 1.0):.2f}／客 {coach_result.get('away_coach_factor', 1.0):.2f}｜"
         f"天氣因子：{weather_factor.get('total_factor', 1.0):.2f}（{weather_factor.get('status', '未取得')}）"
     )
+    # UAE 對 Iran 的亞冠賽事顯示獨立天氣參考；只作標籤，不改 expected goals。
+    if get_match_weather is not None and canonical_league_name(league) == "亞冠精英盃" and "Shabab Al Ahli" in str(home):
+        wx = get_match_weather("Dubai", "UAE", "2026-10-27T20:00:00")
+        if wx.get("status") == "ok":
+            st.info(f"天氣：Dubai {float(wx.get('temp_c')):.0f}°C｜濕度 {wx.get('humidity')}%｜風速 {float(wx.get('wind_kmh')):.1f} km/h｜降雨 {float(wx.get('rain_mm')):.1f} mm｜天氣完整度：{wx.get('completeness')}｜{wx.get('label')}")
+        else:
+            st.warning(f"天氣：Dubai｜天氣完整度：{wx.get('completeness')}（{wx.get('source')}）")
     if live_context.get("status") == "ok":
         st.caption(f"即時資料：{live_context.get('source', '已取得')}｜H2H近4場：{len(live_context.get('h2h_last4', []))}｜主客近10場：{len(live_context.get('home_last10', []))}/{len(live_context.get('away_last10', []))}｜傷停：{len(live_context.get('injuries', []))}人")
     else:
