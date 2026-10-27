@@ -55,7 +55,9 @@ def get_json(url, params):
 
 def geocode(team, league):
     country = LEAGUE_COUNTRY.get(league, "")
-    queries = [f"{team} football stadium {country}", f"{team} football club {country}"]
+    base = re.sub(r"\b(FC|CF|AFC|AC|BC|SC|UD|RC|RCD|AS|SS|US|SV|VfB|VfL|TSG)\b", "", team, flags=re.I)
+    base = re.sub(r"\s+", " ", base).strip()
+    queries = [f"{team} stadium {country}", f"{base} football club {country}", f"{base} {country}"]
     for query in queries:
         try:
             rows = get_json("https://nominatim.openstreetmap.org/search", {"q": query, "format": "jsonv2", "limit": 3, "addressdetails": 1})
@@ -68,7 +70,7 @@ def geocode(team, league):
         addr = chosen.get("address") or {}
         city = addr.get("city") or addr.get("town") or addr.get("municipality") or addr.get("village")
         try:
-            return {"stadium_name": chosen.get("display_name", "").split(",")[0] or None,
+            return {"stadium_name": (chosen.get("display_name", "").split(",")[0] if stadium else "城市中心fallback（非球場）"),
                     "city": city, "lat": float(chosen["lat"]), "lon": float(chosen["lon"]),
                     "source": "OpenStreetMap Nominatim" if stadium else "city_center_geocode",
                     "fallback": stadium is None}
