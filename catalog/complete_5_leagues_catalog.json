@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-10-24T07:20:22.642020+00:00",
+    "updated_at": "2026-10-27T01:26:23.968179+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -5749,7 +5749,7 @@
             "player_id": "3737",
             "name": "Jefferson Lerma",
             "pos": "Midfield",
-            "age": 31,
+            "age": 32,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -8253,7 +8253,7 @@
             "player_id": "16347",
             "name": "Dominik Szoboszlai",
             "pos": "Midfield",
-            "age": 25,
+            "age": 26,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -8313,7 +8313,7 @@
             "player_id": "1780",
             "name": "Federico Chiesa",
             "pos": "Offence",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -11635,7 +11635,7 @@
             "player_id": "77641",
             "name": "Dan Ndoye",
             "pos": "Offence",
-            "age": 25,
+            "age": 26,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-10-26T03:52:05.141339+00:00",
+    "updated_at": "2026-10-27T03:57:26.092849+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
