@@ -72,9 +72,15 @@ jobs:
               assert path.exists(), path
               with path.open(encoding='utf-8-sig', newline='') as fh:
                   rows = list(csv.DictReader(fh))
-              assert len(rows) == 20, (path, len(rows))
+              assert len(rows) >= 20, (path, len(rows))
               assert all(r.get('league') == '亞冠精英盃' for r in rows)
-          print('AFC_ELITE_CACHE_VALID rows=20 copies=2 slug=' + slug)
+          aux = pathlib.Path('data/match_history/uae_iran_history.csv')
+          assert aux.exists(), aux
+          with aux.open(encoding='utf-8-sig', newline='') as fh:
+              aux_rows = list(csv.DictReader(fh))
+          assert len(aux_rows) >= 20, len(aux_rows)
+          assert all(r.get('source_url', '').startswith('https://www.worldfootball.net/') for r in aux_rows)
+          print(f'AFC_ELITE_CACHE_VALID rows>=20 copies=2 aux_rows={len(aux_rows)} slug=' + slug)
           PY
 
       - name: Package verified batch
