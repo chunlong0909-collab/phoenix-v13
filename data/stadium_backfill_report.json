@@ -1,934 +1,1580 @@
 {
-  "generated_at": "2026-10-27T02:46:56.549041+00:00",
+  "generated_at": "2026-10-27T03:48:45.332173+00:00",
+  "version": "v2",
   "teams_seen": 574,
   "processed": 574,
-  "coordinates_ok": 85,
-  "unresolved": 489,
-  "fallback_city_center": 38,
+  "coordinates_ok": 574,
+  "unresolved": 0,
+  "stadium_exact": 47,
+  "city_center": 209,
+  "country_center": 318,
+  "fallback_city_center": 209,
   "entries": [
     {
       "team": "AFC Bournemouth",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Arsenal FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Aston Villa FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Brentford FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Brighton & Hove Albion FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Chelsea FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Crystal Palace FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Everton FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Fulham FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Liverpool FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Manchester City FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Manchester",
+      "lat": 53.48095,
+      "lon": -2.23743,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding (verified hint)"
     },
     {
       "team": "Manchester United FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Newcastle United FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Nottingham Forest FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Tottenham Hotspur FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "West Ham United FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Wolverhampton Wanderers FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Burnley FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Leeds United FC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Sunderland AFC",
       "league": "英超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Athletic Club",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "CA Osasuna",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Club Atlético de Madrid",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Deportivo Alavés",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "FC Barcelona",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Barcelona",
+      "lat": 41.38879,
+      "lon": 2.15899,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Getafe CF",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Getafe",
+      "lat": 40.30571,
+      "lon": -3.73295,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Girona FC",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Girona",
+      "lat": 41.98311,
+      "lon": 2.82493,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "RC Celta de Vigo",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "RCD Espanyol de Barcelona",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "RCD Mallorca",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Rayo Vallecano de Madrid",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Real Betis Balompié",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Real Madrid CF",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Madrid",
+      "lat": 40.4165,
+      "lon": -3.70256,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding (verified hint)"
     },
     {
       "team": "Real Sociedad de Fútbol",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Sevilla FC",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Seville",
+      "lat": 37.38283,
+      "lon": -5.97317,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Valencia CF",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Valencia",
+      "lat": 39.47391,
+      "lon": -0.37966,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Villarreal CF",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Villarreal",
+      "lat": 38.72572,
+      "lon": -7.21533,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Elche CF",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Elche",
+      "lat": 38.26218,
+      "lon": -0.70107,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Levante UD",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Real Oviedo",
       "league": "西甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "AC Milan",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Milan",
+      "lat": 45.46427,
+      "lon": 9.18951,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "ACF Fiorentina",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "AS Roma",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Atalanta BC",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Bologna FC 1909",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Cagliari Calcio",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Como 1907",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "FC Internazionale Milano",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Genoa CFC",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Hellas Verona FC",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Juventus FC",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Parma Calcio 1913",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "SS Lazio",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "SSC Napoli",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Torino FC",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Turin",
+      "lat": 45.07049,
+      "lon": 7.68682,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "US Lecce",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Lecce",
+      "lat": 40.35481,
+      "lon": 18.17244,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Udinese Calcio",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "AC Pisa 1909",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "US Cremonese",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "US Sassuolo Calcio",
       "league": "意甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "1. FC Heidenheim 1846",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "1. FSV Mainz 05",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Bayer 04 Leverkusen",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Borussia Dortmund",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Borussia Mönchengladbach",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Eintracht Frankfurt",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "FC Augsburg",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Augsburg",
+      "lat": 48.37154,
+      "lon": 10.89851,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "FC Bayern München",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "RB Leipzig",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "SC Freiburg",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Freiburg im Breisgau",
+      "lat": 47.9959,
+      "lon": 7.85222,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "SV Werder Bremen",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "TSG 1899 Hoffenheim",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "VfB Stuttgart",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Stuttgart",
+      "lat": 48.78232,
+      "lon": 9.17702,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "VfL Wolfsburg",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Wolfsburg",
+      "lat": 52.4236,
+      "lon": 10.77597,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "1. FC Union Berlin",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "1. FC Köln",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "FC St. Pauli 1910",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Hamburger SV",
       "league": "德甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Hamburger Kamp",
+      "lat": 54.168,
+      "lon": 10.43459,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "AS Monaco FC",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Le Havre AC",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Lille OSC",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "OGC Nice",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Olympique Lyonnais",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Olympique de Marseille",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Paris Saint-Germain FC",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "RC Strasbourg Alsace",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Racing Club de Lens",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Stade Brestois 29",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Stade Rennais FC 1901",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "FC Nantes",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Toulouse FC",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Toulouse",
+      "lat": 43.60426,
+      "lon": 1.44367,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "AJ Auxerre",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Angers SCO",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "FC Lorient",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Lorient",
+      "lat": 47.74817,
+      "lon": -3.37177,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "FC Metz",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Metz",
+      "lat": 49.11911,
+      "lon": 6.17269,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Stade de Reims",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Montpellier HSC",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Clermont Foot 63",
       "league": "法甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Albirex Niigata",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Avispa Fukuoka",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Cerezo Osaka",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Consadole Sapporo",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "FC Tokyo",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Gamba Osaka",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Jubilo Iwata",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Kashima Antlers",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Kashiwa Reysol",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Kawasaki Frontale",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Kyoto Sanga",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Machida Zelvia",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Nagoya Grampus",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Sagan Tosu",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Sanfrecce Hiroshima",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Shonan Bellmare",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Tokyo Verdy",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Urawa Reds",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Vissel Kobe",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Yokohama F Marinos",
       "league": "J1聯賽",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Porto",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Benfica",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Benfica",
+      "lat": 38.75087,
+      "lon": -9.20282,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sporting CP",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Braga",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Vitoria Guimaraes",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Moreirense",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Arouca",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Arouca",
+      "lat": 40.93057,
+      "lon": -8.24488,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Famalicao",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Vila Nova de Famalicão",
+      "lat": 41.40797,
+      "lon": -8.51978,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Casa Pia",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Farense",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Sp Lisbon",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Guimaraes",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Guimarães",
+      "lat": 41.44443,
+      "lon": -8.29619,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Gil Vicente",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Estoril",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Sp Braga",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Boavista",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Boavista",
+      "lat": 39.98674,
+      "lon": -8.58685,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Vizela",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Vizela",
+      "lat": 41.39096,
+      "lon": -8.26389,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Portimonense",
       "league": "葡超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Portugal",
+      "lat": 39.3999,
+      "lon": -8.2245,
+      "source": "country_center"
     },
     {
       "team": "Ajax",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "PSV Eindhoven",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Feyenoord",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "AZ Alkmaar",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Twente",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Utrecht",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Go Ahead Eagles",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Waalwijk",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "For Sittard",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Nijmegen",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Heerenveen",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Sparta Rotterdam",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Heracles",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Zwolle",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Groningen",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Vitesse",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Cambuur",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Willem II",
       "league": "荷甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Netherlands",
+      "lat": 52.1326,
+      "lon": 5.2913,
+      "source": "country_center"
     },
     {
       "team": "Galatasaray",
@@ -938,145 +1584,240 @@
       "city": "Sarıyer",
       "lat": 41.1025976,
       "lon": 28.9922753,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Fenerbahce",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Besiktas",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Trabzonspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Basaksehir",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Adana Demirspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Hatayspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Buyuksehyr",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Ad. Demirspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Antalyaspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Sivasspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Kayserispor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Kasimpasa",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Alanyaspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Gaziantep",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Konyaspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Karagumruk",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Rizespor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Giresunspor",
       "league": "土超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Turkey",
+      "lat": 38.9637,
+      "lon": 35.2433,
+      "source": "country_center"
     },
     {
       "team": "Club Brugge",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "Anderlecht",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Anderlecht",
+      "lat": 50.83619,
+      "lon": 4.31454,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Genk",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Genk",
+      "lat": 50.965,
+      "lon": 5.50082,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Antwerp",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Antwerp",
+      "lat": 51.22047,
+      "lon": 4.40026,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Union SG",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "Gent",
@@ -1086,25 +1827,37 @@
       "city": "Ghent",
       "lat": 51.045991,
       "lon": 3.6876201,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Oud-Heverlee Leuven",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "Mechelen",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "St. Gilloise",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "Standard",
@@ -1114,67 +1867,111 @@
       "city": "Bouillon",
       "lat": 49.7911967,
       "lon": 5.0590193,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "St Truiden",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "Charleroi",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Charleroi",
+      "lat": 50.41136,
+      "lon": 4.44448,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Cercle Brugge",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "Kortrijk",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Kortrijk",
+      "lat": 50.82803,
+      "lon": 3.26487,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Westerlo",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Westerlo",
+      "lat": 51.09049,
+      "lon": 4.91544,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Eupen",
       "league": "比甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Belgium",
+      "lat": 50.5039,
+      "lon": 4.4699,
+      "source": "country_center"
     },
     {
       "team": "Flamengo",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Brazil",
+      "lat": -14.235,
+      "lon": -51.9253,
+      "source": "country_center"
     },
     {
       "team": "Palmeiras",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Santa Cruz das Palmeiras",
+      "lat": -21.82694,
+      "lon": -47.24861,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Atletico Mineiro",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Brazil",
+      "lat": -14.235,
+      "lon": -51.9253,
+      "source": "country_center"
     },
     {
       "team": "Corinthians",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Brazil",
+      "lat": -14.235,
+      "lon": -51.9253,
+      "source": "country_center"
     },
     {
       "team": "Fluminense",
@@ -1184,55 +1981,92 @@
       "city": "Rio de Janeiro",
       "lat": -22.9363279,
       "lon": -43.1847488,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Gremio",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Grêmios",
+      "lat": -4.46667,
+      "lon": -39.63333,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Botafogo",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Botafogo",
+      "lat": -22.95092,
+      "lon": -43.18232,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Athletico-PR",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Brazil",
+      "lat": -14.235,
+      "lon": -51.9253,
+      "source": "country_center"
     },
     {
       "team": "Internacional",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Brazil",
+      "lat": -14.235,
+      "lon": -51.9253,
+      "source": "country_center"
     },
     {
       "team": "Fortaleza",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Fortaleza",
+      "lat": -3.71722,
+      "lon": -38.54306,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sao Paulo",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "São Paulo",
+      "lat": -23.5475,
+      "lon": -46.63611,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Cruzeiro",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Cruzeiro",
+      "lat": -22.57316,
+      "lon": -44.97108,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Bragantino",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Brazil",
+      "lat": -14.235,
+      "lon": -51.9253,
+      "source": "country_center"
     },
     {
       "team": "Santos",
@@ -1242,115 +2076,193 @@
       "city": "Canguçu",
       "lat": -31.4671681,
       "lon": -52.6767835,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Bahia",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Salvador",
+      "lat": -12.97563,
+      "lon": -38.49096,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Vasco",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Brazil",
+      "lat": -14.235,
+      "lon": -51.9253,
+      "source": "country_center"
     },
     {
       "team": "Cuiaba",
       "league": "巴甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Cuiabá",
+      "lat": -15.59611,
+      "lon": -56.09667,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Salzburg",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Salzburg",
+      "lat": 47.79941,
+      "lon": 13.04399,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sturm Graz",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "LASK",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "SK Rapid",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "Austria Vienna",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "Wolfsberger AC",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "Hartberg",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Hartberg",
+      "lat": 47.28333,
+      "lon": 15.96667,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Altach",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Altach",
+      "lat": 47.35438,
+      "lon": 9.65207,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Tirol",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "A. Klagenfurt",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "BW Linz",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "A. Lustenau",
       "league": "奧甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Austria",
+      "lat": 47.5162,
+      "lon": 14.5501,
+      "source": "country_center"
     },
     {
       "team": "Basel",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Basel",
+      "lat": 47.55839,
+      "lon": 7.57327,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Grasshoppers",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Switzerland",
+      "lat": 46.8182,
+      "lon": 8.2275,
+      "source": "country_center"
     },
     {
       "team": "Lugano",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Switzerland",
+      "lat": 46.8182,
+      "lon": 8.2275,
+      "source": "country_center"
     },
     {
       "team": "Luzern",
@@ -1360,265 +2272,466 @@
       "city": "Kriens",
       "lat": 47.028949,
       "lon": 8.3026535,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Servette",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Switzerland",
+      "lat": 46.8182,
+      "lon": 8.2275,
+      "source": "country_center"
     },
     {
       "team": "St. Gallen",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "St. Gallen",
+      "lat": 47.42391,
+      "lon": 9.37477,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Young Boys",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Switzerland",
+      "lat": 46.8182,
+      "lon": 8.2275,
+      "source": "country_center"
     },
     {
       "team": "Zurich",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Zurich",
+      "lat": 47.36667,
+      "lon": 8.55,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Winterthur",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Winterthur",
+      "lat": 47.50564,
+      "lon": 8.72413,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Lausanne",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Lausanne",
+      "lat": 46.516,
+      "lon": 6.63282,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sion",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Sion",
+      "lat": 46.22739,
+      "lon": 7.35559,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Thun",
       "league": "瑞士超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Thun",
+      "lat": 46.75118,
+      "lon": 7.62166,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Bodo/Glimt",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Norway",
+      "lat": 60.472,
+      "lon": 8.4689,
+      "source": "country_center"
     },
     {
       "team": "Brann",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Norway",
+      "lat": 60.472,
+      "lon": 8.4689,
+      "source": "country_center"
     },
     {
       "team": "Haugesund",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Haugesund",
+      "lat": 59.41378,
+      "lon": 5.268,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Kristiansund",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Kristiansund",
+      "lat": 63.11045,
+      "lon": 7.72795,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Lillestrom",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Lillestrøm",
+      "lat": 59.95597,
+      "lon": 11.04918,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Molde",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Molde",
+      "lat": 62.73752,
+      "lon": 7.15912,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Odd",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Norway",
+      "lat": 60.472,
+      "lon": 8.4689,
+      "source": "country_center"
     },
     {
       "team": "Rosenborg",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Rosenborg",
+      "lat": 63.43029,
+      "lon": 10.42045,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sandefjord",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Norway",
+      "lat": 60.472,
+      "lon": 8.4689,
+      "source": "country_center"
     },
     {
       "team": "Sarpsborg 08",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Norway",
+      "lat": 60.472,
+      "lon": 8.4689,
+      "source": "country_center"
     },
     {
       "team": "Stromsgodset",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Strømsgodset",
+      "lat": 59.73916,
+      "lon": 10.172,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Tromso",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Tromsø",
+      "lat": 69.6489,
+      "lon": 18.95508,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Valerenga",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Vålerenga",
+      "lat": 59.90811,
+      "lon": 10.78634,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Viking",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Norway",
+      "lat": 60.472,
+      "lon": 8.4689,
+      "source": "country_center"
     },
     {
       "team": "Aalesund",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Ålesund",
+      "lat": 62.47225,
+      "lon": 6.15492,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Ham-Kam",
       "league": "挪超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Norway",
+      "lat": 60.472,
+      "lon": 8.4689,
+      "source": "country_center"
     },
     {
       "team": "AIK",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Sweden",
+      "lat": 60.1282,
+      "lon": 18.6435,
+      "source": "country_center"
     },
     {
       "team": "Djurgarden",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Djurgården",
+      "lat": 59.1,
+      "lon": 16.85,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Elfsborg",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Älvsborg",
+      "lat": 57.67306,
+      "lon": 11.86667,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Goteborg",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Göteborgs Botaniska Trädgård",
+      "lat": 57.68321,
+      "lon": 11.95111,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Hacken",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Häcken",
+      "lat": 57.73333,
+      "lon": 12.31667,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Halmstad",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Halmstad",
+      "lat": 56.67446,
+      "lon": 12.85676,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Hammarby",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Hammarby",
+      "lat": 60.54385,
+      "lon": 16.56934,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Kalmar",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Kalmar",
+      "lat": 56.66157,
+      "lon": 16.36163,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Malmo FF",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Sweden",
+      "lat": 60.1282,
+      "lon": 18.6435,
+      "source": "country_center"
     },
     {
       "team": "Mjallby",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Mjällby",
+      "lat": 56.05,
+      "lon": 14.68333,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Norrkoping",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Norrköping",
+      "lat": 58.59419,
+      "lon": 16.1826,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sirius",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Sweden",
+      "lat": 60.1282,
+      "lon": 18.6435,
+      "source": "country_center"
     },
     {
       "team": "Varberg",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Varberg",
+      "lat": 57.10557,
+      "lon": 12.25078,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Varnamo",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Värnamo",
+      "lat": 57.18604,
+      "lon": 14.04001,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Vasteras SK",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Sweden",
+      "lat": 60.1282,
+      "lon": 18.6435,
+      "source": "country_center"
     },
     {
       "team": "Brommapojkarna",
       "league": "瑞典超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Sweden",
+      "lat": 60.1282,
+      "lon": 18.6435,
+      "source": "country_center"
     },
     {
       "team": "Aalborg",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Aalborg",
+      "lat": 57.048,
+      "lon": 9.9187,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Aarhus",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Aarhus",
+      "lat": 56.15674,
+      "lon": 10.21076,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Brondby",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Brøndby",
+      "lat": 55.6455,
+      "lon": 12.41008,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "FC Copenhagen",
@@ -1628,139 +2741,235 @@
       "city": "Copenhagen",
       "lat": 55.7028,
       "lon": 12.572,
-      "source": "user_verified"
+      "source": "stadium_exact"
     },
     {
       "team": "Horsens",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Horsens",
+      "lat": 55.86066,
+      "lon": 9.85034,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Lyngby",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Nørre Lyngby",
+      "lat": 57.4114,
+      "lon": 9.74736,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Midtjylland",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Midtjyllands Airport",
+      "lat": 56.29746,
+      "lon": 9.12463,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Nordsjaelland",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Denmark",
+      "lat": 56.2639,
+      "lon": 9.5018,
+      "source": "country_center"
     },
     {
       "team": "Odense",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Denmark",
+      "lat": 56.2639,
+      "lon": 9.5018,
+      "source": "country_center"
     },
     {
       "team": "Randers FC",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Randers",
+      "lat": 56.4607,
+      "lon": 10.03639,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Silkeborg",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Silkeborg",
+      "lat": 56.1697,
+      "lon": 9.54508,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Viborg",
       "league": "丹超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Viborg",
+      "lat": 56.45319,
+      "lon": 9.40201,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Panathinaikos",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "PAOK",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "AEK",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Olympiakos",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Aris",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Áris",
+      "lat": 37.0992,
+      "lon": 22.00443,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Volos NFC",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Lamia",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Lamia",
+      "lat": 38.89947,
+      "lon": 22.4335,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Panetolikos",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Atromitos",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "OFI Crete",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Asteras Tripolis",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Giannina",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Levadeiakos",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Panserraikos",
       "league": "希超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Greece",
+      "lat": 39.0742,
+      "lon": 21.8243,
+      "source": "country_center"
     },
     {
       "team": "Blackburn",
@@ -1770,7 +2979,7 @@
       "city": "Melbourne",
       "lat": -37.8214407,
       "lon": 145.1561904,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Bristol City",
@@ -1780,7 +2989,7 @@
       "city": "Bristol",
       "lat": 51.4816232,
       "lon": -2.6505577,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Cardiff",
@@ -1790,7 +2999,7 @@
       "city": "Cardiff",
       "lat": 51.4728251,
       "lon": -3.20302,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Preston",
@@ -1800,13 +3009,17 @@
       "city": "Borough of Swale",
       "lat": 51.3066239,
       "lon": 0.8956044,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "QPR",
       "league": "英冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Stoke",
@@ -1816,7 +3029,7 @@
       "city": "Stoke-on-Trent",
       "lat": 52.9883813,
       "lon": -2.1754502,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Coventry",
@@ -1826,7 +3039,7 @@
       "city": "Coventry",
       "lat": 52.4528765,
       "lon": -1.5013508,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Hull",
@@ -1836,7 +3049,7 @@
       "city": "Cottingham",
       "lat": 53.7872833,
       "lon": -0.4102743,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Middlesbrough",
@@ -1846,7 +3059,7 @@
       "city": "Hurworth-on-Tees",
       "lat": 54.4792521,
       "lon": -1.5479602,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Millwall",
@@ -1856,13 +3069,17 @@
       "city": "Greater London",
       "lat": 51.4855805,
       "lon": -0.0513983,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "West Brom",
       "league": "英冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Swansea",
@@ -1872,7 +3089,7 @@
       "city": "Swansea",
       "lat": 51.644572,
       "lon": -3.9019737,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Luton",
@@ -1882,13 +3099,17 @@
       "city": "Luton",
       "lat": 51.8904663,
       "lon": -0.4474285,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Sheffield United",
       "league": "英冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Birmingham",
@@ -1898,7 +3119,7 @@
       "city": "Birmingham",
       "lat": 52.4273025,
       "lon": -1.8746729,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Huddersfield",
@@ -1908,13 +3129,17 @@
       "city": "Kirklees",
       "lat": 53.5707048,
       "lon": -1.6977406,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Sunderland",
       "league": "英冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Watford",
@@ -1924,7 +3149,7 @@
       "city": "Watford",
       "lat": 51.6499075,
       "lon": -0.4015265,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Norwich",
@@ -1934,7 +3159,7 @@
       "city": "Norwich",
       "lat": 52.7912276,
       "lon": 1.2302682,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Derby",
@@ -1944,7 +3169,7 @@
       "city": "Derby",
       "lat": 52.9157383,
       "lon": -1.4480804,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Blackpool",
@@ -1954,7 +3179,7 @@
       "city": null,
       "lat": 53.7785392,
       "lon": -3.0203527,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Reading",
@@ -1964,7 +3189,7 @@
       "city": "Reading",
       "lat": 51.4223537,
       "lon": -0.9826548,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Rotherham",
@@ -1974,7 +3199,7 @@
       "city": "Dinnington",
       "lat": 53.3705776,
       "lon": -1.1903428,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Burnley",
@@ -1984,13 +3209,17 @@
       "city": "Padiham",
       "lat": 53.8024287,
       "lon": -2.3213374,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Sheffield Weds",
       "league": "英冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Plymouth",
@@ -2000,7 +3229,7 @@
       "city": "Plymouth",
       "lat": 50.3725211,
       "lon": -4.1639283,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Leeds",
@@ -2010,13 +3239,17 @@
       "city": "Leeds",
       "lat": 53.7432312,
       "lon": -1.6123227,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Bournemouth",
       "league": "英冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Bolton",
@@ -2026,7 +3259,7 @@
       "city": "Bolton",
       "lat": 53.6010572,
       "lon": -2.556926,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Cambridge",
@@ -2036,13 +3269,17 @@
       "city": "Cambridge",
       "lat": 52.18718,
       "lon": 0.1180353,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Shrewsbury",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Wycombe",
@@ -2052,7 +3289,7 @@
       "city": "Flackwell Heath",
       "lat": 51.6042345,
       "lon": -0.7121283,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Charlton",
@@ -2062,7 +3299,7 @@
       "city": "Keynsham",
       "lat": 51.4194314,
       "lon": -2.5073791,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Burton",
@@ -2072,7 +3309,7 @@
       "city": "Watson",
       "lat": 30.5926426,
       "lon": -90.9528598,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Lincoln",
@@ -2082,13 +3319,17 @@
       "city": "Lincoln",
       "lat": -43.6357771,
       "lon": 172.482384,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Fleetwood Town",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Cheltenham",
@@ -2098,7 +3339,7 @@
       "city": "Devonport-Takapuna",
       "lat": -36.8243279,
       "lon": 174.8054347,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Oxford",
@@ -2108,7 +3349,7 @@
       "city": "Oxford",
       "lat": 51.7741571,
       "lon": -1.2286516,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Portsmouth",
@@ -2118,7 +3359,7 @@
       "city": "Portsmouth",
       "lat": 50.7914856,
       "lon": -1.100974,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Wigan",
@@ -2128,13 +3369,17 @@
       "city": "Wigan",
       "lat": 53.5694211,
       "lon": -2.6267367,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Bristol Rvs",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Barnsley",
@@ -2144,19 +3389,27 @@
       "city": "Cudworth",
       "lat": 53.5522037,
       "lon": -1.4676968,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Exeter",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Peterboro",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Ipswich",
@@ -2166,7 +3419,7 @@
       "city": "Ipswich",
       "lat": 52.0549521,
       "lon": 1.1452877,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Rotherham",
@@ -2176,25 +3429,37 @@
       "city": "Dinnington",
       "lat": 53.3705776,
       "lon": -1.1903428,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Accrington",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Milton Keynes Dons",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Morecambe",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Plymouth",
@@ -2204,13 +3469,17 @@
       "city": "Plymouth",
       "lat": 50.3725211,
       "lon": -4.1639283,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Sheffield Weds",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Derby",
@@ -2220,37 +3489,57 @@
       "city": "Derby",
       "lat": 52.9157383,
       "lon": -1.4480804,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Port Vale",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Blackpool",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Carlisle",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Colchester",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Bradford",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Forest Green",
@@ -2260,7 +3549,7 @@
       "city": "Stroud",
       "lat": 51.6990021,
       "lon": -2.2378877,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Sutton",
@@ -2270,7 +3559,7 @@
       "city": "Ellesmere Port",
       "lat": 53.2963885,
       "lon": -2.9403342,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Harrogate",
@@ -2280,13 +3569,17 @@
       "city": "Follifoot",
       "lat": 53.9662795,
       "lon": -1.4991883,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Rochdale",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Hartlepool",
@@ -2296,13 +3589,17 @@
       "city": "Hartlepool",
       "lat": 54.6890737,
       "lon": -1.2127007,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Crawley Town",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Mansfield",
@@ -2312,7 +3609,7 @@
       "city": "Mansfield",
       "lat": 53.2240943,
       "lon": -1.1314282,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Northampton",
@@ -2322,7 +3619,7 @@
       "city": "Northampton",
       "lat": 52.2852085,
       "lon": -0.8573091,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Newport County",
@@ -2332,7 +3629,7 @@
       "city": "Newport",
       "lat": 51.6043151,
       "lon": -3.0887312,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Salford",
@@ -2342,7 +3639,7 @@
       "city": "Salford",
       "lat": 53.5066118,
       "lon": -2.3286985,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Leyton Orient",
@@ -2352,7 +3649,7 @@
       "city": "Greater London",
       "lat": 51.5601797,
       "lon": -0.0137403,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Swindon",
@@ -2362,7 +3659,7 @@
       "city": "Sevenhampton",
       "lat": 51.6058887,
       "lon": -1.7312148,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Stevenage",
@@ -2372,7 +3669,7 @@
       "city": "Stevenage",
       "lat": 51.8896479,
       "lon": -0.1937405,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Barrow",
@@ -2382,13 +3679,17 @@
       "city": "Barrow",
       "lat": 54.1107269,
       "lon": -3.1876666,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Tranmere",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Walsall",
@@ -2398,13 +3699,17 @@
       "city": "Walsall",
       "lat": 52.6010916,
       "lon": -1.9525148,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "AFC Wimbledon",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Gillingham",
@@ -2414,7 +3719,7 @@
       "city": "Gillingham",
       "lat": 51.3842162,
       "lon": 0.5607494,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Doncaster",
@@ -2424,7 +3729,7 @@
       "city": "Melbourne",
       "lat": -37.7842091,
       "lon": 145.1332355,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Grimsby",
@@ -2434,7 +3739,7 @@
       "city": "Cleethorpes",
       "lat": 53.5702297,
       "lon": -0.0465117,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Crewe",
@@ -2444,7 +3749,7 @@
       "city": "Lisburn and Castlereagh District",
       "lat": 54.5777215,
       "lon": -6.1800404,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Stockport",
@@ -2454,229 +3759,397 @@
       "city": "Stockport",
       "lat": 53.3716536,
       "lon": -2.1501989,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Notts County",
       "league": "英甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "England",
+      "lat": 52.3555,
+      "lon": -1.1743,
+      "source": "country_center"
     },
     {
       "team": "Nurnberg",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Nuremberg",
+      "lat": 49.45421,
+      "lon": 11.07752,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Karlsruhe",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Karlsruhe",
+      "lat": 49.00937,
+      "lon": 8.40444,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Paderborn",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Paderborn",
+      "lat": 51.71905,
+      "lon": 8.75439,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Hannover",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Hanover",
+      "lat": 52.37052,
+      "lon": 9.73322,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Fortuna Dusseldorf",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Hamburg",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Hamburg",
+      "lat": 53.55073,
+      "lon": 9.99302,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Schalke 04",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Darmstadt",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Darmstadt",
+      "lat": 49.87167,
+      "lon": 8.65027,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Hansa Rostock",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "St Pauli",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Regensburg",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Regensburg",
+      "lat": 49.01513,
+      "lon": 12.10161,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Holstein Kiel",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Kaiserslautern",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Kaiserslautern",
+      "lat": 49.443,
+      "lon": 7.77161,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Greuther Furth",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Magdeburg",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Magdeburg",
+      "lat": 52.13129,
+      "lon": 11.63189,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Braunschweig",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Braunschweig",
+      "lat": 52.26594,
+      "lon": 10.52673,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Heidenheim",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Heidenheim",
+      "lat": 48.67798,
+      "lon": 10.15162,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sandhausen",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Sandhausen",
+      "lat": 49.34278,
+      "lon": 8.65917,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Hertha",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Hertha",
+      "lat": 54.55,
+      "lon": 13.58333,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Elversberg",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Elversberg",
+      "lat": 49.31437,
+      "lon": 7.12844,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Dresden",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Dresden",
+      "lat": 51.05089,
+      "lon": 13.73832,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Werder Bremen",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Ingolstadt",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Ingolstadt",
+      "lat": 48.76508,
+      "lon": 11.42372,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Erzgebirge Aue",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Germany",
+      "lat": 51.1657,
+      "lon": 10.4515,
+      "source": "country_center"
     },
     {
       "team": "Bielefeld",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Bielefeld",
+      "lat": 52.03333,
+      "lon": 8.53333,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Osnabruck",
       "league": "德乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Osnabrück",
+      "lat": 52.27264,
+      "lon": 8.0498,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Boca Juniors",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "River Plate",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Estudiantes L.P.",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Velez Sarsfield",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Vélez Sarsfield",
+      "lat": -34.63144,
+      "lon": -58.49261,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Rosario Central",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Platense",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Godoy Cruz",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Godoy Cruz",
+      "lat": -32.92533,
+      "lon": -68.84428,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Independiente",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Defensa y Justicia",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Talleres Cordoba",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Huracan",
@@ -2686,43 +4159,68 @@
       "city": "Municipio de Los Quirquinchos",
       "lat": -33.3816595,
       "lon": -61.7136449,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Gimnasia L.P.",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Banfield",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Banfield",
+      "lat": -34.74563,
+      "lon": -58.39365,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Union de Santa Fe",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Sarmiento Junin",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "San Lorenzo",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Newells Old Boys",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Lanus",
@@ -2732,217 +4230,366 @@
       "city": "Lanús Oeste",
       "lat": -34.7103423,
       "lon": -58.4056266,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Central Cordoba",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Atl. Tucuman",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Racing Club",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Colon Santa FE",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Arsenal Sarandi",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Argentinos Jrs",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Barracas Central",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Argentina",
+      "lat": -38.4161,
+      "lon": -63.6167,
+      "source": "country_center"
     },
     {
       "team": "Tigre",
       "league": "阿甲",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Tigre",
+      "lat": -34.42603,
+      "lon": -58.57962,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Los Angeles FC",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Los Angeles",
+      "lat": 34.05223,
+      "lon": -118.24368,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "New York City",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "New York",
+      "lat": 40.71427,
+      "lon": -74.00597,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Orlando City",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "New York Red Bulls",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Seattle Sounders",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Real Salt Lake",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Philadelphia Union",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "FC Cincinnati",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Cincinnati",
+      "lat": 39.12711,
+      "lon": -84.51439,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Atlanta Utd",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Columbus Crew",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Vancouver Whitecaps",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Los Angeles Galaxy",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Houston Dynamo",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Sporting Kansas City",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Portland Timbers",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Nashville SC",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Nashville",
+      "lat": 36.16589,
+      "lon": -86.78444,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Minnesota United",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "FC Dallas",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Dallas",
+      "lat": 32.78306,
+      "lon": -96.80667,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Inter Miami",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "New England Revolution",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Colorado Rapids",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "CF Montreal",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Montreal",
+      "lat": 46.428,
+      "lon": -90.24601,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Austin FC",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Austin",
+      "lat": 30.26715,
+      "lon": -97.74306,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "San Jose Earthquakes",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Toronto FC",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Toronto",
+      "lat": 40.46423,
+      "lon": -80.60091,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "DC United",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Chicago Fire",
       "league": "美職MLS",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "United States",
+      "lat": 39.8283,
+      "lon": -98.5795,
+      "source": "country_center"
     },
     {
       "team": "Charlotte",
@@ -2952,133 +4599,227 @@
       "city": "Old Tappan",
       "lat": 41.0077592,
       "lon": -73.978529,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Club America",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Tigres UANL",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Monterrey",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Monterrey",
+      "lat": 25.68435,
+      "lon": -100.31721,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Cruz Azul",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Cruz Azul",
+      "lat": 22.18498,
+      "lon": -102.19009,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Toluca",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Toluca",
+      "lat": 19.28786,
+      "lon": -99.65324,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Pachuca",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Pachuca",
+      "lat": 20.11697,
+      "lon": -98.73329,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Guadalajara Chivas",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "UNAM Pumas",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Atlas",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Atl. San Luis",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Club Leon",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Puebla",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Puebla City",
+      "lat": 19.04778,
+      "lon": -98.20723,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Necaxa",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Necaxa",
+      "lat": 20.21271,
+      "lon": -98.01188,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Club Tijuana",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Mazatlan FC",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Mazatlán",
+      "lat": 23.22163,
+      "lon": -106.41885,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Juarez",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Ciudad Juárez",
+      "lat": 31.72024,
+      "lon": -106.46084,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Queretaro",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Querétaro",
+      "lat": 15.83752,
+      "lon": -92.75774,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Santos Laguna",
       "league": "墨西超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Mexico",
+      "lat": 23.6345,
+      "lon": -102.5528,
+      "source": "country_center"
     },
     {
       "team": "Melbourne City FC",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Melbourne CBD",
+      "lat": -37.81501,
+      "lon": 144.96657,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Wellington Phoenix",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Australia",
+      "lat": -25.2744,
+      "lon": 133.7751,
+      "source": "country_center"
     },
     {
       "team": "Adelaide United",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Australia",
+      "lat": -25.2744,
+      "lon": 133.7751,
+      "source": "country_center"
     },
     {
       "team": "Western United",
@@ -3088,13 +4829,17 @@
       "city": null,
       "lat": -31.7694112,
       "lon": 115.9902037,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Perth Glory",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Australia",
+      "lat": -25.2744,
+      "lon": 133.7751,
+      "source": "country_center"
     },
     {
       "team": "Melbourne Victory",
@@ -3104,49 +4849,79 @@
       "city": "Melbourne",
       "lat": -37.7834297,
       "lon": 145.4290398,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Sydney FC",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Sydney",
+      "lat": -33.86785,
+      "lon": 151.20732,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Western Sydney Wanderers",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Australia",
+      "lat": -25.2744,
+      "lon": 133.7751,
+      "source": "country_center"
     },
     {
       "team": "Newcastle United Jets",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Australia",
+      "lat": -25.2744,
+      "lon": 133.7751,
+      "source": "country_center"
     },
     {
       "team": "Central Coast Mariners",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Australia",
+      "lat": -25.2744,
+      "lon": 133.7751,
+      "source": "country_center"
     },
     {
       "team": "Macarthur FC",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Macarthur",
+      "lat": -38.03387,
+      "lon": 142.00183,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Brisbane Roar",
       "league": "A-League",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Australia",
+      "lat": -25.2744,
+      "lon": 133.7751,
+      "source": "country_center"
     },
     {
       "team": "Hokkaido Consadole Sapporo",
       "league": "日職",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Japan",
+      "lat": 36.2048,
+      "lon": 138.2529,
+      "source": "country_center"
     },
     {
       "team": "Celtic",
@@ -3156,19 +4931,27 @@
       "city": "East Kilbride",
       "lat": 55.7603836,
       "lon": -4.177497,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Rangers",
       "league": "蘇超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Hearts",
       "league": "蘇超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Hibernian",
@@ -3178,7 +4961,7 @@
       "city": "Ormiston",
       "lat": 55.9209854,
       "lon": -2.9269098,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Aberdeen",
@@ -3188,37 +4971,58 @@
       "city": "Aberdeen City",
       "lat": 57.159653,
       "lon": -2.0870831,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Motherwell",
       "league": "蘇超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "St Mirren",
       "league": "蘇超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Ross County",
       "league": "蘇超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "St Johnstone",
       "league": "蘇超",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Frosinone",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Frosinone",
+      "lat": 41.63976,
+      "lon": 13.34109,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Parma",
@@ -3228,31 +5032,49 @@
       "city": "Lalkuan",
       "lat": 29.1100812,
       "lon": 79.5225267,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Perugia",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Perugia",
+      "lat": 43.1122,
+      "lon": 12.38878,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Cittadella",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Cittadella",
+      "lat": 45.64523,
+      "lon": 11.78453,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Reggina",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Ternana",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Brescia",
@@ -3262,31 +5084,50 @@
       "city": "Torbole",
       "lat": 45.5067411,
       "lon": 10.1132132,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Ascoli",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Ascoli Piceno",
+      "lat": 42.85351,
+      "lon": 13.57395,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Cosenza",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Cosenza",
+      "lat": 39.2989,
+      "lon": 16.25307,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Benevento",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Benevento",
+      "lat": 41.1307,
+      "lon": 14.77816,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Cremonese",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Como",
@@ -3296,19 +5137,28 @@
       "city": "Sydney",
       "lat": -34.0058109,
       "lon": 151.0824939,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Pisa",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Pisa",
+      "lat": 43.70853,
+      "lon": 10.4036,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Spal",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Bari",
@@ -3318,223 +5168,394 @@
       "city": "Biggleswade",
       "lat": 52.0768355,
       "lon": -0.2680112,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Palermo",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Palermo",
+      "lat": 38.1166,
+      "lon": 13.3636,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sudtirol",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Modena",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Modena",
+      "lat": 44.64783,
+      "lon": 10.92539,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Venezia",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Venezia",
+      "lat": 44.42329,
+      "lon": 11.17365,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Catanzaro",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Catanzaro",
+      "lat": 38.88247,
+      "lon": 16.60086,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sampdoria",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Spezia",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "La Spezia",
+      "lat": 44.103,
+      "lon": 9.82375,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Reggiana",
       "league": "意乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Italy",
+      "lat": 41.8719,
+      "lon": 12.5674,
+      "source": "country_center"
     },
     {
       "team": "Huesca",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Huesca",
+      "lat": 42.13615,
+      "lon": -0.4087,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Eibar",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Eibar",
+      "lat": 43.18493,
+      "lon": -2.47158,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Zaragoza",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Zaragoza",
+      "lat": 41.65606,
+      "lon": -0.87734,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Ibiza",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Ibiza Town",
+      "lat": 38.90883,
+      "lon": 1.43296,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Leganes",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Leganés",
+      "lat": 40.32718,
+      "lon": -3.7635,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Amorebieta",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Amorebieta",
+      "lat": 43.21667,
+      "lon": -2.73333,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Ponferradina",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Alcorcon",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Alcorcón",
+      "lat": 40.34582,
+      "lon": -3.82487,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sp Gijon",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Burgos",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Burgos",
+      "lat": 42.34106,
+      "lon": -3.70184,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Oviedo",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Oviedo",
+      "lat": 43.36029,
+      "lon": -5.84476,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Lugo",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Lugo",
+      "lat": 43.00992,
+      "lon": -7.55602,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Tenerife",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Tenerife",
+      "lat": 28.32977,
+      "lon": -16.5097,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Las Palmas",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Las Palmas de Gran Canaria",
+      "lat": 28.10178,
+      "lon": -15.41573,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Valladolid",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Valladolid",
+      "lat": 41.65541,
+      "lon": -4.72353,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Malaga",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Málaga",
+      "lat": 36.72016,
+      "lon": -4.42034,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Mirandes",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Cartagena",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Cartagena",
+      "lat": 37.60197,
+      "lon": -0.98397,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Almeria",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Almería",
+      "lat": 36.83814,
+      "lon": -2.45974,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Levante",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Santander",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Santander",
+      "lat": 43.46589,
+      "lon": -3.80493,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Villarreal B",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Granada",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Granada",
+      "lat": 37.18817,
+      "lon": -3.60667,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Andorra",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Andorra",
+      "lat": 40.97655,
+      "lon": -0.44721,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Albacete",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Albacete",
+      "lat": 38.99424,
+      "lon": -1.85643,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Elche",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Elche",
+      "lat": 38.26218,
+      "lon": -0.70107,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Ferrol",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Ferrol",
+      "lat": 43.48451,
+      "lon": -8.23293,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Eldense",
       "league": "西乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Spain",
+      "lat": 40.4637,
+      "lon": -3.7492,
+      "source": "country_center"
     },
     {
       "team": "Bastia",
@@ -3544,25 +5565,40 @@
       "city": "Borgo",
       "lat": 42.566222,
       "lon": 9.4516792,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Nimes",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Nîmes",
+      "lat": 43.83665,
+      "lon": 4.35788,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Amiens",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Amiens",
+      "lat": 49.9,
+      "lon": 2.3,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Auxerre",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Auxerre",
+      "lat": 47.7996,
+      "lon": 3.57033,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Caen",
@@ -3572,7 +5608,7 @@
       "city": "Caen",
       "lat": 49.3153745,
       "lon": -0.3590284,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Rodez",
@@ -3582,7 +5618,7 @@
       "city": "Druelle Balsac",
       "lat": 44.3705567,
       "lon": 2.5148887,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Dunkerque",
@@ -3592,49 +5628,83 @@
       "city": "Dunkirk",
       "lat": 51.0517055,
       "lon": 2.414096,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Quevilly Rouen",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Grenoble",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Grenoble",
+      "lat": 45.17869,
+      "lon": 5.71479,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Paris FC",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Paris",
+      "lat": 48.85341,
+      "lon": 2.3488,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Le Havre",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Le Havre",
+      "lat": 49.49346,
+      "lon": 0.10785,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Guingamp",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Guingamp",
+      "lat": 48.56259,
+      "lon": -3.15289,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Pau FC",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Pau",
+      "lat": 43.31117,
+      "lon": -0.35583,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Ajaccio",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Ajaccio",
+      "lat": 41.91886,
+      "lon": 8.73812,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Valenciennes",
@@ -3644,7 +5714,7 @@
       "city": "Valenciennes",
       "lat": 50.283521,
       "lon": 3.3893211,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Niort",
@@ -3654,25 +5724,39 @@
       "city": "Niort",
       "lat": 46.3171164,
       "lon": -0.4922851,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Dijon",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Dijon",
+      "lat": 47.31344,
+      "lon": 5.01391,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Sochaux",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Sochaux",
+      "lat": 47.50808,
+      "lon": 6.82748,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "St Etienne",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "France",
+      "lat": 46.2276,
+      "lon": 2.2137,
+      "source": "country_center"
     },
     {
       "team": "Annecy",
@@ -3682,13 +5766,18 @@
       "city": "Annecy",
       "lat": 45.8606841,
       "lon": 6.0840922,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Laval",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Laval",
+      "lat": 48.07247,
+      "lon": -0.77019,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Bordeaux",
@@ -3698,31 +5787,49 @@
       "city": "Artigues-près-Bordeaux",
       "lat": 44.8636586,
       "lon": -0.4922687,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Metz",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Metz",
+      "lat": 49.11911,
+      "lon": 6.17269,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Troyes",
       "league": "法乙",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Troyes",
+      "lat": 48.30073,
+      "lon": 4.08524,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Airdrie Utd",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Montrose",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Clyde",
@@ -3732,7 +5839,7 @@
       "city": "Melbourne",
       "lat": -38.1132832,
       "lon": 145.340937,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Dumbarton",
@@ -3742,13 +5849,17 @@
       "city": "Dumbarton",
       "lat": 55.9384141,
       "lon": -4.5616641,
-      "source": "OpenStreetMap Nominatim"
+      "source": "stadium_exact"
     },
     {
       "team": "Cove Rangers",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Falkirk",
@@ -3758,37 +5869,57 @@
       "city": "Falkirk",
       "lat": 56.0049743,
       "lon": -3.7788331,
-      "source": "city_center_geocode"
+      "source": "city_center"
     },
     {
       "team": "Peterhead",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Alloa",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Kelty Hearts",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Queen of Sth",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     },
     {
       "team": "Annan Athletic",
       "league": "蘇冠",
-      "status": "unresolved",
-      "reason": "no verified geocode"
+      "status": "ok",
+      "stadium": "國家中心fallback（非球場）",
+      "city": "Scotland",
+      "lat": 56.4907,
+      "lon": -4.2026,
+      "source": "country_center"
     }
   ]
 }

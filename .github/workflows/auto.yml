@@ -32,7 +32,7 @@ jobs:
       - name: Backfill stadiums and coordinates (non-blocking)
         continue-on-error: true
         run: |
-          python scripts/backfill_stadiums.py || echo "stadium backfill partial; unresolved teams remain explicitly reported"
+          python scripts/backfill_stadiums_v2.py || echo "stadium v2 backfill partial; report retains explicit source tiers"
       # 無 API Key：FBref/soccerdata 優先，失敗或不支援時使用既有公開後備來源。
       - name: Sync free sources (retry 3; per-league skip)
         continue-on-error: true
