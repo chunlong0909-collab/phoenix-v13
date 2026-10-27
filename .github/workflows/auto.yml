@@ -44,6 +44,10 @@ jobs:
           done
           echo "source sync exhausted retries; continuing with preserved caches"
           exit 0
+      - name: Fill configured competition results (including AFC Elite)
+        continue-on-error: true
+        run: |
+          python scripts/fill_all_leagues_history.py || echo "competition result fill partial; preserved verified caches"
       - name: Build complete catalog (continue on partial data)
         continue-on-error: true
         run: python scripts/build_complete.py || echo "build_complete skipped after partial-source failure"

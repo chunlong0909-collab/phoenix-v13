@@ -1,14 +1,14 @@
 {
   "generated_at": "2026-10-27T03:48:45.332173+00:00",
   "version": "v2",
-  "teams_seen": 574,
-  "processed": 574,
-  "coordinates_ok": 574,
+  "teams_seen": 575,
+  "processed": 575,
+  "coordinates_ok": 575,
   "unresolved": 0,
   "stadium_exact": 47,
-  "city_center": 209,
-  "country_center": 318,
-  "fallback_city_center": 209,
+  "city_center": 211,
+  "country_center": 317,
+  "fallback_city_center": 211,
   "entries": [
     {
       "team": "AFC Bournemouth",
@@ -1194,11 +1194,12 @@
       "team": "Vissel Kobe",
       "league": "J1聯賽",
       "status": "ok",
-      "stadium": "國家中心fallback（非球場）",
-      "city": "Japan",
-      "lat": 36.2048,
-      "lon": 138.2529,
-      "source": "country_center"
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Kobe",
+      "lat": 34.6913,
+      "lon": 135.183,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     },
     {
       "team": "Yokohama F Marinos",
@@ -5920,6 +5921,17 @@
       "lat": 56.4907,
       "lon": -4.2026,
       "source": "country_center"
+    },
+    {
+      "team": "Daejeon Hana Citizen",
+      "league": "亞冠精英盃",
+      "status": "ok",
+      "stadium": "城市中心fallback（非球場）",
+      "city": "Daejeon",
+      "lat": 36.34913,
+      "lon": 127.38493,
+      "source": "city_center",
+      "provider": "Open-Meteo Geocoding"
     }
   ]
 }

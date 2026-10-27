@@ -18,7 +18,7 @@ ASSET_JSON=ROOT/'assets/data/final_574_squads_with_sources.json'
 REPORT=ROOT/'data/stadium_backfill_report.json'
 DB=ROOT/'football_library.db'
 UA='PhoenixFootballResearch/2.0 (transparent city/country coordinate fallback)'
-CITY_HINTS={'Manchester City FC':('Manchester',53.48095,-2.23743),'Real Madrid CF':('Madrid',40.4165,-3.70256)}
+CITY_HINTS={'Manchester City FC':('Manchester',53.48095,-2.23743),'Real Madrid CF':('Madrid',40.4165,-3.70256),'Vissel Kobe':('Kobe',34.6913,135.183),'Daejeon Hana Citizen':('Daejeon',36.34913,127.38493)}
 # Approximate geographic centres are explicitly marked country_center, never stadium_exact.
 COUNTRY_CENTER={
  'England':(52.3555,-1.1743),'Spain':(40.4637,-3.7492),'Italy':(41.8719,12.5674),'Germany':(51.1657,10.4515),'France':(46.2276,2.2137),
@@ -51,16 +51,16 @@ def city_geocode(team,league):
     if team in CITY_HINTS:
         city,lat,lon=CITY_HINTS[team]
         return {'lat':lat,'lon':lon,'city':city,'stadium_name':'城市中心fallback（非球場）','source':'city_center','provider':'Open-Meteo Geocoding (verified hint)'}
- # Open-Meteo is tried first because it returns a city object directly.
- for query in [q]:
-  d=req('https://geocoding-api.open-meteo.com/v1/search',{'name':query,'count':5,'language':'en','format':'json'})
-  for x in d.get('results',[]) if isinstance(d,dict) else []:
-   if country and str(x.get('country','')).casefold()!=country.casefold(): continue
-   if valid(x.get('latitude'),x.get('longitude')):
-    return {'lat':float(x['latitude']),'lon':float(x['longitude']),'city':x.get('name'),'stadium_name':'城市中心fallback（非球場）','source':'city_center','provider':'Open-Meteo Geocoding'}
- # Deliberately do not wait on a second slow provider here; country_center below
- # is deterministic and transparent when Open-Meteo cannot identify the city.
- return None
+    # Open-Meteo is tried first because it returns a city object directly.
+    for query in [q]:
+        d=req('https://geocoding-api.open-meteo.com/v1/search',{'name':query,'count':5,'language':'en','format':'json'})
+        for x in d.get('results',[]) if isinstance(d,dict) else []:
+            if country and str(x.get('country','')).casefold()!=country.casefold(): continue
+            if valid(x.get('latitude'),x.get('longitude')):
+                return {'lat':float(x['latitude']),'lon':float(x['longitude']),'city':x.get('name'),'stadium_name':'城市中心fallback（非球場）','source':'city_center','provider':'Open-Meteo Geocoding'}
+    # Deliberately do not wait on a second slow provider here; country_center below
+    # is deterministic and transparent when Open-Meteo cannot identify the city.
+    return None
 
 def main():
  D=json.loads(DATA_JSON.read_text(encoding='utf-8'))

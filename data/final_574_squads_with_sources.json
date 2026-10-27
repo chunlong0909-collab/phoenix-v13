@@ -61865,12 +61865,13 @@
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Vissel_Kobe"
     },
-    "stadium": "國家中心fallback（非球場）",
-    "city": "Japan",
-    "lat": 36.2048,
-    "lon": 138.2529,
-    "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "stadium": "城市中心fallback（非球場）",
+    "city": "Kobe",
+    "lat": 34.6913,
+    "lon": 135.183,
+    "stadium_source": "Open-Meteo Geocoding",
+    "coordinates_source": "city_center",
+    "coordinates_source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Kobe&count=5&language=en&format=json"
   },
   "0118:J1聯賽:yokohama-f-marinos": {
     "team": "Yokohama F Marinos",
@@ -202486,5 +202487,24 @@
     "lon": -4.2026,
     "stadium_source": "country_center",
     "coordinates_source": "country_center"
+  },
+  "0575:亞冠精英盃:daejeon-hana-citizen": {
+    "team": "Daejeon Hana Citizen",
+    "team_id": "daejeon-hana-citizen",
+    "league": "亞冠精英盃",
+    "physical_id": "daejeon-hana-citizen",
+    "espn_team_id": null,
+    "source_url": "https://en.wikipedia.org/wiki/Daejeon_Hana_Citizen",
+    "front": [],
+    "back": [],
+    "coach": null,
+    "stadium": "城市中心fallback（非球場）",
+    "city": "Daejeon",
+    "lat": 36.34913,
+    "lon": 127.38493,
+    "stadium_source": "Open-Meteo Geocoding",
+    "coordinates_source": "city_center",
+    "coordinates_source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Daejeon&count=5&language=en&format=json",
+    "data_note": "AFC supplemental team record; no player roster fabricated."
   }
 }

@@ -71,8 +71,12 @@ def save(df,league):
     df=df[cols].copy(); df.to_csv(OUT/f'{slug(league)}.csv',index=False,encoding='utf-8-sig'); df.to_csv(ASSET_OUT/f'{slug(league)}.csv',index=False,encoding='utf-8-sig')
 
 def main():
-    catalog=json.loads(CATALOG.read_text(encoding='utf-8')); leagues=sorted({str(v.get('league','')).strip() for v in catalog.values() if v.get('league')})
-    sources=json.loads(CONFIG.read_text(encoding='utf-8')); report=[]
+    catalog=json.loads(CATALOG.read_text(encoding='utf-8'))
+    sources=json.loads(CONFIG.read_text(encoding='utf-8'))
+    # Include configured competitions with no domestic-team rows, notably AFC
+    # Champions League Elite, instead of limiting the daily pass to the catalog.
+    leagues=sorted({str(v.get('league','')).strip() for v in catalog.values() if v.get('league')} | set(sources))
+    report=[]
     for league in leagues:
         rows=pd.DataFrame(); source='none'; note=''
         local_id=LOCAL_MAP.get(league)

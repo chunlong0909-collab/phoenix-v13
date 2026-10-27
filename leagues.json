@@ -430,6 +430,18 @@
       "sportsdb_names": [
         "Australian Championship"
       ]
+    },
+    {
+      "id": "afc-champions-league-elite",
+      "name_zh": "亞冠精英盃",
+      "name_en": "AFC Champions League Elite",
+      "provider": "official/flashscore",
+      "openfootball_paths": [],
+      "sportsdb_names": [
+        "AFC Champions League Elite"
+      ],
+      "official_fixtures_url": "https://www.the-afc.com/en/club/afc_champions_league_elite/fixtures__standings.html",
+      "flashscore_results_url": "https://www.flashscore.com/football/asia/afc-champions-league/"
     }
   ]
 }
