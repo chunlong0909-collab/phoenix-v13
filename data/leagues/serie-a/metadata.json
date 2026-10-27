@@ -1,10 +1,10 @@
 {
   "league_id": "serie-a",
   "name_zh": "巴甲",
-  "updated_at": "2026-10-25T20:22:37.243480+00:00",
+  "updated_at": "2026-10-27T03:00:23.331180+00:00",
   "fixtures": 1140,
   "teams": 27,
-  "players": 1247,
+  "players": 1248,
   "corner_fixtures": 0,
   "sources": [
     "ESPN scoreboard"

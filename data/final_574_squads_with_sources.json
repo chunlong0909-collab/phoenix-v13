@@ -77887,7 +77887,13 @@
       "name": "Okan Buruk",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Galatasaray_S.K._(football)"
-    }
+    },
+    "stadium": "Galatasaray Football Club Store",
+    "city": "Sarıyer",
+    "lat": 41.1025976,
+    "lon": 28.9922753,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0156:土超:fenerbahce": {
     "team": "Fenerbahce",
@@ -84456,7 +84462,13 @@
       "name": "Rik De Mil",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/KAA_Gent"
-    }
+    },
+    "stadium": "Gent Rugby Football Club/ Ghent Lacrosse",
+    "city": "Ghent",
+    "lat": 51.045991,
+    "lon": 3.6876201,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0180:比甲:None": {
     "team": "Oud-Heverlee Leuven",
@@ -85630,7 +85642,13 @@
       "name": "Vincent Euvrard",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Standard_Li%C3%A8ge"
-    }
+    },
+    "stadium": "RSFC Bouillon",
+    "city": "Bouillon",
+    "lat": 49.7911967,
+    "lon": 5.0590193,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0184:比甲:None": {
     "team": "St Truiden",
@@ -88372,7 +88390,13 @@
       "name": "Marcão (interim)",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Fluminense_FC"
-    }
+    },
+    "stadium": "Fluminense Football Club",
+    "city": "Rio de Janeiro",
+    "lat": -22.9363279,
+    "lon": -43.1847488,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0195:巴甲:gremio": {
     "team": "Gremio",
@@ -91627,7 +91651,13 @@
       "name": "Cuca",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Santos_FC"
-    }
+    },
+    "stadium": "Estádio Jaime Santos de Campos (Itararé Football Club)",
+    "city": "Canguçu",
+    "lat": -31.4671681,
+    "lon": -52.6767835,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0204:巴甲:bahia": {
     "team": "Bahia",
@@ -96812,7 +96842,13 @@
     ],
     "player_count": 15,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "American Football Club Luzern (Lions)",
+    "city": "Kriens",
+    "lat": 47.028949,
+    "lon": 8.3026535,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0223:瑞士超:swz-05": {
     "team": "Servette",
@@ -111824,7 +111860,13 @@
     ],
     "player_count": 12,
     "source_status": "verified_wikipedia_current_squad",
-    "coach": null
+    "coach": null,
+    "stadium": "Parken Stadium",
+    "city": "Copenhagen",
+    "lat": 55.7028,
+    "lon": 12.572,
+    "stadium_source": "user_verified",
+    "coordinates_source": "user_verified"
   },
   "0267:丹超:dnk-05": {
     "team": "Horsens",
@@ -117025,7 +117067,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Blackburn Football Club",
+    "city": "Melbourne",
+    "lat": -37.8214407,
+    "lon": 145.1561904,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0290:英冠:None": {
     "team": "Bristol City",
@@ -117770,7 +117818,13 @@
       "name": "Michael Skubala",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Bristol_City_F.C."
-    }
+    },
+    "stadium": "Bristol Manor Farm Football Club",
+    "city": "Bristol",
+    "lat": 51.4816232,
+    "lon": -2.6505577,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0291:英冠:None": {
     "team": "Cardiff",
@@ -118019,7 +118073,13 @@
     ],
     "player_count": 13,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Cardiff City Football Club",
+    "city": "Cardiff",
+    "lat": 51.4728251,
+    "lon": -3.20302,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0292:英冠:None": {
     "team": "Preston",
@@ -118268,7 +118328,13 @@
     ],
     "player_count": 13,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Faversham Town Football Club",
+    "city": "Borough of Swale",
+    "lat": 51.3066239,
+    "lon": 0.8956044,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0293:英冠:None": {
     "team": "QPR",
@@ -118788,7 +118854,13 @@
     ],
     "player_count": 14,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Stoke City Football Club",
+    "city": "Stoke-on-Trent",
+    "lat": 52.9883813,
+    "lon": -2.1754502,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0295:英冠:None": {
     "team": "Coventry",
@@ -118800,7 +118872,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Coventry Welsh Rugby Football Club",
+    "city": "Coventry",
+    "lat": 52.4528765,
+    "lon": -1.5013508,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0296:英冠:None": {
     "team": "Hull",
@@ -119121,7 +119199,13 @@
     ],
     "player_count": 17,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Hull City Football Club Training Ground",
+    "city": "Cottingham",
+    "lat": 53.7872833,
+    "lon": -0.4102743,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0297:英冠:None": {
     "team": "Middlesbrough",
@@ -119796,7 +119880,13 @@
     ],
     "player_count": 30,
     "source_status": "ok",
-    "coach": null
+    "coach": null,
+    "stadium": "Middlesbrough Football Club",
+    "city": "Hurworth-on-Tees",
+    "lat": 54.4792521,
+    "lon": -1.5479602,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0298:英冠:None": {
     "team": "Millwall",
@@ -120625,7 +120715,13 @@
     ],
     "player_count": 37,
     "source_status": "ok",
-    "coach": null
+    "coach": null,
+    "stadium": "Millwall Football Club",
+    "city": "Greater London",
+    "lat": 51.4855805,
+    "lon": -0.0513983,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0299:英冠:None": {
     "team": "West Brom",
@@ -121087,7 +121183,13 @@
     ],
     "player_count": 13,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Bonymaen Rugby Football Club",
+    "city": "Swansea",
+    "lat": 51.644572,
+    "lon": -3.9019737,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0301:英冠:None": {
     "team": "Luton",
@@ -121372,7 +121474,13 @@
     ],
     "player_count": 15,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Football Club",
+    "city": "Luton",
+    "lat": 51.8904663,
+    "lon": -0.4474285,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0302:英冠:None": {
     "team": "Sheffield United",
@@ -121993,7 +122101,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Moseley Rugby Football Club",
+    "city": "Birmingham",
+    "lat": 52.4273025,
+    "lon": -1.8746729,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0304:英冠:None": {
     "team": "Huddersfield",
@@ -122005,7 +122119,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Cumberworth Football Club",
+    "city": "Kirklees",
+    "lat": 53.5707048,
+    "lon": -1.6977406,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0305:英冠:None": {
     "team": "Sunderland",
@@ -123487,7 +123607,13 @@
     ],
     "player_count": 33,
     "source_status": "ok",
-    "coach": null
+    "coach": null,
+    "stadium": "Watford Football Club",
+    "city": "Watford",
+    "lat": 51.6499075,
+    "lon": -0.4015265,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0307:英冠:None": {
     "team": "Norwich",
@@ -123790,7 +123916,13 @@
     ],
     "player_count": 16,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Aylsham Football Club",
+    "city": "Norwich",
+    "lat": 52.7912276,
+    "lon": 1.2302682,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0308:英冠:None": {
     "team": "Derby",
@@ -123802,7 +123934,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Football Stadium",
+    "city": "Derby",
+    "lat": 52.9157383,
+    "lon": -1.4480804,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0309:英冠:None": {
     "team": "Blackpool",
@@ -124087,7 +124225,13 @@
     ],
     "player_count": 15,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "AFC Blackpool Football Club",
+    "city": null,
+    "lat": 53.7785392,
+    "lon": -3.0203527,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0310:英冠:None": {
     "team": "Reading",
@@ -124354,7 +124498,13 @@
     ],
     "player_count": 14,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Reading Football Club",
+    "city": "Reading",
+    "lat": 51.4223537,
+    "lon": -0.9826548,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0311:英冠:None": {
     "team": "Rotherham",
@@ -124675,7 +124825,13 @@
     ],
     "player_count": 17,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Dinnington Rugby Union Football Club",
+    "city": "Dinnington",
+    "lat": 53.3705776,
+    "lon": -1.1903428,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0312:英冠:None": {
     "team": "Burnley",
@@ -125482,7 +125638,13 @@
     ],
     "player_count": 36,
     "source_status": "ok",
-    "coach": null
+    "coach": null,
+    "stadium": "Padiham Football Club",
+    "city": "Padiham",
+    "lat": 53.8024287,
+    "lon": -2.3213374,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0313:英冠:None": {
     "team": "Sheffield Weds",
@@ -126016,7 +126178,13 @@
     ],
     "player_count": 12,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Devonport Services Rugby Football Club",
+    "city": "Plymouth",
+    "lat": 50.3725211,
+    "lon": -4.1639283,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0315:英冠:None": {
     "team": "Leeds",
@@ -126247,7 +126415,13 @@
     ],
     "player_count": 12,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Morley Rugby Football Club",
+    "city": "Leeds",
+    "lat": 53.7432312,
+    "lon": -1.6123227,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0316:英冠:None": {
     "team": "Bournemouth",
@@ -126912,7 +127086,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Horwich Saint Mary's Football Club",
+    "city": "Bolton",
+    "lat": 53.6010572,
+    "lon": -2.556926,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0318:英甲:None": {
     "team": "Cambridge",
@@ -126924,7 +127104,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Cambridge Football Stadium",
+    "city": "Cambridge",
+    "lat": 52.18718,
+    "lon": 0.1180353,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0319:英甲:None": {
     "team": "Shrewsbury",
@@ -127203,7 +127389,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Flackwell Heath football club",
+    "city": "Flackwell Heath",
+    "lat": 51.6042345,
+    "lon": -0.7121283,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0321:英甲:None": {
     "team": "Charlton",
@@ -127215,7 +127407,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Keynsham Town Football Club",
+    "city": "Keynsham",
+    "lat": 51.4194314,
+    "lon": -2.5073791,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0322:英甲:None": {
     "team": "Burton",
@@ -127227,7 +127425,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Live Oak High School Football Stadium",
+    "city": "Watson",
+    "lat": 30.5926426,
+    "lon": -90.9528598,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0323:英甲:None": {
     "team": "Lincoln",
@@ -127239,7 +127443,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Lincoln Rugby Football Club",
+    "city": "Lincoln",
+    "lat": -43.6357771,
+    "lon": 172.482384,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0324:英甲:None": {
     "team": "Fleetwood Town",
@@ -127464,7 +127674,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "North Shore Rugby Football Club",
+    "city": "Devonport-Takapuna",
+    "lat": -36.8243279,
+    "lon": 174.8054347,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0326:英甲:None": {
     "team": "Oxford",
@@ -127713,7 +127929,13 @@
     ],
     "player_count": 13,
     "source_status": "verified_wikipedia_search",
-    "coach": null
+    "coach": null,
+    "stadium": "Oxford City Football Club",
+    "city": "Oxford",
+    "lat": 51.7741571,
+    "lon": -1.2286516,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0327:英甲:None": {
     "team": "Portsmouth",
@@ -128476,7 +128698,13 @@
     ],
     "player_count": 34,
     "source_status": "ok",
-    "coach": null
+    "coach": null,
+    "stadium": "Portsmouth Football Club",
+    "city": "Portsmouth",
+    "lat": 50.7914856,
+    "lon": -1.100974,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0328:英甲:None": {
     "team": "Wigan",
@@ -128488,7 +128716,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Wigan Rugby Union Football Club",
+    "city": "Wigan",
+    "lat": 53.5694211,
+    "lon": -2.6267367,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0329:英甲:None": {
     "team": "Bristol Rvs",
@@ -128512,7 +128746,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Oakwell Stadium",
+    "city": "Cudworth",
+    "lat": 53.5522037,
+    "lon": -1.4676968,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0331:英甲:None": {
     "team": "Exeter",
@@ -128548,7 +128788,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Ipswich Town Football Club",
+    "city": "Ipswich",
+    "lat": 52.0549521,
+    "lon": 1.1452877,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0334:英甲:None": {
     "team": "Rotherham",
@@ -128560,7 +128806,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Dinnington Rugby Union Football Club",
+    "city": "Dinnington",
+    "lat": 53.3705776,
+    "lon": -1.1903428,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0335:英甲:None": {
     "team": "Accrington",
@@ -128899,7 +129151,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Devonport Services Rugby Football Club",
+    "city": "Plymouth",
+    "lat": 50.3725211,
+    "lon": -4.1639283,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0339:英甲:None": {
     "team": "Sheffield Weds",
@@ -128923,7 +129181,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Football Stadium",
+    "city": "Derby",
+    "lat": 52.9157383,
+    "lon": -1.4480804,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0341:英甲:None": {
     "team": "Port Vale",
@@ -129436,7 +129700,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "The Bolt New Lawn",
+    "city": "Stroud",
+    "lat": 51.6990021,
+    "lon": -2.2378877,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0347:英甲:A1000-sutton": {
     "team": "Sutton",
@@ -129448,7 +129718,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Rivacre Park - Vauxhall Motors Football Club",
+    "city": "Ellesmere Port",
+    "lat": 53.2963885,
+    "lon": -2.9403342,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0348:英甲:A1000-harrogate": {
     "team": "Harrogate",
@@ -129460,7 +129736,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Harrogate Rugby Union Football Club",
+    "city": "Follifoot",
+    "lat": 53.9662795,
+    "lon": -1.4991883,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0349:英甲:A1000-rochdale": {
     "team": "Rochdale",
@@ -129484,7 +129766,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Hartlepool United Football Club",
+    "city": "Hartlepool",
+    "lat": 54.6890737,
+    "lon": -1.2127007,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0351:英甲:A1000-crawleytown": {
     "team": "Crawley Town",
@@ -129781,7 +130069,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Welbeck Football Club",
+    "city": "Mansfield",
+    "lat": 53.2240943,
+    "lon": -1.1314282,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0353:英甲:A1000-northampton": {
     "team": "Northampton",
@@ -129793,7 +130087,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Moulton Football Club",
+    "city": "Northampton",
+    "lat": 52.2852085,
+    "lon": -0.8573091,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0354:英甲:A1000-newportcounty": {
     "team": "Newport County",
@@ -129805,7 +130105,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Ty-Isaf Football Club",
+    "city": "Newport",
+    "lat": 51.6043151,
+    "lon": -3.0887312,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0355:英甲:A1000-salford": {
     "team": "Salford",
@@ -129817,7 +130123,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Swinton Football Club",
+    "city": "Salford",
+    "lat": 53.5066118,
+    "lon": -2.3286985,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0356:英甲:A1000-leytonorient": {
     "team": "Leyton Orient",
@@ -130138,7 +130450,13 @@
     ],
     "player_count": 17,
     "source_status": "verified_wikipedia_current_squad",
-    "coach": null
+    "coach": null,
+    "stadium": "Leyton Orient Football Club",
+    "city": "Greater London",
+    "lat": 51.5601797,
+    "lon": -0.0137403,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0357:英甲:A1000-swindon": {
     "team": "Swindon",
@@ -130150,7 +130468,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Swindon Supermarine Football Club",
+    "city": "Sevenhampton",
+    "lat": 51.6058887,
+    "lon": -1.7312148,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0358:英甲:A1000-stevenage": {
     "team": "Stevenage",
@@ -130162,7 +130486,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Stevenage Football Club",
+    "city": "Stevenage",
+    "lat": 51.8896479,
+    "lon": -0.1937405,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0359:英甲:A1000-barrow": {
     "team": "Barrow",
@@ -130174,7 +130504,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Furness Cavaliers Football Club",
+    "city": "Barrow",
+    "lat": 54.1107269,
+    "lon": -3.1876666,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0360:英甲:A1000-tranmere": {
     "team": "Tranmere",
@@ -130198,7 +130534,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Rushall Olympic Football Club",
+    "city": "Walsall",
+    "lat": 52.6010916,
+    "lon": -1.9525148,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0362:英甲:A1000-afcwimbledon": {
     "team": "AFC Wimbledon",
@@ -130495,7 +130837,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Gillingham Football Club",
+    "city": "Gillingham",
+    "lat": 51.3842162,
+    "lon": 0.5607494,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0364:英甲:A1000-doncaster": {
     "team": "Doncaster",
@@ -130507,7 +130855,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Doncaster Football Club",
+    "city": "Melbourne",
+    "lat": -37.7842091,
+    "lon": 145.1332355,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0365:英甲:A1000-grimsby": {
     "team": "Grimsby",
@@ -130519,7 +130873,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Blundell Park",
+    "city": "Cleethorpes",
+    "lat": 53.5702297,
+    "lon": -0.0465117,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0366:英甲:A1000-crewe": {
     "team": "Crewe",
@@ -130531,7 +130891,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Crewe United Football Club",
+    "city": "Lisburn and Castlereagh District",
+    "lat": 54.5777215,
+    "lon": -6.1800404,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0367:英甲:A1000-stockport": {
     "team": "Stockport",
@@ -130543,7 +130909,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Stockport Rugby Union Football Club",
+    "city": "Stockport",
+    "lat": 53.3716536,
+    "lon": -2.1501989,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0368:英甲:A1000-nottscounty": {
     "team": "Notts County",
@@ -143303,7 +143675,13 @@
     ],
     "player_count": 29,
     "source_status": "ok",
-    "coach": null
+    "coach": null,
+    "stadium": "Huracán Football Club",
+    "city": "Municipio de Los Quirquinchos",
+    "lat": -33.3816595,
+    "lon": -61.7136449,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0406:阿甲:gimnasia-l-p": {
     "team": "Gimnasia L.P.",
@@ -147783,7 +148161,13 @@
       "name": "Mauricio Pellegrino",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Club_Atl%C3%A9tico_Lan%C3%BAs"
-    }
+    },
+    "stadium": "Lanús 5 Football Club",
+    "city": "Lanús Oeste",
+    "lat": -34.7103423,
+    "lon": -58.4056266,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0413:阿甲:central-cordoba": {
     "team": "Central Cordoba",
@@ -157372,7 +157756,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Football Stadium",
+    "city": "Old Tappan",
+    "lat": 41.0077592,
+    "lon": -73.978529,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0449:墨西超:club-america": {
     "team": "Club America",
@@ -170107,7 +170497,13 @@
       "name": "Ufuk Talay",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Western_Sydney_Wanderers_FC"
-    }
+    },
+    "stadium": "Ellenbrook United Football CLub",
+    "city": null,
+    "lat": -31.7694112,
+    "lon": 115.9902037,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0471:A-League:a-league-perth-glory": {
     "team": "Perth Glory",
@@ -171531,7 +171927,13 @@
       "name": "Giovanni Savarese",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Melbourne_Victory_FC"
-    }
+    },
+    "stadium": "Wandin Cricket",
+    "city": "Melbourne",
+    "lat": -37.7834297,
+    "lon": 145.4290398,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0473:A-League:a-league-sydney-fc": {
     "team": "Sydney FC",
@@ -176039,7 +176441,13 @@
       "name": "Martin O'Neill",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Celtic_F.C."
-    }
+    },
+    "stadium": "Celtic Football Club",
+    "city": "East Kilbride",
+    "lat": 55.7603836,
+    "lon": -4.177497,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0481:蘇超:planb-rangers": {
     "team": "Rangers",
@@ -177343,7 +177751,13 @@
       "name": "Marink Reedijk",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Hibernian_F.C."
-    }
+    },
+    "stadium": "Hibernian Football Club Training Ground",
+    "city": "Ormiston",
+    "lat": 55.9209854,
+    "lon": -2.9269098,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0484:蘇超:planb-aberdeen": {
     "team": "Aberdeen",
@@ -178000,7 +178414,13 @@
       "name": "Stephen Robinson",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Aberdeen_F.C."
-    }
+    },
+    "stadium": "Aberdeen Football Club Ticket Office",
+    "city": "Aberdeen City",
+    "lat": 57.159653,
+    "lon": -2.0870831,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0485:蘇超:planb-motherwell": {
     "team": "Motherwell",
@@ -181451,7 +181871,13 @@
       "name": "Alberto Gilardino",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Parma_Calcio_1913"
-    }
+    },
+    "stadium": "ACHIEVERS FOOTBALL CLUB",
+    "city": "Lalkuan",
+    "lat": 29.1100812,
+    "lon": 79.5225267,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0491:意乙:A1000-perugia": {
     "team": "Perugia",
@@ -181867,7 +182293,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Brescia Football Club",
+    "city": "Torbole",
+    "lat": 45.5067411,
+    "lon": 10.1132132,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0496:意乙:A1000-ascoli": {
     "team": "Ascoli",
@@ -182550,7 +182982,13 @@
       "name": "Cesc Fàbregas",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Como_1907"
-    }
+    },
+    "stadium": "Georges River Junior Soccer Football Club",
+    "city": "Sydney",
+    "lat": -34.0058109,
+    "lon": 151.0824939,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0501:意乙:A1000-pisa": {
     "team": "Pisa",
@@ -182586,7 +183024,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Biggleswade Town Football Club",
+    "city": "Biggleswade",
+    "lat": 52.0768355,
+    "lon": -0.2680112,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0504:意乙:A1000-palermo": {
     "team": "Palermo",
@@ -191975,7 +192419,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Football Club Borgo",
+    "city": "Borgo",
+    "lat": 42.566222,
+    "lon": 9.4516792,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0541:法乙:A1000-nimes": {
     "team": "Nimes",
@@ -192023,7 +192473,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Football Club Langrune-Luc",
+    "city": "Caen",
+    "lat": 49.3153745,
+    "lon": -0.3590284,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0545:法乙:A1000-rodez": {
     "team": "Rodez",
@@ -192035,7 +192491,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Maison du Foot - DRUELLE Football Club",
+    "city": "Druelle Balsac",
+    "lat": 44.3705567,
+    "lon": 2.5148887,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0546:法乙:A1000-dunkerque": {
     "team": "Dunkerque",
@@ -192692,7 +193154,13 @@
       "name": "Albert Sánchez",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/USL_Dunkerque"
-    }
+    },
+    "stadium": "Football Club Dunkerque Malo Plage",
+    "city": "Dunkirk",
+    "lat": 51.0517055,
+    "lon": 2.414096,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0547:法乙:A1000-quevillyrouen": {
     "team": "Quevilly Rouen",
@@ -195249,7 +195717,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Padel Football Club",
+    "city": "Valenciennes",
+    "lat": 50.283521,
+    "lon": 3.3893211,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0555:法乙:A1000-niort": {
     "team": "Niort",
@@ -195261,7 +195735,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "École technique privée Chamois Niortais Football Club",
+    "city": "Niort",
+    "lat": 46.3171164,
+    "lon": -0.4922851,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0556:法乙:A1000-dijon": {
     "team": "Dijon",
@@ -196555,7 +197035,13 @@
       "name": "Laurent Guyot",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/FC_Annecy"
-    }
+    },
+    "stadium": "Club de football de Vieugy",
+    "city": "Annecy",
+    "lat": 45.8606841,
+    "lon": 6.0840922,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0560:法乙:A1000-laval": {
     "team": "Laval",
@@ -196579,7 +197065,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Club House Football",
+    "city": "Artigues-près-Bordeaux",
+    "lat": 44.8636586,
+    "lon": -0.4922687,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0562:法乙:A1000-metz": {
     "team": "Metz",
@@ -197609,7 +198101,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "Clyde Stallions Football Club",
+    "city": "Melbourne",
+    "lat": -38.1132832,
+    "lon": 145.340937,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0567:蘇冠:A1000-dumbarton": {
     "team": "Dumbarton",
@@ -197621,7 +198119,13 @@
     "front": [],
     "back": [],
     "player_count": 0,
-    "source_status": "unmapped"
+    "source_status": "unmapped",
+    "stadium": "The Rock",
+    "city": "Dumbarton",
+    "lat": 55.9384141,
+    "lon": -4.5616641,
+    "stadium_source": "OpenStreetMap Nominatim",
+    "coordinates_source": "OpenStreetMap Nominatim"
   },
   "0568:蘇冠:A1000-coverangers": {
     "team": "Cove Rangers",
@@ -198557,7 +199061,13 @@
       "name": "John McGlynn",
       "source": "wikipedia_manager",
       "source_url": "https://en.wikipedia.org/wiki/Falkirk_F.C."
-    }
+    },
+    "stadium": "Former Firs Park Football Stadium (East Stirlingshire F.C.)",
+    "city": "Falkirk",
+    "lat": 56.0049743,
+    "lon": -3.7788331,
+    "stadium_source": "city_center_geocode",
+    "coordinates_source": "city_center_geocode"
   },
   "0570:蘇冠:A1000-peterhead": {
     "team": "Peterhead",

@@ -1,0 +1,3794 @@
+{
+  "generated_at": "2026-10-27T02:46:56.549041+00:00",
+  "teams_seen": 574,
+  "processed": 574,
+  "coordinates_ok": 85,
+  "unresolved": 489,
+  "fallback_city_center": 38,
+  "entries": [
+    {
+      "team": "AFC Bournemouth",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Arsenal FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Aston Villa FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Brentford FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Brighton & Hove Albion FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Chelsea FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Crystal Palace FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Everton FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Fulham FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Liverpool FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Manchester City FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Manchester United FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Newcastle United FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Nottingham Forest FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Tottenham Hotspur FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "West Ham United FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Wolverhampton Wanderers FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Burnley FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Leeds United FC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sunderland AFC",
+      "league": "英超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Athletic Club",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "CA Osasuna",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Club Atlético de Madrid",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Deportivo Alavés",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Barcelona",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Getafe CF",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Girona FC",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "RC Celta de Vigo",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "RCD Espanyol de Barcelona",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "RCD Mallorca",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Rayo Vallecano de Madrid",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Real Betis Balompié",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Real Madrid CF",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Real Sociedad de Fútbol",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sevilla FC",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Valencia CF",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Villarreal CF",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Elche CF",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Levante UD",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Real Oviedo",
+      "league": "西甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AC Milan",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "ACF Fiorentina",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AS Roma",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Atalanta BC",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bologna FC 1909",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cagliari Calcio",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Como 1907",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Internazionale Milano",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Genoa CFC",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hellas Verona FC",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Juventus FC",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Parma Calcio 1913",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "SS Lazio",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "SSC Napoli",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Torino FC",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "US Lecce",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Udinese Calcio",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AC Pisa 1909",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "US Cremonese",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "US Sassuolo Calcio",
+      "league": "意甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "1. FC Heidenheim 1846",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "1. FSV Mainz 05",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bayer 04 Leverkusen",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Borussia Dortmund",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Borussia Mönchengladbach",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Eintracht Frankfurt",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Augsburg",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Bayern München",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "RB Leipzig",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "SC Freiburg",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "SV Werder Bremen",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "TSG 1899 Hoffenheim",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "VfB Stuttgart",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "VfL Wolfsburg",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "1. FC Union Berlin",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "1. FC Köln",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC St. Pauli 1910",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hamburger SV",
+      "league": "德甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AS Monaco FC",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Le Havre AC",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lille OSC",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "OGC Nice",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Olympique Lyonnais",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Olympique de Marseille",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Paris Saint-Germain FC",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "RC Strasbourg Alsace",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Racing Club de Lens",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Stade Brestois 29",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Stade Rennais FC 1901",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Nantes",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Toulouse FC",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AJ Auxerre",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Angers SCO",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Lorient",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Metz",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Stade de Reims",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Montpellier HSC",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Clermont Foot 63",
+      "league": "法甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Albirex Niigata",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Avispa Fukuoka",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cerezo Osaka",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Consadole Sapporo",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Tokyo",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Gamba Osaka",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Jubilo Iwata",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kashima Antlers",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kashiwa Reysol",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kawasaki Frontale",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kyoto Sanga",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Machida Zelvia",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Nagoya Grampus",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sagan Tosu",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sanfrecce Hiroshima",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Shonan Bellmare",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Tokyo Verdy",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Urawa Reds",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Vissel Kobe",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Yokohama F Marinos",
+      "league": "J1聯賽",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Porto",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Benfica",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sporting CP",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Braga",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Vitoria Guimaraes",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Moreirense",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Arouca",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Famalicao",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Casa Pia",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Farense",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sp Lisbon",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Guimaraes",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Gil Vicente",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Estoril",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sp Braga",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Boavista",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Vizela",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Portimonense",
+      "league": "葡超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ajax",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "PSV Eindhoven",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Feyenoord",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AZ Alkmaar",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Twente",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Utrecht",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Go Ahead Eagles",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Waalwijk",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "For Sittard",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Nijmegen",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Heerenveen",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sparta Rotterdam",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Heracles",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Zwolle",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Groningen",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Vitesse",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cambuur",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Willem II",
+      "league": "荷甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Galatasaray",
+      "league": "土超",
+      "status": "ok",
+      "stadium": "Galatasaray Football Club Store",
+      "city": "Sarıyer",
+      "lat": 41.1025976,
+      "lon": 28.9922753,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Fenerbahce",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Besiktas",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Trabzonspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Basaksehir",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Adana Demirspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hatayspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Buyuksehyr",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ad. Demirspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Antalyaspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sivasspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kayserispor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kasimpasa",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Alanyaspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Gaziantep",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Konyaspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Karagumruk",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Rizespor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Giresunspor",
+      "league": "土超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Club Brugge",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Anderlecht",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Genk",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Antwerp",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Union SG",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Gent",
+      "league": "比甲",
+      "status": "ok",
+      "stadium": "Gent Rugby Football Club/ Ghent Lacrosse",
+      "city": "Ghent",
+      "lat": 51.045991,
+      "lon": 3.6876201,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Oud-Heverlee Leuven",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Mechelen",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "St. Gilloise",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Standard",
+      "league": "比甲",
+      "status": "ok",
+      "stadium": "RSFC Bouillon",
+      "city": "Bouillon",
+      "lat": 49.7911967,
+      "lon": 5.0590193,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "St Truiden",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Charleroi",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cercle Brugge",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kortrijk",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Westerlo",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Eupen",
+      "league": "比甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Flamengo",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Palmeiras",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Atletico Mineiro",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Corinthians",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Fluminense",
+      "league": "巴甲",
+      "status": "ok",
+      "stadium": "Fluminense Football Club",
+      "city": "Rio de Janeiro",
+      "lat": -22.9363279,
+      "lon": -43.1847488,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Gremio",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Botafogo",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Athletico-PR",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Internacional",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Fortaleza",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sao Paulo",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cruzeiro",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bragantino",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Santos",
+      "league": "巴甲",
+      "status": "ok",
+      "stadium": "Estádio Jaime Santos de Campos (Itararé Football Club)",
+      "city": "Canguçu",
+      "lat": -31.4671681,
+      "lon": -52.6767835,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Bahia",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Vasco",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cuiaba",
+      "league": "巴甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Salzburg",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sturm Graz",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "LASK",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "SK Rapid",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Austria Vienna",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Wolfsberger AC",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hartberg",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Altach",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Tirol",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "A. Klagenfurt",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "BW Linz",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "A. Lustenau",
+      "league": "奧甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Basel",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Grasshoppers",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lugano",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Luzern",
+      "league": "瑞士超",
+      "status": "ok",
+      "stadium": "American Football Club Luzern (Lions)",
+      "city": "Kriens",
+      "lat": 47.028949,
+      "lon": 8.3026535,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Servette",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "St. Gallen",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Young Boys",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Zurich",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Winterthur",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lausanne",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sion",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Thun",
+      "league": "瑞士超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bodo/Glimt",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Brann",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Haugesund",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kristiansund",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lillestrom",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Molde",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Odd",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Rosenborg",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sandefjord",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sarpsborg 08",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Stromsgodset",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Tromso",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Valerenga",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Viking",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Aalesund",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ham-Kam",
+      "league": "挪超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AIK",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Djurgarden",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Elfsborg",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Goteborg",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hacken",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Halmstad",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hammarby",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kalmar",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Malmo FF",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Mjallby",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Norrkoping",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sirius",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Varberg",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Varnamo",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Vasteras SK",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Brommapojkarna",
+      "league": "瑞典超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Aalborg",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Aarhus",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Brondby",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Copenhagen",
+      "league": "丹超",
+      "status": "ok",
+      "stadium": "Parken Stadium",
+      "city": "Copenhagen",
+      "lat": 55.7028,
+      "lon": 12.572,
+      "source": "user_verified"
+    },
+    {
+      "team": "Horsens",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lyngby",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Midtjylland",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Nordsjaelland",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Odense",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Randers FC",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Silkeborg",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Viborg",
+      "league": "丹超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Panathinaikos",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "PAOK",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "AEK",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Olympiakos",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Aris",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Volos NFC",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lamia",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Panetolikos",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Atromitos",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "OFI Crete",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Asteras Tripolis",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Giannina",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Levadeiakos",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Panserraikos",
+      "league": "希超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Blackburn",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Blackburn Football Club",
+      "city": "Melbourne",
+      "lat": -37.8214407,
+      "lon": 145.1561904,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Bristol City",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Bristol Manor Farm Football Club",
+      "city": "Bristol",
+      "lat": 51.4816232,
+      "lon": -2.6505577,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Cardiff",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Cardiff City Football Club",
+      "city": "Cardiff",
+      "lat": 51.4728251,
+      "lon": -3.20302,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Preston",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Faversham Town Football Club",
+      "city": "Borough of Swale",
+      "lat": 51.3066239,
+      "lon": 0.8956044,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "QPR",
+      "league": "英冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Stoke",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Stoke City Football Club",
+      "city": "Stoke-on-Trent",
+      "lat": 52.9883813,
+      "lon": -2.1754502,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Coventry",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Coventry Welsh Rugby Football Club",
+      "city": "Coventry",
+      "lat": 52.4528765,
+      "lon": -1.5013508,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Hull",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Hull City Football Club Training Ground",
+      "city": "Cottingham",
+      "lat": 53.7872833,
+      "lon": -0.4102743,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Middlesbrough",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Middlesbrough Football Club",
+      "city": "Hurworth-on-Tees",
+      "lat": 54.4792521,
+      "lon": -1.5479602,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Millwall",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Millwall Football Club",
+      "city": "Greater London",
+      "lat": 51.4855805,
+      "lon": -0.0513983,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "West Brom",
+      "league": "英冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Swansea",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Bonymaen Rugby Football Club",
+      "city": "Swansea",
+      "lat": 51.644572,
+      "lon": -3.9019737,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Luton",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Football Club",
+      "city": "Luton",
+      "lat": 51.8904663,
+      "lon": -0.4474285,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Sheffield United",
+      "league": "英冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Birmingham",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Moseley Rugby Football Club",
+      "city": "Birmingham",
+      "lat": 52.4273025,
+      "lon": -1.8746729,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Huddersfield",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Cumberworth Football Club",
+      "city": "Kirklees",
+      "lat": 53.5707048,
+      "lon": -1.6977406,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Sunderland",
+      "league": "英冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Watford",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Watford Football Club",
+      "city": "Watford",
+      "lat": 51.6499075,
+      "lon": -0.4015265,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Norwich",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Aylsham Football Club",
+      "city": "Norwich",
+      "lat": 52.7912276,
+      "lon": 1.2302682,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Derby",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Football Stadium",
+      "city": "Derby",
+      "lat": 52.9157383,
+      "lon": -1.4480804,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Blackpool",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "AFC Blackpool Football Club",
+      "city": null,
+      "lat": 53.7785392,
+      "lon": -3.0203527,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Reading",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Reading Football Club",
+      "city": "Reading",
+      "lat": 51.4223537,
+      "lon": -0.9826548,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Rotherham",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Dinnington Rugby Union Football Club",
+      "city": "Dinnington",
+      "lat": 53.3705776,
+      "lon": -1.1903428,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Burnley",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Padiham Football Club",
+      "city": "Padiham",
+      "lat": 53.8024287,
+      "lon": -2.3213374,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Sheffield Weds",
+      "league": "英冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Plymouth",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Devonport Services Rugby Football Club",
+      "city": "Plymouth",
+      "lat": 50.3725211,
+      "lon": -4.1639283,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Leeds",
+      "league": "英冠",
+      "status": "ok",
+      "stadium": "Morley Rugby Football Club",
+      "city": "Leeds",
+      "lat": 53.7432312,
+      "lon": -1.6123227,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Bournemouth",
+      "league": "英冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bolton",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Horwich Saint Mary's Football Club",
+      "city": "Bolton",
+      "lat": 53.6010572,
+      "lon": -2.556926,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Cambridge",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Cambridge Football Stadium",
+      "city": "Cambridge",
+      "lat": 52.18718,
+      "lon": 0.1180353,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Shrewsbury",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Wycombe",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Flackwell Heath football club",
+      "city": "Flackwell Heath",
+      "lat": 51.6042345,
+      "lon": -0.7121283,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Charlton",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Keynsham Town Football Club",
+      "city": "Keynsham",
+      "lat": 51.4194314,
+      "lon": -2.5073791,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Burton",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Live Oak High School Football Stadium",
+      "city": "Watson",
+      "lat": 30.5926426,
+      "lon": -90.9528598,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Lincoln",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Lincoln Rugby Football Club",
+      "city": "Lincoln",
+      "lat": -43.6357771,
+      "lon": 172.482384,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Fleetwood Town",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cheltenham",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "North Shore Rugby Football Club",
+      "city": "Devonport-Takapuna",
+      "lat": -36.8243279,
+      "lon": 174.8054347,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Oxford",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Oxford City Football Club",
+      "city": "Oxford",
+      "lat": 51.7741571,
+      "lon": -1.2286516,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Portsmouth",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Portsmouth Football Club",
+      "city": "Portsmouth",
+      "lat": 50.7914856,
+      "lon": -1.100974,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Wigan",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Wigan Rugby Union Football Club",
+      "city": "Wigan",
+      "lat": 53.5694211,
+      "lon": -2.6267367,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Bristol Rvs",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Barnsley",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Oakwell Stadium",
+      "city": "Cudworth",
+      "lat": 53.5522037,
+      "lon": -1.4676968,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Exeter",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Peterboro",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ipswich",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Ipswich Town Football Club",
+      "city": "Ipswich",
+      "lat": 52.0549521,
+      "lon": 1.1452877,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Rotherham",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Dinnington Rugby Union Football Club",
+      "city": "Dinnington",
+      "lat": 53.3705776,
+      "lon": -1.1903428,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Accrington",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Milton Keynes Dons",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Morecambe",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Plymouth",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Devonport Services Rugby Football Club",
+      "city": "Plymouth",
+      "lat": 50.3725211,
+      "lon": -4.1639283,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Sheffield Weds",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Derby",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Football Stadium",
+      "city": "Derby",
+      "lat": 52.9157383,
+      "lon": -1.4480804,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Port Vale",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Blackpool",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Carlisle",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Colchester",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bradford",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Forest Green",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "The Bolt New Lawn",
+      "city": "Stroud",
+      "lat": 51.6990021,
+      "lon": -2.2378877,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Sutton",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Rivacre Park - Vauxhall Motors Football Club",
+      "city": "Ellesmere Port",
+      "lat": 53.2963885,
+      "lon": -2.9403342,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Harrogate",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Harrogate Rugby Union Football Club",
+      "city": "Follifoot",
+      "lat": 53.9662795,
+      "lon": -1.4991883,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Rochdale",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hartlepool",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Hartlepool United Football Club",
+      "city": "Hartlepool",
+      "lat": 54.6890737,
+      "lon": -1.2127007,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Crawley Town",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Mansfield",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Welbeck Football Club",
+      "city": "Mansfield",
+      "lat": 53.2240943,
+      "lon": -1.1314282,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Northampton",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Moulton Football Club",
+      "city": "Northampton",
+      "lat": 52.2852085,
+      "lon": -0.8573091,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Newport County",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Ty-Isaf Football Club",
+      "city": "Newport",
+      "lat": 51.6043151,
+      "lon": -3.0887312,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Salford",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Swinton Football Club",
+      "city": "Salford",
+      "lat": 53.5066118,
+      "lon": -2.3286985,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Leyton Orient",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Leyton Orient Football Club",
+      "city": "Greater London",
+      "lat": 51.5601797,
+      "lon": -0.0137403,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Swindon",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Swindon Supermarine Football Club",
+      "city": "Sevenhampton",
+      "lat": 51.6058887,
+      "lon": -1.7312148,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Stevenage",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Stevenage Football Club",
+      "city": "Stevenage",
+      "lat": 51.8896479,
+      "lon": -0.1937405,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Barrow",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Furness Cavaliers Football Club",
+      "city": "Barrow",
+      "lat": 54.1107269,
+      "lon": -3.1876666,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Tranmere",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Walsall",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Rushall Olympic Football Club",
+      "city": "Walsall",
+      "lat": 52.6010916,
+      "lon": -1.9525148,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "AFC Wimbledon",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Gillingham",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Gillingham Football Club",
+      "city": "Gillingham",
+      "lat": 51.3842162,
+      "lon": 0.5607494,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Doncaster",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Doncaster Football Club",
+      "city": "Melbourne",
+      "lat": -37.7842091,
+      "lon": 145.1332355,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Grimsby",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Blundell Park",
+      "city": "Cleethorpes",
+      "lat": 53.5702297,
+      "lon": -0.0465117,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Crewe",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Crewe United Football Club",
+      "city": "Lisburn and Castlereagh District",
+      "lat": 54.5777215,
+      "lon": -6.1800404,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Stockport",
+      "league": "英甲",
+      "status": "ok",
+      "stadium": "Stockport Rugby Union Football Club",
+      "city": "Stockport",
+      "lat": 53.3716536,
+      "lon": -2.1501989,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Notts County",
+      "league": "英甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Nurnberg",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Karlsruhe",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Paderborn",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hannover",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Fortuna Dusseldorf",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hamburg",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Schalke 04",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Darmstadt",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hansa Rostock",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "St Pauli",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Regensburg",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Holstein Kiel",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kaiserslautern",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Greuther Furth",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Magdeburg",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Braunschweig",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Heidenheim",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sandhausen",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hertha",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Elversberg",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Dresden",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Werder Bremen",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ingolstadt",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Erzgebirge Aue",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bielefeld",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Osnabruck",
+      "league": "德乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Boca Juniors",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "River Plate",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Estudiantes L.P.",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Velez Sarsfield",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Rosario Central",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Platense",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Godoy Cruz",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Independiente",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Defensa y Justicia",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Talleres Cordoba",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Huracan",
+      "league": "阿甲",
+      "status": "ok",
+      "stadium": "Huracán Football Club",
+      "city": "Municipio de Los Quirquinchos",
+      "lat": -33.3816595,
+      "lon": -61.7136449,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Gimnasia L.P.",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Banfield",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Union de Santa Fe",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sarmiento Junin",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "San Lorenzo",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Newells Old Boys",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lanus",
+      "league": "阿甲",
+      "status": "ok",
+      "stadium": "Lanús 5 Football Club",
+      "city": "Lanús Oeste",
+      "lat": -34.7103423,
+      "lon": -58.4056266,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Central Cordoba",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Atl. Tucuman",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Racing Club",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Colon Santa FE",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Arsenal Sarandi",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Argentinos Jrs",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Barracas Central",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Tigre",
+      "league": "阿甲",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Los Angeles FC",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "New York City",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Orlando City",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "New York Red Bulls",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Seattle Sounders",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Real Salt Lake",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Philadelphia Union",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Cincinnati",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Atlanta Utd",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Columbus Crew",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Vancouver Whitecaps",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Los Angeles Galaxy",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Houston Dynamo",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sporting Kansas City",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Portland Timbers",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Nashville SC",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Minnesota United",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "FC Dallas",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Inter Miami",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "New England Revolution",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Colorado Rapids",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "CF Montreal",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Austin FC",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "San Jose Earthquakes",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Toronto FC",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "DC United",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Chicago Fire",
+      "league": "美職MLS",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Charlotte",
+      "league": "美職MLS",
+      "status": "ok",
+      "stadium": "Football Stadium",
+      "city": "Old Tappan",
+      "lat": 41.0077592,
+      "lon": -73.978529,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Club America",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Tigres UANL",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Monterrey",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cruz Azul",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Toluca",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Pachuca",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Guadalajara Chivas",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "UNAM Pumas",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Atlas",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Atl. San Luis",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Club Leon",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Puebla",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Necaxa",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Club Tijuana",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Mazatlan FC",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Juarez",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Queretaro",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Santos Laguna",
+      "league": "墨西超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Melbourne City FC",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Wellington Phoenix",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Adelaide United",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Western United",
+      "league": "A-League",
+      "status": "ok",
+      "stadium": "Ellenbrook United Football CLub",
+      "city": null,
+      "lat": -31.7694112,
+      "lon": 115.9902037,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Perth Glory",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Melbourne Victory",
+      "league": "A-League",
+      "status": "ok",
+      "stadium": "Wandin Cricket",
+      "city": "Melbourne",
+      "lat": -37.7834297,
+      "lon": 145.4290398,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Sydney FC",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Western Sydney Wanderers",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Newcastle United Jets",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Central Coast Mariners",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Macarthur FC",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Brisbane Roar",
+      "league": "A-League",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hokkaido Consadole Sapporo",
+      "league": "日職",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Celtic",
+      "league": "蘇超",
+      "status": "ok",
+      "stadium": "Celtic Football Club",
+      "city": "East Kilbride",
+      "lat": 55.7603836,
+      "lon": -4.177497,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Rangers",
+      "league": "蘇超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hearts",
+      "league": "蘇超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Hibernian",
+      "league": "蘇超",
+      "status": "ok",
+      "stadium": "Hibernian Football Club Training Ground",
+      "city": "Ormiston",
+      "lat": 55.9209854,
+      "lon": -2.9269098,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Aberdeen",
+      "league": "蘇超",
+      "status": "ok",
+      "stadium": "Aberdeen Football Club Ticket Office",
+      "city": "Aberdeen City",
+      "lat": 57.159653,
+      "lon": -2.0870831,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Motherwell",
+      "league": "蘇超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "St Mirren",
+      "league": "蘇超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ross County",
+      "league": "蘇超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "St Johnstone",
+      "league": "蘇超",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Frosinone",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Parma",
+      "league": "意乙",
+      "status": "ok",
+      "stadium": "ACHIEVERS FOOTBALL CLUB",
+      "city": "Lalkuan",
+      "lat": 29.1100812,
+      "lon": 79.5225267,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Perugia",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cittadella",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Reggina",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ternana",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Brescia",
+      "league": "意乙",
+      "status": "ok",
+      "stadium": "Brescia Football Club",
+      "city": "Torbole",
+      "lat": 45.5067411,
+      "lon": 10.1132132,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Ascoli",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cosenza",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Benevento",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cremonese",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Como",
+      "league": "意乙",
+      "status": "ok",
+      "stadium": "Georges River Junior Soccer Football Club",
+      "city": "Sydney",
+      "lat": -34.0058109,
+      "lon": 151.0824939,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Pisa",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Spal",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bari",
+      "league": "意乙",
+      "status": "ok",
+      "stadium": "Biggleswade Town Football Club",
+      "city": "Biggleswade",
+      "lat": 52.0768355,
+      "lon": -0.2680112,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Palermo",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sudtirol",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Modena",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Venezia",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Catanzaro",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sampdoria",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Spezia",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Reggiana",
+      "league": "意乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Huesca",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Eibar",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Zaragoza",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ibiza",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Leganes",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Amorebieta",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ponferradina",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Alcorcon",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sp Gijon",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Burgos",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Oviedo",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Lugo",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Tenerife",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Las Palmas",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Valladolid",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Malaga",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Mirandes",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Cartagena",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Almeria",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Levante",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Santander",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Villarreal B",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Granada",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Andorra",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Albacete",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Elche",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ferrol",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Eldense",
+      "league": "西乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bastia",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "Football Club Borgo",
+      "city": "Borgo",
+      "lat": 42.566222,
+      "lon": 9.4516792,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Nimes",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Amiens",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Auxerre",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Caen",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "Football Club Langrune-Luc",
+      "city": "Caen",
+      "lat": 49.3153745,
+      "lon": -0.3590284,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Rodez",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "Maison du Foot - DRUELLE Football Club",
+      "city": "Druelle Balsac",
+      "lat": 44.3705567,
+      "lon": 2.5148887,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Dunkerque",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "Football Club Dunkerque Malo Plage",
+      "city": "Dunkirk",
+      "lat": 51.0517055,
+      "lon": 2.414096,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Quevilly Rouen",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Grenoble",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Paris FC",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Le Havre",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Guingamp",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Pau FC",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Ajaccio",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Valenciennes",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "Padel Football Club",
+      "city": "Valenciennes",
+      "lat": 50.283521,
+      "lon": 3.3893211,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Niort",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "École technique privée Chamois Niortais Football Club",
+      "city": "Niort",
+      "lat": 46.3171164,
+      "lon": -0.4922851,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Dijon",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Sochaux",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "St Etienne",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Annecy",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "Club de football de Vieugy",
+      "city": "Annecy",
+      "lat": 45.8606841,
+      "lon": 6.0840922,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Laval",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Bordeaux",
+      "league": "法乙",
+      "status": "ok",
+      "stadium": "Club House Football",
+      "city": "Artigues-près-Bordeaux",
+      "lat": 44.8636586,
+      "lon": -0.4922687,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Metz",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Troyes",
+      "league": "法乙",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Airdrie Utd",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Montrose",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Clyde",
+      "league": "蘇冠",
+      "status": "ok",
+      "stadium": "Clyde Stallions Football Club",
+      "city": "Melbourne",
+      "lat": -38.1132832,
+      "lon": 145.340937,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Dumbarton",
+      "league": "蘇冠",
+      "status": "ok",
+      "stadium": "The Rock",
+      "city": "Dumbarton",
+      "lat": 55.9384141,
+      "lon": -4.5616641,
+      "source": "OpenStreetMap Nominatim"
+    },
+    {
+      "team": "Cove Rangers",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Falkirk",
+      "league": "蘇冠",
+      "status": "ok",
+      "stadium": "Former Firs Park Football Stadium (East Stirlingshire F.C.)",
+      "city": "Falkirk",
+      "lat": 56.0049743,
+      "lon": -3.7788331,
+      "source": "city_center_geocode"
+    },
+    {
+      "team": "Peterhead",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Alloa",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Kelty Hearts",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Queen of Sth",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    },
+    {
+      "team": "Annan Athletic",
+      "league": "蘇冠",
+      "status": "unresolved",
+      "reason": "no verified geocode"
+    }
+  ]
+}

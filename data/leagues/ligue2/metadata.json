@@ -1,10 +1,10 @@
 {
   "league_id": "ligue2",
   "name_zh": "法乙",
-  "updated_at": "2026-10-25T20:20:26.591352+00:00",
+  "updated_at": "2026-10-27T02:58:41.266992+00:00",
   "fixtures": 990,
   "teams": 35,
-  "players": 1088,
+  "players": 1089,
   "corner_fixtures": 990,
   "sources": [
     "football-data.co.uk"

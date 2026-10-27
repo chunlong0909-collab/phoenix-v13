@@ -39,7 +39,6 @@
 3,Argentinos Juniors,200687,Brayan Cortés,G,1995-03-11T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,335365,Gonzalo Siri Payer,G,2003-02-01T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,361419,Agustín Mangiaut,G,2004-05-24T07:00Z,,ESPN roster,2025
-3,Argentinos Juniors,118787,Franco Vázquez,M,1989-02-22T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,172540,Erik Godoy,D,1993-08-16T07:00Z,,ESPN roster,2025
 3,Argentinos Juniors,199840,Mateo Mendoza,D,2004-11-21T08:00Z,,ESPN roster,2025
 3,Argentinos Juniors,218629,Sebastián Prieto,D,1993-04-09T07:00Z,,ESPN roster,2025
@@ -249,7 +248,7 @@
 8,Estudiantes de La Plata,264844,Edwin Cetre,F,1998-01-01T08:00Z,,ESPN roster,2025
 8,Estudiantes de La Plata,276024,Adolfo Gaich,F,1999-02-26T08:00Z,,ESPN roster,2025
 8,Estudiantes de La Plata,309131,Brian Aguirre,F,2003-01-06T08:00Z,,ESPN roster,2025
-8,Estudiantes de La Plata,316649,Fabricio Pérez,F,2005-12-07T08:00Z,,ESPN roster,2025
+8,Estudiantes de La Plata,316649,Fabricio Pérez,M,1993-08-17T07:00Z,,ESPN roster,2025
 8,Estudiantes de La Plata,383022,Joaquín Tobio Burgos,F,2004-12-14T08:00Z,,ESPN roster,2025
 8,Estudiantes de La Plata,383223,Benjamín Sagues,F,2007-01-22T08:00Z,,ESPN roster,2025
 8,Estudiantes de La Plata,408595,Franco Dominguez,F,2007-07-07T07:00Z,,ESPN roster,2025
@@ -257,7 +256,7 @@
 8,Estudiantes de La Plata,421457,Juan Fernández Soler,F,2006-08-11T07:00Z,,ESPN roster,2025
 8,Estudiantes de La Plata,421466,Francisco Silvetti,F,2008-05-27T07:00Z,,ESPN roster,2025
 8,Estudiantes de La Plata,3096760,Enzo Agustín Sanabria,F,,,ESPN roster,2025
-7767,Tigre,285028,Lautaro Morales,M,2004-09-25T07:00Z,,ESPN roster,2025
+7767,Tigre,285028,Lautaro Morales,G,1999-12-16T08:00Z,,ESPN roster,2025
 7767,Tigre,292055,Felipe Zenobio,G,2000-05-22T07:00Z,,ESPN roster,2025
 7767,Tigre,387565,Luka Fuster,G,2006-08-09T07:00Z,,ESPN roster,2025
 7767,Tigre,421331,Máximo Leguizamón,G,2007-06-26T07:00Z,,ESPN roster,2025
@@ -278,7 +277,7 @@
 7767,Tigre,3097410,Alex Emanuel González,D,,,ESPN roster,2025
 7767,Tigre,3097422,Lucas Gabriel Molas,D,,,ESPN roster,2025
 7767,Tigre,146941,Gonzalo Martínez,M,1993-06-13T07:00Z,,ESPN roster,2025
-7767,Tigre,163875,Marco Rivas,M,1991-04-20T07:00Z,,ESPN roster,2025
+7767,Tigre,163875,Marco Rivas,M,2008-05-15T07:00Z,,ESPN roster,2025
 7767,Tigre,292042,Hector Garay,M,1999-06-12T07:00Z,,ESPN roster,2025
 7767,Tigre,310747,Sebastián Medina,M,2000-03-15T08:00Z,,ESPN roster,2025
 7767,Tigre,323250,Bruno Leyes,M,2001-10-30T08:00Z,,ESPN roster,2025
@@ -590,7 +589,7 @@
 12,Lanús,336893,Ian López,M,2007-02-13T08:00Z,,ESPN roster,2025
 12,Lanús,376477,Thiago Laplace,M,2006-04-03T07:00Z,,ESPN roster,2025
 12,Lanús,382831,Agustín Medina,M,2006-10-24T07:00Z,,ESPN roster,2025
-12,Lanús,410593,Ragnheidur Jónsdóttir,F,2007-11-16T08:00Z,,ESPN roster,2025
+12,Lanús,410593,Ragnheidur Jónsdóttir,D,2006-01-14T08:00Z,,ESPN roster,2025
 12,Lanús,421453,Tiago Domínguez,M,2009-03-01T08:00Z,,ESPN roster,2025
 12,Lanús,265974,Alexis Duarte,F,2007-04-19T07:00Z,,ESPN roster,2025
 12,Lanús,307981,Allan Wlk,F,2003-03-01T08:00Z,,ESPN roster,2025
@@ -618,7 +617,7 @@
 2975,Instituto (Córdoba),418049,Lucas Olviera,D,,,ESPN roster,2025
 2975,Instituto (Córdoba),70912,Alex Luna,M,2004-03-31T08:00Z,,ESPN roster,2025
 2975,Instituto (Córdoba),131717,Juan Mendez,M,1997-04-28T07:00Z,,ESPN roster,2025
-2975,Instituto (Córdoba),176058,Jhon Córdoba,F,1993-05-11T07:00Z,,ESPN roster,2025
+2975,Instituto (Córdoba),176058,Jhon Córdoba,M,2000-07-15T07:00Z,,ESPN roster,2025
 2975,Instituto (Córdoba),242672,Gustavo Abregú,M,1997-07-04T07:00Z,,ESPN roster,2025
 2975,Instituto (Córdoba),264514,Franco Moyano,M,1997-09-13T07:00Z,,ESPN roster,2025
 2975,Instituto (Córdoba),264953,Jonás Acevedo,M,1997-02-06T08:00Z,,ESPN roster,2025
@@ -675,12 +674,12 @@
 15,Racing Club,383148,Thiago De Bellis,G,2005-02-01T08:00Z,,ESPN roster,2025
 15,Racing Club,199790,Pacha Espino,D,1992-01-05T08:00Z,,ESPN roster,2025
 15,Racing Club,268534,Nazareno Colombo,D,1999-03-20T08:00Z,,ESPN roster,2025
-15,Racing Club,285026,Juan Barinaga,M,2000-06-13T07:00Z,,ESPN roster,2025
+15,Racing Club,285026,Juan Barinaga,D,2000-10-10T07:00Z,,ESPN roster,2025
 15,Racing Club,290432,Matías Pérez,D,1999-03-03T08:00Z,,ESPN roster,2025
 15,Racing Club,301950,Marco Di Cesare,D,2002-01-30T08:00Z,,ESPN roster,2025
 15,Racing Club,311747,Ezequiel Cannavo,D,2002-06-12T07:00Z,,ESPN roster,2025
 15,Racing Club,361553,Gonzalo Escudero,D,2007-04-01T07:00Z,,ESPN roster,2025
-15,Racing Club,400994,Mateo Martínez,D,2008-04-27T07:00Z,,ESPN roster,2025
+15,Racing Club,400994,Mateo Martínez,M,2006-05-27T07:00Z,,ESPN roster,2025
 15,Racing Club,70303,Alejandro Tello,M,2008-02-08T08:00Z,,ESPN roster,2025
 15,Racing Club,195645,Matías Kranevitter,M,1993-05-21T07:00Z,,ESPN roster,2025
 15,Racing Club,241988,Matías Zaracho,M,1998-03-10T08:00Z,,ESPN roster,2025
@@ -701,6 +700,7 @@
 15,Racing Club,292041,Lautaro Díaz,F,1998-05-21T07:00Z,,ESPN roster,2025
 15,Racing Club,337972,Valentin Carboni,F,2005-03-05T08:00Z,,ESPN roster,2025
 15,Racing Club,346184,Elías Torres,F,2001-03-02T08:00Z,,ESPN roster,2025
+15,Racing Club,383143,Galo Volpe,F,2004-05-14T07:00Z,,ESPN roster,2025
 15,Racing Club,383146,Francisco Fraga,F,2006-02-17T08:00Z,,ESPN roster,2025
 15,Racing Club,419792,Ezequiel Pérez,F,2008-05-23T07:00Z,,ESPN roster,2025
 15,Racing Club,3128149,Driden Alberto Campo Deusa,F,,,ESPN roster,2025
@@ -976,7 +976,7 @@
 9,Gimnasia La Plata,3119244,Lucas Lamella,D,,,ESPN roster,2025
 9,Gimnasia La Plata,106583,Ignacio Fernández,M,1990-01-12T08:00Z,,ESPN roster,2025
 9,Gimnasia La Plata,136511,Augusto Max,M,1992-08-10T07:00Z,,ESPN roster,2025
-9,Gimnasia La Plata,233952,Santiago Villarreal,M,2005-11-20T08:00Z,,ESPN roster,2025
+9,Gimnasia La Plata,233952,Santiago Villarreal,D,1996-02-28T08:00Z,,ESPN roster,2025
 9,Gimnasia La Plata,302037,Agustín Martínez,M,2002-09-05T07:00Z,,ESPN roster,2025
 9,Gimnasia La Plata,309442,Leandro Mamut,M,2003-12-31T08:00Z,,ESPN roster,2025
 9,Gimnasia La Plata,310476,Ignacio Miramon,M,2003-06-12T07:00Z,,ESPN roster,2025

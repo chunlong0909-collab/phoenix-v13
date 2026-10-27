@@ -1,10 +1,10 @@
 {
   "league_id": "uruguay-primera",
   "name_zh": "烏拉圭甲",
-  "updated_at": "2026-10-25T20:22:59.659225+00:00",
+  "updated_at": "2026-10-27T03:00:41.162366+00:00",
   "fixtures": 897,
   "teams": 20,
-  "players": 582,
+  "players": 583,
   "corner_fixtures": 0,
   "sources": [
     "ESPN scoreboard"
