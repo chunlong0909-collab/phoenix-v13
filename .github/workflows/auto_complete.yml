@@ -59,6 +59,24 @@ jobs:
           print('incomplete teams=', r['totals']['incomplete_teams'])
           PY
 
+      - name: Validate AFC Elite match history cache
+        run: |
+          python - <<'PY'
+          import csv, json, pathlib
+          cfg = json.load(open('leagues.json', encoding='utf-8'))
+          item = next(x for x in cfg['leagues'] if x.get('id') == 'afc-champions-league-elite')
+          slug = item['history_slug']
+          paths = [pathlib.Path('data/match_history') / f'{slug}.csv',
+                   pathlib.Path('assets/data/match_history') / f'{slug}.csv']
+          for path in paths:
+              assert path.exists(), path
+              with path.open(encoding='utf-8-sig', newline='') as fh:
+                  rows = list(csv.DictReader(fh))
+              assert len(rows) == 20, (path, len(rows))
+              assert all(r.get('league') == '亞冠精英盃' for r in rows)
+          print('AFC_ELITE_CACHE_VALID rows=20 copies=2 slug=' + slug)
+          PY
+
       - name: Package verified batch
         run: |
           zip -qr phoenix_TRUE_FINAL_v2_plus23.zip catalog

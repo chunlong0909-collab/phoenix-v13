@@ -1853,7 +1853,17 @@ def all_saved_matches(league):
 def match_history_cache(league, cache_version=MATCH_HISTORY_CACHE_VERSION):
     """讀取固定9欄真實賽果；版本參數令Streamlit部署識別新版cache。"""
     canonical = canonical_league_name(league)
-    safe = re.sub(r"[^a-z0-9_-]+", "_", canonical.lower()).strip("_") or "league"
+    safe = ""
+    try:
+        config = json.loads((Path(__file__).with_name("leagues.json")).read_text(encoding="utf-8"))
+        item = next((x for x in config.get("leagues", [])
+                     if x.get("name_zh") in {league, canonical}
+                     or x.get("name_en") in {league, canonical}), None)
+        safe = str((item or {}).get("history_slug") or "").strip()
+    except (OSError, ValueError, TypeError):
+        safe = ""
+    if not safe:
+        safe = re.sub(r"[^a-z0-9_-]+", "_", canonical.lower()).strip("_") or "league"
     if safe == "league":
         import hashlib
         safe = "league_" + hashlib.sha1(str(canonical).encode("utf-8")).hexdigest()[:10]
@@ -2517,7 +2527,14 @@ if run:
                 save_matches(matches)
                 source, quality = "公開 CSV 網址", "高（已核對格式）"
             else:
-                matches, source, quality = get_matches(league, "", fd_token.strip(), crawl_url)
+                # 已核實的本地公開賽果優先於即時爬取；否則來源暫時被擋時，
+                # App會錯誤顯示「找不到賽果」，即使match_history其實已有資料。
+                cached_matches = all_saved_matches(league)
+                if not cached_matches.empty:
+                    matches = cached_matches
+                    source, quality = "本地match_history（已核實公開CSV）", "高（本地已核對）"
+                else:
+                    matches, source, quality = get_matches(league, "", fd_token.strip(), crawl_url)
         except Exception as e:
             st.warning(f"資料來源暫時不可用：{e}")
             st.info("請稍後再試，或提供該聯賽的公開賽果頁面；程式不會自行填入虛構數據。")
