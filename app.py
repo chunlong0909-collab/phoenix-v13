@@ -1978,6 +1978,10 @@ def afc_cross_league_matches(afc_matches):
             stripped = re.sub(r"\s*\([^)]*\)", "", str(value or ""))
             return team_key(stripped)
         for col in ("Home", "Away"):
+            # 先套用全域別名，再做聯賽目錄比對。K1來源可能寫
+            # 「Daejeon Hana Citizen」，而亞冠目錄寫「Daejeon (Kor)」；
+            # 只清理國家括號會令主隊仍然只匹配到亞冠原本1場。
+            extra[col] = extra[col].map(lambda value: ALIASES.get(str(value).strip(), value))
             extra[col] = extra[col].map(lambda value: next(
                 (name for name in directory if cross_key(name) == cross_key(value)), value
             ))
@@ -1986,7 +1990,16 @@ def afc_cross_league_matches(afc_matches):
     combined = pd.concat([afc_matches.assign(source_league="亞冠精英盃"), extra], ignore_index=True)
     dedupe_cols = ["Date", "Home", "Away", "HG", "AG"]
     combined = combined.drop_duplicates(subset=[c for c in dedupe_cols if c in combined.columns])
-    return combined.sort_values("DateParsed", na_position="last").reset_index(drop=True)
+    combined = combined.sort_values("DateParsed", na_position="last").reset_index(drop=True)
+    # 保留可追蹤的真實樣本證據；此處只統計，不生成或修改任何比分。
+    print(
+        "亞冠分析合併：大田相關行數={}／神戶相關行數={}／總行數={}".format(
+            int(combined.astype(str).apply(lambda c: c.str.contains("Daejeon", case=False, na=False)).any(axis=1).sum()),
+            int(combined.astype(str).apply(lambda c: c.str.contains("Vissel Kobe", case=False, na=False)).any(axis=1).sum()),
+            len(combined),
+        )
+    )
+    return combined
 def local_api_matches(league):
     """分析頁的本地API客戶端；API未啟動時才回退本地SQLite，避免阻塞使用。"""
     base = os.getenv("LOCAL_API_URL", "http://127.0.0.1:8000").rstrip("/")
@@ -2699,6 +2712,8 @@ if run:
         fbref_corner_message = f"FBref 逐場角球未讀取：{str(exc)[:160]}"
     h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
     a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
+    if canonical_league_name(league) == "亞冠精英盃":
+        st.caption(f"亞冠分析：主隊合併後 {len(matches[(matches.Home == home) | (matches.Away == home)])} 場／客隊合併後 {len(matches[(matches.Home == away) | (matches.Away == away)])} 場（亞冠＋K1/J1本地真實賽果）")
     pair_data_ok, pair_data_reasons = pair_data_status(h, a, stale_data)
     if not pair_data_ok:
         # 硬性信任閘門：樣本不足時不能再展示看似精確的主客、大小球或
