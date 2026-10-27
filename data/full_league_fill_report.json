@@ -21,6 +21,20 @@
     "note": ""
   },
   {
+    "league": "丹麥超級聯賽",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/denmark/superliga/results/"
+  },
+  {
+    "league": "亞冠精英盃",
+    "rows": 20,
+    "source": "flashscore_public_results",
+    "status": "PASS",
+    "note": "HTTP source https://www.flashscore.com/football/asia/afc-champions-league/"
+  },
+  {
     "league": "土超",
     "rows": 20,
     "source": "local:super_lig",

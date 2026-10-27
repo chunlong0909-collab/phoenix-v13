@@ -660,7 +660,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0002:英超:57": {
     "team": "Arsenal FC",
@@ -1323,7 +1323,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0003:英超:58": {
     "team": "Aston Villa FC",
@@ -1986,7 +1986,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0004:英超:402": {
     "team": "Brentford FC",
@@ -2649,7 +2649,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0005:英超:397": {
     "team": "Brighton & Hove Albion FC",
@@ -3422,7 +3422,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0006:英超:61": {
     "team": "Chelsea FC",
@@ -4107,7 +4107,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0007:英超:354": {
     "team": "Crystal Palace FC",
@@ -4858,7 +4858,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0008:英超:62": {
     "team": "Everton FC",
@@ -5411,7 +5411,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0009:英超:63": {
     "team": "Fulham FC",
@@ -6074,7 +6074,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0010:英超:64": {
     "team": "Liverpool FC",
@@ -7595,7 +7595,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0011:英超:65": {
     "team": "Manchester City FC",
@@ -8213,7 +8213,7 @@
     "city": "Manchester",
     "lat": 53.48095,
     "lon": -2.23743,
-    "stadium_source": "Open-Meteo Geocoding (verified hint)",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0012:英超:66": {
@@ -8965,7 +8965,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0013:英超:67": {
     "team": "Newcastle United FC",
@@ -9650,7 +9650,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0014:英超:351": {
     "team": "Nottingham Forest FC",
@@ -10203,7 +10203,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0015:英超:73": {
     "team": "Tottenham Hotspur FC",
@@ -10888,7 +10888,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0016:英超:563": {
     "team": "West Ham United FC",
@@ -11529,7 +11529,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0017:英超:76": {
     "team": "Wolverhampton Wanderers FC",
@@ -12258,7 +12258,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0018:英超:328": {
     "team": "Burnley FC",
@@ -13075,7 +13075,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0019:英超:341": {
     "team": "Leeds United FC",
@@ -13738,7 +13738,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0020:英超:71": {
     "team": "Sunderland AFC",
@@ -14489,7 +14489,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0021:西甲:77": {
     "team": "Athletic Club",
@@ -15218,7 +15218,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0022:西甲:79": {
     "team": "CA Osasuna",
@@ -15459,7 +15459,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0023:西甲:78": {
     "team": "Club Atlético de Madrid",
@@ -15700,7 +15700,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0024:西甲:263": {
     "team": "Deportivo Alavés",
@@ -15977,7 +15977,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0025:西甲:81": {
     "team": "FC Barcelona",
@@ -16683,7 +16683,7 @@
     "city": "Barcelona",
     "lat": 41.38879,
     "lon": 2.15899,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0026:西甲:82": {
@@ -17434,7 +17434,7 @@
     "city": "Getafe",
     "lat": 40.30571,
     "lon": -3.73295,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0027:西甲:298": {
@@ -18229,7 +18229,7 @@
     "city": "Girona",
     "lat": 41.98311,
     "lon": 2.82493,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0028:西甲:558": {
@@ -18489,7 +18489,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0029:西甲:80": {
     "team": "RCD Espanyol de Barcelona",
@@ -18856,7 +18856,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0030:西甲:89": {
     "team": "RCD Mallorca",
@@ -19133,7 +19133,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0031:西甲:87": {
     "team": "Rayo Vallecano de Madrid",
@@ -19392,7 +19392,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0032:西甲:90": {
     "team": "Real Betis Balompié",
@@ -19651,7 +19651,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0033:西甲:86": {
     "team": "Real Madrid CF",
@@ -20445,7 +20445,7 @@
     "city": "Madrid",
     "lat": 40.4165,
     "lon": -3.70256,
-    "stadium_source": "Open-Meteo Geocoding (verified hint)",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0034:西甲:92": {
@@ -20687,7 +20687,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0035:西甲:559": {
     "team": "Sevilla FC",
@@ -21411,7 +21411,7 @@
     "city": "Seville",
     "lat": 37.38283,
     "lon": -5.97317,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0036:西甲:95": {
@@ -22184,7 +22184,7 @@
     "city": "Valencia",
     "lat": 39.47391,
     "lon": -0.37966,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0037:西甲:94": {
@@ -22825,7 +22825,7 @@
     "city": "Villarreal",
     "lat": 38.72572,
     "lon": -7.21533,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0038:西甲:285": {
@@ -23488,7 +23488,7 @@
     "city": "Elche",
     "lat": 38.26218,
     "lon": -0.70107,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0039:西甲:88": {
@@ -23748,7 +23748,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0040:西甲:1048": {
     "team": "Real Oviedo",
@@ -24499,7 +24499,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0041:意甲:98": {
     "team": "AC Milan",
@@ -25139,7 +25139,7 @@
     "city": "Milan",
     "lat": 45.46427,
     "lon": 9.18951,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0042:意甲:99": {
@@ -25381,7 +25381,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0043:意甲:100": {
     "team": "AS Roma",
@@ -26018,7 +26018,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0044:意甲:102": {
     "team": "Atalanta BC",
@@ -26277,7 +26277,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0045:意甲:103": {
     "team": "Bologna FC 1909",
@@ -26554,7 +26554,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0046:意甲:104": {
     "team": "Cagliari Calcio",
@@ -27257,7 +27257,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0047:意甲:7397": {
     "team": "Como 1907",
@@ -27534,7 +27534,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0048:意甲:108": {
     "team": "FC Internazionale Milano",
@@ -27771,7 +27771,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0049:意甲:107": {
     "team": "Genoa CFC",
@@ -28048,7 +28048,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0050:意甲:450": {
     "team": "Hellas Verona FC",
@@ -28361,7 +28361,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0051:意甲:109": {
     "team": "Juventus FC",
@@ -29222,7 +29222,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0052:意甲:112": {
     "team": "Parma Calcio 1913",
@@ -29499,7 +29499,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0053:意甲:110": {
     "team": "SS Lazio",
@@ -29812,7 +29812,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0054:意甲:113": {
     "team": "SSC Napoli",
@@ -30089,7 +30089,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0055:意甲:586": {
     "team": "Torino FC",
@@ -30839,7 +30839,7 @@
     "city": "Turin",
     "lat": 45.07049,
     "lon": 7.68682,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0056:意甲:5890": {
@@ -31152,7 +31152,7 @@
     "city": "Lecce",
     "lat": 40.35481,
     "lon": 18.17244,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0057:意甲:115": {
@@ -31790,7 +31790,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0058:意甲:487": {
     "team": "AC Pisa 1909",
@@ -32085,7 +32085,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0059:意甲:457": {
     "team": "US Cremonese",
@@ -32362,7 +32362,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0060:意甲:471": {
     "team": "US Sassuolo Calcio",
@@ -32689,7 +32689,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0061:德甲:44": {
     "team": "1. FC Heidenheim 1846",
@@ -33374,7 +33374,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0062:德甲:15": {
     "team": "1. FSV Mainz 05",
@@ -33633,7 +33633,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0063:德甲:3": {
     "team": "Bayer 04 Leverkusen",
@@ -33910,7 +33910,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0064:德甲:4": {
     "team": "Borussia Dortmund",
@@ -34639,7 +34639,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0065:德甲:18": {
     "team": "Borussia Mönchengladbach",
@@ -35368,7 +35368,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0066:德甲:19": {
     "team": "Eintracht Frankfurt",
@@ -35987,7 +35987,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0067:德甲:16": {
     "team": "FC Augsburg",
@@ -36605,7 +36605,7 @@
     "city": "Augsburg",
     "lat": 48.37154,
     "lon": 10.89851,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0068:德甲:5": {
@@ -36847,7 +36847,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0069:德甲:721": {
     "team": "RB Leipzig",
@@ -37510,7 +37510,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0070:德甲:17": {
     "team": "SC Freiburg",
@@ -38150,7 +38150,7 @@
     "city": "Freiburg im Breisgau",
     "lat": 47.9959,
     "lon": 7.85222,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0071:德甲:12": {
@@ -38482,7 +38482,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0072:德甲:2": {
     "team": "TSG 1899 Hoffenheim",
@@ -38759,7 +38759,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0073:德甲:10": {
     "team": "VfB Stuttgart",
@@ -39461,7 +39461,7 @@
     "city": "Stuttgart",
     "lat": 48.78232,
     "lon": 9.17702,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0074:德甲:11": {
@@ -40278,7 +40278,7 @@
     "city": "Wolfsburg",
     "lat": 52.4236,
     "lon": 10.77597,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0075:德甲:28": {
@@ -41008,7 +41008,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0076:德甲:1": {
     "team": "1. FC Köln",
@@ -41321,7 +41321,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0077:德甲:20": {
     "team": "FC St. Pauli 1910",
@@ -41598,7 +41598,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0078:德甲:7": {
     "team": "Hamburger SV",
@@ -41874,7 +41874,7 @@
     "city": "Hamburger Kamp",
     "lat": 54.168,
     "lon": 10.43459,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0079:法甲:548": {
@@ -42170,7 +42170,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0080:法甲:533": {
     "team": "Le Havre AC",
@@ -42447,7 +42447,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0081:法甲:521": {
     "team": "Lille OSC",
@@ -42706,7 +42706,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0082:法甲:522": {
     "team": "OGC Nice",
@@ -43001,7 +43001,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0083:法甲:523": {
     "team": "Olympique Lyonnais",
@@ -43260,7 +43260,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0084:法甲:516": {
     "team": "Olympique de Marseille",
@@ -43479,7 +43479,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0085:法甲:524": {
     "team": "Paris Saint-Germain FC",
@@ -43720,7 +43720,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0086:法甲:576": {
     "team": "RC Strasbourg Alsace",
@@ -44015,7 +44015,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0087:法甲:546": {
     "team": "Racing Club de Lens",
@@ -44310,7 +44310,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0088:法甲:512": {
     "team": "Stade Brestois 29",
@@ -44551,7 +44551,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0089:法甲:529": {
     "team": "Stade Rennais FC 1901",
@@ -44810,7 +44810,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0090:法甲:543": {
     "team": "FC Nantes",
@@ -45539,7 +45539,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0091:法甲:511": {
     "team": "Toulouse FC",
@@ -45775,7 +45775,7 @@
     "city": "Toulouse",
     "lat": 43.60426,
     "lon": 1.44367,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0092:法甲:519": {
@@ -46089,7 +46089,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0093:法甲:532": {
     "team": "Angers SCO",
@@ -46330,7 +46330,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0094:法甲:525": {
     "team": "FC Lorient",
@@ -46606,7 +46606,7 @@
     "city": "Lorient",
     "lat": 47.74817,
     "lon": -3.37177,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0095:法甲:545": {
@@ -47335,7 +47335,7 @@
     "city": "Metz",
     "lat": 49.11911,
     "lon": 6.17269,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0096:法甲:stade-de-reims": {
@@ -48105,7 +48105,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0097:法甲:montpellier-hsc": {
     "team": "Montpellier HSC",
@@ -48382,7 +48382,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0098:法甲:clermont-foot-63": {
     "team": "Clermont Foot 63",
@@ -48677,7 +48677,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0099:J1聯賽:albirex-niigata": {
     "team": "Albirex Niigata",
@@ -49008,7 +49008,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0100:J1聯賽:avispa-fukuoka": {
     "team": "Avispa Fukuoka",
@@ -49887,7 +49887,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0101:J1聯賽:cerezo-osaka": {
     "team": "Cerezo Osaka",
@@ -50568,7 +50568,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0102:J1聯賽:consadole-sapporo": {
     "team": "Consadole Sapporo",
@@ -50931,7 +50931,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0103:J1聯賽:fc-tokyo": {
     "team": "FC Tokyo",
@@ -51660,7 +51660,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0104:J1聯賽:gamba-osaka": {
     "team": "Gamba Osaka",
@@ -52891,7 +52891,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0105:J1聯賽:jubilo-iwata": {
     "team": "Jubilo Iwata",
@@ -53272,7 +53272,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0106:J1聯賽:kashima-antlers": {
     "team": "Kashima Antlers",
@@ -54107,7 +54107,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0107:J1聯賽:kashiwa-reysol": {
     "team": "Kashiwa Reysol",
@@ -55140,7 +55140,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0108:J1聯賽:kawasaki-frontale": {
     "team": "Kawasaki Frontale",
@@ -55997,7 +55997,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0109:J1聯賽:kyoto-sanga": {
     "team": "Kyoto Sanga",
@@ -56946,7 +56946,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0110:J1聯賽:machida-zelvia": {
     "team": "Machida Zelvia",
@@ -57609,7 +57609,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0111:J1聯賽:nagoya-grampus": {
     "team": "Nagoya Grampus",
@@ -58422,7 +58422,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0112:J1聯賽:sagan-tosu": {
     "team": "Sagan Tosu",
@@ -58771,7 +58771,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0113:J1聯賽:sanfrecce-hiroshima": {
     "team": "Sanfrecce Hiroshima",
@@ -59434,7 +59434,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0114:J1聯賽:shonan-bellmare": {
     "team": "Shonan Bellmare",
@@ -60125,7 +60125,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0115:J1聯賽:tokyo-verdy": {
     "team": "Tokyo Verdy",
@@ -60546,7 +60546,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0116:J1聯賽:urawa-reds": {
     "team": "Urawa Reds",
@@ -60877,7 +60877,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0117:J1聯賽:vissel-kobe": {
     "team": "Vissel Kobe",
@@ -61869,7 +61869,7 @@
     "city": "Kobe",
     "lat": 34.6913,
     "lon": 135.183,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center",
     "coordinates_source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Kobe&count=5&language=en&format=json"
   },
@@ -62662,7 +62662,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0119:葡超:porto": {
     "team": "Porto",
@@ -62957,7 +62957,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0120:葡超:benfica": {
     "team": "Benfica",
@@ -63233,7 +63233,7 @@
     "city": "Benfica",
     "lat": 38.75087,
     "lon": -9.20282,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0121:葡超:sporting-cp": {
@@ -63525,7 +63525,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0122:葡超:braga": {
     "team": "Braga",
@@ -63798,7 +63798,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0123:葡超:vitoria-guimaraes": {
     "team": "Vitoria Guimaraes",
@@ -64093,7 +64093,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0124:葡超:moreirense": {
     "team": "Moreirense",
@@ -64384,7 +64384,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0125:葡超:arouca": {
     "team": "Arouca",
@@ -64638,7 +64638,7 @@
     "city": "Arouca",
     "lat": 40.93057,
     "lon": -8.24488,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0126:葡超:famalicao": {
@@ -64893,7 +64893,7 @@
     "city": "Vila Nova de Famalicão",
     "lat": 41.40797,
     "lon": -8.51978,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0127:葡超:casa-pia": {
@@ -65189,7 +65189,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0128:葡超:farense": {
     "team": "Farense",
@@ -65466,7 +65466,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0129:葡超:None": {
     "team": "Sp Lisbon",
@@ -65761,7 +65761,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0130:葡超:None": {
     "team": "Guimaraes",
@@ -66055,7 +66055,7 @@
     "city": "Guimarães",
     "lat": 41.44443,
     "lon": -8.29619,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0131:葡超:None": {
@@ -66351,7 +66351,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0132:葡超:None": {
     "team": "Estoril",
@@ -66664,7 +66664,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0133:葡超:None": {
     "team": "Sp Braga",
@@ -66941,7 +66941,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0134:葡超:None": {
     "team": "Boavista",
@@ -68152,7 +68152,7 @@
     "city": "Boavista",
     "lat": 39.98674,
     "lon": -8.58685,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0135:葡超:None": {
@@ -68465,7 +68465,7 @@
     "city": "Vizela",
     "lat": 41.39096,
     "lon": -8.26389,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0136:葡超:None": {
@@ -68761,7 +68761,7 @@
     "lat": 39.3999,
     "lon": -8.2245,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0137:荷甲:ajax": {
     "team": "Ajax",
@@ -69038,7 +69038,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0138:荷甲:psv-eindhoven": {
     "team": "PSV Eindhoven",
@@ -69745,7 +69745,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0139:荷甲:feyenoord": {
     "team": "Feyenoord",
@@ -70040,7 +70040,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0140:荷甲:az-alkmaar": {
     "team": "AZ Alkmaar",
@@ -70769,7 +70769,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0141:荷甲:twente": {
     "team": "Twente",
@@ -71432,7 +71432,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0142:荷甲:utrecht": {
     "team": "Utrecht",
@@ -72183,7 +72183,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0143:荷甲:None": {
     "team": "Go Ahead Eagles",
@@ -72868,7 +72868,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0144:荷甲:None": {
     "team": "Waalwijk",
@@ -73145,7 +73145,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0145:荷甲:None": {
     "team": "For Sittard",
@@ -73404,7 +73404,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0146:荷甲:None": {
     "team": "Nijmegen",
@@ -73717,7 +73717,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0147:荷甲:None": {
     "team": "Heerenveen",
@@ -74336,7 +74336,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0148:荷甲:None": {
     "team": "Sparta Rotterdam",
@@ -74933,7 +74933,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0149:荷甲:None": {
     "team": "Heracles",
@@ -75228,7 +75228,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0150:荷甲:None": {
     "team": "Zwolle",
@@ -75483,7 +75483,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0151:荷甲:None": {
     "team": "Groningen",
@@ -76212,7 +76212,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0152:荷甲:None": {
     "team": "Vitesse",
@@ -77007,7 +77007,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0153:荷甲:None": {
     "team": "Cambuur",
@@ -77714,7 +77714,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0154:荷甲:None": {
     "team": "Willem II",
@@ -78505,7 +78505,7 @@
     "lat": 52.1326,
     "lon": 5.2913,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0155:土超:galatasaray": {
     "team": "Galatasaray",
@@ -78817,7 +78817,7 @@
     "city": "Sarıyer",
     "lat": 41.1025976,
     "lon": 28.9922753,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0156:土超:fenerbahce": {
@@ -79077,7 +79077,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0157:土超:besiktas": {
     "team": "Besiktas",
@@ -79390,7 +79390,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0158:土超:trabzonspor": {
     "team": "Trabzonspor",
@@ -79685,7 +79685,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0159:土超:basaksehir": {
     "team": "Basaksehir",
@@ -79980,7 +79980,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0160:土超:adana-demirspor": {
     "team": "Adana Demirspor",
@@ -80239,7 +80239,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0161:土超:None": {
     "team": "Hatayspor",
@@ -80462,7 +80462,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0162:土超:None": {
     "team": "Buyuksehyr",
@@ -80480,7 +80480,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0163:土超:None": {
     "team": "Ad. Demirspor",
@@ -80793,7 +80793,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0164:土超:None": {
     "team": "Antalyaspor",
@@ -81124,7 +81124,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0165:土超:None": {
     "team": "Sivasspor",
@@ -81437,7 +81437,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0166:土超:None": {
     "team": "Kayserispor",
@@ -81768,7 +81768,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0167:土超:None": {
     "team": "Kasimpasa",
@@ -82081,7 +82081,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0168:土超:None": {
     "team": "Alanyaspor",
@@ -82358,7 +82358,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0169:土超:None": {
     "team": "Gaziantep",
@@ -82653,7 +82653,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0170:土超:None": {
     "team": "Konyaspor",
@@ -82930,7 +82930,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0171:土超:None": {
     "team": "Karagumruk",
@@ -83189,7 +83189,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0172:土超:None": {
     "team": "Rizespor",
@@ -83484,7 +83484,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0173:土超:None": {
     "team": "Giresunspor",
@@ -83743,7 +83743,7 @@
     "lat": 38.9637,
     "lon": 35.2433,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0174:比甲:club-brugge": {
     "team": "Club Brugge",
@@ -84020,7 +84020,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0175:比甲:anderlecht": {
     "team": "Anderlecht",
@@ -84350,7 +84350,7 @@
     "city": "Anderlecht",
     "lat": 50.83619,
     "lon": 4.31454,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0176:比甲:genk": {
@@ -84645,7 +84645,7 @@
     "city": "Genk",
     "lat": 50.965,
     "lon": 5.50082,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0177:比甲:antwerp": {
@@ -84940,7 +84940,7 @@
     "city": "Antwerp",
     "lat": 51.22047,
     "lon": 4.40026,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0178:比甲:union-sg": {
@@ -85200,7 +85200,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0179:比甲:gent": {
     "team": "Gent",
@@ -85530,8 +85530,8 @@
     "city": "Ghent",
     "lat": 51.045991,
     "lon": 3.6876201,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0180:比甲:None": {
     "team": "Oud-Heverlee Leuven",
@@ -85862,7 +85862,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0181:比甲:None": {
     "team": "Mechelen",
@@ -86193,7 +86193,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0182:比甲:None": {
     "team": "St. Gilloise",
@@ -86452,7 +86452,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0183:比甲:None": {
     "team": "Standard",
@@ -86728,7 +86728,7 @@
     "city": "Bouillon",
     "lat": 49.7911967,
     "lon": 5.0590193,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0184:比甲:None": {
@@ -86988,7 +86988,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0185:比甲:None": {
     "team": "Charleroi",
@@ -87246,7 +87246,7 @@
     "city": "Charleroi",
     "lat": 50.41136,
     "lon": 4.44448,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0186:比甲:None": {
@@ -87524,7 +87524,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0187:比甲:None": {
     "team": "Kortrijk",
@@ -87800,7 +87800,7 @@
     "city": "Kortrijk",
     "lat": 50.82803,
     "lon": 3.26487,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0188:比甲:None": {
@@ -88095,7 +88095,7 @@
     "city": "Westerlo",
     "lat": 51.09049,
     "lon": 4.91544,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0189:比甲:None": {
@@ -88387,7 +88387,7 @@
     "lat": 50.5039,
     "lon": 4.4699,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0190:巴甲:flamengo": {
     "team": "Flamengo",
@@ -88664,7 +88664,7 @@
     "lat": -14.235,
     "lon": -51.9253,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0191:巴甲:palmeiras": {
     "team": "Palmeiras",
@@ -88922,7 +88922,7 @@
     "city": "Santa Cruz das Palmeiras",
     "lat": -21.82694,
     "lon": -47.24861,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0192:巴甲:atletico-mineiro": {
@@ -89236,7 +89236,7 @@
     "lat": -14.235,
     "lon": -51.9253,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0193:巴甲:corinthians": {
     "team": "Corinthians",
@@ -89368,7 +89368,7 @@
     "lat": -14.235,
     "lon": -51.9253,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0194:巴甲:fluminense": {
     "team": "Fluminense",
@@ -89536,8 +89536,8 @@
     "city": "Rio de Janeiro",
     "lat": -22.9363279,
     "lon": -43.1847488,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0195:巴甲:gremio": {
     "team": "Gremio",
@@ -89867,7 +89867,7 @@
     "city": "Grêmios",
     "lat": -4.46667,
     "lon": -39.63333,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0196:巴甲:botafogo": {
@@ -90180,7 +90180,7 @@
     "city": "Botafogo",
     "lat": -22.95092,
     "lon": -43.18232,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0197:巴甲:athletico-pr": {
@@ -90494,7 +90494,7 @@
     "lat": -14.235,
     "lon": -51.9253,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0198:巴甲:internacional": {
     "team": "Internacional",
@@ -90753,7 +90753,7 @@
     "lat": -14.235,
     "lon": -51.9253,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0199:巴甲:fortaleza": {
     "team": "Fortaleza",
@@ -91083,7 +91083,7 @@
     "city": "Fortaleza",
     "lat": -3.71722,
     "lon": -38.54306,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0200:巴甲:sao-paulo": {
@@ -91450,7 +91450,7 @@
     "city": "São Paulo",
     "lat": -23.5475,
     "lon": -46.63611,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0201:巴甲:cruzeiro": {
@@ -91781,7 +91781,7 @@
     "city": "Cruzeiro",
     "lat": -22.57316,
     "lon": -44.97108,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0202:巴甲:bragantino": {
@@ -92095,7 +92095,7 @@
     "lat": -14.235,
     "lon": -51.9253,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0203:巴甲:santos": {
     "team": "Santos",
@@ -92845,8 +92845,8 @@
     "city": "Canguçu",
     "lat": -31.4671681,
     "lon": -52.6767835,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0204:巴甲:bahia": {
     "team": "Bahia",
@@ -93136,7 +93136,7 @@
     "city": "Salvador",
     "lat": -12.97563,
     "lon": -38.49096,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0205:巴甲:vasco": {
@@ -93464,7 +93464,7 @@
     "lat": -14.235,
     "lon": -51.9253,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0206:巴甲:cuiaba": {
     "team": "Cuiaba",
@@ -93794,7 +93794,7 @@
     "city": "Cuiabá",
     "lat": -15.59611,
     "lon": -56.09667,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0207:奧甲:aut-01": {
@@ -94085,7 +94085,7 @@
     "city": "Salzburg",
     "lat": 47.79941,
     "lon": 13.04399,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0208:奧甲:aut-02": {
@@ -94345,7 +94345,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0209:奧甲:aut-03": {
     "team": "LASK",
@@ -94622,7 +94622,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0210:奧甲:aut-04": {
     "team": "SK Rapid",
@@ -94931,7 +94931,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0211:奧甲:aut-05": {
     "team": "Austria Vienna",
@@ -95204,7 +95204,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0212:奧甲:aut-06": {
     "team": "Wolfsberger AC",
@@ -95481,7 +95481,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0213:奧甲:aut-07": {
     "team": "Hartberg",
@@ -95775,7 +95775,7 @@
     "city": "Hartberg",
     "lat": 47.28333,
     "lon": 15.96667,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0214:奧甲:aut-08": {
@@ -96034,7 +96034,7 @@
     "city": "Altach",
     "lat": 47.35438,
     "lon": 9.65207,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0215:奧甲:aut-09": {
@@ -96290,7 +96290,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0216:奧甲:aut-10": {
     "team": "A. Klagenfurt",
@@ -96549,7 +96549,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0217:奧甲:aut-11": {
     "team": "BW Linz",
@@ -96736,7 +96736,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0218:奧甲:aut-12": {
     "team": "A. Lustenau",
@@ -96973,7 +96973,7 @@
     "lat": 47.5162,
     "lon": 14.5501,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0219:瑞士超:swz-01": {
     "team": "Basel",
@@ -97231,7 +97231,7 @@
     "city": "Basel",
     "lat": 47.55839,
     "lon": 7.57327,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0220:瑞士超:swz-02": {
@@ -97541,7 +97541,7 @@
     "lat": 46.8182,
     "lon": 8.2275,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0221:瑞士超:swz-03": {
     "team": "Lugano",
@@ -97854,7 +97854,7 @@
     "lat": 46.8182,
     "lon": 8.2275,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0222:瑞士超:swz-04": {
     "team": "Luzern",
@@ -98144,8 +98144,8 @@
     "city": "Kriens",
     "lat": 47.028949,
     "lon": 8.3026535,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0223:瑞士超:swz-05": {
     "team": "Servette",
@@ -98386,7 +98386,7 @@
     "lat": 46.8182,
     "lon": 8.2275,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0224:瑞士超:swz-06": {
     "team": "St. Gallen",
@@ -98680,7 +98680,7 @@
     "city": "St. Gallen",
     "lat": 47.42391,
     "lon": 9.37477,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0225:瑞士超:swz-07": {
@@ -98940,7 +98940,7 @@
     "lat": 46.8182,
     "lon": 8.2275,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0226:瑞士超:swz-08": {
     "team": "Zurich",
@@ -99252,7 +99252,7 @@
     "city": "Zurich",
     "lat": 47.36667,
     "lon": 8.55,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0227:瑞士超:swz-09": {
@@ -99511,7 +99511,7 @@
     "city": "Winterthur",
     "lat": 47.50564,
     "lon": 8.72413,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0228:瑞士超:swz-10": {
@@ -99784,7 +99784,7 @@
     "city": "Lausanne",
     "lat": 46.516,
     "lon": 6.63282,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0229:瑞士超:swz-11": {
@@ -100043,7 +100043,7 @@
     "city": "Sion",
     "lat": 46.22739,
     "lon": 7.35559,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0230:瑞士超:swz-12": {
@@ -100338,7 +100338,7 @@
     "city": "Thun",
     "lat": 46.75118,
     "lon": 7.62166,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0231:挪超:nor-01": {
@@ -101156,7 +101156,7 @@
     "lat": 60.472,
     "lon": 8.4689,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0232:挪超:nor-02": {
     "team": "Brann",
@@ -101433,7 +101433,7 @@
     "lat": 60.472,
     "lon": 8.4689,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0233:挪超:nor-03": {
     "team": "Haugesund",
@@ -101705,7 +101705,7 @@
     "city": "Haugesund",
     "lat": 59.41378,
     "lon": 5.268,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0234:挪超:nor-04": {
@@ -101946,7 +101946,7 @@
     "city": "Kristiansund",
     "lat": 63.11045,
     "lon": 7.72795,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0235:挪超:nor-05": {
@@ -102627,7 +102627,7 @@
     "city": "Lillestrøm",
     "lat": 59.95597,
     "lon": 11.04918,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0236:挪超:nor-06": {
@@ -103400,7 +103400,7 @@
     "city": "Molde",
     "lat": 62.73752,
     "lon": 7.15912,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0237:挪超:nor-07": {
@@ -103674,7 +103674,7 @@
     "lat": 60.472,
     "lon": 8.4689,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0238:挪超:nor-08": {
     "team": "Rosenborg",
@@ -104380,7 +104380,7 @@
     "city": "Rosenborg",
     "lat": 63.43029,
     "lon": 10.42045,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0239:挪超:nor-09": {
@@ -105132,7 +105132,7 @@
     "lat": 60.472,
     "lon": 8.4689,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0240:挪超:nor-10": {
     "team": "Sarpsborg 08",
@@ -105351,7 +105351,7 @@
     "lat": 60.472,
     "lon": 8.4689,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0241:挪超:nor-11": {
     "team": "Stromsgodset",
@@ -105573,7 +105573,7 @@
     "city": "Strømsgodset",
     "lat": 59.73916,
     "lon": 10.172,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0242:挪超:nor-12": {
@@ -106386,7 +106386,7 @@
     "city": "Tromsø",
     "lat": 69.6489,
     "lon": 18.95508,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0243:挪超:nor-13": {
@@ -107049,7 +107049,7 @@
     "city": "Vålerenga",
     "lat": 59.90811,
     "lon": 10.78634,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0244:挪超:nor-14": {
@@ -107345,7 +107345,7 @@
     "lat": 60.472,
     "lon": 8.4689,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0245:挪超:nor-15": {
     "team": "Aalesund",
@@ -108051,7 +108051,7 @@
     "city": "Ålesund",
     "lat": 62.47225,
     "lon": 6.15492,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0246:挪超:nor-16": {
@@ -108328,7 +108328,7 @@
     "lat": 60.472,
     "lon": 8.4689,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0247:瑞典超:swe-01": {
     "team": "AIK",
@@ -108641,7 +108641,7 @@
     "lat": 60.1282,
     "lon": 18.6435,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0248:瑞典超:swe-02": {
     "team": "Djurgarden",
@@ -108899,7 +108899,7 @@
     "city": "Djurgården",
     "lat": 59.1,
     "lon": 16.85,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0249:瑞典超:swe-03": {
@@ -109154,7 +109154,7 @@
     "city": "Älvsborg",
     "lat": 57.67306,
     "lon": 11.86667,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0250:瑞典超:swe-04": {
@@ -109427,7 +109427,7 @@
     "city": "Göteborgs Botaniska Trädgård",
     "lat": 57.68321,
     "lon": 11.95111,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0251:瑞典超:swe-05": {
@@ -109700,7 +109700,7 @@
     "city": "Häcken",
     "lat": 57.73333,
     "lon": 12.31667,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0252:瑞典超:swe-06": {
@@ -109923,7 +109923,7 @@
     "city": "Halmstad",
     "lat": 56.67446,
     "lon": 12.85676,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0253:瑞典超:swe-07": {
@@ -110160,7 +110160,7 @@
     "city": "Hammarby",
     "lat": 60.54385,
     "lon": 16.56934,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0254:瑞典超:swe-08": {
@@ -110415,7 +110415,7 @@
     "city": "Kalmar",
     "lat": 56.66157,
     "lon": 16.36163,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0255:瑞典超:swe-09": {
@@ -110747,7 +110747,7 @@
     "lat": 60.1282,
     "lon": 18.6435,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0256:瑞典超:swe-10": {
     "team": "Mjallby",
@@ -111019,7 +111019,7 @@
     "city": "Mjällby",
     "lat": 56.05,
     "lon": 14.68333,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0257:瑞典超:swe-11": {
@@ -111292,7 +111292,7 @@
     "city": "Norrköping",
     "lat": 58.59419,
     "lon": 16.1826,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0258:瑞典超:swe-12": {
@@ -111530,7 +111530,7 @@
     "lat": 60.1282,
     "lon": 18.6435,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0259:瑞典超:swe-13": {
     "team": "Varberg",
@@ -111784,7 +111784,7 @@
     "city": "Varberg",
     "lat": 57.10557,
     "lon": 12.25078,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0260:瑞典超:swe-14": {
@@ -112043,7 +112043,7 @@
     "city": "Värnamo",
     "lat": 57.18604,
     "lon": 14.04001,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0261:瑞典超:swe-15": {
@@ -112321,7 +112321,7 @@
     "lat": 60.1282,
     "lon": 18.6435,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0262:瑞典超:swe-16": {
     "team": "Brommapojkarna",
@@ -112612,7 +112612,7 @@
     "lat": 60.1282,
     "lon": 18.6435,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0263:丹超:dnk-01": {
     "team": "Aalborg",
@@ -112888,7 +112888,7 @@
     "city": "Aalborg",
     "lat": 57.048,
     "lon": 9.9187,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0264:丹超:dnk-02": {
@@ -113165,7 +113165,7 @@
     "city": "Aarhus",
     "lat": 56.15674,
     "lon": 10.21076,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0265:丹超:dnk-03": {
@@ -113183,7 +113183,7 @@
     "city": "Brøndby",
     "lat": 55.6455,
     "lon": 12.41008,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0266:丹超:dnk-04": {
@@ -113420,8 +113420,8 @@
     "city": "Copenhagen",
     "lat": 55.7028,
     "lon": 12.572,
-    "stadium_source": "user_verified",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0267:丹超:dnk-05": {
     "team": "Horsens",
@@ -113438,7 +113438,7 @@
     "city": "Horsens",
     "lat": 55.86066,
     "lon": 9.85034,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0268:丹超:dnk-06": {
@@ -113456,7 +113456,7 @@
     "city": "Nørre Lyngby",
     "lat": 57.4114,
     "lon": 9.74736,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0269:丹超:dnk-07": {
@@ -114159,7 +114159,7 @@
     "city": "Midtjyllands Airport",
     "lat": 56.29746,
     "lon": 9.12463,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0270:丹超:dnk-08": {
@@ -114451,7 +114451,7 @@
     "lat": 56.2639,
     "lon": 9.5018,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0271:丹超:dnk-09": {
     "team": "Odense",
@@ -114710,7 +114710,7 @@
     "lat": 56.2639,
     "lon": 9.5018,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0272:丹超:dnk-10": {
     "team": "Randers FC",
@@ -115434,7 +115434,7 @@
     "city": "Randers",
     "lat": 56.4607,
     "lon": 10.03639,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0273:丹超:dnk-11": {
@@ -115452,7 +115452,7 @@
     "city": "Silkeborg",
     "lat": 56.1697,
     "lon": 9.54508,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0274:丹超:dnk-12": {
@@ -115470,7 +115470,7 @@
     "city": "Viborg",
     "lat": 56.45319,
     "lon": 9.40201,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0275:希超:None": {
@@ -115766,7 +115766,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0276:希超:None": {
     "team": "PAOK",
@@ -116061,7 +116061,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0277:希超:None": {
     "team": "AEK",
@@ -116079,7 +116079,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0278:希超:None": {
     "team": "Olympiakos",
@@ -116316,7 +116316,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0279:希超:None": {
     "team": "Aris",
@@ -116333,7 +116333,7 @@
     "city": "Áris",
     "lat": 37.0992,
     "lon": 22.00443,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0280:希超:None": {
@@ -116607,7 +116607,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0281:希超:None": {
     "team": "Lamia",
@@ -116624,7 +116624,7 @@
     "city": "Lamia",
     "lat": 38.89947,
     "lon": 22.4335,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0282:希超:None": {
@@ -116938,7 +116938,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0283:希超:None": {
     "team": "Atromitos",
@@ -117229,7 +117229,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0284:希超:None": {
     "team": "OFI Crete",
@@ -117520,7 +117520,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0285:希超:None": {
     "team": "Asteras Tripolis",
@@ -117815,7 +117815,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0286:希超:None": {
     "team": "Giannina",
@@ -118052,7 +118052,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0287:希超:None": {
     "team": "Levadeiakos",
@@ -118379,7 +118379,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0288:希超:None": {
     "team": "Panserraikos",
@@ -118742,7 +118742,7 @@
     "lat": 39.0742,
     "lon": 21.8243,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0289:英冠:None": {
     "team": "Blackburn",
@@ -118759,7 +118759,7 @@
     "city": "Melbourne",
     "lat": -37.8214407,
     "lon": 145.1561904,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0290:英冠:None": {
@@ -119510,8 +119510,8 @@
     "city": "Bristol",
     "lat": 51.4816232,
     "lon": -2.6505577,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0291:英冠:None": {
     "team": "Cardiff",
@@ -119765,8 +119765,8 @@
     "city": "Cardiff",
     "lat": 51.4728251,
     "lon": -3.20302,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0292:英冠:None": {
     "team": "Preston",
@@ -120020,8 +120020,8 @@
     "city": "Borough of Swale",
     "lat": 51.3066239,
     "lon": 0.8956044,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0293:英冠:None": {
     "team": "QPR",
@@ -120280,7 +120280,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0294:英冠:None": {
     "team": "Stoke",
@@ -120552,8 +120552,8 @@
     "city": "Stoke-on-Trent",
     "lat": 52.9883813,
     "lon": -2.1754502,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0295:英冠:None": {
     "team": "Coventry",
@@ -120570,8 +120570,8 @@
     "city": "Coventry",
     "lat": 52.4528765,
     "lon": -1.5013508,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0296:英冠:None": {
     "team": "Hull",
@@ -120897,7 +120897,7 @@
     "city": "Cottingham",
     "lat": 53.7872833,
     "lon": -0.4102743,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0297:英冠:None": {
@@ -121578,7 +121578,7 @@
     "city": "Hurworth-on-Tees",
     "lat": 54.4792521,
     "lon": -1.5479602,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0298:英冠:None": {
@@ -122413,7 +122413,7 @@
     "city": "Greater London",
     "lat": 51.4855805,
     "lon": -0.0513983,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0299:英冠:None": {
@@ -122633,7 +122633,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0300:英冠:None": {
     "team": "Swansea",
@@ -122887,8 +122887,8 @@
     "city": "Swansea",
     "lat": 51.644572,
     "lon": -3.9019737,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0301:英冠:None": {
     "team": "Luton",
@@ -123178,7 +123178,7 @@
     "city": "Luton",
     "lat": 51.8904663,
     "lon": -0.4474285,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0302:英冠:None": {
@@ -123794,7 +123794,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0303:英冠:None": {
     "team": "Birmingham",
@@ -123811,8 +123811,8 @@
     "city": "Birmingham",
     "lat": 52.4273025,
     "lon": -1.8746729,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0304:英冠:None": {
     "team": "Huddersfield",
@@ -123829,7 +123829,7 @@
     "city": "Kirklees",
     "lat": 53.5707048,
     "lon": -1.6977406,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0305:英冠:None": {
@@ -124577,7 +124577,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0306:英冠:None": {
     "team": "Watford",
@@ -125323,8 +125323,8 @@
     "city": "Watford",
     "lat": 51.6499075,
     "lon": -0.4015265,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0307:英冠:None": {
     "team": "Norwich",
@@ -125632,7 +125632,7 @@
     "city": "Norwich",
     "lat": 52.7912276,
     "lon": 1.2302682,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0308:英冠:None": {
@@ -125650,7 +125650,7 @@
     "city": "Derby",
     "lat": 52.9157383,
     "lon": -1.4480804,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0309:英冠:None": {
@@ -125941,8 +125941,8 @@
     "city": null,
     "lat": 53.7785392,
     "lon": -3.0203527,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0310:英冠:None": {
     "team": "Reading",
@@ -126214,8 +126214,8 @@
     "city": "Reading",
     "lat": 51.4223537,
     "lon": -0.9826548,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0311:英冠:None": {
     "team": "Rotherham",
@@ -126541,7 +126541,7 @@
     "city": "Dinnington",
     "lat": 53.3705776,
     "lon": -1.1903428,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0312:英冠:None": {
@@ -127354,8 +127354,8 @@
     "city": "Padiham",
     "lat": 53.8024287,
     "lon": -2.3213374,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0313:英冠:None": {
     "team": "Sheffield Weds",
@@ -127664,7 +127664,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0314:英冠:None": {
     "team": "Plymouth",
@@ -127900,8 +127900,8 @@
     "city": "Plymouth",
     "lat": 50.3725211,
     "lon": -4.1639283,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0315:英冠:None": {
     "team": "Leeds",
@@ -128137,8 +128137,8 @@
     "city": "Leeds",
     "lat": 53.7432312,
     "lon": -1.6123227,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0316:英冠:None": {
     "team": "Bournemouth",
@@ -128797,7 +128797,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0317:英甲:None": {
     "team": "Bolton",
@@ -128814,7 +128814,7 @@
     "city": "Bolton",
     "lat": 53.6010572,
     "lon": -2.556926,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0318:英甲:None": {
@@ -128832,8 +128832,8 @@
     "city": "Cambridge",
     "lat": 52.18718,
     "lon": 0.1180353,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0319:英甲:None": {
     "team": "Shrewsbury",
@@ -129106,7 +129106,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0320:英甲:None": {
     "team": "Wycombe",
@@ -129123,8 +129123,8 @@
     "city": "Flackwell Heath",
     "lat": 51.6042345,
     "lon": -0.7121283,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0321:英甲:None": {
     "team": "Charlton",
@@ -129141,7 +129141,7 @@
     "city": "Keynsham",
     "lat": 51.4194314,
     "lon": -2.5073791,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0322:英甲:None": {
@@ -129159,8 +129159,8 @@
     "city": "Watson",
     "lat": 30.5926426,
     "lon": -90.9528598,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0323:英甲:None": {
     "team": "Lincoln",
@@ -129177,7 +129177,7 @@
     "city": "Lincoln",
     "lat": -43.6357771,
     "lon": 172.482384,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0324:英甲:None": {
@@ -129397,7 +129397,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0325:英甲:None": {
     "team": "Cheltenham",
@@ -129414,8 +129414,8 @@
     "city": "Devonport-Takapuna",
     "lat": -36.8243279,
     "lon": 174.8054347,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0326:英甲:None": {
     "team": "Oxford",
@@ -129669,7 +129669,7 @@
     "city": "Oxford",
     "lat": 51.7741571,
     "lon": -1.2286516,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0327:英甲:None": {
@@ -130438,7 +130438,7 @@
     "city": "Portsmouth",
     "lat": 50.7914856,
     "lon": -1.100974,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0328:英甲:None": {
@@ -130456,8 +130456,8 @@
     "city": "Wigan",
     "lat": 53.5694211,
     "lon": -2.6267367,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0329:英甲:None": {
     "team": "Bristol Rvs",
@@ -130475,7 +130475,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0330:英甲:None": {
     "team": "Barnsley",
@@ -130492,8 +130492,8 @@
     "city": "Cudworth",
     "lat": 53.5522037,
     "lon": -1.4676968,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0331:英甲:None": {
     "team": "Exeter",
@@ -130511,7 +130511,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0332:英甲:None": {
     "team": "Peterboro",
@@ -130529,7 +130529,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0333:英甲:None": {
     "team": "Ipswich",
@@ -130546,8 +130546,8 @@
     "city": "Ipswich",
     "lat": 52.0549521,
     "lon": 1.1452877,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0334:英甲:None": {
     "team": "Rotherham",
@@ -130564,7 +130564,7 @@
     "city": "Dinnington",
     "lat": 53.3705776,
     "lon": -1.1903428,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0335:英甲:None": {
@@ -130583,7 +130583,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0336:英甲:None": {
     "team": "Milton Keynes Dons",
@@ -130892,7 +130892,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0337:英甲:None": {
     "team": "Morecambe",
@@ -130910,7 +130910,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0338:英甲:None": {
     "team": "Plymouth",
@@ -130927,8 +130927,8 @@
     "city": "Plymouth",
     "lat": 50.3725211,
     "lon": -4.1639283,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0339:英甲:None": {
     "team": "Sheffield Weds",
@@ -130946,7 +130946,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0340:英甲:None": {
     "team": "Derby",
@@ -130963,7 +130963,7 @@
     "city": "Derby",
     "lat": 52.9157383,
     "lon": -1.4480804,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0341:英甲:None": {
@@ -131255,7 +131255,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0342:英甲:None": {
     "team": "Blackpool",
@@ -131273,7 +131273,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0343:英甲:A1000-carlisle": {
     "team": "Carlisle",
@@ -131291,7 +131291,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0344:英甲:A1000-colchester": {
     "team": "Colchester",
@@ -131309,7 +131309,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0345:英甲:A1000-bradford": {
     "team": "Bradford",
@@ -131495,7 +131495,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0346:英甲:A1000-forestgreen": {
     "team": "Forest Green",
@@ -131512,8 +131512,8 @@
     "city": "Stroud",
     "lat": 51.6990021,
     "lon": -2.2378877,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0347:英甲:A1000-sutton": {
     "team": "Sutton",
@@ -131530,8 +131530,8 @@
     "city": "Ellesmere Port",
     "lat": 53.2963885,
     "lon": -2.9403342,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0348:英甲:A1000-harrogate": {
     "team": "Harrogate",
@@ -131548,8 +131548,8 @@
     "city": "Follifoot",
     "lat": 53.9662795,
     "lon": -1.4991883,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0349:英甲:A1000-rochdale": {
     "team": "Rochdale",
@@ -131567,7 +131567,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0350:英甲:A1000-hartlepool": {
     "team": "Hartlepool",
@@ -131584,8 +131584,8 @@
     "city": "Hartlepool",
     "lat": 54.6890737,
     "lon": -1.2127007,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0351:英甲:A1000-crawleytown": {
     "team": "Crawley Town",
@@ -131876,7 +131876,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0352:英甲:A1000-mansfield": {
     "team": "Mansfield",
@@ -131893,8 +131893,8 @@
     "city": "Mansfield",
     "lat": 53.2240943,
     "lon": -1.1314282,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0353:英甲:A1000-northampton": {
     "team": "Northampton",
@@ -131911,8 +131911,8 @@
     "city": "Northampton",
     "lat": 52.2852085,
     "lon": -0.8573091,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0354:英甲:A1000-newportcounty": {
     "team": "Newport County",
@@ -131929,7 +131929,7 @@
     "city": "Newport",
     "lat": 51.6043151,
     "lon": -3.0887312,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0355:英甲:A1000-salford": {
@@ -131947,7 +131947,7 @@
     "city": "Salford",
     "lat": 53.5066118,
     "lon": -2.3286985,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0356:英甲:A1000-leytonorient": {
@@ -132274,7 +132274,7 @@
     "city": "Greater London",
     "lat": 51.5601797,
     "lon": -0.0137403,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0357:英甲:A1000-swindon": {
@@ -132292,8 +132292,8 @@
     "city": "Sevenhampton",
     "lat": 51.6058887,
     "lon": -1.7312148,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0358:英甲:A1000-stevenage": {
     "team": "Stevenage",
@@ -132310,8 +132310,8 @@
     "city": "Stevenage",
     "lat": 51.8896479,
     "lon": -0.1937405,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0359:英甲:A1000-barrow": {
     "team": "Barrow",
@@ -132328,7 +132328,7 @@
     "city": "Barrow",
     "lat": 54.1107269,
     "lon": -3.1876666,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0360:英甲:A1000-tranmere": {
@@ -132347,7 +132347,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0361:英甲:A1000-walsall": {
     "team": "Walsall",
@@ -132364,8 +132364,8 @@
     "city": "Walsall",
     "lat": 52.6010916,
     "lon": -1.9525148,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0362:英甲:A1000-afcwimbledon": {
     "team": "AFC Wimbledon",
@@ -132656,7 +132656,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0363:英甲:A1000-gillingham": {
     "team": "Gillingham",
@@ -132673,8 +132673,8 @@
     "city": "Gillingham",
     "lat": 51.3842162,
     "lon": 0.5607494,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0364:英甲:A1000-doncaster": {
     "team": "Doncaster",
@@ -132691,7 +132691,7 @@
     "city": "Melbourne",
     "lat": -37.7842091,
     "lon": 145.1332355,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0365:英甲:A1000-grimsby": {
@@ -132709,8 +132709,8 @@
     "city": "Cleethorpes",
     "lat": 53.5702297,
     "lon": -0.0465117,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0366:英甲:A1000-crewe": {
     "team": "Crewe",
@@ -132727,8 +132727,8 @@
     "city": "Lisburn and Castlereagh District",
     "lat": 54.5777215,
     "lon": -6.1800404,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0367:英甲:A1000-stockport": {
     "team": "Stockport",
@@ -132745,7 +132745,7 @@
     "city": "Stockport",
     "lat": 53.3716536,
     "lon": -2.1501989,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0368:英甲:A1000-nottscounty": {
@@ -133041,7 +133041,7 @@
     "lat": 52.3555,
     "lon": -1.1743,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0369:德乙:None": {
     "team": "Nurnberg",
@@ -133058,7 +133058,7 @@
     "city": "Nuremberg",
     "lat": 49.45421,
     "lon": 11.07752,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0370:德乙:None": {
@@ -133076,7 +133076,7 @@
     "city": "Karlsruhe",
     "lat": 49.00937,
     "lon": 8.40444,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0371:德乙:None": {
@@ -133094,7 +133094,7 @@
     "city": "Paderborn",
     "lat": 51.71905,
     "lon": 8.75439,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0372:德乙:None": {
@@ -133112,7 +133112,7 @@
     "city": "Hanover",
     "lat": 52.37052,
     "lon": 9.73322,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0373:德乙:None": {
@@ -133404,7 +133404,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0374:德乙:None": {
     "team": "Hamburg",
@@ -133421,7 +133421,7 @@
     "city": "Hamburg",
     "lat": 53.55073,
     "lon": 9.99302,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0375:德乙:None": {
@@ -134059,7 +134059,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0376:德乙:None": {
     "team": "Darmstadt",
@@ -134076,7 +134076,7 @@
     "city": "Darmstadt",
     "lat": 49.87167,
     "lon": 8.65027,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0377:德乙:None": {
@@ -134386,7 +134386,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0378:德乙:None": {
     "team": "St Pauli",
@@ -135089,7 +135089,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0379:德乙:None": {
     "team": "Regensburg",
@@ -135106,7 +135106,7 @@
     "city": "Regensburg",
     "lat": 49.01513,
     "lon": 12.10161,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0380:德乙:None": {
@@ -135766,7 +135766,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0381:德乙:None": {
     "team": "Kaiserslautern",
@@ -136490,7 +136490,7 @@
     "city": "Kaiserslautern",
     "lat": 49.443,
     "lon": 7.77161,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0382:德乙:None": {
@@ -136764,7 +136764,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0383:德乙:None": {
     "team": "Magdeburg",
@@ -136781,7 +136781,7 @@
     "city": "Magdeburg",
     "lat": 52.13129,
     "lon": 11.63189,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0384:德乙:None": {
@@ -137054,7 +137054,7 @@
     "city": "Braunschweig",
     "lat": 52.26594,
     "lon": 10.52673,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0385:德乙:None": {
@@ -137072,7 +137072,7 @@
     "city": "Heidenheim",
     "lat": 48.67798,
     "lon": 10.15162,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0386:德乙:None": {
@@ -137090,7 +137090,7 @@
     "city": "Sandhausen",
     "lat": 49.34278,
     "lon": 8.65917,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0387:德乙:None": {
@@ -137108,7 +137108,7 @@
     "city": "Hertha",
     "lat": 54.55,
     "lon": 13.58333,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0388:德乙:None": {
@@ -137126,7 +137126,7 @@
     "city": "Elversberg",
     "lat": 49.31437,
     "lon": 7.12844,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0389:德乙:None": {
@@ -137144,7 +137144,7 @@
     "city": "Dresden",
     "lat": 51.05089,
     "lon": 13.73832,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0390:德乙:None": {
@@ -137848,7 +137848,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0391:德乙:None": {
     "team": "Ingolstadt",
@@ -137865,7 +137865,7 @@
     "city": "Ingolstadt",
     "lat": 48.76508,
     "lon": 11.42372,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0392:德乙:None": {
@@ -138103,7 +138103,7 @@
     "lat": 51.1657,
     "lon": 10.4515,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0393:德乙:None": {
     "team": "Bielefeld",
@@ -138120,7 +138120,7 @@
     "city": "Bielefeld",
     "lat": 52.03333,
     "lon": 8.53333,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0394:德乙:None": {
@@ -138138,7 +138138,7 @@
     "city": "Osnabrück",
     "lat": 52.27264,
     "lon": 8.0498,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0395:阿甲:boca-juniors": {
@@ -139194,7 +139194,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0396:阿甲:river-plate": {
     "team": "River Plate",
@@ -140073,7 +140073,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0397:阿甲:estudiantes-l-p": {
     "team": "Estudiantes L.P.",
@@ -140091,7 +140091,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0398:阿甲:velez-sarsfield": {
     "team": "Velez Sarsfield",
@@ -140771,7 +140771,7 @@
     "city": "Vélez Sarsfield",
     "lat": -34.63144,
     "lon": -58.49261,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0399:阿甲:rosario-central": {
@@ -141607,7 +141607,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0400:阿甲:platense": {
     "team": "Platense",
@@ -142728,7 +142728,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0401:阿甲:godoy-cruz": {
     "team": "Godoy Cruz",
@@ -142745,7 +142745,7 @@
     "city": "Godoy Cruz",
     "lat": -32.92533,
     "lon": -68.84428,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0402:阿甲:independiente": {
@@ -143537,7 +143537,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0403:阿甲:defensa-y-justicia": {
     "team": "Defensa y Justicia",
@@ -144328,7 +144328,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0404:阿甲:talleres-cordoba": {
     "team": "Talleres Cordoba",
@@ -145075,7 +145075,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0405:阿甲:huracan": {
     "team": "Huracan",
@@ -145733,7 +145733,7 @@
     "city": "Municipio de Los Quirquinchos",
     "lat": -33.3816595,
     "lon": -61.7136449,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0406:阿甲:gimnasia-l-p": {
@@ -145752,7 +145752,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0407:阿甲:banfield": {
     "team": "Banfield",
@@ -146542,7 +146542,7 @@
     "city": "Banfield",
     "lat": -34.74563,
     "lon": -58.39365,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0408:阿甲:union-de-santa-fe": {
@@ -146816,7 +146816,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0409:阿甲:sarmiento-junin": {
     "team": "Sarmiento Junin",
@@ -147563,7 +147563,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0410:阿甲:san-lorenzo": {
     "team": "San Lorenzo",
@@ -148446,7 +148446,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0411:阿甲:newells-old-boys": {
     "team": "Newells Old Boys",
@@ -149241,7 +149241,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0412:阿甲:lanus": {
     "team": "Lanus",
@@ -150255,8 +150255,8 @@
     "city": "Lanús Oeste",
     "lat": -34.7103423,
     "lon": -58.4056266,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0413:阿甲:central-cordoba": {
     "team": "Central Cordoba",
@@ -150274,7 +150274,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0414:阿甲:atl-tucuman": {
     "team": "Atl. Tucuman",
@@ -150292,7 +150292,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0415:阿甲:650b-racingclub": {
     "team": "Racing Club",
@@ -151087,7 +151087,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0416:阿甲:650b-colonsantafe": {
     "team": "Colon Santa FE",
@@ -151105,7 +151105,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0417:阿甲:650b-arsenalsarandi": {
     "team": "Arsenal Sarandi",
@@ -151123,7 +151123,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0418:阿甲:650b-argentinosjrs": {
     "team": "Argentinos Jrs",
@@ -151436,7 +151436,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0419:阿甲:650b-barracascentral": {
     "team": "Barracas Central",
@@ -152253,7 +152253,7 @@
     "lat": -38.4161,
     "lon": -63.6167,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0420:阿甲:650b-tigre": {
     "team": "Tigre",
@@ -153311,7 +153311,7 @@
     "city": "Tigre",
     "lat": -34.42603,
     "lon": -58.57962,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0421:美職MLS:mls-los-angeles-fc": {
@@ -153588,7 +153588,7 @@
     "city": "Los Angeles",
     "lat": 34.05223,
     "lon": -118.24368,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0422:美職MLS:mls-new-york-city": {
@@ -153606,7 +153606,7 @@
     "city": "New York",
     "lat": 40.71427,
     "lon": -74.00597,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0423:美職MLS:mls-orlando-city": {
@@ -153625,7 +153625,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0424:美職MLS:mls-new-york-red-bulls": {
     "team": "New York Red Bulls",
@@ -153920,7 +153920,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0425:美職MLS:mls-seattle-sounders": {
     "team": "Seattle Sounders",
@@ -154197,7 +154197,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0426:美職MLS:mls-real-salt-lake": {
     "team": "Real Salt Lake",
@@ -154564,7 +154564,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0427:美職MLS:mls-philadelphia-union": {
     "team": "Philadelphia Union",
@@ -154823,7 +154823,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0428:美職MLS:mls-fc-cincinnati": {
     "team": "FC Cincinnati",
@@ -155117,7 +155117,7 @@
     "city": "Cincinnati",
     "lat": 39.12711,
     "lon": -84.51439,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0429:美職MLS:mls-atlanta-utd": {
@@ -155136,7 +155136,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0430:美職MLS:mls-columbus-crew": {
     "team": "Columbus Crew",
@@ -155449,7 +155449,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0431:美職MLS:mls-vancouver-whitecaps": {
     "team": "Vancouver Whitecaps",
@@ -155744,7 +155744,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0432:美職MLS:mls-los-angeles-galaxy": {
     "team": "Los Angeles Galaxy",
@@ -156021,7 +156021,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0433:美職MLS:mls-houston-dynamo": {
     "team": "Houston Dynamo",
@@ -156280,7 +156280,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0434:美職MLS:mls-sporting-kansas-city": {
     "team": "Sporting Kansas City",
@@ -156539,7 +156539,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0435:美職MLS:mls-portland-timbers": {
     "team": "Portland Timbers",
@@ -156816,7 +156816,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0436:美職MLS:mls-nashville-sc": {
     "team": "Nashville SC",
@@ -157092,7 +157092,7 @@
     "city": "Nashville",
     "lat": 36.16589,
     "lon": -86.78444,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0437:美職MLS:mls-minnesota-united": {
@@ -157388,7 +157388,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0438:美職MLS:mls-fc-dallas": {
     "team": "FC Dallas",
@@ -157718,7 +157718,7 @@
     "city": "Dallas",
     "lat": 32.78306,
     "lon": -96.80667,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0439:美職MLS:mls-inter-miami": {
@@ -158032,7 +158032,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0440:美職MLS:mls-new-england-revolution": {
     "team": "New England Revolution",
@@ -158327,7 +158327,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0441:美職MLS:mls-colorado-rapids": {
     "team": "Colorado Rapids",
@@ -158604,7 +158604,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0442:美職MLS:mls-cf-montreal": {
     "team": "CF Montreal",
@@ -158898,7 +158898,7 @@
     "city": "Montreal",
     "lat": 46.428,
     "lon": -90.24601,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0443:美職MLS:mls-austin-fc": {
@@ -159139,7 +159139,7 @@
     "city": "Austin",
     "lat": 30.26715,
     "lon": -97.74306,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0444:美職MLS:mls-san-jose-earthquakes": {
@@ -159453,7 +159453,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0445:美職MLS:mls-toronto-fc": {
     "team": "Toronto FC",
@@ -159765,7 +159765,7 @@
     "city": "Toronto",
     "lat": 40.46423,
     "lon": -80.60091,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0446:美職MLS:mls-dc-united": {
@@ -160025,7 +160025,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0447:美職MLS:mls-chicago-fire": {
     "team": "Chicago Fire",
@@ -160043,7 +160043,7 @@
     "lat": 39.8283,
     "lon": -98.5795,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0448:美職MLS:650b-charlotte": {
     "team": "Charlotte",
@@ -160060,8 +160060,8 @@
     "city": "Old Tappan",
     "lat": 41.0077592,
     "lon": -73.978529,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0449:墨西超:club-america": {
     "team": "Club America",
@@ -160856,7 +160856,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0450:墨西超:tigres-uanl": {
     "team": "Tigres UANL",
@@ -161673,7 +161673,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0451:墨西超:monterrey": {
     "team": "Monterrey",
@@ -162401,7 +162401,7 @@
     "city": "Monterrey",
     "lat": 25.68435,
     "lon": -100.31721,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0452:墨西超:cruz-azul": {
@@ -163306,7 +163306,7 @@
     "city": "Cruz Azul",
     "lat": 22.18498,
     "lon": -102.19009,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0453:墨西超:toluca": {
@@ -164079,7 +164079,7 @@
     "city": "Toluca",
     "lat": 19.28786,
     "lon": -99.65324,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0454:墨西超:pachuca": {
@@ -164830,7 +164830,7 @@
     "city": "Pachuca",
     "lat": 20.11697,
     "lon": -98.73329,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0455:墨西超:guadalajara-chivas": {
@@ -165072,7 +165072,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0456:墨西超:unam-pumas": {
     "team": "UNAM Pumas",
@@ -165349,7 +165349,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0457:墨西超:atlas": {
     "team": "Atlas",
@@ -166100,7 +166100,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0458:墨西超:atl-san-luis": {
     "team": "Atl. San Luis",
@@ -166118,7 +166118,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0459:墨西超:club-leon": {
     "team": "Club Leon",
@@ -166847,7 +166847,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0460:墨西超:puebla": {
     "team": "Puebla",
@@ -167509,7 +167509,7 @@
     "city": "Puebla City",
     "lat": 19.04778,
     "lon": -98.20723,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0461:墨西超:necaxa": {
@@ -168172,7 +168172,7 @@
     "city": "Necaxa",
     "lat": 20.21271,
     "lon": -98.01188,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0462:墨西超:club-tijuana": {
@@ -168792,7 +168792,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0463:墨西超:mazatlan-fc": {
     "team": "Mazatlan FC",
@@ -169064,7 +169064,7 @@
     "city": "Mazatlán",
     "lat": 23.22163,
     "lon": -106.41885,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0464:墨西超:juarez": {
@@ -169859,7 +169859,7 @@
     "city": "Ciudad Juárez",
     "lat": 31.72024,
     "lon": -106.46084,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0465:墨西超:queretaro": {
@@ -170544,7 +170544,7 @@
     "city": "Querétaro",
     "lat": 15.83752,
     "lon": -92.75774,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0466:墨西超:planb-santoslaguna": {
@@ -170804,7 +170804,7 @@
     "lat": 23.6345,
     "lon": -102.5528,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0467:A-League:a-league-melbourne-city-fc": {
     "team": "Melbourne City FC",
@@ -171444,7 +171444,7 @@
     "city": "Melbourne CBD",
     "lat": -37.81501,
     "lon": 144.96657,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0468:A-League:a-league-wellington-phoenix": {
@@ -171998,7 +171998,7 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0469:A-League:a-league-adelaide-united": {
     "team": "Adelaide United",
@@ -172705,7 +172705,7 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0470:A-League:a-league-western-united": {
     "team": "Western United",
@@ -172927,8 +172927,8 @@
     "city": null,
     "lat": -31.7694112,
     "lon": 115.9902037,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0471:A-League:a-league-perth-glory": {
     "team": "Perth Glory",
@@ -173613,7 +173613,7 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0472:A-League:a-league-melbourne-victory": {
     "team": "Melbourne Victory",
@@ -174363,7 +174363,7 @@
     "city": "Melbourne",
     "lat": -37.7834297,
     "lon": 145.4290398,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0473:A-League:a-league-sydney-fc": {
@@ -174982,7 +174982,7 @@
     "city": "Sydney",
     "lat": -33.86785,
     "lon": 151.20732,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0474:A-League:a-league-western-sydney-wanderers": {
@@ -175624,7 +175624,7 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0475:A-League:a-league-newcastle-united-jets": {
     "team": "Newcastle United Jets",
@@ -175901,7 +175901,7 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0476:A-League:a-league-central-coast-mariners": {
     "team": "Central Coast Mariners",
@@ -176630,7 +176630,7 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0477:A-League:a-league-macarthur-fc": {
     "team": "Macarthur FC",
@@ -177270,7 +177270,7 @@
     "city": "Macarthur",
     "lat": -38.03387,
     "lon": 142.00183,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0478:A-League:a-league-brisbane-roar": {
@@ -177802,7 +177802,7 @@
     "lat": -25.2744,
     "lon": 133.7751,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0479:日職:planb-hokkaidoconsadolesapporo": {
     "team": "Hokkaido Consadole Sapporo",
@@ -178169,7 +178169,7 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0480:蘇超:planb-celtic": {
     "team": "Celtic",
@@ -178919,7 +178919,7 @@
     "city": "East Kilbride",
     "lat": 55.7603836,
     "lon": -4.177497,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0481:蘇超:planb-rangers": {
@@ -179583,7 +179583,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0482:蘇超:planb-hearts": {
     "team": "Hearts",
@@ -179601,7 +179601,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0483:蘇超:planb-hibernian": {
     "team": "Hibernian",
@@ -180241,8 +180241,8 @@
     "city": "Ormiston",
     "lat": 55.9209854,
     "lon": -2.9269098,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0484:蘇超:planb-aberdeen": {
     "team": "Aberdeen",
@@ -180904,7 +180904,7 @@
     "city": "Aberdeen City",
     "lat": 57.159653,
     "lon": -2.0870831,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0485:蘇超:planb-motherwell": {
@@ -181678,7 +181678,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0486:蘇超:planb-stmirren": {
     "team": "St Mirren",
@@ -182363,7 +182363,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0487:蘇超:planb-rosscounty": {
     "team": "Ross County",
@@ -182381,7 +182381,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0488:蘇超:planb-stjohnstone": {
     "team": "St Johnstone",
@@ -183000,7 +183000,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0489:意乙:A1000-frosinone": {
     "team": "Frosinone",
@@ -183662,7 +183662,7 @@
     "city": "Frosinone",
     "lat": 41.63976,
     "lon": 13.34109,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0490:意乙:A1000-parma": {
@@ -184391,8 +184391,8 @@
     "city": "Lalkuan",
     "lat": 29.1100812,
     "lon": 79.5225267,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0491:意乙:A1000-perugia": {
     "team": "Perugia",
@@ -184409,7 +184409,7 @@
     "city": "Perugia",
     "lat": 43.1122,
     "lon": 12.38878,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0492:意乙:A1000-cittadella": {
@@ -184427,7 +184427,7 @@
     "city": "Cittadella",
     "lat": 45.64523,
     "lon": 11.78453,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0493:意乙:A1000-reggina": {
@@ -184705,7 +184705,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0494:意乙:A1000-ternana": {
     "team": "Ternana",
@@ -184820,7 +184820,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0495:意乙:A1000-brescia": {
     "team": "Brescia",
@@ -184837,8 +184837,8 @@
     "city": "Torbole",
     "lat": 45.5067411,
     "lon": 10.1132132,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0496:意乙:A1000-ascoli": {
     "team": "Ascoli",
@@ -184855,7 +184855,7 @@
     "city": "Ascoli Piceno",
     "lat": 42.85351,
     "lon": 13.57395,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0497:意乙:A1000-cosenza": {
@@ -184873,7 +184873,7 @@
     "city": "Cosenza",
     "lat": 39.2989,
     "lon": 16.25307,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0498:意乙:A1000-benevento": {
@@ -184891,7 +184891,7 @@
     "city": "Benevento",
     "lat": 41.1307,
     "lon": 14.77816,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0499:意乙:A1000-cremonese": {
@@ -184910,7 +184910,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0500:意乙:A1000-como": {
     "team": "Como",
@@ -185550,7 +185550,7 @@
     "city": "Sydney",
     "lat": -34.0058109,
     "lon": 151.0824939,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0501:意乙:A1000-pisa": {
@@ -185568,7 +185568,7 @@
     "city": "Pisa",
     "lat": 43.70853,
     "lon": 10.4036,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0502:意乙:A1000-spal": {
@@ -185587,7 +185587,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0503:意乙:A1000-bari": {
     "team": "Bari",
@@ -185604,7 +185604,7 @@
     "city": "Biggleswade",
     "lat": 52.0768355,
     "lon": -0.2680112,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0504:意乙:A1000-palermo": {
@@ -185622,7 +185622,7 @@
     "city": "Palermo",
     "lat": 38.1166,
     "lon": 13.3636,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0505:意乙:A1000-sudtirol": {
@@ -185641,7 +185641,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0506:意乙:A1000-modena": {
     "team": "Modena",
@@ -185658,7 +185658,7 @@
     "city": "Modena",
     "lat": 44.64783,
     "lon": 10.92539,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0507:意乙:A1000-venezia": {
@@ -186475,7 +186475,7 @@
     "city": "Venezia",
     "lat": 44.42329,
     "lon": 11.17365,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0508:意乙:A1000-catanzaro": {
@@ -186493,7 +186493,7 @@
     "city": "Catanzaro",
     "lat": 38.88247,
     "lon": 16.60086,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0509:意乙:A1000-sampdoria": {
@@ -186771,7 +186771,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0510:意乙:A1000-spezia": {
     "team": "Spezia",
@@ -186788,7 +186788,7 @@
     "city": "La Spezia",
     "lat": 44.103,
     "lon": 9.82375,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0511:意乙:A1000-reggiana": {
@@ -186807,7 +186807,7 @@
     "lat": 41.8719,
     "lon": 12.5674,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0512:西乙:A1000-huesca": {
     "team": "Huesca",
@@ -186824,7 +186824,7 @@
     "city": "Huesca",
     "lat": 42.13615,
     "lon": -0.4087,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0513:西乙:A1000-eibar": {
@@ -187487,7 +187487,7 @@
     "city": "Eibar",
     "lat": 43.18493,
     "lon": -2.47158,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0514:西乙:A1000-zaragoza": {
@@ -187505,7 +187505,7 @@
     "city": "Zaragoza",
     "lat": 41.65606,
     "lon": -0.87734,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0515:西乙:A1000-ibiza": {
@@ -187523,7 +187523,7 @@
     "city": "Ibiza Town",
     "lat": 38.90883,
     "lon": 1.43296,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0516:西乙:A1000-leganes": {
@@ -188270,7 +188270,7 @@
     "city": "Leganés",
     "lat": 40.32718,
     "lon": -3.7635,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0517:西乙:A1000-amorebieta": {
@@ -188288,7 +188288,7 @@
     "city": "Amorebieta",
     "lat": 43.21667,
     "lon": -2.73333,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0518:西乙:A1000-ponferradina": {
@@ -188548,7 +188548,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0519:西乙:A1000-alcorcon": {
     "team": "Alcorcon",
@@ -188565,7 +188565,7 @@
     "city": "Alcorcón",
     "lat": 40.34582,
     "lon": -3.82487,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0520:西乙:A1000-spgijon": {
@@ -188584,7 +188584,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0521:西乙:A1000-burgos": {
     "team": "Burgos",
@@ -188601,7 +188601,7 @@
     "city": "Burgos",
     "lat": 42.34106,
     "lon": -3.70184,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0522:西乙:A1000-oviedo": {
@@ -188619,7 +188619,7 @@
     "city": "Oviedo",
     "lat": 43.36029,
     "lon": -5.84476,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0523:西乙:A1000-lugo": {
@@ -188637,7 +188637,7 @@
     "city": "Lugo",
     "lat": 43.00992,
     "lon": -7.55602,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0524:西乙:A1000-tenerife": {
@@ -189278,7 +189278,7 @@
     "city": "Tenerife",
     "lat": 28.32977,
     "lon": -16.5097,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0525:西乙:A1000-laspalmas": {
@@ -190161,7 +190161,7 @@
     "city": "Las Palmas de Gran Canaria",
     "lat": 28.10178,
     "lon": -15.41573,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0526:西乙:A1000-valladolid": {
@@ -190179,7 +190179,7 @@
     "city": "Valladolid",
     "lat": 41.65541,
     "lon": -4.72353,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0527:西乙:A1000-malaga": {
@@ -190908,7 +190908,7 @@
     "city": "Málaga",
     "lat": 36.72016,
     "lon": -4.42034,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0528:西乙:A1000-mirandes": {
@@ -190927,7 +190927,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0529:西乙:A1000-cartagena": {
     "team": "Cartagena",
@@ -190944,7 +190944,7 @@
     "city": "Cartagena",
     "lat": 37.60197,
     "lon": -0.98397,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0530:西乙:A1000-almeria": {
@@ -191651,7 +191651,7 @@
     "city": "Almería",
     "lat": 36.83814,
     "lon": -2.45974,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0531:西乙:A1000-levante": {
@@ -192289,7 +192289,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0532:西乙:A1000-santander": {
     "team": "Santander",
@@ -192306,7 +192306,7 @@
     "city": "Santander",
     "lat": 43.46589,
     "lon": -3.80493,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0533:西乙:A1000-villarrealb": {
@@ -192566,7 +192566,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0534:西乙:A1000-granada": {
     "team": "Granada",
@@ -193404,7 +193404,7 @@
     "city": "Granada",
     "lat": 37.18817,
     "lon": -3.60667,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0535:西乙:A1000-andorra": {
@@ -193422,7 +193422,7 @@
     "city": "Andorra",
     "lat": 40.97655,
     "lon": -0.44721,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0536:西乙:A1000-albacete": {
@@ -194239,7 +194239,7 @@
     "city": "Albacete",
     "lat": 38.99424,
     "lon": -1.85643,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0537:西乙:A1000-elche": {
@@ -194902,7 +194902,7 @@
     "city": "Elche",
     "lat": 38.26218,
     "lon": -0.70107,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0538:西乙:A1000-ferrol": {
@@ -194920,7 +194920,7 @@
     "city": "Ferrol",
     "lat": 43.48451,
     "lon": -8.23293,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0539:西乙:A1000-eldense": {
@@ -195198,7 +195198,7 @@
     "lat": 40.4637,
     "lon": -3.7492,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0540:法乙:A1000-bastia": {
     "team": "Bastia",
@@ -195215,7 +195215,7 @@
     "city": "Borgo",
     "lat": 42.566222,
     "lon": 9.4516792,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0541:法乙:A1000-nimes": {
@@ -195233,7 +195233,7 @@
     "city": "Nîmes",
     "lat": 43.83665,
     "lon": 4.35788,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0542:法乙:A1000-amiens": {
@@ -195251,7 +195251,7 @@
     "city": "Amiens",
     "lat": 49.9,
     "lon": 2.3,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0543:法乙:A1000-auxerre": {
@@ -195269,7 +195269,7 @@
     "city": "Auxerre",
     "lat": 47.7996,
     "lon": 3.57033,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0544:法乙:A1000-caen": {
@@ -195287,7 +195287,7 @@
     "city": "Caen",
     "lat": 49.3153745,
     "lon": -0.3590284,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0545:法乙:A1000-rodez": {
@@ -195305,7 +195305,7 @@
     "city": "Druelle Balsac",
     "lat": 44.3705567,
     "lon": 2.5148887,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0546:法乙:A1000-dunkerque": {
@@ -195968,8 +195968,8 @@
     "city": "Dunkirk",
     "lat": 51.0517055,
     "lon": 2.414096,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0547:法乙:A1000-quevillyrouen": {
     "team": "Quevilly Rouen",
@@ -196210,7 +196210,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0548:法乙:A1000-grenoble": {
     "team": "Grenoble",
@@ -196916,7 +196916,7 @@
     "city": "Grenoble",
     "lat": 45.17869,
     "lon": 5.71479,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0549:法乙:A1000-parisfc": {
@@ -197175,7 +197175,7 @@
     "city": "Paris",
     "lat": 48.85341,
     "lon": 2.3488,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0550:法乙:A1000-lehavre": {
@@ -197193,7 +197193,7 @@
     "city": "Le Havre",
     "lat": 49.49346,
     "lon": 0.10785,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0551:法乙:A1000-guingamp": {
@@ -197878,7 +197878,7 @@
     "city": "Guingamp",
     "lat": 48.56259,
     "lon": -3.15289,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0552:法乙:A1000-paufc": {
@@ -198537,7 +198537,7 @@
     "city": "Pau",
     "lat": 43.31117,
     "lon": -0.35583,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0553:法乙:A1000-ajaccio": {
@@ -198555,7 +198555,7 @@
     "city": "Ajaccio",
     "lat": 41.91886,
     "lon": 8.73812,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0554:法乙:A1000-valenciennes": {
@@ -198573,8 +198573,8 @@
     "city": "Valenciennes",
     "lat": 50.283521,
     "lon": 3.3893211,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0555:法乙:A1000-niort": {
     "team": "Niort",
@@ -198591,7 +198591,7 @@
     "city": "Niort",
     "lat": 46.3171164,
     "lon": -0.4922851,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0556:法乙:A1000-dijon": {
@@ -198609,7 +198609,7 @@
     "city": "Dijon",
     "lat": 47.31344,
     "lon": 5.01391,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0557:法乙:A1000-sochaux": {
@@ -199272,7 +199272,7 @@
     "city": "Sochaux",
     "lat": 47.50808,
     "lon": 6.82748,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0558:法乙:A1000-stetienne": {
@@ -199291,7 +199291,7 @@
     "lat": 46.2276,
     "lon": 2.2137,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0559:法乙:A1000-annecy": {
     "team": "Annecy",
@@ -199909,7 +199909,7 @@
     "city": "Annecy",
     "lat": 45.8606841,
     "lon": 6.0840922,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0560:法乙:A1000-laval": {
@@ -199927,7 +199927,7 @@
     "city": "Laval",
     "lat": 48.07247,
     "lon": -0.77019,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0561:法乙:A1000-bordeaux": {
@@ -199945,7 +199945,7 @@
     "city": "Artigues-près-Bordeaux",
     "lat": 44.8636586,
     "lon": -0.4922687,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0562:法乙:A1000-metz": {
@@ -200674,7 +200674,7 @@
     "city": "Metz",
     "lat": 49.11911,
     "lon": 6.17269,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0563:法乙:A1000-troyes": {
@@ -200692,7 +200692,7 @@
     "city": "Troyes",
     "lat": 48.30073,
     "lon": 4.08524,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0564:蘇冠:A1000-airdrieutd": {
@@ -200970,7 +200970,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0565:蘇冠:A1000-montrose": {
     "team": "Montrose",
@@ -200988,7 +200988,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0566:蘇冠:A1000-clyde": {
     "team": "Clyde",
@@ -201005,7 +201005,7 @@
     "city": "Melbourne",
     "lat": -38.1132832,
     "lon": 145.340937,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0567:蘇冠:A1000-dumbarton": {
@@ -201023,8 +201023,8 @@
     "city": "Dumbarton",
     "lat": 55.9384141,
     "lon": -4.5616641,
-    "stadium_source": "OpenStreetMap Nominatim",
-    "coordinates_source": "stadium_exact"
+    "stadium_source": "stadium_exact",
+    "coordinates_source": "city_center"
   },
   "0568:蘇冠:A1000-coverangers": {
     "team": "Cove Rangers",
@@ -201243,7 +201243,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0569:蘇冠:A1000-falkirk": {
     "team": "Falkirk",
@@ -201971,7 +201971,7 @@
     "city": "Falkirk",
     "lat": 56.0049743,
     "lon": -3.7788331,
-    "stadium_source": "city_center_geocode",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center"
   },
   "0570:蘇冠:A1000-peterhead": {
@@ -201990,7 +201990,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0571:蘇冠:A1000-alloa": {
     "team": "Alloa",
@@ -202008,7 +202008,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0572:蘇冠:A1000-keltyhearts": {
     "team": "Kelty Hearts",
@@ -202245,7 +202245,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0573:蘇冠:A1000-queenofsth": {
     "team": "Queen of Sth",
@@ -202263,7 +202263,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0574:蘇冠:A1000-annanathletic": {
     "team": "Annan Athletic",
@@ -202486,7 +202486,7 @@
     "lat": 56.4907,
     "lon": -4.2026,
     "stadium_source": "country_center",
-    "coordinates_source": "country_center"
+    "coordinates_source": "city_center"
   },
   "0575:亞冠精英盃:daejeon-hana-citizen": {
     "team": "Daejeon Hana Citizen",
@@ -202502,7 +202502,7 @@
     "city": "Daejeon",
     "lat": 36.34913,
     "lon": 127.38493,
-    "stadium_source": "Open-Meteo Geocoding",
+    "stadium_source": "city_center",
     "coordinates_source": "city_center",
     "coordinates_source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Daejeon&count=5&language=en&format=json",
     "data_note": "AFC supplemental team record; no player roster fabricated."

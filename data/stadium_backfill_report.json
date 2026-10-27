@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27T03:48:45.332173+00:00",
+  "generated_at": "2026-10-27T04:31:12.718990+00:00",
   "version": "v2",
   "teams_seen": 575,
   "processed": 575,
   "coordinates_ok": 575,
   "unresolved": 0,
-  "stadium_exact": 47,
-  "city_center": 211,
-  "country_center": 317,
-  "fallback_city_center": 211,
+  "stadium_exact": 0,
+  "city_center": 575,
+  "country_center": 0,
+  "fallback_city_center": 575,
   "entries": [
     {
       "team": "AFC Bournemouth",
@@ -18,7 +18,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Arsenal FC",
@@ -28,7 +28,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Aston Villa FC",
@@ -38,7 +38,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Brentford FC",
@@ -48,7 +48,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Brighton & Hove Albion FC",
@@ -58,7 +58,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Chelsea FC",
@@ -68,7 +68,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Crystal Palace FC",
@@ -78,7 +78,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Everton FC",
@@ -88,7 +88,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Fulham FC",
@@ -98,7 +98,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Liverpool FC",
@@ -108,7 +108,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Manchester City FC",
@@ -129,7 +129,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Newcastle United FC",
@@ -139,7 +139,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Nottingham Forest FC",
@@ -149,7 +149,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Tottenham Hotspur FC",
@@ -159,7 +159,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "West Ham United FC",
@@ -169,7 +169,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Wolverhampton Wanderers FC",
@@ -179,7 +179,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Burnley FC",
@@ -189,7 +189,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Leeds United FC",
@@ -199,7 +199,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sunderland AFC",
@@ -209,7 +209,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Athletic Club",
@@ -219,7 +219,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "CA Osasuna",
@@ -229,7 +229,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Club Atlético de Madrid",
@@ -239,7 +239,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Deportivo Alavés",
@@ -249,7 +249,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Barcelona",
@@ -292,7 +292,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "RCD Espanyol de Barcelona",
@@ -302,7 +302,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "RCD Mallorca",
@@ -312,7 +312,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Rayo Vallecano de Madrid",
@@ -322,7 +322,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Real Betis Balompié",
@@ -332,7 +332,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Real Madrid CF",
@@ -353,7 +353,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sevilla FC",
@@ -407,7 +407,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Real Oviedo",
@@ -417,7 +417,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "AC Milan",
@@ -438,7 +438,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "AS Roma",
@@ -448,7 +448,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Atalanta BC",
@@ -458,7 +458,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bologna FC 1909",
@@ -468,7 +468,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Cagliari Calcio",
@@ -478,7 +478,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Como 1907",
@@ -488,7 +488,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Internazionale Milano",
@@ -498,7 +498,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Genoa CFC",
@@ -508,7 +508,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hellas Verona FC",
@@ -518,7 +518,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Juventus FC",
@@ -528,7 +528,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Parma Calcio 1913",
@@ -538,7 +538,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "SS Lazio",
@@ -548,7 +548,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "SSC Napoli",
@@ -558,7 +558,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Torino FC",
@@ -590,7 +590,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "AC Pisa 1909",
@@ -600,7 +600,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "US Cremonese",
@@ -610,7 +610,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "US Sassuolo Calcio",
@@ -620,7 +620,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "1. FC Heidenheim 1846",
@@ -630,7 +630,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "1. FSV Mainz 05",
@@ -640,7 +640,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bayer 04 Leverkusen",
@@ -650,7 +650,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Borussia Dortmund",
@@ -660,7 +660,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Borussia Mönchengladbach",
@@ -670,7 +670,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Eintracht Frankfurt",
@@ -680,7 +680,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Augsburg",
@@ -701,7 +701,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "RB Leipzig",
@@ -711,7 +711,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "SC Freiburg",
@@ -732,7 +732,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "TSG 1899 Hoffenheim",
@@ -742,7 +742,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "VfB Stuttgart",
@@ -774,7 +774,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "1. FC Köln",
@@ -784,7 +784,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC St. Pauli 1910",
@@ -794,7 +794,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hamburger SV",
@@ -815,7 +815,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Le Havre AC",
@@ -825,7 +825,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Lille OSC",
@@ -835,7 +835,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "OGC Nice",
@@ -845,7 +845,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Olympique Lyonnais",
@@ -855,7 +855,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Olympique de Marseille",
@@ -865,7 +865,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Paris Saint-Germain FC",
@@ -875,7 +875,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "RC Strasbourg Alsace",
@@ -885,7 +885,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Racing Club de Lens",
@@ -895,7 +895,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Stade Brestois 29",
@@ -905,7 +905,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Stade Rennais FC 1901",
@@ -915,7 +915,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Nantes",
@@ -925,7 +925,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Toulouse FC",
@@ -946,7 +946,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Angers SCO",
@@ -956,7 +956,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Lorient",
@@ -988,7 +988,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Montpellier HSC",
@@ -998,7 +998,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Clermont Foot 63",
@@ -1008,7 +1008,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Albirex Niigata",
@@ -1018,7 +1018,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Avispa Fukuoka",
@@ -1028,7 +1028,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Cerezo Osaka",
@@ -1038,7 +1038,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Consadole Sapporo",
@@ -1048,7 +1048,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Tokyo",
@@ -1058,7 +1058,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Gamba Osaka",
@@ -1068,7 +1068,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Jubilo Iwata",
@@ -1078,7 +1078,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kashima Antlers",
@@ -1088,7 +1088,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kashiwa Reysol",
@@ -1098,7 +1098,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kawasaki Frontale",
@@ -1108,7 +1108,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kyoto Sanga",
@@ -1118,7 +1118,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Machida Zelvia",
@@ -1128,7 +1128,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Nagoya Grampus",
@@ -1138,7 +1138,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sagan Tosu",
@@ -1148,7 +1148,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sanfrecce Hiroshima",
@@ -1158,7 +1158,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Shonan Bellmare",
@@ -1168,7 +1168,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Tokyo Verdy",
@@ -1178,7 +1178,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Urawa Reds",
@@ -1188,7 +1188,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Vissel Kobe",
@@ -1209,7 +1209,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Porto",
@@ -1219,7 +1219,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Benfica",
@@ -1240,7 +1240,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Braga",
@@ -1250,7 +1250,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Vitoria Guimaraes",
@@ -1260,7 +1260,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Moreirense",
@@ -1270,7 +1270,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Arouca",
@@ -1302,7 +1302,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Farense",
@@ -1312,7 +1312,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sp Lisbon",
@@ -1322,7 +1322,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Guimaraes",
@@ -1343,7 +1343,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Estoril",
@@ -1353,7 +1353,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sp Braga",
@@ -1363,7 +1363,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Boavista",
@@ -1395,7 +1395,7 @@
       "city": "Portugal",
       "lat": 39.3999,
       "lon": -8.2245,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Ajax",
@@ -1405,7 +1405,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "PSV Eindhoven",
@@ -1415,7 +1415,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Feyenoord",
@@ -1425,7 +1425,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "AZ Alkmaar",
@@ -1435,7 +1435,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Twente",
@@ -1445,7 +1445,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Utrecht",
@@ -1455,7 +1455,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Go Ahead Eagles",
@@ -1465,7 +1465,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Waalwijk",
@@ -1475,7 +1475,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "For Sittard",
@@ -1485,7 +1485,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Nijmegen",
@@ -1495,7 +1495,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Heerenveen",
@@ -1505,7 +1505,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sparta Rotterdam",
@@ -1515,7 +1515,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Heracles",
@@ -1525,7 +1525,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Zwolle",
@@ -1535,7 +1535,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Groningen",
@@ -1545,7 +1545,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Vitesse",
@@ -1555,7 +1555,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Cambuur",
@@ -1565,7 +1565,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Willem II",
@@ -1575,7 +1575,7 @@
       "city": "Netherlands",
       "lat": 52.1326,
       "lon": 5.2913,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Galatasaray",
@@ -1595,7 +1595,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Besiktas",
@@ -1605,7 +1605,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Trabzonspor",
@@ -1615,7 +1615,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Basaksehir",
@@ -1625,7 +1625,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Adana Demirspor",
@@ -1635,7 +1635,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hatayspor",
@@ -1645,7 +1645,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Buyuksehyr",
@@ -1655,7 +1655,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Ad. Demirspor",
@@ -1665,7 +1665,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Antalyaspor",
@@ -1675,7 +1675,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sivasspor",
@@ -1685,7 +1685,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kayserispor",
@@ -1695,7 +1695,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kasimpasa",
@@ -1705,7 +1705,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Alanyaspor",
@@ -1715,7 +1715,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Gaziantep",
@@ -1725,7 +1725,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Konyaspor",
@@ -1735,7 +1735,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Karagumruk",
@@ -1745,7 +1745,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Rizespor",
@@ -1755,7 +1755,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Giresunspor",
@@ -1765,7 +1765,7 @@
       "city": "Turkey",
       "lat": 38.9637,
       "lon": 35.2433,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Club Brugge",
@@ -1775,7 +1775,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Anderlecht",
@@ -1818,7 +1818,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Gent",
@@ -1828,7 +1828,7 @@
       "city": "Ghent",
       "lat": 51.045991,
       "lon": 3.6876201,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Oud-Heverlee Leuven",
@@ -1838,7 +1838,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Mechelen",
@@ -1848,7 +1848,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "St. Gilloise",
@@ -1858,7 +1858,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Standard",
@@ -1878,7 +1878,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Charleroi",
@@ -1899,7 +1899,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kortrijk",
@@ -1931,7 +1931,7 @@
       "city": "Belgium",
       "lat": 50.5039,
       "lon": 4.4699,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Flamengo",
@@ -1941,7 +1941,7 @@
       "city": "Brazil",
       "lat": -14.235,
       "lon": -51.9253,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Palmeiras",
@@ -1962,7 +1962,7 @@
       "city": "Brazil",
       "lat": -14.235,
       "lon": -51.9253,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Corinthians",
@@ -1972,7 +1972,7 @@
       "city": "Brazil",
       "lat": -14.235,
       "lon": -51.9253,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Fluminense",
@@ -1982,7 +1982,7 @@
       "city": "Rio de Janeiro",
       "lat": -22.9363279,
       "lon": -43.1847488,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Gremio",
@@ -2014,7 +2014,7 @@
       "city": "Brazil",
       "lat": -14.235,
       "lon": -51.9253,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Internacional",
@@ -2024,7 +2024,7 @@
       "city": "Brazil",
       "lat": -14.235,
       "lon": -51.9253,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Fortaleza",
@@ -2067,7 +2067,7 @@
       "city": "Brazil",
       "lat": -14.235,
       "lon": -51.9253,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Santos",
@@ -2077,7 +2077,7 @@
       "city": "Canguçu",
       "lat": -31.4671681,
       "lon": -52.6767835,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Bahia",
@@ -2098,7 +2098,7 @@
       "city": "Brazil",
       "lat": -14.235,
       "lon": -51.9253,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Cuiaba",
@@ -2130,7 +2130,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "LASK",
@@ -2140,7 +2140,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "SK Rapid",
@@ -2150,7 +2150,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Austria Vienna",
@@ -2160,7 +2160,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Wolfsberger AC",
@@ -2170,7 +2170,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hartberg",
@@ -2202,7 +2202,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "A. Klagenfurt",
@@ -2212,7 +2212,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "BW Linz",
@@ -2222,7 +2222,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "A. Lustenau",
@@ -2232,7 +2232,7 @@
       "city": "Austria",
       "lat": 47.5162,
       "lon": 14.5501,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Basel",
@@ -2253,7 +2253,7 @@
       "city": "Switzerland",
       "lat": 46.8182,
       "lon": 8.2275,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Lugano",
@@ -2263,7 +2263,7 @@
       "city": "Switzerland",
       "lat": 46.8182,
       "lon": 8.2275,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Luzern",
@@ -2273,7 +2273,7 @@
       "city": "Kriens",
       "lat": 47.028949,
       "lon": 8.3026535,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Servette",
@@ -2283,7 +2283,7 @@
       "city": "Switzerland",
       "lat": 46.8182,
       "lon": 8.2275,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "St. Gallen",
@@ -2304,7 +2304,7 @@
       "city": "Switzerland",
       "lat": 46.8182,
       "lon": 8.2275,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Zurich",
@@ -2369,7 +2369,7 @@
       "city": "Norway",
       "lat": 60.472,
       "lon": 8.4689,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Brann",
@@ -2379,7 +2379,7 @@
       "city": "Norway",
       "lat": 60.472,
       "lon": 8.4689,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Haugesund",
@@ -2433,7 +2433,7 @@
       "city": "Norway",
       "lat": 60.472,
       "lon": 8.4689,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Rosenborg",
@@ -2454,7 +2454,7 @@
       "city": "Norway",
       "lat": 60.472,
       "lon": 8.4689,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sarpsborg 08",
@@ -2464,7 +2464,7 @@
       "city": "Norway",
       "lat": 60.472,
       "lon": 8.4689,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Stromsgodset",
@@ -2507,7 +2507,7 @@
       "city": "Norway",
       "lat": 60.472,
       "lon": 8.4689,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Aalesund",
@@ -2528,7 +2528,7 @@
       "city": "Norway",
       "lat": 60.472,
       "lon": 8.4689,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "AIK",
@@ -2538,7 +2538,7 @@
       "city": "Sweden",
       "lat": 60.1282,
       "lon": 18.6435,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Djurgarden",
@@ -2625,7 +2625,7 @@
       "city": "Sweden",
       "lat": 60.1282,
       "lon": 18.6435,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Mjallby",
@@ -2657,7 +2657,7 @@
       "city": "Sweden",
       "lat": 60.1282,
       "lon": 18.6435,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Varberg",
@@ -2689,7 +2689,7 @@
       "city": "Sweden",
       "lat": 60.1282,
       "lon": 18.6435,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Brommapojkarna",
@@ -2699,7 +2699,7 @@
       "city": "Sweden",
       "lat": 60.1282,
       "lon": 18.6435,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Aalborg",
@@ -2742,7 +2742,7 @@
       "city": "Copenhagen",
       "lat": 55.7028,
       "lon": 12.572,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Horsens",
@@ -2785,7 +2785,7 @@
       "city": "Denmark",
       "lat": 56.2639,
       "lon": 9.5018,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Odense",
@@ -2795,7 +2795,7 @@
       "city": "Denmark",
       "lat": 56.2639,
       "lon": 9.5018,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Randers FC",
@@ -2838,7 +2838,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "PAOK",
@@ -2848,7 +2848,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "AEK",
@@ -2858,7 +2858,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Olympiakos",
@@ -2868,7 +2868,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Aris",
@@ -2889,7 +2889,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Lamia",
@@ -2910,7 +2910,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Atromitos",
@@ -2920,7 +2920,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "OFI Crete",
@@ -2930,7 +2930,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Asteras Tripolis",
@@ -2940,7 +2940,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Giannina",
@@ -2950,7 +2950,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Levadeiakos",
@@ -2960,7 +2960,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Panserraikos",
@@ -2970,7 +2970,7 @@
       "city": "Greece",
       "lat": 39.0742,
       "lon": 21.8243,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Blackburn",
@@ -2990,7 +2990,7 @@
       "city": "Bristol",
       "lat": 51.4816232,
       "lon": -2.6505577,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Cardiff",
@@ -3000,7 +3000,7 @@
       "city": "Cardiff",
       "lat": 51.4728251,
       "lon": -3.20302,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Preston",
@@ -3010,7 +3010,7 @@
       "city": "Borough of Swale",
       "lat": 51.3066239,
       "lon": 0.8956044,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "QPR",
@@ -3020,7 +3020,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Stoke",
@@ -3030,7 +3030,7 @@
       "city": "Stoke-on-Trent",
       "lat": 52.9883813,
       "lon": -2.1754502,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Coventry",
@@ -3040,7 +3040,7 @@
       "city": "Coventry",
       "lat": 52.4528765,
       "lon": -1.5013508,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Hull",
@@ -3080,7 +3080,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Swansea",
@@ -3090,7 +3090,7 @@
       "city": "Swansea",
       "lat": 51.644572,
       "lon": -3.9019737,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Luton",
@@ -3110,7 +3110,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Birmingham",
@@ -3120,7 +3120,7 @@
       "city": "Birmingham",
       "lat": 52.4273025,
       "lon": -1.8746729,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Huddersfield",
@@ -3140,7 +3140,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Watford",
@@ -3150,7 +3150,7 @@
       "city": "Watford",
       "lat": 51.6499075,
       "lon": -0.4015265,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Norwich",
@@ -3180,7 +3180,7 @@
       "city": null,
       "lat": 53.7785392,
       "lon": -3.0203527,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Reading",
@@ -3190,7 +3190,7 @@
       "city": "Reading",
       "lat": 51.4223537,
       "lon": -0.9826548,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Rotherham",
@@ -3210,7 +3210,7 @@
       "city": "Padiham",
       "lat": 53.8024287,
       "lon": -2.3213374,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Sheffield Weds",
@@ -3220,7 +3220,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Plymouth",
@@ -3230,7 +3230,7 @@
       "city": "Plymouth",
       "lat": 50.3725211,
       "lon": -4.1639283,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Leeds",
@@ -3240,7 +3240,7 @@
       "city": "Leeds",
       "lat": 53.7432312,
       "lon": -1.6123227,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Bournemouth",
@@ -3250,7 +3250,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bolton",
@@ -3270,7 +3270,7 @@
       "city": "Cambridge",
       "lat": 52.18718,
       "lon": 0.1180353,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Shrewsbury",
@@ -3280,7 +3280,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Wycombe",
@@ -3290,7 +3290,7 @@
       "city": "Flackwell Heath",
       "lat": 51.6042345,
       "lon": -0.7121283,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Charlton",
@@ -3310,7 +3310,7 @@
       "city": "Watson",
       "lat": 30.5926426,
       "lon": -90.9528598,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Lincoln",
@@ -3330,7 +3330,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Cheltenham",
@@ -3340,7 +3340,7 @@
       "city": "Devonport-Takapuna",
       "lat": -36.8243279,
       "lon": 174.8054347,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Oxford",
@@ -3370,7 +3370,7 @@
       "city": "Wigan",
       "lat": 53.5694211,
       "lon": -2.6267367,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Bristol Rvs",
@@ -3380,7 +3380,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Barnsley",
@@ -3390,7 +3390,7 @@
       "city": "Cudworth",
       "lat": 53.5522037,
       "lon": -1.4676968,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Exeter",
@@ -3400,7 +3400,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Peterboro",
@@ -3410,7 +3410,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Ipswich",
@@ -3420,7 +3420,7 @@
       "city": "Ipswich",
       "lat": 52.0549521,
       "lon": 1.1452877,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Rotherham",
@@ -3440,7 +3440,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Milton Keynes Dons",
@@ -3450,7 +3450,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Morecambe",
@@ -3460,7 +3460,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Plymouth",
@@ -3470,7 +3470,7 @@
       "city": "Plymouth",
       "lat": 50.3725211,
       "lon": -4.1639283,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Sheffield Weds",
@@ -3480,7 +3480,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Derby",
@@ -3500,7 +3500,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Blackpool",
@@ -3510,7 +3510,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Carlisle",
@@ -3520,7 +3520,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Colchester",
@@ -3530,7 +3530,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bradford",
@@ -3540,7 +3540,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Forest Green",
@@ -3550,7 +3550,7 @@
       "city": "Stroud",
       "lat": 51.6990021,
       "lon": -2.2378877,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Sutton",
@@ -3560,7 +3560,7 @@
       "city": "Ellesmere Port",
       "lat": 53.2963885,
       "lon": -2.9403342,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Harrogate",
@@ -3570,7 +3570,7 @@
       "city": "Follifoot",
       "lat": 53.9662795,
       "lon": -1.4991883,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Rochdale",
@@ -3580,7 +3580,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hartlepool",
@@ -3590,7 +3590,7 @@
       "city": "Hartlepool",
       "lat": 54.6890737,
       "lon": -1.2127007,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Crawley Town",
@@ -3600,7 +3600,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Mansfield",
@@ -3610,7 +3610,7 @@
       "city": "Mansfield",
       "lat": 53.2240943,
       "lon": -1.1314282,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Northampton",
@@ -3620,7 +3620,7 @@
       "city": "Northampton",
       "lat": 52.2852085,
       "lon": -0.8573091,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Newport County",
@@ -3660,7 +3660,7 @@
       "city": "Sevenhampton",
       "lat": 51.6058887,
       "lon": -1.7312148,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Stevenage",
@@ -3670,7 +3670,7 @@
       "city": "Stevenage",
       "lat": 51.8896479,
       "lon": -0.1937405,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Barrow",
@@ -3690,7 +3690,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Walsall",
@@ -3700,7 +3700,7 @@
       "city": "Walsall",
       "lat": 52.6010916,
       "lon": -1.9525148,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "AFC Wimbledon",
@@ -3710,7 +3710,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Gillingham",
@@ -3720,7 +3720,7 @@
       "city": "Gillingham",
       "lat": 51.3842162,
       "lon": 0.5607494,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Doncaster",
@@ -3740,7 +3740,7 @@
       "city": "Cleethorpes",
       "lat": 53.5702297,
       "lon": -0.0465117,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Crewe",
@@ -3750,7 +3750,7 @@
       "city": "Lisburn and Castlereagh District",
       "lat": 54.5777215,
       "lon": -6.1800404,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Stockport",
@@ -3770,7 +3770,7 @@
       "city": "England",
       "lat": 52.3555,
       "lon": -1.1743,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Nurnberg",
@@ -3824,7 +3824,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hamburg",
@@ -3845,7 +3845,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Darmstadt",
@@ -3866,7 +3866,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "St Pauli",
@@ -3876,7 +3876,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Regensburg",
@@ -3897,7 +3897,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kaiserslautern",
@@ -3918,7 +3918,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Magdeburg",
@@ -4005,7 +4005,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Ingolstadt",
@@ -4026,7 +4026,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bielefeld",
@@ -4058,7 +4058,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "River Plate",
@@ -4068,7 +4068,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Estudiantes L.P.",
@@ -4078,7 +4078,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Velez Sarsfield",
@@ -4099,7 +4099,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Platense",
@@ -4109,7 +4109,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Godoy Cruz",
@@ -4130,7 +4130,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Defensa y Justicia",
@@ -4140,7 +4140,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Talleres Cordoba",
@@ -4150,7 +4150,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Huracan",
@@ -4170,7 +4170,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Banfield",
@@ -4191,7 +4191,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sarmiento Junin",
@@ -4201,7 +4201,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "San Lorenzo",
@@ -4211,7 +4211,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Newells Old Boys",
@@ -4221,7 +4221,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Lanus",
@@ -4231,7 +4231,7 @@
       "city": "Lanús Oeste",
       "lat": -34.7103423,
       "lon": -58.4056266,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Central Cordoba",
@@ -4241,7 +4241,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Atl. Tucuman",
@@ -4251,7 +4251,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Racing Club",
@@ -4261,7 +4261,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Colon Santa FE",
@@ -4271,7 +4271,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Arsenal Sarandi",
@@ -4281,7 +4281,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Argentinos Jrs",
@@ -4291,7 +4291,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Barracas Central",
@@ -4301,7 +4301,7 @@
       "city": "Argentina",
       "lat": -38.4161,
       "lon": -63.6167,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Tigre",
@@ -4344,7 +4344,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "New York Red Bulls",
@@ -4354,7 +4354,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Seattle Sounders",
@@ -4364,7 +4364,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Real Salt Lake",
@@ -4374,7 +4374,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Philadelphia Union",
@@ -4384,7 +4384,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Cincinnati",
@@ -4405,7 +4405,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Columbus Crew",
@@ -4415,7 +4415,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Vancouver Whitecaps",
@@ -4425,7 +4425,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Los Angeles Galaxy",
@@ -4435,7 +4435,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Houston Dynamo",
@@ -4445,7 +4445,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Sporting Kansas City",
@@ -4455,7 +4455,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Portland Timbers",
@@ -4465,7 +4465,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Nashville SC",
@@ -4486,7 +4486,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "FC Dallas",
@@ -4507,7 +4507,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "New England Revolution",
@@ -4517,7 +4517,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Colorado Rapids",
@@ -4527,7 +4527,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "CF Montreal",
@@ -4559,7 +4559,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Toronto FC",
@@ -4580,7 +4580,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Chicago Fire",
@@ -4590,7 +4590,7 @@
       "city": "United States",
       "lat": 39.8283,
       "lon": -98.5795,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Charlotte",
@@ -4600,7 +4600,7 @@
       "city": "Old Tappan",
       "lat": 41.0077592,
       "lon": -73.978529,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Club America",
@@ -4610,7 +4610,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Tigres UANL",
@@ -4620,7 +4620,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Monterrey",
@@ -4674,7 +4674,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "UNAM Pumas",
@@ -4684,7 +4684,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Atlas",
@@ -4694,7 +4694,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Atl. San Luis",
@@ -4704,7 +4704,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Club Leon",
@@ -4714,7 +4714,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Puebla",
@@ -4746,7 +4746,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Mazatlan FC",
@@ -4789,7 +4789,7 @@
       "city": "Mexico",
       "lat": 23.6345,
       "lon": -102.5528,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Melbourne City FC",
@@ -4810,7 +4810,7 @@
       "city": "Australia",
       "lat": -25.2744,
       "lon": 133.7751,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Adelaide United",
@@ -4820,7 +4820,7 @@
       "city": "Australia",
       "lat": -25.2744,
       "lon": 133.7751,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Western United",
@@ -4830,7 +4830,7 @@
       "city": null,
       "lat": -31.7694112,
       "lon": 115.9902037,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Perth Glory",
@@ -4840,7 +4840,7 @@
       "city": "Australia",
       "lat": -25.2744,
       "lon": 133.7751,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Melbourne Victory",
@@ -4871,7 +4871,7 @@
       "city": "Australia",
       "lat": -25.2744,
       "lon": 133.7751,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Newcastle United Jets",
@@ -4881,7 +4881,7 @@
       "city": "Australia",
       "lat": -25.2744,
       "lon": 133.7751,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Central Coast Mariners",
@@ -4891,7 +4891,7 @@
       "city": "Australia",
       "lat": -25.2744,
       "lon": 133.7751,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Macarthur FC",
@@ -4912,7 +4912,7 @@
       "city": "Australia",
       "lat": -25.2744,
       "lon": 133.7751,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hokkaido Consadole Sapporo",
@@ -4922,7 +4922,7 @@
       "city": "Japan",
       "lat": 36.2048,
       "lon": 138.2529,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Celtic",
@@ -4942,7 +4942,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hearts",
@@ -4952,7 +4952,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Hibernian",
@@ -4962,7 +4962,7 @@
       "city": "Ormiston",
       "lat": 55.9209854,
       "lon": -2.9269098,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Aberdeen",
@@ -4982,7 +4982,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "St Mirren",
@@ -4992,7 +4992,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Ross County",
@@ -5002,7 +5002,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "St Johnstone",
@@ -5012,7 +5012,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Frosinone",
@@ -5033,7 +5033,7 @@
       "city": "Lalkuan",
       "lat": 29.1100812,
       "lon": 79.5225267,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Perugia",
@@ -5065,7 +5065,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Ternana",
@@ -5075,7 +5075,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Brescia",
@@ -5085,7 +5085,7 @@
       "city": "Torbole",
       "lat": 45.5067411,
       "lon": 10.1132132,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Ascoli",
@@ -5128,7 +5128,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Como",
@@ -5159,7 +5159,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bari",
@@ -5190,7 +5190,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Modena",
@@ -5233,7 +5233,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Spezia",
@@ -5254,7 +5254,7 @@
       "city": "Italy",
       "lat": 41.8719,
       "lon": 12.5674,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Huesca",
@@ -5330,7 +5330,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Alcorcon",
@@ -5351,7 +5351,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Burgos",
@@ -5438,7 +5438,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Cartagena",
@@ -5470,7 +5470,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Santander",
@@ -5491,7 +5491,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Granada",
@@ -5556,7 +5556,7 @@
       "city": "Spain",
       "lat": 40.4637,
       "lon": -3.7492,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bastia",
@@ -5629,7 +5629,7 @@
       "city": "Dunkirk",
       "lat": 51.0517055,
       "lon": 2.414096,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Quevilly Rouen",
@@ -5639,7 +5639,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Grenoble",
@@ -5715,7 +5715,7 @@
       "city": "Valenciennes",
       "lat": 50.283521,
       "lon": 3.3893211,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Niort",
@@ -5757,7 +5757,7 @@
       "city": "France",
       "lat": 46.2276,
       "lon": 2.2137,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Annecy",
@@ -5820,7 +5820,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Montrose",
@@ -5830,7 +5830,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Clyde",
@@ -5850,7 +5850,7 @@
       "city": "Dumbarton",
       "lat": 55.9384141,
       "lon": -4.5616641,
-      "source": "stadium_exact"
+      "source": "city_center"
     },
     {
       "team": "Cove Rangers",
@@ -5860,7 +5860,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Falkirk",
@@ -5880,7 +5880,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Alloa",
@@ -5890,7 +5890,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Kelty Hearts",
@@ -5900,7 +5900,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Queen of Sth",
@@ -5910,7 +5910,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Annan Athletic",
@@ -5920,7 +5920,7 @@
       "city": "Scotland",
       "lat": 56.4907,
       "lon": -4.2026,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Daejeon Hana Citizen",
