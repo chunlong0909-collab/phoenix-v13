@@ -442,7 +442,30 @@
       ],
       "official_fixtures_url": "https://www.the-afc.com/en/club/afc_champions_league_elite/fixtures__standings.html",
       "flashscore_results_url": "https://www.flashscore.com/football/asia/afc-champions-league/",
-      "history_slug": "league_12baad9e48"
+      "history_slug": "league_12baad9e48",
+      "team_directory": [
+        "Beijing Guoan (Chn)",
+        "Daejeon (Kor)",
+        "Gamba Osaka (Jpn)",
+        "Jeonbuk (Kor)",
+        "Kashima Antlers (Jpn)",
+        "Kashiwa Reysol (Jpn)",
+        "Kyoto (Jpn)",
+        "Pohang (Kor)",
+        "Shanghai Port (Chn)",
+        "Vissel Kobe (Jpn)",
+        "Sanfrecce Hiroshima (Jpn)",
+        "Ulsan HD (Kor)"
+      ],
+      "team_directory_source": "AFC Elite East region directory; names normalized to local match_history where available",
+      "aliases": {
+        "Daejeon Citizen": "Daejeon (Kor)",
+        "Daejeon Hana Citizen": "Daejeon (Kor)",
+        "Daejeon Citizen FC": "Daejeon (Kor)",
+        "大田市民": "Daejeon (Kor)",
+        "Vissel Kobe": "Vissel Kobe (Jpn)",
+        "神戶勝利船": "Vissel Kobe (Jpn)"
+      }
     }
   ]
 }

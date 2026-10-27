@@ -398,6 +398,16 @@ def load_team_name_map():
     except Exception:
         return
 load_team_name_map()
+# 聯賽設定可提供「目錄隊伍」及可核對別名；目錄不代表新增賽果，
+# 只讓沒有在最近20場出現的隊伍可以被正確選取。
+try:
+    _league_config = json.loads((Path(__file__).with_name("leagues.json")).read_text(encoding="utf-8"))
+    for _league_item in _league_config.get("leagues", []):
+        for _alias, _canonical in (_league_item.get("aliases") or {}).items():
+            if str(_alias).strip() and str(_canonical).strip():
+                ALIASES[str(_alias).strip()] = str(_canonical).strip()
+except (OSError, ValueError, TypeError):
+    pass
 
 # 規則模組是核心顯示功能；即使某個可選資料模組在部署環境失敗，
 # 仍然獨立重試載入，避免整個頁面錯誤地顯示「規則模組未載入」。
@@ -949,7 +959,16 @@ def get_team_directory(league, api_token, fd_token, crawl_url):
         matches, source, _ = get_matches(league, api_token, fd_token, crawl_url)
     if not {"Home", "Away"}.issubset(matches.columns):
         matches = clean_matches(matches, source, league, datetime.now().year)
-    names = sorted(set(matches["Home"].dropna()) | set(matches["Away"].dropna()))
+    names = set(matches["Home"].dropna()) | set(matches["Away"].dropna())
+    # AFC Elite等跨區盃賽不能只由最近20場反推完整隊伍；合併已核實的
+    # 靜態隊伍目錄，但不為目錄隊伍製造任何比賽或比分。
+    try:
+        config = json.loads((Path(__file__).with_name("leagues.json")).read_text(encoding="utf-8"))
+        item = next((x for x in config.get("leagues", []) if x.get("name_zh") == league), {})
+        names.update(str(x).strip() for x in (item.get("team_directory") or []) if str(x).strip())
+    except (OSError, ValueError, TypeError):
+        pass
+    names = sorted(names)
     if not names:
         raise ValueError("沒有任何可用球隊")
     return names, f"{source}（由賽果建立後備清單）"
@@ -2090,7 +2109,21 @@ try:
     _api_started = requests.get(os.getenv("LOCAL_API_URL", "http://127.0.0.1:8000").rstrip("/"), timeout=0.35).ok
 except Exception:
     _api_started = False
-st.caption(f"數據接口：本地API（CSV驅動）｜延遲：{'<0.2秒' if _api_started else '未啟動，使用本地SQLite後備'}｜狀態：{'正常' if _api_started else '後備模式'}")
+_csv_cache_active = any(
+    _path.exists()
+    for _root in ("data", "assets/data")
+    for _path in (Path(__file__).parent / _root / "match_history").glob("*.csv")
+)
+if _api_started:
+    _data_status = "本地API正常"
+    _data_latency = "<0.2秒"
+elif _csv_cache_active:
+    _data_status = "本地CSV快取正常"
+    _data_latency = "本地讀取"
+else:
+    _data_status = "SQLite後備（未找到CSV快取）"
+    _data_latency = "未啟動"
+st.caption(f"數據接口：本地CSV驅動｜延遲：{_data_latency}｜狀態：{_data_status}")
 
 with st.sidebar:
     test_update = st.button("更新四個測試聯賽（零成本）", use_container_width=True,

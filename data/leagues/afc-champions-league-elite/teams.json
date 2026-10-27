@@ -1,0 +1,19 @@
+{
+  "league": "AFC Champions League Elite",
+  "region": "East Asia",
+  "teams": [
+    "Beijing Guoan (Chn)",
+    "Daejeon (Kor)",
+    "Gamba Osaka (Jpn)",
+    "Jeonbuk (Kor)",
+    "Kashima Antlers (Jpn)",
+    "Kashiwa Reysol (Jpn)",
+    "Kyoto (Jpn)",
+    "Pohang (Kor)",
+    "Shanghai Port (Chn)",
+    "Vissel Kobe (Jpn)",
+    "Sanfrecce Hiroshima (Jpn)",
+    "Ulsan HD (Kor)"
+  ],
+  "source": "local directory only; no fabricated fixtures"
+}
