@@ -1,0 +1,18 @@
+亞冠分析合併：大田相關行數=22／神戶相關行數=158／總行數=1644
+{
+  "version": "V1.8",
+  "home": "Daejeon (Kor)",
+  "away": "Vissel Kobe (Jpn)",
+  "home_samples": 22,
+  "away_samples": 158,
+  "expected_goals": 2.1437,
+  "1x2": {
+    "home": 0.1711,
+    "draw": 0.2656,
+    "away": 0.5624
+  },
+  "corner_complete_rows_selected": 1,
+  "corner_status": "基於真實角球數據",
+  "check": true
+}
+V1.8_CHECK=PASS

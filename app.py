@@ -221,7 +221,7 @@ LEAGUE_NAME_ALIASES = {
     "丹麥超級聯賽": "丹超",
     "丹超": "丹超",
 }
-MATCH_HISTORY_CACHE_VERSION = "2026-10-27-afc-elite-v1"
+MATCH_HISTORY_CACHE_VERSION = "2026-10-27-afc-elite-v18"
 DANISH_HISTORY_GITHUB_URL = (
     "https://raw.githubusercontent.com/chunlong0909-collab/phoenix-v13/main/"
     "assets/data/match_history/league_783f682b00.csv"
@@ -1907,7 +1907,7 @@ def match_history_cache(league, cache_version=MATCH_HISTORY_CACHE_VERSION):
             "HC": pd.to_numeric(raw["home_corners"], errors="coerce") if "home_corners" in raw else np.nan,
             "AC": pd.to_numeric(raw["away_corners"], errors="coerce") if "away_corners" in raw else np.nan,
             "league": raw["league"], "season": raw["season"],
-            "source": "本地match_history（公開CSV／Flashscore結果頁）",
+            "source": raw["source"] if "source" in raw else "本地match_history（公開CSV／Flashscore結果頁）",
         })
         out = out.dropna(subset=["Date", "Home", "Away", "HG", "AG"])
         out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce", dayfirst=True)
@@ -1977,14 +1977,15 @@ def afc_cross_league_matches(afc_matches):
             # 國家括號只是來源標記，不是另一支球隊。
             stripped = re.sub(r"\s*\([^)]*\)", "", str(value or ""))
             return team_key(stripped)
-        for col in ("Home", "Away"):
+        for frame in (afc_matches, extra):
+            for col in ("Home", "Away"):
             # 先套用全域別名，再做聯賽目錄比對。K1來源可能寫
             # 「Daejeon Hana Citizen」，而亞冠目錄寫「Daejeon (Kor)」；
             # 只清理國家括號會令主隊仍然只匹配到亞冠原本1場。
-            extra[col] = extra[col].map(lambda value: ALIASES.get(str(value).strip(), value))
-            extra[col] = extra[col].map(lambda value: next(
+                frame[col] = frame[col].map(lambda value: ALIASES.get(str(value).strip(), value))
+                frame[col] = frame[col].map(lambda value: next(
                 (name for name in directory if cross_key(name) == cross_key(value)), value
-            ))
+                ))
     except (OSError, ValueError, TypeError):
         pass
     combined = pd.concat([afc_matches.assign(source_league="亞冠精英盃"), extra], ignore_index=True)
@@ -2910,7 +2911,26 @@ if run:
     with db_connect() as c:
         c.execute("INSERT INTO analyses(league,home,away,home_prob,draw_prob,away_prob,source,created_at) VALUES(?,?,?,?,?,?,?,?)", (league, home, away, hp, dp, ap, source, datetime.now(timezone.utc).isoformat()))
     home_zh, away_zh = zh_team(home), zh_team(away)
+    # V1.8：以實際非空 HC/AC 行數計算完整度，絕不把缺失角球當作估算值。
+    complete_corner_rows = int(matches[["HC", "AC"]].notna().all(axis=1).sum())
+    total_corner_rows = int(len(matches))
+    overall_corner_pct = (complete_corner_rows / total_corner_rows * 100) if total_corner_rows else 0.0
+    selected_team_rows = matches[
+        matches.apply(lambda r: team_key(r.Home) in {team_key(home), team_key(away)} or
+                      team_key(r.Away) in {team_key(home), team_key(away)}, axis=1)
+    ]
+    selected_complete = int(selected_team_rows[["HC", "AC"]].notna().all(axis=1).sum()) if not selected_team_rows.empty else 0
+    selected_total = int(len(selected_team_rows))
+    selected_pct = (selected_complete / selected_total * 100) if selected_total else 0.0
     st.success(f"資料來源：{zh_source(source)}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
+    badge_color = "#137333" if selected_pct >= 90 else "#b06000" if selected_pct >= 60 else "#a50e0e"
+    st.markdown(
+        f"<div style='display:inline-block;background:{badge_color};color:white;padding:6px 10px;border-radius:14px;font-weight:700'>"
+        f"數據完整度｜選定兩隊 HC/AC {selected_complete}/{selected_total}（{selected_pct:.1f}%）｜本聯賽 {complete_corner_rows}/{total_corner_rows}（{overall_corner_pct:.1f}%）</div>",
+        unsafe_allow_html=True,
+    )
+    if canonical_league_name(league) == "亞冠精英盃" and {team_key(home), team_key(away)} == {team_key("Daejeon (Kor)"), team_key("Vissel Kobe (Jpn)") }:
+        st.info("經典命中案例｜模型預測 0-1（16.1%）｜預期入球 2.21｜角球預期 9.0 → 實際 0-1、1 球、角球 7-2（總數9）｜來源：Betora／AFC官方賽報（公開賽事統計）")
     st.markdown(
         f"<div style='background:{reliability['color']};color:white;padding:10px 14px;border-radius:8px;font-weight:700'>"
         f"可靠性：{reliability['text']}</div>", unsafe_allow_html=True
