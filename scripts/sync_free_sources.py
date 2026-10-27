@@ -113,28 +113,38 @@ def main():
     results=[]
     for league in cfg["leagues"]:
         if league["id"] not in ids: continue
-        lid=league["id"]; f,p,note=read_fbref(lid)
-        # Australian Championship has no FBref/soccerdata mapping. Preserve the
-        # separately audited public-results cache instead of letting the generic
-        # fallback overwrite it with an empty/incorrect competition.
-        if lid == "australian-championship":
-            cached = DATA / lid / "metadata.json"
-            if cached.exists():
-                try:
-                    meta = json.loads(cached.read_text(encoding="utf-8"))
-                except Exception:
-                    meta = {"league_id": lid, "name_zh": league.get("name_zh"), "fixtures": 0}
-                meta["status"] = "ok"
-                meta["preserved_cache"] = True
-                meta["fallback_note"] = "保留已核實澳洲冠軍聯賽公開賽果快取"
-                results.append(meta)
-                print(json.dumps(meta, ensure_ascii=False), flush=True)
-                continue
-        if not f.empty:
-            meta=save_fbref(league,f,p,note); results.append(meta)
-        else:
-            meta=run_fallback(lid); meta["primary_source_note"]=note; results.append(meta)
-        print(json.dumps(results[-1],ensure_ascii=False),flush=True)
+        lid=league["id"]
+        try:
+            f,p,note=read_fbref(lid)
+            # Australian Championship has no FBref/soccerdata mapping. Preserve the
+            # separately audited public-results cache instead of overwriting it.
+            if lid == "australian-championship":
+                cached = DATA / lid / "metadata.json"
+                if cached.exists():
+                    try:
+                        meta = json.loads(cached.read_text(encoding="utf-8"))
+                    except Exception:
+                        meta = {"league_id": lid, "name_zh": league.get("name_zh"), "fixtures": 0}
+                    meta["status"] = "ok"
+                    meta["preserved_cache"] = True
+                    meta["fallback_note"] = "保留已核實澳洲冠軍聯賽公開賽果快取"
+                    results.append(meta)
+                    print(json.dumps(meta, ensure_ascii=False), flush=True)
+                    continue
+            if not f.empty:
+                meta=save_fbref(league,f,p,note)
+            else:
+                meta=run_fallback(lid)
+                meta["primary_source_note"]=note
+            results.append(meta)
+            print(json.dumps(meta,ensure_ascii=False),flush=True)
+        except Exception as exc:
+            # 一個聯賽／選配模組失敗不能令整批資料同步中止。
+            meta={"league_id":lid,"name_zh":league.get("name_zh"),"status":"skipped",
+                  "fixtures":0,"players":0,"error":f"{type(exc).__name__}: {exc}"}
+            results.append(meta)
+            print(json.dumps(meta,ensure_ascii=False),flush=True)
+            continue
     report=ROOT/"data"/"free_source_sync_report.json"; report.write_text(json.dumps(results,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"DONE {len(results)}; report={report}")
 

@@ -34,26 +34,31 @@ def apply_coach_factors(lambda_home,lambda_away,home_team=None,away_team=None,pr
  return out
 
 def _weather_point(forecast,target):
- if 'rain_mm' in forecast or 'temp_c' in forecast:return forecast.get('rain_mm'),forecast.get('temp_c')
- d=forecast.get('daily',{});rs=d.get('precipitation_sum',[]);ts=d.get('temperature_2m_max',[]);ds=d.get('time',[]);i=ds.index(target) if target in ds else 0
- return (rs[i] if i<len(rs) else None),(ts[i] if i<len(ts) else None)
+ if 'rain_mm' in forecast or 'temp_c' in forecast:return forecast.get('rain_mm'),forecast.get('temp_c'),forecast.get('wind_kmh')
+ d=forecast.get('daily',{});rs=d.get('precipitation_sum',[]);ts=d.get('temperature_2m_max',[]);ws=d.get('wind_speed_10m_max',[]);ds=d.get('time',[]);i=ds.index(target) if target in ds else 0
+ return (rs[i] if i<len(rs) else None),(ts[i] if i<len(ts) else None),(ws[i] if i<len(ws) else None)
 def _factor_from_forecast(forecast,target):
- rain,temp=_weather_point(forecast,target);rain=float(rain) if rain is not None else None;temp=float(temp) if temp is not None else None;total=1.;over=1.;reasons=[]
- if rain is not None and rain>15:total*=.85;over*=.85;reasons.append('rain>15mm')
- elif rain is not None and rain>5:total*=.90;over*=.90;reasons.append('rain>5mm')
- if temp is not None and temp<5:total*=.95;reasons.append('temp<5C')
- return {'status':'ok','date':target,'rain_mm':rain,'temp_c':temp,'total_factor':round(total,6),'over25_factor':round(over,6),'reasons':reasons}
+ rain,temp,wind=_weather_point(forecast,target);rain=float(rain) if rain is not None else None;temp=float(temp) if temp is not None else None;wind=float(wind) if wind is not None else None;total=1.;over=1.;reasons=[]
+ if wind is not None and wind>=40:total=.88;over=.88;reasons.append('strong_wind>=40kmh')
+ elif rain is not None and rain>0:total=.95;over=.95;reasons.append('light_rain')
+ else:reasons.append('clear_or_no_precipitation')
+ return {'status':'ok','date':target,'rain_mm':rain,'temp_c':temp,'wind_kmh':wind,'total_factor':round(total,6),'over25_factor':round(over,6),'reasons':reasons}
 def get_weather_factor(lat,lon,match_date=None):
  """Get Open-Meteo factor for match_date or tomorrow when omitted."""
  target=(match_date.isoformat() if hasattr(match_date,'isoformat') else str(match_date)) if match_date is not None else (date.today()+timedelta(days=1)).isoformat()
- neutral={'status':'no_coordinates','date':target,'total_factor':1.,'over25_factor':1.,'rain_mm':None,'temp_c':None}
+ neutral={'status':'no_coordinates','date':target,'total_factor':1.,'over25_factor':1.,'rain_mm':None,'temp_c':None,'wind_kmh':None}
  if lat is None or lon is None:return neutral
- params={'latitude':lat,'longitude':lon,'daily':'precipitation_sum,temperature_2m_max','timezone':'auto'}
+ params={'latitude':lat,'longitude':lon,'daily':'precipitation_sum,temperature_2m_max,wind_speed_10m_max','timezone':'auto'}
  if match_date is None:params['forecast_days']=2
  else:params['start_date']=target;params['end_date']=target
- try:
-  r=requests.get('https://api.open-meteo.com/v1/forecast',params=params,timeout=12);r.raise_for_status();return _factor_from_forecast(r.json(),target)
- except requests.RequestException as e:return {'status':'api_error','date':target,'error':str(e),'total_factor':1.,'over25_factor':1.,'rain_mm':None,'temp_c':None}
+ last_error=None
+ for attempt in range(1,4):
+  try:
+   r=requests.get('https://api.open-meteo.com/v1/forecast',params=params,timeout=12);r.raise_for_status();return _factor_from_forecast(r.json(),target)
+  except (requests.RequestException, ValueError) as e:
+   last_error=e
+   if attempt<3: __import__('time').sleep(attempt)
+ return {'status':'api_error','date':target,'error':str(last_error),'total_factor':1.,'over25_factor':1.,'rain_mm':None,'temp_c':None,'wind_kmh':None}
 def apply_weather_factor(total_goals,over25_probability,team=None,match_date=None,prediction_log=None,forecast=None):
  team=team or {};w=_factor_from_forecast(forecast,((match_date.isoformat() if hasattr(match_date,'isoformat') else str(match_date)) if match_date is not None else (date.today()+timedelta(days=1)).isoformat())) if forecast is not None else get_weather_factor(team.get('lat'),team.get('lon'),match_date)
  out={'total_goals':round(float(total_goals)*w['total_factor'],6),'over25_probability':round(float(over25_probability)*w['over25_factor'],6),'weather_factor':w}

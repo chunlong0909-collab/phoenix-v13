@@ -2623,7 +2623,8 @@ if run:
     else:
         coach_result = {"home_coach_factor": 1.0, "away_coach_factor": 1.0}
     if apply_weather_factor is not None:
-        weather_result = apply_weather_factor(hx + ax, 0.0, {}, prediction_log=prediction_log)
+        # 天氣以主場球場坐標查詢；沒有可核對坐標時，模組才會明確回傳1.00保底。
+        weather_result = apply_weather_factor(hx + ax, 0.0, home_squad, prediction_log=prediction_log)
         weather_factor = weather_result["weather_factor"]
         hx *= weather_factor.get("total_factor", 1.0)
         ax *= weather_factor.get("total_factor", 1.0)

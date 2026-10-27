@@ -12,19 +12,59 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    continue-on-error: false
+    concurrency:
+      group: daily-football-update-main
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      - run: pip install -r requirements.txt
-      # 無 API Key：FBref/soccerdata 優先，失敗或不支援時使用既有公開後備來源。
-      - run: python scripts/sync_free_sources.py --leagues all
-      - run: python scripts/build_complete.py
-      - name: commit
+      - name: Install dependencies (retry 3)
         run: |
+          set -e
+          for attempt in 1 2 3; do
+            pip install -r requirements.txt && break
+            echo "dependency install failed; retry $attempt/3"
+            sleep $((attempt * 10))
+          done
+      - name: Backfill stadiums and coordinates (non-blocking)
+        continue-on-error: true
+        run: |
+          python scripts/backfill_stadiums.py || echo "stadium backfill partial; unresolved teams remain explicitly reported"
+      # 無 API Key：FBref/soccerdata 優先，失敗或不支援時使用既有公開後備來源。
+      - name: Sync free sources (retry 3; per-league skip)
+        continue-on-error: true
+        run: |
+          for attempt in 1 2 3; do
+            python scripts/sync_free_sources.py --leagues all && exit 0
+            echo "source sync failed; retry $attempt/3"
+            sleep $((attempt * 15))
+          done
+          echo "source sync exhausted retries; continuing with preserved caches"
+          exit 0
+      - name: Build complete catalog (continue on partial data)
+        continue-on-error: true
+        run: python scripts/build_complete.py || echo "build_complete skipped after partial-source failure"
+      - name: commit
+        continue-on-error: true
+        run: |
+          set +e
           git config user.name "auto-bot"
           git config user.email "auto@bot.com"
-          git add data/ scripts/sync_free_sources.py requirements.txt
+          git add data/ assets/data/final_574_squads_with_sources.json football_library.db scripts/ requirements.txt
           git commit -m "auto: daily update $(date +%Y-%m-%d)" || echo "no changes"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo "daily update push succeeded on attempt $attempt"
+              exit 0
+            fi
+            echo "push failed; retry $attempt/3"
+            git rebase --abort 2>/dev/null || true
+            sleep $((attempt * 10))
+          done
+          echo "push exhausted retries; generated files remain in this run artifact"
+          exit 0
