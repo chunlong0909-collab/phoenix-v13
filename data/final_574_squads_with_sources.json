@@ -49008,7 +49008,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Albirex Niigata (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0100:J1聯賽:avispa-fukuoka": {
     "team": "Avispa Fukuoka",
@@ -49887,7 +49889,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Avispa Fukuoka (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0101:J1聯賽:cerezo-osaka": {
     "team": "Cerezo Osaka",
@@ -50568,7 +50572,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Cerezo Osaka (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0102:J1聯賽:consadole-sapporo": {
     "team": "Consadole Sapporo",
@@ -50931,7 +50937,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Consadole Sapporo (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0103:J1聯賽:fc-tokyo": {
     "team": "FC Tokyo",
@@ -51660,7 +51668,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "FC Tokyo (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0104:J1聯賽:gamba-osaka": {
     "team": "Gamba Osaka",
@@ -52891,7 +52901,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Gamba Osaka (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0105:J1聯賽:jubilo-iwata": {
     "team": "Jubilo Iwata",
@@ -53272,7 +53284,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Jubilo Iwata (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0106:J1聯賽:kashima-antlers": {
     "team": "Kashima Antlers",
@@ -54107,7 +54121,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Kashima Antlers (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0107:J1聯賽:kashiwa-reysol": {
     "team": "Kashiwa Reysol",
@@ -55140,7 +55156,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Kashiwa Reysol (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0108:J1聯賽:kawasaki-frontale": {
     "team": "Kawasaki Frontale",
@@ -55997,7 +56015,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Kawasaki Frontale (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0109:J1聯賽:kyoto-sanga": {
     "team": "Kyoto Sanga",
@@ -56946,7 +56966,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Kyoto Sanga (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0110:J1聯賽:machida-zelvia": {
     "team": "Machida Zelvia",
@@ -57609,7 +57631,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Machida Zelvia (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0111:J1聯賽:nagoya-grampus": {
     "team": "Nagoya Grampus",
@@ -58422,7 +58446,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Nagoya Grampus (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0112:J1聯賽:sagan-tosu": {
     "team": "Sagan Tosu",
@@ -58771,7 +58797,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Sagan Tosu (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0113:J1聯賽:sanfrecce-hiroshima": {
     "team": "Sanfrecce Hiroshima",
@@ -59434,7 +59462,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Sanfrecce Hiroshima (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0114:J1聯賽:shonan-bellmare": {
     "team": "Shonan Bellmare",
@@ -60125,7 +60155,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Shonan Bellmare (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0115:J1聯賽:tokyo-verdy": {
     "team": "Tokyo Verdy",
@@ -60546,7 +60578,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Tokyo Verdy (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0116:J1聯賽:urawa-reds": {
     "team": "Urawa Reds",
@@ -60877,7 +60911,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Urawa Red Diamonds (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0117:J1聯賽:vissel-kobe": {
     "team": "Vissel Kobe",
@@ -61871,7 +61907,9 @@
     "lon": 135.183,
     "stadium_source": "city_center",
     "coordinates_source": "city_center",
-    "coordinates_source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Kobe&count=5&language=en&format=json"
+    "coordinates_source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Kobe&count=5&language=en&format=json",
+    "afc_directory_name": "Vissel Kobe (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0118:J1聯賽:yokohama-f-marinos": {
     "team": "Yokohama F Marinos",
@@ -62662,7 +62700,9 @@
     "lat": 36.2048,
     "lon": 138.2529,
     "stadium_source": "country_center",
-    "coordinates_source": "city_center"
+    "coordinates_source": "city_center",
+    "afc_directory_name": "Yokohama F Marinos (Jpn)",
+    "afc_directory_source": "574 catalog league=J1聯賽"
   },
   "0119:葡超:porto": {
     "team": "Porto",
@@ -202505,6 +202545,31 @@
     "stadium_source": "city_center",
     "coordinates_source": "city_center",
     "coordinates_source_url": "https://geocoding-api.open-meteo.com/v1/search?name=Daejeon&count=5&language=en&format=json",
-    "data_note": "AFC supplemental team record; no player roster fabricated."
+    "data_note": "AFC supplemental team record; no player roster fabricated.",
+    "afc_directory_name": "Daejeon (Kor)",
+    "afc_directory_aliases": [
+      "Daejeon Citizen",
+      "Daejeon Hana Citizen",
+      "大田市民"
+    ],
+    "afc_directory_source": "574 catalog league=亞冠精英盃"
+  },
+  "0576:泰超:buriram-united": {
+    "team": "Buriram United",
+    "team_id": "buriram-united",
+    "league": "泰超",
+    "physical_id": "buriram-united",
+    "source_url": "https://raw.githubusercontent.com/chunlong0909-collab/phoenix-v13/main/data/leagues/afc-champions-league-elite/teams.csv",
+    "front": [],
+    "back": [],
+    "player_count": 0,
+    "source_status": "team_directory_only",
+    "data_note": "只有已核實隊伍目錄資料；未把缺失球員冒充為真實名冊。",
+    "afc_directory_name": "Buriram United (Tha)",
+    "afc_directory_aliases": [
+      "Buriram United",
+      "武里南聯"
+    ],
+    "afc_directory_source": "AFC remote teams.csv"
   }
 }
