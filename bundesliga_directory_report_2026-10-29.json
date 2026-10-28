@@ -1,0 +1,32 @@
+{
+  "source_url": "https://www.bundesliga.com/en/bundesliga/clubs",
+  "season": "2026/27",
+  "remote_base_rows": 213,
+  "added_rows": [
+    "Bayern Munich (Ger)",
+    "Borussia Dortmund (Ger)",
+    "RB Leipzig (Ger)",
+    "VfB Stuttgart (Ger)",
+    "Hoffenheim (Ger)",
+    "Bayer Leverkusen (Ger)",
+    "Freiburg (Ger)",
+    "Eintracht Frankfurt (Ger)",
+    "Augsburg (Ger)",
+    "Mainz 05 (Ger)",
+    "Union Berlin (Ger)",
+    "Borussia Monchengladbach (Ger)",
+    "Hamburg (Ger)",
+    "Cologne (Ger)",
+    "Werder Bremen (Ger)",
+    "Schalke (Ger)",
+    "Elversberg (Ger)",
+    "Paderborn (Ger)"
+  ],
+  "added_count": 18,
+  "final_rows": 231,
+  "unique_team_names": 231,
+  "players_added": 0,
+  "coaches_added": 0,
+  "fake_teams": [],
+  "policy": "directory_only only; no player, manager, fixture or score data added"
+}
