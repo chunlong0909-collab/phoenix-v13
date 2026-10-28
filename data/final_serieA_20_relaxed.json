@@ -1,0 +1,3045 @@
+{
+  "Roma (Ita)": {
+    "team": "Roma (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Gian Piero Gasperini",
+    "source_urls": [
+      "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+      "https://web.archive.org/web/20251012030815id_/https://www.asroma.com/en/men/players-and-staff",
+      "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats",
+      "https://m.dongqiudi.com/en/squad/50001039-24596"
+    ],
+    "players": [
+      {
+        "name": "Artem Dovbyk",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Ukraine",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Evan Ferguson",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Ireland",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Matías Soulé",
+        "position": "FW",
+        "shirt_number": 18,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Paulo Dybala",
+        "position": "FW",
+        "shirt_number": 21,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Leon Bailey",
+        "position": "FW",
+        "shirt_number": 31,
+        "nationality": "Jamaica",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Tommaso Baldanzi",
+        "position": "FW",
+        "shirt_number": 35,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Stephan El Shaarawy",
+        "position": "FW",
+        "shirt_number": 92,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Bryan Cristante",
+        "position": "MF",
+        "shirt_number": 4,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Lorenzo Pellegrini",
+        "position": "MF",
+        "shirt_number": 7,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Neil El Aynaoui",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Manu Koné",
+        "position": "MF",
+        "shirt_number": 17,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Niccolò Pisilli",
+        "position": "MF",
+        "shirt_number": 61,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Devyne Rensch",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "José Ángel Esmorís",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Evan Ndicka",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "Ivory Coast",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Kostas Tsimikas",
+        "position": "DF",
+        "shirt_number": 12,
+        "nationality": "Greece",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Zeki Çelik",
+        "position": "DF",
+        "shirt_number": 19,
+        "nationality": "Turkey",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Jan Ziółkowski",
+        "position": "DF",
+        "shirt_number": 24,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Mario Hermoso",
+        "position": "DF",
+        "shirt_number": 22,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Gianluca Mancini",
+        "position": "DF",
+        "shirt_number": 23,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Wesley França",
+        "position": "DF",
+        "shirt_number": 43,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Buba Sangaré",
+        "position": "DF",
+        "shirt_number": 66,
+        "nationality": "Mali",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Daniele Ghilardi",
+        "position": "DF",
+        "shirt_number": 87,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Devis Vásquez",
+        "position": "GK",
+        "shirt_number": 32,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Radosław Żelezny",
+        "position": "GK",
+        "shirt_number": 91,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Pierluigi Gollini",
+        "position": "GK",
+        "shirt_number": 95,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      },
+      {
+        "name": "Mile Svilar",
+        "position": "GK",
+        "shirt_number": 99,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://web.archive.org/web/20250913161306id_/https://www.asroma.com/en/men/players-and-staff",
+          "https://fbref.com/en/squads/cf74a709/2025-2026/Roma-Stats"
+        ]
+      }
+    ],
+    "player_count": 27
+  },
+  "Atalanta (Ita)": {
+    "team": "Atalanta (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Ivan Jurić",
+    "source_urls": [
+      "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+      "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details",
+      "https://web.archive.org/web/20251012113516/https://en.atalanta.it/news/the-squad-list-for-atalanta-v-como-2025-26-serie-a-enilive-md6"
+    ],
+    "players": [
+      {
+        "name": "Marco Carnesecchi",
+        "position": "GK",
+        "shirt_number": 29,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Francesco Rossi",
+        "position": "GK",
+        "shirt_number": 31,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Marco Sportiello",
+        "position": "GK",
+        "shirt_number": 57,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Honest Ahanor",
+        "position": "DF",
+        "shirt_number": 69,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Berat Djimsiti",
+        "position": "DF",
+        "shirt_number": 19,
+        "nationality": "Albania",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Isak Hien",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Sead Kolašinac",
+        "position": "DF",
+        "shirt_number": 23,
+        "nationality": "Bosnia and Herzegovina",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Odilon Kossounou",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Côte d'Ivoire",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Giorgio Scalvini",
+        "position": "DF",
+        "shirt_number": 42,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Mitchel Bakker",
+        "position": "MF",
+        "shirt_number": 5,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Raoul Bellanova",
+        "position": "MF",
+        "shirt_number": 16,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Lorenzo Bernasconi",
+        "position": "MF",
+        "shirt_number": 47,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Marco Brescianini",
+        "position": "MF",
+        "shirt_number": 44,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Marten de Roon",
+        "position": "MF",
+        "shirt_number": 15,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Éderson",
+        "position": "MF",
+        "shirt_number": 13,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Yunus Musah",
+        "position": "MF",
+        "shirt_number": 6,
+        "nationality": "United States / England",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Mario Pašalić",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Lazar Samardžić",
+        "position": "MF",
+        "shirt_number": 10,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Nicola Zalewski",
+        "position": "MF",
+        "shirt_number": 59,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Davide Zappacosta",
+        "position": "MF",
+        "shirt_number": 77,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Charles De Ketelaere",
+        "position": "FW",
+        "shirt_number": 17,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Nikola Krstović",
+        "position": "FW",
+        "shirt_number": 90,
+        "nationality": "Montenegro",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Ademola Lookman",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Nigeria",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Daniel Maldini",
+        "position": "FW",
+        "shirt_number": 70,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Gianluca Scamacca",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      },
+      {
+        "name": "Kamaldeen Sulemana",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "Ghana",
+        "source_urls": [
+          "https://web.archive.org/web/20251015142436/https://www.atalanta.it/squadre/prima-squadra",
+          "https://fbref.com/en/squads/922493f3/2025-2026/roster/Atalanta-Roster-Details"
+        ]
+      }
+    ],
+    "player_count": 26
+  },
+  "Lazio (Ita)": {
+    "team": "Lazio (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Maurizio Sarri",
+    "source_urls": [
+      "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+      "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+    ],
+    "players": [
+      {
+        "name": "Christos Mandas",
+        "position": "GK",
+        "shirt_number": 35,
+        "nationality": "Greece",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Alessio Furlanetto",
+        "position": "GK",
+        "shirt_number": 55,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Ivan Provedel",
+        "position": "GK",
+        "shirt_number": 94,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Samuel Gigot",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Luca Pellegrini",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Patric",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Alessio Romagnoli",
+        "position": "DF",
+        "shirt_number": 13,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Elseid Hysaj",
+        "position": "DF",
+        "shirt_number": 23,
+        "nationality": "Albania",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Oliver Provstgaard",
+        "position": "DF",
+        "shirt_number": 25,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Nuno Tavares",
+        "position": "DF",
+        "shirt_number": 30,
+        "nationality": "Portugal / Cape Verde",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Mario Gila",
+        "position": "DF",
+        "shirt_number": 34,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Adam Marusic",
+        "position": "DF",
+        "shirt_number": 77,
+        "nationality": "Montenegro / Serbia",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Matías Vecino",
+        "position": "MF",
+        "shirt_number": 5,
+        "nationality": "Uruguay / Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Nicolò Rovella",
+        "position": "MF",
+        "shirt_number": 6,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Fisayo Dele-Bashiru",
+        "position": "MF",
+        "shirt_number": 7,
+        "nationality": "Nigeria / England",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Mattéo Guendouzi",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "France / Morocco",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Mattia Zaccagni",
+        "position": "MF",
+        "shirt_number": 10,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Reda Belahyane",
+        "position": "MF",
+        "shirt_number": 21,
+        "nationality": "Morocco / France",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Toma Bašić",
+        "position": "MF",
+        "shirt_number": 26,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Manuel Lazzari",
+        "position": "MF",
+        "shirt_number": 29,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Danilo Cataldi",
+        "position": "MF",
+        "shirt_number": 32,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Pedro",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Valentín Castellanos",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Tijjani Noslin",
+        "position": "FW",
+        "shirt_number": 14,
+        "nationality": "Netherlands / Suriname",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Gustav Isaksen",
+        "position": "FW",
+        "shirt_number": 18,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Boulaye Dia",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Senegal / France",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Matteo Cancellieri",
+        "position": "FW",
+        "shirt_number": 22,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250914143028/https://www.sslazio.it/it/team/lazio/squadra",
+          "https://www.transfermarkt.com/ss-lazio/kader/verein/398/saison_id/2025"
+        ]
+      }
+    ],
+    "player_count": 27
+  },
+  "Como (Ita)": {
+    "team": "Como (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Cesc Fàbregas",
+    "source_urls": [
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jean-butez/",
+      "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/henrique-menke/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/mauro-vigorito/",
+      "https://en.legaseriea.it/team/como/squad",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/nikolacavlina/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alberto-dossena/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alberto-moreno/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/diego-carlos/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/edoardo-goldaniga/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/ignace-van-der-brempt/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/ivan-smolcic/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jacobo-ramon/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/marc-oliver-kempf/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/mergim-vojvoda/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/stefan-posch/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alex-valle/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/lucas-da-cunha/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/martin-baturina/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/maxence-caqueret/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/maximo-perrone/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/nico-paz/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/sergi-roberto/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alvaro-morata/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/tasos-douvikas/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jesus-rodriguez/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/nicolas-kuhn/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/assane-diao/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jayden-addai/",
+      "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alberto-cerri/"
+    ],
+    "players": [
+      {
+        "name": "Jean Butez",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jean-butez/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Henrique Menke",
+        "position": "GK",
+        "shirt_number": 12,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/henrique-menke/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Mauro Vigorito",
+        "position": "GK",
+        "shirt_number": 22,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/mauro-vigorito/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Nikola Čavlina",
+        "position": "GK",
+        "shirt_number": 44,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/nikolacavlina/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Alberto Dossena",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alberto-dossena/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Alberto Moreno",
+        "position": "DF",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alberto-moreno/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Diego Carlos",
+        "position": "DF",
+        "shirt_number": 34,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/diego-carlos/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Edoardo Goldaniga",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/edoardo-goldaniga/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Ignace Van Der Brempt",
+        "position": "DF",
+        "shirt_number": 77,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/ignace-van-der-brempt/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Ivan Smolčić",
+        "position": "DF",
+        "shirt_number": 28,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/ivan-smolcic/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Jacobo Ramón",
+        "position": "DF",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jacobo-ramon/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Marc Oliver Kempf",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/marc-oliver-kempf/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Mërgim Vojvoda",
+        "position": "DF",
+        "shirt_number": 31,
+        "nationality": "Kosovo",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/mergim-vojvoda/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Stefan Posch",
+        "position": "DF",
+        "shirt_number": 27,
+        "nationality": "Austria",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/stefan-posch/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Álex Valle",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alex-valle/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Lucas Da Cunha",
+        "position": "MF",
+        "shirt_number": 33,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/lucas-da-cunha/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Martin Baturina",
+        "position": "MF",
+        "shirt_number": 20,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/martin-baturina/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Maxence Caqueret",
+        "position": "MF",
+        "shirt_number": 6,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/maxence-caqueret/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Máximo Perrone",
+        "position": "MF",
+        "shirt_number": 23,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/maximo-perrone/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Nicolás Paz",
+        "position": "MF",
+        "shirt_number": 10,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/nico-paz/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Sergi Roberto",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/sergi-roberto/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Alvaro Morata",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alvaro-morata/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Anastasios Douvikas",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Greece",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/tasos-douvikas/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Jesús Rodríguez",
+        "position": "FW",
+        "shirt_number": 17,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jesus-rodriguez/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Nicolas Kühn",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/nicolas-kuhn/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Assane Diao",
+        "position": "FW",
+        "shirt_number": 38,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/assane-diao/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      },
+      {
+        "name": "Jayden Tutu Addai",
+        "position": "FW",
+        "shirt_number": 42,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/jayden-addai/",
+          "https://en.legaseriea.it/team/como/squad"
+        ]
+      },
+      {
+        "name": "Alberto Cerri",
+        "position": "FW",
+        "shirt_number": 99,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251112141057/https://comofootball.com/en/player/alberto-cerri/",
+          "https://fbref.com/en/squads/28c9c3cd/2025-2026/Como-Stats"
+        ]
+      }
+    ],
+    "player_count": 28
+  },
+  "Cagliari (Ita)": {
+    "team": "Cagliari (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Fabio Pisacane",
+    "source_urls": [
+      "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+      "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025",
+      "https://cagliaricalcio.com/news/fabio-pisacane-e-il-nuovo-allenatore-del-cagliari/"
+    ],
+    "players": [
+      {
+        "name": "Elia Caprile",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Alen Sherri",
+        "position": "Goalkeeper",
+        "shirt_number": 12,
+        "nationality": "Albania",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Giuseppe Ciocci",
+        "position": "Goalkeeper",
+        "shirt_number": 24,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Vincenzo Sarno",
+        "position": "Goalkeeper",
+        "shirt_number": 34,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Alessandro Russo",
+        "position": "Goalkeeper",
+        "shirt_number": 41,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Marco Palestra",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Riyad Idrissi",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "Italy/Morocco",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Juan Rodríguez",
+        "position": "Defender",
+        "shirt_number": 15,
+        "nationality": "Uruguay",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Othniël Raterink",
+        "position": "Defender",
+        "shirt_number": 18,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Alberto Dossena",
+        "position": "Defender",
+        "shirt_number": 22,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Yerry Mina",
+        "position": "Defender",
+        "shirt_number": 26,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gabriele Zappa",
+        "position": "Defender",
+        "shirt_number": 28,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Zé Pedro",
+        "position": "Defender",
+        "shirt_number": 32,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Adam Obert",
+        "position": "Defender",
+        "shirt_number": 33,
+        "nationality": "Slovakia",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Antoni Franke",
+        "position": "Defender",
+        "shirt_number": 35,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Andrea Cogoni",
+        "position": "Defender",
+        "shirt_number": 39,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Luca Mazzitelli",
+        "position": "Midfielder",
+        "shirt_number": 4,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Michel Adopo",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "France",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gianluca Gaetano",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Alessandro Deiola",
+        "position": "Midfielder",
+        "shirt_number": 14,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Sulemana",
+        "position": "Midfielder",
+        "shirt_number": 25,
+        "nationality": "Ghana",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Joseph Liteta",
+        "position": "Midfielder",
+        "shirt_number": 27,
+        "nationality": "Zambia",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Nicola Grandu",
+        "position": "Midfielder",
+        "shirt_number": 36,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ivan Sulev",
+        "position": "Midfielder",
+        "shirt_number": 38,
+        "nationality": "Bulgaria",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Roberto Malfitano",
+        "position": "Midfielder",
+        "shirt_number": 40,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Michael Folorunsho",
+        "position": "Midfielder",
+        "shirt_number": 90,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Semih Kılıçsoy",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "Türkiye",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Mattia Felici",
+        "position": "Forward",
+        "shirt_number": 17,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Andrea Belotti",
+        "position": "Forward",
+        "shirt_number": 19,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Agustín Albarracín",
+        "position": "Forward",
+        "shirt_number": 20,
+        "nationality": "Uruguay",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gennaro Borrelli",
+        "position": "Forward",
+        "shirt_number": 29,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Leonardo Pavoletti",
+        "position": "Forward",
+        "shirt_number": 30,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Paul Mendy",
+        "position": "Forward",
+        "shirt_number": 31,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Yael Trepy",
+        "position": "Forward",
+        "shirt_number": 37,
+        "nationality": "France",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      },
+      {
+        "name": "Sebastiano Esposito",
+        "position": "Forward",
+        "shirt_number": 94,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://cagliaricalcio.com/news/i-numeri-di-maglia-2025-26/",
+          "https://www.espn.com/soccer/team/squad/_/id/2925/league/ita.1/season/2025"
+        ]
+      }
+    ],
+    "player_count": 35
+  },
+  "Juventus (Ita)": {
+    "team": "Juventus (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Igor Tudor",
+    "source_urls": [
+      "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+      "https://www.juventus.com/en/teams/first-team-men/squad/",
+      "https://fbref.com/en/squads/e0652b02/2025-2026/Juventus-Stats",
+      "https://www.juventus.com/en/news/articles/tudor-we-want-to-get-off-to-the-best-possible-start-25-26"
+    ],
+    "players": [
+      {
+        "name": "Mattia Perin",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/c56294b9/Mattia-Perin"
+        ]
+      },
+      {
+        "name": "Gleison Bremer",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/3bb7a3c4/Gleison-Bremer"
+        ]
+      },
+      {
+        "name": "Federico Gatti",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/8e68f2f7/Federico-Gatti"
+        ]
+      },
+      {
+        "name": "Manuel Locatelli",
+        "position": "MF",
+        "shirt_number": 5,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/a8a874f1/Manuel-Locatelli"
+        ]
+      },
+      {
+        "name": "Lloyd Kelly",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/f31def1e/Lloyd-Kelly"
+        ]
+      },
+      {
+        "name": "Francisco Conceição",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/5ef3d210/Francisco-Conceicao"
+        ]
+      },
+      {
+        "name": "Teun Koopmeiners",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/7c56d8b4/Teun-Koopmeiners"
+        ]
+      },
+      {
+        "name": "Dušan Vlahović",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/79443583/Dusan-Vlahovic"
+        ]
+      },
+      {
+        "name": "Edon Zhegrova",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Kosovo",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/34a88e3e/Edon-Zhegrova"
+        ]
+      },
+      {
+        "name": "Pierre Kalulu",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/85f7d1be/Pierre-Kalulu"
+        ]
+      },
+      {
+        "name": "Michele Di Gregorio",
+        "position": "GK",
+        "shirt_number": 16,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/4e0c8d66/Michele-Di-Gregorio"
+        ]
+      },
+      {
+        "name": "Vasilije Adžić",
+        "position": "MF",
+        "shirt_number": 17,
+        "nationality": "Montenegro",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/8b0f9fb8/Vasilije-Adzic"
+        ]
+      },
+      {
+        "name": "Filip Kostić",
+        "position": "MF",
+        "shirt_number": 18,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/b1cd37e6/Filip-Kostic"
+        ]
+      },
+      {
+        "name": "Khéphren Thuram",
+        "position": "MF",
+        "shirt_number": 19,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/7d9397f8/Khephren-Thuram"
+        ]
+      },
+      {
+        "name": "Loïs Openda",
+        "position": "FW",
+        "shirt_number": 20,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/6c203b23/Lois-Openda"
+        ]
+      },
+      {
+        "name": "Fabio Miretti",
+        "position": "MF",
+        "shirt_number": 21,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/34693494/Fabio-Miretti"
+        ]
+      },
+      {
+        "name": "Weston McKennie",
+        "position": "MF",
+        "shirt_number": 22,
+        "nationality": "United States",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/01c3aff5/Weston-McKennie"
+        ]
+      },
+      {
+        "name": "Carlo Pinsoglio",
+        "position": "GK",
+        "shirt_number": 23,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/f6a06749/Carlo-Pinsoglio"
+        ]
+      },
+      {
+        "name": "Daniele Rugani",
+        "position": "DF",
+        "shirt_number": 24,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/14b8fcdf/Daniele-Rugani"
+        ]
+      },
+      {
+        "name": "João Mário",
+        "position": "DF",
+        "shirt_number": 25,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/82a39b66/Joao-Mario-Lopes"
+        ]
+      },
+      {
+        "name": "Andrea Cambiaso",
+        "position": "DF",
+        "shirt_number": 27,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/247ed022/Andrea-Cambiaso"
+        ]
+      },
+      {
+        "name": "Jonathan David",
+        "position": "FW",
+        "shirt_number": 30,
+        "nationality": "Canada",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/72b9f3ea/Jonathan-David"
+        ]
+      },
+      {
+        "name": "Juan David Cabal",
+        "position": "DF",
+        "shirt_number": 32,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://www.juventus.com/en/news/articles/squad-list-confirmed-for-2025-26-champions-league",
+          "https://fbref.com/en/players/ef6eef89/Juan-David-Cabal"
+        ]
+      }
+    ],
+    "player_count": 23
+  },
+  "Napoli (Ita)": {
+    "team": "Napoli (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Antonio Conte",
+    "source_urls": [
+      "https://sscnapoli.it/en/team-2025-2026/",
+      "https://sscnapoli.it/en/antonio-conte-e-il-nuovo-allenatore-del-napoli/",
+      "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+    ],
+    "players": [
+      {
+        "name": "Alex Meret",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Claudio Pugliese",
+        "position": "Goalkeeper",
+        "shirt_number": 12,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Nikita Contini",
+        "position": "Goalkeeper",
+        "shirt_number": 14,
+        "nationality": "Italy/Ukraine",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Vanja Milinković-Savić",
+        "position": "Goalkeeper",
+        "shirt_number": 32,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Alessandro Buongiorno",
+        "position": "Centre-Back",
+        "shirt_number": 4,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Benoît Badiashile",
+        "position": "Centre-Back",
+        "shirt_number": 5,
+        "nationality": "France",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Amir Rrahmani",
+        "position": "Centre-Back",
+        "shirt_number": 13,
+        "nationality": "Kosovo/Albania",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Rafa Marín",
+        "position": "Centre-Back",
+        "shirt_number": 16,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Mathias Olivera",
+        "position": "Left-Back",
+        "shirt_number": 17,
+        "nationality": "Uruguay/Spain",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Giovanni Di Lorenzo",
+        "position": "Right-Back",
+        "shirt_number": 22,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Sam Beukema",
+        "position": "Centre-Back",
+        "shirt_number": 31,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Luca Marianucci",
+        "position": "Centre-Back",
+        "shirt_number": 35,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Leonardo Spinazzola",
+        "position": "Left-Back",
+        "shirt_number": 37,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Costantino Favasuli",
+        "position": "Midfielder",
+        "shirt_number": 2,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Billy Gilmour",
+        "position": "Defensive Midfield",
+        "shirt_number": 6,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Scott McTominay",
+        "position": "Central Midfield",
+        "shirt_number": 8,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Kevin De Bruyne",
+        "position": "Attacking Midfield",
+        "shirt_number": 11,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Stanislav Lobotka",
+        "position": "Defensive Midfield",
+        "shirt_number": 68,
+        "nationality": "Slovakia",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Frank Anguissa",
+        "position": "Defensive Midfield",
+        "shirt_number": 99,
+        "nationality": "Cameroon",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "David Neres",
+        "position": "Winger",
+        "shirt_number": 7,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Rasmus Højlund",
+        "position": "Centre-Forward",
+        "shirt_number": 19,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Lorenzo Lucca",
+        "position": "Centre-Forward",
+        "shirt_number": 20,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Matteo Politano",
+        "position": "Winger",
+        "shirt_number": 21,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Antonio Vergara",
+        "position": "Attacking Midfield",
+        "shirt_number": 26,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Alisson Santos",
+        "position": "Winger",
+        "shirt_number": 27,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Noa Noell Lang",
+        "position": "Winger",
+        "shirt_number": 70,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://sscnapoli.it/en/team-2025-2026/",
+          "https://www.transfermarkt.com/ssc-neapel/kader/verein/6195/saison_id/2025"
+        ]
+      }
+    ],
+    "player_count": 26
+  },
+  "Fiorentina (Ita)": {
+    "team": "Fiorentina (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Daniele Galloppa",
+    "source_urls": [
+      "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+      "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+    ],
+    "players": [
+      {
+        "name": "Luca Lezzerini",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/59f8292d-d2db-446a-a8c9-50030b6d36b8",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Tommaso Martinelli",
+        "position": "GK",
+        "shirt_number": 30,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/9025e75f-97f6-4756-a508-47296b29311f",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "David De Gea",
+        "position": "GK",
+        "shirt_number": 43,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/9faa1d82-73d3-4aeb-afee-e71bc217bbd8",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Domilson Dodo",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/a9e79120-fb4c-4ef3-8427-0a7c6bd501d0",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Marin Pongračić",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/ace20aa5-9e4a-434c-ad9e-b82dc55d1588",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Luca Ranieri",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/95e76242-6c3f-4291-8f9d-11c7e61369f8",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Pietro Comuzzo",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/34d4b9f7-e86a-418d-a623-1ff2d92c73bf",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Pablo Marì",
+        "position": "DF",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/eb157c95-a8a9-4fb1-963c-649a990c5601",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Robin Gosens",
+        "position": "DF",
+        "shirt_number": 21,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/fe8c37bb-19f1-43d8-b8b4-c8c960c5ef81",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Eman Kospo",
+        "position": "DF",
+        "shirt_number": 23,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/44ce8180-5639-49ab-a852-ae02db7065b2",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Mattia Viti",
+        "position": "DF",
+        "shirt_number": 26,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/4641e885-b665-45ce-889d-851e35e3cd7e",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Niccolò Fortini",
+        "position": "DF",
+        "shirt_number": 29,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/4b3e9a40-a262-40af-a3df-59fe81c419ef",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Tariq Lamptey",
+        "position": "DF",
+        "shirt_number": 48,
+        "nationality": "Ghana",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/0f1360d5-ab93-4b3a-9d39-dc6ae2ef348b",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Eddy Nda Konan Kouadio",
+        "position": "DF",
+        "shirt_number": 60,
+        "nationality": "Ivory Coast",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/abed19fb-5c3a-437b-af97-085159edc4fd",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Fabiano Parisi",
+        "position": "DF",
+        "shirt_number": 65,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/1fcfe418-c566-4312-bbaa-6dfe12d2a122",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Simon Sohm",
+        "position": "MF",
+        "shirt_number": 7,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/dbed1e3a-8a36-4492-af8b-8c2ee5a89a4e",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Rolando Mandragora",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/bf4fffd6-ccdc-4e5e-8f04-6b7602721295",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Abdelhamid Sabiri",
+        "position": "MF",
+        "shirt_number": 11,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/adaaa777-6c09-4787-905e-b8ef6bef8139",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Hans Nicolussi Caviglia",
+        "position": "MF",
+        "shirt_number": 14,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/412e94d2-685a-4565-9554-d138bfe96c80",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Jacopo Fazzini",
+        "position": "MF",
+        "shirt_number": 22,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/46d0a530-4a5c-4196-bed5-eaf21615fb68",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Amir Richardson",
+        "position": "MF",
+        "shirt_number": 24,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/2fc8a8d7-ed89-4975-8956-ca77e606b923",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Cher Ndour",
+        "position": "MF",
+        "shirt_number": 27,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/93b00a67-5d76-4c56-8c71-1e9d2f1f7935",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Nicolò Fagioli",
+        "position": "MF",
+        "shirt_number": 44,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/6a1ce2cc-9b70-4d24-8b62-3fd56713fefb",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Edin Džeko",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Bosnia and Herzegovina",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/8e410ee8-4f99-4d8f-ad60-a0d2c07da510",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Albert Guðmundsson",
+        "position": "FW",
+        "shirt_number": 10,
+        "nationality": "Iceland",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/0253f3d8-c51c-4f6b-ab13-a4a8cb063159",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Moise Kean",
+        "position": "FW",
+        "shirt_number": 20,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/188554ee-df22-44a7-9343-27ed241f9c22",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Riccardo Braschi",
+        "position": "FW",
+        "shirt_number": 61,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/11a693af-b945-4854-a18e-e9affa08316a",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      },
+      {
+        "name": "Roberto Piccoli",
+        "position": "FW",
+        "shirt_number": 91,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/fiorentina-prima-squadra-maschile",
+          "https://web.archive.org/web/20251104151524/https://www.acffiorentina.com/it/player/899ba5a8-2012-4312-9dbc-df515826f31e",
+          "https://fbref.com/en/squads/421387cf/2025-2026/roster/Fiorentina-Roster-Details"
+        ]
+      }
+    ],
+    "player_count": 28
+  },
+  "Parma (Ita)": {
+    "team": "Parma (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Carlos Cuesta",
+    "source_urls": [
+      "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+      "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026",
+      "https://www.espn.com/soccer/team/squad/_/id/115/season/2025"
+    ],
+    "players": [
+      {
+        "name": "Edoardo Corvi",
+        "position": "goalkeeper",
+        "shirt_number": 40,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/edoardo-corvi/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Filippo Rinaldi",
+        "position": "goalkeeper",
+        "shirt_number": 66,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/richard-marcone/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Zion Suzuki",
+        "position": "goalkeeper",
+        "shirt_number": 31,
+        "nationality": "Japan",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/zion-suzuki-2/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Peter Amoran",
+        "position": "defender",
+        "shirt_number": 60,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/amoran-t-peter/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Botond Balogh",
+        "position": "defender",
+        "shirt_number": 4,
+        "nationality": "Hungary",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/botond-balogh/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Alessandro Circati",
+        "position": "defender",
+        "shirt_number": 39,
+        "nationality": "Australia",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/alessandro-circati/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Enrico Delprato",
+        "position": "defender",
+        "shirt_number": 15,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/enrico-del-prato/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Mathias Løvik",
+        "position": "defender",
+        "shirt_number": 18,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/lovik/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Abdoulaye Ndiaye",
+        "position": "defender",
+        "shirt_number": 3,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/4407/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Nicolas Trabucchi",
+        "position": "defender",
+        "shirt_number": 63,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/nicolas-trabucchi/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Mariano Troilo",
+        "position": "defender",
+        "shirt_number": 37,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/mariano-troilo/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Lautaro Valenti",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/lautaro-rodrigo-valenti/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Emanuele Valeri",
+        "position": "defender",
+        "shirt_number": 14,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/emanuele-valeri/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Tjaš Begić",
+        "position": "midfielder",
+        "shirt_number": 19,
+        "nationality": "Slovenia",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/wylan-cyprien/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Adrián Bernabé",
+        "position": "midfielder",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/adrian-bernabe/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Nahuel Estévez",
+        "position": "midfielder",
+        "shirt_number": 8,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/nahuel-estevez/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Hernani Azevedo Júnior",
+        "position": "midfielder",
+        "shirt_number": 23,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/azevedo-junior-hernani/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Lamine Mandela Keita",
+        "position": "midfielder",
+        "shirt_number": 16,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/mandela-keita/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Christian Ordoñez",
+        "position": "midfielder",
+        "shirt_number": 24,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/christian-ordonez/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Elia Plicco",
+        "position": "midfielder",
+        "shirt_number": 65,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/drissa-camara/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Oliver Sørensen",
+        "position": "midfielder",
+        "shirt_number": 22,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/oliver-sorensen/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Pontus Almqvist",
+        "position": "forward",
+        "shirt_number": 11,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/pontus-almqvist/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Adrian Benedyczak",
+        "position": "forward",
+        "shirt_number": 7,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/adrian-benedyczak/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Milan Đurić",
+        "position": "forward",
+        "shirt_number": 30,
+        "nationality": "Bosnia and Herzegovina",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/milan-djuric/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Matija Frigan",
+        "position": "forward",
+        "shirt_number": 20,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/matija-frigan/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Antoine Joujou",
+        "position": "forward",
+        "shirt_number": 21,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/antoine-joujou/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Jacob Ondrejka",
+        "position": "forward",
+        "shirt_number": 17,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/jacob-ondrejka/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      },
+      {
+        "name": "Mateo Pellegrino",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/",
+          "https://web.archive.org/web/20250824104611/https://www.parmacalcio1913.com/en/squad-mens-first-team/mateo-pellegrino/",
+          "https://it.wikipedia.org/wiki/Parma_Calcio_1913_2025-2026"
+        ]
+      }
+    ],
+    "player_count": 28
+  },
+  "Sassuolo (Ita)": {
+    "team": "Sassuolo (Ita)",
+    "league": "意甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Alberto Aquilani",
+    "source_urls": [
+      "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+      "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025",
+      "https://www.legaseriea.it/team/sassuolo/squad"
+    ],
+    "players": [
+      {
+        "name": "Giacomo Satalino",
+        "position": "GK",
+        "shirt_number": 12,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Arijanet Murić",
+        "position": "GK",
+        "shirt_number": 49,
+        "nationality": "Kosovo",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Stefano Turati",
+        "position": "GK",
+        "shirt_number": 80,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Josh Doig",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Fali Candé",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "Guinea-Bissau",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Sebastian Walukiewicz",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Fedde Leysen",
+        "position": "DF",
+        "shirt_number": 16,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Ignace Van der Brempt",
+        "position": "DF",
+        "shirt_number": 20,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Jay Idzes",
+        "position": "DF",
+        "shirt_number": 21,
+        "nationality": "Indonesia",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Cas Odenthal",
+        "position": "DF",
+        "shirt_number": 26,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Yeferson Paz",
+        "position": "DF",
+        "shirt_number": 27,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Rafa Obrador",
+        "position": "DF",
+        "shirt_number": 33,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Simone Cinquegrano",
+        "position": "DF",
+        "shirt_number": 45,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Edoardo Pieragnolo",
+        "position": "DF",
+        "shirt_number": 70,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Andrea Ghion",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Daniel Boloca",
+        "position": "MF",
+        "shirt_number": 11,
+        "nationality": "Romania",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Vasilije Adžić",
+        "position": "MF",
+        "shirt_number": 17,
+        "nationality": "Montenegro",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Nemanja Matić",
+        "position": "MF",
+        "shirt_number": 18,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Luca Lipani",
+        "position": "MF",
+        "shirt_number": 35,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Kristian Thorstvedt",
+        "position": "MF",
+        "shirt_number": 42,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Darryl Bakola",
+        "position": "MF",
+        "shirt_number": 50,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Ibrahim Sulemana",
+        "position": "MF",
+        "shirt_number": 55,
+        "nationality": "Ghana",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Ismaël Koné",
+        "position": "MF",
+        "shirt_number": 90,
+        "nationality": "Canada",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Cristian Volpato",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Kieron Bowie",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Domenico Berardi",
+        "position": "FW",
+        "shirt_number": 10,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Laurs Skjellerup",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Benjamín Domínguez",
+        "position": "FW",
+        "shirt_number": 25,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Armand Laurienté",
+        "position": "FW",
+        "shirt_number": 45,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Nicholas Pierini",
+        "position": "FW",
+        "shirt_number": 77,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Sebastiano Esposito",
+        "position": "FW",
+        "shirt_number": 94,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20261003094230/https://www.sassuolocalcio.it/squadre/prima-squadra-maschile/rosa-e-staff-3/",
+          "https://www.transfermarkt.us/us-sassuolo/kader/verein/6574/saison_id/2025"
+        ]
+      }
+    ],
+    "player_count": 32
+  }
+}
