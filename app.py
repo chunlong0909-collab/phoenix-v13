@@ -960,7 +960,12 @@ def from_api_team_directory(league, token):
 
 
 def get_team_directory(league, api_token, fd_token, crawl_url):
-    """不使用 API-Football；以資料館、Football-Data 及公開賽果建立目錄。"""
+    """AFC只讀GitHub遠端隊伍目錄；其他聯賽沿用原有來源。"""
+    if canonical_league_name(league) == "亞冠精英盃":
+        names = load_remote_team_directory()
+        if not names:
+            raise ValueError("GitHub遠端teams.csv沒有可用隊伍")
+        return names, "GitHub main 遠端 teams.csv"
     # 球隊清單優先直接由永久保存的資料館建立，避免外部來源欄位格式不同造成 KeyError。
     matches = all_saved_matches(league)
     source = "本地資料館"
@@ -977,16 +982,6 @@ def get_team_directory(league, api_token, fd_token, crawl_url):
         names.update(str(x).strip() for x in (item.get("team_directory") or []) if str(x).strip())
     except (OSError, ValueError, TypeError):
         pass
-    # AFC 目錄要直接讀取已提交的最新 teams.csv；不能只依賴 SQLite／舊賽果反推。
-    # 這個讀取是 append/merge，不會覆蓋任何真實賽果或其他聯賽隊伍。
-    if canonical_league_name(league) == "亞冠精英盃":
-        afc_teams_csv = Path(__file__).parent / "data" / "leagues" / "afc-champions-league-elite" / "teams.csv"
-        try:
-            static_teams = pd.read_csv(afc_teams_csv, dtype=str, encoding="utf-8-sig").fillna("")
-            if "team_name" in static_teams.columns:
-                names.update(str(x).strip() for x in static_teams["team_name"] if str(x).strip())
-        except (OSError, ValueError, pd.errors.ParserError):
-            pass
     names = sorted(names)
     if not names:
         raise ValueError("沒有任何可用球隊")
@@ -2181,6 +2176,56 @@ def configured_secret(name):
         return os.getenv(name, "")
 
 
+REMOTE_TEAM_CSV_URL = "https://raw.githubusercontent.com/chunlong0909-collab/phoenix-v13/main/data/leagues/afc-champions-league-elite/teams.csv"
+REMOTE_TEAM_CSV_API = "https://api.github.com/repos/chunlong0909-collab/phoenix-v13/contents/data/leagues/afc-champions-league-elite/teams.csv"
+
+
+def load_remote_team_directory():
+    """只讀GitHub main隊伍目錄；不讀本地teams.csv作為目錄來源。"""
+    response = requests.get(REMOTE_TEAM_CSV_URL, timeout=12)
+    response.raise_for_status()
+    table = pd.read_csv(StringIO(response.text), dtype=str, encoding="utf-8-sig").fillna("")
+    column = "official_name" if "official_name" in table.columns else "team_name"
+    if column not in table.columns:
+        raise ValueError("遠端teams.csv缺少official_name/team_name欄位")
+    return sorted({str(x).strip() for x in table[column] if str(x).strip()})
+
+
+def append_remote_team_directory(official_name, league_code="", english_name="", chinese_name=""):
+    """以GitHub Contents API append單一新隊；永不覆蓋既有資料列。"""
+    token = configured_secret("GITHUB_TOKEN") or configured_secret("GH_TOKEN")
+    if not token or not official_name.strip():
+        return False, "未設定GitHub寫入Token"
+    try:
+        import base64
+        headers = {"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}
+        current = requests.get(REMOTE_TEAM_CSV_API, headers=headers, timeout=12)
+        current.raise_for_status()
+        payload = current.json()
+        existing = base64.b64decode(payload["content"]).decode("utf-8-sig")
+        table = pd.read_csv(StringIO(existing), dtype=str).fillna("")
+        col = "official_name" if "official_name" in table.columns else "team_name"
+        if official_name.casefold() in {str(x).strip().casefold() for x in table[col]}:
+            return True, "遠端目錄已有此隊"
+        if col == "official_name":
+            row = pd.DataFrame([{"official_name": official_name, "league_code": league_code,
+                                 "english_name": english_name or official_name, "chinese_name": chinese_name}])
+        else:
+            row = pd.DataFrame([{"team_name": official_name, "region": "Remote directory",
+                                 "source": "API-Football／官方名稱庫"}])
+        updated = pd.concat([table, row], ignore_index=True)
+        content = updated.to_csv(index=False, encoding="utf-8-sig")
+        result = requests.put(REMOTE_TEAM_CSV_API, headers=headers, json={
+            "message": f"data: append team {official_name}",
+            "content": base64.b64encode(content.encode("utf-8-sig")).decode("ascii"),
+            "sha": payload["sha"], "branch": "main",
+        }, timeout=20)
+        result.raise_for_status()
+        return True, "已append至GitHub main"
+    except Exception as exc:
+        return False, str(exc)
+
+
 def team_key(value):
     # 保留中文字符；舊版轉 ASCII 後「西維爾」會變成空字串，
     # 空字串參與包含判斷會錯誤配對任何球隊。
@@ -2246,7 +2291,7 @@ def api_team_candidates(query, token):
     return [x.get("team", {}).get("name", "") for x in payload.get("response", []) if x.get("team", {}).get("name")]
 
 
-def search_team_candidates(query, directory, token):
+def search_team_candidates(query, directory, token, remote_append=False):
     query = query.strip()
     if not query:
         return []
@@ -2271,7 +2316,10 @@ def search_team_candidates(query, directory, token):
         if translated.lower() in name.lower() or query.lower() in name.lower() or qkey == nkey or qkey in nkey or nkey in qkey:
             found.append(name)
     try:
-        found.extend(api_team_candidates(translated, token))
+        api_names = api_team_candidates(translated, token)
+        found.extend(api_names)
+        if remote_append and api_names:
+            append_remote_team_directory(api_names[0], english_name=api_names[0])
     except Exception:
         pass
     return sorted(set(x for x in found if x), key=lambda x: (team_key(translated) not in team_key(x), x))
@@ -2571,8 +2619,10 @@ with st.sidebar:
     away_query = st.text_input("客隊", "利物浦")
     find_teams = st.button("自動搜尋主客隊候選", use_container_width=True)
     if find_teams:
-        st.session_state[f"home_candidates_{league}"] = search_team_candidates(home_query, directory, "")
-        st.session_state[f"away_candidates_{league}"] = search_team_candidates(away_query, directory, "")
+        is_afc = canonical_league_name(league) == "亞冠精英盃"
+        football_api_token = configured_secret("API_FOOTBALL_TOKEN")
+        st.session_state[f"home_candidates_{league}"] = search_team_candidates(home_query, directory, football_api_token, is_afc)
+        st.session_state[f"away_candidates_{league}"] = search_team_candidates(away_query, directory, football_api_token, is_afc)
     home_candidates = st.session_state.get(f"home_candidates_{league}", [])
     away_candidates = st.session_state.get(f"away_candidates_{league}", [])
     if home_candidates:
