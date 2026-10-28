@@ -1,0 +1,41 @@
+{
+  "season": "2025/26",
+  "remote_team_rows": 249,
+  "unique_team_names": 249,
+  "tier1_before": 35,
+  "tier1_after": 45,
+  "tier0_after": 204,
+  "new_full_teams": [
+    "Roma (Ita)",
+    "Atalanta (Ita)",
+    "Lazio (Ita)",
+    "Como (Ita)",
+    "Cagliari (Ita)",
+    "Juventus (Ita)",
+    "Napoli (Ita)",
+    "Fiorentina (Ita)",
+    "Parma (Ita)",
+    "Sassuolo (Ita)"
+  ],
+  "new_player_count": 280,
+  "new_coach_count": 10,
+  "retained_seriea_tier0": [
+    "Inter Milan (Ita)",
+    "AC Milan (Ita)",
+    "Bologna (Ita)",
+    "Genoa (Ita)",
+    "Lecce (Ita)",
+    "Torino (Ita)",
+    "Udinese (Ita)"
+  ],
+  "not_in_canonical_directory": [
+    "Cremonese (Ita)",
+    "Pisa (Ita)",
+    "Verona (Ita)"
+  ],
+  "players_csv_total": 1177,
+  "coaches_csv_total": 45,
+  "existing_de_epl_es_full_preserved": 35,
+  "fake_teams": [],
+  "policy": "18-35人；每人name/position/shirt_number/nationality/source_urls；至少2來源且含球會官方URL；排除B隊、U23、青年隊、女子隊及租借離隊。"
+}
