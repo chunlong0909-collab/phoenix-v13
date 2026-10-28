@@ -1,0 +1,27 @@
+{
+  "season": "2025/26",
+  "source_urls": {
+    "bundesliga_table": "https://www.bundesliga.com/en/bundesliga/table",
+    "bundesliga_clubs": "https://www.bundesliga.com/en/bundesliga/clubs",
+    "dfl_schedule": "https://media.dfl.de/sites/2/2025/06/N2P9nxxrw4_Bundesliga_Spielplan_2025_2026_barrierefrei.pdf",
+    "kicker_final_table": "https://www.kicker.de/bundesliga/tabelle/2025-26/34"
+  },
+  "before_rows": 231,
+  "after_rows": 231,
+  "removed": [
+    "Elversberg (Ger)",
+    "Paderborn (Ger)",
+    "Schalke (Ger)"
+  ],
+  "added": [
+    "Wolfsburg (Ger)",
+    "Heidenheim (Ger)",
+    "St. Pauli (Ger)"
+  ],
+  "bundesliga_count": 18,
+  "unique_team_names": 231,
+  "players_added": 0,
+  "coaches_added": 0,
+  "fake_teams": [],
+  "note": "Historical query on Bundesliga pages currently resolves to the 2026/27 live page; the 2025/26 participant set is cross-checked with the explicit DFL 2025/26 schedule and Kicker final table."
+}
