@@ -350,6 +350,8 @@ ALIASES = {
     "迪里耶會": "Diriyah", "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
     "沙比阿爾阿里": "Shabab Al Ahli Club", "Shabab Al Ahli Dubai": "Shabab Al Ahli Club", "Shabab Al Ahli Dubai (Uae)": "Shabab Al Ahli Club",
     "艾斯迪格拿": "Esteghlal F.C.", "Esteghlal": "Esteghlal F.C.", "Esteghlal F.C. (Irn)": "Esteghlal F.C.",
+    "大阪飛腳": "Gamba Osaka (Jpn)", "Gamba Osaka": "Gamba Osaka (Jpn)",
+    "武里南聯": "Buriram United (Tha)", "Buriram United": "Buriram United (Tha)",
     "艾利雅德": "Al Riyadh", "艾利雅得": "Al Riyadh",
 }
 
@@ -369,6 +371,7 @@ TEAM_ZH = {
     "Tottenham": "熱刺", "Tottenham Hotspur": "熱刺",
     "Coventry": "高雲地利", "Coventry City": "高雲地利",
     "Diriyah": "迪里耶會", "Diriyah Club": "迪里耶會", "Al Riyadh": "艾利雅德",
+    "Gamba Osaka (Jpn)": "大阪飛腳", "Buriram United (Tha)": "武里南聯",
 }
 def load_alias_map():
     """讀取專案內的 alias_map.csv；只作隊名配對，不會創造賽果。"""
