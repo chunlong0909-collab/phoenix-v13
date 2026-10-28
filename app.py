@@ -2182,7 +2182,8 @@ REMOTE_TEAM_CSV_API = "https://api.github.com/repos/chunlong0909-collab/phoenix-
 
 def load_remote_team_directory():
     """只讀GitHub main隊伍目錄；不讀本地teams.csv作為目錄來源。"""
-    response = requests.get(REMOTE_TEAM_CSV_URL, timeout=12)
+    # 加時間參數避免GitHub raw CDN在append後短時間返回舊CSV。
+    response = requests.get(REMOTE_TEAM_CSV_URL, params={"v": int(datetime.now().timestamp())}, timeout=12)
     response.raise_for_status()
     table = pd.read_csv(StringIO(response.text), dtype=str, encoding="utf-8-sig").fillna("")
     column = "official_name" if "official_name" in table.columns else "team_name"
