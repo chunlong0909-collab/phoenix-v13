@@ -977,6 +977,16 @@ def get_team_directory(league, api_token, fd_token, crawl_url):
         names.update(str(x).strip() for x in (item.get("team_directory") or []) if str(x).strip())
     except (OSError, ValueError, TypeError):
         pass
+    # AFC 目錄要直接讀取已提交的最新 teams.csv；不能只依賴 SQLite／舊賽果反推。
+    # 這個讀取是 append/merge，不會覆蓋任何真實賽果或其他聯賽隊伍。
+    if canonical_league_name(league) == "亞冠精英盃":
+        afc_teams_csv = Path(__file__).parent / "data" / "leagues" / "afc-champions-league-elite" / "teams.csv"
+        try:
+            static_teams = pd.read_csv(afc_teams_csv, dtype=str, encoding="utf-8-sig").fillna("")
+            if "team_name" in static_teams.columns:
+                names.update(str(x).strip() for x in static_teams["team_name"] if str(x).strip())
+        except (OSError, ValueError, pd.errors.ParserError):
+            pass
     names = sorted(names)
     if not names:
         raise ValueError("沒有任何可用球隊")
