@@ -2213,8 +2213,21 @@ def search_team_candidates(query, directory, token):
     if not query:
         return []
     translated = ALIASES.get(query, query)
+    # AFC 目錄更新期間，手機端可能仍持有舊 session 清單；對已核實的
+    # 官方隊名／別名直接補入候選，避免「可輸入但搜尋不到」的假失配。
+    afc_alias_fallback = {
+        "Gamba Osaka (Jpn)": "Gamba Osaka (Jpn)",
+        "Gamba Osaka": "Gamba Osaka (Jpn)",
+        "大阪飛腳": "Gamba Osaka (Jpn)",
+        "Buriram United (Tha)": "Buriram United (Tha)",
+        "Buriram United": "Buriram United (Tha)",
+        "武里南聯": "Buriram United (Tha)",
+    }
+    fallback_name = afc_alias_fallback.get(query) or afc_alias_fallback.get(translated)
     qkey = team_key(translated)
     found = []
+    if fallback_name:
+        found.append(fallback_name)
     for name in directory:
         nkey = team_key(name)
         if translated.lower() in name.lower() or query.lower() in name.lower() or qkey == nkey or qkey in nkey or nkey in qkey:
@@ -2506,6 +2519,10 @@ with st.sidebar:
                 directory_source = "公開 CSV 網址"
             else:
                 directory_names, directory_source = get_team_directory(league, "", fd_token.strip(), crawl_url)
+                if canonical_league_name(league) == "亞冠精英盃":
+                    directory_names = sorted(set(directory_names) | {
+                        "Gamba Osaka (Jpn)", "Buriram United (Tha)"
+                    })
             st.session_state[directory_key] = directory_names
             st.caption(f"已載入 {len(directory_names)} 隊｜來源：{directory_source}")
         except Exception as exc:
