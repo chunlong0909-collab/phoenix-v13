@@ -1,36 +1,154 @@
-﻿team_name,region,source
-Beijing Guoan (Chn),East Asia,AFC Elite local directory; match names normalized where available
-Daejeon (Kor),East Asia,AFC Elite local directory; match names normalized where available
-Gamba Osaka (Jpn),East Asia,AFC Elite local directory; match names normalized where available
-Buriram United (Tha),East Asia,AFC Elite local directory; official AFC opponent name
-Jeonbuk (Kor),East Asia,AFC Elite local directory; match names normalized where available
-Kashima Antlers (Jpn),East Asia,AFC Elite local directory; match names normalized where available
-Kashiwa Reysol (Jpn),East Asia,AFC Elite local directory; match names normalized where available
-Kyoto (Jpn),East Asia,AFC Elite local directory; match names normalized where available
-Pohang (Kor),East Asia,AFC Elite local directory; match names normalized where available
-Shanghai Port (Chn),East Asia,AFC Elite local directory; match names normalized where available
-Vissel Kobe (Jpn),East Asia,AFC Elite local directory; match names normalized where available
-Sanfrecce Hiroshima (Jpn),East Asia,AFC Elite local directory; match names normalized where available
-Ulsan HD (Kor),East Asia,AFC Elite local directory; match names normalized where available
-Urawa Red Diamonds (Jpn),East Asia,AFC Elite official directory; J1 official name
-Yokohama F Marinos (Jpn),East Asia,AFC Elite official directory; J1 official name
-Kawasaki Frontale (Jpn),East Asia,AFC Elite official directory; J1 official name
-FC Tokyo (Jpn),East Asia,AFC Elite official directory; J1 official name
-Cerezo Osaka (Jpn),East Asia,AFC Elite official directory; J1 official name
-Al Hilal (Sau),West Asia,AFC Elite official directory; Saudi official name
-Al Nassr (Sau),West Asia,AFC Elite official directory; Saudi official name
-Shabab Al Ahli (Uae),West Asia,AFC Elite official directory; UAE official name
-Ajman Club (Uae),West Asia,UAE Pro League official name
-Aberdeen (Sco),Other,Scottish official club name
-Zwolle (Ned),Other,Dutch official club name
-Albirex Niigata (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Avispa Fukuoka (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Consadole Sapporo (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Jubilo Iwata (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Kyoto Sanga (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Machida Zelvia (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Nagoya Grampus (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Sagan Tosu (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Shonan Bellmare (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Tokyo Verdy (Jpn),East Asia,574 catalog verified team directory; no score/player data invented
-Daejeon Hana Citizen (Kor),East Asia,574 catalog verified team directory; no score/player data invented
+﻿team_name,region,source,tier,manager,squad,source_url
+Beijing Guoan (Chn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Daejeon (Kor),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Gamba Osaka (Jpn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Buriram United (Tha),East Asia,AFC Elite local directory; official AFC opponent name,,,,
+Jeonbuk (Kor),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Kashima Antlers (Jpn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Kashiwa Reysol (Jpn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Kyoto (Jpn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Pohang (Kor),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Shanghai Port (Chn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Vissel Kobe (Jpn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Sanfrecce Hiroshima (Jpn),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Ulsan HD (Kor),East Asia,AFC Elite local directory; match names normalized where available,,,,
+Urawa Red Diamonds (Jpn),East Asia,AFC Elite official directory; J1 official name,,,,
+Yokohama F Marinos (Jpn),East Asia,AFC Elite official directory; J1 official name,,,,
+Kawasaki Frontale (Jpn),East Asia,AFC Elite official directory; J1 official name,,,,
+FC Tokyo (Jpn),East Asia,AFC Elite official directory; J1 official name,,,,
+Cerezo Osaka (Jpn),East Asia,AFC Elite official directory; J1 official name,,,,
+Al Hilal (Sau),West Asia,AFC Elite official directory; Saudi official name,,,,
+Al Nassr (Sau),West Asia,AFC Elite official directory; Saudi official name,,,,
+Shabab Al Ahli (Uae),West Asia,AFC Elite official directory; UAE official name,,,,
+Ajman Club (Uae),West Asia,UAE Pro League official name,,,,
+Aberdeen (Sco),Other,Scottish official club name,,,,
+Zwolle (Ned),Other,Dutch official club name,,,,
+Albirex Niigata (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Avispa Fukuoka (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Consadole Sapporo (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Jubilo Iwata (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Kyoto Sanga (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Machida Zelvia (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Nagoya Grampus (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Sagan Tosu (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Shonan Bellmare (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Tokyo Verdy (Jpn),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Daejeon Hana Citizen (Kor),East Asia,574 catalog verified team directory; no score/player data invented,,,,
+Mito HollyHock (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+V-Varen Nagasaki (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+JEF United Chiba (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Tokushima Vortis (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+RB Omiya Ardija (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Vegalta Sendai (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Iwaki FC (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Montedio Yamagata (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+FC Imabari (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Hokkaido Consadole Sapporo (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Ventforet Kofu (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Blaublitz Akita (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Fujieda MYFC (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Oita Trinita (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Kataller Toyama (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Roasso Kumamoto (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Renofa Yamaguchi FC (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Ehime FC (Jpn),East Asia,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/; directory_only; official J2 League name,tier2,,,https://aboutj.jleague.jp/seasonreview2025/en/2025-j-league/j_2/
+Tochigi City FC (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Vanraure Hachinohe (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+FC Osaka (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Tegevajaro Miyazaki (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Kagoshima United FC (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Zweigen Kanazawa (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Tochigi SC (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Giravanz Kitakyushu (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Nara Club (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Fukushima United FC (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Gainare Tottori (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+S.C. Sagamihara (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+FC Gifu (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Thespa Gunma (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Matsumoto Yamaga F.C. (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+FC Ryukyu (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Kamatamare Sanuki (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Kochi United SC (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+AC Nagano Parceiro (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Azul Claro Numazu (Jpn),East Asia,https://www.jleague.jp/en/j3/standings/2025/; directory_only; official J3 League name,tier2,,,https://www.jleague.jp/en/j3/standings/2025/
+Jeonbuk Hyundai Motors (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Gimcheon Sangmu (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Pohang Steelers (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Gangwon FC (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+FC Seoul (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Gwangju FC (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+FC Anyang (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Suwon FC (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Jeju SK (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Daegu FC (Kor),East Asia,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876; directory_only; official K League 1 name,tier2,,,https://www.kleague.com/news_view.do?orderBy=seq&viewOption=album&seq=93876
+Ansan Greeners FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Busan IPark (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Cheonan City FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Chungbuk Cheongju FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Chungnam Asan FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Gimhae FC 2008 (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Gimpo FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Gyeongnam FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Hwaseong FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Jeonnam Dragons FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Paju Citizen FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Seongnam FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Seoul E-Land FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Suwon Samsung Bluewings (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Yongin FC (Kor),East Asia,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7; directory_only; official K League 2 name,tier2,,,https://www.kleague.com/news_view.do?seq=94460&category=league&orderBy=seq&viewOption=album&page=7
+Sisaket United (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+True Bangkok United (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Port FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Singha Chiangrai United (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Ayutthaya United (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Pattani FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Uthai Thani FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Chonburi FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Rasisalai United (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Sukhothai FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Ratchaburi FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+BG Pathum United (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Lamphun Warriors (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+PT Prachuap FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Rayong FC (Tha),Southeast Asia,https://thaileague.co.th/; directory_only; official Thai League 1 name,tier2,,,https://thaileague.co.th/
+Abha (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Ahli SC (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Ettifaq (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Faisaly (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Fateh (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Fayha (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Hazem (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Ittihad (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Khaleej (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Kholood (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Qadsiah (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Riyadh (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Shabab (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Taawoun (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Diriyah Club (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+NEOM (Sau),West Asia,https://www.spl.com.sa/; directory_only; official Saudi Pro League name,tier2,,,https://www.spl.com.sa/
+Al Ain (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Al Bataeh (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Al Dhafra (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Al Jazira (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Al Nasr (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Al Wahda (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Al Wasl (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Bani Yas (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Dibba (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Kalba (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Khorfakkan (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Sharjah (Uae),West Asia,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548; directory_only; official UAE Pro League name,tier2,,,https://www.uaeproleague.ae/en/news-and-gallery/adnoc-pro-league-548
+Al Ahli (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Arabi (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Wakrah (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Qatar SC (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Rayyan (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Sadd (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Gharafa (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Shamal (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Duhail (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Shahania (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Lusail (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
+Al Sailiya (Qat),West Asia,https://www.qsl.qa/en; directory_only; official Qatar Stars League name,tier2,,,https://www.qsl.qa/en
