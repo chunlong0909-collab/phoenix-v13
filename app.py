@@ -2746,6 +2746,11 @@ if run:
     # 必須和上方「先載入本聯賽球隊清單」使用同一個版本化 key。
     # 舊版這裡仍讀 teams_{league}，會令畫面已顯示新目錄，但分析時退回舊13隊。
     directory = st.session_state.get(directory_key, [])
+    # 手機舊 session 可能保留了已選隊伍，但尚未建立新版目錄 key；
+    # 分析時自動從已提交的 AFC teams.csv 補載，不要求使用者再按一次按鈕。
+    if not directory and canonical_league_name(league) == "亞冠精英盃":
+        directory, directory_source = get_team_directory(league, "", "", "")
+        st.session_state[directory_key] = directory
     all_candidates = sorted(set(directory) | set(teams))
     hm = resolve_team_name(home, all_candidates, "")
     am = resolve_team_name(away, all_candidates, "")
