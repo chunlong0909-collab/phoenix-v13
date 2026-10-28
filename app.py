@@ -1973,6 +1973,32 @@ def _load_local_competition_json(league_id, display_name):
         return out.reset_index(drop=True)
     except (OSError, ValueError, TypeError, json.JSONDecodeError):
         return pd.DataFrame()
+
+
+def _load_local_competition_csv(league_id, display_name):
+    """讀取聯賽原始CSV；JSON為空時仍保留真實FT樣本。"""
+    path = Path(__file__).parent / "data" / "leagues" / league_id / "matches.csv"
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        raw = pd.read_csv(path)
+        required = {"date", "home_team", "away_team", "home_goals", "away_goals"}
+        if not required.issubset(raw.columns):
+            return pd.DataFrame()
+        out = pd.DataFrame({
+            "Date": raw["date"], "Home": raw["home_team"], "Away": raw["away_team"],
+            "HG": pd.to_numeric(raw["home_goals"], errors="coerce"),
+            "AG": pd.to_numeric(raw["away_goals"], errors="coerce"),
+            "HC": pd.to_numeric(raw["home_corners"], errors="coerce") if "home_corners" in raw else np.nan,
+            "AC": pd.to_numeric(raw["away_corners"], errors="coerce") if "away_corners" in raw else np.nan,
+            "league": display_name,
+            "season": raw["season"] if "season" in raw else "local-csv",
+            "source": raw["source"] if "source" in raw else f"本地{display_name} CSV",
+        }).dropna(subset=["Date", "Home", "Away", "HG", "AG"])
+        out["DateParsed"] = pd.to_datetime(out["Date"], errors="coerce", dayfirst=True)
+        return out.reset_index(drop=True)
+    except (OSError, ValueError, TypeError, pd.errors.ParserError):
+        return pd.DataFrame()
 def _load_afc_auxiliary_history():
     """讀取已核實的UAE/Iran跨賽季樣本；不生成比分。"""
     path = Path(__file__).parent / "data" / "match_history" / "uae_iran_history.csv"
@@ -1993,20 +2019,29 @@ def _load_afc_auxiliary_history():
 
 
 def afc_cross_league_matches(afc_matches):
-    """亞冠精英盃專用樣本擴充：合併本地K1/J1，絕不生成或估算賽果。"""
+    """亞冠精英盃專用樣本擴充：合併參賽隊所屬本地聯賽真實賽果。"""
     if afc_matches.empty:
         return afc_matches
     additions = []
     auxiliary = _load_afc_auxiliary_history()
     if not auxiliary.empty:
         additions.append(auxiliary)
-    for league_id, display_name in (("k1", "韓職K1"), ("j1", "日職J1")):
+    # 東亞隊使用 K1/J1；Buriram United 使用泰超。
+    # 所有來源均為本地已保存的真實 FT，沒有估算或填充比分。
+    for league_id, display_name in (
+        ("k1", "韓職K1"),
+        ("j1", "日職J1"),
+        ("thai-league1", "泰國甲組聯賽"),
+    ):
         from_history = match_history_cache(display_name, MATCH_HISTORY_CACHE_VERSION)
         from_json = _load_local_competition_json(league_id, display_name)
+        from_csv = _load_local_competition_csv(league_id, display_name)
         if not from_history.empty:
             additions.append(from_history)
         if not from_json.empty:
             additions.append(from_json)
+        if not from_csv.empty:
+            additions.append(from_csv)
     if not additions:
         return afc_matches
     extra = pd.concat(additions, ignore_index=True)
@@ -2033,6 +2068,9 @@ def afc_cross_league_matches(afc_matches):
     combined = pd.concat([afc_matches.assign(source_league="亞冠精英盃"), extra], ignore_index=True)
     dedupe_cols = ["Date", "Home", "Away", "HG", "AG"]
     combined = combined.drop_duplicates(subset=[c for c in dedupe_cols if c in combined.columns])
+    # 不同本地來源可能混用無時區日期及 ISO-8601 Z 日期；統一成 UTC
+    # 才可以安全排序，不能因日期格式差異丟失真實樣本。
+    combined["DateParsed"] = pd.to_datetime(combined["DateParsed"], errors="coerce", utc=True)
     combined = combined.sort_values("DateParsed", na_position="last").reset_index(drop=True)
     # 保留可追蹤的真實樣本證據；此處只統計，不生成或修改任何比分。
     print(
