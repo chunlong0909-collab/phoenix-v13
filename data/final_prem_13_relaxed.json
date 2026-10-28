@@ -1,0 +1,3113 @@
+{
+  "Manchester City (Eng)": {
+    "team": "Manchester City (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Pep Guardiola",
+    "source_urls": [
+      "https://www.mancity.com/news/mens/manchester-city-squad-photo-202526-63895079",
+      "https://www.mancity.com/news/mens/new-signings-squad-numbers-fifa-club-world-cup-man-city-63885247",
+      "https://www.mancity.com/players/mens",
+      "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025",
+      "https://www.footballsquads.co.uk/eng/2025-2026/engprem/mancity.htm"
+    ],
+    "players": [
+      {
+        "name": "James Trafford",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/james-trafford",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Marcus Bettinelli",
+        "position": "GK",
+        "shirt_number": 13,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/marcus-bettinelli",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Gianluigi Donnarumma",
+        "position": "GK",
+        "shirt_number": 25,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.mancity.com/players/gianluigi-donnarumma",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Rúben Dias",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.mancity.com/players/ruben-dias",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "John Stones",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/john-stones",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Nathan Aké",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.mancity.com/players/nathan-ake",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Marc Guéhi",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/marc-guehi",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Rayan Aït-Nouri",
+        "position": "DF",
+        "shirt_number": 21,
+        "nationality": "Algeria",
+        "source_urls": [
+          "https://www.mancity.com/players/rayan-ait-nouri",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Joško Gvardiol",
+        "position": "DF",
+        "shirt_number": 24,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://www.mancity.com/players/josko-gvardiol",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Nico O’Reilly",
+        "position": "DF",
+        "shirt_number": 33,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/nico-oreilly",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Abdukodir Khusanov",
+        "position": "DF",
+        "shirt_number": 45,
+        "nationality": "Uzbekistan",
+        "source_urls": [
+          "https://www.mancity.com/players/abdukodir-khusanov",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Rico Lewis",
+        "position": "DF",
+        "shirt_number": 82,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/rico-lewis",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Max Alleyne",
+        "position": "DF",
+        "shirt_number": 68,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/max-alleyne",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Tijjani Reijnders",
+        "position": "MF",
+        "shirt_number": 4,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.mancity.com/players/tijjani-reijnders",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Mateo Kovačić",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://www.mancity.com/players/mateo-kovacic",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Rayan Cherki",
+        "position": "MF",
+        "shirt_number": 10,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.mancity.com/players/rayan-cherki",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Nicolás González",
+        "position": "MF",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.mancity.com/players/nico-gonzalez",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Rodri",
+        "position": "MF",
+        "shirt_number": 16,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.mancity.com/players/rodri",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Bernardo Silva",
+        "position": "MF",
+        "shirt_number": 20,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.mancity.com/players/bernardo-silva",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Matheus Nunes",
+        "position": "MF",
+        "shirt_number": 27,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.mancity.com/players/matheus-nunes",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Phil Foden",
+        "position": "MF",
+        "shirt_number": 47,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.mancity.com/players/phil-foden",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Omar Marmoush",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "Egypt",
+        "source_urls": [
+          "https://www.mancity.com/players/omar-marmoush",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Erling Haaland",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://www.mancity.com/players/erling-haaland",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Jérémy Doku",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.mancity.com/players/jeremy-doku",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Sávio",
+        "position": "FW",
+        "shirt_number": 26,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.mancity.com/players/savio",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      },
+      {
+        "name": "Antoine Semenyo",
+        "position": "FW",
+        "shirt_number": 42,
+        "nationality": "Ghana",
+        "source_urls": [
+          "https://www.mancity.com/players/antoine-semenyo",
+          "https://www.espn.com/soccer/team/squad/_/id/382/league/ENG.1/season/2025"
+        ],
+        "evidence": "Official Manchester City player directory plus ESPN 2025/26 season squad record; shirt number cross-checked against the season squad listing and official 2025/26 club material."
+      }
+    ],
+    "player_count": 26
+  },
+  "Liverpool (Eng)": {
+    "team": "Liverpool (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Arne Slot",
+    "source_urls": [
+      "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+      "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+      "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions",
+      "https://www.premierleague.com/en/clubs/14/liverpool/squad"
+    ],
+    "players": [
+      {
+        "name": "Alisson Becker",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Conor Bradley",
+        "position": "DF",
+        "shirt_number": 12,
+        "nationality": "Northern Ireland",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Hugo Ekitike",
+        "position": "FW",
+        "shirt_number": 22,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Wataru Endo",
+        "position": "MF",
+        "shirt_number": 3,
+        "nationality": "Japan",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Jeremie Frimpong",
+        "position": "DF",
+        "shirt_number": 30,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Cody Gakpo",
+        "position": "FW",
+        "shirt_number": 18,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Joe Gomez",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Ryan Gravenberch",
+        "position": "MF",
+        "shirt_number": 38,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Alexander Isak",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Curtis Jones",
+        "position": "MF",
+        "shirt_number": 17,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Milos Kerkez",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Hungary",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Ibrahima Konate",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Giovanni Leoni",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Alexis Mac Allister",
+        "position": "MF",
+        "shirt_number": 10,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Giorgi Mamardashvili",
+        "position": "GK",
+        "shirt_number": 25,
+        "nationality": "Georgia",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Rio Ngumoha",
+        "position": "FW",
+        "shirt_number": 73,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Andy Robertson",
+        "position": "DF",
+        "shirt_number": 26,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Mohamed Salah",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Egypt",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Dominik Szoboszlai",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Hungary",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Virgil van Dijk",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpool-submit-champions-league-squad-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Florian Wirtz",
+        "position": "MF",
+        "shirt_number": 7,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      },
+      {
+        "name": "Freddie Woodman",
+        "position": "GK",
+        "shirt_number": 28,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.liverpoolfc.com/news/liverpools-squad-numbers-confirmed-2025-26",
+          "https://fbref.com/en/squads/822bd0ba/2025-2026/all_comps/Liverpool-Stats-All-Competitions"
+        ]
+      }
+    ],
+    "player_count": 22
+  },
+  "Manchester United (Eng)": {
+    "team": "Manchester United (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Ruben Amorim",
+    "source_urls": [
+      "https://www.manutd.com/en/news/man-utd-premier-league-squad-2025-confirmed",
+      "https://www.espn.com/soccer/player/_/id/274272/altay-bayindir",
+      "https://www.espn.com/soccer/player/_/id/42250/tom-heaton",
+      "https://www.espn.com/soccer/player/_/id/301425/senne-lammens",
+      "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+      "https://www.espn.com/soccer/player/_/id/238902/diogo-dalot",
+      "https://www.espn.com/soccer/player/_/id/239350/noussair-mazraoui",
+      "https://www.espn.com/soccer/player/_/id/239349/matthijs-de-ligt",
+      "https://www.espn.com/soccer/player/_/id/157073/harry-maguire",
+      "https://www.espn.com/soccer/player/_/id/233937/lisandro-martinez",
+      "https://www.espn.com/soccer/player/_/id/366781/patrick-dorgu",
+      "https://www.espn.com/soccer/player/_/id/340206/leny-yoro",
+      "https://www.espn.com/soccer/player/_/id/167127/luke-shaw",
+      "https://www.manutd.com/en/teams/mens-team/ayden-heaven",
+      "https://www.espn.com/soccer/player/_/id/356044/ayden-heaven",
+      "https://www.manutd.com/en/teams/mens-team/harry-amass",
+      "https://www.espn.com/soccer/team/squad/_/id/360/season/2025/sort/appearances",
+      "https://www.espn.com/soccer/player/_/id/231167/mason-mount",
+      "https://www.espn.com/soccer/player/_/id/124091/bruno-fernandes",
+      "https://www.espn.com/soccer/player/_/id/173666/casemiro",
+      "https://www.espn.com/soccer/player/_/id/241468/manuel-ugarte",
+      "https://www.manutd.com/en/teams/mens-team/kobbie-mainoo",
+      "https://www.espn.com/soccer/player/_/id/328466/kobbie-mainoo",
+      "https://www.manutd.com/en/teams/mens-team/jack-fletcher",
+      "https://www.espn.com/soccer/player/_/id/205081/jack-fletcher",
+      "https://www.manutd.com/en/teams/mens-team/tyler-fletcher",
+      "https://www.espn.com/soccer/player/_/id/393138/tyler-fletcher",
+      "https://www.manutd.com/en/teams/mens-team/matheus-cunha",
+      "https://www.espn.com/soccer/player/_/id/259902/matheus-cunha",
+      "https://www.manutd.com/en/teams/mens-team/joshua-zirkzee",
+      "https://www.espn.com/soccer/player/_/id/276327/joshua-zirkzee",
+      "https://www.manutd.com/en/teams/mens-team/amad-diallo",
+      "https://www.espn.com/soccer/player/_/id/291630/amad-diallo",
+      "https://www.manutd.com/en/teams/mens-team/bryan-mbeumo",
+      "https://www.espn.com/soccer/player/_/id/271170/bryan-mbeumo",
+      "https://www.manutd.com/en/teams/mens-team/benjamin-sesko",
+      "https://www.espn.com/soccer/player/_/id/289155/benjamin-sesko",
+      "https://www.espn.com/soccer/player/_/id/358180/shea-lacey"
+    ],
+    "players": [
+      {
+        "name": "Altay Bayindir",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Türkiye",
+        "source_urls": [
+          "https://www.manutd.com/en/news/man-utd-premier-league-squad-2025-confirmed",
+          "https://www.espn.com/soccer/player/_/id/274272/altay-bayindir"
+        ]
+      },
+      {
+        "name": "Tom Heaton",
+        "position": "GK",
+        "shirt_number": 22,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/news/man-utd-premier-league-squad-2025-confirmed",
+          "https://www.espn.com/soccer/player/_/id/42250/tom-heaton"
+        ]
+      },
+      {
+        "name": "Senne Lammens",
+        "position": "GK",
+        "shirt_number": 31,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.manutd.com/en/news/man-utd-premier-league-squad-2025-confirmed",
+          "https://www.espn.com/soccer/player/_/id/301425/senne-lammens"
+        ]
+      },
+      {
+        "name": "Diogo Dalot",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/238902/diogo-dalot"
+        ]
+      },
+      {
+        "name": "Noussair Mazraoui",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/239350/noussair-mazraoui"
+        ]
+      },
+      {
+        "name": "Matthijs de Ligt",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/239349/matthijs-de-ligt"
+        ]
+      },
+      {
+        "name": "Harry Maguire",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/157073/harry-maguire"
+        ]
+      },
+      {
+        "name": "Lisandro Martinez",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/233937/lisandro-martinez"
+        ]
+      },
+      {
+        "name": "Patrick Dorgu",
+        "position": "DF",
+        "shirt_number": 13,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/366781/patrick-dorgu"
+        ]
+      },
+      {
+        "name": "Leny Yoro",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/340206/leny-yoro"
+        ]
+      },
+      {
+        "name": "Luke Shaw",
+        "position": "DF",
+        "shirt_number": 23,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/167127/luke-shaw"
+        ]
+      },
+      {
+        "name": "Ayden Heaven",
+        "position": "DF",
+        "shirt_number": 26,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/ayden-heaven",
+          "https://www.espn.com/soccer/player/_/id/356044/ayden-heaven"
+        ]
+      },
+      {
+        "name": "Harry Amass",
+        "position": "DF",
+        "shirt_number": 41,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/harry-amass",
+          "https://www.espn.com/soccer/team/squad/_/id/360/season/2025/sort/appearances"
+        ]
+      },
+      {
+        "name": "Mason Mount",
+        "position": "MF",
+        "shirt_number": 7,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/231167/mason-mount"
+        ]
+      },
+      {
+        "name": "Bruno Fernandes",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/124091/bruno-fernandes"
+        ]
+      },
+      {
+        "name": "Casemiro",
+        "position": "MF",
+        "shirt_number": 18,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/173666/casemiro"
+        ]
+      },
+      {
+        "name": "Manuel Ugarte",
+        "position": "MF",
+        "shirt_number": 25,
+        "nationality": "Uruguay",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/241468/manuel-ugarte"
+        ]
+      },
+      {
+        "name": "Kobbie Mainoo",
+        "position": "MF",
+        "shirt_number": 37,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/kobbie-mainoo",
+          "https://www.espn.com/soccer/player/_/id/328466/kobbie-mainoo"
+        ]
+      },
+      {
+        "name": "Jack Fletcher",
+        "position": "MF",
+        "shirt_number": 38,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/jack-fletcher",
+          "https://www.espn.com/soccer/player/_/id/205081/jack-fletcher"
+        ]
+      },
+      {
+        "name": "Tyler Fletcher",
+        "position": "MF",
+        "shirt_number": 39,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/tyler-fletcher",
+          "https://www.espn.com/soccer/player/_/id/393138/tyler-fletcher"
+        ]
+      },
+      {
+        "name": "Matheus Cunha",
+        "position": "FW",
+        "shirt_number": 10,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/matheus-cunha",
+          "https://www.espn.com/soccer/player/_/id/259902/matheus-cunha"
+        ]
+      },
+      {
+        "name": "Joshua Zirkzee",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/joshua-zirkzee",
+          "https://www.espn.com/soccer/player/_/id/276327/joshua-zirkzee"
+        ]
+      },
+      {
+        "name": "Amad Diallo",
+        "position": "FW",
+        "shirt_number": 16,
+        "nationality": "Cote d’Ivoire",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/amad-diallo",
+          "https://www.espn.com/soccer/player/_/id/291630/amad-diallo"
+        ]
+      },
+      {
+        "name": "Bryan Mbeumo",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Cameroon",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/bryan-mbeumo",
+          "https://www.espn.com/soccer/player/_/id/271170/bryan-mbeumo"
+        ]
+      },
+      {
+        "name": "Benjamin Sesko",
+        "position": "FW",
+        "shirt_number": 30,
+        "nationality": "Slovenia",
+        "source_urls": [
+          "https://www.manutd.com/en/teams/mens-team/benjamin-sesko",
+          "https://www.espn.com/soccer/player/_/id/289155/benjamin-sesko"
+        ]
+      },
+      {
+        "name": "Shea Lacey",
+        "position": "FW",
+        "shirt_number": 61,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.manutd.com/en/news/detail/man-utd-announce-new-squad-numbers-for-2025-26-season",
+          "https://www.espn.com/soccer/player/_/id/358180/shea-lacey"
+        ]
+      }
+    ],
+    "player_count": 26
+  },
+  "Aston Villa (Eng)": {
+    "team": "Aston Villa (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Unai Emery",
+    "source_urls": [
+      "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+      "https://www.avfc.co.uk/news/2025/september/02/deadline-day-squad-numbers-confirmed/",
+      "https://www.avfc.co.uk/news/2025/october/26/aston-villa-v-manchester-city-report/",
+      "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+    ],
+    "players": [
+      {
+        "name": "Emiliano Martínez",
+        "position": "Goalkeeper",
+        "shirt_number": 23,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Marco Bizot",
+        "position": "Goalkeeper",
+        "shirt_number": 40,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Matty Cash",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Victor Lindelöf",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/02/deadline-day-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ezri Konsa",
+        "position": "Defender",
+        "shirt_number": 4,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Tyrone Mings",
+        "position": "Defender",
+        "shirt_number": 5,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Lucas Digne",
+        "position": "Defender",
+        "shirt_number": 12,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Pau Torres",
+        "position": "Defender",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Andrés García",
+        "position": "Defender",
+        "shirt_number": 16,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ian Maatsen",
+        "position": "Defender",
+        "shirt_number": 22,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "John McGinn",
+        "position": "Midfielder",
+        "shirt_number": 7,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Youri Tielemans",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Jadon Sancho",
+        "position": "Forward",
+        "shirt_number": 19,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/02/deadline-day-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Amadou Onana",
+        "position": "Midfielder",
+        "shirt_number": 24,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Boubacar Kamara",
+        "position": "Midfielder",
+        "shirt_number": 44,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Harvey Elliott",
+        "position": "Midfielder",
+        "shirt_number": 9,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/02/deadline-day-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Emiliano Buendía",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ollie Watkins",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Donyell Malen",
+        "position": "Forward",
+        "shirt_number": 17,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Morgan Rogers",
+        "position": "Forward",
+        "shirt_number": 27,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/03/villa-s-europa-league-squad-list/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Evann Guessand",
+        "position": "Forward",
+        "shirt_number": 29,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.avfc.co.uk/news/2025/september/02/deadline-day-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/362/league/ENG.1/season/2025"
+        ]
+      }
+    ],
+    "player_count": 21
+  },
+  "Everton (Eng)": {
+    "team": "Everton (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "David Moyes",
+    "source_urls": [
+      "https://www.evertonfc.com/teams/",
+      "https://x.com/Everton/status/1945121174972690936",
+      "https://www.evertonfc.com/news/2025/august/12/grealish-signs-for-everton-on-loan/",
+      "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025",
+      "https://www.toffeeweb.com/season/25-26/squad.php",
+      "https://fbref.com/en/squads/d3fd31cc/2025-2026/Everton-Stats",
+      "https://www.premierleague.com/en/managers/85/david-moyes"
+    ],
+    "players": [
+      {
+        "name": "Jordan Pickford",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Mark Travers",
+        "position": "GK",
+        "shirt_number": 12,
+        "nationality": "Republic of Ireland",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Tom King",
+        "position": "GK",
+        "shirt_number": 31,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Harry Tyrer",
+        "position": "GK",
+        "shirt_number": 38,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.toffeeweb.com/season/25-26/squad.php"
+        ]
+      },
+      {
+        "name": "Nathan Patterson",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Michael Keane",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "James Tarkowski",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Jake O'Brien",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "Republic of Ireland",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Vitalii Mykolenko",
+        "position": "DF",
+        "shirt_number": 19,
+        "nationality": "Ukraine",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.toffeeweb.com/season/25-26/squad.php"
+        ]
+      },
+      {
+        "name": "Seamus Coleman",
+        "position": "DF",
+        "shirt_number": 23,
+        "nationality": "Republic of Ireland",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Jarrad Branthwaite",
+        "position": "DF",
+        "shirt_number": 32,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Adam Aznou",
+        "position": "DF",
+        "shirt_number": 39,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Jack Grealish",
+        "position": "MF",
+        "shirt_number": 18,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/news/2025/august/12/grealish-signs-for-everton-on-loan/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Kiernan Dewsbury-Hall",
+        "position": "MF",
+        "shirt_number": 22,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Charly Alcaraz",
+        "position": "MF",
+        "shirt_number": 24,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Idrissa Gueye",
+        "position": "MF",
+        "shirt_number": 27,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Merlin Röhl",
+        "position": "MF",
+        "shirt_number": 34,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "James Garner",
+        "position": "MF",
+        "shirt_number": 37,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Tim Iroegbunam",
+        "position": "MF",
+        "shirt_number": 42,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Dwight McNeil",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Beto",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Guinea-Bissau",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Iliman Ndiaye",
+        "position": "FW",
+        "shirt_number": 10,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Thierno Barry",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      },
+      {
+        "name": "Tyler Dibling",
+        "position": "FW",
+        "shirt_number": 20,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.evertonfc.com/teams/",
+          "https://x.com/Everton/status/1945121174972690936",
+          "https://www.espn.com/soccer/team/squad?id=368&league=ENG.1&season=2025"
+        ]
+      }
+    ],
+    "player_count": 24
+  },
+  "Bournemouth (Eng)": {
+    "team": "Bournemouth (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Andoni Iraola",
+    "source_urls": [
+      "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+      "https://www.afcb.co.uk/teams/",
+      "https://fbref.com/en/squads/4ba7cbea/2025-2026/roster/Bournemouth-Roster-Details",
+      "https://www.transfermarkt.com/afc-bournemouth/kader/verein/989/saison_id/2025/plus/1",
+      "https://www.afcb.co.uk/news/2025/july/05/cherries-players-return-for-2025-26-pre-season/"
+    ],
+    "players": [
+      {
+        "name": "Kepa",
+        "position": "Goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/kepa",
+          "https://www.transfermarkt.com/kepa-arrizabalaga/profil/spieler/192279"
+        ]
+      },
+      {
+        "name": "Will Dennis",
+        "position": "Goalkeeper",
+        "shirt_number": 40,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/will-dennis",
+          "https://www.transfermarkt.com/will-dennis/profil/spieler/582078"
+        ]
+      },
+      {
+        "name": "Dean Huijsen",
+        "position": "Central Defender",
+        "shirt_number": 2,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/deanhuijsen",
+          "https://www.transfermarkt.com/dean-huijsen/profil/spieler/890533"
+        ]
+      },
+      {
+        "name": "Milos Kerkez",
+        "position": "Full Back",
+        "shirt_number": 3,
+        "nationality": "Hungary",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/milos-kerkez",
+          "https://www.transfermarkt.com/milos-kerkez/profil/spieler/668177"
+        ]
+      },
+      {
+        "name": "Marcos Senesi",
+        "position": "Central Defender",
+        "shirt_number": 5,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/marcos-senesi",
+          "https://www.transfermarkt.com/marcos-senesi/profil/spieler/469781"
+        ]
+      },
+      {
+        "name": "Adam Smith",
+        "position": "Full Back",
+        "shirt_number": 15,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/adam-smith",
+          "https://www.transfermarkt.com/adam-smith/profil/spieler/61798"
+        ]
+      },
+      {
+        "name": "Julio Soler",
+        "position": "Full Back",
+        "shirt_number": 20,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/juliosoler",
+          "https://www.transfermarkt.com/julio-soler/profil/spieler/1009658"
+        ]
+      },
+      {
+        "name": "Julián Araujo",
+        "position": "Full Back",
+        "shirt_number": 22,
+        "nationality": "Mexico",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/julianaraujo",
+          "https://www.transfermarkt.com/julian-araujo/profil/spieler/513970"
+        ]
+      },
+      {
+        "name": "James Hill",
+        "position": "Central Defender",
+        "shirt_number": 23,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/james-hill",
+          "https://www.transfermarkt.com/james-hill/profil/spieler/611793"
+        ]
+      },
+      {
+        "name": "Illia Zabarnyi",
+        "position": "Central Defender",
+        "shirt_number": 27,
+        "nationality": "Ukraine",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/illia-zabarnyi",
+          "https://www.transfermarkt.com/illia-zabarnyi/profil/spieler/633481"
+        ]
+      },
+      {
+        "name": "Lewis Cook",
+        "position": "Central Midfielder",
+        "shirt_number": 4,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/lewis-cook",
+          "https://www.transfermarkt.com/lewis-cook/profil/spieler/167268"
+        ]
+      },
+      {
+        "name": "David Brooks",
+        "position": "Attacking Midfielder",
+        "shirt_number": 7,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/david-brooks",
+          "https://www.transfermarkt.com/david-brooks/profil/spieler/259371"
+        ]
+      },
+      {
+        "name": "Alex Scott",
+        "position": "Central Midfielder",
+        "shirt_number": 8,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/alex-scott",
+          "https://www.transfermarkt.com/alex-scott/profil/spieler/670599"
+        ]
+      },
+      {
+        "name": "Ryan Christie",
+        "position": "Attacking Midfielder",
+        "shirt_number": 10,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/ryan-christie",
+          "https://www.transfermarkt.com/ryan-christie/profil/spieler/196765"
+        ]
+      },
+      {
+        "name": "Tyler Adams",
+        "position": "Defensive Midfielder",
+        "shirt_number": 12,
+        "nationality": "United States",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/tyler-adams",
+          "https://www.transfermarkt.com/tyler-adams/profil/spieler/332705"
+        ]
+      },
+      {
+        "name": "Marcus Tavernier",
+        "position": "Winger",
+        "shirt_number": 16,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/marcus-tavernier",
+          "https://www.transfermarkt.com/marcus-tavernier/profil/spieler/399776"
+        ]
+      },
+      {
+        "name": "Evanilson",
+        "position": "Striker",
+        "shirt_number": 9,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/evanilson",
+          "https://www.transfermarkt.com/evanilson/profil/spieler/585383"
+        ]
+      },
+      {
+        "name": "Dango Ouattara",
+        "position": "Winger",
+        "shirt_number": 11,
+        "nationality": "Burkina Faso",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/dango-ouattara",
+          "https://www.transfermarkt.com/dango-ouattara/profil/spieler/789496"
+        ]
+      },
+      {
+        "name": "Luis Sinisterra",
+        "position": "Winger",
+        "shirt_number": 17,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/luis-sinisterra",
+          "https://www.transfermarkt.com/luis-sinisterra/profil/spieler/412266"
+        ]
+      },
+      {
+        "name": "Justin Kluivert",
+        "position": "Winger",
+        "shirt_number": 19,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/justin-kluivert",
+          "https://www.transfermarkt.com/justin-kluivert/profil/spieler/330659"
+        ]
+      },
+      {
+        "name": "Daniel Jebbison",
+        "position": "Striker",
+        "shirt_number": 21,
+        "nationality": "Canada",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/danieljebbison",
+          "https://www.transfermarkt.com/daniel-jebbison/profil/spieler/648195"
+        ]
+      },
+      {
+        "name": "Antoine Semenyo",
+        "position": "Striker",
+        "shirt_number": 24,
+        "nationality": "Ghana",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/antoine-semenyo",
+          "https://www.transfermarkt.com/antoine-semenyo/profil/spieler/502049"
+        ]
+      },
+      {
+        "name": "Enes Ünal",
+        "position": "Striker",
+        "shirt_number": 26,
+        "nationality": "Turkey",
+        "source_urls": [
+          "https://web.archive.org/web/20251227010702/https://www.afcb.co.uk/teams/",
+          "https://www.afcb.co.uk/teams/first-team/enes-%C3%BCnal",
+          "https://www.transfermarkt.com/enes-unal/profil/spieler/263418"
+        ]
+      }
+    ],
+    "player_count": 23
+  },
+  "Fulham (Eng)": {
+    "team": "Fulham (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Marco Silva",
+    "source_urls": [
+      "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+      "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals",
+      "https://www.premierleague.com/en/clubs/54/fulham/squad",
+      "https://fbref.com/en/squads/fd962109/2025-2026/roster/Fulham-Roster-Details",
+      "https://en.wikipedia.org/wiki/2025%E2%80%9326_Fulham_F.C._season"
+    ],
+    "players": [
+      {
+        "name": "Bernd Leno",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Benjamin Lecomte",
+        "position": "Goalkeeper",
+        "shirt_number": 23,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Kenny Tete",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Calvin Bassey",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "Nigeria",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Joachim Andersen",
+        "position": "Defender",
+        "shirt_number": 5,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Jorge Cuenca",
+        "position": "Defender",
+        "shirt_number": 15,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Timothy Castagne",
+        "position": "Defender",
+        "shirt_number": 21,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Ryan Sessegnon",
+        "position": "Defender",
+        "shirt_number": 30,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Issa Diop",
+        "position": "Defender",
+        "shirt_number": 31,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Antonee Robinson",
+        "position": "Defender",
+        "shirt_number": 33,
+        "nationality": "United States",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Harrison Reed",
+        "position": "Midfielder",
+        "shirt_number": 6,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Tom Cairney",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": "Scotland",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Sander Berge",
+        "position": "Midfielder",
+        "shirt_number": 16,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Saša Lukić",
+        "position": "Midfielder",
+        "shirt_number": 20,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Alex Iwobi",
+        "position": "Forward",
+        "shirt_number": 17,
+        "nationality": "Nigeria",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Emile Smith Rowe",
+        "position": "Midfielder",
+        "shirt_number": 32,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Josh King",
+        "position": "Midfielder",
+        "shirt_number": 24,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Rodrigo Muniz",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Raúl Jiménez",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": "Mexico",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Harry Wilson",
+        "position": "Forward",
+        "shirt_number": 8,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Samuel Chukwueze",
+        "position": "Forward",
+        "shirt_number": 19,
+        "nationality": "Nigeria",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Jonah Kusi-Asare",
+        "position": "Forward",
+        "shirt_number": 18,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Kevin",
+        "position": "Forward",
+        "shirt_number": 22,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Samuel Amissah",
+        "position": "Defender",
+        "shirt_number": 35,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      },
+      {
+        "name": "Alfie McNally",
+        "position": "Goalkeeper",
+        "shirt_number": 40,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.fulhamfc.com/news/2025/august/14/2025-26-squad-numbers-confirmed/",
+          "https://www.espn.com/soccer/team/squad/_/id/370/season/2025/sort/totalGoals"
+        ]
+      }
+    ],
+    "player_count": 25
+  },
+  "Leeds United (Eng)": {
+    "team": "Leeds United (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Daniel Farke",
+    "source_urls": [
+      "https://web.archive.org/web/20250807122838/https://www.leedsunited.com/en/teams/mens",
+      "https://www.transfermarkt.com/lucas-perri/profil/spieler/352041",
+      "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+      "https://www.transfermarkt.com/illan-meslier/profil/spieler/542586",
+      "https://www.transfermarkt.com/karl-darlow/profil/spieler/99397",
+      "https://www.transfermarkt.com/alex-cairns/profil/spieler/194386",
+      "https://www.transfermarkt.com/pascal-struijk/profil/spieler/410708",
+      "https://www.transfermarkt.com/jaka-bijol/profil/spieler/371851",
+      "https://www.transfermarkt.com/joe-rodon/profil/spieler/297212",
+      "https://www.transfermarkt.com/sebastiaan-bornauw/profil/spieler/338629",
+      "https://www.transfermarkt.com/gabriel-gudmundsson/profil/spieler/362108",
+      "https://www.transfermarkt.com/jayden-bogle/profil/spieler/465717",
+      "https://www.transfermarkt.com/james-justin/profil/spieler/413220",
+      "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+      "https://www.transfermarkt.com/ethan-ampadu/profil/spieler/392771",
+      "https://www.transfermarkt.com/anton-stach/profil/spieler/344069",
+      "https://www.transfermarkt.com/ilia-gruev/profil/spieler/381753",
+      "https://www.transfermarkt.com/sean-longstaff/profil/spieler/346707",
+      "https://www.transfermarkt.com/ao-tanaka/profil/spieler/489359",
+      "https://www.transfermarkt.com/brenden-aaronson/profil/spieler/393323",
+      "https://www.transfermarkt.com/facundo-buonanotte/profil/spieler/983989",
+      "https://www.transfermarkt.com/noah-okafor/profil/spieler/346890",
+      "https://www.transfermarkt.com/wilfried-gnonto/profil/spieler/627626",
+      "https://www.transfermarkt.com/daniel-james/profil/spieler/319301",
+      "https://www.transfermarkt.com/dominic-calvert-lewin/profil/spieler/306024",
+      "https://www.transfermarkt.com/joel-piroe/profil/spieler/369962",
+      "https://www.transfermarkt.com/lukas-nmecha/profil/spieler/314288"
+    ],
+    "players": [
+      {
+        "name": "Lucas Perri",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20250807122838/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/lucas-perri/profil/spieler/352041"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates goalkeeper and nationality."
+      },
+      {
+        "name": "Illan Meslier",
+        "position": "Goalkeeper",
+        "shirt_number": 16,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/illan-meslier/profil/spieler/542586"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates goalkeeper and nationality."
+      },
+      {
+        "name": "Karl Darlow",
+        "position": "Goalkeeper",
+        "shirt_number": 26,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/karl-darlow/profil/spieler/99397"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates goalkeeper and listed Wales/England nationality."
+      },
+      {
+        "name": "Alex Cairns",
+        "position": "Goalkeeper",
+        "shirt_number": 21,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/alex-cairns/profil/spieler/194386"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates goalkeeper and nationality."
+      },
+      {
+        "name": "Pascal Struijk",
+        "position": "Defender",
+        "shirt_number": 5,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/pascal-struijk/profil/spieler/410708"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates centre-back and listed Netherlands/Belgium nationality."
+      },
+      {
+        "name": "Jaka Bijol",
+        "position": "Defender",
+        "shirt_number": 15,
+        "nationality": "Slovenia",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/jaka-bijol/profil/spieler/371851"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates centre-back and nationality."
+      },
+      {
+        "name": "Joe Rodon",
+        "position": "Defender",
+        "shirt_number": 6,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/joe-rodon/profil/spieler/297212"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates centre-back and nationality."
+      },
+      {
+        "name": "Sebastiaan Bornauw",
+        "position": "Defender",
+        "shirt_number": 23,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/sebastiaan-bornauw/profil/spieler/338629"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates centre-back and nationality."
+      },
+      {
+        "name": "Gabriel Gudmundsson",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/gabriel-gudmundsson/profil/spieler/362108"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates left-back and nationality."
+      },
+      {
+        "name": "Jayden Bogle",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/jayden-bogle/profil/spieler/465717"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates right-back and nationality."
+      },
+      {
+        "name": "James Justin",
+        "position": "Defender",
+        "shirt_number": 24,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/james-justin/profil/spieler/413220"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; official final-match team news also names Justin in the starting XI; Transfermarkt corroborates right-back and nationality."
+      },
+      {
+        "name": "Ethan Ampadu",
+        "position": "Midfielder",
+        "shirt_number": 4,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/ethan-ampadu/profil/spieler/392771"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final 2025/26 team news names Ampadu captain; Transfermarkt corroborates defensive-midfield role and listed Wales/England nationality."
+      },
+      {
+        "name": "Anton Stach",
+        "position": "Midfielder",
+        "shirt_number": 18,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/anton-stach/profil/spieler/344069"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt 25/26 profile corroborates midfield role and nationality."
+      },
+      {
+        "name": "Ilia Gruev",
+        "position": "Midfielder",
+        "shirt_number": 44,
+        "nationality": "Bulgaria",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/ilia-gruev/profil/spieler/381753"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt corroborates defensive-midfield role and listed Bulgaria/Germany nationality."
+      },
+      {
+        "name": "Sean Longstaff",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/sean-longstaff/profil/spieler/346707"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt corroborates central-midfield role and nationality."
+      },
+      {
+        "name": "Ao Tanaka",
+        "position": "Midfielder",
+        "shirt_number": 22,
+        "nationality": "Japan",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/ao-tanaka/profil/spieler/489359"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final 2025/26 team news names Tanaka in the starting XI; Transfermarkt corroborates central-midfield role and nationality."
+      },
+      {
+        "name": "Brenden Aaronson",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "United States",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/brenden-aaronson/profil/spieler/393323"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final team news names Aaronson in the attack; Transfermarkt corroborates attacking-midfield role and nationality."
+      },
+      {
+        "name": "Facundo Buonanotte",
+        "position": "Midfielder",
+        "shirt_number": 40,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/facundo-buonanotte/profil/spieler/983989"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final-match team news lists Buonanotte among substitutes; Transfermarkt corroborates attacking-midfield role and listed Argentina/Italy nationality."
+      },
+      {
+        "name": "Noah Okafor",
+        "position": "Forward",
+        "shirt_number": 19,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/noah-okafor/profil/spieler/346890"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt corroborates winger role and listed Switzerland/Nigeria nationality."
+      },
+      {
+        "name": "Wilfried Gnonto",
+        "position": "Forward",
+        "shirt_number": 29,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.transfermarkt.com/wilfried-gnonto/profil/spieler/627626"
+        ],
+        "evidence": "Official Leeds 2025/26 men's-team archive is the primary squad source for the shirt number; Transfermarkt corroborates winger role and listed Italy/Cote d'Ivoire nationality."
+      },
+      {
+        "name": "Daniel James",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/daniel-james/profil/spieler/319301"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final team news lists James among substitutes; Transfermarkt corroborates winger role and listed Wales/England nationality."
+      },
+      {
+        "name": "Dominic Calvert-Lewin",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/dominic-calvert-lewin/profil/spieler/306024"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final team news names Calvert-Lewin in the starting XI; Transfermarkt corroborates centre-forward role and nationality."
+      },
+      {
+        "name": "Joël Piroe",
+        "position": "Forward",
+        "shirt_number": 10,
+        "nationality": "Suriname",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/joel-piroe/profil/spieler/369962"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final team news lists Piroe among substitutes; Transfermarkt corroborates centre-forward role and listed Suriname/Netherlands nationality."
+      },
+      {
+        "name": "Lukas Nmecha",
+        "position": "Forward",
+        "shirt_number": 14,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://web.archive.org/web/20250930004503/https://www.leedsunited.com/en/teams/mens",
+          "https://www.leedsunited.com/en/news/team-news-daniel-farke-names-final-xi-of-2025-26-season",
+          "https://www.transfermarkt.com/lukas-nmecha/profil/spieler/314288"
+        ],
+        "evidence": "Official Leeds archive supplies the number; official final team news names Nmecha in the starting XI; Transfermarkt corroborates centre-forward role and listed Germany/England nationality."
+      }
+    ],
+    "player_count": 24
+  },
+  "Sunderland (Eng)": {
+    "team": "Sunderland (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Régis Le Bris",
+    "source_urls": [
+      "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+      "https://www.safc.com/teams/",
+      "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+      "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+    ],
+    "players": [
+      {
+        "name": "Anthony Patterson",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Simon Moore",
+        "position": "GK",
+        "shirt_number": 21,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Robin Roefs",
+        "position": "GK",
+        "shirt_number": 22,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Dennis Cirkin",
+        "position": "LB",
+        "shirt_number": 3,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Daniel Ballard",
+        "position": "CB",
+        "shirt_number": 5,
+        "nationality": "Northern Ireland",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Lutsharel Geertruida",
+        "position": "RB",
+        "shirt_number": 6,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Luke O'Nien",
+        "position": "CB",
+        "shirt_number": 13,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Omar Alderete",
+        "position": "CB",
+        "shirt_number": 15,
+        "nationality": "Paraguay",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Reinildo Mandava",
+        "position": "LB",
+        "shirt_number": 17,
+        "nationality": "Mozambique",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Nordi Mukiele",
+        "position": "RB",
+        "shirt_number": 20,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Arthur Masuaku",
+        "position": "LB",
+        "shirt_number": 26,
+        "nationality": "DR Congo",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Trai Hume",
+        "position": "RB",
+        "shirt_number": 32,
+        "nationality": "Northern Ireland",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Leo Fuhr Hjelde",
+        "position": "CB",
+        "shirt_number": 33,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Zak Johnson",
+        "position": "CB",
+        "shirt_number": 41,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Aji Alese",
+        "position": "CB",
+        "shirt_number": 42,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Dan Neil",
+        "position": "CM",
+        "shirt_number": 4,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Chris Rigg",
+        "position": "AM",
+        "shirt_number": 11,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Habib Diarra",
+        "position": "CM",
+        "shirt_number": 19,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Noah Sadiki",
+        "position": "DM",
+        "shirt_number": 27,
+        "nationality": "DR Congo",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Enzo Le Fée",
+        "position": "CM",
+        "shirt_number": 28,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Granit Xhaka",
+        "position": "DM",
+        "shirt_number": 34,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Harrison Jones",
+        "position": "AM",
+        "shirt_number": 50,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Chemsdine Talbi",
+        "position": "RW",
+        "shirt_number": 7,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Brian Brobbey",
+        "position": "ST",
+        "shirt_number": 9,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Eliezer Mayenda",
+        "position": "ST",
+        "shirt_number": 12,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Romaine Mundle",
+        "position": "LW",
+        "shirt_number": 14,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Wilson Isidor",
+        "position": "ST",
+        "shirt_number": 18,
+        "nationality": "Haiti",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Simon Adingra",
+        "position": "LW",
+        "shirt_number": 24,
+        "nationality": "Ivory Coast",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Bertrand Traoré",
+        "position": "RW",
+        "shirt_number": 25,
+        "nationality": "Burkina Faso",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Ahmed Abdullahi",
+        "position": "ST",
+        "shirt_number": 29,
+        "nationality": "Nigeria",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Jocelin Ta Bi",
+        "position": "RW",
+        "shirt_number": 37,
+        "nationality": "Ivory Coast",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      },
+      {
+        "name": "Marc Guiu",
+        "position": "ST",
+        "shirt_number": 9,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "https://www.safc.com/teams/",
+          "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season"
+        ],
+        "evidence": {
+          "official_shirt_number_source": "https://www.safc.com/news/2025/august/14/squad-numbers-confirmed-for-2025-26-season/",
+          "official_team_identity_source": "https://www.safc.com/teams/",
+          "auxiliary_roster_source": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Sunderland_A.F.C._season",
+          "auxiliary_stats_source": "https://fbref.com/en/squads/8ef52968/2025-2026/Sunderland-Stats"
+        }
+      }
+    ],
+    "player_count": 32
+  },
+  "Nottingham Forest (Eng)": {
+    "team": "Nottingham Forest (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Ange Postecoglou (appointed 2025-09-09; Nuno Espírito Santo was head coach at the start of the season)",
+    "source_urls": [
+      "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+      "https://www.nottinghamforest.co.uk/teams/first-team/",
+      "https://www.nottinghamforest.co.uk/news/2025/september/09/forest-appoint-ange-postecoglou-as-head-coach/",
+      "https://fbref.com/en/squads/e4a775cb/2025-2026/Nottingham-Forest-Stats",
+      "https://www.transfermarkt.us/nottingham-forest/kader/verein/703/saison_id/2025"
+    ],
+    "players": [
+      {
+        "name": "Neco Williams",
+        "position": "defender",
+        "shirt_number": 3,
+        "nationality": "Wales",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/dd323728/Neco-Williams"
+        ]
+      },
+      {
+        "name": "Morato",
+        "position": "defender",
+        "shirt_number": 4,
+        "nationality": "Brazil",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/0f41e2ee/Morato"
+        ]
+      },
+      {
+        "name": "Murillo",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": "Brazil",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/1704b0b8/Murillo"
+        ]
+      },
+      {
+        "name": "Ibrahim Sangaré",
+        "position": "midfielder",
+        "shirt_number": 6,
+        "nationality": "Côte d’Ivoire",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/bced0375/Ibrahim-Sangare"
+        ]
+      },
+      {
+        "name": "Callum Hudson-Odoi",
+        "position": "winger",
+        "shirt_number": 7,
+        "nationality": "England",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/15f3ec41/Callum-Hudson-Odoi"
+        ]
+      },
+      {
+        "name": "Elliot Anderson",
+        "position": "midfielder",
+        "shirt_number": 8,
+        "nationality": "England",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/de31038e/Elliot-Anderson"
+        ]
+      },
+      {
+        "name": "Taiwo Awoniyi",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": "Nigeria",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/e5478b87/Taiwo-Awoniyi"
+        ]
+      },
+      {
+        "name": "Morgan Gibbs-White",
+        "position": "midfielder",
+        "shirt_number": 10,
+        "nationality": "England",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/32f60ed8/Morgan-Gibbs-White"
+        ]
+      },
+      {
+        "name": "Chris Wood",
+        "position": "forward",
+        "shirt_number": 11,
+        "nationality": "New Zealand",
+        "birth_year": 1991,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/4e9a0555/Chris-Wood"
+        ]
+      },
+      {
+        "name": "Dan Ndoye",
+        "position": "winger",
+        "shirt_number": 14,
+        "nationality": "Switzerland",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/8e697a8f/Dan-Ndoye"
+        ]
+      },
+      {
+        "name": "Nicolás Domínguez",
+        "position": "midfielder",
+        "shirt_number": 16,
+        "nationality": "Argentina",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/20b3a502/Nicolas-Dominguez"
+        ]
+      },
+      {
+        "name": "Eric da Silva Moreira",
+        "position": "defender",
+        "shirt_number": 17,
+        "nationality": "Germany",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://www.transfermarkt.us/nottingham-forest/kader/verein/703/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Angus Gunn",
+        "position": "goalkeeper",
+        "shirt_number": 18,
+        "nationality": "Scotland",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/e082af5b/Angus-Gunn"
+        ]
+      },
+      {
+        "name": "Igor Jesus",
+        "position": "forward",
+        "shirt_number": 19,
+        "nationality": "Brazil",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/dbe24cce/Igor-Jesus"
+        ]
+      },
+      {
+        "name": "Jota Silva",
+        "position": "midfielder",
+        "shirt_number": 20,
+        "nationality": "Portugal",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/4d77e622/Jota-Silva"
+        ]
+      },
+      {
+        "name": "Ryan Yates",
+        "position": "midfielder",
+        "shirt_number": 22,
+        "nationality": "England",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/c1fe2a48/Ryan-Yates"
+        ]
+      },
+      {
+        "name": "Jair Cunha",
+        "position": "defender",
+        "shirt_number": 23,
+        "nationality": "Brazil",
+        "birth_year": 2005,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/ac31d35e/Jair"
+        ]
+      },
+      {
+        "name": "Matz Sels",
+        "position": "goalkeeper",
+        "shirt_number": 26,
+        "nationality": "Belgium",
+        "birth_year": 1992,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/834b5c4c/Matz-Sels"
+        ]
+      },
+      {
+        "name": "Omar Richards",
+        "position": "defender",
+        "shirt_number": 27,
+        "nationality": "England",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://www.transfermarkt.us/nottingham-forest/kader/verein/703/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Willy Boly",
+        "position": "defender",
+        "shirt_number": 30,
+        "nationality": "Côte d’Ivoire",
+        "birth_year": 1991,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/a4ac4b8/Willy-Boly"
+        ]
+      },
+      {
+        "name": "Nikola Milenković",
+        "position": "defender",
+        "shirt_number": 31,
+        "nationality": "Serbia",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/bee704fc/Nikola-Milenkovic"
+        ]
+      },
+      {
+        "name": "Marko Stamenic",
+        "position": "midfielder",
+        "shirt_number": 32,
+        "nationality": "New Zealand",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://www.transfermarkt.us/nottingham-forest/kader/verein/703/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Carlos Miguel",
+        "position": "goalkeeper",
+        "shirt_number": 33,
+        "nationality": "Brazil",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://www.transfermarkt.us/nottingham-forest/kader/verein/703/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Ola Aina",
+        "position": "defender",
+        "shirt_number": 34,
+        "nationality": "Nigeria",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/246d153b/Ola-Aina"
+        ]
+      },
+      {
+        "name": "David Carmo",
+        "position": "defender",
+        "shirt_number": 36,
+        "nationality": "Portugal",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://www.transfermarkt.us/nottingham-forest/kader/verein/703/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Zach Abbott",
+        "position": "defender",
+        "shirt_number": 44,
+        "nationality": "England",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.nottinghamforest.co.uk/news/2025/august/15/forest-squad-numbers---2025-26/",
+          "https://fbref.com/en/players/c103921a/Zach-Abbott"
+        ]
+      }
+    ],
+    "player_count": 26
+  }
+}
