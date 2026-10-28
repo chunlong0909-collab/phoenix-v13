@@ -1,0 +1,40 @@
+{
+  "season": "2025/26",
+  "remote_team_rows": 249,
+  "unique_team_names": 249,
+  "tier1_before": 15,
+  "tier1_after": 25,
+  "tier0_after": 224,
+  "new_full_teams": [
+    "Athletic Club (Esp)",
+    "Atletico Madrid (Esp)",
+    "Barcelona (Esp)",
+    "Espanyol (Esp)",
+    "Levante UD (Esp)",
+    "CA Osasuna (Esp)",
+    "Rayo Vallecano (Esp)",
+    "Real Betis (Esp)",
+    "Real Madrid (Esp)",
+    "Valencia CF (Esp)"
+  ],
+  "new_player_count": 250,
+  "new_coach_count": 10,
+  "retained_laliga_tier0": [
+    "Celta (Esp)",
+    "Deportivo Alaves (Esp)",
+    "Elche CF (Esp)",
+    "Getafe CF (Esp)",
+    "Malaga CF (Esp)",
+    "Racing Santander (Esp)",
+    "Deportivo La Coruna (Esp)",
+    "Real Sociedad (Esp)",
+    "Sevilla (Esp)",
+    "Villarreal CF (Esp)",
+    "Real Oviedo (Esp) — 核查通過但不在249隊canonical目錄，未新增"
+  ],
+  "players_csv_total": 648,
+  "coaches_csv_total": 25,
+  "existing_german_epl_full_preserved": 15,
+  "fake_teams": [],
+  "policy": "18-35人；每人name/position/shirt_number/nationality/source_urls；至少2來源且含球會官方URL；排除B隊、青年隊、女子隊及租借離隊。"
+}
