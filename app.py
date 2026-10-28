@@ -2477,7 +2477,9 @@ with st.sidebar:
             st.caption("匯入後資料會按聯賽保存，分析時優先使用本地資料館。")
         except Exception:
             st.caption("資料館尚未有可顯示的紀錄。")
-    directory_key = f"teams_{league}"
+    # 目錄版本化：AFC 隊伍目錄曾被更新，不能讓舊 Streamlit session
+    # 繼續沿用舊的 teams_{league} 清單；換版本即強制重新載入最新 main 資料。
+    directory_key = f"teams_{league}_v20261028_afc_directory_fix"
     load_directory = st.button("先載入本聯賽球隊清單", use_container_width=True)
     if load_directory:
         try:
