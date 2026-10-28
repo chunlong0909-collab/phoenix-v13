@@ -2743,7 +2743,9 @@ if run:
         quality = "過期（只供歷史參考）"
     teams = sorted(set(matches.Home) | set(matches.Away))
     # 優先使用已載入的聯賽完整目錄；沒有目錄時才用歷史賽果作後備。
-    directory = st.session_state.get(f"teams_{league}", [])
+    # 必須和上方「先載入本聯賽球隊清單」使用同一個版本化 key。
+    # 舊版這裡仍讀 teams_{league}，會令畫面已顯示新目錄，但分析時退回舊13隊。
+    directory = st.session_state.get(directory_key, [])
     all_candidates = sorted(set(directory) | set(teams))
     hm = resolve_team_name(home, all_candidates, "")
     am = resolve_team_name(away, all_candidates, "")
