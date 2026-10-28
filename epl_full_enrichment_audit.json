@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.premierleague.com/en/news/4725682/all-20-premier-league-clubs-squad-numbers-for-202627",
+  "teams_added": 20,
+  "players_added": 566,
+  "players_with_position_from_existing_verified_master": 399,
+  "all_player_source_url_nonempty": true,
+  "all_coach_source_url_nonempty": true,
+  "coaches_before": 325,
+  "coaches_after_expected": 345,
+  "fake_names": [],
+  "policy": "No invented player, coach, score, age or nationality; unavailable fields null."
+}
