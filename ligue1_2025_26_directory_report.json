@@ -1,0 +1,36 @@
+{
+  "season": "2025/26",
+  "source_urls": {
+    "ligue1.com": "https://ligue1.com/en/competitions/ligue1mcdonalds/standings",
+    "ligue1.fr": "https://www.ligue1.fr/"
+  },
+  "remote_base_rows": 231,
+  "added_rows": [
+    "Angers (Fra)",
+    "Auxerre (Fra)",
+    "Monaco (Fra)",
+    "Brest (Fra)",
+    "Lorient (Fra)",
+    "Le Havre (Fra)",
+    "Lille (Fra)",
+    "Nice (Fra)",
+    "Lyon (Fra)",
+    "Marseille (Fra)",
+    "Paris FC (Fra)",
+    "PSG (Fra)",
+    "Lens (Fra)",
+    "Rennes (Fra)",
+    "Strasbourg (Fra)",
+    "Toulouse (Fra)",
+    "Metz (Fra)",
+    "Nantes (Fra)"
+  ],
+  "added_count": 18,
+  "final_rows": 249,
+  "unique_team_names": 249,
+  "ligue1_count": 18,
+  "players_added": 0,
+  "coaches_added": 0,
+  "fake_teams": [],
+  "policy": "directory_only only; no player, manager, fixture or score data added"
+}
