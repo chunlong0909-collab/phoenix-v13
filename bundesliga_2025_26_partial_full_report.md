@@ -1,0 +1,35 @@
+﻿# 德甲2025/26 Full 化第一批（誠實部分合併）
+
+{
+  "season": "2025/26",
+  "remote_team_rows_before": 249,
+  "remote_team_rows_after": 249,
+  "verified_upgraded_teams": [
+    "Bayer Leverkusen (Ger)",
+    "RB Leipzig (Ger)",
+    "Eintracht Frankfurt (Ger)",
+    "Freiburg (Ger)",
+    "Augsburg (Ger)",
+    "Mainz 05 (Ger)",
+    "Wolfsburg (Ger)",
+    "Heidenheim (Ger)"
+  ],
+  "upgraded_count": 8,
+  "new_player_count": 207,
+  "new_coach_count": 8,
+  "full_target_claimed": false,
+  "remaining_tier2": {
+    "Bayern Munich (Ger)": "官方及Bundesliga頁面已切到2026/27，無法完成2025/26三源核對",
+    "Borussia Dortmund (Ger)": "Transfermarkt CAPTCHA、FBref阻擋，官方頁為current/2026/27",
+    "VfB Stuttgart (Ger)": "官方頁未能提供完整逐人出生年，無法達到硬門檻",
+    "Hoffenheim (Ger)": "Transfermarkt/FBref阻擋，官方頁為2026/27",
+    "Union Berlin (Ger)": "官方頁為2026/27，缺少同季出生年與教練核對",
+    "Borussia Monchengladbach (Ger)": "FBref內容不可提取，官方頁為2026/27",
+    "Werder Bremen (Ger)": "官方頁為2026/27，無法同季核對出生年",
+    "Hamburg (Ger)": "Transfermarkt/FBref未能雙源核對出生年",
+    "Cologne (Ger)": "雖有21人，但缺少同季第三方官方來源，保留Tier 2",
+    "St. Pauli (Ger)": "官方頁為2026/27，不能以現役頁補2025/26"
+  },
+  "fake_teams": [],
+  "policy": "只合併逐人有Transfermarkt+FBref及官方/聯賽來源URL的候選；未達門檻不升級。"
+}
