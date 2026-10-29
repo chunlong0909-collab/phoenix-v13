@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-10-28T04:01:05.836264+00:00",
+    "updated_at": "2026-10-29T04:02:31.180974+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
@@ -87293,6 +87293,7 @@
       "2023:HTTP 404",
       "WorldFootball requests returned no accessible explicit J1 rows",
       "No official J1 CSV supplied",
+      "local 574 J1 whitelist has 0 teams, expected 20",
       "teams:HTTP 404",
       "Albirex Niigata:players:HTTP 400",
       "Avispa Fukuoka:players:HTTP 400",
