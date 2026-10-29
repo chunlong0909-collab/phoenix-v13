@@ -1,0 +1,1450 @@
+{
+  "Burnley (Eng)": {
+    "team": "Burnley (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed_e_batch",
+    "coach": "Scott Parker",
+    "source_urls": [
+      "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+      "https://www.transfermarkt.us/burnley-fc/kader/verein/1132/saison_id/2025",
+      "https://www.burnleyfootballclub.com/media-article/club-statement-scott-parker",
+      "https://www.transfermarkt.us/kyle-walker/profil/spieler/95424",
+      "https://www.transfermarkt.us/quilindschy-hartman/profil/spieler/514285",
+      "https://www.transfermarkt.us/joe-worrall/profil/spieler/415970",
+      "https://www.transfermarkt.us/maxime-esteve/profil/spieler/842341",
+      "https://www.transfermarkt.us/axel-tuanzebe/profil/spieler/342046",
+      "https://www.transfermarkt.us/jacob-bruun-larsen/profil/spieler/293281",
+      "https://www.transfermarkt.us/lyle-foster/profil/spieler/467623",
+      "https://www.transfermarkt.us/marcus-edwards/profil/spieler/314367",
+      "https://www.transfermarkt.us/jaidon-anthony/profil/spieler/684210",
+      "https://www.transfermarkt.us/bashir-humphreys/profil/spieler/612517",
+      "https://www.transfermarkt.us/max-weiss/profil/spieler/829299",
+      "https://www.transfermarkt.us/connor-roberts/profil/spieler/214666",
+      "https://www.transfermarkt.us/loum-tchaouna/profil/spieler/607226",
+      "https://www.transfermarkt.us/hjalmar-ekdal/profil/spieler/392179",
+      "https://www.transfermarkt.us/zian-flemming/profil/spieler/411537",
+      "https://www.transfermarkt.us/etienne-green/profil/spieler/696849",
+      "https://www.transfermarkt.us/aaron-ramsey/profil/spieler/646658",
+      "https://www.transfermarkt.us/oliver-sonne/profil/spieler/541628",
+      "https://www.transfermarkt.us/lucas-pires/profil/spieler/927768",
+      "https://www.transfermarkt.us/josh-cullen/profil/spieler/242606",
+      "https://www.transfermarkt.us/zeki-amdouni/profil/spieler/548729",
+      "https://www.transfermarkt.us/manuel-benson/profil/spieler/344758",
+      "https://www.transfermarkt.us/hannibal/profil/spieler/607224",
+      "https://www.transfermarkt.us/josh-laurent/profil/spieler/314241",
+      "https://www.transfermarkt.us/luca-koleosho/profil/spieler/886028",
+      "https://www.transfermarkt.us/mike-tresor/profil/spieler/381963",
+      "https://www.transfermarkt.us/vaclav-hladky/profil/spieler/95795",
+      "https://www.transfermarkt.us/jaydon-banel/profil/spieler/706889",
+      "https://www.transfermarkt.us/ashley-barnes/profil/spieler/63200",
+      "https://www.transfermarkt.us/jordan-beyer/profil/spieler/403898",
+      "https://www.transfermarkt.us/shurandy-sambo/profil/spieler/412937",
+      "https://www.transfermarkt.us/hannes-delcroix/profil/spieler/338635",
+      "https://www.transfermarkt.us/enock-agyei/profil/spieler/724041"
+    ],
+    "players": [
+      {
+        "name": "Kyle Walker",
+        "position": "Right-Back",
+        "shirt_number": 2,
+        "nationality": "England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/kyle-walker/profil/spieler/95424"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/kyle-walker/profil/spieler/95424"
+        ]
+      },
+      {
+        "name": "Quilindschy Hartman",
+        "position": "Left-Back",
+        "shirt_number": 3,
+        "nationality": "Netherlands; Curaçao",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/quilindschy-hartman/profil/spieler/514285"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/quilindschy-hartman/profil/spieler/514285"
+        ]
+      },
+      {
+        "name": "Joe Worrall",
+        "position": "Centre-Back",
+        "shirt_number": 4,
+        "nationality": "England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/joe-worrall/profil/spieler/415970"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/joe-worrall/profil/spieler/415970"
+        ]
+      },
+      {
+        "name": "Maxime Estève",
+        "position": "Centre-Back",
+        "shirt_number": 5,
+        "nationality": "France",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/maxime-esteve/profil/spieler/842341"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/maxime-esteve/profil/spieler/842341"
+        ]
+      },
+      {
+        "name": "Axel Tuanzebe",
+        "position": "Centre-Back",
+        "shirt_number": 6,
+        "nationality": "DR Congo; England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/axel-tuanzebe/profil/spieler/342046"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/axel-tuanzebe/profil/spieler/342046"
+        ]
+      },
+      {
+        "name": "Jacob Bruun Larsen",
+        "position": "Left Winger",
+        "shirt_number": 7,
+        "nationality": "Denmark",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/jacob-bruun-larsen/profil/spieler/293281"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/jacob-bruun-larsen/profil/spieler/293281"
+        ]
+      },
+      {
+        "name": "Lyle Foster",
+        "position": "Centre-Forward",
+        "shirt_number": 9,
+        "nationality": "South Africa",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/lyle-foster/profil/spieler/467623"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/lyle-foster/profil/spieler/467623"
+        ]
+      },
+      {
+        "name": "Marcus Edwards",
+        "position": "Right Winger",
+        "shirt_number": 10,
+        "nationality": "Cyprus; England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/marcus-edwards/profil/spieler/314367"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/marcus-edwards/profil/spieler/314367"
+        ]
+      },
+      {
+        "name": "Jaidon Anthony",
+        "position": "Left Winger",
+        "shirt_number": 11,
+        "nationality": "England; Jamaica",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/jaidon-anthony/profil/spieler/684210"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/jaidon-anthony/profil/spieler/684210"
+        ]
+      },
+      {
+        "name": "Bashir Humphreys",
+        "position": "Centre-Back",
+        "shirt_number": 12,
+        "nationality": "England; Uganda",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/bashir-humphreys/profil/spieler/612517"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/bashir-humphreys/profil/spieler/612517"
+        ]
+      },
+      {
+        "name": "Max Weiß",
+        "position": "Goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/max-weiss/profil/spieler/829299"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/max-weiss/profil/spieler/829299"
+        ]
+      },
+      {
+        "name": "Connor Roberts",
+        "position": "Right-Back",
+        "shirt_number": 14,
+        "nationality": "Wales",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/connor-roberts/profil/spieler/214666"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/connor-roberts/profil/spieler/214666"
+        ]
+      },
+      {
+        "name": "Loum Tchaouna",
+        "position": "Right Winger",
+        "shirt_number": 17,
+        "nationality": "France; Chad",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/loum-tchaouna/profil/spieler/607226"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/loum-tchaouna/profil/spieler/607226"
+        ]
+      },
+      {
+        "name": "Hjalmar Ekdal",
+        "position": "Centre-Back",
+        "shirt_number": 18,
+        "nationality": "Sweden",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/hjalmar-ekdal/profil/spieler/392179"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/hjalmar-ekdal/profil/spieler/392179"
+        ]
+      },
+      {
+        "name": "Zian Flemming",
+        "position": "Centre-Forward",
+        "shirt_number": 19,
+        "nationality": "Netherlands",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/zian-flemming/profil/spieler/411537"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/zian-flemming/profil/spieler/411537"
+        ]
+      },
+      {
+        "name": "Etienne Green",
+        "position": "Goalkeeper",
+        "shirt_number": 20,
+        "nationality": "England; France",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/etienne-green/profil/spieler/696849"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/etienne-green/profil/spieler/696849"
+        ]
+      },
+      {
+        "name": "Aaron Ramsey",
+        "position": "Attacking Midfield",
+        "shirt_number": 21,
+        "nationality": "England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/aaron-ramsey/profil/spieler/646658"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/aaron-ramsey/profil/spieler/646658"
+        ]
+      },
+      {
+        "name": "Oliver Sonne",
+        "position": "Right-Back",
+        "shirt_number": 22,
+        "nationality": "Peru; Denmark",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/oliver-sonne/profil/spieler/541628"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/oliver-sonne/profil/spieler/541628"
+        ]
+      },
+      {
+        "name": "Lucas Pires",
+        "position": "Left-Back",
+        "shirt_number": 23,
+        "nationality": "Brazil",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/lucas-pires/profil/spieler/927768"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/lucas-pires/profil/spieler/927768"
+        ]
+      },
+      {
+        "name": "Josh Cullen",
+        "position": "Central Midfield",
+        "shirt_number": 24,
+        "nationality": "Ireland; England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/josh-cullen/profil/spieler/242606"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/josh-cullen/profil/spieler/242606"
+        ]
+      },
+      {
+        "name": "Zeki Amdouni",
+        "position": "Centre-Forward",
+        "shirt_number": 25,
+        "nationality": "Switzerland; Tunisia",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/zeki-amdouni/profil/spieler/548729"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/zeki-amdouni/profil/spieler/548729"
+        ]
+      },
+      {
+        "name": "Manuel Benson",
+        "position": "Right Winger",
+        "shirt_number": 27,
+        "nationality": "Belgium; Angola",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/manuel-benson/profil/spieler/344758"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/manuel-benson/profil/spieler/344758"
+        ]
+      },
+      {
+        "name": "Hannibal",
+        "position": "Attacking Midfield",
+        "shirt_number": 28,
+        "nationality": "Tunisia; France",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/hannibal/profil/spieler/607224"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/hannibal/profil/spieler/607224"
+        ]
+      },
+      {
+        "name": "Josh Laurent",
+        "position": "Central Midfield",
+        "shirt_number": 29,
+        "nationality": "England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/josh-laurent/profil/spieler/314241"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/josh-laurent/profil/spieler/314241"
+        ]
+      },
+      {
+        "name": "Luca Koleosho",
+        "position": "Left Winger",
+        "shirt_number": 30,
+        "nationality": "Italy; United States; Canada; Nigeria",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/luca-koleosho/profil/spieler/886028"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/luca-koleosho/profil/spieler/886028"
+        ]
+      },
+      {
+        "name": "Mike Trésor",
+        "position": "Attacking Midfield",
+        "shirt_number": 31,
+        "nationality": "Belgium; Burundi",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/mike-tresor/profil/spieler/381963"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/mike-tresor/profil/spieler/381963"
+        ]
+      },
+      {
+        "name": "Václav Hladký",
+        "position": "Goalkeeper",
+        "shirt_number": 32,
+        "nationality": "Czech Republic",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/vaclav-hladky/profil/spieler/95795"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/vaclav-hladky/profil/spieler/95795"
+        ]
+      },
+      {
+        "name": "Jaydon Banel",
+        "position": "Left Winger",
+        "shirt_number": 34,
+        "nationality": "Netherlands; Suriname",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/jaydon-banel/profil/spieler/706889"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/jaydon-banel/profil/spieler/706889"
+        ]
+      },
+      {
+        "name": "Ashley Barnes",
+        "position": "Centre-Forward",
+        "shirt_number": 35,
+        "nationality": "England",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/ashley-barnes/profil/spieler/63200"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/ashley-barnes/profil/spieler/63200"
+        ]
+      },
+      {
+        "name": "Jordan Beyer",
+        "position": "Centre-Back",
+        "shirt_number": 36,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/jordan-beyer/profil/spieler/403898"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/jordan-beyer/profil/spieler/403898"
+        ]
+      },
+      {
+        "name": "Shurandy Sambo",
+        "position": "Right-Back",
+        "shirt_number": 43,
+        "nationality": "Curaçao; Netherlands",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/shurandy-sambo/profil/spieler/412937"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/shurandy-sambo/profil/spieler/412937"
+        ]
+      },
+      {
+        "name": "Hannes Delcroix",
+        "position": "Centre-Back",
+        "shirt_number": 44,
+        "nationality": "Haiti; Belgium",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/hannes-delcroix/profil/spieler/338635"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/hannes-delcroix/profil/spieler/338635"
+        ]
+      },
+      {
+        "name": "Enock Agyei",
+        "position": "Right Winger",
+        "shirt_number": 48,
+        "nationality": "Belgium; Ghana",
+        "season": "2025/26",
+        "evidence": {
+          "official": "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "auxiliary": "https://www.transfermarkt.us/enock-agyei/profil/spieler/724041"
+        },
+        "source_urls": [
+          "https://www.burnleyfootballclub.com/media-article/202526-squad-numbers-confirmed",
+          "https://www.transfermarkt.us/enock-agyei/profil/spieler/724041"
+        ]
+      }
+    ],
+    "player_count": 33
+  },
+  "Bayern Munich (Ger)": {
+    "team": "Bayern Munich (Ger)",
+    "league": "德甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed_e_batch",
+    "coach": "Vincent Kompany",
+    "source_urls": [
+      "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+      "https://fcbayern.com/en/news/2025/10/the-official-fc-bayern-2025-26-team-photo",
+      "https://www.transfermarkt.com/fc-bayern-munich/kader/verein/27/saison_id/2025",
+      "https://www.transfermarkt.com/manuel-neuer/profil/spieler/17259",
+      "https://www.transfermarkt.com/sven-ulreich/profil/spieler/40680",
+      "https://www.transfermarkt.com/jonas-urbig/profil/spieler/607720",
+      "https://www.transfermarkt.com/leon-klanac/profil/spieler/1009439",
+      "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/344695",
+      "https://www.transfermarkt.com/min-jae-kim/profil/spieler/503482",
+      "https://www.transfermarkt.com/jonathan-tah/profil/spieler/196357",
+      "https://www.transfermarkt.com/alphonso-davies/profil/spieler/424204",
+      "https://www.transfermarkt.com/hiroki-ito/profil/spieler/353892",
+      "https://www.transfermarkt.com/raphael-guerreiro/profil/spieler/170986",
+      "https://www.transfermarkt.com/sacha-boey/profil/spieler/475413",
+      "https://www.transfermarkt.com/josip-stanisic/profil/spieler/483046",
+      "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/161056",
+      "https://www.transfermarkt.com/leon-goretzka/profil/spieler/153084",
+      "https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195",
+      "https://www.transfermarkt.com/tom-bischof/profil/spieler/822959",
+      "https://www.transfermarkt.com/konrad-laimer/profil/spieler/223967",
+      "https://www.transfermarkt.com/lennart-karl/profil/spieler/1075147",
+      "https://www.transfermarkt.com/aleksandar-pavlovic/profil/spieler/792380",
+      "https://www.transfermarkt.com/serge-gnabry/profil/spieler/159471",
+      "https://www.transfermarkt.com/harry-kane/profil/spieler/132098",
+      "https://www.transfermarkt.com/nicolas-jackson/profil/spieler/776890",
+      "https://www.transfermarkt.com/luis-diaz/profil/spieler/480692",
+      "https://www.transfermarkt.com/michael-olise/profil/spieler/566723"
+    ],
+    "players": [
+      {
+        "name": "Manuel Neuer",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/manuel-neuer/profil/spieler/17259"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/manuel-neuer/profil/spieler/17259"
+        ]
+      },
+      {
+        "name": "Sven Ulreich",
+        "position": "Goalkeeper",
+        "shirt_number": 26,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/sven-ulreich/profil/spieler/40680"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/sven-ulreich/profil/spieler/40680"
+        ]
+      },
+      {
+        "name": "Jonas Urbig",
+        "position": "Goalkeeper",
+        "shirt_number": 40,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/jonas-urbig/profil/spieler/607720"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/jonas-urbig/profil/spieler/607720"
+        ]
+      },
+      {
+        "name": "Leon Klanac",
+        "position": "Goalkeeper",
+        "shirt_number": 48,
+        "nationality": "Germany/Croatia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/leon-klanac/profil/spieler/1009439"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/leon-klanac/profil/spieler/1009439"
+        ]
+      },
+      {
+        "name": "Dayot Upamecano",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "France/Guinea-Bissau",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/344695"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/344695"
+        ]
+      },
+      {
+        "name": "Minjae Kim",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "South Korea",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/min-jae-kim/profil/spieler/503482"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/min-jae-kim/profil/spieler/503482"
+        ]
+      },
+      {
+        "name": "Jonathan Tah",
+        "position": "Defender",
+        "shirt_number": 4,
+        "nationality": "Germany/Côte d'Ivoire",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/jonathan-tah/profil/spieler/196357"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/jonathan-tah/profil/spieler/196357"
+        ]
+      },
+      {
+        "name": "Alphonso Davies",
+        "position": "Defender",
+        "shirt_number": 19,
+        "nationality": "Canada/Liberia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/alphonso-davies/profil/spieler/424204"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/alphonso-davies/profil/spieler/424204"
+        ]
+      },
+      {
+        "name": "Hiroki Ito",
+        "position": "Defender",
+        "shirt_number": 21,
+        "nationality": "Japan",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/hiroki-ito/profil/spieler/353892"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/hiroki-ito/profil/spieler/353892"
+        ]
+      },
+      {
+        "name": "Raphaël Guerreiro",
+        "position": "Defender",
+        "shirt_number": 22,
+        "nationality": "Portugal/France",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/raphael-guerreiro/profil/spieler/170986"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/raphael-guerreiro/profil/spieler/170986"
+        ]
+      },
+      {
+        "name": "Sacha Boey",
+        "position": "Defender",
+        "shirt_number": 23,
+        "nationality": "France/Belgium",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/sacha-boey/profil/spieler/475413"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/sacha-boey/profil/spieler/475413"
+        ]
+      },
+      {
+        "name": "Josip Stanišić",
+        "position": "Defender",
+        "shirt_number": 44,
+        "nationality": "Croatia/Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/josip-stanisic/profil/spieler/483046"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/josip-stanisic/profil/spieler/483046"
+        ]
+      },
+      {
+        "name": "Joshua Kimmich",
+        "position": "Midfielder",
+        "shirt_number": 6,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/161056"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/161056"
+        ]
+      },
+      {
+        "name": "Leon Goretzka",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/leon-goretzka/profil/spieler/153084"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/leon-goretzka/profil/spieler/153084"
+        ]
+      },
+      {
+        "name": "Jamal Musiala",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": "Germany/England",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/jamal-musiala/profil/spieler/580195"
+        ]
+      },
+      {
+        "name": "Tom Bischof",
+        "position": "Midfielder",
+        "shirt_number": 20,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/tom-bischof/profil/spieler/822959"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/tom-bischof/profil/spieler/822959"
+        ]
+      },
+      {
+        "name": "Konrad Laimer",
+        "position": "Midfielder",
+        "shirt_number": 27,
+        "nationality": "Austria",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/konrad-laimer/profil/spieler/223967"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/konrad-laimer/profil/spieler/223967"
+        ]
+      },
+      {
+        "name": "Lennart Karl",
+        "position": "Midfielder",
+        "shirt_number": 42,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/lennart-karl/profil/spieler/1075147"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/lennart-karl/profil/spieler/1075147"
+        ]
+      },
+      {
+        "name": "Aleksandar Pavlović",
+        "position": "Midfielder",
+        "shirt_number": 45,
+        "nationality": "Germany/Serbia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/aleksandar-pavlovic/profil/spieler/792380"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/aleksandar-pavlovic/profil/spieler/792380"
+        ]
+      },
+      {
+        "name": "Serge Gnabry",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": "Germany/Côte d'Ivoire",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/serge-gnabry/profil/spieler/159471"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/serge-gnabry/profil/spieler/159471"
+        ]
+      },
+      {
+        "name": "Harry Kane",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "England/Ireland",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/harry-kane/profil/spieler/132098"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/harry-kane/profil/spieler/132098"
+        ]
+      },
+      {
+        "name": "Nicolas Jackson",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "Senegal/The Gambia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/nicolas-jackson/profil/spieler/776890"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/nicolas-jackson/profil/spieler/776890"
+        ]
+      },
+      {
+        "name": "Luis Díaz",
+        "position": "Forward",
+        "shirt_number": 14,
+        "nationality": "Colombia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/luis-diaz/profil/spieler/480692"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/luis-diaz/profil/spieler/480692"
+        ]
+      },
+      {
+        "name": "Michael Olise",
+        "position": "Forward",
+        "shirt_number": 17,
+        "nationality": "France/England",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/michael-olise/profil/spieler/566723"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20250919054736id_/https://fcbayern.com/en/teams/first-team",
+          "https://www.transfermarkt.com/michael-olise/profil/spieler/566723"
+        ]
+      }
+    ],
+    "player_count": 24
+  },
+  "Borussia Dortmund (Ger)": {
+    "team": "Borussia Dortmund (Ger)",
+    "league": "德甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed_e_batch",
+    "coach": "Niko Kovač",
+    "source_urls": [
+      "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/maenner.html",
+      "https://www.bvb.de/de/en/teams/football/first-team.html",
+      "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1",
+      "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/1/30/Borussia-Dortmund-verpflichtet-Niko-Kovac.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/gregor-kobel.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/yan-couto.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/waldemar-anton.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/nico-schlotterbeck.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/ramy-bensebaini.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/salih-oezcan.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/jobe-bellingham.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/felix-nmecha.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/serhou-guirassy.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julian-brandt.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/pascal-gross.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/maximilian-beier.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julien-duranville.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/marcel-sabitzer.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/giovanni-reyna.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/emre-can.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/daniel-svensson.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/niklas-suele.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julian-ryerson.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/karim-adeyemi.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/sebastien-haller.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/patrick-drewes.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/silas-ostrzinski.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/alexander-meyer.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/cole-campbell.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/filippo-mane.html",
+      "https://www.bvb.de/de/de/mannschaften/fussball/spieler/almugera-kabar.html"
+    ],
+    "players": [
+      {
+        "name": "Gregor Kobel",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Switzerland",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/gregor-kobel.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/gregor-kobel.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Yan Couto",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "Brazil",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/yan-couto.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/yan-couto.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Waldemar Anton",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/waldemar-anton.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/waldemar-anton.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Nico Schlotterbeck",
+        "position": "Defender",
+        "shirt_number": 4,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/nico-schlotterbeck.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/nico-schlotterbeck.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Ramy Bensebaini",
+        "position": "Defender",
+        "shirt_number": 5,
+        "nationality": "Algeria",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/ramy-bensebaini.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/ramy-bensebaini.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Salih Özcan",
+        "position": "Midfielder",
+        "shirt_number": 6,
+        "nationality": "Türkiye",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/salih-oezcan.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/salih-oezcan.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Jobe Bellingham",
+        "position": "Midfielder",
+        "shirt_number": 7,
+        "nationality": "England",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/jobe-bellingham.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/jobe-bellingham.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Felix Nmecha",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/felix-nmecha.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/felix-nmecha.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Serhou Guirassy",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "Guinea",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/serhou-guirassy.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/serhou-guirassy.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Julian Brandt",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julian-brandt.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julian-brandt.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Pascal Groß",
+        "position": "Midfielder",
+        "shirt_number": 13,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/pascal-gross.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/pascal-gross.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Maximilian Beier",
+        "position": "Forward",
+        "shirt_number": 14,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/maximilian-beier.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/maximilian-beier.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Julien Duranville",
+        "position": "Forward",
+        "shirt_number": 16,
+        "nationality": "Belgium",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julien-duranville.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julien-duranville.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Marcel Sabitzer",
+        "position": "Midfielder",
+        "shirt_number": 20,
+        "nationality": "Austria",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/marcel-sabitzer.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/marcel-sabitzer.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Giovanni Reyna",
+        "position": "Midfielder",
+        "shirt_number": 21,
+        "nationality": "United States",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/giovanni-reyna.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/giovanni-reyna.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Emre Can",
+        "position": "Midfielder",
+        "shirt_number": 23,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/emre-can.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/emre-can.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Daniel Svensson",
+        "position": "Defender",
+        "shirt_number": 24,
+        "nationality": "Sweden",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/daniel-svensson.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/daniel-svensson.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Niklas Süle",
+        "position": "Defender",
+        "shirt_number": 25,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/niklas-suele.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/niklas-suele.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Julian Ryerson",
+        "position": "Defender",
+        "shirt_number": 26,
+        "nationality": "Norway",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julian-ryerson.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/julian-ryerson.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Karim Adeyemi",
+        "position": "Forward",
+        "shirt_number": 27,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/karim-adeyemi.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/karim-adeyemi.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Sébastien Haller",
+        "position": "Forward",
+        "shirt_number": 28,
+        "nationality": "Côte d'Ivoire",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/sebastien-haller.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/sebastien-haller.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Patrick Drewes",
+        "position": "Goalkeeper",
+        "shirt_number": 30,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/patrick-drewes.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/patrick-drewes.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Silas Ostrzinski",
+        "position": "Goalkeeper",
+        "shirt_number": 31,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/silas-ostrzinski.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/silas-ostrzinski.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Alexander Meyer",
+        "position": "Goalkeeper",
+        "shirt_number": 33,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/alexander-meyer.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/alexander-meyer.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Cole Campbell",
+        "position": "Midfielder",
+        "shirt_number": 37,
+        "nationality": "United States",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/cole-campbell.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/cole-campbell.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Filippo Mané",
+        "position": "Defender",
+        "shirt_number": 39,
+        "nationality": "Italy",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/filippo-mane.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/filippo-mane.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Almugera Kabar",
+        "position": "Defender",
+        "shirt_number": 42,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/almugera-kabar.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ],
+        "source_urls": [
+          "https://www.bvb.de/de/de/aktuelles/news/news.html/2025/8/7/Die-Rueckennummern-in-der-Saison-2025-26-Bellingham-mit-der-7.html",
+          "https://www.bvb.de/de/de/mannschaften/fussball/spieler/almugera-kabar.html",
+          "https://www.transfermarkt.com/borussia-dortmund/kader/verein/16/saison_id/2025/plus/1"
+        ]
+      }
+    ],
+    "player_count": 27
+  }
+}
