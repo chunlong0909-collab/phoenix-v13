@@ -1,0 +1,61 @@
+{
+  "target_team_count": 3,
+  "successful_full_teams": [],
+  "already_full_before_batch": [
+    "CA Osasuna (Esp)"
+  ],
+  "blocked_or_insufficient": [
+    "Villarreal CF (Esp)",
+    "Getafe CF (Esp)"
+  ],
+  "original_tier1": 52,
+  "final_tier1": 52,
+  "final_tier0": 200,
+  "laliga_total": 20,
+  "laliga_tier1": 12,
+  "laliga_tier0": 8,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 0,
+  "players_csv_total": 1371,
+  "coaches_csv_total": 52,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "data_mutation": "none",
+  "team_checks": [
+    {
+      "evidence_team": "Villarreal (Esp)",
+      "canonical_team": "Villarreal CF (Esp)",
+      "status": "blocked_or_insufficient",
+      "player_count": 34,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "",
+      "source_urls": [],
+      "report_path": "tmp/k_batch_sources/01.md"
+    },
+    {
+      "evidence_team": "Getafe CF (Esp)",
+      "canonical_team": "Getafe CF (Esp)",
+      "status": "blocked_or_insufficient",
+      "player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "Cannot close the requested evidence loop for a complete 2025/26 men's first team of 18-35 players. The available official Getafe and LaLiga squad pages are current 2026/27 pages, while the 2025/26 ESPN/Transfermarkt pages do not cleanly separate the first team from B/youth registrations and do not provide an official URL for every player. Per instruction, no guessed player records are emitted.",
+      "source_urls": [],
+      "report_path": "tmp/k_batch_sources/02.md"
+    },
+    {
+      "evidence_team": "CA Osasuna (Esp)",
+      "canonical_team": "CA Osasuna (Esp)",
+      "status": "blocked_or_insufficient",
+      "player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "1",
+      "reason": "",
+      "source_urls": [],
+      "report_path": "tmp/k_batch_sources/03.md"
+    }
+  ],
+  "policy": "K批要求LaLiga官方優先但不會因資料不可讀而猜測；Osasuna已在既有Full基線中重用，Villarreal及Getafe仍未完成逐人閉環。"
+}
