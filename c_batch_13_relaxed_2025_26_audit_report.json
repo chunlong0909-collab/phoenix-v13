@@ -1,0 +1,43 @@
+{
+  "season": "2025/26",
+  "target_team_count": 13,
+  "remote_team_rows": 249,
+  "unique_team_names": 249,
+  "tier1_before": 45,
+  "tier1_after": 46,
+  "tier0_after": 203,
+  "evidence_verified_teams": [
+    "West Ham United (Eng)",
+    "Eintracht Frankfurt (Ger)",
+    "Werder Bremen (Ger)"
+  ],
+  "already_full_before_batch": [
+    "Eintracht Frankfurt (Ger)"
+  ],
+  "new_full_teams": [
+    "Werder Bremen (Ger)"
+  ],
+  "new_player_count": 31,
+  "new_coach_count": 1,
+  "players_csv_total": 1208,
+  "coaches_csv_total": 46,
+  "not_full_this_batch": [
+    "Burnley (Eng)",
+    "West Ham United (Eng)",
+    "Wolverhampton Wanderers (Eng)",
+    "Bayern Munich (Ger)",
+    "Bayer Leverkusen (Ger)",
+    "Borussia Dortmund (Ger)",
+    "RB Leipzig (Ger)",
+    "VfB Stuttgart (Ger)",
+    "Eintracht Frankfurt (Ger)",
+    "Hoffenheim (Ger)",
+    "Freiburg (Ger)",
+    "Augsburg (Ger)"
+  ],
+  "verified_but_not_canonical": [
+    "West Ham United (Eng)"
+  ],
+  "fake_teams": [],
+  "policy": "每人name/position/shirt_number/nationality/season=2025/26；至少2個公開來源及至少1個球會官方來源；排除B隊/U23/青年/女子/租借離隊；不創作背號。"
+}
