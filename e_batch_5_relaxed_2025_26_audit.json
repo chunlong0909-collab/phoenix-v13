@@ -1,0 +1,28 @@
+{
+  "target_team_count": 5,
+  "evidence_verified_teams": [
+    "Burnley (Eng)",
+    "Bayern Munich (Ger)",
+    "Borussia Dortmund (Ger)"
+  ],
+  "new_full_teams": [
+    "Burnley (Eng)",
+    "Bayern Munich (Ger)",
+    "Borussia Dortmund (Ger)"
+  ],
+  "blocked_or_insufficient": [
+    "Wolverhampton Wanderers (Eng)",
+    "Bayer Leverkusen (Ger)"
+  ],
+  "original_tier1": 47,
+  "final_tier1": 50,
+  "final_tier0": 202,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 84,
+  "players_csv_total": 1319,
+  "coaches_csv_total": 50,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "policy": "E批放寬：每人name/position/shirt_number/nationality/season=2025/26；至少2公開來源及至少1官方來源；國籍可用Transfermarkt；排除B隊/U23/青年/女子/租借離隊；沒有官方完整背號則保留tier0。"
+}
