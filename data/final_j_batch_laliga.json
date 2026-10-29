@@ -1,0 +1,319 @@
+{
+  "Real Sociedad (Esp)": {
+    "team": "Real Sociedad (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed_j_batch",
+    "coach": "Sergio Francisco Ramos",
+    "source_urls": [
+      "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+      "https://www.realsociedad.eus/en/news/details/final-squad-numbers",
+      "https://www.realsociedad.eus/es/equipo/plantilla/real-sociedad",
+      "https://rsstore.realsociedad.eus/en/",
+      "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html",
+      "https://www.transfermarkt.com/real-sociedad/startseite/verein/681/saison_id/2025",
+      "https://www.realsociedad.eus/es/noticias/detalle/sergio-francisco-sera-el-tecnico-del-primer-quipo"
+    ],
+    "players": [
+      {
+        "name": "Álex Remiro",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Jon Aramburu",
+        "position": "Right-back",
+        "shirt_number": 2,
+        "nationality": "Venezuela / Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Aihen Muñoz",
+        "position": "Left-back",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Jon Gorrotxategi",
+        "position": "Defensive midfielder",
+        "shirt_number": 4,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Igor Zubeldia",
+        "position": "Centre-back",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Aritz Elustondo",
+        "position": "Defender",
+        "shirt_number": 6,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Ander Barrenetxea",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Beñat Turrientes",
+        "position": "Central midfielder",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Orri Óskarsson",
+        "position": "Centre-forward",
+        "shirt_number": 9,
+        "nationality": "Iceland",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Mikel Oyarzabal",
+        "position": "Second striker",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Gonçalo Guedes",
+        "position": "Winger",
+        "shirt_number": 11,
+        "nationality": "Portugal",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Yangel Herrera",
+        "position": "Central midfielder",
+        "shirt_number": 12,
+        "nationality": "Venezuela",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Unai Marrero",
+        "position": "Goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Takefusa Kubo",
+        "position": "Winger",
+        "shirt_number": 14,
+        "nationality": "Japan",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Umar Sadiq",
+        "position": "Centre-forward",
+        "shirt_number": 15,
+        "nationality": "Nigeria",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.transfermarkt.com/real-sociedad/startseite/verein/681/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Duje Ćaleta-Car",
+        "position": "Centre-back",
+        "shirt_number": 16,
+        "nationality": "Croatia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Sergio Gómez",
+        "position": "Winger",
+        "shirt_number": 17,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Carlos Soler",
+        "position": "Central midfielder",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Jon Karrikaburu",
+        "position": "Centre-forward",
+        "shirt_number": 19,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Álvaro Odriozola",
+        "position": "Right-back",
+        "shirt_number": 20,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Arsen Zakharyan",
+        "position": "Attacking midfielder",
+        "shirt_number": 21,
+        "nationality": "Russia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Jon Goti",
+        "position": "Attacking midfielder",
+        "shirt_number": 22,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.transfermarkt.com/real-sociedad/startseite/verein/681/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Brais Méndez",
+        "position": "Attacking midfielder",
+        "shirt_number": 23,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Luka Sučić",
+        "position": "Central midfielder",
+        "shirt_number": 24,
+        "nationality": "Croatia",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Pablo Marín",
+        "position": "Attacking midfielder",
+        "shirt_number": 28,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Jon Martín",
+        "position": "Centre-back",
+        "shirt_number": 31,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      },
+      {
+        "name": "Iñaki Rupérez",
+        "position": "Right-back",
+        "shirt_number": 33,
+        "nationality": "Spain",
+        "season": "2025/26",
+        "evidence_urls": [
+          "https://www.realsociedad.eus/es/noticias/detalle/dorsales-definitivos",
+          "https://www.marca.com/resultados/futbol/r-sociedad/plantilla/2025/C188.html"
+        ]
+      }
+    ],
+    "player_count": 27
+  }
+}
