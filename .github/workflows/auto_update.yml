@@ -1,0 +1,53 @@
+name: phoenix-safe-csv-auto-update
+
+on:
+  schedule:
+    # 10:00 Asia/Hong_Kong = 02:00 UTC, every Monday.
+    - cron: "0 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: phoenix-safe-csv-auto-update
+  cancel-in-progress: false
+
+jobs:
+  safe-csv-update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install CSV updater dependencies
+        run: python -m pip install --disable-pip-version-check pandas
+
+      - name: Dry-run incoming CSV batch
+        run: python scripts/auto_update.py
+
+      - name: Commit only after dry-run pass
+        run: python scripts/auto_update.py --commit
+
+      - name: Verify Streamlit endpoint when configured
+        env:
+          STREAMLIT_HEALTH_URL: ${{ secrets.STREAMLIT_HEALTH_URL }}
+        run: |
+          if [ -n "$STREAMLIT_HEALTH_URL" ]; then
+            curl --fail --silent --show-error "$STREAMLIT_HEALTH_URL/_stcore/health"
+          else
+            echo "STREAMLIT_HEALTH_URL not configured; no false deployment claim."
+          fi
+
+      - name: Commit database and audit artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/auto_update_last_report.json football_complete.db football_library.db
+          git diff --cached --quiet || git commit -m "chore: safe weekly CSV football data update"
+          git push
