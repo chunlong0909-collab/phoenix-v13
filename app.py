@@ -20,9 +20,11 @@ try:
 except Exception:
     get_match_weather = None
 try:
-    from predict_match import apply_coach_factors, apply_weather_factor, calculate_value_and_yinpan, load_squads
+    from predict_match import apply_coach_factors, apply_weather_factor, calculate_value_and_yinpan, load_squads, fuzzy_resolve_team_name, TEAM_NAME_ALIASES
 except Exception:
     apply_coach_factors = apply_weather_factor = calculate_value_and_yinpan = None
+    fuzzy_resolve_team_name = None
+    TEAM_NAME_ALIASES = {}
     def load_squads(path):
         return {}
 try:
@@ -130,6 +132,7 @@ st.set_page_config(page_title="混合來源足球分析", page_icon="⚽", layou
 
 DB = Path(__file__).with_name("football_library.db")
 DB_PATH = str(DB)
+J1_SEED_CSV = Path(__file__).with_name("data") / "j1_2025_last10.csv"
 MANUAL_LEAGUE_DIR = Path(__file__).with_name("data") / "manual_leagues"
 PHOENIX_FINAL_DATA = Path(__file__).parent / "assets" / "data" / "phoenix_FINAL_63teams.json"
 APP_SQUAD_DATA = Path(__file__).parent / "assets" / "data" / "final_574_squads_with_sources.json"
@@ -490,12 +493,72 @@ def db_init():
             id INTEGER PRIMARY KEY AUTOINCREMENT, league TEXT, home TEXT, away TEXT,
             home_prob REAL, draw_prob REAL, away_prob REAL, source TEXT, created_at TEXT
         );
+        CREATE TABLE IF NOT EXISTS teams_stats (
+            date TEXT NOT NULL, league_id INTEGER NOT NULL, team TEXT NOT NULL,
+            goals REAL, corners_avg REAL, injury_status TEXT, form TEXT, source TEXT,
+            PRIMARY KEY(date, league_id, team)
+        );
+        CREATE TABLE IF NOT EXISTS players_stats (
+            date TEXT NOT NULL, league_id INTEGER NOT NULL, team TEXT NOT NULL,
+            player TEXT NOT NULL, position TEXT, goals REAL, assists REAL,
+            minutes REAL, injury_status TEXT, source TEXT,
+            PRIMARY KEY(date, league_id, team, player)
+        );
         """)
         cols = {row[1] for row in c.execute("PRAGMA table_info(matches)").fetchall()}
         if "hc" not in cols:
             c.execute("ALTER TABLE matches ADD COLUMN hc REAL")
         if "ac" not in cols:
             c.execute("ALTER TABLE matches ADD COLUMN ac REAL")
+
+
+def render_team_player_stats_page():
+    """顯示由 data/incoming/teams_players_daily.csv 匯入的可追溯統計。"""
+    st.header("球隊球員數據")
+    st.caption("只顯示已透過安全CSV匯入的資料；沒有資料不會自行估算。")
+    try:
+        with db_read_connect() as conn:
+            teams = pd.read_sql_query("SELECT * FROM teams_stats ORDER BY date DESC", conn)
+            players = pd.read_sql_query("SELECT * FROM players_stats ORDER BY date DESC", conn)
+    except Exception as exc:
+        st.error(f"統計資料表未能讀取：{exc}")
+        return
+    if teams.empty and players.empty:
+        st.info("目前未有每日球隊／球員CSV資料。請將 teams_players_daily.csv 放入 data/incoming/，先dry-run再用 auto_update.py --commit。")
+        return
+    latest_date = max([x for x in list(teams.get("date", [])) + list(players.get("date", [])) if str(x).strip()] or [""])
+    st.caption(f"最新資料日期：{latest_date or '未提供'}｜來源：使用者提供CSV (Google核實)")
+    team_options = sorted(set(teams.get("team", pd.Series(dtype=str)).dropna().astype(str)) | set(players.get("team", pd.Series(dtype=str)).dropna().astype(str)))
+    selected = st.selectbox("篩選球隊（可選）", ["全部"] + team_options)
+    tview = teams if selected == "全部" else teams[teams["team"] == selected]
+    pview = players if selected == "全部" else players[players["team"] == selected]
+    tab_goals, tab_team, tab_injury = st.tabs(["入球榜", "球隊角球／form", "傷停／近5場form"])
+    with tab_goals:
+        if pview.empty:
+            st.info("沒有球員入球資料。")
+        else:
+            cols = [c for c in ["player", "team", "position", "goals", "assists", "minutes", "date"] if c in pview.columns]
+            view = pview[cols].sort_values(["goals", "assists"], ascending=False, na_position="last")
+            st.dataframe(view.rename(columns={"player":"球員", "team":"球隊", "position":"位置", "goals":"入球", "assists":"助攻", "minutes":"分鐘", "date":"日期"}), use_container_width=True, hide_index=True)
+    with tab_team:
+        if tview.empty:
+            st.info("沒有球隊統計資料。")
+        else:
+            cols = [c for c in ["team", "league_id", "goals", "corners_avg", "form", "date", "source"] if c in tview.columns]
+            view = tview[cols].sort_values(["date", "goals"], ascending=[False, False])
+            st.dataframe(view.rename(columns={"team":"球隊", "league_id":"聯賽ID", "goals":"球隊入球（CSV合計）", "corners_avg":"平均角球", "form":"近5場form", "date":"日期", "source":"來源"}), use_container_width=True, hide_index=True)
+    with tab_injury:
+        if pview.empty and tview.empty:
+            st.info("沒有傷停或form資料。")
+        else:
+            if not pview.empty:
+                injury_cols = [c for c in ["player", "team", "injury_status", "date", "source"] if c in pview.columns]
+                st.subheader("球員傷停")
+                st.dataframe(pview[injury_cols].rename(columns={"player":"球員", "team":"球隊", "injury_status":"傷停狀態", "date":"日期", "source":"來源"}), use_container_width=True, hide_index=True)
+            if not tview.empty:
+                form_cols = [c for c in ["team", "form", "injury_status", "date"] if c in tview.columns]
+                st.subheader("球隊近5場form")
+                st.dataframe(tview[form_cols].rename(columns={"team":"球隊", "form":"近5場form", "injury_status":"傷停摘要", "date":"日期"}), use_container_width=True, hide_index=True)
 
 
 def log_source(league, source, status, message=""):
@@ -875,6 +938,25 @@ def save_matches(df):
         """, rows)
 
 
+def ensure_j1_seed_data():
+    """Dry-run then commit the user-supplied J1 seed only when the gate passes."""
+    if not J1_SEED_CSV.exists():
+        return {"status": "missing_csv"}
+    try:
+        from scripts.safe_dual_soccerway_import import import_fixtures_from_csv
+        with sqlite3.connect(Path(__file__).with_name("football_complete.db")) as c:
+            count = c.execute("SELECT COUNT(*) FROM fixtures WHERE league_id=98").fetchone()[0]
+        if count >= 10:
+            return {"status": "already_satisfied", "count": count}
+        dry = import_fixtures_from_csv(J1_SEED_CSV, commit=False)
+        if not dry.get("passed"):
+            return {"status": "dry_run_failed", "dry_run": dry}
+        committed = import_fixtures_from_csv(J1_SEED_CSV, commit=True)
+        return {"status": "committed", "before": count, "dry_run": dry, "commit": committed}
+    except Exception as exc:
+        return {"status": "error", "error": str(exc)}
+
+
 def cached_matches(league, max_age_hours=24):
     cutoff = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
     with db_connect() as c:
@@ -969,11 +1051,17 @@ def get_team_directory(league, api_token, fd_token, crawl_url):
     # 球隊清單優先直接由永久保存的資料館建立，避免外部來源欄位格式不同造成 KeyError。
     matches = all_saved_matches(league)
     source = "本地資料館"
-    if matches.empty:
-        matches, source, _ = get_matches(league, api_token, fd_token, crawl_url)
-    if not {"Home", "Away"}.issubset(matches.columns):
-        matches = clean_matches(matches, source, league, datetime.now().year)
-    names = set(matches["Home"].dropna()) | set(matches["Away"].dropna())
+    try:
+        if matches.empty:
+            matches, source, _ = get_matches(league, api_token, fd_token, crawl_url)
+        if not {"Home", "Away"}.issubset(matches.columns):
+            matches = clean_matches(matches, source, league, datetime.now().year)
+        names = set(matches["Home"].dropna()) | set(matches["Away"].dropna())
+    except (ValueError, KeyError, TypeError):
+        # Tier 2 目錄可以在沒有賽果或舊CSV欄位不完整時獨立運作；
+        # 不把目錄隊伍轉成虛構賽果，也不令聯賽選單整頁失敗。
+        names = set()
+        source = "官方 team_directory（無可用歷史賽果，未建立賽果）"
     # AFC Elite等跨區盃賽不能只由最近20場反推完整隊伍；合併已核實的
     # 靜態隊伍目錄，但不為目錄隊伍製造任何比賽或比分。
     try:
@@ -1683,6 +1771,75 @@ def pair_data_status(home_matches, away_matches, stale_data):
     return not reasons, reasons
 
 
+def league_baseline_lambdas(matches):
+    """Return transparent league-average goal baselines from verified FT rows only."""
+    if matches is None or matches.empty or not {"HG", "AG"}.issubset(matches.columns):
+        return {"home_goals": 1.35, "away_goals": 1.15, "source": "通用基準線（聯賽無FT）", "rows": 0}
+    data = matches.dropna(subset=["HG", "AG"])
+    if data.empty:
+        return {"home_goals": 1.35, "away_goals": 1.15, "source": "通用基準線（聯賽無FT）", "rows": 0}
+    return {"home_goals": float(data["HG"].mean()), "away_goals": float(data["AG"].mean()),
+            "source": "該聯賽真實FT平均（只作後備基準）", "rows": int(len(data))}
+
+
+def baseline_goal_rates(matches, home, away, min_samples=5):
+    """Use team history where available; replace each weak side with league averages."""
+    base = league_baseline_lambdas(matches)
+    h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
+    a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
+    used = []
+    if len(h) >= min_samples:
+        hgf = h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean()
+        hga = h.apply(lambda r: r.AG if r.Home == home else r.HG, axis=1).mean()
+    else:
+        hgf, hga = base["home_goals"], base["away_goals"]
+        used.append(f"主隊{len(h)}場<5，使用聯賽主/客平均")
+    if len(a) >= min_samples:
+        agf = a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean()
+        aga = a.apply(lambda r: r.AG if r.Home == away else r.HG, axis=1).mean()
+    else:
+        agf, aga = base["away_goals"], base["home_goals"]
+        used.append(f"客隊{len(a)}場<5，使用聯賽客/主平均")
+    hx = max(.15, (hgf + aga) / 2 * 1.08)
+    ax = max(.15, (agf + hga) / 2 * .94)
+    return hx, ax, {"used": bool(used), "reasons": used, "league_baseline": base,
+                    "home_samples": len(h), "away_samples": len(a),
+                    "home_for": float(hgf), "home_against": float(hga),
+                    "away_for": float(agf), "away_against": float(aga)}
+
+
+def _one_x_two_from_lambdas(home_lam, away_lam, max_goals=10):
+    matrix = score_matrix(home_lam, away_lam, max_goals=max_goals)
+    return (sum(p for (h, a), p in matrix.items() if h > a),
+            sum(p for (h, a), p in matrix.items() if h == a),
+            sum(p for (h, a), p in matrix.items() if h < a))
+
+
+def odds_reverse_lambdas(home_odds, draw_odds, away_odds):
+    """Infer lambdas from manually entered 1X2 odds; never calls a bookmaker."""
+    try:
+        odds = [float(home_odds), float(draw_odds), float(away_odds)]
+    except (TypeError, ValueError):
+        return None
+    if any(x <= 1 for x in odds):
+        return None
+    raw = np.array([1.0 / x for x in odds], dtype=float)
+    target = raw / raw.sum()
+    best = None
+    # A bounded deterministic grid is robust without adding scipy as a dependency.
+    for hi in np.arange(.10, 5.01, .05):
+        for ai in np.arange(.10, 5.01, .05):
+            probs = np.array(_one_x_two_from_lambdas(float(hi), float(ai)))
+            error = float(np.sum((probs - target) ** 2))
+            if best is None or error < best[0]:
+                best = (error, float(hi), float(ai), probs)
+    return {"lambda_home": best[1], "lambda_away": best[2],
+            "target_probabilities": {"主勝": float(target[0]), "和局": float(target[1]), "客勝": float(target[2])},
+            "fitted_probabilities": {"主勝": float(best[3][0]), "和局": float(best[3][1]), "客勝": float(best[3][2])},
+            "overround": float(raw.sum()), "fit_error": best[0],
+            "source": "手動1X2賠率反推（已按隱含概率歸一化；非真實FT）"}
+
+
 def score_matrix(hx, ax, max_goals=8):
     return {(hg, ag): poisson(hg, hx) * poisson(ag, ax) for hg in range(max_goals + 1) for ag in range(max_goals + 1)}
 
@@ -2182,10 +2339,23 @@ REMOTE_TEAM_CSV_API = "https://api.github.com/repos/chunlong0909-collab/phoenix-
 
 def load_remote_team_directory():
     """只讀GitHub main隊伍目錄；不讀本地teams.csv作為目錄來源。"""
-    # 加時間參數避免GitHub raw CDN在append後短時間返回舊CSV。
-    response = requests.get(REMOTE_TEAM_CSV_URL, params={"v": int(datetime.now().timestamp())}, timeout=12)
-    response.raise_for_status()
-    table = pd.read_csv(StringIO(response.text), dtype=str, encoding="utf-8-sig").fillna("")
+    # Contents API 可即時取得 main 最新 blob；raw CDN 在 append 後可能短時間返回舊CSV。
+    # API失敗才回退 raw，兩者仍然是同一份 GitHub main teams.csv。
+    text = None
+    try:
+        import base64
+        api_response = requests.get(REMOTE_TEAM_CSV_API, params={"ref": "main"}, timeout=12)
+        api_response.raise_for_status()
+        encoded = api_response.json().get("content", "")
+        if encoded:
+            text = base64.b64decode(encoded).decode("utf-8-sig")
+    except (requests.RequestException, ValueError, KeyError, TypeError):
+        text = None
+    if text is None:
+        response = requests.get(REMOTE_TEAM_CSV_URL, params={"v": int(datetime.now().timestamp())}, timeout=12)
+        response.raise_for_status()
+        text = response.content.decode("utf-8-sig")
+    table = pd.read_csv(StringIO(text), dtype=str).fillna("")
     column = "official_name" if "official_name" in table.columns else "team_name"
     if column not in table.columns:
         raise ValueError("遠端teams.csv缺少official_name/team_name欄位")
@@ -2263,6 +2433,16 @@ def resolve_team_name(query, candidates, token=""):
     if not query:
         return None
     translated = ALIASES.get(query, query)
+    # 先使用 predict_match.py 的已核實簡寫及唯一模糊匹配，成功才回傳；
+    # 多個候選會保留原有流程，避免把 Al Ahli 等簡稱錯配到另一隊。
+    if fuzzy_resolve_team_name is not None:
+        resolved = fuzzy_resolve_team_name(query, candidates)
+        if resolved:
+            return resolved
+        # Explicit alias without its official directory row must not fall through
+        # to a broad substring match such as "Al Ahli" -> "Shabab Al Ahli".
+        if query.casefold() in TEAM_NAME_ALIASES:
+            return None
     # 先做完整名稱配對，避免模糊包含關係將客隊搶配成主隊。
     for name in candidates:
         if str(name).casefold() == str(translated).casefold() or team_key(name) == team_key(translated):
@@ -2327,6 +2507,7 @@ def search_team_candidates(query, directory, token, remote_append=False):
 
 
 db_init()
+J1_SEED_STARTUP_RESULT = ensure_j1_seed_data()
 if not st.session_state.get("local_league_cache_loaded"):
     import_local_league_cache()
     st.session_state["local_league_cache_loaded"] = True
@@ -2355,6 +2536,7 @@ else:
 st.caption(f"數據接口：本地CSV驅動｜延遲：{_data_latency}｜狀態：{_data_status}")
 
 with st.sidebar:
+    app_page = st.radio("頁面", ["賽事分析", "球隊球員數據"], horizontal=False)
     test_update = st.button("更新四個測試聯賽（零成本）", use_container_width=True,
                             help="更新英超、澳職、日職、韓職，並強制刷新丹超GitHub match_history快取。")
     if test_update:
@@ -2692,6 +2874,13 @@ with st.sidebar:
             st.write(f"比分：{score.get('home')} - {score.get('away')}｜入球事件：{len(detail.get('goals') or [])}｜陣容球員：{lineup_count}人｜陣式：{formations}｜角球：{detail.get('corners') if detail.get('corners') is not None else '來源未提供'}")
         elif refresh_postmatch:
             st.warning(detail.get("reason", "完場資料未取得"))
+    odds_reverse_mode = st.checkbox(
+        "若數據庫缺乏資料，開啟賠率反推模式",
+        value=False,
+        help="只使用你手動輸入的1X2十進制賠率反推Lambda；不是球隊真實賽果，結果會明確標記。",
+    )
+    if odds_reverse_mode:
+        st.warning("賠率反推模式只在沒有足夠真實FT時啟用；模型結果不是實證球隊強度，請勿當作真實樣本。")
     home_odds = st.number_input("主勝賠率（0=沒有此盤）", 0.0, 100.0, 1.85)
     draw_odds = st.number_input("和局賠率（0=沒有此盤）", 0.0, 100.0, 3.40)
     away_odds = st.number_input("客勝賠率（0=沒有此盤）", 0.0, 100.0, 4.20)
@@ -2732,6 +2921,10 @@ with st.sidebar:
     pasted_odds = st.text_area("貼上即場賠率（可選；每行一個盤口）", placeholder="W/D/L 7.60/4.10/1.32\n大細[2.5] 2.08/1.66\n主[0.5] 2.04/1.69", height=90)
     run = st.button("一鍵自動抓取及分析", type="primary", use_container_width=True)
     run_backtest = st.button("回測本聯賽模型", use_container_width=True)
+
+if app_page == "球隊球員數據":
+    render_team_player_stats_page()
+    st.stop()
 
 if run_backtest:
     with st.spinner("逐場回測中；每場只使用當時之前的資料……"):
@@ -2809,10 +3002,15 @@ if run:
             st.warning(f"資料來源暫時不可用：{e}")
             st.info("請稍後再試，或提供該聯賽的公開賽果頁面；程式不會自行填入虛構數據。")
             st.stop()
-    if matches.empty:
+    if matches.empty and not odds_reverse_mode:
         st.warning(f"暫時找不到「{league}」的可核對賽果。這不是程式崩潰，而是目前公開來源沒有回傳資料。")
         st.info("可先選擇英超、西甲、德甲或歐聯測試；沙特等聯賽若所有免費來源均未覆蓋，必須等待來源恢復或匯入真實 CSV。")
         st.stop()
+    if matches.empty and odds_reverse_mode:
+        matches = pd.DataFrame(columns=["Home", "Away", "HG", "AG", "HC", "AC", "Date", "DateParsed", "source"])
+        matches["DateParsed"] = pd.to_datetime(matches["DateParsed"])
+        source, quality = "手動1X2賠率反推（無FT）", "後備估算（非真實FT）"
+        st.info("本聯賽沒有可核對FT；已保留官方隊名目錄，以下只會使用手動1X2賠率反推，不會新增或虛構賽果。")
     # 不同免費來源欄位不完全一致；缺少角球時補空欄，不能阻止入球及勝和負分析。
     for required_col in ["Home", "Away", "HG", "AG"]:
         if required_col not in matches.columns:
@@ -2873,19 +3071,28 @@ if run:
     if canonical_league_name(league) == "亞冠精英盃":
         st.caption(f"亞冠分析：主隊合併後 {len(matches[(matches.Home == home) | (matches.Away == home)])} 場／客隊合併後 {len(matches[(matches.Home == away) | (matches.Away == away)])} 場（亞冠＋K1/J1本地真實賽果）")
     pair_data_ok, pair_data_reasons = pair_data_status(h, a, stale_data)
-    if not pair_data_ok:
-        # 硬性信任閘門：樣本不足時不能再展示看似精確的主客、大小球或
-        # 角球機率。否則畫面一邊寫「資料不足」，一邊仍顯示 0.505880，
-        # 容易令使用者誤以為那是可用的正式預測。
+    hx, ax, baseline_info = baseline_goal_rates(matches, home, away, min_samples=5)
+    hgf, hga = baseline_info["home_for"], baseline_info["home_against"]
+    agf, aga = baseline_info["away_for"], baseline_info["away_against"]
+    baseline_fallback_used = bool(baseline_info["used"])
+    odds_reverse_result = None
+    if baseline_fallback_used:
+        st.warning("；".join(baseline_info["reasons"]) + "｜已啟用聯賽真實FT平均基準線；這不是兩隊真實樣本。")
+    if odds_reverse_mode and (baseline_fallback_used or not pair_data_ok):
+        odds_reverse_result = odds_reverse_lambdas(home_odds, draw_odds, away_odds)
+        if odds_reverse_result:
+            hx, ax = odds_reverse_result["lambda_home"], odds_reverse_result["lambda_away"]
+            st.info(f"賠率反推Lambda：主 {hx:.2f}／客 {ax:.2f}｜抽水後目標機率已歸一化｜只作後備估算，非真實FT。")
+        else:
+            st.warning("賠率反推模式已開啟，但主勝／和局／客勝賠率不完整或無效，改用聯賽基準線。")
+    effective_pair_data_ok = pair_data_ok or baseline_fallback_used or bool(odds_reverse_result)
+    if not effective_pair_data_ok:
         st.error("；".join(pair_data_reasons))
-        st.warning("資料不足，未能作可信分析；本次不顯示模型機率、EV、比分池或下注方向。請先補足主隊及客隊各至少4場已核實賽果。")
-        st.info("可使用上方「上載CSV」或「一鍵補20場」補入真實賽果；角球若未有核實HC/AC，角球分析仍會保持資料不足。")
+        st.warning("資料不足，未能作可信分析；請補足主客隊各至少4場已核實賽果，或明確開啟賠率反推模式。")
+        st.info("角球仍只接受真實HC/AC；缺少角球不會阻止入球模型，但角球會標示資料不足。")
         st.stop()
-    hgf = (h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean() if not h.empty else 1.0)
-    hga = (h.apply(lambda r: r.AG if r.Home == home else r.HG, axis=1).mean() if not h.empty else 1.0)
-    agf = (a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean() if not a.empty else 1.0)
-    aga = (a.apply(lambda r: r.AG if r.Home == away else r.HG, axis=1).mean() if not a.empty else 1.0)
-    hx, ax = max(.15, (hgf + aga) / 2 * 1.08), max(.15, (agf + hga) / 2 * .94)
+    # 後續市場表格沿用同一個有效狀態；畫面上另行顯示這是基準線／賠率後備估算。
+    pair_data_ok = effective_pair_data_ok
     fbref_stats, fbref_source = fbref_team_stats(league)
     hx, ax, fbref_adjustment = fbref_expected_goal_adjustment(fbref_stats, home, away, hx, ax)
     # 通用護級戰意：只在最新資料年份能核對排名、近5場勝場及積分差時觸發。
@@ -3087,6 +3294,10 @@ if run:
     selected_total = int(len(selected_team_rows))
     selected_pct = (selected_complete / selected_total * 100) if selected_total else 0.0
     st.success(f"資料來源：{zh_source(source)}｜資料質素：{quality}｜賽果：{len(matches)} 場｜{fbref_adjustment}")
+    if odds_reverse_result:
+        st.warning("模型來源徽章：手動1X2賠率反推｜已扣除隱含水錢並歸一化；不是兩隊真實FT，EV只作參考。")
+    elif baseline_fallback_used:
+        st.warning(f"模型來源徽章：聯賽基準線後備｜聯賽FT {baseline_info['league_baseline']['rows']} 場；主/客隊不足5場，不能視為球隊實證強度。")
     badge_color = "#137333" if selected_pct >= 90 else "#b06000" if selected_pct >= 60 else "#a50e0e"
     st.markdown(
         f"<div style='display:inline-block;background:{badge_color};color:white;padding:6px 10px;border-radius:14px;font-weight:700'>"
