@@ -1,0 +1,62 @@
+{
+  "target_team_count": 3,
+  "evidence_verified_teams": [
+    "Real Sociedad (Esp)"
+  ],
+  "new_full_teams": [
+    "Real Sociedad (Esp)"
+  ],
+  "blocked_or_insufficient": [
+    "Villarreal CF (Esp)",
+    "Girona FC (Esp)"
+  ],
+  "original_tier1": 51,
+  "final_tier1": 52,
+  "final_tier0": 200,
+  "laliga_total": 20,
+  "laliga_tier1": 12,
+  "laliga_tier0": 8,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 27,
+  "players_csv_total": 1371,
+  "coaches_csv_total": 52,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "team_checks": [
+    {
+      "evidence_team": "Villarreal (Esp)",
+      "canonical_team": "Villarreal CF (Esp)",
+      "evidence_status": "blocked_or_insufficient",
+      "evidence_player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "existing_player_count": 0,
+      "reason": "阻断：官方 2025/26 背号图与官方 2025/26 阵容合照不是同一时点且名单不一致。背号图包含 Denis Suárez、Jean Ives Valou、Etta Eyong 等，而 2025-10-24 官方合照列出 Solomon、Mikautadze、Oluwaseyi、Altimira 等，且合照没有逐人背号。辅助来源也出现不同版本（例如 ESPN 将 Tani Oluwaseyi列为21号，而官方背号图将21号标为 Yeremy/Veremy；Transfermarkt 显示赛季转会后的不同现役状态）。在没有一份官方来源同时完整覆盖最终男子一队、每人号码及可逐人交叉核验的情况下，依用户规则不输出不完整名单。",
+      "report_path": "tmp/j_batch_sources/01.md"
+    },
+    {
+      "evidence_team": "Real Sociedad (Esp)",
+      "canonical_team": "Real Sociedad (Esp)",
+      "evidence_status": "verified",
+      "evidence_player_count": 27,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "existing_player_count": 0,
+      "reason": "",
+      "report_path": "tmp/j_batch_sources/02.md"
+    },
+    {
+      "evidence_team": "Girona FC (Esp)",
+      "canonical_team": "Girona FC (Esp)",
+      "evidence_status": "blocked_or_insufficient",
+      "evidence_player_count": 0,
+      "canonical_present": false,
+      "existing_tier": null,
+      "existing_player_count": 0,
+      "reason": "官方商城的2025/26男队球衣页面公开背号选择器仅列出A. MUMIN 2、MATE 3、J. BOÑAR 4、VAN DE BEEK 6、STUANI 7、FRAN BELTRÁN 8、ABEL RUIZ 9、PORTU 10、ÀLEX MORENO 11、MORANTE 14、PYSHCHUR 15、FRANCÉS 16、BRYAN 17、VANAT 19、JASTIN 21、ASPRILLA 22、C. PÉREZ 23、IZAN 24、UNAI 30、JÚNIOR 38；未公开完整门将及其他2025/26一队球员背号。官方男子一队页目前已切换到2026/27，不能据此补写2025/26。由于用户要求官方背号完整且不得输出不完整名单，本队阻断，不输出逐人球员记录。官方公告确认2025/26一队及主教练Míchel Sánchez，但不足以消除背号完整性缺口。",
+      "report_path": "tmp/j_batch_sources/03.md"
+    }
+  ],
+  "policy": "J批只合併已完整核實且現有canonical未Full的隊伍；不新增隊伍，不創作背號。"
+}
