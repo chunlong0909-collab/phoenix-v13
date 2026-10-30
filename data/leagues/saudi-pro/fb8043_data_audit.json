@@ -1,0 +1,78 @@
+{
+  "captured_at": "2026-10-30",
+  "season": "2026/27",
+  "source": [
+    [
+      "NEOM (Sau)",
+      6,
+      11,
+      6,
+      1,
+      4,
+      16,
+      9,
+      7,
+      19
+    ],
+    [
+      "Diriyah Club (Sau)",
+      8,
+      11,
+      4,
+      3,
+      4,
+      9,
+      11,
+      -2,
+      15
+    ]
+  ],
+  "teams": {
+    "Diriyah Club (Sau)": {
+      "coach": "Bruno Miguel Silva do Nascimento",
+      "players": 29,
+      "official_url": "https://www.spl.com.sa/en/teams/diriyah"
+    },
+    "NEOM (Sau)": {
+      "coach": "Christophe Galtier",
+      "players": 26,
+      "official_url": "https://www.spl.com.sa/en/teams/neom"
+    }
+  },
+  "standings": [
+    [
+      "NEOM (Sau)",
+      6,
+      11,
+      6,
+      1,
+      4,
+      16,
+      9,
+      7,
+      19
+    ],
+    [
+      "Diriyah Club (Sau)",
+      8,
+      11,
+      4,
+      3,
+      4,
+      9,
+      11,
+      -2,
+      15
+    ]
+  ],
+  "missing_fields": [
+    "date_born",
+    "player_goals",
+    "assists",
+    "minutes",
+    "injury_status",
+    "corners",
+    "weather"
+  ],
+  "no_fabrication": true
+}

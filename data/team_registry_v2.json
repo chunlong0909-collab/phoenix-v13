@@ -1,7 +1,7 @@
 {
   "version": 3,
   "generated_from": "local directories + verified match_history aliases",
-  "source_fingerprint": "b4ea1bdf201315a8",
+  "source_fingerprint": "1516f033f9e5425d",
   "teams": [
     {
       "team_id": "a-league:1eef6ac53500",
@@ -2001,8 +2001,8 @@
       "aliases": [
         "Diriyah Club (Sau)"
       ],
-      "source": "https://www.spl.com.sa/; directory_only; official Saudi Pro League name",
-      "source_url": "https://www.spl.com.sa/",
+      "source": "SPL official team page + user-provided screenshot FB8043; directory_only",
+      "source_url": "https://www.spl.com.sa/en/teams/diriyah",
       "directory_only": true
     },
     {
@@ -2014,8 +2014,8 @@
       "aliases": [
         "NEOM (Sau)"
       ],
-      "source": "https://www.spl.com.sa/; directory_only; official Saudi Pro League name",
-      "source_url": "https://www.spl.com.sa/",
+      "source": "SPL official team page + user-provided screenshot FB8043; directory_only",
+      "source_url": "https://www.spl.com.sa/en/teams/neom",
       "directory_only": true
     },
     {
@@ -14284,8 +14284,8 @@
         "Diriyah Club",
         "迪里耶會"
       ],
-      "source": "user-provided screenshot FB8043; directory_only",
-      "source_url": "",
+      "source": "SPL official team page + user-provided screenshot FB8043; directory_only",
+      "source_url": "https://www.spl.com.sa/en/teams/diriyah",
       "directory_only": true
     },
     {
@@ -14302,8 +14302,8 @@
         "尼奧姆",
         "尼奧姆 SC"
       ],
-      "source": "user-provided screenshot FB8043; directory_only",
-      "source_url": "",
+      "source": "SPL official team page + user-provided screenshot FB8043; directory_only",
+      "source_url": "https://www.spl.com.sa/en/teams/neom",
       "directory_only": true
     }
   ]
