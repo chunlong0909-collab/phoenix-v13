@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-10-30T13:49:04.041644+00:00",
+  "leagues": {
+    "saudi-pro": {
+      "provider": "Saudi Pro League official",
+      "teams": {
+        "Diriyah Club (Sau)": {
+          "status": "reachable",
+          "http_status": 200,
+          "player_link_count": 29,
+          "coach_field_found": true,
+          "content_sha256": "602eee2c6a17af8fc2e94cc575f0510c87bdab8e551303fb951bc3b88147842a",
+          "source_url": "https://www.spl.com.sa/en/teams/diriyah/squad"
+        },
+        "NEOM (Sau)": {
+          "status": "reachable",
+          "http_status": 200,
+          "player_link_count": 26,
+          "coach_field_found": true,
+          "content_sha256": "18e007716dedf338c57b19be73e5667334ebdf953761595d2f06bca4c2d38eee",
+          "source_url": "https://www.spl.com.sa/en/teams/neom/squad"
+        }
+      },
+      "standings": {
+        "status": "reachable",
+        "http_status": 200,
+        "diriyah_present": null,
+        "neom_present": null,
+        "parser_note": "null means the page rendered standings client-side and did not expose team names in static HTML",
+        "content_sha256": "af9f56d90d74ec7d84f0a8abe78b98895d6ce526d722a7a71b4dc9bfdcdf1af1",
+        "source_url": "https://www.spl.com.sa/en/standings/index"
+      }
+    }
+  }
+}

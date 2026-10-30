@@ -26,6 +26,7 @@ from pathlib import Path
 
 import pandas as pd
 import requests
+from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 LOG_PATH = Path("/logs/auto_update.log")
@@ -167,6 +168,36 @@ def log(message: str) -> None:
 
 def norm(value) -> str:
     return re.sub(r"\s+", " ", str(value or "").replace("\ufeff", "")).strip()
+
+
+def refresh_official_metadata(config: dict, commit: bool = False) -> dict:
+    """Check official squad/coach/standings pages without inventing missing facts."""
+    sources = config.get("metadata_sources", {}) or {}
+    result = {"checked_at": datetime.now(timezone.utc).isoformat(), "leagues": {}}
+    for league, item in sources.items():
+        entry = {"provider": item.get("provider"), "teams": {}, "standings": {}}
+        for team, url in (item.get("teams", {}) or {}).items():
+            try:
+                r = requests.get(url, headers={"User-Agent": "Phoenix-safe-updater/1.0"}, timeout=25)
+                soup = BeautifulSoup(r.text, "html.parser")
+                text = soup.get_text(" ", strip=True)
+                links = sorted({a.get("href", "") for a in soup.select('a[href*="/players/"]') if a.get("href")})
+                entry["teams"][team] = {"status": "reachable" if r.ok else "blocked", "http_status": r.status_code, "player_link_count": len(links), "coach_field_found": "Coach" in text, "content_sha256": hashlib.sha256(r.content).hexdigest(), "source_url": url}
+            except Exception as exc:
+                entry["teams"][team] = {"status": "error", "reason": str(exc)[:180], "source_url": url}
+        url = item.get("standings")
+        if url:
+            try:
+                r = requests.get(url, headers={"User-Agent": "Phoenix-safe-updater/1.0"}, timeout=25)
+                text = BeautifulSoup(r.text, "html.parser").get_text(" ", strip=True)
+                entry["standings"] = {"status": "reachable" if r.ok else "blocked", "http_status": r.status_code, "diriyah_present": (True if "diriyah" in text.lower() else None), "neom_present": (True if "neom" in text.lower() else None), "parser_note": "null means the page rendered standings client-side and did not expose team names in static HTML", "content_sha256": hashlib.sha256(r.content).hexdigest(), "source_url": url}
+            except Exception as exc:
+                entry["standings"] = {"status": "error", "reason": str(exc)[:180], "source_url": url}
+        result["leagues"][league] = entry
+    path = ROOT / "data" / "official_metadata_health.json"
+    if commit or not path.exists():
+        path.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return result
 
 
 def team_id(name: str) -> str:
@@ -444,6 +475,7 @@ def ensure_user_provided_al_hazem() -> int:
 def run(commit: bool) -> dict:
     LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
     config = load_config()
+    official_metadata = refresh_official_metadata(config, commit=commit)
     live_probe = run_worldfootball_probe(config)
     local, local_report = collect_local_ft()
     espn, espn_report = espn_public_ft(days_back=int(config.get("espn_days_back", 3)))
@@ -458,7 +490,7 @@ def run(commit: bool) -> dict:
     # Al Hazem is a user-supplied stats row, explicitly not claimed as local FT.
     hazem_added = ensure_user_provided_al_hazem() if commit else 0
     written = write_snapshots(snapshots) if commit else 0
-    report = {"run_at": datetime.now(timezone.utc).isoformat(), "commit": commit, "config": config, "live_sources": {"worldfootball": live_probe, "espn": espn_report}, "coverage": coverage, "local_sources": local_report, "api_sources": api_report, "verified_ft_rows": int(len(local)), "espn_ft_rows": int(len(espn)), "team_snapshots": len(snapshots), "written_snapshots": written, "al_hazem_directory_added": directory_added, "al_hazem_stats_added": hazem_added, "status": "committed" if commit else "dry_run"}
+    report = {"run_at": datetime.now(timezone.utc).isoformat(), "commit": commit, "config": config, "official_metadata": official_metadata, "live_sources": {"worldfootball": live_probe, "espn": espn_report}, "coverage": coverage, "local_sources": local_report, "api_sources": api_report, "verified_ft_rows": int(len(local)), "espn_ft_rows": int(len(espn)), "team_snapshots": len(snapshots), "written_snapshots": written, "al_hazem_directory_added": directory_added, "al_hazem_stats_added": hazem_added, "status": "committed" if commit else "dry_run"}
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     log(f"RUN status={report['status']} verified_ft={len(local)} team_snapshots={len(snapshots)} updated={written} leagues={sorted(set(local.league_id)) if not local.empty else []}")

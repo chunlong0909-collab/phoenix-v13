@@ -1,6 +1,17 @@
 {
   "leagues": [98, 99, 292, 293, 71, 10, 13, 19],
   "sources": ["espn", "soccerway"],
+  "metadata_sources": {
+    "saudi-pro": {
+      "provider": "Saudi Pro League official",
+      "teams": {
+        "Diriyah Club (Sau)": "https://www.spl.com.sa/en/teams/diriyah/squad",
+        "NEOM (Sau)": "https://www.spl.com.sa/en/teams/neom/squad"
+      },
+      "standings": "https://www.spl.com.sa/en/standings/index",
+      "policy": "check_daily_write_only_when_official_fields_are_complete"
+    }
+  },
   "espn_days_back": 3,
   "mode": "safe_csv_only",
   "schedule": "daily_10am_hong_kong",
