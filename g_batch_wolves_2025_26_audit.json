@@ -1,0 +1,34 @@
+{
+  "target_team_count": 1,
+  "successful_full_teams": [],
+  "blocked_or_insufficient": [
+    {
+      "team": "Wolverhampton Wanderers (Eng)",
+      "status": "blocked",
+      "player_count": 0,
+      "coach": "Vitor Pereira",
+      "reason": "blocked: no reliable way was found to close every eligible 2025/26 first-team player with name, position, shirt_number, nationality, season=2025/26, at least two public URLs, and at least one official URL. The official Premier League historical list is names-only in accessible content, while the Wolves team page is not archived to 2025/26; therefore no player records are emitted and no guesses are made.",
+      "source_urls": [
+        "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists",
+        "https://www.premierleague.com/en/clubs/39/wolverhampton-wanderers/squad",
+        "https://www.wolves.co.uk/teams/mens-first-team/",
+        "https://www.wolves.co.uk/news/mens-first-team/20251007-the-official-202526-squad-photo/",
+        "https://www.transfermarkt.us/wolverhampton-wanderers/kader/verein/543/saison_id/2025",
+        "https://www.bbc.com/sport/football/articles/crm4xdzekmxo"
+      ],
+      "report_path": "tmp/g_batch_sources/01.md"
+    }
+  ],
+  "original_tier1": 50,
+  "final_tier1": 50,
+  "final_tier0": 202,
+  "players_csv_total": 1319,
+  "coaches_csv_total": 50,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 0,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "data_mutation": "none",
+  "policy": "即使採用英超官方歷史名單、Wolves官方頁及Transfermarkt/BBC交叉，若逐人缺少完整官方背號閉環，不升級、不猜測、不寫入。"
+}

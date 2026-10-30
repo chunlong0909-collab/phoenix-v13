@@ -1,0 +1,92 @@
+{
+  "target_team_count": 3,
+  "successful_full_teams": [],
+  "blocked_or_insufficient": [
+    "PSG (Fra)",
+    "Marseille (Fra)",
+    "Lyon (Fra)"
+  ],
+  "original_tier1": 52,
+  "final_tier1": 52,
+  "final_tier0": 200,
+  "ligue1_total": 18,
+  "ligue1_tier1": 0,
+  "ligue1_tier0": 18,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 0,
+  "players_csv_total": 1371,
+  "coaches_csv_total": 52,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "data_mutation": "none",
+  "source_type": "cross_verified_ligue1_official_cutover_not_passed",
+  "team_checks": [
+    {
+      "evidence_team": "Paris Saint-Germain (Fra)",
+      "canonical_team": "PSG (Fra)",
+      "status": "blocked",
+      "source_type": "blocked_three_source_incomplete",
+      "candidate_player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "Blocked under M-batch rule: Ligue 1 official 2025/26 squad URL was reachable but returned only site navigation/footer and no player-level name, position, shirt_number, nationality, or season fields. Therefore no player can be marked three-source complete, and the team cannot be accepted. No shirt numbers were guessed. Transfermarkt/ESPN candidate core is 20 players, but accepted player_count is 0 because the mandatory third source is unavailable.",
+      "source_urls": [
+        "https://www.transfermarkt.com/paris-saint-germain/kader/verein/583/saison_id/2025",
+        "https://www.espn.com/soccer/team/squad/_/id/160/league/FRA.1/season/2025",
+        "https://ligue1.com/en/club-sheet/l1_championship_club_2025_13/squad"
+      ],
+      "sources_verified": [
+        "Transfermarkt 2025/26",
+        "ESPN 2025/26",
+        "Ligue 1 official 2025/26 page attempted"
+      ],
+      "report_path": "tmp/m_batch_sources/01.md"
+    },
+    {
+      "evidence_team": "Olympique de Marseille (Fra)",
+      "canonical_team": "Marseille (Fra)",
+      "status": "blocked",
+      "source_type": "blocked_cross_verification_failed",
+      "candidate_player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "BLOCKED: the mandatory three-source 2025/26 player-level test cannot be satisfied without guessing. Transfermarkt labels the page Season 25/26 but visibly contains 2026/27 current-club transfers and, for several players, no shirt number. ESPN's 2025/26 page and the official OM men's page are not the same roster/cutover: e.g. ESPN gives Théo Vermot 92 while Transfermarkt has no number; ESPN gives Leonardo Balerdi 5, Facundo Medina 32, Nayef Aguerd 21, Benjamin Pavard 28 and Emerson 33, while the official page omits those players and lists a different 2026/27 cutover roster; official page lists Timothy Weah 22 while Transfermarkt's 25/26-labelled page shows his 2026/27 arrival and no number. Since at least one required player's three-source number equality is unavailable/inconsistent, the entire team is blocked under the no-guessing rule. No accepted 25-30 player first-team roster is emitted.",
+      "source_urls": [
+        "https://www.transfermarkt.us/olympique-marseille/kader/verein/244/saison_id/2025/plus/1",
+        "https://www.espn.com/soccer/team/squad/_/id/176/league/FRA.1/season/2025",
+        "https://ligue1.com/en/articles/l1_article_2980-25-26-preview-9-olympique-de-marseille",
+        "https://www.om.fr/en/team/men"
+      ],
+      "sources_verified": [
+        "Transfermarkt 2025/26 detailed squad",
+        "ESPN 2025/26 squad",
+        "Ligue 1 official 25/26 preview",
+        "Olympique de Marseille official men's first team (cutover evidence only)"
+      ],
+      "report_path": "tmp/m_batch_sources/02.md"
+    },
+    {
+      "evidence_team": "Olympique Lyonnais (Fra)",
+      "canonical_team": "Lyon (Fra)",
+      "status": "blocked",
+      "source_type": "cross_verified_ligue1_official_cutover",
+      "candidate_player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "BLOCKED: unable to establish the required complete three-source row-level verification. Transfermarkt saison_id=2025 page is labeled Season 25/26 but its extracted roster includes 2026/27 current-club assignments (for example Kluivert joined 01/07/2026 and several 2026 transfers), while ESPN season=2025 likewise exposes a future-contaminated roster and does not provide the required shirt-number/position fields in the same schema. The Ligue 1 official club page returned no extractable roster content, so no official 2025/26 name, position, shirt_number, or nationality can be asserted. Under the supplied rule, missing or non-comparable evidence is not guessable; the team is blocked and no player is accepted.",
+      "source_urls": [
+        "https://www.transfermarkt.com/olympique-lyon/kader/verein/1041/saison_id/2025",
+        "https://www.espn.com/soccer/team/squad/_/id/167/season/2025",
+        "https://ligue1.com/en/clubs/olympique-lyonnais"
+      ],
+      "sources_verified": [
+        "Transfermarkt 2025/26 squad selector",
+        "ESPN 2025/26 squad selector",
+        "Ligue 1 official club page (attempted; roster fields unavailable)"
+      ],
+      "report_path": "tmp/m_batch_sources/03.md"
+    }
+  ],
+  "policy": "M批只接受Transfermarkt+ESPN+Ligue1官方逐人欄位及背號完全一致；第三源無逐人資料、跨季污染或背號衝突時整隊blocked，不猜測。"
+}

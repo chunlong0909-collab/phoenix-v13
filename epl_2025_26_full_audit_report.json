@@ -1,0 +1,183 @@
+{
+  "season": "2025/26",
+  "remote_team_rows": 249,
+  "unique_team_names": 249,
+  "evidence_files": 20,
+  "status_counts": {
+    "blocked_or_insufficient": 20
+  },
+  "candidate_verified_count": 0,
+  "strict_schema_pass_count": 0,
+  "new_full_teams": [],
+  "new_player_count": 0,
+  "new_coach_count": 0,
+  "tier1_before": 8,
+  "tier1_after": 8,
+  "tier0_after": 241,
+  "epl_retained_tier0": [
+    "Arsenal (Eng)",
+    "Aston Villa (Eng)",
+    "Bournemouth (Eng)",
+    "Brentford (Eng)",
+    "Brighton and Hove Albion (Eng)",
+    "Chelsea (Eng)",
+    "Coventry City (Eng)",
+    "Crystal Palace (Eng)",
+    "Everton (Eng)",
+    "Fulham (Eng)",
+    "Hull City (Eng)",
+    "Ipswich Town (Eng)",
+    "Leeds United (Eng)",
+    "Liverpool (Eng)",
+    "Manchester City (Eng)",
+    "Manchester United (Eng)",
+    "Newcastle United (Eng)",
+    "Nottingham Forest (Eng)",
+    "Sunderland (Eng)",
+    "Tottenham Hotspur (Eng)"
+  ],
+  "fake_teams": [],
+  "al_ahli_al_hilal_aliases": "PASS",
+  "removed_false_team_names": [
+    "Elversberg (Ger)",
+    "Paderborn (Ger)",
+    "Schalke (Ger)"
+  ],
+  "issues": {
+    "Arsenal (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality",
+        "position",
+        "shirt_number"
+      ],
+      "reason": "The Premier League Arsenal squad page currently renders 2026/27 even when opened with a 2025/26 query parameter. It exposes a 2025/26 option in the UI but does not return the 2025/26 roster, so official Premier League shirt numbers for the target season cannot be verified. The Arsenal club article supplies a 2025/26 squad-number list and the club photo identifies Mikel Arteta and the first-team group, while FBref and Transfermarkt provide 2025/26 auxiliary evidence; however, the mandatory Premier League-primary cross-check is unavailable. No player is therefore marked verified_candidate and no missing birth year or official Premier League shirt number is filled in."
+    },
+    "Aston Villa (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The primary source required by the task, premierleague.com/clubs, is already switched to 2026/27. Per instruction, do not use 2026/27 data and do not backfill missing 2025/26 official shirt numbers, birth years, or player records. The complete 22-30-player evidence set with official shirt numbers therefore cannot be verified. No player is marked verified_candidate and no player data is invented."
+    },
+    "Bournemouth (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 21,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality",
+        "position",
+        "shirt_number"
+      ],
+      "reason": "Premier League official 2025/26 updated squad-list article is season-correct but its Bournemouth section contains 21 registered squad names and the displayed leading numbers are list ordinals, not shirt numbers. The official Bournemouth squad page is explicitly 2026/27 and cannot verify the requested season; the club First Team page is likewise 2026/27 and includes a different roster and loaned-out players. The available FBref fetch was partial, and Transfermarkt 25/26 is auxiliary only. Therefore no shirt number was inferred, missing position/nationality/birth_year values were not filled, and no player was marked verified_candidate."
+    },
+    "Brentford (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The primary Premier League Brentford squad page is currently 2026/27, not the requested 2025/26. Although the club has a 2025/26 squad-number announcement and Transfermarkt/ESPN expose 2025/26 auxiliary data, the required official Premier League 2025/26 shirt-number source is unavailable in the checked page. Therefore a complete 22-30 player set with every player having name, position, shirt_number, nationality, birth_year and source_urls, cross-verified by official club plus an auxiliary source, cannot be established without inventing or backfilling values. No player is marked verified_candidate."
+    },
+    "Brighton (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "blocked_or_insufficient: the primary Premier League Brighton squad page and the attempted historical URL both render 2026/27. The accessible Premier League 2025/26 squad-list article is a registration list and does not provide the required complete player profile fields (especially birth year) or a reliable shirt-number mapping matching the club's 2025/26 shirt-number article. The club page supplies 2025/26 shirt numbers, while FBref/Transfermarkt supply partial auxiliary data, but the required 22-30-player set cannot be cross-verified player-by-player with Premier League-official shirt numbers, position, nationality, and birth year. No player values were promoted to verified_candidate and no values were invented or backfilled from 2026/27."
+    },
+    "Chelsea (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Blocked by the user's explicit rule: the primary premierleague.com/clubs Chelsea squad page has already switched to 2026/27. The page's visible season heading is 2026/27 and its listed players are the 2026/27 squad. Chelsea's official Men's Profiles page likewise uses 26/27 profile assets/context. Although the Premier League 2025/26 squad-list article and 2025/26 FBref/Transfermarkt pages were accessible, they do not cure the primary-source failure and do not provide a complete, cross-verified 22-30-player set satisfying the required official shirt-number gate. No player values were invented or backfilled; therefore no verified_candidate players are emitted."
+    },
+    "Coventry City (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The required Premier League official squad page is currently switched to 2026/27 and lists a 2026/27 Coventry squad, not the requested 2025/26 season. The Coventry official team page likewise shows the current 2026/27 first-team list. Although FBref and Transfermarkt expose 2025/26 supporting data, the required official 2025/26 shirt-number source is unavailable, and Transfermarkt also shows 25/26 departures/loan movements. Under the no-substitution/no-invention rule, no player can be marked verified_candidate and no 2025/26 official shirt numbers are filled. The target therefore remains blocked_or_insufficient."
+    },
+    "Crystal Palace (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "不能標 verified_candidate。目標要求以 premierleague.com/clubs 的官方 2025/26 squad/players 頁為主源，且完整一隊 22至30人每人必須有 name、position、shirt_number、nationality、birth_year、source_urls，背號必須來自英超官方，並能與球會官網及至少一個輔助來源交叉核對。核查時英超 Crystal Palace 官方 squad URL 已切至 2026/27；Crystal Palace 官方 men's first-team URL 亦顯示 2026 season。雖然 FBref 與 Transfermarkt 可提供 2025/26 輔助資料，但沒有可用的官方 2025/26 主源來核對完整名單及官方背號。因此不補任何球員、背號或出生年，也不把青年隊、租借離隊或 2026/27 球員納入。"
+    },
+    "Everton (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The required primary source, premierleague.com Everton squad page, explicitly displays 2026/27 and lists a materially different/current squad. Therefore it cannot supply authoritative 2025/26 shirt numbers. Auxiliary 2025/26 pages (FBref, Transfermarkt, ESPN and ToffeeWeb) provide partial or conflicting squad/number information, and the accessible official Everton men's page is current rather than an archived 2025/26 roster. Under the requested rules, no player can be marked verified_candidate because a complete 22-30 player first-team set with every required field and Premier League-official 2025/26 shirt number cannot be established. No missing values or numbers were inferred."
+    },
+    "Fulham (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The Premier League official Fulham squad page is explicitly on 2026/27 and therefore cannot supply 2025/26 official shirt numbers. The Fulham FC article supplies a 2025/26 number list, and ESPN/Transfermarkt expose 2025/26 archives, but the required primary-source condition is not met for the target season. In addition, the auxiliary archives include players marked as loaned/departed or academy/reserve-level, so a complete 22-30-player first-team set with every player having name, position, official PL shirt_number, nationality, birth_year, and source_urls cannot be verified without filling gaps. No player is marked verified_candidate and no values are invented. Marco Silva is recorded as the 2025/26 head coach based on Fulham's official contract announcement stating the extension runs through the end of 2025/26."
+    },
+    "Hull City (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Hull City was not verifiably an English Premier League club for the requested 2025/26 target in the gathered sources: FBref labels the 2025-2026 season as Championship. The Premier League official Hull City squad URL is currently showing a 2026/27-era squad (for example Jack Butland, Dillon Phillips and Konstantinos Tzolakis), so it cannot supply official 2025/26 shirt numbers. Because the required official 2025/26 squad/players page and official shirt numbers are unavailable, a complete 22-30-player roster with name, position, shirt_number, nationality, birth_year and cross-source evidence cannot be produced. No players or shirt numbers were invented, and no youth, reserve, women, current 26/27, or loaned-out entries were substituted."
+    },
+    "Ipswich Town (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The required Premier League official squad page has already rolled forward and explicitly displays 2026/27. Its listed players and shirt numbers therefore cannot be used as 2025/26 evidence. The club's 25/26 squad-number article is available, and Transfermarkt/FBref provide 2025/26 supporting season pages, but the mandatory primary-source requirement for a complete 22-30 player 2025/26 Premier League squad cannot be satisfied. Per instruction, no player, shirt number, birth year, or missing field is backfilled; no player is marked verified_candidate. The available 2025/26 season is also identified by FBref as Championship rather than Premier League, so it cannot be relabeled as the requested Premier League season."
+    },
+    "Leeds United (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "不可標 verified_candidate：英超官方 squad 頁明確呈現 2026/27，雖顯示 2025/26 篩選選項，但此次可取得頁面未返回可核驗的 2025/26 完整官方背號名單。球會 mens 頁未返回可用球員資料；FBref 與 Transfermarkt 可佐證部分 2025/26 球員/賽季資料，但不足以在不補值的前提下，為完整 22–30 人逐人同時建立官方背號、position、nationality、birth_year 與三方來源交叉證據。依規則不創造球員或背號，故 player_count=0。"
+    },
+    "Liverpool (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Cannot verify a complete 22-30 player first-team roster for Premier League 2025/26. The Premier League official squad URL returned a 403 CloudFront error, so official shirt numbers could not be obtained. The Liverpool FC URL returned a 404 page and visibly referenced 2026/27 hospitality, so it cannot serve as a 2025/26 squad source. The FBref 2025/26 Liverpool page was blocked by CAPTCHA. Per instruction, no player, shirt number, nationality, birth year, loan status, or coach value was backfilled."
+    },
+    "Manchester City (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The Premier League official squad page is explicitly on 2026/27 and the attempted season query still returns 2026/27. The official 2025/26 squad-list announcement contains 21 senior squad players, below the required complete 22-30 player squad, and does not provide the required complete per-player position, shirt_number, nationality and birth_year evidence. Because the primary official 2025/26 squad/players page is unavailable/cut over and the requested rule forbids filling missing values, no player can be marked verified_candidate and player_count is 0."
+    },
+    "Manchester United (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "阻塞：英超官方 Manchester United squad 頁面目前正在展示 2026/27（頁面主標與賽季標示均為 2026/27），不是目標 2025/26；雖然選單列出 2025/26，未能取得可供本次核查使用的官方 2025/26 正在展示頁面。依規則不可使用 2026/27，不補填球員、背號、出生年或教練，因此無法形成完整 22 至 30 人且逐人三方交叉核對的 verified_candidate 名單。球會官方頁也未提供 2025/26 存檔切換；Transfermarkt 與 FBref 僅作輔助，不能取代英超官方背號來源。"
+    },
+    "Newcastle United (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The Premier League official squad page is explicitly labelled 2026/27 and exposes the 2026/27/current squad (for example Tino Livramento 2, Nico González 6, and other players not matching the official 2025/26 club squad-number announcement). The Newcastle official men's-team page is also current/2026/27 and includes current players plus a separate loan section, not an archived 2025/26 roster. The club's archived 2025/26 announcement supplies shirt numbers but not all required fields (position, nationality, birth year) for a complete 22–30-player first-team dataset. FBref has a 2025-2026 page, but it is a statistical appearance list rather than sufficient proof of the official Premier League squad registration and does not restore the missing official 2025/26 squad page. Per instruction, no player, number, birth year, or other field was inferred or backfilled; no player can be marked verified_candidate. Eddie Howe is identified by the club as head coach during the 2025/26 season, while the current club page names Matthias Jaissle for a later season."
+    },
+    "Nottingham Forest (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "阻斷：Premier League 官方 Nottingham Forest squad 頁目前明示 2026/27，並展示 John Victor、Matz Sels、Steven Benda 等2026/27名單；依指定規則不可使用2026/27資料回填2025/26。球會官方雖有2025/26背號公告，Transfermarkt與FBref亦可定位到25/26，但在官方一隊頁已是現行內容且官方英超2025/26 squad頁無法取得，因此無法讓完整22至30人的每一人同時具備官方背號、position、nationality、birth_year、source_urls並完成三方交叉核對。為避免把青年/U21、租借離隊或其他賽季資料混入，未創造或補值任何球員。"
+    },
+    "Sunderland (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "The official Premier League Sunderland squad page is explicitly labeled 2026/27 and lists the current 2026/27 squad, not the requested 2025/26 squad. The official Sunderland teams page likewise reflects the current squad. Although FBref and Transfermarkt provide season-matched 2025/26 auxiliary pages, the required official 2025/26 Premier League roster and official shirt numbers could not be established. Therefore no player is marked verified_candidate, no 2026/27 player or shirt number is backfilled, and the team is blocked_or_insufficient. Per-player evidence is intentionally empty because accepting the visible current roster would violate the no-2026/27 rule."
+    },
+    "Tottenham Hotspur (Eng)": {
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality",
+        "position"
+      ],
+      "reason": "英超官方 Tottenham squad 頁目前標示 2026/27，列出不同賽季球員，不能作為目標 2025/26 官方主源。球會官方仍有 2025/26 背號公告，但完整 22–30 人名單要求每人具備 position、nationality、birth_year 並完成官方、球會及至少一個輔助來源交叉核對；缺少可用的官方 2025/26 squad/players 頁，不能標 verified_candidate。未補任何缺失值。下列 30 人僅保留為 blocked evidence。"
+    }
+  },
+  "decision": "No EPL team was merged. All 20 evidence records were blocked_or_insufficient or failed the strict 22-30 player and official shirt-number/source gate. players.csv was not changed."
+}

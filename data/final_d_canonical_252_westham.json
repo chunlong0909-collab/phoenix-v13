@@ -1,0 +1,342 @@
+{
+  "West Ham United (Eng)": {
+    "team": "West Ham United (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "coach": "Graham Potter",
+    "source_urls": [
+      "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+      "https://www.whufc.com/en/news/west-ham-united-confirm-mens-first-team-202526-squad-numbers",
+      "https://www.whufc.com/en/teams/mens-team",
+      "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+    ],
+    "players": [
+      {
+        "name": "Mads Hermansen",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Denmark",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/mads-hermansen",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Kyle Walker-Peters",
+        "position": "DEF",
+        "shirt_number": 2,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/kyle-walker-peters",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Maximilian Kilman",
+        "position": "DEF",
+        "shirt_number": 3,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/maximilian-kilman",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Igor Julio",
+        "position": "DEF",
+        "shirt_number": 5,
+        "nationality": "Brazil",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/igor-julio",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Crysencio Summerville",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "Netherlands",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/crysencio-summerville",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "James Ward-Prowse",
+        "position": "MID",
+        "shirt_number": 8,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/james-ward-prowse",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Callum Wilson",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/callum-wilson",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Lucas Paquetá",
+        "position": "MID",
+        "shirt_number": 10,
+        "nationality": "Brazil",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/lucas-paqueta",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Niclas Füllkrug",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Germany",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/niclas-fullkrug",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "El Hadji Malick Diouf",
+        "position": "DEF",
+        "shirt_number": 12,
+        "nationality": "Senegal",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/el-hadji-malick-diouf",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Dinos Mavropanos",
+        "position": "DEF",
+        "shirt_number": 15,
+        "nationality": "Greece",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/dinos-mavropanos",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Luis Guilherme",
+        "position": "MID",
+        "shirt_number": 17,
+        "nationality": "Brazil",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/luis-guilherme",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Mateus Fernandes",
+        "position": "MID",
+        "shirt_number": 18,
+        "nationality": "Portugal",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/mateus-fernandes",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Jarrod Bowen",
+        "position": "FW",
+        "shirt_number": 20,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/jarrod-bowen",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Łukasz Fabiański",
+        "position": "GK",
+        "shirt_number": 22,
+        "nationality": "Poland",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/lukasz-fabianski",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Alphonse Areola",
+        "position": "GK",
+        "shirt_number": 23,
+        "nationality": "France",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/alphonse-areola",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Guido Rodríguez",
+        "position": "MID",
+        "shirt_number": 24,
+        "nationality": "Argentina",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/guido-rodriguez",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Jean-Clair Todibo",
+        "position": "DEF",
+        "shirt_number": 25,
+        "nationality": "France",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/jean-clair-todibo",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Soungoutou Magassa",
+        "position": "MID",
+        "shirt_number": 27,
+        "nationality": "France",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/soungoutou-magassa",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Tomáš Souček",
+        "position": "MID",
+        "shirt_number": 28,
+        "nationality": "Czech Republic",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/tomas-soucek",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Aaron Wan-Bissaka",
+        "position": "DEF",
+        "shirt_number": 29,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/aaron-wan-bissaka",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Ollie Scarles",
+        "position": "DEF",
+        "shirt_number": 30,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/ollie-scarles",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Freddie Potts",
+        "position": "MID",
+        "shirt_number": 32,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/freddie-potts",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Andy Irving",
+        "position": "MID",
+        "shirt_number": 39,
+        "nationality": "Scotland",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/andy-irving",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "George Earthy",
+        "position": "MID",
+        "shirt_number": 40,
+        "nationality": "England",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/george-earthy",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Krisztián Hegyi",
+        "position": "GK",
+        "shirt_number": 47,
+        "nationality": "Hungary",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/krisztian-hegyi",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      },
+      {
+        "name": "Callum Marshall",
+        "position": "FW",
+        "shirt_number": 50,
+        "nationality": "Northern Ireland",
+        "season": "2025/26",
+        "source_urls": [
+          "https://www.whufc.com/en/news/mens-first-team-and-academy-squads-confirmed",
+          "https://www.whufc.com/en/teams/mens-team/callum-marshall",
+          "https://www.premierleague.com/en/news/4580687/202526-premier-league-squad-lists"
+        ]
+      }
+    ],
+    "player_count": 27
+  }
+}

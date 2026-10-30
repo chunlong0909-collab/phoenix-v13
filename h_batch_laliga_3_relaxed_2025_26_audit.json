@@ -1,0 +1,66 @@
+{
+  "target_team_count": 3,
+  "evidence_verified_teams": [
+    "FC Barcelona (Esp)",
+    "Atletico Madrid (Esp)"
+  ],
+  "already_full_before_batch": [
+    "Barcelona (Esp)",
+    "Real Madrid (Esp)",
+    "Atletico Madrid (Esp)"
+  ],
+  "new_full_teams": [],
+  "blocked_or_insufficient": [
+    "Real Madrid (Esp)"
+  ],
+  "original_tier1": 50,
+  "final_tier1": 50,
+  "final_tier0": 202,
+  "laliga_total": 20,
+  "laliga_tier1": 10,
+  "laliga_tier0": 10,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 0,
+  "players_csv_total": 1319,
+  "coaches_csv_total": 50,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "data_mutation": "none",
+  "team_checks": [
+    {
+      "evidence_team": "FC Barcelona (Esp)",
+      "canonical_team": "Barcelona (Esp)",
+      "evidence_status": "verified",
+      "existing_tier": "1",
+      "existing_player_count": 23,
+      "existing_manager": "Hansi Flick",
+      "evidence_player_count": 23,
+      "reason": "",
+      "report_path": "tmp/h_batch_sources/01.md"
+    },
+    {
+      "evidence_team": "Real Madrid (Esp)",
+      "canonical_team": "Real Madrid (Esp)",
+      "evidence_status": "blocked_or_insufficient",
+      "existing_tier": "1",
+      "existing_player_count": 25,
+      "existing_manager": "Xabi Alonso",
+      "evidence_player_count": 0,
+      "reason": "Per the requested H-batch relaxed standard, a complete men's first-team list requires every player to have name, position, shirt_number, nationality, season=2025/26, at least two public URLs, and at least one club-official URL. The live Real Madrid squad page and official shop player-number page now expose 2026/27 content, while the official 2025/26 sources located here are a signings feature and a single matchday call-up, not a complete season roster. The available Wayback snapshot URL returned no readable archived roster body. Transfermarkt can supply auxiliary 25/26 records but cannot replace the required complete official 2025/26 roster/number source. To avoid outputting an incomplete or mixed-season list, no players are emitted and the team is marked blocked_or_insufficient. Existing files were not modified.",
+      "report_path": "tmp/h_batch_sources/02.md"
+    },
+    {
+      "evidence_team": "Atletico Madrid (Esp)",
+      "canonical_team": "Atletico Madrid (Esp)",
+      "evidence_status": "verified",
+      "existing_tier": "1",
+      "existing_player_count": 23,
+      "existing_manager": "Diego Pablo Simeone",
+      "evidence_player_count": 23,
+      "reason": "",
+      "report_path": "tmp/h_batch_sources/03.md"
+    }
+  ],
+  "policy": "H批不重複合併既有Full隊伍；證據只作審計，所有新資料必須完整閉環才可寫入。"
+}

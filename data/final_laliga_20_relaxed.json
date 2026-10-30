@@ -1,0 +1,2979 @@
+{
+  "Athletic Club (Esp)": {
+    "team": "Athletic Club (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Ernesto Valverde",
+    "source_urls": [
+      "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+      "https://www.athletic-club.eus/en/news/2025/08/14/athletic-club-squad-numbers-for-the-2025-26-season/",
+      "https://fbref.com/en/squads/2b22dcb0/2025-2026/Athletic-Club-Stats"
+    ],
+    "players": [
+      {
+        "name": "Unai Simón Mendibil",
+        "position": "goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/unai-simon-mendibil"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Alex Padilla Pérez",
+        "position": "goalkeeper",
+        "shirt_number": 27,
+        "nationality": "Spain",
+        "birth_year": 2003,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/alex-padilla-perez"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Andoni Gorosabel Espinosa",
+        "position": "defender",
+        "shirt_number": 2,
+        "nationality": "Spain",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/andoni-gorosabel-espinosa"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Daniel Vivian Moreno",
+        "position": "defender",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/daniel-vivian-moreno"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Aitor Paredes Casamichana",
+        "position": "defender",
+        "shirt_number": 4,
+        "nationality": "Spain",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/aitor-paredes-casamichana"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Yeray Álvarez López",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "birth_year": 1995,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/yeray-alvarez-lopez"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Jesús Areso Blanco",
+        "position": "defender",
+        "shirt_number": 12,
+        "nationality": "Spain",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/jesus-areso-blanco"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Unai Egiluz Arroyo",
+        "position": "defender",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/unai-eguiluz-arroyo"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Aymeric Laporte",
+        "position": "defender",
+        "shirt_number": 14,
+        "nationality": "France",
+        "birth_year": 1994,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/aymeric-laporte"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Iñigo Lekue Martínez",
+        "position": "defender",
+        "shirt_number": 15,
+        "nationality": "Spain",
+        "birth_year": 1993,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/inigo-lekue-martinez"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Yuri Berchiche Izeta",
+        "position": "defender",
+        "shirt_number": 17,
+        "nationality": "Spain",
+        "birth_year": 1990,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/yuri-berchiche-izeta"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Adama Boiro Boiro",
+        "position": "defender",
+        "shirt_number": 19,
+        "nationality": "Spain",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/adama-boiro-boiro"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Iker Monreal Agundez",
+        "position": "defender",
+        "shirt_number": 47,
+        "nationality": "Spain",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/iker-monreal-agundez"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Mikel Vesga Arruti",
+        "position": "midfielder",
+        "shirt_number": 6,
+        "nationality": "Spain",
+        "birth_year": 1993,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/mikel-vesga-arruti"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Oihan Sancet Tirapu",
+        "position": "midfielder",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/oihan-sancet-tirapu"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Iñigo Ruiz de Galarreta Etxeberria",
+        "position": "midfielder",
+        "shirt_number": 16,
+        "nationality": "Spain",
+        "birth_year": 1993,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/inigo-ruiz-de-galarreta-etxeberria"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Mikel Jauregizar Alboniga",
+        "position": "midfielder",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "birth_year": 2003,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/mikel-jauregizar-alboniga"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Unai Gómez Etxebarria",
+        "position": "midfielder",
+        "shirt_number": 20,
+        "nationality": "Spain",
+        "birth_year": 2003,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/unai-gomez-etxebarria"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Beñat Prados Díaz",
+        "position": "midfielder",
+        "shirt_number": 24,
+        "nationality": "Spain",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/benat-prados-diaz"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Alejandro Rego Mora",
+        "position": "midfielder",
+        "shirt_number": 30,
+        "nationality": "Spain",
+        "birth_year": 2003,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/alejandro-rego-mora"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Ibon Ignacio Sánchez Océn",
+        "position": "midfielder",
+        "shirt_number": 35,
+        "nationality": "Spain",
+        "birth_year": 2005,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/ibon-sanchez-ocen"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Selton Sued Sánchez Camilo",
+        "position": "midfielder",
+        "shirt_number": 44,
+        "nationality": "Spain",
+        "birth_year": 2005,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/selton-sued-sanchez-camilo"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Eder García Altuna",
+        "position": "midfielder",
+        "shirt_number": 49,
+        "nationality": "Spain",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/eder-garcia-altuna"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Alejandro Berenguer Remiro",
+        "position": "forward",
+        "shirt_number": 7,
+        "nationality": "Spain",
+        "birth_year": 1995,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/alejandro-berenguer-remiro"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Iñaki Williams Arthuer",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": "Ghana",
+        "birth_year": 1994,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/inaki-williams-arthuer"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Nicholas Williams Arthuer",
+        "position": "forward",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/nicholas-williams-arthuer"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Gorka Guruzeta Rodríguez",
+        "position": "forward",
+        "shirt_number": 11,
+        "nationality": "Spain",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/gorka-guruzeta-rodriguez"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Maroan Sannadi Harrouch",
+        "position": "forward",
+        "shirt_number": 21,
+        "nationality": "Morocco",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/maroan-sannadi-harrouch"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Nicolás Serrano Galdeano",
+        "position": "forward",
+        "shirt_number": 22,
+        "nationality": "Spain",
+        "birth_year": 2003,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/nicolas-serrano-galdeano"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Robert Navarro Muñoz",
+        "position": "forward",
+        "shirt_number": 23,
+        "nationality": "Spain",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/robert-navarro-munoz"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Urko Iruretagoiena Lertxundi",
+        "position": "forward",
+        "shirt_number": 25,
+        "nationality": "Spain",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/urko-iruretagoiena-lertxundi"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      },
+      {
+        "name": "Asier Hierro Campo",
+        "position": "forward",
+        "shirt_number": 31,
+        "nationality": "Spain",
+        "birth_year": 2005,
+        "source_urls": [
+          "https://www.athletic-club.eus/en/teams/athletic-club/2025-26/squad/",
+          "https://www.athletic-club.eus/en/players/asier-hierro-campo"
+        ],
+        "evidence": {
+          "official_squad": "Official Athletic Club 2025-26 squad page lists the player in this position and displays the shirt number.",
+          "official_player": "Official Athletic Club player profile confirms the player identity and profile; nationality is recorded from the player’s international identity where the profile does not print a nationality field."
+        }
+      }
+    ],
+    "player_count": 32
+  },
+  "Atletico Madrid (Esp)": {
+    "team": "Atletico Madrid (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Diego Pablo Simeone",
+    "source_urls": [
+      "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+      "https://en.atleticodemadrid.com/noticias/atleti-s-2025-26-reinforcements-unveiled",
+      "https://fbref.com/en/squads/db3b9613/2025-2026/Atletico-Madrid-Stats"
+    ],
+    "players": [
+      {
+        "name": "Juan Agustín Musso",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/juan-agustin-musso-2025-2026"
+        ]
+      },
+      {
+        "name": "Jan Oblak",
+        "position": "GK",
+        "shirt_number": 13,
+        "nationality": "Slovenia",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/jan-oblak-2025-2026"
+        ]
+      },
+      {
+        "name": "José María Giménez de Vargas",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Uruguay",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/jose-maria-gimenez-de-vargas-2025-2026"
+        ]
+      },
+      {
+        "name": "Matteo Ruggeri",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/matteo-ruggeri-2025-2026"
+        ]
+      },
+      {
+        "name": "Clément Nicolas Laurent Lenglet",
+        "position": "DF",
+        "shirt_number": 15,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/clement-nicolas-laurent-lenglet-2025-2026"
+        ]
+      },
+      {
+        "name": "Nahuel Molina Lucero",
+        "position": "DF",
+        "shirt_number": 16,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/nahuel-molina-lucero-2025-2026"
+        ]
+      },
+      {
+        "name": "Dávid Hancko",
+        "position": "DF",
+        "shirt_number": 17,
+        "nationality": "Slovakia",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/david-hancko-2025-2026"
+        ]
+      },
+      {
+        "name": "Marc Pubill Pagés",
+        "position": "DF",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/marc-pubill-pages-2025-2026"
+        ]
+      },
+      {
+        "name": "Robin Aime Robert Le Normand",
+        "position": "DF",
+        "shirt_number": 24,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/robin-aime-robert-le-normand-2025-2026"
+        ]
+      },
+      {
+        "name": "Rodrigo Mendoza Martínez-Moyá",
+        "position": "MF",
+        "shirt_number": 4,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/rodrigo-mendoza-martinez-moya-2025-2026"
+        ]
+      },
+      {
+        "name": "João Lucas de Souza Cardoso",
+        "position": "MF",
+        "shirt_number": 5,
+        "nationality": "United States",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/jo-o-lucas-de-souza-cardoso-2025-2026"
+        ]
+      },
+      {
+        "name": "Jorge Resurrección Merodio",
+        "position": "MF",
+        "shirt_number": 6,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/jorge-resurreccion-merodio-2025-2026"
+        ]
+      },
+      {
+        "name": "Pablo Barrios Rivas",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/pablo-barrios-rivas-2025-2026"
+        ]
+      },
+      {
+        "name": "Alejandro Baena Rodríguez",
+        "position": "MF",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/alejandro-baena-rodriguez-2025-2026"
+        ]
+      },
+      {
+        "name": "Marcos Llorente Moreno",
+        "position": "MF",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/marcos-llorente-moreno-2025-2026"
+        ]
+      },
+      {
+        "name": "Giuliano Simeone Baldini",
+        "position": "FW",
+        "shirt_number": 20,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/giuliano-simeone-baldini-2025-2026"
+        ]
+      },
+      {
+        "name": "Obed Gómez Vargas",
+        "position": "MF",
+        "shirt_number": 21,
+        "nationality": "Mexico",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/obed-gomez-vargas-2025-2026"
+        ]
+      },
+      {
+        "name": "Nicolás Iván González",
+        "position": "MF",
+        "shirt_number": 23,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/nicolas-ivan-gonzalez-2025-2026"
+        ]
+      },
+      {
+        "name": "Antoine Griezmann",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/antoine-griezmann-2025-2026"
+        ]
+      },
+      {
+        "name": "Alexander Sørloth",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/alexander-s-rloth-2025-2026"
+        ]
+      },
+      {
+        "name": "Thiago Ezequiel Almada",
+        "position": "MF",
+        "shirt_number": 11,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/thiago-ezequiel-almada-2025-2026"
+        ]
+      },
+      {
+        "name": "Julián Alvarez",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/julian-alvarez-2025-2026"
+        ]
+      },
+      {
+        "name": "Ademola Olajade Alade Aylola Lookman",
+        "position": "FW",
+        "shirt_number": 22,
+        "nationality": "Nigeria",
+        "source_urls": [
+          "https://www.atleticodemadrid.com/equipos/atletico-de-madrid-2025-2026",
+          "https://www.atleticodemadrid.com/jugadores/ademola-olajade-alade-aylola-lookman-2025-2026"
+        ]
+      }
+    ],
+    "player_count": 23
+  },
+  "Barcelona (Esp)": {
+    "team": "Barcelona (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Hansi Flick",
+    "source_urls": [
+      "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+      "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025",
+      "https://www.fcbarcelona.com/en/football/first-team/staff/4030694/hansi-flick"
+    ],
+    "players": [
+      {
+        "name": "Marc-André ter Stegen",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Alejandro Balde",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ronald Araújo",
+        "position": "Defender",
+        "shirt_number": 4,
+        "nationality": "Uruguay",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Pau Cubarsí",
+        "position": "Defender",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gavi",
+        "position": "Midfielder",
+        "shirt_number": 6,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ferran Torres",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Pedri",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Robert Lewandowski",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Lamine Yamal",
+        "position": "Forward",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Raphinha",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Joan García",
+        "position": "Goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Marcus Rashford",
+        "position": "Forward",
+        "shirt_number": 14,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Andreas Christensen",
+        "position": "Defender",
+        "shirt_number": 15,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Fermín López",
+        "position": "Midfielder",
+        "shirt_number": 16,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Marc Casadó",
+        "position": "Midfielder",
+        "shirt_number": 17,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gerard Martín",
+        "position": "Defender",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Dani Olmo",
+        "position": "Midfielder",
+        "shirt_number": 20,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Frenkie de Jong",
+        "position": "Midfielder",
+        "shirt_number": 21,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Marc Bernal",
+        "position": "Midfielder",
+        "shirt_number": 22,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Jules Koundé",
+        "position": "Defender",
+        "shirt_number": 23,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Eric García",
+        "position": "Defender",
+        "shirt_number": 24,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Wojciech Szczęsny",
+        "position": "Goalkeeper",
+        "shirt_number": 25,
+        "nationality": "Poland",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Roony Bardghji",
+        "position": "Forward",
+        "shirt_number": 28,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://www.fcbarcelona.com/en/news/4354446/202526-first-team-shirt-numbers-confirmed",
+          "https://www.espn.com/soccer/team/squad/_/id/83/league/ESP.1/season/2025"
+        ]
+      }
+    ],
+    "player_count": 23
+  },
+  "Espanyol (Esp)": {
+    "team": "Espanyol (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Manolo González",
+    "source_urls": [
+      "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+      "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details",
+      "https://www.marca.com/resultados/futbol/espanyol/plantilla/2025/C177.html"
+    ],
+    "players": [
+      {
+        "name": "Àngel Fortuño",
+        "position": "goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2001
+      },
+      {
+        "name": "Marko Dmitrović",
+        "position": "goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Serbia",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1992
+      },
+      {
+        "name": "Pol Tristán",
+        "position": "goalkeeper",
+        "shirt_number": 30,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2001
+      },
+      {
+        "name": "Rubén Sánchez",
+        "position": "defender",
+        "shirt_number": 2,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2001
+      },
+      {
+        "name": "Fernando Calero",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1995
+      },
+      {
+        "name": "Leandro Cabrera",
+        "position": "defender",
+        "shirt_number": 6,
+        "nationality": "Uruguay",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1991
+      },
+      {
+        "name": "José Salinas",
+        "position": "defender",
+        "shirt_number": 12,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2000
+      },
+      {
+        "name": "Miguel Rubio",
+        "position": "defender",
+        "shirt_number": 15,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1998
+      },
+      {
+        "name": "Carlos Romero",
+        "position": "defender",
+        "shirt_number": 22,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2001
+      },
+      {
+        "name": "Omar El Hilali",
+        "position": "defender",
+        "shirt_number": 23,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2003
+      },
+      {
+        "name": "Clemens Riedel",
+        "position": "defender",
+        "shirt_number": 38,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2003
+      },
+      {
+        "name": "Urko González de Zárate",
+        "position": "midfielder",
+        "shirt_number": 4,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2001
+      },
+      {
+        "name": "Edu Expósito",
+        "position": "midfielder",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1996
+      },
+      {
+        "name": "Pol Lozano",
+        "position": "midfielder",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1999
+      },
+      {
+        "name": "Ramón Terrats",
+        "position": "midfielder",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2000
+      },
+      {
+        "name": "Charles Pickel",
+        "position": "midfielder",
+        "shirt_number": 18,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1997
+      },
+      {
+        "name": "Antoniu Roca",
+        "position": "midfielder",
+        "shirt_number": 20,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2002
+      },
+      {
+        "name": "Javi Puado",
+        "position": "forward",
+        "shirt_number": 7,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1998
+      },
+      {
+        "name": "Roberto Fernández",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2002
+      },
+      {
+        "name": "Pere Milla",
+        "position": "forward",
+        "shirt_number": 11,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1992
+      },
+      {
+        "name": "Luca Koleosho",
+        "position": "forward",
+        "shirt_number": 16,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2004
+      },
+      {
+        "name": "Jofre Carreras",
+        "position": "forward",
+        "shirt_number": 17,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2002
+      },
+      {
+        "name": "Kike García",
+        "position": "forward",
+        "shirt_number": 19,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 1989
+      },
+      {
+        "name": "Tyrhys Dolan",
+        "position": "forward",
+        "shirt_number": 24,
+        "nationality": "England",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2002
+      },
+      {
+        "name": "Javi Hernández",
+        "position": "forward",
+        "shirt_number": 27,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251208190812/https://www.rcdespanyol.com/es/equipos/rcd-espanyol/1",
+          "https://fbref.com/en/squads/a8661628/2025-2026/roster/Espanyol-Roster-Details"
+        ],
+        "birth_year": 2000
+      }
+    ],
+    "player_count": 25
+  },
+  "Levante UD (Esp)": {
+    "team": "Levante UD (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Julián Calero",
+    "source_urls": [
+      "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+      "https://web.archive.org/web/20251230121227/https://www.levanteud.com/plantilla",
+      "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+    ],
+    "players": [
+      {
+        "name": "Pablo Campos",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Matías Moreno",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Alan Matturro",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Uruguay",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Adrián de la Fuente (Dela)",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Unai Elgezabal",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Diego Pampín",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Roger Brugué",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Jon Ander Olasagasti",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Iván Romero",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Pablo Martínez",
+        "position": "MF",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "José Luis Morales",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Unai Vencedor",
+        "position": "MF",
+        "shirt_number": 12,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Mathew Ryan",
+        "position": "GK",
+        "shirt_number": 13,
+        "nationality": "Australia",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Jorge Cabello",
+        "position": "DF",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Antoine Koyalipou",
+        "position": "FW",
+        "shirt_number": 15,
+        "nationality": "Central African Republic",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Kervin Arriaga",
+        "position": "MF",
+        "shirt_number": 16,
+        "nationality": "Honduras",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Víctor García",
+        "position": "DF",
+        "shirt_number": 17,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Iker Losada",
+        "position": "FW",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Carlos Espí",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Oriol Rey",
+        "position": "MF",
+        "shirt_number": 20,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Karl Etta Eyong",
+        "position": "FW",
+        "shirt_number": 21,
+        "nationality": "Cameroon",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Jeremy Toljan",
+        "position": "DF",
+        "shirt_number": 22,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Manu Sánchez",
+        "position": "DF",
+        "shirt_number": 23,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Carlos Álvarez",
+        "position": "MF",
+        "shirt_number": 24,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      },
+      {
+        "name": "Álex Primo",
+        "position": "GK",
+        "shirt_number": 32,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251025093154/https://www.levanteud.com/plantilla",
+          "https://en.wikipedia.org/wiki/2025%E2%80%9326_Levante_UD_season"
+        ]
+      }
+    ],
+    "player_count": 25
+  },
+  "CA Osasuna (Esp)": {
+    "team": "CA Osasuna (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Alessio Lisci",
+    "source_urls": [
+      "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+      "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025",
+      "https://www.worldfootball.net/teams/te306/ca-osasuna/vs2025-2026/squad/",
+      "https://web.archive.org/web/20250917022134id_/https://www.osasuna.es/cuerpo-tecnico"
+    ],
+    "players": [
+      {
+        "name": "Sergio Herrera",
+        "position": "goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Aitor Fernández",
+        "position": "goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Dimitrios Stamatakis",
+        "position": "goalkeeper",
+        "shirt_number": 31,
+        "nationality": "Greece",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Juan Cruz",
+        "position": "defender",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Jorge Herrando",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Valentin Rosier",
+        "position": "defender",
+        "shirt_number": 19,
+        "nationality": "France",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Enzo Boyomo",
+        "position": "defender",
+        "shirt_number": 22,
+        "nationality": "Cameroon",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Abel Bretones",
+        "position": "defender",
+        "shirt_number": 23,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Alejandro Catena",
+        "position": "defender",
+        "shirt_number": 24,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Lucas Torró",
+        "position": "midfielder",
+        "shirt_number": 6,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Jon Moncayola",
+        "position": "midfielder",
+        "shirt_number": 7,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Iker Muñoz",
+        "position": "midfielder",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Aimar Oroz",
+        "position": "midfielder",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Rubén García",
+        "position": "midfielder",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Mauro Echegoyen",
+        "position": "midfielder",
+        "shirt_number": 26,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Asier Osambela",
+        "position": "midfielder",
+        "shirt_number": 29,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Iker Benito",
+        "position": "forward",
+        "shirt_number": 2,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Raúl García",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Kike Barja",
+        "position": "forward",
+        "shirt_number": 11,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Moi Gómez",
+        "position": "forward",
+        "shirt_number": 16,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Ante Budimir",
+        "position": "forward",
+        "shirt_number": 17,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Sheraldo Becker",
+        "position": "forward",
+        "shirt_number": 18,
+        "nationality": "Suriname",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.worldfootball.net/teams/te306/ca-osasuna/vs2025-2026/squad/"
+        ]
+      },
+      {
+        "name": "Víctor Muñoz",
+        "position": "forward",
+        "shirt_number": 21,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      },
+      {
+        "name": "Martín Pedroarena",
+        "position": "forward",
+        "shirt_number": 27,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20251028031043id_/https://www.osasuna.es/plantilla",
+          "https://www.espn.com/soccer/team/squad/_/id/97/osasuna?season=2025"
+        ]
+      }
+    ],
+    "player_count": 24
+  },
+  "Rayo Vallecano (Esp)": {
+    "team": "Rayo Vallecano (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Íñigo Pérez",
+    "source_urls": [
+      "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+      "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores?category=coach",
+      "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html",
+      "https://fbref.com/en/squads/98e8af82/2025-2026/Rayo-Vallecano-Stats"
+    ],
+    "players": [
+      {
+        "name": "Dani Cárdenas",
+        "position": "goalkeeper",
+        "shirt_number": 1,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Augusto Batalla",
+        "position": "goalkeeper",
+        "shirt_number": 13,
+        "nationality": [
+          "Argentina"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Andrei Rațiu",
+        "position": "defender",
+        "shirt_number": 2,
+        "nationality": [
+          "Romania"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Pep Chavarría",
+        "position": "defender",
+        "shirt_number": 3,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Luiz Felipe",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": [
+          "Brazil",
+          "Italy"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Abdul Mumin",
+        "position": "defender",
+        "shirt_number": 16,
+        "nationality": [
+          "Ghana"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Iván Balliu",
+        "position": "defender",
+        "shirt_number": 20,
+        "nationality": [
+          "Albania"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Alfonso Espino",
+        "position": "defender",
+        "shirt_number": 22,
+        "nationality": [
+          "Uruguay"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Florian Lejeune",
+        "position": "defender",
+        "shirt_number": 24,
+        "nationality": [
+          "France"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Nobel Mendy",
+        "position": "defender",
+        "shirt_number": 32,
+        "nationality": [
+          "Senegal"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Jozhua Vertrouwd",
+        "position": "defender",
+        "shirt_number": 33,
+        "nationality": [
+          "Netherlands"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Pedro Díaz",
+        "position": "midfielder",
+        "shirt_number": 4,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Pathé Ciss",
+        "position": "midfielder",
+        "shirt_number": 6,
+        "nationality": [
+          "Senegal"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Isi Palazón",
+        "position": "midfielder",
+        "shirt_number": 7,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Óscar Trejo",
+        "position": "midfielder",
+        "shirt_number": 8,
+        "nationality": [
+          "Argentina"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Gerard Gumbau",
+        "position": "midfielder",
+        "shirt_number": 15,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Unai López",
+        "position": "midfielder",
+        "shirt_number": 17,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Álvaro García",
+        "position": "midfielder",
+        "shirt_number": 18,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Óscar Valentín",
+        "position": "midfielder",
+        "shirt_number": 23,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Diego Méndez",
+        "position": "midfielder",
+        "shirt_number": 29,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Alemão",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": [
+          "Brazil"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Sergio Camello",
+        "position": "forward",
+        "shirt_number": 10,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Randy Nteka",
+        "position": "forward",
+        "shirt_number": 11,
+        "nationality": [
+          "France",
+          "Democratic Republic of the Congo"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Jorge de Frutos",
+        "position": "forward",
+        "shirt_number": 19,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      },
+      {
+        "name": "Fran Pérez",
+        "position": "forward",
+        "shirt_number": 21,
+        "nationality": [
+          "Spain"
+        ],
+        "source_urls": [
+          "https://web.archive.org/web/20251015232906/https://www.rayovallecano.es/jugadores",
+          "https://www.marca.com/resultados/futbol/rayo/plantilla/2025/C184.html"
+        ]
+      }
+    ],
+    "player_count": 25
+  },
+  "Real Betis (Esp)": {
+    "team": "Real Betis (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Manuel Pellegrini",
+    "source_urls": [
+      "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+      "https://web.archive.org/web/20250908175308/https://en.realbetisbalompie.es/first_team/squad/",
+      "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025",
+      "https://www.realbetisbalompie.es/noticias/actualidad/manuel-pellegrini-extiende-su-contrato-con-el-real-betis-balompie-31940"
+    ],
+    "players": [
+      {
+        "name": "Álvaro Valles",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Adrián",
+        "position": "Goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Pau López",
+        "position": "Goalkeeper",
+        "shirt_number": 25,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Héctor Bellerín",
+        "position": "Right-back",
+        "shirt_number": 2,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Diego Llorente",
+        "position": "Centre-back",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Natan",
+        "position": "Centre-back",
+        "shirt_number": 4,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Marc Bartra",
+        "position": "Centre-back",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ricardo Rodríguez",
+        "position": "Left-back",
+        "shirt_number": 12,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Valentín Gómez",
+        "position": "Centre-back",
+        "shirt_number": 16,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Junior Firpo",
+        "position": "Left-back",
+        "shirt_number": 23,
+        "nationality": "Dominican Republic",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Aitor Ruibal",
+        "position": "Right-back",
+        "shirt_number": 24,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ángel Ortiz",
+        "position": "Right-back",
+        "shirt_number": 40,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Sergi Altimira",
+        "position": "Central midfielder",
+        "shirt_number": 6,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Pablo Fornals",
+        "position": "Central midfielder",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Sofyan Amrabat",
+        "position": "Defensive midfielder",
+        "shirt_number": 14,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Nelson Deossa",
+        "position": "Central midfielder",
+        "shirt_number": 18,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Giovani Lo Celso",
+        "position": "Attacking midfielder",
+        "shirt_number": 20,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Marc Roca",
+        "position": "Defensive midfielder",
+        "shirt_number": 21,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Isco",
+        "position": "Attacking midfielder",
+        "shirt_number": 22,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Antony",
+        "position": "Right winger",
+        "shirt_number": 7,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Chimy Ávila",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ez Abde",
+        "position": "Left winger",
+        "shirt_number": 10,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Cédric Bakambu",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "Congo DR",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Rodrigo Riquelme",
+        "position": "Left winger",
+        "shirt_number": 17,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      },
+      {
+        "name": "Cucho",
+        "position": "Forward",
+        "shirt_number": 19,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://web.archive.org/web/20250908221115/https://www.realbetisbalompie.es/primer-equipo/plantilla/",
+          "https://www.espn.com/soccer/team/squad/_/id/244/league/ESP.1/season/2025"
+        ]
+      }
+    ],
+    "player_count": 25
+  },
+  "Real Madrid (Esp)": {
+    "team": "Real Madrid (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Xabi Alonso",
+    "source_urls": [
+      "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+      "https://www.transfermarkt.us/real-madrid/kader/verein/418/saison_id/2025/plus/1"
+    ],
+    "players": [
+      {
+        "name": "Thibaut Courtois",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": [
+          "Belgium"
+        ],
+        "birth_year": 1992,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/thibaut-courtois/profil/spieler/108390"
+        ]
+      },
+      {
+        "name": "Andriy Lunin",
+        "position": "Goalkeeper",
+        "shirt_number": 13,
+        "nationality": [
+          "Ukraine"
+        ],
+        "birth_year": 1999,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/andriy-lunin/profil/spieler/404839"
+        ]
+      },
+      {
+        "name": "Dani Carvajal",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": [
+          "Spain"
+        ],
+        "birth_year": 1992,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/daniel-carvajal/profil/spieler/138927"
+        ]
+      },
+      {
+        "name": "Éder Militão",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": [
+          "Brazil"
+        ],
+        "birth_year": 1998,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/eder-militao/profil/spieler/401530"
+        ]
+      },
+      {
+        "name": "David Alaba",
+        "position": "Defender",
+        "shirt_number": 4,
+        "nationality": [
+          "Austria"
+        ],
+        "birth_year": 1992,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/david-alaba/profil/spieler/59016"
+        ]
+      },
+      {
+        "name": "Trent Alexander-Arnold",
+        "position": "Defender",
+        "shirt_number": 12,
+        "nationality": [
+          "England"
+        ],
+        "birth_year": 1998,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/trent-alexander-arnold/profil/spieler/314353"
+        ]
+      },
+      {
+        "name": "Raúl Asencio",
+        "position": "Defender",
+        "shirt_number": 17,
+        "nationality": [
+          "Spain"
+        ],
+        "birth_year": 2003,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/raul-asencio/profil/spieler/935245"
+        ]
+      },
+      {
+        "name": "Álvaro Carreras",
+        "position": "Defender",
+        "shirt_number": 18,
+        "nationality": [
+          "Spain"
+        ],
+        "birth_year": 2003,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/alvaro-carreras/profil/spieler/811778"
+        ]
+      },
+      {
+        "name": "Fran García",
+        "position": "Defender",
+        "shirt_number": 20,
+        "nationality": [
+          "Spain"
+        ],
+        "birth_year": 1999,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/fran-garcia/profil/spieler/341264"
+        ]
+      },
+      {
+        "name": "Antonio Rüdiger",
+        "position": "Defender",
+        "shirt_number": 22,
+        "nationality": [
+          "Germany"
+        ],
+        "birth_year": 1993,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/antonio-rudiger/profil/spieler/86202"
+        ]
+      },
+      {
+        "name": "Ferland Mendy",
+        "position": "Defender",
+        "shirt_number": 23,
+        "nationality": [
+          "France"
+        ],
+        "birth_year": 1995,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/ferland-mendy/profil/spieler/291417"
+        ]
+      },
+      {
+        "name": "Dean Huijsen",
+        "position": "Defender",
+        "shirt_number": 24,
+        "nationality": [
+          "Spain",
+          "Netherlands"
+        ],
+        "birth_year": 2005,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/dean-huijsen/profil/spieler/890290"
+        ]
+      },
+      {
+        "name": "Jude Bellingham",
+        "position": "Midfielder",
+        "shirt_number": 5,
+        "nationality": [
+          "England"
+        ],
+        "birth_year": 2003,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/jude-bellingham/profil/spieler/581678"
+        ]
+      },
+      {
+        "name": "Eduardo Camavinga",
+        "position": "Midfielder",
+        "shirt_number": 6,
+        "nationality": [
+          "France"
+        ],
+        "birth_year": 2002,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/eduardo-camavinga/profil/spieler/640428"
+        ]
+      },
+      {
+        "name": "Federico Valverde",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": [
+          "Uruguay"
+        ],
+        "birth_year": 1998,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/federico-valverde/profil/spieler/369081"
+        ]
+      },
+      {
+        "name": "Luka Modrić",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": [
+          "Croatia"
+        ],
+        "birth_year": 1985,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/luka-modric/profil/spieler/27992"
+        ]
+      },
+      {
+        "name": "Aurélien Tchouaméni",
+        "position": "Midfielder",
+        "shirt_number": 14,
+        "nationality": [
+          "France"
+        ],
+        "birth_year": 2000,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/aurelien-tchouameni/profil/spieler/413177"
+        ]
+      },
+      {
+        "name": "Arda Güler",
+        "position": "Midfielder",
+        "shirt_number": 15,
+        "nationality": [
+          "Turkey"
+        ],
+        "birth_year": 2005,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/arda-guler/profil/spieler/861410"
+        ]
+      },
+      {
+        "name": "Dani Ceballos",
+        "position": "Midfielder",
+        "shirt_number": 19,
+        "nationality": [
+          "Spain"
+        ],
+        "birth_year": 1996,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/dani-ceballos/profil/spieler/319745"
+        ]
+      },
+      {
+        "name": "Vinícius Júnior",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": [
+          "Brazil"
+        ],
+        "birth_year": 2000,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/vinicius-junior/profil/spieler/371998"
+        ]
+      },
+      {
+        "name": "Kylian Mbappé",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": [
+          "France"
+        ],
+        "birth_year": 1998,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/kylian-mbappe/profil/spieler/342229"
+        ]
+      },
+      {
+        "name": "Rodrygo",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": [
+          "Brazil"
+        ],
+        "birth_year": 2001,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/rodrygo/profil/spieler/412363"
+        ]
+      },
+      {
+        "name": "Endrick",
+        "position": "Forward",
+        "shirt_number": 16,
+        "nationality": [
+          "Brazil"
+        ],
+        "birth_year": 2006,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/endrick/profil/spieler/971570"
+        ]
+      },
+      {
+        "name": "Brahim Díaz",
+        "position": "Forward",
+        "shirt_number": 21,
+        "nationality": [
+          "Spain",
+          "Morocco"
+        ],
+        "birth_year": 1999,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/brahim-diaz/profil/spieler/314678"
+        ]
+      },
+      {
+        "name": "Franco Mastantuono",
+        "position": "Forward",
+        "shirt_number": 30,
+        "nationality": [
+          "Argentina"
+        ],
+        "birth_year": 2007,
+        "source_urls": [
+          "https://web.archive.org/web/20250919101603id_/https://www.realmadrid.com/en-US/football/first-team/players",
+          "https://www.transfermarkt.us/franco-mastantuono/profil/spieler/1052672"
+        ]
+      }
+    ],
+    "player_count": 25
+  },
+  "Valencia CF (Esp)": {
+    "team": "Valencia CF (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Carlos Corberán",
+    "source_urls": [
+      "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+      "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height",
+      "https://www.valenciacf.com/official-statement-carlos-corberan",
+      "https://www.laliga.com/en-GB/clubs/valencia-cf/squad"
+    ],
+    "players": [
+      {
+        "name": "Stole Dimitrievski",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "North Macedonia",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "José Copete",
+        "position": "Centre-back",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Mouctar Diakhaby",
+        "position": "Centre-back",
+        "shirt_number": 4,
+        "nationality": "Guinea",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "César Tárrega",
+        "position": "Centre-back",
+        "shirt_number": 5,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Arnaut Danjuma",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Javi Guerra",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Hugo Duro",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "André Almeida",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Luis Rioja",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Thierry Correia",
+        "position": "Defender",
+        "shirt_number": 12,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Cristian Rivero",
+        "position": "Goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "José Gayà",
+        "position": "Left-back",
+        "shirt_number": 14,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Lucas Beltrán",
+        "position": "Forward",
+        "shirt_number": 15,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Diego López",
+        "position": "Forward",
+        "shirt_number": 16,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Largie Ramazani",
+        "position": "Forward",
+        "shirt_number": 17,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Pepelu",
+        "position": "Midfielder",
+        "shirt_number": 18,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Dani Raba",
+        "position": "Forward",
+        "shirt_number": 19,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Dimitri Foulquier",
+        "position": "Right-back",
+        "shirt_number": 20,
+        "nationality": "Guadeloupe",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Jesús Vázquez",
+        "position": "Left-back",
+        "shirt_number": 21,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Baptiste Santamaria",
+        "position": "Midfielder",
+        "shirt_number": 22,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Filip Ugrinic",
+        "position": "Midfielder",
+        "shirt_number": 23,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Eray Cömert",
+        "position": "Centre-back",
+        "shirt_number": 24,
+        "nationality": "Switzerland",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      },
+      {
+        "name": "Julen Agirrezabala",
+        "position": "Goalkeeper",
+        "shirt_number": 25,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.valenciacf.com/valencia-cf-squad-numbers-for-the-2025-26-season",
+          "https://www.espn.com/soccer/team/squad/_/id/94/season/2025/sort/height"
+        ]
+      }
+    ],
+    "player_count": 23
+  }
+}

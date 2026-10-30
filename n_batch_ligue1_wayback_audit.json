@@ -1,0 +1,101 @@
+{
+  "target_team_count": 3,
+  "successful_full_teams": [],
+  "blocked_or_insufficient": [
+    "PSG (Fra)",
+    "Marseille (Fra)",
+    "Lyon (Fra)"
+  ],
+  "original_tier1": 52,
+  "final_tier1": 52,
+  "final_tier0": 200,
+  "ligue1_total": 18,
+  "ligue1_tier1": 0,
+  "ligue1_tier0": 18,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 0,
+  "players_csv_total": 1371,
+  "coaches_csv_total": 52,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "data_mutation": "none",
+  "source_type": "wayback_official_cross_verified_not_passed",
+  "team_checks": [
+    {
+      "evidence_team": "Paris Saint-Germain (Fra)",
+      "canonical_team": "PSG (Fra)",
+      "status": "blocked",
+      "source_type": "blocked",
+      "candidate_player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "BLOCKED: The mandated official Wayback target (psg.fr/en/teams/first-team) has no HTTP-200 CDX snapshot in August-September 2025. No qualifying FFF official 2025/26 PSG men's first-team PDF was found. The two non-official season pages cannot substitute for the required official source, and they are not a clean identical roster: ESPN lists academy/low-minute entries such as Martin James, Arthur Vignaud, David Boly, Thomas Cordier, Dimitri Lucea, Samba Coulibaly, Mathis Jangeal, Yanis Khafi, Wassim Slama, Noah Nsoki, Quentin Ndjantou and Pierre Mounguengue; Transfermarkt marks several of these as Espoirs, youth, or other current clubs/loans. There is also at least one material shirt-number mismatch (ESPN lists David Boly as 42 while Transfermarkt lists him without a number; ESPN lists Thomas Cordier as 53 while Transfermarkt lists him without a number). Therefore no 25-30-player list can be accepted under the required official + Transfermarkt + ESPN three-source identical-number closure. No player list is asserted.",
+      "source_urls": [
+        "https://web.archive.org/cdx/search/cdx?url=psg.fr/en/teams/first-team&from=20250801&to=20250930&output=json&filter=statuscode:200&fl=timestamp,original,statuscode,digest",
+        "https://www.transfermarkt.com/paris-saint-germain/kader/verein/583/saison_id/2025",
+        "https://www.transfermarkt.com/paris-saint-germain/kader/verein/583/saison_id/2025/plus/1",
+        "https://www.espn.com/soccer/team/squad/_/id/160/league/FRA.1/season/2025",
+        "https://www.psg.fr/en/mens-football/squad",
+        "https://www.psg.fr/en/mens-football/staff",
+        "https://www.fff.fr/"
+      ],
+      "sources_verified": [
+        "Wayback CDX exact target query returned an empty result for 2025-08-01 through 2025-09-30",
+        "Transfermarkt 2025/26 compact squad page was fetched and exposes player number, position, nationality, current-club context",
+        "Transfermarkt 2025/26 detailed squad page was fetched",
+        "ESPN 2025-26 squad page was fetched and exposes player number, position code, nationality",
+        "PSG official current men's squad page was fetched (2026-27, not the requested 2025/26 historical page)",
+        "FFF official-site/PDF searches did not locate a 2025/26 PSG men's first-team roster PDF with all required fields"
+      ],
+      "report_path": "tmp/n_batch_sources/01.md"
+    },
+    {
+      "evidence_team": "Olympique de Marseille (Fra)",
+      "canonical_team": "Marseille (Fra)",
+      "status": "blocked",
+      "source_type": "",
+      "candidate_player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "指定的2025年8至9月Wayback查询没有可用快照；替代的FFF官方PDF不是逐人、含position/shirt_number/nationality的一队名册。因此无法让任何球员完成官方来源、Transfermarkt 2025/26、ESPN 2025/26三源背号一致闭环；按规则不猜测，标记blocked。",
+      "source_urls": [
+        "https://web.archive.org/cdx/search/cdx?url=om.net/en/team&from=20250801&to=20250930&output=json&fl=timestamp,original,statuscode,mimetype,digest&filter=statuscode:200",
+        "https://www.transfermarkt.us/olympique-marseille/startseite/verein/244/saison_id/2025",
+        "https://www.espn.com/soccer/team/squad/_/id/176/league/FRA.1/season/2025",
+        "https://media.fff.fr/uploads/files/368001ad1e7d1aeacbe8bb9d1aa26f84.pdf"
+      ],
+      "sources_verified": [
+        "Wayback CDX query for om.net/en/team, 2025-08-01 through 2025-09-30 returned [] (no HTTP 200 snapshot)",
+        "Transfermarkt 2025/26 season squad page was read, but cannot complete three-source closure without the required official historical roster source",
+        "ESPN 2025/26 Marseille squad page was read, but cannot complete three-source closure without the required official historical roster source",
+        "FFF PDF URL was read; document is titled Général 2025-2026 and is not a player-by-player 2025/26 men's first-team roster with shirt numbers"
+      ],
+      "report_path": "tmp/n_batch_sources/02.md"
+    },
+    {
+      "evidence_team": "Olympique Lyonnais (Fra)",
+      "canonical_team": "Lyon (Fra)",
+      "status": "blocked",
+      "source_type": "blocked",
+      "candidate_player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "Blocked under the N-batch rule: the required official OL Wayback query for August-September 2025 returned no usable snapshot. The FFF PDF found is a general 2025-2026 document and does not provide a verifiable player-by-player men's first-team roster with name, position, shirt number, and nationality. Although Transfermarkt and ESPN 2025/26 pages were available, the mandatory official source and three-source shirt-number closed loop are absent; no roster is inferred.",
+      "source_urls": [
+        "https://web.archive.org/cdx/search/cdx?url=ol.fr/fr/football/equipe-pro&from=202508&to=202509&output=json&filter=statuscode:200&filter=mimetype:text/html&fl=timestamp,original,statuscode,digest",
+        "https://media.fff.fr/uploads/files/368001ad1e7d1aeacbe8bb9d1aa26f84.pdf",
+        "https://www.transfermarkt.com/olympique-lyon/kader/verein/1041/saison_id/2025",
+        "https://www.espn.com/soccer/team/squad/_/id/167/season/2025"
+      ],
+      "sources_verified": [
+        "Wayback CDX query for ol.fr/fr/football/equipe-pro, 2025-08 through 2025-09: empty result",
+        "FFF official PDF candidate checked; not a player-by-player 2025/26 first-team roster",
+        "Transfermarkt 2025/26 squad page checked",
+        "ESPN 2025/26 squad page checked"
+      ],
+      "report_path": "tmp/n_batch_sources/03.md"
+    }
+  ],
+  "policy": "N批只接受2025年8至9月Wayback官方頁或FFF官方逐人名冊，再與Transfermarkt及ESPN逐人比對背號；Wayback無快照、FFF文件非逐人名冊或三源未閉環時blocked，不猜測。"
+}

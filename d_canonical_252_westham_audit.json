@@ -1,0 +1,22 @@
+{
+  "operation": "canonical_249_to_252_and_merge_verified_westham",
+  "original_team_count": 249,
+  "final_team_count": 252,
+  "unique_team_names": 252,
+  "tier1_before": 46,
+  "tier1_after": 47,
+  "tier0_after": 205,
+  "added_directory_only": [
+    "Burnley (Eng)",
+    "Wolverhampton Wanderers (Eng)"
+  ],
+  "added_verified_full": [
+    "West Ham United (Eng)"
+  ],
+  "new_player_count": 27,
+  "players_csv_total": 1235,
+  "coaches_csv_total": 47,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "policy": "只新增指定3隊；Burnley/Wolves無經核實球員故tier0；West Ham使用C批已核實2025/26名單；不創作資料。"
+}

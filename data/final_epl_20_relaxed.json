@@ -1,0 +1,2362 @@
+{
+  "Arsenal (Eng)": {
+    "team": "Arsenal (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Mikel Arteta",
+    "source_urls": [
+      "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+      "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+      "https://www.arsenal.com/news/eberechi-eze-signs-for-arsenal-a4DcX7b8nyZx",
+      "https://www.arsenal.com/news/piero-hincapie-completes-loan-move-to-arsenal-aAQk54I7HLFZ",
+      "https://www.arsenal.com/fixtures/men/players/eberechi-eze-aWlc50m8VG3W",
+      "https://www.arsenal.com/fixtures/men/players/piero-hincapie-a4IK93p4eEgF",
+      "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+    ],
+    "players": [
+      {
+        "name": "David Raya",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Kepa Arrizabalaga",
+        "position": "GK",
+        "shirt_number": 13,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "William Saliba",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Cristhian Mosquera",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ben White",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Piero Hincapié",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "Ecuador",
+        "source_urls": [
+          "https://www.arsenal.com/news/piero-hincapie-completes-loan-move-to-arsenal-aAQk54I7HLFZ",
+          "https://www.arsenal.com/fixtures/men/players/piero-hincapie-a4IK93p4eEgF",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gabriel Magalhães",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Jurriën Timber",
+        "position": "DF",
+        "shirt_number": 12,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Riccardo Calafiori",
+        "position": "DF",
+        "shirt_number": 33,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Martin Ødegaard",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Christian Nørgaard",
+        "position": "MF",
+        "shirt_number": 16,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Mikel Merino",
+        "position": "MF",
+        "shirt_number": 23,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Martin Zubimendi",
+        "position": "MF",
+        "shirt_number": 36,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Declan Rice",
+        "position": "MF",
+        "shirt_number": 41,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Myles Lewis-Skelly",
+        "position": "MF",
+        "shirt_number": 49,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Bukayo Saka",
+        "position": "FW",
+        "shirt_number": 7,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Eberechi Eze",
+        "position": "FW",
+        "shirt_number": 10,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.arsenal.com/news/eberechi-eze-signs-for-arsenal-a4DcX7b8nyZx",
+          "https://www.arsenal.com/fixtures/men/players/eberechi-eze-aWlc50m8VG3W",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gabriel Jesus",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Gabriel Martinelli",
+        "position": "FW",
+        "shirt_number": 11,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Viktor Gyökeres",
+        "position": "FW",
+        "shirt_number": 14,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Leandro Trossard",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Noni Madueke",
+        "position": "FW",
+        "shirt_number": 20,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Kai Havertz",
+        "position": "FW",
+        "shirt_number": 29,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      },
+      {
+        "name": "Ethan Nwaneri",
+        "position": "MF",
+        "shirt_number": 22,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.arsenal.com/news/arsenals-squad-numbers-for-202526-a4GMA9h3xrGf",
+          "https://www.arsenal.com/news/arsenal-submit-202526-premier-league-squad-list-aIydm8q1tCH2",
+          "https://www.espn.com/soccer/team/squad/_/id/359/league/ENG.1/season/2025"
+        ]
+      }
+    ],
+    "player_count": 24
+  },
+  "Brentford (Eng)": {
+    "team": "Brentford (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Keith Andrews",
+    "source_urls": [
+      "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+      "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1",
+      "https://en.wikipedia.org/wiki/2025%E2%80%9326_Brentford_F.C._season",
+      "https://www.brentfordfc.com/en/news/interviews-keith-andrews-2025-26-premier-league-season"
+    ],
+    "players": [
+      {
+        "name": "Caoimhín Kelleher",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Republic of Ireland",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/caoimhin-kelleher",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Aaron Hickey",
+        "position": "RB/LB",
+        "shirt_number": 2,
+        "nationality": "Scotland",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/aaron-hickey",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Rico Henry",
+        "position": "LB",
+        "shirt_number": 3,
+        "nationality": "Jamaica",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/rico-henry",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Sepp van den Berg",
+        "position": "CB/RB",
+        "shirt_number": 4,
+        "nationality": "Netherlands",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/sepp-van-den-berg",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Ethan Pinnock",
+        "position": "CB",
+        "shirt_number": 5,
+        "nationality": "Jamaica",
+        "birth_year": 1993,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/ethan-pinnock",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Jordan Henderson",
+        "position": "DM",
+        "shirt_number": 6,
+        "nationality": "England",
+        "birth_year": 1990,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/jordan-henderson",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Kevin Schade",
+        "position": "LW/FW",
+        "shirt_number": 7,
+        "nationality": "Germany",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/kevin-schade",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Mathias Jensen",
+        "position": "CM",
+        "shirt_number": 8,
+        "nationality": "Denmark",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/mathias-jensen",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Igor Thiago",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Brazil",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/igor-thiago",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Hákon Valdimarsson",
+        "position": "GK",
+        "shirt_number": 12,
+        "nationality": "Iceland",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/hakon-valdimarsson",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Fábio Carvalho",
+        "position": "AM",
+        "shirt_number": 14,
+        "nationality": "Portugal",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/fabio-carvalho",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Antoni Milambo",
+        "position": "AM",
+        "shirt_number": 17,
+        "nationality": "Netherlands",
+        "birth_year": 2005,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/antoni-milambo",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Yehor Yarmoliuk",
+        "position": "CM",
+        "shirt_number": 18,
+        "nationality": "Ukraine",
+        "birth_year": 2004,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/yehor-yarmolyuk",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Dango Ouattara",
+        "position": "RW",
+        "shirt_number": 19,
+        "nationality": "Burkina Faso",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/dango-ouattara",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Kristoffer Ajer",
+        "position": "CB/RB",
+        "shirt_number": 20,
+        "nationality": "Norway",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/kristoffer-ajer",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Nathan Collins",
+        "position": "CB",
+        "shirt_number": 22,
+        "nationality": "Republic of Ireland",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/nathan-collins",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Keane Lewis-Potter",
+        "position": "LW/LB",
+        "shirt_number": 23,
+        "nationality": "England",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/keane-lewis-potter",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Mikkel Damsgaard",
+        "position": "AM",
+        "shirt_number": 24,
+        "nationality": "Denmark",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/mikkel-damsgaard",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Vitaly Janelt",
+        "position": "DM",
+        "shirt_number": 27,
+        "nationality": "Germany",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/vitaly-janelt",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Ellery Balcombe",
+        "position": "GK",
+        "shirt_number": 31,
+        "nationality": "England",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/ellery-balcombe",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Paris Maghoma",
+        "position": "MF",
+        "shirt_number": 32,
+        "nationality": "England",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/paris-maghoma",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Michael Kayode",
+        "position": "RB",
+        "shirt_number": 33,
+        "nationality": "Italy",
+        "birth_year": 2004,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/michael-kayode",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Julian Eyestone",
+        "position": "GK",
+        "shirt_number": 41,
+        "nationality": "United States",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/julian-eyestone",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Romelle Donovan",
+        "position": "AM",
+        "shirt_number": 45,
+        "nationality": "England",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.brentfordfc.com/en/news/first-team-2025-26-premier-league-squad-numbers-confirmed",
+          "https://www.brentfordfc.com/en/teams/mens/romelle-donovan",
+          "https://www.transfermarkt.com/brentford-fc/kader/verein/1148/saison_id/2025/plus/1"
+        ]
+      }
+    ],
+    "player_count": 24
+  },
+  "Brighton and Hove Albion (Eng)": {
+    "team": "Brighton and Hove Albion (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Fabian Hürzeler",
+    "source_urls": [
+      "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+      "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats",
+      "https://www.brightonandhovealbion.com/mens-first-team-coaches"
+    ],
+    "players": [
+      {
+        "name": "Bart Verbruggen",
+        "position": "GK",
+        "shirt_number": 1,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Tariq Lamptey",
+        "position": "DF",
+        "shirt_number": 2,
+        "nationality": "Ghana",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Igor Julio",
+        "position": "DF",
+        "shirt_number": 3,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Adam Webster",
+        "position": "DF",
+        "shirt_number": 4,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Lewis Dunk",
+        "position": "DF",
+        "shirt_number": 5,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Jan Paul van Hecke",
+        "position": "DF",
+        "shirt_number": 6,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Solly March",
+        "position": "MF",
+        "shirt_number": 7,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Brajan Gruda",
+        "position": "MF",
+        "shirt_number": 8,
+        "nationality": "Germany",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Stefanos Tzimas",
+        "position": "FW",
+        "shirt_number": 9,
+        "nationality": "Greece",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Georginio Rutter",
+        "position": "MF,FW",
+        "shirt_number": 10,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Yankuba Minteh",
+        "position": "MF",
+        "shirt_number": 11,
+        "nationality": "Gambia",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Jack Hinshelwood",
+        "position": "MF",
+        "shirt_number": 13,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Tommy Watson",
+        "position": "MF",
+        "shirt_number": 14,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Carlos Baleba",
+        "position": "MF",
+        "shirt_number": 17,
+        "nationality": "Cameroon",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Danny Welbeck",
+        "position": "FW",
+        "shirt_number": 18,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Charalampos Kostoulas",
+        "position": "FW",
+        "shirt_number": 19,
+        "nationality": "Greece",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "James Milner",
+        "position": "MF",
+        "shirt_number": 20,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Olivier Boscagli",
+        "position": "DF",
+        "shirt_number": 21,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Kaoru Mitoma",
+        "position": "MF,FW",
+        "shirt_number": 22,
+        "nationality": "Japan",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Jason Steele",
+        "position": "GK",
+        "shirt_number": 23,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Ferdi Kadıoğlu",
+        "position": "DF,MF",
+        "shirt_number": 24,
+        "nationality": "Turkey",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Diego Gomez",
+        "position": "MF,FW",
+        "shirt_number": 25,
+        "nationality": "Paraguay",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Yasin Ayari",
+        "position": "MF",
+        "shirt_number": 26,
+        "nationality": "Sweden",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Matts Wieffer",
+        "position": "DF,MF",
+        "shirt_number": 27,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Maxim De Cuyper",
+        "position": "DF,MF",
+        "shirt_number": 29,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Julio Enciso",
+        "position": "MF,FW",
+        "shirt_number": 31,
+        "nationality": "Paraguay",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Jeremy Sarmiento",
+        "position": "MF,FW",
+        "shirt_number": 32,
+        "nationality": "Ecuador",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Matt O’Riley",
+        "position": "MF",
+        "shirt_number": 33,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Joel Veltman",
+        "position": "DF",
+        "shirt_number": 34,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Andy Moran",
+        "position": "MF",
+        "shirt_number": 35,
+        "nationality": "Ireland",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Malick Yalcouye",
+        "position": "MF",
+        "shirt_number": 36,
+        "nationality": "Mali",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Abdallah Sima",
+        "position": "FW",
+        "shirt_number": 37,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Tom McGill",
+        "position": "GK",
+        "shirt_number": 38,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Facundo Buonanotte",
+        "position": "MF,FW",
+        "shirt_number": 40,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      },
+      {
+        "name": "Diego Coppola",
+        "position": "DF",
+        "shirt_number": 42,
+        "nationality": "Italy",
+        "source_urls": [
+          "https://www.brightonandhovealbion.com/media-article/2025-26-squad-numbers-confirmed",
+          "https://fbref.com/en/squads/d07537b9/2025-2026/Brighton-and-Hove-Albion-Stats"
+        ],
+        "evidence": {
+          "official": "Official 2025/26 squad-numbers announcement lists the player and shirt number.",
+          "auxiliary": "FBref 2025-2026 Brighton standard-stats page supports the player identity, position and nationality."
+        }
+      }
+    ],
+    "player_count": 35
+  },
+  "Chelsea (Eng)": {
+    "team": "Chelsea (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Enzo Maresca (season start–December 2025); Liam Rosenior (January–April 2026)",
+    "source_urls": [
+      "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+      "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1",
+      "https://www.chelseafc.com/en/news/article/enzo-maresca-wants-chelsea-to-finish-2025-in-the-best-way",
+      "https://www.chelseafc.com/en/news/article/club-statement-june-2026"
+    ],
+    "players": [
+      {
+        "name": "Robert Sanchez",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Marc Cucurella",
+        "position": "Left-back",
+        "shirt_number": 3,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Tosin Adarabioyo",
+        "position": "Centre-back",
+        "shirt_number": 4,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Benoit Badiashile",
+        "position": "Centre-back",
+        "shirt_number": 5,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Levi Colwill",
+        "position": "Centre-back",
+        "shirt_number": 6,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Pedro Neto",
+        "position": "Winger",
+        "shirt_number": 7,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Enzo Fernandez",
+        "position": "Central midfielder",
+        "shirt_number": 8,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Liam Delap",
+        "position": "Striker",
+        "shirt_number": 9,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Cole Palmer",
+        "position": "Attacking midfielder",
+        "shirt_number": 10,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Jamie Gittens",
+        "position": "Winger",
+        "shirt_number": 11,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Filip Jorgensen",
+        "position": "Goalkeeper",
+        "shirt_number": 12,
+        "nationality": "Denmark",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Dario Essugo",
+        "position": "Defensive midfielder",
+        "shirt_number": 14,
+        "nationality": "Portugal",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Andrey Santos",
+        "position": "Central midfielder",
+        "shirt_number": 17,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Mamadou Sarr",
+        "position": "Centre-back",
+        "shirt_number": 19,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Joao Pedro",
+        "position": "Forward",
+        "shirt_number": 20,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Jorrel Hato",
+        "position": "Defender",
+        "shirt_number": 21,
+        "nationality": "Netherlands",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Trevoh Chalobah",
+        "position": "Centre-back",
+        "shirt_number": 23,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Reece James",
+        "position": "Right-back / midfielder",
+        "shirt_number": 24,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Moises Caicedo",
+        "position": "Defensive midfielder",
+        "shirt_number": 25,
+        "nationality": "Ecuador",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Malo Gusto",
+        "position": "Right-back",
+        "shirt_number": 27,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Teddy Sharman-Lowe",
+        "position": "Goalkeeper",
+        "shirt_number": 28,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Wesley Fofana",
+        "position": "Centre-back",
+        "shirt_number": 29,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Aaron Anselmino",
+        "position": "Centre-back",
+        "shirt_number": 30,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Josh Acheampong",
+        "position": "Defender",
+        "shirt_number": 34,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Marc Guiu",
+        "position": "Striker",
+        "shirt_number": 38,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Estevao",
+        "position": "Forward",
+        "shirt_number": 41,
+        "nationality": "Brazil",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Gabriel Slonina",
+        "position": "Goalkeeper",
+        "shirt_number": 44,
+        "nationality": "United States",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Romeo Lavia",
+        "position": "Central midfielder",
+        "shirt_number": 45,
+        "nationality": "Belgium",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Alejandro Garnacho",
+        "position": "Winger",
+        "shirt_number": 49,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.chelseafc.com/en/news/article/chelsea-squad-numbers-confirmed-for-2025-26-season",
+          "https://www.transfermarkt.com/fc-chelsea/kader/verein/631/saison_id/2025/plus/1"
+        ]
+      }
+    ],
+    "player_count": 29
+  },
+  "Crystal Palace (Eng)": {
+    "team": "Crystal Palace (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Oliver Glasner",
+    "source_urls": [],
+    "players": [
+      {
+        "name": "Dean Henderson",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/goalkeeper/dean-henderson/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Henderson No. 1 and England; official first-team profile confirms goalkeeper identity."
+      },
+      {
+        "name": "Walter Benítez",
+        "position": "Goalkeeper",
+        "shirt_number": 44,
+        "nationality": "Argentina",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/goalkeeper/walter-ben-tez/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Benítez No. 44 and Argentina; official first-team profile confirms goalkeeper identity."
+      },
+      {
+        "name": "Remi Matthews",
+        "position": "Goalkeeper",
+        "shirt_number": 31,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/goalkeeper/remi-matthews/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Matthews No. 31 and England; official first-team profile confirms goalkeeper identity."
+      },
+      {
+        "name": "Daniel Muñoz",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/daniel-mu-oz/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Muñoz No. 2 and Colombia; official first-team profile places him in the defender group."
+      },
+      {
+        "name": "Tyrick Mitchell",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/tyrick-mitchell/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Mitchell No. 3 and England; official first-team profile places him in the defender group."
+      },
+      {
+        "name": "Maxence Lacroix",
+        "position": "Defender",
+        "shirt_number": 5,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/maxence-lacroix/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Lacroix No. 5 and France; official first-team profile confirms defender identity."
+      },
+      {
+        "name": "Nathaniel Clyne",
+        "position": "Defender",
+        "shirt_number": 17,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/nathaniel-clyne/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Clyne No. 17 and England; official first-team profile confirms defender identity."
+      },
+      {
+        "name": "Jaydee Canvot",
+        "position": "Defender",
+        "shirt_number": 23,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/jaydee-canvot/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Canvot No. 23 and France; official first-team profile confirms defender identity."
+      },
+      {
+        "name": "Borna Sosa",
+        "position": "Defender",
+        "shirt_number": 24,
+        "nationality": "Croatia",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/borna-sosa/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Sosa No. 24 and Croatia; official first-team profile confirms defender identity."
+      },
+      {
+        "name": "Chris Richards",
+        "position": "Defender",
+        "shirt_number": 26,
+        "nationality": "United States",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/chris-richards/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Richards No. 26 and United States; official first-team profile confirms defender identity."
+      },
+      {
+        "name": "Chadi Riad",
+        "position": "Defender",
+        "shirt_number": 34,
+        "nationality": "Morocco",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/chadi-riad/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Riad No. 34 and Morocco; official first-team profile confirms defender identity."
+      },
+      {
+        "name": "Caleb Kporha",
+        "position": "Defender",
+        "shirt_number": 38,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/defender/caleb-kporha/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Kporha No. 38 and England; official first-team profile confirms defender identity."
+      },
+      {
+        "name": "Jefferson Lerma",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "Colombia",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/midfielder/jefferson-lerma/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Lerma No. 8 and Colombia; official first-team profile places him in the midfielder group."
+      },
+      {
+        "name": "Yéremy Pino",
+        "position": "Midfielder",
+        "shirt_number": 10,
+        "nationality": "Spain",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/midfielder/y-remy-pino/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Pino No. 10 and Spain; official first-team profile places him in the midfielder group."
+      },
+      {
+        "name": "Daichi Kamada",
+        "position": "Midfielder",
+        "shirt_number": 18,
+        "nationality": "Japan",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/midfielder/daichi-kamada/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Kamada No. 18 and Japan; official first-team profile places him in the midfielder group."
+      },
+      {
+        "name": "Will Hughes",
+        "position": "Midfielder",
+        "shirt_number": 19,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/midfielder/will-hughes/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Hughes No. 19 and England; official first-team profile places him in the midfielder group."
+      },
+      {
+        "name": "Adam Wharton",
+        "position": "Midfielder",
+        "shirt_number": 20,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/midfielder/adam-wharton/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Wharton No. 20 and England; official first-team profile places him in the midfielder group."
+      },
+      {
+        "name": "Justin Devenny",
+        "position": "Midfielder",
+        "shirt_number": 55,
+        "nationality": "Northern Ireland",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/midfielder/justin-devenny/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Devenny No. 55 and Northern Ireland; official first-team profile confirms first-team midfielder identity."
+      },
+      {
+        "name": "Ismaïla Sarr",
+        "position": "Forward",
+        "shirt_number": 7,
+        "nationality": "Senegal",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/midfielder/isma-la-sarr/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Sarr No. 7 and Senegal; official first-team profile confirms Palace first-team identity (listed by the club under midfielder)."
+      },
+      {
+        "name": "Eddie Nketiah",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "England",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/forward/eddie-nketiah/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Nketiah No. 9 and England; official first-team profile confirms forward identity."
+      },
+      {
+        "name": "Brennan Johnson",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "Wales",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/forward/brennan-johnson/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Johnson No. 11 and Wales; official first-team profile confirms forward identity."
+      },
+      {
+        "name": "Jean-Philippe Mateta",
+        "position": "Forward",
+        "shirt_number": 14,
+        "nationality": "France",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/forward/jean-philippe-mateta/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Mateta No. 14 and France; official first-team profile confirms forward identity."
+      },
+      {
+        "name": "Jørgen Strand Larsen",
+        "position": "Forward",
+        "shirt_number": 22,
+        "nationality": "Norway",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/forward/j-rgen-strand-larsen/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Strand Larsen No. 22 and Norway; official first-team profile confirms forward identity."
+      },
+      {
+        "name": "Evann Guessand",
+        "position": "Forward",
+        "shirt_number": 29,
+        "nationality": "Cote d'Ivoire",
+        "source_urls": [
+          "https://www.cpfc.co.uk/news/announcement/palace-confirm-uefa-conference-league-squad-list/",
+          "https://www.cpfc.co.uk/teams/first-team/forward/evann-guessand/"
+        ],
+        "evidence": "Official Palace 2025/26 List A gives Guessand No. 29 and Cote d'Ivoire; official first-team profile confirms forward identity."
+      }
+    ],
+    "player_count": 24
+  },
+  "Newcastle United (Eng)": {
+    "team": "Newcastle United (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Eddie Howe",
+    "source_urls": [],
+    "players": [
+      {
+        "name": "Nick Pope",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "England",
+        "birth_year": 1992,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Kieran Trippier",
+        "position": "Defender",
+        "shirt_number": 2,
+        "nationality": "England",
+        "birth_year": 1990,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Lewis Hall",
+        "position": "Defender",
+        "shirt_number": 3,
+        "nationality": "England",
+        "birth_year": 2004,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Sven Botman",
+        "position": "Defender",
+        "shirt_number": 4,
+        "nationality": "Netherlands",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Fabian Schär",
+        "position": "Defender",
+        "shirt_number": 5,
+        "nationality": "Switzerland",
+        "birth_year": 1991,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Jamaal Lascelles",
+        "position": "Defender",
+        "shirt_number": 6,
+        "nationality": "England",
+        "birth_year": 1993,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Joelinton",
+        "position": "Midfielder",
+        "shirt_number": 7,
+        "nationality": "Brazil",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Sandro Tonali",
+        "position": "Midfielder",
+        "shirt_number": 8,
+        "nationality": "Italy",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Anthony Gordon",
+        "position": "Forward",
+        "shirt_number": 10,
+        "nationality": "England",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Harvey Barnes",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "England",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Malick Thiaw",
+        "position": "Defender",
+        "shirt_number": 12,
+        "nationality": "Germany",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Matt Targett",
+        "position": "Defender",
+        "shirt_number": 13,
+        "nationality": "England",
+        "birth_year": 1995,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Alexander Isak",
+        "position": "Forward",
+        "shirt_number": 14,
+        "nationality": "Sweden",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Emil Krafth",
+        "position": "Defender",
+        "shirt_number": 17,
+        "nationality": "Sweden",
+        "birth_year": 1994,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Will Osula",
+        "position": "Forward",
+        "shirt_number": 18,
+        "nationality": "Denmark",
+        "birth_year": 2003,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Anthony Elanga",
+        "position": "Forward",
+        "shirt_number": 20,
+        "nationality": "Sweden",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Tino Livramento",
+        "position": "Defender",
+        "shirt_number": 21,
+        "nationality": "England",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Jacob Murphy",
+        "position": "Midfielder",
+        "shirt_number": 23,
+        "nationality": "England",
+        "birth_year": 1995,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "John Ruddy",
+        "position": "Goalkeeper",
+        "shirt_number": 26,
+        "nationality": "England",
+        "birth_year": 1986,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Joe Willock",
+        "position": "Midfielder",
+        "shirt_number": 28,
+        "nationality": "England",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Mark Gillespie",
+        "position": "Goalkeeper",
+        "shirt_number": 29,
+        "nationality": "England",
+        "birth_year": 1992,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Harrison Ashby",
+        "position": "Defender",
+        "shirt_number": 30,
+        "nationality": "Scotland",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Max Thompson",
+        "position": "Goalkeeper",
+        "shirt_number": 31,
+        "nationality": "England",
+        "birth_year": 2004,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Aaron Ramsdale",
+        "position": "Goalkeeper",
+        "shirt_number": 32,
+        "nationality": "England",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Dan Burn",
+        "position": "Defender",
+        "shirt_number": 33,
+        "nationality": "England",
+        "birth_year": 1992,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Alex Murphy",
+        "position": "Defender",
+        "shirt_number": 37,
+        "nationality": "Ireland",
+        "birth_year": 2004,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Bruno Guimarães",
+        "position": "Midfielder",
+        "shirt_number": 39,
+        "nationality": "Brazil",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      },
+      {
+        "name": "Lewis Miley",
+        "position": "Midfielder",
+        "shirt_number": 67,
+        "nationality": "England",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.newcastleunited.com/en/news/newcastle-united-announce-2025-26-squad-numbers",
+          "https://www.newcastleunited.com/en/teams/mens-team",
+          "https://www.transfermarkt.us/newcastle-united/startseite/verein/762/saison_id/2025"
+        ]
+      }
+    ],
+    "player_count": 28
+  },
+  "Tottenham Hotspur (Eng)": {
+    "team": "Tottenham Hotspur (Eng)",
+    "league": "英超",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Thomas Frank",
+    "source_urls": [
+      "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+      "https://www.tottenhamhotspur.com/teams/mens/squad",
+      "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1",
+      "https://www.tottenhamhotspur.com/news/984505/thomas-frank-joins-as-head-coach"
+    ],
+    "players": [
+      {
+        "name": "Guglielmo Vicario",
+        "position": "Goalkeeper",
+        "shirt_number": 1,
+        "nationality": "Italy",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Radu Dragusin",
+        "position": "Centre-Back",
+        "shirt_number": 3,
+        "nationality": "Romania",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Kevin Danso",
+        "position": "Centre-Back",
+        "shirt_number": 4,
+        "nationality": "Austria",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Joao Palhinha",
+        "position": "Defensive Midfielder",
+        "shirt_number": 6,
+        "nationality": "Portugal",
+        "birth_year": 1995,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Yves Bissouma",
+        "position": "Central Midfielder",
+        "shirt_number": 8,
+        "nationality": "Mali",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Richarlison",
+        "position": "Forward",
+        "shirt_number": 9,
+        "nationality": "Brazil",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "James Maddison",
+        "position": "Attacking Midfielder",
+        "shirt_number": 10,
+        "nationality": "England",
+        "birth_year": 1996,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Mathys Tel",
+        "position": "Forward",
+        "shirt_number": 11,
+        "nationality": "France",
+        "birth_year": 2005,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Destiny Udogie",
+        "position": "Defender",
+        "shirt_number": 13,
+        "nationality": "Italy",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Archie Gray",
+        "position": "Midfielder",
+        "shirt_number": 14,
+        "nationality": "England",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Lucas Bergvall",
+        "position": "Midfielder",
+        "shirt_number": 15,
+        "nationality": "Sweden",
+        "birth_year": 2006,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Cristian Romero",
+        "position": "Centre-Back",
+        "shirt_number": 17,
+        "nationality": "Argentina",
+        "birth_year": 1998,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Dominic Solanke",
+        "position": "Forward",
+        "shirt_number": 19,
+        "nationality": "England",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Mohammed Kudus",
+        "position": "Forward",
+        "shirt_number": 20,
+        "nationality": "Ghana",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Dejan Kulusevski",
+        "position": "Midfielder",
+        "shirt_number": 21,
+        "nationality": "Sweden",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Brennan Johnson",
+        "position": "Forward",
+        "shirt_number": 22,
+        "nationality": "Wales",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Pedro Porro",
+        "position": "Defender",
+        "shirt_number": 23,
+        "nationality": "Spain",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Djed Spence",
+        "position": "Defender",
+        "shirt_number": 24,
+        "nationality": "England",
+        "birth_year": 2000,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Kota Takai",
+        "position": "Centre-Back",
+        "shirt_number": 25,
+        "nationality": "Japan",
+        "birth_year": 2004,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Wilson Odobert",
+        "position": "Forward",
+        "shirt_number": 28,
+        "nationality": "France",
+        "birth_year": 2004,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Pape Matar Sarr",
+        "position": "Midfielder",
+        "shirt_number": 29,
+        "nationality": "Senegal",
+        "birth_year": 2002,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Rodrigo Bentancur",
+        "position": "Midfielder",
+        "shirt_number": 30,
+        "nationality": "Uruguay",
+        "birth_year": 1997,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Antonin Kinsky",
+        "position": "Goalkeeper",
+        "shirt_number": 31,
+        "nationality": "Czech Republic",
+        "birth_year": 2003,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Ben Davies",
+        "position": "Defender",
+        "shirt_number": 33,
+        "nationality": "Wales",
+        "birth_year": 1993,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Micky van de Ven",
+        "position": "Centre-Back",
+        "shirt_number": 37,
+        "nationality": "Netherlands",
+        "birth_year": 2001,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Brandon Austin",
+        "position": "Goalkeeper",
+        "shirt_number": 40,
+        "nationality": "England",
+        "birth_year": 1999,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      },
+      {
+        "name": "Luca Gunter",
+        "position": "Goalkeeper",
+        "shirt_number": 46,
+        "nationality": "England",
+        "birth_year": 2005,
+        "source_urls": [
+          "https://www.tottenhamhotspur.com/news/985049/202526-premier-league-squad-numbers-confirmed",
+          "https://www.tottenhamhotspur.com/teams/mens/squad",
+          "https://www.transfermarkt.us/tottenham-hotspur/kader/verein/148/saison_id/2025/plus/1"
+        ]
+      }
+    ],
+    "player_count": 27
+  }
+}

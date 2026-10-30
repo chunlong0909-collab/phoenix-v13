@@ -1,0 +1,41 @@
+{
+  "season": "2025/26",
+  "remote_team_rows": 249,
+  "unique_team_names": 249,
+  "tier1_before": 8,
+  "tier1_after": 15,
+  "tier0_after": 234,
+  "new_full_teams": [
+    "Arsenal (Eng)",
+    "Brentford (Eng)",
+    "Brighton (Eng)",
+    "Chelsea (Eng)",
+    "Crystal Palace (Eng)",
+    "Newcastle United (Eng)",
+    "Tottenham Hotspur (Eng)"
+  ],
+  "new_player_count": 191,
+  "new_coach_count": 7,
+  "retained_epl_tier0": [
+    "Aston Villa (Eng)",
+    "Bournemouth (Eng)",
+    "Coventry City (Eng)",
+    "Everton (Eng)",
+    "Fulham (Eng)",
+    "Hull City (Eng)",
+    "Ipswich Town (Eng)",
+    "Leeds United (Eng)",
+    "Liverpool (Eng)",
+    "Manchester City (Eng)",
+    "Manchester United (Eng)",
+    "Nottingham Forest (Eng)",
+    "Sunderland (Eng)"
+  ],
+  "existing_german_full_preserved": 8,
+  "french_spanish_italian_tier0_preserved": true,
+  "players_csv_total": 398,
+  "coaches_csv_total": 15,
+  "fake_teams": [],
+  "birth_year_optional": true,
+  "policy": "18-35人；每人name/position/shirt_number/nationality/source_urls；至少2個來源且含球會官方URL；排除租借離隊及青年隊。"
+}

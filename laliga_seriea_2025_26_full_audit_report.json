@@ -1,0 +1,332 @@
+{
+  "season": "2025/26",
+  "remote_team_rows": 249,
+  "unique_team_names": 249,
+  "evidence_files": 40,
+  "status_counts": {
+    "blocked_or_insufficient": 40
+  },
+  "candidate_verified_count": 0,
+  "strict_schema_pass_count": 0,
+  "new_full_teams": [],
+  "new_player_count": 0,
+  "new_coach_count": 0,
+  "la_liga_new_full": [],
+  "serie_a_new_full": [],
+  "retained_directory_count": 40,
+  "german_tier1_preserved": 8,
+  "french_tier1": 0,
+  "fake_teams": [],
+  "al_ahli_al_hilal_aliases": "PASS",
+  "removed_false_team_names": [
+    "Elversberg (Ger)",
+    "Paderborn (Ger)",
+    "Schalke (Ger)"
+  ],
+  "issues": {
+    "Real Madrid (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Hard stop: a complete 22-30 player 2025/26 first-team roster cannot be cross-verified across Transfermarkt, FBref, and an applicable official source without mixing seasons. The LaLiga official page is explicitly 2026/27; the Real Madrid official first-team page currently contains 2026/27 players/staff; Transfermarkt's 25/26 view contains 2026 internal-transfer/current entries; and FBref does not provide shirt numbers or a clean official roster. Per instruction, no player, shirt number, nationality, birth year, or coach value is fabricated or backfilled."
+    },
+    "Barcelona (Esp)": {
+      "league": "La Liga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality",
+        "position",
+        "shirt_number"
+      ],
+      "reason": "blocked_or_insufficient: the required three-way cross-check cannot be completed without using an official 2025/26 source. The official LaLiga page explicitly says 2026/27, and the official FC Barcelona first-team page is current 2026/27-era content. Under the requested rules, no player is accepted and no missing hard field (name, position, shirt_number, nationality, birth_year, or official evidence) is filled from another season. Transfermarkt also visibly includes post-2025/26 current-club/internal-transfer artifacts on the 25/26 page, so it cannot independently cure the official-source gap."
+    },
+    "Atletico Madrid (Esp)": {
+      "league": "La Liga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality",
+        "position"
+      ],
+      "reason": "blocked_or_insufficient: LaLiga's corresponding official squad page currently labels the team as 2026/27, which is explicitly disallowed. The club's official 2025/26 first-team page lists 23 names and shirt numbers but does not expose all required position, nationality, and birth_year fields in the page evidence. Transfermarkt's historical 25/26 page also contains later 2026 internal transfers/current-club destinations and loan/departure records, so it cannot be used to silently repair the missing official-year cross-check. No values were inferred or filled."
+    },
+    "Athletic Bilbao (Athletic Club)": {
+      "league": "LaLiga (Spain)",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 32,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality"
+      ],
+      "reason": "Official 2025-26 page was accessible and names 32 entries, exceeding the requested 22-30 complete first-team range. Transfermarkt 25/26 page was accessible but its 26-person table visibly includes reserve/loan/current-club mismatches (for example Mikel Santos at Bilbao Athletic and multiple players shown at other clubs). FBref 2025-2026 page was accessible, but the season roster/stat pages do not provide a complete shirt-number field and the official page does not provide nationality or birth year. Per instruction, no values were inferred or backfilled; therefore the complete three-source dataset is blocked_or_insufficient."
+    },
+    "Real Sociedad (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "硬阻断：LaLiga 官方 squad 页面明确显示 Official staff of the Real Sociedad 2026/27，属于用户禁止采用的下一赛季；Real Sociedad 官方一队页当前显示 2026 年 11 月赛程、2026 年新闻及当前名单，且没有可验证的 2025/26 赛季标签，不能作为目标赛季官方第三源。虽然 Transfermarkt 2025/26 与 FBref 2025-2026 可访问，但无法让完整一队的每名球员同时由同一目标赛季的三源交叉核对。依据规则不采用 2026/27，不混入预备队、女子队、青年队、租借离队或当前名单，不补缺失字段，也不创造球员或背号，因此未接受任何球员，player_count=0。"
+    },
+    "Villarreal (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Hard stop: a complete 22-30 player Villarreal first-team roster for 2025/26 cannot be cross-verified across Transfermarkt, FBref, and an applicable official source without mixing seasons or accepting missing hard fields. Transfermarkt's Season 25/26 view contains 2026 internal-transfer/Villarreal B and current-club contamination; FBref's 2025-2026 page lacks shirt numbers and is not a complete registered-roster source; the official club page is a current JavaScript page with no usable historical snapshot; and LaLiga explicitly shows 2026/27. Per instruction, no player, shirt number, nationality, birth year, coach, or other value is fabricated or backfilled."
+    },
+    "Real Betis": {
+      "league": "La Liga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "blocked_or_insufficient: LaLiga official squad page is switched to and explicitly labeled 2026/27, not the requested 2025/26. The Real Betis official first-team URL returned no extractable content. Therefore the required three-source cross-check for a complete 22-30 player first-team roster cannot be completed. No player, shirt number, coach, or missing hard-field value was inferred or backfilled."
+    },
+    "Sevilla (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "No player is accepted because the mandatory three-source cross-check cannot be completed for the target 2025/26 season. The official LaLiga page has switched to 2026/27, the club page is an undated/current first-team page, and FBref lacks shirt numbers and does not establish the complete 22-30-person official roster. Per instruction, no values are backfilled; no reserve, women, youth, departed-loan, or current-season players are included."
+    },
+    "Valencia (Esp)": {
+      "league": "La Liga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "No accepted player records. The required three-source same-season cross-check cannot be completed: Transfermarkt and FBref expose 2025/26 data, but the corresponding official LaLiga squad page is explicitly titled Official staff of the Valencia CF 2026/27 squad, and the Valencia CF official first-team page contains 2026/27 match/news content. Under the hard rules, the official source year mismatch blocks the complete 22-30 player roster; no player, position, shirt number, nationality, or birth year is backfilled. Candidate evidence is retained at source level in the report; reserve/academy, women/youth, loaned-out and current 2026/27 entries are not promoted into the roster."
+    },
+    "Celta Vigo (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Transfermarkt and FBref both expose 2025/26 data, but the official LaLiga Celta squad page is explicitly labeled Official staff of the Celta 2026/27. The club website likewise shows current 26/27 content and does not provide a verifiable 2025/26 first-team roster page in the checked source. Under the hard rule that an official source switching to 2026/27 makes the record blocked_or_insufficient, no player records, shirt numbers, or coach value are emitted; no values are backfilled."
+    },
+    "Getafe": {
+      "league": "LaLiga (Spain)",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality",
+        "position",
+        "shirt_number"
+      ],
+      "reason": "无法接受完整一队：Transfermarkt 的 25/26 页面可访问但内容含现赛季（26/27）转会/俱乐部信息；FBref 页面明确是 2025-2026；Getafe 官方 plantilla 当前为 2026 页面，LaLiga 的 season=2025 URL 仍明确显示“Plantilla oficial ... 2026/27”。因此官方/联赛第三源不能证明 2025/26，且无法逐人同时核对全部硬字段。依规则不补值、不把预备队/青年队或租借离队人员纳入，接受 player_count=0。"
+    },
+    "Osasuna": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [
+        "shirt_number"
+      ],
+      "reason": "拒絕接受名單：官方與聯賽官方頁面均已切到2026/27；Transfermarkt 25/26頁可見未編號球員、預備隊球員、26/27內部轉會與租借離隊/回歸資訊；FBref 2025-2026頁未提供可與官方完整核對的shirt_number。故沒有任何球員可同時滿足name、position、shirt_number、nationality、birth_year及三源來源欄位，不能聲稱有22至30人的完整一隊。"
+    },
+    "Rayo Vallecano (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "硬阻断：LaLiga 官方 squad 页面当前明确显示 Official staff of the Rayo Vallecano 2026/27，不能作为目标 2025/26 的官方联赛来源；Rayo 官方球员页仅显示当前名单且没有 2025/26 赛季标签。虽然 Transfermarkt 2025/26 与 FBref 2025-2026 可访问，但无法让每一名球员同时以同一目标赛季由三源交叉核对。依据规则不补填、不采用 2026/27、预备队或当前名单，因此未接受任何球员，player_count=0。"
+    },
+    "Mallorca (Esp)": {
+      "league": "La Liga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "不符合完整一隊 22-30 人及三源逐人交叉核對門檻。FBref 2025-2026 頁面可讀到球員統計，但沒有可供本任務逐人核對的球衣號碼；Transfermarkt saison_id=2025 頁面同時列出已離隊球員、RCD Mallorca B/青年隊及混合狀態，不能直接當作完整一隊；LaLiga 官方 squad 頁明確標示 Official staff of the RCD Mallorca 2026/27，按要求不得使用；球會官方 /en/first-team 只回傳 301 Moved Permanently，未提供 2025/26 名單。因此所有候選人均保留為 blocked，缺失欄位不補值，合格 player_count=0。"
+    },
+    "Girona (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "硬阻斷：LaLiga 官方 squad 頁面目前明確顯示 Official staff of the Girona FC 2026/27，不能用來核對目標 2025/26；Girona 官方 2025-2026 合照文章只確認一隊及由 Míchel Sánchez 帶領的技術團隊，沒有完整逐人 name、position、shirt_number、nationality、birth_year 欄位。Transfermarkt 25/26 與 FBref 2025-2026 雖可訪問，但無法讓每位球員同時由目標賽季的三個可接受來源交叉核對。依規則不採用 2026/27、預備隊、租借離隊或缺失欄位，不補值；因此不接受任何球員，player_count=0。"
+    },
+    "Alaves (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "blocked_or_insufficient: the required three-source cross-check cannot be completed for a 2025/26 first-team squad. Transfermarkt and FBref provide 2025/26 material, but the official LaLiga page explicitly states 'Plantilla oficial del Deportivo Alavés 2026/27', and the club men's-team page is a current unarchived roster. Under the instructions, 2026/27 official data cannot be used for 2025/26. The Transfermarkt 25/26 page also contains reserve-team entries, future/returned-loan markers, and players whose season placement is not equivalent to a verified first-team roster. No player is accepted, no shirt number or missing hard field is inferred, and no 22–30 person complete roster is claimed."
+    },
+    "Las Palmas (Esp)": {
+      "league": "LaLiga 2 (Segunda División)",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Transfermarkt 的 saison_id=2025 頁面明確標示 Season 25/26，FBref 頁面明確標示 2025-2026 Las Palmas Stats/roster，兩者可讀取 2025/26 資料。但 LaLiga 官方 UD Las Palmas squad 頁面明確標示 Official staff of the UD Las Palmas 2026/27；球會官網一隊頁無法抽取可驗證內容。由於使用者要求對應聯賽官方及球會官網、三源逐人交叉核對，且禁止使用 2026/27、禁止補值，故不能接受任何球員記錄，也不能宣稱完整 22至30人名單已驗證。"
+    },
+    "Valladolid (Esp)": {
+      "league": "LaLiga Hypermotion (Segunda División)",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Transfermarkt and FBref 2025/26 pages were available, but the required corresponding-league official Valladolid page explicitly states 'Official staff ... 2026/27'. The club's live first-team page is also a 2026/27 roster. Because the user forbids using 2026/27 and requires every accepted player to have name, position, shirt_number, nationality, birth_year plus all three season-matched sources, no player can be accepted without inventing or mixing seasons. The result is therefore blocked_or_insufficient with zero accepted players. No CAPTCHA/Cloudflare workaround or substitute source was used."
+    },
+    "Espanyol (Esp)": {
+      "league": "LaLiga",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "blocked_or_insufficient：无法满足‘完整一队 22 至 30 人’及每人 name、position、shirt_number、nationality、birth_year、source_transfermarkt、source_fbref、source_official、source_urls 均齐全且三源交叉核对的硬条件。Transfermarkt 与 FBref 均可锁定 2025/26，但 LaLiga 官方阵容页明确切到 2026/27；球会官方一队页没有 2025/26 赛季锁定且显示当前阵容。故不补号码、出生年份、教练或球员，不把预备队、青年队、女子队、租借离队条目纳入，不输出任何未完成三源核对的球员。"
+    },
+    "Leganes": {
+      "league": "LaLiga Hypermotion",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Blocked under the stated hard rules. Transfermarkt and FBref provide 2025/26 data, but the official LaLiga squad page explicitly says Official staff of the CD Leganes 2026/27. The club official players page does not expose a verifiable 2025/26 first-team roster in the fetched content. Because the required three-source cross-check cannot be completed for every player, no player records, shirt numbers, nationality, birth years, or coach were filled. No reserve, youth, women, loaned-out player, or 2026/27 data was substituted."
+    },
+    "Inter Milan (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": ""
+    },
+    "AC Milan (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "blocked_or_insufficient: the official 2025/26 archive is not exposing player-level data in the retrieved page, while FBref has no shirt numbers and contains a mixed/expanded player table. Because every accepted player must have name, position, shirt_number, nationality, birth_year, source_transfermarkt, source_fbref, source_official, and source_urls with all three sources cross-checking, no player is accepted and no values are invented. Transfermarkt's page is explicitly Season 25/26, but its current-club annotations include later-period changes, so it cannot repair the missing official evidence."
+    },
+    "Juventus (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "BLOCKED: the official Juventus first-team page currently displays the 2026/27/current squad (for example Grabara, Vicario, Zeki Çelik, Lucumí, Boga, Woltemade and Spalletti), so it cannot be used as the required 2025/26 official source. The dated official 2025/26 article is only a Champions League List A/List B registration and does not provide every required per-player field (position, nationality, birth_year) or a complete league first-team roster. Under the instruction not to use 2026/27, not to supplement missing hard fields, and to require three-source cross-checking for every player, no 22–30-player accepted roster can be produced."
+    },
+    "Napoli (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Blocked: the mandatory three-source cross-check cannot be completed for a clean 2025/26 first-team roster. Transfermarkt's season-2025 route contains 2026/27/current-club contamination; the SSC Napoli 25/26 page exposes no roster text; the Lega Serie A page is current 2026/27 rather than 2025/26; and FBref lacks shirt numbers. Per instruction, no player, shirt number, nationality, birth year, or coach values are invented or backfilled."
+    },
+    "Roma (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "不能在指定 2025/26 賽季下，從 Transfermarkt、FBref 與對應官方來源三源交叉核對出完整 22–30 人一隊。Transfermarkt 25/26 頁混入 2026/27 轉會及 Roma U20；FBref 2025-2026 統計缺少完整背號與出生年份欄位；Roma 官網與 Serie A 官方頁目前明確呈現 2026/27 內容。依規則不補值、不創造球員、不納入預備隊/青年隊/租借離隊球員，因此無合格逐人紀錄。"
+    },
+    "Lazio": {
+      "league": "Serie A (Italy)",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Cannot produce a complete 22-30-player first-team dataset with name, position, shirt_number, nationality, birth_year, source_transfermarkt, source_fbref, source_official, and source_urls for every player. The official club page currently lists the 2026/27 men's first team (including Gennaro Gattuso and 2026/27 shirt numbers), while the official Lega Serie A Lazio page likewise shows 2026/27 content. This violates the explicit no-2026/27 rule and prevents the required three-source cross-check. No player values or shirt numbers were backfilled."
+    },
+    "Atalanta (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "blocked_or_insufficient：无法满足‘完整一队22至30人’及每名球员均具备name、position、shirt_number、nationality、birth_year、source_transfermarkt、source_fbref、source_official、source_urls且三源交叉核对的硬条件。Transfermarkt虽锁定25/26，但混有U23、离队/退休和后续赛季关联条目；FBref虽锁定2025-2026，却不提供完整shirt_number；Lega Serie A官方Atalanta页当前明确出现2026/27内容和当前教练，不能回填2025/26；球会官网一队页仅返回common-loading，无法取得官方逐人证据。依规则不补姓名、背号、出生年份、教练或球员记录，不纳入预备队、女子/青年队或租借离队条目。"
+    },
+    "Fiorentina (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Blocked: the requested 22-30 player 2025/26 first-team dataset cannot be completed under the hard rules. The official ACF Fiorentina roster page is currently a 2026/27 roster, and the official Lega Serie A team page is also current 2026/27 context. FBref's 2025-2026 roster page lacks a complete shirt_number field. Transfermarkt's 25/26 page is available but includes entries whose current club is elsewhere and cannot be cross-checked against a valid 2025/26 official roster. No player values, shirt numbers, nationalities, birth years, or source links were invented or backfilled; no player records are emitted."
+    },
+    "Bologna (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Hard stop: no complete 22-30 player 2025/26 first-team roster can be cross-verified across Transfermarkt, FBref, and a compliant official source without mixing seasons. The club official page currently shows 2026/27 personnel (including coach Raffaele Palladino and players such as Artem Dovbyk and Federico Bernardeschi), while the Lega Serie A page does not provide the required historical roster fields. Transfermarkt's 25/26 view is contaminated by later 2026 current-club, internal-transfer, loan/departure records, and FBref does not provide shirt numbers or a clean official roster snapshot. Per instruction, no player, position, shirt number, nationality, birth year, coach, or other missing value was inferred or backfilled."
+    },
+    "Torino (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "硬规则未满足：官方球会主页与官方联赛球队页在核查时明确显示 2026/27（例如官方联赛页当前教练为 Ignazio Abate，页面视频与赛季内容为 Serie A 2026/27），不是目标 2025/26 的完整一队名单/背号页。虽然 Transfermarkt 2025/26 与 FBref 2025-2026 页面可访问，但缺少可用于同一赛季逐人交叉核对的官方球会/联赛来源。因此不得把任何球员写入合格名单，不补 nationality、birth_year、shirt_number 或其他缺失字段，也不把预备队、青年队、女子队、租借离队人员拼入名单。按要求标记 blocked_or_insufficient。"
+    },
+    "Genoa (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "阻断：Transfermarkt 与 FBref 的 2025/26 页面可访问，但不能由三源完整交叉核对 22–30 名一队球员的全部硬栏位。意甲官方 Genoa 页面当前明确呈现 2026/27 内容（包括 2026/27 比赛视频与当前教练 Daniele De Rossi），不符合目标赛季；Genoa 官方男子一队页也没有可用的 2025/26 名单/赛季选择器，页面仅展示当前站点内容并包含 2026/27 宣传。依用户规则，不补值、不纳入预备队/青年队/租借离队者，players 保持空数组。"
+    },
+    "Udinese (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [
+        "birth_year",
+        "nationality",
+        "position"
+      ],
+      "reason": "blocked_or_insufficient：官方2025/26背号公告列出31人，超出允许的22–30人；且球会当前Prima squadra页面已切换为2026/27，不能作为目标赛季官方一队名单。由于三源无法对同一完整22–30人名单逐人交叉核对，禁止补值。"
+    },
+    "Monza (Ita)": {
+      "league": "Serie B",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Blocked under the hard-field rules. The official AC Monza first-team page is current/2026-27 and names Ivan Juric, not the requested 2025/26 squad; no archived official 2025/26 first-team roster was found. FBref 2025-2026 supplies player, nation and position but no shirt_number field. Transfermarkt 2025/26 also displays players with end-of-season returns, later transfers, and youth/internal-transfer context, so a complete 22-30-player first-team list cannot be safely aligned across all three sources. Because shirt_number and official 2025/26 confirmation are hard requirements, no player records or inferred values are written."
+    },
+    "Sassuolo (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Hard-blocked under the requested rules: CAPTCHA blocked both Transfermarkt and FBref verification, while the accessible official Sassuolo first-team roster is explicitly 2026/27 (asset paths contain 26-27), not 2025/26. A complete 22-30 player roster with name, position, shirt_number, nationality, birth_year, and all three source fields cannot be cross-verified. No players, shirt numbers, or coach were invented or backfilled."
+    },
+    "Cagliari (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Hard acceptance criteria are not met. No complete 22-30 player 2025/26 first-team roster could be established with every player having name, position, shirt_number, nationality, birth_year, and independently cross-checkable Transfermarkt, FBref, and official-source evidence. Transfermarkt's 25/26 squad page visibly contains loaned-away/returned players and Primavera/non-first-team entries; FBref lacks shirt numbers and is appearance-based; the official club first-team page and Lega Serie A team page have moved to 2026/27/current content; the club's 25/26 shirt-number announcement exposes the full list only as a non-text image. Per instruction, no players or shirt numbers were invented or backfilled."
+    },
+    "Parma (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "BLOCKED: The requested complete 2025/26 first-team dataset cannot be verified under the hard rules. The official Parma first-team page and the official Lega Serie A team page currently expose 2026/27/current content rather than a season-frozen 2025/26 roster. Transfermarkt's 25/26 page is accessible but mixes first-team players with players returned after loans, players currently at other clubs, and youth/non-first-team entries. FBref's 2025-2026 page is accessible but lacks shirt numbers and does not establish a complete registered first-team roster. Because every player must have name, position, shirt_number, nationality, birth_year, source_transfermarkt, source_fbref, source_official, and source_urls with three-source cross-checking, no player records are emitted and no values are imputed."
+    },
+    "Como (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "硬规则未满足：目标是 2025/26，要求完整 22 至 30 人且每人必须同时具备 name、position、shirt_number、nationality、birth_year，以及 Transfermarkt、FBref、官方三源逐人证据。Transfermarkt 的 25/26 页面虽可访问，但混有租借离队球员、Como Primavera/预备队记录及无背号记录，不能直接作为合格一队名单。FBref 的 2025-2026 页面可提供球员、Nation/Citizenship、Pos 与年龄/出生地上下文，但 roster 页面没有完整 shirt_number 字段。Como 官方球员页当前列出的阵容含 Robert Sánchez、Willy Kambwala、Trevoh Chalobah、Yan Couto、Kaiki Bruno、Samuele Ricci、Luis Milla、Moise Kean 等当前/2026/27阵容元素；Lega Serie A 官方 Como 页也显示 2026/27 比赛及当前页面状态。因此官方来源不能作为 2025/26 冻结的一队完整 roster。虽然官方 2025/26 比赛报告可确认主教练 Cesc Fàbregas，但无法据此补齐逐人三源硬字段。按要求不补 nationality、birth_year、shirt_number 或任何缺失字段，不把预备队、青年队、女子队或租借离队人员拼入名单，players 保持空数组。"
+    },
+    "Lecce": {
+      "league": "Serie A (Italy)",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Cannot produce the required complete 22-30-player first-team dataset with name, position, shirt_number, nationality, birth_year, source_transfermarkt, source_fbref, source_official and source_urls for every player. The official Lecce 2025/26 announcement lists 25 ordinary first-team players plus 2 injured first-team players, while separately listing 5 Primavera aggregates; the latter must be excluded under the no-reserve/youth rule. However, the official club announcement has no shirt numbers, and FBref does not supply a complete shirt-number field. Transfermarkt and the Lega Serie A PDF provide different roster snapshots/fields and cannot by themselves establish every required field across all three sources without backfilling. No player records, missing shirt numbers, nationalities, birth years or source evidence were invented. Coach Eusebio Di Francesco is explicitly identified in the official 2025-26 Lega Serie A roster PDF, but this does not cure the player-level hard-field deficiency."
+    },
+    "Empoli (Ita)": {
+      "league": "Serie B",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "Cannot satisfy the hard acceptance rule of a complete 22-30 player first-team roster where every player has name, position, shirt_number, nationality, birth_year, and all three source fields cross-verified. The official Serie B roster currently resolves to 2026-2027 links, which is explicitly disallowed. The club's official ROSA page is incomplete for the requested roster (the midfield section is empty and only a partial list is shown). Transfermarkt 2025/26 also displays historical squad entries whose current clubs are elsewhere, so filling a 2025/26 first-team list from it would risk including loaned/departed, reserve, or otherwise non-qualifying players. No player records or shirt numbers were invented."
+    },
+    "Verona (Ita)": {
+      "league": "Serie A",
+      "status": "blocked_or_insufficient",
+      "reported_player_count": 0,
+      "missing_required_fields": [],
+      "reason": "硬阻斷：目標賽季 2025/26 的 Transfermarkt 與 FBref 可讀，但不能以三源逐人完整交叉核對。Serie A 官方 2025/26 第 1 輪 Match Program 確實列出 Verona 名單與教練 Paolo Zanetti，但該官方名單共列 39 名球員，超出規定的完整一隊 22–30 人範圍；同時球會官方 Men's Team 頁面目前是未標示 2025/26 的現季名單，且頁面中的球員（如 Nicola Leali、Gabriele Zappa、Pawel Dawidowicz 等）與 2025/26 官方比賽手冊名單不一致，不能切換或證明為目標賽季。依規則不採用 2026/27、預備隊、租借離隊或缺失硬欄位，不補填任何姓名、背號、國籍或出生年份，因此未接受任何球員，player_count=0。"
+    }
+  },
+  "decision": "No LaLiga or Serie A team was merged because all 40 evidence records were blocked_or_insufficient or failed the strict 22-30 player and required-field gate. Existing 249 teams and German tier1 data remain unchanged."
+}

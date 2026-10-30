@@ -1,0 +1,602 @@
+{
+  "Sevilla (Esp)": {
+    "team": "Sevilla (Esp)",
+    "league": "西甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed_i_batch",
+    "coach": "Matías Almeyda",
+    "source_urls": [
+      "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+      "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+      "https://sevillafc.es/es/actualidad/noticias/matias-almeyda-nuevo-entrenador-del-sevilla-fc",
+      "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1"
+    ],
+    "players": [
+      {
+        "name": "Odysseas Vlachodimos",
+        "position": "goalkeeper",
+        "shirt_number": 1,
+        "nationality": [
+          "Greece",
+          "Germany"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (1: Odysseas Vlachodimos)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "José Ángel Carmona",
+        "position": "defender",
+        "shirt_number": 2,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (2: José Ángel Carmona)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "César Azpilicueta",
+        "position": "defender",
+        "shirt_number": 3,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (3: César Azpilicueta)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Kike Salas",
+        "position": "defender",
+        "shirt_number": 4,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (4: Kike Salas)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Tanguy Nianzou",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": [
+          "France",
+          "Côte d’Ivoire"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (5: Tanguy Nianzou)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Nemanja Gudelj",
+        "position": "midfielder",
+        "shirt_number": 6,
+        "nationality": [
+          "Serbia",
+          "Netherlands"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (6: Nemanja Gudelj)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Isaac Romero",
+        "position": "forward",
+        "shirt_number": 7,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (7: Isaac Romero)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Joan Jordán",
+        "position": "midfielder",
+        "shirt_number": 8,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (8: Joan Jordán)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Akor Adams",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": [
+          "Nigeria"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (9: Akor Adams)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Alexis Sánchez",
+        "position": "forward",
+        "shirt_number": 10,
+        "nationality": [
+          "Chile"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (10: Alexis Sánchez)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Rubén Vargas",
+        "position": "midfielder",
+        "shirt_number": 11,
+        "nationality": [
+          "Switzerland",
+          "Dominican Republic"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (11: Rubén Vargas)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Gabriel Suazo",
+        "position": "defender",
+        "shirt_number": 12,
+        "nationality": [
+          "Chile"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (12: Gabriel Suazo)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Ørjan Nyland",
+        "position": "goalkeeper",
+        "shirt_number": 13,
+        "nationality": [
+          "Norway"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (13: Ørjan Nyland)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Peque Fernández",
+        "position": "forward",
+        "shirt_number": 14,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (14: Peque Fernández)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Fábio Cardoso",
+        "position": "defender",
+        "shirt_number": 15,
+        "nationality": [
+          "Portugal"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (15: Fábio Cardoso)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Juanlu Sánchez",
+        "position": "defender",
+        "shirt_number": 16,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (16: Juanlu Sánchez)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Alfon González",
+        "position": "forward",
+        "shirt_number": 17,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (17: Alfon González)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Lucien Agoumé",
+        "position": "midfielder",
+        "shirt_number": 18,
+        "nationality": [
+          "France",
+          "Cameroon"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (18: Lucien Agoumé)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Batista Mendy",
+        "position": "midfielder",
+        "shirt_number": 19,
+        "nationality": [
+          "France",
+          "Guinea-Bissau"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (19: Batista Mendy)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Djibril Sow",
+        "position": "midfielder",
+        "shirt_number": 20,
+        "nationality": [
+          "Switzerland",
+          "Senegal"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (20: Djibril Sow)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Chidera Ejuke",
+        "position": "forward",
+        "shirt_number": 21,
+        "nationality": [
+          "Nigeria"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (21: Chidera Ejuke)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Ramón Martínez",
+        "position": "defender",
+        "shirt_number": 22,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (22: Ramón Martínez)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Marcão",
+        "position": "defender",
+        "shirt_number": 23,
+        "nationality": [
+          "Brazil",
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (23: Marcão)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Adnan Januzaj",
+        "position": "forward",
+        "shirt_number": 24,
+        "nationality": [
+          "Belgium"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (24: Adnan Januzaj)"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      },
+      {
+        "name": "Álvaro Fernández (Ferllo)",
+        "position": "goalkeeper",
+        "shirt_number": 25,
+        "nationality": [
+          "Spain"
+        ],
+        "season": "2025/26",
+        "evidence": [
+          {
+            "url": "https://sevillafc.es/es/actualidad/noticias/dorsales-temporada-25-26",
+            "supports": "official 2025/26 first-team shirt-number announcement"
+          },
+          {
+            "url": "https://mediaverse.sevillafc.hiway.media/image/2025/09/05/68bad915/Image.jpeg",
+            "supports": "official 2025/26 shirt-number graphic (25: Álvaro Fernández (Ferllo))"
+          },
+          {
+            "url": "https://www.transfermarkt.us/sevilla-fc/kader/verein/368/saison_id/2025/plus/1",
+            "supports": "Transfermarkt 2025/26 auxiliary position/nationality roster"
+          }
+        ]
+      }
+    ],
+    "player_count": 25
+  }
+}

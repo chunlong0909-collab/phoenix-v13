@@ -1,0 +1,48 @@
+{
+  "season": "2025/26",
+  "remote_team_rows": 249,
+  "unique_team_names": 249,
+  "candidate_source_verified_teams": 2,
+  "strict_schema_pass_teams": 0,
+  "retained_tier2_fra_teams": 18,
+  "new_player_count": 0,
+  "new_coach_count": 0,
+  "german_tier1_preserved": 8,
+  "fake_teams": [],
+  "fraudulent_rows_added": 0,
+  "candidates": {
+    "Brest (Fra)": {
+      "source_file": "04.json",
+      "reported_status": "verified",
+      "reported_player_count": 26,
+      "missing_required_fields": [
+        "shirt_number",
+        "source_urls"
+      ],
+      "reason": "逐人輸出未達指定硬欄位；不合併"
+    },
+    "Marseille (Fra)": {
+      "source_file": "10.json",
+      "reported_status": "verified",
+      "reported_player_count": 20,
+      "missing_required_fields": [
+        "shirt_number",
+        "source_urls"
+      ],
+      "reason": "逐人輸出未達指定硬欄位；不合併"
+    }
+  },
+  "required_fields": [
+    "name",
+    "position",
+    "shirt_number",
+    "nationality",
+    "birth_year",
+    "source_transfermarkt",
+    "source_fbref",
+    "source_official",
+    "source_urls",
+    "season=2025/26"
+  ],
+  "decision": "No Ligue 1 team merged because the two source-verified candidate JSON outputs lack shirt_number and per-player source_urls; no data files were changed."
+}

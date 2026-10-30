@@ -1,0 +1,422 @@
+{
+  "Werder Bremen (Ger)": {
+    "team": "Werder Bremen (Ger)",
+    "league": "德甲",
+    "season": "2025/26",
+    "tier": 1,
+    "source_status": "verified_relaxed",
+    "coach": "Horst Steffen",
+    "source_urls": [
+      "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+      "https://www.werder.de/teams/maenner/spieler/mio-backhaus",
+      "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025",
+      "https://www.werder.de/teams/maenner/spieler/karl-hein",
+      "https://www.werder.de/teams/maenner/spieler/markus-kolke",
+      "https://www.werder.de/teams/maenner/spieler/stefan-smarkalev",
+      "https://www.werder.de/teams/maenner/spieler/olivier-deman",
+      "https://www.werder.de/teams/maenner/spieler/yukinari-sugawara",
+      "https://www.werder.de/teams/maenner/spieler/niklas-stark",
+      "https://www.werder.de/teams/maenner/spieler/amos-pieper",
+      "https://www.werder.de/teams/maenner/spieler/mitchell-weiser",
+      "https://www.werder.de/teams/maenner/spieler/julian-malatini",
+      "https://www.werder.de/teams/maenner/spieler/isaac-schmidt",
+      "https://www.werder.de/teams/maenner/spieler/felix-agu",
+      "https://www.werder.de/teams/maenner/spieler/karim-coulibaly",
+      "https://www.werder.de/teams/maenner/spieler/marco-friedl",
+      "https://www.werder.de/teams/maenner/spieler/mick-schmetgens",
+      "https://www.werder.de/teams/maenner/spieler/maximilian-woeber",
+      "https://www.werder.de/teams/maenner/spieler/jens-stage",
+      "https://www.werder.de/teams/maenner/spieler/samuel-mbangula",
+      "https://www.werder.de/news/maenner/2025-2026/rueckkennummer-mbangula-13082025",
+      "https://www.werder.de/teams/maenner/spieler/leonardo-bittencourt",
+      "https://www.werder.de/teams/maenner/spieler/senne-lynen",
+      "https://www.werder.de/teams/maenner/spieler/cameron-puertas",
+      "https://www.werder.de/en/team/men-squad",
+      "https://www.werder.de/teams/maenner/spieler/romano-schmid",
+      "https://www.werder.de/teams/maenner/spieler/isak-hansen-aaroen",
+      "https://www.werder.de/teams/maenner/spieler/patrice-covic",
+      "https://www.werder.de/teams/maenner/spieler/skelly-alvero",
+      "https://www.werder.de/teams/maenner/spieler/wesley-adeh",
+      "https://www.werder.de/teams/maenner/spieler/keke-topp",
+      "https://www.werder.de/teams/maenner/spieler/justin-njinmah",
+      "https://www.werder.de/teams/maenner/spieler/marco-gruell",
+      "https://www.werder.de/teams/maenner/spieler/salim-musah",
+      "https://www.werder.de/teams/maenner/spieler/victor-boniface"
+    ],
+    "players": [
+      {
+        "name": "Mio Backhaus",
+        "position": "goalkeeper",
+        "shirt_number": 30,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/mio-backhaus",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Karl Hein",
+        "position": "goalkeeper",
+        "shirt_number": 13,
+        "nationality": "Estonian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/karl-hein",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Markus Kolke",
+        "position": "goalkeeper",
+        "shirt_number": 25,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/markus-kolke",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Stefan Smarkalev",
+        "position": "goalkeeper",
+        "shirt_number": 37,
+        "nationality": "Bulgarian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/stefan-smarkalev",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Olivier Deman",
+        "position": "defender",
+        "shirt_number": 2,
+        "nationality": "Belgian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/olivier-deman",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Yukinari Sugawara",
+        "position": "defender",
+        "shirt_number": 3,
+        "nationality": "Japanese",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/yukinari-sugawara",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Niklas Stark",
+        "position": "defender",
+        "shirt_number": 4,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/niklas-stark",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Amos Pieper",
+        "position": "defender",
+        "shirt_number": 5,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/amos-pieper",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Mitchell Weiser",
+        "position": "defender",
+        "shirt_number": 8,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/mitchell-weiser",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Julián Malatini",
+        "position": "defender",
+        "shirt_number": 22,
+        "nationality": "Argentine",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/julian-malatini",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Isaac Schmidt",
+        "position": "defender",
+        "shirt_number": 23,
+        "nationality": "Swiss",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/isaac-schmidt",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Felix Agu",
+        "position": "defender",
+        "shirt_number": 27,
+        "nationality": "German/Nigerian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/felix-agu",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Karim Coulibaly",
+        "position": "defender",
+        "shirt_number": 31,
+        "nationality": "German/Ivorian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/karim-coulibaly",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Marco Friedl",
+        "position": "defender",
+        "shirt_number": 32,
+        "nationality": "Austrian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/marco-friedl",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Mick Schmetgens",
+        "position": "defender",
+        "shirt_number": 33,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/mick-schmetgens",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Maximilian Wöber",
+        "position": "defender",
+        "shirt_number": 39,
+        "nationality": "Austrian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/maximilian-woeber",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Jens Stage",
+        "position": "midfielder",
+        "shirt_number": 6,
+        "nationality": "Danish",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/jens-stage",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Samuel Mbangula",
+        "position": "midfielder",
+        "shirt_number": 7,
+        "nationality": "Belgian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/samuel-mbangula",
+          "https://www.werder.de/news/maenner/2025-2026/rueckkennummer-mbangula-13082025"
+        ]
+      },
+      {
+        "name": "Leonardo Bittencourt",
+        "position": "midfielder",
+        "shirt_number": 10,
+        "nationality": "German/Brazilian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/leonardo-bittencourt",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Senne Lynen",
+        "position": "midfielder",
+        "shirt_number": 14,
+        "nationality": "Belgian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/senne-lynen",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Cameron Puertas",
+        "position": "midfielder",
+        "shirt_number": 18,
+        "nationality": "Swiss/Spanish",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/cameron-puertas",
+          "https://www.werder.de/en/team/men-squad"
+        ]
+      },
+      {
+        "name": "Romano Schmid",
+        "position": "midfielder",
+        "shirt_number": 20,
+        "nationality": "Austrian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/romano-schmid",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Isak Hansen-Aarøen",
+        "position": "midfielder",
+        "shirt_number": 21,
+        "nationality": "Norwegian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/isak-hansen-aaroen",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Patrice Čović",
+        "position": "midfielder",
+        "shirt_number": 24,
+        "nationality": "Austrian/Croatian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/patrice-covic",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Skelly Alvero",
+        "position": "midfielder",
+        "shirt_number": 28,
+        "nationality": "French/Ivorian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/skelly-alvero",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Wesley Adeh",
+        "position": "midfielder",
+        "shirt_number": 34,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/wesley-adeh",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Keke Topp",
+        "position": "forward",
+        "shirt_number": 9,
+        "nationality": "German",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/keke-topp",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Justin Njinmah",
+        "position": "forward",
+        "shirt_number": 11,
+        "nationality": "German/Nigerian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/justin-njinmah",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Marco Grüll",
+        "position": "forward",
+        "shirt_number": 17,
+        "nationality": "Austrian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/marco-gruell",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Salim Musah",
+        "position": "forward",
+        "shirt_number": 29,
+        "nationality": "Ghanaian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/salim-musah",
+          "https://www.werder.de/news/maenner/2025-2026/neue-rueckennummern-09072025"
+        ]
+      },
+      {
+        "name": "Victor Boniface",
+        "position": "forward",
+        "shirt_number": 44,
+        "nationality": "Nigerian",
+        "season": "2025/26",
+        "source_urls": [
+          "https://web.archive.org/web/20250930222257/https://www.werder.de/teams/maenner/spieler/",
+          "https://www.werder.de/teams/maenner/spieler/victor-boniface",
+          "https://www.werder.de/en/team/men-squad"
+        ]
+      }
+    ],
+    "player_count": 31
+  }
+}

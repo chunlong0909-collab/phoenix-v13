@@ -1,0 +1,67 @@
+{
+  "target_team_count": 3,
+  "successful_full_teams": [],
+  "already_full_before_batch": [],
+  "blocked_or_insufficient": [
+    "PSG (Fra)",
+    "Marseille (Fra)",
+    "Lyon (Fra)"
+  ],
+  "original_tier1": 52,
+  "final_tier1": 52,
+  "final_tier0": 200,
+  "ligue1_total": 18,
+  "ligue1_tier1": 0,
+  "ligue1_tier0": 18,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 0,
+  "players_csv_total": 1371,
+  "coaches_csv_total": 52,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "data_mutation": "none",
+  "team_checks": [
+    {
+      "evidence_team": "Paris Saint-Germain (Fra)",
+      "canonical_team": "PSG (Fra)",
+      "status": "blocked_or_insufficient",
+      "player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "",
+      "source_urls": [],
+      "report_path": "tmp/l_batch_sources/01.md"
+    },
+    {
+      "evidence_team": "Olympique de Marseille (Fra)",
+      "canonical_team": "Marseille (Fra)",
+      "status": "blocked_or_insufficient",
+      "player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "",
+      "source_urls": [
+        "https://www.om.fr/en/team/men",
+        "https://www.om.fr/equipe/hommes",
+        "https://billetterie.om.fr/fr/histoire",
+        "https://www.espn.com/soccer/team/squad/_/id/176/season/2025",
+        "https://www.transfermarkt.com/olympique-marseille/kader/verein/244/saison_id/2025/plus/1",
+        "https://ligue1.com/en/club-sheet/l1_championship_club_2024_1/squad"
+      ],
+      "report_path": "tmp/l_batch_sources/02.md"
+    },
+    {
+      "evidence_team": "Olympique Lyonnais (Fra)",
+      "canonical_team": "Lyon (Fra)",
+      "status": "blocked_or_insufficient",
+      "player_count": 0,
+      "canonical_present": true,
+      "existing_tier": "0",
+      "reason": "資料未閉環：球會官方2025/26季前公告列出報到球員，但未提供每人的球衣背號；官方男子職業隊 squad 頁目前已是2026/27名單；Transfermarkt 2025/26頁面可作第二來源，但頁面混入跨季轉會狀態、B隊及未在隊球員，無法在不猜測的前提下同時證實完整18至35人男子一隊的 name、position、shirt_number、nationality 及兩個公開URL（至少一條官方URL）。",
+      "source_urls": [],
+      "report_path": "tmp/l_batch_sources/03.md"
+    }
+  ],
+  "policy": "L批要求官方2025/26一隊背號及每人可追溯來源；官方頁切換至2026/27或跨來源衝突時不猜測、不寫入。"
+}

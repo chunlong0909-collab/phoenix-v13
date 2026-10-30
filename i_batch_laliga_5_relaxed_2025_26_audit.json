@@ -1,0 +1,89 @@
+{
+  "target_team_count": 5,
+  "evidence_verified_teams": [
+    "Sevilla (Esp)",
+    "Athletic Club (Esp)"
+  ],
+  "already_full_before_batch": [
+    "Real Betis (Esp)",
+    "Athletic Club (Esp)"
+  ],
+  "new_full_teams": [
+    "Sevilla (Esp)"
+  ],
+  "blocked_or_insufficient": [
+    "Villarreal CF (Esp)",
+    "Real Sociedad (Esp)"
+  ],
+  "original_tier1": 50,
+  "final_tier1": 51,
+  "final_tier0": 201,
+  "laliga_total": 20,
+  "laliga_tier1": 11,
+  "laliga_tier0": 9,
+  "team_count": 252,
+  "unique_team_names": 252,
+  "new_player_count": 25,
+  "players_csv_total": 1344,
+  "coaches_csv_total": 51,
+  "fake_teams": [],
+  "al_ahli_al_hilal_fuzzy": "PASS",
+  "team_checks": [
+    {
+      "evidence_team": "Sevilla (Esp)",
+      "canonical_team": "Sevilla (Esp)",
+      "evidence_status": "verified",
+      "evidence_player_count": 25,
+      "existing_tier": "0",
+      "existing_player_count": 0,
+      "existing_manager": "",
+      "reason": "",
+      "report_path": "tmp/i_batch_sources/01.md"
+    },
+    {
+      "evidence_team": "Real Betis (Esp)",
+      "canonical_team": "Real Betis (Esp)",
+      "evidence_status": "blocked_or_insufficient",
+      "evidence_player_count": 0,
+      "existing_tier": "1",
+      "existing_player_count": 25,
+      "existing_manager": "Manuel Pellegrini",
+      "reason": "依 I 批西甲放寬標準，仍必須至少有一條球會官方 URL 並能核驗目標賽季完整男子一隊背號。已核驗的球會官方名單、英文名單及官方商店目前均為 2026/27；未找到可驗證的 2025/26 官方完整名單、官方背號圖或 archive.org 官方快照。為避免輸出不完整或混入 B 隊/青年隊/租借離隊球員，拒絕輸出球員陣列。",
+      "report_path": "tmp/i_batch_sources/02.md"
+    },
+    {
+      "evidence_team": "Villarreal (Esp)",
+      "canonical_team": "Villarreal CF (Esp)",
+      "evidence_status": "blocked_or_insufficient",
+      "evidence_player_count": 0,
+      "existing_tier": "0",
+      "existing_player_count": 0,
+      "existing_manager": "",
+      "reason": "blocked_or_insufficient: the official 2025/26 shirt-number graphic is internally complete for its own 27 entries but conflicts with the official 2025/26 team-photo article. The graphic lists 1, 2, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 29, 31, 33 and names including Denis Suárez, Yeremy/Pino, Karl Etta Eyong and J. Ives Valou; the official team-photo caption instead includes Arnau Tenas and does not provide the same final shirt-number mapping. The current official squad page is dynamic and no longer exposes a historical 2025/26 roster in fetched HTML. Because a complete, stable official 2025/26 roster with unambiguous name-position-number-nationality mapping cannot be established, no player records are emitted under the no-incomplete-list rule.",
+      "report_path": "tmp/i_batch_sources/03.md"
+    },
+    {
+      "evidence_team": "Athletic Club (Esp)",
+      "canonical_team": "Athletic Club (Esp)",
+      "evidence_status": "verified",
+      "evidence_player_count": 26,
+      "existing_tier": "1",
+      "existing_player_count": 32,
+      "existing_manager": "Ernesto Valverde",
+      "reason": "",
+      "report_path": "tmp/i_batch_sources/04.md"
+    },
+    {
+      "evidence_team": "Real Sociedad (Esp)",
+      "canonical_team": "Real Sociedad (Esp)",
+      "evidence_status": "blocked_or_insufficient",
+      "evidence_player_count": 0,
+      "existing_tier": "0",
+      "existing_player_count": 0,
+      "existing_manager": "",
+      "reason": "The accessible Real Sociedad official squad page currently resolves to a later 2026/27 roster, not the target 2025/26 roster. The official 2025/26 shirt-number announcement is public and dated 2025-08-15, but its player-number list is gated behind the club's registered-user area and is not exposed in the public extraction. Secondary sources provide a full 2025/26 list, but the requested rule requires the official 2025/26 squad/shirt-number evidence and forbids emitting an incomplete roster. Therefore no player records are emitted and the team is blocked_or_insufficient.",
+      "report_path": "tmp/i_batch_sources/05.md"
+    }
+  ],
+  "policy": "I批只合併已完整核實且現有canonical未Full的隊伍；不新增隊伍，不創作背號。"
+}
