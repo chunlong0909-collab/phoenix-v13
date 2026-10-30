@@ -1936,6 +1936,22 @@ def exact_score_table(matrix, n=5):
     return pd.DataFrame([{"比分": f"{hg}-{ag}", "機率": p} for (hg, ag), p in rows])
 
 
+def poisson_scoreline_report(home_lambda, away_lambda, n=5):
+    """V2.0 scoreline module: exact scores are derived from the same Poisson lambdas."""
+    matrix = score_matrix(float(home_lambda), float(away_lambda), max_goals=10)
+    top = sorted(matrix.items(), key=lambda item: item[1], reverse=True)[:n]
+    top_probability = float(top[0][1]) if top else 0.0
+    return {
+        "expected_home": float(home_lambda),
+        "expected_away": float(away_lambda),
+        "expected_total": float(home_lambda + away_lambda),
+        "top": [{"score": f"{h}-{a}", "probability": float(p)} for (h, a), p in top],
+        "single_high_confidence": top_probability >= 0.20,
+        "risk_note": "低比分膠著風險高，波膽分散，無單一高置信波膽" if top_probability < 0.20 else "最高波膽仍只代表模型排序，不是獨立預測",
+        "source_note": "由預期入球計出；與1X2共用Poisson模型，唔係獨立預測",
+    }
+
+
 def team_form_table(matches, team, n=8):
     """將最近賽果整理成可核對的球隊狀態摘要。"""
     rows = matches[(matches["Home"] == team) | (matches["Away"] == team)].sort_values("DateParsed").tail(n)
@@ -3226,6 +3242,7 @@ if run:
     if canonical_league_name(league) == "亞冠精英盃":
         st.caption(f"亞冠分析：主隊合併後 {len(matches[(matches.Home == home) | (matches.Away == home)])} 場／客隊合併後 {len(matches[(matches.Home == away) | (matches.Away == away)])} 場（亞冠＋K1/J1本地真實賽果）")
     pair_data_ok, pair_data_reasons = pair_data_status(h_all, a_all, stale_data)
+    raw_pair_data_ok = pair_data_ok
     hx, ax, baseline_info = baseline_goal_rates(matches, home, away, min_samples=5)
     hgf, hga = baseline_info["home_for"], baseline_info["home_against"]
     agf, aga = baseline_info["away_for"], baseline_info["away_against"]
@@ -3684,8 +3701,21 @@ if run:
         handicap_rows.append({"讓球盤": label, "模型機率": prob, "輸入賠率": odds, "提示": status, "說明": explanation, "EV": ev_value})
     render_market_table("讓球盤", handicap_rows, green_only, "handicap")
 
-    st.markdown("### 波膽")
-    st.dataframe(exact_score_table(matrix, 5).rename(columns={"比分": "預測比分", "機率": "模型機率"}).style.format({"模型機率": "{:.1%}"}), use_container_width=True, hide_index=True)
+    st.markdown("### V2.0 波膽模組")
+    scoreline_report = poisson_scoreline_report(hx, ax, n=5)
+    st.write(
+        f"預期入球：主隊 {scoreline_report['expected_home']:.2f} / "
+        f"客隊 {scoreline_report['expected_away']:.2f} / "
+        f"總數 {scoreline_report['expected_total']:.2f}"
+    )
+    st.caption(scoreline_report["source_note"])
+    scoreline_table = pd.DataFrame(scoreline_report["top"])
+    if not scoreline_table.empty:
+        scoreline_table = scoreline_table.rename(columns={"score": "波膽", "probability": "Poisson機率"})
+        st.dataframe(scoreline_table.style.format({"Poisson機率": "{:.1%}"}), use_container_width=True, hide_index=True)
+    st.warning(scoreline_report["risk_note"])
+    if not raw_pair_data_ok:
+        st.info("pair data 0.1%｜目前只作低可信度參考，可靠性維持：中，小注；不得視為獨立波膽預測。")
 
     st.markdown("### 角球盤口詳情")
     corner_lines = [8.5, 9.5, 10.5, 11.5, 12.5]
