@@ -2752,39 +2752,6 @@ with st.sidebar:
             f"{league} 目前只有 {len(current_league_rows)} 場已核實FT；仍可直接分析。"
             " 系統會使用聯賽平均或通用基準線，並標示低可信度，不會強制上載資料。"
         )
-        auto_backfill = st.button(
-            "一鍵補20場", use_container_width=True, key="flashscore_backfill_20",
-            help="只從 Flashscore 公開結果頁補入最近最多20場已完場比分；不抓角球，角球回測會保持資料不足。",
-        )
-        if auto_backfill:
-            with st.spinner("正在從 Flashscore 讀取最近20場已完場比分……"):
-                try:
-                    fetched = fetch_flashscore_goal_results(league, limit=20)
-                    saved_count = save_flashscore_goal_backfill(fetched, league)
-                    st.success(f"已補入 {saved_count} 場真實比分並寫入快取；角球未核實，角球回測保持資料不足。")
-                    st.rerun()
-                except Exception as exc:
-                    st.warning(f"一鍵補20場未完成：{exc}")
-        manual_upload = st.file_uploader(
-            "資料不足聯賽 CSV（固定 9 欄）",
-            type=["csv"], key="manual_league_csv",
-            help="欄位必須是：日期,主隊,客隊,比分,半場比分,主隊角球,客隊角球,主隊排名,客隊排名。"
-        )
-        st.download_button(
-            "下載資料不足聯賽 CSV 範本",
-            data=("日期,主隊,客隊,比分,半場比分,主隊角球,客隊角球,主隊排名,客隊排名\n"
-                  "2025-08-15,主隊A,客隊B,1-0,1-0,5,2,12,14\n").encode("utf-8-sig"),
-            file_name="資料不足聯賽_9欄範本.csv", mime="text/csv", use_container_width=True
-        )
-        upload_manual = st.button("上載CSV", use_container_width=True, key="upload_manual_league")
-        if upload_manual:
-            try:
-                parsed_manual = read_manual_league_csv(manual_upload, league)
-                save_manual_league_override(parsed_manual, league)
-                st.success(f"已覆蓋 {league} 免費來源並保存 {len(parsed_manual)} 場；下次開啟不需重新上載。")
-                st.rerun()
-            except Exception as exc:
-                st.warning(f"手動聯賽 CSV 未能上載：{exc}")
     elif manual_override:
         st.success(f"{league} 正使用已保存的手動 CSV 覆蓋資料（{len(current_league_rows)} 場）。")
     fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
