@@ -1823,27 +1823,57 @@ def league_baseline_lambdas(matches):
 
 
 def baseline_goal_rates(matches, home, away, min_samples=5):
-    """Use team history where available; replace each weak side with league averages."""
+    """Build progressive lambdas from verified FT only.
+
+    Counts use the full team history; form means use the latest eight rows. This
+    keeps the confidence tier increasing beyond eight matches without allowing
+    old rows to dominate the current-strength estimate.
+    """
     base = league_baseline_lambdas(matches)
-    h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
-    a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
+    h_all = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed")
+    a_all = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed")
+    h = h_all.tail(8)
+    a = a_all.tail(8)
     used = []
-    if len(h) >= min_samples:
-        hgf = h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean()
-        hga = h.apply(lambda r: r.AG if r.Home == home else r.HG, axis=1).mean()
+    home_samples, away_samples = len(h_all), len(a_all)
+    if home_samples >= min_samples:
+        hgf_team = h.apply(lambda r: r.HG if r.Home == home else r.AG, axis=1).mean()
+        hga_team = h.apply(lambda r: r.AG if r.Home == home else r.HG, axis=1).mean()
+        home_weight = min(1.0, 0.25 + max(0, home_samples - 5) * 0.05)
+        hgf = home_weight * hgf_team + (1 - home_weight) * base["home_goals"]
+        hga = home_weight * hga_team + (1 - home_weight) * base["away_goals"]
     else:
         hgf, hga = base["home_goals"], base["away_goals"]
-        used.append(f"主隊{len(h)}場<5，使用聯賽主/客平均")
-    if len(a) >= min_samples:
-        agf = a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean()
-        aga = a.apply(lambda r: r.AG if r.Home == away else r.HG, axis=1).mean()
+        home_weight = 0.0
+        used.append(f"主隊{home_samples}場<5，使用聯賽主/客平均")
+    if away_samples >= min_samples:
+        agf_team = a.apply(lambda r: r.HG if r.Home == away else r.AG, axis=1).mean()
+        aga_team = a.apply(lambda r: r.AG if r.Home == away else r.HG, axis=1).mean()
+        away_weight = min(1.0, 0.25 + max(0, away_samples - 5) * 0.05)
+        agf = away_weight * agf_team + (1 - away_weight) * base["away_goals"]
+        aga = away_weight * aga_team + (1 - away_weight) * base["home_goals"]
     else:
         agf, aga = base["away_goals"], base["home_goals"]
-        used.append(f"客隊{len(a)}場<5，使用聯賽客/主平均")
+        away_weight = 0.0
+        used.append(f"客隊{away_samples}場<5，使用聯賽客/主平均")
+    weakest = min(home_samples, away_samples)
+    if weakest < 5:
+        tier, label = "low", "低可信度／聯賽平均後備"
+    elif weakest < 10:
+        tier, label = "low_medium", "低至中／球隊樣本＋聯賽混合"
+    elif weakest < 20:
+        tier, label = "medium", "中／較多使用球隊資料"
+    elif weakest < 30:
+        tier, label = "medium_high", "中至高"
+    else:
+        tier, label = "high", "高"
     hx = max(.15, (hgf + aga) / 2 * 1.08)
     ax = max(.15, (agf + hga) / 2 * .94)
     return hx, ax, {"used": bool(used), "reasons": used, "league_baseline": base,
-                    "home_samples": len(h), "away_samples": len(a),
+                    "home_samples": home_samples, "away_samples": away_samples,
+                    "home_recent_samples": len(h), "away_recent_samples": len(a),
+                    "home_weight": home_weight, "away_weight": away_weight,
+                    "confidence_tier": tier, "confidence_label": label,
                     "home_for": float(hgf), "home_against": float(hga),
                     "away_for": float(agf), "away_against": float(aga)}
 
@@ -3218,15 +3248,17 @@ if run:
         fbref_corner_message = f"FBref 比賽報告角球：{len(fbref_corner_rows)} 場"
     except Exception as exc:
         fbref_corner_message = f"FBref 逐場角球未讀取：{str(exc)[:160]}"
-    h = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed").tail(8)
-    a = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed").tail(8)
+    h_all = matches[(matches.Home == home) | (matches.Away == home)].sort_values("DateParsed")
+    a_all = matches[(matches.Home == away) | (matches.Away == away)].sort_values("DateParsed")
+    h = h_all.tail(8)
+    a = a_all.tail(8)
     if canonical_league_name(league) == "亞冠精英盃":
         st.caption(f"亞冠分析：主隊合併後 {len(matches[(matches.Home == home) | (matches.Away == home)])} 場／客隊合併後 {len(matches[(matches.Home == away) | (matches.Away == away)])} 場（亞冠＋K1/J1本地真實賽果）")
-    pair_data_ok, pair_data_reasons = pair_data_status(h, a, stale_data)
+    pair_data_ok, pair_data_reasons = pair_data_status(h_all, a_all, stale_data)
     hx, ax, baseline_info = baseline_goal_rates(matches, home, away, min_samples=5)
     hgf, hga = baseline_info["home_for"], baseline_info["home_against"]
     agf, aga = baseline_info["away_for"], baseline_info["away_against"]
-    baseline_fallback_used = bool(baseline_info["used"])
+    baseline_fallback_used = baseline_info["confidence_tier"] == "low"
     odds_reverse_result = None
     if baseline_fallback_used:
         st.warning("；".join(baseline_info["reasons"]) + "｜已啟用聯賽真實FT平均基準線；這不是兩隊真實樣本。")
@@ -3243,10 +3275,30 @@ if run:
         mode_label, mode_icon, mode_color = "賠率反推（非真實FT）", "🔵", "#1f5f9f"
         confidence_label = "低（市場反推）"
         mode_source = odds_reverse_result.get("source", "手動1X2賠率")
+    elif stale_data:
+        mode_label, mode_icon, mode_color = "過期資料", "🟡", "#856404"
+        confidence_label = "已降級（超過一年無新FT）"
+        mode_source = source
     elif baseline_fallback_used:
         mode_label, mode_icon, mode_color = "聯賽平均後備", "🟠", "#9a4d00"
         confidence_label = "低（球隊樣本不足）"
         mode_source = baseline_info["league_baseline"].get("source", "聯賽平均")
+    elif baseline_info["confidence_tier"] == "low_medium":
+        mode_label, mode_icon, mode_color = "低至中／球隊＋聯賽混合", "🟡", "#856404"
+        confidence_label = "低至中"
+        mode_source = source
+    elif baseline_info["confidence_tier"] == "medium":
+        mode_label, mode_icon, mode_color = "中／較多球隊資料", "🔵", "#1f5f9f"
+        confidence_label = "中"
+        mode_source = source
+    elif baseline_info["confidence_tier"] == "medium_high":
+        mode_label, mode_icon, mode_color = "中至高／球隊資料", "🟢", "#16733b"
+        confidence_label = "中至高"
+        mode_source = source
+    elif baseline_info["confidence_tier"] == "high":
+        mode_label, mode_icon, mode_color = "高／球隊資料", "🟢", "#16733b"
+        confidence_label = "高"
+        mode_source = source
     elif canonical_league_name(league) == "亞冠精英盃" and "亞冠" in str(source):
         mode_label, mode_icon, mode_color = "跨聯賽真實FT", "🔵", "#1f5f9f"
         confidence_label = "中（跨聯賽合併）"
