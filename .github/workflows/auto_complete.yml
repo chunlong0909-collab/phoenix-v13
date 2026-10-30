@@ -14,6 +14,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: phoenix-auto-complete-football-data
+  cancel-in-progress: false
+
 jobs:
   crawl-checkpoint:
     runs-on: ubuntu-latest
@@ -93,4 +97,16 @@ jobs:
           git config user.email "auto@phoenix-v13.invalid"
           git add catalog phoenix_TRUE_FINAL_v2_plus23.zip scripts/plan_b_catalog.py .github/workflows/auto_complete.yml
           git commit -m "day2: add 23 teams and fix league labels $(date -u +%Y-%m-%dT%H:%MZ)" || echo "no changes"
-          git push origin main
+          git config pull.rebase true
+          for attempt in 1 2 3; do
+            echo "Sync and push attempt ${attempt}/3"
+            if git pull --rebase origin main && git push origin HEAD:main; then
+              echo "Checkpoint push succeeded"
+              exit 0
+            fi
+            echo "Push race detected; preserving generated checkpoint and retrying"
+            git rebase --abort || true
+            sleep $((attempt * 10))
+          done
+          echo "Unable to push checkpoint after 3 attempts"
+          exit 1
