@@ -30,6 +30,7 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 LOG_PATH = Path("/logs/auto_update.log")
 REPORT_PATH = ROOT / "data" / "auto_update_last_report.json"
+GAP_PATH = ROOT / "data" / "coverage_gap_tracker.json"
 CONFIG_PATH = ROOT / "data" / "auto_update_config.json"
 DBS = [ROOT / "football_complete.db", ROOT / "football_library.db"]
 SAUDI_TEAMS = ROOT / "data" / "leagues" / "saudi-pro" / "teams.csv"
@@ -82,6 +83,67 @@ def run_worldfootball_probe(config: dict) -> dict:
     except Exception as exc:
         log(f"LIVE_SOURCE source=worldfootball status=error reason={str(exc)[:180]}")
         return {"status": "error", "mode": mode, "reason": str(exc)[:240]}
+
+
+def _csv_team_names(path: Path) -> set[str]:
+    try:
+        frame = pd.read_csv(path, dtype=str)
+    except Exception:
+        return set()
+    cols = [c for c in frame.columns if str(c).strip().lower() in {"team", "team_name", "squad", "club", "en_name"}]
+    if not cols:
+        return set()
+    return {norm(v) for v in frame[cols[0]].dropna() if norm(v)}
+
+
+def _csv_row_count(path: Path) -> int:
+    try:
+        return int(len(pd.read_csv(path, dtype=str))) if path.exists() else 0
+    except Exception:
+        return 0
+
+
+def build_coverage_gap_report(matches: pd.DataFrame) -> dict:
+    """Record missing directory/roster coverage without inventing records."""
+    leagues = []
+    for directory_file in sorted((ROOT / "data" / "leagues").glob("*/teams.csv")):
+        slug = directory_file.parent.name
+        expected = _csv_team_names(directory_file)
+        observed = set()
+        if not matches.empty and "league_id" in matches.columns:
+            group = matches[matches["league_id"].astype(str).map(lambda x: LEAGUE_IDS.get(x, x) == slug)]
+            observed = {norm(x) for x in group.get("home_team", pd.Series(dtype=str)).dropna()}
+            observed |= {norm(x) for x in group.get("away_team", pd.Series(dtype=str)).dropna()}
+        player_file = directory_file.parent / "players.csv"
+        coach_file = directory_file.parent / "coaches.csv"
+        players = _csv_team_names(player_file) if player_file.exists() else set()
+        coaches = _csv_team_names(coach_file) if coach_file.exists() else set()
+        missing_ft = sorted(expected - observed)
+        leagues.append({
+            "league": slug,
+            "directory_teams": len(expected),
+            "ft_teams_seen": len(observed),
+            "missing_ft_teams": missing_ft[:100],
+            "missing_ft_team_count": len(missing_ft),
+            "player_roster_rows": _csv_row_count(player_file),
+            "coach_roster_rows": _csv_row_count(coach_file),
+            "last_checked": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        })
+    previous = {}
+    if GAP_PATH.exists():
+        try:
+            previous = json.loads(GAP_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            previous = {}
+    report = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "rule": "只追蹤真實來源缺口；不以估算、賠率或聯賽平均冒充FT/球員/教練",
+        "league_count": len(leagues),
+        "leagues": leagues,
+        "history_runs": int(previous.get("history_runs", 0)) + 1,
+    }
+    GAP_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return {"league_count": len(leagues), "leagues_with_gaps": sum(bool(x["missing_ft_teams"]) for x in leagues), "tracker": str(GAP_PATH)}
 
 # Explicit aliases for league files already present in this project.
 LEAGUE_IDS = {
@@ -391,11 +453,12 @@ def run(commit: bool) -> dict:
     if not api.empty:
         local = pd.concat([local, api], ignore_index=True)
     snapshots = build_snapshots(local)
+    coverage = build_coverage_gap_report(local)
     directory_added = append_al_hazem_directory(commit=commit)
     # Al Hazem is a user-supplied stats row, explicitly not claimed as local FT.
     hazem_added = ensure_user_provided_al_hazem() if commit else 0
     written = write_snapshots(snapshots) if commit else 0
-    report = {"run_at": datetime.now(timezone.utc).isoformat(), "commit": commit, "config": config, "live_sources": {"worldfootball": live_probe, "espn": espn_report}, "local_sources": local_report, "api_sources": api_report, "verified_ft_rows": int(len(local)), "espn_ft_rows": int(len(espn)), "team_snapshots": len(snapshots), "written_snapshots": written, "al_hazem_directory_added": directory_added, "al_hazem_stats_added": hazem_added, "status": "committed" if commit else "dry_run"}
+    report = {"run_at": datetime.now(timezone.utc).isoformat(), "commit": commit, "config": config, "live_sources": {"worldfootball": live_probe, "espn": espn_report}, "coverage": coverage, "local_sources": local_report, "api_sources": api_report, "verified_ft_rows": int(len(local)), "espn_ft_rows": int(len(espn)), "team_snapshots": len(snapshots), "written_snapshots": written, "al_hazem_directory_added": directory_added, "al_hazem_stats_added": hazem_added, "status": "committed" if commit else "dry_run"}
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     log(f"RUN status={report['status']} verified_ft={len(local)} team_snapshots={len(snapshots)} updated={written} leagues={sorted(set(local.league_id)) if not local.empty else []}")

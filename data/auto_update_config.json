@@ -3,7 +3,7 @@
   "sources": ["espn", "soccerway"],
   "espn_days_back": 3,
   "mode": "safe_csv_only",
-  "schedule": "weekly_monday_10am",
+  "schedule": "daily_10am_hong_kong",
   "safety": {
     "dry_run_first": true,
     "natural_key": ["date", "home_team", "away_team", "league_id"],
