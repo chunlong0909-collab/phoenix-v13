@@ -2748,7 +2748,10 @@ with st.sidebar:
     current_league_rows = all_saved_matches(league)
     manual_override = manual_league_path(league).exists()
     if len(current_league_rows) < 5 and not manual_override:
-        st.warning(f"{league} 目前只有 {len(current_league_rows)} 場可用資料；請上載至少 5 場真實賽果。")
+        st.info(
+            f"{league} 目前只有 {len(current_league_rows)} 場已核實FT；仍可直接分析。"
+            " 系統會使用聯賽平均或通用基準線，並標示低可信度，不會強制上載資料。"
+        )
         auto_backfill = st.button(
             "一鍵補20場", use_container_width=True, key="flashscore_backfill_20",
             help="只從 Flashscore 公開結果頁補入最近最多20場已完場比分；不抓角球，角球回測會保持資料不足。",
@@ -2785,7 +2788,7 @@ with st.sidebar:
     elif manual_override:
         st.success(f"{league} 正使用已保存的手動 CSV 覆蓋資料（{len(current_league_rows)} 場）。")
     fd_token = st.text_input("Football-Data.org Token（可選）", value=configured_secret("FOOTBALL_DATA_TOKEN"), type="password")
-    st.caption("目前不使用已停用的 API-Football；如需分析沒有 Football-Data 對照的聯賽，必須提供其他可用公開賽果頁面，或設定仍有效的 API-Football Token。")
+    st.caption("Football-Data.org Token及後備公開賽果頁面都只是可選來源；未設定或來源不可用時，不會阻止分析，系統會按低樣本規則運算並標示資料狀態。")
     crawl_url = st.text_input(
         "後備公開賽果頁面（可選）",
         placeholder="建議填 WorldFootball.net 的指定聯賽／賽季賽果頁，不要只填首頁",
