@@ -263,6 +263,7 @@ def canonical_league_name(league):
 LEAGUES = {
     "英格蘭超級聯賽": {"api": 39, "csv": "E0"},
     "英格蘭冠軍聯賽": {"api": 40, "csv": "E1"},
+    "英格蘭乙組聯賽": {"api": None, "csv": "", "history_only": True},
     "西班牙甲組聯賽": {"api": 140, "csv": "SP1"},
     "西班牙乙組聯賽": {"api": 141, "csv": "SP2"},
     "意大利甲組聯賽": {"api": 135, "csv": "I1"},
