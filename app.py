@@ -2697,7 +2697,7 @@ else:
 st.caption(f"數據接口：本地CSV驅動｜延遲：{_data_latency}｜狀態：{_data_status}")
 
 with st.sidebar:
-    app_page = st.radio("頁面", ["賽事分析", "球隊球員數據"], horizontal=False)
+    app_page = st.radio("頁面", ["賽事分析", "球隊球員數據"], horizontal=False, key="phoenix_page_selector_v2")
     test_update = st.button("更新四個測試聯賽（零成本）", use_container_width=True,
                             help="更新英超、澳職、日職、韓職，並強制刷新丹超GitHub match_history快取。")
     if test_update:
