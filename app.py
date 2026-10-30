@@ -3261,7 +3261,18 @@ if run:
     baseline_fallback_used = baseline_info["confidence_tier"] == "low"
     odds_reverse_result = None
     if baseline_fallback_used:
-        st.warning("；".join(baseline_info["reasons"]) + "｜已啟用聯賽真實FT平均基準線；這不是兩隊真實樣本。")
+        base = baseline_info["league_baseline"]
+        st.warning(
+            "；".join(baseline_info["reasons"])
+            + "｜已啟用聯賽真實FT平均基準線；這不是兩隊真實樣本。"
+        )
+        st.info(
+            f"低樣本採用數據：該聯賽 {base.get('rows', 0)} 場已核實FT；"
+            f"平均主場入球 {base.get('home_goals', 0.0):.2f}、"
+            f"平均客場入球 {base.get('away_goals', 0.0):.2f}；"
+            f"來源：{base.get('source', '未明') }。"
+            "若聯賽沒有任何核實FT，才會使用通用固定基準線，並會標明非聯賽實證。"
+        )
     if odds_reverse_mode and (baseline_fallback_used or not pair_data_ok):
         odds_reverse_result = odds_reverse_lambdas(home_odds, draw_odds, away_odds)
         if odds_reverse_result:
