@@ -1,0 +1,3 @@
+team_name,team_id,country,stadium,crest_url,espn_team_id,source,source_url,aliases,status,season,lastUpdated,dataSource
+Newport County,newport-county,England,,,,EFL official,https://efl.com/competitions/efl-league-two,Newport County|Newport,directory_only,2026/27,2026-10-31,EFL official
+Chesterfield,chesterfield,England,,,,EFL official,https://efl.com/competitions/efl-league-two,Chesterfield FC|Chesterfield,directory_only,2026/27,2026-10-31,EFL official

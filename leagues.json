@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-23",
+  "updated_at": "2026-10-31",
   "leagues": [
     {
       "id": "epl",
@@ -26,6 +26,21 @@
       ],
       "sportsdb_names": [
         "English League Championship"
+      ]
+    },
+    {
+      "id": "league-two",
+      "name_zh": "英格蘭乙組聯賽",
+      "name_en": "English League Two",
+      "provider": "efl-official",
+      "fd_code": "E4",
+      "source_url": "https://efl.com/competitions/efl-league-two",
+      "sportsdb_names": [
+        "English League Two"
+      ],
+      "team_directory": [
+        "Newport County",
+        "Chesterfield"
       ]
     },
     {
