@@ -1,7 +1,7 @@
 {
   "version": 3,
   "generated_from": "local directories + verified match_history aliases",
-  "source_fingerprint": "d5faf7061d512e78",
+  "source_fingerprint": "b4ea1bdf201315a8",
   "teams": [
     {
       "team_id": "a-league:1eef6ac53500",
@@ -14269,6 +14269,40 @@
         "Vissel Kobe"
       ],
       "source": "AFC Elite local directory; match names normalized where available",
+      "source_url": "",
+      "directory_only": true
+    },
+    {
+      "team_id": "saudi-pro:53bffc06f509",
+      "league_key": "saudi-pro",
+      "league_name": "沙特職業聯賽",
+      "season": "2026",
+      "official_name": "Diriyah Club (Sau)",
+      "aliases": [
+        "Diriyah Club (Sau)",
+        "Diriyah",
+        "Diriyah Club",
+        "迪里耶會"
+      ],
+      "source": "user-provided screenshot FB8043; directory_only",
+      "source_url": "",
+      "directory_only": true
+    },
+    {
+      "team_id": "saudi-pro:9c4b5d6c3eaf",
+      "league_key": "saudi-pro",
+      "league_name": "沙特職業聯賽",
+      "season": "2026",
+      "official_name": "NEOM (Sau)",
+      "aliases": [
+        "NEOM (Sau)",
+        "Neom",
+        "Neom SC",
+        "NEOM SC",
+        "尼奧姆",
+        "尼奧姆 SC"
+      ],
+      "source": "user-provided screenshot FB8043; directory_only",
       "source_url": "",
       "directory_only": true
     }

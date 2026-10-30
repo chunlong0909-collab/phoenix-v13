@@ -373,7 +373,8 @@ ALIASES = {
     "艾哈森": "Al Hazem", "哈森姆": "Al Hazem", "Al-Hazem": "Al Hazem", "Al Hazem FC": "Al Hazem", "Al Hazem": "Al Hazem",
     "Al Ahli": "Al Ahli SC", "Al Ahli Saudi FC": "Al Ahli SC", "Al Ahli Saudi": "Al Ahli SC",
     "Al Fayha": "Al Feiha", "Al-Fayha": "Al Feiha",
-    "迪里耶會": "Diriyah", "迪里阿耶會": "Diriyah", "迪里雅赫": "Diriyah", "Diriyah Club": "Diriyah",
+    "迪里耶會": "Diriyah Club (Sau)", "迪里阿耶會": "Diriyah Club (Sau)", "迪里雅赫": "Diriyah Club (Sau)", "Diriyah": "Diriyah Club (Sau)", "Diriyah Club": "Diriyah Club (Sau)",
+    "尼奧姆": "NEOM (Sau)", "尼奧姆SC": "NEOM (Sau)", "尼奧姆 SC": "NEOM (Sau)", "Neom": "NEOM (Sau)", "Neom SC": "NEOM (Sau)", "NEOM SC": "NEOM (Sau)",
     "沙比阿爾阿里": "Shabab Al Ahli Club", "Shabab Al Ahli Dubai": "Shabab Al Ahli Club", "Shabab Al Ahli Dubai (Uae)": "Shabab Al Ahli Club",
     "艾斯迪格拿": "Esteghlal F.C.", "Esteghlal": "Esteghlal F.C.", "Esteghlal F.C. (Irn)": "Esteghlal F.C.",
     "大阪飛腳": "Gamba Osaka (Jpn)", "Gamba Osaka": "Gamba Osaka (Jpn)",
@@ -396,7 +397,7 @@ TEAM_ZH = {
     "Celta B": "幸運切爾達", "Celta Vigo B": "幸運切爾達", "Tenerife": "特內里費",
     "Tottenham": "熱刺", "Tottenham Hotspur": "熱刺",
     "Coventry": "高雲地利", "Coventry City": "高雲地利",
-    "Diriyah": "迪里耶會", "Diriyah Club": "迪里耶會", "Al Riyadh": "艾利雅德",
+    "Diriyah": "迪里耶會", "Diriyah Club": "迪里耶會", "Diriyah Club (Sau)": "迪里耶會", "NEOM (Sau)": "尼奧姆 SC", "Neom SC": "尼奧姆 SC", "Al Riyadh": "艾利雅德",
     "Gamba Osaka (Jpn)": "大阪飛腳", "Buriram United (Tha)": "武里南聯",
 }
 def load_alias_map():
