@@ -34,6 +34,16 @@ CONFIG_PATH = ROOT / "data" / "auto_update_config.json"
 DBS = [ROOT / "football_complete.db", ROOT / "football_library.db"]
 SAUDI_TEAMS = ROOT / "data" / "leagues" / "saudi-pro" / "teams.csv"
 API_BASE = "https://v3.football.api-sports.io"
+ESPN_LEAGUES = {
+    "epl": ("英超", "eng.1"),
+    "laliga": ("西甲", "esp.1"),
+    "serie-a": ("意甲", "ita.1"),
+    "bundesliga": ("德甲", "ger.1"),
+    "ligue-1": ("法甲", "fra.1"),
+    "j1": ("日職J1", "jpn.1"),
+    "brasileirao": ("巴甲", "bra.1"),
+    "liga-mx": ("墨超", "mex.1"),
+}
 
 
 def load_config() -> dict:
@@ -209,6 +219,65 @@ def api_football_ft() -> tuple[pd.DataFrame, list[dict]]:
     return pd.DataFrame(out), report
 
 
+def espn_public_ft(days_back: int = 3) -> tuple[pd.DataFrame, list[dict]]:
+    """Read completed scores from ESPN's public scoreboard JSON.
+
+    This is deliberately limited to configured competition slugs and recent
+    dates. A row is accepted only when ESPN marks it post/complete and both
+    scores are integer values. No standings or odds are converted into FT.
+    """
+    if not ESPN_LEAGUES:
+        return pd.DataFrame(), [{"status": "skipped_no_ESPN_leagues"}]
+    rows, report = [], []
+    now = datetime.now(timezone.utc)
+    for league_id, (league_name, slug) in ESPN_LEAGUES.items():
+        before = len(rows)
+        errors = []
+        for delta in range(max(1, days_back)):
+            day = (now - pd.Timedelta(days=delta)).strftime("%Y%m%d")
+            try:
+                r = requests.get(
+                    f"https://site.api.espn.com/apis/site/v2/sports/soccer/{slug}/scoreboard",
+                    params={"dates": day},
+                    headers={"User-Agent": "Phoenix-safe-updater/1.0"},
+                    timeout=25,
+                )
+                r.raise_for_status()
+                payload = r.json()
+                for event in payload.get("events", []):
+                    competition = (event.get("competitions") or [{}])[0]
+                    status = competition.get("status", {}).get("type", {})
+                    if status.get("state") != "post" or not status.get("completed"):
+                        continue
+                    competitors = competition.get("competitors") or []
+                    if len(competitors) != 2:
+                        continue
+                    home = next((x for x in competitors if x.get("homeAway") == "home"), competitors[0])
+                    away = next((x for x in competitors if x.get("homeAway") == "away"), competitors[1])
+                    try:
+                        hg, ag = int(home.get("score")), int(away.get("score"))
+                    except (TypeError, ValueError):
+                        continue
+                    rows.append({
+                        "date": str(event.get("date", ""))[:10],
+                        "home_team": norm(home.get("team", {}).get("displayName")),
+                        "away_team": norm(away.get("team", {}).get("displayName")),
+                        "home_goals": hg, "away_goals": ag,
+                        "home_corners": pd.NA, "away_corners": pd.NA,
+                        "league_id": league_id,
+                        "source": "ESPN public scoreboard FT",
+                    })
+            except Exception as exc:
+                errors.append(str(exc)[:160])
+        report.append({"league_id": league_id, "league": league_name, "slug": slug,
+                       "status": "accepted" if len(rows) > before else ("error" if errors else "no_new_ft"),
+                       "ft_rows": len(rows) - before, "errors": errors})
+    if not rows:
+        return pd.DataFrame(), report
+    frame = pd.DataFrame(rows).drop_duplicates(subset=["date", "home_team", "away_team", "league_id"])
+    return frame, report
+
+
 def ensure_schema(conn: sqlite3.Connection) -> None:
     # Existing databases already have this table; this only adds missing columns.
     cols = {r[1] for r in conn.execute("PRAGMA table_info(teams_stats)").fetchall()}
@@ -315,6 +384,9 @@ def run(commit: bool) -> dict:
     config = load_config()
     live_probe = run_worldfootball_probe(config)
     local, local_report = collect_local_ft()
+    espn, espn_report = espn_public_ft(days_back=int(config.get("espn_days_back", 3)))
+    if not espn.empty:
+        local = pd.concat([local, espn], ignore_index=True)
     api, api_report = api_football_ft()
     if not api.empty:
         local = pd.concat([local, api], ignore_index=True)
@@ -323,7 +395,7 @@ def run(commit: bool) -> dict:
     # Al Hazem is a user-supplied stats row, explicitly not claimed as local FT.
     hazem_added = ensure_user_provided_al_hazem() if commit else 0
     written = write_snapshots(snapshots) if commit else 0
-    report = {"run_at": datetime.now(timezone.utc).isoformat(), "commit": commit, "config": config, "live_sources": {"worldfootball": live_probe}, "local_sources": local_report, "api_sources": api_report, "verified_ft_rows": int(len(local)), "team_snapshots": len(snapshots), "written_snapshots": written, "al_hazem_directory_added": directory_added, "al_hazem_stats_added": hazem_added, "status": "committed" if commit else "dry_run"}
+    report = {"run_at": datetime.now(timezone.utc).isoformat(), "commit": commit, "config": config, "live_sources": {"worldfootball": live_probe, "espn": espn_report}, "local_sources": local_report, "api_sources": api_report, "verified_ft_rows": int(len(local)), "espn_ft_rows": int(len(espn)), "team_snapshots": len(snapshots), "written_snapshots": written, "al_hazem_directory_added": directory_added, "al_hazem_stats_added": hazem_added, "status": "committed" if commit else "dry_run"}
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     log(f"RUN status={report['status']} verified_ft={len(local)} team_snapshots={len(snapshots)} updated={written} leagues={sorted(set(local.league_id)) if not local.empty else []}")
@@ -331,7 +403,7 @@ def run(commit: bool) -> dict:
         log("SAUDI league=saudi-pro directory_added=Al Hazem")
     if hazem_added:
         log("SAUDI league=saudi-pro stats_added=Al Hazem source=user_provided_stats_no_local_FT")
-    for item in local_report + api_report:
+    for item in local_report + espn_report + api_report:
         if item.get("status") not in {"accepted_real_ft", "accepted"}:
             log(f"SOURCE status={item.get('status')} file={item.get('file', item.get('league', ''))}")
     return report

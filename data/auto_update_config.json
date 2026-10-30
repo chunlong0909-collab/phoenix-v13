@@ -1,7 +1,7 @@
 {
   "leagues": [98, 99, 292, 293, 71, 10, 13, 19],
-  "sources": ["worldfootball", "soccerway"],
-  "live_probe": "pilot",
+  "sources": ["espn", "soccerway"],
+  "espn_days_back": 3,
   "mode": "safe_csv_only",
   "schedule": "weekly_monday_10am",
   "safety": {
