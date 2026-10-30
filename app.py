@@ -3176,11 +3176,14 @@ if run:
     # 必須和上方「先載入本聯賽球隊清單」使用同一個版本化 key。
     # 舊版這裡仍讀 teams_{league}，會令畫面已顯示新目錄，但分析時退回舊13隊。
     directory = st.session_state.get(directory_key, [])
-    # 手機舊 session 可能保留了已選隊伍，但尚未建立新版目錄 key；
-    # 分析時自動從已提交的 AFC teams.csv 補載，不要求使用者再按一次按鈕。
-    if not directory and canonical_league_name(league) == "亞冠精英盃":
-        directory, directory_source = get_team_directory(league, "", "", "")
-        st.session_state[directory_key] = directory
+    # 每次按分析都重新讀取目前Registry，而不是信任手機舊session；這是
+    # 防止「畫面顯示新隊伍、分析仍用舊13隊」的硬閘門。只更新目錄索引，
+    # 不會改動任何FT賽果。
+    fresh_directory, fresh_directory_source = get_team_directory(league, "", "", "")
+    if fresh_directory:
+        directory = fresh_directory
+        directory_source = fresh_directory_source
+        st.session_state[directory_key] = list(fresh_directory)
     # 低樣本／尚未有match_history的隊伍可能只存在於teams_stats；把它們
     # 加入解析候選，但不把stats欄位誤當成真實FT賽果。
     stats_directory = local_stats_team_candidates(league)
