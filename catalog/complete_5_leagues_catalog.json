@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-10-29T01:38:42.610926+00:00",
+    "updated_at": "2026-10-30T01:41:05.317599+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -15007,7 +15007,7 @@
             "player_id": "8054",
             "name": "Ashley Barnes",
             "pos": "Offence",
-            "age": 36,
+            "age": 37,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -15605,7 +15605,7 @@
             "player_id": "4955",
             "name": "Sean Longstaff",
             "pos": "Midfield",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-10-29T04:02:31.180974+00:00",
+    "updated_at": "2026-10-30T04:03:31.030331+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
