@@ -1,0 +1,15 @@
+{
+  "leagues": [98, 99, 292, 293, 71, 10, 13, 19],
+  "sources": ["worldfootball", "soccerway"],
+  "live_probe": "pilot",
+  "mode": "safe_csv_only",
+  "schedule": "weekly_monday_10am",
+  "safety": {
+    "dry_run_first": true,
+    "natural_key": ["date", "home_team", "away_team", "league_id"],
+    "corners_verified": 0,
+    "never_overwrite": true,
+    "skip_league": 18867
+  },
+  "notify": "whatsapp"
+}
