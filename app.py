@@ -2692,6 +2692,7 @@ if not st.session_state.get("local_league_cache_loaded"):
 if "is_importing" not in st.session_state:
     st.session_state["is_importing"] = False
 st.title("混合來源足球分析")
+st.caption("Phoenix V2.0｜0–4場不停止分析：使用同聯賽已核實FT平均後備，並明確標示低可信度")
 st.caption("本地資料館 → API → 公開 JSON／CSV → 你上載的 CSV／Excel；資料不足時不會虛構結果。")
 try:
     _api_started = requests.get(os.getenv("LOCAL_API_URL", "http://127.0.0.1:8000").rstrip("/"), timeout=0.35).ok
