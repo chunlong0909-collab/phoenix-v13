@@ -1,0 +1,388 @@
+{
+  "version": "Phoenix dataflow audit v1",
+  "rules": [
+    "只使用已存在的本地目錄及真實FT資料",
+    "官方隊名與供應商歷史隊名只作alias對位，不修改比分",
+    "樣本少於5場時輸出透明後備狀態，不把估算當成FT",
+    "賠率、teams_stats、球員及天氣不會被當成FT賽果"
+  ],
+  "summary": {
+    "leagues": 37,
+    "directory_empty": 1,
+    "analysis_ready": 36,
+    "no_ft_rows": 4
+  },
+  "leagues": [
+    {
+      "league": "英超",
+      "league_id": "epl",
+      "directory_teams": 25,
+      "verified_ft_rows": 2945,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "英冠",
+      "league_id": "championship",
+      "directory_teams": 35,
+      "verified_ft_rows": 4579,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "西甲",
+      "league_id": "laliga",
+      "directory_teams": 26,
+      "verified_ft_rows": 3011,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "西乙",
+      "league_id": "laliga2",
+      "directory_teams": 37,
+      "verified_ft_rows": 4355,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "德甲",
+      "league_id": "bundesliga",
+      "directory_teams": 23,
+      "verified_ft_rows": 2501,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "德乙",
+      "league_id": "bundesliga2",
+      "directory_teams": 28,
+      "verified_ft_rows": 2956,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "法乙",
+      "league_id": "ligue2",
+      "directory_teams": 35,
+      "verified_ft_rows": 4431,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "荷甲",
+      "league_id": "eredivisie",
+      "directory_teams": 24,
+      "verified_ft_rows": 3581,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "荷乙",
+      "league_id": "eerste",
+      "directory_teams": 27,
+      "verified_ft_rows": 1173,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "蘇超",
+      "league_id": "scottish-prem",
+      "directory_teams": 14,
+      "verified_ft_rows": 2162,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "奧甲",
+      "league_id": "austrian-bundesliga",
+      "directory_teams": 14,
+      "verified_ft_rows": 591,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "丹超",
+      "league_id": "danish-superliga",
+      "directory_teams": 16,
+      "verified_ft_rows": 585,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "澳職",
+      "league_id": "a-league",
+      "directory_teams": 13,
+      "verified_ft_rows": 20,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "女子澳職",
+      "league_id": "a-league-women",
+      "directory_teams": 13,
+      "verified_ft_rows": 772,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "澳洲盃",
+      "league_id": "australia-cup",
+      "directory_teams": 13,
+      "verified_ft_rows": 791,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "日職J1",
+      "league_id": "j1",
+      "directory_teams": 23,
+      "verified_ft_rows": 20,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "日乙J2",
+      "league_id": "j2",
+      "directory_teams": 41,
+      "verified_ft_rows": 1593,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "日職J3",
+      "league_id": "j3",
+      "directory_teams": 20,
+      "verified_ft_rows": 0,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": "FT樣本不足時只顯示低樣本／聯賽平均後備，不新增比分"
+    },
+    {
+      "league": "韓職K1",
+      "league_id": "k1",
+      "directory_teams": 12,
+      "verified_ft_rows": 20,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "韓乙K2",
+      "league_id": "k2",
+      "directory_teams": 17,
+      "verified_ft_rows": 10,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "沙職",
+      "league_id": "saudi-pro",
+      "directory_teams": 24,
+      "verified_ft_rows": 267,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "卡塔爾",
+      "league_id": "qatar-stars",
+      "directory_teams": 12,
+      "verified_ft_rows": 0,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": "FT樣本不足時只顯示低樣本／聯賽平均後備，不新增比分"
+    },
+    {
+      "league": "阿聯酋",
+      "league_id": "uae-pro",
+      "directory_teams": 14,
+      "verified_ft_rows": 0,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": "FT樣本不足時只顯示低樣本／聯賽平均後備，不新增比分"
+    },
+    {
+      "league": "泰甲",
+      "league_id": "thai-league1",
+      "directory_teams": 27,
+      "verified_ft_rows": 728,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "芬超",
+      "league_id": "veikkausliiga",
+      "directory_teams": 7,
+      "verified_ft_rows": 13,
+      "directory_source": "本地資料館（由賽果建立後備清單）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "挪超",
+      "league_id": "eliteserien",
+      "directory_teams": 20,
+      "verified_ft_rows": 722,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "俄超",
+      "league_id": "russian-prem",
+      "directory_teams": 20,
+      "verified_ft_rows": 729,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "墨超",
+      "league_id": "liga-mx",
+      "directory_teams": 18,
+      "verified_ft_rows": 3297,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "墨甲",
+      "league_id": "expansion-mx",
+      "directory_teams": 20,
+      "verified_ft_rows": 2697,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "阿甲",
+      "league_id": "argentina-primera",
+      "directory_teams": 32,
+      "verified_ft_rows": 1269,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "巴甲",
+      "league_id": "serie-a",
+      "directory_teams": 27,
+      "verified_ft_rows": 274,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "巴乙",
+      "league_id": "serie-b",
+      "directory_teams": 34,
+      "verified_ft_rows": 1142,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "烏拉圭甲",
+      "league_id": "uruguay-primera",
+      "directory_teams": 20,
+      "verified_ft_rows": 897,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "女子挪超",
+      "league_id": "toppserien",
+      "directory_teams": 0,
+      "verified_ft_rows": 0,
+      "directory_source": "",
+      "status": "directory_error",
+      "note": "沒有任何可用球隊"
+    },
+    {
+      "league": "女子南美自由盃",
+      "league_id": "libertadores-femenina",
+      "directory_teams": 40,
+      "verified_ft_rows": 116,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "澳洲冠軍聯賽盃",
+      "league_id": "australian-championship",
+      "directory_teams": 16,
+      "verified_ft_rows": 48,
+      "directory_source": "Team Registry V2（按聯賽隔離的本地目錄）",
+      "status": "ready_for_analysis",
+      "note": ""
+    },
+    {
+      "league": "亞冠精英盃",
+      "league_id": "afc-champions-league-elite",
+      "directory_teams": 252,
+      "verified_ft_rows": 3450,
+      "directory_source": "GitHub main 遠端 teams.csv",
+      "status": "ready_for_analysis",
+      "note": ""
+    }
+  ],
+  "regression_checks": [
+    {
+      "league": "意大利甲組聯賽",
+      "home_input": "Frosinone Calcio",
+      "home_history_label": "Frosinone",
+      "away_input": "US Lecce",
+      "away_history_label": "Lecce",
+      "directory_contains_both": true,
+      "ft_rows": 293
+    },
+    {
+      "league": "英格蘭超級聯賽",
+      "home_input": "Arsenal",
+      "home_history_label": "Arsenal FC",
+      "away_input": "Liverpool",
+      "away_history_label": "Liverpool FC",
+      "directory_contains_both": true,
+      "ft_rows": 275
+    },
+    {
+      "league": "日本職業聯賽",
+      "home_input": "Gamba Osaka",
+      "home_history_label": "Gamba Osaka",
+      "away_input": "Vissel Kobe",
+      "away_history_label": "Vissel Kobe",
+      "directory_contains_both": true,
+      "ft_rows": 20
+    },
+    {
+      "league": "南韓職業聯賽",
+      "home_input": "FC Seoul",
+      "home_history_label": "FC Seoul",
+      "away_input": "Jeonbuk Hyundai Motors",
+      "away_history_label": "Jeonbuk Hyundai Motors",
+      "directory_contains_both": true,
+      "ft_rows": 20
+    }
+  ]
+}
