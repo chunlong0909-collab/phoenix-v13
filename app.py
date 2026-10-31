@@ -35,6 +35,19 @@ except Exception:
     TEAM_NAME_ALIASES = {}
     def load_squads(path):
         return {}
+
+# V1.5：只套用已完成覆盤、明確指定的球隊修正；不改寫原始FT資料。
+# 清水心跳作客攻力由覆盤基線0.85調整至0.65，僅在清水為客隊時生效。
+V15_AWAY_ATTACK_FACTORS = {"shimizuspulse": 0.65}
+
+
+def v15_away_attack_adjustment(away_team, away_lambda):
+    key = re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", str(away_team)).lower())
+    key = re.sub(r"fc$", "", key)
+    for team_key_value, factor in V15_AWAY_ATTACK_FACTORS.items():
+        if key == team_key_value:
+            return float(away_lambda) * float(factor), float(factor)
+    return float(away_lambda), 1.0
 try:
     from fbref import competition_matches, recent_match_reports, reports_to_dataframe
 except Exception:
@@ -3275,6 +3288,11 @@ if run:
             st.info(f"賠率反推Lambda：主 {hx:.2f}／客 {ax:.2f}｜抽水後目標機率已歸一化｜只作後備估算，非真實FT。")
         else:
             st.warning("賠率反推模式已開啟，但主勝／和局／客勝賠率不完整或無效，改用聯賽基準線。")
+    v15_away_attack_factor = 1.0
+    if not odds_reverse_result:
+        ax, v15_away_attack_factor = v15_away_attack_adjustment(away, ax)
+        if v15_away_attack_factor != 1.0:
+            st.info(f"V1.5覆盤修正：{away} 作客攻力系數 {v15_away_attack_factor:.2f}（原覆盤基線0.85→0.65）；只調整模型Lambda，不改寫真實FT。")
     effective_pair_data_ok = pair_data_ok or baseline_fallback_used or bool(odds_reverse_result)
     # 永遠輸出入球模型，但把資料品質顯式分級；這裡不會把估算列偽裝成FT。
     if odds_reverse_result:
@@ -3372,6 +3390,7 @@ if run:
         weather_factor = {"total_factor": 1.0, "status": "module_unavailable"}
     st.session_state["last_prediction_factors"] = {
         "coach_factor": coach_result, "weather_factor": weather_factor,
+        "v15_away_attack_factor": v15_away_attack_factor,
         "prediction_log": prediction_log,
     }
     st.caption(

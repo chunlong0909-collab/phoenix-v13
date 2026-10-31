@@ -1,0 +1,14 @@
+{
+  "version": "V1.5",
+  "adjustments": [
+    {
+      "team": "Shimizu S-Pulse",
+      "scope": "away_attack",
+      "previous_factor": 0.85,
+      "new_factor": 0.65,
+      "reason": "J1-1026 Kyoto Sanga 2-0 Shimizu S-Pulse review",
+      "effective_rule": "only when Shimizu S-Pulse is the away team; odds-reverse mode is not modified",
+      "raw_ft_unchanged": true
+    }
+  ]
+}
