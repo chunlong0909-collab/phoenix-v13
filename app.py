@@ -1721,7 +1721,12 @@ def corner_model(matches, home, away):
     a_for, a_against = values(a, away)
     home_lam = max(.5, (h_for + a_against) / 2)
     away_lam = max(.5, (a_for + h_against) / 2)
-    warning = "；角球樣本只有主隊 %d、客隊 %d 場，可靠性中等" % (len(h), len(a)) if len(h) < 8 or len(a) < 8 else ""
+    if len(h) < 5 or len(a) < 5:
+        warning = "；角球樣本只有主隊 %d、客隊 %d 場，可靠性低；只作歷史參考" % (len(h), len(a))
+    elif len(h) < 8 or len(a) < 8:
+        warning = "；角球樣本只有主隊 %d、客隊 %d 場，可靠性中等" % (len(h), len(a))
+    else:
+        warning = ""
     return (home_lam, away_lam), "已使用來源提供的歷史角球（最近最多8場）" + warning
 
 
@@ -3496,7 +3501,10 @@ if run:
                 label = "本地資料館"
             if label not in corner_source_names:
                 corner_source_names.append(label)
-    corner_source_label = " / ".join(corner_source_names) if corner_source_names else "未取得"
+    if corner_lams:
+        corner_source_label = "歷史角球模型（真實HC/AC）"
+    else:
+        corner_source_label = " / ".join(corner_source_names) if corner_source_names else "未取得"
     monte_carlo = monte_carlo_match(hx, ax, corner_lams)
     confidence = model_confidence(len(h) + len(a), hp, dp, ap)
     reliability = reliability_level(
