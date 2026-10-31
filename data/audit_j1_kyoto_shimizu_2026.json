@@ -1,0 +1,14 @@
+{
+  "scope": "Kyoto Sanga vs Shimizu S-Pulse FB7972",
+  "added_verified_ft_rows": 27,
+  "season": "2026",
+  "source_type": "public_verified_ft",
+  "source_urls": [
+    "https://www.espn.com/soccer/team/results/_/id/21361/league/JPN.1",
+    "https://www.espn.com/soccer/team/results/_/id/7104/league/JPN.1",
+    "https://www.jleague.jp/en/match/j1/2026/103112/"
+  ],
+  "fields_not_available": "HT and corners were left null; injuries and live odds were not fabricated",
+  "natural_key": "date + home_team + away_team",
+  "status": "verified_ft_only"
+}

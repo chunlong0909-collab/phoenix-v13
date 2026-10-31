@@ -1,4 +1,4 @@
-﻿date,home_team,away_team,home_goals,away_goals,home_corners,away_corners,league,season
+date,home_team,away_team,home_goals,away_goals,home_corners,away_corners,league,season
 2025-11-30,Albirex Niigata,Kashiwa Reysol,1.0,3.0,,,J1聯賽,2025
 2025-11-30,Avispa Fukuoka,Gamba Osaka,1.0,0.0,,,J1聯賽,2025
 2025-11-30,Fagiano Okayama,Urawa Red Diamonds,0.0,1.0,,,J1聯賽,2025
@@ -19,3 +19,30 @@
 2025-12-09,Machida Zelvia,Yokohama FC,1.0,1.0,,,J1聯賽,2025
 2025-12-09,Sanfrecce Hiroshima,Kyoto Sanga,1.0,1.0,,,J1聯賽,2025
 2025-12-09,Vissel Kobe,Kashiwa Reysol,0.0,0.0,,,J1聯賽,2025
+2026-10-21,Kashima Antlers,Kyoto Sanga,2,2,,,J1聯賽,2026
+2026-10-17,Sanfrecce Hiroshima,Kyoto Sanga,3,0,,,J1聯賽,2026
+2026-10-10,Kyoto Sanga,Machida Zelvia,0,1,,,J1聯賽,2026
+2026-09-19,Fagiano Okayama,Kyoto Sanga,1,2,,,J1聯賽,2026
+2026-09-11,Kyoto Sanga,Kashiwa Reysol,2,3,,,J1聯賽,2026
+2026-09-06,FC Tokyo,Kyoto Sanga,2,0,,,J1聯賽,2026
+2026-09-02,Yokohama F. Marinos,Kyoto Sanga,1,1,,,J1聯賽,2026
+2026-08-29,Kyoto Sanga,Avispa Fukuoka,2,1,,,J1聯賽,2026
+2026-08-22,Kyoto Sanga,Mito Hollyhock,1,3,,,J1聯賽,2026
+2026-08-15,Kawasaki Frontale,Kyoto Sanga,2,2,,,J1聯賽,2026
+2026-08-09,V-Varen Nagasaki,Kyoto Sanga,2,1,,,J1聯賽,2026
+2026-10-21,Machida Zelvia,Shimizu S-Pulse,5,0,,,J1聯賽,2026
+2026-10-17,Gamba Osaka,Shimizu S-Pulse,2,2,,,J1聯賽,2026
+2026-10-11,Mito Hollyhock,Shimizu S-Pulse,1,2,,,J1聯賽,2026
+2026-09-19,Shimizu S-Pulse,JEF United Ichihara-Chiba,2,1,,,J1聯賽,2026
+2026-09-12,Shimizu S-Pulse,Avispa Fukuoka,1,0,,,J1聯賽,2026
+2026-09-06,Kawasaki Frontale,Shimizu S-Pulse,3,1,,,J1聯賽,2026
+2026-09-02,Shimizu S-Pulse,FC Tokyo,1,1,,,J1聯賽,2026
+2026-08-29,Kashiwa Reysol,Shimizu S-Pulse,1,0,,,J1聯賽,2026
+2026-08-22,Cerezo Osaka,Shimizu S-Pulse,1,0,,,J1聯賽,2026
+2026-08-15,Shimizu S-Pulse,Yokohama F. Marinos,0,1,,,J1聯賽,2026
+2026-08-08,Nagoya Grampus,Shimizu S-Pulse,0,1,,,J1聯賽,2026
+2026-05-24,Gamba Osaka,Shimizu S-Pulse,2,1,,,J1聯賽,2026
+2026-05-17,Fagiano Okayama,Shimizu S-Pulse,2,0,,,J1聯賽,2026
+2026-05-10,Shimizu S-Pulse,Avispa Fukuoka,1,1,,,J1聯賽,2026
+2026-05-06,Shimizu S-Pulse,Cerezo Osaka,1,1,,,J1聯賽,2026
+2026-05-02,Kyoto Sanga,Shimizu S-Pulse,1,2,,,J1聯賽,2026
