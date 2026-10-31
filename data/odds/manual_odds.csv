@@ -1,0 +1,12 @@
+fixture_id,captured_at,market,selection,line,odds,source
+FB7972,2026-10-31T10:22:00+08:00,1X2,home,,2.23,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,1X2,draw,,3.25,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,1X2,away,,2.66,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,goals_ou,over,2.5,1.86,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,goals_ou,under,2.5,1.84,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,corners_ou,over,9.5,1.90,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,corners_ou,under,9.5,1.80,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,corners_ou,over,10.5,2.38,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,corners_ou,under,10.5,1.51,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,corners_ou,over,13.5,4.75,user screenshot
+FB7972,2026-10-31T10:22:00+08:00,corners_ou,under,13.5,1.13,user screenshot
