@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-10-30T19:27:20.658022+00:00",
+    "updated_at": "2026-10-31T01:38:51.141717+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -701,7 +701,7 @@
             "player_id": "185610",
             "name": "Antonio Silva",
             "pos": "Defence",
-            "age": 22,
+            "age": 23,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -9979,7 +9979,7 @@
             "player_id": "3331",
             "name": "Marcus Rashford",
             "pos": "Offence",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
