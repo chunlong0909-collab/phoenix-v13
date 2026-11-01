@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-10-31T01:38:51.141717+00:00",
+    "updated_at": "2026-11-01T01:48:21.282446+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -16263,7 +16263,7 @@
             "player_id": "8371",
             "name": "Nordi Mukiele",
             "pos": "Defence",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-10-31T03:59:22.409200+00:00",
+    "updated_at": "2026-11-01T04:05:43.840507+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
