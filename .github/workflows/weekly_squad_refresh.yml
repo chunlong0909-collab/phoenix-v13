@@ -41,11 +41,17 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          if git diff --quiet -- data/final_574_squads_with_sources.json assets/data/final_574_squads_with_sources.json; then
+          changed_files=(
+            data/final_574_squads_with_sources.json
+            assets/data/final_574_squads_with_sources.json
+            data/weekly_wikipedia_squad_report.json
+            data/coach_coverage_report.json
+          )
+          git add "${changed_files[@]}"
+          if git diff --cached --quiet; then
             echo 'No squad or coach changes detected.'
             exit 0
           fi
-          git add data/final_574_squads_with_sources.json assets/data/final_574_squads_with_sources.json
           git commit -m "chore: weekly squad+coach refresh $(date -u +%F)"
           git pull --rebase origin main
           git push origin HEAD:main
