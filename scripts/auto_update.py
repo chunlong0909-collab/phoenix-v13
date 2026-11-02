@@ -379,6 +379,28 @@ def espn_public_ft(days_back: int = 3) -> tuple[pd.DataFrame, list[dict]]:
 
 
 def ensure_schema(conn: sqlite3.Connection) -> None:
+    # Some historical library DB checkpoints do not contain teams_stats yet.
+    # Create the table first, then preserve the additive column migration below.
+    conn.execute("""CREATE TABLE IF NOT EXISTS teams_stats (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        date TEXT,
+        league_id TEXT,
+        team TEXT,
+        goals REAL,
+        corners_avg REAL,
+        injury_status TEXT,
+        form TEXT,
+        source TEXT,
+        team_id TEXT,
+        team_name TEXT,
+        goals_for REAL,
+        goals_against REAL,
+        xG REAL,
+        xGA REAL,
+        corners_total_avg REAL,
+        form_last5 TEXT,
+        updated_at TEXT
+    )""")
     # Existing databases already have this table; this only adds missing columns.
     cols = {r[1] for r in conn.execute("PRAGMA table_info(teams_stats)").fetchall()}
     wanted = {"team_id": "TEXT", "team_name": "TEXT", "goals_for": "REAL", "goals_against": "REAL", "xG": "REAL", "xGA": "REAL", "corners_total_avg": "REAL", "form_last5": "TEXT", "updated_at": "TEXT"}
