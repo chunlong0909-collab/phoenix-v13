@@ -29,7 +29,9 @@ import requests
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
-LOG_PATH = Path("/logs/auto_update.log")
+# GitHub-hosted runners cannot create a root-level /logs directory.  Production
+# may still override this with PHOENIX_LOG_PATH=/logs/auto_update.log.
+LOG_PATH = Path(os.environ.get("PHOENIX_LOG_PATH", str(ROOT / "logs" / "auto_update.log")))
 REPORT_PATH = ROOT / "data" / "auto_update_last_report.json"
 GAP_PATH = ROOT / "data" / "coverage_gap_tracker.json"
 CONFIG_PATH = ROOT / "data" / "auto_update_config.json"
