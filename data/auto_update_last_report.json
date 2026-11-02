@@ -1,0 +1,657 @@
+{
+  "run_at": "2026-11-02T02:51:01.776163+00:00",
+  "commit": true,
+  "config": {
+    "leagues": [
+      98,
+      99,
+      292,
+      293,
+      71,
+      10,
+      13,
+      19
+    ],
+    "sources": [
+      "espn",
+      "soccerway"
+    ],
+    "metadata_sources": {
+      "saudi-pro": {
+        "provider": "Saudi Pro League official",
+        "teams": {
+          "Diriyah Club (Sau)": "https://www.spl.com.sa/en/teams/diriyah/squad",
+          "NEOM (Sau)": "https://www.spl.com.sa/en/teams/neom/squad"
+        },
+        "standings": "https://www.spl.com.sa/en/standings/index",
+        "policy": "check_daily_write_only_when_official_fields_are_complete"
+      }
+    },
+    "espn_days_back": 3,
+    "mode": "safe_csv_only",
+    "schedule": "daily_10am_hong_kong",
+    "safety": {
+      "dry_run_first": true,
+      "natural_key": [
+        "date",
+        "home_team",
+        "away_team",
+        "league_id"
+      ],
+      "corners_verified": 0,
+      "never_overwrite": true,
+      "skip_league": 18867
+    },
+    "notify": "whatsapp"
+  },
+  "official_metadata": {
+    "checked_at": "2026-11-02T02:50:49.438733+00:00",
+    "leagues": {
+      "saudi-pro": {
+        "provider": "Saudi Pro League official",
+        "teams": {
+          "Diriyah Club (Sau)": {
+            "status": "reachable",
+            "http_status": 200,
+            "player_link_count": 29,
+            "coach_field_found": true,
+            "content_sha256": "a419018ada8d2e0a383cd8cd4482201b84e180dda0b636edb7efc0ff4b247ce1",
+            "source_url": "https://www.spl.com.sa/en/teams/diriyah/squad"
+          },
+          "NEOM (Sau)": {
+            "status": "reachable",
+            "http_status": 200,
+            "player_link_count": 26,
+            "coach_field_found": true,
+            "content_sha256": "9b57a0d54246f48f72fddb2f44358d8902fcfddeff78309fe4aff46a34a620c9",
+            "source_url": "https://www.spl.com.sa/en/teams/neom/squad"
+          }
+        },
+        "standings": {
+          "status": "reachable",
+          "http_status": 200,
+          "diriyah_present": null,
+          "neom_present": null,
+          "parser_note": "null means the page rendered standings client-side and did not expose team names in static HTML",
+          "content_sha256": "d64c1c07eb9843aad44e81a16edee25d7b78198cd39a99764200b82a2c209932",
+          "source_url": "https://www.spl.com.sa/en/standings/index"
+        }
+      }
+    }
+  },
+  "live_sources": {
+    "worldfootball": {
+      "status": "disabled",
+      "reason": "worldfootball_not_configured"
+    },
+    "espn": [
+      {
+        "league_id": "epl",
+        "league": "英超",
+        "slug": "eng.1",
+        "status": "accepted",
+        "ft_rows": 9,
+        "errors": []
+      },
+      {
+        "league_id": "laliga",
+        "league": "西甲",
+        "slug": "esp.1",
+        "status": "accepted",
+        "ft_rows": 8,
+        "errors": []
+      },
+      {
+        "league_id": "serie-a",
+        "league": "意甲",
+        "slug": "ita.1",
+        "status": "accepted",
+        "ft_rows": 8,
+        "errors": []
+      },
+      {
+        "league_id": "bundesliga",
+        "league": "德甲",
+        "slug": "ger.1",
+        "status": "accepted",
+        "ft_rows": 8,
+        "errors": []
+      },
+      {
+        "league_id": "ligue-1",
+        "league": "法甲",
+        "slug": "fra.1",
+        "status": "accepted",
+        "ft_rows": 5,
+        "errors": []
+      },
+      {
+        "league_id": "j1",
+        "league": "日職J1",
+        "slug": "jpn.1",
+        "status": "accepted",
+        "ft_rows": 10,
+        "errors": []
+      },
+      {
+        "league_id": "brasileirao",
+        "league": "巴甲",
+        "slug": "bra.1",
+        "status": "accepted",
+        "ft_rows": 1,
+        "errors": []
+      },
+      {
+        "league_id": "liga-mx",
+        "league": "墨超",
+        "slug": "mex.1",
+        "status": "accepted",
+        "ft_rows": 5,
+        "errors": []
+      }
+    ]
+  },
+  "coverage": {
+    "league_count": 37,
+    "leagues_with_gaps": 12,
+    "tracker": "/home/runner/work/phoenix-v13/phoenix-v13/data/coverage_gap_tracker.json"
+  },
+  "local_sources": [
+    {
+      "file": "matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/leagues/a-league/matches.csv",
+      "league_id": "a-league",
+      "ft_rows": 513,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/a-league-women/matches.csv",
+      "league_id": "a-league-women",
+      "ft_rows": 770,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/afc-champions-league-elite/matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/leagues/argentina-primera/matches.csv",
+      "league_id": "argentina-primera",
+      "ft_rows": 1266,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/australia-cup/matches.csv",
+      "league_id": "australia-cup",
+      "ft_rows": 770,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/australian-championship/matches.csv",
+      "league_id": "australian-championship",
+      "ft_rows": 8,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/austria/matches.csv",
+      "league_id": "austria",
+      "ft_rows": 2692,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/austrian-bundesliga/matches.csv",
+      "league_id": "austrian-bundesliga",
+      "ft_rows": 591,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/brasileirao/matches.csv",
+      "league_id": "brasileirao",
+      "ft_rows": 380,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/bundesliga/matches.csv",
+      "league_id": "bundesliga",
+      "ft_rows": 918,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/bundesliga2/matches.csv",
+      "league_id": "bundesliga2",
+      "ft_rows": 918,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/championship/matches.csv",
+      "league_id": "championship",
+      "ft_rows": 1656,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/danish-superliga/matches.csv",
+      "league_id": "danish-superliga",
+      "ft_rows": 585,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/denmark/matches.csv",
+      "league_id": "denmark",
+      "ft_rows": 3018,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/eerste/matches.csv",
+      "league_id": "eerste",
+      "ft_rows": 1173,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/eliteserien/matches.csv",
+      "league_id": "eliteserien",
+      "ft_rows": 720,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/epl/matches.csv",
+      "league_id": "epl",
+      "ft_rows": 1140,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/eredivisie/matches.csv",
+      "league_id": "eredivisie",
+      "ft_rows": 918,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/expansion-mx/matches.csv",
+      "league_id": "expansion-mx",
+      "ft_rows": 778,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/j1/matches.csv",
+      "league_id": "j1",
+      "ft_rows": 1093,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/j2/matches.csv",
+      "league_id": "j2",
+      "ft_rows": 1583,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/jupiler/matches.csv",
+      "league_id": "jupiler",
+      "ft_rows": 312,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/k1/matches.csv",
+      "league_id": "k1",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/k2/matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/leagues/laliga/matches.csv",
+      "league_id": "laliga",
+      "ft_rows": 1140,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/laliga2/matches.csv",
+      "league_id": "laliga2",
+      "ft_rows": 1386,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/league-two/matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/leagues/libertadores-femenina/matches.csv",
+      "league_id": "libertadores-femenina",
+      "ft_rows": 116,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/liga-mx/matches.csv",
+      "league_id": "liga-mx",
+      "ft_rows": 1021,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/ligue2/matches.csv",
+      "league_id": "ligue2",
+      "ft_rows": 990,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/norway/matches.csv",
+      "league_id": "norway",
+      "ft_rows": 3566,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/primeira_liga/matches.csv",
+      "league_id": "primeira_liga",
+      "ft_rows": 306,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/qatar-stars/matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/leagues/russian-prem/matches.csv",
+      "league_id": "russian-prem",
+      "ft_rows": 728,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/saudi-pro/matches.csv",
+      "league_id": "saudi-pro",
+      "ft_rows": 268,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/scottish-prem/matches.csv",
+      "league_id": "scottish-prem",
+      "ft_rows": 684,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/serie-a/matches.csv",
+      "league_id": "serie-a",
+      "ft_rows": 1140,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/serie-b/matches.csv",
+      "league_id": "serie-b",
+      "ft_rows": 1140,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/super_lig/matches.csv",
+      "league_id": "super_lig",
+      "ft_rows": 380,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/sweden/matches.csv",
+      "league_id": "sweden",
+      "ft_rows": 3576,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/switzerland/matches.csv",
+      "league_id": "switzerland",
+      "ft_rows": 2735,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/thai-league1/matches.csv",
+      "league_id": "thai-league1",
+      "ft_rows": 720,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/toppserien/matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/leagues/uae-pro/matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/leagues/uruguay-primera/matches.csv",
+      "league_id": "uruguay-primera",
+      "ft_rows": 897,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/leagues/veikkausliiga/matches.csv",
+      "ft_rows": 0,
+      "status": "skipped_no_verified_ft"
+    },
+    {
+      "file": "data/match_history/a-league.csv",
+      "league_id": "a-league",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/j1.csv",
+      "league_id": "j1",
+      "ft_rows": 47,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/k1.csv",
+      "league_id": "k1",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_00e6c4604c.csv",
+      "league_id": "league_00e6c4604c",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_05021f8f40.csv",
+      "league_id": "league_05021f8f40",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_065bb038e7.csv",
+      "league_id": "league_065bb038e7",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_12baad9e48.csv",
+      "league_id": "league_12baad9e48",
+      "ft_rows": 21,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_20be7c4841.csv",
+      "league_id": "league_20be7c4841",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_38bc6bc13d.csv",
+      "league_id": "league_38bc6bc13d",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_3b5ac579f7.csv",
+      "league_id": "league_3b5ac579f7",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_3f0197075a.csv",
+      "league_id": "league_3f0197075a",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_485993f8c0.csv",
+      "league_id": "league_485993f8c0",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_50da925748.csv",
+      "league_id": "league_50da925748",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_561bed24c7.csv",
+      "league_id": "league_561bed24c7",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_5fbe6bc9cf.csv",
+      "league_id": "league_5fbe6bc9cf",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_783f682b00.csv",
+      "league_id": "league_783f682b00",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_7842b47c4d.csv",
+      "league_id": "league_7842b47c4d",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_9fc8be2db1.csv",
+      "league_id": "league_9fc8be2db1",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_a0db812284.csv",
+      "league_id": "league_a0db812284",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_aeeb15c597.csv",
+      "league_id": "league_aeeb15c597",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_b08e847f96.csv",
+      "league_id": "league_b08e847f96",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_b24790463f.csv",
+      "league_id": "league_b24790463f",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_badbd4a11b.csv",
+      "league_id": "league_badbd4a11b",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_be2ad2bf9f.csv",
+      "league_id": "league_be2ad2bf9f",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_befc93aa59.csv",
+      "league_id": "league_befc93aa59",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_c123dfd12d.csv",
+      "league_id": "league_c123dfd12d",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_d1df3e96cc.csv",
+      "league_id": "league_d1df3e96cc",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_e5e28a3fea.csv",
+      "league_id": "league_e5e28a3fea",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_e6330a074d.csv",
+      "league_id": "league_e6330a074d",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_e98bce1acd.csv",
+      "league_id": "league_e98bce1acd",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_ebca55dd0c.csv",
+      "league_id": "league_ebca55dd0c",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_efl_league_two_2026_27.csv",
+      "league_id": "league_efl_league_two_2026_27",
+      "ft_rows": 152,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/league_f2c6f50ba7.csv",
+      "league_id": "league_f2c6f50ba7",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/mls.csv",
+      "league_id": "mls",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    },
+    {
+      "file": "data/match_history/uae_iran_history.csv",
+      "league_id": "uae_iran_history",
+      "ft_rows": 20,
+      "status": "accepted_real_ft"
+    }
+  ],
+  "api_sources": [
+    {
+      "status": "skipped_no_API_FOOTBALL_TOKEN"
+    }
+  ],
+  "verified_ft_rows": 43454,
+  "espn_ft_rows": 54,
+  "team_snapshots": 1534,
+  "written_snapshots": 1534,
+  "al_hazem_directory_added": true,
+  "al_hazem_stats_added": 1,
+  "status": "committed"
+}
