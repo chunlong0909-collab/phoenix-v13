@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-01T01:48:21.282446+00:00",
+    "updated_at": "2026-11-02T01:48:19.134943+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -4941,7 +4941,7 @@
             "player_id": "121103",
             "name": "Moisés Caicedo",
             "pos": "Midfield",
-            "age": 24,
+            "age": 25,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-01T04:05:43.840507+00:00",
+    "updated_at": "2026-11-02T04:09:17.374209+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",

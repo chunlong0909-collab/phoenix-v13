@@ -3,7 +3,7 @@
   "batch": 6,
   "mode": "real",
   "source_policy": "local checked-in J1 2024 real FT dump; no inferred HT; no inferred stats",
-  "updated_at": "2026-11-01T04:05:43.929889+00:00",
+  "updated_at": "2026-11-02T04:09:17.473432+00:00",
   "leagues": {
     "英超": {
       "teams": 20,
