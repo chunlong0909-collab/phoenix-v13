@@ -243,7 +243,12 @@ def read_ft_csv(path: Path) -> pd.DataFrame:
     if not required.issubset(found):
         return empty_schema()
     out = pd.DataFrame({k: raw[v].map(norm) for k, v in found.items()})
-    out["date"] = pd.to_datetime(out["date"], errors="coerce", dayfirst=True, format="mixed").dt.strftime("%Y-%m-%d")
+    # Local CSVs may mix naive dates with UTC-offset timestamps from ESPN.
+    # Normalise to UTC before formatting so the hosted runner does not raise
+    # pandas' "Mixed timezones detected" error.
+    out["date"] = pd.to_datetime(
+        out["date"], errors="coerce", dayfirst=True, format="mixed", utc=True
+    ).dt.strftime("%Y-%m-%d")
     out["home_goals"] = pd.to_numeric(out["home_goals"], errors="coerce")
     out["away_goals"] = pd.to_numeric(out["away_goals"], errors="coerce")
     for c in ("home_corners", "away_corners"):
