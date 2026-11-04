@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-03T01:45:14.119660+00:00",
+    "updated_at": "2026-11-04T01:44:13.126638+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -13211,7 +13211,7 @@
             "player_id": "289166",
             "name": "Airidas Golambeckis",
             "pos": "Defence",
-            "age": 18,
+            "age": 19,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-03T04:06:28.992951+00:00",
+    "updated_at": "2026-11-04T04:07:48.896040+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
