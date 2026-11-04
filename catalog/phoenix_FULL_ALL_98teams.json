@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-03T19:33:04.274094+00:00",
+    "updated_at": "2026-11-04T01:44:13.126638+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -13211,7 +13211,7 @@
             "player_id": "289166",
             "name": "Airidas Golambeckis",
             "pos": "Defence",
-            "age": 18,
+            "age": 19,
             "goals": null,
             "assists": null,
             "apps": null,
