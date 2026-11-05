@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-04T01:44:13.126638+00:00",
+    "updated_at": "2026-11-05T01:51:33.800011+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -5669,7 +5669,7 @@
             "player_id": "9034",
             "name": "Takehiro Tomiyasu",
             "pos": "Defence",
-            "age": 27,
+            "age": 28,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -7435,7 +7435,7 @@
             "player_id": "192108",
             "name": "Shea Charles",
             "pos": "Midfield",
-            "age": 22,
+            "age": 23,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-04T04:07:48.896040+00:00",
+    "updated_at": "2026-11-05T04:09:01.024195+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
