@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-06T01:51:20.839493+00:00",
+    "updated_at": "2026-11-06T07:54:01.142709+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -5806,6 +5806,16 @@
             "source": "football-data.org"
           },
           {
+            "player_id": "303053",
+            "name": "Nathanael Kalembo",
+            "pos": "Midfield",
+            "age": 16,
+            "goals": null,
+            "assists": null,
+            "apps": null,
+            "source": "football-data.org"
+          },
+          {
             "player_id": "641",
             "name": "Jean-Philippe Mateta",
             "pos": "Offence",
@@ -5850,16 +5860,6 @@
             "name": "Evann Guessand",
             "pos": "Offence",
             "age": 25,
-            "goals": null,
-            "assists": null,
-            "apps": null,
-            "source": "football-data.org"
-          },
-          {
-            "player_id": "152505",
-            "name": "Yeremi Pino",
-            "pos": "Offence",
-            "age": 24,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -13278,6 +13278,16 @@
             "source": "football-data.org"
           },
           {
+            "player_id": "262986",
+            "name": "Keiber Lamadrid",
+            "pos": "Midfield",
+            "age": 22,
+            "goals": null,
+            "assists": null,
+            "apps": null,
+            "source": "football-data.org"
+          },
+          {
             "player_id": "286321",
             "name": "Divine Mukasa",
             "pos": "Midfield",
@@ -13332,16 +13342,6 @@
             "name": "Joël Piroe",
             "pos": "Offence",
             "age": 27,
-            "goals": null,
-            "assists": null,
-            "apps": null,
-            "source": "football-data.org"
-          },
-          {
-            "player_id": "157714",
-            "name": "Pablo",
-            "pos": "Offence",
-            "age": 22,
             "goals": null,
             "assists": null,
             "apps": null,
