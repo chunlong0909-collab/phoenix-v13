@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-05T01:51:33.800011+00:00",
+    "updated_at": "2026-11-06T01:51:20.839493+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -7285,7 +7285,7 @@
             "player_id": "300279",
             "name": "Alex Borto",
             "pos": "Goalkeeper",
-            "age": 22,
+            "age": 23,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -9091,7 +9091,7 @@
             "player_id": "107330",
             "name": "Elliot Anderson",
             "pos": "Midfield",
-            "age": 23,
+            "age": 24,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -15585,7 +15585,7 @@
             "player_id": "136721",
             "name": "Melvin Bard",
             "pos": "Defence",
-            "age": 25,
+            "age": 26,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-05T04:09:01.024195+00:00",
+    "updated_at": "2026-11-06T04:07:29.490276+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
