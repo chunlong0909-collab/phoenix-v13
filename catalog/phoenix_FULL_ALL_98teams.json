@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-06T19:34:02.020666+00:00",
+    "updated_at": "2026-11-07T01:39:26.879211+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -6657,7 +6657,7 @@
             "player_id": "244747",
             "name": "Briaden Graham",
             "pos": "Offence",
-            "age": 18,
+            "age": 19,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -8203,7 +8203,7 @@
             "player_id": "171141",
             "name": "Milos Kerkez",
             "pos": "Defence",
-            "age": 22,
+            "age": 23,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -11615,7 +11615,7 @@
             "player_id": "7816",
             "name": "Callum Hudson-Odoi",
             "pos": "Offence",
-            "age": 25,
+            "age": 26,
             "goals": null,
             "assists": null,
             "apps": null,
