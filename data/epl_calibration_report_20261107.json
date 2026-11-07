@@ -1,0 +1,49 @@
+{
+  "run_timestamp": "2026-11-07 10:25 HKT",
+  "candidates": 90,
+  "written": 0,
+  "missing_matches": 90,
+  "insufficient_data_reasons": {
+    "缺少 phoenix_auto_matches 內 verified_ft=1（Managed MySQL 無法存取）": 90,
+    "缺少官方 fixtures API 賽前排名": 10,
+    "缺少 Phoenix 近 10 場模型方向": 9
+  },
+  "odds_complete": 90,
+  "standings_ok": 80,
+  "standings_coverage": 88.89,
+  "last10_ok": 81,
+  "last10_coverage": 0.0,
+  "last10_cov_note": "81/90 (90.0%) 可計算；但真正完整寫入覆蓋率為 0.0%",
+  "total_calibration_samples": 73,
+  "agreement_rate": 57.53,
+  "agreement_matches": "42/73",
+  "status": "未校準，保持未校準並停用 EV",
+  "sources": [
+    {
+      "url": "https://football-data.co.uk/mmz4281/2627/E0.csv",
+      "fetch_time": "2026-11-07 10:22 HKT",
+      "type": "Football-Data.co.uk 季節 CSV（Bet365 賽前 W/D/L 賠率，90/90 完整）"
+    },
+    {
+      "url": "https://footballapi.pulselive.com/football/fixtures?comps=1&compSeasons=841&compsCodeForSort=PL&altIds=true&page=0&pageSize=1000",
+      "fetch_time": "2026-11-07 10:22 HKT",
+      "type": "Premier League 官方 fixtures API（91 場已完場，按開賽日前重建賽前排名）"
+    },
+    {
+      "url": "Managed MySQL: phoenix_auto_matches",
+      "fetch_time": "2026-11-07 10:22 HKT 存取結果：無連線，記 Insufficient Data"
+    }
+  ],
+  "verification": {
+    "phoenix_auto_matches_written": 0,
+    "phoenix_odds_written": 0,
+    "phoenix_auto_team_stats_written": 0,
+    "sqlite_results_tables_written": 0,
+    "api_football_odds_endpoint_used": false,
+    "API_FOOTBALL_TOKEN_used": false,
+    "Football-Data_FT_fallback_used": false
+  },
+  "note": "缺少 verified FT 不再用 Football-Data FT 補數；任何缺資料均記為 Insufficient Data，不估算、不補數。",
+  "next_scheduled_run": "2026-11-08 10:00 HKT",
+  "championship_laliga_status": "英超未達標，不開始英冠或西甲"
+}
