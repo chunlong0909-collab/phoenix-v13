@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T13:49:04.041644+00:00",
+  "checked_at": "2026-11-07T02:15:49.973513+00:00",
   "leagues": {
     "saudi-pro": {
       "provider": "Saudi Pro League official",
@@ -9,15 +9,15 @@
           "http_status": 200,
           "player_link_count": 29,
           "coach_field_found": true,
-          "content_sha256": "602eee2c6a17af8fc2e94cc575f0510c87bdab8e551303fb951bc3b88147842a",
+          "content_sha256": "9f3ab5033b2b7665726fefe3cd8c36fcc086ff30c0bf5f36342371867699e394",
           "source_url": "https://www.spl.com.sa/en/teams/diriyah/squad"
         },
         "NEOM (Sau)": {
           "status": "reachable",
           "http_status": 200,
-          "player_link_count": 26,
+          "player_link_count": 28,
           "coach_field_found": true,
-          "content_sha256": "18e007716dedf338c57b19be73e5667334ebdf953761595d2f06bca4c2d38eee",
+          "content_sha256": "9d0e4ba1df7ff9d65088663433a10e574cc2a4cb420b07202c09df1ded61dbab",
           "source_url": "https://www.spl.com.sa/en/teams/neom/squad"
         }
       },
@@ -27,7 +27,7 @@
         "diriyah_present": null,
         "neom_present": null,
         "parser_note": "null means the page rendered standings client-side and did not expose team names in static HTML",
-        "content_sha256": "af9f56d90d74ec7d84f0a8abe78b98895d6ce526d722a7a71b4dc9bfdcdf1af1",
+        "content_sha256": "9736d48ec0d8bdbd3b79f645bd28529de8d9833eeccbb93069307c344cffb1bc",
         "source_url": "https://www.spl.com.sa/en/standings/index"
       }
     }
