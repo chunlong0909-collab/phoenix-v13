@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T02:15:49.973513+00:00",
+  "checked_at": "2026-11-08T02:10:12.544347+00:00",
   "leagues": {
     "saudi-pro": {
       "provider": "Saudi Pro League official",
@@ -17,7 +17,7 @@
           "http_status": 200,
           "player_link_count": 28,
           "coach_field_found": true,
-          "content_sha256": "9d0e4ba1df7ff9d65088663433a10e574cc2a4cb420b07202c09df1ded61dbab",
+          "content_sha256": "045ce49b83bec20919b63eaffef1b6c0038e38902a12718ae09c1c3b304bdf78",
           "source_url": "https://www.spl.com.sa/en/teams/neom/squad"
         }
       },

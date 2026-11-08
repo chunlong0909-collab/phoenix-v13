@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-07T02:17:56.689635+00:00",
+  "run_at": "2026-11-08T02:11:56.175265+00:00",
   "commit": true,
   "config": {
     "leagues": [
@@ -45,7 +45,7 @@
     "notify": "whatsapp"
   },
   "official_metadata": {
-    "checked_at": "2026-11-07T02:15:49.973513+00:00",
+    "checked_at": "2026-11-08T02:10:12.544347+00:00",
     "leagues": {
       "saudi-pro": {
         "provider": "Saudi Pro League official",
@@ -63,7 +63,7 @@
             "http_status": 200,
             "player_link_count": 28,
             "coach_field_found": true,
-            "content_sha256": "9d0e4ba1df7ff9d65088663433a10e574cc2a4cb420b07202c09df1ded61dbab",
+            "content_sha256": "045ce49b83bec20919b63eaffef1b6c0038e38902a12718ae09c1c3b304bdf78",
             "source_url": "https://www.spl.com.sa/en/teams/neom/squad"
           }
         },
@@ -90,7 +90,7 @@
         "league": "英超",
         "slug": "eng.1",
         "status": "accepted",
-        "ft_rows": 1,
+        "ft_rows": 5,
         "errors": []
       },
       {
@@ -98,7 +98,7 @@
         "league": "西甲",
         "slug": "esp.1",
         "status": "accepted",
-        "ft_rows": 1,
+        "ft_rows": 5,
         "errors": []
       },
       {
@@ -106,7 +106,7 @@
         "league": "意甲",
         "slug": "ita.1",
         "status": "accepted",
-        "ft_rows": 1,
+        "ft_rows": 5,
         "errors": []
       },
       {
@@ -114,7 +114,7 @@
         "league": "德甲",
         "slug": "ger.1",
         "status": "accepted",
-        "ft_rows": 1,
+        "ft_rows": 6,
         "errors": []
       },
       {
@@ -122,15 +122,15 @@
         "league": "法甲",
         "slug": "fra.1",
         "status": "accepted",
-        "ft_rows": 1,
+        "ft_rows": 3,
         "errors": []
       },
       {
         "league_id": "j1",
         "league": "日職J1",
         "slug": "jpn.1",
-        "status": "no_new_ft",
-        "ft_rows": 0,
+        "status": "accepted",
+        "ft_rows": 6,
         "errors": []
       },
       {
@@ -138,15 +138,15 @@
         "league": "巴甲",
         "slug": "bra.1",
         "status": "accepted",
-        "ft_rows": 3,
+        "ft_rows": 1,
         "errors": []
       },
       {
         "league_id": "liga-mx",
         "league": "墨超",
         "slug": "mex.1",
-        "status": "no_new_ft",
-        "ft_rows": 0,
+        "status": "accepted",
+        "ft_rows": 4,
         "errors": []
       }
     ]
@@ -647,11 +647,11 @@
       "status": "skipped_no_API_FOOTBALL_TOKEN"
     }
   ],
-  "verified_ft_rows": 43408,
-  "espn_ft_rows": 8,
-  "team_snapshots": 1484,
-  "written_snapshots": 1484,
-  "al_hazem_directory_added": true,
+  "verified_ft_rows": 43435,
+  "espn_ft_rows": 35,
+  "team_snapshots": 1513,
+  "written_snapshots": 1513,
+  "al_hazem_directory_added": false,
   "al_hazem_stats_added": 1,
   "status": "committed"
 }
