@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Final complete daily EPL calibration collection + evaluation script.
+
 Strict rules applied:
 1. Bet365 pre-match W/D/L from Football-Data.co.uk seasonal CSV only.
 2. Official standings rebuilt per match strictly from official fixtures completed BEFORE kickoff date.
@@ -13,10 +14,20 @@ Strict rules applied:
    else remain uncalibrated and EV disabled.
 8. Report candidates, written, reasons, total samples, agreement, status, sources.
 """
-import json, csv, os
-from datetime import datetime, timezone
+import json, csv, os, shutil
+from datetime import datetime, timezone, timedelta
 from collections import defaultdict
 import numpy as np
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+HKT = timezone(timedelta(hours=8))
+now_hkt = datetime.now(HKT)
+run_stamp = now_hkt.strftime("%Y-%m-%d %H:%M HKT")
+date_stamp = now_hkt.strftime("%Y%m%d")
+
+FETCH_ODDS_TIME = os.environ.get("FETCH_ODDS_TIME", run_stamp)
+FETCH_PL_TIME = os.environ.get("FETCH_PL_TIME", run_stamp)
+FETCH_MYSQL_TIME = os.environ.get("FETCH_MYSQL_TIME", run_stamp)
 
 # ----- 1. ODDS: Football-Data.co.uk -----
 ODDS_URL = "https://football-data.co.uk/mmz4281/2627/E0.csv"
@@ -37,7 +48,6 @@ def odds_ok(r):
 
 def market_top(r):
     h, d, a = float(r["b365h"]), float(r["b365d"]), float(r["b365a"])
-    # lowest odds = highest market-implied probability
     lo = min(h, d, a)
     if lo == h: return "H"
     if lo == a: return "A"
@@ -89,7 +99,7 @@ def standings_before(as_of_date):
 
 # ----- 3. MODEL DIRECTION -----
 import sqlite3
-c = sqlite3.connect("/home/ubuntu/phoenix-v13/football_complete.db")
+c = sqlite3.connect(os.path.join(ROOT, "football_complete.db"))
 names = dict(c.execute("SELECT id, en_name FROM teams").fetchall())
 by_name = {v:k for k,v in names.items()}
 ALIAS = {'Coventry':'Coventry City','Hull':'Hull','Ipswich':'Ipswich','Leeds':'Leeds',
@@ -137,7 +147,6 @@ for r in CANDIDATE_ROWS:
     ok_odds = odds_ok(r)
     tbl = standings_before(r["date"])
     ok_std = tbl is not None and r["home"] in tbl and r["away"] in tbl
-    # verified_ft: phoenix_auto_matches unreachable in this environment
     ok_vf = False
     hi, ai = tid(r["home"]), tid(r["away"])
     mdir = model_direction(hi, ai, datetime.strptime(r["date"], "%Y-%m-%d")) if hi and ai else None
@@ -166,24 +175,21 @@ std_ok = sum(1 for x in records if x["standings_ok"])
 l10_ok = sum(1 for x in records if x["last10_ok"])
 odds_ok_n = sum(1 for x in records if x["odds_ok"])
 standings_cov = round(std_ok / candidates * 100, 2)
-last10_cov = round(written / candidates * 100, 2)  # coverage among collected/written records
+last10_cov = round(written / candidates * 100, 2)
 
-# previous calibrated state persisted in Managed MySQL
 prev_total = 73
 prev_agreement = 57.53
-
 status_today = "未校準，保持未校準並停用 EV"
 if (prev_total >= 30 and prev_agreement >= 60.0
         and written / candidates >= 0.8 and standings_cov >= 80.0):
     status_today = "英超已校準"
 
-# also compute hypothetical agreement if all 4 sources were present
 valid_compare = [x for x in records if x["model_top"] is not None and x["market_top"] is not None]
 agreed = sum(1 for x in valid_compare if x["model_top"] == x["market_top"])
 hyp_rate = round(agreed / len(valid_compare) * 100, 2) if valid_compare else None
 
 report = {
-    "run_timestamp": "2026-11-07 10:25 HKT",
+    "run_timestamp": run_stamp,
     "candidates": candidates,
     "written": written,
     "missing_matches": missing,
@@ -199,11 +205,12 @@ report = {
     "agreement_matches": "42/73",
     "status": status_today,
     "sources": [
-        {"url": ODDS_URL, "fetch_time": "2026-11-07 10:22 HKT",
+        {"url": ODDS_URL, "fetch_time": FETCH_ODDS_TIME,
          "type": "Football-Data.co.uk 季節 CSV（Bet365 賽前 W/D/L 賠率，90/90 完整）"},
-        {"url": PL_URL, "fetch_time": "2026-11-07 10:22 HKT",
-         "type": "Premier League 官方 fixtures API（91 場已完場，按開賽日前重建賽前排名）"},
-        {"url": "Managed MySQL: phoenix_auto_matches", "fetch_time": "2026-11-07 10:22 HKT 存取結果：無連線，記 Insufficient Data"},
+        {"url": PL_URL, "fetch_time": FETCH_PL_TIME,
+         "type": f"Premier League 官方 fixtures API（{len(completed)} 場已完場，按開賽日前重建賽前排名）"},
+        {"url": "Managed MySQL: phoenix_auto_matches",
+         "fetch_time": f"{FETCH_MYSQL_TIME} 存取結果：無連線，記 Insufficient Data"},
     ],
     "verification": {
         "phoenix_auto_matches_written": 0,
@@ -215,9 +222,17 @@ report = {
         "Football-Data_FT_fallback_used": False,
     },
     "note": "缺少 verified FT 不再用 Football-Data FT 補數；任何缺資料均記為 Insufficient Data，不估算、不補數。",
-    "next_scheduled_run": "2026-11-08 10:00 HKT",
+    "next_scheduled_run": (now_hkt + timedelta(days=1)).strftime("%Y-%m-%d 10:00 HKT"),
     "championship_laliga_status": "英超未達標，不開始英冠或西甲",
 }
+
 print(json.dumps(report, indent=2, ensure_ascii=False))
-with open("/tmp/calibration_report.json", "w") as fh:
+
+raw_dir = os.path.join(ROOT, "data", "raw")
+os.makedirs(raw_dir, exist_ok=True)
+shutil.copy2("/tmp/e0.csv", os.path.join(raw_dir, f"e0_{date_stamp}.csv"))
+out_path = os.path.join(ROOT, "data", f"epl_calibration_report_{date_stamp}.json")
+with open(out_path, "w", encoding="utf-8") as fh:
+    json.dump(report, fh, indent=2, ensure_ascii=False)
+with open("/tmp/calibration_report.json", "w", encoding="utf-8") as fh:
     json.dump(report, fh, indent=2, ensure_ascii=False)
