@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08T02:11:55.319990+00:00",
+  "updated_at": "2026-11-09T02:12:09.859584+00:00",
   "rule": "只追蹤真實來源缺口；不以估算、賠率或聯賽平均冒充FT/球員/教練",
   "league_count": 37,
   "leagues": [
@@ -11,7 +11,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 366,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:08+00:00"
     },
     {
       "league": "a-league-women",
@@ -21,7 +21,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 257,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:08+00:00"
     },
     {
       "league": "afc-champions-league-elite",
@@ -132,7 +132,7 @@
       "missing_ft_team_count": 252,
       "player_roster_rows": 1371,
       "coach_roster_rows": 52,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:08+00:00"
     },
     {
       "league": "argentina-primera",
@@ -142,7 +142,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 1118,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "australia-cup",
@@ -152,7 +152,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "australian-championship",
@@ -162,7 +162,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "austrian-bundesliga",
@@ -172,30 +172,26 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 423,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "bundesliga",
       "directory_teams": 23,
-      "ft_teams_seen": 29,
+      "ft_teams_seen": 33,
       "missing_ft_teams": [
         "1. FC Heidenheim 1846",
-        "1. FC Union Berlin",
-        "Bayer Leverkusen",
-        "FC Cologne",
+        "Borussia Mönchengladbach",
+        "Hamburg SV",
         "Hertha Berlin",
-        "SC Freiburg",
         "SV Darmstadt 98",
-        "Schalke 04",
         "St. Pauli",
-        "TSG Hoffenheim",
         "VfL Bochum",
         "VfL Wolfsburg"
       ],
-      "missing_ft_team_count": 12,
+      "missing_ft_team_count": 8,
       "player_roster_rows": 693,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "bundesliga2",
@@ -230,7 +226,7 @@
       "missing_ft_team_count": 24,
       "player_roster_rows": 842,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "championship",
@@ -266,7 +262,7 @@
       "missing_ft_team_count": 25,
       "player_roster_rows": 1099,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "danish-superliga",
@@ -276,7 +272,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 447,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "eerste",
@@ -286,7 +282,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 887,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "eliteserien",
@@ -296,26 +292,22 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 620,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "epl",
       "directory_teams": 25,
-      "ft_teams_seen": 32,
+      "ft_teams_seen": 35,
       "missing_ft_teams": [
-        "AFC Bournemouth",
-        "Brighton & Hove Albion",
-        "Ipswich Town",
         "Leicester City",
         "Luton Town",
-        "Manchester United",
         "West Ham United",
         "Wolverhampton Wanderers"
       ],
-      "missing_ft_team_count": 8,
+      "missing_ft_team_count": 4,
       "player_roster_rows": 770,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "eredivisie",
@@ -339,7 +331,7 @@
       "missing_ft_team_count": 13,
       "player_roster_rows": 736,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "expansion-mx",
@@ -349,7 +341,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 453,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "j1",
@@ -359,7 +351,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 851,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "j2",
@@ -369,7 +361,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "k1",
@@ -379,7 +371,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "k2",
@@ -389,28 +381,24 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "laliga",
       "directory_teams": 26,
-      "ft_teams_seen": 32,
+      "ft_teams_seen": 36,
       "missing_ft_teams": [
+        "Alavés",
         "Almería",
-        "Atlético Madrid",
-        "Celta Vigo",
         "Cádiz",
         "Leganés",
-        "Rayo Vallecano",
-        "Real Betis",
         "Real Oviedo",
-        "Real Sociedad",
         "Real Valladolid"
       ],
-      "missing_ft_team_count": 10,
+      "missing_ft_team_count": 6,
       "player_roster_rows": 838,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "laliga2",
@@ -444,7 +432,7 @@
       "missing_ft_team_count": 23,
       "player_roster_rows": 1100,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "league-two",
@@ -457,7 +445,7 @@
       "missing_ft_team_count": 2,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "libertadores-femenina",
@@ -467,17 +455,17 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "liga-mx",
       "directory_teams": 18,
-      "ft_teams_seen": 19,
+      "ft_teams_seen": 18,
       "missing_ft_teams": [],
       "missing_ft_team_count": 0,
       "player_roster_rows": 586,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:54+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "ligue2",
@@ -505,7 +493,7 @@
       "missing_ft_team_count": 17,
       "player_roster_rows": 1089,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "qatar-stars",
@@ -515,7 +503,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "russian-prem",
@@ -525,7 +513,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 574,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "saudi-pro",
@@ -539,7 +527,7 @@
       "missing_ft_team_count": 3,
       "player_roster_rows": 55,
       "coach_roster_rows": 2,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "scottish-prem",
@@ -551,17 +539,17 @@
       "missing_ft_team_count": 1,
       "player_roster_rows": 420,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "serie-a",
       "directory_teams": 27,
-      "ft_teams_seen": 37,
+      "ft_teams_seen": 45,
       "missing_ft_teams": [],
       "missing_ft_team_count": 0,
       "player_roster_rows": 1248,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "serie-b",
@@ -571,7 +559,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 1535,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "thai-league1",
@@ -581,7 +569,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "toppserien",
@@ -591,7 +579,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "uae-pro",
@@ -601,7 +589,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "uruguay-primera",
@@ -611,7 +599,7 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 583,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     },
     {
       "league": "veikkausliiga",
@@ -621,8 +609,8 @@
       "missing_ft_team_count": 0,
       "player_roster_rows": 0,
       "coach_roster_rows": 0,
-      "last_checked": "2026-11-08T02:11:55+00:00"
+      "last_checked": "2026-11-09T02:12:09+00:00"
     }
   ],
-  "history_runs": 4
+  "history_runs": 6
 }
