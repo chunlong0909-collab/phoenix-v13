@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-09T02:12:10.958836+00:00",
+  "run_at": "2026-11-09T02:45:29.372489+00:00",
   "commit": true,
   "config": {
     "leagues": [
@@ -45,7 +45,7 @@
     "notify": "whatsapp"
   },
   "official_metadata": {
-    "checked_at": "2026-11-09T02:10:36.051851+00:00",
+    "checked_at": "2026-11-09T02:45:17.659921+00:00",
     "leagues": {
       "saudi-pro": {
         "provider": "Saudi Pro League official",
@@ -63,7 +63,7 @@
             "http_status": 200,
             "player_link_count": 28,
             "coach_field_found": true,
-            "content_sha256": "ecc919b0361f58238362e0be1a2539a3995352ee3604e43253f7c9d6b3dc09e9",
+            "content_sha256": "ac7d8c1a8bd0d707d52f414bea2d85a6d047a26c81ca72c416bdf7306b231d2e",
             "source_url": "https://www.spl.com.sa/en/teams/neom/squad"
           }
         },
@@ -154,7 +154,7 @@
   "coverage": {
     "league_count": 37,
     "leagues_with_gaps": 12,
-    "tracker": "/tmp/phoenix-v13/data/coverage_gap_tracker.json"
+    "tracker": "/home/runner/work/phoenix-v13/phoenix-v13/data/coverage_gap_tracker.json"
   },
   "local_sources": [
     {
