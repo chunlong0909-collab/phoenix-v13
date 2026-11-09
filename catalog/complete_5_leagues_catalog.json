@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-08T01:48:49.043301+00:00",
+    "updated_at": "2026-11-09T01:52:24.126908+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-08T04:07:09.364717+00:00",
+    "updated_at": "2026-11-09T04:09:50.597127+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
