@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-09T19:36:17.108861+00:00",
+    "updated_at": "2026-11-10T01:44:14.765635+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -14867,7 +14867,7 @@
             "player_id": "124501",
             "name": "Oliver Sonne",
             "pos": "Defence",
-            "age": 25,
+            "age": 26,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -15685,7 +15685,7 @@
             "player_id": "7974",
             "name": "Daniel James",
             "pos": "Offence",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
