@@ -57,7 +57,7 @@
 3707,FC Emmen,237884,Oussama Darfalou,F,1993-09-29T07:00Z,,ESPN roster,2025
 3707,FC Emmen,266012,Metehan Guclu,F,1999-04-02T08:00Z,,ESPN roster,2025
 3707,FC Emmen,304811,Ben Scholte,M,2001-08-10T07:00Z,,ESPN roster,2025
-3707,FC Emmen,310925,Jeremy Antonisse,F,2002-03-29T08:00Z,,ESPN roster,2025
+3707,FC Emmen,310925,Jeremy Antonisse,M,2002-03-29T08:00Z,,ESPN roster,2025
 3707,FC Emmen,319376,Jasin-Amin Assehnoun,F,1998-12-26T08:00Z,,ESPN roster,2025
 3707,FC Emmen,324448,Rui Mendes,F,1999-11-10T08:00Z,,ESPN roster,2025
 3707,FC Emmen,356222,Floris Quaedvlieg,M,2003-03-11T08:00Z,,ESPN roster,2025
@@ -314,7 +314,7 @@
 153,FC Utrecht,406251,Viggo Plantinga,D,2007-05-18T07:00Z,,ESPN roster,2025
 153,FC Utrecht,408701,Ferdinand Pohl,D,2007-02-02T08:00Z,,ESPN roster,2025
 153,FC Utrecht,159252,Joris van Overeem,M,1994-06-01T07:00Z,,ESPN roster,2025
-153,FC Utrecht,183529,Kevin Paredes,F,2007-06-05T07:00Z,,ESPN roster,2025
+153,FC Utrecht,183529,Kevin Paredes,M,2003-05-07T07:00Z,,ESPN roster,2025
 153,FC Utrecht,250528,Dani de Wit,M,1998-01-28T08:00Z,,ESPN roster,2025
 153,FC Utrecht,263618,Victor Jensen,M,2000-02-08T08:00Z,,ESPN roster,2025
 153,FC Utrecht,291665,Davy van den Berg,M,2000-02-04T08:00Z,,ESPN roster,2025
@@ -431,6 +431,7 @@
 3736,SC Cambuur,298565,Thijs Jansen,G,2001-11-29T08:00Z,,ESPN roster,2025
 3736,SC Cambuur,343579,Jasper Meijster,G,2005-01-03T08:00Z,,ESPN roster,2025
 3736,SC Cambuur,406925,Matthijs Kalisvaart,G,2006-06-06T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,5326673,Tjalling Van Keimpema,G,,,ESPN roster,2025
 3736,SC Cambuur,292770,Rik Mulders,D,2000-08-06T07:00Z,,ESPN roster,2025
 3736,SC Cambuur,306047,Jamal Amofa,D,1998-11-25T08:00Z,,ESPN roster,2025
 3736,SC Cambuur,306401,Jorn Berkhout,D,2002-03-18T08:00Z,,ESPN roster,2025
@@ -438,7 +439,9 @@
 3736,SC Cambuur,364402,Ismaël Baouf,D,2006-09-17T07:00Z,,ESPN roster,2025
 3736,SC Cambuur,386842,Lucas Jetten,D,2007-06-07T07:00Z,,ESPN roster,2025
 3736,SC Cambuur,394751,Morgan Costarelli,D,2005-04-28T07:00Z,,ESPN roster,2025
+3736,SC Cambuur,397118,Amar Bakkati,D,2007-09-14T07:00Z,,ESPN roster,2025
 3736,SC Cambuur,406926,Buddy Vogelzang,D,2005-11-23T08:00Z,,ESPN roster,2025
+3736,SC Cambuur,5326674,Reen Zandstra,D,,,ESPN roster,2025
 3736,SC Cambuur,214655,Mathieu Maertens,M,1995-03-27T08:00Z,,ESPN roster,2025
 3736,SC Cambuur,259186,Nicky Souren,M,1999-12-18T08:00Z,,ESPN roster,2025
 3736,SC Cambuur,270887,Devid Eugene Bouah,M,2001-08-13T07:00Z,,ESPN roster,2025
@@ -449,6 +452,8 @@
 3736,SC Cambuur,416657,Ethan Apkakou,M,2006-10-15T07:00Z,,ESPN roster,2025
 3736,SC Cambuur,421840,Wessel Van Der Goot,M,2008-04-29T07:00Z,,ESPN roster,2025
 3736,SC Cambuur,3124020,Damian Westerhof,M,,,ESPN roster,2025
+3736,SC Cambuur,5326675,Louka Vanderbruggen,M,,,ESPN roster,2025
+3736,SC Cambuur,5326676,Kick Eerhart,M,,,ESPN roster,2025
 3736,SC Cambuur,290512,Jason Ceka,F,1999-11-10T08:00Z,,ESPN roster,2025
 3736,SC Cambuur,323989,Ilyes Hamache,F,2003-02-11T08:00Z,,ESPN roster,2025
 3736,SC Cambuur,338919,Nicolas Binder,F,2002-01-13T08:00Z,,ESPN roster,2025
@@ -542,7 +547,6 @@
 145,FC Groningen,355957,Tygo Land,M,2006-01-11T08:00Z,,ESPN roster,2025
 145,FC Groningen,385716,David Van Der Werff,M,2004-08-31T07:00Z,,ESPN roster,2025
 145,FC Groningen,408836,Jismerai Dillema,M,2007-02-14T08:00Z,,ESPN roster,2025
-145,FC Groningen,408839,Yénio Holder,M,2007-07-02T07:00Z,,ESPN roster,2025
 145,FC Groningen,3104481,Alvin Vilhelm Valdemar Nordin,M,,,ESPN roster,2025
 145,FC Groningen,3125021,Jahelille Hall,M,,,ESPN roster,2025
 145,FC Groningen,206463,Oskar Zawada,F,1996-02-01T08:00Z,,ESPN roster,2025
@@ -550,7 +554,6 @@
 145,FC Groningen,303648,Jacob Ondrejka,F,2002-09-02T07:00Z,,ESPN roster,2025
 145,FC Groningen,351290,Thom Van Bergen,F,2004-01-06T08:00Z,,ESPN roster,2025
 145,FC Groningen,378250,Nils Eggens,F,2005-04-08T07:00Z,,ESPN roster,2025
-145,FC Groningen,408838,Mark Hoekstra,F,2006-02-10T08:00Z,,ESPN roster,2025
 145,FC Groningen,417934,Ryan Metu,F,2008-08-28T07:00Z,,ESPN roster,2025
 3708,Heracles Almelo,83802,Remko Pasveer,G,1983-11-08T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,255662,Fabian De Keijzer,G,2000-05-10T07:00Z,,ESPN roster,2025
@@ -599,6 +602,7 @@
 2565,PEC Zwolle,379188,Dylan Ruward,D,2005-01-21T08:00Z,,ESPN roster,2025
 2565,PEC Zwolle,403548,Jan Bürger,D,2007-03-10T08:00Z,,ESPN roster,2025
 2565,PEC Zwolle,3131926,Milan Westerhuis,D,,,ESPN roster,2025
+2565,PEC Zwolle,5326838,Torben Bos,D,,,ESPN roster,2025
 2565,PEC Zwolle,156146,Ryan Thomas,M,1994-12-20T08:00Z,,ESPN roster,2025
 2565,PEC Zwolle,239353,Odysseus Velanas,M,1998-06-05T07:00Z,,ESPN roster,2025
 2565,PEC Zwolle,272329,Thijs Oosting,M,2000-05-02T07:00Z,,ESPN roster,2025
@@ -717,7 +721,6 @@
 3735,Telstar,200158,Jeff Hardeveld,D,1995-02-27T08:00Z,,ESPN roster,2025
 3735,Telstar,281027,Nigel Ogidi Nwankwo,D,1998-08-04T07:00Z,,ESPN roster,2025
 3735,Telstar,301585,Gabi Caschili,D,2003-07-14T07:00Z,,ESPN roster,2025
-3735,Telstar,306553,Ar'jany Martha,D,2003-09-04T07:00Z,,ESPN roster,2025
 3735,Telstar,319369,Sem Valk,D,2002-02-16T08:00Z,,ESPN roster,2025
 3735,Telstar,356706,Abdelnour Soualhia,D,2001-06-27T07:00Z,,ESPN roster,2025
 3735,Telstar,368817,Gerald Alders,D,2005-05-07T07:00Z,,ESPN roster,2025
@@ -729,6 +732,7 @@
 3735,Telstar,388723,Isaiah Ahmed,M,2005-12-28T08:00Z,,ESPN roster,2025
 3735,Telstar,411548,Noach Shenkman,M,2006-10-02T07:00Z,,ESPN roster,2025
 3735,Telstar,306445,Patrick Brouwer,F,2001-03-19T08:00Z,,ESPN roster,2025
+3735,Telstar,306553,Ar'jany Martha,F,2003-09-04T07:00Z,,ESPN roster,2025
 3735,Telstar,324448,Rui Mendes,F,1999-11-10T08:00Z,,ESPN roster,2025
 3735,Telstar,352177,Emirhan Demircan,F,2005-01-20T08:00Z,,ESPN roster,2025
 3735,Telstar,356979,Nökkvi Thórisson,F,1999-08-13T07:00Z,,ESPN roster,2025

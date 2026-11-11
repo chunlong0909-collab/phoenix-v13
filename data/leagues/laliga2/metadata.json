@@ -1,10 +1,10 @@
 {
   "league_id": "laliga2",
   "name_zh": "西乙",
-  "updated_at": "2026-10-27T04:38:56.099495+00:00",
+  "updated_at": "2026-11-11T21:24:58.734986+00:00",
   "fixtures": 1386,
   "teams": 37,
-  "players": 1100,
+  "players": 1111,
   "corner_fixtures": 1386,
   "sources": [
     "football-data.co.uk"

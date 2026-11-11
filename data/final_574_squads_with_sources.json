@@ -569,7 +569,13 @@
       }
     ],
     "player_count": 34,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-02": {
     "team": "Bayer Leverkusen (Ger)",
@@ -962,7 +968,13 @@
       }
     ],
     "player_count": 23,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-03": {
     "team": "Eintracht Frankfurt (Ger)",
@@ -1469,7 +1481,13 @@
       }
     ],
     "player_count": 30,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-04": {
     "team": "Freiburg (Ger)",
@@ -1847,7 +1865,13 @@
       }
     ],
     "player_count": 22,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-05": {
     "team": "Heidenheim (Ger)",
@@ -2368,7 +2392,13 @@
       }
     ],
     "player_count": 31,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-06": {
     "team": "Mainz 05 (Ger)",
@@ -2843,7 +2873,13 @@
       }
     ],
     "player_count": 28,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-07": {
     "team": "RB Leipzig (Ger)",
@@ -3220,7 +3256,13 @@
       }
     ],
     "player_count": 22,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-08": {
     "team": "Wolfsburg (Ger)",
@@ -3537,6 +3579,12 @@
       }
     ],
     "player_count": 17,
-    "directory_only": false
+    "directory_only": false,
+    "lat": 51.1657,
+    "lon": 10.4515,
+    "city": "Germany",
+    "stadium": "國家中心fallback（非球場）",
+    "coordinates_source": "country_center",
+    "stadium_source": "country_center"
   }
 }

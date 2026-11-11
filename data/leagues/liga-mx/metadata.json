@@ -1,10 +1,10 @@
 {
   "league_id": "liga-mx",
   "name_zh": "墨超",
-  "updated_at": "2026-10-27T04:43:49.628560+00:00",
+  "updated_at": "2026-11-11T21:29:49.218342+00:00",
   "fixtures": 1021,
   "teams": 18,
-  "players": 586,
+  "players": 588,
   "corner_fixtures": 0,
   "sources": [
     "ESPN scoreboard"

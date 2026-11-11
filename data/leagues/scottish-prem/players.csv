@@ -50,7 +50,6 @@
 256,Celtic,384374,Joel Van Den Berg,M,2007-02-11T08:00Z,,ESPN roster,2025
 256,Celtic,387202,Sean Mcardle,M,2007-08-27T07:00Z,,ESPN roster,2025
 256,Celtic,408331,Joseph Haney,M,2009-06-25T07:00Z,,ESPN roster,2025
-256,Celtic,410415,Lucas Clearie,M,,,ESPN roster,2025
 256,Celtic,418762,Liam Kennedy,M,,,ESPN roster,2025
 256,Celtic,258915,Jota,F,1999-03-30T08:00Z,,ESPN roster,2025
 256,Celtic,272624,Kasper Høgh,F,2000-12-06T08:00Z,,ESPN roster,2025
@@ -61,11 +60,12 @@
 256,Celtic,365343,Callum Osmand,F,2005-11-08T08:00Z,,ESPN roster,2025
 256,Celtic,367591,Camilo Durán,F,2002-02-10T08:00Z,,ESPN roster,2025
 256,Celtic,372013,Shim Mheuka,F,2007-10-20T07:00Z,,ESPN roster,2025
+256,Celtic,410415,Lucas Clearie,F,,,ESPN roster,2025
 263,Aberdeen,172005,Marius Müller,G,1993-07-12T07:00Z,,ESPN roster,2025
 263,Aberdeen,321060,Daniel Klein,G,2001-03-13T08:00Z,,ESPN roster,2025
 263,Aberdeen,147108,Nicky Devlin,D,1993-10-17T07:00Z,,ESPN roster,2025
 263,Aberdeen,191442,Christopher Cadden,D,1996-09-19T07:00Z,,ESPN roster,2025
-263,Aberdeen,221950,Emmanuel Gyamfi,M,1994-12-16T08:00Z,,ESPN roster,2025
+263,Aberdeen,221950,Emmanuel Gyamfi,D,2004-07-23T07:00Z,,ESPN roster,2025
 263,Aberdeen,239322,Lewis Mayo,D,2000-03-19T08:00Z,,ESPN roster,2025
 263,Aberdeen,253749,Daniel Happe,D,1998-09-28T07:00Z,,ESPN roster,2025
 263,Aberdeen,274560,Kristers Tobers,D,2000-12-13T08:00Z,,ESPN roster,2025
@@ -91,7 +91,7 @@
 263,Aberdeen,408153,Ayoub Mouloua,F,2002-05-20T07:00Z,,ESPN roster,2025
 263,Aberdeen,3110061,Andrew Fasanya,F,,,ESPN roster,2025
 251,Ross County,144085,Ross Laidlaw,G,1992-07-12T07:00Z,,ESPN roster,2025
-251,Ross County,297705,Ross Logan,M,2001-12-13T08:00Z,,ESPN roster,2025
+251,Ross County,297705,Logan Ross,G,2004-05-12T07:00Z,,ESPN roster,2025
 251,Ross County,303894,Jayden Reid,D,2001-08-29T07:00Z,,ESPN roster,2025
 251,Ross County,346553,Jordan Amissah,G,2001-08-02T07:00Z,,ESPN roster,2025
 251,Ross County,198188,Will Nightingale,D,1995-08-02T07:00Z,,ESPN roster,2025
@@ -194,7 +194,6 @@
 260,Kilmarnock,312604,Johnly Levi Yfeko,D,2003-06-23T07:00Z,,ESPN roster,2025
 260,Kilmarnock,326607,Michael Schjonning-Larsen,D,2001-02-02T08:00Z,,ESPN roster,2025
 260,Kilmarnock,350932,Ruairi Ellis,D,2006-08-29T07:00Z,,ESPN roster,2025
-260,Kilmarnock,366585,Euan Bowie,D,2007-07-01T07:00Z,,ESPN roster,2025
 260,Kilmarnock,390977,Mj Kamara,D,2006-02-14T08:00Z,,ESPN roster,2025
 260,Kilmarnock,406350,Cathal McCarthy,D,2006-08-31T07:00Z,,ESPN roster,2025
 260,Kilmarnock,156232,Rory McKenzie,M,1993-10-07T07:00Z,,ESPN roster,2025
@@ -274,9 +273,9 @@
 259,Livingston,347283,Sam Culbert,F,2006-05-04T07:00Z,,ESPN roster,2025
 266,Motherwell,291429,Matty Connolly,G,2003-03-02T08:00Z,,ESPN roster,2025
 266,Motherwell,297800,Alex Paulsen,G,2002-07-04T07:00Z,,ESPN roster,2025
-266,Motherwell,347925,Jack Mcconnell,G,2004-02-11T08:00Z,,ESPN roster,2025
+266,Motherwell,347925,Jack Mcconnell,G,2008-06-20T07:00Z,,ESPN roster,2025
 266,Motherwell,126345,Paul McGinn,D,1990-10-22T07:00Z,,ESPN roster,2025
-266,Motherwell,139655,Dylan Williams,M,2007-11-28T08:00Z,,ESPN roster,2025
+266,Motherwell,139655,Dylan Williams,D,2003-09-13T07:00Z,,ESPN roster,2025
 266,Motherwell,186166,Jordan McGhee,D,1996-07-24T07:00Z,,ESPN roster,2025
 266,Motherwell,197372,Stephen O'Donnell,D,1992-05-11T07:00Z,,ESPN roster,2025
 266,Motherwell,240956,Johnny Koutroumbis,D,1998-03-06T08:00Z,,ESPN roster,2025
@@ -308,8 +307,9 @@
 266,Motherwell,3103163,Willy Gabriel Vogt Veigantes,F,,,ESPN roster,2025
 267,St Johnstone,240727,Ross Sinclair,G,2001-05-07T07:00Z,,ESPN roster,2025
 267,St Johnstone,256417,Kyle Thomson,G,2007-01-04T08:00Z,,ESPN roster,2025
+267,St Johnstone,324855,Craig Hepburn,G,2004-11-20T08:00Z,,ESPN roster,2025
 267,St Johnstone,327188,Toby Steward,G,2005-02-12T08:00Z,,ESPN roster,2025
-267,St Johnstone,41258,Liam Smith,D,2000-02-08T08:00Z,,ESPN roster,2025
+267,St Johnstone,41258,Liam Smith,F,2003-10-28T08:00Z,,ESPN roster,2025
 267,St Johnstone,74694,Cheick Diabaté,D,2004-01-01T08:00Z,,ESPN roster,2025
 267,St Johnstone,224271,Matty Foulds,D,1998-02-01T08:00Z,,ESPN roster,2025
 267,St Johnstone,261513,Daniel Finlayson,D,2001-01-19T08:00Z,,ESPN roster,2025
@@ -317,6 +317,7 @@
 267,St Johnstone,291644,Morgan Boyes,D,2001-04-22T07:00Z,,ESPN roster,2025
 267,St Johnstone,321973,Enes Alic,D,1999-09-03T07:00Z,,ESPN roster,2025
 267,St Johnstone,353599,Zach Mitchell,D,2005-01-09T08:00Z,,ESPN roster,2025
+267,St Johnstone,388330,Arran Brookfield,D,,,ESPN roster,2025
 267,St Johnstone,158139,Jason Holt,M,1993-02-19T08:00Z,,ESPN roster,2025
 267,St Johnstone,169557,Samuel Stanton,M,1994-04-19T07:00Z,,ESPN roster,2025
 267,St Johnstone,230018,Matthew Todd,M,2001-06-14T07:00Z,,ESPN roster,2025
@@ -369,6 +370,7 @@
 261,Dundee,337023,Matai Akinmboni,D,2006-10-17T07:00Z,,ESPN roster,2025
 261,Dundee,348298,Owen Bevan,D,2003-10-26T07:00Z,,ESPN roster,2025
 261,Dundee,408829,Charley Oosenbrugh,D,,,ESPN roster,2025
+261,Dundee,408830,Cole Perrie,D,,,ESPN roster,2025
 261,Dundee,175005,Drey Wright,M,1995-04-30T07:00Z,,ESPN roster,2025
 261,Dundee,192641,Callum Jones,M,2001-04-05T07:00Z,,ESPN roster,2025
 261,Dundee,271166,Ethan Hamilton,M,1998-10-18T07:00Z,,ESPN roster,2025
@@ -377,7 +379,6 @@
 261,Dundee,342852,Zan Besir,M,2000-10-17T07:00Z,,ESPN roster,2025
 261,Dundee,352390,Joe Bevan,M,2004-07-15T07:00Z,,ESPN roster,2025
 261,Dundee,365335,Alfie Harrison,M,2005-11-28T08:00Z,,ESPN roster,2025
-261,Dundee,369884,Jack Moorhouse,M,2005-11-29T08:00Z,,ESPN roster,2025
 261,Dundee,408834,Ryan Bland,M,,,ESPN roster,2025
 261,Dundee,412282,Rory Hughes,M,,,ESPN roster,2025
 261,Dundee,155542,Simon Murray,F,1992-03-15T08:00Z,,ESPN roster,2025
@@ -394,7 +395,7 @@
 254,Falkirk,168217,Coll Donaldson,D,1995-04-09T07:00Z,,ESPN roster,2025
 254,Falkirk,186054,Scott Tanser,D,1994-10-23T07:00Z,,ESPN roster,2025
 254,Falkirk,215154,Jack Mcmillan,M,1997-12-18T08:00Z,,ESPN roster,2025
-254,Falkirk,248437,Ryan Strain,D,1997-04-02T08:00Z,,ESPN roster,2025
+254,Falkirk,248437,Ryan Strain,F,2000-02-12T08:00Z,,ESPN roster,2025
 254,Falkirk,261457,Leon Mccann,D,2000-03-16T08:00Z,,ESPN roster,2025
 254,Falkirk,302077,Lewis Neilson,D,2003-05-15T07:00Z,,ESPN roster,2025
 254,Falkirk,322991,Connor Allan,D,2004-01-10T08:00Z,,ESPN roster,2025

@@ -1,9 +1,10 @@
 ﻿team_id,team_name,player_id,player_name,position,date_born,nationality,source,season
 3746,SK Sturm Graz,305677,Ammar Helac,G,1998-06-13T07:00Z,,ESPN roster,2025
 3746,SK Sturm Graz,318018,Danill Khudiakov,G,2004-01-09T08:00Z,,ESPN roster,2025
+3746,SK Sturm Graz,329479,Adam Stejskal,G,2002-03-28T08:00Z,,ESPN roster,2025
 3746,SK Sturm Graz,366512,Elias Lorenz,G,2006-03-27T08:00Z,,ESPN roster,2025
 3746,SK Sturm Graz,377693,Christoph Wiener-Pucher,G,2006-10-08T07:00Z,,ESPN roster,2025
-3746,SK Sturm Graz,187877,Petar Petrović,D,1995-09-15T07:00Z,,ESPN roster,2025
+3746,SK Sturm Graz,187877,Petar Petrovic,M,1995-09-15T07:00Z,,ESPN roster,2025
 3746,SK Sturm Graz,274923,Albert Vallci,D,1995-07-02T07:00Z,,ESPN roster,2025
 3746,SK Sturm Graz,283951,Paul-Friedrich Koller,D,2002-02-22T08:00Z,,ESPN roster,2025
 3746,SK Sturm Graz,302669,Niklas Geyrhofer,D,2000-02-11T08:00Z,,ESPN roster,2025
@@ -69,6 +70,7 @@
 2790,RB Salzburg,3102178,Teo Hupfauf,G,,,ESPN roster,2025
 2790,RB Salzburg,136597,Dominik Schmid,D,1998-03-10T08:00Z,,ESPN roster,2025
 2790,RB Salzburg,214635,Stefan Lainer,D,1992-08-27T07:00Z,,ESPN roster,2025
+2790,RB Salzburg,268019,Lassina Traoré,F,2001-01-12T08:00Z,,ESPN roster,2025
 2790,RB Salzburg,306030,Kévin Boma,D,2002-11-20T08:00Z,,ESPN roster,2025
 2790,RB Salzburg,325526,Leandro Morgalla,D,2004-09-13T07:00Z,,ESPN roster,2025
 2790,RB Salzburg,334198,Nikolas Veratschnig,D,2003-01-24T08:00Z,,ESPN roster,2025
@@ -77,7 +79,7 @@
 2790,RB Salzburg,362672,Anrie Chase,D,2004-03-24T08:00Z,,ESPN roster,2025
 2790,RB Salzburg,380916,Tim Drexler,D,2005-03-06T08:00Z,,ESPN roster,2025
 2790,RB Salzburg,388068,Valentin Zabransky,D,2007-02-02T08:00Z,,ESPN roster,2025
-2790,RB Salzburg,99685,Aboubacar Camara,M,2006-09-30T07:00Z,,ESPN roster,2025
+2790,RB Salzburg,99685,Aboubacar Camara,D,2002-01-04T08:00Z,,ESPN roster,2025
 2790,RB Salzburg,278822,Jesper Lindstrom,M,2000-02-29T08:00Z,,ESPN roster,2025
 2790,RB Salzburg,329490,Justin Omoregie,M,2003-09-21T07:00Z,,ESPN roster,2025
 2790,RB Salzburg,340683,Umut Tohumcu,M,2004-08-11T07:00Z,,ESPN roster,2025
@@ -146,6 +148,7 @@
 13294,Wolfsberger,3104202,Michael Leon Schweiger,M,,,ESPN roster,2025
 13294,Wolfsberger,134018,Markus Pink,F,1991-02-24T08:00Z,,ESPN roster,2025
 13294,Wolfsberger,250685,Giacomo Vrioni,F,1998-10-15T07:00Z,,ESPN roster,2025
+13294,Wolfsberger,272151,Jack Lahne,F,2001-10-24T07:00Z,,ESPN roster,2025
 13294,Wolfsberger,335615,Sankara Karamoko,F,2003-11-09T08:00Z,,ESPN roster,2025
 13294,Wolfsberger,364941,Phillip Verhounig,F,2006-01-05T08:00Z,,ESPN roster,2025
 13294,Wolfsberger,377737,Veljko Vukojevic,F,2006-08-22T07:00Z,,ESPN roster,2025
@@ -206,6 +209,7 @@
 4405,SC Rheindorf Altach,360958,Srdjan Hrstic,F,2003-07-18T07:00Z,,ESPN roster,2025
 4405,SC Rheindorf Altach,395793,Rodney Elongo-Yombo,F,2001-07-27T07:00Z,,ESPN roster,2025
 4405,SC Rheindorf Altach,396885,Erkin Yalcin,F,2004-06-14T07:00Z,,ESPN roster,2025
+4405,SC Rheindorf Altach,407671,Nico Helbock,F,2005-07-03T07:00Z,,ESPN roster,2025
 4405,SC Rheindorf Altach,3099556,Shingo Nakano,F,,,ESPN roster,2025
 4411,LASK Linz,224704,Tobias Schützenauer,G,1997-05-19T07:00Z,,ESPN roster,2025
 4411,LASK Linz,352661,Lukas Jungwirth,G,2004-04-30T07:00Z,,ESPN roster,2025
@@ -301,6 +305,7 @@
 1382,Austria Vienna,274924,Lukas Wedl,G,1995-10-19T07:00Z,,ESPN roster,2025
 1382,Austria Vienna,3115095,Kenan Jusić,G,,,ESPN roster,2025
 1382,Austria Vienna,142977,Aleksandar Dragovic,D,1991-03-06T08:00Z,,ESPN roster,2025
+1382,Austria Vienna,238909,Wilhelm Vorsager,D,1997-06-29T07:00Z,,ESPN roster,2025
 1382,Austria Vienna,258887,Philipp Wiesinger,D,1994-05-23T07:00Z,,ESPN roster,2025
 1382,Austria Vienna,286356,Johannes Handl,D,1998-05-07T07:00Z,,ESPN roster,2025
 1382,Austria Vienna,297270,Lee Tae-Seok,D,2002-07-28T07:00Z,,ESPN roster,2025
@@ -321,7 +326,7 @@
 1382,Austria Vienna,415456,Marijan Österreicher,M,2006-01-11T08:00Z,,ESPN roster,2025
 1382,Austria Vienna,419662,Romeo Mörth,M,2007-03-02T08:00Z,,ESPN roster,2025
 1382,Austria Vienna,225580,Johannes Eggestein,F,1998-05-08T07:00Z,,ESPN roster,2025
-1382,Austria Vienna,232681,Abdoulaye Kanté,F,2005-05-15T07:00Z,,ESPN roster,2025
+1382,Austria Vienna,232681,Abdoulaye Kanté,M,2000-03-04T08:00Z,,ESPN roster,2025
 1382,Austria Vienna,266313,Manprit Sarkaria,F,1996-08-26T07:00Z,,ESPN roster,2025
 1382,Austria Vienna,297064,Noah Botic,F,2002-01-11T08:00Z,,ESPN roster,2025
 1382,Austria Vienna,303850,Kelvin Boateng,F,2000-03-24T08:00Z,,ESPN roster,2025

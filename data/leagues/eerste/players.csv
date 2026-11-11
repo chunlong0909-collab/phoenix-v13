@@ -34,7 +34,6 @@
 18278,Jong FC Utrecht,397993,Justin Eversen,G,2006-04-18T07:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,340533,Wessel Kooy,D,2005-01-09T08:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,365391,Per Kloosterboer,D,2005-03-08T08:00Z,,ESPN roster,2025
-18278,Jong FC Utrecht,382789,Massien Ghaddari,D,2005-05-27T07:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,388684,Jamie Schuldes,D,2007-01-26T08:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,406251,Viggo Plantinga,D,2007-05-18T07:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,408701,Ferdinand Pohl,D,2007-02-02T08:00Z,,ESPN roster,2025
@@ -44,6 +43,7 @@
 18278,Jong FC Utrecht,3145033,Donovan Afrifa,D,,,ESPN roster,2025
 18278,Jong FC Utrecht,324633,Noa Dundas,M,2004-04-13T07:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,355506,Oualid Agougil,M,2005-08-07T07:00Z,,ESPN roster,2025
+18278,Jong FC Utrecht,382789,Massien Ghaddari,M,2005-05-27T07:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,399048,Jaygo Van Ommeren,M,2008-05-08T07:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,399545,Yousri Sbai,M,2004-08-08T07:00Z,,ESPN roster,2025
 18278,Jong FC Utrecht,406253,Jessey Sneijder,M,2006-09-04T07:00Z,,ESPN roster,2025
@@ -94,6 +94,7 @@
 4426,FC Dordrecht,351022,Joey De Bie,F,2004-05-14T07:00Z,,ESPN roster,2025
 4426,FC Dordrecht,393639,Siginho Gerardo,F,2006-12-14T08:00Z,,ESPN roster,2025
 4426,FC Dordrecht,3102573,Mohammed Kessrioui,F,,,ESPN roster,2025
+4426,FC Dordrecht,5326839,Ilias Azaouagh,F,,,ESPN roster,2025
 2726,ADO Den Haag,238716,Antoine Lejoly,G,1998-03-26T08:00Z,,ESPN roster,2025
 2726,ADO Den Haag,294425,Kilian Nikiema,G,2003-06-22T07:00Z,,ESPN roster,2025
 2726,ADO Den Haag,378247,Sem Eekhout,G,2006-10-24T07:00Z,,ESPN roster,2025
@@ -247,13 +248,11 @@
 3708,Heracles Almelo,361727,Stijn Bultman,D,2005-01-29T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,413666,Jeppe Wijnreder,D,2006-02-07T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,3098478,Mario Borac,D,,,ESPN roster,2025
-3708,Heracles Almelo,3098556,Max Hauswirth,D,,,ESPN roster,2025
 3708,Heracles Almelo,152154,Thomas Bruns,M,1992-01-07T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,205952,Mario Engels,M,1993-10-22T07:00Z,,ESPN roster,2025
 3708,Heracles Almelo,218627,Jeff Reine-Adélaide,M,1998-01-17T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,258975,David Tomić,D,1998-02-09T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,281266,Daniel Van Kaam,M,2000-06-23T07:00Z,,ESPN roster,2025
-3708,Heracles Almelo,306433,Walid Ould-Chikh,M,1999-11-06T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,328547,Rhys Bozinovski,M,2004-03-07T08:00Z,,ESPN roster,2025
 3708,Heracles Almelo,336728,Sem Scheperman,M,2002-06-24T07:00Z,,ESPN roster,2025
 3708,Heracles Almelo,388714,Giandro Sambo,M,2006-08-28T07:00Z,,ESPN roster,2025
@@ -267,6 +266,7 @@
 3708,Heracles Almelo,399628,Vincent Poppler,F,2001-09-01T07:00Z,,ESPN roster,2025
 3708,Heracles Almelo,413664,Sil Blokhuis,F,2008-03-18T07:00Z,,ESPN roster,2025
 3708,Heracles Almelo,419887,Tarik Hamamiogl,F,2008-08-01T07:00Z,,ESPN roster,2025
+3708,Heracles Almelo,3098556,Max Hauswirth,F,,,ESPN roster,2025
 3730,MVV Maastricht,297294,Hugo Wentges,G,2002-02-11T08:00Z,,ESPN roster,2025
 3730,MVV Maastricht,332463,Sep Van Der Heijden,G,2004-08-29T07:00Z,,ESPN roster,2025
 3730,MVV Maastricht,414500,Victor Goffings,G,2009-09-17T07:00Z,,ESPN roster,2025
@@ -290,6 +290,7 @@
 3730,MVV Maastricht,406536,Adriano Mansala,M,2007-07-31T07:00Z,,ESPN roster,2025
 3730,MVV Maastricht,413914,Noa El Hamdaoui,M,2007-10-25T07:00Z,,ESPN roster,2025
 3730,MVV Maastricht,3139469,Yanis Bourard,M,,,ESPN roster,2025
+3730,MVV Maastricht,5331857,Hamza Ammi,M,,,ESPN roster,2025
 3730,MVV Maastricht,228433,Lennerd Daneels,F,1998-04-10T07:00Z,,ESPN roster,2025
 3730,MVV Maastricht,298506,Delano Asante,F,2000-02-11T08:00Z,,ESPN roster,2025
 3730,MVV Maastricht,304500,Thijme Verheijen,F,2003-04-13T07:00Z,,ESPN roster,2025
@@ -303,6 +304,7 @@
 144,De Graafschap,349816,Rick Jonkers,G,2004-02-25T08:00Z,,ESPN roster,2025
 144,De Graafschap,362072,Paul Reverson,G,2005-06-20T07:00Z,,ESPN roster,2025
 144,De Graafschap,403268,Sam Bouwman,G,2006-12-14T08:00Z,,ESPN roster,2025
+144,De Graafschap,5327189,Kaj Altenburg,G,,,ESPN roster,2025
 144,De Graafschap,234334,Thomas Kok,D,1998-05-15T07:00Z,,ESPN roster,2025
 144,De Graafschap,283030,Mark Pabai,D,2000-09-30T07:00Z,,ESPN roster,2025
 144,De Graafschap,298573,Jason Meerstadt,D,2001-07-10T07:00Z,,ESPN roster,2025
@@ -323,11 +325,11 @@
 144,De Graafschap,388556,Tim Braem,M,2006-02-13T08:00Z,,ESPN roster,2025
 144,De Graafschap,391335,Tygo Grotenhuis,M,2005-03-24T08:00Z,,ESPN roster,2025
 144,De Graafschap,397860,Nic Hartgers,M,2004-02-21T08:00Z,,ESPN roster,2025
-144,De Graafschap,408691,Timo Jansen,M,2006-01-14T08:00Z,,ESPN roster,2025
 144,De Graafschap,409291,Nart Ahmeti,M,2006-01-05T08:00Z,,ESPN roster,2025
 144,De Graafschap,3124968,Cem Eroglu,M,,,ESPN roster,2025
 144,De Graafschap,3129560,Benjamin Mambo,M,,,ESPN roster,2025
 144,De Graafschap,3130357,Gabriele Finocchiaro,M,,,ESPN roster,2025
+144,De Graafschap,5326670,Timo Meijles,M,,,ESPN roster,2025
 144,De Graafschap,371399,Julian Kania,F,2001-10-10T07:00Z,,ESPN roster,2025
 144,De Graafschap,397074,Kyano Kwint,F,2006-09-22T07:00Z,,ESPN roster,2025
 144,De Graafschap,398858,Nathan Kaninda,F,2004-06-13T07:00Z,,ESPN roster,2025
@@ -388,6 +390,7 @@
 9983,Jong PSV,3127962,Kyano Penso,D,,,ESPN roster,2025
 9983,Jong PSV,3136864,King Duah,D,,,ESPN roster,2025
 9983,Jong PSV,3140685,Loek Schakenraad,D,,,ESPN roster,2025
+9983,Jong PSV,5327793,Emre Can Duran,D,,,ESPN roster,2025
 9983,Jong PSV,366851,Sol Sidibe,M,2007-02-10T08:00Z,,ESPN roster,2025
 9983,Jong PSV,372319,Jaden De Guzmán,M,2007-01-18T08:00Z,,ESPN roster,2025
 9983,Jong PSV,386885,Noah Fernandez,M,2008-01-09T08:00Z,,ESPN roster,2025
@@ -513,7 +516,7 @@
 3735,Telstar,297542,Tyrick Bodak,G,2002-05-15T07:00Z,,ESPN roster,2025
 3735,Telstar,399284,Finn Mulder,G,2008-02-01T08:00Z,,ESPN roster,2025
 3735,Telstar,138531,Mitch Apau,D,1990-04-27T07:00Z,,ESPN roster,2025
-3735,Telstar,181345,Danny Bakker,M,1995-01-25T08:00Z,,ESPN roster,2025
+3735,Telstar,181345,Danny Bakker,D,1995-01-16T08:00Z,,ESPN roster,2025
 3735,Telstar,200158,Jeff Hardeveld,D,1995-02-27T08:00Z,,ESPN roster,2025
 3735,Telstar,304595,Guus Offerhaus,D,2001-01-03T08:00Z,,ESPN roster,2025
 3735,Telstar,308107,Dewon Koswal,D,2003-08-21T07:00Z,,ESPN roster,2025
@@ -832,6 +835,7 @@
 2727,FC Volendam,191304,Hidde Jurjus,G,1994-02-09T08:00Z,,ESPN roster,2025
 2727,FC Volendam,306426,Dion Vlak,G,2001-06-28T07:00Z,,ESPN roster,2025
 2727,FC Volendam,356490,Roy Steur,G,2005-02-01T08:00Z,,ESPN roster,2025
+2727,FC Volendam,5326678,Lex Koning,G,,,ESPN roster,2025
 2727,FC Volendam,144339,Mawouna Amevor,D,1991-12-16T08:00Z,,ESPN roster,2025
 2727,FC Volendam,150194,Erik Schouten,D,1991-08-16T07:00Z,,ESPN roster,2025
 2727,FC Volendam,306449,Deron Payne,D,2002-09-25T07:00Z,,ESPN roster,2025
@@ -866,13 +870,13 @@
 155,RKC Waalwijk,258966,Navajo Bakboord,D,1999-01-29T08:00Z,,ESPN roster,2025
 155,RKC Waalwijk,264242,Juan Castillo,D,2000-01-13T08:00Z,,ESPN roster,2025
 155,RKC Waalwijk,283029,Liam van Gelderen,D,2001-03-23T08:00Z,,ESPN roster,2025
-155,RKC Waalwijk,291971,Azzedine Dkidak,D,2000-05-11T07:00Z,,ESPN roster,2025
 155,RKC Waalwijk,340215,Loek Postma,D,2003-03-05T08:00Z,,ESPN roster,2025
 155,RKC Waalwijk,360265,Nazjir Held,D,2005-09-02T07:00Z,,ESPN roster,2025
 155,RKC Waalwijk,363132,Faissal Al Mazyani,D,2005-01-18T08:00Z,,ESPN roster,2025
 155,RKC Waalwijk,365030,Bart Kemmeren,D,2007-04-22T07:00Z,,ESPN roster,2025
 155,RKC Waalwijk,376843,Sven Van Der Plas,D,2006-02-01T08:00Z,,ESPN roster,2025
 155,RKC Waalwijk,406260,Bjarn Zorgdrager,D,2004-04-13T07:00Z,,ESPN roster,2025
+155,RKC Waalwijk,291971,Azzedine Dkidak,M,2000-05-11T07:00Z,,ESPN roster,2025
 155,RKC Waalwijk,304907,Thijs van Leeuwen,M,2001-07-15T07:00Z,,ESPN roster,2025
 155,RKC Waalwijk,313337,Ryan Fage,M,2003-10-31T08:00Z,,ESPN roster,2025
 155,RKC Waalwijk,330212,Rein Van Hedel,M,2004-11-06T08:00Z,,ESPN roster,2025

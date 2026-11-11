@@ -66,6 +66,8 @@
 7860,Lyngby Boldklub,368359,Diego Kochen,G,2006-03-19T08:00Z,,ESPN roster,2025
 7860,Lyngby Boldklub,369200,Jon Solvi Simonarson,G,2007-05-26T07:00Z,,ESPN roster,2025
 7860,Lyngby Boldklub,229058,Oskar Buur,D,1998-03-31T08:00Z,,ESPN roster,2025
+7860,Lyngby Boldklub,258574,Nemanja Nedic,D,1995-04-06T07:00Z,,ESPN roster,2025
+7860,Lyngby Boldklub,289723,Arttu Hoskonen,D,1997-04-16T07:00Z,,ESPN roster,2025
 7860,Lyngby Boldklub,343604,Renzo Tytens,D,2005-06-23T07:00Z,,ESPN roster,2025
 7860,Lyngby Boldklub,358514,Mikkel Fischer,D,2004-03-23T08:00Z,,ESPN roster,2025
 7860,Lyngby Boldklub,359245,Munashe Garananga,D,2001-01-18T08:00Z,,ESPN roster,2025
@@ -89,6 +91,7 @@
 7860,Lyngby Boldklub,295807,Isak Thorvaldsson,F,2001-05-01T07:00Z,,ESPN roster,2025
 7860,Lyngby Boldklub,379938,Markus Anderson,F,2003-12-11T08:00Z,,ESPN roster,2025
 7860,Lyngby Boldklub,3140276,Jamil Koch El-Rrami,F,,,ESPN roster,2025
+7860,Lyngby Boldklub,5328160,Oscar Wind,F,,,ESPN roster,2025
 3101,FC Nordsjælland,145645,Andreas Hansen,G,1995-08-11T07:00Z,,ESPN roster,2025
 3101,FC Nordsjælland,170636,Jakob Busk,G,1993-09-12T07:00Z,,ESPN roster,2025
 3101,FC Nordsjælland,206030,Carljohan Eriksson,G,1995-04-25T07:00Z,,ESPN roster,2025
@@ -194,10 +197,11 @@
 607,Silkeborg IF,321357,Alexander Busch,D,2003-07-25T07:00Z,,ESPN roster,2025
 607,Silkeborg IF,332168,Mael Durand De Gevigney,D,1999-09-21T07:00Z,,ESPN roster,2025
 607,Silkeborg IF,373197,Alexander Madsen,D,2005-05-14T07:00Z,,ESPN roster,2025
+607,Silkeborg IF,422124,David Stojanovic,D,2009-12-31T08:00Z,,ESPN roster,2025
 607,Silkeborg IF,3113624,William Løkke Møller,D,,,ESPN roster,2025
-607,Silkeborg IF,274113,Mads Larsen,D,2006-04-09T07:00Z,,ESPN roster,2025
+607,Silkeborg IF,5327547,Noah Munkholm,D,,,ESPN roster,2025
+607,Silkeborg IF,274113,Mads Larsen,M,2001-09-20T07:00Z,,ESPN roster,2025
 607,Silkeborg IF,286571,Rami Al Hajj,M,2001-09-17T07:00Z,,ESPN roster,2025
-607,Silkeborg IF,321066,Younes Bakiz,M,1999-02-05T08:00Z,,ESPN roster,2025
 607,Silkeborg IF,321069,Sofus Berger Brix,M,2003-06-02T07:00Z,,ESPN roster,2025
 607,Silkeborg IF,362170,Villads Westh,M,2004-04-25T07:00Z,,ESPN roster,2025
 607,Silkeborg IF,363415,Kristian Kirkegaard,M,1997-10-02T07:00Z,,ESPN roster,2025
@@ -205,6 +209,7 @@
 607,Silkeborg IF,387652,Mads Freundlich,M,2003-03-25T08:00Z,,ESPN roster,2025
 607,Silkeborg IF,402522,Mikkel Øxenberg,M,2007-01-25T08:00Z,,ESPN roster,2025
 607,Silkeborg IF,418775,William Kirk,M,2007-01-13T08:00Z,,ESPN roster,2025
+607,Silkeborg IF,5327546,Lucas Borg,M,,,ESPN roster,2025
 607,Silkeborg IF,338004,Oliver Ross,F,2004-10-10T07:00Z,,ESPN roster,2025
 607,Silkeborg IF,422246,Malthe Hansen,F,2007-11-21T08:00Z,,ESPN roster,2025
 607,Silkeborg IF,3109433,Lucas Thorst Riisgaard,F,,,ESPN roster,2025
@@ -231,12 +236,12 @@
 909,F.C. København,262740,Magnus Mattsson,M,1999-02-25T08:00Z,,ESPN roster,2025
 909,F.C. København,332428,William Clem,M,2004-06-20T07:00Z,,ESPN roster,2025
 909,F.C. København,363213,Robert,M,2005-04-13T07:00Z,,ESPN roster,2025
-909,F.C. København,386054,Gunnar Olsen,M,2008-03-15T07:00Z,,ESPN roster,2025
 909,F.C. København,397863,Hunor Németh,M,2007-03-16T07:00Z,,ESPN roster,2025
 909,F.C. København,422327,Marvin Nasnas,M,2009-12-18T08:00Z,,ESPN roster,2025
 909,F.C. København,176668,Andreas Cornelius,F,1993-03-16T08:00Z,,ESPN roster,2025
 909,F.C. København,335450,Thapelo Maseko,F,2003-11-11T08:00Z,,ESPN roster,2025
 909,F.C. København,376476,Maher Carrizo,F,2006-02-19T08:00Z,,ESPN roster,2025
+909,F.C. København,386054,Gunnar Olsen,F,2008-03-15T07:00Z,,ESPN roster,2025
 909,F.C. København,411168,Viktor Dadason,F,2008-06-30T07:00Z,,ESPN roster,2025
 909,F.C. København,418782,Geovanni Vianney,F,2007-09-25T07:00Z,,ESPN roster,2025
 575,Brøndby IF,237966,Patrick Pentz,G,1997-01-02T08:00Z,,ESPN roster,2025
@@ -341,7 +346,7 @@
 572,FC Midtjylland,393751,Abdou Ndiaye,D,2005-11-18T08:00Z,,ESPN roster,2025
 572,FC Midtjylland,192660,Philip Billing,M,1996-06-11T07:00Z,,ESPN roster,2025
 572,FC Midtjylland,271701,Hong Hyun-Seok,M,1999-06-16T07:00Z,,ESPN roster,2025
-572,FC Midtjylland,316526,Pedro Bravo,G,2000-04-01T08:00Z,,ESPN roster,2025
+572,FC Midtjylland,316526,Pedro Bravo,D,2001-12-15T08:00Z,,ESPN roster,2025
 572,FC Midtjylland,328742,Denil Castillo,M,2004-03-24T08:00Z,,ESPN roster,2025
 572,FC Midtjylland,365788,Kjell-Arik Wätjen,M,2006-02-16T08:00Z,,ESPN roster,2025
 572,FC Midtjylland,370493,Alamara Djabi,M,2006-09-28T07:00Z,,ESPN roster,2025
@@ -349,7 +354,7 @@
 572,FC Midtjylland,418783,Julius Emefile,M,2007-04-02T07:00Z,,ESPN roster,2025
 572,FC Midtjylland,422325,Frederik Vestergaard,M,2009-05-10T07:00Z,,ESPN roster,2025
 572,FC Midtjylland,3145645,Joseph Avwerosuoghene Okuaghare,M,,,ESPN roster,2025
-572,FC Midtjylland,115713,David Martínez,F,2006-02-07T08:00Z,,ESPN roster,2025
+572,FC Midtjylland,115713,David Martínez,M,2000-03-11T08:00Z,,ESPN roster,2025
 572,FC Midtjylland,203926,Mikkel Uhre,F,1994-09-30T07:00Z,,ESPN roster,2025
 572,FC Midtjylland,259691,Júnior Brumado,F,1999-05-15T07:00Z,,ESPN roster,2025
 572,FC Midtjylland,303464,Cho Gue-Sung,F,1998-01-25T08:00Z,,ESPN roster,2025
@@ -377,7 +382,7 @@
 21933,Hvidovre IF,239188,Mads Kaalund,M,1996-08-16T07:00Z,,ESPN roster,2025
 21933,Hvidovre IF,362777,Thomas Jørgensen,M,2005-09-30T07:00Z,,ESPN roster,2025
 21933,Hvidovre IF,363414,Andreas Smed,F,1997-03-19T08:00Z,,ESPN roster,2025
-21933,Hvidovre IF,384159,Benjamin Kold,F,2004-05-13T07:00Z,,ESPN roster,2025
+21933,Hvidovre IF,384159,Benjamin Kold,M,2004-05-13T07:00Z,,ESPN roster,2025
 21933,Hvidovre IF,173801,Simon Makienok,F,1990-11-21T08:00Z,,ESPN roster,2025
 21933,Hvidovre IF,236575,Marco Harboe Ramkilde,F,1998-05-09T07:00Z,,ESPN roster,2025
 21933,Hvidovre IF,258012,Tobias Thomsen,F,1992-10-19T07:00Z,,ESPN roster,2025

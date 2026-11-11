@@ -58,7 +58,7 @@
 9999,Boston River,302217,Leandro Suhr,F,1997-09-24T07:00Z,,ESPN roster,2025
 9999,Boston River,335247,Nicolás Siri,F,2004-04-17T07:00Z,,ESPN roster,2025
 9999,Boston River,379902,Francisco Bonfiglio,F,2002-01-02T08:00Z,,ESPN roster,2025
-9999,Boston River,401383,Facundo Valdez,D,2003-03-22T08:00Z,,ESPN roster,2025
+9999,Boston River,401383,Facundo Valdéz,F,2006-04-10T07:00Z,,ESPN roster,2025
 9999,Boston River,419756,Agustín Fernández,F,2007-05-30T07:00Z,,ESPN roster,2025
 9999,Boston River,3107456,Facundo Agustín Aristegui Lemos,F,,,ESPN roster,2025
 2683,Peñarol,172956,Washington Aguerre,G,1993-04-23T07:00Z,,ESPN roster,2025
@@ -93,7 +93,6 @@
 2683,Peñarol,287029,Douglas Arezo,F,2002-11-21T08:00Z,,ESPN roster,2025
 2683,Peñarol,287036,Facundo Batista,F,1999-01-16T08:00Z,,ESPN roster,2025
 2683,Peñarol,317452,Luis Miguel Angulo,F,2004-03-23T08:00Z,,ESPN roster,2025
-2683,Peñarol,382777,Luciano González,F,2006-01-01T08:00Z,,ESPN roster,2025
 2683,Peñarol,402490,Brandon Álvarez,F,2007-10-14T07:00Z,,ESPN roster,2025
 2683,Peñarol,412315,Cristian Jaime,F,2006-07-14T07:00Z,,ESPN roster,2025
 2683,Peñarol,418278,Gonzalo Gelini,F,2006-12-15T08:00Z,,ESPN roster,2025
@@ -132,7 +131,7 @@
 9902,Cerro Largo,95569,Lucas Correa,D,1996-05-07T07:00Z,,ESPN roster,2025
 9902,Cerro Largo,224208,Robert Ergas,D,1998-01-15T08:00Z,,ESPN roster,2025
 9902,Cerro Largo,317374,Santiago Franca,D,2002-10-26T07:00Z,,ESPN roster,2025
-9902,Cerro Largo,321128,Nicolás Ramos,D,2005-04-01T08:00Z,,ESPN roster,2025
+9902,Cerro Largo,321128,Nicolás Ramos,D,1999-03-10T08:00Z,,ESPN roster,2025
 9902,Cerro Largo,331400,Martín Gianoli,D,2000-09-27T07:00Z,,ESPN roster,2025
 9902,Cerro Largo,336865,Axel Prado,D,2002-11-17T08:00Z,,ESPN roster,2025
 9902,Cerro Largo,3098472,Facundo Manuel Álvez Videla,D,,,ESPN roster,2025
@@ -179,14 +178,13 @@
 5498,River Plate,270717,Matías Rigoleto,F,1995-06-02T07:00Z,,ESPN roster,2025
 5498,River Plate,336903,Tiziano Correa,F,2004-08-31T07:00Z,,ESPN roster,2025
 5498,River Plate,359914,Faustino Barone,F,2006-05-11T07:00Z,,ESPN roster,2025
-5501,Montevideo Wanderers,5326387,Joaquín Blanco Baladón,F,,,ESPN roster,2025
 5501,Montevideo Wanderers,359984,José Río,G,2004-01-31T08:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,400990,Gerónimo Govea,G,2008-04-10T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,3096145,Agustín Buffa Pedrouzo,G,,,ESPN roster,2025
-5501,Montevideo Wanderers,80854,Paulo Lima,D,1992-01-20T08:00Z,,ESPN roster,2025
+5501,Montevideo Wanderers,80854,Paulo Lima,M,1998-06-05T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,164569,Leandro Zazpe,D,1994-04-29T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,165494,Fabricio Formiliano,D,1993-01-14T08:00Z,,ESPN roster,2025
-5501,Montevideo Wanderers,216741,Mateo Acosta,D,2003-03-04T08:00Z,,ESPN roster,2025
+5501,Montevideo Wanderers,216741,Mateo Acosta,F,1992-09-22T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,285812,Alan García,D,1999-09-14T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,286901,Lucas Furtado,D,1998-03-20T08:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,287139,Nicolás Cabral,D,1999-10-09T07:00Z,,ESPN roster,2025
@@ -201,7 +199,7 @@
 5501,Montevideo Wanderers,322682,Renzo Sánchez,M,2004-02-17T08:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,356338,José Alberti,M,1997-03-29T08:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,379849,Jonás Luna,M,2005-05-10T07:00Z,,ESPN roster,2025
-5501,Montevideo Wanderers,400994,Mateo Martínez,M,2006-05-27T07:00Z,,ESPN roster,2025
+5501,Montevideo Wanderers,400994,Mateo Martínez,D,2008-04-27T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,422504,Lautaro Blengio,M,2009-08-14T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,3096086,Sergi Oriol Herrera,M,,,ESPN roster,2025
 5501,Montevideo Wanderers,121658,Jonathan Urretaviscaya,F,1990-03-19T08:00Z,,ESPN roster,2025
@@ -211,11 +209,12 @@
 5501,Montevideo Wanderers,303523,Joaquín Zeballos,F,1996-11-13T08:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,381381,Luciano Cosentino,F,2001-05-18T07:00Z,,ESPN roster,2025
 5501,Montevideo Wanderers,3096084,Roque Ricca Gayol,F,,,ESPN roster,2025
+5501,Montevideo Wanderers,5326387,Joaquín Blanco Baladón,F,,,ESPN roster,2025
 19002,Montevideo City Torque,159030,Gastón Rodríguez,G,1994-02-12T08:00Z,,ESPN roster,2025
 19002,Montevideo City Torque,208073,Franco Torgnascioli,G,1990-08-24T07:00Z,,ESPN roster,2025
 19002,Montevideo City Torque,419675,Martín Almeida,G,2006-03-28T08:00Z,,ESPN roster,2025
 19002,Montevideo City Torque,419720,Mathías Aguiar,G,2006-07-22T07:00Z,,ESPN roster,2025
-19002,Montevideo City Torque,130585,Nicolás Pérez,D,2008-06-06T07:00Z,,ESPN roster,2025
+19002,Montevideo City Torque,130585,Nicolas Perez,F,1990-10-26T07:00Z,,ESPN roster,2025
 19002,Montevideo City Torque,135584,Gary Kagelmacher,D,1988-04-21T07:00Z,,ESPN roster,2025
 19002,Montevideo City Torque,140739,Jean López,D,2008-02-06T08:00Z,,ESPN roster,2025
 19002,Montevideo City Torque,225602,Kevin Silva,D,2003-04-16T07:00Z,,ESPN roster,2025
@@ -254,7 +253,7 @@
 4817,Danubio,383057,Miguel González,G,2007-08-03T07:00Z,,ESPN roster,2025
 4817,Danubio,193886,Emiliano Velázquez,D,1994-04-30T07:00Z,,ESPN roster,2025
 4817,Danubio,270835,Mauro Brasil,D,1999-04-27T07:00Z,,ESPN roster,2025
-4817,Danubio,271473,Santiago Sosa,M,1998-09-17T07:00Z,,ESPN roster,2025
+4817,Danubio,271473,Santiago Sosa,M,1999-05-03T07:00Z,,ESPN roster,2025
 4817,Danubio,309197,Martín Jourdan,D,2001-10-13T07:00Z,,ESPN roster,2025
 4817,Danubio,309239,Tomás Cavanagh,D,2001-01-05T08:00Z,,ESPN roster,2025
 4817,Danubio,401114,Gonzalo Rodríguez,D,2005-01-22T08:00Z,,ESPN roster,2025
@@ -264,12 +263,12 @@
 4817,Danubio,3098448,Felipe Biagio Cabrera Novelli,D,,,ESPN roster,2025
 4817,Danubio,145150,Leandro Sosa,M,1991-03-18T08:00Z,,ESPN roster,2025
 4817,Danubio,154447,Sebastian Rodriguez,M,1992-08-16T07:00Z,,ESPN roster,2025
-4817,Danubio,172437,Juan Millán,M,2005-01-24T08:00Z,,ESPN roster,2025
+4817,Danubio,172437,Juan Millán,M,2001-08-13T07:00Z,,ESPN roster,2025
 4817,Danubio,200264,Iván Rossi,M,1993-11-01T08:00Z,,ESPN roster,2025
 4817,Danubio,276060,Joaquín Trasante,M,1999-03-14T08:00Z,,ESPN roster,2025
 4817,Danubio,285809,Maicol Ferreira,M,1998-01-20T08:00Z,,ESPN roster,2025
 4817,Danubio,336958,Cristhian Tizón,M,1996-01-26T08:00Z,,ESPN roster,2025
-4817,Danubio,359997,Mateo Peralta,F,2007-06-25T07:00Z,,ESPN roster,2025
+4817,Danubio,359997,Mateo Peralta,M,2006-04-08T07:00Z,,ESPN roster,2025
 4817,Danubio,381355,Axel Montaña,M,2006-02-13T08:00Z,,ESPN roster,2025
 4817,Danubio,400988,Luis Femia,M,2002-05-27T07:00Z,,ESPN roster,2025
 4817,Danubio,401115,Alexander Velázquez,M,2007-04-09T07:00Z,,ESPN roster,2025
@@ -304,12 +303,12 @@
 2684,Nacional,315796,Silvio Martínez,M,1997-07-12T07:00Z,,ESPN roster,2025
 2684,Nacional,333305,Luciano Boggio,M,1999-03-10T08:00Z,,ESPN roster,2025
 2684,Nacional,359980,Santiago Silva,M,2004-08-20T07:00Z,,ESPN roster,2025
+2684,Nacional,382777,Luciano Gonzalez,M,2008-03-07T08:00Z,,ESPN roster,2025
 2684,Nacional,402584,Juan García,M,2006-06-25T07:00Z,,ESPN roster,2025
 2684,Nacional,402590,Kevin Martínez,M,2008-03-22T07:00Z,,ESPN roster,2025
 2684,Nacional,402825,Agustín Dos Santos,M,2008-02-09T08:00Z,,ESPN roster,2025
 2684,Nacional,421485,Román Clematte,M,2007-09-06T07:00Z,,ESPN roster,2025
-2684,Nacional,67183,Maximiliano Gómez,F,1988-01-03T08:00Z,,ESPN roster,2025
-2684,Nacional,218651,Juan Santos,F,2003-02-22T08:00Z,,ESPN roster,2025
+2684,Nacional,67183,Maxi Gómez,F,1996-08-14T07:00Z,,ESPN roster,2025
 2684,Nacional,278517,Tomás Verón Lupi,F,2000-09-03T07:00Z,,ESPN roster,2025
 2684,Nacional,334992,Maximiliano Silvera,F,1997-09-05T07:00Z,,ESPN roster,2025
 2684,Nacional,336903,Tiziano Correa,F,2004-08-31T07:00Z,,ESPN roster,2025
@@ -386,7 +385,7 @@
 10000,Deportivo Maldonado,235850,Adriano Freitas,G,1997-06-17T07:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,285020,Nicolás Forastiero,G,1998-07-15T07:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,3098418,Víctor Felipe Ortíz Ferreira,G,,,ESPN roster,2025
-10000,Deportivo Maldonado,44234,Juan Ramos,D,1996-09-01T07:00Z,,ESPN roster,2025
+10000,Deportivo Maldonado,44234,Juan Ramos,G,1999-03-11T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,157495,Facundo Tealde,D,1989-03-15T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,188189,Hernán Menosse,D,1987-04-28T07:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,235019,Hernán Petrik,D,1994-10-21T07:00Z,,ESPN roster,2025
@@ -394,11 +393,11 @@
 10000,Deportivo Maldonado,339796,Juan Martín Ginzo,D,2002-03-05T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,359569,Nicolás Fuica,D,2004-05-03T07:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,3098420,Benjamín Cavenaghi Gaynor,D,,,ESPN roster,2025
-10000,Deportivo Maldonado,3098421,Franco Marino,D,,,ESPN roster,2025
+10000,Deportivo Maldonado,3098421,Franco Marino,M,,,ESPN roster,2025
 10000,Deportivo Maldonado,73564,Carlos Núñez,M,2002-01-01T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,141649,Camilo Mayada,M,1991-01-08T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,166678,Gonzalo Sosa,M,2005-03-05T08:00Z,,ESPN roster,2025
-10000,Deportivo Maldonado,186779,Maximiliano González,M,2004-05-04T07:00Z,,ESPN roster,2025
+10000,Deportivo Maldonado,186779,Maximiliano González,M,1994-03-12T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,301539,Santiago Cartagena,M,2002-09-01T07:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,307986,Lucas Nuñez,M,2006-03-18T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,336901,Gonzalo Larrazabal,M,2002-11-04T08:00Z,,ESPN roster,2025
@@ -412,7 +411,7 @@
 10000,Deportivo Maldonado,186913,Renato César,F,1993-08-16T07:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,216640,Christian Tabó,F,1993-11-23T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,241213,Emiliano Mozzone,F,1998-04-23T07:00Z,,ESPN roster,2025
-10000,Deportivo Maldonado,255368,Santiago Ramírez,F,2001-09-03T07:00Z,,ESPN roster,2025
+10000,Deportivo Maldonado,255368,Santiago Ramírez,F,1998-03-12T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,418095,Cayetano Bolzán,F,2006-03-14T08:00Z,,ESPN roster,2025
 10000,Deportivo Maldonado,3098422,Thiago David Ortega Silva,F,,,ESPN roster,2025
 1007,Defensor Sporting,5152,Kevin Dawson,G,1992-02-08T08:00Z,,ESPN roster,2025

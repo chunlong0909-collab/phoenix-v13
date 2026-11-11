@@ -45,7 +45,7 @@
 19340,Macarthur FC,147131,Ben Gibson,D,1993-01-15T08:00Z,,ESPN roster,2025
 19340,Macarthur FC,153012,Ryan Fraser,F,1994-02-24T08:00Z,,ESPN roster,2025
 19340,Macarthur FC,182553,Connor Pain,F,1993-11-11T08:00Z,,ESPN roster,2025
-19340,Macarthur FC,241696,Bernardo Dias,M,1997-01-04T08:00Z,,ESPN roster,2025
+19340,Macarthur FC,241696,Bernardo Oliveira,F,2004-03-16T08:00Z,,ESPN roster,2025
 19340,Macarthur FC,264656,Apostolos Stamatelopoulos,F,1999-04-09T07:00Z,,ESPN roster,2025
 19340,Macarthur FC,277529,Kai Kennedy,F,2002-03-28T08:00Z,,ESPN roster,2025
 19340,Macarthur FC,319924,Jing Lual,F,2003-06-12T07:00Z,,ESPN roster,2025
@@ -62,7 +62,7 @@
 8352,Wellington Phoenix,212779,Matthew Sheridan,D,2004-05-09T07:00Z,,ESPN roster,2025
 8352,Wellington Phoenix,228280,James McGarry,D,1998-04-09T07:00Z,,ESPN roster,2025
 8352,Wellington Phoenix,269462,Walter Scott,D,1999-10-02T07:00Z,,ESPN roster,2025
-8352,Wellington Phoenix,328031,Jayden Smith,D,2007-07-04T07:00Z,,ESPN roster,2025
+8352,Wellington Phoenix,328031,Jayden Smith,D,2006-03-29T08:00Z,,ESPN roster,2025
 8352,Wellington Phoenix,358524,Isaac Hughes,D,2004-03-25T08:00Z,,ESPN roster,2025
 8352,Wellington Phoenix,362617,Lukas Kelly-Heald,D,2005-03-18T08:00Z,,ESPN roster,2025
 8352,Wellington Phoenix,392328,Corban Piper,D,2002-09-10T07:00Z,,ESPN roster,2025
@@ -81,6 +81,7 @@
 8352,Wellington Phoenix,388502,Xuan Loke,F,2005-03-26T08:00Z,,ESPN roster,2025
 11143,Melbourne City FC,285911,Macklin Freke,G,1999-01-06T08:00Z,,ESPN roster,2025
 11143,Melbourne City FC,328539,James Nieuwenhuizen,G,2004-01-17T08:00Z,,ESPN roster,2025
+11143,Melbourne City FC,5327199,Jonty Albert Benfield,G,,,ESPN roster,2025
 11143,Melbourne City FC,200414,Aziz Behich,D,1990-12-16T08:00Z,,ESPN roster,2025
 11143,Melbourne City FC,222758,Harrison Delbridge,D,1992-03-15T08:00Z,,ESPN roster,2025
 11143,Melbourne City FC,241859,Julio Cascante,D,1993-10-03T07:00Z,,ESPN roster,2025
@@ -168,10 +169,9 @@
 5322,Perth Glory FC,403317,Sebastian Despotovski,F,2005-12-17T08:00Z,,ESPN roster,2025
 5322,Perth Glory FC,3141911,Pieter Jacobsz,F,,,ESPN roster,2025
 5322,Perth Glory FC,3141912,Sebastian Kukucka,F,,,ESPN roster,2025
-5328,Melbourne Victory,154406,Jack Duncan,D,2001-03-04T08:00Z,,ESPN roster,2025
+5328,Melbourne Victory,154406,Jack Duncan,G,1993-04-19T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,328546,Jack Warshawsky,G,2004-08-08T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,386314,Daniel Graskoski,G,2007-01-28T08:00Z,,ESPN roster,2025
-5328,Melbourne Victory,415185,Oskar Von Schrenk,G,2008-06-09T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,143791,Jason Davidson,D,1991-06-29T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,150380,Brendan Hamill,D,1992-09-18T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,154326,Philipp Ziereis,D,1993-03-14T08:00Z,,ESPN roster,2025
@@ -181,17 +181,12 @@
 5328,Melbourne Victory,368568,Harrison Shillington,D,2005-06-30T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,409326,Xavier Stella,D,2006-08-21T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,410626,John Radimisis,D,2007-01-02T08:00Z,,ESPN roster,2025
-5328,Melbourne Victory,422341,Winston Ashburner,D,2009-02-02T08:00Z,,ESPN roster,2025
-5328,Melbourne Victory,3100766,Oliver James Dimovski,D,,,ESPN roster,2025
 5328,Melbourne Victory,3100774,William Kengni,D,,,ESPN roster,2025
-5328,Melbourne Victory,3141184,Matias Aloisi,D,,,ESPN roster,2025
-5328,Melbourne Victory,3141185,Lewis Domenic Marinucci,D,,,ESPN roster,2025
 5328,Melbourne Victory,240957,Denis Genreau,M,1999-05-21T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,269578,Louis D'Arrigo,M,2001-09-23T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,334866,Jordi Valadon,M,2003-03-04T08:00Z,,ESPN roster,2025
 5328,Melbourne Victory,412860,Oliver Dragicevic,M,2007-10-10T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,3108004,Jack,M,,,ESPN roster,2025
-5328,Melbourne Victory,3141186,Noah Mirko Tanfara,M,,,ESPN roster,2025
 5328,Melbourne Victory,235848,Guillermo May,F,1998-03-11T08:00Z,,ESPN roster,2025
 5328,Melbourne Victory,251930,Harrison Sawyer,F,1996-12-31T08:00Z,,ESPN roster,2025
 5328,Melbourne Victory,297813,Keegan Jelacic,F,2002-07-31T07:00Z,,ESPN roster,2025
@@ -200,7 +195,6 @@
 5328,Melbourne Victory,398152,Michael Ghossaini,F,2007-08-25T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,418068,Charles Nduka,F,1998-08-08T07:00Z,,ESPN roster,2025
 5328,Melbourne Victory,3100778,Malik Olukhale,F,,,ESPN roster,2025
-5328,Melbourne Victory,3143346,Theodore Limberis,F,,,ESPN roster,2025
 5326,Brisbane Roar FC,97794,Dean Bouzanis,G,1990-10-02T07:00Z,,ESPN roster,2025
 5326,Brisbane Roar FC,399518,Oscar Page,G,2007-01-01T08:00Z,,ESPN roster,2025
 5326,Brisbane Roar FC,3114274,George Plusnin,G,,,ESPN roster,2025
@@ -256,6 +250,7 @@
 5325,Central Coast Mariners FC,3141853,Presley Lucien Ortiz,F,,,ESPN roster,2025
 5325,Central Coast Mariners FC,3141855,Noah Hooper,F,,,ESPN roster,2025
 5325,Central Coast Mariners FC,5323067,Taiyo Hisamatsu,F,,,ESPN roster,2025
+5325,Central Coast Mariners FC,5327533,Isaac Kwon,F,,,ESPN roster,2025
 5327,Sydney FC,368557,Gus Hoefsloot,G,2006-03-14T08:00Z,,ESPN roster,2025
 5327,Sydney FC,386267,Harrison Devenish-Meares,G,1996-10-27T07:00Z,,ESPN roster,2025
 5327,Sydney FC,410620,Alexander Zaverdinos,G,2007-04-06T07:00Z,,ESPN roster,2025
@@ -322,6 +317,7 @@
 5323,Newcastle Jets,392209,Will Kennedy,D,2005-02-14T08:00Z,,ESPN roster,2025
 5323,Newcastle Jets,410629,Max Cooper,D,2007-01-14T08:00Z,,ESPN roster,2025
 5323,Newcastle Jets,3100785,Kaiden Walshe,D,,,ESPN roster,2025
+5323,Newcastle Jets,3140883,Archie Philip Brideson,D,,,ESPN roster,2025
 5323,Newcastle Jets,3140885,Angus Benjamin Reid,D,,,ESPN roster,2025
 5323,Newcastle Jets,191564,Zach Clough,M,1995-03-08T08:00Z,,ESPN roster,2025
 5323,Newcastle Jets,212917,Max Burgess,M,1995-01-16T08:00Z,,ESPN roster,2025
@@ -333,7 +329,7 @@
 5323,Newcastle Jets,3140886,Julian Recchia,M,,,ESPN roster,2025
 5323,Newcastle Jets,191001,Joe Lolley,F,1992-08-25T07:00Z,,ESPN roster,2025
 5323,Newcastle Jets,196064,Nikolaos Vergos,F,1996-01-13T08:00Z,,ESPN roster,2025
-5323,Newcastle Jets,310562,Patrick Wood,F,2002-09-16T07:00Z,,ESPN roster,2025
+5323,Newcastle Jets,310562,Patrick Wood,D,2002-09-16T07:00Z,,ESPN roster,2025
 5323,Newcastle Jets,386118,Oscar Fryer,F,2006-04-16T07:00Z,,ESPN roster,2025
 5323,Newcastle Jets,410630,Xavier Bertoncello,F,2005-10-08T07:00Z,,ESPN roster,2025
 5323,Newcastle Jets,410631,Ethan Debono,F,2005-12-15T08:00Z,,ESPN roster,2025
@@ -359,6 +355,7 @@
 22344,Auckland FC,386309,Oliver Middleton,M,2005-09-19T07:00Z,,ESPN roster,2025
 22344,Auckland FC,413897,Van Fitzharris,M,2008-01-23T08:00Z,,ESPN roster,2025
 22344,Auckland FC,418903,Isa Prins,M,2005-07-12T07:00Z,,ESPN roster,2025
+22344,Auckland FC,419230,James Mitchell,M,2006-08-15T07:00Z,,ESPN roster,2025
 22344,Auckland FC,3111301,Daniel Normann,M,,,ESPN roster,2025
 22344,Auckland FC,214938,Sam Cosgrove,F,1996-12-02T08:00Z,,ESPN roster,2025
 22344,Auckland FC,228281,Logan Rogerson,F,1998-05-28T07:00Z,,ESPN roster,2025

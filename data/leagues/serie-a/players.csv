@@ -270,7 +270,7 @@
 3395,Goiás,269642,Luis,M,1997-01-30T08:00Z,,ESPN roster,2025
 3395,Goiás,271563,Everton Morelli,M,1997-11-04T08:00Z,,ESPN roster,2025
 3395,Goiás,285000,Higor Matheus Meritão,M,1994-06-23T07:00Z,,ESPN roster,2025
-3395,Goiás,298859,Julián Palacios,M,1999-02-04T08:00Z,,ESPN roster,2025
+3395,Goiás,298859,Julián Palacio,D,2003-08-07T07:00Z,,ESPN roster,2025
 3395,Goiás,302657,Vinicius Rodrigues,M,2001-06-15T07:00Z,,ESPN roster,2025
 3395,Goiás,336513,Carlos Maia,M,2001-05-02T07:00Z,,ESPN roster,2025
 3395,Goiás,359191,Andrey,M,2003-06-11T07:00Z,,ESPN roster,2025
@@ -306,7 +306,7 @@
 6086,Botafogo,245291,Nahuel Ferraresi,D,1998-11-19T08:00Z,,ESPN roster,2025
 6086,Botafogo,252544,Paulo Victor,D,1995-01-03T08:00Z,,ESPN roster,2025
 6086,Botafogo,268700,Vitinho,D,1999-07-23T07:00Z,,ESPN roster,2025
-6086,Botafogo,277069,Lucas Monzón,D,2001-09-29T07:00Z,,ESPN roster,2025
+6086,Botafogo,277069,Lucas Monzón,D,2003-01-09T08:00Z,,ESPN roster,2025
 6086,Botafogo,319530,Arthur Chaves,D,2001-01-29T08:00Z,,ESPN roster,2025
 6086,Botafogo,359977,Mateo Ponte,D,2003-05-24T07:00Z,,ESPN roster,2025
 6086,Botafogo,362496,Jhoan Hernández,D,2006-02-20T08:00Z,,ESPN roster,2025
@@ -335,7 +335,6 @@
 6086,Botafogo,417755,Arthur Novaes,M,2008-09-16T07:00Z,,ESPN roster,2025
 6086,Botafogo,417757,Miguel Caldas,M,2008-07-29T07:00Z,,ESPN roster,2025
 6086,Botafogo,3102502,Victor Hugo Gonçalves Dos Santos,M,,,ESPN roster,2025
-6086,Botafogo,176810,Lucas Villalba,F,2001-05-11T07:00Z,,ESPN roster,2025
 6086,Botafogo,202374,Tiquinho Soares,F,1991-01-17T08:00Z,,ESPN roster,2025
 6086,Botafogo,224103,Arthur Cabral,F,1998-04-25T07:00Z,,ESPN roster,2025
 6086,Botafogo,269843,Júnior Santos,F,1994-10-11T07:00Z,,ESPN roster,2025
@@ -386,7 +385,7 @@
 2026,São Paulo,190483,Luciano,F,1993-05-18T07:00Z,,ESPN roster,2025
 2026,São Paulo,236596,Artur,F,1998-02-15T08:00Z,,ESPN roster,2025
 2026,São Paulo,259879,Joao Victor,F,1994-03-27T08:00Z,,ESPN roster,2025
-2026,São Paulo,270578,André Oliveira,M,1995-02-15T08:00Z,,ESPN roster,2025
+2026,São Paulo,270578,André Silva,F,1997-06-03T07:00Z,,ESPN roster,2025
 2026,São Paulo,296573,Ferreira,F,1997-12-31T08:00Z,,ESPN roster,2025
 2026,São Paulo,380969,Juan Potes,F,2006-11-07T08:00Z,,ESPN roster,2025
 2026,São Paulo,383041,Paulo Sérgio,F,2005-05-17T07:00Z,,ESPN roster,2025
@@ -403,7 +402,7 @@
 6272,Fortaleza,371494,César Augusto,G,2006-01-07T08:00Z,,ESPN roster,2025
 6272,Fortaleza,402430,Eduardo Salvador,G,2006-01-07T08:00Z,,ESPN roster,2025
 6272,Fortaleza,402544,Cássio Acosta,G,2005-02-02T08:00Z,,ESPN roster,2025
-6272,Fortaleza,187032,Diogo Barbosa,D,1992-08-17T07:00Z,,ESPN roster,2025
+6272,Fortaleza,187032,Diogo Barbosa,M,1996-01-13T08:00Z,,ESPN roster,2025
 6272,Fortaleza,200206,Emanuel Britez,D,1992-03-26T08:00Z,,ESPN roster,2025
 6272,Fortaleza,200826,Tinga,D,1993-09-01T07:00Z,,ESPN roster,2025
 6272,Fortaleza,204888,Benjamín Kuscevic,D,1996-05-02T07:00Z,,ESPN roster,2025
@@ -458,7 +457,7 @@
 1936,Internacional,251963,Félix Torres,D,1997-01-11T08:00Z,,ESPN roster,2025
 1936,Internacional,285029,Alexander Bernabei,D,2000-09-24T07:00Z,,ESPN roster,2025
 1936,Internacional,304656,Matheus Bahia,D,1999-08-11T07:00Z,,ESPN roster,2025
-1936,Internacional,309131,Brian Aguirre,F,2003-01-06T08:00Z,,ESPN roster,2025
+1936,Internacional,309131,Brian Aguirre,D,2000-07-28T07:00Z,,ESPN roster,2025
 1936,Internacional,319790,Victor Gabriel,D,2004-04-28T07:00Z,,ESPN roster,2025
 1936,Internacional,382898,Pedro Kauã,D,2006-03-29T08:00Z,,ESPN roster,2025
 1936,Internacional,412558,Alisson,D,2008-07-31T07:00Z,,ESPN roster,2025
@@ -611,6 +610,7 @@
 7632,Atlético-MG,417570,Mamady Cissé,M,2007-01-01T08:00Z,,ESPN roster,2025
 7632,Atlético-MG,421541,Mateus Romero,M,2006-06-14T07:00Z,,ESPN roster,2025
 7632,Atlético-MG,3103553,Gutte,M,,,ESPN roster,2025
+7632,Atlético-MG,5330627,Vinicius Almeida,M,,,ESPN roster,2025
 7632,Atlético-MG,178349,Dudu,F,1992-01-07T08:00Z,,ESPN roster,2025
 7632,Atlético-MG,215934,Mateo Casierra,F,1997-04-13T07:00Z,,ESPN roster,2025
 7632,Atlético-MG,252197,Tomás Cuello,F,2000-03-05T08:00Z,,ESPN roster,2025
@@ -650,7 +650,7 @@
 3454,Vasco da Gama,196873,Jair,M,1994-08-26T07:00Z,,ESPN roster,2025
 3454,Vasco da Gama,198302,Tchê Tchê,M,1992-08-30T07:00Z,,ESPN roster,2025
 3454,Vasco da Gama,201717,Thiago Mendes,M,1992-03-15T08:00Z,,ESPN roster,2025
-3454,Vasco da Gama,271473,Santiago Sosa,M,1998-09-17T07:00Z,,ESPN roster,2025
+3454,Vasco da Gama,271473,Santiago Sosa,M,1999-05-03T07:00Z,,ESPN roster,2025
 3454,Vasco da Gama,323815,Nuno Moreira,M,1999-06-16T07:00Z,,ESPN roster,2025
 3454,Vasco da Gama,336485,Alan Lescano,M,2001-11-11T08:00Z,,ESPN roster,2025
 3454,Vasco da Gama,346179,Matheus Carvalho,M,2002-03-18T08:00Z,,ESPN roster,2025
@@ -737,6 +737,7 @@
 2022,Cruzeiro,383087,Marcelo,G,2006-02-12T08:00Z,,ESPN roster,2025
 2022,Cruzeiro,404611,Vitor Lamounier,G,2007-10-18T07:00Z,,ESPN roster,2025
 2022,Cruzeiro,108342,Fagner,D,1989-06-11T07:00Z,,ESPN roster,2025
+2022,Cruzeiro,176810,Lucas Villalba,D,1994-08-19T07:00Z,,ESPN roster,2025
 2022,Cruzeiro,212077,William,D,1995-04-03T07:00Z,,ESPN roster,2025
 2022,Cruzeiro,236111,Fabrício Bruno,D,1996-02-12T08:00Z,,ESPN roster,2025
 2022,Cruzeiro,238734,Gabriel Rojas,D,1997-06-22T07:00Z,,ESPN roster,2025
@@ -908,7 +909,6 @@
 6273,Grêmio,286714,José Enamorado,F,1999-01-13T08:00Z,,ESPN roster,2025
 6273,Grêmio,287664,Mateus Tetê,F,2000-02-15T08:00Z,,ESPN roster,2025
 6273,Grêmio,304659,Matheus Nascimento,F,2004-03-03T08:00Z,,ESPN roster,2025
-6273,Grêmio,402657,Arnaldo,F,2007-01-01T08:00Z,,ESPN roster,2025
 6273,Grêmio,421522,Lucca,F,2008-07-01T07:00Z,,ESPN roster,2025
 6273,Grêmio,421525,Benjamin,F,2009-07-14T07:00Z,,ESPN roster,2025
 6273,Grêmio,421530,Fellipe Magalhães,F,2007-07-20T07:00Z,,ESPN roster,2025

@@ -55,7 +55,7 @@
 85,Celta Vigo,279904,Ferran Jutglà,F,1999-02-01T08:00Z,,ESPN roster,2025
 85,Celta Vigo,304592,Couhaib Driouech,F,2002-04-17T07:00Z,,ESPN roster,2025
 85,Celta Vigo,322652,Williot Swedberg,F,2004-02-01T08:00Z,,ESPN roster,2025
-85,Celta Vigo,324811,Hugo Gonzalez,F,2003-02-07T08:00Z,,ESPN roster,2025
+85,Celta Vigo,324811,Hugo González,F,2003-02-07T08:00Z,,ESPN roster,2025
 85,Celta Vigo,334111,Jones El-Abdellaoui,F,2006-01-12T08:00Z,,ESPN roster,2025
 85,Celta Vigo,415036,Ángel Arcos,F,2006-04-18T07:00Z,,ESPN roster,2025
 94,Valencia,76884,Cristian Rivero,G,1998-03-21T08:00Z,,ESPN roster,2025
@@ -123,7 +123,7 @@
 3842,Cádiz,276996,Robert Navarro,M,2002-04-12T07:00Z,,ESPN roster,2025
 3842,Cádiz,346676,Etta Eyong,F,2003-10-14T07:00Z,,ESPN roster,2025
 3842,Cádiz,375493,Aristide Njalla,F,2003-04-13T07:00Z,,ESPN roster,2025
-3842,Cádiz,67183,Maximiliano Gómez,F,1988-01-03T08:00Z,,ESPN roster,2025
+3842,Cádiz,67183,Maxi Gómez,F,1996-08-14T07:00Z,,ESPN roster,2025
 3842,Cádiz,143643,Juanmi,F,1993-05-20T07:00Z,,ESPN roster,2025
 3842,Cádiz,165517,Darwin Machis,F,1993-02-07T08:00Z,,ESPN roster,2025
 3842,Cádiz,169533,Roger Martí,F,1991-01-03T08:00Z,,ESPN roster,2025
@@ -144,6 +144,7 @@
 102,Villarreal,318098,Santiago Mouriño,D,2002-02-13T08:00Z,,ESPN roster,2025
 102,Villarreal,337011,Renato Veiga,D,2003-07-29T07:00Z,,ESPN roster,2025
 102,Villarreal,368878,Pau Navarro,D,2005-04-25T07:00Z,,ESPN roster,2025
+102,Villarreal,3101339,César Bonafé Ceita,D,,,ESPN roster,2025
 102,Villarreal,240623,Santi Comesaña,M,1996-10-05T07:00Z,,ESPN roster,2025
 102,Villarreal,255889,Pape Gueye,M,1999-01-24T08:00Z,,ESPN roster,2025
 102,Villarreal,307390,Alberto Moleiro,M,2003-09-30T07:00Z,,ESPN roster,2025
@@ -151,6 +152,8 @@
 102,Villarreal,396751,Alassane Diatta,M,2005-05-14T07:00Z,,ESPN roster,2025
 102,Villarreal,415438,Carlos Macià,M,2008-09-01T07:00Z,,ESPN roster,2025
 102,Villarreal,3101325,Cheikh Ahmad Tidiane Thiam,M,,,ESPN roster,2025
+102,Villarreal,5326689,Mauro Roca Martínez,M,,,ESPN roster,2025
+102,Villarreal,5326690,Sergio Barrera Martín,M,,,ESPN roster,2025
 102,Villarreal,156172,Gerard Moreno,F,1992-04-07T07:00Z,,ESPN roster,2025
 102,Villarreal,192133,Ayoze Pérez,F,1993-07-29T07:00Z,,ESPN roster,2025
 102,Villarreal,210397,Nicolas Pépé,F,1995-05-29T07:00Z,,ESPN roster,2025
@@ -260,7 +263,7 @@
 95,Real Valladolid,403460,Ibrahim Alani,M,2006-07-29T07:00Z,,ESPN roster,2025
 95,Real Valladolid,162264,Amath Ndiaye,F,1996-07-16T07:00Z,,ESPN roster,2025
 95,Real Valladolid,165517,Darwin Machis,F,1993-02-07T08:00Z,,ESPN roster,2025
-95,Real Valladolid,218438,Mamadou Sylla,M,2005-12-05T08:00Z,,ESPN roster,2025
+95,Real Valladolid,218438,Mamadou Sylla,D,1995-06-28T07:00Z,,ESPN roster,2025
 95,Real Valladolid,264168,Marcos André,F,1996-10-20T07:00Z,,ESPN roster,2025
 95,Real Valladolid,303906,Raúl Moro,F,2002-12-05T08:00Z,,ESPN roster,2025
 95,Real Valladolid,335235,Juan Latasa,F,2001-03-23T08:00Z,,ESPN roster,2025
@@ -294,6 +297,8 @@
 88,Espanyol,311571,Bryan Zaragoza,F,2001-09-09T07:00Z,,ESPN roster,2025
 88,Espanyol,318773,Roberto Fernández,F,2002-07-03T07:00Z,,ESPN roster,2025
 88,Espanyol,354621,Marcos Fernández,F,2003-05-17T07:00Z,,ESPN roster,2025
+88,Espanyol,3111247,Jan Peries Duran,F,,,ESPN roster,2025
+88,Espanyol,3111255,Alejandro Santiago,F,,,ESPN roster,2025
 88,Espanyol,3139134,Víctor Mullerat Tomas,F,,,ESPN roster,2025
 9812,Girona,140740,Marc-André ter Stegen,G,1992-04-30T07:00Z,,ESPN roster,2025
 9812,Girona,152130,Juan Carlos,G,1988-01-20T08:00Z,,ESPN roster,2025
@@ -352,7 +357,7 @@
 6832,Almería,287477,Dion Lopy,M,2002-02-02T08:00Z,,ESPN roster,2025
 6832,Almería,307917,Sergio Arribas,M,2001-09-30T07:00Z,,ESPN roster,2025
 6832,Almería,338888,Marcos Peña,M,2005-01-22T08:00Z,,ESPN roster,2025
-6832,Almería,41549,Ibrahima Koné,F,1999-06-16T07:00Z,,ESPN roster,2025
+6832,Almería,41549,Ibrahim Koné,G,1989-12-05T08:00Z,,ESPN roster,2025
 6832,Almería,97026,Marko Milovanovic,F,2003-08-04T07:00Z,,ESPN roster,2025
 6832,Almería,175010,Léo Baptistão,F,1992-08-26T07:00Z,,ESPN roster,2025
 6832,Almería,193130,Adri Embarba,F,1992-05-07T07:00Z,,ESPN roster,2025
@@ -369,7 +374,7 @@
 89,Real Sociedad,283891,Aihen Muñoz,D,1997-08-16T07:00Z,,ESPN roster,2025
 89,Real Sociedad,297359,Jon Pacheco,D,2001-01-08T08:00Z,,ESPN roster,2025
 89,Real Sociedad,318063,Jon Aramburu,D,2002-07-23T07:00Z,,ESPN roster,2025
-89,Real Sociedad,355433,Mamadou Sarr,F,2005-08-29T07:00Z,,ESPN roster,2025
+89,Real Sociedad,355433,Mamadou Sarr,D,2005-08-29T07:00Z,,ESPN roster,2025
 89,Real Sociedad,363039,Héctor Fort,D,2006-08-02T07:00Z,,ESPN roster,2025
 89,Real Sociedad,366885,Jon Martín,D,2006-04-23T07:00Z,,ESPN roster,2025
 89,Real Sociedad,379457,Iñaki Rupérez,D,2003-01-07T08:00Z,,ESPN roster,2025
@@ -401,7 +406,7 @@
 101,Rayo Vallecano,225637,Luiz Felipe,D,1997-03-22T08:00Z,,ESPN roster,2025
 101,Rayo Vallecano,261403,Marash Kumbulla,D,2000-02-08T08:00Z,,ESPN roster,2025
 101,Rayo Vallecano,265996,Mujaid Sadick,D,2000-03-14T08:00Z,,ESPN roster,2025
-101,Rayo Vallecano,268751,Sergio Lozano,D,2006-03-30T08:00Z,,ESPN roster,2025
+101,Rayo Vallecano,268751,Sergio Lozano,M,1999-03-24T08:00Z,,ESPN roster,2025
 101,Rayo Vallecano,277292,Adrià Pedrosa,D,1998-05-13T07:00Z,,ESPN roster,2025
 101,Rayo Vallecano,287224,Andrei Ratiu,D,1998-06-20T07:00Z,,ESPN roster,2025
 101,Rayo Vallecano,319231,Jozhua Vertrouwd,D,2004-08-21T07:00Z,,ESPN roster,2025
@@ -459,7 +464,7 @@
 243,Sevilla,203112,Marcão,D,1996-06-05T07:00Z,,ESPN roster,2025
 243,Sevilla,215386,Fábio Cardoso,D,1994-04-19T07:00Z,,ESPN roster,2025
 243,Sevilla,222037,Gabriel Suazo,D,1997-08-09T07:00Z,,ESPN roster,2025
-243,Sevilla,250508,José Ángel Carmona,D,2002-01-29T08:00Z,,ESPN roster,2025
+243,Sevilla,250508,Pepe Carmona,F,1995-02-17T08:00Z,,ESPN roster,2025
 243,Sevilla,279738,Juan Iglesias,D,1998-07-03T07:00Z,,ESPN roster,2025
 243,Sevilla,304213,Arouna Sangante,D,2002-04-12T07:00Z,,ESPN roster,2025
 243,Sevilla,332246,Andrés Castrín,D,2003-05-26T07:00Z,,ESPN roster,2025
@@ -501,6 +506,7 @@
 2922,Getafe,394958,Curro Burgos,D,2004-05-30T07:00Z,,ESPN roster,2025
 2922,Getafe,395479,Jean Ives Valou,D,2005-12-22T08:00Z,,ESPN roster,2025
 2922,Getafe,406832,Davinchi,D,2007-10-16T07:00Z,,ESPN roster,2025
+2922,Getafe,411023,Vladyslav Kysil,D,2005-06-14T07:00Z,,ESPN roster,2025
 2922,Getafe,136673,Nemanja Gudelj,M,1991-11-16T08:00Z,,ESPN roster,2025
 2922,Getafe,228424,Orel Mangala,M,1998-03-18T08:00Z,,ESPN roster,2025
 2922,Getafe,307186,Francho Serrano,M,2001-10-17T07:00Z,,ESPN roster,2025
@@ -516,6 +522,8 @@
 2922,Getafe,284854,Martín Satriano,F,2001-02-20T08:00Z,,ESPN roster,2025
 2922,Getafe,310259,Ivan Azón,F,2002-12-24T08:00Z,,ESPN roster,2025
 2922,Getafe,376208,Joselu Pérez,F,2004-03-12T08:00Z,,ESPN roster,2025
+2922,Getafe,3101327,Sebastián Salazar Trujillo,F,,,ESPN roster,2025
+2922,Getafe,3121766,Ibrahima Danfakha Keita,F,,,ESPN roster,2025
 2922,Getafe,3124560,Ibra Drammeh,F,2007-01-06T08:00Z,,ESPN roster,2025
 2922,Getafe,3139281,Moha Achraf,F,,,ESPN roster,2025
 1068,Atlético Madrid,149622,Jan Oblak,G,1993-01-07T08:00Z,,ESPN roster,2025
@@ -530,6 +538,7 @@
 1068,Atlético Madrid,354378,Jorge Domínguez,D,2009-12-21T08:00Z,,ESPN roster,2025
 1068,Atlético Madrid,368593,Daniel Martinez,D,2004-05-05T07:00Z,,ESPN roster,2025
 1068,Atlético Madrid,395579,Javier Gil,D,2006-05-03T07:00Z,,ESPN roster,2025
+1068,Atlético Madrid,3117200,Romeo Hueso Moya,D,,,ESPN roster,2025
 1068,Atlético Madrid,74630,Rodrigo Mendoza,M,2005-03-15T08:00Z,,ESPN roster,2025
 1068,Atlético Madrid,140791,Koke,M,1992-01-08T08:00Z,,ESPN roster,2025
 1068,Atlético Madrid,184757,Jorge Castillo,M,2006-05-23T07:00Z,,ESPN roster,2025
@@ -561,6 +570,7 @@
 83,Barcelona,323703,Alejandro Balde,D,2003-10-18T07:00Z,,ESPN roster,2025
 83,Barcelona,368992,Pau Cubarsí,D,2007-01-22T08:00Z,,ESPN roster,2025
 83,Barcelona,403582,Xavi Espart,D,2007-05-21T07:00Z,,ESPN roster,2025
+83,Barcelona,403583,Guillem Víctor,D,2007-05-03T07:00Z,,ESPN roster,2025
 83,Barcelona,416511,Jordi Pesquer,D,2009-01-26T08:00Z,,ESPN roster,2025
 83,Barcelona,219022,Frenkie de Jong,M,1997-05-12T07:00Z,,ESPN roster,2025
 83,Barcelona,227765,Dani Olmo,M,1998-05-07T07:00Z,,ESPN roster,2025
@@ -571,6 +581,7 @@
 83,Barcelona,376423,Marc Bernal,M,2007-05-26T07:00Z,,ESPN roster,2025
 83,Barcelona,403575,Brian Fariñas,M,2006-02-09T08:00Z,,ESPN roster,2025
 83,Barcelona,416496,Orian Goren,M,2009-03-15T07:00Z,,ESPN roster,2025
+83,Barcelona,416502,Ebrima Tunkara,M,2010-03-10T08:00Z,,ESPN roster,2025
 83,Barcelona,217289,Gabriel Jesus,F,1997-04-03T08:00Z,,ESPN roster,2025
 83,Barcelona,231050,Raphinha,F,1996-12-14T08:00Z,,ESPN roster,2025
 83,Barcelona,268782,Anthony Gordon,F,2001-02-24T08:00Z,,ESPN roster,2025
@@ -580,7 +591,6 @@
 83,Barcelona,365318,Jesse Bisiwu,F,2008-01-22T08:00Z,,ESPN roster,2025
 83,Barcelona,399200,Hamza Abdelkarim,F,2008-01-01T08:00Z,,ESPN roster,2025
 93,Athletic Club,222375,Unai Simón,G,1997-06-11T07:00Z,,ESPN roster,2025
-93,Athletic Club,287410,Mikel Santos,G,2004-11-01T08:00Z,,ESPN roster,2025
 93,Athletic Club,347411,Álex Padilla,G,2003-09-01T07:00Z,,ESPN roster,2025
 93,Athletic Club,133768,Yuri Berchiche,D,1990-02-10T08:00Z,,ESPN roster,2025
 93,Athletic Club,159317,Aymeric Laporte,D,1994-05-27T07:00Z,,ESPN roster,2025
@@ -608,9 +618,9 @@
 93,Athletic Club,323971,Nico Serrano,F,2003-03-05T08:00Z,,ESPN roster,2025
 93,Athletic Club,347033,Álvaro Djaló,F,1999-08-16T07:00Z,,ESPN roster,2025
 93,Athletic Club,393762,Maroan Sannadi,F,2001-02-01T08:00Z,,ESPN roster,2025
-93,Athletic Club,414464,Asier Hierro,F,2005-05-06T07:00Z,,ESPN roster,2025
 93,Athletic Club,422929,Christian Imga,F,2009-02-17T08:00Z,,ESPN roster,2025
 93,Athletic Club,3106512,Jesús Vizcay Hurtado,F,,,ESPN roster,2025
+93,Athletic Club,3122617,Aritz Conde Albiol,F,,,ESPN roster,2025
 97,Osasuna,144759,Aitor Fernández,G,1991-05-03T07:00Z,,ESPN roster,2025
 97,Osasuna,191360,Sergio Herrera,G,1993-06-05T07:00Z,,ESPN roster,2025
 97,Osasuna,403704,Rafa Fernández,G,2004-05-02T07:00Z,,ESPN roster,2025
@@ -815,13 +825,14 @@
 1538,Levante,3129044,Ihor Galdin,G,,,ESPN roster,2025
 1538,Levante,150451,Aïssa Mandi,D,1991-10-22T07:00Z,,ESPN roster,2025
 1538,Levante,186024,Jeremy Toljan,D,1994-08-08T07:00Z,,ESPN roster,2025
-1538,Levante,203680,Víctor García,D,1994-06-11T07:00Z,,ESPN roster,2025
+1538,Levante,203680,Víctor García,D,1997-09-16T07:00Z,,ESPN roster,2025
 1538,Levante,276841,Adrián de la Fuente,D,1999-02-26T08:00Z,,ESPN roster,2025
 1538,Levante,300985,Manu Sánchez,D,2000-08-24T07:00Z,,ESPN roster,2025
 1538,Levante,381071,Jorge Cabello,D,2004-04-25T07:00Z,,ESPN roster,2025
 1538,Levante,396655,Axel Tape,D,2007-08-10T07:00Z,,ESPN roster,2025
 1538,Levante,407397,Ifeanyi Ndukwe,D,2008-03-03T08:00Z,,ESPN roster,2025
 1538,Levante,409383,Nacho Pérez,D,2008-09-01T07:00Z,,ESPN roster,2025
+1538,Levante,414295,Huseini Nakoha,D,2006-09-13T07:00Z,,ESPN roster,2025
 1538,Levante,3129043,Marc Santos Gavilán,D,,,ESPN roster,2025
 1538,Levante,267591,Roger Brugué,M,1996-11-04T08:00Z,,ESPN roster,2025
 1538,Levante,269339,Orio Rey,M,1998-02-25T08:00Z,,ESPN roster,2025

@@ -18,7 +18,7 @@
 2927,Caen,144018,Mathias Autret,M,1991-03-01T08:00Z,,ESPN roster,2025
 2927,Caen,256549,Lorenzo Rajot,M,1997-10-13T07:00Z,,ESPN roster,2025
 2927,Caen,276970,Yassin Benrahou,M,1999-01-24T08:00Z,,ESPN roster,2025
-2927,Caen,279137,Bilal Brahimi,F,2000-03-14T08:00Z,,ESPN roster,2025
+2927,Caen,279137,Brahimi Bilal,M,2000-03-28T08:00Z,,ESPN roster,2025
 2927,Caen,340685,Noé Lebreton,M,2004-04-22T07:00Z,,ESPN roster,2025
 2927,Caen,356300,Daouda Koné,D,2003-10-10T07:00Z,,ESPN roster,2025
 2927,Caen,388893,Zoumana Bagbema,M,2004-01-13T08:00Z,,ESPN roster,2025
@@ -58,7 +58,7 @@
 159,Bordeaux,333212,Emeric Depussay,M,2001-08-27T07:00Z,,ESPN roster,2025
 159,Bordeaux,346535,Lenny Pirringuel,M,2004-03-02T08:00Z,,ESPN roster,2025
 159,Bordeaux,356211,Emmanuel Biumla,M,2005-05-08T07:00Z,,ESPN roster,2025
-159,Bordeaux,368008,Mathias de Amorim,M,2004-12-10T08:00Z,,ESPN roster,2025
+159,Bordeaux,368008,Mathias De Amorim,M,2004-12-10T08:00Z,,ESPN roster,2025
 159,Bordeaux,376176,Dimitri Manyim,M,2005-03-06T08:00Z,,ESPN roster,2025
 159,Bordeaux,378981,Alpha Diallo,M,2006-02-25T08:00Z,,ESPN roster,2025
 159,Bordeaux,384481,Joss Marques Da Silva,M,2004-01-14T08:00Z,,ESPN roster,2025
@@ -109,6 +109,7 @@
 272,Sochaux,164113,Mehdi Jeannin,G,1991-04-20T07:00Z,,ESPN roster,2025
 272,Sochaux,310715,Alexandre Pierre,G,2001-02-25T08:00Z,,ESPN roster,2025
 272,Sochaux,398048,Matthis Schübler-Lecart,G,2007-01-18T08:00Z,,ESPN roster,2025
+272,Sochaux,5328002,Grégory Hoareau,G,,,ESPN roster,2025
 272,Sochaux,127527,Mathieu Peybernes,D,1990-10-21T07:00Z,,ESPN roster,2025
 272,Sochaux,215540,Benjaloud Youssouf,D,1994-02-11T08:00Z,,ESPN roster,2025
 272,Sochaux,299908,Saad Agouzoul,D,1997-08-10T07:00Z,,ESPN roster,2025
@@ -116,10 +117,10 @@
 272,Sochaux,334280,Arthur Vitelli,D,2000-06-04T07:00Z,,ESPN roster,2025
 272,Sochaux,377891,Dalangunypole Gomis,D,2004-06-28T07:00Z,,ESPN roster,2025
 272,Sochaux,398777,Élie N'Gatta,D,2006-02-15T08:00Z,,ESPN roster,2025
-272,Sochaux,417803,Mohamed Toure,D,2005-12-12T08:00Z,,ESPN roster,2025
+272,Sochaux,417803,Mohamed Touré,D,2002-07-21T07:00Z,,ESPN roster,2025
 272,Sochaux,222178,Yohan Demoncy,M,1996-04-07T08:00Z,,ESPN roster,2025
 272,Sochaux,223123,Jonathan Mexique,M,1995-03-10T08:00Z,,ESPN roster,2025
-272,Sochaux,254167,Julien Masson,M,1998-06-18T07:00Z,,ESPN roster,2025
+272,Sochaux,254167,Julien Masson,M,2000-07-01T07:00Z,,ESPN roster,2025
 272,Sochaux,277515,Victor Lobry,M,1995-06-16T07:00Z,,ESPN roster,2025
 272,Sochaux,397408,Honoré Bayanginisa,M,2006-04-27T07:00Z,,ESPN roster,2025
 272,Sochaux,416029,Pape Yatma Diop,M,,,ESPN roster,2025
@@ -232,7 +233,7 @@
 3170,Dijon FCO,113289,Paul Delecroix,G,1988-10-14T07:00Z,,ESPN roster,2025
 3170,Dijon FCO,413851,Ylann Marie-Rose,G,2008-08-20T07:00Z,,ESPN roster,2025
 3170,Dijon FCO,3124727,Enzo Ketterle,G,,,ESPN roster,2025
-3170,Dijon FCO,24020,Boubacar Diallo,M,2002-12-09T08:00Z,,ESPN roster,2025
+3170,Dijon FCO,24020,Boubacar Diallo,D,2005-07-17T07:00Z,,ESPN roster,2025
 3170,Dijon FCO,170261,Quentin Bernard,D,1989-07-07T07:00Z,,ESPN roster,2025
 3170,Dijon FCO,256678,Waly Diouf,D,1997-05-05T07:00Z,,ESPN roster,2025
 3170,Dijon FCO,300971,Lenny Lacroix,D,2003-02-06T08:00Z,,ESPN roster,2025
@@ -275,10 +276,9 @@
 10678,Pau,414526,Axel Dodote,D,2007-01-18T08:00Z,,ESPN roster,2025
 10678,Pau,193806,Cheikh Fall,M,2004-02-25T08:00Z,,ESPN roster,2025
 10678,Pau,207002,Jessy Benet,M,1995-06-24T07:00Z,,ESPN roster,2025
-10678,Pau,213103,Antonin Bobichon,M,1995-09-14T07:00Z,,ESPN roster,2025
 10678,Pau,245912,Quentin Daubin,M,1995-07-03T07:00Z,,ESPN roster,2025
 10678,Pau,256549,Lorenzo Rajot,M,1997-10-13T07:00Z,,ESPN roster,2025
-10678,Pau,279137,Bilal Brahimi,F,2000-03-14T08:00Z,,ESPN roster,2025
+10678,Pau,279137,Brahimi Bilal,M,2000-03-28T08:00Z,,ESPN roster,2025
 10678,Pau,344519,Tom Pouilly,M,2003-06-18T07:00Z,,ESPN roster,2025
 10678,Pau,390612,Kylian Gasnier,M,2002-06-30T07:00Z,,ESPN roster,2025
 10678,Pau,408785,Luan Gadegbeku,M,2007-03-13T07:00Z,,ESPN roster,2025
@@ -312,6 +312,8 @@
 6994,Grenoble,383114,Owen Martinez-Jullien,M,2005-04-13T07:00Z,,ESPN roster,2025
 6994,Grenoble,408777,Charlie Dressel,M,2005-09-30T07:00Z,,ESPN roster,2025
 6994,Grenoble,3114852,Jean-Guy Akpa Akpro,M,,,ESPN roster,2025
+6994,Grenoble,5332132,Manny Vincent Max Allégret,M,,,ESPN roster,2025
+6994,Grenoble,5332133,Romain Da Silva Pereira,M,,,ESPN roster,2025
 6994,Grenoble,275008,Moussa Djitté,F,1999-10-04T07:00Z,,ESPN roster,2025
 6994,Grenoble,290160,Ugo Bonnet,F,1993-09-17T07:00Z,,ESPN roster,2025
 6994,Grenoble,296623,Dillion Hoogerwerf,F,2003-02-27T08:00Z,,ESPN roster,2025
@@ -323,7 +325,7 @@
 7719,Rodez Aveyron,231381,Quentin Braat,G,1997-07-06T07:00Z,,ESPN roster,2025
 7719,Rodez Aveyron,304184,Lucas Margueron,G,2001-02-12T08:00Z,,ESPN roster,2025
 7719,Rodez Aveyron,364748,Enzo Crombez,G,2003-03-23T08:00Z,,ESPN roster,2025
-7719,Rodez Aveyron,161735,Mohamed Sylla,D,2004-01-30T08:00Z,,ESPN roster,2025
+7719,Rodez Aveyron,161735,Mohamed Sylla,D,2009-02-01T08:00Z,,ESPN roster,2025
 7719,Rodez Aveyron,291263,Steven Luyambulabiwa,D,2002-10-09T07:00Z,,ESPN roster,2025
 7719,Rodez Aveyron,291714,Jean Lambert Evans,D,1998-12-17T08:00Z,,ESPN roster,2025
 7719,Rodez Aveyron,301249,Ryan Ponti,D,1998-06-22T07:00Z,,ESPN roster,2025
@@ -498,7 +500,6 @@
 171,Guingamp,332894,Amine Hemia,M,1998-01-22T08:00Z,,ESPN roster,2025
 171,Guingamp,333031,Stanislas Kielt,M,2001-11-27T08:00Z,,ESPN roster,2025
 171,Guingamp,399718,Tanguy Ahile,M,2004-09-07T07:00Z,,ESPN roster,2025
-171,Guingamp,409009,Ibrahima Diakité,M,2007-06-03T07:00Z,,ESPN roster,2025
 171,Guingamp,416396,Joël Matondo,M,2005-01-27T08:00Z,,ESPN roster,2025
 171,Guingamp,3099608,Samir Ben Brahim,M,,,ESPN roster,2025
 171,Guingamp,3122299,Ewan Aucan,M,,,ESPN roster,2025
@@ -588,7 +589,7 @@
 6732,Valenciennes,377711,Tanguy Lienard,D,2005-04-04T07:00Z,,ESPN roster,2025
 6732,Valenciennes,380201,Marvyn Vialaneix,D,2001-11-18T08:00Z,,ESPN roster,2025
 6732,Valenciennes,164367,Anthony Knockaert,M,1991-11-20T08:00Z,,ESPN roster,2025
-6732,Valenciennes,254167,Julien Masson,M,1998-06-18T07:00Z,,ESPN roster,2025
+6732,Valenciennes,254167,Julien Masson,M,2000-07-01T07:00Z,,ESPN roster,2025
 6732,Valenciennes,299398,Aymen Boutoutaou,F,2001-02-18T08:00Z,,ESPN roster,2025
 6732,Valenciennes,307947,David Kruse,M,2002-05-15T07:00Z,,ESPN roster,2025
 6732,Valenciennes,315647,Jean Eric Moursou,M,2004-12-31T08:00Z,,ESPN roster,2025
@@ -623,7 +624,7 @@
 18066,Annecy,345324,Alexis Casadei,M,2004-12-23T08:00Z,,ESPN roster,2025
 18066,Annecy,385004,Mohamed Koné,M,2007-07-03T07:00Z,,ESPN roster,2025
 18066,Annecy,389654,Pascal Mozie,M,2008-05-06T07:00Z,,ESPN roster,2025
-18066,Annecy,396903,Souleymane Fofana,D,2003-02-01T08:00Z,,ESPN roster,2025
+18066,Annecy,396903,Souleymane Fofana,M,2003-02-01T08:00Z,,ESPN roster,2025
 18066,Annecy,398159,Kilyan Veniere,M,2006-08-18T07:00Z,,ESPN roster,2025
 18066,Annecy,406418,Paul Venot,M,2001-10-07T07:00Z,,ESPN roster,2025
 18066,Annecy,251313,Antoine Larose,F,1993-01-28T08:00Z,,ESPN roster,2025
@@ -671,7 +672,7 @@
 7718,Concarneau,118251,Julien Faussurier,D,1987-01-14T08:00Z,,ESPN roster,2025
 7718,Concarneau,159186,Issouf Paro,D,1994-10-16T07:00Z,,ESPN roster,2025
 7718,Concarneau,197851,Guillaume Jannez,D,1989-02-19T08:00Z,,ESPN roster,2025
-7718,Concarneau,218438,Mamadou Sylla,M,2005-12-05T08:00Z,,ESPN roster,2025
+7718,Concarneau,218438,Mamadou Sylla,D,1995-06-28T07:00Z,,ESPN roster,2025
 7718,Concarneau,221548,Alec Georgen,D,1998-09-17T07:00Z,,ESPN roster,2025
 7718,Concarneau,259471,Julien Celestine,D,1997-07-24T07:00Z,,ESPN roster,2025
 7718,Concarneau,284050,Romain Sans,D,1999-03-19T08:00Z,,ESPN roster,2025
@@ -698,7 +699,7 @@
 7732,Dunkerque,214457,Maxence Prevot,G,1997-04-09T07:00Z,,ESPN roster,2025
 7732,Dunkerque,266946,Moha Ramos,G,2000-04-13T07:00Z,,ESPN roster,2025
 7732,Dunkerque,416258,Mouhamed Sissokho,G,2005-01-21T08:00Z,,ESPN roster,2025
-7732,Dunkerque,416264,Clément Moulun,G,2007-01-26T08:00Z,,ESPN roster,2025
+7732,Dunkerque,197881,Opa Sanganté,D,1991-02-01T08:00Z,,ESPN roster,2025
 7732,Dunkerque,251494,Lenny Vallier,D,1999-04-24T07:00Z,,ESPN roster,2025
 7732,Dunkerque,283608,Allan Linguet,D,1999-08-17T07:00Z,,ESPN roster,2025
 7732,Dunkerque,333766,Bram Lagae,D,2004-01-14T08:00Z,,ESPN roster,2025
@@ -709,7 +710,6 @@
 7732,Dunkerque,105727,Souleymane Keita,M,2005-12-23T08:00Z,,ESPN roster,2025
 7732,Dunkerque,113290,Steven N'Zonzi,M,1988-12-15T08:00Z,,ESPN roster,2025
 7732,Dunkerque,194072,Abner,M,1996-05-30T07:00Z,,ESPN roster,2025
-7732,Dunkerque,197881,Opa Sanganté,M,1991-02-01T08:00Z,,ESPN roster,2025
 7732,Dunkerque,290652,Adrien Lebeau,M,1999-07-08T07:00Z,,ESPN roster,2025
 7732,Dunkerque,308139,Egor Prutsev,M,2002-12-23T08:00Z,,ESPN roster,2025
 7732,Dunkerque,408329,Théna Massock,M,2007-09-18T07:00Z,,ESPN roster,2025
@@ -751,7 +751,7 @@
 170,Troyes,176406,Renaud Ripart,F,1993-03-14T08:00Z,,ESPN roster,2025
 170,Troyes,282290,Mounaim El Idrissy,F,1999-02-10T08:00Z,,ESPN roster,2025
 170,Troyes,298511,Kandet Diawara,F,2000-02-10T08:00Z,,ESPN roster,2025
-170,Troyes,377495,Ibrahim Traoré,F,2006-03-12T08:00Z,,ESPN roster,2025
+170,Troyes,377495,Ibrahim Traoré,D,2006-03-12T08:00Z,,ESPN roster,2025
 170,Troyes,382432,Tawfik Bentayeb,F,2002-01-14T08:00Z,,ESPN roster,2025
 170,Troyes,397994,Mathys Detourbet,F,2007-04-29T07:00Z,,ESPN roster,2025
 170,Troyes,403998,Christ Batola,F,2009-06-03T07:00Z,,ESPN roster,2025
@@ -863,7 +863,7 @@
 11884,Red Star FC 93,192989,Saif-Eddine Khaoui,M,1995-04-27T07:00Z,,ESPN roster,2025
 11884,Red Star FC 93,298815,Samuel Renel,M,2001-11-03T08:00Z,,ESPN roster,2025
 11884,Red Star FC 93,344610,Guilaume Trani,M,1997-12-17T08:00Z,,ESPN roster,2025
-11884,Red Star FC 93,359153,Cheick Konate,D,2004-04-02T08:00Z,,ESPN roster,2025
+11884,Red Star FC 93,359153,Cheick Konate,M,2005-08-10T07:00Z,,ESPN roster,2025
 11884,Red Star FC 93,409687,Islamdine Halifa,M,2004-12-20T08:00Z,,ESPN roster,2025
 11884,Red Star FC 93,421928,Idrissa Sabaly,M,2007-11-23T08:00Z,,ESPN roster,2025
 11884,Red Star FC 93,281523,Kévin Cabral,F,1999-07-10T07:00Z,,ESPN roster,2025
@@ -890,7 +890,7 @@
 11312,Martigues,276380,Mahamé Siby,M,1996-07-07T07:00Z,,ESPN roster,2025
 11312,Martigues,284387,Francis Kembolo Luyeye,M,1990-11-27T08:00Z,,ESPN roster,2025
 11312,Martigues,332827,Milan Robin,M,1999-11-24T08:00Z,,ESPN roster,2025
-11312,Martigues,345529,Mohamed Bamba,M,2004-10-08T07:00Z,,ESPN roster,2025
+11312,Martigues,345529,Mohamed Bamba,F,2001-12-10T08:00Z,,ESPN roster,2025
 11312,Martigues,386385,Samir Belloumou,M,1994-05-02T07:00Z,,ESPN roster,2025
 11312,Martigues,397841,Mohamed Kamardine,M,2002-09-30T07:00Z,,ESPN roster,2025
 11312,Martigues,45177,Abdoul Diawara,F,1990-09-30T07:00Z,,ESPN roster,2025
@@ -905,7 +905,7 @@
 273,Lorient,139363,Benjamin Leroy,G,1989-04-07T07:00Z,,ESPN roster,2025
 273,Lorient,199381,Yvon Mvogo,G,1994-06-06T07:00Z,,ESPN roster,2025
 273,Lorient,387404,Gael Alette,G,2001-04-27T07:00Z,,ESPN roster,2025
-273,Lorient,137397,Formose Mendy,D,2001-01-02T08:00Z,,ESPN roster,2025
+273,Lorient,137397,Formose Mendy,D,1993-10-08T07:00Z,,ESPN roster,2025
 273,Lorient,198344,Igor Silva,D,1996-08-21T07:00Z,,ESPN roster,2025
 273,Lorient,217170,Julien Laporte,D,1993-11-04T08:00Z,,ESPN roster,2025
 273,Lorient,265099,Montassar Talbi,D,1998-05-26T07:00Z,,ESPN roster,2025
@@ -1006,7 +1006,7 @@
 3267,AS Nancy Lorraine,378257,Elydjah Mendy,D,2000-03-14T08:00Z,,ESPN roster,2025
 3267,AS Nancy Lorraine,388894,Heliodino Tavares,D,2004-10-14T07:00Z,,ESPN roster,2025
 3267,AS Nancy Lorraine,406421,Enzo Tacafred,D,2005-04-08T07:00Z,,ESPN roster,2025
-3267,AS Nancy Lorraine,164551,Mamadou Fofana,D,1998-01-21T08:00Z,,ESPN roster,2025
+3267,AS Nancy Lorraine,164551,Mamadou Fofana,M,2000-09-17T07:00Z,,ESPN roster,2025
 3267,AS Nancy Lorraine,227888,Jérémy Gelin,M,1997-04-24T07:00Z,,ESPN roster,2025
 3267,AS Nancy Lorraine,399287,Joel-Emmanuel Coulibaly,M,2007-05-11T07:00Z,,ESPN roster,2025
 3267,AS Nancy Lorraine,408534,Chafik El Hansar,M,2005-04-13T07:00Z,,ESPN roster,2025
@@ -1059,10 +1059,10 @@
 3243,Stade de Reims,415930,Arone Gadou,F,2009-01-19T08:00Z,,ESPN roster,2025
 3243,Stade de Reims,418590,Lenny Sylla,F,2006-11-25T08:00Z,,ESPN roster,2025
 3243,Stade de Reims,3121042,Amine Kashi,F,,,ESPN roster,2025
-7869,Boulogne,41549,Ibrahima Koné,F,1999-06-16T07:00Z,,ESPN roster,2025
+7869,Boulogne,41549,Ibrahim Koné,G,1989-12-05T08:00Z,,ESPN roster,2025
 7869,Boulogne,224795,Xavier Lenogue,G,1996-12-27T08:00Z,,ESPN roster,2025
 7869,Boulogne,304207,Blondy Nna Noukeu,G,2001-05-31T07:00Z,,ESPN roster,2025
-7869,Boulogne,250460,Demba Thiam,D,1989-12-02T08:00Z,,ESPN roster,2025
+7869,Boulogne,250460,Demba Thiam,G,1998-03-05T08:00Z,,ESPN roster,2025
 7869,Boulogne,270146,Julien Boyer,D,1998-04-10T07:00Z,,ESPN roster,2025
 7869,Boulogne,305141,Theo Brusco,D,1999-11-20T08:00Z,,ESPN roster,2025
 7869,Boulogne,313086,Adrien Pinot,D,2001-05-06T07:00Z,,ESPN roster,2025
