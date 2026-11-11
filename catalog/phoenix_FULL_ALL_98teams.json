@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-10T19:35:17.490167+00:00",
+    "updated_at": "2026-11-11T01:43:33.212912+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -831,7 +831,7 @@
             "player_id": "176789",
             "name": "Ben Doak",
             "pos": "Offence",
-            "age": 20,
+            "age": 21,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -7455,7 +7455,7 @@
             "player_id": "290848",
             "name": "César Palacios",
             "pos": "Midfield",
-            "age": 21,
+            "age": 22,
             "goals": null,
             "assists": null,
             "apps": null,
