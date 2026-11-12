@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-11T19:38:14.419840+00:00",
+    "updated_at": "2026-11-12T07:41:12.357316+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -10697,7 +10697,7 @@
             "player_id": "168712",
             "name": "Valentino Livramento",
             "pos": "Defence",
-            "age": 23,
+            "age": 24,
             "goals": null,
             "assists": null,
             "apps": null,
