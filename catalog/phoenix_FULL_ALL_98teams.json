@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-12T20:25:37.587846+00:00",
+    "updated_at": "2026-11-13T07:12:44.499174+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -9869,7 +9869,7 @@
             "player_id": "181933",
             "name": "Leny Yoro",
             "pos": "Defence",
-            "age": 20,
+            "age": 21,
             "goals": null,
             "assists": null,
             "apps": null,
