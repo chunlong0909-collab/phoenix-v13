@@ -1,0 +1,81 @@
+{
+  "run_timestamp": "2026-11-13 10:23 HKT",
+  "league": "EPL",
+  "season": "2026/27",
+  "candidates": 100,
+  "written": 0,
+  "missing_matches": 100,
+  "insufficient_data_reasons": {
+    "缺少官方 fixtures API 賽前排名（開賽日前無已完場賽事可重建）": 10,
+    "缺少 phoenix_auto_matches 內 verified_ft=1（Managed MySQL 無法存取）": 100,
+    "缺少 Phoenix 近 10 場模型方向": 10
+  },
+  "odds_complete": 100,
+  "standings_ok": 90,
+  "standings_coverage": 90.0,
+  "last10_ok": 90,
+  "last10_coverage": 90.0,
+  "complete_write_coverage": 0.0,
+  "today_model_market_agreement": 54.44,
+  "today_model_market_matches": "49/90",
+  "total_calibration_samples": 73,
+  "agreement_rate": 57.53,
+  "agreement_matches": "42/73",
+  "mysql": {
+    "available": false,
+    "driver": null,
+    "total_samples": 73,
+    "agreement_rate": 57.53,
+    "agreement_matches": "42/73",
+    "status_row": null,
+    "error": "no Managed MySQL DSN or PHOENIX_MYSQL_* environment variables in this scheduled task",
+    "value_kind": "last_known_from_20261111_report_not_re_queried"
+  },
+  "thresholds": {
+    "samples_ge_30": true,
+    "agreement_ge_60": false,
+    "last10_coverage_ge_80": true,
+    "official_standings_coverage_ge_80": true
+  },
+  "status": "未校準，保持未校準並停用 EV（Managed MySQL 無法存取，未能更新 phoenix_league_calibration_status）",
+  "ev_enabled": false,
+  "sources": [
+    {
+      "url": "https://football-data.co.uk/mmz4281/2627/E0.csv",
+      "fetch_time": "2026-11-13 10:20 HKT",
+      "type": "Football-Data.co.uk 季節 CSV（Bet365 賽前 W/D/L 賠率，100/100 完整）"
+    },
+    {
+      "url": "https://footballapi.pulselive.com/football/fixtures?comps=1&compSeasons=841&compsCodeForSort=PL&altIds=true&page=0&pageSize=1000",
+      "fetch_time": "2026-11-13 10:20 HKT",
+      "type": "Premier League 官方 fixtures API（100 場已完場，按開賽日前重建賽前排名）"
+    },
+    {
+      "url": "Managed MySQL: phoenix_auto_matches / phoenix_epl_calibration_samples / phoenix_league_calibration_status",
+      "fetch_time": "2026-11-13 10:23 HKT",
+      "type": "無連線：no Managed MySQL DSN or PHOENIX_MYSQL_* environment variables in this scheduled task；verified_ft 一律記 Insufficient Data，未寫入任何樣本或狀態"
+    }
+  ],
+  "verification": {
+    "phoenix_auto_matches_written": 0,
+    "phoenix_odds_written": 0,
+    "phoenix_auto_team_stats_written": 0,
+    "sqlite_results_tables_written": 0,
+    "api_football_odds_endpoint_used": false,
+    "API_FOOTBALL_TOKEN_used": false,
+    "Football-Data_FT_fallback_used": false
+  },
+  "data_quality": {
+    "model_source": "football_complete.db fixtures (read-only)",
+    "model_raw_rows": 65961,
+    "model_parsed_rows": 65961,
+    "model_mapping": "established alias mapping from scripts/epl_calibration_collector.py; unchanged for continuity",
+    "official_completed_fixtures": 100,
+    "gameweek1_without_prior_table": 10,
+    "coventry_matches_without_10_prior_epl": 10,
+    "note": "Coventry 是升班馬，既有 Phoenix 模型只有 7 場英超紀錄；不足 10 場即 Insufficient Data，沒有借用英冠數據補數。"
+  },
+  "note": "缺少 verified FT 不用 Football-Data FT 補數；任何缺資料均記 Insufficient Data，不估算、不補數。",
+  "next_scheduled_run": "2026-11-14 10:00 HKT",
+  "championship_laliga_status": "英超未達標，不開始英冠或西甲"
+}

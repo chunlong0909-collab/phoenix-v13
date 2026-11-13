@@ -1,0 +1,101 @@
+date,kickoff,home,away,b365h,b365d,b365a,odds_ok,market_top,official_home_rank,official_away_rank,standings_ok,verified_ft_ok,model_top,complete,insufficient_reasons
+2026-08-21,20:00,Arsenal,Coventry,1.2,7,13,True,H,,,False,False,,False,official_standings;verified_ft;last10_model
+2026-08-22,12:30,Hull,Man United,8.5,5,1.36,True,A,,,False,False,A,False,official_standings;verified_ft
+2026-08-22,15:00,Everton,Crystal Palace,2.15,3.5,3.3,True,H,,,False,False,H,False,official_standings;verified_ft
+2026-08-22,15:00,Ipswich,Sunderland,2.7,3.3,2.63,True,A,,,False,False,H,False,official_standings;verified_ft
+2026-08-22,15:00,Nott'm Forest,Leeds,2.3,3.4,3.1,True,H,,,False,False,H,False,official_standings;verified_ft
+2026-08-22,17:30,Brentford,Tottenham,2.4,3.7,2.75,True,H,,,False,False,A,False,official_standings;verified_ft
+2026-08-23,14:00,Brighton,Aston Villa,2.15,3.6,3,True,H,,,False,False,A,False,official_standings;verified_ft
+2026-08-23,14:00,Man City,Bournemouth,1.48,4.5,6.25,True,H,,,False,False,H,False,official_standings;verified_ft
+2026-08-23,16:30,Newcastle,Liverpool,4,3.8,1.9,True,A,,,False,False,H,False,official_standings;verified_ft
+2026-08-24,20:00,Fulham,Chelsea,3.6,3.8,1.9,True,A,,,False,False,H,False,official_standings;verified_ft
+2026-08-28,20:00,Crystal Palace,Man City,5,3.9,1.67,True,A,17,8,True,False,A,False,verified_ft
+2026-08-29,12:30,Liverpool,Nott'm Forest,1.5,4.5,5.75,True,H,11,15,True,False,A,False,verified_ft
+2026-08-29,15:00,Bournemouth,Everton,2.05,3.5,3.6,True,H,14,6,True,False,H,False,verified_ft
+2026-08-29,15:00,Coventry,Hull,1.9,3.5,4.2,True,H,17,5,True,False,,False,verified_ft;last10_model
+2026-08-29,17:30,Tottenham,Newcastle,2.25,3.75,2.9,True,H,18,10,True,False,A,False,verified_ft
+2026-08-30,14:00,Chelsea,Brighton,1.83,4,4,True,H,8,5,True,False,A,False,verified_ft
+2026-08-30,14:00,Leeds,Brentford,2.6,3.3,2.7,True,H,10,7,True,False,H,False,verified_ft
+2026-08-30,14:00,Sunderland,Fulham,2.4,3.2,3.1,True,H,15,14,True,False,H,False,verified_ft
+2026-08-30,16:30,Man United,Ipswich,1.42,5,7,True,H,16,9,True,False,A,False,verified_ft
+2026-08-31,20:00,Aston Villa,Arsenal,6,4.1,1.53,True,A,18,9,True,False,A,False,verified_ft
+2026-09-04,20:00,Ipswich,Liverpool,5.25,4.75,1.5,True,A,12,13,True,False,H,False,verified_ft
+2026-09-05,12:30,Newcastle,Bournemouth,2.1,3.6,3.3,True,H,7,15,True,False,D,False,verified_ft
+2026-09-05,15:00,Brentford,Sunderland,1.62,3.9,5.5,True,H,6,12,True,False,A,False,verified_ft
+2026-09-05,15:00,Brighton,Leeds,1.95,3.5,3.9,True,H,10,9,True,False,H,False,verified_ft
+2026-09-05,15:00,Fulham,Crystal Palace,2.3,3.25,3.25,True,H,16,18,True,False,H,False,verified_ft
+2026-09-05,15:00,Man City,Coventry,1.18,8,12,True,H,1,17,True,False,,False,verified_ft;last10_model
+2026-09-05,15:00,Nott'm Forest,Tottenham,2.4,3.4,2.9,True,H,14,19,True,False,H,False,verified_ft
+2026-09-05,17:30,Hull,Aston Villa,4.2,3.6,1.85,True,A,3,20,True,False,A,False,verified_ft
+2026-09-06,14:00,Everton,Man United,3.3,3.5,2.1,True,A,10,12,True,False,A,False,verified_ft
+2026-09-06,16:30,Arsenal,Chelsea,1.67,3.75,5.25,True,H,3,4,True,False,H,False,verified_ft
+2026-09-12,15:00,Aston Villa,Nott'm Forest,2.2,3.4,3.25,True,H,18,16,True,False,H,False,verified_ft
+2026-09-12,15:00,Bournemouth,Brentford,2.5,3.6,2.7,True,H,15,5,True,False,D,False,verified_ft
+2026-09-12,15:00,Chelsea,Hull,1.22,6.5,11,True,H,4,3,True,False,A,False,verified_ft
+2026-09-12,15:00,Crystal Palace,Ipswich,1.85,3.8,3.9,True,H,13,14,True,False,A,False,verified_ft
+2026-09-12,15:00,Liverpool,Fulham,1.42,5,6.25,True,H,7,19,True,False,A,False,verified_ft
+2026-09-12,17:30,Tottenham,Everton,2,3.6,3.6,True,H,17,8,True,False,A,False,verified_ft
+2026-09-12,20:00,Sunderland,Arsenal,7.5,4.1,1.48,True,A,12,2,True,False,A,False,verified_ft
+2026-09-13,14:00,Coventry,Brighton,3.8,3.9,1.9,True,A,20,12,True,False,,False,verified_ft;last10_model
+2026-09-13,16:30,Man United,Man City,3.25,3.8,2.1,True,A,13,2,True,False,A,False,verified_ft
+2026-09-14,20:00,Leeds,Newcastle,2.38,3.5,2.88,True,H,11,10,True,False,A,False,verified_ft
+2026-09-18,20:00,Brentford,Chelsea,2.55,3.8,2.45,True,A,7,6,True,False,H,False,verified_ft
+2026-09-19,12:30,Tottenham,Aston Villa,2,3.5,3.7,True,H,17,19,True,False,A,False,verified_ft
+2026-09-19,15:00,Brighton,Arsenal,5,3.9,1.67,True,A,6,1,True,False,A,False,verified_ft
+2026-09-19,15:00,Everton,Ipswich,1.75,3.8,4.5,True,H,9,10,True,False,A,False,verified_ft
+2026-09-19,15:00,Newcastle,Hull,1.6,4.33,5,True,H,12,5,True,False,A,False,verified_ft
+2026-09-19,17:30,Nott'm Forest,Coventry,1.57,4,5.75,True,H,11,20,True,False,,False,verified_ft;last10_model
+2026-09-20,14:00,Bournemouth,Liverpool,3.2,3.8,2.1,True,A,16,10,True,False,H,False,verified_ft
+2026-09-20,14:00,Leeds,Crystal Palace,1.73,3.9,4.75,True,H,6,17,True,False,H,False,verified_ft
+2026-09-20,14:00,Man City,Sunderland,1.3,5.5,9,True,H,1,14,True,False,H,False,verified_ft
+2026-09-20,16:30,Fulham,Man United,3.5,3.8,2,True,A,20,13,True,False,D,False,verified_ft
+2026-10-10,12:30,Arsenal,Leeds,1.4,5,7.5,True,H,2,5,True,False,H,False,verified_ft
+2026-10-10,15:00,Aston Villa,Brentford,2.63,3.5,2.6,True,A,16,4,True,False,A,False,verified_ft
+2026-10-10,15:00,Chelsea,Bournemouth,1.65,4.33,4.5,True,H,10,17,True,False,A,False,verified_ft
+2026-10-10,15:00,Ipswich,Fulham,2.8,3.4,2.5,True,A,11,19,True,False,H,False,verified_ft
+2026-10-10,15:00,Sunderland,Brighton,3.1,3.5,2.25,True,A,14,3,True,False,H,False,verified_ft
+2026-10-10,17:30,Man United,Tottenham,1.7,4.2,4.5,True,H,12,20,True,False,H,False,verified_ft
+2026-10-11,14:00,Crystal Palace,Nott'm Forest,2.7,3.2,2.7,True,H,15,13,True,False,A,False,verified_ft
+2026-10-11,14:00,Hull,Everton,3.7,3.4,2.05,True,A,10,8,True,False,H,False,verified_ft
+2026-10-11,16:30,Liverpool,Man City,2.7,3.6,2.45,True,A,7,1,True,False,A,False,verified_ft
+2026-10-12,20:00,Coventry,Newcastle,3.3,3.7,2.1,True,A,19,11,True,False,,False,verified_ft;last10_model
+2026-10-17,12:30,Everton,Chelsea,3.2,3.8,2.1,True,A,5,6,True,False,A,False,verified_ft
+2026-10-17,15:00,Brentford,Liverpool,2.3,3.75,2.88,True,H,4,9,True,False,H,False,verified_ft
+2026-10-17,15:00,Fulham,Hull,1.73,3.9,4.5,True,H,20,8,True,False,A,False,verified_ft
+2026-10-17,15:00,Man City,Ipswich,1.22,7,11,True,H,1,10,True,False,H,False,verified_ft
+2026-10-17,17:30,Newcastle,Aston Villa,2.25,3.6,3,True,H,11,16,True,False,H,False,verified_ft
+2026-10-18,14:00,Bournemouth,Sunderland,2.05,3.5,3.6,True,H,19,18,True,False,A,False,verified_ft
+2026-10-18,14:00,Brighton,Crystal Palace,1.53,4.5,5.5,True,H,3,13,True,False,H,False,verified_ft
+2026-10-18,14:00,Leeds,Man United,2.35,3.6,2.9,True,H,8,14,True,False,A,False,verified_ft
+2026-10-18,16:30,Nott'm Forest,Arsenal,6,3.9,1.6,True,A,17,2,True,False,A,False,verified_ft
+2026-10-19,20:00,Tottenham,Coventry,1.45,4.5,7,True,H,20,16,True,False,,False,verified_ft;last10_model
+2026-10-23,20:00,Ipswich,Nott'm Forest,3.1,3.4,2.3,True,A,10,19,True,False,H,False,verified_ft
+2026-10-24,12:30,Aston Villa,Man City,5,4.33,1.62,True,A,12,1,True,False,A,False,verified_ft
+2026-10-24,15:00,Arsenal,Everton,1.4,4.6,8,True,H,2,8,True,False,H,False,verified_ft
+2026-10-24,15:00,Coventry,Fulham,3.2,3.4,2.25,True,A,18,19,True,False,,False,verified_ft;last10_model
+2026-10-24,17:30,Chelsea,Tottenham,1.7,4,4.5,True,H,4,17,True,False,H,False,verified_ft
+2026-10-25,14:00,Crystal Palace,Newcastle,2.9,3.6,2.3,True,A,16,14,True,False,A,False,verified_ft
+2026-10-25,14:00,Hull,Brentford,5,3.8,1.7,True,A,11,7,True,False,A,False,verified_ft
+2026-10-25,14:00,Liverpool,Brighton,2.1,3.6,3.4,True,H,5,3,True,False,A,False,verified_ft
+2026-10-25,14:00,Man United,Bournemouth,2.15,3.6,3.25,True,H,15,17,True,False,H,False,verified_ft
+2026-10-25,16:30,Sunderland,Leeds,3.1,3.2,2.4,True,A,20,8,True,False,H,False,verified_ft
+2026-10-31,12:30,Chelsea,Man United,1.83,3.8,4.1,True,H,5,16,True,False,A,False,verified_ft
+2026-10-31,15:00,Bournemouth,Leeds,2.1,3.4,3.5,True,H,13,7,True,False,H,False,verified_ft
+2026-10-31,15:00,Brentford,Nott'm Forest,2.05,3.6,3.5,True,H,6,18,True,False,H,False,verified_ft
+2026-10-31,15:00,Coventry,Sunderland,3.2,3.4,2.25,True,A,19,20,True,False,,False,verified_ft;last10_model
+2026-10-31,15:00,Hull,Ipswich,2.6,3.4,2.7,True,H,10,12,True,False,A,False,verified_ft
+2026-10-31,15:00,Man City,Brighton,1.6,4.5,4.75,True,H,1,3,True,False,H,False,verified_ft
+2026-10-31,17:30,Tottenham,Crystal Palace,1.53,4.5,5.5,True,H,14,17,True,False,H,False,verified_ft
+2026-10-31,20:00,Aston Villa,Fulham,1.91,3.75,3.8,True,H,9,15,True,False,A,False,verified_ft
+2026-11-01,16:30,Liverpool,Arsenal,2.9,3.4,2.4,True,A,5,2,True,False,A,False,verified_ft
+2026-11-02,20:00,Newcastle,Everton,2.3,3.5,3,True,H,12,14,True,False,H,False,verified_ft
+2026-11-06,20:00,Everton,Coventry,1.7,4,4.75,True,H,7,16,True,False,,False,verified_ft;last10_model
+2026-11-07,12:30,Leeds,Tottenham,2.7,3.3,2.6,True,A,12,9,True,False,H,False,verified_ft
+2026-11-07,15:00,Arsenal,Hull,1.17,7.5,15,True,H,1,11,True,False,H,False,verified_ft
+2026-11-07,15:00,Fulham,Newcastle,2.05,3.6,3.4,True,H,15,13,True,False,H,False,verified_ft
+2026-11-07,17:30,Nott'm Forest,Man City,4.75,4,1.7,True,A,19,2,True,False,A,False,verified_ft
+2026-11-08,14:00,Brighton,Brentford,1.9,3.8,3.7,True,H,3,7,True,False,A,False,verified_ft
+2026-11-08,14:00,Crystal Palace,Liverpool,5.5,4.33,1.57,True,A,19,6,True,False,A,False,verified_ft
+2026-11-08,14:00,Ipswich,Bournemouth,3.8,3.75,1.91,True,A,14,9,True,False,H,False,verified_ft
+2026-11-08,14:00,Sunderland,Chelsea,3.9,3.6,1.91,True,A,20,4,True,False,A,False,verified_ft
+2026-11-08,16:30,Man United,Aston Villa,2.1,3.6,3.3,True,H,18,12,True,False,H,False,verified_ft
