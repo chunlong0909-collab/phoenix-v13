@@ -1,10 +1,10 @@
 {
   "league_id": "eerste",
   "name_zh": "荷乙",
-  "updated_at": "2026-11-14T00:44:08.410257+00:00",
+  "updated_at": "2026-11-14T23:40:00.893569+00:00",
   "fixtures": 1173,
   "teams": 27,
-  "players": 891,
+  "players": 896,
   "corner_fixtures": 0,
   "sources": [
     "ESPN scoreboard"
