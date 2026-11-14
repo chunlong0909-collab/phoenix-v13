@@ -574,7 +574,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-02": {
@@ -973,7 +973,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-03": {
@@ -1486,7 +1486,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-04": {
@@ -1870,7 +1870,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-05": {
@@ -2397,7 +2397,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-06": {
@@ -2878,7 +2878,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-07": {
@@ -3261,7 +3261,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   },
   "BUNDESLIGA-FULL-08": {
@@ -3584,7 +3584,7 @@
     "lon": 10.4515,
     "city": "Germany",
     "stadium": "國家中心fallback（非球場）",
-    "coordinates_source": "country_center",
+    "coordinates_source": "city_center",
     "stadium_source": "country_center"
   }
 }

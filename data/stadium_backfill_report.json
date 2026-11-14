@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-11T21:17:21.756178+00:00",
+  "generated_at": "2026-11-14T00:32:15.661252+00:00",
   "version": "v2",
   "teams_seen": 8,
   "processed": 8,
   "coordinates_ok": 8,
   "unresolved": 0,
   "stadium_exact": 0,
-  "city_center": 0,
-  "country_center": 8,
-  "fallback_city_center": 0,
+  "city_center": 8,
+  "country_center": 0,
+  "fallback_city_center": 8,
   "entries": [
     {
       "team": "Augsburg (Ger)",
@@ -18,7 +18,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Bayer Leverkusen (Ger)",
@@ -28,7 +28,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Eintracht Frankfurt (Ger)",
@@ -38,7 +38,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Freiburg (Ger)",
@@ -48,7 +48,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Heidenheim (Ger)",
@@ -58,7 +58,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Mainz 05 (Ger)",
@@ -68,7 +68,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "RB Leipzig (Ger)",
@@ -78,7 +78,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     },
     {
       "team": "Wolfsburg (Ger)",
@@ -88,7 +88,7 @@
       "city": "Germany",
       "lat": 51.1657,
       "lon": 10.4515,
-      "source": "country_center"
+      "source": "city_center"
     }
   ]
 }

@@ -31,6 +31,7 @@
 85,Celta Vigo,144720,Andrei Radu,G,1997-05-28T07:00Z,,ESPN roster,2025
 85,Celta Vigo,242580,Iván Villar,G,1997-07-09T07:00Z,,ESPN roster,2025
 85,Celta Vigo,274272,Altay Bayindir,G,1998-04-14T07:00Z,,ESPN roster,2025
+85,Celta Vigo,376424,Marcos González,G,2006-01-10T08:00Z,,ESPN roster,2025
 85,Celta Vigo,21990,Abdoulaye Faye,D,2004-09-22T07:00Z,,ESPN roster,2025
 85,Celta Vigo,146127,Marcos Alonso,D,1990-12-28T08:00Z,,ESPN roster,2025
 85,Celta Vigo,195790,Carl Starfelt,D,1995-06-01T07:00Z,,ESPN roster,2025
@@ -57,6 +58,7 @@
 85,Celta Vigo,322652,Williot Swedberg,F,2004-02-01T08:00Z,,ESPN roster,2025
 85,Celta Vigo,324811,Hugo González,F,2003-02-07T08:00Z,,ESPN roster,2025
 85,Celta Vigo,334111,Jones El-Abdellaoui,F,2006-01-12T08:00Z,,ESPN roster,2025
+85,Celta Vigo,411412,Vladimir Silva,F,2009-03-19T07:00Z,,ESPN roster,2025
 85,Celta Vigo,415036,Ángel Arcos,F,2006-04-18T07:00Z,,ESPN roster,2025
 94,Valencia,76884,Cristian Rivero,G,1998-03-21T08:00Z,,ESPN roster,2025
 94,Valencia,165334,Stole Dimitrievski,G,1993-12-25T08:00Z,,ESPN roster,2025
@@ -434,6 +436,8 @@
 244,Real Betis,283892,Álvaro Valles,G,1997-07-25T07:00Z,,ESPN roster,2025
 244,Real Betis,390091,Manu González,G,2007-04-18T07:00Z,,ESPN roster,2025
 244,Real Betis,394885,Álvaro De Pablo,G,2002-08-07T07:00Z,,ESPN roster,2025
+244,Real Betis,401421,Alejandro Postigo,G,2006-01-01T08:00Z,,ESPN roster,2025
+244,Real Betis,3122028,Yan Zhuravskyi,G,,,ESPN roster,2025
 244,Real Betis,145078,Marc Bartra,D,1991-01-15T08:00Z,,ESPN roster,2025
 244,Real Betis,178978,Héctor Bellerín,D,1995-03-19T08:00Z,,ESPN roster,2025
 244,Real Betis,181530,Diego Llorente,D,1993-08-16T07:00Z,,ESPN roster,2025
@@ -451,6 +455,8 @@
 244,Real Betis,283827,Álvaro Fidalgo,M,1997-04-09T07:00Z,,ESPN roster,2025
 244,Real Betis,322908,Nelson Deossa,M,2000-02-06T08:00Z,,ESPN roster,2025
 244,Real Betis,359912,Facundo Bernal,M,2003-08-21T07:00Z,,ESPN roster,2025
+244,Real Betis,371605,Iván Corralejo,M,2007-05-01T07:00Z,,ESPN roster,2025
+244,Real Betis,3115980,Ricardo Fúnez Gómez,M,,,ESPN roster,2025
 244,Real Betis,268601,Aitor Ruibal,F,1996-03-22T08:00Z,,ESPN roster,2025
 244,Real Betis,279790,Troy Parrott,F,2002-02-04T08:00Z,,ESPN roster,2025
 244,Real Betis,281558,Antony,F,2000-02-24T08:00Z,,ESPN roster,2025
@@ -458,6 +464,8 @@
 244,Real Betis,300912,Abde Ezzalzouli,F,2001-12-17T08:00Z,,ESPN roster,2025
 244,Real Betis,336809,Cucho Hernández,F,1999-04-20T07:00Z,,ESPN roster,2025
 244,Real Betis,411284,José Morante,F,2007-06-28T07:00Z,,ESPN roster,2025
+244,Real Betis,418014,Rodrigo Marina,F,2006-07-28T07:00Z,,ESPN roster,2025
+244,Real Betis,3115993,Borja Alonso Cabrera,F,,,ESPN roster,2025
 243,Sevilla,119332,Rafael Romero,G,2003-08-07T07:00Z,,ESPN roster,2025
 243,Sevilla,159135,Odisseas Vlachodimos,G,1994-04-26T07:00Z,,ESPN roster,2025
 243,Sevilla,362874,Fran González,G,2005-06-24T07:00Z,,ESPN roster,2025
@@ -833,6 +841,7 @@
 1538,Levante,407397,Ifeanyi Ndukwe,D,2008-03-03T08:00Z,,ESPN roster,2025
 1538,Levante,409383,Nacho Pérez,D,2008-09-01T07:00Z,,ESPN roster,2025
 1538,Levante,414295,Huseini Nakoha,D,2006-09-13T07:00Z,,ESPN roster,2025
+1538,Levante,3117406,Alejandro Moya Grediaga,D,,,ESPN roster,2025
 1538,Levante,3129043,Marc Santos Gavilán,D,,,ESPN roster,2025
 1538,Levante,267591,Roger Brugué,M,1996-11-04T08:00Z,,ESPN roster,2025
 1538,Levante,269339,Orio Rey,M,1998-02-25T08:00Z,,ESPN roster,2025
@@ -848,3 +857,4 @@
 1538,Levante,346676,Etta Eyong,F,2003-10-14T07:00Z,,ESPN roster,2025
 1538,Levante,384985,Paco Cortés,F,2007-08-11T07:00Z,,ESPN roster,2025
 1538,Levante,3102194,Yanis Kasonga Musuayi,F,,,ESPN roster,2025
+1538,Levante,3129331,Luis Miguel Pérez García,F,,,ESPN roster,2025

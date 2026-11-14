@@ -1,10 +1,10 @@
 {
   "league_id": "j1",
   "name_zh": "日職J1",
-  "updated_at": "2026-11-11T21:29:28.737793+00:00",
+  "updated_at": "2026-11-14T00:44:33.153599+00:00",
   "fixtures": 1066,
   "teams": 23,
-  "players": 854,
+  "players": 855,
   "corner_fixtures": 0,
   "sources": [
     "ESPN scoreboard"
