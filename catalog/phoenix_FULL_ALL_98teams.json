@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-14T22:48:34.763233+00:00",
+    "updated_at": "2026-11-15T07:06:03.568513+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -15635,7 +15635,7 @@
             "player_id": "65843",
             "name": "Anton Stach",
             "pos": "Midfield",
-            "age": 27,
+            "age": 28,
             "goals": null,
             "assists": null,
             "apps": null,
