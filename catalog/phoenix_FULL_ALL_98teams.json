@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-15T19:10:39.468158+00:00",
+    "updated_at": "2026-11-16T07:11:28.967680+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -1539,7 +1539,7 @@
             "player_id": "1684",
             "name": "Bruno Guimarães",
             "pos": "Midfield",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -4023,7 +4023,7 @@
             "player_id": "97505",
             "name": "Mats Wieffer",
             "pos": "Defence",
-            "age": 26,
+            "age": 27,
             "goals": null,
             "assists": null,
             "apps": null,
