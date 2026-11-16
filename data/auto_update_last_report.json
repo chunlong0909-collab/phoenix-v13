@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-16T02:23:15.139185+00:00",
+  "run_at": "2026-11-16T02:47:13.436180+00:00",
   "commit": true,
   "config": {
     "leagues": [
@@ -45,7 +45,7 @@
     "notify": "whatsapp"
   },
   "official_metadata": {
-    "checked_at": "2026-11-16T02:21:53.048172+00:00",
+    "checked_at": "2026-11-16T02:47:01.695042+00:00",
     "leagues": {
       "saudi-pro": {
         "provider": "Saudi Pro League official",
@@ -55,7 +55,7 @@
             "http_status": 200,
             "player_link_count": 27,
             "coach_field_found": true,
-            "content_sha256": "563ea4660cdfe7532d8b34fa89860624eb521c36ee02c46eda19cc3c6e7be771",
+            "content_sha256": "02463281ebd9ff80a73adebc4638d61098b9a917902ef3d5b6f64a6cee5c1fe4",
             "source_url": "https://www.spl.com.sa/en/teams/diriyah/squad"
           },
           "NEOM (Sau)": {
@@ -63,7 +63,7 @@
             "http_status": 200,
             "player_link_count": 28,
             "coach_field_found": true,
-            "content_sha256": "a522bd504287e8300dab7ff537797e23beb2a07d09dbe28f62d5024db97b33d0",
+            "content_sha256": "c20be3314cccdf2e9dc2826fc1b8ab290f0d35fb95708a94cabf83c5fdc943be",
             "source_url": "https://www.spl.com.sa/en/teams/neom/squad"
           }
         },
@@ -73,7 +73,7 @@
           "diriyah_present": null,
           "neom_present": null,
           "parser_note": "null means the page rendered standings client-side and did not expose team names in static HTML",
-          "content_sha256": "5393c96098f3f346d597cafce4b2cdbb9a026690b34353a6ab246926b5a12a84",
+          "content_sha256": "4eaaa9831d7dbf679416618eab5073e1283fefdd47fac0050f86676ec4a646ee",
           "source_url": "https://www.spl.com.sa/en/standings/index"
         }
       }
@@ -154,7 +154,7 @@
   "coverage": {
     "league_count": 37,
     "leagues_with_gaps": 12,
-    "tracker": "/home/ubuntu/phoenix/data/coverage_gap_tracker.json"
+    "tracker": "/home/runner/work/phoenix-v13/phoenix-v13/data/coverage_gap_tracker.json"
   },
   "local_sources": [
     {
