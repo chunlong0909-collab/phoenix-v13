@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-16T07:11:28.967680+00:00",
+    "updated_at": "2026-11-17T08:27:29.917981+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -7345,7 +7345,7 @@
             "player_id": "98750",
             "name": "Jorge Cuenca",
             "pos": "Defence",
-            "age": 26,
+            "age": 27,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -14026,16 +14026,6 @@
             "source": "football-data.org"
           },
           {
-            "player_id": "192658",
-            "name": "Jackson Tchatchoua",
-            "pos": "Defence",
-            "age": 25,
-            "goals": null,
-            "assists": null,
-            "apps": null,
-            "source": "football-data.org"
-          },
-          {
             "player_id": "788",
             "name": "Jean-Ricner Bellegarde",
             "pos": "Midfield",
@@ -14180,6 +14170,16 @@
             "name": "Enso Gonzalez",
             "pos": "Offence",
             "age": 21,
+            "goals": null,
+            "assists": null,
+            "apps": null,
+            "source": "football-data.org"
+          },
+          {
+            "player_id": "275209",
+            "name": "Sean Neave",
+            "pos": "Offence",
+            "age": 19,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -14934,16 +14934,6 @@
             "source": "football-data.org"
           },
           {
-            "player_id": "85577",
-            "name": "Mike Ndayishimye",
-            "pos": "Midfield",
-            "age": 27,
-            "goals": null,
-            "assists": null,
-            "apps": null,
-            "source": "football-data.org"
-          },
-          {
             "player_id": "136724",
             "name": "Reo Hatate",
             "pos": "Midfield",
@@ -15018,6 +15008,16 @@
             "name": "Michael Obafemi",
             "pos": "Offence",
             "age": 26,
+            "goals": null,
+            "assists": null,
+            "apps": null,
+            "source": "football-data.org"
+          },
+          {
+            "player_id": "9405",
+            "name": "Jacob Bruun Larsen",
+            "pos": "Offence",
+            "age": 28,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-16T11:20:16.403229+00:00",
+    "updated_at": "2026-11-17T11:56:41.907411+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
