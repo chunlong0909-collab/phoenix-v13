@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-16T22:34:10.363989+00:00",
+    "updated_at": "2026-11-17T08:27:29.917981+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -7345,7 +7345,7 @@
             "player_id": "98750",
             "name": "Jorge Cuenca",
             "pos": "Defence",
-            "age": 26,
+            "age": 27,
             "goals": null,
             "assists": null,
             "apps": null,
