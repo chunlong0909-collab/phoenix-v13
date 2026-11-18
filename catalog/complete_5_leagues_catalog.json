@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-17T08:27:29.917981+00:00",
+    "updated_at": "2026-11-18T07:59:32.357882+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -3973,7 +3973,7 @@
             "player_id": "846",
             "name": "Olivier Boscagli",
             "pos": "Defence",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -4123,7 +4123,7 @@
             "player_id": "246670",
             "name": "Malick Yalcouyé",
             "pos": "Midfield",
-            "age": 20,
+            "age": 21,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -13281,7 +13281,7 @@
             "player_id": "262986",
             "name": "Keiber Lamadrid",
             "pos": "Midfield",
-            "age": 22,
+            "age": 23,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-17T11:56:41.907411+00:00",
+    "updated_at": "2026-11-18T11:45:27.879929+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
