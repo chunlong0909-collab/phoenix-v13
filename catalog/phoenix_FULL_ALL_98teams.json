@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-18T20:57:28.976001+00:00",
+    "updated_at": "2026-11-19T07:54:28.672349+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -6487,7 +6487,7 @@
             "player_id": "3316",
             "name": "James Tarkowski",
             "pos": "Defence",
-            "age": 33,
+            "age": 34,
             "goals": null,
             "assists": null,
             "apps": null,
