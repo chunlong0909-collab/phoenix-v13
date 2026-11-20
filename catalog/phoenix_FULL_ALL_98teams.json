@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-19T21:02:40.079610+00:00",
+    "updated_at": "2026-11-20T07:47:26.127553+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -671,7 +671,7 @@
             "player_id": "135482",
             "name": "Adrien Truffert",
             "pos": "Defence",
-            "age": 24,
+            "age": 25,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -9799,7 +9799,7 @@
             "player_id": "210730",
             "name": "Dermot Mee",
             "pos": "Goalkeeper",
-            "age": 23,
+            "age": 24,
             "goals": null,
             "assists": null,
             "apps": null,
