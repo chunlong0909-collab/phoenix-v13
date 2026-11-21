@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-20T07:47:26.127553+00:00",
+    "updated_at": "2026-11-21T07:43:01.129845+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -3993,7 +3993,7 @@
             "player_id": "8259",
             "name": "Lewis Dunk",
             "pos": "Defence",
-            "age": 34,
+            "age": 35,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -4073,7 +4073,7 @@
             "player_id": "3974",
             "name": "Matt O'Riley",
             "pos": "Midfield",
-            "age": 25,
+            "age": 26,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -9021,7 +9021,7 @@
             "player_id": "187202",
             "name": "Rico Lewis",
             "pos": "Defence",
-            "age": 21,
+            "age": 22,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -11565,7 +11565,7 @@
             "player_id": "5435",
             "name": "Ryan Yates",
             "pos": "Midfield",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -14937,7 +14937,7 @@
             "player_id": "136724",
             "name": "Reo Hatate",
             "pos": "Midfield",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -16243,7 +16243,7 @@
             "player_id": "6259",
             "name": "Luke O'Nien",
             "pos": "Defence",
-            "age": 31,
+            "age": 32,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-20T11:41:26.712856+00:00",
+    "updated_at": "2026-11-21T11:06:38.696816+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
