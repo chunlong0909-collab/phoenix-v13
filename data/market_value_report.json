@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T01:19:27.080380+00:00",
+  "updated_at": "2026-11-22T00:14:50.956572+00:00",
   "season": "2025-2026",
   "source": "Transfermarkt visible HTML via normal Playwright",
   "written": 0,
@@ -9,65 +9,65 @@
     {
       "competition": "GB1",
       "url": "https://www.transfermarkt.com/premier-league/startseite/wettbewerb/GB1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "ES1",
       "url": "https://www.transfermarkt.com/laliga/startseite/wettbewerb/ES1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "L1",
       "url": "https://www.transfermarkt.com/bundesliga/startseite/wettbewerb/L1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "NL1",
       "url": "https://www.transfermarkt.com/eredivisie/startseite/wettbewerb/NL1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "JAP1",
       "url": "https://www.transfermarkt.com/j1-league/startseite/wettbewerb/JAP1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "KR1",
       "url": "https://www.transfermarkt.com/k-league-1/startseite/wettbewerb/KR1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "AUS1",
       "url": "https://www.transfermarkt.com/a-league-men/startseite/wettbewerb/AUS1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "BRA1",
       "url": "https://www.transfermarkt.com/campeonato-brasileiro-serie-a/startseite/wettbewerb/BRA1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     },
     {
       "competition": "ARG1",
       "url": "https://www.transfermarkt.com/liga-profesional-de-futbol/startseite/wettbewerb/ARG1",
-      "status": 200,
+      "status": 202,
       "values": {},
-      "reason": "no_visible_market_values"
+      "reason": "blocked_or_challenge"
     }
   ],
   "policy": "CAPTCHA/blocked/no-value pages remain unfilled; no inferred zeros or estimates"
