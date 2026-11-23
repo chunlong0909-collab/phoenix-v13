@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-22T20:04:17.724255+00:00",
+    "updated_at": "2026-11-23T08:09:01.612181+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -2407,7 +2407,7 @@
             "player_id": "8346",
             "name": "Boubacar Kamara",
             "pos": "Midfield",
-            "age": 26,
+            "age": 27,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -3115,7 +3115,7 @@
             "player_id": "102046",
             "name": "Caoimhin Kelleher",
             "pos": "Goalkeeper",
-            "age": 27,
+            "age": 28,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -12413,7 +12413,7 @@
             "player_id": "3992",
             "name": "James Maddison",
             "pos": "Midfield",
-            "age": 29,
+            "age": 30,
             "goals": null,
             "assists": null,
             "apps": null,
