@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-25T09:07:36.730965+00:00",
+    "updated_at": "2026-11-25T22:04:19.790631+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -12460,6 +12460,16 @@
             "source": "football-data.org"
           },
           {
+            "player_id": "272687",
+            "name": "Luca Williams-Barnett",
+            "pos": "Midfield",
+            "age": 18,
+            "goals": null,
+            "assists": null,
+            "apps": null,
+            "source": "football-data.org"
+          },
+          {
             "player_id": "7878",
             "name": "Dominic Solanke",
             "pos": "Offence",
@@ -12494,16 +12504,6 @@
             "name": "Mohammed Kudus",
             "pos": "Offence",
             "age": 26,
-            "goals": null,
-            "assists": null,
-            "apps": null,
-            "source": "football-data.org"
-          },
-          {
-            "player_id": "98978",
-            "name": "Mykhailo Mudryk",
-            "pos": "Offence",
-            "age": 25,
             "goals": null,
             "assists": null,
             "apps": null,
