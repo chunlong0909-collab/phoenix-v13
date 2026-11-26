@@ -2,7 +2,7 @@
   "英超": {
     "target_teams": 20,
     "competition_code": "PL",
-    "updated_at": "2026-11-25T09:07:36.730965+00:00",
+    "updated_at": "2026-11-26T08:53:48.452463+00:00",
     "teams": [
       {
         "team_id": "1044",
@@ -2307,7 +2307,7 @@
             "player_id": "8158",
             "name": "Aaron Wan-Bissaka",
             "pos": "Defence",
-            "age": 28,
+            "age": 29,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -5001,7 +5001,7 @@
             "player_id": "3328",
             "name": "Danny Welbeck",
             "pos": "Offence",
-            "age": 35,
+            "age": 36,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -12460,6 +12460,16 @@
             "source": "football-data.org"
           },
           {
+            "player_id": "272687",
+            "name": "Luca Williams-Barnett",
+            "pos": "Midfield",
+            "age": 18,
+            "goals": null,
+            "assists": null,
+            "apps": null,
+            "source": "football-data.org"
+          },
+          {
             "player_id": "7878",
             "name": "Dominic Solanke",
             "pos": "Offence",
@@ -12494,16 +12504,6 @@
             "name": "Mohammed Kudus",
             "pos": "Offence",
             "age": 26,
-            "goals": null,
-            "assists": null,
-            "apps": null,
-            "source": "football-data.org"
-          },
-          {
-            "player_id": "98978",
-            "name": "Mykhailo Mudryk",
-            "pos": "Offence",
-            "age": 25,
             "goals": null,
             "assists": null,
             "apps": null,
@@ -77164,7 +77164,7 @@
   "J1聯賽": {
     "target_teams": 20,
     "competition_code": "J1",
-    "updated_at": "2026-11-25T12:57:38.091833+00:00",
+    "updated_at": "2026-11-26T12:34:53.098138+00:00",
     "teams": [
       {
         "team_id": "albirex-niigata",
